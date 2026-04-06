@@ -4,3 +4,7 @@
 openpyxl>=3.1.0
 asyncpg>=0.29.0
 python-dotenv>=1.0.0
+
+# Phase 2: REST API
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0

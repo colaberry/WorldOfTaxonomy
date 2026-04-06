@@ -217,6 +217,30 @@ def cmd_stats(args):
     _run(_stats())
 
 
+def cmd_serve(args):
+    """Start the FastAPI server."""
+    import uvicorn
+    from world_of_taxanomy.api.app import create_app
+    from world_of_taxanomy.db import get_pool, close_pool
+
+    app = create_app()
+
+    @app.on_event("startup")
+    async def startup():
+        app.state.pool = await get_pool()
+        print("Database pool ready.")
+
+    @app.on_event("shutdown")
+    async def shutdown():
+        await close_pool()
+        print("Database pool closed.")
+
+    print(f"\nStarting WorldOfTaxanomy API server...")
+    print(f"  http://{args.host}:{args.port}")
+    print(f"  Docs: http://{args.host}:{args.port}/docs\n")
+    uvicorn.run(app, host=args.host, port=args.port)
+
+
 # ── Argument Parser ───────────────────────────────────────────
 
 
@@ -261,6 +285,11 @@ def build_parser() -> argparse.ArgumentParser:
     # stats
     sub.add_parser("stats", help="Show database statistics")
 
+    # serve
+    p_serve = sub.add_parser("serve", help="Start the API server")
+    p_serve.add_argument("--host", default="0.0.0.0", help="Host (default: 0.0.0.0)")
+    p_serve.add_argument("--port", type=int, default=8000, help="Port (default: 8000)")
+
     return parser
 
 
@@ -280,6 +309,7 @@ def main():
         "search": cmd_search,
         "equiv": cmd_equiv,
         "stats": cmd_stats,
+        "serve": cmd_serve,
     }
 
     try:
