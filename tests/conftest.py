@@ -45,8 +45,14 @@ def db_pool(database_url):
 
 
 @pytest.fixture(autouse=True)
-def setup_and_teardown(db_pool):
-    """Set up schema and seed data before each test, clean up after."""
+def setup_and_teardown(request, db_pool):
+    """Set up schema and seed data before each test, clean up after.
+
+    Skips for tests marked with @pytest.mark.cli (pure unit tests, no DB needed).
+    """
+    if "cli" in [mark.name for mark in request.node.iter_markers()]:
+        yield
+        return
     _run(_setup(db_pool))
     yield
     _run(_teardown(db_pool))
