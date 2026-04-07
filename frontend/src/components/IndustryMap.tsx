@@ -22,6 +22,8 @@ import {
   Landmark,
   TreePine,
   Ship,
+  ClipboardList,
+  Scissors,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -48,12 +50,16 @@ const SECTORS: IndustrySector[] = [
   { name: 'Professional Services', icon: Briefcase, query: 'professional scientific technical', color: '#14B8A6', description: 'Legal, consulting, R&D' },
   { name: 'Public Admin', icon: Landmark, query: 'public administration government', color: '#64748B', description: 'Government & defense' },
   { name: 'Education', icon: GraduationCap, query: 'education', color: '#0EA5E9', description: 'Schools, universities, training' },
-  { name: 'Healthcare', icon: HeartPulse, query: 'health care hospital', color: '#EF4444', description: 'Hospitals, clinics, social work' },
+  { name: 'Healthcare', icon: HeartPulse, query: 'health care hospital', color: '#F43F5E', description: 'Hospitals, clinics, social work' },
   { name: 'Arts & Recreation', icon: Palette, query: 'arts entertainment recreation', color: '#D946EF', description: 'Sports, culture, gambling' },
   { name: 'Environment', icon: TreePine, query: 'environment waste water', color: '#16A34A', description: 'Waste, remediation, recycling' },
   { name: 'Defence', icon: Shield, query: 'defence military', color: '#475569', description: 'Military & security' },
   { name: 'Maritime', icon: Ship, query: 'water transport shipping', color: '#0284C7', description: 'Shipping & water transport' },
   { name: 'International', icon: Globe, query: 'international organization', color: '#7C3AED', description: 'Extraterritorial organizations' },
+  // ISIC N / NAICS 56 / ANZSIC N / NACE N / NIC N
+  { name: 'Admin & Support', icon: ClipboardList, query: 'administrative support services staffing', color: '#C2410C', description: 'Staffing, cleaning, travel, security' },
+  // ISIC S / NAICS 81 / ANZSIC S / JSIC N
+  { name: 'Other Services', icon: Scissors, query: 'other services repair personal care', color: '#BE185D', description: 'Repair, personal care, membership orgs' },
 ]
 
 export function IndustryMap() {
