@@ -1,0 +1,150 @@
+'use client'
+
+import { use } from 'react'
+import { useQuery } from '@tanstack/react-query'
+import { getSystem, getStats } from '@/lib/api'
+import Link from 'next/link'
+import { ArrowLeft, ExternalLink } from 'lucide-react'
+
+export default function SystemPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params)
+
+  const { data: system, isLoading } = useQuery({
+    queryKey: ['system', id],
+    queryFn: () => getSystem(id),
+  })
+
+  const { data: stats } = useQuery({
+    queryKey: ['stats'],
+    queryFn: getStats,
+  })
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center min-h-[50vh]">
+        <div className="flex flex-col items-center gap-3 text-muted-foreground">
+          <div className="h-8 w-8 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+          <span className="text-sm">Loading system...</span>
+        </div>
+      </div>
+    )
+  }
+
+  if (!system) {
+    return (
+      <div className="flex items-center justify-center min-h-[50vh]">
+        <p className="text-muted-foreground">System not found</p>
+      </div>
+    )
+  }
+
+  const systemStats = stats?.filter(
+    (s) => s.source_system === id || s.target_system === id
+  )
+  const totalEdges = systemStats?.reduce((sum, s) => sum + s.edge_count, 0) ?? 0
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6">
+      <div className="flex items-center gap-3">
+        <Link
+          href="/"
+          className="text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeft className="h-5 w-5" />
+        </Link>
+        <div className="flex items-center gap-3">
+          <span
+            className="w-3 h-3 rounded-full shrink-0"
+            style={{ backgroundColor: system.tint_color || '#3B82F6' }}
+          />
+          <h1 className="text-2xl font-semibold tracking-tight">{system.name}</h1>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="p-4 rounded-lg bg-card border border-border/50">
+          <div className="text-xs text-muted-foreground mb-1">Full Name</div>
+          <div className="text-sm font-medium">{system.full_name}</div>
+        </div>
+        <div className="p-4 rounded-lg bg-card border border-border/50">
+          <div className="text-xs text-muted-foreground mb-1">Region</div>
+          <div className="text-sm font-medium">{system.region}</div>
+        </div>
+        <div className="p-4 rounded-lg bg-card border border-border/50">
+          <div className="text-xs text-muted-foreground mb-1">Codes</div>
+          <div className="text-sm font-medium font-mono">{system.node_count.toLocaleString()}</div>
+        </div>
+        <div className="p-4 rounded-lg bg-card border border-border/50">
+          <div className="text-xs text-muted-foreground mb-1">Crosswalk Edges</div>
+          <div className="text-sm font-medium font-mono">{totalEdges.toLocaleString()}</div>
+        </div>
+      </div>
+
+      {system.authority && (
+        <div className="p-4 rounded-lg bg-card border border-border/50">
+          <div className="text-xs text-muted-foreground mb-1">Authority</div>
+          <div className="text-sm">
+            {system.authority}
+            {system.url && (
+              <a
+                href={system.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 ml-2 text-primary hover:underline"
+              >
+                Visit <ExternalLink className="h-3 w-3" />
+              </a>
+            )}
+          </div>
+        </div>
+      )}
+
+      <div>
+        <h2 className="text-lg font-semibold mb-3">Top-Level Sectors</h2>
+        {system.roots && system.roots.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+            {system.roots.map((root) => (
+              <Link
+                key={root.code}
+                href={`/system/${id}/node/${root.code}`}
+                className="p-3 rounded-lg bg-card border border-border/50 hover:border-primary/50 transition-colors group"
+              >
+                <div className="flex items-baseline gap-2">
+                  <span className="text-xs font-mono text-muted-foreground">{root.code}</span>
+                  <span className="text-sm group-hover:text-primary transition-colors">
+                    {root.title}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <p className="text-sm text-muted-foreground">No root nodes found.</p>
+        )}
+      </div>
+
+      {systemStats && systemStats.length > 0 && (
+        <div>
+          <h2 className="text-lg font-semibold mb-3">Crosswalk Connections</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            {systemStats.map((s, i) => {
+              const other = s.source_system === id ? s.target_system : s.source_system
+              return (
+                <Link
+                  key={i}
+                  href={`/system/${other}`}
+                  className="p-3 rounded-lg bg-card border border-border/50 hover:border-primary/50 transition-colors flex items-center justify-between"
+                >
+                  <span className="text-sm">{other}</span>
+                  <span className="text-xs font-mono text-muted-foreground">
+                    {s.edge_count.toLocaleString()} edges
+                  </span>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}

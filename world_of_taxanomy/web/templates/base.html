@@ -28,8 +28,19 @@
       </a>
       <nav class="site-nav">
         <a href="/" {% if active_nav == 'galaxy' %}class="active"{% endif %}>Galaxy</a>
-        <a href="/system/naics_2022" {% if active_nav == 'naics' %}class="active"{% endif %}>NAICS</a>
-        <a href="/system/isic_rev4" {% if active_nav == 'isic' %}class="active"{% endif %}>ISIC</a>
+        <a href="/explore" {% if active_nav == 'explore' %}class="active"{% endif %}>Explore</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-dropdown-trigger {% if active_nav in ('naics','isic','nace','sic','anzsic','nic','wz','onace','noga','jsic') %}active{% endif %}">Systems ▾</a>
+          <div class="nav-dropdown-menu">
+            {% for sys in nav_systems|default([]) %}
+            <a href="/system/{{ sys.id }}" {% if active_nav == sys.id.split('_')[0] %}class="active"{% endif %}>{{ sys.name }}</a>
+            {% endfor %}
+            {% if not nav_systems %}
+            <a href="/system/naics_2022">NAICS 2022</a>
+            <a href="/system/isic_rev4">ISIC Rev 4</a>
+            {% endif %}
+          </div>
+        </div>
         <a href="/docs" target="_blank">API Docs</a>
       </nav>
     </div>

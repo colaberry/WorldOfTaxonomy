@@ -63,6 +63,16 @@ async def init_db():
         await conn.execute(schema_sql)
 
 
+async def init_auth_db():
+    """Initialize the auth database schema."""
+    schema_path = Path(__file__).parent / "schema_auth.sql"
+    schema_sql = schema_path.read_text()
+
+    pool = await get_pool()
+    async with pool.acquire() as conn:
+        await conn.execute(schema_sql)
+
+
 async def reset_db():
     """Drop all tables and recreate. Development only."""
     pool = await get_pool()

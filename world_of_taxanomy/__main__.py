@@ -2,7 +2,7 @@
 
 Usage:
     python -m world_of_taxanomy init
-    python -m world_of_taxanomy ingest {naics,isic,crosswalk,all}
+    python -m world_of_taxanomy ingest {naics,isic,nic,nace,sic,anzsic,jsic,wz,onace,noga,crosswalk,all}
     python -m world_of_taxanomy browse <system_id> [code]
     python -m world_of_taxanomy search <query> [--system SYSTEM] [--limit N]
     python -m world_of_taxanomy equiv <system_id> <code> [--target TARGET]
@@ -28,6 +28,14 @@ def cmd_init(args):
     print("Initializing database schema...")
     _run(init_db())
     print("Done. Tables created.")
+
+
+def cmd_init_auth(args):
+    """Initialize the auth database schema."""
+    from world_of_taxanomy.db import init_auth_db
+    print("Initializing auth database schema...")
+    _run(init_auth_db())
+    print("Done. Auth tables created.")
 
 
 def cmd_reset(args):
@@ -56,6 +64,48 @@ def cmd_ingest(args):
                 from world_of_taxanomy.ingest.isic import ingest_isic_rev4
                 print("\n── ISIC Rev 4 ──")
                 await ingest_isic_rev4(conn)
+
+            if target in ("nic", "all"):
+                from world_of_taxanomy.ingest.nic import ingest_nic_2008
+                print("\n── NIC 2008 ──")
+                await ingest_nic_2008(conn)
+
+            if target in ("nace", "all"):
+                from world_of_taxanomy.ingest.nace import ingest_nace_rev2, ingest_nace_isic_crosswalk
+                print("\n── NACE Rev 2 ──")
+                await ingest_nace_rev2(conn)
+                print("\n── Crosswalk (NACE ↔ ISIC) ──")
+                await ingest_nace_isic_crosswalk(conn)
+
+            if target in ("sic", "all"):
+                from world_of_taxanomy.ingest.sic import ingest_sic_1987
+                print("\n── SIC 1987 ──")
+                await ingest_sic_1987(conn)
+
+            if target in ("anzsic", "all"):
+                from world_of_taxanomy.ingest.anzsic import ingest_anzsic_2006
+                print("\n── ANZSIC 2006 ──")
+                await ingest_anzsic_2006(conn)
+
+            if target in ("jsic", "all"):
+                from world_of_taxanomy.ingest.jsic import ingest_jsic_2013
+                print("\n── JSIC 2013 ──")
+                await ingest_jsic_2013(conn)
+
+            if target in ("wz", "all"):
+                from world_of_taxanomy.ingest.nace_derived import ingest_wz_2008
+                print("\n── WZ 2008 (derived from NACE) ──")
+                await ingest_wz_2008(conn)
+
+            if target in ("onace", "all"):
+                from world_of_taxanomy.ingest.nace_derived import ingest_onace_2008
+                print("\n── ÖNACE 2008 (derived from NACE) ──")
+                await ingest_onace_2008(conn)
+
+            if target in ("noga", "all"):
+                from world_of_taxanomy.ingest.nace_derived import ingest_noga_2008
+                print("\n── NOGA 2008 (derived from NACE) ──")
+                await ingest_noga_2008(conn)
 
             if target in ("crosswalk", "all"):
                 from world_of_taxanomy.ingest.crosswalk import ingest_crosswalk
@@ -260,6 +310,9 @@ def build_parser() -> argparse.ArgumentParser:
     # init
     sub.add_parser("init", help="Initialize database schema")
 
+    # init-auth
+    sub.add_parser("init-auth", help="Initialize auth database schema")
+
     # reset
     sub.add_parser("reset", help="Drop and recreate all tables")
 
@@ -267,7 +320,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_ingest = sub.add_parser("ingest", help="Ingest classification data")
     p_ingest.add_argument(
         "target",
-        choices=["naics", "isic", "crosswalk", "all"],
+        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "all"],
         help="What to ingest",
     )
 
@@ -312,6 +365,7 @@ def main():
 
     commands = {
         "init": cmd_init,
+        "init-auth": cmd_init_auth,
         "reset": cmd_reset,
         "ingest": cmd_ingest,
         "browse": cmd_browse,

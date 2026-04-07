@@ -77,3 +77,19 @@ cython_debug/
 data/naics/
 data/isic/
 data/crosswalk/
+data/anzsic/
+data/nic/
+data/sic/
+data/noga/
+data/wz/
+
+# Next.js frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS files
+.DS_Store
+
+# Claude Code
+.claude/

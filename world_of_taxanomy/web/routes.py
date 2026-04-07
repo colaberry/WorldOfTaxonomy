@@ -27,21 +27,42 @@ _sector_color_map = {
     "51": "#3B82F6", "52": "#6366F1", "53": "#A78BFA", "54": "#10B981",
     "55": "#64748B", "56": "#78716C", "61": "#2563EB", "62": "#0D9488",
     "71": "#E11D48", "72": "#D97706", "81": "#9CA3AF", "92": "#1E40AF",
-    # ISIC sections
+    # ISIC/NACE/ANZSIC/SIC/JSIC sections (letter-based)
     "A": "#4ADE80", "B": "#F59E0B", "C": "#8B5CF6", "D": "#06B6D4",
     "E": "#14B8A6", "F": "#EF4444", "G": "#F97316", "H": "#14B8A6",
     "I": "#D97706", "J": "#3B82F6", "K": "#6366F1", "L": "#A78BFA",
     "M": "#10B981", "N": "#78716C", "O": "#1E40AF", "P": "#2563EB",
     "Q": "#0D9488", "R": "#E11D48", "S": "#9CA3AF", "T": "#64748B",
     "U": "#7A7872",
+    # SIC 1987 divisions (overlap with letters above is fine)
 }
+
+
+async def _nav_systems(conn):
+    """Fetch all classification systems for nav dropdown."""
+    try:
+        return await get_systems(conn)
+    except Exception:
+        return []
 
 
 @router.get("/", response_class=HTMLResponse)
 async def galaxy_view(request: Request, conn=Depends(get_conn)):
     """Galaxy View — landing page with d3-force constellation."""
+    systems = await _nav_systems(conn)
     return templates.TemplateResponse(request, "index.html", {
         "active_nav": "galaxy",
+        "nav_systems": systems,
+    })
+
+
+@router.get("/explore", response_class=HTMLResponse)
+async def explore_view(request: Request, conn=Depends(get_conn)):
+    """Bubble Explorer — recursive force-directed drill-down."""
+    systems = await _nav_systems(conn)
+    return templates.TemplateResponse(request, "explore.html", {
+        "active_nav": "explore",
+        "nav_systems": systems,
     })
 
 
@@ -55,11 +76,13 @@ async def system_view(request: Request, system_id: str, conn=Depends(get_conn)):
 
     roots = await get_roots(conn, system_id)
 
+    systems = await _nav_systems(conn)
     return templates.TemplateResponse(request, "system.html", {
         "system": system,
         "roots": roots,
         "sector_colors": _sector_color_map,
         "active_nav": system_id.split("_")[0],
+        "nav_systems": systems,
     })
 
 
@@ -76,6 +99,7 @@ async def node_view(request: Request, system_id: str, code: str, conn=Depends(ge
     children_list = await get_children(conn, system_id, code)
     equivalences_list = await get_equivalences(conn, system_id, code)
 
+    systems = await _nav_systems(conn)
     return templates.TemplateResponse(request, "node.html", {
         "system": system,
         "node": node,
@@ -83,4 +107,5 @@ async def node_view(request: Request, system_id: str, code: str, conn=Depends(ge
         "children": children_list,
         "equivalences": equivalences_list,
         "active_nav": system_id.split("_")[0],
+        "nav_systems": systems,
     })

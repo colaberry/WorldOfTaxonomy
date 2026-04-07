@@ -1,7 +1,7 @@
 """Test fixtures for WorldOfTaxanomy.
 
-Uses a real Neon PostgreSQL test database. Creates tables, seeds mini data,
-and cleans up after tests.
+Uses a real Neon PostgreSQL database but isolates tests in a separate
+'test_wot' schema so production data in the 'public' schema is NEVER touched.
 
 Uses synchronous wrappers around asyncpg to avoid Python 3.9 event loop issues.
 """
@@ -15,6 +15,8 @@ from pathlib import Path
 
 # Load env
 load_dotenv(Path(__file__).parent.parent / ".env")
+
+TEST_SCHEMA = "test_wot"
 
 
 def _run(coro):
@@ -31,17 +33,44 @@ def database_url():
     return url
 
 
+async def _set_test_search_path(conn):
+    """Called every time a connection is acquired from the pool.
+
+    Sets search_path to the test schema so all queries hit test_wot
+    instead of public. This survives asyncpg's DISCARD ALL on release.
+    """
+    await conn.execute(f"SET search_path TO {TEST_SCHEMA}")
+
+
 @pytest.fixture(scope="session")
 def db_pool(database_url):
-    """Create a connection pool for tests."""
+    """Create a connection pool for tests.
+
+    Uses `setup` callback to set search_path on every acquire,
+    ensuring queries always hit the test_wot schema (never public).
+    """
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     pool = loop.run_until_complete(
-        asyncpg.create_pool(database_url, min_size=1, max_size=3)
+        asyncpg.create_pool(
+            database_url,
+            min_size=1,
+            max_size=1,
+            setup=_set_test_search_path,
+            statement_cache_size=0,  # Neon uses pgbouncer; no server-side prepared stmts
+        )
     )
     yield pool
+    # Drop the test schema entirely on session end
+    loop.run_until_complete(_drop_test_schema(pool))
     loop.run_until_complete(pool.close())
     loop.close()
+
+
+async def _drop_test_schema(pool):
+    """Drop the test schema at end of session."""
+    async with pool.acquire() as conn:
+        await conn.execute(f"DROP SCHEMA IF EXISTS {TEST_SCHEMA} CASCADE")
 
 
 @pytest.fixture(autouse=True)
@@ -49,6 +78,7 @@ def setup_and_teardown(request, db_pool):
     """Set up schema and seed data before each test, clean up after.
 
     Skips for tests marked with @pytest.mark.cli (pure unit tests, no DB needed).
+    All operations happen inside the test_wot schema — public is never touched.
     """
     if "cli" in [mark.name for mark in request.node.iter_markers()]:
         yield
@@ -62,23 +92,32 @@ async def _setup(pool):
     schema_path = Path(__file__).parent.parent / "world_of_taxanomy" / "schema.sql"
     schema_sql = schema_path.read_text()
 
+    auth_schema_path = Path(__file__).parent.parent / "world_of_taxanomy" / "schema_auth.sql"
+    auth_schema_sql = auth_schema_path.read_text() if auth_schema_path.exists() else ""
+
     async with pool.acquire() as conn:
-        await conn.execute("""
-            DROP TABLE IF EXISTS node_taxonomy_link CASCADE;
-            DROP TABLE IF EXISTS domain_taxonomy CASCADE;
-            DROP TABLE IF EXISTS equivalence CASCADE;
-            DROP TABLE IF EXISTS classification_node CASCADE;
-            DROP TABLE IF EXISTS classification_system CASCADE;
-            DROP FUNCTION IF EXISTS update_search_vector CASCADE;
-        """)
+        # Nuke and recreate the test schema from scratch — guarantees clean slate
+        # This ONLY affects test_wot, NEVER public (where production data lives)
+        await conn.execute(f"DROP SCHEMA IF EXISTS {TEST_SCHEMA} CASCADE")
+        await conn.execute(f"CREATE SCHEMA {TEST_SCHEMA}")
+        await conn.execute(f"SET search_path TO {TEST_SCHEMA}")
         await conn.execute(schema_sql)
+        if auth_schema_sql:
+            await conn.execute(auth_schema_sql)
         await seed_naics(conn)
         await seed_isic(conn)
+        await seed_sic(conn)
         await seed_crosswalk(conn)
 
 
 async def _teardown(pool):
     async with pool.acquire() as conn:
+        await conn.execute(f"SET search_path TO {TEST_SCHEMA}")
+        # Auth tables (may not exist yet)
+        await conn.execute("DELETE FROM usage_log WHERE TRUE")
+        await conn.execute("DELETE FROM api_key WHERE TRUE")
+        await conn.execute("DELETE FROM app_user WHERE TRUE")
+        # Core tables
         await conn.execute("DELETE FROM equivalence")
         await conn.execute("DELETE FROM classification_node")
         await conn.execute("DELETE FROM classification_system")
@@ -136,6 +175,32 @@ async def seed_isic(conn):
             VALUES ('isic_rev4', $1, $2, $3, $4, $5, $6, $7, $8)
         """, code, title, desc, level, parent, sector, leaf, seq)
     await conn.execute("UPDATE classification_system SET node_count = 8 WHERE id = 'isic_rev4'")
+
+
+async def seed_sic(conn):
+    await conn.execute("""
+        INSERT INTO classification_system (id, name, full_name, region, version, authority, tint_color)
+        VALUES ('sic_1987', 'SIC 1987',
+                'Standard Industrial Classification 1987',
+                'USA/UK', '1987', 'U.S. Office of Management and Budget', '#78716C')
+    """)
+    sic_nodes = [
+        ("A", "Agriculture, Forestry, And Fishing", None, 0, None, "A", False, 1),
+        ("D", "Manufacturing", None, 0, None, "D", False, 2),
+        ("01", "Agricultural Production Crops", None, 1, "A", "A", False, 3),
+        ("20", "Food And Kindred Products", None, 1, "D", "D", False, 4),
+        ("011", "Cash Grains", None, 2, "01", "A", False, 5),
+        ("201", "Meat Products", None, 2, "20", "D", False, 6),
+        ("0111", "Wheat", None, 3, "011", "A", True, 7),
+        ("2011", "Meat Packing Plants", None, 3, "201", "D", True, 8),
+    ]
+    for code, title, desc, level, parent, sector, leaf, seq in sic_nodes:
+        await conn.execute("""
+            INSERT INTO classification_node
+                (system_id, code, title, description, level, parent_code, sector_code, is_leaf, seq_order)
+            VALUES ('sic_1987', $1, $2, $3, $4, $5, $6, $7, $8)
+        """, code, title, desc, level, parent, sector, leaf, seq)
+    await conn.execute("UPDATE classification_system SET node_count = 8 WHERE id = 'sic_1987'")
 
 
 async def seed_crosswalk(conn):

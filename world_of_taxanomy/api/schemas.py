@@ -50,3 +50,55 @@ class CrosswalkStatResponse(BaseModel):
     edge_count: int
     exact_count: int
     partial_count: int
+
+
+# ── Auth schemas ─────────────────────────────────────────────
+
+
+class RegisterRequest(BaseModel):
+    email: str
+    password: str
+    display_name: Optional[str] = None
+
+
+class LoginRequest(BaseModel):
+    email: str
+    password: str
+
+
+class UserResponse(BaseModel):
+    id: str
+    email: str
+    display_name: Optional[str]
+    tier: str
+    created_at: str
+
+
+class TokenResponse(BaseModel):
+    access_token: str
+    token_type: str = "bearer"
+
+
+class CreateApiKeyRequest(BaseModel):
+    name: str = "Default"
+
+
+class ApiKeyResponse(BaseModel):
+    id: str
+    key_prefix: str
+    name: str
+    is_active: bool
+    last_used_at: Optional[str]
+    created_at: str
+    expires_at: Optional[str]
+
+
+class ApiKeyCreatedResponse(BaseModel):
+    key: str  # Full key, shown once
+    api_key: ApiKeyResponse
+
+
+class UsageStatsResponse(BaseModel):
+    total_requests: int
+    requests_today: int
+    requests_this_hour: int

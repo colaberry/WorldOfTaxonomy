@@ -187,6 +187,53 @@ h3 { font-size: 1.2rem; }
   color: var(--text-primary);
 }
 
+/* Nav dropdown */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  padding: var(--sp-sm) 0;
+  min-width: 200px;
+  z-index: 100;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: var(--sp-sm) var(--sp-md);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  transition: all var(--duration-short);
+}
+
+.nav-dropdown-menu a:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.nav-dropdown-menu a.active {
+  color: var(--accent);
+}
+
 /* ── Search ────────────────────────────────────────────────── */
 
 .search-bar {
@@ -226,8 +273,9 @@ h3 { font-size: 1.2rem; }
 
 .galaxy-container {
   width: 100%;
-  height: calc(100vh - 200px);
-  min-height: 500px;
+  height: calc(100vh - 220px);
+  min-height: 400px;
+  max-height: 700px;
   position: relative;
   overflow: hidden;
 }
@@ -235,6 +283,7 @@ h3 { font-size: 1.2rem; }
 .galaxy-container svg {
   width: 100%;
   height: 100%;
+  display: block;
 }
 
 .galaxy-title {
@@ -382,6 +431,44 @@ h3 { font-size: 1.2rem; }
 @media (max-width: 768px) {
   .node-layout {
     grid-template-columns: 1fr;
+  }
+
+  .galaxy-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .galaxy-title p {
+    font-size: 0.85rem;
+    padding: 0 var(--sp-md);
+  }
+
+  .galaxy-stats {
+    gap: var(--sp-lg);
+  }
+
+  .galaxy-stat .value {
+    font-size: 1.1rem;
+  }
+
+  .galaxy-container {
+    height: calc(100vh - 260px);
+    min-height: 320px;
+    max-height: 500px;
+  }
+
+  .site-header {
+    padding: var(--sp-sm) var(--sp-md);
+  }
+
+  .site-nav {
+    gap: var(--sp-md);
+  }
+
+  .nav-dropdown-menu {
+    left: auto;
+    right: 0;
+    transform: none;
+    min-width: 160px;
   }
 }
 
