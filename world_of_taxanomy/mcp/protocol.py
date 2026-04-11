@@ -16,6 +16,18 @@ from world_of_taxanomy.mcp.handlers import (
     handle_get_equivalences,
     handle_translate_code,
     handle_get_sector_overview,
+    handle_translate_across_all_systems,
+    handle_compare_sector,
+    handle_find_by_keyword_all_systems,
+    handle_get_crosswalk_coverage,
+    handle_get_system_diff,
+    handle_get_siblings,
+    handle_get_subtree_summary,
+    handle_resolve_ambiguous_code,
+    handle_get_leaf_count,
+    handle_get_region_mapping,
+    handle_describe_match_types,
+    handle_explore_industry_tree,
 )
 
 
@@ -163,6 +175,138 @@ def build_tools_list() -> List[Dict[str, Any]]:
                 "required": ["system_id"],
             },
         },
+        {
+            "name": "translate_across_all_systems",
+            "description": "Translate an industry code to every other system in one call. Returns all known equivalences.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "system_id": {"type": "string", "description": "Source system ID (e.g., 'naics_2022')"},
+                    "code": {"type": "string", "description": "Source industry code"},
+                },
+                "required": ["system_id", "code"],
+            },
+        },
+        {
+            "name": "compare_sector",
+            "description": "Compare top-level sectors of two classification systems side by side.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "system_id_a": {"type": "string", "description": "First system ID"},
+                    "system_id_b": {"type": "string", "description": "Second system ID"},
+                },
+                "required": ["system_id_a", "system_id_b"],
+            },
+        },
+        {
+            "name": "find_by_keyword_all_systems",
+            "description": "Search a keyword across all systems, returning results grouped by system.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "query": {"type": "string", "description": "Search keyword"},
+                    "limit_per_system": {"type": "integer", "description": "Max results per system (default: 10)"},
+                },
+                "required": ["query"],
+            },
+        },
+        {
+            "name": "get_crosswalk_coverage",
+            "description": "Show how many equivalence edges exist between each pair of classification systems.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "system_id": {"type": "string", "description": "Optional: filter to a specific system"},
+                },
+            },
+        },
+        {
+            "name": "get_system_diff",
+            "description": "Find codes in system A that have no equivalence mapping to system B.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "system_id_a": {"type": "string", "description": "System to check codes from"},
+                    "system_id_b": {"type": "string", "description": "System to check coverage against"},
+                },
+                "required": ["system_id_a", "system_id_b"],
+            },
+        },
+        {
+            "name": "get_siblings",
+            "description": "Get other industry codes at the same level under the same parent.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "system_id": {"type": "string", "description": "Classification system ID"},
+                    "code": {"type": "string", "description": "Industry code to find siblings for"},
+                },
+                "required": ["system_id", "code"],
+            },
+        },
+        {
+            "name": "get_subtree_summary",
+            "description": "Summarize all codes under a given node: total count, leaf count, max depth.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "system_id": {"type": "string", "description": "Classification system ID"},
+                    "code": {"type": "string", "description": "Root code of the subtree"},
+                },
+                "required": ["system_id", "code"],
+            },
+        },
+        {
+            "name": "resolve_ambiguous_code",
+            "description": "Find all classification systems that contain a given code (e.g., '0111' exists in ISIC, SIC, and NIC).",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "code": {"type": "string", "description": "Industry code to look up across all systems"},
+                },
+                "required": ["code"],
+            },
+        },
+        {
+            "name": "get_leaf_count",
+            "description": "Compare granularity across systems: total nodes and leaf (most-specific) node counts.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "system_id": {"type": "string", "description": "Optional: filter to one system"},
+                },
+            },
+        },
+        {
+            "name": "get_region_mapping",
+            "description": "List classification systems grouped by geographic region.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {},
+            },
+        },
+        {
+            "name": "describe_match_types",
+            "description": "Explain what exact, partial, and broad equivalence match types mean.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {},
+            },
+        },
+        {
+            "name": "explore_industry_tree",
+            "description": "Search by keyword and return each matching node with its full ancestor path and immediate children - for navigating the classification hierarchy.",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "query": {"type": "string", "description": "Keyword to search (e.g., 'pharmaceutical', 'fintech')"},
+                    "system_id": {"type": "string", "description": "Optional: restrict to one system"},
+                    "limit": {"type": "integer", "description": "Max matches to return (default: 10)"},
+                },
+                "required": ["query"],
+            },
+        },
     ]
 
 
@@ -198,6 +342,18 @@ _TOOL_HANDLERS = {
     "get_equivalences": handle_get_equivalences,
     "translate_code": handle_translate_code,
     "get_sector_overview": handle_get_sector_overview,
+    "translate_across_all_systems": handle_translate_across_all_systems,
+    "compare_sector": handle_compare_sector,
+    "find_by_keyword_all_systems": handle_find_by_keyword_all_systems,
+    "get_crosswalk_coverage": handle_get_crosswalk_coverage,
+    "get_system_diff": handle_get_system_diff,
+    "get_siblings": handle_get_siblings,
+    "get_subtree_summary": handle_get_subtree_summary,
+    "resolve_ambiguous_code": handle_resolve_ambiguous_code,
+    "get_leaf_count": handle_get_leaf_count,
+    "get_region_mapping": handle_get_region_mapping,
+    "describe_match_types": handle_describe_match_types,
+    "explore_industry_tree": handle_explore_industry_tree,
 }
 
 

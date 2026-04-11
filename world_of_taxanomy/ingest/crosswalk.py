@@ -33,7 +33,7 @@ def _determine_match_type(part_of_naics, part_of_isic) -> str:
     """Determine match type from the 'Part of' marker columns.
 
     If either column has a marker (* or text), it's a partial match.
-    If both are empty/None, the mapping covers the full code — exact.
+    If both are empty/None, the mapping covers the full code - exact.
     """
     has_naics_part = part_of_naics is not None and str(part_of_naics).strip() != ""
     has_isic_part = part_of_isic is not None and str(part_of_isic).strip() != ""

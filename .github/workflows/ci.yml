@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python3 -m pytest tests/ -v --tb=short
+
+      - name: Check for em-dashes
+        run: |
+          if grep -r $'\xe2\x80\x94' \
+            --include="*.py" --include="*.md" --include="*.ts" --include="*.tsx" --include="*.sql" \
+            --exclude-dir=node_modules --exclude-dir=.git \
+            world_of_taxanomy/ tests/ frontend/src/ *.md; then
+            echo "ERROR: em-dash characters found. Use a hyphen - instead."
+            exit 1
+          fi
+          echo "No em-dashes found."

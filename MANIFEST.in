@@ -1,0 +1,15 @@
+include README.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include DATA_SOURCES.md
+include LICENSE
+include requirements.txt
+include world_of_taxanomy/schema.sql
+include world_of_taxanomy/schema_auth.sql
+
+exclude .env
+exclude .env.*
+prune data/
+prune frontend/
+prune .github/
+prune tests/

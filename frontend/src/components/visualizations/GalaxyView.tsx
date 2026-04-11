@@ -106,7 +106,7 @@ export function GalaxyView({ systems, stats }: Props) {
     gsMerge.append('feMergeNode').attr('in', 'blur')
     gsMerge.append('feMergeNode').attr('in', 'SourceGraphic')
 
-    // Text shadow filter for legibility — thicker halo in light mode
+    // Text shadow filter for legibility - thicker halo in light mode
     const shadowBlur = isDark ? 2 : 3
     const textShadow = defs.append('filter').attr('id', 'text-bg').attr('x', '-15%').attr('y', '-15%').attr('width', '130%').attr('height', '130%')
     textShadow.append('feFlood').attr('flood-color', textShadowColor).attr('result', 'flood')
@@ -220,7 +220,7 @@ export function GalaxyView({ systems, stats }: Props) {
       .attr('fill', (d) => d.color)
       .attr('fill-opacity', 0.4)
 
-    // Labels — white text with shadow for legibility on both themes
+    // Labels - white text with shadow for legibility on both themes
     const fontSize = isMobile ? '10px' : '12px'
     const countSize = isMobile ? '8px' : '10px'
     const fontWeight = '600'

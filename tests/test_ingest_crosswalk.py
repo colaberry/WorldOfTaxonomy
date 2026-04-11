@@ -1,6 +1,6 @@
 """Tests for NAICS-ISIC crosswalk ingester.
 
-Retroactive TDD — covering the match type logic and integration behavior
+Retroactive TDD - covering the match type logic and integration behavior
 that should have been tested before implementation.
 """
 
@@ -53,7 +53,7 @@ def test_ingest_crosswalk_from_real_file(db_pool):
 
     xlsx_path = _get_project_root() / "data/crosswalk/2022_NAICS_to_ISIC_Rev_4.xlsx"
     if not xlsx_path.exists():
-        pytest.skip("Crosswalk data file not downloaded — run 'python -m world_of_taxanomy ingest crosswalk' first")
+        pytest.skip("Crosswalk data file not downloaded - run 'python -m world_of_taxanomy ingest crosswalk' first")
 
     async def _test():
         async with db_pool.acquire() as conn:

@@ -197,7 +197,7 @@ def test_ingest_anzsic_2006_from_real_file(db_pool):
 
     xls_path = _get_project_root() / "data/anzsic/ANZSIC_2006_codes_titles.xls"
     if not xls_path.exists():
-        pytest.skip("ANZSIC data file not downloaded — run ingest first")
+        pytest.skip("ANZSIC data file not downloaded - run ingest first")
 
     async def _test():
         async with db_pool.acquire() as conn:

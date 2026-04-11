@@ -1,6 +1,6 @@
 """Tests for NAICS 2022 ingester.
 
-Retroactive TDD — covering the unit logic and integration behavior
+Retroactive TDD - covering the unit logic and integration behavior
 that should have been tested before implementation.
 """
 
@@ -124,7 +124,7 @@ def test_ingest_naics_2022_from_real_file(db_pool):
 
     xlsx_path = _get_project_root() / "data/naics/2022_NAICS_Codes.xlsx"
     if not xlsx_path.exists():
-        pytest.skip("NAICS data file not downloaded — run 'python -m world_of_taxanomy ingest naics' first")
+        pytest.skip("NAICS data file not downloaded - run 'python -m world_of_taxanomy ingest naics' first")
 
     async def _test():
         async with db_pool.acquire() as conn:

@@ -105,7 +105,7 @@ async def _ingest_derived_from_nace(conn, meta: _SystemMeta) -> int:
     )
 
     if not nace_rows:
-        print(f"  WARNING: No nace_rev2 nodes found — {meta.id} will be empty")
+        print(f"  WARNING: No nace_rev2 nodes found - {meta.id} will be empty")
         return 0
 
     count = 0

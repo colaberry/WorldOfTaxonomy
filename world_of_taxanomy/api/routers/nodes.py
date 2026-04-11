@@ -1,4 +1,4 @@
-"""Nodes router — /api/v1/systems/{system_id}/nodes endpoints."""
+"""Nodes router - /api/v1/systems/{system_id}/nodes endpoints."""
 
 from typing import List
 

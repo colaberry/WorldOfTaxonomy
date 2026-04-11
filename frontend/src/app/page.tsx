@@ -58,7 +58,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Industry Map — primary entry point */}
+      {/* Industry Map - primary entry point */}
       <IndustryMap />
 
       {/* Divider */}

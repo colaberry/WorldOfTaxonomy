@@ -3,16 +3,14 @@
 from __future__ import annotations
 
 from contextlib import asynccontextmanager
-from pathlib import Path
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
-from fastapi.staticfiles import StaticFiles
+
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
 
-from world_of_taxanomy.api.routers import systems, nodes, search, equivalences
+from world_of_taxanomy.api.routers import systems, nodes, search, equivalences, explore
 from world_of_taxanomy.api.routers import auth as auth_router
 from world_of_taxanomy.api.middleware import limiter, rate_limit_middleware
 from world_of_taxanomy.db import get_pool
@@ -83,8 +81,19 @@ Base URL: https://worldoftaxanomy.com/api/v1
 - GET /systems/{id}/nodes/{code}/children \u2014 Get child codes
 - GET /systems/{id}/nodes/{code}/ancestors \u2014 Get parent chain
 - GET /systems/{id}/nodes/{code}/equivalences \u2014 Get cross-system mappings
+- GET /systems/{id}/nodes/{code}/translations \u2014 Translate to all other systems at once
+- GET /systems/{id}/nodes/{code}/siblings \u2014 Sibling codes at the same hierarchy level
+- GET /systems/{id}/nodes/{code}/subtree \u2014 Summary stats for all codes below this node
 - GET /search?q={query} \u2014 Search across all systems
+- GET /search?q={query}&grouped=true \u2014 Search results grouped by system
+- GET /search?q={query}&context=true \u2014 Search with ancestor path and children for each match
+- GET /compare?a={sys}&b={sys} \u2014 Side-by-side top-level sector comparison
+- GET /diff?a={sys}&b={sys} \u2014 Codes in system A with no mapping to system B
+- GET /nodes/{code} \u2014 Find all systems containing a code
+- GET /systems/stats \u2014 Leaf and total node counts per system
+- GET /systems?group_by=region \u2014 Systems grouped by geographic region
 - GET /equivalences/stats \u2014 Crosswalk statistics
+- GET /equivalences/stats?system_id={id} \u2014 Crosswalk stats filtered to one system
 
 ## Authentication
 Register at https://worldoftaxanomy.com/register to get an API key.
@@ -128,11 +137,8 @@ def create_app() -> FastAPI:
     app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
     app.middleware("http")(rate_limit_middleware)
 
-    # Static files
-    static_dir = Path(__file__).parent.parent / "web" / "static"
-    app.mount("/static", StaticFiles(directory=str(static_dir)), name="static")
-
     # API routers
+    app.include_router(explore.router)  # must be before systems (has /systems/stats)
     app.include_router(systems.router)
     app.include_router(nodes.router)
     app.include_router(search.router)
@@ -147,9 +153,5 @@ def create_app() -> FastAPI:
     @app.get("/llms.txt", response_class=PlainTextResponse)
     async def llms_txt():
         return LLMS_TXT
-
-    # Web frontend routes (must be after API routes to avoid path conflicts)
-    from world_of_taxanomy.web.routes import router as web_router
-    app.include_router(web_router)
 
     return app

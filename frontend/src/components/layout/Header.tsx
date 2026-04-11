@@ -65,7 +65,7 @@ export function Header() {
               <ChevronDown className="h-3.5 w-3.5" />
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-56">
-              {systems?.map((system) => (
+              {systems?.slice().sort((a, b) => b.node_count - a.node_count).map((system) => (
                 <DropdownMenuItem
                   key={system.id}
                   className="cursor-pointer"

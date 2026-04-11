@@ -83,7 +83,7 @@ CREATE INDEX IF NOT EXISTS idx_equiv_source ON equivalence(source_system, source
 CREATE INDEX IF NOT EXISTS idx_equiv_target ON equivalence(target_system, target_code);
 
 -- ============================================================
--- Domain Taxonomies (ICD, ATC, HS codes — future)
+-- Domain Taxonomies (ICD, ATC, HS codes - future)
 -- ============================================================
 CREATE TABLE IF NOT EXISTS domain_taxonomy (
     id          TEXT PRIMARY KEY,

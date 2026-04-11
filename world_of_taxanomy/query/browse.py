@@ -4,7 +4,7 @@ Functions for browsing classification trees: get nodes, children,
 ancestors, subtrees, and system metadata.
 """
 
-from typing import List, Optional
+from typing import List
 
 from world_of_taxanomy.exceptions import NodeNotFoundError, SystemNotFoundError
 from world_of_taxanomy.models import ClassificationNode, ClassificationSystem
@@ -127,36 +127,3 @@ async def get_ancestors(
     # Reverse so root is first
     path.reverse()
     return path
-
-
-async def get_subtree(
-    conn,
-    system_id: str,
-    code: str,
-    max_depth: Optional[int] = None,
-) -> ClassificationNode:
-    """Get a node with its full recursive subtree populated.
-
-    Children are nested in the `children` field.
-    """
-    root = await get_node(conn, system_id, code)
-    await _populate_children(conn, system_id, root, max_depth, 0)
-    return root
-
-
-async def _populate_children(
-    conn,
-    system_id: str,
-    node: ClassificationNode,
-    max_depth: Optional[int],
-    current_depth: int,
-):
-    """Recursively populate children for a node."""
-    if max_depth is not None and current_depth >= max_depth:
-        return
-
-    node.children = await get_children(conn, system_id, node.code)
-    for child in node.children:
-        await _populate_children(
-            conn, system_id, child, max_depth, current_depth + 1
-        )

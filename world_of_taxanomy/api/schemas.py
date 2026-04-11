@@ -102,3 +102,28 @@ class UsageStatsResponse(BaseModel):
     total_requests: int
     requests_today: int
     requests_this_hour: int
+
+
+class SubtreeSummaryResponse(BaseModel):
+    system_id: str
+    code: str
+    title: str
+    total_nodes: int
+    leaf_count: int
+    max_depth: int
+
+
+class CompareSectorsResponse(BaseModel):
+    system_a: List[NodeResponse]
+    system_b: List[NodeResponse]
+
+
+class SystemGranularityResponse(BaseModel):
+    system_id: str
+    total_nodes: int
+    leaf_nodes: int
+
+
+class NodeWithContextResponse(NodeResponse):
+    ancestors: List[NodeResponse] = []
+    children: List[NodeResponse] = []

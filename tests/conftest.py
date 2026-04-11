@@ -78,7 +78,7 @@ def setup_and_teardown(request, db_pool):
     """Set up schema and seed data before each test, clean up after.
 
     Skips for tests marked with @pytest.mark.cli (pure unit tests, no DB needed).
-    All operations happen inside the test_wot schema — public is never touched.
+    All operations happen inside the test_wot schema - public is never touched.
     """
     if "cli" in [mark.name for mark in request.node.iter_markers()]:
         yield
@@ -96,7 +96,7 @@ async def _setup(pool):
     auth_schema_sql = auth_schema_path.read_text() if auth_schema_path.exists() else ""
 
     async with pool.acquire() as conn:
-        # Nuke and recreate the test schema from scratch — guarantees clean slate
+        # Nuke and recreate the test schema from scratch - guarantees clean slate
         # This ONLY affects test_wot, NEVER public (where production data lives)
         await conn.execute(f"DROP SCHEMA IF EXISTS {TEST_SCHEMA} CASCADE")
         await conn.execute(f"CREATE SCHEMA {TEST_SCHEMA}")
@@ -210,6 +210,7 @@ async def seed_crosswalk(conn):
         ("naics_2022", "1111", "isic_rev4", "0111", "partial"),
         ("isic_rev4", "0111", "naics_2022", "1111", "partial"),
         ("naics_2022", "111110", "isic_rev4", "0111", "exact"),
+        ("isic_rev4", "0111", "naics_2022", "111110", "exact"),  # reverse - seed must be symmetric
     ]
     for src_sys, src_code, tgt_sys, tgt_code, match in crosswalk:
         await conn.execute("""

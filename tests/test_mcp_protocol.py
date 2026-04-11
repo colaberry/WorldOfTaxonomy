@@ -1,6 +1,6 @@
 """Tests for MCP JSON-RPC protocol handling.
 
-TDD RED phase: these tests define the contract for the MCP protocol layer —
+TDD RED phase: these tests define the contract for the MCP protocol layer -
 tool listing, tool calling, resource listing, and resource reading.
 """
 
@@ -22,9 +22,9 @@ def _run(coro):
 # ── tools/list ────────────────────────────────────────────────
 
 
-def test_tools_list_returns_8_tools():
+def test_tools_list_returns_20_tools():
     tools = build_tools_list()
-    assert len(tools) == 8
+    assert len(tools) == 20
     names = {t["name"] for t in tools}
     assert names == {
         "list_classification_systems",
@@ -35,6 +35,18 @@ def test_tools_list_returns_8_tools():
         "get_equivalences",
         "translate_code",
         "get_sector_overview",
+        "translate_across_all_systems",
+        "compare_sector",
+        "find_by_keyword_all_systems",
+        "get_crosswalk_coverage",
+        "get_system_diff",
+        "get_siblings",
+        "get_subtree_summary",
+        "resolve_ambiguous_code",
+        "get_leaf_count",
+        "get_region_mapping",
+        "describe_match_types",
+        "explore_industry_tree",
     }
 
 
@@ -92,7 +104,7 @@ def test_handle_tools_list():
         response = await handle_jsonrpc_request(request, conn=None)
         assert response["id"] == 2
         assert "result" in response
-        assert len(response["result"]["tools"]) == 8
+        assert len(response["result"]["tools"]) == 20
     _run(_test())
 
 

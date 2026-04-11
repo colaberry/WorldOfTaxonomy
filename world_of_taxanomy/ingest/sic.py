@@ -1,8 +1,8 @@
 """SIC 1987 ingester.
 
 Parses Standard Industrial Classification codes from two sources:
-1. OSHA SIC Manual HTML (divisions + major groups) — already downloaded
-2. BLS SIC titles CSV (industry groups + industries) — downloaded on demand
+1. OSHA SIC Manual HTML (divisions + major groups) - already downloaded
+2. BLS SIC titles CSV (industry groups + industries) - downloaded on demand
 
 Structure:
   Division (letter A-J)  = level 0

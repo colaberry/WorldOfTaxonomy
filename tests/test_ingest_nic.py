@@ -97,6 +97,12 @@ class TestNicDetermineSector:
             code = str(div_num).zfill(2)
             assert _determine_sector(code) == section
 
+    def test_unmapped_division_returns_question_mark(self):
+        """Aggregate or non-ISIC codes (e.g. '00', '04') return '?' sentinel."""
+        assert _determine_sector("00") == "?"
+        assert _determine_sector("04") == "?"  # gap between A and B in ISIC
+        assert _determine_sector("34") == "?"  # gap between C and D
+
 
 # ── Unit tests: section names ─────────────────────────────────
 
@@ -124,7 +130,7 @@ def test_ingest_nic_2008_from_real_file(db_pool):
 
     xlsx_path = _get_project_root() / "data/nic/NIC_2008.xlsx"
     if not xlsx_path.exists():
-        pytest.skip("NIC data file not downloaded — run ingest first")
+        pytest.skip("NIC data file not downloaded - run ingest first")
 
     async def _test():
         async with db_pool.acquire() as conn:

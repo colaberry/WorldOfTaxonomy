@@ -3,7 +3,7 @@
 Reads JSON-RPC messages from stdin, processes them, writes responses to stdout.
 Compatible with Claude Desktop and other MCP clients.
 
-No external MCP SDK dependency — implements the protocol directly.
+No external MCP SDK dependency - implements the protocol directly.
 Requires Python 3.9+.
 
 Usage:

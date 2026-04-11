@@ -35,7 +35,7 @@ async def search_nodes(
     if not query or not query.strip():
         return []
 
-    # Build the tsquery — use plainto_tsquery for robustness
+    # Build the tsquery - use plainto_tsquery for robustness
     # Also do an ILIKE fallback for code matches and partial terms
     if system_id:
         rows = await conn.fetch(

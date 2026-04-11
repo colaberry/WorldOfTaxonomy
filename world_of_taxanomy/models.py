@@ -106,7 +106,7 @@ NAICS_SECTOR_MAP = {
 
 # Classification system tints from DESIGN.md
 SYSTEM_TINTS = {
-    "isic_rev4": None,          # Neutral — universal baseline
+    "isic_rev4": None,          # Neutral - universal baseline
     "naics_2022": "#F59E0B",    # Warm amber
     "nace_rev2": "#3B82F6",     # Cool blue
     "anzsic": "#14B8A6",        # Teal

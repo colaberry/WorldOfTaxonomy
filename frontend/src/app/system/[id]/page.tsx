@@ -2,9 +2,12 @@
 
 import { use } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { getSystem, getStats } from '@/lib/api'
+import { getSystem, getStats, getSystems } from '@/lib/api'
 import Link from 'next/link'
 import { ArrowLeft, ExternalLink } from 'lucide-react'
+import { getSystemColor } from '@/lib/colors'
+import { SectorTreemap } from '@/components/visualizations/SectorTreemap'
+import { CrosswalkNetwork } from '@/components/visualizations/CrosswalkNetwork'
 
 export default function SystemPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params)
@@ -17,6 +20,11 @@ export default function SystemPage({ params }: { params: Promise<{ id: string }>
   const { data: stats } = useQuery({
     queryKey: ['stats'],
     queryFn: getStats,
+  })
+
+  const { data: allSystems } = useQuery({
+    queryKey: ['systems'],
+    queryFn: getSystems,
   })
 
   if (isLoading) {
@@ -38,10 +46,29 @@ export default function SystemPage({ params }: { params: Promise<{ id: string }>
     )
   }
 
-  const systemStats = stats?.filter(
-    (s) => s.source_system === id || s.target_system === id
-  )
-  const totalEdges = systemStats?.reduce((sum, s) => sum + s.edge_count, 0) ?? 0
+  // Deduplicate: treat crosswalk pairs as undirected - stats API returns both directions
+  const seen = new Set<string>()
+  const systemStats = (stats ?? [])
+    .filter((s) => s.source_system === id || s.target_system === id)
+    .filter((s) => {
+      const partner = s.source_system === id ? s.target_system : s.source_system
+      if (seen.has(partner)) return false
+      seen.add(partner)
+      return true
+    })
+
+  const totalEdges = systemStats.reduce((sum, s) => sum + s.edge_count, 0)
+
+  const connections = systemStats.map((s) => {
+    const partnerId = s.source_system === id ? s.target_system : s.source_system
+    const partner = allSystems?.find((sys) => sys.id === partnerId)
+    return {
+      systemId: partnerId,
+      systemName: partner?.name ?? partnerId,
+      edgeCount: s.edge_count,
+      exactCount: s.exact_count,
+    }
+  })
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6">
@@ -99,6 +126,10 @@ export default function SystemPage({ params }: { params: Promise<{ id: string }>
         </div>
       )}
 
+      {system.roots && system.roots.length > 0 && (
+        <SectorTreemap systemId={id} roots={system.roots} />
+      )}
+
       <div>
         <h2 className="text-lg font-semibold mb-3">Top-Level Sectors</h2>
         {system.roots && system.roots.length > 0 ? (
@@ -123,26 +154,41 @@ export default function SystemPage({ params }: { params: Promise<{ id: string }>
         )}
       </div>
 
-      {systemStats && systemStats.length > 0 && (
+      {connections.length > 0 && (
         <div>
           <h2 className="text-lg font-semibold mb-3">Crosswalk Connections</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {systemStats.map((s, i) => {
-              const other = s.source_system === id ? s.target_system : s.source_system
-              return (
-                <Link
-                  key={i}
-                  href={`/system/${other}`}
-                  className="p-3 rounded-lg bg-card border border-border/50 hover:border-primary/50 transition-colors flex items-center justify-between"
-                >
-                  <span className="text-sm">{other}</span>
-                  <span className="text-xs font-mono text-muted-foreground">
-                    {s.edge_count.toLocaleString()} edges
-                  </span>
-                </Link>
-              )
-            })}
-          </div>
+
+          {connections.length >= 3 && system ? (
+            // Network diagram for well-connected systems (3+ partners)
+            <div className="rounded-xl border border-border/50 bg-card/30 overflow-hidden">
+              <CrosswalkNetwork currentSystem={system} connections={connections} />
+            </div>
+          ) : (
+            // Simple list for sparsely-connected systems (1–2 partners)
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {connections.map((c) => {
+                const otherColor = getSystemColor(c.systemId)
+                return (
+                  <Link
+                    key={c.systemId}
+                    href={`/system/${c.systemId}`}
+                    className="p-3 rounded-lg bg-card border border-border/50 hover:border-border transition-colors flex items-center gap-3"
+                  >
+                    <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: otherColor }} />
+                    <span className="text-sm">{c.systemName}</span>
+                    <div className="ml-auto text-right">
+                      <span className="text-xs font-mono text-muted-foreground block">
+                        {c.edgeCount.toLocaleString()} edges
+                      </span>
+                      {c.exactCount > 0 && (
+                        <span className="text-xs text-emerald-400">{c.exactCount} exact</span>
+                      )}
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          )}
         </div>
       )}
     </div>

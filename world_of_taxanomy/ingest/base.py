@@ -1,4 +1,4 @@
-"""Base ingestion utilities — download helper and common functions."""
+"""Base ingestion utilities - download helper and common functions."""
 
 import urllib.request
 import ssl
@@ -8,7 +8,7 @@ from pathlib import Path
 def ensure_data_file(url: str, local_path: Path) -> Path:
     """Download file from URL if not already on disk.
 
-    Uses urllib.request (stdlib) — no requests dependency needed.
+    Uses urllib.request (stdlib) - no requests dependency needed.
     Returns the local path.
     """
     local_path = Path(local_path)

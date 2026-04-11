@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WorldOfTaxanomy — Global Industry Classification Knowledge Graph",
+  title: "WorldOfTaxanomy - Global Industry Classification Knowledge Graph",
   description:
-    "Explore the federation of global industry classification systems. NAICS, ISIC, NACE, SIC, ANZSIC, NIC, JSIC, WZ, ONACE, NOGA — connected by equivalence edges.",
+    "Explore the federation of global industry classification systems. NAICS, ISIC, NACE, SIC, ANZSIC, NIC, JSIC, WZ, ONACE, NOGA - connected by equivalence edges.",
 };
 
 export default function RootLayout({

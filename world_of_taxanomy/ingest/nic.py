@@ -19,7 +19,7 @@ from world_of_taxanomy.ingest.isic import ISIC_SECTION_DIVISIONS, _DIV_TO_SECTIO
 NIC_2008_URL = "https://www.mospi.gov.in/sites/default/files/main_menu/national_product_classification/NIC_2008.xlsx"
 NIC_2008_LOCAL = Path("data/nic/NIC_2008.xlsx")
 
-# Section names — same as ISIC Rev 4 since NIC 2008 is aligned
+# Section names - same as ISIC Rev 4 since NIC 2008 is aligned
 SECTION_NAMES = {
     "A": "Agriculture, forestry and fishing",
     "B": "Mining and quarrying",
@@ -171,6 +171,10 @@ async def ingest_nic_2008(conn, xlsx_path: Optional[Path] = None) -> int:
         level = _determine_level(code)
         parent = _determine_parent(code)
         sector = _determine_sector(code)
+
+        if sector == "?":
+            seq -= 1  # undo seq increment for skipped row
+            continue  # skip codes with unmapped division (e.g. aggregate rows)
 
         nodes.append((code, title, level, parent, sector, seq))
 

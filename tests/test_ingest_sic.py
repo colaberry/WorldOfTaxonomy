@@ -352,7 +352,7 @@ def test_ingest_sic_from_real_files(db_pool):
     if not html_path.exists():
         pytest.skip("OSHA HTML not downloaded")
     if not csv_path.exists():
-        pytest.skip("BLS CSV not downloaded — run ingestion first")
+        pytest.skip("BLS CSV not downloaded - run ingestion first")
 
     async def _test():
         async with db_pool.acquire() as conn:

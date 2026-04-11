@@ -1,6 +1,6 @@
 """Tests for ISIC Rev 4 ingester.
 
-Retroactive TDD — covering the unit logic and integration behavior
+Retroactive TDD - covering the unit logic and integration behavior
 that should have been tested before implementation.
 """
 
@@ -124,7 +124,7 @@ def test_ingest_isic_rev4_from_real_file(db_pool):
 
     txt_path = _get_project_root() / "data/isic/ISIC_Rev_4_structure.txt"
     if not txt_path.exists():
-        pytest.skip("ISIC data file not downloaded — run 'python -m world_of_taxanomy ingest isic' first")
+        pytest.skip("ISIC data file not downloaded - run 'python -m world_of_taxanomy ingest isic' first")
 
     async def _test():
         async with db_pool.acquire() as conn:

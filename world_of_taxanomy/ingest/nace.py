@@ -47,7 +47,7 @@ def _nace_parent(code: str) -> Optional[str]:
         return None  # sections have no parent
 
     if code.isdigit() and len(code) == 2:
-        # Division -> Section (reuse ISIC's mapping — identical for NACE)
+        # Division -> Section (reuse ISIC's mapping - identical for NACE)
         div_num = int(code)
         return _DIV_TO_SECTION.get(div_num)
 

@@ -1,4 +1,4 @@
-# CLAUDE.md — WorldOfTaxanomy
+# CLAUDE.md - WorldOfTaxanomy
 
 ## What this project is
 
@@ -75,12 +75,14 @@ WorldOfTaxanomy/
 │           ├── api.ts           # Typed API client (all endpoints)
 │           ├── types.ts         # TypeScript interfaces matching Pydantic models
 │           └── colors.ts        # System tint colors + sector colors
-├── tests/                       # pytest suite (22 files)
+├── tests/                       # pytest suite (18 files)
 │   ├── conftest.py              # test_wot schema isolation, seed data, session pool
-│   ├── test_auth.py             # 19 tests: hashing, JWT, registration, API keys, usage log
-│   ├── test_query_*.py          # browse, search, equivalence, node traversal
+│   ├── test_api_*.py            # API contract tests (systems, nodes, search, equivalences)
+│   ├── test_auth.py             # hashing, JWT, registration, API keys, usage log
+│   ├── test_node_detail_contract.py  # node detail page API contract
+│   ├── test_mcp_*.py            # MCP protocol + tool handlers
 │   ├── test_ingest_*.py         # per-system ingester tests
-│   └── test_web_explorer.py
+│   └── test_cli.py              # CLI argument parsing
 ├── .env                         # DATABASE_URL, JWT_SECRET (not committed)
 └── requirements.txt             # asyncpg, fastapi, uvicorn, bcrypt, PyJWT, slowapi, etc.
 ```
@@ -100,7 +102,7 @@ WorldOfTaxanomy/
 source .env
 python3 -m uvicorn world_of_taxanomy.api.app:create_app --factory --port 8000
 
-# Frontend (requires Node.js — use nvm if npx not found)
+# Frontend (requires Node.js - use nvm if npx not found)
 cd frontend && npx next dev --port 3000
 ```
 
@@ -121,7 +123,14 @@ Test isolation: `conftest.py` creates a `test_wot` PostgreSQL schema, seeds NAIC
 
 ## Development practices
 
-- **TDD**: Write tests BEFORE implementation. The user has explicitly asked for test-driven development. Create the test file first, run it to see failures, then implement to make tests pass.
+- **TDD - Red → Green → Refactor, strictly enforced**:
+  1. **Red**: Write the test first. Run it. Confirm it fails for the right reason before writing any implementation code.
+  2. **Green**: Write the minimum code to make the test pass. Nothing more.
+  3. **Refactor**: Clean up implementation and tests while keeping all tests green.
+  - Never write implementation before a failing test exists.
+  - Never skip the "run it red" step - a test that was never red proves nothing.
+  - Never refactor while tests are red.
+- **No em-dashes**: Never use the em-dash character (U+2014) anywhere in the project - code, comments, docstrings, markdown, or configuration. Use a hyphen `-` instead. The CI pipeline enforces this with a grep check.
 - **No speculative code**: Don't add features, abstractions, or error handling beyond what's asked.
 - **Type safety**: All frontend code is TypeScript. All backend models are Pydantic. Keep types.ts in sync with schemas.py.
 - **Theme support**: Both dark and light modes must work. Galaxy View text uses SVG shadow filters for contrast in both themes.
@@ -145,8 +154,8 @@ Test isolation: `conftest.py` creates a `test_wot` PostgreSQL schema, seeds NAIC
 
 ## What's NOT done yet
 
-- Node detail page (`/system/[id]/node/[code]`) — routes exist in the API but no frontend page yet
-- Auth frontend pages (login, register, API key dashboard) — backend is complete
+- ~~Node detail page~~ ✓ done - `/system/[id]/node/[code]/page.tsx` with breadcrumb, typographic depth, children panel, cross-system equivalences, inline API endpoint
+- Auth frontend pages (login, register, API key dashboard) - backend is complete
 - Production deployment (Vercel for frontend, Fly.io/Railway for backend)
 - CI/CD pipeline
 - Domain-specific taxonomy extensions (ICD codes, crop taxonomies, etc.)

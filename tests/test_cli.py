@@ -1,9 +1,9 @@
 """Tests for the CLI (__main__.py).
 
-Retroactive TDD — covering argument parsing and command dispatch
+Retroactive TDD - covering argument parsing and command dispatch
 that should have been tested before implementation.
 
-These are pure unit tests — no database needed.
+These are pure unit tests - no database needed.
 """
 
 import pytest

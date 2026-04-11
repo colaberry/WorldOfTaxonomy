@@ -153,7 +153,7 @@ def cmd_browse(args):
                 from world_of_taxanomy.query.browse import get_system, get_roots
                 try:
                     system = await get_system(conn, args.system_id)
-                    print(f"\n{system.name} — {system.full_name}")
+                    print(f"\n{system.name} - {system.full_name}")
                     print(f"  Region: {system.region} | Version: {system.version}")
                     print(f"  Nodes: {system.node_count}")
                 except Exception:
@@ -189,7 +189,7 @@ def cmd_search(args):
 
             print(f"Search results for '{args.query}' ({len(results)} found):\n")
             for node in results:
-                print(f"  [{node.system_id}] {node.code} — {node.title}")
+                print(f"  [{node.system_id}] {node.code} - {node.title}")
 
         await close_pool()
 
@@ -220,7 +220,7 @@ def cmd_equiv(args):
             for eq in results:
                 arrow = "→"
                 match_label = f"({eq.match_type})"
-                target_title = f" — {eq.target_title}" if eq.target_title else ""
+                target_title = f" - {eq.target_title}" if eq.target_title else ""
                 print(f"  {arrow} [{eq.target_system}] {eq.target_code}{target_title} {match_label}")
 
         await close_pool()
@@ -242,7 +242,7 @@ def cmd_stats(args):
             crosswalk = await get_crosswalk_stats(conn)
 
             print("╔═══════════════════════════════════════════════╗")
-            print("║        WorldOfTaxanomy — Statistics           ║")
+            print("║        WorldOfTaxanomy - Statistics           ║")
             print("╚═══════════════════════════════════════════════╝\n")
 
             print("Classification Systems:")
@@ -303,7 +303,7 @@ def cmd_mcp(args):
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="world_of_taxanomy",
-        description="WorldOfTaxanomy — Unified Industry Classification Knowledge Graph",
+        description="WorldOfTaxanomy - Unified Industry Classification Knowledge Graph",
     )
     sub = parser.add_subparsers(dest="command", help="Command to run")
 
