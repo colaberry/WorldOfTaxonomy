@@ -32,11 +32,11 @@ setup(
     long_description_content_type="text/markdown",
     author="ramdhanyk",
     author_email="",
-    url="https://github.com/ramdhanyk/WorldOfTaxanomy",
+    url="https://github.com/colaberry/WorldOfTaxanomy",
     project_urls={
         "Documentation": "https://worldoftaxanomy.com",
-        "Source": "https://github.com/ramdhanyk/WorldOfTaxanomy",
-        "Tracker": "https://github.com/ramdhanyk/WorldOfTaxanomy/issues",
+        "Source": "https://github.com/colaberry/WorldOfTaxanomy",
+        "Tracker": "https://github.com/colaberry/WorldOfTaxanomy/issues",
     },
     license="MIT",
     classifiers=[

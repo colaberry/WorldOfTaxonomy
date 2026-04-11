@@ -4,7 +4,7 @@
 
 WorldOfTaxanomy connects 10 national and international industry classification systems as equal peers through crosswalk edges (equivalence mappings). It provides a REST API, MCP server for Claude Desktop, and a Next.js web app.
 
-[![CI](https://github.com/ramdhanyk/WorldOfTaxanomy/actions/workflows/ci.yml/badge.svg)](https://github.com/ramdhanyk/WorldOfTaxanomy/actions/workflows/ci.yml)
+[![CI](https://github.com/colaberry/WorldOfTaxanomy/actions/workflows/ci.yml/badge.svg)](https://github.com/colaberry/WorldOfTaxanomy/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -33,7 +33,7 @@ WorldOfTaxanomy connects 10 national and international industry classification s
 
 ```bash
 # Clone and install
-git clone https://github.com/ramdhanyk/WorldOfTaxanomy.git
+git clone https://github.com/colaberry/WorldOfTaxanomy.git
 cd WorldOfTaxanomy
 pip install -e .
 
