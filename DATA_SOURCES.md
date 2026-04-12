@@ -29,6 +29,7 @@ Attribution and licensing information for all classification systems in WorldOfT
 | Crosswalk | Source | License |
 |-----------|--------|---------|
 | NAICS 2022 / ISIC Rev 4 | UN Statistics Division concordance | Open |
+| UN M.49 / ISO 3166-1 (~498 edges) | Derived from iso3166_all.csv (country-code + alpha-2 columns) | CC0 |
 | NACE Rev 2 / WZ 2008 (1:1) | Derived - WZ is a national adaptation of NACE | Open |
 | NACE Rev 2 / ONACE 2008 (1:1) | Derived - ONACE is a national adaptation of NACE | Open |
 | NACE Rev 2 / NOGA 2008 (1:1) | Derived - NOGA is a national adaptation of NACE | Open |

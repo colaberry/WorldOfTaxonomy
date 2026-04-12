@@ -14,6 +14,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - ISO 3166-2 Subdivisions ingester (`iso_3166_2`, ~5,246 nodes: 200 country stubs + ~5,046 subdivisions) - Phase 1-B
 - ISO 3166 crosswalk (`crosswalk_iso3166`, ~498 edges linking iso_3166_1 to iso_3166_2) - Phase 1-C
 - UN M.49 Geographic Regions ingester (`un_m49`, ~272 nodes: World, 5 regions, 24 sub-regions, ~249 countries) - Phase 1-D
+- UN M.49 / ISO 3166-1 crosswalk (`crosswalk_un_m49_iso3166`, ~498 edges linking numeric M.49 codes to alpha-2 codes) - Phase 1-E
 
 ---
 

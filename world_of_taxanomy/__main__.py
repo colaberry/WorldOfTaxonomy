@@ -136,6 +136,12 @@ def cmd_ingest(args):
                 n = await ingest_un_m49(conn)
                 print(f"  {n} nodes")
 
+            if target in ("crosswalk_un_m49_iso3166", "all"):
+                from world_of_taxanomy.ingest.crosswalk_un_m49_iso3166 import ingest_crosswalk_un_m49_iso3166
+                print("\n-- Crosswalk (UN M.49 / ISO 3166-1) --")
+                n = await ingest_crosswalk_un_m49_iso3166(conn)
+                print(f"  {n} edges")
+
         await close_pool()
 
     _run(_ingest())
@@ -344,7 +350,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_ingest = sub.add_parser("ingest", help="Ingest classification data")
     p_ingest.add_argument(
         "target",
-        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "all"],
+        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "all"],
         help="What to ingest",
     )
 
