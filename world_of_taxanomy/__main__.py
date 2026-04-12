@@ -154,6 +154,12 @@ def cmd_ingest(args):
                 n = await ingest_crosswalk_hs_isic(conn)
                 print(f"  {n} edges")
 
+            if target in ("cpc_v21", "all"):
+                from world_of_taxanomy.ingest.cpc_v21 import ingest_cpc_v21
+                print("\n-- CPC v2.1 Central Product Classification --")
+                n = await ingest_cpc_v21(conn)
+                print(f"  {n} nodes")
+
         await close_pool()
 
     _run(_ingest())
@@ -362,7 +368,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_ingest = sub.add_parser("ingest", help="Ingest classification data")
     p_ingest.add_argument(
         "target",
-        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "hs2022", "crosswalk_hs_isic", "all"],
+        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "hs2022", "crosswalk_hs_isic", "cpc_v21", "all"],
         help="What to ingest",
     )
 

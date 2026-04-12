@@ -22,6 +22,7 @@ Attribution and licensing information for all classification systems in WorldOfT
 | `iso_3166_2` | ISO 3166-2 Country Subdivisions (states, provinces, regions) | 2023 | Global | ISO (via pycountry library) | LGPL (library); ISO data publicly available | https://pypi.org/project/pycountry/ |
 | `un_m49` | UN M.49 Standard Country or Area Codes for Statistical Use | 2023 | Global | United Nations Statistics Division | Open | https://unstats.un.org/unsd/methodology/m49/overview |
 | `hs_2022` | Harmonized Commodity Description and Coding System | 2022 | Global | World Customs Organization (via datasets/harmonized-system) | CC0 | https://github.com/datasets/harmonized-system |
+| `cpc_v21` | Central Product Classification Version 2.1 | 2.1 | Global | United Nations Statistics Division | Open | https://unstats.un.org/unsd/classifications/Econ/cpc |
 
 ---
 
