@@ -148,6 +148,12 @@ def cmd_ingest(args):
                 n = await ingest_hs2022(conn)
                 print(f"  {n} nodes")
 
+            if target in ("crosswalk_hs_isic", "all"):
+                from world_of_taxanomy.ingest.crosswalk_hs_isic import ingest_crosswalk_hs_isic
+                print("\n-- Crosswalk (HS 2022 / ISIC Rev 4) --")
+                n = await ingest_crosswalk_hs_isic(conn)
+                print(f"  {n} edges")
+
         await close_pool()
 
     _run(_ingest())
@@ -356,7 +362,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_ingest = sub.add_parser("ingest", help="Ingest classification data")
     p_ingest.add_argument(
         "target",
-        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "hs2022", "all"],
+        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "hs2022", "crosswalk_hs_isic", "all"],
         help="What to ingest",
     )
 

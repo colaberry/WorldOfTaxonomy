@@ -16,6 +16,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - UN M.49 Geographic Regions ingester (`un_m49`, ~272 nodes: World, 5 regions, 24 sub-regions, ~249 countries) - Phase 1-D
 - UN M.49 / ISO 3166-1 crosswalk (`crosswalk_un_m49_iso3166`, ~498 edges linking numeric M.49 codes to alpha-2 codes) - Phase 1-E
 - HS 2022 Harmonized System (`hs_2022`, ~6,960 nodes: 21 sections, 97 chapters, 1,229 headings, 5,613 subheadings) - Phase 2-A
+- HS 2022 / ISIC Rev 4 crosswalk (`crosswalk_hs_isic`, ~3,010 edges, broad match via WITS concordance) - Phase 2-B
 
 ---
 
