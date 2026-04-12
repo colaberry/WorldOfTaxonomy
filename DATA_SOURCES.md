@@ -33,6 +33,8 @@ Attribution and licensing information for all classification systems in WorldOfT
 | NAICS 2022 / ISIC Rev 4 | UN Statistics Division concordance | Open |
 | UN M.49 / ISO 3166-1 (~498 edges) | Derived from iso3166_all.csv (country-code + alpha-2 columns) | CC0 |
 | HS 2022 / ISIC Rev 4 (~3,010 edges, broad) | World Bank WITS HS 2012->ISIC Rev 3 concordance, filtered to existing nodes | CC BY 4.0 |
+| CPC v2.1 / ISIC Rev 4 (~5,430 edges, exact + partial) | UN Statistics Division CPCv21_ISIC4/cpc21-isic4.txt | Open |
+| HS 2022 / CPC v2.1 (~11,686 edges, exact + partial) | UN Statistics Division CPCv21_HS2017/CPC21-HS2017.csv | Open |
 | NACE Rev 2 / WZ 2008 (1:1) | Derived - WZ is a national adaptation of NACE | Open |
 | NACE Rev 2 / ONACE 2008 (1:1) | Derived - ONACE is a national adaptation of NACE | Open |
 | NACE Rev 2 / NOGA 2008 (1:1) | Derived - NOGA is a national adaptation of NACE | Open |

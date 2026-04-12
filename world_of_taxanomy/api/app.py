@@ -77,6 +77,10 @@ WorldOfTaxanomy is a knowledge graph that connects 10 industry classification sy
 - HS 2022 Harmonized System (Global/WCO) - 6,960 nodes (21 sections, 97 chapters, 1,229 headings, 5,613 subheadings)
 - CPC v2.1 Central Product Classification (Global/UN) - 4,596 nodes (10 sections, 71 divisions, 329 groups, 1,299 classes, 2,887 subclasses)
 
+## Crosswalks
+- CPC v2.1 / ISIC Rev 4 (~5,430 bidirectional edges, exact + partial)
+- HS 2022 / CPC v2.1 (~11,686 bidirectional edges, exact + partial)
+
 ## API
 Base URL: https://worldoftaxanomy.com/api/v1
 

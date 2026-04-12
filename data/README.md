@@ -15,6 +15,8 @@ This directory holds downloaded classification data files. Files are auto-downlo
 | HS 2022 Harmonized System | datasets/harmonized-system (CC0) | https://raw.githubusercontent.com/datasets/harmonized-system/main/data/harmonized-system.csv |
 | HS/ISIC Concordance | World Bank WITS HS2012->ISIC Rev3 (CC BY 4.0) | https://wits.worldbank.org/data/public/concordance/Concordance_H4_to_I3.zip |
 | CPC v2.1 | United Nations Statistics Division (open) | https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/CPC_Ver_2_1_english_structure.Txt |
+| CPC v2.1 / ISIC Rev 4 crosswalk | UN Statistics Division (open) | https://unstats.un.org/unsd/classifications/Econ/tables/CPC/CPCv21_ISIC4/cpc21-isic4.txt |
+| HS 2017 / CPC v2.1 crosswalk | UN Statistics Division (open) | https://unstats.un.org/unsd/classifications/Econ/tables/CPC/CPCv21_HS2017/CPC21-HS2017.csv |
 
 ## Re-downloading
 
