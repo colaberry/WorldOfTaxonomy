@@ -12,6 +12,7 @@ This directory holds downloaded classification data files. Files are auto-downlo
 | ISO 3166-1 Countries | lukes/ISO-3166-Countries-with-Regional-Codes (CC0) | https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv |
 | ISO 3166-2 Subdivisions | pycountry library (no file download - uses pycountry in-memory) | pip install pycountry |
 | UN M.49 Geographic Regions | lukes/ISO-3166-Countries-with-Regional-Codes (reuses iso3166_all.csv, CC0) | https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv |
+| HS 2022 Harmonized System | datasets/harmonized-system (CC0) | https://raw.githubusercontent.com/datasets/harmonized-system/main/data/harmonized-system.csv |
 
 ## Re-downloading
 

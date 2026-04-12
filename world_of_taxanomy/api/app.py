@@ -74,6 +74,7 @@ WorldOfTaxanomy is a knowledge graph that connects 10 industry classification sy
 - ISO 3166-1 Countries (Global) - 271 nodes (5 continents, 17 sub-regions, 249 countries)
 - ISO 3166-2 Subdivisions (Global) - 5,246 nodes (200 country stubs + 5,046 subdivisions)
 - UN M.49 Geographic Regions (Global) - 272 nodes (World, 5 regions, 24 sub-regions, 249 countries)
+- HS 2022 Harmonized System (Global/WCO) - 6,960 nodes (21 sections, 97 chapters, 1,229 headings, 5,613 subheadings)
 
 ## API
 Base URL: https://worldoftaxanomy.com/api/v1
