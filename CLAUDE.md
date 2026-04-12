@@ -4,7 +4,7 @@
 
 WorldOfTaxanomy is a unified global industry classification knowledge graph. It connects 10 national/international classification systems as equal peers through equivalence mappings (crosswalk edges).
 
-**26 systems, 133,975 codes, ~55,334 crosswalk edges.**
+**27 systems, 134,842 codes, ~55,334 crosswalk edges.**
 
 | System | Region | Codes |
 |--------|--------|-------|
@@ -34,6 +34,7 @@ WorldOfTaxanomy is a unified global industry classification knowledge graph. It 
 | GHG Protocol | Global (WRI/WBCSD) | 20 |
 | ESCO Occupations | Europe / Global (EU Commission) | ~2,942 |
 | ESCO Skills | Europe / Global (EU Commission) | ~13,890 |
+| O*NET-SOC | United States (DOL) | ~867 |
 | ICD-11 MMS | Global (WHO) | (manual download required) |
 | LOINC | Global (Regenstrief) | (manual download required) |
 
