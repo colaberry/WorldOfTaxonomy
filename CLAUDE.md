@@ -4,7 +4,7 @@
 
 WorldOfTaxanomy is a unified global industry classification knowledge graph. It connects 10 national/international classification systems as equal peers through equivalence mappings (crosswalk edges).
 
-**20 systems, 110,484 codes, 46,220 crosswalk edges.**
+**20 systems, 110,484 codes, 49,450 crosswalk edges.**
 
 | System | Region | Codes |
 |--------|--------|-------|

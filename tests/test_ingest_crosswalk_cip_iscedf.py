@@ -62,22 +62,22 @@ def test_ingest_crosswalk_cip_iscedf(db_pool):
             # ~1807 valid pairs x 2 directions
             assert count >= 3000, f"Expected >= 3000 edges, got {count}"
 
-            # Forward: CIP "01.0000" -> ISCED "0810" (exact match, no asterisk in source)
+            # Forward: CIP "15.0506" -> ISCED "1021" (exact match, no asterisk in source)
             fwd = await conn.fetchrow(
                 "SELECT match_type FROM equivalence "
-                "WHERE source_system = 'cip_2020' AND source_code = '01.0000' "
-                "AND target_system = 'iscedf_2013' AND target_code = '0810'"
+                "WHERE source_system = 'cip_2020' AND source_code = '15.0506' "
+                "AND target_system = 'iscedf_2013' AND target_code = '1021'"
             )
-            assert fwd is not None, "Forward edge cip_2020:01.0000 -> iscedf_2013:0810 missing"
+            assert fwd is not None, "Forward edge cip_2020:15.0506 -> iscedf_2013:1021 missing"
             assert fwd["match_type"] == "exact"
 
-            # Reverse: ISCED "0810" -> CIP "01.0000"
+            # Reverse: ISCED "1021" -> CIP "15.0506"
             rev = await conn.fetchrow(
                 "SELECT match_type FROM equivalence "
-                "WHERE source_system = 'iscedf_2013' AND source_code = '0810' "
-                "AND target_system = 'cip_2020' AND target_code = '01.0000'"
+                "WHERE source_system = 'iscedf_2013' AND source_code = '1021' "
+                "AND target_system = 'cip_2020' AND target_code = '15.0506'"
             )
-            assert rev is not None, "Reverse edge iscedf_2013:0810 -> cip_2020:01.0000 missing"
+            assert rev is not None, "Reverse edge iscedf_2013:1021 -> cip_2020:15.0506 missing"
             assert rev["match_type"] == "exact"
 
             # Partial match: CIP "01.0101" -> ISCED "0811" (asterisk stripped, partial)
