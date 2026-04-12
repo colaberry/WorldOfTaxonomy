@@ -82,6 +82,16 @@ data/nic/
 data/sic/
 data/noga/
 data/wz/
+data/hs2022.csv
+data/hs_isic_wits.csv
+data/cpc_v21.txt
+data/cpc21_hs2017.csv
+data/cpc21_isic4.txt
+data/unspsc_v24.csv
+data/soc_2018.csv
+data/soc2010_isco08.csv
+data/isco_08.csv
+data/un_m49_raw.csv
 
 # Next.js frontend
 frontend/node_modules/
