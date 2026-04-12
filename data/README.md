@@ -11,6 +11,7 @@ This directory holds downloaded classification data files. Files are auto-downlo
 | Crosswalk | U.S. Census Bureau | https://www.census.gov/naics/concordances/2022_NAICS_to_ISIC_Rev_4.xlsx |
 | ISO 3166-1 Countries | lukes/ISO-3166-Countries-with-Regional-Codes (CC0) | https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv |
 | ISO 3166-2 Subdivisions | pycountry library (no file download - uses pycountry in-memory) | pip install pycountry |
+| UN M.49 Geographic Regions | lukes/ISO-3166-Countries-with-Regional-Codes (reuses iso3166_all.csv, CC0) | https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv |
 
 ## Re-downloading
 

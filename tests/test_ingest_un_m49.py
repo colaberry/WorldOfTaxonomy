@@ -63,11 +63,11 @@ class TestUnM49DetermineParent:
 
 
 def test_ingest_un_m49_from_csv(db_pool):
-    """Integration test - ingest from downloaded CSV."""
+    """Integration test - ingest from the shared iso3166_all.csv file."""
     import asyncio
     from pathlib import Path
 
-    data_path = Path("data/un_m49.csv")
+    data_path = Path("data/iso3166_all.csv")
     if not data_path.exists():
         pytest.skip(f"Download {data_path} first: see world_of_taxanomy/ingest/un_m49.py for URL")
 

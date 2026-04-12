@@ -61,41 +61,42 @@ LLMS_TXT = """\
 WorldOfTaxanomy is a knowledge graph that connects 10 industry classification systems used around the world. It provides a REST API and MCP server for looking up, searching, and translating between classification codes.
 
 ## Systems
-- NAICS 2022 (North America) \u2014 2,125 codes
-- NIC 2008 (India) \u2014 2,070 codes
-- SIC 1987 (USA/UK) \u2014 1,176 codes
-- NACE Rev 2 (European Union) \u2014 996 codes
-- WZ 2008 (Germany) \u2014 996 codes
-- ONACE 2008 (Austria) \u2014 996 codes
-- NOGA 2008 (Switzerland) \u2014 996 codes
-- ANZSIC 2006 (Australia/NZ) \u2014 825 codes
-- ISIC Rev 4 (Global/UN) \u2014 766 codes
-- JSIC 2013 (Japan) \u2014 20 codes
-- ISO 3166-1 Countries (Global) \u2014 271 nodes (5 continents, 17 sub-regions, 249 countries)
-- ISO 3166-2 Subdivisions (Global) \u2014 5,246 nodes (200 country stubs + 5,046 subdivisions)
+- NAICS 2022 (North America) - 2,125 codes
+- NIC 2008 (India) - 2,070 codes
+- SIC 1987 (USA/UK) - 1,176 codes
+- NACE Rev 2 (European Union) - 996 codes
+- WZ 2008 (Germany) - 996 codes
+- ONACE 2008 (Austria) - 996 codes
+- NOGA 2008 (Switzerland) - 996 codes
+- ANZSIC 2006 (Australia/NZ) - 825 codes
+- ISIC Rev 4 (Global/UN) - 766 codes
+- JSIC 2013 (Japan) - 20 codes
+- ISO 3166-1 Countries (Global) - 271 nodes (5 continents, 17 sub-regions, 249 countries)
+- ISO 3166-2 Subdivisions (Global) - 5,246 nodes (200 country stubs + 5,046 subdivisions)
+- UN M.49 Geographic Regions (Global) - 272 nodes (World, 5 regions, 24 sub-regions, 249 countries)
 
 ## API
 Base URL: https://worldoftaxanomy.com/api/v1
 
-- GET /systems \u2014 List all classification systems
-- GET /systems/{id} \u2014 Get system details with root codes
-- GET /systems/{id}/nodes/{code} \u2014 Get a specific industry code
-- GET /systems/{id}/nodes/{code}/children \u2014 Get child codes
-- GET /systems/{id}/nodes/{code}/ancestors \u2014 Get parent chain
-- GET /systems/{id}/nodes/{code}/equivalences \u2014 Get cross-system mappings
-- GET /systems/{id}/nodes/{code}/translations \u2014 Translate to all other systems at once
-- GET /systems/{id}/nodes/{code}/siblings \u2014 Sibling codes at the same hierarchy level
-- GET /systems/{id}/nodes/{code}/subtree \u2014 Summary stats for all codes below this node
-- GET /search?q={query} \u2014 Search across all systems
-- GET /search?q={query}&grouped=true \u2014 Search results grouped by system
-- GET /search?q={query}&context=true \u2014 Search with ancestor path and children for each match
-- GET /compare?a={sys}&b={sys} \u2014 Side-by-side top-level sector comparison
-- GET /diff?a={sys}&b={sys} \u2014 Codes in system A with no mapping to system B
-- GET /nodes/{code} \u2014 Find all systems containing a code
-- GET /systems/stats \u2014 Leaf and total node counts per system
-- GET /systems?group_by=region \u2014 Systems grouped by geographic region
-- GET /equivalences/stats \u2014 Crosswalk statistics
-- GET /equivalences/stats?system_id={id} \u2014 Crosswalk stats filtered to one system
+- GET /systems - List all classification systems
+- GET /systems/{id} - Get system details with root codes
+- GET /systems/{id}/nodes/{code} - Get a specific industry code
+- GET /systems/{id}/nodes/{code}/children - Get child codes
+- GET /systems/{id}/nodes/{code}/ancestors - Get parent chain
+- GET /systems/{id}/nodes/{code}/equivalences - Get cross-system mappings
+- GET /systems/{id}/nodes/{code}/translations - Translate to all other systems at once
+- GET /systems/{id}/nodes/{code}/siblings - Sibling codes at the same hierarchy level
+- GET /systems/{id}/nodes/{code}/subtree - Summary stats for all codes below this node
+- GET /search?q={query} - Search across all systems
+- GET /search?q={query}&grouped=true - Search results grouped by system
+- GET /search?q={query}&context=true - Search with ancestor path and children for each match
+- GET /compare?a={sys}&b={sys} - Side-by-side top-level sector comparison
+- GET /diff?a={sys}&b={sys} - Codes in system A with no mapping to system B
+- GET /nodes/{code} - Find all systems containing a code
+- GET /systems/stats - Leaf and total node counts per system
+- GET /systems?group_by=region - Systems grouped by geographic region
+- GET /equivalences/stats - Crosswalk statistics
+- GET /equivalences/stats?system_id={id} - Crosswalk stats filtered to one system
 
 ## Authentication
 Register at https://worldoftaxanomy.com/register to get an API key.

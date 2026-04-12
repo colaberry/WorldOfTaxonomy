@@ -130,6 +130,12 @@ def cmd_ingest(args):
                 n = await ingest_crosswalk_iso3166(conn)
                 print(f"  {n} edges")
 
+            if target in ("un_m49", "all"):
+                from world_of_taxanomy.ingest.un_m49 import ingest_un_m49
+                print("\n-- UN M.49 Geographic Regions --")
+                n = await ingest_un_m49(conn)
+                print(f"  {n} nodes")
+
         await close_pool()
 
     _run(_ingest())
@@ -338,7 +344,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_ingest = sub.add_parser("ingest", help="Ingest classification data")
     p_ingest.add_argument(
         "target",
-        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "all"],
+        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "all"],
         help="What to ingest",
     )
 

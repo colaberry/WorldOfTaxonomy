@@ -20,6 +20,7 @@ Attribution and licensing information for all classification systems in WorldOfT
 | `jsic_2013` | Japan Standard Industrial Classification | 2013 | Japan | Statistics Bureau of Japan | Open | https://www.stat.go.jp/english/index/seido/sangyo/pdf/jsicrev13e.pdf |
 | `iso_3166_1` | ISO 3166-1 Countries (with UN M.49 regional hierarchy) | 2023 | Global | ISO / UN Statistics Division | CC0 | https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes |
 | `iso_3166_2` | ISO 3166-2 Country Subdivisions (states, provinces, regions) | 2023 | Global | ISO (via pycountry library) | LGPL (library); ISO data publicly available | https://pypi.org/project/pycountry/ |
+| `un_m49` | UN M.49 Standard Country or Area Codes for Statistical Use | 2023 | Global | United Nations Statistics Division | Open | https://unstats.un.org/unsd/methodology/m49/overview |
 
 ---
 
