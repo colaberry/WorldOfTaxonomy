@@ -61,9 +61,9 @@ def test_ingest_crosswalk_soc_naics(db_pool):
     async def _run():
         async with db_pool.acquire() as conn:
             from world_of_taxanomy.ingest.soc_2018 import ingest_soc_2018
-            from world_of_taxanomy.ingest.naics import ingest_naics
+            from world_of_taxanomy.ingest.naics import ingest_naics_2022
             await ingest_soc_2018(conn)
-            await ingest_naics(conn)
+            await ingest_naics_2022(conn)
 
             count = await ingest_crosswalk_soc_naics(conn)
             assert count >= 40
@@ -82,9 +82,9 @@ def test_ingest_crosswalk_soc_naics_idempotent(db_pool):
     async def _run():
         async with db_pool.acquire() as conn:
             from world_of_taxanomy.ingest.soc_2018 import ingest_soc_2018
-            from world_of_taxanomy.ingest.naics import ingest_naics
+            from world_of_taxanomy.ingest.naics import ingest_naics_2022
             await ingest_soc_2018(conn)
-            await ingest_naics(conn)
+            await ingest_naics_2022(conn)
 
             count1 = await ingest_crosswalk_soc_naics(conn)
             count2 = await ingest_crosswalk_soc_naics(conn)
