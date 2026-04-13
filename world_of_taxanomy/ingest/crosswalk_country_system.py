@@ -356,6 +356,138 @@ COUNTRY_SYSTEM_LINKS: list[tuple[str, str, str, Optional[str]]] = [
     ("ZA", "isic_rev4", "recommended", "South Africa SIC is ISIC Rev 4 aligned"),
     ("ZM", "isic_rev4", "recommended", "UN recommended global standard"),
     ("ZW", "isic_rev4", "recommended", "UN recommended global standard"),
+
+    # -----------------------------------------------------------------------
+    # US official systems beyond industry
+    # -----------------------------------------------------------------------
+    ("US", "soc_2018",     "official",  "US Bureau of Labor Statistics Standard Occupational Classification"),
+    ("US", "onet_soc",     "official",  "US DOL O*NET - detailed occupational information system"),
+    ("US", "cip_2020",     "official",  "US NCES Classification of Instructional Programs"),
+    ("US", "cfr_title_49", "official",  "US Code of Federal Regulations Title 49 - Transportation"),
+    ("US", "fmcsa_regs",   "official",  "US FMCSA motor carrier safety regulations"),
+    ("US", "loinc",        "recommended", "LOINC de facto standard for clinical observations in US healthcare"),
+    ("US", "patent_cpc",   "recommended", "USPTO uses CPC jointly with EPO for patent classification"),
+
+    # -----------------------------------------------------------------------
+    # Australia / New Zealand occupational
+    # -----------------------------------------------------------------------
+    ("AU", "anzsco_2022", "official", "Australian and New Zealand Standard Classification of Occupations"),
+    ("NZ", "anzsco_2022", "official", "New Zealand co-maintains ANZSCO with Australia"),
+
+    # -----------------------------------------------------------------------
+    # EU / EEA - GDPR and ESCO (regional)
+    # -----------------------------------------------------------------------
+    ("AT", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("BE", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("BG", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("CY", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("CZ", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("DE", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("DK", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("EE", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("ES", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("FI", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("FR", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("GR", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("HR", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("HU", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("IE", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("IT", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("LT", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("LU", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("LV", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("MT", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("NL", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("PL", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("PT", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("RO", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("SE", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("SI", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("SK", "gdpr_articles", "regional", "EU member - GDPR applies directly"),
+    ("GB", "gdpr_articles", "historical", "UK GDPR - retained post-Brexit with equivalent provisions"),
+    ("IS", "gdpr_articles", "regional", "EEA member - GDPR applies via EEA Agreement"),
+    ("LI", "gdpr_articles", "regional", "EEA member - GDPR applies via EEA Agreement"),
+    ("NO", "gdpr_articles", "regional", "EEA member - GDPR applies via EEA Agreement"),
+
+    ("AT", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("BE", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("BG", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("CY", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("CZ", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("DE", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("DK", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("EE", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("ES", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("FI", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("FR", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("GR", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("HR", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("HU", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("IE", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("IT", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("LT", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("LU", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("LV", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("MT", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("NL", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("PL", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("PT", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("RO", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("SE", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("SI", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+    ("SK", "esco_occupations", "regional", "EU member - ESCO is the EU multilingual occupational taxonomy"),
+
+    ("AT", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("BE", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("BG", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("CY", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("CZ", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("DE", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("DK", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("EE", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("ES", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("FI", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("FR", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("GR", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("HR", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("HU", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("IE", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("IT", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("LT", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("LU", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("LV", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("MT", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("NL", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("PL", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("PT", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("RO", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("SE", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("SI", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+    ("SK", "esco_skills", "regional", "EU member - ESCO skills taxonomy"),
+]
+
+# ---------------------------------------------------------------------------
+# Global standards - added programmatically to avoid listing ~250 rows each
+#
+# Every country already linked via isic_rev4 also uses these UN/WHO/ILO/UNESCO
+# international standards. relevance = 'recommended' for all.
+# ---------------------------------------------------------------------------
+_ISIC_COUNTRIES: list[str] = [
+    cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "isic_rev4"
+]
+
+_GLOBAL_SYSTEMS: list[tuple[str, str]] = [
+    ("hs_2022",    "WCO Harmonized System 2022 - universal trade classification"),
+    ("icd_11",     "WHO ICD-11 - global health and disease classification"),
+    ("isco_08",    "ILO ISCO-08 - global occupational standard"),
+    ("isced_2011", "UNESCO ISCED 2011 - education level classification"),
+    ("cofog",      "UN COFOG - government function classification"),
+]
+
+COUNTRY_SYSTEM_LINKS = COUNTRY_SYSTEM_LINKS + [
+    (cc, sid, "recommended", note)
+    for sid, note in _GLOBAL_SYSTEMS
+    for cc in _ISIC_COUNTRIES
 ]
 
 

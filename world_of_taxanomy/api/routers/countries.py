@@ -31,8 +31,23 @@ async def get_countries_stats(conn=Depends(get_conn)):
         """SELECT
              csl.country_code,
              COUNT(DISTINCT csl.system_id) AS system_count,
+             COUNT(DISTINCT CASE
+               WHEN csl.relevance IN ('official', 'regional', 'historical')
+               THEN csl.system_id END) AS country_specific_count,
              BOOL_OR(csl.relevance = 'official') AS has_official,
-             COALESCE(ss.strength_count, 0) AS sector_strength_count
+             COALESCE(ss.strength_count, 0) AS sector_strength_count,
+             (
+               SELECT csl2.system_id
+               FROM country_system_link csl2
+               WHERE csl2.country_code = csl.country_code
+                 AND csl2.relevance IN ('official', 'regional', 'historical')
+               ORDER BY CASE csl2.relevance
+                 WHEN 'official'     THEN 1
+                 WHEN 'regional'     THEN 2
+                 WHEN 'historical'   THEN 3
+               END
+               LIMIT 1
+             ) AS primary_system_id
            FROM country_system_link csl
            LEFT JOIN (
              SELECT source_code AS country_code, COUNT(*) AS strength_count

@@ -117,6 +117,114 @@ class TestCountrySystemLinks:
             if note:
                 assert "\u2014" not in note, f"Em-dash found in note: {note}"
 
+    # --- Global systems: every country should have these ---
+
+    def test_all_isic_countries_have_hs2022(self):
+        """Every country linked to ISIC should also link to HS 2022 (global trade)."""
+        isic_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "isic_rev4"}
+        hs_countries   = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "hs_2022"}
+        missing = isic_countries - hs_countries
+        assert not missing, f"Countries missing hs_2022: {sorted(missing)}"
+
+    def test_all_isic_countries_have_icd11(self):
+        """Every country linked to ISIC should also link to ICD-11 (global health)."""
+        isic_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "isic_rev4"}
+        icd_countries  = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "icd_11"}
+        missing = isic_countries - icd_countries
+        assert not missing, f"Countries missing icd_11: {sorted(missing)}"
+
+    def test_all_isic_countries_have_isco08(self):
+        """Every country linked to ISIC should also link to ISCO-08 (global occupational)."""
+        isic_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "isic_rev4"}
+        isco_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "isco_08"}
+        missing = isic_countries - isco_countries
+        assert not missing, f"Countries missing isco_08: {sorted(missing)}"
+
+    def test_all_isic_countries_have_isced2011(self):
+        """Every country linked to ISIC should also link to ISCED 2011 (global education)."""
+        isic_countries  = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "isic_rev4"}
+        isced_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "isced_2011"}
+        missing = isic_countries - isced_countries
+        assert not missing, f"Countries missing isced_2011: {sorted(missing)}"
+
+    def test_all_isic_countries_have_cofog(self):
+        """Every country linked to ISIC should also link to COFOG (government functions)."""
+        isic_countries  = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "isic_rev4"}
+        cofog_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "cofog"}
+        missing = isic_countries - cofog_countries
+        assert not missing, f"Countries missing cofog: {sorted(missing)}"
+
+    # --- Country-specific official systems ---
+
+    def test_us_has_soc_official(self):
+        us = {sid: rel for cc, sid, rel, _ in COUNTRY_SYSTEM_LINKS if cc == "US"}
+        assert "soc_2018" in us, "US should have soc_2018"
+        assert us["soc_2018"] == "official"
+
+    def test_us_has_onet_official(self):
+        us = {sid: rel for cc, sid, rel, _ in COUNTRY_SYSTEM_LINKS if cc == "US"}
+        assert "onet_soc" in us, "US should have onet_soc"
+        assert us["onet_soc"] == "official"
+
+    def test_us_has_cip_official(self):
+        us = {sid: rel for cc, sid, rel, _ in COUNTRY_SYSTEM_LINKS if cc == "US"}
+        assert "cip_2020" in us, "US should have cip_2020"
+        assert us["cip_2020"] == "official"
+
+    def test_us_has_cfr49_official(self):
+        us = {sid: rel for cc, sid, rel, _ in COUNTRY_SYSTEM_LINKS if cc == "US"}
+        assert "cfr_title_49" in us, "US should have cfr_title_49"
+        assert us["cfr_title_49"] == "official"
+
+    def test_us_has_fmcsa_official(self):
+        us = {sid: rel for cc, sid, rel, _ in COUNTRY_SYSTEM_LINKS if cc == "US"}
+        assert "fmcsa_regs" in us, "US should have fmcsa_regs"
+        assert us["fmcsa_regs"] == "official"
+
+    def test_us_system_count_at_least_10(self):
+        us_systems = [sid for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if cc == "US"]
+        assert len(us_systems) >= 10, f"US should have >= 10 systems, got {len(us_systems)}"
+
+    def test_australia_has_anzsco_official(self):
+        au = {sid: rel for cc, sid, rel, _ in COUNTRY_SYSTEM_LINKS if cc == "AU"}
+        assert "anzsco_2022" in au, "Australia should have anzsco_2022"
+        assert au["anzsco_2022"] == "official"
+
+    def test_nz_has_anzsco_official(self):
+        nz = {sid: rel for cc, sid, rel, _ in COUNTRY_SYSTEM_LINKS if cc == "NZ"}
+        assert "anzsco_2022" in nz, "New Zealand should have anzsco_2022"
+        assert nz["anzsco_2022"] == "official"
+
+    # --- EU regional systems ---
+
+    def test_eu_countries_have_gdpr_regional(self):
+        eu = {"AT","BE","BG","CY","CZ","DE","DK","EE","ES","FI",
+              "FR","GR","HR","HU","IE","IT","LT","LU","LV","MT",
+              "NL","PL","PT","RO","SE","SI","SK"}
+        gdpr_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "gdpr_articles"}
+        missing = eu - gdpr_countries
+        assert not missing, f"EU countries missing gdpr: {sorted(missing)}"
+
+    def test_eu_countries_have_esco_occupations(self):
+        eu = {"AT","BE","BG","CY","CZ","DE","DK","EE","ES","FI",
+              "FR","GR","HR","HU","IE","IT","LT","LU","LV","MT",
+              "NL","PL","PT","RO","SE","SI","SK"}
+        esco_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "esco_occupations"}
+        missing = eu - esco_countries
+        assert not missing, f"EU countries missing esco_occupations: {sorted(missing)}"
+
+    def test_eu_countries_have_esco_skills(self):
+        eu = {"AT","BE","BG","CY","CZ","DE","DK","EE","ES","FI",
+              "FR","GR","HR","HU","IE","IT","LT","LU","LV","MT",
+              "NL","PL","PT","RO","SE","SI","SK"}
+        esco_countries = {cc for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if sid == "esco_skills"}
+        missing = eu - esco_countries
+        assert not missing, f"EU countries missing esco_skills: {sorted(missing)}"
+
+    def test_germany_system_count_at_least_8(self):
+        de_systems = [sid for cc, sid, _, _ in COUNTRY_SYSTEM_LINKS if cc == "DE"]
+        assert len(de_systems) >= 8, f"DE should have >= 8 systems, got {len(de_systems)}"
+
 
 def test_ingest_crosswalk_country_system(db_pool):
     async def _run():

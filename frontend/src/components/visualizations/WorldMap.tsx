@@ -7,6 +7,7 @@ import * as d3 from 'd3'
 import { useQuery } from '@tanstack/react-query'
 import { getCountriesStats } from '@/lib/api'
 import type { CountryStat } from '@/lib/api'
+import { getSystemColor } from '@/lib/colors'
 
 // Country name -> ISO 3166-1 alpha-2 lookup
 // Covers the names used by the holtzy world.geojson dataset
@@ -25,7 +26,7 @@ const NAME_TO_ALPHA2: Record<string, string> = {
   'El Salvador': 'SV', Eritrea: 'ER', Estonia: 'EE', Ethiopia: 'ET',
   Finland: 'FI', France: 'FR', Gabon: 'GA', Georgia: 'GE', Germany: 'DE',
   Ghana: 'GH', Greece: 'GR', Guatemala: 'GT', Guinea: 'GN',
-  'Guinea-Bissau': 'GW', Haiti: 'HT', Honduras: 'HN', Hungary: 'HU',
+  'Guinea-Bissau': 'GW', 'Guinea Bissau': 'GW', Haiti: 'HT', Honduras: 'HN', Hungary: 'HU',
   Iceland: 'IS', India: 'IN', Indonesia: 'ID', Iran: 'IR', Iraq: 'IQ',
   Ireland: 'IE', Israel: 'IL', Italy: 'IT', Jamaica: 'JM', Japan: 'JP',
   Jordan: 'JO', Kazakhstan: 'KZ', Kenya: 'KE', Kuwait: 'KW',
@@ -52,7 +53,29 @@ const NAME_TO_ALPHA2: Record<string, string> = {
   Uzbekistan: 'UZ', Venezuela: 'VE', Vietnam: 'VN', Yemen: 'YE',
   Zambia: 'ZM', Zimbabwe: 'ZW', Kosovo: 'XK', Palestine: 'PS',
   'Western Sahara': 'EH', Greenland: 'GL', 'Puerto Rico': 'PR',
-  'New Caledonia': 'NC', 'French Guiana': 'GF',
+  'New Caledonia': 'NC', 'French Guiana': 'FR',
+  // GeoJSON-specific name variants
+  'USA': 'US',
+  'Republic of Serbia': 'RS',
+  'Republic of the Congo': 'CG',
+  'United Republic of Tanzania': 'TZ',
+  'North Macedonia': 'MK', 'Macedonia': 'MK',
+  'Montenegro': 'ME',
+  'Ivory Coast': 'CI',
+  'The Bahamas': 'BS',
+  'Trinidad and Tobago': 'TT',
+  'Belize': 'BZ',
+  'Bhutan': 'BT',
+  'Brunei': 'BN',
+  'East Timor': 'TL',
+  'Equatorial Guinea': 'GQ',
+  'Falkland Islands': 'FK',
+  'Fiji': 'FJ',
+  'Gambia': 'GM',
+  'Guyana': 'GY',
+  'Solomon Islands': 'SB',
+  'Swaziland': 'SZ',
+  'Vanuatu': 'VU',
 }
 
 interface GeoFeature {
@@ -152,9 +175,13 @@ export function WorldMap() {
             if (!alpha2) return landBase
             const stat = statsMap.get(alpha2)
             if (!stat) return landBase
-            if (stat.has_official) return officialColor
-            if (stat.system_count >= 2) return highlightColor
-            return isDark ? '#475569' : '#94a3b8'
+            if (stat.primary_system_id) {
+              // Color by the primary classification system's tint
+              const base = getSystemColor(stat.primary_system_id)
+              return base
+            }
+            // Only global recommendations - muted slate
+            return isDark ? '#334155' : '#94a3b8'
           })
           .attr('stroke', borderColor)
           .attr('stroke-width', 0.4)
@@ -191,6 +218,48 @@ export function WorldMap() {
               router.push(`/country/${alpha2}`)
             }
           })
+
+        // Draw system-count labels on countries large enough to show a number
+        const MIN_AREA = 150 // projected pixel² threshold - skip tiny islands/territories
+        g.selectAll('text.country-count')
+          .data(
+            geo.features.filter((d) => {
+              const alpha2 = NAME_TO_ALPHA2[d.properties.name]
+              if (!alpha2) return false
+              if (!statsMap.has(alpha2)) return false
+              const area = pathGen.area(d as unknown as d3.GeoPermissibleObjects)
+              return area >= MIN_AREA
+            })
+          )
+          .enter()
+          .append('text')
+          .attr('class', 'country-count')
+          .attr('x', (d) => {
+            const [cx] = pathGen.centroid(d as unknown as d3.GeoPermissibleObjects)
+            return isNaN(cx) ? -9999 : cx
+          })
+          .attr('y', (d) => {
+            const [, cy] = pathGen.centroid(d as unknown as d3.GeoPermissibleObjects)
+            return isNaN(cy) ? -9999 : cy
+          })
+          .attr('text-anchor', 'middle')
+          .attr('dominant-baseline', 'middle')
+          .attr('font-size', 8)
+          .attr('font-weight', '600')
+          .attr('font-family', 'ui-monospace, monospace')
+          .attr('fill', 'white')
+          .attr('pointer-events', 'none')
+          .style('paint-order', 'stroke')
+          .style('stroke', isDark ? '#0f172a' : '#475569')
+          .style('stroke-width', '2.5px')
+          .style('stroke-linejoin', 'round')
+          .text((d) => {
+            const alpha2 = NAME_TO_ALPHA2[d.properties.name]
+            const stat = statsMap.get(alpha2!)
+            if (!stat) return ''
+            // Show country-specific count if any, otherwise total
+            return String(stat.country_specific_count > 0 ? stat.country_specific_count : stat.system_count)
+          })
       })
       .catch(() => {
         // GeoJSON failed - show fallback message
@@ -214,20 +283,16 @@ export function WorldMap() {
       {/* Legend */}
       <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-muted-foreground">
         <span className="flex items-center gap-1.5">
-          <span className="inline-block w-3 h-3 rounded-sm bg-green-500" />
-          Has official national standard
+          <span className="inline-block w-3 h-3 rounded-sm" style={{ background: 'linear-gradient(135deg, #F59E0B, #14B8A6, #6366F1, #F43F5E)' }} />
+          Colored by primary classification system
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block w-3 h-3 rounded-sm bg-blue-500" />
-          Regional / UN coverage
+          <span className="inline-block w-3 h-3 rounded-sm bg-slate-500" />
+          Global standards only (ISIC / UN)
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block w-3 h-3 rounded-sm bg-slate-400" />
-          UN recommended only
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span className="inline-block w-3 h-3 rounded-sm bg-slate-700 dark:bg-slate-700" />
-          No data yet
+          <span className="inline-block w-3 h-3 rounded-sm bg-slate-800 dark:bg-slate-900" />
+          No data
         </span>
       </div>
 
@@ -255,8 +320,19 @@ export function WorldMap() {
             </p>
             {tooltip.stat ? (
               <div className="mt-1 space-y-0.5 text-muted-foreground">
-                <p>{tooltip.stat.system_count} classification {tooltip.stat.system_count === 1 ? 'system' : 'systems'}</p>
-                {tooltip.stat.has_official && <p className="text-green-500">Has official national standard</p>}
+                {tooltip.stat.country_specific_count > 0 && (
+                  <p>
+                    <span className="text-foreground font-medium">{tooltip.stat.country_specific_count}</span>
+                    {' '}country-specific
+                    {tooltip.stat.has_official && <span className="ml-1 text-green-500">&#9679; official</span>}
+                  </p>
+                )}
+                <p>
+                  <span className="text-foreground font-medium">
+                    {tooltip.stat.system_count - tooltip.stat.country_specific_count}
+                  </span>
+                  {' '}global standards
+                </p>
                 {tooltip.stat.sector_strength_count > 0 && (
                   <p>{tooltip.stat.sector_strength_count} sector {tooltip.stat.sector_strength_count === 1 ? 'strength' : 'strengths'}</p>
                 )}

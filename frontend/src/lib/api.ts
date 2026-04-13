@@ -98,8 +98,10 @@ export async function getStats(): Promise<CrosswalkStat[]> {
 export interface CountryStat {
   country_code: string
   system_count: number
+  country_specific_count: number
   has_official: boolean
   sector_strength_count: number
+  primary_system_id: string | null
 }
 
 export async function getCountriesStats(): Promise<CountryStat[]> {

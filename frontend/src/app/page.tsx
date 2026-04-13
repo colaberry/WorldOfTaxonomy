@@ -1,15 +1,18 @@
 'use client'
 
+import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { getSystems, getStats } from '@/lib/api'
 import { GalaxyView } from '@/components/visualizations/GalaxyView'
 import { WorldMap } from '@/components/visualizations/WorldMap'
 import { IndustryMap } from '@/components/IndustryMap'
-import { SYSTEM_CATEGORIES, groupSystemsByCategory } from '@/lib/categories'
+import { SYSTEM_CATEGORIES, groupSystemsByCategory, getCategoryForSystem } from '@/lib/categories'
 import Link from 'next/link'
 import { Globe, GitBranch, Network, ArrowRight, Search } from 'lucide-react'
 
 export default function HomePage() {
+  const [galaxyCat, setGalaxyCat] = useState('')
+
   const { data: systems, isLoading: loadingSystems } = useQuery({
     queryKey: ['systems'],
     queryFn: getSystems,
@@ -99,6 +102,71 @@ export default function HomePage() {
         <WorldMap />
       </div>
 
+      {/* ── Galaxy View ── */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full space-y-4">
+        <div className="flex items-start justify-between gap-4 flex-wrap">
+          <div>
+            <h2 className="text-lg font-semibold tracking-tight">Classification Galaxy</h2>
+            <p className="text-sm text-muted-foreground">
+              Each orb is a classification system - size reflects node count, edges show crosswalk connections
+            </p>
+          </div>
+        </div>
+
+        {/* Category filter tabs */}
+        {systems && (
+          <div className="flex flex-wrap gap-1.5">
+            <button
+              onClick={() => setGalaxyCat('')}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                !galaxyCat
+                  ? 'bg-primary text-primary-foreground'
+                  : 'bg-secondary text-muted-foreground hover:text-foreground'
+              }`}
+            >
+              All
+            </button>
+            {SYSTEM_CATEGORIES.map((cat) => {
+              const count = systems.filter((s) => getCategoryForSystem(s.id).id === cat.id).length
+              if (count === 0) return null
+              return (
+                <button
+                  key={cat.id}
+                  onClick={() => setGalaxyCat(galaxyCat === cat.id ? '' : cat.id)}
+                  className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                    galaxyCat === cat.id
+                      ? 'text-white'
+                      : 'bg-secondary text-muted-foreground hover:text-foreground'
+                  }`}
+                  style={galaxyCat === cat.id ? { backgroundColor: cat.accent } : {}}
+                >
+                  {cat.label}
+                  <span className="ml-1 opacity-60">{count}</span>
+                </button>
+              )
+            })}
+          </div>
+        )}
+
+        {loadingSystems || loadingStats ? (
+          <div className="w-full aspect-[16/10] max-h-[600px] rounded-xl bg-card border border-border/50 flex items-center justify-center">
+            <div className="flex flex-col items-center gap-3 text-muted-foreground">
+              <div className="h-8 w-8 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+              <span className="text-sm">Loading galaxy...</span>
+            </div>
+          </div>
+        ) : systems && stats ? (
+          <GalaxyView
+            systems={galaxyCat ? systems.filter((s) => getCategoryForSystem(s.id).id === galaxyCat) : systems}
+            stats={stats}
+          />
+        ) : null}
+
+        <p className="text-center text-xs text-muted-foreground">
+          Click any system to explore its hierarchy. Drag to rearrange.
+        </p>
+      </div>
+
       {/* ── Browse by Category ── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full space-y-4">
         <div>
@@ -153,31 +221,6 @@ export default function HomePage() {
           </p>
         </div>
         <IndustryMap />
-      </div>
-
-      {/* ── Galaxy View ── */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full space-y-4">
-        <div>
-          <h2 className="text-lg font-semibold tracking-tight">Classification Galaxy</h2>
-          <p className="text-sm text-muted-foreground">
-            Each orb is a classification system - size reflects node count, edges show crosswalk connections
-          </p>
-        </div>
-
-        {loadingSystems || loadingStats ? (
-          <div className="w-full aspect-[16/10] max-h-[600px] rounded-xl bg-card border border-border/50 flex items-center justify-center">
-            <div className="flex flex-col items-center gap-3 text-muted-foreground">
-              <div className="h-8 w-8 border-2 border-primary border-t-transparent rounded-full animate-spin" />
-              <span className="text-sm">Loading galaxy...</span>
-            </div>
-          </div>
-        ) : systems && stats ? (
-          <GalaxyView systems={systems} stats={stats} />
-        ) : null}
-
-        <p className="text-center text-xs text-muted-foreground">
-          Click any system to explore its hierarchy. Drag to rearrange.
-        </p>
       </div>
     </div>
   )

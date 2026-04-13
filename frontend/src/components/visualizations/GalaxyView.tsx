@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { useTheme } from 'next-themes'
 import * as d3 from 'd3'
 import type { ClassificationSystem, CrosswalkStat } from '@/lib/types'
+import { getSystemColor } from '@/lib/colors'
 
 interface Props {
   systems: ClassificationSystem[]
@@ -38,11 +39,11 @@ export function GalaxyView({ systems, stats }: Props) {
     el.innerHTML = ''
 
     const width = el.clientWidth
-    const height = el.clientHeight || 500
+    const height = el.clientHeight || 700
     const isMobile = width < 600
 
-    const maxRadius = isMobile ? 35 : 55
-    const minRadius = isMobile ? 18 : 25
+    const maxRadius = isMobile ? 38 : 58
+    const minRadius = isMobile ? 20 : 27
     const maxNodeCount = Math.max(...systems.map((s) => s.node_count))
 
     const nodes: GalaxyNode[] = systems.map((s, i) => {
@@ -52,7 +53,7 @@ export function GalaxyView({ systems, stats }: Props) {
         name: s.name,
         nodeCount: s.node_count,
         radius: minRadius + t * (maxRadius - minRadius),
-        color: s.tint_color || '#3B82F6',
+        color: getSystemColor(s.id),
         phase: (i / systems.length) * Math.PI * 2,
         breathSpeed: 0.4 + Math.random() * 0.3,
       }
@@ -130,18 +131,18 @@ export function GalaxyView({ systems, stats }: Props) {
     }
 
     // Force simulation
-    const padding = maxRadius + 15
-    const linkDist = isMobile ? 60 : 100
-    const chargeStrength = isMobile ? -120 : -200
+    const padding = maxRadius + 20
+    const linkDist = isMobile ? 80 : 140
+    const chargeStrength = isMobile ? -180 : -380
 
     const simulation = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink<GalaxyNode, GalaxyLink>(links).id((d) => d.id).distance(linkDist).strength(0.5))
+      .force('link', d3.forceLink<GalaxyNode, GalaxyLink>(links).id((d) => d.id).distance(linkDist).strength(0.4))
       .force('charge', d3.forceManyBody().strength(chargeStrength))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide<GalaxyNode>().radius((d) => d.radius + (isMobile ? 8 : 12)))
-      .force('x', d3.forceX(width / 2).strength(0.08))
-      .force('y', d3.forceY(height / 2).strength(0.08))
-      .velocityDecay(0.4)
+      .force('collision', d3.forceCollide<GalaxyNode>().radius((d) => d.radius + (isMobile ? 14 : 22)))
+      .force('x', d3.forceX(width / 2).strength(0.05))
+      .force('y', d3.forceY(height / 2).strength(0.05))
+      .velocityDecay(0.45)
 
     // Edges
     const linkLine = svg.append('g')
@@ -220,31 +221,61 @@ export function GalaxyView({ systems, stats }: Props) {
       .attr('fill', (d) => d.color)
       .attr('fill-opacity', 0.4)
 
-    // Labels - white text with shadow for legibility on both themes
-    const fontSize = isMobile ? '10px' : '12px'
-    const countSize = isMobile ? '8px' : '10px'
+    // Labels - all nodes get a name; size/truncation scales with orb radius
     const fontWeight = '600'
+
+    // Thresholds (radius px)
+    const LARGE  = isMobile ? 34 : 38  // full name + code count
+    const MEDIUM = isMobile ? 27 : 30  // full name, no count
+
+    function truncate(str: string, max: number) {
+      return str.length <= max ? str : str.slice(0, max - 1) + '\u2026'
+    }
 
     node.append('text')
       .attr('text-anchor', 'middle')
-      .attr('dy', -5)
+      .attr('dy', (d) => d.radius >= LARGE ? -6 : 1)
       .attr('fill', textColor)
-      .attr('font-size', fontSize)
+      .attr('font-size', (d) => {
+        if (d.radius >= LARGE)  return isMobile ? '10px' : '12px'
+        if (d.radius >= MEDIUM) return isMobile ?  '9px' : '10px'
+        return isMobile ? '8px' : '9px'
+      })
       .attr('font-weight', fontWeight)
       .attr('pointer-events', 'none')
       .attr('filter', 'url(#text-bg)')
-      .text((d) => d.name)
+      .text((d) => {
+        if (d.radius >= LARGE)  return d.name
+        if (d.radius >= MEDIUM) return truncate(d.name, 18)
+        return truncate(d.name, 13)
+      })
 
-    node.append('text')
+    // Code count line only for large orbs
+    node.filter((d) => d.radius >= LARGE)
+      .append('text')
       .attr('text-anchor', 'middle')
       .attr('dy', 10)
       .attr('fill', subtextColor)
       .attr('font-family', 'var(--font-geist-mono)')
-      .attr('font-size', countSize)
+      .attr('font-size', isMobile ? '8px' : '10px')
       .attr('font-weight', '500')
       .attr('pointer-events', 'none')
       .attr('filter', 'url(#text-bg)')
       .text((d) => `${d.nodeCount.toLocaleString()} codes`)
+
+    // Hover tooltip - shows full name + count for any node on mouseover
+    const hoverLabel = svg.append('g').attr('pointer-events', 'none').attr('opacity', 0)
+    const hoverBg = hoverLabel.append('rect')
+      .attr('rx', 4).attr('ry', 4)
+      .attr('fill', isDark ? 'rgba(15,23,42,0.92)' : 'rgba(255,255,255,0.95)')
+      .attr('stroke', isDark ? '#334155' : '#cbd5e1')
+      .attr('stroke-width', 1)
+    const hoverText = hoverLabel.append('text')
+      .attr('font-size', '11px')
+      .attr('font-weight', '600')
+      .attr('fill', textColor)
+      .attr('text-anchor', 'middle')
+    const LABEL_RADIUS_THRESHOLD = MEDIUM  // keep for hover logic below
 
     // Hover
     let hoveredNode: string | null = null
@@ -267,6 +298,20 @@ export function GalaxyView({ systems, stats }: Props) {
           const tgt = (l.target as GalaxyNode).id
           return src === d.id || tgt === d.id ? 0.5 : 0.04
         })
+
+      // Show floating label for small orbs that have no persistent text
+      if (d.radius < LABEL_RADIUS_THRESHOLD) {
+        hoverText.text(d.name)
+        const textBBox = (hoverText.node() as SVGTextElement).getBBox()
+        const pad = 6
+        const bw = textBBox.width + pad * 2
+        const bh = textBBox.height + pad * 2
+        const lx = Math.min(Math.max(d.x! , bw / 2 + 4), width - bw / 2 - 4)
+        const ly = d.y! - d.radius - bh - 4
+        hoverBg.attr('x', lx - bw / 2).attr('y', ly).attr('width', bw).attr('height', bh)
+        hoverText.attr('x', lx).attr('y', ly + bh - pad)
+        hoverLabel.attr('opacity', 1)
+      }
     }).on('mouseout', function (_event, d) {
       hoveredNode = null
       d3.select(this).select('.orb')
@@ -280,6 +325,7 @@ export function GalaxyView({ systems, stats }: Props) {
         .attr('stroke-opacity', 0).attr('r', d.radius + 6)
 
       linkLine.transition().duration(300).attr('stroke-opacity', linkOpacity)
+      hoverLabel.attr('opacity', 0)
     })
 
     // Tick
@@ -372,7 +418,8 @@ export function GalaxyView({ systems, stats }: Props) {
   return (
     <div
       ref={containerRef}
-      className="w-full aspect-[16/10] max-h-[600px] rounded-lg overflow-hidden"
+      className="w-full rounded-lg overflow-hidden"
+      style={{ minHeight: 680, maxHeight: 900, aspectRatio: '4/3' }}
     />
   )
 }
