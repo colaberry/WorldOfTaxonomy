@@ -1,15 +1,57 @@
 export const SYSTEM_TINTS: Record<string, string> = {
-  naics_2022: '#F59E0B',
-  isic_rev4: '#3B82F6',
-  nace_rev2: '#6366F1',
-  sic_1987: '#78716C',
-  anzsic_2006: '#14B8A6',
-  nic_2008: '#F97316',
-  wz_2008: '#EF4444',
-  onace_2008: '#DC2626',
-  noga_2008: '#B91C1C',
-  jsic_2013: '#F43F5E',
+  // Industry
+  naics_2022:    '#F59E0B',
+  isic_rev4:     '#3B82F6',
+  nace_rev2:     '#6366F1',
+  sic_1987:      '#78716C',
+  anzsic_2006:   '#14B8A6',
+  nic_2008:      '#F97316',
+  wz_2008:       '#EF4444',
+  onace_2008:    '#DC2626',
+  noga_2008:     '#B91C1C',
+  jsic_2013:     '#F43F5E',
+
+  // Geographic
+  iso_3166_1:    '#64748B',
+  iso_3166_2:    '#94A3B8',
+  un_m49:        '#475569',
+
+  // Product / Trade
+  hs_2022:       '#D97706',
+  cpc_v21:       '#92400E',
+  unspsc_v24:    '#B45309',
+
+  // Occupational
+  isco_08:           '#2563EB',
+  soc_2018:          '#1D4ED8',
+  anzsco_2022:       '#1E40AF',
+  esco_occupations:  '#7C3AED',
+  esco_skills:       '#6D28D9',
+  onet_soc:          '#4F46E5',
+
+  // Education
+  isced_2011:    '#059669',
+  iscedf_2013:   '#047857',
+  cip_2020:      '#065F46',
+
+  // Health / Clinical
+  atc_who:       '#E11D48',
+  icd_11:        '#BE123C',
+  loinc:         '#9F1239',
+
+  // Financial / Regulatory
+  cofog:         '#0369A1',
+  gics_bridge:   '#075985',
+  ghg_protocol:  '#166534',
+  patent_cpc:    '#854D0E',
+  cfr_title_49:  '#7F1D1D',
+  fmcsa_regs:    '#991B1B',
+  gdpr:          '#5B21B6',
+  iso_31000:     '#4C1D95',
 }
+
+// All domain_* systems share a slate tint
+const DOMAIN_TINT = '#475569'
 
 export const SECTOR_COLORS: Record<string, string> = {
   // NAICS sectors
@@ -30,6 +72,7 @@ export const SECTOR_COLORS: Record<string, string> = {
 }
 
 export function getSystemColor(systemId: string): string {
+  if (systemId.startsWith('domain_')) return DOMAIN_TINT
   return SYSTEM_TINTS[systemId] || '#3B82F6'
 }
 
