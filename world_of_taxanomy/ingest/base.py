@@ -1,16 +1,20 @@
 """Base ingestion utilities - download helper and common functions."""
 
+from __future__ import annotations
+
 import io
 import urllib.request
 import ssl
 import zipfile
 from pathlib import Path
+from typing import Optional
 
 
-def ensure_data_file(url: str, local_path: Path) -> Path:
+def ensure_data_file(url: str, local_path: Path, headers: Optional[dict] = None) -> Path:
     """Download file from URL if not already on disk.
 
     Uses urllib.request (stdlib) - no requests dependency needed.
+    Optional headers dict is merged with the default User-Agent header.
     Returns the local path.
     """
     local_path = Path(local_path)
@@ -27,7 +31,11 @@ def ensure_data_file(url: str, local_path: Path) -> Path:
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
 
-    req = urllib.request.Request(url, headers={"User-Agent": "WorldOfTaxanomy/0.1"})
+    request_headers = {"User-Agent": "WorldOfTaxanomy/0.1"}
+    if headers:
+        request_headers.update(headers)
+
+    req = urllib.request.Request(url, headers=request_headers)
     with urllib.request.urlopen(req, context=ctx) as response:
         data = response.read()
         local_path.write_bytes(data)

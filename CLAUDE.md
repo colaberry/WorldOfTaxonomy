@@ -4,7 +4,7 @@
 
 WorldOfTaxanomy is a unified global industry classification knowledge graph. It connects 10 national/international classification systems as equal peers through equivalence mappings (crosswalk edges).
 
-**67 systems, ~395,968 codes, ~57,492 crosswalk edges.**
+**69 systems, ~411,781 codes, ~57,492 crosswalk edges.**
 
 | System | Region | Codes |
 |--------|--------|-------|
@@ -76,7 +76,8 @@ WorldOfTaxanomy is a unified global industry classification knowledge graph. It 
 | Domain: Public Administration Types | United States | 22 |
 | Domain: Supply Chain and Trade Terms | Global | 23 |
 | Domain: Workforce Safety and Health | United States | 24 |
-| ICD-11 MMS | Global (WHO) | (manual download required) |
+| ANZSCO 2022 | Australia / New Zealand | ~1,590 |
+| ICD-11 MMS | Global (WHO) | ~14,223 (from parquet; full CSV requires manual download) |
 | LOINC | Global (Regenstrief) | (manual download required) |
 
 Three surfaces: **Web App** (Next.js), **REST API** (FastAPI), **MCP Server** (stdio).
