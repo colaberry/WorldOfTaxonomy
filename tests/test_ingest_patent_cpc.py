@@ -28,14 +28,20 @@ WARNING: Ingesting ~260K CPC codes takes several minutes.
 Due to the large size, integration tests are always skipped unless the
 data directory exists. Unit tests verify helper functions only.
 """
+import os
 import pytest
 
 from world_of_taxanomy.ingest.patent_cpc import (
     _determine_level,
     _determine_parent,
     _determine_sector,
+    _normalize_cpc_code,
+    _parse_cpc_xml_data,
     ingest_patent_cpc,
 )
+
+_COMBINED_ZIP = "data/CPCSchemeXML202601.zip"
+_ZIP_AVAILABLE = os.path.exists(_COMBINED_ZIP)
 
 
 class TestDetermineLevel:
@@ -105,11 +111,150 @@ class TestDetermineSector:
         assert _determine_sector("H04L 9/32") == "H"
 
 
+class TestNormalizeCpcCode:
+    def test_no_slash_unchanged(self):
+        assert _normalize_cpc_code("A01B") == "A01B"
+
+    def test_already_has_space_unchanged(self):
+        assert _normalize_cpc_code("A01B 1/00") == "A01B 1/00"
+
+    def test_adds_space_to_main_group(self):
+        assert _normalize_cpc_code("A01B1/00") == "A01B 1/00"
+
+    def test_adds_space_to_subgroup(self):
+        assert _normalize_cpc_code("A01B1/02") == "A01B 1/02"
+
+    def test_adds_space_multi_digit_group(self):
+        assert _normalize_cpc_code("A01B10/00") == "A01B 10/00"
+
+    def test_adds_space_deep_subgroup(self):
+        assert _normalize_cpc_code("A01B1/022") == "A01B 1/022"
+
+    def test_section_unchanged(self):
+        assert _normalize_cpc_code("A") == "A"
+
+    def test_class_unchanged(self):
+        assert _normalize_cpc_code("A01") == "A01"
+
+
+_MINIMAL_CPC_XML = b"""<?xml version="1.0" encoding="UTF-8"?>
+<class-scheme>
+  <classification-item level="5">
+    <classification-symbol>A01B</classification-symbol>
+    <class-title><title-part><text>SOIL WORKING</text></title-part></class-title>
+    <classification-item level="6">
+      <classification-symbol>A01B1/00</classification-symbol>
+      <class-title><title-part><text>Hand tools</text></title-part></class-title>
+    </classification-item>
+    <classification-item level="8">
+      <classification-symbol>A01B1/02</classification-symbol>
+      <class-title><title-part><text>Spades</text></title-part></class-title>
+    </classification-item>
+  </classification-item>
+</class-scheme>
+"""
+
+
+class TestParseCpcXmlData:
+    def test_extracts_codes_from_child_element_symbol(self):
+        nodes = _parse_cpc_xml_data(_MINIMAL_CPC_XML)
+        codes = [code for code, _ in nodes]
+        assert "A01B" in codes
+
+    def test_normalizes_group_codes_to_space_format(self):
+        nodes = _parse_cpc_xml_data(_MINIMAL_CPC_XML)
+        codes = [code for code, _ in nodes]
+        assert "A01B 1/00" in codes
+        assert "A01B1/00" not in codes
+
+    def test_normalizes_subgroup_codes_to_space_format(self):
+        nodes = _parse_cpc_xml_data(_MINIMAL_CPC_XML)
+        codes = [code for code, _ in nodes]
+        assert "A01B 1/02" in codes
+
+    def test_extracts_titles(self):
+        nodes = _parse_cpc_xml_data(_MINIMAL_CPC_XML)
+        code_to_title = dict(nodes)
+        assert code_to_title.get("A01B") == "SOIL WORKING"
+        assert code_to_title.get("A01B 1/00") == "Hand tools"
+
+    def test_returns_list_of_tuples(self):
+        nodes = _parse_cpc_xml_data(_MINIMAL_CPC_XML)
+        assert isinstance(nodes, list)
+        assert all(isinstance(n, tuple) and len(n) == 2 for n in nodes)
+
+    def test_deduplicates_codes(self):
+        # Duplicate code in XML should appear only once
+        dup_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<class-scheme>
+  <classification-item>
+    <classification-symbol>A01B1/00</classification-symbol>
+    <class-title><title-part><text>First</text></title-part></class-title>
+  </classification-item>
+  <classification-item>
+    <classification-symbol>A01B1/00</classification-symbol>
+    <class-title><title-part><text>Duplicate</text></title-part></class-title>
+  </classification-item>
+</class-scheme>"""
+        nodes = _parse_cpc_xml_data(dup_xml)
+        codes = [code for code, _ in nodes]
+        assert codes.count("A01B 1/00") == 1
+
+
 def test_patent_cpc_module_importable():
     assert callable(ingest_patent_cpc)
     assert callable(_determine_level)
     assert callable(_determine_parent)
     assert callable(_determine_sector)
+    assert callable(_normalize_cpc_code)
+    assert callable(_parse_cpc_xml_data)
+
+
+@pytest.mark.skipif(
+    not _ZIP_AVAILABLE,
+    reason=f"Combined CPC ZIP not found at {_COMBINED_ZIP}.",
+)
+def test_ingest_patent_cpc_from_combined_zip(db_pool):
+    """Integration test: ingest Patent CPC from CPCSchemeXML202601.zip."""
+    import asyncio
+    async def _run():
+        async with db_pool.acquire() as conn:
+            count = await ingest_patent_cpc(conn)
+            assert count >= 200_000, f"Expected >= 200K CPC nodes, got {count}"
+            assert count <= 350_000, f"Expected <= 350K CPC nodes, got {count}"
+
+            row = await conn.fetchrow(
+                "SELECT node_count FROM classification_system WHERE id = 'patent_cpc'"
+            )
+            assert row is not None
+            assert row["node_count"] == count
+
+            # Spot-check structure
+            sample = await conn.fetchrow(
+                "SELECT code, level, sector_code FROM classification_node "
+                "WHERE system_id = 'patent_cpc' AND level = 1 LIMIT 1"
+            )
+            assert sample is not None
+            assert len(sample["code"]) == 1  # section code
+            assert sample["sector_code"] == sample["code"]
+
+    asyncio.get_event_loop().run_until_complete(_run())
+
+
+@pytest.mark.skipif(
+    not _ZIP_AVAILABLE,
+    reason=f"Combined CPC ZIP not found at {_COMBINED_ZIP}.",
+)
+def test_ingest_patent_cpc_idempotent(db_pool):
+    """Running ingest twice returns same count."""
+    import asyncio
+    async def _run():
+        async with db_pool.acquire() as conn:
+            count1 = await ingest_patent_cpc(conn)
+            count2 = await ingest_patent_cpc(conn)
+            assert count1 == count2
+
+    asyncio.get_event_loop().run_until_complete(_run())
 
 
 def test_ingest_patent_cpc_skipped_without_data(db_pool):

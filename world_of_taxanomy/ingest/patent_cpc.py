@@ -13,19 +13,18 @@ CPC hierarchy (5 levels):
 
 Total: ~260,000 nodes.
 
-Data source: Bulk XML files from CPC scheme download page.
-  Section ZIPs: https://www.cooperativepatentclassification.org/cpcSchemeAndDefinitions/bulk
-  Each section is one ZIP containing an XML file.
+Data source: bulk XML files from CPC scheme download page.
+  Combined ZIP: 'data/CPCSchemeXML202601.zip' (all 800 XMLs in one archive)
+  Or per-section ZIPs: https://www.cooperativepatentclassification.org/cpcSchemeAndDefinitions/bulk
 
-WARNING: Ingesting ~260K CPC codes takes several minutes.
-The ingester downloads 9 ZIP files (one per section A-H and Y).
-
-Codes with spaces are stored as-is (e.g. 'A01B 1/00').
+Codes are stored with a space between subclass and group number
+(e.g. 'A01B 1/00', not 'A01B1/00') for consistent display.
 """
 from __future__ import annotations
 
-import os
 import io
+import os
+import re
 import ssl
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -39,7 +38,7 @@ _SYSTEM_ROW = (
     "patent_cpc",
     "Patent CPC",
     "Cooperative Patent Classification - EPO/USPTO",
-    "2024",
+    "2026-01",
     "Global",
     "European Patent Office / USPTO",
 )
@@ -47,16 +46,31 @@ _SYSTEM_ROW = (
 # CPC sections A through H plus Y (cross-sectional)
 _SECTIONS = ["A", "B", "C", "D", "E", "F", "G", "H", "Y"]
 
-# Base URL for CPC bulk download (one ZIP per section)
-_CPC_BULK_URL = (
-    "https://www.cooperativepatentclassification.org/cpcSchemeAndDefinitions/bulk"
-)
 _SECTION_ZIP_URL_TEMPLATE = (
     "https://www.cooperativepatentclassification.org"
     "/cpcSchemeAndDefinitions/bulk/cpc-scheme-{section}.zip"
 )
 
 _DEFAULT_DATA_DIR = "data/cpc"
+_COMBINED_ZIP_PATH = "data/CPCSchemeXML202601.zip"
+
+# Regex to insert space between subclass (4-char) and group number
+_CPC_SPACE_RE = re.compile(r"^([A-Z][0-9]{2}[A-Z])([0-9]+/.+)$")
+
+
+def _normalize_cpc_code(code: str) -> str:
+    """Add space between subclass and group number if missing.
+
+    'A01B1/00' -> 'A01B 1/00'
+    'A01B 1/00' -> 'A01B 1/00' (already normalized)
+    'A01B' -> 'A01B' (no change for subclass/class/section)
+    """
+    if "/" not in code or " " in code:
+        return code
+    m = _CPC_SPACE_RE.match(code)
+    if m:
+        return m.group(1) + " " + m.group(2)
+    return code
 
 
 def _determine_level(code: str) -> int:
@@ -77,12 +91,11 @@ def _determine_level(code: str) -> int:
             return 2
         if length == 4:
             return 3
-        # Fallback for unusual lengths
         return 3
 
     # Has space - it's a group or subgroup
     if "/" not in code:
-        return 4  # unusual, treat as group
+        return 4
 
     after_slash = code.split("/", 1)[1]
     if after_slash == "00":
@@ -123,6 +136,100 @@ def _determine_sector(code: str) -> str:
     return code[0]
 
 
+def _parse_cpc_xml_data(data: bytes) -> list[tuple[str, str]]:
+    """Parse CPC scheme XML bytes and return deduplicated list of (code, title) tuples.
+
+    Handles two XML formats:
+      - New format: classification-symbol as child element (CPCSchemeXML202601.zip)
+      - Old format: classification-symbol as attribute (legacy per-section ZIPs)
+
+    Normalizes codes to space format: 'A01B1/00' -> 'A01B 1/00'.
+    """
+    nodes: list[tuple[str, str]] = []
+    seen_codes: set[str] = set()
+
+    root = ET.fromstring(data)
+
+    # Strip namespaces
+    for elem in root.iter():
+        if "}" in elem.tag:
+            elem.tag = elem.tag.split("}", 1)[1]
+
+    for item in root.iter("classification-item"):
+        # Try child element first (new format), then attribute (old format)
+        sym_elem = item.find("classification-symbol")
+        if sym_elem is not None and sym_elem.text:
+            raw_code = sym_elem.text.strip()
+        else:
+            raw_code = item.get("classification-symbol", "").strip()
+
+        if not raw_code:
+            continue
+
+        code = _normalize_cpc_code(raw_code)
+        if code in seen_codes:
+            continue
+
+        # Extract title
+        title = ""
+        for title_elem in item.iter("class-title"):
+            for text_part in title_elem.iter("title-part"):
+                parts = []
+                for child in text_part:
+                    if child.text:
+                        parts.append(child.text.strip())
+                if not parts:
+                    # Fall back to itertext
+                    text = " ".join(text_part.itertext()).strip()
+                    if text:
+                        title = text
+                        break
+                else:
+                    title = " ".join(parts)
+                    break
+            if title:
+                break
+
+        if not title:
+            for title_elem in item.iter("class-title"):
+                text = " ".join(title_elem.itertext()).strip()
+                if text:
+                    title = text
+                    break
+
+        if code and title:
+            seen_codes.add(code)
+            nodes.append((code, title))
+
+    return nodes
+
+
+def _parse_cpc_xml(xml_path: str) -> list[tuple[str, str]]:
+    """Parse CPC scheme XML file and return list of (code, title) tuples."""
+    with open(xml_path, "rb") as f:
+        return _parse_cpc_xml_data(f.read())
+
+
+def _ingest_from_combined_zip(zip_path: str) -> list[tuple[str, str]]:
+    """Parse all CPC XML files from the combined ZIP archive.
+
+    Returns deduplicated (code, title) pairs from all 800 XML files.
+    """
+    all_nodes: dict[str, str] = {}
+
+    with zipfile.ZipFile(zip_path) as zf:
+        xml_members = [m for m in zf.namelist() if m.endswith(".xml")]
+        for member in xml_members:
+            with zf.open(member) as f:
+                data = f.read()
+            pairs = _parse_cpc_xml_data(data)
+            for code, title in pairs:
+                if code not in all_nodes:
+                    all_nodes[code] = title
+
+    return list(all_nodes.items())
+
+
 def _download_section_zip(section: str, data_dir: str) -> Optional[str]:
     """Download CPC section ZIP and extract XML, return path to XML file."""
     xml_path = os.path.join(data_dir, f"cpc-scheme-{section}.xml")
@@ -146,7 +253,6 @@ def _download_section_zip(section: str, data_dir: str) -> Optional[str]:
 
     Path(data_dir).mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(io.BytesIO(zip_bytes)) as zf:
-        # XML file inside is named like 'cpc-scheme-A.xml'
         xml_members = [m for m in zf.namelist() if m.endswith(".xml")]
         if not xml_members:
             print(f"  WARNING: No XML file found in section {section} ZIP")
@@ -159,65 +265,19 @@ def _download_section_zip(section: str, data_dir: str) -> Optional[str]:
     return xml_path
 
 
-def _parse_cpc_xml(xml_path: str) -> list[tuple[str, str]]:
-    """Parse CPC scheme XML and return list of (code, title) tuples."""
-    nodes: list[tuple[str, str]] = []
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
-
-    # Remove namespace prefixes for easier tag matching
-    for elem in root.iter():
-        if "}" in elem.tag:
-            elem.tag = elem.tag.split("}", 1)[1]
-
-    # Walk all classification-item elements
-    for item in root.iter("classification-item"):
-        symbol = item.get("classification-symbol", "").strip()
-        if not symbol:
-            continue
-
-        # Get English title
-        title = ""
-        for title_elem in item.iter("class-title"):
-            for text_part in title_elem.iter("title-part"):
-                parts = []
-                for child in text_part:
-                    if child.text:
-                        parts.append(child.text.strip())
-                if parts:
-                    title = " ".join(parts)
-                    break
-            if title:
-                break
-
-        if not title:
-            # Fallback: get any text content from title elements
-            for title_elem in item.iter("class-title"):
-                text = "".join(title_elem.itertext()).strip()
-                if text:
-                    title = text
-                    break
-
-        if symbol and title:
-            nodes.append((symbol, title))
-
-    return nodes
-
-
 async def ingest_patent_cpc(conn, data_dir: Optional[str] = None) -> int:
     """Ingest CPC patent classification hierarchy from EPO bulk XML.
 
-    WARNING: This ingests ~260K codes across 9 sections. It takes several minutes.
+    Auto-detects source in priority order:
+      1. Combined ZIP at 'data/CPCSchemeXML202601.zip' (all sections, user-provided)
+      2. Extracted XMLs in data_dir (or 'data/cpc/')
+      3. Downloads per-section ZIPs from EPO (may fail due to URL changes)
 
-    Downloads 9 section ZIPs (A-H, Y) from the EPO CPC bulk download page.
-    Parses the XML scheme files and inserts all nodes.
+    WARNING: Ingesting ~260K CPC codes takes several minutes.
 
     Returns total node count inserted.
     """
-    print("  WARNING: Ingesting ~260K CPC codes - this will take several minutes.")
-
-    local_dir = data_dir or _DEFAULT_DATA_DIR
-    Path(local_dir).mkdir(parents=True, exist_ok=True)
+    print("  Loading ~260K CPC codes - this will take several minutes.")
 
     # Register system
     await conn.execute(
@@ -228,60 +288,64 @@ async def ingest_patent_cpc(conn, data_dir: Optional[str] = None) -> int:
         *_SYSTEM_ROW,
     )
 
+    # Determine source
+    if Path(_COMBINED_ZIP_PATH).exists():
+        print(f"  Reading from {_COMBINED_ZIP_PATH} ...")
+        raw_nodes = _ingest_from_combined_zip(_COMBINED_ZIP_PATH)
+        print(f"  Parsed {len(raw_nodes)} unique codes")
+    else:
+        # Per-section fallback
+        local_dir = data_dir or _DEFAULT_DATA_DIR
+        Path(local_dir).mkdir(parents=True, exist_ok=True)
+        raw_nodes = []
+        seen: set[str] = set()
+        for section in _SECTIONS:
+            xml_path = _download_section_zip(section, local_dir)
+            if not xml_path or not os.path.exists(xml_path):
+                print(f"  Skipping section {section} (not available)")
+                continue
+            print(f"  Parsing section {section}...")
+            for code, title in _parse_cpc_xml(xml_path):
+                if code not in seen:
+                    seen.add(code)
+                    raw_nodes.append((code, title))
+
+    if not raw_nodes:
+        return 0
+
+    # Determine parent codes for leaf detection
+    all_codes = {code for code, _ in raw_nodes}
+    parent_codes: set[str] = set()
+    for code, _ in raw_nodes:
+        parent = _determine_parent(code)
+        if parent:
+            parent_codes.add(parent)
+
+    records = []
+    for code, title in raw_nodes:
+        records.append((
+            "patent_cpc",
+            code,
+            title,
+            _determine_level(code),
+            _determine_parent(code),
+            _determine_sector(code),
+            code not in parent_codes,
+        ))
+
     total_count = 0
-
-    for section in _SECTIONS:
-        xml_path = _download_section_zip(section, local_dir)
-        if not xml_path or not os.path.exists(xml_path):
-            print(f"  Skipping section {section} (download failed)")
-            continue
-
-        print(f"  Parsing section {section}...")
-        raw_nodes = _parse_cpc_xml(xml_path)
-
-        if not raw_nodes:
-            print(f"  No nodes found in section {section}")
-            continue
-
-        # Build set of all codes for leaf detection
-        all_codes = {code for code, _ in raw_nodes}
-        parent_codes = set()
-        for code, _ in raw_nodes:
-            parent = _determine_parent(code)
-            if parent:
-                parent_codes.add(parent)
-
-        records = []
-        for code, title in raw_nodes:
-            level = _determine_level(code)
-            parent = _determine_parent(code)
-            sector = _determine_sector(code)
-            is_leaf = code not in parent_codes
-
-            records.append((
-                "patent_cpc",
-                code,
-                title,
-                level,
-                parent,
-                sector,
-                is_leaf,
-            ))
-
-        section_count = 0
-        for i in range(0, len(records), CHUNK):
-            chunk = records[i: i + CHUNK]
-            await conn.executemany(
-                """INSERT INTO classification_node
-                       (system_id, code, title, level, parent_code, sector_code, is_leaf)
-                   VALUES ($1, $2, $3, $4, $5, $6, $7)
-                   ON CONFLICT (system_id, code) DO NOTHING""",
-                chunk,
-            )
-            section_count += len(chunk)
-
-        total_count += section_count
-        print(f"  Section {section}: {section_count} nodes")
+    for i in range(0, len(records), CHUNK):
+        chunk = records[i: i + CHUNK]
+        await conn.executemany(
+            """INSERT INTO classification_node
+                   (system_id, code, title, level, parent_code, sector_code, is_leaf)
+               VALUES ($1, $2, $3, $4, $5, $6, $7)
+               ON CONFLICT (system_id, code) DO NOTHING""",
+            chunk,
+        )
+        total_count += len(chunk)
+        if total_count % 50000 == 0:
+            print(f"  Inserted {total_count} nodes...")
 
     await conn.execute(
         "UPDATE classification_system SET node_count = $1 WHERE id = 'patent_cpc'",
