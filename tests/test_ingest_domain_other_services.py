@@ -1,6 +1,7 @@
 """Tests for domain_other_services ingester (Phase 26 - NAICS 81)."""
 from __future__ import annotations
 
+import asyncio
 import pytest
 from world_of_taxanomy.ingest.domain_other_services import (
     OTHER_SVC_NODES,
@@ -77,9 +78,29 @@ class TestOtherSvcNodes:
             assert "\u2014" not in code, f"em-dash found in code: {code}"
 
 
-@pytest.mark.asyncio
-async def test_ingest_domain_other_services(db_pool):
-    async with db_pool.acquire() as conn:
-        count = await ingest_domain_other_services(conn)
-    assert count == len(OTHER_SVC_NODES)
-    assert count >= 15
+def test_ingest_domain_other_services(db_pool):
+    async def _run():
+        from world_of_taxanomy.ingest.naics import ingest_naics_2022
+        async with db_pool.acquire() as conn:
+            await ingest_naics_2022(conn)
+            count = await ingest_domain_other_services(conn)
+            assert count == len(OTHER_SVC_NODES)
+            assert count >= 15
+            row = await conn.fetchrow(
+                "SELECT id, code_count FROM domain_taxonomy "
+                "WHERE id = 'domain_other_services'"
+            )
+            assert row is not None
+            assert row["code_count"] == count
+    asyncio.get_event_loop().run_until_complete(_run())
+
+
+def test_ingest_domain_other_services_idempotent(db_pool):
+    async def _run():
+        from world_of_taxanomy.ingest.naics import ingest_naics_2022
+        async with db_pool.acquire() as conn:
+            await ingest_naics_2022(conn)
+            count1 = await ingest_domain_other_services(conn)
+            count2 = await ingest_domain_other_services(conn)
+            assert count1 == count2
+    asyncio.get_event_loop().run_until_complete(_run())
