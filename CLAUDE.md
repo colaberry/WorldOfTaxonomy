@@ -2,9 +2,9 @@
 
 ## What this project is
 
-WorldOfTaxanomy is a unified global industry classification knowledge graph. It connects 10 national/international classification systems as equal peers through equivalence mappings (crosswalk edges).
+WorldOfTaxanomy is a unified global industry classification knowledge graph. It connects 82 classification systems as equal peers through equivalence mappings (crosswalk edges).
 
-**88 systems, ~537,779 codes, ~57,760 crosswalk edges.**
+**82 systems, 532,651 nodes, 58,647 crosswalk edges.**
 
 | System | Region | Codes |
 |--------|--------|-------|
@@ -33,10 +33,10 @@ WorldOfTaxanomy is a unified global industry classification knowledge graph. It 
 | COFOG | Global (UN) | 188 |
 | GICS Bridge | Global (MSCI/S&P) | 11 |
 | GHG Protocol | Global (WRI/WBCSD) | 20 |
-| ESCO Occupations | Europe / Global (EU Commission) | ~2,942 |
-| ESCO Skills | Europe / Global (EU Commission) | ~13,890 |
-| O*NET-SOC | United States (DOL) | ~867 |
-| Patent CPC | Global (EPO/USPTO) | ~260,000 |
+| ESCO Occupations | Europe / Global (EU Commission) | 3,045 |
+| ESCO Skills | Europe / Global (EU Commission) | 14,247 |
+| O*NET-SOC | United States (DOL) | 867 |
+| Patent CPC | Global (EPO/USPTO) | 254,249 |
 | CFR Title 49 | United States | 104 |
 | FMCSA Regulations | United States | 80 |
 | GDPR Articles | European Union | 110 |
@@ -77,9 +77,9 @@ WorldOfTaxanomy is a unified global industry classification knowledge graph. It 
 | Domain: Public Administration Types | United States | 22 |
 | Domain: Supply Chain and Trade Terms | Global | 23 |
 | Domain: Workforce Safety and Health | United States | 24 |
-| ANZSCO 2022 | Australia / New Zealand | ~1,590 |
-| ICD-11 MMS | Global (WHO) | 37,052 (from SimpleTabulation-ICD-11-MMS-en.zip: 28 chapters + 1,360 blocks + 35,664 categories) |
-| LOINC | Global (Regenstrief) | ~102,751 (from Loinc_2.82.zip) |
+| ANZSCO 2022 | Australia / New Zealand | 1,590 |
+| ICD-11 MMS | Global (WHO) | 37,052 |
+| LOINC | Global (Regenstrief) | 102,751 |
 | Domain: Chemical Industry Types | Global | 29 |
 | Domain: Defence and Security Types | Global | 23 |
 | Domain: Water and Environment Types | Global | 28 |
