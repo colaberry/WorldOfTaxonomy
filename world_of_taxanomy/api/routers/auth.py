@@ -107,13 +107,18 @@ async def register(body: RegisterRequest, conn=Depends(get_conn)):
 async def login(body: LoginRequest, conn=Depends(get_conn)):
     """Login with email and password."""
     row = await conn.fetchrow(
-        "SELECT id, password_hash, is_active FROM app_user WHERE email = $1",
+        "SELECT id, password_hash, is_active, oauth_provider FROM app_user WHERE email = $1",
         body.email,
     )
     if row is None:
         raise HTTPException(status_code=401, detail="Invalid email or password")
     if not row["is_active"]:
         raise HTTPException(status_code=403, detail="Account is deactivated")
+    if row["password_hash"] is None:
+        raise HTTPException(
+            status_code=401,
+            detail="This account uses social login. Please sign in with GitHub, Google, or LinkedIn.",
+        )
     if not _verify_password(body.password, row["password_hash"]):
         raise HTTPException(status_code=401, detail="Invalid email or password")
 

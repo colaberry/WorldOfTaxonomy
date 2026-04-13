@@ -2,17 +2,24 @@
 
 -- Users
 CREATE TABLE IF NOT EXISTS app_user (
-    id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    email       TEXT NOT NULL UNIQUE,
-    password_hash TEXT NOT NULL,
-    display_name TEXT,
-    tier        TEXT NOT NULL DEFAULT 'free'
-                CHECK (tier IN ('free', 'pro', 'enterprise')),
-    is_active   BOOLEAN DEFAULT TRUE,
-    created_at  TIMESTAMPTZ DEFAULT NOW(),
-    updated_at  TIMESTAMPTZ DEFAULT NOW()
+    id                UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    email             TEXT NOT NULL UNIQUE,
+    password_hash     TEXT,               -- NULL for OAuth-only accounts
+    display_name      TEXT,
+    tier              TEXT NOT NULL DEFAULT 'free'
+                      CHECK (tier IN ('free', 'pro', 'enterprise')),
+    is_active         BOOLEAN DEFAULT TRUE,
+    -- OAuth / social login fields
+    oauth_provider    TEXT,               -- 'github' | 'google' | 'linkedin'
+    oauth_provider_id TEXT,               -- provider's user ID
+    avatar_url        TEXT,
+    created_at        TIMESTAMPTZ DEFAULT NOW(),
+    updated_at        TIMESTAMPTZ DEFAULT NOW()
 );
 CREATE INDEX IF NOT EXISTS idx_user_email ON app_user(email);
+CREATE UNIQUE INDEX IF NOT EXISTS uq_user_oauth
+    ON app_user(oauth_provider, oauth_provider_id)
+    WHERE oauth_provider IS NOT NULL AND oauth_provider_id IS NOT NULL;
 
 -- API Keys
 CREATE TABLE IF NOT EXISTS api_key (
