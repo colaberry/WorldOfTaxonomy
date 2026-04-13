@@ -1,27 +1,27 @@
-# Design System — WorldOfTaxanomy
+# Design System - WorldOfTaxanomy
 
 ## Product Context
 - **What this is:** A unified global industry classification graph that federates ISIC, NAICS, NACE, ANZSIC, JSIC, and other national classification systems as equal peers, connecting each industry node to its domain-specific taxonomies (ICD codes, drug classifications, crop taxonomies, financial instrument codes, etc.)
 - **Who it's for:** Researchers, data engineers, business analysts, policy makers, and AI agents exploring the structure of global economic activity
 - **Space/industry:** Data infrastructure, reference/encyclopedia, knowledge graph
 - **Project type:** Web app + REST API + MCP server
-- **Architecture model:** Federation — each classification system is a sovereign tree connected by equivalence edges, not forced into a single hierarchy
+- **Architecture model:** Federation - each classification system is a sovereign tree connected by equivalence edges, not forced into a single hierarchy
 
 ## Aesthetic Direction
-- **Direction:** Industrial/Utilitarian meets Editorial — "The Observatory"
-- **Decoration level:** Intentional — subtle depth through layered surfaces, thin rule lines, grain texture. No decorative elements; the data IS the decoration
+- **Direction:** Industrial/Utilitarian meets Editorial - "The Observatory"
+- **Decoration level:** Intentional - subtle depth through layered surfaces, thin rule lines, grain texture. No decorative elements; the data IS the decoration
 - **Mood:** Looking at a constellation map of human economic activity. Dense when you need data, spacious when you're exploring. The feel of a well-designed encyclopedia crossed with a data observatory
-- **Reference sites:** NAICS.com (anti-reference — government-form feel), NAICS Pro (clean but analytics-only), Wikidata (powerful but intimidating), Synaptica Graphite (enterprise SaaS generic)
+- **Reference sites:** NAICS.com (anti-reference - government-form feel), NAICS Pro (clean but analytics-only), Wikidata (powerful but intimidating), Synaptica Graphite (enterprise SaaS generic)
 
 ## Typography
-- **Display/Hero:** Instrument Serif — warm, literary, signals 'knowledge' not 'startup'. Used for sector names, page titles, the hero. Deliberate risk: no other taxonomy tool uses serif
-- **Body:** Instrument Sans — pairs perfectly with Instrument Serif, excellent legibility at small sizes. Used for descriptions, navigation labels, UI text
+- **Display/Hero:** Instrument Serif - warm, literary, signals 'knowledge' not 'startup'. Used for sector names, page titles, the hero. Deliberate risk: no other taxonomy tool uses serif
+- **Body:** Instrument Sans - pairs perfectly with Instrument Serif, excellent legibility at small sizes. Used for descriptions, navigation labels, UI text
 - **UI/Labels:** Instrument Sans (same as body, weight 500-600)
-- **Data/Tables:** Geist Mono (tabular-nums) — crisp alignment for NAICS codes, ISIC codes, ICD codes, API endpoints. Essential for a code-heavy product
+- **Data/Tables:** Geist Mono (tabular-nums) - crisp alignment for NAICS codes, ISIC codes, ICD codes, API endpoints. Essential for a code-heavy product
 - **Code:** Geist Mono
 - **Loading:** Google Fonts CDN for Instrument family; Geist via self-hosted or Vercel CDN
-- **Scale (typographic depth — Risk 2):**
-  - 2-digit sectors: Instrument Serif, 1.8rem — the hierarchy is felt through type
+- **Scale (typographic depth - Risk 2):**
+  - 2-digit sectors: Instrument Serif, 1.8rem - the hierarchy is felt through type
   - 3-digit sub-sectors: Instrument Sans 600, 1.2rem
   - 4-digit industry groups: Instrument Sans 500, 0.95rem
   - 5-digit industries: Instrument Sans 400, 0.85rem
@@ -67,7 +67,7 @@
 ### Classification System Tints (federation wayfinding)
 | System | Region | Tint |
 |--------|--------|------|
-| ISIC | Global (UN) | Neutral — no tint, the universal baseline |
+| ISIC | Global (UN) | Neutral - no tint, the universal baseline |
 | NAICS | North America | Warm (subtle amber undertone) |
 | NACE | European Union | Cool blue undertone |
 | ANZSIC | Australia/NZ | Teal undertone |
@@ -82,7 +82,7 @@
 - **Scale:** 2xs(2px) xs(4px) sm(8px) md(16px) lg(24px) xl(32px) 2xl(48px) 3xl(64px)
 
 ## Layout
-- **Approach:** Hybrid — grid-disciplined for data/tree views, editorial for landing/overview pages
+- **Approach:** Hybrid - grid-disciplined for data/tree views, editorial for landing/overview pages
 - **Primary layout:** Galaxy View (landing) → System Treemap (sector overview) → Tree-Panel Explorer (node detail)
 - **Galaxy View:** Multiple classification constellations, ISIC center, regional systems as satellites, equivalence edges glowing between matching nodes
 - **Treemap:** Each sector proportionally sized, colored by sector hue, clickable to drill down
@@ -92,7 +92,7 @@
 - **Border radius:** sm:4px (chips, badges), md:8px (cards, inputs, buttons), lg:12px (panels, modals), full:9999px (avatars, toggles)
 
 ## Motion
-- **Approach:** Minimal-functional — speed is the feature for a reference tool
+- **Approach:** Minimal-functional - speed is the feature for a reference tool
 - **Easing:** enter(ease-out) exit(ease-in) move(ease-in-out)
 - **Duration:** micro(80ms) short(150ms) medium(250ms) long(400ms)
 - **Tree expand/collapse:** 150ms ease-out
@@ -100,7 +100,7 @@
 - **Treemap zoom:** 400ms ease-in-out (the one place animation earns its keep)
 - **Galaxy view orbit:** CSS animation, subtle, continuous, 60s cycle
 - **Node glow pulse (selected):** CSS animation, 2s cycle, subtle opacity shift 0.25→0.4
-- **No decorative animation** — every animation serves comprehension
+- **No decorative animation** - every animation serves comprehension
 
 ## Design Risks (deliberate departures from category norms)
 
@@ -108,7 +108,7 @@
 The landing page shows multiple classification constellations. ISIC in the center, NAICS/NACE/ANZSIC as satellite clusters. Click a constellation to enter that system's treemap. Equivalence edges glow between matching nodes across systems. Clicking a NAICS node highlights the corresponding ISIC, NACE, and ANZSIC equivalents simultaneously.
 
 ### Risk 2: Typography as Data Visualization
-Font family, size, and weight encode hierarchy depth. Sector names are large serif. Sub-sectors are medium sans-serif. Detail codes are compact monospace. The tree is scannable at a glance — no indentation needed to feel depth.
+Font family, size, and weight encode hierarchy depth. Sector names are large serif. Sub-sectors are medium sans-serif. Detail codes are compact monospace. The tree is scannable at a glance - no indentation needed to feel depth.
 
 ### Risk 3: Observatory Dark Canvas
 Deep #08090D background. Taxonomy nodes glow with their sector color at 0.3 opacity. Active nodes pulse gently. Equivalence edges between classification systems show as faint arc lines. The product feels like a constellation map of human economic activity.
@@ -132,17 +132,17 @@ The knowledge graph is navigable through three semantic zoom levels. Each level 
 - **What you see:** The 20 sectors of a chosen classification system as a force-directed graph. Each sector node is sized by economic weight (establishments, revenue, or code count). Domain taxonomy satellites orbit each sector.
 - **Edges within system:** Parent-child hierarchy shown as thin gray edges (the tree structure, flattened into a graph).
 - **Edges across systems:** When "cross-system" toggle is on, equivalent sectors in other systems appear as ghost nodes at the periphery, connected by equivalence arcs. E.g., viewing NAICS shows ghost NACE sectors with faint connecting arcs.
-- **Taxonomy satellites:** Each sector has small orbiting nodes for its attached domain taxonomies (ICD-10, ATC, HS codes, etc.). These orbit slowly. Shared taxonomies that span multiple sectors show as edges between sector nodes — making cross-cutting relationships visible.
+- **Taxonomy satellites:** Each sector has small orbiting nodes for its attached domain taxonomies (ICD-10, ATC, HS codes, etc.). These orbit slowly. Shared taxonomies that span multiple sectors show as edges between sector nodes - making cross-cutting relationships visible.
 - **Interaction:** Click a sector to zoom into its sub-tree. Click a taxonomy satellite to see its full classification. Toggle cross-system equivalences on/off. Filter by taxonomy type.
 - **Node style:** Sector nodes use their sector hue, glowing. Taxonomy satellites are smaller, dimmer, labeled in Geist Mono. Ghost nodes from other systems use that system's tint with 0.3 opacity.
 - **Layout:** Force-directed with sector nodes in an approximate circle, taxonomy satellites orbiting via radial force.
 
 ### Level 3: Node View (single industry + all connections)
 - **What you see:** One industry node at center (e.g., NAICS 6211 "Offices of Physicians"). Radiating outward in concentric rings:
-  - **Ring 1:** Equivalent nodes in other systems (ISIC 8620, NACE 86.21, ANZSIC 8512) — connected by thick equivalence arcs
-  - **Ring 2:** Domain taxonomies attached to this node (ICD-10, CPT, ATC, NPI) — connected by taxonomy-attachment edges
-  - **Ring 3:** Related nodes within the same system (sibling industries, parent sector) — connected by thin hierarchy edges
-  - **Ring 4 (optional):** Cross-sector nodes that share a domain taxonomy — faint edges showing, e.g., "Chemical Safety" connecting Manufacturing and Agriculture
+  - **Ring 1:** Equivalent nodes in other systems (ISIC 8620, NACE 86.21, ANZSIC 8512) - connected by thick equivalence arcs
+  - **Ring 2:** Domain taxonomies attached to this node (ICD-10, CPT, ATC, NPI) - connected by taxonomy-attachment edges
+  - **Ring 3:** Related nodes within the same system (sibling industries, parent sector) - connected by thin hierarchy edges
+  - **Ring 4 (optional):** Cross-sector nodes that share a domain taxonomy - faint edges showing, e.g., "Chemical Safety" connecting Manufacturing and Agriculture
 - **Interaction:** Click any ring node to re-center the graph on it. Hover to see details panel. "Machine View" toggle (Risk 4) replaces the visual graph with a structured JSON/table view showing all connections as data.
 - **Node style:** Center node large, glowing with sector color, pulsing gently. Ring 1 nodes use their respective system tints. Ring 2 taxonomy nodes are compact with Geist Mono labels. Ring 3/4 are increasingly dim.
 - **Edge style:** Equivalence arcs = solid, sector-colored. Taxonomy edges = dashed, muted. Hierarchy edges = dotted, gray. Cross-sector sharing = faint gradient between two sector colors.
@@ -174,7 +174,7 @@ The knowledge graph is navigable through three semantic zoom levels. Each level 
 |------|----------|-----------|
 | 2026-04-06 | Initial design system created | Created by /design-consultation based on competitive research of NAICS.com, NAICS Pro, Wikidata, Synaptica |
 | 2026-04-06 | Federation model over ISIC-root or NAICS-first | Each classification system is sovereign; forcing a single root misrepresents how they actually relate |
-| 2026-04-06 | All 4 design risks adopted | Living Map, Typographic Depth, Observatory Canvas, MCP-First — maximum differentiation from category |
+| 2026-04-06 | All 4 design risks adopted | Living Map, Typographic Depth, Observatory Canvas, MCP-First - maximum differentiation from category |
 | 2026-04-06 | Instrument Serif for display | Deliberate departure from sans-serif-everything in data tools; signals 'knowledge' over 'dashboard' |
 | 2026-04-06 | 20 sector hues + system tints | Two-layer color wayfinding: always know which system AND which sector you're in |
 | 2026-04-06 | Dark mode as default | Observatory metaphor + data-dense exploration = dark-first. Light mode available via toggle |

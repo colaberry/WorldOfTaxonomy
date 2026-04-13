@@ -4,7 +4,7 @@
 
 WorldOfTaxanomy is a unified global industry classification knowledge graph. It connects 10 national/international classification systems as equal peers through equivalence mappings (crosswalk edges).
 
-**71 systems, ~514,552 codes, ~57,662 crosswalk edges.**
+**88 systems, ~514,950 codes, ~57,760 crosswalk edges.**
 
 | System | Region | Codes |
 |--------|--------|-------|
@@ -80,6 +80,22 @@ WorldOfTaxanomy is a unified global industry classification knowledge graph. It 
 | ANZSCO 2022 | Australia / New Zealand | ~1,590 |
 | ICD-11 MMS | Global (WHO) | ~14,223 (from parquet; full CSV requires manual download) |
 | LOINC | Global (Regenstrief) | ~102,751 (from Loinc_2.82.zip) |
+| Domain: Chemical Industry Types | Global | 29 |
+| Domain: Defence and Security Types | Global | 23 |
+| Domain: Water and Environment Types | Global | 28 |
+| Domain: AI and Data Types | Global | 25 |
+| Domain: Biotechnology and Genomics Types | Global | 26 |
+| Domain: Space and Satellite Economy Types | Global | 24 |
+| Domain: Climate Technology Types | Global | 30 |
+| Domain: Advanced Materials Types | Global | 27 |
+| Domain: Quantum Computing Types | Global | 23 |
+| Domain: Digital Assets and Web3 Types | Global | 25 |
+| Domain: Autonomous Systems and Robotics Types | Global | 27 |
+| Domain: New Energy Storage Types | Global | 25 |
+| Domain: Next-Generation Semiconductor Types | Global | 31 |
+| Domain: Synthetic Biology Types | Global | 28 |
+| Domain: Extended Reality and Metaverse Types | Global | 27 |
+| Nation-Sector Geographic Synergy Crosswalk | Global | 98 edges |
 
 Three surfaces: **Web App** (Next.js), **REST API** (FastAPI), **MCP Server** (stdio).
 

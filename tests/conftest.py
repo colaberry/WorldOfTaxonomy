@@ -74,15 +74,24 @@ async def _drop_test_schema(pool):
 
 
 @pytest.fixture(autouse=True)
-def setup_and_teardown(request, db_pool):
+def setup_and_teardown(request):
     """Set up schema and seed data before each test, clean up after.
 
     Skips for tests marked with @pytest.mark.cli (pure unit tests, no DB needed).
-    All operations happen inside the test_wot schema - public is never touched.
+    Also skips for tests that do not request db_pool in their own fixture list
+    (e.g. unit tests testing pure _determine_level / _determine_parent helpers).
+    All DB operations happen inside the test_wot schema - public is never touched.
     """
     if "cli" in [mark.name for mark in request.node.iter_markers()]:
         yield
         return
+    # Only run DB setup when the test itself (or one of its fixtures) requests
+    # db_pool. Pure unit-test functions/methods that don't take db_pool as a
+    # parameter have no database dependency and should run without Neon.
+    if "db_pool" not in request.fixturenames:
+        yield
+        return
+    db_pool = request.getfixturevalue("db_pool")
     _run(_setup(db_pool))
     yield
     _run(_teardown(db_pool))
