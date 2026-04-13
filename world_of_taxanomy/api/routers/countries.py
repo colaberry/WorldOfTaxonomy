@@ -1,6 +1,7 @@
 """Country taxonomy profile API router.
 
-GET /api/v1/countries/{code}  - full taxonomy profile for a country
+GET /api/v1/countries/stats    - bulk stats for all countries (world map)
+GET /api/v1/countries/{code}   - full taxonomy profile for a country
 """
 from fastapi import APIRouter, HTTPException
 
@@ -12,7 +13,38 @@ from world_of_taxanomy.query.browse import (
 
 from fastapi import Depends
 
-router = APIRouter(prefix="/countries", tags=["countries"])
+router = APIRouter(prefix="/api/v1/countries", tags=["countries"])
+
+
+@router.get("/stats")
+async def get_countries_stats(conn=Depends(get_conn)):
+    """Return per-country taxonomy coverage stats for all countries.
+
+    Used by the world map visualization on the home page.
+    Returns a list of country objects with:
+    - country_code: ISO 3166-1 alpha-2
+    - system_count: number of applicable classification systems
+    - has_official: whether the country has its own official national standard
+    - sector_strength_count: number of sector strengths from the geo-sector crosswalk
+    """
+    rows = await conn.fetch(
+        """SELECT
+             csl.country_code,
+             COUNT(DISTINCT csl.system_id) AS system_count,
+             BOOL_OR(csl.relevance = 'official') AS has_official,
+             COALESCE(ss.strength_count, 0) AS sector_strength_count
+           FROM country_system_link csl
+           LEFT JOIN (
+             SELECT source_code AS country_code, COUNT(*) AS strength_count
+             FROM equivalence
+             WHERE source_system = 'iso_3166_1'
+               AND target_system = 'naics_2022'
+             GROUP BY source_code
+           ) ss ON ss.country_code = csl.country_code
+           GROUP BY csl.country_code, ss.strength_count
+           ORDER BY csl.country_code"""
+    )
+    return [dict(r) for r in rows]
 
 
 @router.get("/{country_code}")

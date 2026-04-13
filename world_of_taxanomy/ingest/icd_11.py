@@ -335,3 +335,170 @@ async def ingest_icd_11_from_parquet(conn, path: Optional[str] = None) -> int:
     )
 
     return count
+
+
+# ---------------------------------------------------------------------------
+# ZIP-based ingestion (uses SimpleTabulation-ICD-11-MMS-en.zip)
+# ---------------------------------------------------------------------------
+
+_ZIP_DEFAULT = "data/SimpleTabulation-ICD-11-MMS-en.zip"
+_ZIP_ENTRY = "SimpleTabulation-ICD-11-MMS-en.txt"
+
+
+async def ingest_icd_11_from_zip(conn, path: Optional[str] = None) -> int:
+    """Ingest ICD-11 from the WHO SimpleTabulation zip file.
+
+    Supports the tab-delimited file distributed by WHO at:
+    https://icd.who.int/browse/latest/mms/en (SimpleTabulation download)
+
+    Hierarchy:
+    - chapter  (28 chapters, no Code, synthetic ID = CH{ChapterNo})
+    - block    (1,360 groupings, no Code, ID = BlockId)
+    - category (35,664 leaf/branch nodes, ID = Code e.g. '1A00')
+
+    Parent chain resolved via Foundation URI lookup.
+    Returns total nodes inserted.
+    """
+    import zipfile
+    import io
+    import csv as _csv
+
+    local = path or _ZIP_DEFAULT
+
+    await conn.execute(
+        """INSERT INTO classification_system
+               (id, name, full_name, version, region, authority, node_count)
+           VALUES ($1, $2, $3, $4, $5, $6, 0)
+           ON CONFLICT (id) DO UPDATE SET node_count = 0""",
+        *_SYSTEM_ROW,
+    )
+
+    with zipfile.ZipFile(local) as zf:
+        with zf.open(_ZIP_ENTRY) as fh:
+            content = fh.read().decode("utf-8-sig", errors="replace")
+
+    reader = _csv.DictReader(io.StringIO(content), delimiter="\t")
+
+    # ---- First pass: build foundation_uri -> internal_id map ----
+    raw_rows = []
+    uri_to_id: dict[str, str] = {}
+
+    for row in reader:
+        foundation_uri = (row.get("Foundation URI") or "").strip()
+        code = (row.get("Code") or "").strip()
+        block_id = (row.get("BlockId") or "").strip()
+        title = (row.get("Title") or "").strip().lstrip("- ")
+        class_kind = (row.get("ClassKind") or "").strip()
+        chapter_no = (row.get("ChapterNo") or "").strip()
+        is_leaf_raw = (row.get("isLeaf") or "False").strip().lower() == "true"
+        parent_uri = (row.get("Parent") or "").strip()
+
+        if class_kind == "chapter":
+            internal_id = f"CH{int(chapter_no):02d}" if chapter_no.isdigit() else f"CH{chapter_no}"
+        elif class_kind == "block":
+            if block_id:
+                internal_id = block_id
+            elif foundation_uri:
+                # Blocks with no BlockId: use entity number from URI as synthetic ID
+                entity_num = foundation_uri.rstrip("/").rsplit("/", 1)[-1]
+                internal_id = f"blk_{entity_num}"
+            else:
+                continue  # no usable ID, skip
+        elif class_kind == "category":
+            if not code:
+                continue
+            internal_id = code
+        else:
+            continue  # skip unknown kinds
+
+        if foundation_uri:
+            uri_to_id[foundation_uri] = internal_id
+
+        raw_rows.append({
+            "internal_id": internal_id,
+            "title": title,
+            "class_kind": class_kind,
+            "chapter_no": chapter_no,
+            "is_leaf": is_leaf_raw,
+            "parent_uri": parent_uri,
+        })
+
+    # ---- Second pass: resolve parent IDs ----
+    parent_id_map: dict[str, Optional[str]] = {}
+    for r in raw_rows:
+        iid = r["internal_id"]
+        puri = r["parent_uri"]
+        parent_id_map[iid] = uri_to_id.get(puri) if puri else None
+
+    # ---- Compute depths iteratively ----
+    depth_map: dict[str, int] = {}
+
+    for r in raw_rows:
+        iid = r["internal_id"]
+        if iid in depth_map:
+            continue
+        chain: list[str] = []
+        current: Optional[str] = iid
+        while current is not None and current not in depth_map:
+            chain.append(current)
+            current = parent_id_map.get(current)
+        base = depth_map.get(current, 0) if current is not None else 0
+        for i, c in enumerate(reversed(chain)):
+            depth_map[c] = base + i + (1 if current is not None else 0)
+        if current is None and chain:
+            for i, c in enumerate(reversed(chain)):
+                depth_map[c] = i
+
+    # ---- Build parent set for is_leaf detection ----
+    all_parent_ids = {pid for pid in parent_id_map.values() if pid is not None}
+
+    # ---- Build records ----
+    records: list[tuple] = []
+    for r in raw_rows:
+        iid = r["internal_id"]
+        depth = depth_map.get(iid, 0)
+        level = depth + 1
+        parent = parent_id_map.get(iid)
+        sector = iid
+        cursor: Optional[str] = iid
+        visited: set[str] = set()
+        while cursor is not None:
+            p = parent_id_map.get(cursor)
+            if p is None:
+                sector = cursor
+                break
+            if p in visited:
+                sector = cursor
+                break
+            visited.add(cursor)
+            cursor = p
+        is_leaf = iid not in all_parent_ids
+        records.append((
+            "icd_11",
+            iid,
+            r["title"],
+            level,
+            parent,
+            sector,
+            is_leaf,
+        ))
+
+    # ---- Insert in chunks ----
+    count = 0
+    for i in range(0, len(records), CHUNK):
+        chunk = records[i: i + CHUNK]
+        await conn.executemany(
+            """INSERT INTO classification_node
+                   (system_id, code, title, level, parent_code, sector_code, is_leaf)
+               VALUES ($1, $2, $3, $4, $5, $6, $7)
+               ON CONFLICT (system_id, code) DO NOTHING""",
+            chunk,
+        )
+        count += len(chunk)
+
+    await conn.execute(
+        "UPDATE classification_system SET node_count = $1 WHERE id = 'icd_11'",
+        count,
+    )
+
+    return count

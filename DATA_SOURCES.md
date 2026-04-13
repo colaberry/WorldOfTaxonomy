@@ -61,7 +61,7 @@ WorldOfTaxanomy does NOT redistribute raw data files. Every ingester downloads d
 | System ID | Full Name | Version | Authority | License | URL |
 |-----------|-----------|---------|-----------|---------|-----|
 | `atc_who` | Anatomical Therapeutic Chemical Classification | 2021 | WHO / WHOCC (via fabkury/atcd) | CC BY 4.0 | https://github.com/fabkury/atcd |
-| `icd_11` | International Classification of Diseases 11th Revision | ICD-11 MMS | World Health Organization | CC BY-ND 3.0 IGO | https://icd.who.int/icdapi (manual download required) |
+| `icd_11` | International Classification of Diseases 11th Revision | ICD-11 MMS | World Health Organization | CC BY-ND 3.0 IGO | https://icd.who.int/browse/latest/mms/en (SimpleTabulation download; 37,052 nodes from zip) |
 | `loinc` | Logical Observation Identifiers Names and Codes | - | Regenstrief Institute | Regenstrief LOINC License | https://loinc.org/ (manual download + free registration required) |
 
 ### Financial and Environmental
@@ -87,6 +87,12 @@ WorldOfTaxanomy does NOT redistribute raw data files. Every ingester downloads d
 | `gdpr_articles` | General Data Protection Regulation Articles | 2018 | European Union (hand-coded from EUR-Lex) | Open | https://gdpr-info.eu/ |
 | `iso_31000` | ISO 31000 Risk Management Guidelines | 2018 | ISO (hand-coded from public structure) | Open (structure only) | https://www.iso.org/standard/65694.html |
 
+### Occupational (additional)
+
+| System ID | Full Name | Version | Authority | License | URL |
+|-----------|-----------|---------|-----------|---------|-----|
+| `anzsco_2022` | Australian and NZ Standard Classification of Occupations | 2022 | Australian Bureau of Statistics | CC BY 4.0 | https://www.abs.gov.au/ANZSCO |
+
 ### Domain Deep-Dives (Truck Transportation - NAICS 484)
 
 | System ID | Full Name | Authority | License | Notes |
@@ -95,6 +101,60 @@ WorldOfTaxanomy does NOT redistribute raw data files. Every ingester downloads d
 | `domain_truck_vehicle` | Truck Vehicle Classes | WorldOfTaxanomy / DOT | Public domain | DOT GVWR Classes 1-8 + body types |
 | `domain_truck_cargo` | Truck Cargo Classification | WorldOfTaxanomy | Open | NMFC-pattern commodity groups + DOT hazmat classes 1-9 |
 | `domain_truck_ops` | Truck Carrier Operations | WorldOfTaxanomy / FMCSA | Public domain | Carrier type, fleet size, business model, route pattern |
+
+### Domain Deep-Dives (Agriculture, Mining, Utilities, Construction, Cross-sector)
+
+| System ID | Full Name | Authority | License |
+|-----------|-----------|-----------|---------|
+| `domain_ag_crop` | Agricultural Crop Types | WorldOfTaxanomy / USDA | Open |
+| `domain_ag_livestock` | Agricultural Livestock Categories | WorldOfTaxanomy | Open |
+| `domain_ag_method` | Agricultural Farming Methods | WorldOfTaxanomy | Open |
+| `domain_ag_grade` | Agricultural Commodity Grades | WorldOfTaxanomy / USDA | Open |
+| `domain_mining_mineral` | Mining Mineral Types | WorldOfTaxanomy | Open |
+| `domain_mining_method` | Mining Extraction Methods | WorldOfTaxanomy | Open |
+| `domain_mining_reserve` | Mining Reserve Classification | WorldOfTaxanomy / SPE-PRMS | Open |
+| `domain_util_energy` | Utility Energy Sources | WorldOfTaxanomy / IEA | Open |
+| `domain_util_grid` | Utility Grid Regions | WorldOfTaxanomy / NERC | Open |
+| `domain_const_trade` | Construction Trade Types | WorldOfTaxanomy | Open |
+| `domain_const_building` | Construction Building Types | WorldOfTaxanomy | Open |
+| `domain_mfg_process` | Manufacturing Process Types | WorldOfTaxanomy | Open |
+| `domain_retail_channel` | Retail Channel Types | WorldOfTaxanomy | Open |
+| `domain_finance_instrument` | Finance Instrument Types | WorldOfTaxanomy | Open |
+| `domain_health_setting` | Health Care Settings | WorldOfTaxanomy | Open |
+| `domain_transport_mode` | Transportation Modes | WorldOfTaxanomy | Open |
+| `domain_info_media` | Information and Media Types | WorldOfTaxanomy | Open |
+| `domain_realestate_type` | Real Estate Property Types | WorldOfTaxanomy | Open |
+| `domain_food_service` | Food Service and Accommodation Types | WorldOfTaxanomy | Open |
+| `domain_wholesale_channel` | Wholesale Trade Channels | WorldOfTaxanomy | Open |
+| `domain_prof_services` | Professional Services Types | WorldOfTaxanomy | Open |
+| `domain_education_type` | Education Program Types | WorldOfTaxanomy | Open |
+| `domain_arts_content` | Arts and Entertainment Content Types | WorldOfTaxanomy | Open |
+| `domain_other_services` | Other Services Types | WorldOfTaxanomy | Open |
+| `domain_public_admin` | Public Administration Types | WorldOfTaxanomy | Open |
+| `domain_supply_chain` | Supply Chain and Trade Terms | WorldOfTaxanomy | Open |
+| `domain_workforce_safety` | Workforce Safety and Health | WorldOfTaxanomy / OSHA | Open |
+
+### Magna Compass Emerging Sector Domain Taxonomies
+
+All hand-coded by WorldOfTaxanomy, open license.
+
+| System ID | Full Name | Codes |
+|-----------|-----------|-------|
+| `domain_chemical_type` | Chemical Industry Types | 29 |
+| `domain_defence_type` | Defence and Security Types | 23 |
+| `domain_water_env` | Water and Environment Types | 28 |
+| `domain_ai_data` | AI and Data Types | 25 |
+| `domain_biotech` | Biotechnology and Genomics Types | 26 |
+| `domain_space` | Space and Satellite Economy Types | 24 |
+| `domain_climate_tech` | Climate Technology Types | 30 |
+| `domain_adv_materials` | Advanced Materials Types | 27 |
+| `domain_quantum` | Quantum Computing Types | 23 |
+| `domain_digital_assets` | Digital Assets and Web3 Types | 25 |
+| `domain_robotics` | Autonomous Systems and Robotics Types | 27 |
+| `domain_energy_storage` | New Energy Storage Types | 25 |
+| `domain_semiconductor` | Next-Generation Semiconductor Types | 31 |
+| `domain_synbio` | Synthetic Biology Types | 28 |
+| `domain_xr_meta` | Extended Reality and Metaverse Types | 27 |
 
 ---
 
@@ -119,6 +179,14 @@ WorldOfTaxanomy does NOT redistribute raw data files. Every ingester downloads d
 | CFR Title 49 / NAICS | ~300 | Derived from regulatory scope | Public domain |
 | FMCSA Regs / Truck Domain Taxonomies | ~50 | Derived from regulatory scope | Public domain |
 | NAICS 484 / Truck Domain Taxonomies | ~200 | Derived from industry scope | Open |
+| NAICS 11 / Agriculture Domain Taxonomies | ~48 | Derived from industry scope | Open |
+| NAICS 21 / Mining Domain Taxonomies | ~31 | Derived from industry scope | Open |
+| NAICS 22 / Utility Domain Taxonomies | ~20 | Derived from industry scope | Open |
+| NAICS 23 / Construction Domain Taxonomies | ~27 | Derived from industry scope | Open |
+| ANZSCO 2022 / ANZSIC 2006 | ~1,590 | ABS concordance | CC BY 4.0 |
+| ISCO-08 / ISIC Rev 4 | ~500 | ILO concordance | CC BY 4.0 |
+| Nation-Sector Geographic Synergy | 98 | Hand-coded (ISO 3166-1 -> NAICS 2-digit sectors) | Open |
+| Country-System Applicability | ~310 | Hand-coded (ISO 3166-1 alpha-2 -> classification systems) | Open |
 
 ---
 

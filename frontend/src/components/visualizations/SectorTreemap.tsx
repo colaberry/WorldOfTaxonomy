@@ -57,7 +57,7 @@ export function SectorTreemap({ systemId, roots }: Props) {
       .attr('height', height)
       .attr('viewBox', `0 0 ${width} ${height}`)
 
-    const leaves = hierarchy.leaves() as d3.HierarchyRectangularNode<LeafDatum>[]
+    const leaves = hierarchy.leaves() as unknown as d3.HierarchyRectangularNode<LeafDatum>[]
 
     const cell = svg
       .selectAll<SVGGElement, d3.HierarchyRectangularNode<LeafDatum>>('g')

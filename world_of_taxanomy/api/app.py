@@ -98,7 +98,7 @@ WorldOfTaxanomy is a knowledge graph connecting 88 classification systems across
 
 ### Health / Clinical
 - ATC WHO 2021 (Global/WHO) - 6,440 codes
-- ICD-11 MMS (Global/WHO) - ~14,223 codes
+- ICD-11 MMS (Global/WHO) - 37,052 codes
 - LOINC (Global/Regenstrief) - ~102,751 codes
 
 ### Financial / Environmental / Regulatory
@@ -162,6 +162,9 @@ Base URL: https://worldoftaxanomy.com/api/v1
 - GET /systems?group_by=region - Systems grouped by geographic region
 - GET /equivalences/stats - Crosswalk statistics
 - GET /equivalences/stats?system_id={id} - Crosswalk stats filtered to one system
+- GET /systems?country={code} - Systems applicable to a country (e.g. DE, PK, US)
+- GET /countries/stats - Per-country taxonomy coverage stats (for world map)
+- GET /countries/{code} - Full taxonomy profile for a country (systems + sector strengths)
 
 ## Authentication
 Register at https://worldoftaxanomy.com/register to get an API key.
@@ -170,7 +173,11 @@ Pass your key as: Authorization: Bearer wot_your_key_here
 ## MCP Server
 Install: python -m world_of_taxanomy mcp
 Transport: stdio
-Tools: list_systems, get_industry, browse_children, get_ancestors, search_classifications, get_equivalences, translate_code, get_sector_overview
+Tools (21): list_systems, get_industry, browse_children, get_ancestors, search_classifications,
+  get_equivalences, translate_code, get_sector_overview, compare_systems, diff_systems,
+  get_node_by_code, get_crosswalk_stats, get_system_stats, get_subtree_summary,
+  get_siblings, get_search_context, get_equivalences_for_system, get_country_taxonomy_profile,
+  get_systems_for_country, list_crosswalks, get_grouped_search
 """
 
 

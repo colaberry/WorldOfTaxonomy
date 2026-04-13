@@ -3,6 +3,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { getSystems, getStats } from '@/lib/api'
 import { GalaxyView } from '@/components/visualizations/GalaxyView'
+import { WorldMap } from '@/components/visualizations/WorldMap'
 import { IndustryMap } from '@/components/IndustryMap'
 import { Globe, GitBranch, Network } from 'lucide-react'
 
@@ -22,15 +23,25 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col gap-10 px-4 sm:px-6 py-6 max-w-7xl mx-auto w-full">
-      {/* Hero */}
-      <div className="text-center space-y-2">
-        <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-          World of Taxonomy
-        </h1>
-        <p className="text-sm text-muted-foreground max-w-xl mx-auto">
-          A unified knowledge graph connecting the world&apos;s industry classification systems.
-          Explore 10,000+ codes across 10 global standards.
-        </p>
+      {/* World Map - primary entry point */}
+      <div className="space-y-3">
+        <div className="text-center space-y-1">
+          <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight">
+            World of Taxonomy
+          </h1>
+          <p className="text-sm text-muted-foreground max-w-xl mx-auto">
+            A unified knowledge graph connecting classification systems from every country.
+            Explore {loadingSystems ? '...' : (systems?.length ?? 0)} global standards covering 500,000+ codes.
+          </p>
+        </div>
+        <WorldMap />
+      </div>
+
+      {/* Divider */}
+      <div className="flex items-center gap-4">
+        <div className="flex-1 h-px bg-border/50" />
+        <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">Quick Stats</span>
+        <div className="flex-1 h-px bg-border/50" />
       </div>
 
       {/* Stats bar */}

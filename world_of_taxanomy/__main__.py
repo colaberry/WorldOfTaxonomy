@@ -251,10 +251,29 @@ def cmd_ingest(args):
                 print(f"  {n} nodes")
 
             if target in ("icd_11", "all"):
-                from world_of_taxanomy.ingest.icd_11 import ingest_icd_11
-                print("\n-- ICD-11 MMS (WHO, requires manual download) --")
-                n = await ingest_icd_11(conn)
-                print(f"  {n} nodes")
+                from world_of_taxanomy.ingest.icd_11 import (
+                    ingest_icd_11_from_zip,
+                    ingest_icd_11_from_parquet,
+                    ingest_icd_11,
+                )
+                import os as _os
+                _zip = "data/SimpleTabulation-ICD-11-MMS-en.zip"
+                _parquet = "data/icd11_synonyms.parquet"
+                _csv = "data/icd_11.csv"
+                if _os.path.exists(_zip):
+                    print("\n-- ICD-11 MMS (from WHO SimpleTabulation zip, ~37K nodes, CC BY-ND 3.0 IGO) --")
+                    n = await ingest_icd_11_from_zip(conn, path=_zip)
+                    print(f"  {n} nodes (chapters + blocks + categories)")
+                elif _os.path.exists(_parquet):
+                    print("\n-- ICD-11 MMS (from parquet, WHO CC BY-ND 3.0 IGO) --")
+                    n = await ingest_icd_11_from_parquet(conn, path=_parquet)
+                    print(f"  {n} nodes (from parquet)")
+                elif _os.path.exists(_csv):
+                    print("\n-- ICD-11 MMS (from CSV, WHO CC BY-ND 3.0 IGO) --")
+                    n = await ingest_icd_11(conn, path=_csv)
+                    print(f"  {n} codes (from CSV)")
+                else:
+                    print("\n-- ICD-11: skipped (no data file found) --")
 
             if target in ("crosswalk_icd_isic", "all"):
                 from world_of_taxanomy.ingest.crosswalk_icd_isic import ingest_crosswalk_icd_isic
@@ -689,11 +708,20 @@ def cmd_ingest(args):
                 print(f"  {n} links")
 
             if target in ("icd_11", "all"):
-                from world_of_taxanomy.ingest.icd_11 import ingest_icd_11_from_parquet, ingest_icd_11
+                from world_of_taxanomy.ingest.icd_11 import (
+                    ingest_icd_11_from_zip,
+                    ingest_icd_11_from_parquet,
+                    ingest_icd_11,
+                )
                 import os
+                zip_path = "data/SimpleTabulation-ICD-11-MMS-en.zip"
                 parquet_path = "data/icd11_synonyms.parquet"
                 csv_path = "data/icd_11.csv"
-                if os.path.exists(parquet_path):
+                if os.path.exists(zip_path):
+                    print("\n-- ICD-11 MMS (from WHO SimpleTabulation zip, ~37K nodes, CC BY-ND 3.0 IGO) --")
+                    n = await ingest_icd_11_from_zip(conn, path=zip_path)
+                    print(f"  {n} nodes (chapters + blocks + categories)")
+                elif os.path.exists(parquet_path):
                     print("\n-- ICD-11 MMS (from parquet, WHO CC BY-ND 3.0 IGO) --")
                     n = await ingest_icd_11_from_parquet(conn, path=parquet_path)
                     print(f"  {n} nodes (from parquet)")

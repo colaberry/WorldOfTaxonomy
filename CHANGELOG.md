@@ -11,6 +11,53 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+**World Map visualization (home page):**
+- Interactive D3 `geoNaturalEarth1` choropleth world map as the top section of the home page
+- Color-coded by taxonomy coverage depth: green = official national standard, blue = regional/UN coverage, grey = UN recommended only
+- Hover tooltips showing system count, official standard status, sector strength count per country
+- Click navigates to `/country/{code}` country profile page
+- `GET /api/v1/countries/stats` bulk endpoint powering the world map (per-country aggregate stats)
+- `WorldMap.tsx` component in `frontend/src/components/visualizations/`
+
+**Country Taxonomy Profile feature:**
+- New `country_system_link` DB table mapping ISO 3166-1 alpha-2 codes to applicable classification systems with relevance values (`official` | `regional` | `recommended` | `historical`)
+- `crosswalk_country_system` ingester with ~310 entries covering all 249 countries
+- `GET /api/v1/countries/{code}` REST endpoint - full taxonomy profile (systems + sector strengths)
+- `GET /api/v1/countries/stats` REST endpoint - bulk stats for world map
+- `GET /api/v1/systems?country={code}` query param on systems endpoint
+- `get_country_taxonomy_profile` MCP tool (21st tool) - country code -> systems + sector strengths
+- `get_systems_for_country()` and `get_country_sector_strengths()` query functions
+
+**ICD-11 MMS from WHO SimpleTabulation ZIP:**
+- New `ingest_icd_11_from_zip()` function supporting `SimpleTabulation-ICD-11-MMS-en.zip`
+- 37,052 nodes: 28 chapters + 1,360 block groupings + 35,664 diagnostic categories (up from ~14,223 via parquet)
+- Full parent-child hierarchy resolved via Foundation URI lookup (0 orphans)
+- Auto-selected when `data/SimpleTabulation-ICD-11-MMS-en.zip` present (ZIP > parquet > CSV priority)
+
+**Magna Compass 2026 R2 - Gap Closure (16 new domain taxonomies):**
+
+*CORE pillar gaps:*
+- Chemical Industry Types (`domain_chemical_type`, 29 nodes: petrochemicals, specialty chemicals, polymers, industrial gases, etc.)
+- Defence and Security Types (`domain_defence_type`, 23 nodes: land/naval/air/space systems, cyber, intelligence, logistics)
+- Water and Environment Types (`domain_water_env`, 28 nodes: treatment, distribution, wastewater, desalination, remediation)
+
+*EMERGING pillar - all 12 sectors now have structured domain vocabularies:*
+- AI and Data Types (`domain_ai_data`, 25 nodes: foundation models, generative AI, data infrastructure, AI verticals, MLOps)
+- Biotechnology and Genomics (`domain_biotech`, 26 nodes: drug discovery, genomics, cell/gene therapy, biomanufacturing)
+- Space and Satellite Economy (`domain_space`, 24 nodes: launch vehicles, satellite types, earth observation, ground segment)
+- Climate Technology (`domain_climate_tech`, 30 nodes: solar, wind, green hydrogen, CCUS, EVs, carbon markets)
+- Advanced Materials (`domain_adv_materials`, 27 nodes: composites, biomaterials, nanomaterials, smart materials)
+- Quantum Computing (`domain_quantum`, 23 nodes: superconducting, trapped ion, photonic qubits, error correction, sensing)
+- Digital Assets and Web3 (`domain_digital_assets`, 25 nodes: Layer 1/2, DeFi, NFTs, stablecoins, CBDC, custody)
+- Autonomous Systems and Robotics (`domain_robotics`, 27 nodes: industrial, collaborative, AMR, drones, humanoid, surgical)
+- New Energy Storage (`domain_energy_storage`, 25 nodes: Li-ion, solid-state, flow batteries, grid-scale, hydrogen storage)
+- Next-Generation Semiconductors (`domain_semiconductor`, 31 nodes: logic, memory, power, photonics, MEMS, WBG, packaging)
+- Synthetic Biology (`domain_synbio`, 28 nodes: metabolic engineering, CRISPR, cell-free, cultured meat, biosensors)
+- Extended Reality and Metaverse (`domain_xr_meta`, 27 nodes: VR, AR, MR, spatial computing, haptics, metaverse platforms)
+
+*Geographic synergy crosswalk:*
+- Nation-Sector Geographic Synergy Crosswalk (`crosswalk_geo_sector`, 98 edges: ISO 3166-1 countries -> NAICS 2-digit sectors, leadership/emerging strength)
+
 **Phase 9 - Truck Transportation Domain Deep-Dives (prototype for all industries):**
 - Truck Freight Types (`domain_truck_freight`, 44 nodes: mode, equipment, service level, cargo type)
 - Truck Vehicle Classes (`domain_truck_vehicle`, 23 nodes: DOT GVWR Classes 1-8 + 13 body types)
