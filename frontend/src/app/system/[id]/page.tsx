@@ -7,7 +7,6 @@ import Link from 'next/link'
 import { ArrowLeft, ExternalLink, Download, Lock } from 'lucide-react'
 import { getSystemColor } from '@/lib/colors'
 import { getToken } from '@/lib/auth'
-import { SectorTreemap } from '@/components/visualizations/SectorTreemap'
 import { CrosswalkNetwork } from '@/components/visualizations/CrosswalkNetwork'
 import { NodeTree } from '@/components/NodeTree'
 
@@ -129,10 +128,6 @@ export default function SystemPage({ params }: { params: Promise<{ id: string }>
             )}
           </div>
         </div>
-      )}
-
-      {system.roots && system.roots.length > 0 && (
-        <SectorTreemap systemId={id} roots={system.roots} />
       )}
 
       <div>
