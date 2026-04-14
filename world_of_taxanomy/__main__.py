@@ -521,6 +521,24 @@ def cmd_ingest(args):
                 n = await ingest_domain_mining_reserve(conn)
                 print(f"  {n} nodes")
 
+            if target in ("domain_mining_equipment", "all"):
+                from world_of_taxanomy.ingest.domain_mining_equipment import ingest_domain_mining_equipment
+                print("\n-- Domain: Mining Equipment Types (hand-coded, open) --")
+                n = await ingest_domain_mining_equipment(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_mining_lifecycle", "all"):
+                from world_of_taxanomy.ingest.domain_mining_lifecycle import ingest_domain_mining_lifecycle
+                print("\n-- Domain: Mining Project Lifecycle Phase Types (hand-coded, open) --")
+                n = await ingest_domain_mining_lifecycle(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_mining_safety", "all"):
+                from world_of_taxanomy.ingest.domain_mining_safety import ingest_domain_mining_safety
+                print("\n-- Domain: Mining Safety and Regulatory Compliance Types (hand-coded, open) --")
+                n = await ingest_domain_mining_safety(conn)
+                print(f"  {n} nodes")
+
             if target in ("crosswalk_naics21_domains", "all"):
                 from world_of_taxanomy.ingest.crosswalk_naics21_domains import ingest_crosswalk_naics21_domains
                 print("\n-- Crosswalk: NAICS 21 -> Mining Domain Taxonomies (derived, open) --")
@@ -539,6 +557,24 @@ def cmd_ingest(args):
                 n = await ingest_domain_util_grid(conn)
                 print(f"  {n} nodes")
 
+            if target in ("domain_util_tariff", "all"):
+                from world_of_taxanomy.ingest.domain_util_tariff import ingest_domain_util_tariff
+                print("\n-- Domain: Utility Tariff and Rate Structure Types (hand-coded, open) --")
+                n = await ingest_domain_util_tariff(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_util_asset", "all"):
+                from world_of_taxanomy.ingest.domain_util_asset import ingest_domain_util_asset
+                print("\n-- Domain: Utility Infrastructure Asset Types (hand-coded, open) --")
+                n = await ingest_domain_util_asset(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_util_regulatory", "all"):
+                from world_of_taxanomy.ingest.domain_util_regulatory import ingest_domain_util_regulatory
+                print("\n-- Domain: Utility Regulatory Framework Types (hand-coded, open) --")
+                n = await ingest_domain_util_regulatory(conn)
+                print(f"  {n} nodes")
+
             if target in ("crosswalk_naics22_domains", "all"):
                 from world_of_taxanomy.ingest.crosswalk_naics22_domains import ingest_crosswalk_naics22_domains
                 print("\n-- Crosswalk: NAICS 22 -> Utility Domain Taxonomies (derived, open) --")
@@ -555,6 +591,24 @@ def cmd_ingest(args):
                 from world_of_taxanomy.ingest.domain_const_building import ingest_domain_const_building
                 print("\n-- Domain: Construction Building Types (IBC, hand-coded, open) --")
                 n = await ingest_domain_const_building(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_const_delivery", "all"):
+                from world_of_taxanomy.ingest.domain_const_delivery import ingest_domain_const_delivery
+                print("\n-- Domain: Construction Project Delivery Method Types (hand-coded, open) --")
+                n = await ingest_domain_const_delivery(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_const_material", "all"):
+                from world_of_taxanomy.ingest.domain_const_material import ingest_domain_const_material
+                print("\n-- Domain: Construction Material System Types (hand-coded, open) --")
+                n = await ingest_domain_const_material(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_const_sustainability", "all"):
+                from world_of_taxanomy.ingest.domain_const_sustainability import ingest_domain_const_sustainability
+                print("\n-- Domain: Construction Sustainability and Green Building Types (hand-coded, open) --")
+                n = await ingest_domain_const_sustainability(conn)
                 print(f"  {n} nodes")
 
             if target in ("crosswalk_naics23_domains", "all"):
@@ -1042,7 +1096,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_ingest = sub.add_parser("ingest", help="Ingest classification data")
     p_ingest.add_argument(
         "target",
-        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "hs2022", "crosswalk_hs_isic", "cpc_v21", "crosswalk_cpc_isic", "crosswalk_cpc_hs", "unspsc_v24", "soc_2018", "isco_08", "crosswalk_soc_naics", "crosswalk_soc_isco", "crosswalk_isco_isic", "cip_2020", "crosswalk_cip_soc", "isced_2011", "crosswalk_isced_isco", "iscedf_2013", "crosswalk_cip_iscedf", "atc_who", "icd_11", "crosswalk_icd_isic", "loinc", "cofog", "gics_bridge", "ghg_protocol", "esco_occupations", "esco_skills", "crosswalk_esco_isco", "onet_soc", "crosswalk_onet_soc", "patent_cpc", "cfr_title_49", "fmcsa_regs", "crosswalk_cfr_naics", "gdpr", "iso_31000", "domain_truck_freight", "domain_truck_vehicle", "domain_truck_cargo", "crosswalk_fmcsa_truck", "domain_truck_ops", "crosswalk_naics484_domains", "domain_truck_pricing", "domain_truck_regulatory", "domain_truck_tech", "domain_truck_lane", "domain_ag_crop", "domain_ag_livestock", "domain_ag_method", "domain_ag_grade", "domain_ag_equipment", "domain_ag_input", "domain_ag_business", "domain_ag_market", "domain_ag_regulatory", "domain_ag_land", "domain_ag_postharvest", "crosswalk_naics11_domains", "domain_mining_mineral", "domain_mining_method", "domain_mining_reserve", "crosswalk_naics21_domains", "domain_util_energy", "domain_util_grid", "crosswalk_naics22_domains", "domain_const_trade", "domain_const_building", "crosswalk_naics23_domains", "domain_mfg_process", "domain_retail_channel", "domain_finance_instrument", "domain_health_setting", "domain_transport_mode", "domain_info_media", "domain_realestate_type", "domain_food_service", "domain_wholesale_channel", "domain_prof_services", "domain_education_type", "domain_arts_content", "domain_other_services", "domain_public_admin", "domain_supply_chain", "domain_workforce_safety", "anzsco_2022", "crosswalk_anzsco_anzsic", "domain_chemical_type", "domain_defence_type", "domain_water_env", "domain_ai_data", "domain_biotech", "domain_space", "domain_climate_tech", "domain_adv_materials", "domain_quantum", "domain_digital_assets", "domain_robotics", "domain_energy_storage", "domain_semiconductor", "domain_synbio", "domain_xr_meta", "cnae_2012", "csic_2017", "okved_2", "kbli_2020", "scian_2018", "sic_sa", "crosswalk_geo_sector", "crosswalk_country_system", "all"],
+        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "hs2022", "crosswalk_hs_isic", "cpc_v21", "crosswalk_cpc_isic", "crosswalk_cpc_hs", "unspsc_v24", "soc_2018", "isco_08", "crosswalk_soc_naics", "crosswalk_soc_isco", "crosswalk_isco_isic", "cip_2020", "crosswalk_cip_soc", "isced_2011", "crosswalk_isced_isco", "iscedf_2013", "crosswalk_cip_iscedf", "atc_who", "icd_11", "crosswalk_icd_isic", "loinc", "cofog", "gics_bridge", "ghg_protocol", "esco_occupations", "esco_skills", "crosswalk_esco_isco", "onet_soc", "crosswalk_onet_soc", "patent_cpc", "cfr_title_49", "fmcsa_regs", "crosswalk_cfr_naics", "gdpr", "iso_31000", "domain_truck_freight", "domain_truck_vehicle", "domain_truck_cargo", "crosswalk_fmcsa_truck", "domain_truck_ops", "crosswalk_naics484_domains", "domain_truck_pricing", "domain_truck_regulatory", "domain_truck_tech", "domain_truck_lane", "domain_ag_crop", "domain_ag_livestock", "domain_ag_method", "domain_ag_grade", "domain_ag_equipment", "domain_ag_input", "domain_ag_business", "domain_ag_market", "domain_ag_regulatory", "domain_ag_land", "domain_ag_postharvest", "crosswalk_naics11_domains", "domain_mining_mineral", "domain_mining_method", "domain_mining_reserve", "domain_mining_equipment", "domain_mining_lifecycle", "domain_mining_safety", "crosswalk_naics21_domains", "domain_util_energy", "domain_util_grid", "domain_util_tariff", "domain_util_asset", "domain_util_regulatory", "crosswalk_naics22_domains", "domain_const_trade", "domain_const_building", "domain_const_delivery", "domain_const_material", "domain_const_sustainability", "crosswalk_naics23_domains", "domain_mfg_process", "domain_retail_channel", "domain_finance_instrument", "domain_health_setting", "domain_transport_mode", "domain_info_media", "domain_realestate_type", "domain_food_service", "domain_wholesale_channel", "domain_prof_services", "domain_education_type", "domain_arts_content", "domain_other_services", "domain_public_admin", "domain_supply_chain", "domain_workforce_safety", "anzsco_2022", "crosswalk_anzsco_anzsic", "domain_chemical_type", "domain_defence_type", "domain_water_env", "domain_ai_data", "domain_biotech", "domain_space", "domain_climate_tech", "domain_adv_materials", "domain_quantum", "domain_digital_assets", "domain_robotics", "domain_energy_storage", "domain_semiconductor", "domain_synbio", "domain_xr_meta", "cnae_2012", "csic_2017", "okved_2", "kbli_2020", "scian_2018", "sic_sa", "crosswalk_geo_sector", "crosswalk_country_system", "all"],
         help="What to ingest",
     )
 
