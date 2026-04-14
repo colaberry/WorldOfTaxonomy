@@ -622,11 +622,39 @@ def cmd_ingest(args):
                 print("\n-- Domain: Manufacturing Process Types (NIST, hand-coded, open) --")
                 n = await ingest_domain_mfg_process(conn)
                 print(f"  {n} nodes")
+            if target in ("domain_mfg_industry", "all"):
+                from world_of_taxanomy.ingest.domain_mfg_industry import ingest_domain_mfg_industry
+                print("\n-- Domain: Manufacturing Industry Vertical (hand-coded, open) --")
+                n = await ingest_domain_mfg_industry(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_mfg_quality", "all"):
+                from world_of_taxanomy.ingest.domain_mfg_quality import ingest_domain_mfg_quality
+                print("\n-- Domain: Manufacturing Quality and Compliance (hand-coded, open) --")
+                n = await ingest_domain_mfg_quality(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_mfg_opsmodel", "all"):
+                from world_of_taxanomy.ingest.domain_mfg_opsmodel import ingest_domain_mfg_opsmodel
+                print("\n-- Domain: Manufacturing Operations Model Types (hand-coded, open) --")
+                n = await ingest_domain_mfg_opsmodel(conn)
+                print(f"  {n} nodes")
 
             if target in ("domain_retail_channel", "all"):
                 from world_of_taxanomy.ingest.domain_retail_channel import ingest_domain_retail_channel
                 print("\n-- Domain: Retail Channel Types (NRF, hand-coded, open) --")
                 n = await ingest_domain_retail_channel(conn)
+                print(f"  {n} nodes")
+            if target in ("domain_retail_merchandise", "all"):
+                from world_of_taxanomy.ingest.domain_retail_merchandise import ingest_domain_retail_merchandise
+                print("\n-- Domain: Retail Merchandise Category Types (hand-coded, open) --")
+                n = await ingest_domain_retail_merchandise(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_retail_fulfillment", "all"):
+                from world_of_taxanomy.ingest.domain_retail_fulfillment import ingest_domain_retail_fulfillment
+                print("\n-- Domain: Retail Fulfillment and Last-Mile Delivery (hand-coded, open) --")
+                n = await ingest_domain_retail_fulfillment(conn)
                 print(f"  {n} nodes")
 
             if target in ("domain_finance_instrument", "all"):
@@ -634,11 +662,33 @@ def cmd_ingest(args):
                 print("\n-- Domain: Finance Instrument Types (FIGI framework, hand-coded, open) --")
                 n = await ingest_domain_finance_instrument(conn)
                 print(f"  {n} nodes")
+            if target in ("domain_finance_market", "all"):
+                from world_of_taxanomy.ingest.domain_finance_market import ingest_domain_finance_market
+                print("\n-- Domain: Finance Market Structure Types (hand-coded, open) --")
+                n = await ingest_domain_finance_market(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_finance_regulatory", "all"):
+                from world_of_taxanomy.ingest.domain_finance_regulatory import ingest_domain_finance_regulatory
+                print("\n-- Domain: Finance Regulatory Framework Types (hand-coded, open) --")
+                n = await ingest_domain_finance_regulatory(conn)
+                print(f"  {n} nodes")
 
             if target in ("domain_health_setting", "all"):
                 from world_of_taxanomy.ingest.domain_health_setting import ingest_domain_health_setting
                 print("\n-- Domain: Health Care Settings (CMS facility types, hand-coded, open) --")
                 n = await ingest_domain_health_setting(conn)
+                print(f"  {n} nodes")
+            if target in ("domain_health_specialty", "all"):
+                from world_of_taxanomy.ingest.domain_health_specialty import ingest_domain_health_specialty
+                print("\n-- Domain: Health Care Specialty Service Lines (hand-coded, open) --")
+                n = await ingest_domain_health_specialty(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_health_payer", "all"):
+                from world_of_taxanomy.ingest.domain_health_payer import ingest_domain_health_payer
+                print("\n-- Domain: Health Care Payer Types (hand-coded, open) --")
+                n = await ingest_domain_health_payer(conn)
                 print(f"  {n} nodes")
 
             if target in ("domain_transport_mode", "all"):
@@ -646,11 +696,33 @@ def cmd_ingest(args):
                 print("\n-- Domain: Transportation Modes (DOT modal categories, hand-coded, open) --")
                 n = await ingest_domain_transport_mode(conn)
                 print(f"  {n} nodes")
+            if target in ("domain_transport_service", "all"):
+                from world_of_taxanomy.ingest.domain_transport_service import ingest_domain_transport_service
+                print("\n-- Domain: Transportation Service Class Types (hand-coded, open) --")
+                n = await ingest_domain_transport_service(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_transport_infra", "all"):
+                from world_of_taxanomy.ingest.domain_transport_infra import ingest_domain_transport_infra
+                print("\n-- Domain: Transportation Infrastructure Types (hand-coded, open) --")
+                n = await ingest_domain_transport_infra(conn)
+                print(f"  {n} nodes")
 
             if target in ("domain_info_media", "all"):
                 from world_of_taxanomy.ingest.domain_info_media import ingest_domain_info_media
                 print("\n-- Domain: Information and Media Types (NAB/NAICS 51, hand-coded, open) --")
                 n = await ingest_domain_info_media(conn)
+                print(f"  {n} nodes")
+            if target in ("domain_info_revenue", "all"):
+                from world_of_taxanomy.ingest.domain_info_revenue import ingest_domain_info_revenue
+                print("\n-- Domain: Information and Media Revenue Model Types (hand-coded, open) --")
+                n = await ingest_domain_info_revenue(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_info_platform", "all"):
+                from world_of_taxanomy.ingest.domain_info_platform import ingest_domain_info_platform
+                print("\n-- Domain: Information Platform and Distribution Types (hand-coded, open) --")
+                n = await ingest_domain_info_platform(conn)
                 print(f"  {n} nodes")
 
             if target in ("domain_realestate_type", "all"):
@@ -658,11 +730,33 @@ def cmd_ingest(args):
                 print("\n-- Domain: Real Estate Property Types (CoStar/NCREIF, hand-coded, open) --")
                 n = await ingest_domain_realestate_type(conn)
                 print(f"  {n} nodes")
+            if target in ("domain_realestate_transaction", "all"):
+                from world_of_taxanomy.ingest.domain_realestate_transaction import ingest_domain_realestate_transaction
+                print("\n-- Domain: Real Estate Transaction Types (hand-coded, open) --")
+                n = await ingest_domain_realestate_transaction(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_realestate_capital", "all"):
+                from world_of_taxanomy.ingest.domain_realestate_capital import ingest_domain_realestate_capital
+                print("\n-- Domain: Real Estate Capital Structure Types (hand-coded, open) --")
+                n = await ingest_domain_realestate_capital(conn)
+                print(f"  {n} nodes")
 
             if target in ("domain_food_service", "all"):
                 from world_of_taxanomy.ingest.domain_food_service import ingest_domain_food_service
                 print("\n-- Domain: Food Service and Accommodation (STR/NRA, hand-coded, open) --")
                 n = await ingest_domain_food_service(conn)
+                print(f"  {n} nodes")
+            if target in ("domain_food_revenue", "all"):
+                from world_of_taxanomy.ingest.domain_food_revenue import ingest_domain_food_revenue
+                print("\n-- Domain: Food Service Revenue Mix and Accommodation Types (hand-coded, open) --")
+                n = await ingest_domain_food_revenue(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_food_ownership", "all"):
+                from world_of_taxanomy.ingest.domain_food_ownership import ingest_domain_food_ownership
+                print("\n-- Domain: Food Service Ownership and Business Model Types (hand-coded, open) --")
+                n = await ingest_domain_food_ownership(conn)
                 print(f"  {n} nodes")
 
             if target in ("domain_wholesale_channel", "all"):
@@ -670,11 +764,33 @@ def cmd_ingest(args):
                 print("\n-- Domain: Wholesale Trade Channels (CSCMP, hand-coded, open) --")
                 n = await ingest_domain_wholesale_channel(conn)
                 print(f"  {n} nodes")
+            if target in ("domain_wholesale_product", "all"):
+                from world_of_taxanomy.ingest.domain_wholesale_product import ingest_domain_wholesale_product
+                print("\n-- Domain: Wholesale Product Category Types (hand-coded, open) --")
+                n = await ingest_domain_wholesale_product(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_wholesale_regulatory", "all"):
+                from world_of_taxanomy.ingest.domain_wholesale_regulatory import ingest_domain_wholesale_regulatory
+                print("\n-- Domain: Wholesale Trade Regulatory Framework Types (hand-coded, open) --")
+                n = await ingest_domain_wholesale_regulatory(conn)
+                print(f"  {n} nodes")
 
             if target in ("domain_prof_services", "all"):
                 from world_of_taxanomy.ingest.domain_prof_services import ingest_domain_prof_services
                 print("\n-- Domain: Professional Services Types (AICPA/ABA, hand-coded, open) --")
                 n = await ingest_domain_prof_services(conn)
+                print(f"  {n} nodes")
+            if target in ("domain_prof_firm", "all"):
+                from world_of_taxanomy.ingest.domain_prof_firm import ingest_domain_prof_firm
+                print("\n-- Domain: Professional Services Firm Size and Structure (hand-coded, open) --")
+                n = await ingest_domain_prof_firm(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_prof_delivery", "all"):
+                from world_of_taxanomy.ingest.domain_prof_delivery import ingest_domain_prof_delivery
+                print("\n-- Domain: Professional Services Delivery Model Types (hand-coded, open) --")
+                n = await ingest_domain_prof_delivery(conn)
                 print(f"  {n} nodes")
 
             if target in ("domain_education_type", "all"):
@@ -682,11 +798,33 @@ def cmd_ingest(args):
                 print("\n-- Domain: Education Program Types (NCES, hand-coded, open) --")
                 n = await ingest_domain_education_type(conn)
                 print(f"  {n} nodes")
+            if target in ("domain_education_funding", "all"):
+                from world_of_taxanomy.ingest.domain_education_funding import ingest_domain_education_funding
+                print("\n-- Domain: Education Funding Source and Governance Types (hand-coded, open) --")
+                n = await ingest_domain_education_funding(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_education_segment", "all"):
+                from world_of_taxanomy.ingest.domain_education_segment import ingest_domain_education_segment
+                print("\n-- Domain: Education Learner Segment Types (hand-coded, open) --")
+                n = await ingest_domain_education_segment(conn)
+                print(f"  {n} nodes")
 
             if target in ("domain_arts_content", "all"):
                 from world_of_taxanomy.ingest.domain_arts_content import ingest_domain_arts_content
                 print("\n-- Domain: Arts and Entertainment Content Types (ISAN, hand-coded, open) --")
                 n = await ingest_domain_arts_content(conn)
+                print(f"  {n} nodes")
+            if target in ("domain_arts_monetization", "all"):
+                from world_of_taxanomy.ingest.domain_arts_monetization import ingest_domain_arts_monetization
+                print("\n-- Domain: Arts and Entertainment Monetization Types (hand-coded, open) --")
+                n = await ingest_domain_arts_monetization(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_arts_creator", "all"):
+                from world_of_taxanomy.ingest.domain_arts_creator import ingest_domain_arts_creator
+                print("\n-- Domain: Arts and Entertainment Creator Structure Types (hand-coded, open) --")
+                n = await ingest_domain_arts_creator(conn)
                 print(f"  {n} nodes")
 
             if target in ("domain_other_services", "all"):
@@ -694,11 +832,21 @@ def cmd_ingest(args):
                 print("\n-- Domain: Other Services Types (SBA, hand-coded, open) --")
                 n = await ingest_domain_other_services(conn)
                 print(f"  {n} nodes")
+            if target in ("domain_other_pricing", "all"):
+                from world_of_taxanomy.ingest.domain_other_pricing import ingest_domain_other_pricing
+                print("\n-- Domain: Other Services Pricing and Delivery Model Types (hand-coded, open) --")
+                n = await ingest_domain_other_pricing(conn)
+                print(f"  {n} nodes")
 
             if target in ("domain_public_admin", "all"):
                 from world_of_taxanomy.ingest.domain_public_admin import ingest_domain_public_admin
                 print("\n-- Domain: Public Administration Types (COFOG/NAICS 92, hand-coded, open) --")
                 n = await ingest_domain_public_admin(conn)
+                print(f"  {n} nodes")
+            if target in ("domain_public_funding", "all"):
+                from world_of_taxanomy.ingest.domain_public_funding import ingest_domain_public_funding
+                print("\n-- Domain: Public Administration Funding Source Types (hand-coded, open) --")
+                n = await ingest_domain_public_funding(conn)
                 print(f"  {n} nodes")
 
             if target in ("domain_supply_chain", "all"):
@@ -706,11 +854,33 @@ def cmd_ingest(args):
                 print("\n-- Domain: Supply Chain and Trade Terms (ICC Incoterms 2020, hand-coded, open) --")
                 n = await ingest_domain_supply_chain(conn)
                 print(f"  {n} nodes")
+            if target in ("domain_supply_tech", "all"):
+                from world_of_taxanomy.ingest.domain_supply_tech import ingest_domain_supply_tech
+                print("\n-- Domain: Supply Chain Technology Platform Types (hand-coded, open) --")
+                n = await ingest_domain_supply_tech(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_supply_risk", "all"):
+                from world_of_taxanomy.ingest.domain_supply_risk import ingest_domain_supply_risk
+                print("\n-- Domain: Supply Chain Risk Category Types (hand-coded, open) --")
+                n = await ingest_domain_supply_risk(conn)
+                print(f"  {n} nodes")
 
             if target in ("domain_workforce_safety", "all"):
                 from world_of_taxanomy.ingest.domain_workforce_safety import ingest_domain_workforce_safety
                 print("\n-- Domain: Workforce Safety and Health (OSHA 29 CFR, hand-coded, open) --")
                 n = await ingest_domain_workforce_safety(conn)
+                print(f"  {n} nodes")
+            if target in ("domain_workforce_training", "all"):
+                from world_of_taxanomy.ingest.domain_workforce_training import ingest_domain_workforce_training
+                print("\n-- Domain: Workforce Training and Development Types (hand-coded, open) --")
+                n = await ingest_domain_workforce_training(conn)
+                print(f"  {n} nodes")
+
+            if target in ("domain_workforce_sms", "all"):
+                from world_of_taxanomy.ingest.domain_workforce_sms import ingest_domain_workforce_sms
+                print("\n-- Domain: Workforce Safety Management System Types (hand-coded, open) --")
+                n = await ingest_domain_workforce_sms(conn)
                 print(f"  {n} nodes")
 
             if target in ("anzsco_2022", "all"):
@@ -1096,7 +1266,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_ingest = sub.add_parser("ingest", help="Ingest classification data")
     p_ingest.add_argument(
         "target",
-        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "hs2022", "crosswalk_hs_isic", "cpc_v21", "crosswalk_cpc_isic", "crosswalk_cpc_hs", "unspsc_v24", "soc_2018", "isco_08", "crosswalk_soc_naics", "crosswalk_soc_isco", "crosswalk_isco_isic", "cip_2020", "crosswalk_cip_soc", "isced_2011", "crosswalk_isced_isco", "iscedf_2013", "crosswalk_cip_iscedf", "atc_who", "icd_11", "crosswalk_icd_isic", "loinc", "cofog", "gics_bridge", "ghg_protocol", "esco_occupations", "esco_skills", "crosswalk_esco_isco", "onet_soc", "crosswalk_onet_soc", "patent_cpc", "cfr_title_49", "fmcsa_regs", "crosswalk_cfr_naics", "gdpr", "iso_31000", "domain_truck_freight", "domain_truck_vehicle", "domain_truck_cargo", "crosswalk_fmcsa_truck", "domain_truck_ops", "crosswalk_naics484_domains", "domain_truck_pricing", "domain_truck_regulatory", "domain_truck_tech", "domain_truck_lane", "domain_ag_crop", "domain_ag_livestock", "domain_ag_method", "domain_ag_grade", "domain_ag_equipment", "domain_ag_input", "domain_ag_business", "domain_ag_market", "domain_ag_regulatory", "domain_ag_land", "domain_ag_postharvest", "crosswalk_naics11_domains", "domain_mining_mineral", "domain_mining_method", "domain_mining_reserve", "domain_mining_equipment", "domain_mining_lifecycle", "domain_mining_safety", "crosswalk_naics21_domains", "domain_util_energy", "domain_util_grid", "domain_util_tariff", "domain_util_asset", "domain_util_regulatory", "crosswalk_naics22_domains", "domain_const_trade", "domain_const_building", "domain_const_delivery", "domain_const_material", "domain_const_sustainability", "crosswalk_naics23_domains", "domain_mfg_process", "domain_retail_channel", "domain_finance_instrument", "domain_health_setting", "domain_transport_mode", "domain_info_media", "domain_realestate_type", "domain_food_service", "domain_wholesale_channel", "domain_prof_services", "domain_education_type", "domain_arts_content", "domain_other_services", "domain_public_admin", "domain_supply_chain", "domain_workforce_safety", "anzsco_2022", "crosswalk_anzsco_anzsic", "domain_chemical_type", "domain_defence_type", "domain_water_env", "domain_ai_data", "domain_biotech", "domain_space", "domain_climate_tech", "domain_adv_materials", "domain_quantum", "domain_digital_assets", "domain_robotics", "domain_energy_storage", "domain_semiconductor", "domain_synbio", "domain_xr_meta", "cnae_2012", "csic_2017", "okved_2", "kbli_2020", "scian_2018", "sic_sa", "crosswalk_geo_sector", "crosswalk_country_system", "all"],
+        choices=["naics", "isic", "nic", "nace", "sic", "anzsic", "jsic", "wz", "onace", "noga", "crosswalk", "iso3166_1", "iso3166_2", "crosswalk_iso3166", "un_m49", "crosswalk_un_m49_iso3166", "hs2022", "crosswalk_hs_isic", "cpc_v21", "crosswalk_cpc_isic", "crosswalk_cpc_hs", "unspsc_v24", "soc_2018", "isco_08", "crosswalk_soc_naics", "crosswalk_soc_isco", "crosswalk_isco_isic", "cip_2020", "crosswalk_cip_soc", "isced_2011", "crosswalk_isced_isco", "iscedf_2013", "crosswalk_cip_iscedf", "atc_who", "icd_11", "crosswalk_icd_isic", "loinc", "cofog", "gics_bridge", "ghg_protocol", "esco_occupations", "esco_skills", "crosswalk_esco_isco", "onet_soc", "crosswalk_onet_soc", "patent_cpc", "cfr_title_49", "fmcsa_regs", "crosswalk_cfr_naics", "gdpr", "iso_31000", "domain_truck_freight", "domain_truck_vehicle", "domain_truck_cargo", "crosswalk_fmcsa_truck", "domain_truck_ops", "crosswalk_naics484_domains", "domain_truck_pricing", "domain_truck_regulatory", "domain_truck_tech", "domain_truck_lane", "domain_ag_crop", "domain_ag_livestock", "domain_ag_method", "domain_ag_grade", "domain_ag_equipment", "domain_ag_input", "domain_ag_business", "domain_ag_market", "domain_ag_regulatory", "domain_ag_land", "domain_ag_postharvest", "crosswalk_naics11_domains", "domain_mining_mineral", "domain_mining_method", "domain_mining_reserve", "domain_mining_equipment", "domain_mining_lifecycle", "domain_mining_safety", "crosswalk_naics21_domains", "domain_util_energy", "domain_util_grid", "domain_util_tariff", "domain_util_asset", "domain_util_regulatory", "crosswalk_naics22_domains", "domain_const_trade", "domain_const_building", "domain_const_delivery", "domain_const_material", "domain_const_sustainability", "crosswalk_naics23_domains", "domain_mfg_process", "domain_retail_channel", "domain_finance_instrument", "domain_health_setting", "domain_transport_mode", "domain_info_media", "domain_realestate_type", "domain_food_service", "domain_wholesale_channel", "domain_prof_services", "domain_education_type", "domain_arts_content", "domain_other_services", "domain_public_admin", "domain_supply_chain", "domain_workforce_safety", "domain_mfg_industry", "domain_mfg_quality", "domain_mfg_opsmodel", "domain_retail_merchandise", "domain_retail_fulfillment", "domain_finance_market", "domain_finance_regulatory", "domain_health_specialty", "domain_health_payer", "domain_transport_service", "domain_transport_infra", "domain_info_revenue", "domain_info_platform", "domain_realestate_transaction", "domain_realestate_capital", "domain_food_revenue", "domain_food_ownership", "domain_wholesale_product", "domain_wholesale_regulatory", "domain_prof_firm", "domain_prof_delivery", "domain_education_funding", "domain_education_segment", "domain_arts_monetization", "domain_arts_creator", "domain_other_pricing", "domain_public_funding", "domain_supply_tech", "domain_supply_risk", "domain_workforce_training", "domain_workforce_sms", "anzsco_2022", "crosswalk_anzsco_anzsic", "domain_chemical_type", "domain_defence_type", "domain_water_env", "domain_ai_data", "domain_biotech", "domain_space", "domain_climate_tech", "domain_adv_materials", "domain_quantum", "domain_digital_assets", "domain_robotics", "domain_energy_storage", "domain_semiconductor", "domain_synbio", "domain_xr_meta", "cnae_2012", "csic_2017", "okved_2", "kbli_2020", "scian_2018", "sic_sa", "crosswalk_geo_sector", "crosswalk_country_system", "all"],
         help="What to ingest",
     )
 
