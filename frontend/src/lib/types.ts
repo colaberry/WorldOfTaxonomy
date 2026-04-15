@@ -8,6 +8,11 @@ export interface ClassificationSystem {
   url: string | null
   tint_color: string | null
   node_count: number
+  source_url: string | null
+  source_date: string | null
+  data_provenance: 'official_download' | 'structural_derivation' | 'manual_transcription' | 'expert_curated' | null
+  license: string | null
+  source_file_hash: string | null
 }
 
 export interface SystemDetail extends ClassificationSystem {
@@ -71,4 +76,16 @@ export interface ApiKey {
 export interface AuthTokens {
   access_token: string
   token_type: string
+}
+
+export interface GeneratedNode {
+  code: string
+  title: string
+  description: string | null
+}
+
+export interface GenerateTaxonomyResponse {
+  parent_system_id: string
+  parent_code: string
+  nodes: GeneratedNode[]
 }

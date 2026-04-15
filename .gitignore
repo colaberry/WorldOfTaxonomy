@@ -109,3 +109,8 @@ reports/
 data/iso3166_all.csv
 data/atc_who.csv
 data/icd11_synonyms.parquet
+data/icd10cm_order_*.zip
+data/icd10pcs_order_*.zip
+data/desc2026.*
+data/nci_thesaurus.zip
+data/ndc_product.zip
