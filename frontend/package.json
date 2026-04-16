@@ -5,7 +5,7 @@
   "scripts": {
     "wiki:copy": "rm -rf src/content/wiki && mkdir -p src/content && cp -r ../wiki src/content/wiki",
     "predev": "npm run wiki:copy",
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--max-old-space-size=4096' next dev",
     "prebuild": "npm run wiki:copy",
     "build": "next build",
     "start": "next start",

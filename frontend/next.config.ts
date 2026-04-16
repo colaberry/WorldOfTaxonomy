@@ -13,6 +13,8 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  // Prevent remark and its plugins from being bundled (they are Node-only)
+  serverExternalPackages: ['remark', 'remark-gfm', 'remark-html'],
 };
 
 export default nextConfig;

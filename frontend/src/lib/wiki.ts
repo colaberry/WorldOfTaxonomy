@@ -14,11 +14,15 @@ export interface WikiMeta {
   order: number
 }
 
+let _cachedMeta: WikiMeta[] | null = null
+
 export function getWikiMeta(): WikiMeta[] {
+  if (_cachedMeta) return _cachedMeta
   const metaPath = path.join(WIKI_DIR, '_meta.json')
   const raw = fs.readFileSync(metaPath, 'utf-8')
   const data: WikiMeta[] = JSON.parse(raw)
-  return data.sort((a, b) => a.order - b.order)
+  _cachedMeta = data.sort((a, b) => a.order - b.order)
+  return _cachedMeta
 }
 
 export function getWikiContent(slug: string): string | null {
