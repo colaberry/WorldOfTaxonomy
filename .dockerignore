@@ -1,0 +1,49 @@
+# Trim Docker build context. KEEP wiki/, blog/, crosswalk-data/ —
+# the frontend prebuild hook copies them into src/content.
+
+# Git / editor
+.git
+.github
+.claude
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__
+**/__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.mypy_cache
+.coverage
+*.egg-info
+build/
+dist/
+.venv
+venv/
+env/
+
+# Node
+node_modules
+**/node_modules
+frontend/.next
+frontend/out
+
+# Large re-downloadable data (ingested separately via CLI)
+data/
+
+# Local env
+.env
+.env.*
+
+# Local reports and logs
+reports/
+*.log
+
+# Large docs/test material not needed by runtime images
+tests/
+docs/

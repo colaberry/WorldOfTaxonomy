@@ -1,0 +1,41 @@
+# Production image for Next.js frontend on Cloud Run.
+#
+# Build context MUST be the repo root (not the frontend/ directory) because
+# frontend/package.json's `prebuild` script copies sibling content dirs into
+# src/content before `next build`:
+#   cp -r ../wiki ../blog ../crosswalk-data/*.json into src/content/
+#
+# Build:   docker build -f frontend/Dockerfile.prod -t wot-web .
+# Run:     docker run -p 3000:3000 -e BACKEND_URL=http://host.docker.internal:8000 wot-web
+
+# syntax=docker/dockerfile:1.7
+
+# ---------- Stage 1: build ----------
+FROM node:20-alpine AS builder
+WORKDIR /app
+
+# Sibling content dirs consumed by the frontend `prebuild` hook
+COPY wiki ./wiki
+COPY blog ./blog
+COPY crosswalk-data ./crosswalk-data
+
+# Install deps (cached layer unless lockfile changes)
+COPY frontend/package.json frontend/package-lock.json ./frontend/
+WORKDIR /app/frontend
+RUN npm ci
+
+# Build (prebuild reaches ../wiki, ../blog, ../crosswalk-data)
+COPY frontend/ ./
+RUN npm run build && npm prune --omit=dev
+
+# ---------- Stage 2: runtime ----------
+FROM node:20-alpine AS runner
+WORKDIR /app/frontend
+ENV NODE_ENV=production
+
+RUN addgroup -S app && adduser -S app -G app
+COPY --from=builder --chown=app:app /app/frontend ./
+
+USER app
+EXPOSE 3000
+CMD ["npm", "run", "start", "--", "--hostname", "0.0.0.0"]
