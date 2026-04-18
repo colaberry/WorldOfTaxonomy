@@ -5,6 +5,7 @@ import {
   serverGetChildren,
   serverGetAncestors,
   serverGetEquivalences,
+  serverGetSiblings,
   serverGetSystem,
   serverGetSystems,
 } from '@/lib/server-api'
@@ -79,7 +80,7 @@ export default async function CodePage({ params }: Props) {
   }
   const nodeCode = decodeURIComponent(code)
 
-  let node, ancestors, children, equivalences, allSystems, systemDetail
+  let node, ancestors, children, equivalences, allSystems, systemDetail, siblings
   try {
     ;[node, ancestors, equivalences, allSystems, systemDetail] = await Promise.all([
       serverGetNode(system, nodeCode),
@@ -88,7 +89,16 @@ export default async function CodePage({ params }: Props) {
       serverGetSystems(),
       serverGetSystem(system),
     ])
-    children = node.is_leaf ? [] : await serverGetChildren(system, nodeCode)
+    const [childrenRes, siblingsRes] = await Promise.all([
+      node.is_leaf
+        ? Promise.resolve([])
+        : serverGetChildren(system, nodeCode).catch(() => []),
+      node.parent_code
+        ? serverGetSiblings(system, nodeCode).catch(() => [])
+        : Promise.resolve([]),
+    ])
+    children = childrenRes
+    siblings = siblingsRes
   } catch {
     notFound()
   }
@@ -103,6 +113,7 @@ export default async function CodePage({ params }: Props) {
       node={node}
       ancestors={ancestors}
       children={children ?? []}
+      siblings={siblings ?? []}
       equivalences={equivalences}
     />
   )

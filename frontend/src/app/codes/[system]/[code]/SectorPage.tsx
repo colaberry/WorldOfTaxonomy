@@ -13,6 +13,7 @@ interface SectorPageProps {
   node: ClassificationNode
   ancestors: ClassificationNode[]
   children: ClassificationNode[]
+  siblings: ClassificationNode[]
   equivalences: Equivalence[]
 }
 
@@ -179,8 +180,10 @@ export function SectorPage({
   node,
   ancestors,
   children,
+  siblings,
   equivalences,
 }: SectorPageProps) {
+  const parent = ancestors.length > 0 ? ancestors[ancestors.length - 1] : null
   const color = getSystemColor(system.id)
   const url = `https://worldoftaxonomy.com/codes/${system.id}/${encodeURIComponent(node.code)}`
   const equivalenceGroups = groupEquivalencesByTarget(equivalences)
@@ -396,6 +399,37 @@ export function SectorPage({
                       {c.description}
                     </p>
                   )}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {/* Peer codes (siblings) */}
+      {parent && siblings.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="text-sm font-semibold">
+            Other {system.name} codes under{' '}
+            <Link
+              href={`/codes/${system.id}/${encodeURIComponent(parent.code)}`}
+              className="text-primary hover:underline"
+            >
+              {parent.code} {parent.title}
+            </Link>
+          </h2>
+          <ul className="flex flex-wrap gap-2">
+            {siblings.map((s) => (
+              <li key={s.code}>
+                <Link
+                  href={`/codes/${system.id}/${encodeURIComponent(s.code)}`}
+                  className="inline-flex items-baseline gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-xs hover:border-primary/50 hover:bg-muted/30 transition-colors"
+                  title={s.title}
+                >
+                  <span className="font-mono font-semibold">{s.code}</span>
+                  <span className="text-muted-foreground truncate max-w-[24ch]">
+                    {s.title}
+                  </span>
                 </Link>
               </li>
             ))}

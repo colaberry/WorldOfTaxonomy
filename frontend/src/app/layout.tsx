@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://worldoftaxonomy.com"),
   title: {
     default: "WorldOfTaxonomy - Global Classification Knowledge Graph",
     template: "%s | WorldOfTaxonomy",
@@ -42,13 +43,11 @@ export const metadata: Metadata = {
     title: "WorldOfTaxonomy - Global Classification Knowledge Graph",
     description:
       "1,000+ systems, 1.2M+ codes, 321K+ crosswalks. Search, browse, and translate classification codes across NAICS, ISIC, HS, ICD, and more.",
-    images: [{ url: "/og-default.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "WorldOfTaxonomy",
     description: "Unified global classification knowledge graph",
-    images: ["/og-default.png"],
   },
   robots: {
     index: true,
@@ -61,21 +60,52 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "DataCatalog",
-  name: "WorldOfTaxonomy",
-  description:
-    "Unified global classification knowledge graph with 1,000+ systems, 1.2M+ codes, and 321K+ crosswalk edges.",
-  url: "https://worldoftaxonomy.com",
-  creator: {
-    "@type": "Organization",
-    name: "Colaberry",
-    url: "https://colaberry.com",
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "DataCatalog",
+    name: "WorldOfTaxonomy",
+    description:
+      "Unified global classification knowledge graph with 1,000+ systems, 1.2M+ codes, and 321K+ crosswalk edges.",
+    url: "https://worldoftaxonomy.com",
+    creator: {
+      "@type": "Organization",
+      name: "Colaberry",
+      url: "https://colaberry.com",
+    },
+    license: "https://opensource.org/licenses/MIT",
+    numberOfItems: 1000,
   },
-  license: "https://opensource.org/licenses/MIT",
-  numberOfItems: 1000,
-};
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "WorldOfTaxonomy",
+    url: "https://worldoftaxonomy.com",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://worldoftaxonomy.com/explore?q={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "WorldOfTaxonomy",
+    url: "https://worldoftaxonomy.com",
+    logo: "https://worldoftaxonomy.com/opengraph-image",
+    sameAs: [
+      "https://github.com/colaberry/WorldOfTaxonomy",
+    ],
+    parentOrganization: {
+      "@type": "Organization",
+      name: "Colaberry AI",
+      url: "https://colaberry.ai",
+    },
+  },
+];
 
 export default function RootLayout({
   children,

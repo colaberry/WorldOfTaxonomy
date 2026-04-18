@@ -120,6 +120,13 @@ export async function serverGetAncestors(
   return serverFetch(`/api/v1/systems/${systemId}/nodes/${code}/ancestors`)
 }
 
+export async function serverGetSiblings(
+  systemId: string,
+  code: string,
+): Promise<ClassificationNode[]> {
+  return serverFetch(`/api/v1/systems/${systemId}/nodes/${code}/siblings`)
+}
+
 export async function serverGetEquivalences(
   systemId: string,
   code: string,
