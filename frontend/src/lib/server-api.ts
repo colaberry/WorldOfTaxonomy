@@ -101,3 +101,78 @@ export async function serverGetCountryProfile(
 ): Promise<CountryProfile> {
   return serverFetch(`/api/v1/countries/${code.toUpperCase()}`)
 }
+
+export async function serverSearch(
+  query: string,
+  systemId?: string,
+  limit = 5,
+): Promise<ClassificationNode[]> {
+  const params = new URLSearchParams({ q: query, limit: String(limit) })
+  if (systemId) params.set('system', systemId)
+  return serverFetch(`/api/v1/search?${params}`)
+}
+
+// Natural-language queries ("telemedicine platform", "bakery that also sells
+// coffee") often miss the tsvector AND-join used by the search endpoint. Fall
+// back to searching the longest non-stopword tokens individually and merging
+// by code, so curated business-type pages still resolve sensible matches even
+// when no code title contains the full phrase verbatim.
+const STOPWORDS = new Set<string>([
+  'the', 'and', 'for', 'with', 'that', 'also', 'sells', 'company', 'service',
+  'services', 'online', 'based', 'independent', 'private', 'retail', 'small',
+  'commercial', 'residential', 'from', 'into', 'over', 'under', 'using',
+  'provider', 'platform', 'startup', 'shop', 'store', 'agency', 'firm',
+  'business', 'general', 'custom', 'local', 'mobile', 'full', 'this', 'that',
+])
+
+function extractSignificantTerms(query: string): string[] {
+  return query
+    .toLowerCase()
+    .split(/\s+/)
+    .map((w) => w.replace(/[^a-z0-9-]/g, ''))
+    .filter((w) => w.length >= 4 && !STOPWORDS.has(w))
+    .sort((a, b) => b.length - a.length)
+}
+
+export async function serverSearchFallback(
+  query: string,
+  systemId: string,
+  editorialKeywords?: string[],
+  limit = 3,
+): Promise<ClassificationNode[]> {
+  const primary = await serverSearch(query, systemId, limit).catch(
+    () => [] as ClassificationNode[],
+  )
+  if (primary.length > 0) return primary
+
+  const seen = new Map<string, ClassificationNode>()
+  const tryTerm = async (term: string) => {
+    if (seen.size >= limit) return
+    const extra = await serverSearch(term, systemId, limit).catch(
+      () => [] as ClassificationNode[],
+    )
+    for (const node of extra) {
+      if (!seen.has(node.code)) seen.set(node.code, node)
+      if (seen.size >= limit) break
+    }
+  }
+
+  // Editorial keywords (curator-specified) first - they encode the intended
+  // mapping for modern business types whose names don't appear in official
+  // classification titles (e.g. "telemedicine" -> "physicians").
+  if (editorialKeywords && editorialKeywords.length > 0) {
+    for (const term of editorialKeywords) {
+      if (seen.size >= limit) break
+      await tryTerm(term)
+    }
+    if (seen.size > 0) return Array.from(seen.values()).slice(0, limit)
+  }
+
+  // Fall back to automatic extraction of significant terms from the query.
+  const terms = extractSignificantTerms(query)
+  for (const term of terms.slice(0, 3)) {
+    if (seen.size >= limit) break
+    await tryTerm(term)
+  }
+  return Array.from(seen.values()).slice(0, limit)
+}

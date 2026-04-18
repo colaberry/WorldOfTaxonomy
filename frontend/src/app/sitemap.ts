@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import { getWikiSlugs } from '@/lib/wiki'
 import { getBlogSlugs } from '@/lib/blog'
 import { MAJOR_SYSTEMS } from './codes/constants'
+import { QUERIES } from './codes/q/queries'
 
 const SITE_URL = 'https://worldoftaxonomy.com'
 const BACKEND_URL = process.env.BACKEND_URL ?? 'http://localhost:8000'
@@ -42,6 +43,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.85,
   }))
 
+  const queryPages: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/codes/q`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    ...QUERIES.map((q) => ({
+      url: `${SITE_URL}/codes/q/${q.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    })),
+  ]
+
   try {
     const [systemsRes, rootsRes] = await Promise.all([
       fetch(`${BACKEND_URL}/api/v1/systems`, { next: { revalidate: 3600 } }),
@@ -56,7 +67,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         }),
       ),
     ])
-    if (!systemsRes.ok) return [...staticPages, ...codesSystemHubs]
+    if (!systemsRes.ok) return [...staticPages, ...codesSystemHubs, ...queryPages]
 
     const systems: Array<{ id: string }> = await systemsRes.json()
     const systemUrls: MetadataRoute.Sitemap = systems.map((s) => ({
@@ -75,8 +86,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       })),
     )
 
-    return [...staticPages, ...codesSystemHubs, ...codeSectorUrls, ...systemUrls]
+    return [...staticPages, ...codesSystemHubs, ...codeSectorUrls, ...queryPages, ...systemUrls]
   } catch {
-    return [...staticPages, ...codesSystemHubs]
+    return [...staticPages, ...codesSystemHubs, ...queryPages]
   }
 }

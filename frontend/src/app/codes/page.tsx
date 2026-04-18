@@ -74,16 +74,30 @@ export default async function CodesHubPage() {
         })}
       </section>
 
-      <section className="rounded-xl border border-border bg-card p-5 space-y-2">
-        <h2 className="text-sm font-semibold">Looking for something specific?</h2>
-        <p className="text-xs text-muted-foreground">
-          Describe your business in plain English and we&apos;ll find matching codes across every system.
-        </p>
+      <section className="grid sm:grid-cols-2 gap-4">
+        <Link
+          href="/codes/q"
+          className="rounded-xl border border-border bg-card p-5 hover:border-primary/50 transition-colors group space-y-1"
+        >
+          <h2 className="text-sm font-semibold flex items-center gap-2">
+            Browse by business type
+            <ArrowRight className="size-3.5 group-hover:translate-x-0.5 transition-transform" />
+          </h2>
+          <p className="text-xs text-muted-foreground">
+            Pre-matched codes for common business types - bakeries, SaaS startups, trucking companies, and more.
+          </p>
+        </Link>
         <Link
           href="/classify"
-          className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline pt-1"
+          className="rounded-xl border border-border bg-card p-5 hover:border-primary/50 transition-colors group space-y-1"
         >
-          Try the classifier <ArrowRight className="size-3.5" />
+          <h2 className="text-sm font-semibold flex items-center gap-2">
+            Classify a specific business
+            <ArrowRight className="size-3.5 group-hover:translate-x-0.5 transition-transform" />
+          </h2>
+          <p className="text-xs text-muted-foreground">
+            Describe your business in plain English and we&apos;ll find matching codes across every system.
+          </p>
         </Link>
       </section>
     </div>
