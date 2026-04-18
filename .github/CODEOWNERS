@@ -1,0 +1,29 @@
+# Auto-request review from the owner on every PR.
+# First matching pattern wins.
+
+*                                   @ramdhanyk
+
+# Backend
+/world_of_taxonomy/                 @ramdhanyk
+/tests/                             @ramdhanyk
+/scripts/                           @ramdhanyk
+/requirements.txt                   @ramdhanyk
+
+# Frontend
+/frontend/                          @ramdhanyk
+
+# Infra + CI
+/.github/                           @ramdhanyk
+/Dockerfile.backend                 @ramdhanyk
+/docker-compose.yml                 @ramdhanyk
+
+# Docs + handover
+/HANDOVER.md                        @ramdhanyk
+/docs/                              @ramdhanyk
+/README.md                          @ramdhanyk
+/CLAUDE.md                          @ramdhanyk
+/CONTRIBUTING.md                    @ramdhanyk
+
+# Curated content
+/wiki/                              @ramdhanyk
+/blog/                              @ramdhanyk
