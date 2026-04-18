@@ -135,6 +135,11 @@ async def rate_limit_middleware(request: Request, call_next):
     if not path.startswith("/api/v1/"):
         return await call_next(request)
 
+    # Health checks must never be rate-limited so uptime probes
+    # cannot knock themselves out.
+    if path == "/api/v1/healthz":
+        return await call_next(request)
+
     # Determine the key and apply appropriate limit
     try:
         from world_of_taxonomy.api.deps import get_optional_auth
