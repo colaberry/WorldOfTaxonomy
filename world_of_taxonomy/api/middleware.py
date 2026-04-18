@@ -1,4 +1,4 @@
-"""Rate limiting middleware for WorldOfTaxonomy API."""
+"""Rate limiting + security-headers middleware for WorldOfTaxonomy API."""
 
 from __future__ import annotations
 
@@ -7,6 +7,24 @@ from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 from starlette.requests import Request
 from starlette.responses import JSONResponse
+
+# Security headers applied to every response. Kept conservative so the
+# API and /docs Swagger UI both keep working.
+SECURITY_HEADERS = {
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "geolocation=(), microphone=(), camera=()",
+}
+
+
+async def security_headers_middleware(request: Request, call_next):
+    """Attach baseline security headers to every response."""
+    response = await call_next(request)
+    for key, value in SECURITY_HEADERS.items():
+        response.headers.setdefault(key, value)
+    return response
 
 
 # Per-minute rate limits by tier
