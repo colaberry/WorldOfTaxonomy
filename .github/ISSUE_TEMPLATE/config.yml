@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability
+    url: https://github.com/ramdhanyk/WorldOfTaxonomy/security/advisories/new
+    about: Report privately via GitHub Security Advisories. See SECURITY.md.
+  - name: Question or Discussion
+    url: https://worldoftaxonomy.com/contact
+    about: General questions, integration help, or feedback. Not for bug reports.
+  - name: Documentation
+    url: https://worldoftaxonomy.com/guide
+    about: Browse the guides, API reference, and MCP docs before filing an issue.
