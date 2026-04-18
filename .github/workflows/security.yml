@@ -1,0 +1,93 @@
+name: Security
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Weekly security sweep every Monday 07:00 UTC so newly disclosed
+    # CVEs surface even when no PR is open.
+    - cron: "0 7 * * 1"
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  bandit:
+    name: Bandit (Python SAST)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Bandit
+        run: pip install bandit[toml]
+
+      - name: Run Bandit on backend
+        run: |
+          bandit -r world_of_taxonomy \
+            -x tests \
+            -ll \
+            --severity-level medium \
+            --confidence-level medium
+
+  pip-audit:
+    name: pip-audit (Python supply chain)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pip-audit
+        run: pip install pip-audit
+
+      - name: Audit requirements
+        # --require-hashes is ideal but requires a lockfile; start
+        # without it and escalate later. Fails on any known vuln.
+        run: pip-audit -r requirements.txt --strict
+        continue-on-error: true
+
+  gitleaks:
+    name: GitLeaks (secret scan)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run GitLeaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  trivy:
+    name: Trivy (Docker image scan)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build backend image
+        run: docker build -f Dockerfile.backend -t wot-backend:ci .
+
+      - name: Trivy scan (HIGH + CRITICAL, non-blocking first)
+        uses: aquasecurity/trivy-action@0.24.0
+        with:
+          image-ref: "wot-backend:ci"
+          format: "table"
+          severity: "HIGH,CRITICAL"
+          exit-code: "0"
+          ignore-unfixed: true
