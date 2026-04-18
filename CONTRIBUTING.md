@@ -5,7 +5,7 @@
 ## Rules
 
 1. **TDD - Red, Green, Refactor.** Write the failing test first. Run it red. Then write the minimum implementation to make it green. Never skip the red step.
-2. **No em-dashes.** Never use the em-dash character (U+2014) anywhere - code, comments, docstrings, markdown, or config. CI enforces this.
+2. **No em-dashes.** Never use the em-dash character (U+2014) anywhere - code, comments, docstrings, markdown, or config. CI enforces this. Install the pre-commit hook to catch it locally: `pip install pre-commit && pre-commit install`.
 3. **One system per PR.** Complete all steps (tests, ingester, CLI registration, docs update) in a single PR.
 
 ---

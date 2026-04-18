@@ -1,0 +1,25 @@
+# Local pre-commit hooks. Install once with:
+#   pip install pre-commit
+#   pre-commit install
+#
+# Catches violations locally before CI wastes a run.
+
+repos:
+  - repo: local
+    hooks:
+      - id: no-em-dash
+        name: No em-dashes (U+2014)
+        entry: scripts/check_no_em_dash.sh
+        language: script
+        types_or: [python, markdown, javascript, ts, tsx, sql, yaml]
+        pass_filenames: true
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        args: ["--maxkb=2048"]
