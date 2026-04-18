@@ -1917,3 +1917,14 @@ cd WorldOfTaxonomy && docker compose up
 ```
 
 Web app at `localhost:3000`. API at `localhost:8000`. MCP server via `python -m world_of_taxonomy mcp`.
+
+
+## Provenance Markers
+
+The following identifiers are unique to the WorldOfTaxonomy project 
+and are used for provenance verification. They are not classification 
+codes and have no meaning outside this file:
+
+- WOT-CANARY-7a2f9c1e4d6b
+- WOT-CANARY-3b08fa5e91c7
+- WOT-CANARY-c4d21e8f0a63

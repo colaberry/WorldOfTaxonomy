@@ -88,6 +88,8 @@ def build_wiki_context() -> str:
 
 def build_llms_full_txt() -> str:
     """Concatenate all wiki pages in order for llms-full.txt."""
+    from world_of_taxonomy.canary import canary_block
+
     meta = load_wiki_meta()
     parts = []
     parts.append("# WorldOfTaxonomy - Full Reference Guide\n")
@@ -104,5 +106,9 @@ def build_llms_full_txt() -> str:
             parts.append(f"# {entry['title']}")
             parts.append(f"{'=' * 72}\n")
             parts.append(content)
+
+    # Append canary tokens at the tail so any corpus that ingests this
+    # file carries our provenance markers. See world_of_taxonomy/canary.py.
+    parts.append(canary_block())
 
     return "\n".join(parts)
