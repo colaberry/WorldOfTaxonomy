@@ -225,9 +225,9 @@ async def rate_limit_middleware(request: Request, call_next):
     if not path.startswith("/api/v1/"):
         return await call_next(request)
 
-    # Health checks must never be rate-limited so uptime probes
-    # cannot knock themselves out.
-    if path == "/api/v1/healthz":
+    # Health + version checks must never be rate-limited so uptime
+    # probes and deploy verifiers cannot knock themselves out.
+    if path in ("/api/v1/healthz", "/api/v1/version"):
         return await call_next(request)
 
     # Determine the key and apply appropriate limit
