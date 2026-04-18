@@ -15,6 +15,7 @@ development (no token) the endpoint is open so `curl localhost:8000/api
 
 from __future__ import annotations
 
+import hmac
 import os
 import time
 from typing import Callable, Optional
@@ -101,8 +102,12 @@ async def metrics_endpoint(
     developers can curl it locally without setting up credentials.
     """
     expected = os.getenv("METRICS_TOKEN", "").strip()
-    if expected and (x_metrics_token or "") != expected:
-        raise HTTPException(status_code=401, detail="unauthorized")
+    if expected:
+        # Constant-time compare so a timing side channel can not leak
+        # the secret one byte at a time.
+        supplied = (x_metrics_token or "").encode("utf-8")
+        if not hmac.compare_digest(supplied, expected.encode("utf-8")):
+            raise HTTPException(status_code=401, detail="unauthorized")
 
     payload = generate_latest()
     return Response(content=payload, media_type=CONTENT_TYPE_LATEST)

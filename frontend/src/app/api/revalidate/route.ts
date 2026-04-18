@@ -1,5 +1,18 @@
+import { timingSafeEqual } from 'node:crypto'
 import { revalidatePath } from 'next/cache'
 import { NextRequest, NextResponse } from 'next/server'
+
+// Constant-time string compare so a remote attacker can not learn
+// REVALIDATE_SECRET byte-by-byte via response timing. timingSafeEqual
+// requires equal-length buffers, so we bail out on length mismatch.
+function constantTimeEqual(a: string, b: string): boolean {
+  const ab = Buffer.from(a, 'utf8')
+  const bb = Buffer.from(b, 'utf8')
+  if (ab.length !== bb.length) {
+    return false
+  }
+  return timingSafeEqual(ab, bb)
+}
 
 /**
  * On-demand cache invalidation endpoint.
@@ -12,10 +25,10 @@ import { NextRequest, NextResponse } from 'next/server'
  * Body: { "systemId": "naics_2022" } or { "scope": "all" }
  */
 export async function POST(request: NextRequest) {
-  const secret = request.headers.get('x-revalidate-secret')
+  const secret = request.headers.get('x-revalidate-secret') ?? ''
   const expected = process.env.REVALIDATE_SECRET
 
-  if (!expected || secret !== expected) {
+  if (!expected || !constantTimeEqual(secret, expected)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
