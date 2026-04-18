@@ -1,0 +1,92 @@
+{
+  "base_url": "https://worldoftaxonomy.com/api/v1",
+  "auth": {
+    "type": "bearer",
+    "header": "Authorization",
+    "format": "Bearer wot_<32hex>"
+  },
+  "tools": [
+    {
+      "name": "list_systems",
+      "description": "List all classification systems (NAICS, ISIC, ICD, etc).",
+      "method": "GET",
+      "path": "/systems",
+      "parameters": {}
+    },
+    {
+      "name": "get_system",
+      "description": "Get metadata and root nodes for a classification system.",
+      "method": "GET",
+      "path": "/systems/{system_id}",
+      "parameters": {
+        "system_id": {"type": "string", "required": true, "example": "naics_2022"}
+      }
+    },
+    {
+      "name": "get_node",
+      "description": "Get full detail for a single code in a system.",
+      "method": "GET",
+      "path": "/systems/{system_id}/nodes/{code}",
+      "parameters": {
+        "system_id": {"type": "string", "required": true},
+        "code": {"type": "string", "required": true, "example": "541511"}
+      }
+    },
+    {
+      "name": "get_children",
+      "description": "List direct children of a code in the hierarchy.",
+      "method": "GET",
+      "path": "/systems/{system_id}/nodes/{code}/children",
+      "parameters": {
+        "system_id": {"type": "string", "required": true},
+        "code": {"type": "string", "required": true}
+      }
+    },
+    {
+      "name": "get_ancestors",
+      "description": "Get the ancestry chain from root to this code.",
+      "method": "GET",
+      "path": "/systems/{system_id}/nodes/{code}/ancestors",
+      "parameters": {
+        "system_id": {"type": "string", "required": true},
+        "code": {"type": "string", "required": true}
+      }
+    },
+    {
+      "name": "get_equivalences",
+      "description": "Return all crosswalk edges for a code (its equivalents in every connected system).",
+      "method": "GET",
+      "path": "/systems/{system_id}/nodes/{code}/equivalences",
+      "parameters": {
+        "system_id": {"type": "string", "required": true},
+        "code": {"type": "string", "required": true}
+      }
+    },
+    {
+      "name": "search",
+      "description": "Full-text search over node titles, optionally scoped to one system.",
+      "method": "GET",
+      "path": "/search",
+      "parameters": {
+        "q": {"type": "string", "required": true, "in": "query"},
+        "system": {"type": "string", "required": false, "in": "query"}
+      }
+    },
+    {
+      "name": "classify",
+      "description": "Classify a free-text business, product, occupation, or document under standard codes across all systems.",
+      "method": "POST",
+      "path": "/classify",
+      "body": {
+        "description": {"type": "string", "required": true}
+      }
+    },
+    {
+      "name": "coverage_stats",
+      "description": "Edge counts between every pair of systems (crosswalk matrix).",
+      "method": "GET",
+      "path": "/equivalences/stats",
+      "parameters": {}
+    }
+  ]
+}

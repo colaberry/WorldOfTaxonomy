@@ -28,7 +28,8 @@ export function Header() {
     { href: '/explore', label: 'Explore', active: pathname === '/explore' },
     { href: '/guide', label: 'Guide', active: pathname.startsWith('/guide') },
     { href: '/blog',  label: 'Blog',  active: pathname.startsWith('/blog') },
-    { href: '/developers', label: 'Developers', active: pathname === '/developers' },
+    { href: '/developers', label: 'Builders', active: pathname === '/developers' },
+    { href: '/about', label: 'About', active: pathname === '/about' },
     { href: '/pricing', label: 'Pricing', active: pathname === '/pricing' },
     { href: '/dashboard', label: 'Dashboard', active: pathname === '/dashboard' },
   ]

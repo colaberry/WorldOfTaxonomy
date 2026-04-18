@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network } from 'lucide-react'
+import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network, Sparkles, Bot } from 'lucide-react'
 
 async function fetchGithubStars(): Promise<number | null> {
   try {
@@ -39,7 +39,7 @@ const METHOD_COLORS: Record<string, string> = {
   POST: 'text-blue-500 bg-blue-500/10',
 }
 
-export default async function DevelopersPage() {
+export default async function BuildersPage() {
   const githubStars = await fetchGithubStars()
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 py-12 space-y-16">
@@ -48,14 +48,15 @@ export default async function DevelopersPage() {
       <div className="space-y-3">
         <div className="flex items-center gap-2 text-xs text-muted-foreground font-medium">
           <Zap className="h-3.5 w-3.5 text-primary" />
-          Developers
+          Builders
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
           Build on the world&apos;s most comprehensive classification graph
         </h1>
         <p className="text-muted-foreground text-base max-w-2xl leading-relaxed">
           1,000+ classification systems, 1.2M+ nodes, and 321K+ crosswalk edges - available via
-          REST API, MCP server (for AI assistants), or directly from the open-source repo.
+          REST API, MCP server, packaged AI skills (Claude Code, Anthropic, ChatGPT Custom GPT,
+          portable), or directly from the open-source repo.
         </p>
         <div className="flex flex-wrap gap-3 pt-2">
           <Link
@@ -87,7 +88,7 @@ export default async function DevelopersPage() {
       </div>
 
       {/* ── Quick-glance cards ── */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         <a
           href="#github"
           className="group flex flex-col gap-3 p-5 rounded-xl border border-border/50 bg-card hover:border-border hover:shadow-sm transition-all"
@@ -150,6 +151,27 @@ export default async function DevelopersPage() {
             python3 -m world_of_taxonomy mcp
           </code>
         </Link>
+
+        <a
+          href="#skills"
+          className="group flex flex-col gap-3 p-5 rounded-xl border border-border/50 bg-card hover:border-border hover:shadow-sm transition-all"
+        >
+          <div className="flex items-center justify-between">
+            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-secondary border border-border/50">
+              <Sparkles className="h-5 w-5" />
+            </div>
+            <ArrowRight className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+          </div>
+          <div>
+            <p className="font-semibold text-sm">AI Skills</p>
+            <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
+              Drop-in skills for Claude Code, Anthropic, ChatGPT, and any LLM agent. Four bundles, same backend.
+            </p>
+          </div>
+          <code className="text-[11px] font-mono text-muted-foreground bg-secondary/60 px-2.5 py-1.5 rounded-md w-fit">
+            skills/
+          </code>
+        </a>
 
         <a
           href="#add-system"
@@ -424,6 +446,96 @@ python3 -m world_of_taxonomy mcp`}
               className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline font-medium"
             >
               View full MCP reference ({MCP_TOOL_COUNT} tools) <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── AI Skills ── */}
+      <section id="skills" className="space-y-5">
+        <div className="flex items-center gap-3">
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-secondary border border-border/50">
+            <Sparkles className="h-5 w-5" />
+          </div>
+          <div>
+            <h2 className="text-xl font-semibold">AI Skills</h2>
+            <p className="text-sm text-muted-foreground">Drop-in skill bundles for Claude, ChatGPT, and any LLM agent</p>
+          </div>
+        </div>
+
+        <div className="rounded-xl border border-border/50 bg-card divide-y divide-border/50">
+          <div className="p-6 space-y-3">
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              Four packaged integrations, all backed by the same REST API and MCP server. Pick the
+              one that matches your agent runtime. Source lives in the{' '}
+              <code className="font-mono text-xs">/skills</code> directory of the repo.
+            </p>
+          </div>
+
+          <div className="p-6 grid sm:grid-cols-2 gap-4">
+            {[
+              {
+                icon: Bot,
+                title: 'Claude Code Skill',
+                path: 'skills/claude-code/worldoftaxonomy.md',
+                desc: 'Markdown skill file with frontmatter. Drop into ~/.claude/skills/ or reference from the repo. Auto-activates on classification, translation, and hierarchy queries.',
+              },
+              {
+                icon: Sparkles,
+                title: 'Anthropic Claude Skill',
+                path: 'skills/anthropic/SKILL.md',
+                desc: 'Self-contained SKILL.md bundle for claude.ai agent skills. Includes auth, endpoints, response guidance, and invocation triggers.',
+              },
+              {
+                icon: Braces,
+                title: 'ChatGPT Custom GPT',
+                path: 'skills/openapi/',
+                desc: 'OpenAPI Action schema + system prompt for ChatGPT. Includes an export script that trims the spec to the 10 endpoints a Custom GPT needs.',
+              },
+              {
+                icon: Terminal,
+                title: 'Portable LLM Skill',
+                path: 'skills/portable/',
+                desc: 'Plain markdown system prompt + JSON tool schemas. Works with Gemini, Llama, LangChain, LlamaIndex, or any function-calling agent.',
+              },
+            ].map(({ icon: Icon, title, path, desc }) => (
+              <div key={title} className="rounded-lg border border-border/50 bg-secondary/30 p-4 space-y-2">
+                <div className="flex items-center gap-2">
+                  <Icon className="h-4 w-4 text-primary shrink-0" />
+                  <p className="text-sm font-semibold">{title}</p>
+                </div>
+                <p className="text-xs text-muted-foreground leading-relaxed">{desc}</p>
+                <code className="text-[10px] font-mono text-primary/80 block">{path}</code>
+              </div>
+            ))}
+          </div>
+
+          <div className="p-6 space-y-2">
+            <p className="text-sm font-medium">Shared capabilities</p>
+            <ul className="space-y-1.5 text-xs text-muted-foreground">
+              <li className="flex items-start gap-2">
+                <ChevronRight className="h-3.5 w-3.5 text-primary shrink-0 mt-0.5" />
+                <span>Classify free text (business, product, occupation, document) under standard codes across all systems</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="h-3.5 w-3.5 text-primary shrink-0 mt-0.5" />
+                <span>Translate codes between systems (NAICS -&gt; ISIC, ICD-10-CM -&gt; ICD-10-GM, SOC -&gt; ISCO, HS -&gt; CPC)</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <ChevronRight className="h-3.5 w-3.5 text-primary shrink-0 mt-0.5" />
+                <span>Walk hierarchies (children, ancestors, siblings) and audit crosswalk coverage between any two systems</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="p-4">
+            <Link
+              href="https://github.com/colaberry/WorldOfTaxonomy/tree/main/skills"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline font-medium"
+            >
+              Browse all four skills on GitHub <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
         </div>
