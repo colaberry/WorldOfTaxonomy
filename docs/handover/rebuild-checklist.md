@@ -1,6 +1,6 @@
 # Rebuild Checklist
 
-Ordered, executable steps to stand up WorldOfTaxonomy from a clean checkout on a new machine. Assumes macOS/Linux, Python 3.11, Node 20+, Postgres access (Neon recommended).
+Ordered, executable steps to stand up WorldOfTaxonomy from a clean checkout on a new machine. Assumes macOS/Linux, Python 3.11, Node 20+, Postgres 14+ access (any provider or self-hosted).
 
 Read [HANDOVER.md](../../HANDOVER.md) first for context.
 
@@ -10,7 +10,7 @@ Read [HANDOVER.md](../../HANDOVER.md) first for context.
 
 - Python 3.11 (`python3 --version`).
 - Node 20 or later via `nvm` (`nvm install 20 && nvm use 20`).
-- A Postgres database. For prod-like behavior, use Neon (pgbouncer present). For local dev, any Postgres works.
+- A Postgres 14+ database. Any provider (Neon, Supabase, RDS, Cloud SQL, self-hosted) or a local install works. If whatever you pick puts pgbouncer in transaction-pooling mode in front of it, remember to set `statement_cache_size=0` (see step 5).
 - Optional: Docker + docker-compose if you want the [docker-compose.yml](../../docker-compose.yml) stack.
 
 ---
@@ -28,12 +28,29 @@ Edit `.env`:
 ```
 DATABASE_URL=postgresql://user:password@host/dbname?sslmode=require
 JWT_SECRET=$(python3 -c 'import secrets; print(secrets.token_hex(32))')
+# Production-required
+ALLOWED_ORIGINS=https://worldoftaxonomy.com
+METRICS_TOKEN=$(python3 -c 'import secrets; print(secrets.token_hex(16))')
 # Optional
 ANTHROPIC_API_KEY=sk-ant-...
 REPORT_EMAIL=you@example.com
+SENTRY_DSN=
+SENTRY_ENVIRONMENT=production
+SENTRY_TRACES_SAMPLE_RATE=0.1
+OPENAPI_SERVERS=https://wot.aixcelerator.app:Production
+# SSRF hardening for LEAD_WEBHOOK_URL (if set)
+WEBHOOK_HOST_ALLOWLIST=
+WEBHOOK_ALLOW_HTTP=false
+# Failed-auth lockout
+AUTH_FAILURE_WINDOW_SECONDS=300
+AUTH_FAILURE_MAX_PER_IP=20
+AUTH_FAILURE_MAX_PER_EMAIL=5
+# security.txt (RFC 9116)
+SECURITY_CONTACT=mailto:security@worldoftaxonomy.com
+SECURITY_POLICY_URL=https://worldoftaxonomy.com/security
 ```
 
-For local dev you may also set `DISABLE_AUTH=true` to skip JWT validation entirely. Never do this in production.
+For local dev you may also set `DISABLE_AUTH=true` to skip JWT validation entirely. Never do this in production. The app refuses to boot if required env vars are missing or `JWT_SECRET` is weak.
 
 ---
 
@@ -53,6 +70,7 @@ pip install -r requirements.txt
 source .env
 python -m world_of_taxonomy init         # core schema (classification_system, classification_node, equivalence, ...)
 python -m world_of_taxonomy init-auth    # auth schema (app_user, api_key, usage_log, daily_usage)
+alembic upgrade head                     # apply migrations on top of the baseline
 ```
 
 Verify:
@@ -213,8 +231,8 @@ This is the same grep CI runs. Must return `clean`.
 
 ### Database
 
-- Neon: create a project, copy the pooled connection string, set as `DATABASE_URL`.
-- Remember: asyncpg pool needs `statement_cache_size=0` on pgbouncer-fronted Postgres. Production code path in [world_of_taxonomy/db.py](../../world_of_taxonomy/db.py) should set this explicitly when `DATABASE_URL` contains `pooler`.
+- Pick any Postgres 14+ and set its connection string as `DATABASE_URL`. Examples: Neon (pooled URL), Supabase (pooled URL), RDS, Cloud SQL, self-hosted Postgres, local install.
+- If a pgbouncer-style pooler sits in front of it in transaction mode, asyncpg needs `statement_cache_size=0`. Production code path in [world_of_taxonomy/db.py](../../world_of_taxonomy/db.py) sets this when the URL looks pooled; double-check for your provider.
 
 ### OAuth providers
 

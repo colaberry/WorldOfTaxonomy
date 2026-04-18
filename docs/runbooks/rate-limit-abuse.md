@@ -10,7 +10,7 @@
 
 - **Legit anonymous traffic** throttled at 30 req/min per IP.
 - **Paid users** should not normally see 429s unless they exceed tier caps (1000/min pro, 10000/min enterprise; daily caps in `TIER_DAILY_LIMITS`).
-- **Cost**: sustained abuse on anonymous tier inflates Fly machine time and Neon compute.
+- **Cost**: sustained abuse on anonymous tier inflates backend compute (Fly machine time) and database compute (usage-billed providers like Neon, Supabase) or connection/IO on self-hosted.
 
 ## Detection
 
@@ -54,6 +54,6 @@ fly logs -a wot-api | jq -r 'select(.user_id) | .user_id' | sort | uniq -c | sor
 ## Postmortem checklist
 
 - Duration and request volume of the abuse window.
-- Infra cost delta for the day (Fly + Neon).
+- Infra cost delta for the day (backend host + database).
 - Whether any customer-facing 429s fell on paying users.
 - Follow-ups: do we need Cloudflare in front? Should MCP have its own rate-limit scope?

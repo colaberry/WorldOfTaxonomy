@@ -18,7 +18,7 @@
 # Is the API reachable at all?
 curl -s -o /dev/null -w "%{http_code}\n" https://wot.aixcelerator.app/api/v1/healthz
 
-# Can we reach Neon directly from the backend host?
+# Can we reach the database directly from the backend host?
 fly ssh console -a wot-api -C 'python3 -c "import os; import asyncio; import asyncpg; \
     asyncio.run(asyncpg.connect(os.environ[\"DATABASE_URL\"]))"'
 ```
@@ -27,11 +27,11 @@ fly ssh console -a wot-api -C 'python3 -c "import os; import asyncio; import asy
 
 | Check | Command | Tells you |
 |-------|---------|-----------|
-| Neon status page | <https://neon.tech/status> | Platform-wide outage |
+| DB provider status page | Neon: <https://neon.tech/status>; Supabase: <https://status.supabase.com>; AWS: <https://health.aws.amazon.com/health/status> | Platform-wide outage |
 | Fly app health | `fly status -a wot-api` | Backend container running? |
 | Pool saturation | `grep "pool exhausted" /var/log/*.log` or Fly logs | Too many concurrent requests |
-| DNS | `dig $DATABASE_HOST` | Neon endpoint DNS resolving |
-| Neon branch compute state | Neon console | Compute endpoint suspended (cold start expected) |
+| DNS | `dig $DATABASE_HOST` | Database endpoint DNS resolving |
+| DB compute state | Provider console (Neon branch, RDS instance, Supabase project) | Compute endpoint suspended or paused (cold start expected on serverless tiers) |
 
 ## Mitigation
 
@@ -47,7 +47,7 @@ fly ssh console -a wot-api -C 'python3 -c "import os; import asyncio; import asy
 
 ## Remediation
 
-- **If Neon is degraded**: nothing to do but wait for Neon to recover. Post a status update.
+- **If the DB provider is degraded**: nothing to do but wait for the provider to recover. Post a status update.
 - **If DATABASE_URL has rotated**: update the Fly secret and restart:
   ```bash
   fly secrets set DATABASE_URL="postgres://..." -a wot-api
@@ -59,6 +59,6 @@ fly ssh console -a wot-api -C 'python3 -c "import os; import asyncio; import asy
 
 - Duration (first 503 -> first 200 on `/healthz`).
 - User impact estimate (requests dropped / unique IPs affected).
-- Upstream status (Neon, Fly, Vercel) at the time.
+- Upstream status (DB provider, Fly, Vercel) at the time.
 - Whether alerts fired and how fast.
 - Follow-ups: is `command_timeout` appropriate? Should retries be added at the query layer?

@@ -20,6 +20,9 @@ on:
         required: false
         default: ""
 
+permissions:
+  contents: write
+
 jobs:
   ingest:
     name: Refresh classification data
@@ -53,6 +56,25 @@ jobs:
           python -m world_of_taxonomy ingest isic
           python -m world_of_taxonomy ingest nace
           python -m world_of_taxonomy ingest isic_naics_crosswalk
+
+      - name: Re-export crosswalk + tree data
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python scripts/export_crosswalk_data.py
+          python scripts/export_tree_data.py
+
+      - name: Commit regenerated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add crosswalk-data/ tree-data/
+          if git diff --staged --quiet; then
+            echo "No data changes after ingest; skipping commit."
+          else
+            git commit -m "chore(data): refresh crosswalk + tree exports after ingest [skip ci]"
+            git push
+          fi
 
       - name: Bust Next.js ISR cache
         env:

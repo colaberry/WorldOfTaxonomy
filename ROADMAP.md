@@ -79,7 +79,7 @@ Current state: **279 systems, 570,178 codes, 122,769 crosswalk edges, 249 countr
   Pages needed: key list, create key, revoke key.
 
 - [ ] **Production DB ingestion**
-  Production Neon DB has only 12 of 88 systems loaded. Run `ingest all`
+  Production database has only 12 of 88 systems loaded. Run `ingest all`
   (~30-40 min) to load all remaining systems, crosswalks, and domain
   taxonomies. World map, search, and MCP tools all become dramatically
   more useful. See `PLAN.md` for the exact command.

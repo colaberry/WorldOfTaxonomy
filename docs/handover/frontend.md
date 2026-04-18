@@ -37,7 +37,7 @@ When in doubt, read the docs shipped with the installed version: `node_modules/n
 | `/login` | client | Client | OAuth buttons (GitHub, Google, LinkedIn). Bounces logged-in users home |
 | `/auth/callback` | SSR | SSR | OAuth callback; stashes JWT + user in `localStorage`, redirects home |
 | `/dashboard` | `page.tsx` | Server | 308 permanent redirect to `/explore` (preserves query string) |
-| `/api/revalidate` | route handler | Server | ISR webhook; `x-revalidate-secret` header required |
+| `/api/revalidate` | route handler | Server | ISR webhook; `x-revalidate-secret` header required (constant-time compared) |
 | `/api/crosswalk/[source]/[target]/graph` | route handler | Server | Falls back to backend when a pair isn't bundled |
 | `/api/crosswalk/[source]/[target]/sections` | route handler | Server | Section summary for a crosswalk pair |
 | `sitemap.ts` | static | Static | Generates sitemap from wiki + blog slugs + `GET /api/v1/systems` |
@@ -107,7 +107,8 @@ OAuth provider setup (client IDs, secrets, redirect URIs per environment) is doc
 
 ## Configuration
 
-- [frontend/next.config.ts](../../frontend/next.config.ts) - rewrites `/api/v1/*` to `${BACKEND_URL}/api/v1/*`. `serverExternalPackages` excludes remark/remark-gfm/remark-html from the client bundle.
+- [frontend/next.config.ts](../../frontend/next.config.ts) - rewrites `/api/v1/*` to `${BACKEND_URL}/api/v1/*`. `serverExternalPackages` excludes remark/remark-gfm/remark-html from the client bundle. Applies baseline security headers (HSTS, nosniff, frame-deny, Referrer-Policy, Permissions-Policy) and a Content-Security-Policy Report-Only header that posts violations to `/api/v1/csp-report`. `poweredByHeader: false` drops the `X-Powered-By` fingerprint.
+- Typed API surface generated from the live FastAPI OpenAPI spec via `openapi-typescript`; output under `frontend/src/lib/openapi-types.ts`. Wrapper clients in `lib/api.ts` / `lib/server-api.ts` consume those types. Regenerate when the backend schemas change.
 - [frontend/tsconfig.json](../../frontend/tsconfig.json) - strict mode, `@/*` alias for `src/*`, `jsx: react-jsx`.
 - [frontend/package.json](../../frontend/package.json) - notable scripts: `predev`/`prebuild` copy `wiki/`, `blog/`, `crosswalk-data/`, `tree-data/` into `src/content/` before each run; `dev` bumps Node heap; `build`, `start`, `lint` are standard.
 - [frontend/src/app/globals.css](../../frontend/src/app/globals.css) - Tailwind v4 imports, shadcn theme tokens in `oklch()`, separate light/dark CSS variable sets, custom radius scales.

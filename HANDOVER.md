@@ -17,7 +17,7 @@ Industry, product, occupation, and regulatory taxonomies are fragmented. The US 
 ```mermaid
 graph TB
   subgraph Data["Data layer"]
-    PG[(PostgreSQL - Neon)]
+    PG[(PostgreSQL)]
     WIKI[wiki/*.md + _meta.json]
     CW[crosswalk-data/pair__*.json]
   end
@@ -95,8 +95,8 @@ Drill-down files:
 |-------|--------|-----|
 | Backend language | Python 3.9+ (CI on 3.11) | Fastest path from "download a government CSV" to "parse it in a test." |
 | Web framework | FastAPI | Pydantic models double as schema + OpenAPI; async fits asyncpg. |
-| DB driver | asyncpg | Native async, non-blocking. `statement_cache_size=0` is required because Neon fronts Postgres with pgbouncer in transaction-pooling mode, which doesn't support server-side prepared statements. |
-| Database | Postgres on Neon | Branching for previews; pgvector/tsvector out of the box. |
+| DB driver | asyncpg | Native async, non-blocking. Set `statement_cache_size=0` when the pool sits behind pgbouncer in transaction-pooling mode (Neon, Supabase pooler, any self-hosted pgbouncer). pgbouncer doesn't support server-side prepared statements in that mode. Drop the setting if you connect direct to Postgres. |
+| Database | PostgreSQL | Any Postgres 14+ works. Hosted options (Neon, Supabase, RDS, self-managed) are interchangeable; the only driver-visible difference is whether a pgbouncer-style pooler sits in front. |
 | Auth | bcrypt + PyJWT (HS256) | No external IdP; API keys are `wot_` + 32 hex, bcrypt-hashed, 8-char prefix indexed. OAuth (GitHub/Google/LinkedIn) is layered on top. |
 | Rate limit | slowapi + custom tier-aware middleware | Anonymous 30/min up to Enterprise effectively unlimited. |
 | MCP | Official Python MCP SDK, stdio transport | Works in Claude Desktop, Claude Code, Cursor, any stdio-aware host. |
@@ -125,7 +125,7 @@ Plus `usage_log` (per-request audit) and `daily_usage` (tier cap counter) - see 
 
 ### REST API (`/api/v1/*`)
 
-Routers in [world_of_taxonomy/api/routers/](world_of_taxonomy/api/routers/): `systems`, `nodes`, `search`, `equivalences`, `explore`, `countries`, `classify`, `auth`, `oauth`, `wiki`, `contact`, `audit`, `export`, `bulk_export`, `crosswalk_graph`. App factory at [world_of_taxonomy/api/app.py](world_of_taxonomy/api/app.py) (lifespan-managed asyncpg pool). Route inventory and auth rules live in [docs/handover/backend.md](docs/handover/backend.md).
+Routers in [world_of_taxonomy/api/routers/](world_of_taxonomy/api/routers/): `systems`, `nodes`, `search`, `equivalences`, `explore`, `countries`, `classify`, `auth`, `oauth`, `wiki`, `contact`, `audit`, `export`, `bulk_export`, `crosswalk_graph`. Ops/security routers mounted directly from [world_of_taxonomy/api/](world_of_taxonomy/api/): `metrics` (Prometheus at `/api/v1/metrics`, `METRICS_TOKEN`-gated), `healthz` (`/api/v1/healthz` for uptime probes), `version` (`/api/v1/version` for deploy verification), `honeypot` (decoy paths + RFC 9116 `security.txt`), `csp_report` (`/api/v1/csp-report` sink), `canary` (provenance-traced tokens embedded in `llms-full.txt`). App factory at [world_of_taxonomy/api/app.py](world_of_taxonomy/api/app.py) (lifespan-managed asyncpg pool, DB connect retry, env validation, graceful shutdown). Route inventory and auth rules live in [docs/handover/backend.md](docs/handover/backend.md).
 
 ### MCP server
 
@@ -166,9 +166,72 @@ Everything else (parsing, level detection, parent resolution, sector mapping) is
 | Pro | 1,000 | 100,000 |
 | Enterprise | 10,000 | unlimited |
 
-Counters stored in `daily_usage`; every request audited to `usage_log`.
+Counters stored in `daily_usage`; every request audited to `usage_log`. Responses carry `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset` headers.
+
+**Failed-auth lockout**: a sliding-window in-process tracker ([world_of_taxonomy/api/failed_auth.py](world_of_taxonomy/api/failed_auth.py)) counts login failures per IP and per email. Thresholds tunable via `AUTH_FAILURE_WINDOW_SECONDS`, `AUTH_FAILURE_MAX_PER_IP`, `AUTH_FAILURE_MAX_PER_EMAIL`. Request bodies over 2 MiB are rejected before they reach handlers.
+
+**Input length caps** on auth + API key schemas (Pydantic `min_length`/`max_length`) stop pathological payloads before validation runs. Prompt-injection guard on `/classify` NFKC-normalizes input and rejects known jailbreak patterns ([world_of_taxonomy/api/text_guard.py](world_of_taxonomy/api/text_guard.py)).
 
 OAuth provider setup (redirect URIs, secrets) lives in [OAUTH_PRODUCTION_SETUP.md](OAUTH_PRODUCTION_SETUP.md).
+
+---
+
+## 8a. Security posture
+
+The backend and frontend enforce a layered defense surface beyond auth:
+
+- **Baseline security headers** on both surfaces: `Strict-Transport-Security`, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `Referrer-Policy: strict-origin-when-cross-origin`, `Permissions-Policy` (geo/mic/camera denied). Backend middleware: [world_of_taxonomy/api/security_headers.py](world_of_taxonomy/api/security_headers.py). Frontend: [frontend/next.config.ts](frontend/next.config.ts). `X-Powered-By` disabled.
+- **Content-Security-Policy Report-Only** on the frontend posts violations to `/api/v1/csp-report`, which increments a bounded-cardinality Prometheus counter keyed on directive. Flip to enforcement by swapping the header name once the violation log is clean.
+- **CORS allowlist** driven by `ALLOWED_ORIGINS` env var (comma-separated). Defaults closed.
+- **SSRF defense** on `LEAD_WEBHOOK_URL`: HTTPS-only by default, optional `WEBHOOK_HOST_ALLOWLIST`, `WEBHOOK_ALLOW_HTTP` opt-in for dev, IP resolution rejects loopback/link-local/private/multicast/metadata endpoints at import time. See [world_of_taxonomy/webhook.py](world_of_taxonomy/webhook.py).
+- **Constant-time compares** for `METRICS_TOKEN` (`hmac.compare_digest`) and `REVALIDATE_SECRET` (`node:crypto.timingSafeEqual`). No byte-at-a-time timing leaks.
+- **Honeypot paths** (`/wp-admin`, `/.env`, `/admin.php`, etc.) return decoys and increment `wot_honeypot_hits_total`. `/.well-known/security.txt` satisfies RFC 9116.
+- **Canary tokens** in [frontend/public/llms-full.txt](frontend/public/llms-full.txt) let us detect LLM crawler provenance by watching `wot_canary_hits_total`.
+- **Request correlation** via `X-Request-ID` propagation (generated if missing) and one JSON log line per HTTP request with method/route/status/latency/request-id.
+- **Startup env validation** refuses to boot if required vars are missing or weak (e.g. short `JWT_SECRET` outside dev).
+
+Policy + disclosure contact: [SECURITY.md](SECURITY.md). Operational response: [docs/runbooks/](docs/runbooks/).
+
+---
+
+## 8b. Observability
+
+One Prometheus exposition endpoint, one uptime probe, one version probe, one structured access log. No external APM unless you opt in to Sentry.
+
+| Surface | Purpose |
+|---------|---------|
+| `GET /api/v1/metrics` | Prometheus scrape target. Token-gated in prod via `METRICS_TOKEN`. |
+| `GET /api/v1/healthz` | Liveness probe for uptime monitors and Docker `HEALTHCHECK`. No DB hit. |
+| `GET /api/v1/version` | Git SHA + build time for deploy verification. |
+| JSON access log | One line per HTTP request: method, route template, status, latency, `X-Request-ID`. |
+| Sentry (optional) | Backend + frontend error + performance telemetry when `SENTRY_DSN` is set. |
+
+**Metric families** ([world_of_taxonomy/api/metrics.py](world_of_taxonomy/api/metrics.py) + per-feature modules):
+
+| Metric | Labels | What it counts |
+|--------|--------|----------------|
+| `wot_http_requests_total` | method, route, status_class | Request volume. Route template, not URL, to keep cardinality bounded. |
+| `wot_http_request_latency_seconds` | method, route | Latency histogram (9 buckets, 10ms -> 10s). |
+| `wot_http_requests_in_flight` | - | Gauge of concurrent requests. |
+| `wot_http_errors_total` | route | 5xx responses per route. |
+| `wot_honeypot_hits_total` | path | Attacker knocks on `/wp-admin`, `/.env`, etc. |
+| `wot_canary_hits_total` | token | LLM crawler provenance (tokens in `llms-full.txt`). |
+| `wot_csp_reports_total` | directive | Browser CSP violations, bucketed on known directives. |
+| `wot_failed_auth_total` | scope | Login failures (scope=ip/email). |
+| `wot_injection_rejections_total` | reason | `/classify` prompt-injection rejections. |
+
+Dashboards are intentionally not committed; the metric names above are the contract. Runbooks in [docs/runbooks/](docs/runbooks/) describe what an alert on each family should trigger.
+
+---
+
+## 8c. Performance posture
+
+- **GZip compression** on responses >=500 bytes (middleware; skips small JSON to avoid CPU overhead on hot paths).
+- **Static bundling** of crosswalks and trees via `predev`/`prebuild` hooks: SSR reads from disk, zero network calls for the common case.
+- **Lazy-loaded heavy libs** on the frontend: Cytoscape (~300 KB), Mermaid, D3 radial dendrogram.
+- **asyncpg pool tunable** via `DB_POOL_MIN_SIZE` / `DB_POOL_MAX_SIZE`. Defaults 2/10.
+- **Connect retry** on DB pool startup avoids a race with cold-started database instances.
+- **Graceful uvicorn shutdown** drains in-flight requests before closing the pool.
 
 ---
 
@@ -204,21 +267,29 @@ Pair file naming is sorted: `pair__<alphabetically_first_system>___<second_syste
 
 | Var | Consumer | Purpose | Required |
 |-----|----------|---------|----------|
-| `DATABASE_URL` | backend | Postgres connection string (Neon/Supabase/local) | yes |
+| `DATABASE_URL` | backend | Postgres connection string (any provider: Neon, Supabase, RDS, self-hosted, local) | yes |
 | `JWT_SECRET` | backend | HS256 signing key, >=32 chars in prod | yes |
 | `BACKEND_URL` | backend OAuth, frontend SSR fetchers, sitemap | API base URL | prod yes, dev defaults to `http://localhost:8000` |
 | `ANTHROPIC_API_KEY` | backend | Enables `/classify` and AI taxonomy generation endpoints | optional |
 | `DISABLE_AUTH` | backend | Dev-only bypass (`true`/`1`/`yes`) | never in prod |
 | `REPORT_EMAIL` | backend | Session completion reports via Gmail MCP | optional |
-| `REVALIDATE_SECRET` | frontend | Validates the ISR revalidate webhook | optional |
+| `REVALIDATE_SECRET` | frontend | Validates the ISR revalidate webhook (constant-time compared) | optional |
+| `ALLOWED_ORIGINS` | backend | Comma-separated CORS allowlist | prod yes |
+| `METRICS_TOKEN` | backend | Gates `/api/v1/metrics` (Prometheus) | prod yes |
+| `SENTRY_DSN`, `SENTRY_ENVIRONMENT`, `SENTRY_TRACES_SAMPLE_RATE` | backend + frontend | Optional error + performance telemetry | optional |
+| `WEBHOOK_HOST_ALLOWLIST`, `WEBHOOK_ALLOW_HTTP` | backend | SSRF hardening knobs for `LEAD_WEBHOOK_URL` | optional |
+| `AUTH_FAILURE_WINDOW_SECONDS`, `AUTH_FAILURE_MAX_PER_IP`, `AUTH_FAILURE_MAX_PER_EMAIL` | backend | Failed-auth lockout thresholds | optional |
+| `SECURITY_CONTACT`, `SECURITY_POLICY_URL`, `SECURITY_EXPIRES`, `SECURITY_ACK_POLICY`, `SECURITY_PREFERRED_LANGS` | backend | Populate `/.well-known/security.txt` (RFC 9116) | optional |
+| `OPENAPI_SERVERS` | backend | Comma-separated `url:description` pairs advertised in `/docs`, `/redoc`, Scalar | optional |
+| `DB_POOL_MIN_SIZE`, `DB_POOL_MAX_SIZE` | backend | Tune asyncpg pool | optional |
 
 Template: [.env.example](.env.example). `.env` is git-ignored.
 
 ### Deployment topology
 
 - **Frontend**: Vercel, served at `worldoftaxonomy.com`. Build-time: `npm run predev`/`prebuild` hooks copy `wiki/`, `blog/`, `crosswalk-data/`, and `tree-data/` into `frontend/src/content/`. Then `npm run build`.
-- **Backend + MCP**: container from [Dockerfile.backend](Dockerfile.backend), deployed at `wot.aixcelerator.app`. Entry: `uvicorn world_of_taxonomy.api.app:create_app --factory --host 0.0.0.0 --port 8000`.
-- **Database**: Neon Postgres (or any Postgres). Remember `statement_cache_size=0` in asyncpg pool config.
+- **Backend + MCP**: container from [Dockerfile.backend](Dockerfile.backend), deployed at `wot.aixcelerator.app`. Entry: `uvicorn world_of_taxonomy.api.app:create_app --factory --host 0.0.0.0 --port 8000`. Container runs as non-root uid 10001 and has a Docker `HEALTHCHECK` probing `/api/v1/healthz`. `.dockerignore` trims build context.
+- **Database**: any PostgreSQL 14+. If a pgbouncer-style pooler sits in front of it (Neon, Supabase pooled URL, self-hosted pgbouncer in transaction mode), set `statement_cache_size=0` in the asyncpg pool config. Direct connections don't need it. Schema evolution via Alembic ([migrations/](migrations/), psycopg v3 driver) on top of the baseline `schema*.sql`.
 - **Local dev stack**: [docker-compose.yml](docker-compose.yml).
 
 ### API proxy
@@ -232,9 +303,14 @@ Template: [.env.example](.env.example). `.env` is git-ignored.
 - **Schema isolation**: [tests/conftest.py](tests/conftest.py) creates a `test_wot` Postgres schema per session, sets `search_path` on every connection, and tears down after. Production data in `public` schema is never touched. Mandatory.
 - **Running**: `python3 -m pytest tests/ -v`. Single ingester: `python3 -m pytest tests/test_ingest_naics.py -v`.
 - **CI** ([.github/workflows/ci.yml](.github/workflows/ci.yml)):
-  1. Python 3.11, install `requirements.txt`, run `pytest`.
-  2. Grep for em-dashes across Python/Markdown/TypeScript/SQL. Fails on any match.
-  3. Node 20 in `frontend/`: `npm ci`, `npx tsc --noEmit`, `npm run build`.
+  1. Python 3.11, install `requirements.txt`, run `pytest` with coverage.
+  2. Grep for em-dashes across Python/Markdown/TypeScript/SQL. Fails on any match. Mirrored as a local pre-commit hook ([.pre-commit-config.yaml](.pre-commit-config.yaml)).
+  3. Node 20 in `frontend/`: `npm ci`, `npx tsc --noEmit`, `npm run build`, `npm audit`.
+  4. Stale-check: fails if `frontend/public/llms-full.txt` is out of sync with `wiki/`.
+- **Security workflow** (`.github/workflows/security.yml`): Bandit (Python SAST), pip-audit, GitLeaks, Trivy (container + filesystem), `npm audit`. Runs on push and on a schedule.
+- **Dependabot** (`.github/dependabot.yml`) updates pip, npm, and github-actions weekly.
+- **Monthly ingest cron** refreshes NAICS, ISIC, NACE, and crosswalks.
+- **Ingest validators** ([world_of_taxonomy/ingest/validators.py](world_of_taxonomy/ingest/validators.py)): post-load sanity checks (orphan nodes, missing roots, parent-child cycles, duplicate codes). Runs in CI against seeded test data.
 - **Non-negotiable rules** (from [CLAUDE.md](CLAUDE.md) and [CONTRIBUTING.md](CONTRIBUTING.md)):
   - **TDD**: Red -> Green -> Refactor. No implementation before a failing test.
   - **No em-dashes** (U+2014) anywhere - code, docs, comments, markdown, JSON. Use `-` instead. CI enforces.
@@ -258,11 +334,27 @@ The MCP server covers Claude Desktop, Claude Code, Cursor, and any stdio-aware h
 
 ---
 
+## 13a. Developer experience and repo hygiene
+
+External-facing product readiness, not just code:
+
+- **Typed frontend API** generated from the live FastAPI OpenAPI spec via `openapi-typescript`. Backend schema changes cascade into frontend types on regenerate.
+- **OpenAPI servers** declared via `OPENAPI_SERVERS` (comma-separated `url:description`) so `/docs`, `/redoc`, and Scalar show the right base URL per environment.
+- **Pre-commit hook** ([.pre-commit-config.yaml](.pre-commit-config.yaml)) mirrors the CI em-dash check locally so contributors fail fast.
+- **Editor settings** ([.editorconfig](.editorconfig)) pin whitespace across editors.
+- **Docker build hygiene**: [.dockerignore](.dockerignore) trims context; container runs as non-root uid 10001; HEALTHCHECK probes `/api/v1/healthz`.
+- **CODEOWNERS** auto-requests reviews on PRs touching owned paths.
+- **Issue templates** + `ISSUE_TEMPLATE/config.yml` shape bug reports and feature requests.
+- **README badges**: Next.js, MCP-compatible, Sponsor (GitHub Sponsors via [FUNDING.yml](.github/FUNDING.yml)).
+- **Repo metadata**: [SECURITY.md](SECURITY.md) (disclosure policy), [CITATION.cff](CITATION.cff) (academic "Cite this repository" button), [CHANGELOG.md](CHANGELOG.md) (infra/ops work logged under "Unreleased" between tagged releases).
+
+---
+
 ## 14. How to rebuild from scratch
 
 Shortened, executable version in [docs/handover/rebuild-checklist.md](docs/handover/rebuild-checklist.md). TL;DR:
 
-1. **Provision** - Neon (or any) Postgres; fill [.env.example](.env.example) into `.env`.
+1. **Provision** - any PostgreSQL 14+ (hosted or self-managed); fill [.env.example](.env.example) into `.env`.
 2. **Schemas** - `python -m world_of_taxonomy init && python -m world_of_taxonomy init-auth`.
 3. **Ingest the anchors first** - NAICS, ISIC, NACE (the other ~860 systems crosswalk back to these three).
 4. **Ingest the rest** - `python -m world_of_taxonomy ingest all` or one at a time. ISIC <-> NAICS concordance is a separate target.
@@ -277,7 +369,7 @@ Shortened, executable version in [docs/handover/rebuild-checklist.md](docs/hando
 
 ## 15. What's deliberately absent
 
-- **No APM or Sentry.** Errors go through FastAPI exception handlers; rate-limit events are counted, not paged.
+- **Sentry is optional, not default.** Set `SENTRY_DSN` (backend + frontend) to enable error + performance telemetry. With no DSN the stack logs locally and counts rate-limit events via Prometheus only.
 - **No server-side session store.** JWT lives in `localStorage`. This means logout is client-side-only and JWTs cannot be revoked before expiry. Acceptable for a read-mostly public API.
 - **No background job runner (Celery/RQ/etc.).** Ingest is CLI-invoked. Scheduled ingest (e.g. nightly NAICS refresh) would need a cron or GitHub Actions workflow - not built.
 - **Single-writer model.** Ingesters are expected to run one at a time on one host. There is no distributed locking.
@@ -302,6 +394,9 @@ What's queued: [ROADMAP.md](ROADMAP.md).
 | [OAUTH_PRODUCTION_SETUP.md](OAUTH_PRODUCTION_SETUP.md) | GitHub/Google/LinkedIn redirect URIs + env vars |
 | [docs/adding-a-new-system.md](docs/adding-a-new-system.md) | Long-form walkthrough for adding an ingester |
 | [docs/diagrams/](docs/diagrams/) | Mermaid sources: system architecture, ingest, API, MCP, wiki flow |
+| [docs/runbooks/](docs/runbooks/) | On-call runbooks: DB, auth, ingest, rate limits, rollback, migrations |
+| [SECURITY.md](SECURITY.md) | Disclosure policy and contact |
+| [CITATION.cff](CITATION.cff) | "Cite this repository" metadata |
 | [CLAUDE.md](CLAUDE.md) | Full 1,000-system catalog with code counts, regions, versions |
 | [ROADMAP.md](ROADMAP.md) | Queued work |
 | [CHANGELOG.md](CHANGELOG.md) | Release history |

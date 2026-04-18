@@ -74,29 +74,21 @@ cython_debug/
 .gstack/
 
 # Downloaded data files (re-downloadable)
-data/naics/
-data/isic/
-data/crosswalk/
-data/anzsic/
-data/nic/
-data/sic/
-data/noga/
-data/wz/
-data/hs2022.csv
-data/hs_isic_wits.csv
-data/cpc_v21.txt
-data/cpc21_hs2017.csv
-data/cpc21_isic4.txt
-data/unspsc_v24.csv
-data/soc_2018.csv
-data/soc2010_isco08.csv
-data/isco_08.csv
-data/un_m49_raw.csv
+# Ignore all of data/ by default; whitelist the small files we actually commit.
+data/*
+!data/README.md
+!data/anzsco_2022.xml
 
 # Next.js frontend
 frontend/node_modules/
 frontend/.next/
 frontend/out/
+# Generated from crosswalk-data/ and tree-data/ by predev/prebuild hooks.
+frontend/src/content/crosswalk/
+frontend/src/content/tree/
+
+# Editor / IDE
+.vscode/
 
 # OS files
 .DS_Store

@@ -1,0 +1,5002 @@
+{
+  "3gpp_specs": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "aacsb": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "abet": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_accessibility": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_accreditation": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "acm_ccs": {
+    "node_count": 67,
+    "max_level": 3,
+    "total_system_nodes": 67
+  },
+  "domain_actuarial_method": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "reg_ada": {
+    "node_count": 31,
+    "max_level": 3,
+    "total_system_nodes": 31
+  },
+  "adb_sector": {
+    "node_count": 46,
+    "max_level": 3,
+    "total_system_nodes": 46
+  },
+  "domain_materials_application": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_materials_process": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_adv_materials": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_adverse_event": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_advertising_mktg": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "afcfta_tariff": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_ag_grade": {
+    "node_count": 32,
+    "max_level": 3,
+    "total_system_nodes": 32
+  },
+  "domain_ag_crop": {
+    "node_count": 48,
+    "max_level": 3,
+    "total_system_nodes": 48
+  },
+  "domain_ag_equipment": {
+    "node_count": 35,
+    "max_level": 3,
+    "total_system_nodes": 35
+  },
+  "domain_ag_business": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_ag_method": {
+    "node_count": 29,
+    "max_level": 3,
+    "total_system_nodes": 29
+  },
+  "domain_ag_input": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "domain_ag_land": {
+    "node_count": 35,
+    "max_level": 3,
+    "total_system_nodes": 35
+  },
+  "domain_ag_livestock": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_ag_market": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_ag_postharvest": {
+    "node_count": 37,
+    "max_level": 3,
+    "total_system_nodes": 37
+  },
+  "domain_ag_regulatory": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "domain_agritech": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_ai_data": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "reg_aicpa": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_ai_deployment": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_ai_governance": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "ai_model_type": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_air_quality": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_allied_health": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_adr": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_ancillary": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_anesthesia": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "reg_asme": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_antitrust": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "anzsco_2022": {
+    "node_count": 150,
+    "max_level": 3,
+    "total_system_nodes": 1590
+  },
+  "anzsic_2006": {
+    "node_count": 319,
+    "max_level": 2,
+    "total_system_nodes": 825
+  },
+  "anzsrc_for_2020": {
+    "node_count": 166,
+    "max_level": 3,
+    "total_system_nodes": 166
+  },
+  "anzsrc_seo": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "apgar_score": {
+    "node_count": 12,
+    "max_level": 3,
+    "total_system_nodes": 12
+  },
+  "domain_api_architecture": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_apprentice": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "aqf": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_aquaponics": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_arb_type": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "archimate": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_arts_content": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "domain_arts_creator": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_arts_monetization": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_arts_venue": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "arxiv_taxonomy": {
+    "node_count": 165,
+    "max_level": 3,
+    "total_system_nodes": 165
+  },
+  "asa_physical": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "asean_tariff": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "reg_ashrae": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "domain_securitization": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "atc_who": {
+    "node_count": 377,
+    "max_level": 3,
+    "total_system_nodes": 6440
+  },
+  "ateco_2007": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_robotics": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_auto_vehicle_level": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_aviation_service": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_backup": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "basel_exposure": {
+    "node_count": 36,
+    "max_level": 3,
+    "total_system_nodes": 36
+  },
+  "reg_basel3": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_battery_tech": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "beaufort_scale": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "bec_rev5": {
+    "node_count": 29,
+    "max_level": 2,
+    "total_system_nodes": 29
+  },
+  "reg_berne": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_biobank": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_biodiv_offset": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_biofuel": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_biomarker": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_biosimilar": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_biotech": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_biotech_business": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_biotech_regulatory": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "blood_types": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "bloomberg_bics": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "bloom_taxonomy": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_blue_team": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "bluetooth_profiles": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "bmi_categories": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "board_committee": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_bond_rating": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "breeam": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "bristol_stool": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "domain_brownfield": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "bsic": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "domain_building_auto": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_building_code": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_bundled_pay": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "caeb": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "caem_md": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "caen_rev2": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "cae_rev3": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "reg_cap": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_capacity_mkt": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_capitation": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_carbon_credit": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_carbon_offset": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "card_schemes": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_cbam": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "cbd_aichi": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "cbd_targets": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "reg_ccpa": {
+    "node_count": 34,
+    "max_level": 3,
+    "total_system_nodes": 34
+  },
+  "ccss": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "cdc_vaccine": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_cell_therapy": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_cercla": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_cert_authority": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "cfi_iso10962": {
+    "node_count": 63,
+    "max_level": 3,
+    "total_system_nodes": 63
+  },
+  "reg_cfpb": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "cfr_title_49": {
+    "node_count": 104,
+    "max_level": 3,
+    "total_system_nodes": 104
+  },
+  "cfr_titles": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_chemical_hazard": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_chemical_type": {
+    "node_count": 29,
+    "max_level": 3,
+    "total_system_nodes": 29
+  },
+  "domain_chemical_regulatory": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_childcare_early": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_cicd_pipeline": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "ciiu_co": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_cl": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_cr": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_do": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_ec": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_gt": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_pa": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_py": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_pe": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_uy": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "ciiu_ve": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "cip_2020": {
+    "node_count": 2836,
+    "max_level": 3,
+    "total_system_nodes": 2836
+  },
+  "domain_circular_econ": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "reg_cis_controls": {
+    "node_count": 29,
+    "max_level": 3,
+    "total_system_nodes": 29
+  },
+  "cites": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "ciiu_ar": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "domain_class_action": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "reg_clean_air": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "domain_cleanroom": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_cleantech": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "reg_clean_water": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "reg_clia": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_climate_finance": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_climate_policy": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_climate_tech": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "domain_cds": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_clinical_endpoint": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_clinical_reg": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_clinical_trial": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "cloud_native": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_cloud_service": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "reg_cmmc": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "cms_star": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "cn_2024": {
+    "node_count": 118,
+    "max_level": 3,
+    "total_system_nodes": 118
+  },
+  "cnae_2012": {
+    "node_count": 21,
+    "max_level": 2,
+    "total_system_nodes": 21
+  },
+  "cnae_2009": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "reg_cobit": {
+    "node_count": 45,
+    "max_level": 3,
+    "total_system_nodes": 45
+  },
+  "reg_codex": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "codex_committees": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "cofog": {
+    "node_count": 188,
+    "max_level": 3,
+    "total_system_nodes": 188
+  },
+  "domain_cogeneration": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "coicop": {
+    "node_count": 62,
+    "max_level": 3,
+    "total_system_nodes": 62
+  },
+  "domain_cold_chain": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_coll_bargain": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_commercial_lending": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_commissioning": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_commodity_trading": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_companion_dx": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_comp_structure": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_competency": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_const_building": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_const_material": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_construction_permit": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_const_delivery": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_const_sustainability": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_const_trade": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_consumer_prot": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_container_orch": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "container_iso": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "contract_types": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "reg_coppa": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "domain_copyright": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_coral_reef": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "corporate_action": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_corrections": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_coso": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_court_type": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_coworking": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "cpc_v21": {
+    "node_count": 410,
+    "max_level": 3,
+    "total_system_nodes": 4596
+  },
+  "cpt_ama": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "cpv_2008": {
+    "node_count": 96,
+    "max_level": 3,
+    "total_system_nodes": 96
+  },
+  "domain_credit_rating": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_crop_protection": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_cross_dock": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "csic_2017": {
+    "node_count": 20,
+    "max_level": 2,
+    "total_system_nodes": 20
+  },
+  "reg_csrd": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "ctcae": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_curriculum": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_customs_class": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_customs_proc": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "cve_types": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_cyber_framework": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "domain_cyber_threat": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "cz_nace": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_database_type": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_data_catalog": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_datacenter_cloud": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_data_governance": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_data_lakehouse": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_data_lineage": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_data_mesh": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_data_quality": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "data_retention": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "db07": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "reg_dea": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_defence_acquisition": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_defence_type": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "domain_defence_trl": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "defi_protocol": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_demand_resp": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_dental": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_derivatives": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_devops": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "dewey_decimal": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "reg_dfars": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "dicom_modality": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "digcomp_22": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_digital_assets": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_digital_assets_infra": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_digital_assets_regulatory": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_digital_badge": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_digital_banking": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "reg_dma": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "reg_dsa": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_digital_twin": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_dr": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_district_heat": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_diversity_metric": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "dod_mil_std": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_dora": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_drug_interaction": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "dsm5": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "reg_ear": {
+    "node_count": 31,
+    "max_level": 3,
+    "total_system_nodes": 31
+  },
+  "eccn": {
+    "node_count": 58,
+    "max_level": 3,
+    "total_system_nodes": 58
+  },
+  "ecf_v4": {
+    "node_count": 35,
+    "max_level": 3,
+    "total_system_nodes": 35
+  },
+  "domain_ecommerce_platform": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "ecowas_cet": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_edge_computing": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "edi_standards": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "edqm_dosage": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_edtech_platform": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_education_credential": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_education_delivery": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_education_funding": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_education_type": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_education_segment": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_eeo_category": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_electrical_code": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_elevator": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "reg_emas": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_emergency_svc": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_emission_factor": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "emoji_categories": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_employee_benefit": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "emtak": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_encryption": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_energy_audit": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_energy_storage_application": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_energy_storage_perf": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_env_remediation": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "epa_rcra_waste": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_eprivacy": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "eqf": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "reg_equator": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "era_for": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "esco_occupations": {
+    "node_count": 3045,
+    "max_level": 3,
+    "total_system_nodes": 3045
+  },
+  "esco_qualifications": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "esco_skills": {
+    "node_count": 14247,
+    "max_level": 3,
+    "total_system_nodes": 14247
+  },
+  "reg_eu_ai_act": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "allergen_list": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_eu_batteries": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "reg_eu_cra": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "reg_eu_data_act": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "reg_eu_deforestation": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "reg_eu_machinery": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "eu_nuts_2021": {
+    "node_count": 124,
+    "max_level": 2,
+    "total_system_nodes": 124
+  },
+  "reg_eu_packaging": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "eu_taric": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "eu_taxonomy": {
+    "node_count": 60,
+    "max_level": 3,
+    "total_system_nodes": 60
+  },
+  "eu_waste_cat": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "reg_eu_whistleblower": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_ev_charging": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_event_arch": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_event_mgmt": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_export_ctrl": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_xr_meta": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_xr_application": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_xr_business": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "faa_aircraft_cat": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_facade": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_facility_bench": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "fao_aquastat": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "fao_stat_domain": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "reg_far": {
+    "node_count": 32,
+    "max_level": 3,
+    "total_system_nodes": 32
+  },
+  "reg_fasb": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "reg_fatf": {
+    "node_count": 29,
+    "max_level": 3,
+    "total_system_nodes": 29
+  },
+  "reg_fcra": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "reg_fda_21cfr": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "domain_feature_store": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_fedramp": {
+    "node_count": 40,
+    "max_level": 3,
+    "total_system_nodes": 40
+  },
+  "reg_ferpa": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "reg_ffiec": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "fhir_resources": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "fifa_confederations": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_finance_client": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_finance_instrument": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_finance_market": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_finance_regulatory": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "reg_finra": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "domain_fintech_service": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_fire_protection": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_fishing_aqua": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "reg_fisma": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_fleet_mgmt": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "fmcsa_regs": {
+    "node_count": 80,
+    "max_level": 3,
+    "total_system_nodes": 80
+  },
+  "domain_food_service": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "domain_food_ownership": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_food_revenue": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_food_cuisine": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "ford_frascati": {
+    "node_count": 48,
+    "max_level": 3,
+    "total_system_nodes": 48
+  },
+  "domain_forestry_mgmt": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_forex": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_formulary": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_foundation_type": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_franchise": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_freelance_plat": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_ftz": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_freight_class": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "reg_ftc_safeguards": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "ftse_icb_detail": {
+    "node_count": 12,
+    "max_level": 3,
+    "total_system_nodes": 12
+  },
+  "fujita_tornado": {
+    "node_count": 10,
+    "max_level": 3,
+    "total_system_nodes": 10
+  },
+  "domain_gaming_esports": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "gbd_cause": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "gbt_4754": {
+    "node_count": 118,
+    "max_level": 2,
+    "total_system_nodes": 118
+  },
+  "gcc_tariff": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "gdpr_articles": {
+    "node_count": 110,
+    "max_level": 3,
+    "total_system_nodes": 110
+  },
+  "gdpr_rights": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "gdpr_basis": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "g_drg": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_gene_therapy": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "geological_time": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_geothermal": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "getty_aat": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "ghg_protocol": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "gics_bridge": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "domain_gig_worker": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "reg_glba": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "domain_global_budget": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "gmdn": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_gov_contract": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_grant_type": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_green_material": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_greenhouse": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "gri_standards": {
+    "node_count": 38,
+    "max_level": 3,
+    "total_system_nodes": 38
+  },
+  "gs1_standards": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "haccp": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_hsm": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "hcpcs_l2": {
+    "node_count": 59,
+    "max_level": 3,
+    "total_system_nodes": 59
+  },
+  "hcpcs_l3": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_health_specialty": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_health_delivery": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_health_payer": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_health_setting": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_health_it": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_health_literacy": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_healthtech": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_hedge_fund": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "hedis": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_hipaa": {
+    "node_count": 36,
+    "max_level": 3,
+    "total_system_nodes": 36
+  },
+  "reg_hitrust": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_hospital_dept": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_hr_tech": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "hs_2022": {
+    "node_count": 1348,
+    "max_level": 3,
+    "total_system_nodes": 6961
+  },
+  "hts_us": {
+    "node_count": 120,
+    "max_level": 3,
+    "total_system_nodes": 120
+  },
+  "http_status": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_hvac_system": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_hydrogen_economy": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "iab_content": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "iata_aircraft": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "ibc_2021": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "icao_airport": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "reg_icao_annex": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "icao_doc4444": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "icb": {
+    "node_count": 32,
+    "max_level": 3,
+    "total_system_nodes": 32
+  },
+  "icd10_am": {
+    "node_count": 52,
+    "max_level": 3,
+    "total_system_nodes": 52
+  },
+  "icd10_ca": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "icd10cm": {
+    "node_count": 12009,
+    "max_level": 3,
+    "total_system_nodes": 97606
+  },
+  "icd10_gm": {
+    "node_count": 51,
+    "max_level": 3,
+    "total_system_nodes": 51
+  },
+  "icd10_pcs": {
+    "node_count": 1039,
+    "max_level": 3,
+    "total_system_nodes": 79987
+  },
+  "icd_11": {
+    "node_count": 2795,
+    "max_level": 3,
+    "total_system_nodes": 37052
+  },
+  "icdo3": {
+    "node_count": 115,
+    "max_level": 3,
+    "total_system_nodes": 115
+  },
+  "icf": {
+    "node_count": 34,
+    "max_level": 3,
+    "total_system_nodes": 34
+  },
+  "ichi_who": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "icn_nursing": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "icpc2": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_identity_gov": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "iea_energy_bal": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "ieee_standards": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "ietf_rfc": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_ifc_ps": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "ifrs": {
+    "node_count": 34,
+    "max_level": 3,
+    "total_system_nodes": 34
+  },
+  "reg_ilo_core": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_imaging": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "reg_marpol": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "imo_ship_type": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "reg_solas": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "imo_vessel": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_implant": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_incident_resp": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_incoterm_detail": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_infection_ctrl": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_info_content": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_info_platform": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_info_revenue": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_info_media": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_insurance_claims": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_insurance_product": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_insurance_risk": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_insurance_underwriting": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_insurtech": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_internship": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_invasive_sp": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_iot_device": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "irena_re": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_irrigation": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "irs_forms": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "isa_standards": {
+    "node_count": 12,
+    "max_level": 3,
+    "total_system_nodes": 12
+  },
+  "isat_2008": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "isbn_groups": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "isced_2011": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "iscedf_2013": {
+    "node_count": 122,
+    "max_level": 3,
+    "total_system_nodes": 122
+  },
+  "isco_08": {
+    "node_count": 177,
+    "max_level": 3,
+    "total_system_nodes": 613
+  },
+  "isic_rev3": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "isic_rev4": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_af": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_dz": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ao": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ag": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_az": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bs": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bh": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bb": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bz": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bj": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bt": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bw": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bn": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bf": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_bi": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_cv": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_kh": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_cm": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_td": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_km": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_cg": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_cu": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_dj": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_dm": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_cd": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_tl": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_eg": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sv": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_gq": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_er": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sz": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_et": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_fj": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ga": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_gm": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_gh": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_gd": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_gn": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_gw": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_gy": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ht": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_hn": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ir": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_iq": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_il": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ci": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_jm": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_jo": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_kz": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ke": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_kw": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_kg": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_la": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_lb": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ls": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_lr": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ly": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_mg": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_mw": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_mv": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ml": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_mr": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_mu": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_mn": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ma": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_mz": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_mm": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_na": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_np": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ni": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ne": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ng": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_om": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ps": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_pg": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_qa": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_rw": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_kn": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_lc": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_vc": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ws": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sa": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sn": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sc": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sl": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sb": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_so": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ss": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sr": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_sy": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_tj": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_tz": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_tg": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_to": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_tt": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_tn": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_tm": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ae": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ug": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_uz": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_vu": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_ye": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_zm": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "isic_zw": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "reg_iso_13485": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "reg_iso_14001": {
+    "node_count": 29,
+    "max_level": 3,
+    "total_system_nodes": 29
+  },
+  "reg_iso_14040": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "reg_iso_14064": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "reg_iso_19011": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "iso20022_msg": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "reg_iso_21001": {
+    "node_count": 31,
+    "max_level": 3,
+    "total_system_nodes": 31
+  },
+  "reg_iso_22000": {
+    "node_count": 31,
+    "max_level": 3,
+    "total_system_nodes": 31
+  },
+  "reg_iso_22301": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "reg_iso_22313": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "reg_iso_26000": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "reg_iso_27001": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "reg_iso_28000": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "reg_iso_30401": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "iso_31000": {
+    "node_count": 47,
+    "max_level": 3,
+    "total_system_nodes": 47
+  },
+  "reg_iso_31010": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "iso_3166_1": {
+    "node_count": 271,
+    "max_level": 2,
+    "total_system_nodes": 271
+  },
+  "iso_3166_2": {
+    "node_count": 5246,
+    "max_level": 2,
+    "total_system_nodes": 5246
+  },
+  "reg_iso_37001": {
+    "node_count": 29,
+    "max_level": 3,
+    "total_system_nodes": 29
+  },
+  "reg_iso_37101": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "reg_iso_39001": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "reg_iso_41001": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "reg_iso_45001": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "reg_iso_50001": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "reg_iso_55001": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "reg_iso_9001": {
+    "node_count": 35,
+    "max_level": 3,
+    "total_system_nodes": 35
+  },
+  "reg_iso_20000": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "reg_iso_27701": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "reg_iso_42001": {
+    "node_count": 32,
+    "max_level": 3,
+    "total_system_nodes": 32
+  },
+  "isrc_format": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "issb_s1_s2": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "reg_itar": {
+    "node_count": 32,
+    "max_level": 3,
+    "total_system_nodes": 32
+  },
+  "itil4": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "itu_r_bands": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "itu_t": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "iucn_red_list": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_ivdr": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "jedec": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "jel": {
+    "node_count": 98,
+    "max_level": 3,
+    "total_system_nodes": 98
+  },
+  "job_family": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "reg_joint_commission": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "jsic_2013": {
+    "node_count": 20,
+    "max_level": 2,
+    "total_system_nodes": 20
+  },
+  "kbli_2020": {
+    "node_count": 21,
+    "max_level": 2,
+    "total_system_nodes": 21
+  },
+  "kbli_id": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "kd_xk": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "kd_me": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "kd_rs": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "kd_ba": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_key_mgmt": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_kimberley": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "kldb_2010": {
+    "node_count": 54,
+    "max_level": 3,
+    "total_system_nodes": 54
+  },
+  "koppen_climate": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "ksic_2017": {
+    "node_count": 108,
+    "max_level": 2,
+    "total_system_nodes": 108
+  },
+  "kved_ua": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_labor_union": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_lab_test": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_landscape": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_last_mile": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_law_enforce": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "lcc": {
+    "node_count": 111,
+    "max_level": 3,
+    "total_system_nodes": 111
+  },
+  "lcsh": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "lean_tools": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_learning_outcome": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_lease_abstract": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "leed_v4_1": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_legal_practice": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_legaltech": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_light_pollution": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "linkedin_skills": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "lme_metals": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_lng_terminal": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "loinc": {
+    "node_count": 102751,
+    "max_level": 3,
+    "total_system_nodes": 102751
+  },
+  "domain_mangrove": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_mfg_facility": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_mfg_industry": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_mfg_opsmodel": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_mfg_process": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_mfg_quality": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_mfg_supply_chain": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_maritime_shipping": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_master_data": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "reg_mdr": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_medical_device": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_med_gas": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_mental_health": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "mercosur_tariff": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "mesh": {
+    "node_count": 1709,
+    "max_level": 3,
+    "total_system_nodes": 31124
+  },
+  "domain_micro_cred": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_microfinance": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_microgrid_type": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_microservices": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "reg_mifid2": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "mime_types": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "minamata": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_mining_equipment": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "domain_mining_method": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_mining_mineral": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_mining_lifecycle": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_mining_reserve": {
+    "node_count": 12,
+    "max_level": 3,
+    "total_system_nodes": 12
+  },
+  "domain_mining_safety": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "mitre_attack": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_mlops": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_model_registry": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_modular_const": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "mohs_hardness": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "reg_montreal": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_mortgage_type": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "msc_2020": {
+    "node_count": 92,
+    "max_level": 3,
+    "total_system_nodes": 92
+  },
+  "ms_drg": {
+    "node_count": 50,
+    "max_level": 3,
+    "total_system_nodes": 50
+  },
+  "msic_2008": {
+    "node_count": 21,
+    "max_level": 2,
+    "total_system_nodes": 21
+  },
+  "domain_muni_bond": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_municipal_svc": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "nace_bel": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_lt": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_lu": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_rev2": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_am": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_cy": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_ge": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_ie": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_mt": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nace_tr": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "naf_rev2": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "naic_lines": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "reg_naic": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "naics_2012": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "naics_2017": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "naics_2022": {
+    "node_count": 424,
+    "max_level": 3,
+    "total_system_nodes": 2125
+  },
+  "nanda_nursing_dx": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "nato_codification": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_nat_gas": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "nci_thesaurus": {
+    "node_count": 14417,
+    "max_level": 3,
+    "total_system_nodes": 211072
+  },
+  "ndc_fda": {
+    "node_count": 112077,
+    "max_level": 3,
+    "total_system_nodes": 112077
+  },
+  "reg_nerc_cip": {
+    "node_count": 48,
+    "max_level": 3,
+    "total_system_nodes": 48
+  },
+  "domain_energy_storage": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_semiconductor": {
+    "node_count": 31,
+    "max_level": 3,
+    "total_system_nodes": 31
+  },
+  "nfpa_codes": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "ngss": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "nic_nursing_intv": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "nic_2008": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 2070
+  },
+  "reg_nis2": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "reg_nist_csf": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "reg_nist_800_171": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "reg_nist_800_53": {
+    "node_count": 36,
+    "max_level": 3,
+    "total_system_nodes": 36
+  },
+  "nk_lv": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nkd_2007": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nkd_mk": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nkid": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "nmfc": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "noc_2021": {
+    "node_count": 51,
+    "max_level": 3,
+    "total_system_nodes": 51
+  },
+  "noga_2008": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_noise_pollution": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_nonprofit_social": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_notary": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "nqf_uk": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "nucc_hcpt": {
+    "node_count": 94,
+    "max_level": 3,
+    "total_system_nodes": 94
+  },
+  "domain_nuclear_energy": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_nursing_spec": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "nuts_candidate": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "nve_al": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "oecd_dac": {
+    "node_count": 62,
+    "max_level": 3,
+    "total_system_nodes": 62
+  },
+  "reg_oecd_mne": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_oil_grade": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "okved_2": {
+    "node_count": 21,
+    "max_level": 2,
+    "total_system_nodes": 21
+  },
+  "olympic_sports": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "omim": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "onace_2008": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "onet_abilities": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "onet_interests": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "onet_knowledge": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "onet_soc": {
+    "node_count": 867,
+    "max_level": 3,
+    "total_system_nodes": 867
+  },
+  "onet_work_activities": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "onet_work_context": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "onet_work_styles": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "onet_work_values": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "opec_basket": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_oss_governance": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_organic_cert": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_orphan_drug": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "orphanet": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_orthotic": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_osha_1910": {
+    "node_count": 47,
+    "max_level": 3,
+    "total_system_nodes": 47
+  },
+  "reg_osha_1926": {
+    "node_count": 49,
+    "max_level": 3,
+    "total_system_nodes": 49
+  },
+  "domain_other_pricing": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_other_services": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "owasp_top10": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "pacs": {
+    "node_count": 70,
+    "max_level": 3,
+    "total_system_nodes": 70
+  },
+  "pain_scale": {
+    "node_count": 12,
+    "max_level": 3,
+    "total_system_nodes": 12
+  },
+  "pantone_families": {
+    "node_count": 12,
+    "max_level": 3,
+    "total_system_nodes": 12
+  },
+  "reg_paris": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_parking": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "patent_cpc": {
+    "node_count": 827,
+    "max_level": 3,
+    "total_system_nodes": 254249
+  },
+  "domain_patent_type": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_pathology_sub": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_pro": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_payment_proc": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "reg_pcaob": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "reg_pci_dss": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "pci_sig": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_pentest": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "periodic_table": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_workforce_ppe": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_pet_animal": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_petrochem": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_pharma_practice": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_pharma_drug_class": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_pipeline": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "pkd_2007": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_pki": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_plumbing_code": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "pmbok7": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_pop_health": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_precision_ag": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_prefab": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "prince2": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_pet": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_pe_stage": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "prodcom": {
+    "node_count": 38,
+    "max_level": 3,
+    "total_system_nodes": 38
+  },
+  "domain_product_liab": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_prof_billing": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_prof_delivery": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_prof_firm": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_prof_services": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_prog_paradigm": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_property_val": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_proptech": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_prosthetic": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_psd2": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "psic_2009": {
+    "node_count": 21,
+    "max_level": 2,
+    "total_system_nodes": 21
+  },
+  "psic_pk": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "domain_public_funding": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_public_procurement": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_public_admin": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "domain_purple_team": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_quantum_application": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_quantum": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "domain_quantum_stage": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_radiopharm": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_rail_service": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "ral_colors": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "ramsar": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "reg_rcra": {
+    "node_count": 29,
+    "max_level": 3,
+    "total_system_nodes": 29
+  },
+  "reg_reach": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_realestate_capital": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_realestate_lease": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_realestate_grade": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_realestate_type": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_realestate_transaction": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_red_team": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_ref_data": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_refinery": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "refinitiv_trbc": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_regtech": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_reinsurance": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_reit_type": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_remote_monitor": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_rec": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_retail_channel": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_retail_fulfillment": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_retail_merchandise": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_retail_pricing": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_retail_format": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_retro_cx": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "richter_scale": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "rics_valuation": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_robotics_application": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_robotics_sensing": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "reg_rohs": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "rome_v4": {
+    "node_count": 93,
+    "max_level": 3,
+    "total_system_nodes": 93
+  },
+  "domain_roofing_type": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "rotterdam_pic": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "rxnorm": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_saas_category": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "saffir_simpson": {
+    "node_count": 12,
+    "max_level": 3,
+    "total_system_nodes": 12
+  },
+  "domain_sanctions": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "sasb_sics": {
+    "node_count": 86,
+    "max_level": 3,
+    "total_system_nodes": 86
+  },
+  "sbi_2008": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "sbti": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "schedule_b": {
+    "node_count": 119,
+    "max_level": 3,
+    "total_system_nodes": 119
+  },
+  "scian_2018": {
+    "node_count": 23,
+    "max_level": 2,
+    "total_system_nodes": 23
+  },
+  "scopus_asjc": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "scor_model": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "sdg": {
+    "node_count": 82,
+    "max_level": 3,
+    "total_system_nodes": 82
+  },
+  "un_sdg_indicators": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "reg_sec": {
+    "node_count": 29,
+    "max_level": 3,
+    "total_system_nodes": 29
+  },
+  "seea": {
+    "node_count": 47,
+    "max_level": 3,
+    "total_system_nodes": 47
+  },
+  "domain_seed_variety": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_semiconductor_application": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_semiconductor_ip": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "semi_standards": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_senior_care": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_serverless": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "sfdr": {
+    "node_count": 30,
+    "max_level": 3,
+    "total_system_nodes": 30
+  },
+  "reg_sfdr_detail": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "sfia_v8": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_sharing_econ": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "shrm_competency": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "sic_1987": {
+    "node_count": 171,
+    "max_level": 2,
+    "total_system_nodes": 1176
+  },
+  "sic_sa": {
+    "node_count": 21,
+    "max_level": 2,
+    "total_system_nodes": 21
+  },
+  "domain_siem": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_signage": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "sitc_rev4": {
+    "node_count": 77,
+    "max_level": 2,
+    "total_system_nodes": 77
+  },
+  "si_units": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "six_sigma": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "skd_2008": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "sk_nace": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "skos": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "slsic": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "domain_smart_building": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_smart_grid": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "sn_2007": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "sni_2007": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "snomed_ct": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_soar": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "soc_2018": {
+    "node_count": 580,
+    "max_level": 3,
+    "total_system_nodes": 1447
+  },
+  "reg_soc2": {
+    "node_count": 37,
+    "max_level": 3,
+    "total_system_nodes": 37
+  },
+  "domain_sdoh": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_sw_license": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_soil_contam": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_soil_mgmt": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_solar_energy": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "reg_solvency2": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "reg_sox": {
+    "node_count": 58,
+    "max_level": 3,
+    "total_system_nodes": 58
+  },
+  "domain_space": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_space_orbital": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "domain_space_regulatory": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "spdx_licenses": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_sports_recreation": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "ssic_2020": {
+    "node_count": 21,
+    "max_level": 2,
+    "total_system_nodes": 21
+  },
+  "stakod_08": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "stanag": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "stcc": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_sterilization": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "stockholm_pops": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_structural": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_student_assess": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_subscription": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_supply_chain": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_supply_logistics": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_supply_risk": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_supply_tech": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_surgical_inst": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_surgical_spec": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "swift_mt": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_synbio_application": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_synbio_biosafety": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_synbio": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "domain_synthetic_data": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_talent_market": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "tcfd": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "teaor_2008": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_telecom_network": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_telecom_service": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_telemedicine": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_textile_fashion": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_threat_intel": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_tidal": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "tnfd": {
+    "node_count": 34,
+    "max_level": 3,
+    "total_system_nodes": 34
+  },
+  "togaf_adm": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "token_standard": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "tol_2008": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "domain_tourism_travel": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_trade_finance": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_trademark": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_trade_secret": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_transport_fare": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_transport_fleet": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_transport_infra": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_transport_mode": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_transport_service": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_truck_cargo": {
+    "node_count": 44,
+    "max_level": 3,
+    "total_system_nodes": 44
+  },
+  "domain_truck_ops": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "domain_truck_freight": {
+    "node_count": 44,
+    "max_level": 3,
+    "total_system_nodes": 44
+  },
+  "domain_truck_lane": {
+    "node_count": 34,
+    "max_level": 3,
+    "total_system_nodes": 34
+  },
+  "domain_truck_pricing": {
+    "node_count": 34,
+    "max_level": 3,
+    "total_system_nodes": 34
+  },
+  "domain_truck_regulatory": {
+    "node_count": 42,
+    "max_level": 3,
+    "total_system_nodes": 42
+  },
+  "domain_truck_tech": {
+    "node_count": 33,
+    "max_level": 3,
+    "total_system_nodes": 33
+  },
+  "domain_truck_vehicle": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "reg_tsca": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "tsic_2009": {
+    "node_count": 21,
+    "max_level": 2,
+    "total_system_nodes": 21
+  },
+  "udc": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "uic_railway": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "uksoc_2020": {
+    "node_count": 43,
+    "max_level": 3,
+    "total_system_nodes": 43
+  },
+  "uk_trade_tariff": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "un_ammo": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "reg_uncitral": {
+    "node_count": 20,
+    "max_level": 3,
+    "total_system_nodes": 20
+  },
+  "reg_unclos": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "unep_chemicals": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "unesco_thesaurus": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_ungp": {
+    "node_count": 22,
+    "max_level": 3,
+    "total_system_nodes": 22
+  },
+  "domain_univ_ranking": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "un_m49": {
+    "node_count": 30,
+    "max_level": 2,
+    "total_system_nodes": 279
+  },
+  "unspsc_v24": {
+    "node_count": 5835,
+    "max_level": 3,
+    "total_system_nodes": 77337
+  },
+  "usb_classes": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "usc_titles": {
+    "node_count": 23,
+    "max_level": 3,
+    "total_system_nodes": 23
+  },
+  "usda_soil": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "us_fips": {
+    "node_count": 86,
+    "max_level": 3,
+    "total_system_nodes": 86
+  },
+  "reg_us_gaap": {
+    "node_count": 33,
+    "max_level": 3,
+    "total_system_nodes": 33
+  },
+  "reg_usp": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_util_energy": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_util_grid": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_util_asset": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_util_regulatory": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_util_tariff": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "uv_index": {
+    "node_count": 11,
+    "max_level": 3,
+    "total_system_nodes": 11
+  },
+  "domain_vbc_model": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "vat_rates": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_version_control": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_vertical_farm": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "vesa_standards": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "domain_veterinary": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_vpp": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "vsic_2018": {
+    "node_count": 347,
+    "max_level": 2,
+    "total_system_nodes": 766
+  },
+  "domain_vuln_mgmt": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "w3c_standards": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_warehouse": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_waste_mgmt": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_water_regulatory": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_water_env": {
+    "node_count": 28,
+    "max_level": 3,
+    "total_system_nodes": 28
+  },
+  "domain_water_ecosystem": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_water_quality": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_wave_energy": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "wb_income": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "wcag": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "wco_safe": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_wealth_mgmt": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "reg_weee": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_wetland": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "who_essential_med": {
+    "node_count": 27,
+    "max_level": 3,
+    "total_system_nodes": 27
+  },
+  "reg_who_fctc": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_wholesale_distribution": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_wholesale_channel": {
+    "node_count": 21,
+    "max_level": 3,
+    "total_system_nodes": 21
+  },
+  "domain_wholesale_product": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "domain_wholesale_regulatory": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_wind_energy": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "domain_wine_spirits": {
+    "node_count": 26,
+    "max_level": 3,
+    "total_system_nodes": 26
+  },
+  "domain_workforce_safety": {
+    "node_count": 24,
+    "max_level": 3,
+    "total_system_nodes": 24
+  },
+  "domain_workforce_incident": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_workforce_sms": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "domain_workforce_training": {
+    "node_count": 18,
+    "max_level": 3,
+    "total_system_nodes": 18
+  },
+  "domain_workplace_med": {
+    "node_count": 13,
+    "max_level": 3,
+    "total_system_nodes": 13
+  },
+  "worldskills": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "wos_categories": {
+    "node_count": 25,
+    "max_level": 3,
+    "total_system_nodes": 25
+  },
+  "domain_wound_care": {
+    "node_count": 15,
+    "max_level": 3,
+    "total_system_nodes": 15
+  },
+  "reg_wto_sps": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  },
+  "reg_wto_tbt": {
+    "node_count": 17,
+    "max_level": 3,
+    "total_system_nodes": 17
+  },
+  "wz_2008": {
+    "node_count": 381,
+    "max_level": 2,
+    "total_system_nodes": 996
+  },
+  "xbrl_taxonomy": {
+    "node_count": 14,
+    "max_level": 3,
+    "total_system_nodes": 14
+  },
+  "domain_zero_trust": {
+    "node_count": 16,
+    "max_level": 3,
+    "total_system_nodes": 16
+  },
+  "domain_zoning": {
+    "node_count": 19,
+    "max_level": 3,
+    "total_system_nodes": 19
+  }
+}

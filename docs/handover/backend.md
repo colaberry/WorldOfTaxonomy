@@ -15,13 +15,21 @@ FastAPI app + MCP server + ingest pipeline + wiki loader. Reads [HANDOVER.md](..
 
 ```
 create_app()
- ├─ lifespan open -> get_pool() -> app.state.pool
- ├─ CORS middleware (allow localhost:3000 in dev; prod origin in prod)
- ├─ rate_limit_middleware (tier-aware)
+ ├─ validate_required_env()       # refuse to boot on missing/weak vars
+ ├─ lifespan open -> get_pool() -> app.state.pool  (connect retry + env pool sizing)
+ ├─ CORS middleware (ALLOWED_ORIGINS allowlist; defaults closed)
+ ├─ security_headers_middleware   # HSTS, nosniff, frame-deny, referrer, permissions
+ ├─ request_id_middleware         # propagate X-Request-ID
+ ├─ json_access_log_middleware    # one JSON line per request
+ ├─ body_size_limit_middleware    # 2 MiB cap
+ ├─ GZipMiddleware (min_size=500)
+ ├─ metrics_middleware            # wot_http_* counters + latency + in-flight
+ ├─ rate_limit_middleware         # tier-aware + X-RateLimit-* headers
  ├─ include_router(systems, nodes, search, equivalences, explore,
  │                 countries, classify, auth, oauth, wiki, contact,
- │                 audit, export, bulk_export, crosswalk_graph)
- └─ lifespan close -> pool.close()
+ │                 audit, export, bulk_export, crosswalk_graph,
+ │                 metrics, healthz, version, honeypot, csp_report, canary)
+ └─ lifespan close -> graceful uvicorn drain -> pool.close()
 ```
 
 ---
@@ -30,9 +38,9 @@ create_app()
 
 [world_of_taxonomy/db.py](../../world_of_taxonomy/db.py) reads `DATABASE_URL` at import time and creates an asyncpg pool with `min_size=2`, `max_size=10`, `command_timeout=30`.
 
-**Critical constraint**: Neon Postgres fronts the database with pgbouncer in transaction-pooling mode. pgbouncer does not keep a 1:1 session with the backend, so server-side prepared statements (asyncpg's default for caching query plans) break. Set `statement_cache_size=0` when that is your topology. The test pool already does this in [tests/conftest.py](../../tests/conftest.py).
+**Critical constraint**: when a pgbouncer-style pooler sits in transaction-pooling mode between the app and Postgres, it does not keep a 1:1 session with the backend, so server-side prepared statements (asyncpg's default for caching query plans) break. Set `statement_cache_size=0` when that is your topology. The test pool already does this in [tests/conftest.py](../../tests/conftest.py).
 
-If you move off Neon to plain Postgres you can drop the setting; if you stay on Neon, you must keep it.
+Providers this applies to: Neon (always), Supabase via the pooled URL, any self-hosted pgbouncer in transaction mode. If you connect directly to Postgres (no pooler, or a session-mode pooler), you can drop the setting.
 
 ---
 
@@ -88,8 +96,40 @@ From [world_of_taxonomy/api/routers/](../../world_of_taxonomy/api/routers/):
 | `wiki` | `GET /wiki`, `GET /wiki/{slug}` | optional |
 | `contact` | `POST /contact` - form delivery | none |
 | `audit`, `export`, `bulk_export`, `crosswalk_graph` | admin + export utilities | mixed |
+| `metrics` | `GET /api/v1/metrics` (Prometheus exposition) | `METRICS_TOKEN` header |
+| `healthz` | `GET /api/v1/healthz` - uptime probe, no DB hit | none |
+| `version` | `GET /api/v1/version` - git sha + build time | none |
+| `csp_report` | `POST /api/v1/csp-report` - CSP violation sink | none |
+| `honeypot` | decoy paths + `/.well-known/security.txt` | none |
+| `canary` | canary token endpoints used by `llms-full.txt` embeds | none |
 
 Search ranking (see [world_of_taxonomy/api/routers/search.py](../../world_of_taxonomy/api/routers/search.py)) uses the GIN-indexed `tsvector` with `plainto_tsquery` and falls back to `ILIKE` when the tsquery returns zero rows. Results are ranked by `ts_rank` then `seq_order`.
+
+---
+
+## Security and ops modules
+
+Beyond auth and rate-limit, the backend ships a set of cross-cutting modules in [world_of_taxonomy/api/](../../world_of_taxonomy/api/):
+
+| Module | Purpose |
+|--------|---------|
+| `security_headers.py` | Applies HSTS, nosniff, frame-deny, Referrer-Policy, Permissions-Policy on every response. |
+| `metrics.py` | Prometheus counters + latency histogram + in-flight gauge. Bounded cardinality on route templates. |
+| `healthz.py`, `version.py` | Liveness probe + build-info endpoint. |
+| `honeypot.py` | Decoy paths (`/wp-admin`, `/.env`, etc.) + RFC 9116 `security.txt`. |
+| `csp_report.py` | CSP violation sink; counter keyed on known directives, everything else bucketed as `other`. |
+| `canary.py` | Tracks hits on canary tokens seeded into `llms-full.txt`. |
+| `failed_auth.py` | Sliding-window per-IP + per-email login failure counters. |
+| `text_guard.py` | NFKC-normalizes + regex-filters `/classify` input for prompt-injection defense. |
+| `request_id.py` | Generates or propagates `X-Request-ID` for log correlation. |
+| `access_log.py` | One JSON log line per HTTP request. |
+| `env_validation.py` | Fails fast at boot when required env vars are missing or weak. |
+
+Optional Sentry telemetry (`SENTRY_DSN`) is initialized in `app.py` before middleware so unhandled errors propagate correctly.
+
+Ingest-side sanity: [world_of_taxonomy/ingest/validators.py](../../world_of_taxonomy/ingest/validators.py) runs post-load checks (orphaned nodes, level-1 roots, parent-child cycle detection, duplicate codes).
+
+Schema evolution uses Alembic (psycopg v3 driver) under [migrations/](../../migrations/); the baseline revision captures `schema.sql` + `schema_auth.sql` as of HANDOVER creation.
 
 ---
 
@@ -180,7 +220,7 @@ Run: `python3 -m pytest tests/ -v`. Single file: `pytest tests/test_ingest_naics
 
 ## Non-obvious rules
 
-1. **Statement cache**: `statement_cache_size=0` on any pool pointed at Neon/pgbouncer.
+1. **Statement cache**: `statement_cache_size=0` on any pool that sits behind a pgbouncer-style pooler in transaction mode (Neon, Supabase pooled URL, self-hosted pgbouncer). Direct connections don't need it.
 2. **JWT secret length**: >=32 chars in prod. The dev default is intentionally shorter so production can't silently adopt it.
 3. **Em-dash ban**: CI greps `*.py`, `*.md`, `*.ts`, `*.tsx`, `*.sql` for U+2014 and fails on any match. See [.github/workflows/ci.yml](../../.github/workflows/ci.yml).
 4. **Test schema isolation**: tests MUST run in `test_wot`. Never point tests at `public`.

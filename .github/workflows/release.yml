@@ -1,0 +1,247 @@
+name: Release
+
+# Runs when a semver tag (v1.2.3) is pushed. Produces:
+#  1. A regenerated set of static artifacts (llms-full.txt, typed frontend API).
+#  2. A backend container image at ghcr.io/<owner>/<repo>:<tag> and :latest.
+#  3. A drafted GitHub Release with auto-generated notes + artifacts attached.
+#  4. A POST to /api/revalidate so the frontend picks up any data changes.
+#
+# Backend and frontend deploys are intentionally NOT wired to a specific
+# platform (Fly / Railway / Cloud Run / Vercel). The container push + the
+# revalidate hook give any downstream deploy automation something to react
+# to. Add the platform-specific deploy step at the "Deploy backend" slot
+# below when you commit to a platform.
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag to re-release (leave blank to use the current commit)"
+        required: false
+        default: ""
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write      # create release + upload assets
+  packages: write      # push to GHCR
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install backend deps
+        run: pip install -r requirements.txt
+
+      - name: Run pytest
+        env:
+          DATABASE_URL: ${{ secrets.TEST_DATABASE_URL || secrets.DATABASE_URL }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET || 'test-secret-at-least-32-characters-long-xx' }}
+        run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "No DATABASE_URL in secrets; skipping DB-backed tests."
+            exit 0
+          fi
+          python -m pytest tests/ -v
+
+      - name: Em-dash guard
+        run: bash scripts/check_no_em_dash.sh
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Frontend typecheck
+        working-directory: frontend
+        run: |
+          npm ci
+          npx tsc --noEmit
+
+  artifacts:
+    name: Regenerate static artifacts
+    needs: test
+    runs-on: ubuntu-latest
+    outputs:
+      llms_changed: ${{ steps.diff.outputs.llms_changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+          cd frontend && npm ci
+
+      - name: Rebuild llms-full.txt
+        run: python scripts/build_llms_txt.py
+
+      - name: Regenerate typed frontend API
+        working-directory: frontend
+        run: npm run types:gen
+
+      - name: Export crosswalk + tree data (optional, needs DB)
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "DATABASE_URL not set; shipping release without regenerated crosswalk/tree JSON."
+            echo "Existing files in crosswalk-data/ and tree-data/ will be used by the frontend."
+            exit 0
+          fi
+          python scripts/export_crosswalk_data.py
+          python scripts/export_tree_data.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet frontend/public/llms-full.txt frontend/src/lib/api-types.ts crosswalk-data/ tree-data/; then
+            echo "llms_changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "llms_changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload artifacts for the release job
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-artifacts
+          path: |
+            frontend/public/llms-full.txt
+            frontend/src/lib/api-types.ts
+            crosswalk-data/
+            tree-data/
+          if-no-files-found: warn
+          retention-days: 7
+
+  container:
+    name: Build + push backend container
+    needs: test
+    runs-on: ubuntu-latest
+    outputs:
+      image: ${{ steps.meta.outputs.tags }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve release metadata
+        id: meta
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          if [ -n "${{ github.event.inputs.tag }}" ]; then TAG="${{ github.event.inputs.tag }}"; fi
+          echo "tag=${TAG}" >> $GITHUB_OUTPUT
+          echo "sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "build_time=$(date -u +%FT%TZ)" >> $GITHUB_OUTPUT
+          REPO_LC="$(echo '${{ github.repository }}' | tr '[:upper:]' '[:lower:]')"
+          echo "image=ghcr.io/${REPO_LC}" >> $GITHUB_OUTPUT
+
+      - uses: docker/setup-buildx-action@v3
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build + push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile.backend
+          push: true
+          tags: |
+            ${{ steps.meta.outputs.image }}:${{ steps.meta.outputs.tag }}
+            ${{ steps.meta.outputs.image }}:latest
+          build-args: |
+            GIT_SHA=${{ steps.meta.outputs.sha }}
+            BUILD_TIME=${{ steps.meta.outputs.build_time }}
+            APP_VERSION=${{ steps.meta.outputs.tag }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      # -- Deploy hook ------------------------------------------------------
+      # Wire your platform-specific deploy step here once you commit to one.
+      # Example for Fly:
+      #   - uses: superfly/flyctl-actions/setup-flyctl@master
+      #   - run: flyctl deploy --remote-only --image ${{ steps.meta.outputs.image }}:${{ steps.meta.outputs.tag }}
+      #     env:
+      #       FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+  release:
+    name: Draft GitHub Release
+    needs: [artifacts, container]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: release-artifacts
+          path: release-assets
+
+      - name: Bundle crosswalk + tree data
+        run: |
+          cd release-assets && \
+            tar -czf crosswalk-data.tar.gz crosswalk-data 2>/dev/null || true && \
+            tar -czf tree-data.tar.gz tree-data 2>/dev/null || true && \
+            rm -rf crosswalk-data tree-data
+
+      - name: Create or update GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag || github.ref_name }}
+          name: ${{ github.event.inputs.tag || github.ref_name }}
+          generate_release_notes: true
+          draft: true
+          files: |
+            release-assets/llms-full.txt
+            release-assets/api-types.ts
+            release-assets/crosswalk-data.tar.gz
+            release-assets/tree-data.tar.gz
+
+  revalidate:
+    name: Bust frontend ISR cache
+    needs: release
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST /api/revalidate
+        env:
+          REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
+          FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
+        run: |
+          if [ -z "$REVALIDATE_SECRET" ] || [ -z "$FRONTEND_URL" ]; then
+            echo "REVALIDATE_SECRET or FRONTEND_URL not set; skipping cache bust."
+            exit 0
+          fi
+          curl -sS --fail-with-body -X POST "$FRONTEND_URL/api/revalidate" \
+            -H "Content-Type: application/json" \
+            -H "x-revalidate-secret: $REVALIDATE_SECRET" \
+            -d '{"scope":"all"}'

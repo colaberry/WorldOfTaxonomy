@@ -1036,7 +1036,7 @@ WorldOfTaxonomy/
 │   │   ├── nace_derived.py      # WZ 2008, ÖNACE 2008, NOGA 2008 (copy NACE nodes)
 │   │   └── crosswalk.py         # ISIC↔NAICS concordance
 │   ├── query.py                 # Core query functions (get_system, search, etc.)
-│   ├── db.py                    # asyncpg pool (Neon PostgreSQL, statement_cache_size=0)
+│   ├── db.py                    # asyncpg pool (set statement_cache_size=0 behind pgbouncer)
 │   ├── schema.sql               # Core tables: classification_system, classification_node, equivalence
 │   ├── schema_auth.sql          # Auth tables: app_user, api_key, usage_log
 │   └── __main__.py              # CLI: serve, mcp, ingest, init-auth
@@ -1075,11 +1075,11 @@ WorldOfTaxonomy/
 
 ## Tech stack
 
-**Backend**: Python 3.9 · FastAPI · asyncpg · PostgreSQL on Neon (pgbouncer → `statement_cache_size=0`) · bcrypt · PyJWT · slowapi · MCP SDK
+**Backend**: Python 3.9 · FastAPI · asyncpg · PostgreSQL 14+ (set `statement_cache_size=0` when behind pgbouncer in transaction mode) · bcrypt · PyJWT · slowapi · MCP SDK
 
 **Frontend**: Next.js 15 (App Router) · TypeScript · Tailwind CSS v4 · shadcn/ui · D3.js · React Query · next-themes · lucide-react
 
-**Database**: Neon PostgreSQL. Three core tables (`classification_system`, `classification_node`, `equivalence`) plus three auth tables (`app_user`, `api_key`, `usage_log`).
+**Database**: PostgreSQL 14+ (provider-agnostic). Three core tables (`classification_system`, `classification_node`, `equivalence`) plus three auth tables (`app_user`, `api_key`, `usage_log`).
 
 ## How to run
 

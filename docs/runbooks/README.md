@@ -24,7 +24,7 @@ Incident response playbooks for WorldOfTaxonomy. Each runbook is written to be p
 ## Conventions
 
 - All commands assume you are in the repo root.
-- Neon PITR window is **30 days** (Neon Free tier); plan restores against that.
+- Know your DB provider's point-in-time recovery (PITR) window and plan restores against it. Examples: Neon Free tier 30 days, RDS up to 35 days, Supabase varies by tier; self-hosted uses whatever your backup policy is.
 - Backend logs are JSON (one request per line) in `stdout`. In prod they land in Fly's log stream.
 - Sentry environment is set by `SENTRY_ENVIRONMENT` (default `development`). Production tag is `production`.
 

@@ -1,0 +1,95 @@
+name: Post-merge refresh
+
+# Runs on every push to `main`. Regenerates derived artifacts whose source
+# of truth lives in this repo and commits the result back, so contributors
+# never have to remember to run the generators locally:
+#
+#  - frontend/public/llms-full.txt     <- wiki/**
+#  - frontend/src/lib/api-types.ts     <- world_of_taxonomy/api/schemas.py, routers/**
+#
+# The commit is made by github-actions[bot] with a `[skip ci]` marker in
+# the message so we don't re-trigger this workflow and recurse. Paths are
+# gated so unrelated pushes are cheap no-ops.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wiki/**"
+      - "scripts/build_llms_txt.py"
+      - "scripts/export_openapi.py"
+      - "world_of_taxonomy/api/schemas.py"
+      - "world_of_taxonomy/api/routers/**"
+      - "world_of_taxonomy/api/app.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: post-merge-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Regenerate derived artifacts
+    runs-on: ubuntu-latest
+    # Skip if the previous commit was the bot's own auto-refresh commit.
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # We need to push a follow-up commit, so use a full clone.
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+          cd frontend && npm ci
+
+      - name: Detect what changed
+        id: changes
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            wiki:
+              - "wiki/**"
+              - "scripts/build_llms_txt.py"
+            api:
+              - "world_of_taxonomy/api/schemas.py"
+              - "world_of_taxonomy/api/routers/**"
+              - "world_of_taxonomy/api/app.py"
+              - "scripts/export_openapi.py"
+
+      - name: Rebuild llms-full.txt
+        if: steps.changes.outputs.wiki == 'true'
+        run: python scripts/build_llms_txt.py
+
+      - name: Regenerate typed frontend API
+        if: steps.changes.outputs.api == 'true'
+        working-directory: frontend
+        run: npm run types:gen
+
+      - name: Commit regenerated artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/llms-full.txt frontend/src/lib/api-types.ts 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No derived-artifact changes; nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore(generated): refresh derived artifacts after merge [skip ci]"
+          git push

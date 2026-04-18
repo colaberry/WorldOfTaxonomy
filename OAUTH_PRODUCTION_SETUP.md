@@ -9,11 +9,11 @@ OAuth sign-ins will work.
 ## Step 1 - Run the database migration
 
 The production database has the old schema (`password_hash NOT NULL`, no
-OAuth columns). Run this SQL once against your Neon database before
+OAuth columns). Run this SQL once against your production database before
 anything else.
 
-Open the Neon console (console.neon.tech), select your database, open
-the SQL editor, and run:
+Open your Postgres admin console (Neon, Supabase, RDS Query Editor, `psql`,
+or whatever you use), connect to the production database, and run:
 
 ```sql
 -- Make password_hash optional (OAuth users have no password)
@@ -205,7 +205,7 @@ If any returns `400` the provider name is wrong (check the URL).
 ## Step 5 - Check the database after first sign-in
 
 After at least one real user signs in via OAuth, verify the record looks
-right in Neon:
+right in the production database:
 
 ```sql
 SELECT id, email, display_name, oauth_provider, oauth_provider_id,
