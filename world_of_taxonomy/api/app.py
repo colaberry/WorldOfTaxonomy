@@ -36,6 +36,7 @@ from world_of_taxonomy.api.metrics import (
     metrics_middleware,
     router as metrics_router,
 )
+from world_of_taxonomy.api.honeypot import router as honeypot_router
 from world_of_taxonomy.db import get_pool
 from world_of_taxonomy.wiki import build_llms_full_txt
 
@@ -365,6 +366,7 @@ def create_app() -> FastAPI:
     app.include_router(wiki_router.router)
     app.include_router(health_router.router)
     app.include_router(metrics_router)
+    app.include_router(honeypot_router)
 
     # Bot protection routes
     @app.get("/robots.txt", response_class=PlainTextResponse)
