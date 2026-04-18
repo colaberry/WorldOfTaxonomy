@@ -1,0 +1,64 @@
+version: 2
+
+# Weekly security + version updates across all three ecosystems
+# in this repo. PRs land on Monday morning US time so review lands
+# in the same working day.
+
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "America/Chicago"
+    open-pull-requests-limit: 5
+    labels:
+      - "deps"
+      - "backend"
+    commit-message:
+      prefix: "deps(py)"
+
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "America/Chicago"
+    open-pull-requests-limit: 5
+    labels:
+      - "deps"
+      - "frontend"
+    commit-message:
+      prefix: "deps(npm)"
+    groups:
+      next-ecosystem:
+        patterns:
+          - "next"
+          - "eslint-config-next"
+          - "@types/react*"
+          - "react"
+          - "react-dom"
+      tanstack:
+        patterns:
+          - "@tanstack/*"
+      tailwind:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
+          - "tw-animate-css"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "America/Chicago"
+    open-pull-requests-limit: 3
+    labels:
+      - "deps"
+      - "ci"
+    commit-message:
+      prefix: "deps(actions)"
