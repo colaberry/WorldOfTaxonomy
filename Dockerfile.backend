@@ -17,8 +17,16 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 RUN pip install -e . --no-deps
 
-# Create data directory for downloaded source files
-RUN mkdir -p /app/data
+# Create a non-root user and give it ownership of the app tree.
+# Most hosting platforms (Fly, k8s, some CI runners) prefer or
+# enforce non-root containers. Uid 10001 is well above the host's
+# system uid range on every common base image.
+RUN groupadd --system --gid 10001 wot \
+ && useradd --system --uid 10001 --gid wot --home-dir /app --shell /usr/sbin/nologin wot \
+ && mkdir -p /app/data \
+ && chown -R wot:wot /app
+
+USER wot
 
 # Build-time metadata exposed via GET /api/v1/version.
 # Pass these at build time, e.g.:
