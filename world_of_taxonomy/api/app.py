@@ -26,6 +26,7 @@ from world_of_taxonomy.api.routers import health as health_router
 from world_of_taxonomy.api.middleware import (
     limiter,
     rate_limit_middleware,
+    request_id_middleware,
     request_logging_middleware,
     security_headers_middleware,
 )
@@ -298,6 +299,10 @@ def create_app() -> FastAPI:
 
     # Structured access log (JSON line per request)
     app.middleware("http")(request_logging_middleware)
+
+    # Request ID correlation (added last so it runs first on the way in,
+    # making the id available to all downstream middleware + handlers).
+    app.middleware("http")(request_id_middleware)
 
     # API routers
     app.include_router(explore.router)  # must be before systems (has /systems/stats)

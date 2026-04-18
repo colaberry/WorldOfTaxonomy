@@ -6,6 +6,7 @@ import json
 import logging
 import os
 import time
+import uuid
 
 from slowapi import Limiter
 from slowapi.util import get_remote_address
@@ -15,6 +16,29 @@ from starlette.responses import JSONResponse
 
 _request_logger = logging.getLogger("wot.request")
 _ACCESS_LOG_ENABLED = os.getenv("ACCESS_LOG", "true").lower() not in ("0", "false", "no")
+
+
+async def request_id_middleware(request: Request, call_next):
+    """Accept an incoming X-Request-ID or mint a new uuid4 for every request.
+
+    Stores the id on request.state.request_id for downstream handlers
+    and echoes it on the response so clients can correlate logs.
+    Attaches the id to Sentry scope when Sentry is initialized.
+    """
+    incoming = request.headers.get("X-Request-ID", "").strip()
+    request_id = incoming if incoming else uuid.uuid4().hex
+    request.state.request_id = request_id
+
+    try:
+        import sentry_sdk
+
+        sentry_sdk.set_tag("request_id", request_id)
+    except Exception:
+        pass
+
+    response = await call_next(request)
+    response.headers["X-Request-ID"] = request_id
+    return response
 
 
 async def request_logging_middleware(request: Request, call_next):
@@ -32,6 +56,7 @@ async def request_logging_middleware(request: Request, call_next):
 
     user = getattr(request.state, "auth_user", None)
     record = {
+        "request_id": getattr(request.state, "request_id", None),
         "method": request.method,
         "path": request.url.path,
         "status": response.status_code,
