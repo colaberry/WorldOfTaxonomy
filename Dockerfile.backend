@@ -22,6 +22,12 @@ RUN mkdir -p /app/data
 
 EXPOSE 8000
 
+# Container-level liveness probe. Platforms that honor Docker HEALTHCHECK
+# (Docker Swarm, Fly, some Kubernetes setups via probes) will auto-restart
+# the container when /healthz starts failing.
+HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
+  CMD curl -fsS http://127.0.0.1:8000/api/v1/healthz || exit 1
+
 # Initialize schema, then start the API server.
 # Data ingestion is done separately via:
 #   docker compose exec backend python3 -m world_of_taxonomy ingest <system>
