@@ -14,6 +14,12 @@ import jwt
 from fastapi import APIRouter, Depends, HTTPException, Request
 
 from world_of_taxonomy.api.deps import get_conn, get_current_user, JWT_SECRET, JWT_ALGORITHM
+from world_of_taxonomy.api.failed_auth import (
+    check_blocked,
+    mark_lockout,
+    record_failure,
+    record_success,
+)
 from world_of_taxonomy.api.schemas import (
     RegisterRequest,
     LoginRequest,
@@ -115,13 +121,28 @@ async def register(body: RegisterRequest, conn=Depends(get_conn)):
 
 
 @router.post("/login", response_model=TokenResponse)
-async def login(body: LoginRequest, conn=Depends(get_conn)):
-    """Login with email and password."""
+async def login(body: LoginRequest, request: Request, conn=Depends(get_conn)):
+    """Login with email and password.
+
+    Failed attempts are tracked in a sliding window keyed by source IP
+    and target email; repeated failures return 429 to blunt credential
+    stuffing. Successful logins clear the counters for that IP+email.
+    """
+    ip = request.client.host if request.client else "unknown"
+    blocked, reason = check_blocked(ip, body.email)
+    if blocked:
+        mark_lockout(reason or "ip")
+        raise HTTPException(
+            status_code=429,
+            detail="Too many failed login attempts. Try again later.",
+        )
+
     row = await conn.fetchrow(
         "SELECT id, password_hash, is_active, oauth_provider FROM app_user WHERE email = $1",
         body.email,
     )
     if row is None:
+        record_failure(ip, body.email)
         raise HTTPException(status_code=401, detail="Invalid email or password")
     if not row["is_active"]:
         raise HTTPException(status_code=403, detail="Account is deactivated")
@@ -131,8 +152,10 @@ async def login(body: LoginRequest, conn=Depends(get_conn)):
             detail="This account uses social login. Please sign in with GitHub, Google, or LinkedIn.",
         )
     if not _verify_password(body.password, row["password_hash"]):
+        record_failure(ip, body.email)
         raise HTTPException(status_code=401, detail="Invalid email or password")
 
+    record_success(ip, body.email)
     access_token = _create_access_token(str(row["id"]))
     return TokenResponse(access_token=access_token)
 
