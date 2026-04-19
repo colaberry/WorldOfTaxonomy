@@ -133,8 +133,13 @@ class TestClassifyDemoHandler:
         assert lead_count == 1
         assert result["query"] == "manufacturing"
         assert "disclaimer" in result
-        assert "matches" in result
-        assert isinstance(result["matches"], list)
+        # Response is split into domain_matches + standard_matches; legacy
+        # flat `matches` key is intentionally absent.
+        assert "matches" not in result
+        assert "domain_matches" in result
+        assert "standard_matches" in result
+        assert isinstance(result["domain_matches"], list)
+        assert isinstance(result["standard_matches"], list)
         # Demo is capped to a limited surface
         assert result.get("demo") is True
 
@@ -158,7 +163,9 @@ class TestClassifyDemoHandler:
                 )
 
         result = _run(go())
-        assert len(result["matches"]) <= 5
+        # Cap applies to the combined set across both categories.
+        total = len(result["domain_matches"]) + len(result["standard_matches"])
+        assert total <= 13  # 5 standards + up to 8 top domain systems
 
     def test_handler_caps_results_per_system(self, db_pool):
         """Demo users get at most 3 results per system (vs 20 on paid)."""
@@ -180,5 +187,5 @@ class TestClassifyDemoHandler:
                 )
 
         result = _run(go())
-        for match in result["matches"]:
+        for match in result["domain_matches"] + result["standard_matches"]:
             assert len(match["results"]) <= 3

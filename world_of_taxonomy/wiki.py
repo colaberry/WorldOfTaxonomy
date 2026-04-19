@@ -57,6 +57,7 @@ def build_wiki_context() -> str:
         "crosswalk-map",
         "industry-classification",
         "categories-and-sectors",
+        "domain-vs-standard",
     ]
     parts = []
     parts.append("# WorldOfTaxonomy - AI Agent Context\n")

@@ -22,9 +22,9 @@ def _run(coro):
 # ── tools/list ────────────────────────────────────────────────
 
 
-def test_tools_list_returns_23_tools():
+def test_tools_list_returns_24_tools():
     tools = build_tools_list()
-    assert len(tools) == 23
+    assert len(tools) == 24
     names = {t["name"] for t in tools}
     assert names == {
         "list_classification_systems",
@@ -39,6 +39,7 @@ def test_tools_list_returns_23_tools():
         "compare_sector",
         "find_by_keyword_all_systems",
         "get_crosswalk_coverage",
+        "list_crosswalks_by_kind",
         "get_system_diff",
         "get_siblings",
         "get_subtree_summary",
@@ -68,7 +69,7 @@ def test_tools_have_schema():
 
 def test_resources_list():
     resources = build_resources_list()
-    assert len(resources) == 12  # 2 core + 10 wiki pages
+    assert len(resources) == 13  # 2 core + 11 wiki pages
     uris = {r["uri"] for r in resources}
     assert "taxonomy://systems" in uris
     assert "taxonomy://wiki/getting-started" in uris
@@ -108,7 +109,7 @@ def test_handle_tools_list():
         response = await handle_jsonrpc_request(request, conn=None)
         assert response["id"] == 2
         assert "result" in response
-        assert len(response["result"]["tools"]) == 23
+        assert len(response["result"]["tools"]) == 24
     _run(_test())
 
 
@@ -164,7 +165,7 @@ def test_handle_resources_list():
         response = await handle_jsonrpc_request(request, conn=None)
         assert response["id"] == 5
         assert "result" in response
-        assert len(response["result"]["resources"]) == 12  # 2 core + 10 wiki pages
+        assert len(response["result"]["resources"]) == 13  # 2 core + 11 wiki pages
     _run(_test())
 
 

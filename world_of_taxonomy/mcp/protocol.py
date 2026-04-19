@@ -22,6 +22,7 @@ from world_of_taxonomy.mcp.handlers import (
     handle_compare_sector,
     handle_find_by_keyword_all_systems,
     handle_get_crosswalk_coverage,
+    handle_list_crosswalks_by_kind,
     handle_get_system_diff,
     handle_get_siblings,
     handle_get_subtree_summary,
@@ -44,7 +45,12 @@ def build_tools_list() -> List[Dict[str, Any]]:
     return [
         {
             "name": "list_classification_systems",
-            "description": "List all available industry classification systems (NAICS, ISIC, etc.)",
+            "description": (
+                "List all available classification systems. Each entry includes a 'category' "
+                "field: 'domain' for curated WoT Domain taxonomies (system_id prefix 'domain_', "
+                "plain-language on-ramps such as truck freight types, insurance risk types) and "
+                "'standard' for official standards (NAICS, ISIC, NACE, SIC, SOC, HS, ICD, ISO, ...)."
+            ),
             "inputSchema": {
                 "type": "object",
                 "properties": {},
@@ -106,7 +112,11 @@ def build_tools_list() -> List[Dict[str, Any]]:
         },
         {
             "name": "search_classifications",
-            "description": "Full-text search across industry classification systems. Searches titles and codes.",
+            "description": (
+                "Full-text search across classification systems. Searches titles and codes. "
+                "Each result carries a 'category' field ('domain' vs 'standard') so callers "
+                "can split results into curated WoT Domain taxonomies and official standards."
+            ),
             "inputSchema": {
                 "type": "object",
                 "properties": {
@@ -218,12 +228,43 @@ def build_tools_list() -> List[Dict[str, Any]]:
         },
         {
             "name": "get_crosswalk_coverage",
-            "description": "Show how many equivalence edges exist between each pair of classification systems.",
+            "description": "Show how many equivalence edges exist between each pair of classification systems. Every item includes an edge_kind (standard_standard, standard_domain, domain_standard, domain_domain).",
             "inputSchema": {
                 "type": "object",
                 "properties": {
                     "system_id": {"type": "string", "description": "Optional: filter to a specific system"},
                 },
+            },
+        },
+        {
+            "name": "list_crosswalks_by_kind",
+            "description": (
+                "List equivalence edges of a given edge_kind with counts and a sample. "
+                "Useful for 'show me every standard-to-domain bridge' style queries."
+            ),
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "edge_kind": {
+                        "type": "string",
+                        "enum": [
+                            "standard_standard",
+                            "standard_domain",
+                            "domain_standard",
+                            "domain_domain",
+                        ],
+                        "description": "Which edge_kind to list.",
+                    },
+                    "system_id": {
+                        "type": "string",
+                        "description": "Optional: restrict to edges touching this system.",
+                    },
+                    "sample_limit": {
+                        "type": "integer",
+                        "description": "Max sample edges to include (default 10, max 100).",
+                    },
+                },
+                "required": ["edge_kind"],
             },
         },
         {
@@ -351,9 +392,13 @@ def build_tools_list() -> List[Dict[str, Any]]:
             "name": "classify_business",
             "description": (
                 "Classify a business, product, occupation, or activity description against "
-                "global taxonomy systems. Returns matching codes from NAICS, ISIC, HS, SOC, "
-                "ICD, and more with relevance scores. Example: 'organic baby food manufacturer' "
-                "returns NAICS 311422, ISIC 1030, HS 2007. Results are informational only - "
+                "global taxonomy systems. Results are split into two categories: "
+                "'domain_matches' (curated WoT Domain taxonomies - plain-language on-ramps "
+                "like truck freight types, insurance product types, AI deployment types) and "
+                "'standard_matches' (official standards like NAICS, ISIC, NACE, SIC, SOC, HS, "
+                "ICD, ISO). Each match carries a 'category' field. Example: 'organic baby "
+                "food manufacturer' returns domain matches (food-service types) plus standard "
+                "matches (NAICS 311422, ISIC 1030, HS 2007). Results are informational only; "
                 "use at your own risk."
             ),
             "inputSchema": {
@@ -425,6 +470,7 @@ _TOOL_HANDLERS = {
     "compare_sector": handle_compare_sector,
     "find_by_keyword_all_systems": handle_find_by_keyword_all_systems,
     "get_crosswalk_coverage": handle_get_crosswalk_coverage,
+    "list_crosswalks_by_kind": handle_list_crosswalks_by_kind,
     "get_system_diff": handle_get_system_diff,
     "get_siblings": handle_get_siblings,
     "get_subtree_summary": handle_get_subtree_summary,

@@ -7,6 +7,7 @@ JSON-serializable result.
 
 from typing import Any, Dict, List
 
+from world_of_taxonomy.category import get_category
 from world_of_taxonomy.exceptions import NodeNotFoundError, SystemNotFoundError
 from world_of_taxonomy.query.browse import (
     get_systems, get_system, get_roots, get_node, get_children, get_ancestors,
@@ -38,6 +39,7 @@ def _node_to_dict(node, prov: Dict[str, Any] = None) -> Dict[str, Any]:
         "parent_code": node.parent_code,
         "sector_code": node.sector_code,
         "is_leaf": node.is_leaf,
+        "category": get_category(node.system_id),
     }
     if prov:
         enrich_node_dict(d, prov)
@@ -60,11 +62,13 @@ def _system_to_dict(system) -> Dict[str, Any]:
         "data_provenance": system.data_provenance,
         "license": system.license,
         "source_file_hash": system.source_file_hash,
+        "category": get_category(system.id),
     }
 
 
 def _equiv_to_dict(equiv) -> Dict[str, Any]:
     """Convert an Equivalence to a JSON-serializable dict."""
+    from world_of_taxonomy.category import compute_edge_kind
     return {
         "source_system": equiv.source_system,
         "source_code": equiv.source_code,
@@ -73,6 +77,9 @@ def _equiv_to_dict(equiv) -> Dict[str, Any]:
         "match_type": equiv.match_type,
         "source_title": equiv.source_title,
         "target_title": equiv.target_title,
+        "source_category": get_category(equiv.source_system),
+        "target_category": get_category(equiv.target_system),
+        "edge_kind": compute_edge_kind(equiv.source_system, equiv.target_system),
     }
 
 
@@ -219,6 +226,7 @@ async def handle_get_crosswalk_coverage(
     conn, args: Dict[str, Any]
 ) -> List[Dict]:
     """Return per-system-pair equivalence edge counts."""
+    from world_of_taxonomy.category import compute_edge_kind
     from world_of_taxonomy.query.equivalence import get_crosswalk_stats
     stats = await get_crosswalk_stats(conn)
     system_id = args.get("system_id")
@@ -227,7 +235,93 @@ async def handle_get_crosswalk_coverage(
             s for s in stats
             if s["source_system"] == system_id or s["target_system"] == system_id
         ]
-    return stats
+    return [
+        {**s, "edge_kind": compute_edge_kind(s["source_system"], s["target_system"])}
+        for s in stats
+    ]
+
+
+async def handle_list_crosswalks_by_kind(
+    conn, args: Dict[str, Any]
+) -> Dict[str, Any]:
+    """Return counts + sample edges for a given edge_kind.
+
+    Lets agents answer "show me every standard-to-domain bridge touching
+    NAICS" in one call. Optional system_id narrows both counts and samples
+    to edges that touch the given system.
+    """
+    from world_of_taxonomy.category import compute_edge_kind
+    from world_of_taxonomy.query.equivalence import get_crosswalk_stats_by_edge_kind
+
+    edge_kind = args.get("edge_kind")
+    if edge_kind not in {
+        "standard_standard", "standard_domain",
+        "domain_standard", "domain_domain",
+    }:
+        return {
+            "error": (
+                "edge_kind must be one of: standard_standard, standard_domain, "
+                "domain_standard, domain_domain."
+            ),
+        }
+    system_id = args.get("system_id")
+    sample_limit = max(1, min(int(args.get("sample_limit", 10)), 100))
+
+    totals = await get_crosswalk_stats_by_edge_kind(conn)
+    total_for_kind = next(
+        (row["edge_count"] for row in totals if row["edge_kind"] == edge_kind),
+        0,
+    )
+
+    src_cat, tgt_cat = edge_kind.split("_")
+    src_pred = "starts_with(e.source_system, 'domain_')"
+    if src_cat == "standard":
+        src_pred = f"NOT {src_pred}"
+    tgt_pred = "starts_with(e.target_system, 'domain_')"
+    if tgt_cat == "standard":
+        tgt_pred = f"NOT {tgt_pred}"
+
+    where_sql = f"WHERE {src_pred} AND {tgt_pred}"
+    params: list = []
+    if system_id:
+        where_sql += " AND (e.source_system = $1 OR e.target_system = $1)"
+        params.append(system_id)
+
+    samples = await conn.fetch(
+        f"""SELECT e.source_system, e.source_code, e.target_system, e.target_code,
+                   e.match_type, e.notes,
+                   s.title AS source_title,
+                   t.title AS target_title
+            FROM equivalence e
+            LEFT JOIN classification_node s
+              ON s.system_id = e.source_system AND s.code = e.source_code
+            LEFT JOIN classification_node t
+              ON t.system_id = e.target_system AND t.code = e.target_code
+            {where_sql}
+            ORDER BY e.source_system, e.source_code
+            LIMIT {sample_limit}""",
+        *params,
+    )
+
+    return {
+        "edge_kind": edge_kind,
+        "total_edges": total_for_kind,
+        "system_id": system_id,
+        "samples": [
+            {
+                "source_system": r["source_system"],
+                "source_code": r["source_code"],
+                "source_title": r["source_title"],
+                "target_system": r["target_system"],
+                "target_code": r["target_code"],
+                "target_title": r["target_title"],
+                "match_type": r["match_type"],
+                "notes": r["notes"],
+                "edge_kind": compute_edge_kind(r["source_system"], r["target_system"]),
+            }
+            for r in samples
+        ],
+    }
 
 
 async def handle_get_system_diff(
@@ -459,10 +553,30 @@ async def handle_get_country_taxonomy_profile(
     }
 
 
+def _partition_classify_matches(matches: List[Dict[str, Any]]) -> tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """Split classify_text's flat match list by category (domain vs standard)."""
+    domain: List[Dict[str, Any]] = []
+    standard: List[Dict[str, Any]] = []
+    for m in matches:
+        stamped = dict(m)
+        stamped["category"] = get_category(m["system_id"])
+        if stamped["category"] == "domain":
+            domain.append(stamped)
+        else:
+            standard.append(stamped)
+    return domain, standard
+
+
 async def handle_classify_business(
     conn, args: Dict[str, Any],
 ) -> Dict[str, Any]:
-    """Classify free-text against taxonomy systems."""
+    """Classify free-text against taxonomy systems.
+
+    Returns results split into:
+      - domain_matches: curated WoT domain taxonomies (plain-language on-ramps)
+      - standard_matches: official standards (NAICS, ISIC, NACE, SIC, SOC, ...)
+    The legacy flat "matches" key is intentionally absent.
+    """
     from world_of_taxonomy.classify import classify_text
 
     text = args.get("text", "")
@@ -478,4 +592,46 @@ async def handle_classify_business(
         system_ids=systems,
         limit=limit,
     )
-    return result
+
+    if result.get("compound"):
+        atoms_out = []
+        for atom in result.get("atoms", []):
+            d, s = _partition_classify_matches(atom.get("matches", []))
+            atoms_out.append({
+                "phrase": atom["phrase"],
+                "domain_matches": d,
+                "standard_matches": s,
+            })
+        hero = result.get("hero")
+        hero_domain, hero_standard = _partition_classify_matches(
+            hero.get("matches", []) if hero else []
+        )
+        return {
+            "query": result["query"],
+            "compound": True,
+            "atoms": atoms_out,
+            "hero": {
+                "phrase": hero["phrase"] if hero else None,
+                "domain_matches": hero_domain,
+                "standard_matches": hero_standard,
+            } if hero else None,
+            "domain_matches": hero_domain,
+            "standard_matches": hero_standard,
+            "crosswalks": result.get("crosswalks", []),
+            "cta": result.get("cta"),
+            "disclaimer": result["disclaimer"],
+            "report_issue_url": result["report_issue_url"],
+        }
+
+    domain, standard = _partition_classify_matches(result.get("matches", []))
+    return {
+        "query": result["query"],
+        "compound": False,
+        "domain_matches": domain,
+        "standard_matches": standard,
+        "crosswalks": result.get("crosswalks", []),
+        "disclaimer": result["disclaimer"],
+        "report_issue_url": result["report_issue_url"],
+        "llm_used": result.get("llm_used", False),
+        "llm_keywords": result.get("llm_keywords", []),
+    }
