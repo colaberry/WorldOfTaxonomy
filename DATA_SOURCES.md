@@ -4,6 +4,8 @@ Attribution and licensing for all classification systems in WorldOfTaxonomy.
 
 WorldOfTaxonomy does NOT redistribute raw data files. Every ingester downloads data directly from the authoritative source at ingest time (or requires manual download where license terms prohibit automated access). The ingested structured data in the database is derived from these sources and remains under the original licenses.
 
+The canonical, always-current list of systems is `GET /api/v1/systems` (1,000+ entries today). The tables below highlight primary sources per category. `CLAUDE.md` carries a full row-per-system inventory mirrored from the database.
+
 ---
 
 ## Classification Systems
@@ -134,6 +136,18 @@ WorldOfTaxonomy does NOT redistribute raw data files. Every ingester downloads d
 | `domain_supply_chain` | Supply Chain and Trade Terms | WorldOfTaxonomy | Open |
 | `domain_workforce_safety` | Workforce Safety and Health | WorldOfTaxonomy / OSHA | Open |
 
+### Country-specific industry classifications (national adaptations)
+
+Beyond the flagship industry systems above, WorldOfTaxonomy ingests every publicly available national adaptation of ISIC Rev 4 and NACE Rev 2 (200+ systems). These are sourced from the national statistical office of each country (e.g. INEGI for Mexico's SCIAN, IBGE for Brazil's CNAE, Rosstat for Russia's OKVED-2, INE for Spain's CNAE 2009) and licensed per each office's terms (typically open data / public domain). See `GET /api/v1/systems?region={code}` for the canonical per-country list.
+
+### Regulatory, compliance, and standards systems
+
+WorldOfTaxonomy covers 200+ regulatory and standards systems including GDPR, HIPAA, SOX, FISMA, FedRAMP, OSHA 29 CFR 1910/1926, NERC CIP, PCI DSS, NIST CSF, SOC 2, HITRUST, CMMC, DORA, NIS2, EU AI Act, MiFID II, Solvency II, REACH, MDR, CSRD, Basel III/IV, FATF 40, and the full ISO management-system family (9001, 14001, 27001, 45001, 22000, etc.). Each is ingested from its authoritative source (EUR-Lex, ecfr.gov, ISO, NIST, etc.) under the applicable open or public-domain license for the structure; full clause-level text remains under the original publisher's terms.
+
+### Health and life sciences systems
+
+Beyond ATC, ICD-11, and LOINC above: ICD-10-CM, ICD-10-PCS, ICD-10-GM, ICD-10-AM, ICD-10-CA, ICD-O-3, ICF, ICPC-2, ICHI, MeSH, NCI Thesaurus, RxNorm (skeleton), NDC, DSM-5 (skeleton), SNOMED CT (skeleton), CPT (AMA skeleton), G-DRG, GBD Cause List, GMDN, WHO Essential Medicines, CDC Vaccine Schedule, CTCAE, HL7 FHIR resources, DICOM modalities. Sources: CDC, NLM, WHO, Regenstrief, AMA, DIMDI, IHTSDO/SNOMED International (skeleton only for proprietary systems), with licenses per publisher.
+
 ### Magna Compass Emerging Sector Domain Taxonomies
 
 All hand-coded by WorldOfTaxonomy, open license.
@@ -159,6 +173,21 @@ All hand-coded by WorldOfTaxonomy, open license.
 ---
 
 ## Crosswalk Edges
+
+Every row in `equivalence` carries a `provenance` column identifying where the edge came from, and every API response attaches a computed `edge_kind` (one of `standard_standard`, `standard_domain`, `domain_standard`, `domain_domain`) so clients can filter authoritative statistical concordances from generated bridges.
+
+### Provenance values
+
+| Provenance tag | Meaning | Authority |
+|----------------|---------|-----------|
+| _null or authority-named_ (e.g. `UN Statistics Division`, `Eurostat`, `US BLS`, `WITS`) | Ingested from an authoritative statistical concordance | External publisher |
+| `derived:nace_national:v1` | 1:1 structural parallel between NACE Rev 2 and a national NACE adaptation (WZ 2008, ONACE 2008, NOGA 2008, CAE Rev 3, CZ-NACE, etc.) | WorldOfTaxonomy |
+| `derived:sector_anchor:v1` | Generated bridge edge anchoring a domain taxonomy node to a NAICS 2022 node via sector-prefix rules in `domain_anchors.json` | WorldOfTaxonomy |
+| `derived:sector_anchor:v1:fanout` | Parallel edge fanned out from a `derived:sector_anchor:v1` NAICS anchor to the equivalent ISIC Rev 4 or NACE Rev 2 node | WorldOfTaxonomy |
+
+Generated bridges (`derived:sector_anchor:v1*`) are always `match_type='broad'`. Callers that want only authoritative statistical crosswalks should filter `?match_type=exact` or `?edge_kind=standard_standard`.
+
+### Authoritative concordances
 
 | Crosswalk | Approx. Edges | Source | License |
 |-----------|---------------|--------|---------|
@@ -187,6 +216,15 @@ All hand-coded by WorldOfTaxonomy, open license.
 | ISCO-08 / ISIC Rev 4 | ~500 | ILO concordance | CC BY 4.0 |
 | Nation-Sector Geographic Synergy | 98 | Hand-coded (ISO 3166-1 -> NAICS 2-digit sectors) | Open |
 | Country-System Applicability | ~310 | Hand-coded (ISO 3166-1 alpha-2 -> classification systems) | Open |
+
+### Derived crosswalks (sector-anchor generator)
+
+| Crosswalk family | Approx. Edges | Provenance | How it's generated |
+|------------------|---------------|------------|--------------------|
+| Domain taxonomy -> NAICS 2022 (sector anchors) | ~2,500 | `derived:sector_anchor:v1` | `world_of_taxonomy/ingest/crosswalk_domain_anchors.py` walks every `domain_*` node and applies per-system prefix rules from `domain_anchors.json` to emit a `broad` edge to the matching NAICS sector |
+| Domain -> ISIC Rev 4 / NACE Rev 2 (fan-out) | ~2,200 | `derived:sector_anchor:v1:fanout` | For each `derived:sector_anchor:v1` NAICS edge, the fan-out ingester emits parallel edges to the equivalent ISIC Rev 4 and NACE Rev 2 nodes using the NAICS -> ISIC concordance and NACE parallels |
+
+All 434 curated domain taxonomies are reachable from NAICS / ISIC / NACE through one of these two generated edge families. Counts fluctuate as new domain systems are added; run `GET /api/v1/equivalences/stats?group_by=edge_kind` for a live breakdown.
 
 ---
 

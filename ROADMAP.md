@@ -1,6 +1,6 @@
 # WorldOfTaxonomy - Roadmap
 
-Current state: **279 systems, 570,178 codes, 122,769 crosswalk edges, 249 countries profiled.**
+Current state: **1,000+ systems, 1,212,173+ codes, ~326,000 crosswalk edges, 249 countries profiled.**
 
 ---
 
@@ -17,7 +17,7 @@ Current state: **279 systems, 570,178 codes, 122,769 crosswalk edges, 249 countr
 
 - [ ] **Production DB ingestion**
   Run `ingest all` against the production database so the hosted API
-  and world map reflect all 279 systems.
+  and world map reflect all 1,000+ systems.
 
 - [ ] **Docker image on Docker Hub / GitHub Container Registry**
   `docker pull ghcr.io/colaberry/worldoftaxonomy:latest`
@@ -71,18 +71,19 @@ Current state: **279 systems, 570,178 codes, 122,769 crosswalk edges, 249 countr
 
 ## Previously completed
 
+- [x] **Domain crosswalk integration (sector-anchor bridges + edge_kind labeling)**
+  Bridged all 434 curated domain taxonomies to NAICS 2022 via sector-anchor
+  rules, plus ISIC Rev 4 / NACE Rev 2 fan-out for each sector-anchored edge.
+  Added `edge_kind` (one of `standard_standard`, `standard_domain`,
+  `domain_standard`, `domain_domain`) computed on read for every equivalence
+  response, an `?edge_kind=` filter on equivalence/translation endpoints,
+  a `group_by=edge_kind` option on `/equivalences/stats`, and a new MCP tool
+  `list_crosswalks_by_kind` (24 tools total). Provenance tags:
+  `derived:sector_anchor:v1` and `derived:sector_anchor:v1:fanout`.
+
+---
+
 ## Immediate - next 1-2 sessions
-
-- [ ] **API key dashboard (frontend UI)**
-  Backend is fully built. Users can sign in but cannot create or revoke
-  API keys from the site. Without this the lead gen loop is broken.
-  Pages needed: key list, create key, revoke key.
-
-- [ ] **Production DB ingestion**
-  Production database has only 12 of 88 systems loaded. Run `ingest all`
-  (~30-40 min) to load all remaining systems, crosswalks, and domain
-  taxonomies. World map, search, and MCP tools all become dramatically
-  more useful. See `PLAN.md` for the exact command.
 
 - [ ] **Email capture for taxonomy updates**
   A small "Get notified when new systems are added" form in the footer

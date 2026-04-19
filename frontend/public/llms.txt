@@ -17,6 +17,7 @@ Full LLM reference: https://worldoftaxonomy.com/llms-full.txt
 - [Trade and Product Classification Guide](https://worldoftaxonomy.com/guide/trade-codes)
 - [Occupation Classification Systems Compared](https://worldoftaxonomy.com/guide/occupation-systems)
 - [Categories and Sectors - How Systems Are Organized](https://worldoftaxonomy.com/guide/categories-and-sectors)
+- [Domain Taxonomies vs Official Standards](https://worldoftaxonomy.com/guide/domain-vs-standard)
 - [Data Quality and Provenance](https://worldoftaxonomy.com/guide/data-quality)
 - [System Architecture and Data Flows](https://worldoftaxonomy.com/guide/architecture)
 

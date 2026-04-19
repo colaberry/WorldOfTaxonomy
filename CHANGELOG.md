@@ -43,6 +43,16 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+**Domain crosswalk integration (sector-anchor bridges + edge_kind labeling):**
+- Bridged 419 deep-domain taxonomies to NAICS 2022 via sector-anchor rules in `domain_anchors.json`
+- ISIC Rev 4 / NACE Rev 2 fan-out for every sector-anchored domain edge (automatic parallels)
+- `edge_kind` field on every equivalence response, computed on read as one of `standard_standard`, `standard_domain`, `domain_standard`, `domain_domain`
+- `?edge_kind=` filter (comma-separated) on equivalence and translation endpoints
+- `group_by=edge_kind` option on `GET /api/v1/equivalences/stats`
+- New MCP tool: `list_crosswalks_by_kind(edge_kind, system_id?)` returning counts + samples for one of the four kinds (24 tools total, up from 23)
+- New provenance tags: `derived:sector_anchor:v1` and `derived:sector_anchor:v1:fanout`
+- Total equivalence edges: ~326,000 (up from 321,937)
+
 **World Map visualization (home page):**
 - Interactive D3 `geoNaturalEarth1` choropleth world map as the top section of the home page
 - Color-coded by taxonomy coverage depth: green = official national standard, blue = regional/UN coverage, grey = UN recommended only

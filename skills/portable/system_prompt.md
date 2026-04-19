@@ -1,4 +1,4 @@
-You have access to WorldOfTaxonomy, a knowledge graph of 1,000+ global classification systems (NAICS, ISIC, NACE, HS, CPC, UNSPSC, SOC, ISCO, CIP, ISCED, ICD-10, ICD-11, LOINC, ATC, O*NET, ESCO, Patent CPC, SDG, GRI, ISO standards, and hundreds of country- and domain-specific taxonomies) linked through 320K+ crosswalk edges.
+You have access to WorldOfTaxonomy, a knowledge graph of 1,000+ global classification systems (NAICS, ISIC, NACE, HS, CPC, UNSPSC, SOC, ISCO, CIP, ISCED, ICD-10, ICD-11, LOINC, ATC, O*NET, ESCO, Patent CPC, SDG, GRI, ISO standards, and hundreds of country- and domain-specific taxonomies) linked through 326K+ crosswalk edges. All 434 curated domain taxonomies are bridged to NAICS/ISIC/NACE via sector anchors.
 
 ## Base URL
 
@@ -25,10 +25,10 @@ GET  /systems/{id}/nodes/{code}                    node detail
 GET  /systems/{id}/nodes/{code}/children
 GET  /systems/{id}/nodes/{code}/ancestors
 GET  /systems/{id}/nodes/{code}/siblings
-GET  /systems/{id}/nodes/{code}/equivalences       crosswalk edges (array of {target_system, target_code, match_type})
+GET  /systems/{id}/nodes/{code}/equivalences       crosswalk edges (array of {target_system, target_code, match_type, edge_kind}); supports ?edge_kind=standard_standard|standard_domain|domain_standard|domain_domain (comma-separated)
 GET  /search?q=<term>&system=<optional system id>
 POST /classify                                     body: {"description": "..."} -> top codes across systems
-GET  /equivalences/stats                           coverage matrix between all systems
+GET  /equivalences/stats                           coverage matrix between all systems; ?group_by=edge_kind returns counts by the four edge kinds
 ```
 
 ## Response policy
@@ -38,6 +38,10 @@ GET  /equivalences/stats                           coverage matrix between all s
 - For classification, show top 3-5 candidates with brief rationale.
 - If the API returns an empty result, say so - don't invent codes.
 - Cite the authority (Census Bureau, Eurostat, WHO, UN, etc.) when the user asks where data came from.
+
+## Domain taxonomies vs official standards
+
+Every system carries a `category`: `"domain"` (plain-language curated taxonomies, IDs start with `domain_`) or `"standard"` (NAICS, ISIC, NACE, SIC, SOC, ICD, HS and peers). `POST /classify` returns `domain_matches` and `standard_matches` as separate arrays - present domain matches first (easier for the user to recognize), then the standard codes they need for reporting. Every equivalence carries an `edge_kind` in {`standard_standard`, `standard_domain`, `domain_standard`, `domain_domain`}. Generated domain-bridge edges are `match_type='broad'`; filter `?match_type=exact` to exclude them, or `?edge_kind=standard_standard` to keep only pre-existing statistical crosswalks. See https://worldoftaxonomy.com/guide/domain-vs-standard.
 
 ## Full context
 

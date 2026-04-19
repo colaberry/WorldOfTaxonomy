@@ -77,7 +77,7 @@ for ROLE in secretmanager.secretAccessor cloudsql.client; do
 done
 
 # 7. Cloud Build GitHub trigger
-# NOTE: first-time only — connect the Cloud Build GitHub App to
+# NOTE: first-time only - connect the Cloud Build GitHub App to
 # colaberry/WorldOfTaxonomy via https://console.cloud.google.com/cloud-build/triggers
 # then run:
 gcloud builds triggers create github \
@@ -170,8 +170,8 @@ If the $5/mo target is hard, migrate DB to **Neon free tier** (0.5 GB Postgres):
 
 ## Architecture notes
 
-- **Database connection:** backend reaches Cloud SQL over a Unix socket mounted at `/cloudsql/$PROJECT:$REGION:wot-db` — enabled by the `--add-cloudsql-instances` flag. No VPC connector, no public IP.
-- **Schema init:** `Dockerfile.backend` runs `python3 -m world_of_taxonomy init` on every container start. This must remain idempotent — each cold start retries it.
-- **Data ingestion:** ingest jobs are **not** part of Cloud Run. Run locally (or via a one-off Cloud Run Job) pointing at the same Cloud SQL instance — e.g. `DATABASE_URL=... python3 -m world_of_taxonomy ingest <system>`.
+- **Database connection:** backend reaches Cloud SQL over a Unix socket mounted at `/cloudsql/$PROJECT:$REGION:wot-db` - enabled by the `--add-cloudsql-instances` flag. No VPC connector, no public IP.
+- **Schema init:** `Dockerfile.backend` runs `python3 -m world_of_taxonomy init` on every container start. This must remain idempotent - each cold start retries it.
+- **Data ingestion:** ingest jobs are **not** part of Cloud Run. Run locally (or via a one-off Cloud Run Job) pointing at the same Cloud SQL instance - e.g. `DATABASE_URL=... python3 -m world_of_taxonomy ingest <system>`.
 - **Frontend build context:** `cloudbuild.yaml` builds the frontend from the **repo root** (not `frontend/`), because `frontend/package.json`'s `prebuild` script copies sibling `wiki/`, `blog/`, and `crosswalk-data/` into `src/content` before `next build`. The production image is `frontend/Dockerfile.prod`; `frontend/Dockerfile` is unchanged and remains the local `docker-compose` dev image.
 - **Frontend → backend routing:** `next.config.ts` rewrites `/api/*` to `$BACKEND_URL/api/*`. The deploy step looks up `wot-api`'s Cloud Run URL and injects it as `BACKEND_URL`.

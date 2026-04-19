@@ -12,7 +12,7 @@ fastapi>=0.110.0
 uvicorn[standard]>=0.29.0
 
 # Phase 3: MCP Server
-# No external dependency — protocol implemented directly (Python 3.9 compatible)
+# No external dependency - protocol implemented directly (Python 3.9 compatible)
 
 # Phase 4: Web Frontend
 jinja2>=3.1.0
@@ -23,8 +23,10 @@ PyJWT>=2.8.0
 slowapi>=0.1.9
 httpx>=0.27.0
 
-# Phase 6: AI Taxonomy Generation
-anthropic>=0.40.0
+# Phase 6: AI Taxonomy Generation and classify fallback
+# All LLM calls go through world_of_taxonomy.llm_client against Ollama Cloud
+# (OpenAI-compatible endpoint at https://ollama.com/v1). No vendor SDK needed;
+# httpx (installed above) is the only runtime dependency.
 
 # Phase 7: Observability (optional - only active when SENTRY_DSN is set)
 sentry-sdk[fastapi]>=2.0.0
