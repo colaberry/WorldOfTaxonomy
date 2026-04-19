@@ -98,12 +98,26 @@ export function SystemDetail({ id, initialSystem, initialStats, initialSystems, 
         >
           <ArrowLeft className="h-5 w-5" />
         </Link>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
           <span
             className="w-3 h-3 rounded-full shrink-0"
             style={{ backgroundColor: system.tint_color || '#3B82F6' }}
           />
           <h1 className="text-2xl font-semibold tracking-tight">{system.name}</h1>
+          <span
+            className={`inline-flex items-center gap-1 text-[11px] font-medium uppercase tracking-wide px-2 py-0.5 rounded-full border ${
+              system.category === 'domain'
+                ? 'bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/30'
+                : 'bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/30'
+            }`}
+            title={
+              system.category === 'domain'
+                ? 'Domain taxonomy: a plain-language on-ramp curated by WorldOfTaxonomy.'
+                : 'Official standard: published by a government, intergovernmental body, or standards authority.'
+            }
+          >
+            {system.category === 'domain' ? 'Domain taxonomy' : 'Official standard'}
+          </span>
         </div>
       </div>
 

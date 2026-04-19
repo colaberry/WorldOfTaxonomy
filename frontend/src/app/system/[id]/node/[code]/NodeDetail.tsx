@@ -6,11 +6,84 @@ import { useQuery } from '@tanstack/react-query'
 import { ChevronRight, Copy, Leaf, AlertTriangle } from 'lucide-react'
 import { getNode, getChildren, getAncestors, getEquivalences, getSystems } from '@/lib/api'
 import { getSectorColor, getSystemColor } from '@/lib/colors'
+import { isDomainSystem } from '@/lib/category'
 import { NodeTree } from '@/components/NodeTree'
 import type { ClassificationNode, Equivalence, ClassificationSystem } from '@/lib/types'
 import { ExternalLink, ShieldCheck } from 'lucide-react'
 
 const GITHUB_REPO = 'https://github.com/colaberry/WorldOfTaxonomy'
+
+function EquivGroupSection({
+  heading,
+  caption,
+  groups,
+  systems,
+}: {
+  heading?: string
+  caption?: string
+  groups: Array<[string, Equivalence[]]>
+  systems: ClassificationSystem[] | undefined
+}) {
+  return (
+    <div className="space-y-3">
+      {heading && (
+        <div className="flex items-baseline justify-between gap-3">
+          <h3 className="text-xs font-semibold">{heading}</h3>
+          {caption && (
+            <span className="text-[11px] text-muted-foreground">{caption}</span>
+          )}
+        </div>
+      )}
+      <div className="space-y-4">
+        {groups.map(([sysId, edges]) => {
+          const sysColor = getSystemColor(sysId)
+          const sysName = systems?.find((s) => s.id === sysId)?.name ?? sysId
+          return (
+            <div key={sysId}>
+              <div className="flex items-center gap-2 mb-1">
+                <span
+                  className="w-2 h-2 rounded-full shrink-0"
+                  style={{ backgroundColor: sysColor }}
+                />
+                <span className="text-xs font-medium">{sysName}</span>
+              </div>
+              <div className="space-y-0.5">
+                {edges.map((e) => (
+                  <Link
+                    key={`${e.target_system}-${e.target_code}`}
+                    href={`/system/${e.target_system}/node/${encodeURIComponent(e.target_code)}`}
+                    className="flex items-baseline gap-3 px-3 py-2 rounded-lg hover:bg-card border border-transparent hover:border-border/50 transition-all group"
+                  >
+                    <span
+                      className="font-mono text-xs shrink-0 w-16 opacity-70 group-hover:opacity-100 transition-opacity"
+                      style={{ color: sysColor }}
+                    >
+                      {e.target_code}
+                    </span>
+                    <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors truncate">
+                      {e.target_title}
+                    </span>
+                    <span
+                      className={`ml-auto text-xs px-1.5 py-0.5 rounded shrink-0 ${
+                        e.match_type === 'exact'
+                          ? 'bg-emerald-500/10 text-emerald-400'
+                          : e.match_type === 'partial'
+                            ? 'bg-amber-500/10 text-amber-400'
+                            : 'bg-blue-500/10 text-blue-400'
+                      }`}
+                    >
+                      {e.match_type}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
 
 function titleClass(level: number): string {
   if (level <= 1) return 'font-serif text-2xl sm:text-3xl tracking-tight'
@@ -107,7 +180,12 @@ export function NodeDetail({
     {}
   )
 
-  const hasEquivalences = Object.keys(equivBySystem).length > 0
+  const equivGroups = Object.entries(equivBySystem)
+  const domainEquivGroups = equivGroups.filter(([sysId]) => isDomainSystem(sysId))
+  const standardEquivGroups = equivGroups.filter(([sysId]) => !isDomainSystem(sysId))
+  const showSplit = domainEquivGroups.length > 0 && standardEquivGroups.length > 0
+
+  const hasEquivalences = equivGroups.length > 0
   const hasChildren = !node.is_leaf && children && children.length > 0
 
   const issueUrl = `${GITHUB_REPO}/issues/new?template=data_issue.yml&title=${encodeURIComponent(`[Data] ${systemName} ${nodeCode}`)}&labels=data-issue`
@@ -253,53 +331,27 @@ export function NodeDetail({
           </h2>
 
           {hasEquivalences ? (
-            <div className="space-y-4">
-              {Object.entries(equivBySystem).map(([sysId, edges]) => {
-                const sysColor = getSystemColor(sysId)
-                const sysName = systems?.find((s) => s.id === sysId)?.name ?? sysId
-                return (
-                  <div key={sysId}>
-                    <div className="flex items-center gap-2 mb-1">
-                      <span
-                        className="w-2 h-2 rounded-full shrink-0"
-                        style={{ backgroundColor: sysColor }}
-                      />
-                      <span className="text-xs font-medium">{sysName}</span>
-                    </div>
-                    <div className="space-y-0.5">
-                      {edges.map((e) => (
-                        <Link
-                          key={`${e.target_system}-${e.target_code}`}
-                          href={`/system/${e.target_system}/node/${encodeURIComponent(e.target_code)}`}
-                          className="flex items-baseline gap-3 px-3 py-2 rounded-lg hover:bg-card border border-transparent hover:border-border/50 transition-all group"
-                        >
-                          <span
-                            className="font-mono text-xs shrink-0 w-16 opacity-70 group-hover:opacity-100 transition-opacity"
-                            style={{ color: sysColor }}
-                          >
-                            {e.target_code}
-                          </span>
-                          <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors truncate">
-                            {e.target_title}
-                          </span>
-                          <span
-                            className={`ml-auto text-xs px-1.5 py-0.5 rounded shrink-0 ${
-                              e.match_type === 'exact'
-                                ? 'bg-emerald-500/10 text-emerald-400'
-                                : e.match_type === 'partial'
-                                  ? 'bg-amber-500/10 text-amber-400'
-                                  : 'bg-blue-500/10 text-blue-400'
-                            }`}
-                          >
-                            {e.match_type}
-                          </span>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
+            showSplit ? (
+              <div className="space-y-6">
+                <EquivGroupSection
+                  heading="Domain taxonomies"
+                  caption="Plain-language peers"
+                  groups={domainEquivGroups}
+                  systems={systems}
+                />
+                <EquivGroupSection
+                  heading="Official standards"
+                  caption="Government and standards bodies"
+                  groups={standardEquivGroups}
+                  systems={systems}
+                />
+              </div>
+            ) : (
+              <EquivGroupSection
+                groups={equivGroups}
+                systems={systems}
+              />
+            )
           ) : (
             <div className="px-3 py-4 rounded-lg border border-border/50 bg-card/50">
               <p className="text-sm text-muted-foreground">

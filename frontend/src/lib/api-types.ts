@@ -153,7 +153,7 @@ export interface paths {
         };
         /**
          * List Systems
-         * @description List all classification systems, optionally filtered by country or grouped.
+         * @description List all classification systems, optionally filtered by country, category, or grouped.
          */
         get: operations["list_systems_api_v1_systems_get"];
         put?: never;
@@ -473,6 +473,10 @@ export interface paths {
         /**
          * Login
          * @description Login with email and password.
+         *
+         *     Failed attempts are tracked in a sliding window keyed by source IP
+         *     and target email; repeated failures return 429 to blunt credential
+         *     stuffing. Successful logins clear the counters for that IP+email.
          */
         post: operations["login_api_v1_auth_login_post"];
         delete?: never;
@@ -682,6 +686,29 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/classify/demo": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Classify Demo
+         * @description Public classify endpoint gated by email only.
+         *
+         *     Returns a limited result set (5 systems, 3 results each). Records
+         *     the email as a lead.
+         */
+        post: operations["classify_demo_api_v1_classify_demo_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/contact": {
         parameters: {
             query?: never;
@@ -831,6 +858,30 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/version": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Version
+         * @description Return the app version, git SHA, and build time.
+         *
+         *     Lets operators verify which image is actually running behind a
+         *     load balancer. Values are read from env (APP_VERSION, GIT_SHA,
+         *     BUILD_TIME) injected at container build time.
+         */
+        get: operations["version_api_v1_version_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/robots.txt": {
         parameters: {
             query?: never;
@@ -931,6 +982,70 @@ export interface components {
             /** Skeleton Systems */
             skeleton_systems: components["schemas"]["SystemResponse"][];
         };
+        /** ClassifyDemoRequest */
+        ClassifyDemoRequest: {
+            /**
+             * Email
+             * @description Lead email for follow-up
+             */
+            email: string;
+            /**
+             * Text
+             * @description Business/product/occupation description
+             */
+            text: string;
+        };
+        /** ClassifyDemoResponse */
+        ClassifyDemoResponse: {
+            /** Query */
+            query: string;
+            /**
+             * Domain Matches
+             * @description Matches from curated WoT Domain taxonomies (system_id starts 'domain_').
+             */
+            domain_matches?: unknown[];
+            /**
+             * Standard Matches
+             * @description Matches from official standard systems (NAICS, ISIC, NACE, SIC, SOC, ...).
+             */
+            standard_matches?: unknown[];
+            /** Disclaimer */
+            disclaimer: string;
+            /** Report Issue Url */
+            report_issue_url: string;
+            /**
+             * Demo
+             * @default true
+             */
+            demo: boolean;
+            /** Upgrade Cta */
+            upgrade_cta: string;
+            /**
+             * Compound
+             * @default false
+             */
+            compound: boolean;
+            /** Atoms */
+            atoms?: unknown[] | null;
+            /** Hero */
+            hero?: {
+                [key: string]: unknown;
+            } | null;
+            /** Cta */
+            cta?: {
+                [key: string]: unknown;
+            } | null;
+            /**
+             * Llm Used
+             * @default false
+             */
+            llm_used: boolean;
+            /**
+             * Llm Keywords
+             * @default []
+             */
+            llm_keywords: unknown[];
+        };
         /** ClassifyRequest */
         ClassifyRequest: {
             /**
@@ -954,8 +1069,16 @@ export interface components {
         ClassifyResponse: {
             /** Query */
             query: string;
-            /** Matches */
-            matches: components["schemas"]["ClassifySystemMatch"][];
+            /**
+             * Domain Matches
+             * @description Matches from curated WoT Domain taxonomies (plain-language, concrete).
+             */
+            domain_matches?: components["schemas"]["ClassifySystemMatch"][];
+            /**
+             * Standard Matches
+             * @description Matches from official standard systems (NAICS, ISIC, NACE, SIC, SOC, ...).
+             */
+            standard_matches?: components["schemas"]["ClassifySystemMatch"][];
             /** Crosswalks */
             crosswalks: components["schemas"]["CrosswalkEdge"][];
             /** Disclaimer */
@@ -980,6 +1103,11 @@ export interface components {
             system_id: string;
             /** System Name */
             system_name: string;
+            /**
+             * Category
+             * @description 'domain' for curated WoT taxonomies (system_id starts 'domain_'), 'standard' otherwise.
+             */
+            category: string;
             /** Results */
             results: components["schemas"]["ClassifyResult"][];
         };
@@ -1161,6 +1289,8 @@ export interface components {
             title: string;
             /** Description */
             description?: string | null;
+            /** Reason */
+            reason?: string | null;
         };
         /** HTTPValidationError */
         HTTPValidationError: {
@@ -1205,6 +1335,12 @@ export interface components {
              * @default 0
              */
             seq_order: number;
+            /**
+             * Category
+             * @description 'domain' if system_id starts 'domain_', else 'standard'.
+             * @default standard
+             */
+            category: string;
             /** Data Provenance */
             data_provenance?: string | null;
             /** License */
@@ -1283,6 +1419,12 @@ export interface components {
             /** Source File Hash */
             source_file_hash?: string | null;
             /**
+             * Category
+             * @description 'domain' for curated WoT Domain taxonomies (id starts 'domain_'), 'standard' otherwise.
+             * @default standard
+             */
+            category: string;
+            /**
              * Roots
              * @default []
              */
@@ -1330,6 +1472,12 @@ export interface components {
             license?: string | null;
             /** Source File Hash */
             source_file_hash?: string | null;
+            /**
+             * Category
+             * @description 'domain' for curated WoT Domain taxonomies (id starts 'domain_'), 'standard' otherwise.
+             * @default standard
+             */
+            category: string;
         };
         /** TokenResponse */
         TokenResponse: {
@@ -1629,6 +1777,8 @@ export interface operations {
                 group_by?: string | null;
                 /** @description Filter by ISO 3166-1 alpha-2 country code (e.g. DE, PK, MX) */
                 country?: string | null;
+                /** @description Filter by category: 'domain' for curated Domain taxonomies, 'standard' for official standards (NAICS, ISIC, ...), omit for all. */
+                category?: string | null;
             };
             header?: never;
             path?: never;
@@ -1896,6 +2046,8 @@ export interface operations {
                 system_id?: string | null;
                 /** @description Filter by system ID (alias) */
                 system?: string | null;
+                /** @description Filter by category: 'domain' or 'standard'. Omit for both. */
+                category?: string | null;
                 /** @description Max results */
                 limit?: number;
                 /** @description Return results grouped by system */
@@ -2435,6 +2587,39 @@ export interface operations {
             };
         };
     };
+    classify_demo_api_v1_classify_demo_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ClassifyDemoRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ClassifyDemoResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     submit_contact_api_v1_contact_post: {
         parameters: {
             query?: never;
@@ -2591,6 +2776,26 @@ export interface operations {
         };
     };
     healthz_api_v1_healthz_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": unknown;
+                };
+            };
+        };
+    };
+    version_api_v1_version_get: {
         parameters: {
             query?: never;
             header?: never;

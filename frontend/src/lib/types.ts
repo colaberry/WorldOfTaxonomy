@@ -1,3 +1,5 @@
+export type TaxonomyCategory = 'domain' | 'standard'
+
 export interface ClassificationSystem {
   id: string
   name: string
@@ -13,6 +15,7 @@ export interface ClassificationSystem {
   data_provenance: 'official_download' | 'structural_derivation' | 'manual_transcription' | 'expert_curated' | null
   license: string | null
   source_file_hash: string | null
+  category: TaxonomyCategory
 }
 
 export interface SystemDetail extends ClassificationSystem {
@@ -30,6 +33,7 @@ export interface ClassificationNode {
   sector_code: string | null
   is_leaf: boolean
   seq_order: number
+  category: TaxonomyCategory
   // Provenance fields (from parent classification_system)
   data_provenance: 'official_download' | 'structural_derivation' | 'manual_transcription' | 'expert_curated' | null
   license: string | null
@@ -42,6 +46,12 @@ export interface ClassificationNodeWithContext extends ClassificationNode {
   ancestors?: ClassificationNode[]
 }
 
+export type EdgeKind =
+  | 'standard_standard'
+  | 'standard_domain'
+  | 'domain_standard'
+  | 'domain_domain'
+
 export interface Equivalence {
   source_system: string
   source_code: string
@@ -51,6 +61,9 @@ export interface Equivalence {
   notes: string | null
   source_title: string | null
   target_title: string | null
+  source_category: TaxonomyCategory
+  target_category: TaxonomyCategory
+  edge_kind: EdgeKind
 }
 
 export interface CrosswalkStat {
@@ -126,6 +139,7 @@ export interface GeneratedNode {
   code: string
   title: string
   description: string | null
+  reason?: string | null
 }
 
 export interface GenerateTaxonomyResponse {

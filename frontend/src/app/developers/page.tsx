@@ -284,7 +284,7 @@ cd frontend && npm install && npm run dev`}
             ))}
           </div>
           <Link
-            href="/crosswalk-explorer"
+            href="/crosswalks"
             className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline"
           >
             Open Crosswalk Explorer <ArrowRight className="h-3.5 w-3.5" />
