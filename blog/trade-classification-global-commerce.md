@@ -94,7 +94,7 @@ HTS (US) -> HS 2022 -> CN (EU) -> TARIC (EU with trade measures)
 ## Search across all trade systems
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/search?q=lithium+battery&grouped=true"
+curl "https://wot.aixcelerator.ai/api/v1/search?q=lithium+battery&grouped=true"
 ```
 
 Returns matching codes across HS, UNSPSC, Schedule B, HTS, ECCN, and other systems in one response.
@@ -102,13 +102,13 @@ Returns matching codes across HS, UNSPSC, Schedule B, HTS, ECCN, and other syste
 ## Translate between systems
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems/hs_2022/nodes/8507.60/translations"
+curl "https://wot.aixcelerator.ai/api/v1/systems/hs_2022/nodes/8507.60/translations"
 ```
 
 ## Find gaps in coverage
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/diff?a=hs_2022&b=unspsc_v24"
+curl "https://wot.aixcelerator.ai/api/v1/diff?a=hs_2022&b=unspsc_v24"
 ```
 
 ## Compliance use cases

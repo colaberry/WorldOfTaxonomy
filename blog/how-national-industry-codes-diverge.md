@@ -119,10 +119,10 @@ A simple code-to-code lookup is not enough. You need to know:
 
 ```bash
 # Compare NAICS and ISIC at root level
-curl "https://wot.aixcelerator.app/api/v1/compare?a=naics_2022&b=isic_rev4"
+curl "https://wot.aixcelerator.ai/api/v1/compare?a=naics_2022&b=isic_rev4"
 
 # Find NAICS codes with no ISIC equivalent
-curl "https://wot.aixcelerator.app/api/v1/diff?a=naics_2022&b=isic_rev4"
+curl "https://wot.aixcelerator.ai/api/v1/diff?a=naics_2022&b=isic_rev4"
 ```
 
 Or use the crosswalk explorer visualization to see the connection density between any two systems in the graph.

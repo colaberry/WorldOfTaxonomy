@@ -50,7 +50,7 @@ Plus dozens of domain systems covering nursing, lab testing, imaging, pathology,
 ## One search, all systems
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/search?q=diabetes&grouped=true"
+curl "https://wot.aixcelerator.ai/api/v1/search?q=diabetes&grouped=true"
 ```
 
 Results come back grouped by system:
@@ -71,7 +71,7 @@ One query. Five systems. Structured results with codes, titles, and hierarchy co
 ICD-10-CM codes can be 7 characters deep. The ancestors endpoint walks the full path:
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems/icd10cm/nodes/E11.65/ancestors"
+curl "https://wot.aixcelerator.ai/api/v1/systems/icd10cm/nodes/E11.65/ancestors"
 ```
 
 ```mermaid
@@ -90,7 +90,7 @@ Every level of clinical grouping from the specific code up to the chapter - in o
 A hospital's billing department works in ICD-10-CM. The research team uses MeSH. Quality reporting needs ICD-11.
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems/icd10cm/nodes/E11/equivalences"
+curl "https://wot.aixcelerator.ai/api/v1/systems/icd10cm/nodes/E11/equivalences"
 ```
 
 Returns crosswalk edges to ICD-11, MeSH, NCI Thesaurus, and other systems - with match types indicating the precision of each mapping.

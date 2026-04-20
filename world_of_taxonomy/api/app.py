@@ -291,7 +291,7 @@ def create_app() -> FastAPI:
         ]
     else:
         openapi_servers = [
-            {"url": "https://wot.aixcelerator.app", "description": "Production"},
+            {"url": "https://wot.aixcelerator.ai", "description": "Production"},
             {"url": "http://localhost:8000", "description": "Local development"},
         ]
 

@@ -21,7 +21,7 @@ fly logs -a wot-api | grep -E 'JWTError|InvalidTokenError|401|403' | tail -50
 
 # Hit a protected route with a known-good key
 curl -H "Authorization: Bearer $WOT_TEST_KEY" \
-     https://wot.aixcelerator.app/api/v1/auth/me
+     https://wot.aixcelerator.ai/api/v1/auth/me
 ```
 
 ## Diagnosis

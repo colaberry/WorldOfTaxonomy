@@ -50,10 +50,10 @@ graph LR
 
 ```bash
 # Translate NAICS 4841 to all equivalent systems
-curl "https://wot.aixcelerator.app/api/v1/systems/naics_2022/nodes/4841/translations"
+curl "https://wot.aixcelerator.ai/api/v1/systems/naics_2022/nodes/4841/translations"
 
 # Search "hospital" across all 1,000 systems
-curl "https://wot.aixcelerator.app/api/v1/search?q=hospital&grouped=true"
+curl "https://wot.aixcelerator.ai/api/v1/search?q=hospital&grouped=true"
 ```
 
 **The MCP server** gives AI agents structured tool access - 25 tools for search, translation, hierarchy navigation, and system comparison. Works with Claude, Cursor, VS Code, Windsurf, and any MCP-compatible client.
@@ -86,4 +86,4 @@ We are finalizing hosted plans so you can use the API and MCP server without sel
 
 - **GitHub**: [colaberry/WorldOfTaxonomy](https://github.com/colaberry/WorldOfTaxonomy)
 - **Web**: [worldoftaxonomy.com](https://worldoftaxonomy.com)
-- **API docs**: [wot.aixcelerator.app/docs](https://wot.aixcelerator.app/docs)
+- **API docs**: [wot.aixcelerator.ai/docs](https://wot.aixcelerator.ai/docs)

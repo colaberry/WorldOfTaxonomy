@@ -16,7 +16,7 @@
 
 ```bash
 # Is the API reachable at all?
-curl -s -o /dev/null -w "%{http_code}\n" https://wot.aixcelerator.app/api/v1/healthz
+curl -s -o /dev/null -w "%{http_code}\n" https://wot.aixcelerator.ai/api/v1/healthz
 
 # Can we reach the database directly from the backend host?
 fly ssh console -a wot-api -C 'python3 -c "import os; import asyncio; import asyncpg; \
