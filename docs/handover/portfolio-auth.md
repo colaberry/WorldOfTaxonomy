@@ -1,5 +1,13 @@
 # Portfolio Auth Architecture
 
+> **Status: proposed architecture, not yet implemented.** Zitadel Cloud
+> has been chosen as the authentication IdP and Permit.io has been
+> chosen as the authorization engine, but neither is provisioned or
+> integrated yet. WoT today still uses local bcrypt passwords plus
+> HS256 JWTs (see `world_of_taxonomy/api/deps.py`). When the migration
+> lands, this doc becomes current-state; until then, treat it as the
+> roadmap.
+
 This doc lives in the WorldOfTaxonomy repo because WoT is the first
 product to need the integration, but the design is portfolio-wide. It
 applies to every product under `aiaccelerator.ai`:

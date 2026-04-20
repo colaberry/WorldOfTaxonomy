@@ -138,12 +138,14 @@ Schema evolution uses Alembic (psycopg v3 driver) under [migrations/](../../migr
 [world_of_taxonomy/mcp/server.py](../../world_of_taxonomy/mcp/server.py) runs a stdio JSON-RPC loop: newline-delimited JSON in, newline-delimited JSON out. Errors go to stderr so host loggers can separate them.
 
 [world_of_taxonomy/mcp/protocol.py](../../world_of_taxonomy/mcp/protocol.py) builds the `initialize` response:
-- `tools` array: JSON Schemas for all 23 tools (navigation, search, crosswalk translation, stats, geography, classification).
+- `tools` array: JSON Schemas for all 25 tools (navigation, search, crosswalk translation, stats, geography, classification).
 - `instructions`: output of `build_wiki_context()` from [world_of_taxonomy/wiki.py](../../world_of_taxonomy/wiki.py) - concatenates the priority wiki slugs (`getting-started`, `systems-catalog`, `crosswalk-map`, `industry-classification`, `categories-and-sectors`) capped at ~10-15K tokens.
 
 [world_of_taxonomy/mcp/handlers.py](../../world_of_taxonomy/mcp/handlers.py) delegates each tool call to the same query functions the REST API uses (`query.browse`, `query.search`, `query.equivalence`, `query.provenance`), then decorates the response with provenance metadata (authority, license, source URL) from `get_system_provenance_map()`.
 
-Tools include: `list_systems`, `get_industry`, `browse_children`, `get_ancestors`, `get_siblings`, `search_classifications`, `resolve_ambiguous_code`, `get_equivalences`, `translate_code`, `translate_across_all_systems`, `compare_sector`, `get_system_diff`, `get_sector_overview`, `get_crosswalk_coverage`, `get_leaf_count`, `get_subtree_summary`, `get_audit_report`, `get_region_mapping`, `get_country_taxonomy_profile`, `classify_business`.
+Tools include: `list_classification_systems`, `get_industry`, `browse_children`, `get_ancestors`, `get_siblings`, `search_classifications`, `resolve_ambiguous_code`, `find_by_keyword_all_systems`, `get_equivalences`, `translate_code`, `translate_across_all_systems`, `compare_sector`, `get_system_diff`, `get_sector_overview`, `get_crosswalk_coverage`, `list_crosswalks_by_kind`, `describe_match_types`, `explore_industry_tree`, `get_leaf_count`, `get_subtree_summary`, `get_audit_report`, `get_region_mapping`, `get_country_taxonomy_profile`, `get_country_scope`, `classify_business`.
+
+Equivalences returned by `get_equivalences`, `translate_code`, `translate_across_all_systems`, and `list_crosswalks_by_kind` carry an `edge_kind` label (`standard_standard`, `standard_domain`, `domain_domain`) plus `source_category`/`target_category` for UI grouping; see [world_of_taxonomy/category.py](../../world_of_taxonomy/category.py) for `compute_edge_kind()`.
 
 Entry points: `python -m world_of_taxonomy mcp`, or via the wrapper script [run_mcp.sh](../../run_mcp.sh) that activates the virtualenv first.
 
@@ -151,7 +153,7 @@ Entry points: `python -m world_of_taxonomy mcp`, or via the wrapper script [run_
 
 ## Ingest pipeline
 
-~864 files in [world_of_taxonomy/ingest/](../../world_of_taxonomy/ingest/). One module per system plus:
+~873 files in [world_of_taxonomy/ingest/](../../world_of_taxonomy/ingest/). One module per system plus:
 
 - [ingest/base.py](../../world_of_taxonomy/ingest/base.py) - `ensure_data_file(url, local_path)` and `ensure_data_file_zip(url, local_path, member)`. Both cache downloads on disk, set a `WorldOfTaxonomy/0.1` User-Agent, and disable SSL cert verification because a handful of government sites ship expired chains.
 - Per-system modules expose `ingest()`. Internal shape varies because every upstream source is a different kind of awful (XLS for ABS, XLSX for Eurostat, CSV for Census, HTML tables for OSHA, PDF for NIC, hand-curated Python literals for domain vocabularies).

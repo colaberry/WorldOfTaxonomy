@@ -236,7 +236,7 @@ This is the same grep CI runs. Must return `clean`.
 
 ### OAuth providers
 
-Follow [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md) for GitHub, Google, and LinkedIn redirect URIs per environment.
+Follow [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md) for GitHub, Google, and LinkedIn redirect URIs per environment. Note: this per-product OAuth wiring is a bridge; the Zitadel migration described in [portfolio-auth.md](portfolio-auth.md) will centralize identity at `auth.aixcelerator.ai` and obsolete these product-local OAuth client registrations.
 
 ---
 
@@ -244,7 +244,7 @@ Follow [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md) for GitHub, 
 
 - `GET https://<api-host>/api/v1/systems` returns JSON.
 - `GET https://<frontend-host>/llms-full.txt` returns the full wiki as plain text.
-- MCP client (Claude Desktop) connects and lists 23 tools.
+- MCP client (Claude Desktop) connects and lists 25 tools.
 - A logged-out user hits the anonymous rate cap (30/min) with rapid curls.
 - Sign up via OAuth; API key creation works from the account dashboard (when the auth frontend ships).
 
