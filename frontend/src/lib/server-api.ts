@@ -144,6 +144,17 @@ export async function serverGetCountryProfile(
   return serverFetch(`/api/v1/countries/${code.toUpperCase()}`)
 }
 
+export interface CountryListEntry {
+  code: string
+  title: string
+  system_count: number
+  has_official: boolean
+}
+
+export async function serverListCountries(): Promise<CountryListEntry[]> {
+  return serverFetch('/api/v1/countries')
+}
+
 export async function serverSearch(
   query: string,
   systemId?: string,

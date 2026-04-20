@@ -1,7 +1,11 @@
 import type { MetadataRoute } from 'next'
 import { getWikiSlugs } from '@/lib/wiki'
 import { getBlogSlugs } from '@/lib/blog'
-import { serverGetStats, serverListNodesUpToLevel } from '@/lib/server-api'
+import {
+  serverGetStats,
+  serverListCountries,
+  serverListNodesUpToLevel,
+} from '@/lib/server-api'
 import { MAJOR_SYSTEMS, MAJOR_SYSTEM_SET } from './codes/constants'
 import { QUERIES } from './codes/q/queries'
 
@@ -37,10 +41,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/crosswalks`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.95 },
     { url: `${SITE_URL}/explore`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${SITE_URL}/guide`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${SITE_URL}/pricing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${SITE_URL}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${SITE_URL}/developers`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE_URL}/api`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE_URL}/mcp`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
     ...guidePages,
     ...blogPages,
   ]
@@ -63,7 +69,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 
   try {
-    const [systemsRes, deepNodesPerSystem, stats] = await Promise.all([
+    const [systemsRes, deepNodesPerSystem, stats, countries] = await Promise.all([
       fetch(`${BACKEND_URL}/api/v1/systems`, { next: { revalidate: 3600 } }),
       Promise.all(
         MAJOR_SYSTEMS.map(async (id) => {
@@ -75,6 +81,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         }),
       ),
       serverGetStats().catch(() => []),
+      serverListCountries().catch(() => []),
     ])
     if (!systemsRes.ok) return [...staticPages, ...codesSystemHubs, ...queryPages]
 
@@ -135,6 +142,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       },
     )
 
+    const countryUrls: MetadataRoute.Sitemap = countries.map((c) => ({
+      url: `${SITE_URL}/country/${c.code.toUpperCase()}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: c.has_official ? 0.75 : 0.6,
+    }))
+
     return [
       ...staticPages,
       ...codesSystemHubs,
@@ -143,6 +157,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ...crosswalkPairUrls,
       ...crosswalkDetailUrls,
       ...systemUrls,
+      ...countryUrls,
     ]
   } catch {
     return [...staticPages, ...codesSystemHubs, ...queryPages]
