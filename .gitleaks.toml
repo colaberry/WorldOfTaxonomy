@@ -1,0 +1,10 @@
+# gitleaks configuration — extend defaults, allowlist false positives.
+[extend]
+useDefault = true
+
+# Developer API docs page intentionally shows curl examples with
+# placeholder tokens ("eyJ...", "wot_abc123..."). These trip the
+# curl-auth-header rule but are not real credentials.
+[[allowlists]]
+description = "API docs placeholder tokens in developer reference page"
+paths = ['''frontend/src/app/api/page\.tsx''']
