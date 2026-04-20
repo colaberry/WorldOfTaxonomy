@@ -188,6 +188,23 @@ export async function getCountriesStats(): Promise<CountryStat[]> {
   return fetchJson('/api/v1/countries/stats')
 }
 
+export interface CountryListEntry {
+  code: string
+  title: string
+  system_count: number
+  has_official: boolean
+}
+
+export async function getCountriesList(): Promise<CountryListEntry[]> {
+  return fetchJson('/api/v1/countries')
+}
+
+export async function getSystemsForCountry(
+  code: string
+): Promise<CountrySystem[]> {
+  return fetchJson(`/api/v1/systems?country=${encodeURIComponent(code.toUpperCase())}`)
+}
+
 export interface CountrySystem {
   id: string
   name: string
@@ -289,6 +306,7 @@ export interface ClassifyDemoMatch {
   title: string
   score: number
   level: number
+  crosswalk_count?: number
 }
 
 export interface ClassifyDemoSystemMatch {
@@ -311,6 +329,13 @@ export interface ClassifyDemoCta {
   cta_label: string
 }
 
+export interface ClassifyScopeInfo {
+  countries: string[]
+  country_specific_systems: string[]
+  global_standard_systems: string[]
+  candidate_systems: string[]
+}
+
 export interface ClassifyDemoResponse {
   query: string
   domain_matches: ClassifyDemoSystemMatch[]
@@ -325,15 +350,19 @@ export interface ClassifyDemoResponse {
   cta?: ClassifyDemoCta | null
   llm_used?: boolean
   llm_keywords?: string[]
+  scope?: ClassifyScopeInfo | null
 }
 
 export async function classifyDemo(
   email: string,
-  text: string
+  text: string,
+  countries?: string[]
 ): Promise<ClassifyDemoResponse> {
+  const body: Record<string, unknown> = { email, text }
+  if (countries && countries.length > 0) body.countries = countries
   return fetchJson('/api/v1/classify/demo', {
     method: 'POST',
-    body: JSON.stringify({ email, text }),
+    body: JSON.stringify(body),
   })
 }
 

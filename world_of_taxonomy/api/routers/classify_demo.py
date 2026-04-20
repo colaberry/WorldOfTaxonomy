@@ -24,6 +24,8 @@ from world_of_taxonomy.api.deps import get_conn
 from world_of_taxonomy.api.routers.classify import partition_matches
 from world_of_taxonomy.api.text_guard import TextGuardError, guard
 from world_of_taxonomy.classify import classify_text
+from world_of_taxonomy.scope import resolve_country_scope
+from world_of_taxonomy.system_kind import is_business_classification
 
 router = APIRouter(prefix="/api/v1", tags=["classify"])
 
@@ -47,6 +49,14 @@ class ClassifyDemoRequest(BaseModel):
         min_length=2,
         max_length=500,
         description="Business/product/occupation description",
+    )
+    countries: Optional[list[str]] = Field(
+        None,
+        description=(
+            "Optional ISO 3166-1 alpha-2 country codes. When supplied, classify "
+            "against the systems applicable to those countries (plus globally "
+            "recommended standards like ISIC Rev 4) instead of the default demo set."
+        ),
     )
 
     @field_validator("email")
@@ -77,6 +87,13 @@ class ClassifyDemoResponse(BaseModel):
     cta: Optional[dict] = None
     llm_used: bool = False
     llm_keywords: list = []
+    scope: Optional[dict] = Field(
+        None,
+        description=(
+            "Present only when `countries` was supplied. Mirrors the shape "
+            "returned by the paid /classify endpoint."
+        ),
+    )
 
 
 async def classify_demo_handler(
@@ -109,10 +126,52 @@ async def classify_demo_handler(
         referrer,
     )
 
+    scope = await resolve_country_scope(conn, body.countries)
+    effective_systems = DEMO_SYSTEMS
+    if scope is not None:
+        # Truly invalid country codes: no country-specific systems AND no
+        # globally-recommended standards link to them. Return empty.
+        if (
+            not scope["country_specific_systems"]
+            and not scope["global_standard_systems"]
+        ):
+            return {
+                "query": clean_text,
+                "domain_matches": [],
+                "standard_matches": [],
+                "disclaimer": (
+                    "No classification systems are linked to the requested countries."
+                ),
+                "report_issue_url": "https://github.com/colaberryinc/WorldOfTaxonomy/issues",
+                "demo": True,
+                "upgrade_cta": (
+                    "Want all 1000 systems, cross-system crosswalks, and "
+                    "programmatic API access? Upgrade to Pro at /pricing."
+                ),
+                "compound": False,
+                "atoms": None,
+                "hero": None,
+                "cta": None,
+                "llm_used": False,
+                "llm_keywords": [],
+                "scope": scope,
+            }
+        # Narrow the scope: demo default set (industrial/occupational standards)
+        # PLUS the country's own general-purpose business classifications
+        # (NAICS/ISIC/NACE/SIC family + SOC/ISCO family). Country-specific
+        # medical, regulatory, trade-tariff, and academic systems are tagged
+        # 'official' in country_system_link but are NOT business
+        # classifications, so they must not expand an industry query's scope.
+        country_business = [
+            s for s in scope["country_specific_systems"]
+            if is_business_classification(s)
+        ]
+        effective_systems = sorted(set(DEMO_SYSTEMS) | set(country_business))
+
     result = await classify_text(
         conn,
         text=clean_text,
-        system_ids=DEMO_SYSTEMS,
+        system_ids=effective_systems,
         limit=DEMO_RESULTS_PER_SYSTEM,
     )
 
@@ -159,6 +218,7 @@ async def classify_demo_handler(
         "cta": result.get("cta"),
         "llm_used": result.get("llm_used", False),
         "llm_keywords": result.get("llm_keywords", []),
+        "scope": scope,
     }
 
 

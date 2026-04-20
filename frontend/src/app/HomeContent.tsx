@@ -209,9 +209,9 @@ export function HomeContent({ initialSystems, initialStats }: HomeContentProps) 
             </Link>
           </div>
           <Link href="/crosswalks" className="block group">
-            <div className="relative w-full h-[500px] rounded-xl border border-border/50 bg-background overflow-hidden">
+            <div className="relative w-full rounded-xl border border-border/50 bg-background overflow-hidden mx-auto" style={{ maxWidth: 720, height: 620 }}>
               <div className="pointer-events-none w-full h-full">
-                <CrosswalkGraph mode="system" systems={systems} stats={stats} />
+                <CrosswalkGraph mode="system" systems={systems} stats={stats} topN={250} />
               </div>
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-background/20">
                 <span className="px-4 py-2 rounded-lg bg-card border border-border/50 text-sm font-medium shadow-lg flex items-center gap-2">

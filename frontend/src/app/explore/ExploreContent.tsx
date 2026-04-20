@@ -1,6 +1,6 @@
 'use client'
 
-import { Suspense, useState, useEffect, useCallback } from 'react'
+import { Suspense, useState, useEffect, useCallback, useMemo } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { useQuery } from '@tanstack/react-query'
 import { search, getSystems, getStats } from '@/lib/api'
@@ -14,6 +14,8 @@ import {
   getLifeSciencesSector,
 } from '@/lib/categories'
 import { getSystemColor } from '@/lib/colors'
+import { useCountryFilter } from '@/lib/useCountryFilter'
+import { CountryFilterBar } from '@/components/CountryFilterBar'
 import Link from 'next/link'
 import {
   Search, X, ChevronDown, ChevronRight, Leaf,
@@ -72,7 +74,7 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
     setExpanded({})
   }, [debouncedQuery, selectedSystem])
 
-  const { data: systems } = useQuery({
+  const { data: systemsAll } = useQuery({
     queryKey: ['systems'],
     queryFn: getSystems,
     initialData: initialSystems ?? undefined,
@@ -86,10 +88,38 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
     staleTime: 0,
   })
 
+  const {
+    country,
+    setCountry,
+    countries,
+    countriesError,
+    countrySystemIds,
+    countrySystemsError,
+    selectedCountry,
+  } = useCountryFilter()
+
+  const systems = useMemo(() => {
+    if (!systemsAll) return systemsAll
+    if (!country || !countrySystemIds) return systemsAll
+    return systemsAll.filter((s) => countrySystemIds.has(s.id))
+  }, [systemsAll, country, countrySystemIds])
+
+  useEffect(() => {
+    if (country && selectedSystem && countrySystemIds && !countrySystemIds.has(selectedSystem)) {
+      setSelectedSystem('')
+    }
+  }, [country, countrySystemIds, selectedSystem])
+
   const { data: results, isLoading, isFetching } = useQuery({
-    queryKey: ['search', debouncedQuery, selectedSystem],
-    queryFn: () => search(debouncedQuery, selectedSystem || undefined, 200, true),
-    enabled: debouncedQuery.length >= 2,
+    queryKey: ['search', debouncedQuery, selectedSystem, country],
+    queryFn: async () => {
+      const raw = await search(debouncedQuery, selectedSystem || undefined, 200, true)
+      if (country && countrySystemIds) {
+        return raw.filter((r) => countrySystemIds.has(r.system_id))
+      }
+      return raw
+    },
+    enabled: debouncedQuery.length >= 2 && (!country || countrySystemIds !== null),
     staleTime: 2 * 60 * 1000,
   })
 
@@ -110,11 +140,24 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
       <div>
         <h1 className="text-2xl font-bold tracking-tight">Explore Classifications</h1>
         <p className="text-sm text-muted-foreground mt-1">
-          {isSearching
+          {selectedCountry ? (
+            <>
+              Scoped to <span className="font-medium text-foreground">{selectedCountry.title}</span>
+              {' '}&middot; {systems?.length ?? '...'} applicable systems
+            </>
+          ) : isSearching
             ? `Searching across all ${systems?.length ?? '...'} classification systems`
             : `All ${systems?.length ?? '...'} classification systems across ${SYSTEM_CATEGORIES.length} categories`}
         </p>
       </div>
+
+      {/* Country filter */}
+      <CountryFilterBar
+        country={country}
+        countries={countries}
+        countriesError={countriesError ?? countrySystemsError}
+        onChange={setCountry}
+      />
 
       {/* Search bar - always visible */}
       <div className="max-w-4xl">

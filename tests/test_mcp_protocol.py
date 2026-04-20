@@ -22,9 +22,9 @@ def _run(coro):
 # ── tools/list ────────────────────────────────────────────────
 
 
-def test_tools_list_returns_24_tools():
+def test_tools_list_returns_25_tools():
     tools = build_tools_list()
-    assert len(tools) == 24
+    assert len(tools) == 25
     names = {t["name"] for t in tools}
     assert names == {
         "list_classification_systems",
@@ -50,6 +50,7 @@ def test_tools_list_returns_24_tools():
         "explore_industry_tree",
         "get_audit_report",
         "get_country_taxonomy_profile",
+        "get_country_scope",
         "classify_business",
     }
 
@@ -109,7 +110,7 @@ def test_handle_tools_list():
         response = await handle_jsonrpc_request(request, conn=None)
         assert response["id"] == 2
         assert "result" in response
-        assert len(response["result"]["tools"]) == 24
+        assert len(response["result"]["tools"]) == 25
     _run(_test())
 
 

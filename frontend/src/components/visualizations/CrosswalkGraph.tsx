@@ -29,6 +29,7 @@ interface SystemGraphProps {
   stats: CrosswalkStat[]
   onEdgeClick?: (source: string, target: string) => void
   onNodeSelect?: (node: SelectedSystemNode | null) => void
+  topN?: number
 }
 
 interface CodeGraphProps {
@@ -206,7 +207,7 @@ export const CrosswalkGraph = forwardRef<CrosswalkGraphHandle, Props>(
 
       const bgColor = isDark ? '#09090b' : '#ffffff'
       const textColor = isDark ? '#fafafa' : '#09090b'
-      const edgeColor = isDark ? 'rgba(161,161,170,0.15)' : 'rgba(113,113,122,0.12)'
+      const edgeColor = isDark ? 'rgba(161,161,170,0.28)' : 'rgba(113,113,122,0.32)'
       const edgeHighlight = isDark ? '#818cf8' : '#6366f1'
       const dimOpacity = 0.08
 
@@ -300,13 +301,31 @@ export const CrosswalkGraph = forwardRef<CrosswalkGraphHandle, Props>(
       // ================================================================
       // SYSTEM MODE: ring of all crosswalked systems
       // ================================================================
-      const { systems, stats } = p
-      const { positions, ordered } = computeSystemRingPositions(systems, stats, w, h)
+      const { systems, stats, topN } = p
+      let filteredSystems = systems
+      let filteredStats = stats
+      if (topN && topN > 0) {
+        const degree = new Map<string, number>()
+        for (const st of stats) {
+          degree.set(st.source_system, (degree.get(st.source_system) ?? 0) + st.edge_count)
+          degree.set(st.target_system, (degree.get(st.target_system) ?? 0) + st.edge_count)
+        }
+        const top = new Set(
+          systems
+            .filter((s) => degree.has(s.id))
+            .sort((a, b) => (degree.get(b.id) ?? 0) - (degree.get(a.id) ?? 0))
+            .slice(0, topN)
+            .map((s) => s.id),
+        )
+        filteredSystems = systems.filter((s) => top.has(s.id))
+        filteredStats = stats.filter((st) => top.has(st.source_system) && top.has(st.target_system))
+      }
+      const { positions, ordered } = computeSystemRingPositions(filteredSystems, filteredStats, w, h)
       const elements: cytoscape.ElementDefinition[] = []
 
       for (const s of ordered) {
         const cat = getCategoryForSystem(s.id)
-        const size = logSize(s.node_count, 8, 30)
+        const size = logSize(s.node_count, 10, 18)
         elements.push({
           group: 'nodes',
           data: {
@@ -369,8 +388,8 @@ export const CrosswalkGraph = forwardRef<CrosswalkGraphHandle, Props>(
           {
             selector: 'edge',
             style: {
-              'line-color': edgeColor, 'curve-style': 'bezier',
-              width: 'mapData(weight, 1, 16, 1, 6)', opacity: 0.7,
+              'line-color': edgeColor, 'curve-style': 'straight',
+              width: 'mapData(weight, 1, 16, 0.6, 2.4)', opacity: 0.9,
               'target-arrow-shape': 'none',
               'transition-property': 'opacity, line-color, width',
               'transition-duration': 200,
@@ -480,7 +499,13 @@ export const CrosswalkGraph = forwardRef<CrosswalkGraphHandle, Props>(
       cyRef.current = cy
       return () => { cy.destroy(); cyRef.current = null; hideTooltip() }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [isDark, props.mode, props.mode === 'code' ? props.data : null])
+    }, [
+      isDark,
+      props.mode,
+      props.mode === 'code' ? props.data : null,
+      props.mode === 'system' ? props.systems : null,
+      props.mode === 'system' ? props.stats : null,
+    ])
 
     // -- Zoom controls --
     const handleZoomIn = useCallback(() => { cyRef.current?.zoom(cyRef.current.zoom() * 1.3) }, [])

@@ -11,6 +11,7 @@ from world_of_taxonomy.category import get_category
 from world_of_taxonomy.query.browse import get_ancestors, get_children
 from world_of_taxonomy.query.search import search_nodes
 from world_of_taxonomy.query.provenance import get_system_provenance_map
+from world_of_taxonomy.scope import resolve_country_scope
 
 router = APIRouter(prefix="/api/v1", tags=["search"])
 
@@ -23,6 +24,15 @@ async def search(
     category: Optional[str] = Query(
         None,
         description="Filter by category: 'domain' or 'standard'. Omit for both.",
+    ),
+    countries: Optional[List[str]] = Query(
+        None,
+        description=(
+            "Optional ISO 3166-1 alpha-2 country codes. Scopes results to "
+            "systems applicable to these countries plus universal recommended "
+            "standards (UN/WCO/WHO). Pass multiple times to union: "
+            "?countries=US&countries=CA."
+        ),
     ),
     limit: int = Query(50, ge=1, le=200, description="Max results"),
     grouped: bool = Query(False, description="Return results grouped by system"),
@@ -37,7 +47,11 @@ async def search(
         )
 
     system_filter = system_id or system
-    results = await search_nodes(conn, q, system_id=system_filter, limit=limit)
+    scope = await resolve_country_scope(conn, countries)
+    scoped_ids = scope["candidate_systems"] if scope and not system_filter else None
+    results = await search_nodes(
+        conn, q, system_id=system_filter, limit=limit, system_ids=scoped_ids,
+    )
     if category:
         results = [r for r in results if get_category(r.system_id) == category]
 
@@ -58,13 +72,18 @@ async def search(
                 children=[NodeResponse(**c.__dict__, **prov) for c in children],
             )
             output.append(entry)
-        return output
-
-    if grouped:
+        payload: Any = output
+    elif grouped:
         groups: Dict[str, List[NodeResponse]] = {}
         for node in results:
             prov = prov_map.get(node.system_id, {})
             groups.setdefault(node.system_id, []).append(NodeResponse(**node.__dict__, **prov))
-        return groups
+        payload = groups
+    else:
+        payload = [
+            NodeResponse(**r.__dict__, **prov_map.get(r.system_id, {})) for r in results
+        ]
 
-    return [NodeResponse(**r.__dict__, **prov_map.get(r.system_id, {})) for r in results]
+    if scope is not None:
+        return {"scope": scope, "results": payload}
+    return payload
