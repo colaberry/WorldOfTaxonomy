@@ -14,11 +14,15 @@ Default output path is `openapi.json` at the repo root.
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
+
+os.environ.setdefault("DATABASE_URL", "postgresql://openapi-export/noop")
+os.environ.setdefault("DISABLE_AUTH", "1")
 
 from world_of_taxonomy.api.app import create_app  # noqa: E402
 
