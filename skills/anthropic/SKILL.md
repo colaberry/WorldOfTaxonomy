@@ -53,7 +53,7 @@ OpenAPI spec: `https://worldoftaxonomy.com/api/v1/openapi.json`
 
 ### Secondary: MCP server
 
-For MCP-aware clients, install `world_of_taxonomy` from the GitHub repo and run `python -m world_of_taxonomy mcp` as a stdio server. 24 tools available including `classify_business`, `translate_code`, `translate_across_all_systems`, `get_equivalences`, `get_crosswalk_coverage`, `get_system_diff`, `explore_industry_tree`, and `list_crosswalks_by_kind`.
+For MCP-aware clients, install `world_of_taxonomy` from the GitHub repo and run `python -m world_of_taxonomy mcp` as a stdio server. Tools include `classify_business`, `translate_code`, `translate_across_all_systems`, `get_equivalences`, `get_crosswalk_coverage`, `get_system_diff`, `explore_industry_tree`, and `list_crosswalks_by_kind`.
 
 ## Response guidance
 

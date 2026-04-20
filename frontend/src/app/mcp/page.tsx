@@ -4,10 +4,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'MCP Tools - WorldOfTaxonomy',
-  description: 'Connect Claude, Cursor, VS Code, or any MCP client to the WorldOfTaxonomy knowledge graph. 22 tools for search, translation, hierarchy navigation, and classification.',
+  description: 'Connect Claude, Cursor, VS Code, or any MCP client to the WorldOfTaxonomy knowledge graph for search, translation, hierarchy navigation, and classification.',
   openGraph: {
     title: 'MCP Tools - WorldOfTaxonomy',
-    description: '22 MCP tools for AI assistants to search, translate, and navigate 1,000+ classification systems.',
+    description: 'MCP tools for AI assistants to search, translate, and navigate 1,000+ classification systems.',
     type: 'website',
   },
 }

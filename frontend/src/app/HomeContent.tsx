@@ -355,7 +355,7 @@ export function HomeContent({ initialSystems, initialStats }: HomeContentProps) 
             <div>
               <p className="font-semibold text-sm">MCP Server</p>
               <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
-                Connect Claude Desktop or any MCP client. 22 tools for search, translation, and hierarchy navigation.
+                Connect Claude Desktop or any MCP client for search, translation, and hierarchy navigation.
               </p>
             </div>
             <code className="text-[11px] font-mono text-muted-foreground bg-secondary/60 px-2.5 py-1.5 rounded-md w-fit">

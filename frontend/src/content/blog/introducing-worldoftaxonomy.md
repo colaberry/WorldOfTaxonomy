@@ -56,7 +56,7 @@ curl "https://wot.aixcelerator.app/api/v1/systems/naics_2022/nodes/4841/translat
 curl "https://wot.aixcelerator.app/api/v1/search?q=hospital&grouped=true"
 ```
 
-**The MCP server** gives AI agents structured tool access - 21 tools for search, translation, hierarchy navigation, and system comparison. Works with Claude, Cursor, VS Code, Windsurf, and any MCP-compatible client.
+**The MCP server** gives AI agents structured tool access - 25 tools for search, translation, hierarchy navigation, and system comparison. Works with Claude, Cursor, VS Code, Windsurf, and any MCP-compatible client.
 
 ## By the numbers
 

@@ -54,6 +54,9 @@ jobs:
           fi
           echo "No em-dashes found."
 
+      - name: Check MCP tool count references are consistent
+        run: python scripts/check_mcp_tool_count.py
+
       - name: Check llms-full.txt is up to date
         run: |
           python scripts/build_llms_txt.py

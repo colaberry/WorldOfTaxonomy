@@ -1,6 +1,6 @@
 ## Give Your AI Agent Access to Every Taxonomy
 
-> **TL;DR:** The WorldOfTaxonomy MCP server gives AI agents structured tool access to 1,000+ classification systems. 21 tools. Works with Claude, Cursor, VS Code, Windsurf, and any MCP client. Setup takes under 5 minutes.
+> **TL;DR:** The WorldOfTaxonomy MCP server gives AI agents structured tool access to 1,000+ classification systems. 25 tools. Works with Claude, Cursor, VS Code, Windsurf, and any MCP client. Setup takes under 5 minutes.
 
 ---
 
@@ -25,7 +25,7 @@ sequenceDiagram
     participant DB as PostgreSQL
 
     AI->>MCP: Initialize session
-    MCP-->>AI: 21 tools + system knowledge
+    MCP-->>AI: 25 tools + system knowledge
     Note over AI: Agent now knows all 1,000 systems
     AI->>MCP: search_classifications("hospital")
     MCP->>DB: Full-text search across 1.2M codes
@@ -75,7 +75,7 @@ Add to your MCP settings (`.cursor/mcp.json` or VS Code MCP config):
 claude mcp add world-of-taxonomy python3 -m world_of_taxonomy mcp
 ```
 
-## The 21 tools
+## The 25 tools
 
 | Category | Tools | What they do |
 |----------|-------|-------------|
