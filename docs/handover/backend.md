@@ -15,20 +15,21 @@ FastAPI app + MCP server + ingest pipeline + wiki loader. Reads [HANDOVER.md](..
 
 ```
 create_app()
- ├─ validate_required_env()       # refuse to boot on missing/weak vars
+ ├─ _validate_env()               # refuse to boot on missing/weak vars
+ ├─ _init_sentry()                # no-op unless SENTRY_DSN is set
  ├─ lifespan open -> get_pool() -> app.state.pool  (connect retry + env pool sizing)
  ├─ CORS middleware (ALLOWED_ORIGINS allowlist; defaults closed)
  ├─ security_headers_middleware   # HSTS, nosniff, frame-deny, referrer, permissions
  ├─ request_id_middleware         # propagate X-Request-ID
- ├─ json_access_log_middleware    # one JSON line per request
+ ├─ request_logging_middleware    # one JSON line per request
  ├─ body_size_limit_middleware    # 2 MiB cap
  ├─ GZipMiddleware (min_size=500)
  ├─ metrics_middleware            # wot_http_* counters + latency + in-flight
  ├─ rate_limit_middleware         # tier-aware + X-RateLimit-* headers
- ├─ include_router(systems, nodes, search, equivalences, explore,
- │                 countries, classify, auth, oauth, wiki, contact,
- │                 audit, export, bulk_export, crosswalk_graph,
- │                 metrics, healthz, version, honeypot, csp_report, canary)
+ ├─ include_router(explore, systems, nodes, search, equivalences,
+ │                 crosswalk_graph, countries, auth, oauth, export,
+ │                 audit, classify, classify_demo, contact, bulk_export,
+ │                 wiki, health, metrics, honeypot, csp_report, canary)
  └─ lifespan close -> graceful uvicorn drain -> pool.close()
 ```
 
@@ -97,8 +98,7 @@ From [world_of_taxonomy/api/routers/](../../world_of_taxonomy/api/routers/):
 | `contact` | `POST /contact` - form delivery | none |
 | `audit`, `export`, `bulk_export`, `crosswalk_graph` | admin + export utilities | mixed |
 | `metrics` | `GET /api/v1/metrics` (Prometheus exposition) | `METRICS_TOKEN` header |
-| `healthz` | `GET /api/v1/healthz` - uptime probe, no DB hit | none |
-| `version` | `GET /api/v1/version` - git sha + build time | none |
+| `health` | `GET /api/v1/healthz` (uptime probe, no DB hit) + `GET /api/v1/version` (git sha + build time) | none |
 | `csp_report` | `POST /api/v1/csp-report` - CSP violation sink | none |
 | `honeypot` | decoy paths + `/.well-known/security.txt` | none |
 | `canary` | canary token endpoints used by `llms-full.txt` embeds | none |
@@ -109,23 +109,21 @@ Search ranking (see [world_of_taxonomy/api/routers/search.py](../../world_of_tax
 
 ## Security and ops modules
 
-Beyond auth and rate-limit, the backend ships a set of cross-cutting modules in [world_of_taxonomy/api/](../../world_of_taxonomy/api/):
+Beyond auth and rate-limit, the backend ships a set of cross-cutting modules:
 
 | Module | Purpose |
 |--------|---------|
-| `security_headers.py` | Applies HSTS, nosniff, frame-deny, Referrer-Policy, Permissions-Policy on every response. |
-| `metrics.py` | Prometheus counters + latency histogram + in-flight gauge. Bounded cardinality on route templates. |
-| `healthz.py`, `version.py` | Liveness probe + build-info endpoint. |
-| `honeypot.py` | Decoy paths (`/wp-admin`, `/.env`, etc.) + RFC 9116 `security.txt`. |
-| `csp_report.py` | CSP violation sink; counter keyed on known directives, everything else bucketed as `other`. |
-| `canary.py` | Tracks hits on canary tokens seeded into `llms-full.txt`. |
-| `failed_auth.py` | Sliding-window per-IP + per-email login failure counters. |
-| `text_guard.py` | NFKC-normalizes + regex-filters `/classify` input for prompt-injection defense. |
-| `request_id.py` | Generates or propagates `X-Request-ID` for log correlation. |
-| `access_log.py` | One JSON log line per HTTP request. |
-| `env_validation.py` | Fails fast at boot when required env vars are missing or weak. |
+| [api/middleware.py](../../world_of_taxonomy/api/middleware.py) | Houses `security_headers_middleware` (HSTS, nosniff, frame-deny, Referrer-Policy, Permissions-Policy), `request_id_middleware`, `request_logging_middleware` (one JSON line per HTTP request), `body_size_limit_middleware`, and the tier-aware `rate_limit_middleware`. |
+| [api/metrics.py](../../world_of_taxonomy/api/metrics.py) | Prometheus counters + latency histogram + in-flight gauge. Bounded cardinality on route templates. Exposes the `metrics_router`. |
+| [api/routers/health.py](../../world_of_taxonomy/api/routers/health.py) | Single router serving `/healthz` (liveness probe, no DB hit) + `/version` (git sha + build time). |
+| [api/honeypot.py](../../world_of_taxonomy/api/honeypot.py) | Decoy paths (`/wp-admin`, `/.env`, etc.) + RFC 9116 `security.txt`. |
+| [api/csp_report.py](../../world_of_taxonomy/api/csp_report.py) | CSP violation sink; counter keyed on known directives, everything else bucketed as `other`. |
+| [canary.py](../../world_of_taxonomy/canary.py) | Tracks hits on canary tokens seeded into `llms-full.txt`. Lives at the package root, not under `api/`. |
+| [api/failed_auth.py](../../world_of_taxonomy/api/failed_auth.py) | Sliding-window per-IP + per-email login failure counters. |
+| [api/text_guard.py](../../world_of_taxonomy/api/text_guard.py) | NFKC-normalizes + regex-filters `/classify` input for prompt-injection defense. |
+| `_validate_env()` in [api/app.py](../../world_of_taxonomy/api/app.py) | Inline helper that fails fast at boot when required env vars are missing or `JWT_SECRET` is weak. |
 
-Optional Sentry telemetry (`SENTRY_DSN`) is initialized in `app.py` before middleware so unhandled errors propagate correctly.
+Optional Sentry telemetry (`SENTRY_DSN`) is initialized inline via `_init_sentry()` in `app.py` before the FastAPI instance is built so unhandled errors propagate correctly.
 
 Ingest-side sanity: [world_of_taxonomy/ingest/validators.py](../../world_of_taxonomy/ingest/validators.py) runs post-load checks (orphaned nodes, level-1 roots, parent-child cycle detection, duplicate codes).
 

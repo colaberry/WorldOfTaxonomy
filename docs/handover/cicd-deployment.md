@@ -17,7 +17,7 @@ Deep dives you will need:
 | Service | Image | Runtime | Port | Source |
 |---|---|---|---|---|
 | `wot-api` | `${REGION}-docker.pkg.dev/${PROJECT}/wot-repo/wot-api` | Cloud Run (FastAPI + uvicorn) | 8000 | [Dockerfile.backend](../../Dockerfile.backend) |
-| `wot-web` | `${REGION}-docker.pkg.dev/${PROJECT}/wot-repo/wot-web` | Cloud Run (Next.js 15) | 3000 | [frontend/Dockerfile.prod](../../frontend/Dockerfile.prod) |
+| `wot-web` | `${REGION}-docker.pkg.dev/${PROJECT}/wot-repo/wot-web` | Cloud Run (Next.js 16) | 3000 | [frontend/Dockerfile.prod](../../frontend/Dockerfile.prod) |
 | `wot-db` | n/a | Cloud SQL Postgres 15, `db-f1-micro` | 5432 (unix socket) | schema init on container start |
 
 The frontend proxies `/api/*` to the backend via a Next.js rewrite; the backend URL is injected as `BACKEND_URL` at deploy time.
@@ -167,7 +167,7 @@ Cloud Run needs a new revision for the rotated secret to take effect; the `updat
 
 1. **Data ingestion.** Ingest jobs do **not** run in Cloud Run. They are one-off scripts, executed either locally or via a Cloud Run Job pointed at the same `DATABASE_URL`. Example: `DATABASE_URL=... python3 -m world_of_taxonomy ingest <system>`. See [docs/adding-a-new-system.md](../adding-a-new-system.md) and [docs/runbooks/ingest-failed.md](../runbooks/ingest-failed.md).
 2. **Schema init vs migrations.** The backend container calls `python3 -m world_of_taxonomy init` on every cold start; it must stay idempotent. Non-idempotent schema changes go through Alembic under [migrations/](../../migrations/). See [docs/runbooks/migrations.md](../runbooks/migrations.md).
-3. **Frontend build context.** `cloudbuild.yaml` builds the web image from the **repo root**, not `frontend/`, because `frontend/package.json`'s `prebuild` hook copies sibling `wiki/`, `blog/`, and `crosswalk-data/` into `src/content` before `next build`. Do not "fix" the build context to `frontend/`.
+3. **Frontend build context.** `cloudbuild.yaml` builds the web image from the **repo root**, not `frontend/`, because `frontend/package.json`'s `prebuild` hook copies sibling `wiki/`, `blog/`, `crosswalk-data/`, and `tree-data/` into `src/content` before `next build`. Do not "fix" the build context to `frontend/`.
 4. **`llms-full.txt` freshness.** CI rebuilds it and fails if the committed copy is stale. When wiki content changes, run `python scripts/build_llms_txt.py` locally and commit the result.
 5. **Em-dash ban.** CI greps for U+2014 across `.py`, `.md`, `.ts`, `.tsx`, `.sql`. Use a hyphen `-`.
 
