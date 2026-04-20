@@ -333,7 +333,7 @@ export interface paths {
         };
         /**
          * Crosswalk Stats
-         * @description Get counts of equivalence edges per system pair.
+         * @description Get counts of equivalence edges per system pair or per edge kind.
          */
         get: operations["crosswalk_stats_api_v1_equivalences_stats_get"];
         put?: never;
@@ -378,6 +378,30 @@ export interface paths {
          *     Returns top-level groupings with edge counts for progressive drill-down.
          */
         get: operations["crosswalk_sections_api_v1_systems__source__crosswalk__target__sections_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/countries": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * List Countries
+         * @description Return countries that have at least one applicable classification system.
+         *
+         *     Used by the frontend country-filter dropdown. Sorted alphabetically by
+         *     country title (from iso_3166_1). Countries whose ISO 3166-1 node has not
+         *     been ingested are excluded so the dropdown never shows bare codes.
+         */
+        get: operations["list_countries_api_v1_countries_get"];
         put?: never;
         post?: never;
         delete?: never;
@@ -994,6 +1018,11 @@ export interface components {
              * @description Business/product/occupation description
              */
             text: string;
+            /**
+             * Countries
+             * @description Optional ISO 3166-1 alpha-2 country codes. When supplied, classify against the systems applicable to those countries (plus globally recommended standards like ISIC Rev 4) instead of the default demo set.
+             */
+            countries?: string[] | null;
         };
         /** ClassifyDemoResponse */
         ClassifyDemoResponse: {
@@ -1045,6 +1074,13 @@ export interface components {
              * @default []
              */
             llm_keywords: unknown[];
+            /**
+             * Scope
+             * @description Present only when `countries` was supplied. Mirrors the shape returned by the paid /classify endpoint.
+             */
+            scope?: {
+                [key: string]: unknown;
+            } | null;
         };
         /** ClassifyRequest */
         ClassifyRequest: {
@@ -1058,6 +1094,11 @@ export interface components {
              * @description Optional list of system IDs to search. Default: major systems.
              */
             systems?: string[] | null;
+            /**
+             * Countries
+             * @description Optional ISO 3166-1 alpha-2 country codes. Scopes candidates to systems applicable to these countries plus universal recommended standards (UN/WCO/WHO). Overrides `systems` when set.
+             */
+            countries?: string[] | null;
             /**
              * Limit
              * @description Max matches per system
@@ -1085,6 +1126,8 @@ export interface components {
             disclaimer: string;
             /** Report Issue Url */
             report_issue_url: string;
+            /** @description Present only when `countries` was supplied. Shows the resolved country-specific vs global candidate systems the classifier used. */
+            scope?: components["schemas"]["ScopeInfo"] | null;
         };
         /** ClassifyResult */
         ClassifyResult: {
@@ -1096,6 +1139,12 @@ export interface components {
             score: number;
             /** Level */
             level: number;
+            /**
+             * Crosswalk Count
+             * @description Number of equivalence edges originating from this code. The UI uses this to hide the 'Show crosswalks' affordance for codes with no outgoing edges.
+             * @default 0
+             */
+            crosswalk_count: number;
         };
         /** ClassifySystemMatch */
         ClassifySystemMatch: {
@@ -1170,6 +1219,11 @@ export interface components {
             to: string;
             /** Match Type */
             match_type: string;
+            /**
+             * Edge Kind
+             * @description Computed: '{source}_{target}' where each side is 'domain' if the system_id starts with 'domain_', else 'standard'.
+             */
+            edge_kind: string;
         };
         /** CrosswalkGraphEdge */
         CrosswalkGraphEdge: {
@@ -1245,6 +1299,28 @@ export interface components {
             /** Partial Count */
             partial_count: number;
         };
+        /** EdgeKindStatResponse */
+        EdgeKindStatResponse: {
+            /** Edge Kind */
+            edge_kind: string;
+            /** Edge Count */
+            edge_count: number;
+            /**
+             * Exact Count
+             * @default 0
+             */
+            exact_count: number;
+            /**
+             * Partial Count
+             * @default 0
+             */
+            partial_count: number;
+            /**
+             * Broad Count
+             * @default 0
+             */
+            broad_count: number;
+        };
         /** EquivalenceResponse */
         EquivalenceResponse: {
             /** Source System */
@@ -1263,6 +1339,24 @@ export interface components {
             source_title?: string | null;
             /** Target Title */
             target_title?: string | null;
+            /**
+             * Source Category
+             * @description Category of source_system: 'domain' or 'standard'.
+             * @default standard
+             */
+            source_category: string;
+            /**
+             * Target Category
+             * @description Category of target_system: 'domain' or 'standard'.
+             * @default standard
+             */
+            target_category: string;
+            /**
+             * Edge Kind
+             * @description One of: standard_standard, standard_domain, domain_standard, domain_domain.
+             * @default standard_standard
+             */
+            edge_kind: string;
         };
         /** GenerateTaxonomyRequest */
         GenerateTaxonomyRequest: {
@@ -1369,6 +1463,17 @@ export interface components {
             password: string;
             /** Display Name */
             display_name?: string | null;
+        };
+        /** ScopeInfo */
+        ScopeInfo: {
+            /** Countries */
+            countries: string[];
+            /** Country Specific Systems */
+            country_specific_systems: string[];
+            /** Global Standard Systems */
+            global_standard_systems: string[];
+            /** Candidate Systems */
+            candidate_systems: string[];
         };
         /** SubtreeSummaryResponse */
         SubtreeSummaryResponse: {
@@ -1935,7 +2040,10 @@ export interface operations {
     };
     get_node_equivalences_api_v1_systems__system_id__nodes__code__equivalences_get: {
         parameters: {
-            query?: never;
+            query?: {
+                /** @description Filter by edge kind (comma-separated). One or more of: standard_standard, standard_domain, domain_standard, domain_domain. */
+                edge_kind?: string | null;
+            };
             header?: never;
             path: {
                 system_id: string;
@@ -2048,6 +2156,8 @@ export interface operations {
                 system?: string | null;
                 /** @description Filter by category: 'domain' or 'standard'. Omit for both. */
                 category?: string | null;
+                /** @description Optional ISO 3166-1 alpha-2 country codes. Scopes results to systems applicable to these countries plus universal recommended standards (UN/WCO/WHO). Pass multiple times to union: ?countries=US&countries=CA. */
+                countries?: string[] | null;
                 /** @description Max results */
                 limit?: number;
                 /** @description Return results grouped by system */
@@ -2086,6 +2196,8 @@ export interface operations {
             query?: {
                 /** @description Filter to a specific system */
                 system_id?: string | null;
+                /** @description Grouping dimension. Omit (default) for system-pair stats. Pass 'edge_kind' for counts grouped by the four edge kinds (standard_standard, standard_domain, domain_standard, domain_domain). */
+                group_by?: string | null;
             };
             header?: never;
             path?: never;
@@ -2099,7 +2211,7 @@ export interface operations {
                     [name: string]: unknown;
                 };
                 content: {
-                    "application/json": components["schemas"]["CrosswalkStatResponse"][];
+                    "application/json": components["schemas"]["CrosswalkStatResponse"][] | components["schemas"]["EdgeKindStatResponse"][];
                 };
             };
             /** @description Validation Error */
@@ -2178,6 +2290,26 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    list_countries_api_v1_countries_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": unknown;
                 };
             };
         };
