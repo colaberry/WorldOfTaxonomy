@@ -1,6 +1,6 @@
 ## Crosswalk Map - How Classification Systems Connect
 
-> **TL;DR:** 321,937+ crosswalk edges link 1,000 classification systems through hub-and-spoke topology. ISIC is the industry hub, CPC bridges trade to industry, SOC/ISCO connect occupations. This guide maps the full topology and shows how to navigate translation paths.
+> **TL;DR:** 326,000+ crosswalk edges link 1,000 classification systems through hub-and-spoke topology. ISIC is the industry hub, CPC bridges trade to industry, SOC/ISCO connect occupations, and every one of the 434 domain taxonomies is bridged to NAICS/ISIC/NACE via sector anchors. This guide maps the full topology and shows how to navigate translation paths.
 
 ---
 
@@ -148,6 +148,39 @@ graph TB
 
 Each domain taxonomy links back to its parent NAICS sector, creating drill-down paths from broad industry codes to specialized vocabularies.
 
+As of the sector-anchor pass, all 434 domain taxonomies (up from the 15 original pilots shown above) carry at least one bridge edge to NAICS 2022, plus parallel fan-out edges into ISIC Rev 4 and NACE Rev 2 where the NAICS anchor has an existing international crosswalk. Generated edges are stamped `match_type='broad'` and one of two provenance values:
+
+| Provenance | What it means |
+|------------|---------------|
+| `derived:sector_anchor:v1` | Direct NAICS<->domain bridge written by `crosswalk_domain_anchors.py` |
+| `derived:sector_anchor:v1:fanout` | ISIC<->domain or NACE<->domain edge derived via a NAICS<->ISIC (or NACE) self-join |
+
+Filter `?match_type=exact` if you want to exclude every generated bridge and see only authoritative exact statistical concordances.
+
+## The four edge kinds
+
+Every equivalence response now carries an `edge_kind` computed from the categories of both endpoints. See [domain-vs-standard](domain-vs-standard.md) for the full pattern. Quick reference:
+
+| `edge_kind`         | Description |
+|---------------------|-------------|
+| `standard_standard` | Pre-existing statistical crosswalks (NAICS<->ISIC, ISIC<->NACE, HS<->CPC, SOC<->ISCO, ...) |
+| `standard_domain`   | Bridge from an official code to a curated domain taxonomy |
+| `domain_standard`   | Bridge from a domain taxonomy back to an official code |
+| `domain_domain`     | Reserved for future cross-domain edges; none generated yet |
+
+Use the filter on any equivalence or translation endpoint:
+
+```
+GET /api/v1/systems/naics_2022/nodes/6211/equivalences?edge_kind=standard_standard
+GET /api/v1/systems/naics_2022/nodes/6211/equivalences?edge_kind=standard_domain,domain_standard
+```
+
+Stats grouped by edge kind:
+
+```bash
+curl "https://worldoftaxonomy.com/api/v1/equivalences/stats?group_by=edge_kind"
+```
+
 ## Translation paths
 
 Not all systems have direct crosswalks. You translate between systems by following a path through intermediate hubs.
@@ -214,3 +247,4 @@ curl "https://worldoftaxonomy.com/api/v1/diff?a=naics_2022&b=isic_rev4"
 | `get_system_diff` | Codes with no mapping between two systems |
 | `compare_sector` | Side-by-side sector comparison |
 | `describe_match_types` | Explain the match type categories |
+| `list_crosswalks_by_kind` | Counts + samples for a specific `edge_kind` (standard_standard, standard_domain, domain_standard, domain_domain); optionally narrow to a single system |

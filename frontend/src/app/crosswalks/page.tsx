@@ -2,6 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowRight, Network } from 'lucide-react'
 import { serverGetStats, serverGetSystems } from '@/lib/server-api'
+import {
+  getStaticSystems,
+  getStaticStats,
+  getStaticAllSections,
+} from '@/lib/crosswalk-data'
+import CrosswalkExplorerClient from './CrosswalkExplorerClient'
 import type { ClassificationSystem, CrosswalkStat } from '@/lib/types'
 import { MAJOR_SYSTEMS } from '../codes/constants'
 import { getSystemColor } from '@/lib/colors'
@@ -34,7 +40,12 @@ function systemLabel(systems: ClassificationSystem[], id: string): string {
   return systems.find((s) => s.id === id)?.name ?? id
 }
 
-export default async function CrosswalksIndexPage() {
+export default async function CrosswalksIndexPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ source?: string; target?: string }>
+}) {
+  const { source, target } = await searchParams
   const [stats, systems] = await Promise.all([
     serverGetStats().catch(() => [] as CrosswalkStat[]),
     serverGetSystems().catch(() => [] as ClassificationSystem[]),
@@ -53,8 +64,30 @@ export default async function CrosswalksIndexPage() {
   const totalEdges = stats.reduce((acc, s) => acc + s.edge_count, 0)
   const totalPairs = stats.filter((s) => s.edge_count > 0).length
 
+  const allStaticSystems = getStaticSystems()
+  const staticStats = getStaticStats()
+  const allSections = getStaticAllSections()
+  const crosswalkedIds = new Set<string>()
+  for (const st of staticStats) {
+    crosswalkedIds.add(st.source_system)
+    crosswalkedIds.add(st.target_system)
+  }
+  const explorerSystems = allStaticSystems.filter((s) =>
+    crosswalkedIds.has(s.id),
+  )
+
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 space-y-10">
+      <section className="space-y-3">
+        <CrosswalkExplorerClient
+          systems={explorerSystems}
+          stats={staticStats}
+          allSections={allSections}
+          initialSource={source}
+          initialTarget={target}
+        />
+      </section>
+
       <header className="space-y-4">
         <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground">
           <Network className="size-3.5" />
@@ -108,16 +141,9 @@ export default async function CrosswalksIndexPage() {
         <p className="text-xs text-muted-foreground">
           WoT also carries {Math.max(0, totalPairs - majorPairs.length).toLocaleString()}+
           pairs involving national derivatives (WZ, ATECO, NAF, CIIU variants,
-          etc.) and domain taxonomies. Use the interactive crosswalk explorer
-          to browse any pair.
+          etc.) and domain taxonomies. Use the interactive graph above to
+          browse any pair.
         </p>
-        <Link
-          href="/crosswalk-explorer"
-          className="inline-flex items-center gap-2 rounded-full border border-primary bg-primary text-primary-foreground px-4 py-2 text-sm hover:bg-primary/90"
-        >
-          <Network className="size-4" />
-          Open crosswalk explorer
-        </Link>
       </section>
     </div>
   )

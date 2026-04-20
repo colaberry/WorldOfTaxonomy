@@ -17,14 +17,27 @@ router = APIRouter(prefix="/api/v1/systems", tags=["systems"])
 async def list_systems(
     group_by: Optional[str] = Query(None, description="Group results (e.g. 'region')"),
     country: Optional[str] = Query(None, description="Filter by ISO 3166-1 alpha-2 country code (e.g. DE, PK, MX)"),
+    category: Optional[str] = Query(
+        None,
+        description="Filter by category: 'domain' for curated Domain taxonomies, 'standard' for official standards (NAICS, ISIC, ...), omit for all.",
+    ),
     conn=Depends(get_conn),
 ):
-    """List all classification systems, optionally filtered by country or grouped."""
+    """List all classification systems, optionally filtered by country, category, or grouped."""
     if country:
         rows = await get_systems_for_country(conn, country)
         return rows
 
+    if category is not None and category not in ("domain", "standard"):
+        raise HTTPException(
+            status_code=400,
+            detail="category must be 'domain' or 'standard'",
+        )
+
     systems = await get_systems(conn)
+    if category:
+        systems = [s for s in systems if s.category == category]
+
     if group_by == "region":
         grouped: Dict[str, List[SystemResponse]] = {}
         for s in systems:

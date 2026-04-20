@@ -1,78 +1,84 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight } from 'lucide-react'
-import { serverGetSystems } from '@/lib/server-api'
-import type { ClassificationSystem } from '@/lib/types'
+import { ArrowRight, ChevronDown } from 'lucide-react'
+import { serverGetSystems, serverGetStats } from '@/lib/server-api'
+import type { ClassificationSystem, CrosswalkStat } from '@/lib/types'
 import { getSystemColor } from '@/lib/colors'
-import { MAJOR_SYSTEMS } from './constants'
+import { SystemCard, type CrosswalkBadge } from './SystemCard'
+import { classifyRegion, REGION_ORDER, type RegionBucket } from './regions'
 
 export const revalidate = 3600
 
 export const metadata: Metadata = {
   title: 'Classification Codes - NAICS, ISIC, SIC, NACE, SOC, HS | WorldOfTaxonomy',
   description:
-    'Browse classification codes across the major industry, occupational, and product systems. Every sector defined, every code mapped across systems.',
+    'Global directory of 1,000+ classification systems. Browse every sector of NAICS, ISIC, NACE, HS, SOC, and national derivatives with inline crosswalks.',
   openGraph: {
     title: 'Classification Codes Directory',
     description:
-      'NAICS, ISIC, SIC, NACE, ANZSIC, NIC, SOC, ISCO, HS, CPC - every sector, every code, every crosswalk.',
+      'Global directory of 1,000+ classification systems with inline sectors and crosswalks.',
     url: 'https://worldoftaxonomy.com/codes',
     type: 'website',
   },
   alternates: { canonical: 'https://worldoftaxonomy.com/codes' },
 }
 
+function systemLabel(systems: ClassificationSystem[], id: string): string {
+  return systems.find((s) => s.id === id)?.name ?? id
+}
+
 export default async function CodesHubPage() {
-  let systems: ClassificationSystem[]
+  let systems: ClassificationSystem[] = []
+  let stats: CrosswalkStat[] = []
   try {
-    systems = await serverGetSystems()
+    ;[systems, stats] = await Promise.all([
+      serverGetSystems(),
+      serverGetStats().catch(() => [] as CrosswalkStat[]),
+    ])
   } catch {
     systems = []
   }
-  const covered = systems.filter((s) => MAJOR_SYSTEMS.includes(s.id))
+
+  const crosswalksBySource = new Map<string, CrosswalkBadge[]>()
+  for (const s of stats) {
+    if (s.edge_count <= 0) continue
+    const list = crosswalksBySource.get(s.source_system) ?? []
+    list.push({
+      target_system: s.target_system,
+      target_name: systemLabel(systems, s.target_system),
+      edge_count: s.edge_count,
+      color: getSystemColor(s.target_system),
+    })
+    crosswalksBySource.set(s.source_system, list)
+  }
+  for (const list of crosswalksBySource.values()) {
+    list.sort((a, b) => b.edge_count - a.edge_count)
+  }
+
+  const grouped = new Map<RegionBucket, ClassificationSystem[]>()
+  for (const bucket of REGION_ORDER) grouped.set(bucket, [])
+  for (const sys of systems) {
+    const bucket = classifyRegion(sys.region)
+    grouped.get(bucket)!.push(sys)
+  }
+  for (const list of grouped.values()) {
+    list.sort((a, b) => b.node_count - a.node_count)
+  }
+
+  const totalSystems = systems.length
+  const totalCodes = systems.reduce((acc, s) => acc + s.node_count, 0)
+  const totalEdges = stats.reduce((acc, s) => acc + s.edge_count, 0)
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 space-y-10">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 space-y-10">
       <header className="space-y-3">
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
           Classification Codes Directory
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl">
-          Every major industry, occupational, and product classification system,
-          with full definitions and cross-system crosswalks. Pick a system below
-          to browse its sectors.
+          {totalSystems.toLocaleString()} classification systems, {totalCodes.toLocaleString()}+ codes, and {totalEdges.toLocaleString()}+ crosswalk edges, organized by region. Click any system to expand its sectors and crosswalks inline.
         </p>
       </header>
-
-      <section className="grid sm:grid-cols-2 gap-4">
-        {covered.map((system) => {
-          const color = getSystemColor(system.id)
-          return (
-            <Link
-              key={system.id}
-              href={`/codes/${system.id}`}
-              className="rounded-xl border border-border bg-card p-5 hover:border-primary/50 transition-colors group space-y-2"
-            >
-              <div className="flex items-center gap-2">
-                <span className="inline-block size-2.5 rounded-full" style={{ backgroundColor: color }} />
-                <span className="text-xs uppercase tracking-wide text-muted-foreground">
-                  {system.region ?? 'Global'}
-                </span>
-              </div>
-              <div className="flex items-start justify-between gap-3">
-                <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold">{system.full_name ?? system.name}</h2>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    {system.node_count.toLocaleString()} codes
-                    {system.authority ? ` · ${system.authority}` : ''}
-                  </p>
-                </div>
-                <ArrowRight className="size-4 text-muted-foreground group-hover:text-primary mt-1 shrink-0" />
-              </div>
-            </Link>
-          )
-        })}
-      </section>
 
       <section className="grid sm:grid-cols-2 gap-4">
         <Link
@@ -100,6 +106,43 @@ export default async function CodesHubPage() {
           </p>
         </Link>
       </section>
+
+      {REGION_ORDER.map((bucket) => {
+        const list = grouped.get(bucket) ?? []
+        if (list.length === 0) return null
+        const isNorthAmerica = bucket === 'North America'
+        const summaryCodes = list.reduce((acc, s) => acc + s.node_count, 0)
+
+        return (
+          <details
+            key={bucket}
+            open={isNorthAmerica}
+            className="group border-b border-border/60 pb-4"
+          >
+            <summary className="flex items-baseline justify-between gap-3 cursor-pointer list-none py-3">
+              <div className="flex items-baseline gap-3">
+                <ChevronDown className="size-4 text-muted-foreground transition-transform group-open:rotate-0 -rotate-90" />
+                <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">
+                  {bucket}
+                </h2>
+                <span className="text-xs text-muted-foreground">
+                  {list.length} {list.length === 1 ? 'system' : 'systems'} · {summaryCodes.toLocaleString()} codes
+                </span>
+              </div>
+            </summary>
+            <div className="grid sm:grid-cols-2 gap-3 mt-3">
+              {list.map((sys) => (
+                <SystemCard
+                  key={sys.id}
+                  system={sys}
+                  systemColor={getSystemColor(sys.id)}
+                  crosswalks={crosswalksBySource.get(sys.id) ?? []}
+                />
+              ))}
+            </div>
+          </details>
+        )
+      })}
     </div>
   )
 }

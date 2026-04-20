@@ -170,7 +170,7 @@ export default async function CrosswalkPairPage({ params }: Props) {
         </p>
         <div className="flex flex-wrap gap-3">
           <Link
-            href={`/crosswalk-explorer?source=${systemA}&target=${systemB}`}
+            href={`/crosswalks?source=${systemA}&target=${systemB}`}
             className="inline-flex items-center gap-2 rounded-full border border-primary bg-primary text-primary-foreground px-4 py-2 text-sm hover:bg-primary/90"
           >
             <Network className="size-4" />

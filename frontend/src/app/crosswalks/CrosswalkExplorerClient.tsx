@@ -32,15 +32,19 @@ interface Props {
   systems: ClassificationSystem[]
   stats: CrosswalkStat[]
   allSections: Record<string, CrosswalkSectionsResponse>
+  initialSource?: string
+  initialTarget?: string
 }
 
-export default function CrosswalkExplorerClient({ systems, stats, allSections }: Props) {
+export default function CrosswalkExplorerClient({ systems, stats, allSections, initialSource, initialTarget }: Props) {
   const router = useRouter()
   const graphRef = useRef<CrosswalkGraphHandle>(null)
   const [mode, setMode] = useState<Mode>('system')
-  const [sourceSystem, setSourceSystem] = useState('')
-  const [targetSystem, setTargetSystem] = useState('')
-  const [loadPair, setLoadPair] = useState<{ source: string; target: string } | null>(null)
+  const [sourceSystem, setSourceSystem] = useState(initialSource ?? '')
+  const [targetSystem, setTargetSystem] = useState(initialTarget ?? '')
+  const [loadPair, setLoadPair] = useState<{ source: string; target: string } | null>(
+    initialSource && initialTarget ? { source: initialSource, target: initialTarget } : null,
+  )
   const [activeSection, setActiveSection] = useState<string | null>(null)
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedNode, setSelectedNode] = useState<SelectedSystemNode | null>(null)

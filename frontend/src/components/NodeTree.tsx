@@ -25,6 +25,9 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
   const [suggestions, setSuggestions] = useState<GeneratedNode[] | null>(null)
   const [selected, setSelected] = useState<number[]>([])
   const [accepting, setAccepting] = useState(false)
+  // Codes the user explicitly dismissed this session. Prevents re-adding them
+  // on a subsequent magic-wand click. Cleared on "Dismiss all" or page reload.
+  const [dismissedCodes, setDismissedCodes] = useState<Set<string>>(new Set())
   const queryClient = useQueryClient()
 
   useEffect(() => {
@@ -76,13 +79,47 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
     setGenerating(true)
     try {
       const result = await generateTaxonomy(systemId, node.code)
-      setSuggestions(result.nodes)
-      setSelected(result.nodes.map((_, i) => i))
+      // Merge with any pending suggestions from a prior click, so re-running
+      // the wand does not lose the user's in-progress review. New items that
+      // collide (by code) with existing ones are dropped; dismissed codes are
+      // filtered out so we don't resurrect what the user rejected.
+      const fresh = result.nodes.filter(
+        (s) => !dismissedCodes.has(s.code)
+      )
+      setSuggestions((prev) => {
+        if (!prev || prev.length === 0) {
+          setSelected(fresh.map((_, i) => i))
+          return fresh
+        }
+        const seen = new Set(prev.map((s) => s.code))
+        const merged = [...prev, ...fresh.filter((s) => !seen.has(s.code))]
+        // Preserve previous selection offsets; auto-select the newly added rows.
+        const firstNewIdx = prev.length
+        const addedIdxs = merged
+          .map((_, i) => i)
+          .filter((i) => i >= firstNewIdx)
+        setSelected((prevSel) => Array.from(new Set([...prevSel, ...addedIdxs])))
+        return merged
+      })
     } catch {
-      setSuggestions([])
+      setSuggestions((prev) => prev ?? [])
     } finally {
       setGenerating(false)
     }
+  }
+
+  function handleDismissItem(idx: number) {
+    if (!suggestions) return
+    const code = suggestions[idx].code
+    setDismissedCodes((prev) => {
+      const next = new Set(prev)
+      next.add(code)
+      return next
+    })
+    setSuggestions((prev) => (prev ? prev.filter((_, i) => i !== idx) : prev))
+    setSelected((prev) =>
+      prev.filter((x) => x !== idx).map((x) => (x > idx ? x - 1 : x))
+    )
   }
 
   async function handleAccept() {
@@ -224,7 +261,11 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
                 All
               </button>
               <button
-                onClick={() => { setSuggestions(null); setSelected([]) }}
+                onClick={() => {
+                  setSuggestions(null)
+                  setSelected([])
+                  setDismissedCodes(new Set())
+                }}
                 className="text-[11px] text-muted-foreground hover:text-foreground"
               >
                 Dismiss
@@ -238,7 +279,7 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
             <>
               <ul className="px-3 py-1 space-y-0.5">
                 {suggestions.map((s, i) => (
-                  <li key={i} className="flex items-start gap-2 py-1">
+                  <li key={s.code} className="flex items-start gap-2 py-1 group/sug">
                     <input
                       type="checkbox"
                       checked={selected.includes(i)}
@@ -255,7 +296,21 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
                     >
                       {s.code}
                     </span>
-                    <span className="text-xs text-foreground/80">{s.title}</span>
+                    <div className="flex-1 min-w-0">
+                      <span className="text-xs text-foreground/80">{s.title}</span>
+                      {s.reason && (
+                        <p className="text-[11px] text-muted-foreground/80 mt-0.5 italic leading-snug">
+                          {s.reason}
+                        </p>
+                      )}
+                    </div>
+                    <button
+                      onClick={() => handleDismissItem(i)}
+                      title="Reject this suggestion (kept dismissed for this session)"
+                      className="shrink-0 text-muted-foreground/50 hover:text-rose-400 opacity-0 group-hover/sug:opacity-100 transition-opacity text-xs px-1"
+                    >
+                      x
+                    </button>
                   </li>
                 ))}
               </ul>

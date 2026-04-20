@@ -29,7 +29,7 @@ When in doubt, read the docs shipped with the installed version: `node_modules/n
 | `/explore` | `explore/page.tsx` + `ExploreContent.tsx` | SSR shell + client | Unified search + browse. Empty query -> browse view with category/sector filters and systems table. Non-empty query -> grouped search results. Reads `?q=`, `?cat=`, `?sector=` |
 | `/system/[id]` | `system/[id]/page.tsx` | SSR dynamic | System detail with hierarchy tree and crosswalks. `generateMetadata()` produces per-system OG tags |
 | `/system/[id]/node/[code]` | nested dynamic | SSR dynamic | Node detail with breadcrumb ancestors, children, cross-system equivalences |
-| `/crosswalk-explorer` | `crosswalk-explorer/page.tsx` + `CrosswalkExplorerClient.tsx` | SSR shell + client | Cytoscape.js graph. Lazy-loads the 300KB graph component |
+| `/crosswalks` + `/crosswalks/[systemA]/to/[systemB]` | `crosswalks/page.tsx` + `CrosswalkExplorerClient.tsx` | SSR shell + client | Cytoscape.js graph with major-pair directory. Reads `?source=&target=` to deep-link a preselected pair. Lazy-loads the 300KB graph component |
 | `/country/[code]` | dynamic | SSR | Country profile: systems ranked by relevance (official/regional/historical) |
 | `/guide` + `/guide/[slug]` | wiki index + dynamic | SSR | Renders [wiki/*.md](../../wiki/) via remark + remark-gfm + remark-html |
 | `/blog` + `/blog/[slug]` | SSR | SSR | Same, for [blog/](../../blog/) |

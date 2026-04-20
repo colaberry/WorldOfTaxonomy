@@ -1,14 +1,15 @@
 """AI-powered taxonomy generation.
 
-Calls Claude to suggest sub-classifications for any node on demand.
-Nothing is persisted until the user explicitly accepts the suggestions.
+Calls the shared LLM client (Ollama Cloud by default) to suggest
+sub-classifications for any node on demand. Nothing is persisted until the
+user explicitly accepts the suggestions.
 """
 from __future__ import annotations
 
 import json
-import os
 from typing import List
 
+from world_of_taxonomy import llm_client
 from world_of_taxonomy.api.schemas import GeneratedNode
 
 
@@ -119,16 +120,21 @@ Parent node:
 
 Rules:
 1. Generate exactly {count} sub-classifications.
-2. Each must be a genuine, meaningful sub-category of "{node['title']}".
+2. Each must be a genuine, meaningful sub-category of "{node['title']}" -
+   a true subtype, not a topic about the parent (e.g. for "Alkali Metals",
+   "Lithium Group" is a subtype; "Physical Properties of Alkali Metals" is NOT).
 3. Codes must be unique and follow the code format of this system.
 4. Titles should be concise (3-8 words), consistent with how this taxonomy names things.
 5. Descriptions are optional - only include if it genuinely adds clarity.
-6. Do NOT duplicate any existing children listed above.
-7. Output ONLY valid JSON, no markdown, no explanation.
+6. Reason is REQUIRED for every item: one short sentence (<=20 words) explaining
+   why this is a legitimate subtype of the parent. Humans use this to accept or
+   reject the suggestion.
+7. Do NOT duplicate any existing children listed above.
+8. Output ONLY valid JSON, no markdown, no explanation.
 
 Output format (JSON array):
 [
-  {{"code": "...", "title": "...", "description": "..."}},
+  {{"code": "...", "title": "...", "description": "...", "reason": "..."}},
   ...
 ]"""
 
@@ -139,29 +145,20 @@ async def generate_children(
     parent_code: str,
     count: int = 5,
 ) -> List[GeneratedNode]:
-    """Call Claude to suggest sub-classifications for a node.
+    """Call the configured LLM to suggest sub-classifications for a node.
 
     Does NOT write to the database. Returns suggestions for the user to review.
-    Raises ValueError if ANTHROPIC_API_KEY is not set.
+    Raises llm_client.LLMNotConfiguredError if OLLAMA_API_KEY is not set.
     """
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise ValueError("ANTHROPIC_API_KEY environment variable is not set")
-
-    import anthropic  # deferred import - optional dependency
-
     ctx = await _fetch_context(conn, system_id, parent_code)
     prompt = _build_prompt(ctx, count)
 
-    client = anthropic.Anthropic(api_key=api_key)
-    message = client.messages.create(
-        model="claude-sonnet-4-6",
+    raw = await llm_client.chat_json(
+        [{"role": "user", "content": prompt}],
         max_tokens=1024,
-        messages=[{"role": "user", "content": prompt}],
+        temperature=0.0,
     )
-
-    raw = message.content[0].text.strip()
-    # Strip markdown code fences if present
+    raw = raw.strip()
     if raw.startswith("```"):
         raw = raw.split("\n", 1)[1] if "\n" in raw else raw
         raw = raw.rsplit("```", 1)[0].strip()
@@ -172,6 +169,7 @@ async def generate_children(
             code=item["code"],
             title=item["title"],
             description=item.get("description") or None,
+            reason=item.get("reason") or None,
         )
         for item in data
     ]

@@ -294,3 +294,26 @@ async def get_crosswalk_stats(conn) -> List[Dict]:
            ORDER BY source_system, target_system"""
     )
     return [dict(r) for r in rows]
+
+
+async def get_crosswalk_stats_by_edge_kind(conn) -> List[Dict]:
+    """Get counts of equivalence edges grouped by computed edge_kind.
+
+    edge_kind is derived from whether each endpoint's system_id starts
+    with 'domain_' (domain taxonomy) vs anything else (official standard).
+    """
+    rows = await conn.fetch(
+        """SELECT
+                CASE WHEN starts_with(source_system, 'domain_') THEN 'domain' ELSE 'standard' END
+                || '_' ||
+                CASE WHEN starts_with(target_system, 'domain_') THEN 'domain' ELSE 'standard' END
+                AS edge_kind,
+                COUNT(*) AS edge_count,
+                COUNT(CASE WHEN match_type = 'exact'   THEN 1 END) AS exact_count,
+                COUNT(CASE WHEN match_type = 'partial' THEN 1 END) AS partial_count,
+                COUNT(CASE WHEN match_type = 'broad'   THEN 1 END) AS broad_count
+           FROM equivalence
+           GROUP BY edge_kind
+           ORDER BY edge_count DESC"""
+    )
+    return [dict(r) for r in rows]

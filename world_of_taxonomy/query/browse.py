@@ -6,6 +6,7 @@ ancestors, subtrees, and system metadata.
 
 from typing import List
 
+from world_of_taxonomy.category import get_category
 from world_of_taxonomy.exceptions import NodeNotFoundError, SystemNotFoundError
 from world_of_taxonomy.models import ClassificationNode, ClassificationSystem
 
@@ -30,6 +31,7 @@ def _row_to_system(row) -> ClassificationSystem:
         data_provenance=row.get("data_provenance"),
         license=row.get("license"),
         source_file_hash=row.get("source_file_hash"),
+        category=get_category(row["id"]),
     )
 
 

@@ -8,7 +8,7 @@ A narrative handover for an engineer (or a from-scratch rebuild team) with zero 
 
 Industry, product, occupation, and regulatory taxonomies are fragmented. The US uses NAICS; Europe uses NACE; the UN uses ISIC; healthcare uses ICD/LOINC/ATC; trade uses HS/CPC; occupations use SOC/ISCO/O\*NET; and every country ships its own flavor. Translating a single code across systems is painful, error-prone, and today happens inside consulting decks and throwaway spreadsheets.
 
-**WorldOfTaxonomy is a unified global classification knowledge graph.** It ingests 1,000+ classification systems as equal peers (no single "canonical" one) and connects them with 320K+ crosswalk edges. One Postgres graph, three surfaces on top: a **REST API**, an **MCP server**, and a **Next.js web app**. The full system catalog lives in [CLAUDE.md](CLAUDE.md).
+**WorldOfTaxonomy is a unified global classification knowledge graph.** It ingests 1,000+ classification systems as equal peers (no single "canonical" one) and connects them with 326K+ crosswalk edges. All 434 curated domain taxonomies are bridged to NAICS/ISIC/NACE via programmatic sector anchors (provenance `derived:sector_anchor:v1`, `match_type='broad'`), and every edge carries an `edge_kind` label ({`standard_standard`, `standard_domain`, `domain_standard`, `domain_domain`}). One Postgres graph, three surfaces on top: a **REST API**, an **MCP server**, and a **Next.js web app**. The full system catalog lives in [CLAUDE.md](CLAUDE.md).
 
 ---
 
@@ -129,11 +129,11 @@ Routers in [world_of_taxonomy/api/routers/](world_of_taxonomy/api/routers/): `sy
 
 ### MCP server
 
-Stdio JSON-RPC in [world_of_taxonomy/mcp/server.py](world_of_taxonomy/mcp/server.py). 23 tools defined in [world_of_taxonomy/mcp/protocol.py](world_of_taxonomy/mcp/protocol.py). Tool handlers in [world_of_taxonomy/mcp/handlers.py](world_of_taxonomy/mcp/handlers.py) reuse the same query layer as the REST API. The `initialize` response injects priority wiki pages (`getting-started`, `systems-catalog`, `crosswalk-map`, `industry-classification`, `categories-and-sectors`) as `instructions`, so host LLMs get 10-15K tokens of context upfront. Run locally: `python -m world_of_taxonomy mcp`. Shell wrapper: [run_mcp.sh](run_mcp.sh).
+Stdio JSON-RPC in [world_of_taxonomy/mcp/server.py](world_of_taxonomy/mcp/server.py). 24 tools defined in [world_of_taxonomy/mcp/protocol.py](world_of_taxonomy/mcp/protocol.py) (including `list_crosswalks_by_kind` for filtering crosswalk edges by the four `edge_kind` values). Tool handlers in [world_of_taxonomy/mcp/handlers.py](world_of_taxonomy/mcp/handlers.py) reuse the same query layer as the REST API. Systems, nodes, and `classify_business` results all carry a `category` field (`"domain"` or `"standard"`); `classify_business` returns `domain_matches` and `standard_matches` as separate arrays so hosts can surface the plain-language domain taxonomies first and the official standard codes second. The `initialize` response injects priority wiki pages (`getting-started`, `systems-catalog`, `crosswalk-map`, `industry-classification`, `categories-and-sectors`, `domain-vs-standard`) as `instructions`, so host LLMs get 10-15K tokens of context upfront. Run locally: `python -m world_of_taxonomy mcp`. Shell wrapper: [run_mcp.sh](run_mcp.sh).
 
 ### Web app
 
-Next.js 16 App Router under [frontend/src/app/](frontend/src/app/). Key pages: `/` (galaxy view), `/explore` (search + browse, SSR shell), `/system/[id]` + `/system/[id]/node/[code]` (detail pages), `/crosswalk-explorer` (Cytoscape graph), `/guide/[slug]` (wiki), `/blog/[slug]`, `/about`, `/pricing`, `/developers`, `/login`, `/auth/callback`. Full page inventory in [docs/handover/frontend.md](docs/handover/frontend.md).
+Next.js 16 App Router under [frontend/src/app/](frontend/src/app/). Key pages: `/` (galaxy view), `/explore` (search + browse, SSR shell), `/system/[id]` + `/system/[id]/node/[code]` (detail pages), `/crosswalks` (Cytoscape graph + pair directory), `/guide/[slug]` (wiki), `/blog/[slug]`, `/about`, `/pricing`, `/developers`, `/login`, `/auth/callback`. Full page inventory in [docs/handover/frontend.md](docs/handover/frontend.md).
 
 ---
 
@@ -270,7 +270,12 @@ Pair file naming is sorted: `pair__<alphabetically_first_system>___<second_syste
 | `DATABASE_URL` | backend | Postgres connection string (any provider: Neon, Supabase, RDS, self-hosted, local) | yes |
 | `JWT_SECRET` | backend | HS256 signing key, >=32 chars in prod | yes |
 | `BACKEND_URL` | backend OAuth, frontend SSR fetchers, sitemap | API base URL | prod yes, dev defaults to `http://localhost:8000` |
-| `ANTHROPIC_API_KEY` | backend | Enables `/classify` and AI taxonomy generation endpoints | optional |
+| `OLLAMA_API_KEY` | backend | Primary LLM provider. Enables `/generate` + `/classify` fallback. Routed via `world_of_taxonomy.llm_client` to Ollama Cloud's OpenAI-compatible endpoint | optional (either this or `OPENROUTER_API_KEY`) |
+| `OLLAMA_MODEL` | backend | Override Ollama model (default `gpt-oss:120b`) | optional |
+| `OLLAMA_BASE_URL` | backend | Override Ollama base URL (default `https://ollama.com/v1`) | optional |
+| `OPENROUTER_API_KEY` | backend | Fallback LLM provider. Used when Ollama is not configured or returns a transient HTTP error | optional |
+| `OPENROUTER_MODEL` | backend | Override OpenRouter model (default `openai/gpt-oss-120b`) | optional |
+| `OPENROUTER_BASE_URL` | backend | Override OpenRouter base URL (default `https://openrouter.ai/api/v1`) | optional |
 | `DISABLE_AUTH` | backend | Dev-only bypass (`true`/`1`/`yes`) | never in prod |
 | `REPORT_EMAIL` | backend | Session completion reports via Gmail MCP | optional |
 | `REVALIDATE_SECRET` | frontend | Validates the ISR revalidate webhook (constant-time compared) | optional |
@@ -288,7 +293,7 @@ Template: [.env.example](.env.example). `.env` is git-ignored.
 ### Deployment topology
 
 - **Frontend**: Vercel, served at `worldoftaxonomy.com`. Build-time: `npm run predev`/`prebuild` hooks copy `wiki/`, `blog/`, `crosswalk-data/`, and `tree-data/` into `frontend/src/content/`. Then `npm run build`.
-- **Backend + MCP**: container from [Dockerfile.backend](Dockerfile.backend), deployed at `wot.aixcelerator.app`. Entry: `uvicorn world_of_taxonomy.api.app:create_app --factory --host 0.0.0.0 --port 8000`. Container runs as non-root uid 10001 and has a Docker `HEALTHCHECK` probing `/api/v1/healthz`. `.dockerignore` trims build context.
+- **Backend + MCP**: container from [Dockerfile.backend](Dockerfile.backend), deployed at `wot.aixcelerator.ai`. Entry: `uvicorn world_of_taxonomy.api.app:create_app --factory --host 0.0.0.0 --port 8000`. Container runs as non-root uid 10001 and has a Docker `HEALTHCHECK` probing `/api/v1/healthz`. `.dockerignore` trims build context.
 - **Database**: any PostgreSQL 14+. If a pgbouncer-style pooler sits in front of it (Neon, Supabase pooled URL, self-hosted pgbouncer in transaction mode), set `statement_cache_size=0` in the asyncpg pool config. Direct connections don't need it. Schema evolution via Alembic ([migrations/](migrations/), psycopg v3 driver) on top of the baseline `schema*.sql`.
 - **Local dev stack**: [docker-compose.yml](docker-compose.yml).
 
@@ -388,7 +393,8 @@ What's queued: [ROADMAP.md](ROADMAP.md).
 | [docs/handover/backend.md](docs/handover/backend.md) | FastAPI internals, MCP, auth, ingest pipeline, wiki loader |
 | [docs/handover/frontend.md](docs/handover/frontend.md) | Next 16 specifics, App Router, data layer, SSR+React Query, theming, crosswalk bundling |
 | [docs/handover/rebuild-checklist.md](docs/handover/rebuild-checklist.md) | Step-by-step rebuild from zero |
-| [docs/handover/portfolio-auth.md](docs/handover/portfolio-auth.md) | Portfolio-wide auth: Zitadel Cloud (authN) at auth.aiaccelerator.ai + Permit.io (authZ) policy engine |
+| [docs/handover/portfolio-auth.md](docs/handover/portfolio-auth.md) | Portfolio-wide auth: Zitadel Cloud (authN) at auth.aixcelerator.ai + Permit.io (authZ) policy engine |
+| [docs/handover/domain-crosswalk-integration.md](docs/handover/domain-crosswalk-integration.md) | Sector-anchor generator that bridged 434 domain taxonomies to NAICS/ISIC/NACE + `edge_kind` labeling |
 | [DESIGN.md](DESIGN.md) | Architectural rationale and trade-offs |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | TDD workflow + 7-step new-system checklist |
 | [DATA_SOURCES.md](DATA_SOURCES.md) | Upstream authority, license, URL for every system |

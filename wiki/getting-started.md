@@ -103,7 +103,7 @@ Transport: stdio. The server exposes 23 tools and wiki-based resources. It works
 | `get_equivalences` | Get crosswalk mappings | "What does ICD-10-CM E11 map to?" |
 | `translate_code` | Translate a code to another system | "Convert SOC 29-1211 to ISCO" |
 | `translate_across_all_systems` | Translate to all connected systems | "All equivalents for NAICS 4841" |
-| `classify_business` | Classify free text into taxonomy codes | "Classify: mobile app for pet sitting" |
+| `classify_business` | Classify free text into taxonomy codes (returns `domain_matches` + `standard_matches`) | "Classify: mobile app for pet sitting" |
 | `get_audit_report` | Data provenance and quality audit | "Show provenance breakdown" |
 | `get_country_taxonomy_profile` | Systems applicable to a country | "What systems apply in Brazil?" |
 
@@ -215,7 +215,7 @@ sequenceDiagram
 
 | Endpoint | Description |
 |----------|-------------|
-| `POST /classify` | Classify free text into taxonomy codes |
+| `POST /classify` | Classify free text; returns `domain_matches` + `standard_matches` (see [domain-vs-standard](/guide/domain-vs-standard)) |
 
 ### Countries
 

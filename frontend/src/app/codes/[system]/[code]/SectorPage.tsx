@@ -5,7 +5,7 @@ import type {
   Equivalence,
 } from '@/lib/types'
 import { getSystemColor } from '@/lib/colors'
-import { ArrowRight, ExternalLink, Layers, Network } from 'lucide-react'
+import { ArrowRight, ExternalLink, Layers, Network, Sparkles } from 'lucide-react'
 
 interface SectorPageProps {
   system: ClassificationSystem
@@ -255,6 +255,19 @@ export function SectorPage({
             <span>{equivalences.length} cross-system {equivalences.length === 1 ? 'mapping' : 'mappings'}</span>
           )}
         </div>
+        <Link
+          href="/classify"
+          className="inline-flex items-center gap-2 mt-2 rounded-lg border border-amber-300/60 dark:border-amber-400/30 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 px-3.5 py-2 text-sm hover:from-amber-100 hover:to-orange-100 dark:hover:from-amber-950/50 dark:hover:to-orange-950/50 transition-colors group"
+        >
+          <Sparkles className="size-3.5 text-amber-600 dark:text-amber-400" />
+          <span className="text-foreground">
+            Is your business really a <span className="font-mono font-semibold">{node.code}</span>?
+          </span>
+          <span className="text-amber-700 dark:text-amber-300 font-medium">
+            Classify it
+          </span>
+          <ArrowRight className="size-3.5 text-amber-700 dark:text-amber-300 group-hover:translate-x-0.5 transition-transform" />
+        </Link>
       </header>
 
       {/* Hierarchy */}
@@ -370,7 +383,7 @@ export function SectorPage({
                     </Link>
                     <span className="text-muted-foreground/70">|</span>
                     <Link
-                      href={`/crosswalk-explorer?source=${system.id}&target=${group.target_system}`}
+                      href={`/crosswalks?source=${system.id}&target=${group.target_system}`}
                       className="text-primary underline"
                     >
                       interactive explorer

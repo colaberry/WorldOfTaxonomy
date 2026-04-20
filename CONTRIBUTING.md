@@ -104,7 +104,29 @@ python3 -c "import pathlib; [exit(1) for f in pathlib.Path('.').rglob('*.py') if
 3. Update `DATA_SOURCES.md` - add attribution row
 4. Update `CHANGELOG.md` - add entry under `[Unreleased]`
 
-### Step 4 - Commit
+### Step 4 - Verify frontend routes
+
+The `/codes` hub lists every system in the database. A new system's hub and deep-code pages must serve 200 on-demand.
+
+**Rule.** `MAJOR_SYSTEMS` in `frontend/src/app/codes/constants.ts` is a **build-time scope list** (used by `generateStaticParams` and `sitemap.ts`), not a serve-time allowlist. The dynamic routes `/codes/[system]` and `/codes/[system]/[code]` MUST NOT hard-gate on `isMajorSystem()`. If you see a PR reintroduce such a gate, reject it - it 404s every non-curated system. Invalid system/code combos are caught by the existing `try/catch -> notFound()` around `serverGetNode` / `serverGetSystem`.
+
+**Smoke test after ingest.** With the backend and frontend dev servers running:
+
+```bash
+SYSTEM=<new_system_id>
+SAMPLE_CODE=<a top-level code you just ingested>
+for url in \
+  http://localhost:3001/codes/$SYSTEM \
+  http://localhost:3001/codes/$SYSTEM/$SAMPLE_CODE; do
+  echo "$(curl -s -o /dev/null -w '%{http_code}' "$url") $url"
+done
+```
+
+Both must return 200. If either 404s, the route is gated - fix the route, not the data.
+
+**When to add to `MAJOR_SYSTEMS`.** Only when the system is commercially significant enough to warrant pre-rendering its sector pages at build time (SEO priority). Most new systems do not need this - ISR serves them fine on first request.
+
+### Step 5 - Commit
 
 ```bash
 git add world_of_taxonomy/ingest/<system>.py tests/test_ingest_<system>.py
@@ -122,6 +144,7 @@ git commit -m "feat: ingest <system> (<N> codes, TDD green)"
 - [ ] CLI registered
 - [ ] CLAUDE.md, DATA_SOURCES.md, CHANGELOG.md updated
 - [ ] Full test suite passes: `python3 -m pytest tests/ -v`
+- [ ] Frontend smoke test: `/codes/<new_system>` and `/codes/<new_system>/<code>` both return 200
 
 ---
 

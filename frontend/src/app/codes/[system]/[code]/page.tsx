@@ -9,7 +9,7 @@ import {
   serverGetSystem,
   serverGetSystems,
 } from '@/lib/server-api'
-import { MAJOR_SYSTEMS, isMajorSystem } from '../../constants'
+import { MAJOR_SYSTEMS } from '../../constants'
 import { SectorPage } from './SectorPage'
 
 interface Props {
@@ -75,9 +75,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CodePage({ params }: Props) {
   const { system, code } = await params
-  if (!isMajorSystem(system)) {
-    notFound()
-  }
   const nodeCode = decodeURIComponent(code)
 
   let node, ancestors, children, equivalences, allSystems, systemDetail, siblings

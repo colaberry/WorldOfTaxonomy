@@ -8,7 +8,7 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { ChevronDown, Globe, LogIn, LogOut, User } from 'lucide-react'
+import { ChevronDown, Globe, LogIn, LogOut, Sparkles, User } from 'lucide-react'
 import { ThemeToggle } from '@/components/ThemeToggle'
 import { getStoredUser, clearAuth, isLoggedIn } from '@/lib/auth'
 import type { StoredUser } from '@/lib/auth'
@@ -24,9 +24,8 @@ export function Header() {
 
   const navItems = [
     { href: '/', label: 'Galaxy', active: pathname === '/' },
-    { href: '/crosswalks', label: 'Crosswalks', active: pathname === '/crosswalks' || pathname.startsWith('/crosswalks/') || pathname === '/crosswalk-explorer' },
+    { href: '/crosswalks', label: 'Crosswalks', active: pathname === '/crosswalks' || pathname.startsWith('/crosswalks/') },
     { href: '/explore', label: 'Explore', active: pathname === '/explore' },
-    { href: '/classify', label: 'Classify', active: pathname.startsWith('/classify') },
     { href: '/codes', label: 'Codes', active: pathname.startsWith('/codes') },
     { href: '/guide', label: 'Guide', active: pathname.startsWith('/guide') },
     { href: '/blog',  label: 'Blog',  active: pathname.startsWith('/blog') },
@@ -67,6 +66,19 @@ export function Header() {
               {item.label}
             </Link>
           ))}
+
+          <Link
+            href="/classify"
+            className={`ml-1 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all shadow-sm ${
+              pathname.startsWith('/classify')
+                ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white ring-2 ring-amber-300/60 dark:ring-amber-400/40'
+                : 'bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-400 hover:to-orange-400 hover:shadow-md'
+            }`}
+          >
+            <Sparkles className="h-3.5 w-3.5" />
+            <span className="hidden md:inline">Classify My Business</span>
+            <span className="md:hidden">Classify</span>
+          </Link>
 
           {/* Auth */}
           {user ? (

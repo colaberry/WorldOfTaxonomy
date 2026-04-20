@@ -2,9 +2,17 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { AlertTriangle, ArrowRight, CheckCircle2, Loader2, Sparkles } from 'lucide-react'
-import { classifyDemo, ApiError, type ClassifyDemoResponse } from '@/lib/api'
+import { AlertTriangle, ArrowRight, Briefcase, CheckCircle2, ChevronDown, ChevronUp, GitBranch, Layers, Loader2, Network, Sparkles } from 'lucide-react'
+import {
+  classifyDemo,
+  ApiError,
+  type ClassifyDemoAtom,
+  type ClassifyDemoResponse,
+} from '@/lib/api'
 import { getSystemColor } from '@/lib/colors'
+import { MatchCrosswalkMiniGraph } from '@/components/classify/MatchCrosswalkMiniGraph'
+import { MatchHierarchyMiniGraph } from '@/components/classify/MatchHierarchyMiniGraph'
+import { PartitionedSections } from '@/components/classify/PartitionedMatches'
 
 const EMAIL_KEY = 'wot_classify_lead_email'
 const EXAMPLES = [
@@ -167,7 +175,8 @@ export function ClassifyTool() {
 }
 
 function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
-  const hasMatches = data.matches.length > 0
+  const hasMatches = data.domain_matches.length + data.standard_matches.length > 0
+  const isCompound = data.compound === true && Array.isArray(data.atoms) && data.atoms.length > 0
 
   return (
     <div className="space-y-6">
@@ -176,7 +185,28 @@ function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
         Results for <span className="font-medium text-foreground">&ldquo;{data.query}&rdquo;</span>
       </div>
 
-      {!hasMatches ? (
+      {data.llm_used && data.llm_keywords && data.llm_keywords.length > 0 && (
+        <div className="flex flex-wrap items-center gap-2 rounded-lg border border-violet-400/30 bg-violet-50/60 dark:bg-violet-400/5 px-3 py-2 text-xs">
+          <Sparkles className="size-3.5 text-violet-600 dark:text-violet-400 shrink-0" />
+          <span className="text-muted-foreground">
+            No direct matches, so we expanded your query with AI:
+          </span>
+          <span className="flex flex-wrap gap-1.5">
+            {data.llm_keywords.map((kw) => (
+              <span
+                key={kw}
+                className="rounded-full border border-violet-400/40 bg-white dark:bg-violet-950/40 px-2 py-0.5 font-mono text-[11px] text-violet-700 dark:text-violet-300"
+              >
+                {kw}
+              </span>
+            ))}
+          </span>
+        </div>
+      )}
+
+      {isCompound ? (
+        <CompoundResults data={data} />
+      ) : !hasMatches ? (
         <div className="rounded-xl border border-border bg-card p-6 text-sm">
           <p className="font-medium">No strong matches found.</p>
           <p className="text-muted-foreground mt-2">
@@ -186,11 +216,10 @@ function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
           </p>
         </div>
       ) : (
-        <div className="grid gap-4">
-          {data.matches.map((match) => (
-            <SystemMatchCard key={match.system_id} match={match} />
-          ))}
-        </div>
+        <PartitionedMatches
+          domainMatches={data.domain_matches}
+          standardMatches={data.standard_matches}
+        />
       )}
 
       {/* Upgrade CTA */}
@@ -228,12 +257,151 @@ function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
   )
 }
 
+function CompoundResults({ data }: { data: ClassifyDemoResponse }) {
+  const atoms = data.atoms ?? []
+  const hero: ClassifyDemoAtom | null =
+    data.hero ??
+    atoms.find((a) => a.domain_matches.length + a.standard_matches.length > 0) ??
+    atoms[0] ??
+    null
+  const rest = atoms.filter((a) => a !== hero)
+
+  return (
+    <div className="space-y-5">
+      {/* Compound detection banner */}
+      <div className="flex items-start gap-3 rounded-xl border border-amber-400/30 bg-amber-50/40 dark:bg-amber-400/5 p-4">
+        <Layers className="size-5 text-amber-500 mt-0.5 shrink-0" />
+        <div className="flex-1 space-y-1">
+          <p className="text-sm font-semibold">
+            We detected {atoms.length} distinct business lines in your description.
+          </p>
+          <p className="text-xs text-muted-foreground">
+            Compound establishments often need multiple NAICS / ISIC codes (primary + secondary).
+            We&rsquo;re showing the full classification for the first line below, plus the others we detected.
+          </p>
+        </div>
+      </div>
+
+      {/* Hero atom - full results */}
+      {hero && (
+        <div className="space-y-3">
+          <div className="flex items-baseline gap-2">
+            <span className="text-[10px] uppercase tracking-wide font-semibold text-primary bg-primary/10 rounded px-2 py-0.5">
+              Featured line
+            </span>
+            <h3 className="text-sm font-medium">{hero.phrase}</h3>
+          </div>
+          {hero.domain_matches.length + hero.standard_matches.length > 0 ? (
+            <PartitionedMatches
+              domainMatches={hero.domain_matches}
+              standardMatches={hero.standard_matches}
+            />
+          ) : (
+            <div className="rounded-xl border border-border bg-card p-4 text-sm text-muted-foreground">
+              No automatic match for &ldquo;{hero.phrase}&rdquo; - our team can help classify it correctly.
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Other detected atoms - teased */}
+      {rest.length > 0 && (
+        <div className="rounded-xl border border-border bg-card/50 p-4 sm:p-5 space-y-3">
+          <div className="flex items-center gap-2 text-sm font-medium">
+            <Briefcase className="size-4 text-muted-foreground" />
+            Other business lines detected
+          </div>
+          <ul className="grid sm:grid-cols-2 gap-2">
+            {rest.map((a) => {
+              const top =
+                a.domain_matches[0]?.results[0] ?? a.standard_matches[0]?.results[0]
+              return (
+                <li
+                  key={a.phrase}
+                  className="flex items-start justify-between gap-3 rounded-md border border-border bg-background px-3 py-2"
+                >
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-medium truncate">{a.phrase}</div>
+                    {top ? (
+                      <div className="text-xs text-muted-foreground truncate">
+                        <span className="font-mono">{top.code}</span> {top.title}
+                      </div>
+                    ) : (
+                      <div className="text-xs text-muted-foreground italic">
+                        Classification pending review
+                      </div>
+                    )}
+                  </div>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      )}
+
+      {/* Consultation CTA - primary revenue hook for compound cases */}
+      {data.cta && (
+        <div className="rounded-xl border-2 border-primary/40 bg-gradient-to-br from-primary/10 to-primary/5 p-5 sm:p-6">
+          <div className="flex items-start gap-3">
+            <Sparkles className="size-5 text-primary mt-0.5 shrink-0" />
+            <div className="flex-1 space-y-2">
+              <h3 className="font-semibold">{data.cta.title}</h3>
+              <p className="text-sm text-muted-foreground">{data.cta.message}</p>
+              <Link
+                href={data.cta.url}
+                className="inline-flex items-center gap-1 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+              >
+                {data.cta.cta_label} <ArrowRight className="size-3.5" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
+function PartitionedMatches({
+  domainMatches,
+  standardMatches,
+}: {
+  domainMatches: ClassifyDemoResponse['domain_matches']
+  standardMatches: ClassifyDemoResponse['standard_matches']
+}) {
+  return (
+    <PartitionedSections
+      domain={{
+        items: domainMatches,
+        heading: 'Start here: Domain taxonomies',
+        caption: 'Plain-language categories curated by WorldOfTaxonomy',
+      }}
+      standard={{
+        items: standardMatches,
+        heading: 'Official standard codes',
+        caption: 'NAICS, ISIC, NACE, SIC, SOC and peers',
+      }}
+      getKey={(match) => match.system_id}
+      renderItem={(match, i, section) => (
+        <SystemMatchCard
+          match={match}
+          defaultShowHierarchy={section === 'domain' ? i === 0 : false}
+        />
+      )}
+    />
+  )
+}
+
 function SystemMatchCard({
   match,
+  defaultShowHierarchy = false,
 }: {
-  match: ClassifyDemoResponse['matches'][number]
+  match: ClassifyDemoResponse['domain_matches'][number]
+  defaultShowHierarchy?: boolean
 }) {
   const color = getSystemColor(match.system_id)
+  const [showGraph, setShowGraph] = useState(false)
+  const [showHierarchy, setShowHierarchy] = useState(defaultShowHierarchy)
+  const topResult = match.results[0]
 
   return (
     <div className="rounded-xl border border-border bg-card overflow-hidden">
@@ -282,6 +450,67 @@ function SystemMatchCard({
           </li>
         ))}
       </ul>
+      {topResult && (
+        <div className="border-t border-border divide-y divide-border">
+          <div>
+            <button
+              type="button"
+              onClick={() => setShowHierarchy((s) => !s)}
+              className="w-full flex items-center justify-between px-5 py-2.5 text-xs text-muted-foreground hover:text-foreground hover:bg-muted/40 transition-colors"
+              aria-expanded={showHierarchy}
+            >
+              <span className="flex items-center gap-1.5">
+                <GitBranch className="size-3.5" />
+                {showHierarchy ? 'Hide hierarchy' : 'Show hierarchy'}
+                <span className="font-mono">({topResult.code})</span>
+              </span>
+              {showHierarchy ? (
+                <ChevronUp className="size-3.5" />
+              ) : (
+                <ChevronDown className="size-3.5" />
+              )}
+            </button>
+            {showHierarchy && (
+              <div className="px-5 pb-4 pt-1">
+                <MatchHierarchyMiniGraph
+                  systemId={match.system_id}
+                  code={topResult.code}
+                  title={topResult.title}
+                />
+              </div>
+            )}
+          </div>
+          <div>
+            <button
+              type="button"
+              onClick={() => setShowGraph((s) => !s)}
+              className="w-full flex items-center justify-between px-5 py-2.5 text-xs text-muted-foreground hover:text-foreground hover:bg-muted/40 transition-colors"
+              aria-expanded={showGraph}
+            >
+              <span className="flex items-center gap-1.5">
+                <Network className="size-3.5" />
+                {showGraph ? 'Hide crosswalks' : 'Show crosswalks to other systems'}
+                <span className="font-mono">({topResult.code})</span>
+              </span>
+              {showGraph ? (
+                <ChevronUp className="size-3.5" />
+              ) : (
+                <ChevronDown className="size-3.5" />
+              )}
+            </button>
+            {showGraph && (
+              <div className="px-5 pb-4 pt-1">
+                <MatchCrosswalkMiniGraph
+                  systemId={match.system_id}
+                  systemName={match.system_name}
+                  code={topResult.code}
+                  title={topResult.title}
+                />
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   )
 }

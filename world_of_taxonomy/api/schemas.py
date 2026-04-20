@@ -1,7 +1,9 @@
 """Pydantic response models for the REST API."""
 
-from typing import List, Optional
-from pydantic import BaseModel, EmailStr, Field
+from typing import Any, List, Optional
+from pydantic import BaseModel, EmailStr, Field, model_validator
+
+from world_of_taxonomy.category import compute_edge_kind, get_category
 
 
 class SystemResponse(BaseModel):
@@ -19,6 +21,17 @@ class SystemResponse(BaseModel):
     data_provenance: Optional[str] = None
     license: Optional[str] = None
     source_file_hash: Optional[str] = None
+    category: str = Field(
+        "standard",
+        description="'domain' for curated WoT Domain taxonomies (id starts 'domain_'), 'standard' otherwise.",
+    )
+
+    @model_validator(mode="before")
+    @classmethod
+    def _derive_category(cls, values: Any) -> Any:
+        if isinstance(values, dict) and values.get("id"):
+            values = {**values, "category": get_category(values["id"])}
+        return values
 
 
 class NodeResponse(BaseModel):
@@ -32,12 +45,24 @@ class NodeResponse(BaseModel):
     sector_code: Optional[str] = None
     is_leaf: bool = False
     seq_order: int = 0
+    # Derived from system_id: drives two-section rendering on mixed lists.
+    category: str = Field(
+        "standard",
+        description="'domain' if system_id starts 'domain_', else 'standard'.",
+    )
     # Provenance fields (from parent classification_system)
     data_provenance: Optional[str] = None
     license: Optional[str] = None
     source_url: Optional[str] = None
     source_date: Optional[str] = None
     source_file_hash: Optional[str] = None
+
+    @model_validator(mode="before")
+    @classmethod
+    def _derive_category(cls, values: Any) -> Any:
+        if isinstance(values, dict) and values.get("system_id"):
+            values = {**values, "category": get_category(values["system_id"])}
+        return values
 
 
 class SystemDetailResponse(SystemResponse):
@@ -53,6 +78,33 @@ class EquivalenceResponse(BaseModel):
     notes: Optional[str] = None
     source_title: Optional[str] = None
     target_title: Optional[str] = None
+    source_category: str = Field(
+        "standard",
+        description="Category of source_system: 'domain' or 'standard'.",
+    )
+    target_category: str = Field(
+        "standard",
+        description="Category of target_system: 'domain' or 'standard'.",
+    )
+    edge_kind: str = Field(
+        "standard_standard",
+        description="One of: standard_standard, standard_domain, domain_standard, domain_domain.",
+    )
+
+    @model_validator(mode="before")
+    @classmethod
+    def _derive_edge_kind(cls, values: Any) -> Any:
+        if isinstance(values, dict):
+            src = values.get("source_system")
+            tgt = values.get("target_system")
+            if src and tgt:
+                values = {
+                    **values,
+                    "source_category": get_category(src),
+                    "target_category": get_category(tgt),
+                    "edge_kind": compute_edge_kind(src, tgt),
+                }
+        return values
 
 
 class CrosswalkStatResponse(BaseModel):
@@ -61,6 +113,14 @@ class CrosswalkStatResponse(BaseModel):
     edge_count: int
     exact_count: int
     partial_count: int
+
+
+class EdgeKindStatResponse(BaseModel):
+    edge_kind: str
+    edge_count: int
+    exact_count: int = 0
+    partial_count: int = 0
+    broad_count: int = 0
 
 
 class CrosswalkGraphNode(BaseModel):
@@ -191,6 +251,7 @@ class GeneratedNode(BaseModel):
     code: str
     title: str
     description: Optional[str] = None
+    reason: Optional[str] = None
 
 
 class GenerateTaxonomyResponse(BaseModel):

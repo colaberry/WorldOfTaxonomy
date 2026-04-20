@@ -10,7 +10,7 @@
 
 This doc lives in the WorldOfTaxonomy repo because WoT is the first
 product to need the integration, but the design is portfolio-wide. It
-applies to every product under `aiaccelerator.ai`:
+applies to every product under `aixcelerator.ai`:
 
 - WorldOfTaxonomy (`worldoftaxonomy.com`)
 - WorldOfOntology (planned)
@@ -21,7 +21,7 @@ applies to every product under `aiaccelerator.ai`:
 ## Goal
 
 One identity across the portfolio. A user signs in once at
-`auth.aiaccelerator.ai`, lands back on any World-Of site already logged
+`auth.aixcelerator.ai`, lands back on any World-Of site already logged
 in, sees one account page, has one billing relationship, and uses one
 set of API keys that work across every product with per-product
 entitlements.
@@ -46,7 +46,7 @@ per request.
 ## Decision: Zitadel Cloud (authentication)
 
 The central Identity Provider is **Zitadel Cloud**, hosted at
-`auth.aiaccelerator.ai`. The decision criteria and the alternatives
+`auth.aixcelerator.ai`. The decision criteria and the alternatives
 considered are captured in [memory](../../../.claude/...). Short version:
 
 | Requirement | Why Zitadel Cloud |
@@ -110,7 +110,7 @@ Rejected alternatives:
 
 ```
     ┌─────────────────────────────────┐      ┌─────────────────────────────────┐
-    │  auth.aiaccelerator.ai          │      │  Permit.io (hosted PDP)         │
+    │  auth.aixcelerator.ai          │      │  Permit.io (hosted PDP)         │
     │  (Zitadel Cloud)                │      │                                 │
     │                                 │      │  - Policy-as-code (GitOps)      │
     │  - Login, MFA, social, SSO      │      │  - ABAC (OPA) + ReBAC (OpenFGA) │
@@ -148,7 +148,7 @@ Rejected alternatives:
 
 Every product, every protected request:
 
-1. Redirects unauthenticated web users to `auth.aiaccelerator.ai/login`.
+1. Redirects unauthenticated web users to `auth.aixcelerator.ai/login`.
 2. On callback, verifies the Zitadel-issued ID token via cached JWKS,
    then mints (or accepts) its own session.
 3. Verifies REST/MCP bearer tokens against Zitadel's JWKS (RS256).
@@ -170,7 +170,7 @@ migration replaces the first three and re-homes the fourth:
 
 | Today (WoT-local) | After migration (Zitadel-backed) |
 |-------------------|-----------------------------------|
-| `POST /auth/register` + bcrypt | Deleted. Users register at `auth.aiaccelerator.ai`. |
+| `POST /auth/register` + bcrypt | Deleted. Users register at `auth.aixcelerator.ai`. |
 | `POST /auth/login` + HS256 JWT | Deleted. Login happens at Zitadel; backend verifies RS256 JWT via JWKS. |
 | `/auth/oauth/{github,google,linkedin}` | Deleted. Social providers are configured once inside Zitadel. |
 | `JWT_SECRET` env var | Deleted. Replaced by `ZITADEL_ISSUER` + JWKS URL. |
@@ -181,7 +181,7 @@ migration replaces the first three and re-homes the fourth:
 ## Migration path for WoT
 
 1. **Provision.** Create a Zitadel Cloud instance, point
-   `auth.aiaccelerator.ai` at it, register WoT as an OIDC application
+   `auth.aixcelerator.ai` at it, register WoT as an OIDC application
    with callback `https://worldoftaxonomy.com/auth/callback`. Import
    GitHub / Google / LinkedIn social providers inside Zitadel (removes
    the per-product provider admin-console work forever).
@@ -262,8 +262,8 @@ because the pattern is already worn in.
 ## Decisions locked in (2026-04-18)
 
 - **Domain standardization.** Portfolio standardizes on
-  `aiaccelerator.ai`. WoT's API moves from `wot.aixcelerator.app` to
-  `wot.aiaccelerator.ai`. Auth lives at `auth.aiaccelerator.ai`. The
+  `aixcelerator.ai`. WoT's API moves from `wot.aixcelerator.app` to
+  `wot.aixcelerator.ai`. Auth lives at `auth.aixcelerator.ai`. The
   migration is a CORS + OAuth-callback + docs-URL update, not a rebuild.
 - **Permit.io project scope.** One portfolio-wide Permit.io project.
   Motivation: cross-product policies (e.g., "enterprise seat on WoT

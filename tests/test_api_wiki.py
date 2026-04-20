@@ -37,7 +37,7 @@ class TestWikiAPI:
             assert resp.status_code == 200
             data = resp.json()
             assert isinstance(data, list)
-            assert len(data) == 10  # 9 content pages + architecture
+            assert len(data) == 11  # 10 content pages + architecture
 
         _run(_test())
 

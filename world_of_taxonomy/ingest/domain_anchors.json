@@ -1,0 +1,2515 @@
+{
+  "domain_accessibility": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_accreditation": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_actuarial_method": {
+    "naics": [
+      "524"
+    ]
+  },
+  "domain_adr": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_adv_materials": {
+    "naics": [
+      "325",
+      "3261"
+    ]
+  },
+  "domain_adverse_event": {
+    "naics": [
+      "5417",
+      "6215"
+    ]
+  },
+  "domain_advertising_mktg": {
+    "naics": [
+      "5418"
+    ]
+  },
+  "domain_ag_business": {
+    "naics": [
+      "111",
+      "112"
+    ]
+  },
+  "domain_ag_crop": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_ag_equipment": {
+    "naics": [
+      "3331"
+    ]
+  },
+  "domain_ag_grade": {
+    "naics": [
+      "111",
+      "112"
+    ]
+  },
+  "domain_ag_input": {
+    "naics": [
+      "3253",
+      "4245"
+    ]
+  },
+  "domain_ag_land": {
+    "naics": [
+      "111",
+      "112"
+    ]
+  },
+  "domain_ag_livestock": {
+    "naics": [
+      "112",
+      "1141"
+    ]
+  },
+  "domain_ag_market": {
+    "naics": [
+      "111",
+      "112"
+    ]
+  },
+  "domain_ag_method": {
+    "naics": [
+      "111",
+      "112",
+      "115"
+    ]
+  },
+  "domain_ag_postharvest": {
+    "naics": [
+      "4931",
+      "1151"
+    ]
+  },
+  "domain_ag_regulatory": {
+    "naics": [
+      "111",
+      "112"
+    ]
+  },
+  "domain_agritech": {
+    "naics": [
+      "5415",
+      "111"
+    ]
+  },
+  "domain_ai_data": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_ai_deployment": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_ai_governance": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_air_quality": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_allied_health": {
+    "naics": [
+      "6221",
+      "6211"
+    ]
+  },
+  "domain_ancillary": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_anesthesia": {
+    "naics": [
+      "6221",
+      "6211"
+    ]
+  },
+  "domain_antitrust": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_api_architecture": {
+    "naics": [
+      "5415"
+    ]
+  },
+  "domain_apprentice": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_aquaponics": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_arb_type": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_arts_content": {
+    "naics": [
+      "711",
+      "713"
+    ]
+  },
+  "domain_arts_creator": {
+    "naics": [
+      "711",
+      "713"
+    ]
+  },
+  "domain_arts_monetization": {
+    "naics": [
+      "711",
+      "713"
+    ]
+  },
+  "domain_arts_venue": {
+    "naics": [
+      "711",
+      "713"
+    ]
+  },
+  "domain_auto_vehicle_level": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_aviation_service": {
+    "naics": [
+      "481",
+      "3364"
+    ]
+  },
+  "domain_backup": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_battery_tech": {
+    "naics": [
+      "2211",
+      "3359"
+    ]
+  },
+  "domain_biobank": {
+    "naics": [
+      "5417",
+      "6215"
+    ]
+  },
+  "domain_biodiv_offset": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_biofuel": {
+    "naics": [
+      "2211"
+    ]
+  },
+  "domain_biomarker": {
+    "naics": [
+      "5417",
+      "6215"
+    ]
+  },
+  "domain_biosimilar": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_biotech": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_biotech_business": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_biotech_regulatory": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_blue_team": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_bond_rating": {
+    "naics": [
+      "523"
+    ]
+  },
+  "domain_brownfield": {
+    "naics": [
+      "5629"
+    ]
+  },
+  "domain_building_auto": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_building_code": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_bundled_pay": {
+    "naics": [
+      "6215",
+      "5415"
+    ]
+  },
+  "domain_capacity_mkt": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_capitation": {
+    "naics": [
+      "6215",
+      "5415"
+    ]
+  },
+  "domain_carbon_credit": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_carbon_offset": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_cds": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_cell_therapy": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_cert_authority": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_chemical_hazard": {
+    "naics": [
+      "325"
+    ]
+  },
+  "domain_chemical_regulatory": {
+    "naics": [
+      "325"
+    ]
+  },
+  "domain_chemical_type": {
+    "naics": [
+      "325"
+    ]
+  },
+  "domain_childcare_early": {
+    "naics": [
+      "6244"
+    ]
+  },
+  "domain_cicd_pipeline": {
+    "naics": [
+      "211",
+      "2212",
+      "4861"
+    ]
+  },
+  "domain_circular_econ": {
+    "naics": [
+      "5615",
+      "5621"
+    ]
+  },
+  "domain_class_action": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_cleanroom": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_cleantech": {
+    "naics": [
+      "5415"
+    ]
+  },
+  "domain_climate_finance": {
+    "naics": [
+      "522",
+      "523"
+    ]
+  },
+  "domain_climate_policy": {
+    "naics": [
+      "5417",
+      "2211"
+    ]
+  },
+  "domain_climate_tech": {
+    "naics": [
+      "5417",
+      "2211"
+    ]
+  },
+  "domain_clinical_endpoint": {
+    "naics": [
+      "5417",
+      "6215"
+    ]
+  },
+  "domain_clinical_reg": {
+    "naics": [
+      "5417",
+      "6215"
+    ]
+  },
+  "domain_clinical_trial": {
+    "naics": [
+      "5417",
+      "6215"
+    ]
+  },
+  "domain_cloud_service": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_cogeneration": {
+    "naics": [
+      "2211",
+      "3359"
+    ]
+  },
+  "domain_cold_chain": {
+    "naics": [
+      "4931",
+      "1151"
+    ]
+  },
+  "domain_coll_bargain": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_commercial_lending": {
+    "naics": [
+      "531"
+    ]
+  },
+  "domain_commissioning": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_commodity_trading": {
+    "naics": [
+      "523"
+    ]
+  },
+  "domain_comp_structure": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_companion_dx": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_competency": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_const_building": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_const_delivery": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_const_material": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_const_sustainability": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_const_trade": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_construction_permit": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_consumer_prot": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_container_orch": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_copyright": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_coral_reef": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_corrections": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_court_type": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_coworking": {
+    "naics": [
+      "5311",
+      "5321"
+    ]
+  },
+  "domain_credit_rating": {
+    "naics": [
+      "523"
+    ]
+  },
+  "domain_crop_protection": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_cross_dock": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_curriculum": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_customs_class": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_customs_proc": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_cyber_framework": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_cyber_threat": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_data_catalog": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_data_governance": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_data_lakehouse": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_data_lineage": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_data_mesh": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_data_quality": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_database_type": {
+    "naics": [
+      "5415"
+    ]
+  },
+  "domain_datacenter_cloud": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_defence_acquisition": {
+    "naics": [
+      "3364",
+      "5415"
+    ]
+  },
+  "domain_defence_trl": {
+    "naics": [
+      "3364",
+      "5415"
+    ]
+  },
+  "domain_defence_type": {
+    "naics": [
+      "3364",
+      "5415"
+    ]
+  },
+  "domain_demand_resp": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_dental": {
+    "naics": [
+      "6212"
+    ]
+  },
+  "domain_derivatives": {
+    "naics": [
+      "523"
+    ]
+  },
+  "domain_devops": {
+    "naics": [
+      "5415"
+    ]
+  },
+  "domain_digital_assets": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_digital_assets_infra": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_digital_assets_regulatory": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_digital_badge": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_digital_banking": {
+    "naics": [
+      "522",
+      "5223"
+    ]
+  },
+  "domain_digital_twin": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_district_heat": {
+    "naics": [
+      "2211",
+      "3359"
+    ]
+  },
+  "domain_diversity_metric": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_dr": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_drug_interaction": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_ecommerce_platform": {
+    "naics": [
+      "44-45",
+      "4541"
+    ]
+  },
+  "domain_edge_computing": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_edtech_platform": {
+    "naics": [
+      "611",
+      "5415"
+    ]
+  },
+  "domain_education_credential": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_education_delivery": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_education_funding": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_education_segment": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_education_type": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_eeo_category": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_electrical_code": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_elevator": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_emergency_svc": {
+    "naics": [
+      "921",
+      "922",
+      "924"
+    ]
+  },
+  "domain_emission_factor": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_employee_benefit": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_encryption": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_energy_audit": {
+    "naics": [
+      "2211"
+    ]
+  },
+  "domain_energy_storage": {
+    "naics": [
+      "2211",
+      "3359"
+    ]
+  },
+  "domain_energy_storage_application": {
+    "naics": [
+      "2211",
+      "3359"
+    ]
+  },
+  "domain_energy_storage_perf": {
+    "naics": [
+      "2211",
+      "3359"
+    ]
+  },
+  "domain_env_remediation": {
+    "naics": [
+      "5629"
+    ]
+  },
+  "domain_ev_charging": {
+    "naics": [
+      "2211",
+      "454"
+    ]
+  },
+  "domain_event_arch": {
+    "naics": [
+      "711",
+      "713"
+    ]
+  },
+  "domain_event_mgmt": {
+    "naics": [
+      "711",
+      "713"
+    ]
+  },
+  "domain_export_ctrl": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_facade": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_facility_bench": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_feature_store": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_finance_client": {
+    "naics": [
+      "522",
+      "523"
+    ]
+  },
+  "domain_finance_instrument": {
+    "naics": [
+      "522",
+      "523"
+    ]
+  },
+  "domain_finance_market": {
+    "naics": [
+      "522",
+      "523"
+    ]
+  },
+  "domain_finance_regulatory": {
+    "naics": [
+      "522",
+      "523"
+    ]
+  },
+  "domain_fintech_service": {
+    "naics": [
+      "522",
+      "5223"
+    ]
+  },
+  "domain_fire_protection": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_fishing_aqua": {
+    "naics": [
+      "112",
+      "1141"
+    ]
+  },
+  "domain_fleet_mgmt": {
+    "naics": [
+      "485",
+      "488"
+    ]
+  },
+  "domain_food_cuisine": {
+    "naics": [
+      "722"
+    ]
+  },
+  "domain_food_ownership": {
+    "naics": [
+      "722"
+    ]
+  },
+  "domain_food_revenue": {
+    "naics": [
+      "722"
+    ]
+  },
+  "domain_food_service": {
+    "naics": [
+      "722"
+    ]
+  },
+  "domain_forestry_mgmt": {
+    "naics": [
+      "113"
+    ]
+  },
+  "domain_forex": {
+    "naics": [
+      "523"
+    ]
+  },
+  "domain_formulary": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_foundation_type": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_franchise": {
+    "naics": [
+      "44-45",
+      "4541"
+    ]
+  },
+  "domain_freelance_plat": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_freight_class": {
+    "naics": [
+      "488",
+      "493"
+    ]
+  },
+  "domain_ftz": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_gaming_esports": {
+    "naics": [
+      "7139",
+      "5121"
+    ]
+  },
+  "domain_gene_therapy": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_geothermal": {
+    "naics": [
+      "2211"
+    ]
+  },
+  "domain_gig_worker": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_global_budget": {
+    "naics": [
+      "6215",
+      "5415"
+    ]
+  },
+  "domain_gov_contract": {
+    "naics": [
+      "921",
+      "922",
+      "924"
+    ]
+  },
+  "domain_grant_type": {
+    "naics": [
+      "921",
+      "922",
+      "924"
+    ]
+  },
+  "domain_green_material": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_greenhouse": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_health_delivery": {
+    "naics": [
+      "6215",
+      "5415"
+    ]
+  },
+  "domain_health_it": {
+    "naics": [
+      "6215",
+      "5415"
+    ]
+  },
+  "domain_health_literacy": {
+    "naics": [
+      "6215",
+      "5415"
+    ]
+  },
+  "domain_health_payer": {
+    "naics": [
+      "6215"
+    ]
+  },
+  "domain_health_setting": {
+    "naics": [
+      "6221",
+      "6222"
+    ]
+  },
+  "domain_health_specialty": {
+    "naics": [
+      "6215"
+    ]
+  },
+  "domain_healthtech": {
+    "naics": [
+      "6215"
+    ]
+  },
+  "domain_hedge_fund": {
+    "naics": [
+      "523"
+    ]
+  },
+  "domain_hospital_dept": {
+    "naics": [
+      "6221",
+      "6222"
+    ]
+  },
+  "domain_hr_tech": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_hsm": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_hvac_system": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_hydrogen_economy": {
+    "naics": [
+      "2211",
+      "454"
+    ]
+  },
+  "domain_identity_gov": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_imaging": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_implant": {
+    "naics": [
+      "3391",
+      "3345"
+    ]
+  },
+  "domain_incident_resp": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_incoterm_detail": {
+    "naics": [
+      "488",
+      "493"
+    ]
+  },
+  "domain_infection_ctrl": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_info_content": {
+    "naics": [
+      "51",
+      "515"
+    ]
+  },
+  "domain_info_media": {
+    "naics": [
+      "51",
+      "515"
+    ]
+  },
+  "domain_info_platform": {
+    "naics": [
+      "51",
+      "515"
+    ]
+  },
+  "domain_info_revenue": {
+    "naics": [
+      "51",
+      "515"
+    ]
+  },
+  "domain_insurance_claims": {
+    "naics": [
+      "524"
+    ]
+  },
+  "domain_insurance_product": {
+    "naics": [
+      "524"
+    ]
+  },
+  "domain_insurance_risk": {
+    "naics": [
+      "524"
+    ]
+  },
+  "domain_insurance_underwriting": {
+    "naics": [
+      "524"
+    ]
+  },
+  "domain_insurtech": {
+    "naics": [
+      "524"
+    ]
+  },
+  "domain_internship": {
+    "naics": [
+      "483"
+    ]
+  },
+  "domain_invasive_sp": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_iot_device": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_irrigation": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_key_mgmt": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_lab_test": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_labor_union": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_landscape": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_last_mile": {
+    "naics": [
+      "485",
+      "488"
+    ]
+  },
+  "domain_law_enforce": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_learning_outcome": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_lease_abstract": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_legal_practice": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_legaltech": {
+    "naics": [
+      "5415"
+    ]
+  },
+  "domain_light_pollution": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_lng_terminal": {
+    "naics": [
+      "211",
+      "2212",
+      "4861"
+    ]
+  },
+  "domain_mangrove": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_maritime_shipping": {
+    "naics": [
+      "483"
+    ]
+  },
+  "domain_master_data": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_materials_application": {
+    "naics": [
+      "325",
+      "3261"
+    ]
+  },
+  "domain_materials_process": {
+    "naics": [
+      "325",
+      "3261"
+    ]
+  },
+  "domain_med_gas": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_medical_device": {
+    "naics": [
+      "3391",
+      "3345"
+    ]
+  },
+  "domain_mental_health": {
+    "naics": [
+      "6214"
+    ]
+  },
+  "domain_mfg_facility": {
+    "naics": [
+      "31-33"
+    ]
+  },
+  "domain_mfg_industry": {
+    "naics": [
+      "31-33"
+    ]
+  },
+  "domain_mfg_opsmodel": {
+    "naics": [
+      "31-33"
+    ]
+  },
+  "domain_mfg_process": {
+    "naics": [
+      "31-33"
+    ]
+  },
+  "domain_mfg_quality": {
+    "naics": [
+      "31-33"
+    ]
+  },
+  "domain_mfg_supply_chain": {
+    "naics": [
+      "31-33"
+    ]
+  },
+  "domain_micro_cred": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_microfinance": {
+    "naics": [
+      "522"
+    ]
+  },
+  "domain_microgrid_type": {
+    "naics": [
+      "2211",
+      "3359"
+    ]
+  },
+  "domain_microservices": {
+    "naics": [
+      "5415"
+    ]
+  },
+  "domain_mining_equipment": {
+    "naics": [
+      "3331"
+    ]
+  },
+  "domain_mining_lifecycle": {
+    "naics": [
+      "212",
+      "213"
+    ]
+  },
+  "domain_mining_method": {
+    "naics": [
+      "212",
+      "213"
+    ]
+  },
+  "domain_mining_mineral": {
+    "naics": [
+      "212",
+      "213"
+    ]
+  },
+  "domain_mining_reserve": {
+    "naics": [
+      "212",
+      "213"
+    ]
+  },
+  "domain_mining_safety": {
+    "naics": [
+      "212",
+      "213"
+    ]
+  },
+  "domain_mlops": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_model_registry": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_modular_const": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_mortgage_type": {
+    "naics": [
+      "531"
+    ]
+  },
+  "domain_muni_bond": {
+    "naics": [
+      "523"
+    ]
+  },
+  "domain_municipal_svc": {
+    "naics": [
+      "921",
+      "922",
+      "924"
+    ]
+  },
+  "domain_nat_gas": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_noise_pollution": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_nonprofit_social": {
+    "naics": [
+      "8131",
+      "6241"
+    ]
+  },
+  "domain_notary": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_nuclear_energy": {
+    "naics": [
+      "2211"
+    ]
+  },
+  "domain_nursing_spec": {
+    "naics": [
+      "6221",
+      "6211"
+    ]
+  },
+  "domain_oil_grade": {
+    "naics": [
+      "211",
+      "2212",
+      "4861"
+    ]
+  },
+  "domain_organic_cert": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_orphan_drug": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_orthotic": {
+    "naics": [
+      "3391",
+      "3345"
+    ]
+  },
+  "domain_oss_governance": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_other_pricing": {
+    "naics": [
+      "8131"
+    ]
+  },
+  "domain_other_services": {
+    "naics": [
+      "8131"
+    ]
+  },
+  "domain_parking": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_patent_type": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_pathology_sub": {
+    "naics": [
+      "6221",
+      "6211"
+    ]
+  },
+  "domain_payment_proc": {
+    "naics": [
+      "522",
+      "5223"
+    ]
+  },
+  "domain_pe_stage": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_pentest": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_pet": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_pet_animal": {
+    "naics": [
+      "8129",
+      "1152"
+    ]
+  },
+  "domain_petrochem": {
+    "naics": [
+      "211",
+      "2212",
+      "4861"
+    ]
+  },
+  "domain_pharma_drug_class": {
+    "naics": [
+      "3254",
+      "44611"
+    ]
+  },
+  "domain_pharma_practice": {
+    "naics": [
+      "3254",
+      "44611"
+    ]
+  },
+  "domain_pipeline": {
+    "naics": [
+      "211",
+      "2212",
+      "4861"
+    ]
+  },
+  "domain_pki": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_plumbing_code": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_pop_health": {
+    "naics": [
+      "6215",
+      "5415"
+    ]
+  },
+  "domain_precision_ag": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_prefab": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_pro": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_product_liab": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_prof_billing": {
+    "naics": [
+      "5411",
+      "5412",
+      "5416"
+    ]
+  },
+  "domain_prof_delivery": {
+    "naics": [
+      "5411",
+      "5412",
+      "5416"
+    ]
+  },
+  "domain_prof_firm": {
+    "naics": [
+      "5411",
+      "5412",
+      "5416"
+    ]
+  },
+  "domain_prof_services": {
+    "naics": [
+      "5411",
+      "5412",
+      "5416"
+    ]
+  },
+  "domain_prog_paradigm": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_property_val": {
+    "naics": [
+      "531"
+    ]
+  },
+  "domain_proptech": {
+    "naics": [
+      "531",
+      "5415"
+    ]
+  },
+  "domain_prosthetic": {
+    "naics": [
+      "3391",
+      "3345"
+    ]
+  },
+  "domain_public_admin": {
+    "naics": [
+      "921",
+      "922",
+      "924"
+    ]
+  },
+  "domain_public_funding": {
+    "naics": [
+      "921",
+      "922",
+      "924"
+    ]
+  },
+  "domain_public_procurement": {
+    "naics": [
+      "921",
+      "922",
+      "924"
+    ]
+  },
+  "domain_purple_team": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_quantum": {
+    "naics": [
+      "5415",
+      "3344"
+    ]
+  },
+  "domain_quantum_application": {
+    "naics": [
+      "5415",
+      "3344"
+    ]
+  },
+  "domain_quantum_stage": {
+    "naics": [
+      "5415",
+      "3344"
+    ]
+  },
+  "domain_radiopharm": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_rail_service": {
+    "naics": [
+      "482"
+    ]
+  },
+  "domain_realestate_capital": {
+    "naics": [
+      "6215",
+      "5415"
+    ]
+  },
+  "domain_realestate_grade": {
+    "naics": [
+      "531"
+    ]
+  },
+  "domain_realestate_lease": {
+    "naics": [
+      "531"
+    ]
+  },
+  "domain_realestate_transaction": {
+    "naics": [
+      "531"
+    ]
+  },
+  "domain_realestate_type": {
+    "naics": [
+      "531"
+    ]
+  },
+  "domain_rec": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_red_team": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_ref_data": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_refinery": {
+    "naics": [
+      "211",
+      "2212",
+      "4861"
+    ]
+  },
+  "domain_regtech": {
+    "naics": [
+      "5415"
+    ]
+  },
+  "domain_reinsurance": {
+    "naics": [
+      "524"
+    ]
+  },
+  "domain_reit_type": {
+    "naics": [
+      "531"
+    ]
+  },
+  "domain_remote_monitor": {
+    "naics": [
+      "6213",
+      "5415"
+    ]
+  },
+  "domain_retail_channel": {
+    "naics": [
+      "44-45"
+    ]
+  },
+  "domain_retail_format": {
+    "naics": [
+      "44-45"
+    ]
+  },
+  "domain_retail_fulfillment": {
+    "naics": [
+      "44-45"
+    ]
+  },
+  "domain_retail_merchandise": {
+    "naics": [
+      "44-45"
+    ]
+  },
+  "domain_retail_pricing": {
+    "naics": [
+      "44-45"
+    ]
+  },
+  "domain_retro_cx": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_robotics": {
+    "naics": [
+      "3333",
+      "5415"
+    ]
+  },
+  "domain_robotics_application": {
+    "naics": [
+      "3333",
+      "5415"
+    ]
+  },
+  "domain_robotics_sensing": {
+    "naics": [
+      "3333",
+      "5415"
+    ]
+  },
+  "domain_roofing_type": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_saas_category": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_sanctions": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_sdoh": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_securitization": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_seed_variety": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_semiconductor": {
+    "naics": [
+      "3344"
+    ]
+  },
+  "domain_semiconductor_application": {
+    "naics": [
+      "3344"
+    ]
+  },
+  "domain_semiconductor_ip": {
+    "naics": [
+      "3344"
+    ]
+  },
+  "domain_senior_care": {
+    "naics": [
+      "6231"
+    ]
+  },
+  "domain_serverless": {
+    "naics": [
+      "5415",
+      "518"
+    ]
+  },
+  "domain_sharing_econ": {
+    "naics": [
+      "5615",
+      "5621"
+    ]
+  },
+  "domain_siem": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_signage": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_smart_building": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  },
+  "domain_smart_grid": {
+    "naics": [
+      "2211",
+      "3359"
+    ]
+  },
+  "domain_soar": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_soil_contam": {
+    "naics": [
+      "211",
+      "2212",
+      "4861"
+    ]
+  },
+  "domain_soil_mgmt": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_solar_energy": {
+    "naics": [
+      "2211"
+    ]
+  },
+  "domain_space": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_space_orbital": {
+    "naics": [
+      "3364",
+      "5415"
+    ]
+  },
+  "domain_space_regulatory": {
+    "naics": [
+      "3364",
+      "5415"
+    ]
+  },
+  "domain_sports_recreation": {
+    "naics": [
+      "7113",
+      "7139"
+    ]
+  },
+  "domain_sterilization": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_structural": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_student_assess": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_subscription": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_supply_chain": {
+    "naics": [
+      "488",
+      "493"
+    ]
+  },
+  "domain_supply_logistics": {
+    "naics": [
+      "488",
+      "493"
+    ]
+  },
+  "domain_supply_risk": {
+    "naics": [
+      "488",
+      "493"
+    ]
+  },
+  "domain_supply_tech": {
+    "naics": [
+      "488",
+      "493"
+    ]
+  },
+  "domain_surgical_inst": {
+    "naics": [
+      "3391",
+      "3345"
+    ]
+  },
+  "domain_surgical_spec": {
+    "naics": [
+      "6221",
+      "6211"
+    ]
+  },
+  "domain_sw_license": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_synbio": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_synbio_application": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_synbio_biosafety": {
+    "naics": [
+      "5417",
+      "3254"
+    ]
+  },
+  "domain_synthetic_data": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_talent_market": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_telecom_network": {
+    "naics": [
+      "517"
+    ]
+  },
+  "domain_telecom_service": {
+    "naics": [
+      "517"
+    ]
+  },
+  "domain_telemedicine": {
+    "naics": [
+      "6213",
+      "5415"
+    ]
+  },
+  "domain_textile_fashion": {
+    "naics": [
+      "315",
+      "4481"
+    ]
+  },
+  "domain_threat_intel": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_tidal": {
+    "naics": [
+      "2211"
+    ]
+  },
+  "domain_tourism_travel": {
+    "naics": [
+      "5615"
+    ]
+  },
+  "domain_trade_finance": {
+    "naics": [
+      "522"
+    ]
+  },
+  "domain_trade_secret": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_trademark": {
+    "naics": [
+      "5411"
+    ]
+  },
+  "domain_transport_fare": {
+    "naics": [
+      "485",
+      "488"
+    ]
+  },
+  "domain_transport_fleet": {
+    "naics": [
+      "485",
+      "488"
+    ]
+  },
+  "domain_transport_infra": {
+    "naics": [
+      "485",
+      "488"
+    ]
+  },
+  "domain_transport_mode": {
+    "naics": [
+      "485",
+      "488"
+    ]
+  },
+  "domain_transport_service": {
+    "naics": [
+      "485",
+      "488"
+    ]
+  },
+  "domain_truck_cargo": {
+    "naics": [
+      "484"
+    ]
+  },
+  "domain_truck_freight": {
+    "naics": [
+      "484"
+    ]
+  },
+  "domain_truck_lane": {
+    "naics": [
+      "484"
+    ]
+  },
+  "domain_truck_ops": {
+    "naics": [
+      "484"
+    ]
+  },
+  "domain_truck_pricing": {
+    "naics": [
+      "484"
+    ]
+  },
+  "domain_truck_regulatory": {
+    "naics": [
+      "484"
+    ]
+  },
+  "domain_truck_tech": {
+    "naics": [
+      "484"
+    ]
+  },
+  "domain_truck_vehicle": {
+    "naics": [
+      "484"
+    ]
+  },
+  "domain_univ_ranking": {
+    "naics": [
+      "611"
+    ]
+  },
+  "domain_util_asset": {
+    "naics": [
+      "2211",
+      "2213"
+    ]
+  },
+  "domain_util_energy": {
+    "naics": [
+      "2211",
+      "2213"
+    ]
+  },
+  "domain_util_grid": {
+    "naics": [
+      "2211",
+      "2213"
+    ]
+  },
+  "domain_util_regulatory": {
+    "naics": [
+      "2211",
+      "2213"
+    ]
+  },
+  "domain_util_tariff": {
+    "naics": [
+      "2211",
+      "2213"
+    ]
+  },
+  "domain_vbc_model": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_version_control": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_vertical_farm": {
+    "naics": [
+      "111"
+    ]
+  },
+  "domain_veterinary": {
+    "naics": [
+      "5419"
+    ]
+  },
+  "domain_vpp": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_vuln_mgmt": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_warehouse": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_waste_mgmt": {
+    "naics": [
+      "5621",
+      "5622"
+    ]
+  },
+  "domain_water_ecosystem": {
+    "naics": [
+      "2213",
+      "5629"
+    ]
+  },
+  "domain_water_env": {
+    "naics": [
+      "2213",
+      "5629"
+    ]
+  },
+  "domain_water_quality": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_water_regulatory": {
+    "naics": [
+      "2213",
+      "5629"
+    ]
+  },
+  "domain_wave_energy": {
+    "naics": [
+      "2211"
+    ]
+  },
+  "domain_wealth_mgmt": {
+    "naics": [
+      "523"
+    ]
+  },
+  "domain_wetland": {
+    "naics": [
+      "5417",
+      "924"
+    ]
+  },
+  "domain_wholesale_channel": {
+    "naics": [
+      "42"
+    ]
+  },
+  "domain_wholesale_distribution": {
+    "naics": [
+      "42"
+    ]
+  },
+  "domain_wholesale_product": {
+    "naics": [
+      "42"
+    ]
+  },
+  "domain_wholesale_regulatory": {
+    "naics": [
+      "42"
+    ]
+  },
+  "domain_wind_energy": {
+    "naics": [
+      "2211"
+    ]
+  },
+  "domain_wine_spirits": {
+    "naics": [
+      "3121",
+      "4248"
+    ]
+  },
+  "domain_workforce_incident": {
+    "naics": [
+      "5613",
+      "622"
+    ]
+  },
+  "domain_workforce_ppe": {
+    "naics": [
+      "5613",
+      "622"
+    ]
+  },
+  "domain_workforce_safety": {
+    "naics": [
+      "5613",
+      "622"
+    ]
+  },
+  "domain_workforce_sms": {
+    "naics": [
+      "5613",
+      "622"
+    ]
+  },
+  "domain_workforce_training": {
+    "naics": [
+      "5613",
+      "622"
+    ]
+  },
+  "domain_workplace_med": {
+    "naics": [
+      "5613",
+      "5614"
+    ]
+  },
+  "domain_wound_care": {
+    "naics": [
+      "5419"
+    ],
+    "note": "weak_anchor"
+  },
+  "domain_xr_application": {
+    "naics": [
+      "7139",
+      "5121"
+    ]
+  },
+  "domain_xr_business": {
+    "naics": [
+      "7139",
+      "5121"
+    ]
+  },
+  "domain_xr_meta": {
+    "naics": [
+      "7139",
+      "5121"
+    ]
+  },
+  "domain_zero_trust": {
+    "naics": [
+      "5415",
+      "5417"
+    ]
+  },
+  "domain_zoning": {
+    "naics": [
+      "236",
+      "237",
+      "238"
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 """Nodes router - /api/v1/systems/{system_id}/nodes endpoints."""
 
-from typing import List
+from typing import List, Optional
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 
 from world_of_taxonomy.api.deps import get_conn, get_current_user
 from world_of_taxonomy.api.schemas import (
@@ -14,6 +14,7 @@ from world_of_taxonomy.api.schemas import (
     GeneratedNode,
 )
 from world_of_taxonomy.exceptions import NodeNotFoundError
+from world_of_taxonomy.llm_client import LLMNotConfiguredError
 from world_of_taxonomy.query.browse import get_node, get_children, get_ancestors
 from world_of_taxonomy.query.equivalence import get_equivalences
 from world_of_taxonomy.query.generate import generate_children, persist_generated_children
@@ -53,10 +54,25 @@ async def get_node_ancestors(system_id: str, code: str, conn=Depends(get_conn)):
 
 
 @router.get("/{code}/equivalences", response_model=List[EquivalenceResponse])
-async def get_node_equivalences(system_id: str, code: str, conn=Depends(get_conn)):
+async def get_node_equivalences(
+    system_id: str,
+    code: str,
+    edge_kind: Optional[str] = Query(
+        None,
+        description=(
+            "Filter by edge kind (comma-separated). One or more of: "
+            "standard_standard, standard_domain, domain_standard, domain_domain."
+        ),
+    ),
+    conn=Depends(get_conn),
+):
     """Get cross-system equivalences for a node."""
     equivs = await get_equivalences(conn, system_id, code)
-    return [EquivalenceResponse(**e.__dict__) for e in equivs]
+    responses = [EquivalenceResponse(**e.__dict__) for e in equivs]
+    if edge_kind:
+        wanted = {k.strip() for k in edge_kind.split(",") if k.strip()}
+        responses = [r for r in responses if r.edge_kind in wanted]
+    return responses
 
 
 @router.post("/{code}/generate", response_model=GenerateTaxonomyResponse)
@@ -70,11 +86,13 @@ async def generate_taxonomy_for_node(
     """Generate AI-suggested sub-classifications for a node (preview only, no DB write)."""
     try:
         nodes = await generate_children(conn, system_id, code, count=body.count)
+    except LLMNotConfiguredError:
+        raise HTTPException(
+            status_code=503,
+            detail="AI generation unavailable: set OLLAMA_API_KEY (primary) or OPENROUTER_API_KEY (fallback)",
+        )
     except ValueError as exc:
-        msg = str(exc)
-        if "ANTHROPIC_API_KEY" in msg:
-            raise HTTPException(status_code=503, detail="AI generation unavailable: ANTHROPIC_API_KEY not configured")
-        raise HTTPException(status_code=404, detail=msg)
+        raise HTTPException(status_code=404, detail=str(exc))
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"AI generation failed: {exc}")
     return GenerateTaxonomyResponse(

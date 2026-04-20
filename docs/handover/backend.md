@@ -90,7 +90,7 @@ From [world_of_taxonomy/api/routers/](../../world_of_taxonomy/api/routers/):
 | `equivalences` | `GET /equivalences`, `GET /equivalences/stats` | optional |
 | `explore` | `GET /explore/stats`, `/systems/stats`, `/compare`, `/diff` | optional |
 | `countries` | `GET /countries`, `/countries/{code}`, `/countries/stats` | optional |
-| `classify` | `POST /classify` - free text to codes across all systems | Pro+ (requires ANTHROPIC_API_KEY) |
+| `classify` | `POST /classify` - free text to codes across all systems | Pro+ (LLM fallback requires `OLLAMA_API_KEY` or `OPENROUTER_API_KEY`) |
 | `auth` | `POST /register`, `/login`, `GET /me`, `/api-keys` CRUD | varies |
 | `oauth` | `GET /auth/oauth/{provider}/authorize`, callback | none |
 | `wiki` | `GET /wiki`, `GET /wiki/{slug}` | optional |

@@ -294,16 +294,37 @@ export interface ClassifyDemoMatch {
 export interface ClassifyDemoSystemMatch {
   system_id: string
   system_name: string
+  category: 'domain' | 'standard'
   results: ClassifyDemoMatch[]
+}
+
+export interface ClassifyDemoAtom {
+  phrase: string
+  domain_matches: ClassifyDemoSystemMatch[]
+  standard_matches: ClassifyDemoSystemMatch[]
+}
+
+export interface ClassifyDemoCta {
+  title: string
+  message: string
+  url: string
+  cta_label: string
 }
 
 export interface ClassifyDemoResponse {
   query: string
-  matches: ClassifyDemoSystemMatch[]
+  domain_matches: ClassifyDemoSystemMatch[]
+  standard_matches: ClassifyDemoSystemMatch[]
   disclaimer: string
   report_issue_url: string
   demo: boolean
   upgrade_cta: string
+  compound?: boolean
+  atoms?: ClassifyDemoAtom[] | null
+  hero?: ClassifyDemoAtom | null
+  cta?: ClassifyDemoCta | null
+  llm_used?: boolean
+  llm_keywords?: string[]
 }
 
 export async function classifyDemo(

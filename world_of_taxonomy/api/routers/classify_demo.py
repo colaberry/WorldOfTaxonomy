@@ -21,6 +21,7 @@ from pydantic import BaseModel, Field, field_validator
 _EMAIL_RX = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 from world_of_taxonomy.api.deps import get_conn
+from world_of_taxonomy.api.routers.classify import partition_matches
 from world_of_taxonomy.api.text_guard import TextGuardError, guard
 from world_of_taxonomy.classify import classify_text
 
@@ -58,11 +59,24 @@ class ClassifyDemoRequest(BaseModel):
 
 class ClassifyDemoResponse(BaseModel):
     query: str
-    matches: list
+    domain_matches: list = Field(
+        default_factory=list,
+        description="Matches from curated WoT Domain taxonomies (system_id starts 'domain_').",
+    )
+    standard_matches: list = Field(
+        default_factory=list,
+        description="Matches from official standard systems (NAICS, ISIC, NACE, SIC, SOC, ...).",
+    )
     disclaimer: str
     report_issue_url: str
     demo: bool = True
     upgrade_cta: str
+    compound: bool = False
+    atoms: Optional[list] = None
+    hero: Optional[dict] = None
+    cta: Optional[dict] = None
+    llm_used: bool = False
+    llm_keywords: list = []
 
 
 async def classify_demo_handler(
@@ -102,9 +116,36 @@ async def classify_demo_handler(
         limit=DEMO_RESULTS_PER_SYSTEM,
     )
 
+    domain, standard = partition_matches(result.get("matches", []))
+
+    # Hero atom (compound path) is pre-split so the client renders two
+    # sections directly, no re-partitioning needed.
+    hero = result.get("hero")
+    hero_payload = None
+    if hero is not None:
+        h_domain, h_standard = partition_matches(hero.get("matches", []))
+        hero_payload = {
+            "phrase": hero["phrase"],
+            "domain_matches": h_domain,
+            "standard_matches": h_standard,
+        }
+
+    # Each atom gets the same split.
+    atoms_payload = None
+    if result.get("atoms"):
+        atoms_payload = []
+        for atom in result["atoms"]:
+            a_domain, a_standard = partition_matches(atom.get("matches", []))
+            atoms_payload.append({
+                "phrase": atom["phrase"],
+                "domain_matches": a_domain,
+                "standard_matches": a_standard,
+            })
+
     return {
         "query": result["query"],
-        "matches": result["matches"],
+        "domain_matches": domain,
+        "standard_matches": standard,
         "disclaimer": result["disclaimer"],
         "report_issue_url": result["report_issue_url"],
         "demo": True,
@@ -112,6 +153,12 @@ async def classify_demo_handler(
             "Want all 1000 systems, cross-system crosswalks, and "
             "programmatic API access? Upgrade to Pro at /pricing."
         ),
+        "compound": result.get("compound", False),
+        "atoms": atoms_payload,
+        "hero": hero_payload,
+        "cta": result.get("cta"),
+        "llm_used": result.get("llm_used", False),
+        "llm_keywords": result.get("llm_keywords", []),
     }
 
 

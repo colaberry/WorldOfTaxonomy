@@ -464,7 +464,67 @@ in the NODES tuple.
 
 ---
 
-## Appendix D: Common Errors
+## Appendix D: Frontend Route Gating Rules
+
+The `/codes` hub lists every system in the database, grouped by region. Each card deep-links to `/codes/[system]` and `/codes/[system]/[code]` via ISR. New systems must be reachable through these routes without a code change to the frontend.
+
+### The rule
+
+`MAJOR_SYSTEMS` in `frontend/src/app/codes/constants.ts` is a **build-time SSG scope list**, not a runtime allowlist.
+
+Uses of `MAJOR_SYSTEMS` that are correct:
+
+| File | Use |
+|------|-----|
+| `frontend/src/app/codes/[system]/page.tsx` | `generateStaticParams()` returns `MAJOR_SYSTEMS` to pre-render only curated system hubs |
+| `frontend/src/app/codes/[system]/[code]/page.tsx` | `generateStaticParams()` walks `MAJOR_SYSTEMS` x level-1 sectors |
+| `frontend/src/app/sitemap.ts` | Sitemap deep-node URLs are emitted only for `MAJOR_SYSTEMS` to stay under Google's per-file limits |
+| `frontend/src/app/crosswalks/[systemA]/to/[systemB]/page.tsx` | Only major-to-major pairs are pre-rendered and served |
+
+Uses that would be WRONG and have caused site-wide 404s in the past:
+
+```tsx
+// ❌ Do NOT add this to /codes/[system]/page.tsx or /codes/[system]/[code]/page.tsx
+if (!isMajorSystem(system)) {
+  notFound()
+}
+```
+
+That gate 404s the ~990 non-curated systems that the `/codes` hub now lists. The route's existing `try/catch -> notFound()` around `serverGetNode` / `serverGetSystem` already returns 404 for truly invalid system or code values - the backend is the source of truth for what exists.
+
+### Why the rule exists
+
+Historical context: when the `/codes` hub only listed the 10 `MAJOR_SYSTEMS`, hard-gating the dynamic route felt tidy. After the hub expanded to a global region-grouped directory, every non-major system started 404ing (e.g. `/codes/onet_soc/11-3021.00`, `/codes/domain_truck_freight/dtf_cargo`). The fix was to remove the gate, not to restrict the hub.
+
+### Smoke test after every ingest
+
+Run the backend and frontend dev servers, then:
+
+```bash
+SYSTEM=<new_system_id>
+SAMPLE_CODE=<a top-level code you just ingested>
+for url in \
+  http://localhost:3001/codes/$SYSTEM \
+  http://localhost:3001/codes/$SYSTEM/$SAMPLE_CODE; do
+  echo "$(curl -s -o /dev/null -w '%{http_code}' "$url") $url"
+done
+```
+
+Both must return 200. If either 404s, the route was gated somewhere - fix the route, not the data.
+
+### When to add to `MAJOR_SYSTEMS`
+
+Add a system to `MAJOR_SYSTEMS` only if you want:
+
+1. Its sector pages pre-rendered at build time (faster first paint, better for crawlers that don't wait for ISR)
+2. Its sector URLs in the sitemap (SEO priority)
+3. Its crosswalks to other major systems rendered at `/crosswalks/{id}/to/{other}`
+
+Most newly ingested systems (national derivatives, domain taxonomies, long-tail additions) do not need this. ISR serves them fine on first request.
+
+---
+
+## Appendix E: Common Errors
 
 | Error | Cause | Fix |
 |-------|-------|-----|

@@ -25,6 +25,9 @@ class ClassificationSystem:
     data_provenance: Optional[str] = None
     license: Optional[str] = None
     source_file_hash: Optional[str] = None
+    # Derived from id: "domain" if id starts with "domain_", else "standard".
+    # Drives the two-section UI pattern across web, API, MCP, and skills.
+    category: str = "standard"
 
 
 @dataclass

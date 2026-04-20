@@ -16,7 +16,7 @@ import {
 import { getSystemColor } from '@/lib/colors'
 import Link from 'next/link'
 import {
-  Search, X, ChevronDown, Leaf,
+  Search, X, ChevronDown, ChevronRight, Leaf,
   Globe, GitBranch, Network, ArrowUpRight,
 } from 'lucide-react'
 import type {
@@ -55,6 +55,7 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
   const [selectedSystem, setSelectedSystem] = useState('')
   const [categoryFilter, setCategoryFilter] = useState('all')
   const [expanded, setExpanded] = useState<Record<string, number>>({})
+  const [openCats, setOpenCats] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     const q = searchParams.get('q')
@@ -173,6 +174,8 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
           router={router}
           setQuery={setQuery}
           setDebouncedQuery={setDebouncedQuery}
+          openCats={openCats}
+          setOpenCats={setOpenCats}
         />
       )}
     </div>
@@ -413,6 +416,8 @@ function BrowseView({
   router,
   setQuery,
   setDebouncedQuery,
+  openCats,
+  setOpenCats,
 }: {
   systems: ClassificationSystem[] | undefined
   stats: CrosswalkStat[] | undefined
@@ -421,6 +426,8 @@ function BrowseView({
   router: ReturnType<typeof useRouter>
   setQuery: (v: string) => void
   setDebouncedQuery: (v: string) => void
+  openCats: Set<string>
+  setOpenCats: React.Dispatch<React.SetStateAction<Set<string>>>
 }) {
   const totalNodes = systems?.reduce((sum, s) => sum + s.node_count, 0) ?? 0
   const totalEdges = stats?.reduce((sum, s) => sum + s.edge_count, 0) ?? 0
@@ -522,7 +529,7 @@ function BrowseView({
         {[
           { icon: Globe,     value: systems?.length ?? 0, label: 'Classification Systems', mono: false, href: '/explore' },
           { icon: GitBranch, value: totalNodes,            label: 'Total Nodes',            mono: true,  href: '/explore' },
-          { icon: Network,   value: totalEdges,            label: 'Crosswalk Edges',        mono: true,  href: '/crosswalk-explorer' },
+          { icon: Network,   value: totalEdges,            label: 'Crosswalk Edges',        mono: true,  href: '/crosswalks' },
         ].map(({ icon: Icon, value, label, mono, href }) => (
           <Link key={label} href={href} className="p-5 rounded-xl bg-card border border-border/50 space-y-1 hover:border-border hover:shadow-sm transition-all group">
             <div className="flex items-center gap-2 text-muted-foreground">
@@ -681,7 +688,7 @@ function BrowseView({
       )}
 
       {/* Systems grouped by category */}
-      <div className="space-y-8">
+      <div className="space-y-3">
         {grouped
           .filter((g) => !activeCat || g.category.id === activeCat)
           .map(({ category: cat, systems: catSystems }) => {
@@ -691,9 +698,28 @@ function BrowseView({
             const sectorLabel = activeSectorDef && (cat.id === 'domain' || cat.id === 'lifesciences')
               ? ` - ${activeSectorDef.label}`
               : ''
+            const isOpen = activeCat === cat.id || openCats.has(cat.id)
+            const toggle = () => {
+              setOpenCats((prev) => {
+                const next = new Set(prev)
+                if (next.has(cat.id)) next.delete(cat.id)
+                else next.add(cat.id)
+                return next
+              })
+            }
             return (
-              <div key={cat.id}>
-                <div className="flex items-center gap-3 mb-3">
+              <div key={cat.id} className="rounded-xl border border-border/50 overflow-hidden">
+                <button
+                  type="button"
+                  onClick={toggle}
+                  aria-expanded={isOpen}
+                  className="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-muted/20 transition-colors"
+                >
+                  {isOpen ? (
+                    <ChevronDown className="h-4 w-4 text-muted-foreground shrink-0" />
+                  ) : (
+                    <ChevronRight className="h-4 w-4 text-muted-foreground shrink-0" />
+                  )}
                   <div
                     className="w-3 h-3 rounded-sm shrink-0"
                     style={{ backgroundColor: activeSectorDef && (cat.id === 'domain' || cat.id === 'lifesciences') ? activeSectorDef.accent : cat.accent }}
@@ -703,62 +729,64 @@ function BrowseView({
                     {displaySystems.length} system{displaySystems.length !== 1 ? 's' : ''} &middot;{' '}
                     {displaySystems.reduce((s, x) => s + x.node_count, 0).toLocaleString()} nodes
                   </span>
-                </div>
+                </button>
 
-                <div className="rounded-xl border border-border/50 overflow-hidden">
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="bg-muted/40 border-b border-border/40">
-                        <th className="text-left px-4 py-2.5 text-xs font-medium text-muted-foreground">System</th>
-                        <th className="text-left px-4 py-2.5 text-xs font-medium text-muted-foreground hidden sm:table-cell">Region</th>
-                        <th className="text-right px-4 py-2.5 text-xs font-medium text-muted-foreground w-20">Nodes</th>
-                        <th className="px-4 py-2.5 w-36 hidden md:table-cell" />
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {displaySystems
-                        .slice()
-                        .sort((a, b) => b.node_count - a.node_count)
-                        .map((sys) => {
-                          const pct = maxNodes > 0 ? (sys.node_count / maxNodes) * 100 : 0
-                          const color = sys.tint_color || cat.accent
-                          return (
-                            <tr
-                              key={sys.id}
-                              className="border-b border-border/30 last:border-0 hover:bg-muted/20 transition-colors"
-                            >
-                              <td className="px-4 py-3">
-                                <Link
-                                  href={`/system/${sys.id}`}
-                                  className="flex items-center gap-2 group"
-                                >
-                                  <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: color }} />
-                                  <span className="font-medium group-hover:text-primary transition-colors">
-                                    {sys.name}
-                                  </span>
-                                  <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
-                                </Link>
-                              </td>
-                              <td className="px-4 py-3 text-xs text-muted-foreground hidden sm:table-cell">
-                                {sys.region ?? '-'}
-                              </td>
-                              <td className="px-4 py-3 text-right font-mono text-xs tabular-nums">
-                                {sys.node_count.toLocaleString()}
-                              </td>
-                              <td className="px-4 py-3 hidden md:table-cell">
-                                <div className="h-1.5 rounded-full bg-muted overflow-hidden w-full">
-                                  <div
-                                    className="h-full rounded-full transition-all"
-                                    style={{ width: `${Math.max(pct, 1)}%`, backgroundColor: color }}
-                                  />
-                                </div>
-                              </td>
-                            </tr>
-                          )
-                        })}
-                    </tbody>
-                  </table>
-                </div>
+                {isOpen && (
+                  <div className="border-t border-border/40">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="bg-muted/40 border-b border-border/40">
+                          <th className="text-left px-4 py-2.5 text-xs font-medium text-muted-foreground">System</th>
+                          <th className="text-left px-4 py-2.5 text-xs font-medium text-muted-foreground hidden sm:table-cell">Region</th>
+                          <th className="text-right px-4 py-2.5 text-xs font-medium text-muted-foreground w-20">Nodes</th>
+                          <th className="px-4 py-2.5 w-36 hidden md:table-cell" />
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {displaySystems
+                          .slice()
+                          .sort((a, b) => a.name.localeCompare(b.name))
+                          .map((sys) => {
+                            const pct = maxNodes > 0 ? (sys.node_count / maxNodes) * 100 : 0
+                            const color = sys.tint_color || cat.accent
+                            return (
+                              <tr
+                                key={sys.id}
+                                className="border-b border-border/30 last:border-0 hover:bg-muted/20 transition-colors"
+                              >
+                                <td className="px-4 py-3">
+                                  <Link
+                                    href={`/system/${sys.id}`}
+                                    className="flex items-center gap-2 group"
+                                  >
+                                    <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: color }} />
+                                    <span className="font-medium group-hover:text-primary transition-colors">
+                                      {sys.name}
+                                    </span>
+                                    <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
+                                  </Link>
+                                </td>
+                                <td className="px-4 py-3 text-xs text-muted-foreground hidden sm:table-cell">
+                                  {sys.region ?? '-'}
+                                </td>
+                                <td className="px-4 py-3 text-right font-mono text-xs tabular-nums">
+                                  {sys.node_count.toLocaleString()}
+                                </td>
+                                <td className="px-4 py-3 hidden md:table-cell">
+                                  <div className="h-1.5 rounded-full bg-muted overflow-hidden w-full">
+                                    <div
+                                      className="h-full rounded-full transition-all"
+                                      style={{ width: `${Math.max(pct, 1)}%`, backgroundColor: color }}
+                                    />
+                                  </div>
+                                </td>
+                              </tr>
+                            )
+                          })}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
               </div>
             )
           })}

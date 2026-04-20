@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation'
 import { ArrowRight, ExternalLink } from 'lucide-react'
 import { serverGetSystem, serverGetSystems } from '@/lib/server-api'
 import { getSystemColor } from '@/lib/colors'
-import { MAJOR_SYSTEMS, isMajorSystem } from '../constants'
+import { MAJOR_SYSTEMS } from '../constants'
 
 interface Props {
   params: Promise<{ system: string }>
@@ -39,7 +39,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function SystemCodeIndexPage({ params }: Props) {
   const { system } = await params
-  if (!isMajorSystem(system)) notFound()
 
   let detail, allSystems
   try {

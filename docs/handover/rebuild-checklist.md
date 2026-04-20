@@ -31,13 +31,20 @@ JWT_SECRET=$(python3 -c 'import secrets; print(secrets.token_hex(32))')
 # Production-required
 ALLOWED_ORIGINS=https://worldoftaxonomy.com
 METRICS_TOKEN=$(python3 -c 'import secrets; print(secrets.token_hex(16))')
-# Optional
-ANTHROPIC_API_KEY=sk-ant-...
+# Optional - enables AI taxonomy generation and classify LLM fallback.
+# All LLM calls go through world_of_taxonomy.llm_client. Ollama Cloud is the
+# primary provider; OpenRouter is the fallback. Either key alone suffices.
+OLLAMA_API_KEY=...
+OLLAMA_MODEL=gpt-oss:120b
+OLLAMA_BASE_URL=https://ollama.com/v1
+OPENROUTER_API_KEY=
+OPENROUTER_MODEL=openai/gpt-oss-120b
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 REPORT_EMAIL=you@example.com
 SENTRY_DSN=
 SENTRY_ENVIRONMENT=production
 SENTRY_TRACES_SAMPLE_RATE=0.1
-OPENAPI_SERVERS=https://wot.aixcelerator.app:Production
+OPENAPI_SERVERS=https://wot.aixcelerator.ai:Production
 # SSRF hardening for LEAD_WEBHOOK_URL (if set)
 WEBHOOK_HOST_ALLOWLIST=
 WEBHOOK_ALLOW_HTTP=false
@@ -184,7 +191,7 @@ Smoke test in a browser:
 1. `/` - galaxy renders with 1000+ system nodes animating into place.
 2. `/explore` - stats cards + systems table visible; typing a query flips to search results.
 3. `/system/naics_2022` - hierarchy tree loads; clicking a code navigates to `/system/naics_2022/node/<code>`.
-4. `/crosswalk-explorer` - Cytoscape graph loads on demand.
+4. `/crosswalks` - Cytoscape graph loads on demand. Deep-links work via `?source=&target=`.
 5. `/guide` - all 10 wiki pages list and open.
 6. Theme toggle flips dark <-> light with no flash.
 
@@ -226,7 +233,7 @@ This is the same grep CI runs. Must return `clean`.
 2. Deploy anywhere that accepts a container (Fly, Railway, Cloud Run, Fargate, your own VPS).
 3. Entry: `uvicorn world_of_taxonomy.api.app:create_app --factory --host 0.0.0.0 --port 8000`.
 4. Env vars from step 1.
-5. DNS: `wot.aixcelerator.app` (or your own API host) -> container.
+5. DNS: `wot.aixcelerator.ai` (or your own API host) -> container.
 6. CORS allow-list: add your frontend origin in [world_of_taxonomy/api/middleware.py](../../world_of_taxonomy/api/middleware.py).
 
 ### Database
@@ -264,7 +271,7 @@ Follow [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md) for GitHub, 
 You do not need all of these to have a working system:
 
 - Full 864-ingester run. NAICS + ISIC + NACE is enough to demo the API, MCP, and web app. Layer in more systems as needed.
-- AI classify endpoint. It needs `ANTHROPIC_API_KEY` and Pro+ auth. Skip if unused.
+- AI classify / generate endpoints. They need either `OLLAMA_API_KEY` (primary, Ollama Cloud) or `OPENROUTER_API_KEY` (fallback), plus Pro+ auth. Skip if unused.
 - OAuth providers. Password login works without them.
 - Vercel. `npm run build && npm start` on any host works.
 - llms-full.txt. Nice to have for AI crawlers; not required for humans.

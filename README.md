@@ -1,7 +1,7 @@
 # WorldOfTaxonomy
 
 <p align="center">
-  <strong>1,000 classification systems. 1,212,000+ codes. 321,000+ crosswalk edges.</strong><br>
+  <strong>1,000 classification systems. 1,212,000+ codes. 326,000+ crosswalk edges.</strong><br>
   The open-source Rosetta Stone for global industry, trade, occupation, health, and regulatory taxonomies.
 </p>
 
@@ -98,7 +98,7 @@ graph TD
   subgraph DB["Database Tables"]
     SYS["classification_system - 1,000+ systems"]
     NODE["classification_node - 1.2M+ nodes"]
-    EQUIV["equivalence - 321K+ edges"]
+    EQUIV["equivalence - 326K+ edges"]
   end
   CSV --> PARSE
   XLSX --> PARSE
@@ -190,7 +190,7 @@ WorldOfTaxonomy/
 ```sql
 classification_system      -- 1,000 rows: id, name, region, authority, node_count
 classification_node        -- 1.2M rows: system_id, code, title, level, parent_code
-equivalence                -- 321K rows: source_system, source_code, target_system, target_code, match_type
+equivalence                -- 326K rows: source_system, source_code, target_system, target_code, match_type (edge_kind is computed on read)
 country_system_link        -- 27K rows: country_code, system_id, relevance ('official'|'regional'|'recommended')
 ```
 
@@ -317,7 +317,7 @@ WorldOfTaxonomy ships with a Model Context Protocol server. Add it to Claude Des
 |----------|---------|-----------|
 | Industry | 68 | NAICS, ISIC, NACE + 58 national adaptations (EU, LATAM, Asia, Africa) |
 | Life Sciences | 108 | ICD-11, ICD-10-CM/PCS, LOINC (102K), MeSH, SNOMED, NDC, NCI Thesaurus (211K) |
-| Domain Deep-Dives | 400+ | Sector vocabularies for 40+ industry verticals |
+| Domain Deep-Dives | 434 | Plain-language sector vocabularies for 40+ verticals, all bridged to NAICS / ISIC / NACE via sector anchors (`derived:sector_anchor:v1`) |
 | Regulatory | 80+ | GDPR, FDA, SOX, HIPAA, ISO standards, EU directives, NIST frameworks |
 | Occupational | 10 | SOC, ISCO-08, ESCO (14K skills), O\*NET, ANZSCO, NOC, KldB, ROME |
 | Product / Trade | 11 | HS 2022, UNSPSC (77K codes), CPC, SITC, HTS, Schedule B, ECCN |
@@ -362,7 +362,10 @@ GET /api/v1/diff?a={sys}&b={sys}                   Codes in A with no match in B
 GET /api/v1/countries/stats                        Coverage stats (world map)
 GET /api/v1/countries/{code}                       Country taxonomy profile
 GET /api/v1/systems/{src}/crosswalk/{tgt}/graph    Crosswalk graph for visualization
+GET /api/v1/equivalences/stats?group_by=edge_kind  Counts grouped by the four edge kinds
 ```
+
+Every equivalence returned by `/equivalences` and `/translations` carries an `edge_kind` field computed from the two endpoint systems: `standard_standard`, `standard_domain`, `domain_standard`, or `domain_domain`. Filter with `?edge_kind=standard_standard` (or a comma-separated list) to narrow results. Filter with `?match_type=exact` to exclude the generated sector-anchor bridges and keep only authoritative statistical concordances.
 
 Interactive docs: `http://localhost:8000/docs` (Swagger UI, auto-generated)
 

@@ -71,7 +71,7 @@ export function HomeContent({ initialSystems, initialStats }: HomeContentProps) 
             {[
               { icon: Globe,     value: loadingSystems ? '...' : (systems?.length ?? '...').toString(),     label: 'Systems',      href: '/explore' },
               { icon: GitBranch, value: loadingSystems ? '...' : totalNodes.toLocaleString(),            label: 'Nodes',        href: '/explore' },
-              { icon: Network,   value: loadingStats   ? '...' : totalEdges.toLocaleString(),            label: 'Connections',  href: '/crosswalk-explorer' },
+              { icon: Network,   value: loadingStats   ? '...' : totalEdges.toLocaleString(),            label: 'Connections',  href: '/crosswalks' },
               { icon: Star,      value: githubStars != null ? githubStars.toLocaleString() : '...',      label: 'GitHub Stars', href: 'https://github.com/colaberry/WorldOfTaxonomy/stargazers' },
             ].map(({ icon: Icon, value, label, href }) => (
               <Link
@@ -189,7 +189,7 @@ export function HomeContent({ initialSystems, initialStats }: HomeContentProps) 
         </p>
       </div>
 
-      {/* Crosswalk Ring - preview links to /crosswalk-explorer */}
+      {/* Crosswalk Ring - preview links to /crosswalks */}
       {systems && stats && (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full space-y-3">
           <div className="flex items-center justify-between">
@@ -202,13 +202,13 @@ export function HomeContent({ initialSystems, initialStats }: HomeContentProps) 
               </p>
             </div>
             <Link
-              href="/crosswalk-explorer"
+              href="/crosswalks"
               className="text-xs text-muted-foreground hover:text-foreground flex items-center gap-1 transition-colors"
             >
               Explore crosswalks <ArrowRight className="h-3 w-3" />
             </Link>
           </div>
-          <Link href="/crosswalk-explorer" className="block group">
+          <Link href="/crosswalks" className="block group">
             <div className="relative w-full h-[500px] rounded-xl border border-border/50 bg-background overflow-hidden">
               <div className="pointer-events-none w-full h-full">
                 <CrosswalkGraph mode="system" systems={systems} stats={stats} />
