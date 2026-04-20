@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
-import { AlertTriangle, ArrowRight, Briefcase, CheckCircle2, ChevronDown, ChevronUp, GitBranch, Globe, Layers, Loader2, Network, Sparkles, X } from 'lucide-react'
+import { AlertTriangle, ArrowRight, Briefcase, CheckCircle2, ChevronDown, ChevronUp, GitBranch, Globe, Layers, Loader2, Network, Share2, Sparkles, Terminal, X } from 'lucide-react'
 import {
   classifyDemo,
   getCountriesList,
@@ -431,6 +431,43 @@ function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
           </div>
         </div>
       </div>
+
+      {/* Secondary CTAs - only render when there is a result worth acting on */}
+      {hasMatches && (
+        <div className="grid sm:grid-cols-2 gap-3">
+          <a
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
+              `Just classified "${data.query}" with WorldOfTaxonomy - codes across NAICS, ISIC, SIC, NACE, SOC in seconds. Free and open source:`
+            )}&url=${encodeURIComponent('https://worldoftaxonomy.com/classify')}&via=ramdhanyk`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-start gap-3 rounded-xl border border-border bg-card p-4 hover:border-primary/40 hover:bg-accent/40 transition"
+          >
+            <Share2 className="size-5 text-primary mt-0.5 shrink-0" />
+            <div className="flex-1 space-y-1">
+              <h3 className="text-sm font-medium">Share your result</h3>
+              <p className="text-xs text-muted-foreground">
+                Post this classification to X
+              </p>
+            </div>
+            <ArrowRight className="size-3.5 text-muted-foreground mt-1 shrink-0" />
+          </a>
+
+          <Link
+            href="/mcp"
+            className="flex items-start gap-3 rounded-xl border border-border bg-card p-4 hover:border-primary/40 hover:bg-accent/40 transition"
+          >
+            <Terminal className="size-5 text-primary mt-0.5 shrink-0" />
+            <div className="flex-1 space-y-1">
+              <h3 className="text-sm font-medium">Use it in Claude Desktop</h3>
+              <p className="text-xs text-muted-foreground">
+                Add the MCP server and classify from any chat
+              </p>
+            </div>
+            <ArrowRight className="size-3.5 text-muted-foreground mt-1 shrink-0" />
+          </Link>
+        </div>
+      )}
 
       {/* Disclaimer + report link */}
       <div className="rounded-md border border-border bg-muted/30 p-4 text-xs text-muted-foreground space-y-1.5">
