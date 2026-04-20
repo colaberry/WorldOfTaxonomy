@@ -16,7 +16,7 @@ Both classify economic activities. Both have hierarchical structures. But they s
 ## Single translation
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems/naics_2022/nodes/5415/translations"
+curl "https://wot.aixcelerator.ai/api/v1/systems/naics_2022/nodes/5415/translations"
 ```
 
 ```json
@@ -38,7 +38,7 @@ curl "https://wot.aixcelerator.app/api/v1/systems/naics_2022/nodes/5415/translat
 import requests
 
 NAICS_CODES = ["5415", "4841", "6211", "2362", "3121"]
-BASE = "https://wot.aixcelerator.app/api/v1"
+BASE = "https://wot.aixcelerator.ai/api/v1"
 
 for code in NAICS_CODES:
     resp = requests.get(f"{BASE}/systems/naics_2022/nodes/{code}/translations")
@@ -76,7 +76,7 @@ sequenceDiagram
 Not all translations are 1:1. Use the equivalences endpoint for the full picture:
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems/naics_2022/nodes/5415/equivalences"
+curl "https://wot.aixcelerator.ai/api/v1/systems/naics_2022/nodes/5415/equivalences"
 ```
 
 Each edge includes a **match type**:
@@ -92,7 +92,7 @@ Each edge includes a **match type**:
 
 ```bash
 # NAICS codes with no NACE equivalent
-curl "https://wot.aixcelerator.app/api/v1/diff?a=naics_2022&b=nace_rev2"
+curl "https://wot.aixcelerator.ai/api/v1/diff?a=naics_2022&b=nace_rev2"
 ```
 
 This returns the exact codes you need to map manually - the gap analysis that usually takes days of spreadsheet work.

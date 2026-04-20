@@ -28,7 +28,7 @@ graph TD
 ### Get a country's full profile
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/countries/DE"
+curl "https://wot.aixcelerator.ai/api/v1/countries/DE"
 ```
 
 ```json
@@ -44,13 +44,13 @@ curl "https://wot.aixcelerator.app/api/v1/countries/DE"
 ### Get all systems for a country
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems?country=DE"
+curl "https://wot.aixcelerator.ai/api/v1/systems?country=DE"
 ```
 
 ### Get global coverage statistics
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/countries/stats"
+curl "https://wot.aixcelerator.ai/api/v1/countries/stats"
 ```
 
 ## Regional patterns

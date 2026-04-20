@@ -57,7 +57,7 @@ graph LR
 ## Translate a US job code internationally
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems/soc_2018/nodes/15-1252/translations"
+curl "https://wot.aixcelerator.ai/api/v1/systems/soc_2018/nodes/15-1252/translations"
 ```
 
 Returns ISCO-08, ESCO, O*NET-SOC, and other equivalent codes with match types.
@@ -65,7 +65,7 @@ Returns ISCO-08, ESCO, O*NET-SOC, and other equivalent codes with match types.
 ## Search across all systems
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/search?q=software+developer&grouped=true"
+curl "https://wot.aixcelerator.ai/api/v1/search?q=software+developer&grouped=true"
 ```
 
 Returns matching codes from SOC, ISCO, ESCO, ANZSCO, NOC, KldB, ROME, and UK SOC in a single response.
@@ -73,7 +73,7 @@ Returns matching codes from SOC, ISCO, ESCO, ANZSCO, NOC, KldB, ROME, and UK SOC
 ## Find gaps between systems
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/diff?a=soc_2018&b=isco_08"
+curl "https://wot.aixcelerator.ai/api/v1/diff?a=soc_2018&b=isco_08"
 ```
 
 Returns SOC codes with no ISCO equivalent - the gap analysis needed for international expansion.

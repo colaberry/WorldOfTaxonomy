@@ -152,7 +152,7 @@ Regulatory frameworks are classification systems too. HIPAA provisions map to da
 ### Search across all clinical systems
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/search?q=breast+cancer&grouped=true"
+curl "https://wot.aixcelerator.ai/api/v1/search?q=breast+cancer&grouped=true"
 ```
 
 Returns codes from ICD-10-CM, ICD-11, NCI Thesaurus, MeSH, ICD-O-3, and domain systems.
@@ -160,13 +160,13 @@ Returns codes from ICD-10-CM, ICD-11, NCI Thesaurus, MeSH, ICD-O-3, and domain s
 ### Translate between coding systems
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems/icd10cm/nodes/C50/translations"
+curl "https://wot.aixcelerator.ai/api/v1/systems/icd10cm/nodes/C50/translations"
 ```
 
 ### Navigate deep hierarchies
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/systems/icd10cm/nodes/C50.911/ancestors"
+curl "https://wot.aixcelerator.ai/api/v1/systems/icd10cm/nodes/C50.911/ancestors"
 ```
 
 ```mermaid
@@ -182,7 +182,7 @@ graph TD
 ### Find coverage gaps
 
 ```bash
-curl "https://wot.aixcelerator.app/api/v1/diff?a=icd10cm&b=icd11_mms"
+curl "https://wot.aixcelerator.ai/api/v1/diff?a=icd10cm&b=icd11_mms"
 ```
 
 ## For AI in healthcare

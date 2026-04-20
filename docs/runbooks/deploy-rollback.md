@@ -31,7 +31,7 @@ fly deploy --image registry.fly.io/wot-api:<previous-tag> -a wot-api
 Verify:
 
 ```bash
-curl https://wot.aixcelerator.app/api/v1/version
+curl https://wot.aixcelerator.ai/api/v1/version
 # Check git_sha matches the rolled-back commit
 ```
 
