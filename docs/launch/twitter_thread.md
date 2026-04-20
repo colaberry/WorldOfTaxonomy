@@ -1,7 +1,7 @@
 # Twitter / X Launch Thread
 
 Post these as a thread. Tweet 1 is the hook - it needs to stand alone if people only
-see that one. Edit [YOUR_HANDLE], [DEMO_URL], [GITHUB_URL] before posting.
+see that one. Demo and GitHub URLs are filled in; set [YOUR_HANDLE] before posting.
 
 ---
 
@@ -13,7 +13,7 @@ None of them talk to each other.
 
 So I built the Rosetta Stone for all of them.
 
-279 classification systems. 570,178 codes. One open-source API.
+1,000 classification systems. 1.2M+ codes. One open-source API.
 
 [demo screenshot or GIF of the world map]
 
@@ -39,7 +39,7 @@ GET /systems/naics_2022/nodes/4841/translations
 
 Returns NACE 49.4, ISIC 4923, SIC 4213, ISCO 8332...
 
-And it works in reverse. And across all 279 systems.
+And it works in reverse. And across all 1,000 systems.
 Not a lookup table - a knowledge graph.
 
 [screenshot of API response]
@@ -67,12 +67,12 @@ AI-native from day one.
 
 The scale:
 
-- 279 classification systems
-- 570,178 codes across all systems
-- 122,769 crosswalk edges linking them
+- 1,000 classification systems
+- 1,212,173+ codes across all systems
+- 321,937+ crosswalk edges linking them
 - 249 countries with official taxonomy profiles
-- 10 categories: industry, health, trade, occupational, regulatory...
-- 36 domain deep-dives for emerging sectors
+- 16 categories: industry, health, trade, occupational, regulatory...
+- 400+ domain deep-dives for emerging sectors
 
 Self-hosted with Docker in 2 minutes.
 
@@ -86,8 +86,8 @@ There are still ~50 national industry codes that belong in the graph.
 If you work with a classification system we're missing, the contributing
 guide makes adding one take about 2 hours.
 
-GitHub: [GITHUB_URL]
-Demo: [DEMO_URL]
+GitHub: https://github.com/colaberry/WorldOfTaxonomy
+Demo: https://worldoftaxonomy.com
 
 ---
 
