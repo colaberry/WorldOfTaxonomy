@@ -3,7 +3,7 @@
 # Build context MUST be the repo root (not the frontend/ directory) because
 # frontend/package.json's `prebuild` script copies sibling content dirs into
 # src/content before `next build`:
-#   cp -r ../wiki ../blog ../crosswalk-data/*.json into src/content/
+#   wiki, blog, crosswalk-data/*.json, tree-data/*.json
 #
 # Build:   docker build -f frontend/Dockerfile.prod -t wot-web .
 # Run:     docker run -p 3000:3000 -e BACKEND_URL=http://host.docker.internal:8000 wot-web
@@ -14,10 +14,13 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Sibling content dirs consumed by the frontend `prebuild` hook
+# Sibling content dirs consumed by the frontend `prebuild` hook.
+# Keep in sync with frontend/package.json `prebuild` scripts:
+#   wiki:copy, blog:copy, crosswalk:copy, tree:copy
 COPY wiki ./wiki
 COPY blog ./blog
 COPY crosswalk-data ./crosswalk-data
+COPY tree-data ./tree-data
 
 # Install deps (cached layer unless lockfile changes)
 COPY frontend/package.json frontend/package-lock.json ./frontend/
