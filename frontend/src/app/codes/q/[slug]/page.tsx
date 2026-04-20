@@ -103,7 +103,7 @@ export default async function QueryPage({ params }: Props) {
   if (!q) notFound()
 
   const [allSystems, ...perSystemResults] = await Promise.all([
-    serverGetSystems(),
+    serverGetSystems().catch(() => [] as ClassificationSystem[]),
     ...MAJOR_SYSTEMS.map((id) =>
       serverSearchFallback(q.query, id, q.keywords, 3).catch(() => [] as ClassificationNode[]),
     ),
