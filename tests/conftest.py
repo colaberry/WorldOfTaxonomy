@@ -117,6 +117,7 @@ async def _setup(pool):
         await seed_isic(conn)
         await seed_sic(conn)
         await seed_crosswalk(conn)
+        await seed_country_system_links(conn)
 
 
 async def _teardown(pool):
@@ -215,6 +216,30 @@ async def seed_sic(conn):
             VALUES ('sic_1987', $1, $2, $3, $4, $5, $6, $7, $8)
         """, code, title, desc, level, parent, sector, leaf, seq)
     await conn.execute("UPDATE classification_system SET node_count = 8 WHERE id = 'sic_1987'")
+
+
+async def seed_country_system_links(conn):
+    """Seed country_system_link for scope-resolution tests.
+
+    Layout:
+      US: naics_2022 (official), isic_rev4 (recommended), sic_1987 (historical)
+      DE: isic_rev4 (recommended)
+      CA: naics_2022 (regional), isic_rev4 (recommended)
+    """
+    links = [
+        ("US", "naics_2022", "official"),
+        ("US", "isic_rev4", "recommended"),
+        ("US", "sic_1987", "historical"),
+        ("DE", "isic_rev4", "recommended"),
+        ("CA", "naics_2022", "regional"),
+        ("CA", "isic_rev4", "recommended"),
+    ]
+    for country, system, relevance in links:
+        await conn.execute(
+            """INSERT INTO country_system_link (country_code, system_id, relevance)
+               VALUES ($1, $2, $3)""",
+            country, system, relevance,
+        )
 
 
 async def seed_crosswalk(conn):

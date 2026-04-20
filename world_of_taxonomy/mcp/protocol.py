@@ -31,6 +31,7 @@ from world_of_taxonomy.mcp.handlers import (
     handle_get_region_mapping,
     handle_describe_match_types,
     handle_get_country_taxonomy_profile,
+    handle_get_country_scope,
     handle_explore_industry_tree,
     handle_get_audit_report,
     handle_classify_business,
@@ -49,11 +50,19 @@ def build_tools_list() -> List[Dict[str, Any]]:
                 "List all available classification systems. Each entry includes a 'category' "
                 "field: 'domain' for curated WoT Domain taxonomies (system_id prefix 'domain_', "
                 "plain-language on-ramps such as truck freight types, insurance risk types) and "
-                "'standard' for official standards (NAICS, ISIC, NACE, SIC, SOC, HS, ICD, ISO, ...)."
+                "'standard' for official standards (NAICS, ISIC, NACE, SIC, SOC, HS, ICD, ISO, ...). "
+                "Pass 'country_code' (ISO 3166-1 alpha-2, e.g. 'DE', 'US', 'IN') to restrict "
+                "the list to systems applicable in that country, ordered by relevance "
+                "(official national standard first, then regional, recommended, historical)."
             ),
             "inputSchema": {
                 "type": "object",
-                "properties": {},
+                "properties": {
+                    "country_code": {
+                        "type": "string",
+                        "description": "Optional ISO 3166-1 alpha-2 country code to filter systems by applicability.",
+                    },
+                },
             },
         },
         {
@@ -115,7 +124,10 @@ def build_tools_list() -> List[Dict[str, Any]]:
             "description": (
                 "Full-text search across classification systems. Searches titles and codes. "
                 "Each result carries a 'category' field ('domain' vs 'standard') so callers "
-                "can split results into curated WoT Domain taxonomies and official standards."
+                "can split results into curated WoT Domain taxonomies and official standards. "
+                "Pass `countries` to scope candidates to that country's applicable systems "
+                "plus universal recommended standards (UN/WCO/WHO); the result also includes "
+                "a `scope` object showing the resolved country-specific vs global buckets."
             ),
             "inputSchema": {
                 "type": "object",
@@ -127,6 +139,16 @@ def build_tools_list() -> List[Dict[str, Any]]:
                     "system_id": {
                         "type": "string",
                         "description": "Optional: filter results to a specific system",
+                    },
+                    "countries": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": (
+                            "Optional ISO 3166-1 alpha-2 country codes (e.g. ['US'], "
+                            "['US','CA','MX']). Scopes candidates to applicable systems + "
+                            "universal standards. Not a hard filter - global standards "
+                            "recommended for any selected country stay in the pool."
+                        ),
                     },
                     "limit": {
                         "type": "integer",
@@ -398,8 +420,12 @@ def build_tools_list() -> List[Dict[str, Any]]:
                 "'standard_matches' (official standards like NAICS, ISIC, NACE, SIC, SOC, HS, "
                 "ICD, ISO). Each match carries a 'category' field. Example: 'organic baby "
                 "food manufacturer' returns domain matches (food-service types) plus standard "
-                "matches (NAICS 311422, ISIC 1030, HS 2007). Results are informational only; "
-                "use at your own risk."
+                "matches (NAICS 311422, ISIC 1030, HS 2007). "
+                "Pass `countries` to scope candidates to that country's applicable systems "
+                "plus universal recommended standards (UN/WCO/WHO). `countries` overrides "
+                "`systems` when both are set. The response includes a `scope` object when "
+                "countries are supplied, showing country-specific vs global candidates. "
+                "Results are informational only; use at your own risk."
             ),
             "inputSchema": {
                 "type": "object",
@@ -413,6 +439,14 @@ def build_tools_list() -> List[Dict[str, Any]]:
                         "items": {"type": "string"},
                         "description": "Optional list of system IDs to search (e.g., ['naics_2022', 'hs_2022']). Default: all major systems.",
                     },
+                    "countries": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": (
+                            "Optional ISO 3166-1 alpha-2 country codes. Scopes candidates "
+                            "to applicable systems + universal standards. Not a hard filter."
+                        ),
+                    },
                     "limit": {
                         "type": "integer",
                         "description": "Maximum matches per system (default: 5)",
@@ -420,6 +454,29 @@ def build_tools_list() -> List[Dict[str, Any]]:
                     },
                 },
                 "required": ["text"],
+            },
+        },
+        {
+            "name": "get_country_scope",
+            "description": (
+                "Introspection tool: given one or more ISO 3166-1 alpha-2 country codes, "
+                "return the candidate classification systems that `search_classifications` "
+                "and `classify_business` would use when scoped to those countries. Returns "
+                "`country_specific_systems` (relevance=official/regional), "
+                "`global_standard_systems` (relevance=recommended universal standards), and "
+                "`candidate_systems` (the union). Use this before search/classify when the "
+                "agent wants to reason about what's in scope before committing."
+            ),
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "countries": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "ISO 3166-1 alpha-2 country codes, e.g. ['US'] or ['US','CA','MX'].",
+                    },
+                },
+                "required": ["countries"],
             },
         },
     ]
@@ -479,6 +536,7 @@ _TOOL_HANDLERS = {
     "get_region_mapping": handle_get_region_mapping,
     "describe_match_types": handle_describe_match_types,
     "get_country_taxonomy_profile": handle_get_country_taxonomy_profile,
+    "get_country_scope": handle_get_country_scope,
     "explore_industry_tree": handle_explore_industry_tree,
     "get_audit_report": handle_get_audit_report,
     "classify_business": handle_classify_business,

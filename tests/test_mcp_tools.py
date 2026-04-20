@@ -44,6 +44,36 @@ def test_list_systems(db_pool):
     _run(_test())
 
 
+def test_list_systems_filtered_by_country(db_pool):
+    """Passing country_code returns only systems applicable to that country."""
+    async def _test():
+        async with db_pool.acquire() as conn:
+            await conn.executemany(
+                """INSERT INTO country_system_link (country_code, system_id, relevance)
+                   VALUES ($1, $2, $3)
+                   ON CONFLICT DO NOTHING""",
+                [
+                    ("DE", "isic_rev4", "recommended"),
+                    ("US", "naics_2022", "official"),
+                    ("US", "isic_rev4", "recommended"),
+                ],
+            )
+            result = await handle_list_classification_systems(
+                conn, {"country_code": "US"}
+            )
+            ids = {s["id"] for s in result}
+            assert "naics_2022" in ids
+            assert "isic_rev4" in ids
+
+            de_result = await handle_list_classification_systems(
+                conn, {"country_code": "DE"}
+            )
+            de_ids = {s["id"] for s in de_result}
+            assert "isic_rev4" in de_ids
+            assert "naics_2022" not in de_ids
+    _run(_test())
+
+
 # ── Tool: get_industry ────────────────────────────────────────
 
 

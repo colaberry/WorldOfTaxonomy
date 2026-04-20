@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { Suspense } from 'react'
 import { ArrowRight, ChevronDown } from 'lucide-react'
 import { serverGetSystems, serverGetStats } from '@/lib/server-api'
 import type { ClassificationSystem, CrosswalkStat } from '@/lib/types'
 import { getSystemColor } from '@/lib/colors'
 import { SystemCard, type CrosswalkBadge } from './SystemCard'
 import { classifyRegion, REGION_ORDER, type RegionBucket } from './regions'
+import { CountryFilterShell } from './CountryFilterShell'
 
 export const revalidate = 3600
 
@@ -107,42 +109,46 @@ export default async function CodesHubPage() {
         </Link>
       </section>
 
-      {REGION_ORDER.map((bucket) => {
-        const list = grouped.get(bucket) ?? []
-        if (list.length === 0) return null
-        const isNorthAmerica = bucket === 'North America'
-        const summaryCodes = list.reduce((acc, s) => acc + s.node_count, 0)
+      <Suspense fallback={<div className="text-sm text-muted-foreground">Loading country filter...</div>}>
+        <CountryFilterShell>
+          {REGION_ORDER.map((bucket) => {
+            const list = grouped.get(bucket) ?? []
+            if (list.length === 0) return null
+            const isNorthAmerica = bucket === 'North America'
+            const summaryCodes = list.reduce((acc, s) => acc + s.node_count, 0)
 
-        return (
-          <details
-            key={bucket}
-            open={isNorthAmerica}
-            className="group border-b border-border/60 pb-4"
-          >
-            <summary className="flex items-baseline justify-between gap-3 cursor-pointer list-none py-3">
-              <div className="flex items-baseline gap-3">
-                <ChevronDown className="size-4 text-muted-foreground transition-transform group-open:rotate-0 -rotate-90" />
-                <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">
-                  {bucket}
-                </h2>
-                <span className="text-xs text-muted-foreground">
-                  {list.length} {list.length === 1 ? 'system' : 'systems'} · {summaryCodes.toLocaleString()} codes
-                </span>
-              </div>
-            </summary>
-            <div className="grid sm:grid-cols-2 gap-3 mt-3">
-              {list.map((sys) => (
-                <SystemCard
-                  key={sys.id}
-                  system={sys}
-                  systemColor={getSystemColor(sys.id)}
-                  crosswalks={crosswalksBySource.get(sys.id) ?? []}
-                />
-              ))}
-            </div>
-          </details>
-        )
-      })}
+            return (
+              <details
+                key={bucket}
+                open={isNorthAmerica}
+                className="group border-b border-border/60 pb-4"
+              >
+                <summary className="flex items-baseline justify-between gap-3 cursor-pointer list-none py-3">
+                  <div className="flex items-baseline gap-3">
+                    <ChevronDown className="size-4 text-muted-foreground transition-transform group-open:rotate-0 -rotate-90" />
+                    <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">
+                      {bucket}
+                    </h2>
+                    <span className="text-xs text-muted-foreground">
+                      {list.length} {list.length === 1 ? 'system' : 'systems'} · {summaryCodes.toLocaleString()} codes
+                    </span>
+                  </div>
+                </summary>
+                <div className="grid sm:grid-cols-2 gap-3 mt-3">
+                  {list.map((sys) => (
+                    <SystemCard
+                      key={sys.id}
+                      system={sys}
+                      systemColor={getSystemColor(sys.id)}
+                      crosswalks={crosswalksBySource.get(sys.id) ?? []}
+                    />
+                  ))}
+                </div>
+              </details>
+            )
+          })}
+        </CountryFilterShell>
+      </Suspense>
     </div>
   )
 }

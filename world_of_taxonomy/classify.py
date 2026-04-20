@@ -437,6 +437,42 @@ def _compound_cta(atom_count: int) -> dict:
     }
 
 
+async def _attach_crosswalk_counts(conn, system_matches: list[dict]) -> None:
+    """Annotate each result item with its outgoing equivalence-edge count.
+
+    The UI uses crosswalk_count == 0 to hide the 'Show Crosswalks' button
+    rather than expand it into an empty-state message.
+
+    One batched query covers every (system_id, code) pair in the match set.
+    """
+    if not system_matches:
+        return
+    systems: list[str] = []
+    codes: list[str] = []
+    for m in system_matches:
+        for r in m.get("results", []):
+            r["crosswalk_count"] = 0
+            systems.append(m["system_id"])
+            codes.append(r["code"])
+    if not systems:
+        return
+    rows = await conn.fetch(
+        """
+        SELECT e.source_system, e.source_code, COUNT(*) AS edge_count
+        FROM equivalence e
+        JOIN unnest($1::text[], $2::text[]) AS u(sys, code)
+          ON e.source_system = u.sys AND e.source_code = u.code
+        GROUP BY e.source_system, e.source_code
+        """,
+        systems,
+        codes,
+    )
+    counts = {(r["source_system"], r["source_code"]): r["edge_count"] for r in rows}
+    for m in system_matches:
+        for r in m.get("results", []):
+            r["crosswalk_count"] = counts.get((m["system_id"], r["code"]), 0)
+
+
 async def classify_text(
     conn,
     text: str,
@@ -450,6 +486,10 @@ async def classify_text(
     returns a compound response with one atom per detected line of business.
     """
     target_systems = system_ids or DEFAULT_SYSTEMS
+    # Domain systems are fetched via _classify_domains (which owns the
+    # domain_% SQL filter); keep them out of _classify_single to avoid
+    # duplicate system_id entries in the merged result.
+    standard_targets = [s for s in target_systems if not s.startswith("domain_")]
 
     # Validate limit
     limit = max(1, min(limit, 20))
@@ -458,11 +498,12 @@ async def classify_text(
     if _is_compound(atoms):
         atom_payload: list[dict] = []
         for atom in atoms:
-            standard_matches = await _classify_single(conn, atom, target_systems, limit)
+            standard_matches = await _classify_single(conn, atom, standard_targets, limit)
             domain_matches = await _classify_domains(conn, atom, limit_per_system=limit)
             # Domain matches lead; standards follow. Consumers can re-partition
             # on system_id prefix (domain_*) if they need the explicit split.
             matches = domain_matches + standard_matches
+            await _attach_crosswalk_counts(conn, matches)
             atom_payload.append({"phrase": atom, "matches": matches})
         # Hero = first atom with non-empty matches; falls back to first atom.
         hero = next(
@@ -481,7 +522,7 @@ async def classify_text(
             "report_issue_url": REPORT_ISSUE_URL,
         }
 
-    standard_results = await _classify_single(conn, text, target_systems, limit)
+    standard_results = await _classify_single(conn, text, standard_targets, limit)
     domain_results = await _classify_domains(conn, text, limit_per_system=limit)
     results = domain_results + standard_results
 
@@ -497,12 +538,14 @@ async def classify_text(
             llm_tsquery = _build_or_tsquery(text, extra_synonyms=llm_keywords)
             if llm_tsquery:
                 standard_retry = await _classify_with_tsquery(
-                    conn, text, target_systems, limit, llm_tsquery
+                    conn, text, standard_targets, limit, llm_tsquery
                 )
                 domain_retry = await _classify_domains_with_tsquery(
                     conn, llm_tsquery, limit_per_system=limit
                 )
                 results = domain_retry + standard_retry
+
+    await _attach_crosswalk_counts(conn, results)
 
     # Fetch crosswalk edges between top results
     crosswalks = []

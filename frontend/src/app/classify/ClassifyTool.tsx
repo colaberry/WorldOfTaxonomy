@@ -1,13 +1,15 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
-import { AlertTriangle, ArrowRight, Briefcase, CheckCircle2, ChevronDown, ChevronUp, GitBranch, Layers, Loader2, Network, Sparkles } from 'lucide-react'
+import { AlertTriangle, ArrowRight, Briefcase, CheckCircle2, ChevronDown, ChevronUp, GitBranch, Globe, Layers, Loader2, Network, Sparkles, X } from 'lucide-react'
 import {
   classifyDemo,
+  getCountriesList,
   ApiError,
   type ClassifyDemoAtom,
   type ClassifyDemoResponse,
+  type CountryListEntry,
 } from '@/lib/api'
 import { getSystemColor } from '@/lib/colors'
 import { MatchCrosswalkMiniGraph } from '@/components/classify/MatchCrosswalkMiniGraph'
@@ -30,6 +32,22 @@ export function ClassifyTool() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [result, setResult] = useState<ClassifyDemoResponse | null>(null)
+  const [countries, setCountries] = useState<string[]>([])
+  const [countryOptions, setCountryOptions] = useState<CountryListEntry[] | null>(null)
+
+  useEffect(() => {
+    let cancelled = false
+    getCountriesList()
+      .then((list) => {
+        if (!cancelled) setCountryOptions(list)
+      })
+      .catch(() => {
+        if (!cancelled) setCountryOptions([])
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   // Hydrate remembered email from prior session so repeat visitors skip the gate.
   useEffect(() => {
@@ -57,7 +75,7 @@ export function ClassifyTool() {
 
     setLoading(true)
     try {
-      const data = await classifyDemo(cleanEmail, cleanText)
+      const data = await classifyDemo(cleanEmail, cleanText, countries)
       setResult(data)
       if (typeof window !== 'undefined') {
         window.localStorage.setItem(EMAIL_KEY, cleanEmail)
@@ -142,6 +160,12 @@ export function ClassifyTool() {
           </div>
         </div>
 
+        <CountryMultiPicker
+          selected={countries}
+          onChange={setCountries}
+          options={countryOptions}
+        />
+
         {error && (
           <div className="flex items-start gap-2 rounded-md border border-destructive/30 bg-destructive/5 p-3 text-sm text-destructive">
             <AlertTriangle className="size-4 mt-0.5 shrink-0" />
@@ -174,6 +198,173 @@ export function ClassifyTool() {
   )
 }
 
+function CountryMultiPicker({
+  selected,
+  onChange,
+  options,
+}: {
+  selected: string[]
+  onChange: (codes: string[]) => void
+  options: CountryListEntry[] | null
+}) {
+  const [text, setText] = useState('')
+  const [open, setOpen] = useState(false)
+  const [activeIdx, setActiveIdx] = useState(0)
+
+  const selectedEntries = useMemo(
+    () =>
+      selected.map(
+        (code) =>
+          options?.find((o) => o.code === code) ?? {
+            code,
+            title: code,
+            system_count: 0,
+            has_official: false,
+          }
+      ),
+    [selected, options]
+  )
+
+  const filtered = useMemo(() => {
+    if (!options) return []
+    const q = text.trim().toLowerCase()
+    const available = options.filter((o) => !selected.includes(o.code))
+    if (!q) return available.slice(0, 50)
+    return available
+      .filter(
+        (o) =>
+          o.title.toLowerCase().includes(q) ||
+          o.code.toLowerCase().startsWith(q)
+      )
+      .slice(0, 50)
+  }, [options, text, selected])
+
+  useEffect(() => {
+    setActiveIdx(0)
+  }, [text, selected])
+
+  const add = (code: string) => {
+    if (!code || selected.includes(code)) return
+    onChange([...selected, code])
+    setText('')
+    setActiveIdx(0)
+  }
+
+  const remove = (code: string) => {
+    onChange(selected.filter((c) => c !== code))
+  }
+
+  return (
+    <div className="space-y-2">
+      <label htmlFor="classify-countries" className="block text-sm font-medium">
+        <Globe className="inline-block size-3.5 mr-1 -mt-0.5 text-muted-foreground" />
+        Countries (optional)
+      </label>
+      <div className="relative">
+        <input
+          id="classify-countries"
+          type="text"
+          value={text}
+          placeholder="Type to search (e.g. India, Germany, US)..."
+          onFocus={() => setOpen(true)}
+          onBlur={() => setTimeout(() => setOpen(false), 150)}
+          onChange={(e) => {
+            setText(e.target.value)
+            setOpen(true)
+          }}
+          onKeyDown={(e) => {
+            if (e.key === 'ArrowDown') {
+              e.preventDefault()
+              setOpen(true)
+              setActiveIdx((i) => Math.min(i + 1, filtered.length - 1))
+            } else if (e.key === 'ArrowUp') {
+              e.preventDefault()
+              setActiveIdx((i) => Math.max(i - 1, 0))
+            } else if (e.key === 'Enter') {
+              e.preventDefault()
+              if (filtered[activeIdx]) add(filtered[activeIdx].code)
+            } else if (e.key === 'Escape') {
+              setOpen(false)
+            } else if (e.key === 'Backspace' && text === '' && selected.length > 0) {
+              remove(selected[selected.length - 1])
+            }
+          }}
+          disabled={!options}
+          autoComplete="off"
+          className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm outline-none focus:border-ring focus:ring-2 focus:ring-ring/30 disabled:opacity-50"
+        />
+        {open && filtered.length > 0 && (
+          <ul className="absolute z-20 mt-1 max-h-64 w-full overflow-auto rounded-md border border-border bg-popover shadow-lg">
+            {filtered.map((c, i) => (
+              <li key={c.code}>
+                <button
+                  type="button"
+                  onMouseDown={(e) => {
+                    e.preventDefault()
+                    add(c.code)
+                  }}
+                  onMouseEnter={() => setActiveIdx(i)}
+                  className={
+                    'flex w-full items-center justify-between gap-2 px-3 py-1.5 text-left text-sm transition-colors ' +
+                    (i === activeIdx ? 'bg-accent text-accent-foreground' : 'hover:bg-muted')
+                  }
+                >
+                  <span>
+                    <span className="font-medium">{c.title}</span>
+                    <span className="ml-2 font-mono text-xs text-muted-foreground">{c.code}</span>
+                  </span>
+                  <span className="text-xs text-muted-foreground">
+                    {c.system_count} system{c.system_count === 1 ? '' : 's'}
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+      {selectedEntries.length > 0 && (
+        <div className="flex flex-wrap gap-2 pt-1">
+          {selectedEntries.map((c) => (
+            <span
+              key={c.code}
+              className="inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary px-2.5 py-1 text-xs font-medium"
+            >
+              {c.title} ({c.code})
+              <button
+                type="button"
+                onClick={() => remove(c.code)}
+                className="hover:text-primary/70"
+                aria-label={`Remove ${c.title}`}
+              >
+                <X className="size-3" />
+              </button>
+            </span>
+          ))}
+        </div>
+      )}
+      <p className="text-xs text-muted-foreground">
+        Leave empty for the default demo set (NAICS, ISIC, NACE, SIC, SOC). Select one or more
+        countries to classify against their local systems plus global recommended standards.
+      </p>
+    </div>
+  )
+}
+
+function ScopeSummary({ scope }: { scope: NonNullable<ClassifyDemoResponse['scope']> }) {
+  return (
+    <div className="rounded-lg border border-border bg-muted/30 px-3 py-2 text-xs space-y-1">
+      <div className="flex items-center gap-1.5 font-medium">
+        <Globe className="size-3.5 text-muted-foreground" />
+        Scoped to {scope.countries.join(', ')}
+      </div>
+      <div className="text-muted-foreground">
+        {scope.country_specific_systems.length} country-specific + {scope.global_standard_systems.length} global standard systems
+        ({scope.candidate_systems.length} total).
+      </div>
+    </div>
+  )
+}
+
 function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
   const hasMatches = data.domain_matches.length + data.standard_matches.length > 0
   const isCompound = data.compound === true && Array.isArray(data.atoms) && data.atoms.length > 0
@@ -184,6 +375,8 @@ function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
         <CheckCircle2 className="size-4 text-primary" />
         Results for <span className="font-medium text-foreground">&ldquo;{data.query}&rdquo;</span>
       </div>
+
+      {data.scope && <ScopeSummary scope={data.scope} />}
 
       {data.llm_used && data.llm_keywords && data.llm_keywords.length > 0 && (
         <div className="flex flex-wrap items-center gap-2 rounded-lg border border-violet-400/30 bg-violet-50/60 dark:bg-violet-400/5 px-3 py-2 text-xs">
@@ -480,35 +673,39 @@ function SystemMatchCard({
               </div>
             )}
           </div>
-          <div>
-            <button
-              type="button"
-              onClick={() => setShowGraph((s) => !s)}
-              className="w-full flex items-center justify-between px-5 py-2.5 text-xs text-muted-foreground hover:text-foreground hover:bg-muted/40 transition-colors"
-              aria-expanded={showGraph}
-            >
-              <span className="flex items-center gap-1.5">
-                <Network className="size-3.5" />
-                {showGraph ? 'Hide crosswalks' : 'Show crosswalks to other systems'}
-                <span className="font-mono">({topResult.code})</span>
-              </span>
-              {showGraph ? (
-                <ChevronUp className="size-3.5" />
-              ) : (
-                <ChevronDown className="size-3.5" />
+          {(topResult.crosswalk_count ?? 0) > 0 && (
+            <div>
+              <button
+                type="button"
+                onClick={() => setShowGraph((s) => !s)}
+                className="w-full flex items-center justify-between px-5 py-2.5 text-xs text-muted-foreground hover:text-foreground hover:bg-muted/40 transition-colors"
+                aria-expanded={showGraph}
+              >
+                <span className="flex items-center gap-1.5">
+                  <Network className="size-3.5" />
+                  {showGraph
+                    ? 'Hide crosswalks'
+                    : `Show ${topResult.crosswalk_count} crosswalk${topResult.crosswalk_count === 1 ? '' : 's'} to other systems`}
+                  <span className="font-mono">({topResult.code})</span>
+                </span>
+                {showGraph ? (
+                  <ChevronUp className="size-3.5" />
+                ) : (
+                  <ChevronDown className="size-3.5" />
+                )}
+              </button>
+              {showGraph && (
+                <div className="px-5 pb-4 pt-1">
+                  <MatchCrosswalkMiniGraph
+                    systemId={match.system_id}
+                    systemName={match.system_name}
+                    code={topResult.code}
+                    title={topResult.title}
+                  />
+                </div>
               )}
-            </button>
-            {showGraph && (
-              <div className="px-5 pb-4 pt-1">
-                <MatchCrosswalkMiniGraph
-                  systemId={match.system_id}
-                  systemName={match.system_name}
-                  code={topResult.code}
-                  title={topResult.title}
-                />
-              </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       )}
     </div>

@@ -4,7 +4,8 @@ import { useQuery } from '@tanstack/react-query'
 import { getCountryProfile } from '@/lib/api'
 import type { CountryProfile, CountrySystem } from '@/lib/api'
 import Link from 'next/link'
-import { ArrowLeft, ExternalLink, Globe, Building2, ChevronRight } from 'lucide-react'
+import { ArrowLeft, Globe, Building2, ChevronRight, ChevronDown } from 'lucide-react'
+import { classifySystem, CATEGORY_ORDER, type SystemCategory } from '@/lib/systemCategory'
 
 const RELEVANCE_LABEL: Record<string, string> = {
   official: 'Official National Standard',
@@ -242,20 +243,63 @@ export function CountryDetail({ code, initialProfile }: CountryDetailProps) {
         </section>
       )}
 
-      {/* Classification systems by relevance group */}
-      <section className="space-y-6">
+      {/* Classification systems by relevance group, categorized */}
+      <section className="space-y-8">
         {(['official', 'regional', 'recommended', 'historical'] as const).map((rel) => {
           const systems = byRelevance[rel]
           if (!systems) return null
+
+          const byCategory = new Map<SystemCategory, CountrySystem[]>()
+          for (const s of systems) {
+            const cat = classifySystem(s.id)
+            const list = byCategory.get(cat) ?? []
+            list.push(s)
+            byCategory.set(cat, list)
+          }
+          for (const list of byCategory.values()) {
+            list.sort((a, b) => b.node_count - a.node_count)
+          }
+
+          const orderedCategories = CATEGORY_ORDER.filter((c) => byCategory.has(c))
+
           return (
-            <div key={rel} className="space-y-2">
-              <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
-                {RELEVANCE_LABEL[rel]}
-              </h2>
+            <div key={rel} className="space-y-3">
+              <div className="flex items-baseline justify-between gap-3">
+                <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+                  {RELEVANCE_LABEL[rel]}
+                </h2>
+                <span className="text-xs text-muted-foreground">
+                  {systems.length} {systems.length === 1 ? 'system' : 'systems'}
+                </span>
+              </div>
               <div className="space-y-2">
-                {systems.map((s) => (
-                  <SystemCard key={s.id} system={s} />
-                ))}
+                {orderedCategories.map((cat, i) => {
+                  const list = byCategory.get(cat)!
+                  const autoOpen = rel === 'official' && i === 0
+                  const codes = list.reduce((acc, s) => acc + s.node_count, 0)
+                  return (
+                    <details
+                      key={`${rel}-${cat}`}
+                      open={autoOpen}
+                      className="group rounded-lg border border-border/50 bg-card/50"
+                    >
+                      <summary className="flex items-center justify-between gap-3 cursor-pointer list-none px-4 py-2.5">
+                        <div className="flex items-center gap-2">
+                          <ChevronDown className="size-3.5 text-muted-foreground transition-transform group-open:rotate-0 -rotate-90" />
+                          <span className="font-medium text-sm">{cat}</span>
+                          <span className="text-xs text-muted-foreground">
+                            {list.length} {list.length === 1 ? 'system' : 'systems'} · {codes.toLocaleString()} codes
+                          </span>
+                        </div>
+                      </summary>
+                      <div className="px-4 pb-3 pt-1 space-y-2">
+                        {list.map((s) => (
+                          <SystemCard key={s.id} system={s} />
+                        ))}
+                      </div>
+                    </details>
+                  )
+                })}
               </div>
             </div>
           )

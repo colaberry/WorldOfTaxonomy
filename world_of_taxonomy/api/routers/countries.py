@@ -16,6 +16,28 @@ from fastapi import Depends
 router = APIRouter(prefix="/api/v1/countries", tags=["countries"])
 
 
+@router.get("")
+async def list_countries(conn=Depends(get_conn)):
+    """Return countries that have at least one applicable classification system.
+
+    Used by the frontend country-filter dropdown. Sorted alphabetically by
+    country title (from iso_3166_1). Countries whose ISO 3166-1 node has not
+    been ingested are excluded so the dropdown never shows bare codes.
+    """
+    rows = await conn.fetch(
+        """SELECT csl.country_code AS code,
+                  n.title,
+                  COUNT(DISTINCT csl.system_id) AS system_count,
+                  BOOL_OR(csl.relevance = 'official') AS has_official
+             FROM country_system_link csl
+             JOIN classification_node n
+               ON n.system_id = 'iso_3166_1' AND n.code = csl.country_code
+            GROUP BY csl.country_code, n.title
+            ORDER BY n.title"""
+    )
+    return [dict(r) for r in rows]
+
+
 @router.get("/stats")
 async def get_countries_stats(conn=Depends(get_conn)):
     """Return per-country taxonomy coverage stats for all countries.

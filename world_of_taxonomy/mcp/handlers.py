@@ -89,7 +89,15 @@ def _equiv_to_dict(equiv) -> Dict[str, Any]:
 async def handle_list_classification_systems(
     conn, args: Dict[str, Any]
 ) -> List[Dict]:
-    """List all classification systems."""
+    """List classification systems.
+
+    If `country_code` (ISO 3166-1 alpha-2) is passed, the result is
+    filtered to systems applicable to that country (via
+    country_system_link), sorted by relevance (official first).
+    """
+    country_code = (args or {}).get("country_code")
+    if country_code:
+        return await get_systems_for_country(conn, country_code)
     systems = await get_systems(conn)
     return [_system_to_dict(s) for s in systems]
 
@@ -134,15 +142,31 @@ async def handle_get_ancestors(
 
 async def handle_search_classifications(
     conn, args: Dict[str, Any]
-) -> List[Dict]:
-    """Search across classification systems."""
+):
+    """Search across classification systems.
+
+    When `countries` is supplied, returns a dict with `scope` metadata and
+    `results`. Otherwise returns a flat list for backward compatibility.
+    """
+    from world_of_taxonomy.scope import resolve_country_scope
+
     query = args.get("query", "")
     system_id = args.get("system_id")
+    countries = args.get("countries")
     limit = args.get("limit", 20)
-    results = await search_nodes(conn, query, system_id=system_id, limit=limit)
+
+    scope = await resolve_country_scope(conn, countries)
+    scoped_ids = scope["candidate_systems"] if scope and not system_id else None
+    results = await search_nodes(
+        conn, query, system_id=system_id, limit=limit, system_ids=scoped_ids,
+    )
     sys_ids = list({r.system_id for r in results})
     prov_map = await get_system_provenance_map(conn, sys_ids)
-    return [_node_to_dict(r, prov_map.get(r.system_id)) for r in results]
+    nodes = [_node_to_dict(r, prov_map.get(r.system_id)) for r in results]
+
+    if scope is not None:
+        return {"scope": scope, "results": nodes}
+    return nodes
 
 
 async def handle_get_equivalences(
@@ -553,6 +577,25 @@ async def handle_get_country_taxonomy_profile(
     }
 
 
+async def handle_get_country_scope(
+    conn, args: Dict[str, Any]
+) -> Dict[str, Any]:
+    """Introspect the set of classification systems scoped to the given countries.
+
+    Returns the same scope shape that search and classify apply internally, so
+    agents can preview what a scoped call would cover before running it.
+    """
+    from world_of_taxonomy.scope import resolve_country_scope
+
+    countries = args.get("countries")
+    scope = await resolve_country_scope(conn, countries)
+    if scope is None:
+        return {
+            "error": "countries must be a non-empty list of ISO 3166-1 alpha-2 codes (e.g. ['US', 'DE'])"
+        }
+    return scope
+
+
 def _partition_classify_matches(matches: List[Dict[str, Any]]) -> tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     """Split classify_text's flat match list by category (domain vs standard)."""
     domain: List[Dict[str, Any]] = []
@@ -577,19 +620,50 @@ async def handle_classify_business(
       - standard_matches: official standards (NAICS, ISIC, NACE, SIC, SOC, ...)
     The legacy flat "matches" key is intentionally absent.
     """
-    from world_of_taxonomy.classify import classify_text
+    from world_of_taxonomy.classify import DEFAULT_SYSTEMS, classify_text
+    from world_of_taxonomy.scope import resolve_country_scope
+    from world_of_taxonomy.system_kind import is_business_classification
 
     text = args.get("text", "")
     if not text or len(text) < 2:
         return {"error": "text must be at least 2 characters"}
 
     systems = args.get("systems")
+    countries = args.get("countries")
     limit = args.get("limit", 5)
+
+    scope = await resolve_country_scope(conn, countries)
+    effective_systems = systems
+    if scope is not None:
+        if (
+            not scope["country_specific_systems"]
+            and not scope["global_standard_systems"]
+        ):
+            return {
+                "query": text,
+                "compound": False,
+                "domain_matches": [],
+                "standard_matches": [],
+                "crosswalks": [],
+                "disclaimer": "No classification systems are linked to the requested countries.",
+                "report_issue_url": "https://github.com/colaberryinc/WorldOfTaxonomy/issues",
+                "scope": scope,
+            }
+        # Industrial/occupational default set plus the country's own
+        # general-purpose business classifications only. Specialty systems
+        # (medical, regulatory, trade-tariff, academic) are excluded to
+        # prevent cross-domain noise.
+        base = systems if systems else list(DEFAULT_SYSTEMS)
+        country_business = [
+            s for s in scope["country_specific_systems"]
+            if is_business_classification(s)
+        ]
+        effective_systems = sorted(set(base) | set(country_business))
 
     result = await classify_text(
         conn,
         text=text,
-        system_ids=systems,
+        system_ids=effective_systems,
         limit=limit,
     )
 
@@ -621,6 +695,7 @@ async def handle_classify_business(
             "cta": result.get("cta"),
             "disclaimer": result["disclaimer"],
             "report_issue_url": result["report_issue_url"],
+            "scope": scope,
         }
 
     domain, standard = _partition_classify_matches(result.get("matches", []))
@@ -634,4 +709,5 @@ async def handle_classify_business(
         "report_issue_url": result["report_issue_url"],
         "llm_used": result.get("llm_used", False),
         "llm_keywords": result.get("llm_keywords", []),
+        "scope": scope,
     }

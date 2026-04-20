@@ -4,6 +4,7 @@ import {
   Globe, Lightbulb, Bot, Users, ArrowRight,
   Blocks, GitCompareArrows, MessageSquare,
 } from 'lucide-react'
+import { CrosswalkRingPreview } from '@/components/visualizations/CrosswalkRingPreview'
 
 export const metadata: Metadata = {
   title: 'About - WorldOfTaxonomy',
@@ -81,6 +82,14 @@ export default function AboutPage() {
           <Blocks className="h-5 w-5 text-blue-500" />
           <h2 className="text-xl font-semibold">An experiment in connecting standards</h2>
         </div>
+
+        <div className="space-y-2">
+          <CrosswalkRingPreview topN={250} height={560} />
+          <p className="text-center text-[11px] text-muted-foreground/70">
+            Each dot is a classification system. Lines are crosswalk connections between them. Click to explore.
+          </p>
+        </div>
+
         <div className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
             WorldOfTaxonomy is an attempt to bring these systems together.

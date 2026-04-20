@@ -189,3 +189,35 @@ class TestClassifyDemoHandler:
         result = _run(go())
         for match in result["domain_matches"] + result["standard_matches"]:
             assert len(match["results"]) <= 3
+
+    def test_result_items_include_crosswalk_count(self, db_pool):
+        """Each result item must carry crosswalk_count so the UI can skip
+        rendering the 'Show Crosswalks' button for codes with zero edges."""
+        from world_of_taxonomy.api.routers.classify_demo import (
+            ClassifyDemoRequest,
+            classify_demo_handler,
+        )
+
+        req = ClassifyDemoRequest(email="lead4@example.com", text="manufacturing")
+
+        async def go():
+            async with db_pool.acquire() as conn:
+                return await classify_demo_handler(
+                    req,
+                    conn=conn,
+                    ip_address=None,
+                    user_agent=None,
+                    referrer=None,
+                )
+
+        result = _run(go())
+        all_items = [
+            r
+            for m in result["domain_matches"] + result["standard_matches"]
+            for r in m["results"]
+        ]
+        assert all_items, "test precondition: at least one match expected"
+        for item in all_items:
+            assert "crosswalk_count" in item
+            assert isinstance(item["crosswalk_count"], int)
+            assert item["crosswalk_count"] >= 0
