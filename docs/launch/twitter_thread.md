@@ -1,7 +1,7 @@
 # Twitter / X Launch Thread
 
-Post these as a thread. Tweet 1 is the hook - it needs to stand alone if people only
-see that one. Demo and GitHub URLs are filled in; set [YOUR_HANDLE] before posting.
+Post these as a thread from @ramdhanyk. Tweet 1 is the hook - it needs to stand
+alone if people only see that one. All URLs and handles are filled in; ready to post.
 
 ---
 
