@@ -52,7 +52,7 @@ The part I'm most excited about:
 
 It ships with an MCP server.
 
-Add it to Claude Desktop and your AI gets 21 tools for taxonomy lookups.
+Add it to Claude Desktop and your AI gets 25 tools for taxonomy lookups.
 "Classify this product description in HS codes"
 "What NACE code corresponds to NAICS 5415?"
 "Which systems officially apply to companies in Brazil?"

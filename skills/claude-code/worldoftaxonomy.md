@@ -9,7 +9,7 @@ Use this skill when the user asks to classify something under a standard code, t
 
 ## Access
 
-Preferred: MCP server (exposes 24 tools).
+Preferred: MCP server.
 
 Install on this machine:
 ```bash

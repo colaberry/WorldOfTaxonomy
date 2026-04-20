@@ -16,6 +16,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+from world_of_taxonomy.mcp.protocol import build_tools_list
 from world_of_taxonomy.wiki import build_llms_full_txt, load_wiki_meta
 
 PUBLIC_DIR = PROJECT_ROOT / "frontend" / "public"
@@ -53,7 +54,7 @@ def main():
     lines.append("")
     lines.append("## MCP Server")
     lines.append("Install: python -m world_of_taxonomy mcp")
-    lines.append("Transport: stdio, 23 tools, wiki resources")
+    lines.append(f"Transport: stdio, {len(build_tools_list())} tools, wiki resources")
     lines.append("")
 
     short_txt = "\n".join(lines)

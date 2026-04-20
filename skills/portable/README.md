@@ -10,7 +10,7 @@ Drop-in instructions for any LLM agent framework (Gemini, Llama, local models, L
 
 ## Alternative: feed the full LLM context
 
-For retrieval-free setups, include `https://worldoftaxonomy.com/llms-full.txt` as a pre-loaded document. It contains all 39 endpoints, 23 MCP tools, schemas, examples, and error codes in ~650 lines of plain text designed for LLM ingestion.
+For retrieval-free setups, include `https://worldoftaxonomy.com/llms-full.txt` as a pre-loaded document. It contains every endpoint, MCP tool, schema, example, and error code in ~650 lines of plain text designed for LLM ingestion.
 
 ## Why portable
 
