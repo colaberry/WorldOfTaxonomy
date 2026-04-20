@@ -187,7 +187,7 @@ Cloud SQL (`db-f1-micro`) is the dominant cost (~$9/mo at idle). Levers:
 
 - Pause the DB without losing data: `gcloud sql instances patch wot-db --activation-policy=NEVER`
 - Resume: `gcloud sql instances patch wot-db --activation-policy=ALWAYS`
-- Budget alert: Billing -> Budgets & alerts -> set $15 threshold, email `ram@colaberry.com`
+- Budget alert: Billing -> Budgets & alerts -> set $15 threshold, email `dev@colaberry.com`
 
 A longer-term alternative documented in [gcp-deploy.md](../runbooks/gcp-deploy.md) is to migrate to Neon free tier and drop Cloud SQL entirely.
 
@@ -211,7 +211,7 @@ A longer-term alternative documented in [gcp-deploy.md](../runbooks/gcp-deploy.m
 
 | Topic | Person |
 |---|---|
-| Product / priorities | Ram Katamaraja (`ram@colaberry.com`) |
+| Product / priorities | Ram Katamaraja (`dev@colaberry.com`) |
 | GCP project ownership | Ram Katamaraja |
 | Repo admin on GitHub | Ram Katamaraja |
-| Report / abuse email (public) | `REPORT_EMAIL` secret resolves to `ram@colaberry.com` |
+| Report / abuse email (public) | `REPORT_EMAIL` secret |
