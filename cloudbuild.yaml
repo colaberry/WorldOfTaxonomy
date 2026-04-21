@@ -5,6 +5,12 @@
 #   wot-api  -> FastAPI backend  (Dockerfile.backend, port 8000)
 #   wot-web  -> Next.js frontend (frontend/Dockerfile.prod, port 3000)
 #
+# Ordering: wot-api is built, pushed, and DEPLOYED first. Its live URL is then
+# captured and passed as --build-arg BACKEND_URL=... when building wot-web so
+# Next.js bakes the real backend URL into its compiled rewrites. (If instead
+# BACKEND_URL is only injected at Cloud Run runtime, `next build` has already
+# hardcoded http://localhost:8000 into the routing output.)
+#
 # Required trigger substitutions:
 #   _REGION         us-east1
 #   _REPO           wot-repo
@@ -13,7 +19,8 @@
 # See docs/runbooks/gcp-deploy.md for one-time infra setup.
 
 steps:
-  # Backend image (root context, Dockerfile.backend)
+  # --- Backend ---
+  # Build backend image (root context, Dockerfile.backend)
   - id: build-api
     name: gcr.io/cloud-builders/docker
     args:
@@ -24,18 +31,6 @@ steps:
       - .
     waitFor: ['-']
 
-  # Frontend image (root context so prebuild can reach ../wiki, ../blog, ../crosswalk-data)
-  - id: build-web
-    name: gcr.io/cloud-builders/docker
-    args:
-      - build
-      - -f=frontend/Dockerfile.prod
-      - -t=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-web:$SHORT_SHA
-      - -t=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-web:latest
-      - .
-    waitFor: ['-']
-
-  # Push (each waits only on its own build, so they push in parallel)
   - id: push-api
     name: gcr.io/cloud-builders/docker
     args:
@@ -43,14 +38,6 @@ steps:
       - --all-tags
       - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-api
     waitFor: ['build-api']
-
-  - id: push-web
-    name: gcr.io/cloud-builders/docker
-    args:
-      - push
-      - --all-tags
-      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-web
-    waitFor: ['build-web']
 
   # Deploy backend — attach Cloud SQL via Unix socket, mount secrets
   - id: deploy-api
@@ -75,8 +62,11 @@ steps:
       - --set-secrets=DATABASE_URL=DATABASE_URL:latest,JWT_SECRET=JWT_SECRET:latest,REPORT_EMAIL=REPORT_EMAIL:latest
     waitFor: ['push-api']
 
-  # Deploy frontend — look up backend URL, inject as BACKEND_URL env var
-  - id: deploy-web
+  # --- Frontend (built AFTER backend URL is known) ---
+  # Capture the freshly-deployed wot-api URL and write it to /workspace so
+  # subsequent steps can read it. We build the web image with that URL baked
+  # in as BACKEND_URL so next.config.ts's rewrites compile against it.
+  - id: capture-api-url
     name: gcr.io/google.com/cloudsdktool/cloud-sdk
     entrypoint: bash
     args:
@@ -86,6 +76,42 @@ steps:
         API_URL="$$(gcloud run services describe wot-api \
           --region=${_REGION} --format='value(status.url)')"
         echo "Backend URL: $$API_URL"
+        echo -n "$$API_URL" > /workspace/backend_url.txt
+    waitFor: ['deploy-api']
+
+  - id: build-web
+    name: gcr.io/cloud-builders/docker
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        set -euo pipefail
+        BACKEND_URL="$$(cat /workspace/backend_url.txt)"
+        docker build \
+          -f frontend/Dockerfile.prod \
+          --build-arg BACKEND_URL="$$BACKEND_URL" \
+          -t ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-web:$SHORT_SHA \
+          -t ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-web:latest \
+          .
+    waitFor: ['capture-api-url']
+
+  - id: push-web
+    name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - --all-tags
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-web
+    waitFor: ['build-web']
+
+  # Deploy frontend — BACKEND_URL set as runtime env too (belt + suspenders)
+  - id: deploy-web
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        set -euo pipefail
+        API_URL="$$(cat /workspace/backend_url.txt)"
         gcloud run deploy wot-web \
           --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-web:$SHORT_SHA \
           --region=${_REGION} \
@@ -99,7 +125,7 @@ steps:
           --concurrency=80 \
           --timeout=300s \
           --set-env-vars=BACKEND_URL=$$API_URL,NODE_ENV=production
-    waitFor: ['push-web', 'deploy-api']
+    waitFor: ['push-web']
 
 options:
   logging: CLOUD_LOGGING_ONLY
