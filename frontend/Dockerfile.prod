@@ -14,6 +14,13 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 
+# BACKEND_URL MUST be baked at build time. Next.js evaluates rewrites() at
+# build time, so `--set-env-vars BACKEND_URL=...` at deploy time arrives too
+# late — the compiled output hardcodes whatever BACKEND_URL was set to (or
+# the `http://localhost:8000` fallback in next.config.ts) during `next build`.
+ARG BACKEND_URL="http://localhost:8000"
+ENV BACKEND_URL=${BACKEND_URL}
+
 # Sibling content dirs consumed by the frontend `prebuild` hook.
 # Keep in sync with frontend/package.json `prebuild` scripts:
 #   wiki:copy, blog:copy, crosswalk:copy, tree:copy
@@ -27,7 +34,7 @@ COPY frontend/package.json frontend/package-lock.json ./frontend/
 WORKDIR /app/frontend
 RUN npm ci
 
-# Build (prebuild reaches ../wiki, ../blog, ../crosswalk-data)
+# Build (prebuild reaches ../wiki, ../blog, ../crosswalk-data, ../tree-data)
 COPY frontend/ ./
 RUN npm run build && npm prune --omit=dev
 
