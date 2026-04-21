@@ -294,6 +294,26 @@ function CountryMultiPicker({
         <Globe className="inline-block size-3.5 mr-1 -mt-0.5 text-muted-foreground" />
         Countries (optional)
       </label>
+      {selectedEntries.length > 0 && (
+        <div className="flex flex-wrap gap-2 pb-1">
+          {selectedEntries.map((c) => (
+            <span
+              key={c.code}
+              className="inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary px-2.5 py-1 text-xs font-medium"
+            >
+              {c.title} ({c.code})
+              <button
+                type="button"
+                onClick={() => remove(c.code)}
+                className="hover:text-primary/70"
+                aria-label={`Remove ${c.title}`}
+              >
+                <X className="size-3" />
+              </button>
+            </span>
+          ))}
+        </div>
+      )}
       <div className="relative">
         <input
           id="classify-countries"
@@ -356,26 +376,6 @@ function CountryMultiPicker({
           </ul>
         )}
       </div>
-      {selectedEntries.length > 0 && (
-        <div className="flex flex-wrap gap-2 pt-1">
-          {selectedEntries.map((c) => (
-            <span
-              key={c.code}
-              className="inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary px-2.5 py-1 text-xs font-medium"
-            >
-              {c.title} ({c.code})
-              <button
-                type="button"
-                onClick={() => remove(c.code)}
-                className="hover:text-primary/70"
-                aria-label={`Remove ${c.title}`}
-              >
-                <X className="size-3" />
-              </button>
-            </span>
-          ))}
-        </div>
-      )}
       <p className="text-xs text-muted-foreground">
         Leave empty for the default demo set (NAICS, ISIC, NACE, SIC, SOC). Select one or more
         countries to classify against their local systems plus global recommended standards.
