@@ -8,6 +8,16 @@ export const metadata: Metadata = {
   title: 'Pricing - WorldOfTaxonomy',
   description:
     'Free, Pro, and Enterprise plans for the WorldOfTaxonomy classification API and MCP server.',
+  openGraph: {
+    title: 'Pricing - WorldOfTaxonomy',
+    description:
+      'Free, Pro, and Enterprise plans for the WorldOfTaxonomy classification API and MCP server.',
+    url: 'https://worldoftaxonomy.com/pricing',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://worldoftaxonomy.com/pricing',
+  },
 }
 
 const TIERS = [

@@ -46,8 +46,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "WorldOfTaxonomy",
-    description: "Unified global classification knowledge graph",
+    site: "@ramdhanyk",
+    creator: "@ramdhanyk",
+    title: "WorldOfTaxonomy - Global Classification Knowledge Graph",
+    description:
+      "1,000+ systems, 1.2M+ codes, 321K+ crosswalks. Search, browse, and translate classification codes across NAICS, ISIC, HS, ICD, and more.",
   },
   robots: {
     index: true,
