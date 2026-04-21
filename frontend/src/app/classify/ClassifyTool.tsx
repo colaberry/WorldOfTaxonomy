@@ -17,6 +17,13 @@ import { MatchHierarchyMiniGraph } from '@/components/classify/MatchHierarchyMin
 import { PartitionedSections } from '@/components/classify/PartitionedMatches'
 
 const EMAIL_KEY = 'wot_classify_lead_email'
+const SNAPSHOT_KEY = 'wot_classify_last_result'
+
+interface ClassifySnapshot {
+  text: string
+  countries: string[]
+  result: ClassifyDemoResponse
+}
 const EXAMPLES = [
   'telemedicine platform',
   'bakery that also sells coffee',
@@ -59,6 +66,24 @@ export function ClassifyTool() {
     }
   }, [])
 
+  // Rehydrate last classify result so a browser back from a result link
+  // restores the panel instead of showing an empty form.
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const raw = window.sessionStorage.getItem(SNAPSHOT_KEY)
+    if (!raw) return
+    try {
+      const snap = JSON.parse(raw) as ClassifySnapshot
+      if (snap.result && typeof snap.text === 'string') {
+        setText(snap.text)
+        setCountries(Array.isArray(snap.countries) ? snap.countries : [])
+        setResult(snap.result)
+      }
+    } catch {
+      window.sessionStorage.removeItem(SNAPSHOT_KEY)
+    }
+  }, [])
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     setError(null)
@@ -79,6 +104,12 @@ export function ClassifyTool() {
       setResult(data)
       if (typeof window !== 'undefined') {
         window.localStorage.setItem(EMAIL_KEY, cleanEmail)
+        const snapshot: ClassifySnapshot = {
+          text: cleanText,
+          countries,
+          result: data,
+        }
+        window.sessionStorage.setItem(SNAPSHOT_KEY, JSON.stringify(snapshot))
       }
       setEmailLocked(true)
     } catch (err) {
@@ -96,6 +127,9 @@ export function ClassifyTool() {
     setText(q)
     setResult(null)
     setError(null)
+    if (typeof window !== 'undefined') {
+      window.sessionStorage.removeItem(SNAPSHOT_KEY)
+    }
   }
 
   return (
