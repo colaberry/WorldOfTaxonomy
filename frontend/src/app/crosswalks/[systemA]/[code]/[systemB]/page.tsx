@@ -170,7 +170,7 @@ function buildJsonLd(
 
 export default async function CrosswalkDetailPage({ params }: Props) {
   const { systemA, code, systemB } = await params
-  if (!isMajorSystem(systemA) || !isMajorSystem(systemB) || systemA === systemB) {
+  if (systemA === systemB) {
     notFound()
   }
   const nodeCode = decodeURIComponent(code)
