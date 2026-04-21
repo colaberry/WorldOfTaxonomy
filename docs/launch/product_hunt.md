@@ -69,6 +69,6 @@ The thing I'm most excited about is the MCP server. Being able to ask Claude to
 'map this product catalog to HS codes for UK customs' and get a structured answer
 in seconds is genuinely useful.
 
-Self-hosting takes 2 minutes with Docker Compose, or try the hosted demo at [URL].
+Self-hosting takes 2 minutes with Docker Compose, or try the hosted demo at https://worldoftaxonomy.com.
 PRs welcome - there are still ~50 national classification systems that belong in the
 graph and I'd love help adding them."

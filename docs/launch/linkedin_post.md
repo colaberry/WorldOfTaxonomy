@@ -36,8 +36,8 @@ The most common use cases I've heard from early users:
 4. HR platforms translating job codes between SOC (US), ESCO (EU), and ISCO (global)
 5. AI developers giving language models structured industry knowledge
 
-Demo and docs: [DEMO_URL]
-GitHub (open source): [GITHUB_URL]
+Demo and docs: https://worldoftaxonomy.com
+GitHub (open source): https://github.com/colaberry/WorldOfTaxonomy
 
 Happy to answer questions about specific use cases or classification families.
 

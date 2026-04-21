@@ -42,7 +42,7 @@ Ask for Japan and you get JSIC (official) + ISIC (recommended). 249 countries co
 agents can use the entire taxonomy graph as structured tools. I've been using this to
 auto-classify product descriptions and map supplier data across jurisdictions.
 
-Demo: [YOUR_DEMO_URL]
+Demo: https://worldoftaxonomy.com
 GitHub: https://github.com/colaberry/WorldOfTaxonomy
 Docker: git clone + docker compose up (data ingestion takes ~5 minutes for core systems)
 
