@@ -14,6 +14,7 @@ from world_of_taxonomy.mcp.handlers import (
     handle_browse_children,
     handle_get_ancestors,
     handle_search_classifications,
+    handle_search_systems,
     handle_get_equivalences,
     handle_translate_code,
     handle_get_sector_overview,
@@ -203,6 +204,39 @@ def test_translate_code(db_pool):
             assert isinstance(result, list)
             assert len(result) >= 1
             assert result[0]["target_code"] == "8620"
+    _run(_test())
+
+
+# ── Tool: search_systems ─────────────────────────────────────
+
+
+def test_search_systems_matches_by_name(db_pool):
+    async def _test():
+        async with db_pool.acquire() as conn:
+            result = await handle_search_systems(conn, {"query": "NAICS"})
+            assert isinstance(result, list)
+            ids = {s["id"] for s in result}
+            assert "naics_2022" in ids
+            for s in result:
+                assert "id" in s
+                assert "name" in s
+    _run(_test())
+
+
+def test_search_systems_case_insensitive(db_pool):
+    async def _test():
+        async with db_pool.acquire() as conn:
+            result = await handle_search_systems(conn, {"query": "naics"})
+            ids = {s["id"] for s in result}
+            assert "naics_2022" in ids
+    _run(_test())
+
+
+def test_search_systems_empty_query(db_pool):
+    async def _test():
+        async with db_pool.acquire() as conn:
+            result = await handle_search_systems(conn, {"query": ""})
+            assert result == []
     _run(_test())
 
 

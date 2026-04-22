@@ -140,6 +140,33 @@ async def handle_get_ancestors(
     return [_node_to_dict(a, prov) for a in ancestors_list]
 
 
+def _system_matches_query(system, q_lower: str) -> bool:
+    haystack = " ".join(
+        (v or "")
+        for v in (system.id, system.name, system.full_name, system.authority, system.region)
+    ).lower()
+    return q_lower in haystack
+
+
+async def handle_search_systems(
+    conn, args: Dict[str, Any]
+) -> List[Dict]:
+    """Search classification systems by name, id, full_name, authority, or region.
+
+    Returns a list of matching systems in the same shape as
+    list_classification_systems. Use this when a user asks for a named
+    system (e.g. "NAICS", "ISIC", "ICD-10") rather than for a concept
+    to classify.
+    """
+    query = (args or {}).get("query", "") or ""
+    q_lower = query.strip().lower()
+    if not q_lower:
+        return []
+    systems = await get_systems(conn)
+    matches = [s for s in systems if _system_matches_query(s, q_lower)]
+    return [_system_to_dict(s) for s in matches]
+
+
 async def handle_search_classifications(
     conn, args: Dict[str, Any]
 ):

@@ -69,3 +69,37 @@ def test_get_system_not_found(client):
         resp = await client.get("/api/v1/systems/nonexistent")
         assert resp.status_code == 404
     _run(_test())
+
+
+def test_list_systems_query_filter_matches_name(client):
+    async def _test():
+        resp = await client.get("/api/v1/systems?q=NAICS")
+        assert resp.status_code == 200
+        data = resp.json()
+        ids = {s["id"] for s in data}
+        assert "naics_2022" in ids
+        for s in data:
+            hay = " ".join(
+                str(v or "")
+                for v in (s.get("id"), s.get("name"), s.get("full_name"),
+                          s.get("authority"), s.get("region"))
+            ).lower()
+            assert "naics" in hay
+    _run(_test())
+
+
+def test_list_systems_query_filter_case_insensitive(client):
+    async def _test():
+        resp = await client.get("/api/v1/systems?q=naics")
+        assert resp.status_code == 200
+        ids = {s["id"] for s in resp.json()}
+        assert "naics_2022" in ids
+    _run(_test())
+
+
+def test_list_systems_query_no_match(client):
+    async def _test():
+        resp = await client.get("/api/v1/systems?q=zzzznoneexistingthingzzzz")
+        assert resp.status_code == 200
+        assert resp.json() == []
+    _run(_test())
