@@ -15,6 +15,7 @@ from world_of_taxonomy.mcp.handlers import (
     handle_browse_children,
     handle_get_ancestors,
     handle_search_classifications,
+    handle_search_systems,
     handle_get_equivalences,
     handle_translate_code,
     handle_get_sector_overview,
@@ -153,6 +154,26 @@ def build_tools_list() -> List[Dict[str, Any]]:
                     "limit": {
                         "type": "integer",
                         "description": "Max results to return (default: 20)",
+                    },
+                },
+                "required": ["query"],
+            },
+        },
+        {
+            "name": "search_systems",
+            "description": (
+                "Find classification systems by name. Case-insensitive substring match "
+                "against id, name, full_name, authority, and region. Use this when a "
+                "user asks for a specific named system (e.g. 'NAICS', 'ISIC', "
+                "'ICD-10', 'Germany') rather than for a concept to classify. Returns "
+                "the same shape as list_classification_systems."
+            ),
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "System name or fragment (e.g. 'NAICS', 'ICD', 'Germany').",
                     },
                 },
                 "required": ["query"],
@@ -520,6 +541,7 @@ _TOOL_HANDLERS = {
     "browse_children": handle_browse_children,
     "get_ancestors": handle_get_ancestors,
     "search_classifications": handle_search_classifications,
+    "search_systems": handle_search_systems,
     "get_equivalences": handle_get_equivalences,
     "translate_code": handle_translate_code,
     "get_sector_overview": handle_get_sector_overview,
