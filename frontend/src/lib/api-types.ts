@@ -153,7 +153,7 @@ export interface paths {
         };
         /**
          * List Systems
-         * @description List all classification systems, optionally filtered by country, category, or grouped.
+         * @description List all classification systems, optionally filtered by country, category, name query, or grouped.
          */
         get: operations["list_systems_api_v1_systems_get"];
         put?: never;
@@ -1884,6 +1884,8 @@ export interface operations {
                 country?: string | null;
                 /** @description Filter by category: 'domain' for curated Domain taxonomies, 'standard' for official standards (NAICS, ISIC, ...), omit for all. */
                 category?: string | null;
+                /** @description Optional case-insensitive substring filter across id, name, full_name, authority, and region. */
+                q?: string | null;
             };
             header?: never;
             path?: never;
