@@ -275,8 +275,52 @@ function SearchView({
 
   const isEmpty = debouncedQuery.length >= 2 && !isLoading && results?.length === 0
 
+  const matchingSystems = (() => {
+    if (!systems) return []
+    const q = debouncedQuery.trim().toLowerCase()
+    if (q.length < 2) return []
+    return systems.filter((s) => {
+      const haystack = [s.id, s.name, s.full_name, s.region, s.authority]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase()
+      return haystack.includes(q)
+    })
+  })()
+
   return (
     <div className="max-w-4xl space-y-6">
+
+      {/* Matching systems (by system name, independent of node search) */}
+      {matchingSystems.length > 0 && (
+        <section className="space-y-2">
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+              Matching systems
+            </span>
+            <span className="text-xs text-muted-foreground font-mono">
+              {matchingSystems.length}
+            </span>
+            <div className="flex-1 h-px bg-border/30" />
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {matchingSystems.map((s) => (
+              <Link
+                key={s.id}
+                href={`/system/${s.id}`}
+                className="inline-flex items-center gap-2 rounded-full border border-border/50 bg-card px-3 py-1.5 text-xs hover:border-primary/60 hover:bg-secondary/50 transition-colors"
+                style={s.tint_color ? { borderLeftColor: s.tint_color, borderLeftWidth: 3 } : {}}
+              >
+                <span className="font-medium text-foreground">{s.name}</span>
+                <span className="font-mono text-muted-foreground">{s.id}</span>
+                <span className="text-muted-foreground">
+                  {s.node_count.toLocaleString()} node{s.node_count === 1 ? '' : 's'}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Category filter pills */}
       {categoryBuckets.length > 1 && (
