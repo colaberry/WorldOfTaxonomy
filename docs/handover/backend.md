@@ -136,12 +136,12 @@ Schema evolution uses Alembic (psycopg v3 driver) under [migrations/](../../migr
 [world_of_taxonomy/mcp/server.py](../../world_of_taxonomy/mcp/server.py) runs a stdio JSON-RPC loop: newline-delimited JSON in, newline-delimited JSON out. Errors go to stderr so host loggers can separate them.
 
 [world_of_taxonomy/mcp/protocol.py](../../world_of_taxonomy/mcp/protocol.py) builds the `initialize` response:
-- `tools` array: JSON Schemas for all 25 tools (navigation, search, crosswalk translation, stats, geography, classification).
+- `tools` array: JSON Schemas for all 26 tools (navigation, search, crosswalk translation, stats, geography, classification).
 - `instructions`: output of `build_wiki_context()` from [world_of_taxonomy/wiki.py](../../world_of_taxonomy/wiki.py) - concatenates the priority wiki slugs (`getting-started`, `systems-catalog`, `crosswalk-map`, `industry-classification`, `categories-and-sectors`) capped at ~10-15K tokens.
 
 [world_of_taxonomy/mcp/handlers.py](../../world_of_taxonomy/mcp/handlers.py) delegates each tool call to the same query functions the REST API uses (`query.browse`, `query.search`, `query.equivalence`, `query.provenance`), then decorates the response with provenance metadata (authority, license, source URL) from `get_system_provenance_map()`.
 
-Tools include: `list_classification_systems`, `get_industry`, `browse_children`, `get_ancestors`, `get_siblings`, `search_classifications`, `resolve_ambiguous_code`, `find_by_keyword_all_systems`, `get_equivalences`, `translate_code`, `translate_across_all_systems`, `compare_sector`, `get_system_diff`, `get_sector_overview`, `get_crosswalk_coverage`, `list_crosswalks_by_kind`, `describe_match_types`, `explore_industry_tree`, `get_leaf_count`, `get_subtree_summary`, `get_audit_report`, `get_region_mapping`, `get_country_taxonomy_profile`, `get_country_scope`, `classify_business`.
+Tools include: `list_classification_systems`, `get_industry`, `browse_children`, `get_ancestors`, `get_siblings`, `search_classifications`, `search_systems`, `resolve_ambiguous_code`, `find_by_keyword_all_systems`, `get_equivalences`, `translate_code`, `translate_across_all_systems`, `compare_sector`, `get_system_diff`, `get_sector_overview`, `get_crosswalk_coverage`, `list_crosswalks_by_kind`, `describe_match_types`, `explore_industry_tree`, `get_leaf_count`, `get_subtree_summary`, `get_audit_report`, `get_region_mapping`, `get_country_taxonomy_profile`, `get_country_scope`, `classify_business`.
 
 Equivalences returned by `get_equivalences`, `translate_code`, `translate_across_all_systems`, and `list_crosswalks_by_kind` carry an `edge_kind` label (`standard_standard`, `standard_domain`, `domain_domain`) plus `source_category`/`target_category` for UI grouping; see [world_of_taxonomy/category.py](../../world_of_taxonomy/category.py) for `compute_edge_kind()`.
 

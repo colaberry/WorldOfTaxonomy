@@ -251,7 +251,7 @@ Follow [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md) for GitHub, 
 
 - `GET https://<api-host>/api/v1/systems` returns JSON.
 - `GET https://<frontend-host>/llms-full.txt` returns the full wiki as plain text.
-- MCP client (Claude Desktop) connects and lists 25 tools.
+- MCP client (Claude Desktop) connects and lists 26 tools.
 - A logged-out user hits the anonymous rate cap (30/min) with rapid curls.
 - Sign up via OAuth; API key creation works from the account dashboard (when the auth frontend ships).
 
