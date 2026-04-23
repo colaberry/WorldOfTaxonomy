@@ -51,6 +51,38 @@ interface BreadcrumbItem {
   state: DrillState
 }
 
+const DRILL_STORAGE_KEY = 'wot:galaxy:drill'
+
+const DEFAULT_DRILL: DrillState = { mode: 'overview', categoryId: null, sectorId: null }
+
+function loadDrill(): DrillState {
+  if (typeof window === 'undefined') return DEFAULT_DRILL
+  try {
+    const raw = window.sessionStorage.getItem(DRILL_STORAGE_KEY)
+    if (!raw) return DEFAULT_DRILL
+    const parsed = JSON.parse(raw) as Partial<DrillState>
+    if (parsed.mode === 'overview' || parsed.mode === 'category' || parsed.mode === 'sector') {
+      return {
+        mode: parsed.mode,
+        categoryId: typeof parsed.categoryId === 'string' ? parsed.categoryId : null,
+        sectorId: typeof parsed.sectorId === 'string' ? parsed.sectorId : null,
+      }
+    }
+    return DEFAULT_DRILL
+  } catch {
+    return DEFAULT_DRILL
+  }
+}
+
+function persistDrill(drill: DrillState): void {
+  if (typeof window === 'undefined') return
+  try {
+    window.sessionStorage.setItem(DRILL_STORAGE_KEY, JSON.stringify(drill))
+  } catch {
+    // ignore
+  }
+}
+
 // ── Data builder ──────────────────────────────────────────────────────────────
 
 function buildView(
@@ -264,11 +296,11 @@ export function GalaxyView({ systems, stats }: Props) {
   const router = useRouter()
   const { resolvedTheme } = useTheme()
 
-  const [drill, setDrill] = useState<DrillState>({
-    mode: 'overview',
-    categoryId: null,
-    sectorId: null,
-  })
+  const [drill, setDrill] = useState<DrillState>(() => loadDrill())
+
+  useEffect(() => {
+    persistDrill(drill)
+  }, [drill])
 
   const grouped = useMemo(() => groupSystemsByCategory(systems), [systems])
 
