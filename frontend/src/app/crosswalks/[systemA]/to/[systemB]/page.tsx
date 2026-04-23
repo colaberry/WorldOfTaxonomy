@@ -12,7 +12,7 @@ import type {
   ClassificationSystem,
   CrosswalkStat,
 } from '@/lib/types'
-import { MAJOR_SYSTEMS, isMajorSystem } from '../../../../codes/constants'
+import { MAJOR_SYSTEMS } from '../../../../codes/constants'
 import { getSystemColor } from '@/lib/colors'
 
 interface Props {
@@ -20,6 +20,7 @@ interface Props {
 }
 
 export const revalidate = 3600
+export const dynamicParams = true
 
 export async function generateStaticParams() {
   const stats = await serverGetStats().catch(() => [] as CrosswalkStat[])
@@ -72,7 +73,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CrosswalkPairPage({ params }: Props) {
   const { systemA, systemB } = await params
-  if (!isMajorSystem(systemA) || !isMajorSystem(systemB) || systemA === systemB) {
+  if (systemA === systemB) {
     notFound()
   }
 
