@@ -16,6 +16,7 @@ import {
 import { getSystemColor } from '@/lib/colors'
 import { useCountryFilter } from '@/lib/useCountryFilter'
 import { CountryFilterBar } from '@/components/CountryFilterBar'
+import { SystemMultiPicker } from '@/components/SystemMultiPicker'
 import Link from 'next/link'
 import {
   Search, X, ChevronDown, ChevronRight, Leaf,
@@ -54,7 +55,7 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
 
   const [query, setQuery] = useState(initialQuery)
   const [debouncedQuery, setDebouncedQuery] = useState(initialQuery)
-  const [selectedSystem, setSelectedSystem] = useState('')
+  const [selectedSystems, setSelectedSystems] = useState<string[]>([])
   const [categoryFilter, setCategoryFilter] = useState('all')
   const [expanded, setExpanded] = useState<Record<string, number>>({})
   const [openCats, setOpenCats] = useState<Set<string>>(new Set())
@@ -72,7 +73,7 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
   useEffect(() => {
     setCategoryFilter('all')
     setExpanded({})
-  }, [debouncedQuery, selectedSystem])
+  }, [debouncedQuery, selectedSystems])
 
   const { data: systemsAll } = useQuery({
     queryKey: ['systems'],
@@ -105,19 +106,25 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
   }, [systemsAll, country, countrySystemIds])
 
   useEffect(() => {
-    if (country && selectedSystem && countrySystemIds && !countrySystemIds.has(selectedSystem)) {
-      setSelectedSystem('')
+    if (country && countrySystemIds && selectedSystems.some((id) => !countrySystemIds.has(id))) {
+      setSelectedSystems((prev) => prev.filter((id) => countrySystemIds.has(id)))
     }
-  }, [country, countrySystemIds, selectedSystem])
+  }, [country, countrySystemIds, selectedSystems])
 
   const { data: results, isLoading, isFetching } = useQuery({
-    queryKey: ['search', debouncedQuery, selectedSystem, country],
+    queryKey: ['search', debouncedQuery, selectedSystems, country],
     queryFn: async () => {
-      const raw = await search(debouncedQuery, selectedSystem || undefined, 200, true)
+      const backendSystem = selectedSystems.length === 1 ? selectedSystems[0] : undefined
+      const raw = await search(debouncedQuery, backendSystem, 200, true)
+      let filtered = raw
       if (country && countrySystemIds) {
-        return raw.filter((r) => countrySystemIds.has(r.system_id))
+        filtered = filtered.filter((r) => countrySystemIds.has(r.system_id))
       }
-      return raw
+      if (selectedSystems.length > 1) {
+        const set = new Set(selectedSystems)
+        filtered = filtered.filter((r) => set.has(r.system_id))
+      }
+      return filtered
     },
     enabled: debouncedQuery.length >= 2 && (!country || countrySystemIds !== null),
     staleTime: 2 * 60 * 1000,
@@ -128,7 +135,7 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
   const handleClear = () => {
     setQuery('')
     setDebouncedQuery('')
-    setSelectedSystem('')
+    setSelectedSystems([])
     setCategoryFilter('all')
     setExpanded({})
   }
@@ -180,19 +187,12 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
               </button>
             )}
           </div>
-          <select
-            value={selectedSystem}
-            onChange={(e) => setSelectedSystem(e.target.value)}
-            className="px-3 py-2.5 rounded-lg bg-card border border-border/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 sm:w-44"
-          >
-            <option value="">All Systems</option>
-            {systems
-              ?.slice()
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .map((s) => (
-                <option key={s.id} value={s.id}>{s.name}</option>
-              ))}
-          </select>
+          <SystemMultiPicker
+            selected={selectedSystems}
+            onChange={setSelectedSystems}
+            options={systems ?? undefined}
+            className="sm:w-72"
+          />
         </div>
       </div>
 
