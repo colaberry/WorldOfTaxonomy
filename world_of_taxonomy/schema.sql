@@ -25,6 +25,9 @@ CREATE TABLE IF NOT EXISTS classification_system (
                     )),
     license         TEXT,
     source_file_hash TEXT,
+    -- Template for per-code authority deep links. Interpolate {code}.
+    -- NULL means no per-code page; clients fall back to source_url.
+    node_url_template TEXT,
     created_at  TIMESTAMPTZ DEFAULT NOW()
 );
 

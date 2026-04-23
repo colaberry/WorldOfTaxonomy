@@ -208,6 +208,14 @@ from __future__ import annotations
 
 SYSTEM_ID = "{system_id}"
 
+# Provenance metadata. See Appendix F for what to put here.
+_SOURCE_URL = "https://authority.example/data.xlsx"
+_DATA_PROVENANCE = "official_download"  # or manual_transcription / structural_derivation / expert_curated
+_LICENSE = "Public Domain"
+# Per-code authority deep link. `{code}` is interpolated on response.
+# Use None when the authority has no per-code page.
+_NODE_URL_TEMPLATE = "https://authority.example/code/{code}"
+
 # (code, title, level, parent_code)
 # parent_code = None for root nodes
 NODES: list[tuple] = [
@@ -225,9 +233,17 @@ async def ingest_{system_id}(conn) -> int:
     await conn.execute(
         """
         INSERT INTO classification_system
-            (id, name, full_name, region, version, authority, tint_color)
-        VALUES ($1, $2, $3, $4, $5, $6, $7)
-        ON CONFLICT (id) DO UPDATE SET node_count = 0
+            (id, name, full_name, region, version, authority, tint_color,
+             source_url, source_date, data_provenance, license, node_url_template)
+        VALUES ($1, $2, $3, $4, $5, $6, $7,
+                $8, CURRENT_DATE, $9, $10, $11)
+        ON CONFLICT (id) DO UPDATE SET
+            node_count = 0,
+            source_url = EXCLUDED.source_url,
+            source_date = CURRENT_DATE,
+            data_provenance = EXCLUDED.data_provenance,
+            license = EXCLUDED.license,
+            node_url_template = EXCLUDED.node_url_template
         """,
         SYSTEM_ID,
         "Display Name",
@@ -236,6 +252,7 @@ async def ingest_{system_id}(conn) -> int:
         "Version or Year",
         "Issuing Authority",
         "#XXXXXX",
+        _SOURCE_URL, _DATA_PROVENANCE, _LICENSE, _NODE_URL_TEMPLATE,
     )
 
     # Compute leaf flags dynamically - never assume a fixed depth
@@ -524,7 +541,46 @@ Most newly ingested systems (national derivatives, domain taxonomies, long-tail 
 
 ---
 
-## Appendix E: Common Errors
+## Appendix E: Provenance fields
+
+Every `classification_system` row carries provenance metadata so an auditor
+can answer "where did this data come from, when, under what license" without
+leaving the page, and so the node detail page can link every code back to
+its authority.
+
+| Column | What goes here |
+|--------|----------------|
+| `source_url` | URL of the file or page the ingester parsed. Use the most specific URL available (the XLSX itself, not a landing page) so the hash in `source_file_hash` is attributable. |
+| `source_date` | Typically `CURRENT_DATE`. Captures when the row was last refreshed. |
+| `data_provenance` | One of `official_download`, `manual_transcription`, `structural_derivation`, `expert_curated`. |
+| `license` | The upstream license (`Public Domain`, `CC BY 4.0`, `OGL v3`, `proprietary`, ...). |
+| `source_file_hash` | SHA-256 of the downloaded file (set by `ensure_data_file` for `official_download` systems). |
+| `node_url_template` | Per-code URL template with a literal `{code}` placeholder. The API interpolates this into `NodeResponse.source_url_for_code` for every node response. Set to `NULL` when the authority has no per-code page. |
+
+### Picking `node_url_template`
+
+Test one code on the authority's site before committing. The template is a
+straight string replacement: whatever goes in `classification_node.code` is
+substituted into `{code}` verbatim, with no URL-encoding. If the authority
+requires a different form of the code (lowercased, dot-inserted, hyphen
+removed), translate it in the ingester before storing, not in the template.
+
+Examples in the repo today:
+
+- `naics_2022`: `https://www.census.gov/naics/?input={code}&year=2022` ([ingest/naics.py](../world_of_taxonomy/ingest/naics.py)) - the NAICS ingester is the reference implementation for `ON CONFLICT ... DO UPDATE SET node_url_template = EXCLUDED.node_url_template`.
+- `naics_2017`, `naics_2012`: `NULL` (skeleton systems with synthetic codes)
+
+### Changing the template for a deployed system
+
+Re-running the ingester refreshes the column via `ON CONFLICT ... DO UPDATE`.
+For prod deployments that cannot be re-ingested immediately, write an
+Alembic migration with a targeted `UPDATE` (see [migrations/versions/0002_node_url_template.py](../migrations/versions/0002_node_url_template.py)
+for the canonical pattern). Do not hand-edit prod via psql; leave an audit
+trail.
+
+---
+
+## Appendix F: Common Errors
 
 | Error | Cause | Fix |
 |-------|-------|-----|

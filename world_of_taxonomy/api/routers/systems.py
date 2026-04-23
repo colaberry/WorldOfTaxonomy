@@ -8,7 +8,10 @@ from world_of_taxonomy.api.deps import get_conn
 from world_of_taxonomy.api.schemas import SystemResponse, SystemDetailResponse, NodeResponse
 from world_of_taxonomy.exceptions import SystemNotFoundError
 from world_of_taxonomy.query.browse import get_systems, get_system, get_roots, get_systems_for_country
-from world_of_taxonomy.query.provenance import get_system_provenance_map
+from world_of_taxonomy.query.provenance import (
+    get_system_provenance_map,
+    node_response_kwargs,
+)
 
 router = APIRouter(prefix="/api/v1/systems", tags=["systems"])
 
@@ -75,6 +78,6 @@ async def get_system_detail(system_id: str, conn=Depends(get_conn)):
     roots = await get_roots(conn, system_id)
     prov_map = await get_system_provenance_map(conn, [system_id])
     prov = prov_map.get(system_id, {})
-    root_responses = [NodeResponse(**r.__dict__, **prov) for r in roots]
+    root_responses = [NodeResponse(**node_response_kwargs(r, prov)) for r in roots]
 
     return SystemDetailResponse(**system.__dict__, roots=root_responses)

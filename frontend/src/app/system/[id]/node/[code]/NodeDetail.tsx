@@ -8,6 +8,7 @@ import { getNode, getChildren, getAncestors, getEquivalences, getSystems } from 
 import { getSectorColor, getSystemColor } from '@/lib/colors'
 import { isDomainSystem } from '@/lib/category'
 import { NodeTree } from '@/components/NodeTree'
+import { NodeDescription } from '@/components/node/NodeDescription'
 import type { ClassificationNode, Equivalence, ClassificationSystem } from '@/lib/types'
 import { ExternalLink, ShieldCheck } from 'lucide-react'
 
@@ -249,11 +250,11 @@ export function NodeDetail({
           {node.title}
         </h1>
 
-        {node.description && (
-          <p className="text-sm text-muted-foreground max-w-2xl leading-relaxed">
-            {node.description}
-          </p>
-        )}
+        <NodeDescription
+          description={node.description}
+          sourceUrlForCode={node.source_url_for_code}
+          authority={systems?.find((s) => s.id === id)?.authority ?? null}
+        />
 
         <div className="flex items-center gap-2 pt-1 flex-wrap">
           <span className="font-mono text-xs px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
@@ -286,7 +287,7 @@ export function NodeDetail({
             {node.license && (
               <span className="text-muted-foreground">{node.license}</span>
             )}
-            {node.source_url && (
+            {node.source_url && !node.source_url_for_code && (
               <a
                 href={node.source_url}
                 target="_blank"

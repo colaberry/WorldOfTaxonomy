@@ -169,7 +169,7 @@ WorldOfTaxonomy/
 │   ├── api/              # FastAPI REST API (lifespan pool, rate limiting)
 │   │   ├── routers/      # systems, nodes, search, equivalences, countries, auth, crosswalk_graph
 │   │   └── schemas.py    # Pydantic response models
-│   ├── mcp/              # MCP server (stdio transport, 25 tools)
+│   ├── mcp/              # MCP server (stdio transport, 26 tools)
 │   ├── ingest/           # One ingester per system (100+ files)
 │   │   ├── naics.py      # Downloads from Census Bureau
 │   │   ├── nace_derived.py  # EU national adaptations (copy NACE + equivalences)
@@ -291,7 +291,7 @@ WorldOfTaxonomy ships with a Model Context Protocol server. Add it to Claude Des
 }
 ```
 
-**25 tools available**, including:
+**26 tools available**, including:
 
 | Tool | What it does |
 |------|-------------|

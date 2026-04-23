@@ -56,6 +56,9 @@ class NodeResponse(BaseModel):
     source_url: Optional[str] = None
     source_date: Optional[str] = None
     source_file_hash: Optional[str] = None
+    # Per-code authority deep link, interpolated from the system's
+    # node_url_template. None when the system has no per-code page.
+    source_url_for_code: Optional[str] = None
 
     @model_validator(mode="before")
     @classmethod

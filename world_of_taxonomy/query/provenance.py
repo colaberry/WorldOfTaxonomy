@@ -13,13 +13,15 @@ async def get_system_provenance_map(
     """Fetch provenance fields for a set of system IDs.
 
     Returns a dict mapping system_id -> {data_provenance, license,
-    source_url, source_date, source_file_hash}.
+    source_url, source_date, source_file_hash, node_url_template}.
+    `node_url_template` contains a `{code}` placeholder to build a
+    per-code authority deep link, or None when no such page exists.
     """
     if not system_ids:
         return {}
     rows = await conn.fetch(
         """SELECT id, data_provenance, license, source_url,
-                  source_date, source_file_hash
+                  source_date, source_file_hash, node_url_template
            FROM classification_system
            WHERE id = ANY($1)""",
         system_ids,
@@ -35,18 +37,51 @@ async def get_system_provenance_map(
             "source_url": r["source_url"],
             "source_date": source_date,
             "source_file_hash": r["source_file_hash"],
+            "node_url_template": r["node_url_template"],
         }
     return result
 
 
 def enrich_node_dict(node_dict: Dict[str, Any], prov: Dict[str, Any]) -> Dict[str, Any]:
-    """Attach provenance fields from a system provenance entry to a node dict."""
+    """Attach provenance fields from a system provenance entry to a node dict.
+
+    Also computes `source_url_for_code` by interpolating the node's
+    `code` into the system's `node_url_template`. Falls back to None
+    when the system has no template configured.
+    """
     node_dict["data_provenance"] = prov.get("data_provenance")
     node_dict["license"] = prov.get("license")
     node_dict["source_url"] = prov.get("source_url")
     node_dict["source_date"] = prov.get("source_date")
     node_dict["source_file_hash"] = prov.get("source_file_hash")
+    template = prov.get("node_url_template")
+    code = node_dict.get("code")
+    node_dict["source_url_for_code"] = (
+        template.replace("{code}", str(code))
+        if template and code is not None
+        else None
+    )
     return node_dict
+
+
+def node_response_kwargs(node_obj: Any, prov: Dict[str, Any]) -> Dict[str, Any]:
+    """Build kwargs for `NodeResponse(**...)` from a node object + system provenance.
+
+    Handles the `source_url_for_code` interpolation so every router
+    that returns a `NodeResponse` gets the per-code authority link
+    without repeating the template-replace logic.
+    """
+    template = prov.get("node_url_template")
+    code = getattr(node_obj, "code", None)
+    return {
+        **node_obj.__dict__,
+        **prov,
+        "source_url_for_code": (
+            template.replace("{code}", str(code))
+            if template and code is not None
+            else None
+        ),
+    }
 
 
 async def get_audit_report(conn) -> Dict[str, Any]:

@@ -18,7 +18,10 @@ from world_of_taxonomy.llm_client import LLMNotConfiguredError
 from world_of_taxonomy.query.browse import get_node, get_children, get_ancestors
 from world_of_taxonomy.query.equivalence import get_equivalences
 from world_of_taxonomy.query.generate import generate_children, persist_generated_children
-from world_of_taxonomy.query.provenance import get_system_provenance_map
+from world_of_taxonomy.query.provenance import (
+    get_system_provenance_map,
+    node_response_kwargs,
+)
 
 router = APIRouter(prefix="/api/v1/systems/{system_id}/nodes", tags=["nodes"])
 
@@ -32,7 +35,7 @@ async def get_node_detail(system_id: str, code: str, conn=Depends(get_conn)):
         raise HTTPException(status_code=404, detail=f"Node '{code}' not found in '{system_id}'")
     prov_map = await get_system_provenance_map(conn, [system_id])
     prov = prov_map.get(system_id, {})
-    return NodeResponse(**node.__dict__, **prov)
+    return NodeResponse(**node_response_kwargs(node, prov))
 
 
 @router.get("/{code}/children", response_model=List[NodeResponse])
@@ -41,7 +44,7 @@ async def get_node_children(system_id: str, code: str, conn=Depends(get_conn)):
     children = await get_children(conn, system_id, code)
     prov_map = await get_system_provenance_map(conn, [system_id])
     prov = prov_map.get(system_id, {})
-    return [NodeResponse(**c.__dict__, **prov) for c in children]
+    return [NodeResponse(**node_response_kwargs(c, prov)) for c in children]
 
 
 @router.get("/{code}/ancestors", response_model=List[NodeResponse])
@@ -50,7 +53,7 @@ async def get_node_ancestors(system_id: str, code: str, conn=Depends(get_conn)):
     ancestors_list = await get_ancestors(conn, system_id, code)
     prov_map = await get_system_provenance_map(conn, [system_id])
     prov = prov_map.get(system_id, {})
-    return [NodeResponse(**a.__dict__, **prov) for a in ancestors_list]
+    return [NodeResponse(**node_response_kwargs(a, prov)) for a in ancestors_list]
 
 
 @router.get("/{code}/equivalences", response_model=List[EquivalenceResponse])

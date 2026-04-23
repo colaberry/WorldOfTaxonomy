@@ -10,7 +10,10 @@ from world_of_taxonomy.api.schemas import NodeResponse, NodeWithContextResponse
 from world_of_taxonomy.category import get_category
 from world_of_taxonomy.query.browse import get_ancestors, get_children
 from world_of_taxonomy.query.search import search_nodes
-from world_of_taxonomy.query.provenance import get_system_provenance_map
+from world_of_taxonomy.query.provenance import (
+    get_system_provenance_map,
+    node_response_kwargs,
+)
 from world_of_taxonomy.scope import resolve_country_scope
 
 router = APIRouter(prefix="/api/v1", tags=["search"])
@@ -82,11 +85,11 @@ async def search(
             ancestors = await get_ancestors(conn, node.system_id, node.code)
             children = await get_children(conn, node.system_id, node.code)
             prov = prov_map.get(node.system_id, {})
-            node_resp = NodeResponse(**node.__dict__, **prov)
+            node_resp = NodeResponse(**node_response_kwargs(node, prov))
             entry = NodeWithContextResponse(
                 **node_resp.model_dump(),
-                ancestors=[NodeResponse(**a.__dict__, **prov) for a in ancestors if a.code != node.code],
-                children=[NodeResponse(**c.__dict__, **prov) for c in children],
+                ancestors=[NodeResponse(**node_response_kwargs(a, prov)) for a in ancestors if a.code != node.code],
+                children=[NodeResponse(**node_response_kwargs(c, prov)) for c in children],
             )
             output.append(entry)
         payload: Any = output
@@ -94,11 +97,11 @@ async def search(
         groups: Dict[str, List[NodeResponse]] = {}
         for node in results:
             prov = prov_map.get(node.system_id, {})
-            groups.setdefault(node.system_id, []).append(NodeResponse(**node.__dict__, **prov))
+            groups.setdefault(node.system_id, []).append(NodeResponse(**node_response_kwargs(node, prov)))
         payload = groups
     else:
         payload = [
-            NodeResponse(**r.__dict__, **prov_map.get(r.system_id, {})) for r in results
+            NodeResponse(**node_response_kwargs(r, prov_map.get(r.system_id, {}))) for r in results
         ]
 
     if scope is not None:

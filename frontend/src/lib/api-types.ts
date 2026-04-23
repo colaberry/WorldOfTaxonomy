@@ -1445,6 +1445,8 @@ export interface components {
             source_date?: string | null;
             /** Source File Hash */
             source_file_hash?: string | null;
+            /** Source Url For Code */
+            source_url_for_code?: string | null;
         };
         /** ProvenanceTierSummary */
         ProvenanceTierSummary: {

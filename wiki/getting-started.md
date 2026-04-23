@@ -90,7 +90,7 @@ pip install world-of-taxonomy
 python -m world_of_taxonomy mcp
 ```
 
-Transport: stdio. The server exposes 25 tools and wiki-based resources. It works with Claude, Cursor, VS Code, Windsurf, and any MCP-compatible client.
+Transport: stdio. The server exposes 26 tools and wiki-based resources. It works with Claude, Cursor, VS Code, Windsurf, and any MCP-compatible client.
 
 ### Key MCP tools
 
