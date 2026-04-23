@@ -2152,10 +2152,10 @@ export interface operations {
             query: {
                 /** @description Search query */
                 q: string;
-                /** @description Filter by system ID */
-                system_id?: string | null;
-                /** @description Filter by system ID (alias) */
-                system?: string | null;
+                /** @description Filter by system ID. Pass multiple times to match any of several systems: ?system_id=naics_2022&system_id=isic_rev4. */
+                system_id?: string[] | null;
+                /** @description Filter by system ID (alias, repeatable). */
+                system?: string[] | null;
                 /** @description Filter by category: 'domain' or 'standard'. Omit for both. */
                 category?: string | null;
                 /** @description Optional ISO 3166-1 alpha-2 country codes. Scopes results to systems applicable to these countries plus universal recommended standards (UN/WCO/WHO). Pass multiple times to union: ?countries=US&countries=CA. */
