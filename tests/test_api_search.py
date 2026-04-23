@@ -70,3 +70,38 @@ def test_search_missing_query(client):
         resp = await client.get("/api/v1/search")
         assert resp.status_code == 422  # Validation error
     _run(_test())
+
+
+def test_search_with_multiple_system_ids(client):
+    """Multi-system filter: results come from any of the selected systems."""
+    async def _test():
+        # Baseline: searching "agric" without filter hits all 3 seeded systems
+        baseline = await client.get("/api/v1/search", params={"q": "agric"})
+        baseline_systems = {item["system_id"] for item in baseline.json()}
+        assert "sic_1987" in baseline_systems
+
+        resp = await client.get(
+            "/api/v1/search",
+            params=[("q", "agric"), ("system_id", "naics_2022"), ("system_id", "isic_rev4")],
+        )
+        assert resp.status_code == 200
+        data = resp.json()
+        seen_systems = {item["system_id"] for item in data}
+        assert seen_systems <= {"naics_2022", "isic_rev4"}
+        assert "sic_1987" not in seen_systems
+        assert len(seen_systems) == 2
+    _run(_test())
+
+
+def test_search_with_multiple_systems_alias(client):
+    async def _test():
+        resp = await client.get(
+            "/api/v1/search",
+            params=[("q", "agric"), ("system", "naics_2022"), ("system", "isic_rev4")],
+        )
+        assert resp.status_code == 200
+        data = resp.json()
+        seen_systems = {item["system_id"] for item in data}
+        assert seen_systems <= {"naics_2022", "isic_rev4"}
+        assert "sic_1987" not in seen_systems
+    _run(_test())

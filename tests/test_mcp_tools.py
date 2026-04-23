@@ -174,6 +174,24 @@ def test_search_with_limit(db_pool):
     _run(_test())
 
 
+def test_search_with_multiple_system_ids(db_pool):
+    async def _test():
+        async with db_pool.acquire() as conn:
+            baseline = await handle_search_classifications(conn, {"query": "agric"})
+            assert any(r["system_id"] == "sic_1987" for r in baseline)
+
+            result = await handle_search_classifications(conn, {
+                "query": "agric",
+                "system_ids": ["naics_2022", "isic_rev4"],
+            })
+            assert isinstance(result, list)
+            seen = {r["system_id"] for r in result}
+            assert seen <= {"naics_2022", "isic_rev4"}
+            assert "sic_1987" not in seen
+            assert len(seen) == 2
+    _run(_test())
+
+
 # ── Tool: get_equivalences ───────────────────────────────────
 
 

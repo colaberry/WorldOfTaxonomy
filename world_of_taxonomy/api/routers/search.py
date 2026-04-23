@@ -19,8 +19,17 @@ router = APIRouter(prefix="/api/v1", tags=["search"])
 @router.get("/search")
 async def search(
     q: str = Query(..., description="Search query"),
-    system_id: Optional[str] = Query(None, alias="system_id", description="Filter by system ID"),
-    system: Optional[str] = Query(None, description="Filter by system ID (alias)"),
+    system_id: Optional[List[str]] = Query(
+        None,
+        alias="system_id",
+        description=(
+            "Filter by system ID. Pass multiple times to match any of several "
+            "systems: ?system_id=naics_2022&system_id=isic_rev4."
+        ),
+    ),
+    system: Optional[List[str]] = Query(
+        None, description="Filter by system ID (alias, repeatable)."
+    ),
     category: Optional[str] = Query(
         None,
         description="Filter by category: 'domain' or 'standard'. Omit for both.",
@@ -46,11 +55,19 @@ async def search(
             detail="category must be 'domain' or 'standard'",
         )
 
-    system_filter = system_id or system
+    system_filter_list = system_id or system or []
+    single_system = system_filter_list[0] if len(system_filter_list) == 1 else None
+    multi_systems = system_filter_list if len(system_filter_list) > 1 else None
+
     scope = await resolve_country_scope(conn, countries)
-    scoped_ids = scope["candidate_systems"] if scope and not system_filter else None
+    scoped_ids = (
+        scope["candidate_systems"]
+        if scope and not single_system and not multi_systems
+        else None
+    )
+    effective_system_ids = multi_systems if multi_systems else scoped_ids
     results = await search_nodes(
-        conn, q, system_id=system_filter, limit=limit, system_ids=scoped_ids,
+        conn, q, system_id=single_system, limit=limit, system_ids=effective_system_ids,
     )
     if category:
         results = [r for r in results if get_category(r.system_id) == category]

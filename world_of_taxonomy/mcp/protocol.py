@@ -139,7 +139,16 @@ def build_tools_list() -> List[Dict[str, Any]]:
                     },
                     "system_id": {
                         "type": "string",
-                        "description": "Optional: filter results to a specific system",
+                        "description": "Optional: filter results to a single system",
+                    },
+                    "system_ids": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": (
+                            "Optional: filter results to any of several systems "
+                            "(e.g. ['naics_2022', 'isic_rev4']). Overrides country "
+                            "scoping when both are provided."
+                        ),
                     },
                     "countries": {
                         "type": "array",

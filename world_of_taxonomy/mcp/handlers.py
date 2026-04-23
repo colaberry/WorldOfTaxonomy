@@ -179,13 +179,21 @@ async def handle_search_classifications(
 
     query = args.get("query", "")
     system_id = args.get("system_id")
+    system_ids = args.get("system_ids")
+    if isinstance(system_ids, str):
+        system_ids = [system_ids]
     countries = args.get("countries")
     limit = args.get("limit", 20)
 
     scope = await resolve_country_scope(conn, countries)
-    scoped_ids = scope["candidate_systems"] if scope and not system_id else None
+    scoped_ids = (
+        scope["candidate_systems"]
+        if scope and not system_id and not system_ids
+        else None
+    )
+    effective_system_ids = system_ids if system_ids else scoped_ids
     results = await search_nodes(
-        conn, query, system_id=system_id, limit=limit, system_ids=scoped_ids,
+        conn, query, system_id=system_id, limit=limit, system_ids=effective_system_ids,
     )
     sys_ids = list({r.system_id for r in results})
     prov_map = await get_system_provenance_map(conn, sys_ids)
