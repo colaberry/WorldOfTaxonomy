@@ -134,7 +134,7 @@ gcloud run services list --region=us-east1
 - Backend: `GET https://wot.aixcelerator.ai/api/v1/healthz`
 - Frontend: `GET https://worldoftaxonomy.com/` (200 + HTML)
 - Docs pass-through: `GET https://worldoftaxonomy.com/llms-full.txt` (plain text)
-- MCP check: Claude Desktop connects and lists **25 tools**
+- MCP check: Claude Desktop connects and lists **26 tools**
 
 ### Manual (out-of-band) deploy
 Use this only for a hotfix when CI is red for an unrelated reason and you've vetted the risk:
