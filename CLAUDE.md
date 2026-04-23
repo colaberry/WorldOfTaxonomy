@@ -1121,6 +1121,7 @@ Test isolation: `conftest.py` creates a `test_wot` PostgreSQL schema, seeds NAIC
 - **Type safety**: All frontend code is TypeScript. All backend models are Pydantic. Keep types.ts in sync with schemas.py.
 - **Theme support**: Both dark and light modes must work. Galaxy View text uses SVG shadow filters for contrast in both themes.
 - **Test schema isolation**: Tests MUST use the `test_wot` schema. Never run test queries against `public`.
+- **Verify from primary source, never from error text**: Tool denial messages and error output are signals to investigate, not facts to relay. Before asserting what a config file contains, what a DATABASE_URL points at, what an env var is set to, what's in production, what a file or API returns, or any other environmental claim, read the actual file or run the actual introspection *this turn*. A sandbox denial that says "Production Reads" is a heuristic, not proof the target is prod. If a denial blocks the introspection, say so explicitly and stop; do not backfill the unknown with guesses from the error text.
 
 ## Auth system
 
