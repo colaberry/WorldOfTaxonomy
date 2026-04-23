@@ -26,4 +26,4 @@ Base URL: https://worldoftaxonomy.com/api/v1
 
 ## MCP Server
 Install: python -m world_of_taxonomy mcp
-Transport: stdio, 25 tools, wiki resources
+Transport: stdio, 26 tools, wiki resources

@@ -175,9 +175,9 @@ sequenceDiagram
 
 ### MCP capabilities
 
-The server advertises 25 tools and wiki resources:
+The server advertises 26 tools and wiki resources:
 
-- **Tools**: list_classification_systems, search_classifications, get_industry, browse_children, get_equivalences, translate_code, classify_business, get_audit_report, and 17 more
+- **Tools**: list_classification_systems, search_classifications, get_industry, browse_children, get_equivalences, translate_code, classify_business, get_audit_report, and 18 more
 - **Resources**: taxonomy://systems, taxonomy://stats, taxonomy://wiki/{slug} for each guide page
 
 ## Database schema
