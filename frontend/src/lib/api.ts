@@ -132,12 +132,16 @@ export async function acceptGeneratedTaxonomy(
 
 export async function search(
   query: string,
-  systemId?: string,
+  systemId?: string | string[],
   limit?: number,
   context = false
 ): Promise<ClassificationNodeWithContext[]> {
   const params = new URLSearchParams({ q: query })
-  if (systemId) params.set('system', systemId)
+  if (Array.isArray(systemId)) {
+    for (const id of systemId) params.append('system_id', id)
+  } else if (systemId) {
+    params.set('system', systemId)
+  }
   if (limit) params.set('limit', String(limit))
   if (context) params.set('context', 'true')
   return fetchJson(`/api/v1/search?${params}`)

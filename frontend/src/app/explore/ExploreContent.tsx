@@ -114,17 +114,17 @@ function ExploreInner({ initialSystems, initialStats }: ExploreContentProps) {
   const { data: results, isLoading, isFetching } = useQuery({
     queryKey: ['search', debouncedQuery, selectedSystems, country],
     queryFn: async () => {
-      const backendSystem = selectedSystems.length === 1 ? selectedSystems[0] : undefined
-      const raw = await search(debouncedQuery, backendSystem, 200, true)
-      let filtered = raw
+      const backendFilter: string | string[] | undefined =
+        selectedSystems.length === 0
+          ? undefined
+          : selectedSystems.length === 1
+            ? selectedSystems[0]
+            : selectedSystems
+      const raw = await search(debouncedQuery, backendFilter, 200, true)
       if (country && countrySystemIds) {
-        filtered = filtered.filter((r) => countrySystemIds.has(r.system_id))
+        return raw.filter((r) => countrySystemIds.has(r.system_id))
       }
-      if (selectedSystems.length > 1) {
-        const set = new Set(selectedSystems)
-        filtered = filtered.filter((r) => set.has(r.system_id))
-      }
-      return filtered
+      return raw
     },
     enabled: debouncedQuery.length >= 2 && (!country || countrySystemIds !== null),
     staleTime: 2 * 60 * 1000,
