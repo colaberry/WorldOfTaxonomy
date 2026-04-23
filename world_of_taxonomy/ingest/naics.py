@@ -16,6 +16,14 @@ from world_of_taxonomy.models import NAICS_SECTOR_MAP
 NAICS_2022_URL = "https://www.census.gov/naics/2022NAICS/2-6%20digit_2022_Codes.xlsx"
 NAICS_2022_LOCAL = Path("data/naics/2022_NAICS_Codes.xlsx")
 
+# Provenance metadata for the system row.
+_SOURCE_URL = NAICS_2022_URL
+_DATA_PROVENANCE = "official_download"
+_LICENSE = "Public Domain"
+# Per-code authority deep link. `{code}` is substituted per node so the
+# frontend can link any NAICS 2022 node to its Census Bureau page.
+_NODE_URL_TEMPLATE = "https://www.census.gov/naics/?input={code}&year=2022"
+
 # Range sector codes
 RANGE_SECTORS = {"31-33", "44-45", "48-49"}
 
@@ -88,15 +96,29 @@ async def ingest_naics_2022(conn, xlsx_path: Optional[Path] = None) -> int:
             _get_project_root() / NAICS_2022_LOCAL,
         )
 
-    # Register the classification system
-    await conn.execute("""
-        INSERT INTO classification_system (id, name, full_name, region, version, authority, url, tint_color)
+    # Register the classification system (idempotent). Provenance and the
+    # per-code URL template are refreshed on every run so re-ingesting
+    # brings stale rows up to date.
+    await conn.execute(
+        """
+        INSERT INTO classification_system
+            (id, name, full_name, region, version, authority, url, tint_color,
+             source_url, source_date, data_provenance, license, node_url_template)
         VALUES ('naics_2022', 'NAICS 2022',
                 'North American Industry Classification System 2022',
                 'North America', '2022', 'U.S. Census Bureau',
-                'https://www.census.gov/naics/', '#F59E0B')
-        ON CONFLICT (id) DO UPDATE SET node_count = 0
-    """)
+                'https://www.census.gov/naics/', '#F59E0B',
+                $1, CURRENT_DATE, $2, $3, $4)
+        ON CONFLICT (id) DO UPDATE SET
+            node_count = 0,
+            source_url = EXCLUDED.source_url,
+            source_date = CURRENT_DATE,
+            data_provenance = EXCLUDED.data_provenance,
+            license = EXCLUDED.license,
+            node_url_template = EXCLUDED.node_url_template
+        """,
+        _SOURCE_URL, _DATA_PROVENANCE, _LICENSE, _NODE_URL_TEMPLATE,
+    )
 
     # Parse the Excel file
     wb = openpyxl.load_workbook(str(xlsx_path), read_only=True)

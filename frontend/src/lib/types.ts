@@ -40,6 +40,10 @@ export interface ClassificationNode {
   source_url: string | null
   source_date: string | null
   source_file_hash: string | null
+  // Per-code authority deep link, interpolated server-side from the
+  // system's node_url_template. Null when the system has no per-code
+  // page; callers fall back to source_url.
+  source_url_for_code: string | null
 }
 
 export interface ClassificationNodeWithContext extends ClassificationNode {

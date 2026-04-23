@@ -144,6 +144,11 @@ def test_ingest_naics_2022_from_real_file(db_pool):
             )
             assert row is not None
             assert row["node_count"] == count
+            # Per-code authority deep link template so the frontend can
+            # link every node to its Census Bureau page.
+            assert row["node_url_template"] == (
+                "https://www.census.gov/naics/?input={code}&year=2022"
+            )
 
             # Verify specific well-known codes exist
             for code in ["11", "62", "31-33", "621", "6211"]:
