@@ -7,7 +7,7 @@ without a local Python install.
 
 Transport model: a client sends one JSON-RPC message per POST and gets one
 JSON-RPC response back. Server-initiated messages (notifications, progress,
-sampling) are not emitted on this transport; all 25 tools are request/response
+sampling) are not emitted on this transport; all 26 tools are request/response
 so this is sufficient for Claude Desktop's tools/* traffic today. If that
 changes, upgrade to SSE or Streamable-HTTP chunked output here.
 
