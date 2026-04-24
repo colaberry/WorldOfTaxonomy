@@ -8,6 +8,42 @@ import { getChildren } from '@/lib/api'
 import { getSectorColor } from '@/lib/colors'
 import type { TreeNodeData } from '@/lib/tree-data'
 
+const STORAGE_PREFIX = 'wot:radial:'
+
+function storageKey(systemId: string): string {
+  return `${STORAGE_PREFIX}${systemId}`
+}
+
+function clearTransientFlags(node: HierarchyNode): HierarchyNode {
+  return {
+    ...node,
+    _loading: false,
+    children: (node.children ?? []).map(clearTransientFlags),
+  }
+}
+
+function loadPersistedTree(systemId: string): HierarchyNode | null {
+  if (typeof window === 'undefined') return null
+  try {
+    const raw = window.sessionStorage.getItem(storageKey(systemId))
+    if (!raw) return null
+    const parsed = JSON.parse(raw) as HierarchyNode
+    if (!parsed || typeof parsed.code !== 'string') return null
+    return clearTransientFlags(parsed)
+  } catch {
+    return null
+  }
+}
+
+function persistTree(systemId: string, tree: HierarchyNode): void {
+  if (typeof window === 'undefined') return
+  try {
+    window.sessionStorage.setItem(storageKey(systemId), JSON.stringify(tree))
+  } catch {
+    // sessionStorage disabled or quota exceeded; degrade silently
+  }
+}
+
 // ── Types ────────────────────────────────────────────────────────────
 
 interface Props {
@@ -156,10 +192,24 @@ export function RadialDendrogram({ systemId, initialNodes, systemColor }: Props)
   const containerRef = useRef<HTMLDivElement>(null)
   const router = useRouter()
   const { resolvedTheme } = useTheme()
-  const [treeRoot, setTreeRoot] = useState<HierarchyNode | null>(() =>
-    buildTree(initialNodes),
-  )
-  const [, setRenderTick] = useState(0)
+  const [treeRoot, setTreeRoot] = useState<HierarchyNode | null>(() => {
+    const persisted = loadPersistedTree(systemId)
+    if (persisted) return persisted
+    return buildTree(initialNodes)
+  })
+
+  // Persist every tree mutation so returning from a node detail page
+  // via the browser Back button restores the exact expanded state.
+  useEffect(() => {
+    if (!treeRoot) return
+    persistTree(systemId, treeRoot)
+  }, [treeRoot, systemId])
+
+  // Mutates the tree in place, then hands React a fresh top-level
+  // reference so the drawing effect re-runs.
+  const bumpTree = useCallback(() => {
+    setTreeRoot((prev) => (prev ? { ...prev } : prev))
+  }, [])
 
   const handleExpand = useCallback(
     async (code: string) => {
@@ -170,20 +220,20 @@ export function RadialDendrogram({ systemId, initialNodes, systemColor }: Props)
       // Toggle collapse
       if (node._expanded && node.children && node.children.length > 0) {
         node._expanded = false
-        setRenderTick((t) => t + 1)
+        bumpTree()
         return
       }
 
       // Already has children loaded, just expand
       if (node.children && node.children.length > 0) {
         node._expanded = true
-        setRenderTick((t) => t + 1)
+        bumpTree()
         return
       }
 
       // Fetch from API
       node._loading = true
-      setRenderTick((t) => t + 1)
+      bumpTree()
       try {
         const apiChildren = await getChildren(systemId, code)
         node.children = apiChildren.map((c) => ({
@@ -202,10 +252,18 @@ export function RadialDendrogram({ systemId, initialNodes, systemColor }: Props)
         // silently fail
       } finally {
         node._loading = false
-        setRenderTick((t) => t + 1)
+        bumpTree()
       }
     },
-    [treeRoot, systemId],
+    [treeRoot, systemId, bumpTree],
+  )
+
+  const navigateToNode = useCallback(
+    (code: string) => {
+      if (code === '__root__') return
+      router.push(`/system/${systemId}/node/${encodeURIComponent(code)}`)
+    },
+    [router, systemId],
   )
 
   useEffect(() => {
@@ -357,7 +415,8 @@ export function RadialDendrogram({ systemId, initialNodes, systemColor }: Props)
       return Math.max(0.4, 1 - (d.depth - 1) * 0.2)
     }
 
-    // Circle for each node
+    // Circle for each node -- clicking the circle navigates to the node
+    // detail page. Expand/collapse is driven by the +/- glyph below.
     nodeG
       .append('circle')
       .attr('r', (d) => {
@@ -373,35 +432,41 @@ export function RadialDendrogram({ systemId, initialNodes, systemColor }: Props)
       .attr('stroke', (d) => getNodeColor(d))
       .attr('stroke-width', (d) => (d.depth === 0 ? 2.5 : 1.5))
       .attr('opacity', getNodeOpacity)
-      .attr('cursor', 'pointer')
+      .attr('cursor', (d) => (d.data.code === '__root__' ? 'default' : 'pointer'))
       .on('click', (_event, d) => {
         _event.stopPropagation()
-        if (d.data.code === '__root__') return
-        const hasExpandableChildren = d.data.children_count > 0
-        const currentlyHasChildren = d.children && d.children.length > 0
-        if (hasExpandableChildren || currentlyHasChildren) {
-          handleExpand(d.data.code)
-        } else {
-          router.push(`/system/${systemId}/node/${encodeURIComponent(d.data.code)}`)
-        }
+        navigateToNode(d.data.code)
       })
 
-    // "+" indicator for expandable collapsed nodes
+    // Expand/collapse toggle glyph for parent nodes.
+    // "+" when collapsed (children not rendered); "-" when expanded.
+    // Leaves and the synthetic root get no glyph.
+    function isExpandable(d: PointNode): boolean {
+      if (d.data.code === '__root__') return false
+      const hasLoaded = !!(d.children && d.children.length > 0)
+      const hasUnloaded = d.data.children_count > 0
+      return hasLoaded || hasUnloaded
+    }
+
+    function toggleGlyph(d: PointNode): string {
+      const showingChildren = !!(d.children && d.children.length > 0)
+      return showingChildren ? '-' : '+'
+    }
+
     nodeG
-      .filter(
-        (d) =>
-          !d.data._expanded &&
-          d.data.children_count > 0 &&
-          (!d.children || d.children.length === 0),
-      )
+      .filter(isExpandable)
       .append('text')
       .attr('dy', '0.35em')
       .attr('text-anchor', 'middle')
       .attr('fill', (d) => getNodeColor(d))
-      .attr('font-size', '8px')
+      .attr('font-size', '10px')
       .attr('font-weight', 'bold')
-      .attr('pointer-events', 'none')
-      .text('+')
+      .attr('cursor', 'pointer')
+      .text(toggleGlyph)
+      .on('click', (_event, d) => {
+        _event.stopPropagation()
+        handleExpand(d.data.code)
+      })
 
     // Loading indicator
     nodeG
@@ -415,10 +480,19 @@ export function RadialDendrogram({ systemId, initialNodes, systemColor }: Props)
       .attr('opacity', 0.6)
 
     // ── Labels ──
-    const labelThreshold = visibleCount > 300 ? 1 : visibleCount > 100 ? 2 : 3
+    // Every visible non-root node gets a label. Density at the outer
+    // rings is managed via truncation and smaller font sizes; overlap
+    // is an acceptable signal to the user that they should collapse
+    // or zoom. Losing labels on expand was more confusing than overlap.
+    const truncForDepth = (depth: number): number => {
+      if (depth === 1) return 28
+      if (depth === 2) return 22
+      if (depth === 3) return 18
+      return 14
+    }
 
     nodeG
-      .filter((d) => d.depth > 0 && d.depth <= labelThreshold)
+      .filter((d) => d.depth > 0)
       .append('text')
       .attr('dy', '0.31em')
       .attr('x', (d) => (d.x < Math.PI === !d.children ? 8 : -8))
@@ -427,15 +501,20 @@ export function RadialDendrogram({ systemId, initialNodes, systemColor }: Props)
       .attr('fill', textColor)
       .attr('font-size', (d) => {
         if (d.depth === 1) return '11px'
+        if (d.depth === 2) return '10px'
         return '9px'
       })
       .attr('font-weight', (d) => (d.depth === 1 ? '600' : '400'))
       .attr('filter', 'url(#tree-text-bg)')
-      .attr('pointer-events', 'none')
+      .attr('cursor', 'pointer')
       .text((d) => {
-        const maxLen = d.depth === 1 ? 28 : 22
+        const maxLen = truncForDepth(d.depth)
         const t = d.data.title
         return t.length > maxLen ? t.slice(0, maxLen - 1) + '\u2026' : t
+      })
+      .on('click', (_event, d) => {
+        _event.stopPropagation()
+        navigateToNode(d.data.code)
       })
 
     // Root label
@@ -546,12 +625,12 @@ export function RadialDendrogram({ systemId, initialNodes, systemColor }: Props)
       .attr('fill', mutedColor)
       .attr('font-size', '10px')
       .attr('font-family', 'var(--font-geist-mono)')
-      .text(`${visibleCount} nodes visible - scroll to zoom, drag to pan`)
+      .text(`${visibleCount} nodes visible - click label to open, +/- to expand, scroll to zoom, drag to pan`)
 
     return () => {
       el.innerHTML = ''
     }
-  }, [resolvedTheme, treeRoot, systemId, systemColor, handleExpand, router])
+  }, [resolvedTheme, treeRoot, systemId, systemColor, handleExpand, navigateToNode])
 
   if (!treeRoot) {
     return (

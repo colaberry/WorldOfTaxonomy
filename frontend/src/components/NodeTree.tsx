@@ -1,32 +1,57 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import Link from 'next/link'
-import { ChevronRight, Leaf, ExternalLink, Wand2, Loader2 } from 'lucide-react'
+import { ChevronRight, Leaf, Wand2, Loader2 } from 'lucide-react'
 import { getChildren, getEquivalences, generateTaxonomy, acceptGeneratedTaxonomy } from '@/lib/api'
 import { getSectorColor, getSystemColor } from '@/lib/colors'
 import { isLoggedIn } from '@/lib/auth'
 import type { ClassificationNode, ClassificationSystem, Equivalence, GeneratedNode } from '@/lib/types'
 
-// ── Single tree row ──────────────────────────────────────────────────────────
+const STORAGE_PREFIX = 'wot:tree:'
+
+function storageKey(systemId: string): string {
+  return `${STORAGE_PREFIX}${systemId}`
+}
+
+function loadExpanded(systemId: string): Set<string> {
+  if (typeof window === 'undefined') return new Set()
+  try {
+    const raw = window.sessionStorage.getItem(storageKey(systemId))
+    if (!raw) return new Set()
+    const arr = JSON.parse(raw)
+    return Array.isArray(arr) ? new Set(arr.filter((s): s is string => typeof s === 'string')) : new Set()
+  } catch {
+    return new Set()
+  }
+}
+
+function persistExpanded(systemId: string, expanded: Set<string>): void {
+  if (typeof window === 'undefined') return
+  try {
+    window.sessionStorage.setItem(storageKey(systemId), JSON.stringify(Array.from(expanded)))
+  } catch {
+    // storage full or blocked; ignore
+  }
+}
 
 interface NodeRowProps {
   systemId: string
   node: ClassificationNode
   systems: ClassificationSystem[]
+  expanded: Set<string>
+  toggleExpanded: (code: string) => void
 }
 
-function NodeRow({ systemId, node, systems }: NodeRowProps) {
-  const [expanded, setExpanded] = useState(false)
+function NodeRow({ systemId, node, systems, expanded, toggleExpanded }: NodeRowProps) {
+  const isExpanded = expanded.has(node.code)
   const [loggedIn, setLoggedIn] = useState(false)
   const [generating, setGenerating] = useState(false)
   const [loginRequired, setLoginRequired] = useState(false)
   const [suggestions, setSuggestions] = useState<GeneratedNode[] | null>(null)
   const [selected, setSelected] = useState<number[]>([])
   const [accepting, setAccepting] = useState(false)
-  // Codes the user explicitly dismissed this session. Prevents re-adding them
-  // on a subsequent magic-wand click. Cleared on "Dismiss all" or page reload.
   const [dismissedCodes, setDismissedCodes] = useState<Set<string>>(new Set())
   const queryClient = useQueryClient()
 
@@ -38,20 +63,19 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
   const { data: children, isFetching: loadingChildren } = useQuery({
     queryKey: ['tree-children', systemId, node.code],
     queryFn: () => getChildren(systemId, node.code),
-    enabled: expanded && !node.is_leaf,
+    enabled: isExpanded && !node.is_leaf,
     staleTime: 5 * 60 * 1000,
   })
 
   const { data: equivalences } = useQuery({
     queryKey: ['equivalences', systemId, node.code],
     queryFn: () => getEquivalences(systemId, node.code),
-    enabled: expanded,
+    enabled: isExpanded,
     staleTime: 5 * 60 * 1000,
   })
 
   const sectorColor = getSectorColor(node.sector_code ?? node.code)
 
-  // One chip per unique target system, first equivalence wins, max 3 systems
   const chips: Equivalence[] = []
   if (equivalences) {
     const seen = new Set<string>()
@@ -68,7 +92,8 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
     : 0
   const hiddenCount = totalSystems - chips.length
 
-  async function handleGenerate(e: { stopPropagation(): void }) {
+  async function handleGenerate(e: React.MouseEvent) {
+    e.preventDefault()
     e.stopPropagation()
     if (!loggedIn) {
       setLoginRequired(true)
@@ -79,13 +104,7 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
     setGenerating(true)
     try {
       const result = await generateTaxonomy(systemId, node.code)
-      // Merge with any pending suggestions from a prior click, so re-running
-      // the wand does not lose the user's in-progress review. New items that
-      // collide (by code) with existing ones are dropped; dismissed codes are
-      // filtered out so we don't resurrect what the user rejected.
-      const fresh = result.nodes.filter(
-        (s) => !dismissedCodes.has(s.code)
-      )
+      const fresh = result.nodes.filter((s) => !dismissedCodes.has(s.code))
       setSuggestions((prev) => {
         if (!prev || prev.length === 0) {
           setSelected(fresh.map((_, i) => i))
@@ -93,7 +112,6 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
         }
         const seen = new Set(prev.map((s) => s.code))
         const merged = [...prev, ...fresh.filter((s) => !seen.has(s.code))]
-        // Preserve previous selection offsets; auto-select the newly added rows.
         const firstNewIdx = prev.length
         const addedIdxs = merged
           .map((_, i) => i)
@@ -138,81 +156,80 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
     }
   }
 
+  function handleToggle(e: React.MouseEvent) {
+    e.preventDefault()
+    e.stopPropagation()
+    if (!node.is_leaf) toggleExpanded(node.code)
+  }
+
   return (
     <div>
       {/* Row */}
-      <div
-        role="button"
-        tabIndex={0}
-        onClick={() => !node.is_leaf && setExpanded((v) => !v)}
-        onKeyDown={(e) => {
-          if ((e.key === 'Enter' || e.key === ' ') && !node.is_leaf) setExpanded((v) => !v)
-        }}
-        className={`group flex items-center gap-2 px-2 py-1.5 rounded-lg transition-colors ${
-          node.is_leaf ? 'cursor-default' : 'cursor-pointer hover:bg-card/70'
-        }`}
-      >
+      <div className="group flex items-center gap-2 px-2 py-1.5 rounded-lg transition-colors hover:bg-card/70">
         {/* Expand toggle / leaf icon */}
-        <span className="w-4 h-4 flex items-center justify-center shrink-0 text-muted-foreground">
-          {!node.is_leaf ? (
+        {!node.is_leaf ? (
+          <button
+            type="button"
+            onClick={handleToggle}
+            aria-label={isExpanded ? 'Collapse' : 'Expand'}
+            aria-expanded={isExpanded}
+            className="w-4 h-4 flex items-center justify-center shrink-0 text-muted-foreground hover:text-foreground cursor-pointer"
+          >
             <ChevronRight
               className={`h-3.5 w-3.5 transition-transform duration-150 ${
-                expanded ? 'rotate-90' : ''
+                isExpanded ? 'rotate-90' : ''
               }`}
             />
-          ) : (
+          </button>
+        ) : (
+          <span className="w-4 h-4 flex items-center justify-center shrink-0 text-muted-foreground">
             <Leaf className="h-3 w-3 text-emerald-500/50" />
-          )}
-        </span>
+          </span>
+        )}
 
-        {/* Code badge */}
-        <span
-          className="font-mono text-xs px-1.5 py-0.5 rounded shrink-0"
-          style={{ color: sectorColor, backgroundColor: `${sectorColor}18` }}
+        {/* Code + title = navigation link */}
+        <Link
+          href={`/system/${systemId}/node/${encodeURIComponent(node.code)}`}
+          className="flex items-center gap-2 flex-1 min-w-0"
+          title="Open node detail"
         >
-          {node.code}
-        </span>
-
-        {/* Title + inline action buttons */}
-        <span className="flex items-center gap-1.5 flex-1 min-w-0">
+          <span
+            className="font-mono text-xs px-1.5 py-0.5 rounded shrink-0"
+            style={{ color: sectorColor, backgroundColor: `${sectorColor}18` }}
+          >
+            {node.code}
+          </span>
           <span className="text-sm min-w-0 truncate text-foreground/75 group-hover:text-foreground transition-colors">
             {node.title}
           </span>
-          <button
-            onClick={handleGenerate}
-            title={loggedIn ? 'Generate AI sub-classifications' : 'Sign in to generate AI sub-classifications'}
-            className="shrink-0 flex items-center justify-center hover:scale-110 transition-transform"
-            style={{ color: generating ? '#d97706' : '#b8860b' }}
-          >
-            {generating ? (
-              <Loader2 className="h-3.5 w-3.5 animate-spin" />
-            ) : (
-              <Wand2 className="h-3.5 w-3.5" />
-            )}
-          </button>
-          <Link
-            href={`/system/${systemId}/node/${encodeURIComponent(node.code)}`}
-            onClick={(e) => e.stopPropagation()}
-            title="View full detail"
-            className="shrink-0 flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <ExternalLink className="h-3.5 w-3.5" />
-          </Link>
-        </span>
+        </Link>
 
-        {/* Equivalence chips - appear after expand + load */}
+        {/* Inline action: magic wand */}
+        <button
+          type="button"
+          onClick={handleGenerate}
+          title={loggedIn ? 'Generate AI sub-classifications' : 'Sign in to generate AI sub-classifications'}
+          className="shrink-0 flex items-center justify-center hover:scale-110 transition-transform"
+          style={{ color: generating ? '#d97706' : '#b8860b' }}
+        >
+          {generating ? (
+            <Loader2 className="h-3.5 w-3.5 animate-spin" />
+          ) : (
+            <Wand2 className="h-3.5 w-3.5" />
+          )}
+        </button>
+
+        {/* Equivalence chips */}
         {chips.length > 0 && (
           <div className="hidden sm:flex items-center gap-1 shrink-0">
             {chips.map((e) => {
               const sys = systems.find((s) => s.id === e.target_system)
               const sysColor = getSystemColor(e.target_system)
-              // "NAICS 2022" -> "NAICS", "HS 2022" -> "HS", etc.
               const prefix = sys?.name.split(' ')[0] ?? e.target_system.split('_')[0].toUpperCase()
               return (
                 <Link
                   key={`${e.target_system}-${e.target_code}`}
                   href={`/system/${e.target_system}/node/${encodeURIComponent(e.target_code)}`}
-                  onClick={(ev) => ev.stopPropagation()}
                   title={`${sys?.name ?? e.target_system}: ${e.target_code}${e.target_title ? ` - ${e.target_title}` : ''} (${e.match_type})`}
                   className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[11px] font-mono hover:opacity-70 transition-opacity"
                   style={{ color: sysColor, backgroundColor: `${sysColor}15` }}
@@ -227,7 +244,6 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
             )}
           </div>
         )}
-
       </div>
 
       {/* Login required panel */}
@@ -331,7 +347,7 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
       )}
 
       {/* Children with guide line */}
-      {expanded && !node.is_leaf && (
+      {isExpanded && !node.is_leaf && (
         <div className="ml-3 pl-3 border-l border-border/25">
           {loadingChildren ? (
             <div className="py-2 pl-1 text-xs text-muted-foreground animate-pulse">
@@ -344,6 +360,8 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
                 systemId={systemId}
                 node={child}
                 systems={systems}
+                expanded={expanded}
+                toggleExpanded={toggleExpanded}
               />
             ))
           ) : (
@@ -357,8 +375,6 @@ function NodeRow({ systemId, node, systems }: NodeRowProps) {
   )
 }
 
-// ── Tree root ────────────────────────────────────────────────────────────────
-
 export function NodeTree({
   systemId,
   roots,
@@ -368,6 +384,24 @@ export function NodeTree({
   roots: ClassificationNode[]
   systems: ClassificationSystem[]
 }) {
+  const [expanded, setExpanded] = useState<Set<string>>(() => loadExpanded(systemId))
+
+  useEffect(() => {
+    persistExpanded(systemId, expanded)
+  }, [systemId, expanded])
+
+  const toggleExpanded = useCallback((code: string) => {
+    setExpanded((prev) => {
+      const next = new Set(prev)
+      if (next.has(code)) {
+        next.delete(code)
+      } else {
+        next.add(code)
+      }
+      return next
+    })
+  }, [])
+
   return (
     <div className="rounded-xl border border-border/50 bg-card/20 overflow-hidden">
       {/* Header */}
@@ -376,7 +410,7 @@ export function NodeTree({
           Hierarchy Explorer
         </span>
         <span className="text-xs text-muted-foreground hidden sm:block">
-          Click to expand - equivalences appear inline
+          Chevron to expand - click title to open
         </span>
       </div>
 
@@ -388,6 +422,8 @@ export function NodeTree({
             systemId={systemId}
             node={root}
             systems={systems}
+            expanded={expanded}
+            toggleExpanded={toggleExpanded}
           />
         ))}
       </div>
