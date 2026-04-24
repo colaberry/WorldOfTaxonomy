@@ -51,7 +51,7 @@ async def mcp_http_bridge(request: Request) -> Response:
     async with pool.acquire() as conn:
         response = await handle_jsonrpc_request(body, conn=conn)
 
-    # Notifications ("method" w/o "id") return None — MCP spec says 202 No Body.
+    # Notifications ("method" w/o "id") return None - MCP spec says 202 No Body.
     if response is None:
         return Response(status_code=202)
 
