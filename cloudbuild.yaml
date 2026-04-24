@@ -39,7 +39,60 @@ steps:
       - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-api
     waitFor: ['build-api']
 
-  # Deploy backend — attach Cloud SQL via Unix socket, mount secrets
+  # Run Alembic migrations against the production DB BEFORE deploying new api code.
+  # Uses a Cloud Run Job (re-created each run) pinned to the freshly-built image so
+  # the migrations match the code about to deploy. Cloud Run Jobs auto-attach Cloud
+  # SQL via Unix socket and mount DATABASE_URL from Secret Manager.
+  #
+  # If this step fails (broken migration, DB unreachable, etc.), the deploy-api step
+  # will NOT run — protecting prod from schema/code skew like the one that hit us on
+  # the first auto-deploy (0001_baseline -> 0002_node_url_template was never applied).
+  - id: migrate-db
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        set -euo pipefail
+        IMAGE="${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-api:$SHORT_SHA"
+        JOB="wot-migrate"
+        if gcloud run jobs describe "$$JOB" --region=${_REGION} --project=$PROJECT_ID >/dev/null 2>&1; then
+          echo "Updating existing $$JOB job with image $$IMAGE"
+          gcloud run jobs update "$$JOB" \
+            --image="$$IMAGE" \
+            --region=${_REGION} \
+            --project=$PROJECT_ID \
+            --set-cloudsql-instances=${_INSTANCE_CONN} \
+            --set-secrets=DATABASE_URL=DATABASE_URL:latest \
+            --command=alembic \
+            --args=upgrade,head \
+            --task-timeout=300 \
+            --max-retries=0 \
+            --quiet
+        else
+          echo "Creating new $$JOB job with image $$IMAGE"
+          gcloud run jobs create "$$JOB" \
+            --image="$$IMAGE" \
+            --region=${_REGION} \
+            --project=$PROJECT_ID \
+            --set-cloudsql-instances=${_INSTANCE_CONN} \
+            --set-secrets=DATABASE_URL=DATABASE_URL:latest \
+            --command=alembic \
+            --args=upgrade,head \
+            --task-timeout=300 \
+            --max-retries=0 \
+            --quiet
+        fi
+        echo "Executing migration..."
+        gcloud run jobs execute "$$JOB" \
+          --region=${_REGION} \
+          --project=$PROJECT_ID \
+          --wait
+        echo "Migration complete."
+    waitFor: ['push-api']
+
+  # Deploy backend — attach Cloud SQL via Unix socket, mount secrets.
+  # waits for migrate-db so schema is always current before new code takes traffic.
   - id: deploy-api
     name: gcr.io/google.com/cloudsdktool/cloud-sdk
     entrypoint: gcloud
@@ -60,7 +113,7 @@ steps:
       - --timeout=300s
       - --add-cloudsql-instances=${_INSTANCE_CONN}
       - --set-secrets=DATABASE_URL=DATABASE_URL:latest,JWT_SECRET=JWT_SECRET:latest,REPORT_EMAIL=REPORT_EMAIL:latest
-    waitFor: ['push-api']
+    waitFor: ['migrate-db']
 
   # --- Frontend (built AFTER backend URL is known) ---
   # Capture the freshly-deployed wot-api URL and write it to /workspace so
