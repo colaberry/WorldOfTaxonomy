@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { ContactSalesForm } from './ContactSalesForm'
 import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network, Sparkles, Bot } from 'lucide-react'
 
 async function fetchGithubStars(): Promise<number | null> {
@@ -710,46 +711,7 @@ async def ingest(conn) -> None:
           <p className="text-sm text-muted-foreground">
             Interested in Enterprise? Tell us about your use case and we&apos;ll get back to you.
           </p>
-          <form
-            className="grid sm:grid-cols-2 gap-4"
-            action="/api/v1/contact"
-            method="POST"
-            onSubmit={undefined}
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              required
-              className="px-3 py-2 rounded-lg bg-secondary border border-border/50 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-            />
-            <input
-              type="text"
-              name="company"
-              placeholder="Company"
-              className="px-3 py-2 rounded-lg bg-secondary border border-border/50 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              required
-              className="px-3 py-2 rounded-lg bg-secondary border border-border/50 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 sm:col-span-2"
-            />
-            <textarea
-              name="message"
-              placeholder="Tell us about your use case..."
-              required
-              rows={3}
-              className="px-3 py-2 rounded-lg bg-secondary border border-border/50 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 sm:col-span-2 resize-none"
-            />
-            <button
-              type="submit"
-              className="px-4 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors sm:col-span-2"
-            >
-              Send inquiry
-            </button>
-          </form>
+          <ContactSalesForm />
         </div>
       </section>
 

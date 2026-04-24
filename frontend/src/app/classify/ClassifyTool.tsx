@@ -12,6 +12,7 @@ import {
   type CountryListEntry,
 } from '@/lib/api'
 import { getSystemColor } from '@/lib/colors'
+import { sendEnterpriseLead } from '@/lib/enterpriseIngest'
 import { MatchCrosswalkMiniGraph } from '@/components/classify/MatchCrosswalkMiniGraph'
 import { MatchHierarchyMiniGraph } from '@/components/classify/MatchHierarchyMiniGraph'
 import { PartitionedSections } from '@/components/classify/PartitionedMatches'
@@ -102,6 +103,16 @@ export function ClassifyTool() {
     try {
       const data = await classifyDemo(cleanEmail, cleanText, countries)
       setResult(data)
+      // Fire the enterprise lead webhook in parallel with our primary
+      // classify_lead DB write. Fire-and-forget per Ali's Apr 24 spec;
+      // never blocks the user's response, never surfaces errors in the UI.
+      void sendEnterpriseLead('classify_lead', {
+        email: cleanEmail,
+        metadata: {
+          description: cleanText,
+          countries,
+        },
+      })
       if (typeof window !== 'undefined') {
         window.localStorage.setItem(EMAIL_KEY, cleanEmail)
         const snapshot: ClassifySnapshot = {
