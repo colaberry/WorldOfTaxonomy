@@ -47,3 +47,4 @@ psycopg[binary]>=3.1.0
 # ISO 3166-2 data tables (no upstream HTTP call required).
 pycountry>=23.12.11
 
+ijson>=3.2.0
