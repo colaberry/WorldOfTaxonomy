@@ -26,6 +26,10 @@ from world_of_taxonomy.ingest.descriptions import apply_descriptions
 from world_of_taxonomy.ingest.parent_code_cascade import build_parent_mapping
 
 
+# Hierarchical-by-parent_code systems whose empty rows are fillable
+# from a single populated child. The NACE family (43 systems) is
+# included so section letters and divisions like 97 / 99 / T / U
+# pick up descriptions from their only populated child.
 _DEFAULT_SYSTEMS = [
     "icd_11",
     "atc_who",
@@ -33,6 +37,16 @@ _DEFAULT_SYSTEMS = [
     "sic_1987",
     "ndc_fda",
     "anzsic_2006",
+    # NACE family
+    "nace_rev2", "ateco_2007", "caem_md", "caen_rev2", "cae_rev3",
+    "cip_2020", "cnae_2009", "cz_nace", "db07", "emtak", "isat_2008",
+    "kd_ba", "kd_me", "kd_rs", "kd_xk", "kved_ua",
+    "nace_am", "nace_bel", "nace_cy", "nace_ge", "nace_ie",
+    "nace_lt", "nace_lu", "nace_mt", "nace_tr", "naf_rev2",
+    "nkd_2007", "nkd_mk", "nkid", "nk_lv", "noga_2008", "nve_al",
+    "onace_2008", "pkd_2007", "sbi_2008", "skd_2008", "sk_nace",
+    "sn_2007", "sni_2007", "stakod_08", "teaor_2008", "tol_2008",
+    "wz_2008",
 ]
 
 
