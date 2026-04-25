@@ -8,10 +8,11 @@ The structural ingester for each classification system populates `code`, `title`
 
 ## Headline numbers
 
-- **24 PRs landed** (PR #50 - PR #73, plus this doc).
-- **~16,500 net new rows of description content** populated on a 1.21M-row DB.
-- DB coverage went from **~50%** at the start of the series to **~55.1%** at the end.
+- **26 PRs landed** (PR #50 - PR #75, plus this doc).
+- **~21,000 net new rows of description content** populated on a 1.21M-row DB.
+- DB coverage went from **~50%** at the start of the series to **~55.42%** at the end.
 - **0 em-dashes** (`U+2014`) in any added content - every PR runs `scripts/check_no_em_dash.sh` and every parser normalises unicode dashes / spaces / quotes to ASCII.
+- **0 NUL bytes, 0 mojibake, 0 refusal-phrase leaks** across all 2,413 LLM-generated rows.
 
 ## PRs by category
 
@@ -29,7 +30,7 @@ These PRs read a file already in `data/` and populate one system from the struct
 | #62 | UN M.49 | 279 (100%) | `data/iso3166_all.csv` (countries + regions) |
 | #65 | ONET content model (6 sub-taxonomies) | 62 (67%) | `data/onet_db/.../Content Model Reference.txt` |
 | #66 | NIC 2008 | 95 (88%) | `data/nic/nic_2008_publication.pdf` (193pp, parsed via `pypdf`) |
-| #67 | LLM-generated (47 systems) | 910 (99.6%) | `chat_json` via Ollama Cloud, gpt-oss:120b |
+| #67 | LLM-generated (88 systems, 2 rounds) | 2,413 (100% clean audit) | `chat_json` via Ollama Cloud, gpt-oss:120b |
 | #72 | ISO 3166-1 | 271 (100%) | `data/iso3166_all.csv` + UN M.49 cascade for region codes |
 
 ### Scrapes and HTTP fetches
@@ -44,6 +45,7 @@ PRs that download structured data live.
 | #61 | SIC 1987 | 1,003 (85%) | OSHA per-code HTML pages, scraped with `httpx` |
 | #64 | ISCED-F 2013 | 79 (65%) | Same ESCO JSON-LD, `isced-f/<code>` |
 | #71 (in part) | ICD-11 chapters and blocks | 472 | WHO ICD-11 API (OAuth client-credentials, MMS linearization tree) |
+| #75 | ICD-11 chapter and block walk | 344 | WHO ICD-11 API (BFS first-wins title match) |
 
 ### Single-child cascades
 
