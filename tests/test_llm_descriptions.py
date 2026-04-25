@@ -101,3 +101,19 @@ def test_sanitize_response_normalizes_curly_quotes():
     assert "\u201c" not in out
     assert "\u2019" not in out
     assert '"normal"' in out
+
+
+def test_sanitize_response_strips_nul_bytes():
+    """LLMs sometimes emit a stray U+0000 inside text; Postgres rejects
+    that as 'invalid byte sequence for encoding UTF8: 0x00'."""
+    out = sanitize_response("Foo\x00bar is fine description text here.")
+    assert "\x00" not in out
+    assert "Foobar" in out
+
+
+def test_sanitize_response_strips_other_c0_controls():
+    """Backspace, vertical tab, etc. are also stripped; tab/newline kept."""
+    out = sanitize_response("Foo\x08\x07bar baz spam description text here.")
+    assert "\x08" not in out
+    assert "\x07" not in out
+    assert "Foobar" in out

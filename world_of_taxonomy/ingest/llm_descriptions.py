@@ -86,7 +86,14 @@ def sanitize_response(text: str) -> str:
     """
     if text is None:
         return ""
-    s = str(text).strip()
+    s = str(text)
+
+    # Strip C0 control bytes (NUL, etc.) which Postgres rejects with
+    # "invalid byte sequence for encoding UTF8: 0x00". Keep TAB / LF /
+    # CR for legibility.
+    s = "".join(ch for ch in s if ch in "\t\n\r" or ord(ch) >= 0x20)
+
+    s = s.strip()
 
     # Strip surrounding quotes (single or double).
     while s.startswith(('"', "'")) and s.endswith(('"', "'")) and len(s) >= 2:
