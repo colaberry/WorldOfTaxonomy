@@ -1,9 +1,13 @@
-"""Cascade child descriptions up via the ``parent_code`` column for
-ICD-11 and ATC WHO (systems whose hierarchy is not encoded in the
-code string itself).
+"""Cascade child descriptions up via the ``parent_code`` column.
 
-Iterates until no more rows can be cascaded (so a populated leaf
-propagates up multiple levels in successive passes).
+Generic single-child cascade for systems whose hierarchy is not
+encoded in the code string itself (ICD-11, ATC WHO) or where prefix
+cascades have already run but ``parent_code`` still picks up a few
+more rows that the prefix-based pass missed (SOC 2018, SIC 1987,
+NDC FDA, ANZSIC 2006).
+
+Iterates until no more rows can be cascaded so a populated leaf
+propagates up multiple levels in successive passes.
 """
 
 from __future__ import annotations
@@ -22,7 +26,14 @@ from world_of_taxonomy.ingest.descriptions import apply_descriptions
 from world_of_taxonomy.ingest.parent_code_cascade import build_parent_mapping
 
 
-_DEFAULT_SYSTEMS = ["icd_11", "atc_who"]
+_DEFAULT_SYSTEMS = [
+    "icd_11",
+    "atc_who",
+    "soc_2018",
+    "sic_1987",
+    "ndc_fda",
+    "anzsic_2006",
+]
 
 
 def _project_root() -> Path:
