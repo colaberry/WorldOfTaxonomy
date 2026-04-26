@@ -17,6 +17,7 @@ stores subgroup codes -- same convention as PR #73).
 
 from __future__ import annotations
 
+import html
 import re
 import zipfile
 from pathlib import Path
@@ -37,7 +38,15 @@ def db_code_for_symbol(symbol: str) -> str:
 
 _EM_DASH = "\u2014"
 _TAG_RE = re.compile(r"<[^>]+>")
-_WS_RE = re.compile(r"\s+")
+# Inline whitespace only (not newlines).
+_INLINE_WS_RE = re.compile(r"[ \t\f\r]+")
+# Triple+ newlines collapse to two.
+_BLANKS_RE = re.compile(r"\n\s*\n\s*\n+")
+# Block-level closing tags that should become a paragraph break.
+_BLOCK_BREAKS_RE = re.compile(
+    r"</(?:paragraph-text|table-row|p|li|tr)>",
+    re.IGNORECASE,
+)
 _MEDIA_RE = re.compile(r"<media\b[^/>]*/>", re.IGNORECASE)
 _PARA_TYPE_BODY_RE = re.compile(
     r'<paragraph-text\s+type="body"[^>]*>([\s\S]*?)</paragraph-text>',
@@ -77,7 +86,7 @@ def _strip_media_image_paragraphs(s: str) -> str:
     def _replace(m: re.Match) -> str:
         inner = _MEDIA_RE.sub(" ", m.group(1))
         text = _TAG_RE.sub(" ", inner)
-        text = _WS_RE.sub(" ", text).strip()
+        text = _INLINE_WS_RE.sub(" ", text).strip()
         if not text:
             return ""
         # If the only remaining text is a patent number / short token
@@ -90,12 +99,29 @@ def _strip_media_image_paragraphs(s: str) -> str:
 
 
 def _clean_text(raw: str) -> str:
+    """Strip XML tags, decode HTML entities, preserve paragraph breaks.
+
+    The earlier version of this function collapsed *all* whitespace
+    including paragraph boundaries which produced run-together prose
+    when a section had multiple paragraphs. This version inserts an
+    explicit ``\\n`` at each block-level closing tag boundary, then
+    only collapses inline whitespace (spaces / tabs).
+    """
     s = _strip_media_image_paragraphs(raw)
     s = _MEDIA_RE.sub(" ", s)
+    # Insert paragraph break before stripping the closing tag.
+    s = _BLOCK_BREAKS_RE.sub("\n", s)
     s = _TAG_RE.sub(" ", s)
+    s = html.unescape(s)
     s = s.replace(_EM_DASH, "-")
-    s = _WS_RE.sub(" ", s).strip()
-    return s
+    # Collapse inline whitespace runs but keep newlines.
+    lines = [
+        _INLINE_WS_RE.sub(" ", line).strip()
+        for line in s.split("\n")
+    ]
+    out = "\n".join(line for line in lines if line)
+    out = _BLANKS_RE.sub("\n\n", out)
+    return out.strip()
 
 
 def _section(raw_xml: str, regex: re.Pattern, header: str) -> str:
@@ -105,7 +131,7 @@ def _section(raw_xml: str, regex: re.Pattern, header: str) -> str:
     text = _clean_text(m.group(1))
     if not text:
         return ""
-    return f"**{header}** {text}"
+    return f"**{header}**\n{text}"
 
 
 def render_item(item_xml: str) -> str:

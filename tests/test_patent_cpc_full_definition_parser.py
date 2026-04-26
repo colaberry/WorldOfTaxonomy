@@ -127,3 +127,75 @@ def test_render_item_returns_empty_on_no_content():
     """)
     body = render_item(raw)
     assert body == ""
+
+
+def test_render_item_preserves_paragraph_breaks_in_definition():
+    """Multiple <paragraph-text> blocks within a section must remain
+    on separate lines so the rendered text is readable."""
+    raw = dedent("""\
+    <definition-item>
+    <classification-symbol scheme="cpc">X</classification-symbol>
+    <definition-title>TEST</definition-title>
+    <definition-statement>
+      <section-body>
+        <paragraph-text type="preamble">This place covers:</paragraph-text>
+        <paragraph-text>First paragraph.</paragraph-text>
+        <paragraph-text>Second paragraph.</paragraph-text>
+      </section-body>
+    </definition-statement>
+    </definition-item>
+    """)
+    body = render_item(raw)
+    # Both paragraphs present and separated by a newline.
+    assert "First paragraph." in body
+    assert "Second paragraph." in body
+    # Should NOT be a single run-on sentence.
+    assert "First paragraph. Second paragraph." not in body
+
+
+def test_render_item_decodes_html_entities():
+    """The source XML contains &quot;, &amp;, &lt; as HTML entities;
+    they must be decoded so the rendered description reads cleanly."""
+    raw = dedent("""\
+    <definition-item>
+    <classification-symbol scheme="cpc">X</classification-symbol>
+    <definition-title>TEST</definition-title>
+    <definition-statement>
+      <section-body>
+        <paragraph-text>The term &quot;diesel&quot; refers to fuel &amp; oil.</paragraph-text>
+      </section-body>
+    </definition-statement>
+    </definition-item>
+    """)
+    body = render_item(raw)
+    assert '"diesel"' in body
+    assert "&quot;" not in body
+    assert "fuel & oil" in body
+    assert "&amp;" not in body
+
+
+def test_render_item_separates_sections_with_blank_line():
+    """Definition + Limiting References + Glossary should each be on
+    their own block, separated by a blank line for legibility."""
+    raw = dedent("""\
+    <definition-item>
+    <classification-symbol scheme="cpc">X</classification-symbol>
+    <definition-title>TEST</definition-title>
+    <definition-statement>
+      <section-body>
+        <paragraph-text>Definition body.</paragraph-text>
+      </section-body>
+    </definition-statement>
+    <glossary-of-terms>
+      <section-body>
+        <paragraph-text>Glossary body.</paragraph-text>
+      </section-body>
+    </glossary-of-terms>
+    </definition-item>
+    """)
+    body = render_item(raw)
+    assert "**Definition:**" in body
+    assert "**Glossary:**" in body
+    # The two section headers must be separated by a blank line.
+    assert "**Definition:**\nDefinition body." in body
+    assert "**Glossary:**\nGlossary body." in body
