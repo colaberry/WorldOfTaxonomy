@@ -162,7 +162,16 @@ Of the ~545k empty rows that remain after this series, almost all sit in six sys
 | `hs_2022` | ~7k | WCO publishes HS titles only; explanatory notes are a paid product. |
 | `cpc_v21` | ~4.6k | Same story for UN CPC v2.1; the on-disk file is title-only. |
 
-Plus ~27k ICD-11 multi-child aggregates (chapters / blocks) that #71 could not single-child-cascade. Some of those will be picked up by the in-flight `feat/icd11-chapters-blocks` walk.
+Plus ~27k ICD-11 multi-child aggregates (chapters / blocks) that #71 could not single-child-cascade. PR #75 (chapter walk) populated 344 of those; the remaining 26,739 break down as:
+
+| Code shape | Count | Notes |
+|---|---:|---|
+| Letter-letter-digit (e.g. `1A06`) stem codes | 18,088 | Leaf-level diagnosis codes; WHO publishes only the title |
+| Postcoordination codes (e.g. `1A03.Y`) | 4,857 | Extension stems; MMS-specific |
+| Stem codes | 2,852 | Letter-prefixed codes |
+| BlockL3+ blocks | ~600 | Deep block containers below depth=3 walk |
+| BlockL1 / BlockL2 | 223 | Block aggregates |
+| CH (chapter) | 3 | Likely `CHX` / `CHV` extension chapters |
 
 ## What would unlock the remaining ~540k rows
 
