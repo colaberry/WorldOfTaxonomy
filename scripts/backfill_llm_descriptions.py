@@ -381,6 +381,14 @@ _ALLOWLIST: List[str] = [
     "wcag",
     "who_essential_med",
     "wos_categories",
+    # Canonical parents whose descriptions cascade to derivatives
+    # via mirror_descriptions.py:
+    #   - isic_rev4 (~165 empty) unlocks 122 ISIC-derived national systems
+    #   - nace_rev2 (~68 empty)  unlocks 41 NACE-derived national systems
+    #   - naics_2022 (~228 empty) is leaf-only; no derivatives but high-traffic
+    "isic_rev4",
+    "nace_rev2",
+    "naics_2022",
 ]
 
 
