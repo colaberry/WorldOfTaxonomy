@@ -47,7 +47,7 @@ from world_of_taxonomy.llm_client import chat_json
 
 
 _CACHE_DIR = Path("data/llm_verified")
-_CONCURRENCY = 4
+_DEFAULT_CONCURRENCY = 4
 
 
 def _project_root() -> Path:
@@ -289,7 +289,9 @@ async def _run_one_system(
     return (yes_count, no_count, uncertain_count)
 
 
-async def _run(*, systems: List[str], limit: int, dry_run: bool) -> int:
+async def _run(
+    *, systems: List[str], limit: int, dry_run: bool, concurrency: int,
+) -> int:
     root = _project_root()
     load_dotenv(root / ".env")
     database_url = os.environ.get("DATABASE_URL")
@@ -304,7 +306,7 @@ async def _run(*, systems: List[str], limit: int, dry_run: bool) -> int:
 
     cache_root = root / _CACHE_DIR
     cache_root.mkdir(parents=True, exist_ok=True)
-    sem = asyncio.Semaphore(_CONCURRENCY)
+    sem = asyncio.Semaphore(concurrency)
 
     conn = await asyncpg.connect(database_url, statement_cache_size=0)
     try:
@@ -338,9 +340,18 @@ def main() -> int:
     parser.add_argument("--systems", nargs="+", required=True)
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--concurrency", type=int, default=_DEFAULT_CONCURRENCY,
+        help=(
+            "Parallel LLM calls. Default 4. Bump to 12 for production runs "
+            "against systems with thousands of rows; verify Ollama Cloud "
+            "quota first."
+        ),
+    )
     args = parser.parse_args()
     return asyncio.run(_run(
         systems=args.systems, limit=args.limit, dry_run=args.dry_run,
+        concurrency=args.concurrency,
     ))
 
 
