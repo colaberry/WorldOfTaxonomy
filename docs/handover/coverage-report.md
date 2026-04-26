@@ -2,7 +2,7 @@
 
 Generated automatically. Total rows in DB: 1,212,486.
 
-**Aggregate**: 760,939 populated / 1,212,486 total = **62.76% coverage** across 1000 systems.
+**Aggregate**: 765,284 populated / 1,212,486 total = **63.12% coverage** across 1000 systems.
 
 | system_id | name | total | populated | empty | coverage |
 |---|---|---:|---:|---:|---:|
@@ -75,7 +75,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | container_iso | ISO Container Type Group Codes (ISO 6346) | 14 | 0 | 14 | 0.0% |
 | contract_types | Common Commercial Contract Type Categories | 16 | 0 | 16 | 0.0% |
 | corporate_action | Corporate Action Event Types (ISO 15022) | 19 | 0 | 19 | 0.0% |
-| cpc_v21 | Central Product Classification Version 2.1 | 4,596 | 2,633 | 1,963 | 57.3% |
+| cpc_v21 | Central Product Classification Version 2.1 | 4,596 | 4,596 | 0 | 100.0% |
 | cpt_ama | CPT (AMA Skeleton) | 18 | 0 | 18 | 0.0% |
 | cpv_2008 | EU Common Procurement Vocabulary 2008 | 96 | 96 | 0 | 100.0% |
 | csic_2017 | Chinese Standard Industrial Classification (GB/T 4754-2017) | 20 | 0 | 20 | 0.0% |
@@ -581,7 +581,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | icd10_ca | ICD-10-CA (Canada) | 23 | 0 | 23 | 0.0% |
 | icd10cm | International Classification of Diseases 10th Revision Clini | 97,606 | 10,050 | 87,556 | 10.3% |
 | icd10_gm | ICD-10 German Modification (Internationale statistische Klas | 51 | 0 | 51 | 0.0% |
-| icd10_pcs | ICD-10 Procedure Coding System (US) | 79,987 | 77,744 | 2,243 | 97.2% |
+| icd10_pcs | ICD-10 Procedure Coding System (US) | 79,987 | 79,987 | 0 | 100.0% |
 | icd_11 | International Classification of Diseases 11th Revision - Mor | 37,052 | 10,313 | 26,739 | 27.8% |
 | icdo3 | International Classification of Diseases for Oncology, Third | 115 | 0 | 115 | 0.0% |
 | icf | International Classification of Functioning, Disability and  | 34 | 34 | 0 | 100.0% |
@@ -728,7 +728,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | kd_me | Klasifikacija Djelatnosti 2010 (Montenegrin NACE Rev 2) | 996 | 928 | 68 | 93.2% |
 | kd_rs | Klasifikacija Delatnosti 2010 (Serbian NACE Rev 2) | 996 | 928 | 68 | 93.2% |
 | kd_xk | Klasifikimi i Aktiviteteve Ekonomike 2010 (Kosovo NACE Rev 2 | 996 | 928 | 68 | 93.2% |
-| kldb_2010 | Klassifikation der Berufe 2010 (German Classification of Occ | 54 | 0 | 54 | 0.0% |
+| kldb_2010 | Klassifikation der Berufe 2010 (German Classification of Occ | 54 | 54 | 0 | 100.0% |
 | koppen_climate | Koppen-Geiger Climate Classification | 17 | 0 | 17 | 0.0% |
 | ksic_2017 | Korean Standard Industry Classification (10th revision, 2017 | 108 | 107 | 1 | 99.1% |
 | kved_ua | Klasyfikatsiya Vydiv Ekonomichnoyi Diyalnosti 2010 (Ukrainia | 996 | 928 | 68 | 93.2% |
@@ -939,7 +939,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | rotterdam_pic | Rotterdam Convention PIC | 17 | 0 | 17 | 0.0% |
 | rxnorm | RxNorm (Skeleton) | 16 | 0 | 16 | 0.0% |
 | saffir_simpson | Saffir-Simpson Hurricane Wind Scale | 12 | 12 | 0 | 100.0% |
-| sasb_sics | SASB Sustainable Industry Classification System | 86 | 0 | 86 | 0.0% |
+| sasb_sics | SASB Sustainable Industry Classification System | 86 | 85 | 1 | 98.8% |
 | sbi_2008 | Standaard Bedrijfsindeling 2008 (Dutch Standard Industrial C | 996 | 928 | 68 | 93.2% |
 | sbti | Science Based Targets Initiative Categories | 14 | 0 | 14 | 0.0% |
 | schedule_b | Schedule B - Statistical Classification of Domestic and Fore | 119 | 119 | 0 | 100.0% |
