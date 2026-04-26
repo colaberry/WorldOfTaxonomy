@@ -389,6 +389,8 @@ _ALLOWLIST: List[str] = [
     "isic_rev4",
     "nace_rev2",
     "naics_2022",
+    # WHO ICD-O-3 morphology category skeleton (115 codes, all empty)
+    "icdo3",
 ]
 
 
