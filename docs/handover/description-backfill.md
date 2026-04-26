@@ -8,12 +8,13 @@ The structural ingester for each classification system populates `code`, `title`
 
 ## Headline numbers
 
-- **28 PRs landed** (PR #50 - PR #77, plus this doc).
-- **~24,000 net new rows of description content** populated on a 1.21M-row DB (~21k from PR #55-#75, plus 34 from CPC FullDef PR #76 plus the in-progress UNSPSC verified-synthesis pilot).
+- **29 PRs landed** (PR #50 - PR #78, plus this doc).
+- **~28,000 net new rows of description content** populated on a 1.21M-row DB (~21k from PR #55-#75, plus 34 from CPC FullDef PR #76, plus 59 CPC upgrade rows from PR #78, plus ~5K from the UNSPSC verified-synthesis pilot in PR #77).
 - DB coverage went from **~50%** at the start of the series to **~55.5%+** at the end.
 - **0 em-dashes** (`U+2014`) in any added content - every PR runs `scripts/check_no_em_dash.sh` and every parser normalises unicode dashes / spaces / quotes to ASCII.
 - **0 NUL bytes, 0 mojibake, 0 refusal-phrase leaks** across all 2,413 LLM-generated rows from PR #67 (rounds 1 + 2).
-- **97.8% verifier yes-rate** across 2,854 cached UNSPSC codes from the Track 2 verified-synthesis pipeline (PR #77, in flight at 5K-row pilot).
+- **98.0% verifier yes-rate** across the 5K-row UNSPSC pilot from PR #77 (Track 2 verified-synthesis pipeline).
+- **Cross-system audit cleanup**: 357 pre-existing data quality issues fixed across 4 categories - 16 em-dashes, 21 HTML entities, 290 U+FFFD replacement chars in `ndc_fda`, 30 double-encoded UTF-8 in `anzsco_2022`. Post-fix: 0 em-dashes, 0 entities, 0 mojibake across all 672K populated rows.
 
 ## PRs by category
 
@@ -80,8 +81,9 @@ PRs that map one classification's descriptions onto another via an authoritative
 | PR | Pipeline | Rows | Audit |
 |----|----------|------|-------|
 | #67 | gpt-oss:120b on a curated allowlist of 88 small reference taxonomies (rounds 1 + 2) | 2,413 | 0 em-dashes, 0 mojibake, 0 NUL bytes, 0 refusal-phrase leaks, 0 length outliers |
-| #76 | Patent CPC FullDefinitionXML zip (24K XML files) | 34 (NULL-only); parser found 40,096 items but 40,062 already had shorter descriptions | structured prose only, no LLM |
-| #77 | Track 2 verified-synthesis pipeline (generator + verifier on UNSPSC) | ~2,790 verified (5K pilot in flight) | 97.8% yes-rate; only `yes` verdicts apply |
+| #76 | Patent CPC FullDefinitionXML zip (24K XML files) - NULL-only | 34 | structured prose only, no LLM |
+| #77 | Track 2 verified-synthesis pipeline (generator + verifier on UNSPSC) | ~5,000 from 5K pilot (98.0% yes-rate) | only `yes` verdicts apply; pre-flight CPC subgroup walk validated |
+| #78 | Patent CPC FullDef "upgrade-on-richness" (overwrites populated rows when new content is significantly richer with new structured sections) | 59 | first overwrite-existing PR in the series; gated behind `--apply` |
 
 ## Cascade graph
 
