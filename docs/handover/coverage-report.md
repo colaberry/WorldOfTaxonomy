@@ -2,27 +2,26 @@
 
 Generated automatically. Total rows in DB: 1,212,486.
 
-
-**Aggregate**: 677,388 populated / 1,212,486 total = **55.87% coverage** across 1000 systems.
+**Aggregate**: 758,861 populated / 1,212,486 total = **62.59% coverage** across 1000 systems.
 
 | system_id | name | total | populated | empty | coverage |
 |---|---|---:|---:|---:|---:|
 | 3gpp_specs | 3GPP Technical Specification Series | 18 | 0 | 18 | 0.0% |
 | aacsb | AACSB Business School Accreditation Standards | 14 | 0 | 14 | 0.0% |
 | abet | ABET Engineering Accreditation Criteria | 14 | 0 | 14 | 0.0% |
-| acm_ccs | ACM Computing Classification System 2012 | 67 | 0 | 67 | 0.0% |
+| acm_ccs | ACM Computing Classification System 2012 | 67 | 67 | 0 | 100.0% |
 | adb_sector | Asian Development Bank Sector and Subsector Classification | 46 | 46 | 0 | 100.0% |
 | afcfta_tariff | African Continental Free Trade Area Tariff | 15 | 0 | 15 | 0.0% |
 | ai_model_type | Machine Learning Model Type Categories | 17 | 0 | 17 | 0.0% |
 | allergen_list | EU 14 Major Food Allergens | 15 | 0 | 15 | 0.0% |
 | anzsco_2022 | Australian and New Zealand Standard Classification of Occupa | 1,590 | 1,590 | 0 | 100.0% |
 | anzsic_2006 | Australian and New Zealand Standard Industrial Classificatio | 825 | 633 | 192 | 76.7% |
-| anzsrc_for_2020 | Australian and New Zealand Standard Research Classification  | 166 | 0 | 166 | 0.0% |
+| anzsrc_for_2020 | Australian and New Zealand Standard Research Classification  | 166 | 166 | 0 | 100.0% |
 | anzsrc_seo | ANZSRC Socio-Economic Objective Classification | 17 | 0 | 17 | 0.0% |
 | apgar_score | APGAR Newborn Assessment Score | 12 | 12 | 0 | 100.0% |
 | aqf | Australian Qualifications Framework | 14 | 14 | 0 | 100.0% |
 | archimate | ArchiMate Enterprise Architecture Modeling Language | 14 | 14 | 0 | 100.0% |
-| arxiv_taxonomy | arXiv Subject Classification Taxonomy | 165 | 0 | 165 | 0.0% |
+| arxiv_taxonomy | arXiv Subject Classification Taxonomy | 165 | 165 | 0 | 100.0% |
 | asa_physical | ASA Physical Status Classification System | 11 | 11 | 0 | 100.0% |
 | asean_tariff | ASEAN Harmonised Tariff Nomenclature | 19 | 0 | 19 | 0.0% |
 | atc_who | Anatomical Therapeutic Chemical Classification System (WHO 2 | 6,440 | 2,215 | 4,225 | 34.4% |
@@ -76,7 +75,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | container_iso | ISO Container Type Group Codes (ISO 6346) | 14 | 0 | 14 | 0.0% |
 | contract_types | Common Commercial Contract Type Categories | 16 | 0 | 16 | 0.0% |
 | corporate_action | Corporate Action Event Types (ISO 15022) | 19 | 0 | 19 | 0.0% |
-| cpc_v21 | Central Product Classification Version 2.1 | 4,596 | 0 | 4,596 | 0.0% |
+| cpc_v21 | Central Product Classification Version 2.1 | 4,596 | 2,633 | 1,963 | 57.3% |
 | cpt_ama | CPT (AMA Skeleton) | 18 | 0 | 18 | 0.0% |
 | cpv_2008 | EU Common Procurement Vocabulary 2008 | 96 | 0 | 96 | 0.0% |
 | csic_2017 | Chinese Standard Industrial Classification (GB/T 4754-2017) | 20 | 0 | 20 | 0.0% |
@@ -582,7 +581,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | icd10_ca | ICD-10-CA (Canada) | 23 | 0 | 23 | 0.0% |
 | icd10cm | International Classification of Diseases 10th Revision Clini | 97,606 | 10,050 | 87,556 | 10.3% |
 | icd10_gm | ICD-10 German Modification (Internationale statistische Klas | 51 | 0 | 51 | 0.0% |
-| icd10_pcs | ICD-10 Procedure Coding System (US) | 79,987 | 0 | 79,987 | 0.0% |
+| icd10_pcs | ICD-10 Procedure Coding System (US) | 79,987 | 77,744 | 2,243 | 97.2% |
 | icd_11 | International Classification of Diseases 11th Revision - Mor | 37,052 | 10,313 | 26,739 | 27.8% |
 | icdo3 | International Classification of Diseases for Oncology, Third | 115 | 0 | 115 | 0.0% |
 | icf | International Classification of Functioning, Disability and  | 34 | 34 | 0 | 100.0% |
@@ -720,7 +719,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | itu_t | ITU-T Telecommunication Standards | 19 | 0 | 19 | 0.0% |
 | iucn_red_list | IUCN Red List Categories | 15 | 0 | 15 | 0.0% |
 | jedec | JEDEC Semiconductor Standards | 14 | 0 | 14 | 0.0% |
-| jel | Journal of Economic Literature Classification System | 98 | 0 | 98 | 0.0% |
+| jel | Journal of Economic Literature Classification System | 98 | 98 | 0 | 100.0% |
 | job_family | Generic Job Family Classification | 19 | 0 | 19 | 0.0% |
 | jsic_2013 | Japan Standard Industrial Classification (Rev 13) | 20 | 0 | 20 | 0.0% |
 | kbli_2020 | Klasifikasi Baku Lapangan Usaha Indonesia 2020 | 21 | 0 | 21 | 0.0% |
@@ -802,7 +801,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | pacs | Physics and Astronomy Classification System (PACS 2010) | 70 | 70 | 0 | 100.0% |
 | pain_scale | Numeric Pain Rating Scale Categories | 12 | 12 | 0 | 100.0% |
 | pantone_families | Pantone Color System Families | 12 | 12 | 0 | 100.0% |
-| patent_cpc | Cooperative Patent Classification - EPO/USPTO | 254,249 | 42,520 | 211,729 | 16.7% |
+| patent_cpc | Cooperative Patent Classification - EPO/USPTO | 254,249 | 43,010 | 211,239 | 16.9% |
 | pci_sig | PCI-SIG Specification Categories | 14 | 0 | 14 | 0.0% |
 | periodic_table | Periodic Table Element Groups | 18 | 18 | 0 | 100.0% |
 | pkd_2007 | Polska Klasyfikacja Dzialalnosci 2007 | 996 | 928 | 68 | 93.2% |
@@ -840,7 +839,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | reg_dma | Digital Markets Act (EU) 2022/1925 | 19 | 0 | 19 | 0.0% |
 | reg_dora | Digital Operational Resilience Act (EU) 2022/2554 | 27 | 0 | 27 | 0.0% |
 | reg_dsa | Digital Services Act (EU) 2022/2065 | 21 | 0 | 21 | 0.0% |
-| reg_ear | Export Administration Regulations (15 CFR Parts 730-774) | 31 | 30 | 1 | 96.8% |
+| reg_ear | Export Administration Regulations (15 CFR Parts 730-774) | 31 | 31 | 0 | 100.0% |
 | reg_emas | EU Eco-Management and Audit Scheme (EC) No 1221/2009 | 25 | 0 | 25 | 0.0% |
 | reg_eprivacy | Directive 2002/58/EC concerning the processing of personal d | 15 | 0 | 15 | 0.0% |
 | reg_equator | Equator Principles (EP4) - Financial Industry Framework for  | 18 | 0 | 18 | 0.0% |
@@ -854,7 +853,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | reg_eu_whistleblower | Directive (EU) 2019/1937 on the protection of persons who re | 17 | 0 | 17 | 0.0% |
 | reg_far | Federal Acquisition Regulation (48 CFR Chapter 1) | 32 | 32 | 0 | 100.0% |
 | reg_fasb | Financial Accounting Standards Board - Accounting Standards  | 19 | 0 | 19 | 0.0% |
-| reg_fatf | FATF International Standards on Combating Money Laundering a | 29 | 28 | 1 | 96.6% |
+| reg_fatf | FATF International Standards on Combating Money Laundering a | 29 | 29 | 0 | 100.0% |
 | reg_fcra | Fair Credit Reporting Act (15 USC 1681 et seq.) | 27 | 0 | 27 | 0.0% |
 | reg_fda_21cfr | FDA Regulations - Title 21 Code of Federal Regulations Key P | 28 | 0 | 28 | 0.0% |
 | reg_fedramp | Federal Risk and Authorization Management Program | 40 | 40 | 0 | 100.0% |
@@ -890,7 +889,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | reg_iso_39001 | ISO 39001:2012 Road Traffic Safety Management Systems - Requ | 24 | 0 | 24 | 0.0% |
 | reg_iso_41001 | ISO 41001:2018 Facility Management - Management Systems - Re | 23 | 0 | 23 | 0.0% |
 | reg_iso_42001 | ISO/IEC 42001:2023 Artificial Intelligence Management System | 32 | 32 | 0 | 100.0% |
-| reg_iso_45001 | ISO 45001:2018 Occupational Health and Safety Management Sys | 30 | 29 | 1 | 96.7% |
+| reg_iso_45001 | ISO 45001:2018 Occupational Health and Safety Management Sys | 30 | 30 | 0 | 100.0% |
 | reg_iso_50001 | ISO 50001:2018 Energy Management Systems - Requirements | 26 | 0 | 26 | 0.0% |
 | reg_iso_55001 | ISO 55001:2014 Asset Management - Management Systems - Requi | 25 | 0 | 25 | 0.0% |
 | reg_iso_9001 | ISO 9001:2015 Quality Management Systems - Requirements | 35 | 35 | 0 | 100.0% |
@@ -945,9 +944,9 @@ Generated automatically. Total rows in DB: 1,212,486.
 | sbti | Science Based Targets Initiative Categories | 14 | 0 | 14 | 0.0% |
 | schedule_b | Schedule B - Statistical Classification of Domestic and Fore | 119 | 119 | 0 | 100.0% |
 | scian_2018 | Sistema de Clasificacion Industrial de America del Norte 201 | 23 | 0 | 23 | 0.0% |
-| scopus_asjc | Scopus ASJC (Subject Classification) | 28 | 0 | 28 | 0.0% |
+| scopus_asjc | Scopus ASJC (Subject Classification) | 28 | 28 | 0 | 100.0% |
 | scor_model | Supply Chain Operations Reference Model | 17 | 0 | 17 | 0.0% |
-| sdg | UN Sustainable Development Goals 2030 Agenda | 82 | 0 | 82 | 0.0% |
+| sdg | UN Sustainable Development Goals 2030 Agenda | 82 | 82 | 0 | 100.0% |
 | seea | System of Environmental-Economic Accounting (SEEA) - UN Stat | 47 | 47 | 0 | 100.0% |
 | semi_standards | SEMI Semiconductor Equipment Standards | 14 | 0 | 14 | 0.0% |
 | sfdr | EU Sustainable Finance Disclosure Regulation (EU 2019/2088) | 30 | 30 | 0 | 100.0% |
@@ -989,7 +988,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | unesco_thesaurus | UNESCO Thesaurus (Skeleton) | 15 | 0 | 15 | 0.0% |
 | un_m49 | UN M.49 Standard Country or Area Codes for Statistical Use | 279 | 279 | 0 | 100.0% |
 | un_sdg_indicators | UN SDG Global Indicator Framework | 20 | 0 | 20 | 0.0% |
-| unspsc_v24 | United Nations Standard Products and Services Code v24 | 77,337 | 5,417 | 71,920 | 7.0% |
+| unspsc_v24 | United Nations Standard Products and Services Code v24 | 77,337 | 5,414 | 71,923 | 7.0% |
 | usb_classes | USB Device Classes | 23 | 0 | 23 | 0.0% |
 | usc_titles | United States Code Title Index | 23 | 0 | 23 | 0.0% |
 | usda_soil | USDA Soil Taxonomy Orders | 13 | 0 | 13 | 0.0% |
