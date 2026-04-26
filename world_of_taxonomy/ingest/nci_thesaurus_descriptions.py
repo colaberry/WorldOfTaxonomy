@@ -25,7 +25,7 @@ from pathlib import Path
 from typing import Dict, Iterable
 
 
-_EM_DASH = "—"
+_EM_DASH = "\u2014"
 
 
 def parse_nci_thesaurus_descriptions(path: Path) -> Dict[str, str]:
