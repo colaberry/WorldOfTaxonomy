@@ -8,11 +8,12 @@ The structural ingester for each classification system populates `code`, `title`
 
 ## Headline numbers
 
-- **26 PRs landed** (PR #50 - PR #75, plus this doc).
-- **~21,000 net new rows of description content** populated on a 1.21M-row DB.
-- DB coverage went from **~50%** at the start of the series to **~55.42%** at the end.
+- **28 PRs landed** (PR #50 - PR #77, plus this doc).
+- **~24,000 net new rows of description content** populated on a 1.21M-row DB (~21k from PR #55-#75, plus 34 from CPC FullDef PR #76 plus the in-progress UNSPSC verified-synthesis pilot).
+- DB coverage went from **~50%** at the start of the series to **~55.5%+** at the end.
 - **0 em-dashes** (`U+2014`) in any added content - every PR runs `scripts/check_no_em_dash.sh` and every parser normalises unicode dashes / spaces / quotes to ASCII.
-- **0 NUL bytes, 0 mojibake, 0 refusal-phrase leaks** across all 2,413 LLM-generated rows.
+- **0 NUL bytes, 0 mojibake, 0 refusal-phrase leaks** across all 2,413 LLM-generated rows from PR #67 (rounds 1 + 2).
+- **97.8% verifier yes-rate** across 2,854 cached UNSPSC codes from the Track 2 verified-synthesis pipeline (PR #77, in flight at 5K-row pilot).
 
 ## PRs by category
 
@@ -78,7 +79,9 @@ PRs that map one classification's descriptions onto another via an authoritative
 
 | PR | Pipeline | Rows | Audit |
 |----|----------|------|-------|
-| #67 | gpt-oss:120b on a curated allowlist of small reference taxonomies | 910 (round 1) + ~1500 (round 2 in progress at writing) | 0 em-dashes, 0 mojibake, 0 refusal-phrase leaks, 0 length outliers |
+| #67 | gpt-oss:120b on a curated allowlist of 88 small reference taxonomies (rounds 1 + 2) | 2,413 | 0 em-dashes, 0 mojibake, 0 NUL bytes, 0 refusal-phrase leaks, 0 length outliers |
+| #76 | Patent CPC FullDefinitionXML zip (24K XML files) | 34 (NULL-only); parser found 40,096 items but 40,062 already had shorter descriptions | structured prose only, no LLM |
+| #77 | Track 2 verified-synthesis pipeline (generator + verifier on UNSPSC) | ~2,790 verified (5K pilot in flight) | 97.8% yes-rate; only `yes` verdicts apply |
 
 ## Cascade graph
 
@@ -140,6 +143,8 @@ world_of_taxonomy/ingest/
   isic_mirror_cascade.py        # PR #70
   parent_code_cascade.py        # PR #71
   patent_cpc_scheme.py          # PR #73 (regex-based, item-chunked to avoid catastrophic backtracking)
+  patent_cpc_full_definition.py # PR #76 (FullCPCDefinitionXML zip, 24K files)
+  llm_verifier.py               # PR #77 (Track 2 generator+verifier verdict prompt)
 ```
 
 ## Still-empty rows and why
@@ -157,18 +162,21 @@ Of the ~545k empty rows that remain after this series, almost all sit in six sys
 
 Plus ~27k ICD-11 multi-child aggregates (chapters / blocks) that #71 could not single-child-cascade. Some of those will be picked up by the in-flight `feat/icd11-chapters-blocks` walk.
 
-## What would unlock the remaining 545k rows
+## What would unlock the remaining ~540k rows
 
-- **A verified-LLM-synthesis pipeline** (generator + verifier + spot-check sampler). gpt-oss:120b plus a verifier model that compares synthesised text against the title would let us tackle Patent CPC subgroups, ICD-10-PCS, UNSPSC at scale. Hallucination is the principal risk.
+- **Verified-LLM-synthesis at scale** (PR #77 ships the pipeline; UNSPSC pilot at 5K rows shows 97.8% verifier yes-rate). The 77K UNSPSC system is the natural first target; ICD-10-PCS (80K) and HS 2022 (7K) are deferred until a regulated-data review approves synthesis on billing / customs codes. Hallucination is the principal risk that the verifier mitigates.
+- **CPC FullDefinition upgrade-on-richness pass**: PR #76's parser found 40K Definition / Limiting References / Glossary blocks but only 34 landed because most CPC codes already have shorter descriptions. An overwrite-when-richer pass would push thousands of richer descriptions in.
 - **Paid datasets**: WCO HS Explanatory Notes, AMA CPT licensing, GS1 UNSPSC content licence. None of these are free.
+- **NCI Thesaurus retired-concept rows (357)**: investigated; all are `Retired_Concept` status with no API definitions. Best treatment is a `Retired NCI concept` placeholder or leaving NULL.
 - **More targeted scraping**: BLS SOC 2018 manual is a PDF; the existing scraper would need a PDF parser to pick up the remaining 305 SOC group / minor / major descriptions.
 
 ## Ops notes
 
 - All caches live under `data/` (gitignored). Re-runs are idempotent because they read the cache first and skip already-generated rows.
 - LLM cache: `data/llm_descriptions/<system_id>.jsonl`.
+- LLM verifier cache: `data/llm_verified/<system_id>.jsonl` (records `{code, candidate, verdict}` so re-runs skip already-verified rows).
 - NACE RDF cache: `data/nace/rdf/<code>.xml`.
-- ICD-11 API cache: `data/.icd11_api_cache.jsonl` (chapters cache: TBD by the in-flight walk).
+- ICD-11 API cache: `data/.icd11_api_cache.jsonl`.
 - SIC OSHA HTML cache: `data/sic/pages/<code>.html`.
 
 ## Verification
