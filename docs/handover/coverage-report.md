@@ -2,7 +2,7 @@
 
 Generated automatically. Total rows in DB: 1,212,486.
 
-**Aggregate**: 758,861 populated / 1,212,486 total = **62.59% coverage** across 1000 systems.
+**Aggregate**: 760,939 populated / 1,212,486 total = **62.76% coverage** across 1000 systems.
 
 | system_id | name | total | populated | empty | coverage |
 |---|---|---:|---:|---:|---:|
@@ -15,7 +15,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | ai_model_type | Machine Learning Model Type Categories | 17 | 0 | 17 | 0.0% |
 | allergen_list | EU 14 Major Food Allergens | 15 | 0 | 15 | 0.0% |
 | anzsco_2022 | Australian and New Zealand Standard Classification of Occupa | 1,590 | 1,590 | 0 | 100.0% |
-| anzsic_2006 | Australian and New Zealand Standard Industrial Classificatio | 825 | 633 | 192 | 76.7% |
+| anzsic_2006 | Australian and New Zealand Standard Industrial Classificatio | 825 | 825 | 0 | 100.0% |
 | anzsrc_for_2020 | Australian and New Zealand Standard Research Classification  | 166 | 166 | 0 | 100.0% |
 | anzsrc_seo | ANZSRC Socio-Economic Objective Classification | 17 | 0 | 17 | 0.0% |
 | apgar_score | APGAR Newborn Assessment Score | 12 | 12 | 0 | 100.0% |
@@ -66,18 +66,18 @@ Generated automatically. Total rows in DB: 1,212,486.
 | cites | CITES Appendices | 16 | 0 | 16 | 0.0% |
 | cloud_native | CNCF Cloud Native Landscape Categories | 15 | 0 | 15 | 0.0% |
 | cms_star | CMS Medicare Star Rating System | 13 | 13 | 0 | 100.0% |
-| cn_2024 | EU Combined Nomenclature 2024 | 118 | 0 | 118 | 0.0% |
+| cn_2024 | EU Combined Nomenclature 2024 | 118 | 117 | 1 | 99.2% |
 | cnae_2009 | Clasificacion Nacional de Actividades Economicas 2009 | 996 | 928 | 68 | 93.2% |
 | cnae_2012 | Classificacao Nacional de Atividades Economicas 2.0 | 21 | 0 | 21 | 0.0% |
 | codex_committees | Codex Alimentarius Committee Structure | 19 | 0 | 19 | 0.0% |
 | cofog | Classification of the Functions of Government | 188 | 131 | 57 | 69.7% |
-| coicop | Classification of Individual Consumption According to Purpos | 62 | 0 | 62 | 0.0% |
+| coicop | Classification of Individual Consumption According to Purpos | 62 | 62 | 0 | 100.0% |
 | container_iso | ISO Container Type Group Codes (ISO 6346) | 14 | 0 | 14 | 0.0% |
 | contract_types | Common Commercial Contract Type Categories | 16 | 0 | 16 | 0.0% |
 | corporate_action | Corporate Action Event Types (ISO 15022) | 19 | 0 | 19 | 0.0% |
 | cpc_v21 | Central Product Classification Version 2.1 | 4,596 | 2,633 | 1,963 | 57.3% |
 | cpt_ama | CPT (AMA Skeleton) | 18 | 0 | 18 | 0.0% |
-| cpv_2008 | EU Common Procurement Vocabulary 2008 | 96 | 0 | 96 | 0.0% |
+| cpv_2008 | EU Common Procurement Vocabulary 2008 | 96 | 96 | 0 | 100.0% |
 | csic_2017 | Chinese Standard Industrial Classification (GB/T 4754-2017) | 20 | 0 | 20 | 0.0% |
 | ctcae | CTCAE (Adverse Events) | 27 | 0 | 27 | 0.0% |
 | cve_types | CVE Vulnerability Type Categories (CWE Top) | 16 | 0 | 16 | 0.0% |
@@ -537,9 +537,9 @@ Generated automatically. Total rows in DB: 1,212,486.
 | esco_occupations | European Skills, Competences, Qualifications and Occupations | 3,045 | 3,045 | 0 | 100.0% |
 | esco_qualifications | ESCO Qualifications Framework | 15 | 15 | 0 | 100.0% |
 | esco_skills | European Skills, Competences, Qualifications and Occupations | 14,247 | 14,247 | 0 | 100.0% |
-| eu_nuts_2021 | Nomenclature of Territorial Units for Statistics 2021 (Euros | 124 | 0 | 124 | 0.0% |
+| eu_nuts_2021 | Nomenclature of Territorial Units for Statistics 2021 (Euros | 124 | 123 | 1 | 99.2% |
 | eu_taric | EU Integrated Tariff (TARIC) | 22 | 0 | 22 | 0.0% |
-| eu_taxonomy | EU Taxonomy for Sustainable Finance (Regulation EU 2020/852) | 60 | 0 | 60 | 0.0% |
+| eu_taxonomy | EU Taxonomy for Sustainable Finance (Regulation EU 2020/852) | 60 | 60 | 0 | 100.0% |
 | eu_waste_cat | European Waste Catalogue | 21 | 0 | 21 | 0.0% |
 | faa_aircraft_cat | FAA Aircraft Category and Class | 16 | 0 | 16 | 0.0% |
 | fao_aquastat | FAO AQUASTAT Water Use Categories | 14 | 0 | 14 | 0.0% |
@@ -551,7 +551,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | ftse_icb_detail | FTSE Russell Industry Classification Benchmark (Detailed) | 12 | 12 | 0 | 100.0% |
 | fujita_tornado | Enhanced Fujita Tornado Damage Scale | 10 | 10 | 0 | 100.0% |
 | gbd_cause | GBD Cause List | 23 | 0 | 23 | 0.0% |
-| gbt_4754 | National Standard of the People's Republic of China - Indust | 118 | 0 | 118 | 0.0% |
+| gbt_4754 | National Standard of the People's Republic of China - Indust | 118 | 117 | 1 | 99.2% |
 | gcc_tariff | GCC Common Customs Tariff | 17 | 0 | 17 | 0.0% |
 | gdpr_articles | General Data Protection Regulation (EU) 2016/679 - Article T | 110 | 0 | 110 | 0.0% |
 | gdpr_basis | GDPR Lawful Basis for Processing | 16 | 0 | 16 | 0.0% |
@@ -569,7 +569,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | hcpcs_l3 | HCPCS Level III Local Codes (Skeleton) | 13 | 0 | 13 | 0.0% |
 | hedis | HEDIS Healthcare Quality Measures | 15 | 0 | 15 | 0.0% |
 | hs_2022 | Harmonized Commodity Description and Coding System | 6,961 | 0 | 6,961 | 0.0% |
-| hts_us | Harmonized Tariff Schedule of the United States | 120 | 0 | 120 | 0.0% |
+| hts_us | Harmonized Tariff Schedule of the United States | 120 | 120 | 0 | 100.0% |
 | http_status | HTTP Response Status Code Categories | 17 | 17 | 0 | 100.0% |
 | iab_content | IAB Tech Lab Content Taxonomy | 21 | 21 | 0 | 100.0% |
 | iata_aircraft | IATA Aircraft Type Codes | 14 | 0 | 14 | 0.0% |
@@ -730,7 +730,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | kd_xk | Klasifikimi i Aktiviteteve Ekonomike 2010 (Kosovo NACE Rev 2 | 996 | 928 | 68 | 93.2% |
 | kldb_2010 | Klassifikation der Berufe 2010 (German Classification of Occ | 54 | 0 | 54 | 0.0% |
 | koppen_climate | Koppen-Geiger Climate Classification | 17 | 0 | 17 | 0.0% |
-| ksic_2017 | Korean Standard Industry Classification (10th revision, 2017 | 108 | 0 | 108 | 0.0% |
+| ksic_2017 | Korean Standard Industry Classification (10th revision, 2017 | 108 | 107 | 1 | 99.1% |
 | kved_ua | Klasyfikatsiya Vydiv Ekonomichnoyi Diyalnosti 2010 (Ukrainia | 996 | 928 | 68 | 93.2% |
 | lcc | Library of Congress Classification | 111 | 111 | 0 | 100.0% |
 | lcsh | Library of Congress Subject Headings (Skeleton) | 20 | 0 | 20 | 0.0% |
@@ -765,8 +765,8 @@ Generated automatically. Total rows in DB: 1,212,486.
 | naics_2022 | North American Industry Classification System 2022 | 2,125 | 2,111 | 14 | 99.3% |
 | nanda_nursing_dx | NANDA International Nursing Diagnosis Categories | 14 | 0 | 14 | 0.0% |
 | nato_codification | NATO Codification System (Skeleton) | 19 | 0 | 19 | 0.0% |
-| nci_thesaurus | NCI Thesaurus (NCI/NIH) | 211,072 | 210,715 | 357 | 99.8% |
-| ndc_fda | National Drug Code Directory (FDA) | 112,077 | 111,843 | 234 | 99.8% |
+| nci_thesaurus | NCI Thesaurus (NCI/NIH) | 211,072 | 211,072 | 0 | 100.0% |
+| ndc_fda | National Drug Code Directory (FDA) | 112,077 | 112,077 | 0 | 100.0% |
 | nfpa_codes | NFPA Fire Protection Code Categories | 17 | 17 | 0 | 100.0% |
 | ngss | Next Generation Science Standards | 14 | 0 | 14 | 0.0% |
 | nic_2008 | National Industrial Classification 2008 | 2,070 | 724 | 1,346 | 35.0% |
@@ -782,7 +782,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | nucc_hcpt | NUCC Health Care Provider Taxonomy | 94 | 0 | 94 | 0.0% |
 | nuts_candidate | EU NUTS Candidate Country Extensions | 11 | 0 | 11 | 0.0% |
 | nve_al | Nomenklatura e Veprimtarive Ekonomike Rev 2 (Albanian NACE) | 996 | 928 | 68 | 93.2% |
-| oecd_dac | OECD DAC Sector Purpose Codes (CRS) | 62 | 0 | 62 | 0.0% |
+| oecd_dac | OECD DAC Sector Purpose Codes (CRS) | 62 | 62 | 0 | 100.0% |
 | okved_2 | All-Russian Classifier of Economic Activities, Edition 2 (OK | 21 | 0 | 21 | 0.0% |
 | olympic_sports | IOC Olympic Sport Categories | 16 | 16 | 0 | 100.0% |
 | omim | Online Mendelian Inheritance in Man (Skeleton) | 14 | 0 | 14 | 0.0% |
@@ -954,7 +954,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | shrm_competency | SHRM Body of Applied Skills and Knowledge | 16 | 0 | 16 | 0.0% |
 | sic_1987 | Standard Industrial Classification 1987 | 1,176 | 1,012 | 164 | 86.1% |
 | sic_sa | Standard Industrial Classification of all Economic Activitie | 21 | 0 | 21 | 0.0% |
-| sitc_rev4 | Standard International Trade Classification, Revision 4 | 77 | 0 | 77 | 0.0% |
+| sitc_rev4 | Standard International Trade Classification, Revision 4 | 77 | 77 | 0 | 100.0% |
 | si_units | International System of Units (SI) | 19 | 0 | 19 | 0.0% |
 | six_sigma | Six Sigma DMAIC/DMADV Methodology | 16 | 16 | 0 | 100.0% |
 | skd_2008 | Standardna Klasifikacija Dejavnosti 2008 (Slovenian NACE) | 996 | 928 | 68 | 93.2% |
@@ -964,7 +964,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | sn_2007 | Standard for Norsk Naeringsgruppering 2007 (Norwegian NACE) | 996 | 928 | 68 | 93.2% |
 | sni_2007 | Standard for Svensk Naringsgrensindelning 2007 | 996 | 928 | 68 | 93.2% |
 | snomed_ct | SNOMED CT (Skeleton) | 20 | 0 | 20 | 0.0% |
-| soc_2018 | Standard Occupational Classification 2018 | 1,447 | 1,179 | 268 | 81.5% |
+| soc_2018 | Standard Occupational Classification 2018 | 1,447 | 1,447 | 0 | 100.0% |
 | spdx_licenses | SPDX Software License Identifier Categories | 17 | 17 | 0 | 100.0% |
 | ssic_2020 | Singapore Standard Industrial Classification 2020 | 21 | 0 | 21 | 0.0% |
 | stakod_08 | Statistiki Taxinomisi ton Oikonomikon Drastiriotiton - STAKO | 996 | 928 | 68 | 93.2% |
@@ -992,7 +992,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | usb_classes | USB Device Classes | 23 | 0 | 23 | 0.0% |
 | usc_titles | United States Code Title Index | 23 | 0 | 23 | 0.0% |
 | usda_soil | USDA Soil Taxonomy Orders | 13 | 0 | 13 | 0.0% |
-| us_fips | US Federal Information Processing Standards State and County | 86 | 0 | 86 | 0.0% |
+| us_fips | US Federal Information Processing Standards State and County | 86 | 86 | 0 | 100.0% |
 | uv_index | Global Solar UV Index Categories | 11 | 11 | 0 | 100.0% |
 | vat_rates | Global VAT/GST Rate Type Categories | 14 | 0 | 14 | 0.0% |
 | vesa_standards | VESA Display Standards | 13 | 0 | 13 | 0.0% |
