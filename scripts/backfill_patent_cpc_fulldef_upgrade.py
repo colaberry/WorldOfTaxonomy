@@ -111,9 +111,8 @@ async def _run(*, apply: bool) -> int:
             for code, _old, new in upgrades:
                 await conn.execute(
                     "UPDATE classification_node "
-                    "SET description = $3 "
-                    f"WHERE system_id = '{_SYSTEM_ID}' AND code = $2",
-                    None,  # placeholder so $3 is the third positional
+                    "SET description = $2 "
+                    f"WHERE system_id = '{_SYSTEM_ID}' AND code = $1",
                     code, new,
                 )
         print(f"  Updated {len(upgrades):,} rows")
