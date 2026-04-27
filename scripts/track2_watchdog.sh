@@ -24,7 +24,7 @@
 #   STALL_SEC        kill+restart if cache hasn't grown in this many seconds (default: 1800 = 30 min)
 #   CHECK_SEC        polling interval (default: 300 = 5 min)
 #   LOG_DIR          where to write logs (default: /tmp)
-#   PYTHON_BIN       Python interpreter (default: /usr/bin/python3 — the macOS system Python that has the project deps)
+#   PYTHON_BIN       Python interpreter (default: /usr/bin/python3 - the macOS system Python that has the project deps)
 #
 # Run detached:
 #   nohup bash scripts/track2_watchdog.sh > /tmp/cpc_watchdog.log 2>&1 &
