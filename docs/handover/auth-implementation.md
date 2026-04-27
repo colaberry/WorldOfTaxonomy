@@ -575,6 +575,215 @@ Defer this phase explicitly. Most customers do not ask. When they
 do, the schema is already in place; only the UI and a few backend
 routes get added.
 
+### Phase 9 - billing and Stripe integration (1 PR, ~2 days, the Pro-launch unlock)
+
+Triggered by: ready to take money. Before this lands, every org is
+on the free tier (`org.tier = 'free'`, 1,000 req/min pool). Phase 9
+wires Stripe so orgs can self-serve upgrade and the rate-limit
+middleware respects the new tier within seconds of a webhook firing.
+
+The integration is intentionally narrow: Stripe handles checkout,
+billing, taxes, payment methods, and dunning. Our backend does
+exactly two things: kick off Checkout sessions, and react to
+webhooks that change `org.tier` and `org.rate_limit_pool_per_minute`.
+No card numbers ever touch our servers.
+
+#### The data flow
+
+```
+  User clicks "Upgrade to Pro" on /pricing
+    -> POST /api/v1/billing/checkout { tier: 'pro' }
+    -> Backend: stripe.checkout.Session.create(...)
+       client_reference_id = org_id
+       success_url = /developers/keys?upgraded=pro
+       cancel_url  = /pricing
+    -> 303 redirect to checkout.stripe.com/...
+
+  User completes payment in Stripe-hosted checkout
+
+  Stripe sends webhook -> POST /api/v1/billing/webhook
+    Event: customer.subscription.created (or .updated)
+    -> Verify signature with STRIPE_WEBHOOK_SECRET
+    -> Lookup org by stripe_customer_id (or set it on first event)
+    -> UPDATE org SET tier = 'pro',
+                      rate_limit_pool_per_minute = 10000,
+                      stripe_subscription_id = '...',
+                      stripe_subscription_status = 'active'
+    -> Reply 200 (Stripe retries on non-200)
+
+  Next API call from any team member
+    -> Middleware reads org.rate_limit_pool_per_minute = 10000
+    -> Rate limit honored within ~5 seconds of the webhook
+```
+
+The cache layer matters here: if you cache `org` rows in middleware,
+invalidate the cache on webhook receipt or keep TTL <=10 seconds so
+upgrades take effect quickly.
+
+#### Stripe configuration (one-time)
+
+Through the Stripe Dashboard:
+
+1. **Products and prices**:
+   - `WorldOfTaxonomy Pro - Team` -> recurring $X/month (TBD).
+     Metadata: `tier=pro`, `rate_limit_pool_per_minute=10000`.
+   - `WorldOfTaxonomy Enterprise` -> custom (manual contracts;
+     create the subscription via API not Checkout).
+2. **Webhook endpoint**: `https://wot.aixcelerator.ai/api/v1/billing/webhook`.
+   Subscribe to: `customer.subscription.created`,
+   `customer.subscription.updated`, `customer.subscription.deleted`,
+   `invoice.payment_failed`.
+3. **Customer portal configuration**: enable plan changes,
+   cancellation, payment method updates, invoice history. Link
+   to it from `/developers/billing`.
+4. **Tax**: enable Stripe Tax for automatic VAT/sales tax handling.
+5. **Dunning**: configure smart retries + email reminders for
+   failed payments.
+
+Secrets to add to GCP Secret Manager:
+
+- `stripe-secret-key` (`sk_live_...` for prod, `sk_test_...` for
+  staging).
+- `stripe-publishable-key` (`pk_live_...`, used by frontend; not
+  secret but kept here for parity).
+- `stripe-webhook-secret` (`whsec_...`, regenerated whenever the
+  endpoint URL changes).
+- `stripe-pro-price-id`, `stripe-enterprise-price-id` (price IDs
+  copied from the dashboard).
+
+#### Schema additions
+
+Already in the Phase 6 schema:
+- `org.stripe_customer_id TEXT UNIQUE`
+- `org.tier TEXT DEFAULT 'free'`
+- `org.rate_limit_pool_per_minute INT NOT NULL DEFAULT 1000`
+
+Phase 9 adds:
+
+```sql
+ALTER TABLE org
+    ADD COLUMN stripe_subscription_id TEXT UNIQUE,
+    ADD COLUMN stripe_subscription_status TEXT,    -- 'active' | 'past_due' | 'canceled'
+    ADD COLUMN tier_renews_at TIMESTAMPTZ,
+    ADD COLUMN tier_expires_at TIMESTAMPTZ;        -- set on 'canceled'; tier downgrades after this
+
+CREATE TABLE billing_event (
+    id UUID PRIMARY KEY,
+    org_id UUID REFERENCES org(id),
+    stripe_event_id TEXT UNIQUE,                   -- idempotency
+    event_type TEXT NOT NULL,
+    payload JSONB,
+    received_at TIMESTAMPTZ DEFAULT NOW()
+);
+```
+
+`stripe_event_id UNIQUE` plus an idempotency check at the start of
+the webhook handler is non-negotiable: Stripe retries on 5xx and
+network blips, and double-applying a tier change would over-credit
+the customer.
+
+#### Files added
+
+- `world_of_taxonomy/billing/stripe_client.py` - thin wrapper over
+  the Stripe Python SDK. Never instantiated lazily; it lives in the
+  app's lifespan handler so a bad `STRIPE_SECRET_KEY` fails fast at
+  startup.
+- `world_of_taxonomy/billing/webhook.py` - the webhook handler with
+  signature verification + idempotency.
+- `world_of_taxonomy/api/routers/billing.py` - `POST /checkout`,
+  `POST /webhook`, `GET /portal-link` endpoints.
+- `frontend/src/app/pricing/page.tsx` - public pricing page with
+  per-tier feature comparison and "Upgrade" buttons.
+- `frontend/src/app/developers/billing/page.tsx` - in-dashboard
+  billing view with subscription status, current usage, link to
+  Stripe Customer Portal.
+
+#### Files changed
+
+- `world_of_taxonomy/api/middleware.py` - rate-limit lookup unchanged
+  in code path (still keys on `org.rate_limit_pool_per_minute`); the
+  difference is the value can now be 10,000 instead of 1,000.
+- `world_of_taxonomy/api/deps.py` - adds `require_tier("pro")`
+  dependency factory for endpoints that require a specific paid tier
+  (e.g., bulk export). Distinct from `require_scope("wot:export")`
+  which is about the key's permissions; tier is about the org's plan.
+- `requirements.txt` - add `stripe>=11.0`.
+
+#### Tier downgrade behavior
+
+When a subscription is canceled, Stripe sends
+`customer.subscription.deleted` at the end of the billing period.
+The webhook handler:
+
+1. Sets `org.tier = 'free'`, `rate_limit_pool_per_minute = 1000`.
+2. Logs `tier_expires_at = NOW()`.
+3. Does **not** delete `stripe_customer_id` - keep it so a re-upgrade
+   reuses the same customer record.
+
+If the team's current usage is above the new free-tier pool when the
+downgrade lands, requests start hitting 429 immediately. Send an
+in-app banner ("Your team plan ended; upgrade to keep the higher
+rate limit") and an email at the time of cancellation.
+
+#### Failed payments
+
+When a payment fails, Stripe retries automatically (smart retries).
+During the retry window:
+
+- `invoice.payment_failed` -> email the org admin with a "Update your
+  payment method" link to the Customer Portal. Tier remains `pro`
+  for the grace period (default 23 days in Stripe's smart retry).
+- After all retries exhausted -> `customer.subscription.deleted`
+  fires, and the downgrade flow above applies.
+
+We do not implement custom dunning logic; Stripe's defaults are
+better than anything we'd build in a week.
+
+#### Verification gate
+
+- `pytest tests/test_billing_webhook.py` covers: signature
+  verification, idempotency on duplicate event_id, tier upgrade,
+  tier downgrade on cancellation, no-op on unknown event types.
+- Stripe CLI smoke test:
+  `stripe listen --forward-to localhost:8000/api/v1/billing/webhook`
+  followed by triggering each event type in turn from another
+  terminal:
+  - `stripe trigger customer.subscription.created`
+  - `stripe trigger customer.subscription.updated`
+  - `stripe trigger customer.subscription.deleted`
+  - `stripe trigger invoice.payment_failed`
+- Manual end-to-end in staging with a Stripe test card
+  (`4242 4242 4242 4242`):
+  1. Click upgrade -> redirected to checkout.
+  2. Complete payment -> redirected back with `?upgraded=pro`.
+  3. Within 10 seconds, hit a free-tier-limited endpoint to confirm
+     the new rate-limit pool is in effect.
+  4. Cancel via Customer Portal -> within 10 seconds the org tier
+     reverts.
+
+#### What this phase deliberately leaves out
+
+- **Usage-based billing** (charge per request beyond the pool).
+  Possible later but adds metering complexity; flat tiers are
+  enough for v1.
+- **Annual billing discount**. Add as a second Stripe price ID
+  when revenue justifies the conversion-rate work.
+- **Multi-currency**. Stripe handles this; the only thing we'd add
+  is a UI toggle. Defer until a non-USD customer asks.
+- **Tax invoice generation**. Stripe Tax already handles this; we
+  don't build a parallel invoicing system.
+- **Refunds and credits**. Handled in the Stripe Dashboard;
+  documented in the runbook, not in code.
+
+#### Rollback playbook for billing
+
+| Scenario | Rollback action |
+|---|---|
+| Webhook handler bug double-charging or wrong-tiering | Disable webhook in Stripe Dashboard temporarily; run a reconciliation script comparing `org` rows to Stripe subscriptions; manually patch DB. Webhook events are durable in Stripe and replay-safe via `stripe_event_id` idempotency once fixed. |
+| Pricing page error showing wrong amount | Revert the frontend deploy; Stripe is the source of truth for actual charges. |
+| `STRIPE_SECRET_KEY` leaks | Rotate via Stripe Dashboard, redeploy with new secret. Nothing on disk to scrub since secrets live in GCP Secret Manager. |
+| Customer disputes a charge | Handle in Stripe Dashboard; no code change needed. Stripe Radar can auto-flag suspicious charges. |
+
 ## Phase 1 - backend Zitadel verification (1 PR, ~1 day)
 
 **Goal**: every API request that today calls
@@ -845,6 +1054,7 @@ For each phase, the rollback is one revert away:
 | 6.5 | Hide the "Sign in with portfolio SSO" button on `/developers` | Magic-link sign-in continues unchanged; SSO option simply disappears. |
 | 7 | `KEY_SERVICE_URL=` (empty) | Middleware falls back to local DB lookup against the original WoT keys table (kept as safety net for one release cycle post-extraction). |
 | 8 | Hide the `/developers/team` route | Existing org rows remain in the DB and continue to enforce rate limits (org enforcement is wired in Phase 6). Members still authenticate. Only the team UI disappears; throttling is unaffected. |
+| 9 | Disable Stripe webhook in dashboard + flip frontend `/pricing` to "coming soon" | Existing paid subscriptions keep their tier in the DB (no auto-downgrade). New upgrades are blocked until the webhook is re-enabled. Stripe Customer Portal still works for cancellations. See Phase 9 "Rollback playbook for billing" sub-table for scenario-specific actions. |
 
 Never roll back by deleting the `app_user.zitadel_sub` column. The
 column being populated for some users is harmless; deleting it loses
@@ -870,6 +1080,9 @@ the link and forces re-onboarding.
   customer with multiple developers asking to share a billing
   relationship and rate-limit pool. The schema is in place from
   Phase 6, only UI + a few backend routes remain.
+- Phase 9: 2 days. Stripe billing integration. The Pro-launch
+  unlock; can be done independently of Phase 1-5 once Phase 6 is
+  live. Triggered by readiness to take money.
 
 Wall-clock for the Zitadel migration (Phase 1-5): about a calendar
 week with one engineer, fully focused. Worth doing as a single
