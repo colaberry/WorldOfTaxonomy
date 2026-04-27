@@ -20,7 +20,7 @@ human-in-the-loop email + 2FA).
 | Step | Action | Verification |
 |---|---|---|
 | 0.1 | Create Zitadel Cloud instance. Pick the free tier (25k MAU). | `https://<instance>.zitadel.cloud/ui/console` loads. |
-| 0.2 | Add custom domain `auth.aixcelerator.ai`. Verify the CNAME, request the cert. | Cert status `active` in Zitadel Console > Settings > Domains. |
+| 0.2 | **OPTIONAL (paid plan only).** Add custom domain `auth.aixcelerator.ai`. Verify the CNAME, request the cert. Skip on free tier; default `<instance>.zitadel.cloud` URL works fine. See "Free tier vs custom domain" below. | Cert status `active` in Zitadel Console > Settings > Domains. |
 | 0.3 | Create a Project named `aixcelerator-portfolio`. | Visible in Console > Projects. |
 | 0.4 | Inside the project, create a Web Application named `WorldOfTaxonomy`. Authentication method: PKCE. Redirect URI: `https://worldoftaxonomy.com/auth/callback`. Post-logout: `https://worldoftaxonomy.com`. | Application detail page shows the Client ID. |
 | 0.5 | Add social IdPs: GitHub, Google, LinkedIn. Use the existing OAuth client IDs from `OAUTH_PRODUCTION_SETUP.md` (no new app registrations - reuse). | Each IdP shows a green check on Console > Settings > Identity Providers. |
@@ -31,6 +31,60 @@ human-in-the-loop email + 2FA).
 Output of Phase 0: a `secrets.txt` Ram keeps in 1Password with the
 Client ID, Issuer URL, JWKS URL, and Permit.io project ID. Phase 1
 needs all of these.
+
+### Free tier vs custom domain (start free, upgrade later)
+
+Custom domain (step 0.2) is a paid Zitadel feature. The free tier
+(25k MAU, all core auth features) works without it. Default
+behavior: use the auto-generated `<instance>.zitadel.cloud` URL
+everywhere a custom domain would have gone.
+
+What changes when you skip 0.2:
+
+- `ZITADEL_ISSUER` env var becomes
+  `https://<instance>.zitadel.cloud` (not `auth.aixcelerator.ai`).
+- Users see the Zitadel-owned domain in the address bar for the
+  ~2 seconds between clicking "Sign in" and landing back on
+  `worldoftaxonomy.com`. Cosmetic; most users never notice.
+- The OIDC callback URL registered with social IdPs (GitHub /
+  Google / LinkedIn) becomes
+  `https://<instance>.zitadel.cloud/ui/login/login/externalidp/callback`.
+- The redirect URI you register inside the Zitadel Web App is
+  unchanged: `https://worldoftaxonomy.com/auth/callback`. Your own
+  domain stays your own domain.
+
+What it costs:
+
+- **Cross-product cookie sharing is harder.** With
+  `auth.aixcelerator.ai` you can scope the JWT cookie to the
+  `.aixcelerator.ai` apex and share login state across WoT, WoO,
+  WoUC, WoA. Without the custom domain you still have SSO at the
+  Zitadel session layer (one login covers every product), but each
+  product does its own redirect-and-callback dance. Fine while only
+  WoT is live; matters when WoO ships.
+
+When to upgrade:
+
+1. **First sibling product launches.** Cross-product cookie
+   sharing matters here.
+2. **First enterprise prospect asks for SAML.** SAML and custom
+   domain are typically bundled in the same paid tier.
+3. **MAU approaches 25k.** Until then, free is fine.
+
+The eventual migration:
+
+- Add the custom domain following step 0.2.
+- Update `ZITADEL_ISSUER` and `NEXT_PUBLIC_ZITADEL_ISSUER` env vars
+  in prod + staging.
+- Update the redirect URLs registered with each social IdP
+  (GitHub / Google / LinkedIn console edits).
+- Every JWT issued before the cutover becomes invalid (`iss` claim
+  mismatch). Users get logged out and re-authenticate. One-time
+  inconvenience; schedule for a low-traffic window.
+- No code change beyond the env var swap.
+
+About 1 hour of work plus one cycle of "everyone re-logs in." Not
+painful, just deliberate.
 
 ## Phase 1 - backend Zitadel verification (1 PR, ~1 day)
 
