@@ -22,10 +22,14 @@ def _line(
     synonyms: str = "",
     definition: str = "",
     semantic_type: str = "",
+    concept_status: str = "",
 ) -> str:
     """Compose a tab-delimited NCI flat-file row with the relevant columns."""
     url = f"<http://example/{code}>"
-    return "\t".join([code, url, "", synonyms, definition, "", "", semantic_type, ""]) + "\n"
+    return "\t".join([
+        code, url, "", synonyms, definition, "", concept_status,
+        semantic_type, "",
+    ]) + "\n"
 
 
 def _write_sample(path: Path) -> Path:
@@ -59,6 +63,20 @@ def _write_sample(path: Path) -> Path:
         synonyms="Nothing",
         definition="",
         semantic_type="",
+    )
+    body += _line(
+        "C600005",
+        synonyms="Granular Cell",
+        definition="",
+        semantic_type="",
+        concept_status="Retired_Concept",
+    )
+    body += _line(
+        "C700006",
+        synonyms="Has Defn",
+        definition="A real definition.",
+        semantic_type="Chemical",
+        concept_status="Active",
     )
     path.write_text(body, encoding="utf-8")
     return path
@@ -115,6 +133,24 @@ def test_parse_replaces_em_dash_with_hyphen(tmp_path: Path):
     desc = result["C400003"]
     assert "\u2014" not in desc
     assert "em-dash" in desc
+
+
+def test_parse_uses_concept_status_as_fallback(tmp_path: Path):
+    """A row with only concept_status falls back to a status-only description."""
+    f = _write_sample(tmp_path / "thes.txt")
+    result = parse_nci_thesaurus_descriptions(f)
+    assert "C600005" in result
+    assert result["C600005"] == "**Concept status:** Retired_Concept"
+
+
+def test_parse_omits_concept_status_when_richer_content_present(tmp_path: Path):
+    """Concept status appears only when the row has nothing else."""
+    f = _write_sample(tmp_path / "thes.txt")
+    result = parse_nci_thesaurus_descriptions(f)
+    desc = result["C700006"]
+    assert "**Definition:**" in desc
+    assert "**Semantic type:**" in desc
+    assert "**Concept status:**" not in desc
 
 
 def test_parse_accepts_zipped_input(tmp_path: Path):
