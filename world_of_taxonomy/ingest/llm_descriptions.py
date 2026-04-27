@@ -64,19 +64,46 @@ _USER_TEMPLATE = (
     "Entry title: {title}"
 )
 
+_USER_TEMPLATE_WITH_CONTEXT = (
+    "Briefly describe this entry from a public reference classification.\n"
+    "Classification: {system_name}\n"
+    "Hierarchy context (parents from broadest to narrowest):\n{parent_context}\n"
+    "Entry code: {code}\n"
+    "Entry title: {title}"
+)
 
-def build_messages(*, system_name: str, code: str, title: str) -> List[dict]:
-    """Return the messages list to feed to ``chat_json``."""
+
+def build_messages(
+    *,
+    system_name: str,
+    code: str,
+    title: str,
+    parent_context: str = "",
+) -> List[dict]:
+    """Return the messages list to feed to ``chat_json``.
+
+    ``parent_context`` is an optional multi-line string of parent
+    titles (one per line, broadest first) that helps the model
+    disambiguate codes with terse titles like ``Magnesium Mg`` --
+    the parent path provides "Earth metals > Elements and gases >
+    Chemicals" as grounding.
+    """
+    if parent_context.strip():
+        user_content = _USER_TEMPLATE_WITH_CONTEXT.format(
+            system_name=(system_name or "").strip(),
+            parent_context=parent_context.strip(),
+            code=(code or "").strip(),
+            title=(title or "").strip(),
+        )
+    else:
+        user_content = _USER_TEMPLATE.format(
+            system_name=(system_name or "").strip(),
+            code=(code or "").strip(),
+            title=(title or "").strip(),
+        )
     return [
         {"role": "system", "content": _SYSTEM_PROMPT},
-        {
-            "role": "user",
-            "content": _USER_TEMPLATE.format(
-                system_name=(system_name or "").strip(),
-                code=(code or "").strip(),
-                title=(title or "").strip(),
-            ),
-        },
+        {"role": "user", "content": user_content},
     ]
 
 
