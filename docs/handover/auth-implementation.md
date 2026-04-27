@@ -90,7 +90,7 @@ painful, just deliberate.
 
 Zitadel handles **end-user identity** (logging into a dashboard,
 signing in with Google, MFA, SAML). It is not the right home for
-**developer API keys** — the long-lived bearer tokens devs paste
+**developer API keys** - the long-lived bearer tokens devs paste
 into `.env` files, MCP configs, and CI runners. Those live in their
 own subsystem. This section locks in three architecture decisions
 that affect Phase 2 schema, Phase 3 frontend, and the eventual
@@ -197,7 +197,7 @@ The portable design above is the contract that survives extraction:
 
 - Tables move databases, schema does not change.
 - Validation interface goes from "local SQL lookup" to "HTTP
-  `POST /v1/keys/validate { prefix, key, required_scope }`" — same
+  `POST /v1/keys/validate { prefix, key, required_scope }`" - same
   inputs, same outputs.
 - Migration script copies `app_user` and `api_key` rows once;
   during cutover both WoT and the new central service accept
