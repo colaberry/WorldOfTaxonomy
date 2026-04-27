@@ -204,6 +204,57 @@ _ALLOWLIST: List[str] = [
     "reg_hitrust",
     "reg_fda_21cfr",
     "nucc_hcpt",
+    # Round 4: regulatory frameworks, national industrial classifications,
+    # tariff systems, reference taxonomies. Excludes proprietary clinical
+    # skeletons (CPT, SNOMED, RxNorm, ICD-10 national mods) which need
+    # authoritative-source ingesters.
+    "reg_aicpa", "reg_ashrae", "reg_asme", "reg_basel3", "reg_berne",
+    "reg_cap", "reg_cbam", "reg_cercla", "reg_cfpb", "reg_clean_water",
+    "reg_clia", "reg_cmmc", "reg_codex", "reg_coppa", "reg_csrd",
+    "reg_dea", "reg_dfars", "reg_dma", "reg_dsa", "reg_emas",
+    "reg_eprivacy", "reg_equator", "reg_eu_batteries", "reg_eu_cra",
+    "reg_eu_data_act", "reg_eu_deforestation", "reg_eu_machinery",
+    "reg_eu_packaging", "reg_eu_whistleblower", "reg_fasb", "reg_ffiec",
+    "reg_ftc_safeguards", "reg_icao_annex", "reg_ifc_ps", "reg_ilo_core",
+    "reg_iso_14040", "reg_iso_14064", "reg_iso_20000", "reg_iso_22301",
+    "reg_iso_22313", "reg_iso_26000", "reg_iso_28000", "reg_iso_30401",
+    "reg_iso_31010", "reg_iso_37101", "reg_iso_39001", "reg_iso_41001",
+    "reg_iso_50001", "reg_iso_55001", "reg_ivdr", "reg_kimberley",
+    "reg_marpol", "reg_mdr", "reg_mifid2", "reg_montreal", "reg_naic",
+    "reg_nis2", "reg_oecd_mne", "reg_paris", "reg_psd2", "reg_reach",
+    "reg_rohs", "reg_sfdr_detail", "reg_solas", "reg_solvency2",
+    "reg_tsca", "reg_uncitral", "reg_unclos", "reg_ungp", "reg_usp",
+    "reg_weee", "reg_who_fctc", "reg_wto_sps", "reg_wto_tbt",
+    # National industrial classifications + tariff systems
+    "afcfta_tariff", "asean_tariff", "cnae_2012", "csic_2017", "eu_taric",
+    "gcc_tariff", "isic_rev3", "jsic_2013", "kbli_2020", "mercosur_tariff",
+    "msic_2008", "naics_2012", "naics_2017", "okved_2", "psic_2009",
+    "scian_2018", "sic_sa", "ssic_2020", "tsic_2009", "uk_trade_tariff",
+    # Reference taxonomies, frameworks, technical standards
+    "3gpp_specs", "ai_model_type", "allergen_list", "anzsrc_seo",
+    "bluetooth_profiles", "breeam", "card_schemes", "cbd_aichi",
+    "cbd_targets", "ccss", "cdc_vaccine", "cfr_titles", "cites",
+    "cloud_native", "codex_committees", "contract_types",
+    "corporate_action", "cve_types", "data_retention", "defi_protocol",
+    "digcomp_22", "dod_mil_std", "epa_rcra_waste", "era_for",
+    "eu_waste_cat", "faa_aircraft_cat", "fao_stat_domain", "gbd_cause",
+    "gdpr_basis", "geological_time", "ghg_protocol", "hedis", "ibc_2021",
+    "icao_airport", "icao_doc4444", "iea_energy_bal", "imo_ship_type",
+    "imo_vessel", "irena_re", "irs_forms", "isced_2011", "iso20022_msg",
+    "itil4", "itu_r_bands", "itu_t", "iucn_red_list", "job_family",
+    "koppen_climate", "lcsh", "linkedin_skills", "lme_metals", "minamata",
+    "nato_codification", "nmfc", "orphanet", "pmbok7", "ramsar",
+    "rotterdam_pic", "scor_model", "shrm_competency", "si_units", "skos",
+    "stanag", "stcc", "stockholm_pops", "token_standard", "uic_railway",
+    "un_sdg_indicators", "unep_chemicals", "unesco_thesaurus",
+    "usb_classes", "usc_titles", "w3c_standards", "wb_income", "wcag",
+    "who_essential_med", "wos_categories",
+    # Canonical parents whose descriptions cascade to derivatives via
+    # mirror_descriptions.py: isic_rev4 (~165 empty) unlocks 122 ISIC-derived
+    # systems, nace_rev2 (~68 empty) unlocks 41 NACE-derived systems.
+    "isic_rev4", "nace_rev2", "naics_2022",
+    # WHO ICD-O-3 morphology category skeleton (115 codes, all empty)
+    "icdo3",
 ]
 
 
