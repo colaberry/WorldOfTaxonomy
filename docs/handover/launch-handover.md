@@ -54,6 +54,84 @@ boils that down to your specific work.
 | Per-system description backfills | ✅ all merged | (45 PRs landed today) |
 | Track 2 verified-LLM pipeline scaffold | ✅ paused, resumable | `scripts/track2_watchdog.sh` |
 
+## Database state and seeding production (read this BEFORE you start)
+
+**Important reality**: the descriptions data you'll see in the
+codebase (1.2M nodes, 65.71% description coverage as of 2026-04-27)
+**lives only on Ram's laptop**, not in this repo. Specifically:
+
+| Data | Where it lives | In repo? |
+|---|---|---|
+| Schema (`schema.sql`, `schema_auth.sql`, migrations) | git | ✅ |
+| Per-system ingester scripts | git | ✅ |
+| Source data files (`data/*.csv`, `*.xml`, `*.zip`) | gitignored (`data/*` in `.gitignore`) | ❌ |
+| LLM caches (`data/llm_descriptions/*.jsonl`, `data/llm_verified/*.jsonl`) | gitignored | ❌ |
+| **Populated Postgres database** with descriptions for 793,230 nodes | **Ram's local Postgres only** | ❌ |
+
+If you deploy Cloud Run + Cloud SQL with a fresh schema, you get an
+**empty database**. The frontend will work but every system will
+show 0 nodes, and the API will return empty arrays. Not viable for
+any flavor of launch.
+
+**The plan**: Ram dumps his local Postgres, you restore it into
+Cloud SQL on first deploy. ~1-3 GB compressed dump.
+
+### Step 0 (before Step 1) - receive the database dump from Ram
+
+Ask Ram for a recent `pg_dump` of his local DB, uploaded to a GCS
+bucket of his choice. The exact handoff:
+
+```bash
+# Ram runs this on his laptop (~30 min depending on disk + compression)
+pg_dump -d worldoftaxanomy -F c -Z 9 -f wot_db_$(date +%Y-%m-%d).dump
+
+# Ram uploads to a private GCS bucket and grants you read access
+gsutil cp wot_db_*.dump gs://<bucket-Ram-chooses>/wot/
+gsutil iam ch user:<your-email>:objectViewer gs://<bucket-Ram-chooses>
+```
+
+You receive a `gs://...` URL plus the GCS bucket name and the dump
+filename. Verify with:
+
+```bash
+gsutil ls -l gs://<bucket>/wot/wot_db_*.dump
+```
+
+### Restoring the dump into Cloud SQL
+
+After Cloud SQL is provisioned (Step 2 below) and before Phase 6
+key issuance (Step 4):
+
+```bash
+# Grant Cloud SQL service account read access to the bucket
+SA=$(gcloud sql instances describe wot-db --format='value(serviceAccountEmailAddress)')
+gsutil iam ch serviceAccount:${SA}:objectViewer gs://<bucket>/
+
+# Import. Cloud SQL handles the streaming restore.
+gcloud sql import sql wot-db \
+  gs://<bucket>/wot/wot_db_<date>.dump \
+  --database=worldoftaxanomy
+
+# Verify
+gcloud sql connect wot-db --user=postgres --database=worldoftaxanomy \
+  --quiet -e "SELECT COUNT(*) FROM classification_node;"
+# expected: ~1,212,486
+```
+
+The restore is a one-time operation. After this, ongoing data
+updates flow through ingester re-runs (scheduled or triggered),
+not dump+restore.
+
+### What if you can't get a dump?
+
+Fall back to **re-running every ingester in production**. Read
+[docs/handover/description-backfill.md](description-backfill.md)
+for the full sequence. Estimate ~3 days + ~$200-500 in LLM API
+spend (the `backfill_llm_*.py` scripts call Ollama Cloud).
+
+This is the worst path - last resort only. Ask Ram before going
+this way.
+
 ## What you must do (in order)
 
 ### 1. Get access (day 1, before any deploy work)
@@ -66,6 +144,7 @@ Ask Ram for:
 - [ ] Vercel team membership (if frontend is deploying via Vercel - confirm with Ram, see decision #3 below)
 - [ ] Resend / Postmark / SES sender account (if you're wiring email - confirm scope with Ram)
 - [ ] Read access to the `1Password / vault` where Zitadel + Permit.io credentials will live (those are not yet provisioned; out of soft-launch scope)
+- [ ] **GCS read access to the bucket holding the database dump** (see "Step 0" above; Ram chooses the bucket)
 
 Verify with:
 
@@ -205,6 +284,7 @@ If all green, you're ready for soft launch.
 
 | # | Decision | Why it matters | Default if not heard |
 |---|---|---|---|
+| 0 | **Where to put the database dump** (GCS bucket name + access list) | Step 0 / soft-launch blocker. The dump is your only path to a populated Cloud SQL without re-running ~3 days of ingest. | private bucket like `gs://aix-private-artifacts/wot/`, deployment dev added as `objectViewer` |
 | 1 | Email service: Resend vs Postmark vs SES | Phase 6 prerequisite. Affects deliverability and cost. | Resend |
 | 2 | Analytics: PostHog vs Plausible vs none | Per-page tracking on the marketing site | none for soft launch |
 | 3 | Frontend hosting: Vercel vs Cloud Run | Already decided per memory: `worldoftaxonomy.com` on Vercel. Confirm before deploying. | per memory: Vercel |
@@ -275,6 +355,8 @@ All of these green:
 
 - [ ] `wot.aixcelerator.ai/api/v1/healthz` returns 200 from public
   internet
+- [ ] **Cloud SQL has the dump restored: `SELECT COUNT(*) FROM classification_node` returns ~1,212,486**
+- [ ] **Spot-check: `SELECT COUNT(*) FROM classification_node WHERE description IS NOT NULL AND description <> ''` returns ~793,230 (~65.7% coverage)**
 - [ ] `worldoftaxonomy.com` loads in under 2s
 - [ ] Sign-up funnel works end to end (email -> key -> API call)
 - [ ] MCP install guide validated in at least one client
