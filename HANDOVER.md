@@ -393,7 +393,11 @@ What's queued: [ROADMAP.md](ROADMAP.md).
 | [docs/handover/backend.md](docs/handover/backend.md) | FastAPI internals, MCP, auth, ingest pipeline, wiki loader |
 | [docs/handover/frontend.md](docs/handover/frontend.md) | Next 16 specifics, App Router, data layer, SSR+React Query, theming, crosswalk bundling |
 | [docs/handover/rebuild-checklist.md](docs/handover/rebuild-checklist.md) | Step-by-step rebuild from zero |
-| [docs/handover/portfolio-auth.md](docs/handover/portfolio-auth.md) | Portfolio-wide auth: Zitadel Cloud (authN) at auth.aixcelerator.ai + Permit.io (authZ) policy engine |
+| [docs/handover/portfolio-auth.md](docs/handover/portfolio-auth.md) | Portfolio-wide auth design: Zitadel Cloud (authN) + Permit.io (authZ) + magic-link developer-key system. Decision rationale and rejected alternatives. |
+| [docs/handover/auth-implementation.md](docs/handover/auth-implementation.md) | Step-by-step execution checklist for portfolio auth: Phase 0 provisioning, Phases 1-5 Zitadel migration, Phase 6 developer-key system, Phase 6.5 SSO option, Phase 7 extraction to developer.aixcelerator.ai, Phase 8 team UI, Phase 9 Stripe billing. Includes rollback playbook for every phase. |
+| [docs/handover/launch-checklist.md](docs/handover/launch-checklist.md) | Master view of soft / public / pro launch tiers. Critical-path items, open dependencies on third parties, risk register, and recommended sequencing. |
+| [docs/handover/description-backfill.md](docs/handover/description-backfill.md) | Description-backfill series narrative: Track 1 (skeleton-LLM) and Track 2 (verified-synthesis) pipelines, source-by-source coverage, audit findings, and follow-on plans. |
+| [docs/handover/coverage-report.md](docs/handover/coverage-report.md) | Auto-generated per-system description coverage table (regenerate via `python -m scripts.generate_coverage_report`). |
 | [docs/handover/domain-crosswalk-integration.md](docs/handover/domain-crosswalk-integration.md) | Sector-anchor generator that bridged 434 domain taxonomies to NAICS/ISIC/NACE + `edge_kind` labeling |
 | [DESIGN.md](DESIGN.md) | Architectural rationale and trade-offs |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | TDD workflow + 7-step new-system checklist |
