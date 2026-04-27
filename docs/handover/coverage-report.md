@@ -2,7 +2,7 @@
 
 Generated automatically. Total rows in DB: 1,212,486.
 
-**Aggregate**: 765,284 populated / 1,212,486 total = **63.12% coverage** across 1000 systems.
+**Aggregate**: 765,587 populated / 1,212,486 total = **63.14% coverage** across 1000 systems.
 
 | system_id | name | total | populated | empty | coverage |
 |---|---|---:|---:|---:|---:|
@@ -568,7 +568,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | hcpcs_l2 | Healthcare Common Procedure Coding System Level II | 59 | 0 | 59 | 0.0% |
 | hcpcs_l3 | HCPCS Level III Local Codes (Skeleton) | 13 | 0 | 13 | 0.0% |
 | hedis | HEDIS Healthcare Quality Measures | 15 | 0 | 15 | 0.0% |
-| hs_2022 | Harmonized Commodity Description and Coding System | 6,961 | 0 | 6,961 | 0.0% |
+| hs_2022 | Harmonized Commodity Description and Coding System | 6,961 | 118 | 6,843 | 1.7% |
 | hts_us | Harmonized Tariff Schedule of the United States | 120 | 120 | 0 | 100.0% |
 | http_status | HTTP Response Status Code Categories | 17 | 17 | 0 | 100.0% |
 | iab_content | IAB Tech Lab Content Taxonomy | 21 | 21 | 0 | 100.0% |
@@ -760,8 +760,8 @@ Generated automatically. Total rows in DB: 1,212,486.
 | nace_tr | Istatistiki Birim Siniflamasi - NACE Rev 2 (Turkish Adaptati | 996 | 928 | 68 | 93.2% |
 | naf_rev2 | Nomenclature des Activites Francaises Rev 2 (2008) | 996 | 928 | 68 | 93.2% |
 | naic_lines | NAIC Annual Statement Lines of Business | 30 | 30 | 0 | 100.0% |
-| naics_2012 | North American Industry Classification System 2012 | 21 | 0 | 21 | 0.0% |
-| naics_2017 | North American Industry Classification System 2017 | 21 | 0 | 21 | 0.0% |
+| naics_2012 | North American Industry Classification System 2012 | 21 | 21 | 0 | 100.0% |
+| naics_2017 | North American Industry Classification System 2017 | 21 | 21 | 0 | 100.0% |
 | naics_2022 | North American Industry Classification System 2022 | 2,125 | 2,111 | 14 | 99.3% |
 | nanda_nursing_dx | NANDA International Nursing Diagnosis Categories | 14 | 0 | 14 | 0.0% |
 | nato_codification | NATO Codification System (Skeleton) | 19 | 0 | 19 | 0.0% |
@@ -776,7 +776,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | nkid | Natsionalna Klasifikatsiya na Ikonomicheskite Deynosti (Bulg | 996 | 928 | 68 | 93.2% |
 | nk_lv | Saimniecisko darbibu statistiska klasifikacija (Latvian NACE | 996 | 928 | 68 | 93.2% |
 | nmfc | National Motor Freight Classification | 19 | 0 | 19 | 0.0% |
-| noc_2021 | National Occupational Classification 2021 (Statistics Canada | 51 | 0 | 51 | 0.0% |
+| noc_2021 | National Occupational Classification 2021 (Statistics Canada | 51 | 51 | 0 | 100.0% |
 | noga_2008 | Nomenclature Générale des Activités économiques 2008 | 996 | 928 | 68 | 93.2% |
 | nqf_uk | UK National Qualifications Framework | 14 | 0 | 14 | 0.0% |
 | nucc_hcpt | NUCC Health Care Provider Taxonomy | 94 | 0 | 94 | 0.0% |
@@ -935,7 +935,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | reg_wto_tbt | WTO Agreement on Technical Barriers to Trade | 17 | 0 | 17 | 0.0% |
 | richter_scale | Earthquake Magnitude Classification | 13 | 13 | 0 | 100.0% |
 | rics_valuation | RICS Valuation Standard (Red Book) Categories | 14 | 0 | 14 | 0.0% |
-| rome_v4 | Repertoire Operationnel des Metiers et Emplois v4 (France) | 93 | 0 | 93 | 0.0% |
+| rome_v4 | Repertoire Operationnel des Metiers et Emplois v4 (France) | 93 | 92 | 1 | 98.9% |
 | rotterdam_pic | Rotterdam Convention PIC | 17 | 0 | 17 | 0.0% |
 | rxnorm | RxNorm (Skeleton) | 16 | 0 | 16 | 0.0% |
 | saffir_simpson | Saffir-Simpson Hurricane Wind Scale | 12 | 12 | 0 | 100.0% |
