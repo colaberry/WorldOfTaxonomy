@@ -13,9 +13,10 @@
 #   - No other Track 2 process running against patent_cpc
 #
 # Usage:
-#   bash scripts/cpc_full_run.sh                # full run, concurrency 12
-#   CONCURRENCY=8 bash scripts/cpc_full_run.sh  # throttle to 8
-#   LIMIT=5000 bash scripts/cpc_full_run.sh     # cap this invocation
+#   bash scripts/cpc_full_run.sh                       # full run, conc 12, both hops on gpt-oss:120b
+#   CONCURRENCY=8 bash scripts/cpc_full_run.sh         # throttle to 8
+#   LIMIT=5000 bash scripts/cpc_full_run.sh            # cap this invocation
+#   VERIFIER_MODEL=gpt-oss:20b bash ...                # use smaller verifier (~2x throughput)
 
 set -euo pipefail
 
@@ -43,12 +44,13 @@ if [ "${LIMIT}" -gt 0 ]; then
 fi
 
 echo "Starting CPC Track 2 full run"
-echo "  concurrency: ${CONCURRENCY}"
-echo "  limit:       ${LIMIT:-(none, full system)}"
-echo "  log:         ${LOG_FILE}"
+echo "  concurrency:    ${CONCURRENCY}"
+echo "  limit:          ${LIMIT:-(none, full system)}"
+echo "  verifier model: ${VERIFIER_MODEL:-(default gpt-oss:120b)}"
+echo "  log:            ${LOG_FILE}"
 echo
 
-PYTHONPATH=. python3 -m scripts.backfill_llm_verified \
+VERIFIER_MODEL="${VERIFIER_MODEL:-}" PYTHONPATH=. python3 -m scripts.backfill_llm_verified \
   --systems patent_cpc \
   --concurrency "${CONCURRENCY}" \
   ${LIMIT_ARG} \
