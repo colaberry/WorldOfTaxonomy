@@ -33,6 +33,31 @@ def test_build_messages_has_system_and_user_roles():
     assert "user" in roles
 
 
+def test_build_messages_includes_parent_context_when_given():
+    """For codes with terse titles like 'Magnesium Mg', the parent path
+    helps the model disambiguate. The optional parent_context goes into
+    the user message verbatim."""
+    messages = build_messages(
+        system_name="UNSPSC",
+        code="12141502",
+        title="Magnesium Mg",
+        parent_context="Chemicals\nElements and gases\nEarth metals",
+    )
+    user = next(m["content"] for m in messages if m["role"] == "user")
+    assert "Chemicals" in user
+    assert "Earth metals" in user
+    assert "Hierarchy" in user or "context" in user.lower()
+
+
+def test_build_messages_omits_context_section_when_empty():
+    """No parent_context -> the original short user template is used."""
+    messages = build_messages(
+        system_name="X", code="Y", title="Z", parent_context="",
+    )
+    user = next(m["content"] for m in messages if m["role"] == "user")
+    assert "Hierarchy" not in user
+
+
 def test_sanitize_response_strips_em_dash():
     out = sanitize_response("Foo \u2014 bar.")
     assert "\u2014" not in out
