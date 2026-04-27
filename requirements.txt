@@ -47,8 +47,4 @@ psycopg[binary]>=3.1.0
 # ISO 3166-2 data tables (no upstream HTTP call required).
 pycountry>=23.12.11
 
-# Streaming JSON parser for the ESCO JSON-LD dump (~650 MB); used by
-# scripts/backfill_esco_descriptions.py so the file does not need to
-# be extracted to disk or held in memory.
 ijson>=3.2.0
-
