@@ -7,73 +7,80 @@
     "order": 1
   },
   {
+    "slug": "mcp-setup",
+    "file": "mcp-setup.md",
+    "title": "MCP Setup Guide for Claude Desktop, Cursor, Zed, and other AI clients",
+    "description": "Step-by-step setup of the WorldOfTaxonomy MCP server in Claude Desktop, Cursor, Zed, VS Code Continue, Windsurf, and generic MCP clients. Covers API key generation, per-client config, verification, and troubleshooting.",
+    "order": 2
+  },
+  {
     "slug": "systems-catalog",
     "file": "systems-catalog.md",
     "title": "Systems Catalog - All 1,000+ Classification Systems",
     "description": "Complete catalog of classification systems organized by category: industry, trade, occupation, health, education, financial, regulatory, and domain taxonomies.",
-    "order": 2
+    "order": 3
   },
   {
     "slug": "crosswalk-map",
     "file": "crosswalk-map.md",
     "title": "Crosswalk Map - How Classification Systems Connect",
     "description": "Topology of 321K+ crosswalk edges linking classification systems. Translation paths, match types, and how to navigate between systems.",
-    "order": 3
+    "order": 4
   },
   {
     "slug": "industry-classification",
     "file": "industry-classification.md",
     "title": "Industry Classification Guide - Which System to Use",
     "description": "Decision tree for choosing the right industry classification system by country, purpose, and granularity. Compares NAICS, ISIC, NACE, SIC, and regional systems.",
-    "order": 4
+    "order": 5
   },
   {
     "slug": "medical-coding",
     "file": "medical-coding.md",
     "title": "Medical and Health Classification Systems Compared",
     "description": "Comparison of ICD-10-CM, ICD-11, MeSH, LOINC, ATC, SNOMED CT, and other health classification systems with use cases and crosswalk paths.",
-    "order": 5
+    "order": 6
   },
   {
     "slug": "trade-codes",
     "file": "trade-codes.md",
     "title": "Trade and Product Classification Guide",
     "description": "How HS, CPC, UNSPSC, SITC, and BEC relate. Code structure, crosswalk paths, and which system to use for trade, procurement, and statistical reporting.",
-    "order": 6
+    "order": 7
   },
   {
     "slug": "occupation-systems",
     "file": "occupation-systems.md",
     "title": "Occupation Classification Systems Compared",
     "description": "SOC vs ISCO vs ESCO vs O*NET compared. Structure, granularity, crosswalk paths, and which occupation system to use by country and purpose.",
-    "order": 7
+    "order": 8
   },
   {
     "slug": "categories-and-sectors",
     "file": "categories-and-sectors.md",
     "title": "Categories and Sectors - How Systems Are Organized",
     "description": "The 16 categories and domain sectors that organize 1,000+ classification systems in WorldOfTaxonomy. Category definitions, system counts, and navigation.",
-    "order": 8
+    "order": 9
   },
   {
     "slug": "domain-vs-standard",
     "file": "domain-vs-standard.md",
     "title": "Domain Taxonomies vs Official Standards",
     "description": "How WorldOfTaxonomy splits classification systems into domain taxonomies (plain-language on-ramps) and official standards (NAICS, ISIC, etc), and how every surface exposes the split.",
-    "order": 9
+    "order": 10
   },
   {
     "slug": "data-quality",
     "file": "data-quality.md",
     "title": "Data Quality and Provenance",
     "description": "Four-tier provenance framework, source verification, hash auditing, and how to report data quality issues.",
-    "order": 10
+    "order": 11
   },
   {
     "slug": "architecture",
     "file": "architecture.md",
     "title": "System Architecture and Data Flows",
     "description": "Architecture diagrams showing system design, data ingestion pipeline, API request flow, MCP session lifecycle, and the four-channel wiki distribution.",
-    "order": 11
+    "order": 12
   }
 ]
