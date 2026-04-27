@@ -210,6 +210,205 @@ This avoids two anti-patterns:
 - Designing keys product-scoped from day 1 and rebuilding the auth
   surface when the second product arrives.
 
+### Magic link + Zitadel coexistence (after Phase 5 ships)
+
+Two domains, two jobs, one identity:
+
+- `developer.aixcelerator.ai` is the developer self-service surface.
+  Magic-link sign-in to manage API keys, see usage, rotate
+  credentials. Aimed at devs pasting `wot_xxx` into `.env` files.
+- `auth.aixcelerator.ai` is the end-user identity surface.
+  Zitadel-hosted login for product UIs (signing in to use WoT, WoO,
+  WoUC, WoA as a customer). Aimed at humans clicking around
+  dashboards.
+
+The same human can use both. The system recognizes them as one
+identity through `app_user.email UNIQUE NOT NULL` plus the
+`zitadel_sub` linker logic from Phase 2.
+
+Flow when Zitadel arrives months after Phase 6:
+
+```
+  Developer signs up via magic link in 2026
+  -> app_user row: { id: uuid-A, email: 'me@company.com',
+                     zitadel_sub: NULL }
+  -> Issues API keys: aix_xxx, wot_yyy. Both reference
+     user_id = uuid-A.
+
+  Six months later, Zitadel migration ships.
+
+  Same developer logs into worldoftaxonomy.com via Zitadel
+  -> Zitadel JWT carries sub=zitadel-123,
+     email=me@company.com
+  -> Linker on first Zitadel sign-in sees email already exists
+  -> UPDATE app_user SET zitadel_sub='zitadel-123'
+     WHERE email='me@company.com'
+  -> All existing API keys still work. Same dashboard at
+     /developers/keys whether the user signed in via magic link
+     or via Zitadel.
+```
+
+### Phase 6.5 - SSO sign-in option on developer.aixcelerator.ai (~half day, after Phase 5)
+
+After Zitadel arrives, add a "Sign in with portfolio SSO" button
+next to the magic-link form on `developer.aixcelerator.ai`:
+
+```
++--------------------------------------+
+|  Sign in to manage your API keys     |
+|                                      |
+|  [ email                          ]  |
+|  [ Send me a sign-in link         ]  |
+|                                      |
+|  --------- or ---------              |
+|                                      |
+|  [ Sign in with portfolio SSO     ]  |
+|                                      |
+|  No account? Sign up with email     |
++--------------------------------------+
+```
+
+The SSO button does the standard PKCE redirect to
+`auth.aixcelerator.ai`, returns with a Zitadel JWT, sets the same
+`dev_session` cookie as the magic-link path. From there the
+dashboard works identically. Two sign-in mechanisms, one underlying
+session model, one set of keys.
+
+Keep both forever. Magic link has lower friction for new
+developers; SSO is one click for those already authenticated in a
+sibling product.
+
+### Coexistence challenges and mitigations
+
+| Challenge | Likelihood | Mitigation |
+|---|---|---|
+| Email mismatch (signed up with `personal@gmail.com` magic link, later signs in via Zitadel SSO with `me@company.com`) creates two `app_user` rows. | Medium - common when developers experiment with personal email then a company adopts Zitadel later. | Build a "Merge accounts" UI on `/developers/keys` (~half day). User pastes a verification token sent to the other email; system merges rows and reassigns API keys. Defer until first customer asks. |
+| MFA enforcement asymmetry (Zitadel can enforce MFA; magic link is single-factor email control). Some enterprise security policies require MFA on credentials that can issue API keys. | Low at launch, high after first enterprise prospect. | Add a per-account "Require SSO sign-in" preference. Once toggled, magic link is rejected for that user; only Zitadel SSO with MFA is accepted. ~1 day when it matters. |
+| Billing alignment (Stripe customer = Zitadel org; magic-link users have no Zitadel org). | High once paid tiers ship. | Default to Path A: any user can be on individual paid tiers (`tier='pro'` on `app_user`). Org-tier is separate (`tier='enterprise'` on `org`). Path B (paid tiers require a Zitadel org) is cleaner data-wise but adds friction; revisit only when org-tier features land. |
+
+What WOULD make coexistence not seamless (anti-patterns to avoid):
+
+- Building Phase 6 with `app_user.email` as a non-unique column.
+  Make it `UNIQUE NOT NULL` from day 1.
+- Skipping `app_user.zitadel_sub` (NULL until Phase 2 populates it)
+  in the Phase 6 schema. Free to add now, painful to backfill later.
+- Issuing API keys with a `magic_link_user_id` reference instead of
+  `app_user_id`. The auth mechanism is irrelevant to the key; keep
+  the foreign key against `app_user`.
+
+### Multi-user from the same company domain
+
+The "two devs from Acme both sign up" question. Four scenarios:
+
+**Scenario A: Independent signups, no org structure (default).**
+Alice (`alice@acme.com`) and Bob (`bob@acme.com`) each magic-link
+sign up. Two separate `app_user` rows, two separate sets of keys,
+no connection. Each is on the free tier individually.
+
+This is fine for early stage. A small team experimenting with the
+API does not need org-level coordination on day 1. Scenario A is
+the **default** and Phase 6 ships in this state.
+
+**Scenario B: Manual org claim by one user.**
+Acme's CTO contacts the team (or clicks "Set up team account" on
+the dashboard once that ships). Backend creates an `org` row,
+links CTO's `app_user` to it as `role='admin'`, generates an
+invite link for Alice and Bob. They click, their `app_user` rows
+get `org_id` set. Org admin can now see all three sets of keys
+in a `/developers/team` view, and the org carries the billing
+relationship.
+
+This requires an `org` table:
+
+```sql
+CREATE TABLE org (
+    id UUID PRIMARY KEY,
+    name TEXT NOT NULL,
+    domain TEXT,                    -- 'acme.com'
+    tier TEXT DEFAULT 'free',       -- 'free' / 'pro' / 'enterprise'
+    stripe_customer_id TEXT UNIQUE,
+    zitadel_org_id TEXT UNIQUE,     -- populated by Phase 2 linker
+    created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+ALTER TABLE app_user
+    ADD COLUMN org_id UUID REFERENCES org(id),
+    ADD COLUMN role TEXT DEFAULT 'member';   -- 'admin' / 'member'
+```
+
+Add this table to the **Phase 6 schema** even though no rows exist
+on day 1. Same rationale as `zitadel_sub`: free to add now, costly
+to retrofit. Org-related UI ships in a later PR (Phase 8) when
+demand justifies it.
+
+**Scenario C: Domain-claim auto-join.**
+After Acme has an `org` row with `domain='acme.com'`, future signups
+from `*@acme.com` see a prompt: "Acme already has a portfolio
+account. Join the team?" Defaults to opt-in (manual click). If the
+org admin has set "Auto-add domain matches", new users join
+automatically.
+
+The domain match is a heuristic, not a security boundary - personal
+emails (gmail.com, outlook.com, hotmail.com, etc.) are excluded
+from auto-join. Keep a list of free-email domains either inline or
+via a small public dataset; ~30 lines of code.
+
+**Scenario D: Zitadel-driven org membership (post-Phase 2).**
+When Zitadel arrives, Acme can claim `acme.com` in Zitadel and run
+SAML SSO. Every Zitadel sign-in from an `@acme.com` email carries
+an `org_id` claim in the JWT. The Phase 2 linker:
+
+1. Reads `org_id` from the Zitadel JWT.
+2. `SELECT id FROM org WHERE zitadel_org_id = $1`. On miss, INSERT
+   a new `org` row keyed to the Zitadel org.
+3. UPDATE `app_user` SET `org_id`, `role` based on Zitadel
+   membership.
+
+This makes Zitadel the source of truth for org structure. Magic-link
+signups still create individual `app_user` rows (org_id=NULL); they
+can be invited into an org manually or auto-promoted when their
+domain matches a Zitadel-claimed org.
+
+### What rate limits and entitlements mean across users
+
+Rate limits and tier entitlements live on the **org** when one
+exists, otherwise on the **user**:
+
+```python
+def effective_tier(user: AppUser) -> str:
+    if user.org_id:
+        return user.org.tier         # team plan covers all members
+    return user.tier or 'free'       # individual plan
+```
+
+Concrete consequences:
+
+- **Free, individual users**: 1,000 req/min per user. Two Acme devs
+  on free individual accounts get 1,000 each (2,000 total). No
+  pooling.
+- **Team plan (org tier='pro')**: rate limit configured per org,
+  shared across members. The plan defines a pool (e.g., 10,000
+  req/min); calls from any team member draw from it. Member-level
+  limits (e.g., "Bob can only use 30% of the pool") are a Permit.io
+  policy on top, not a rate-limit primitive.
+- **Enterprise**: same as Pro, plus cross-product entitlements
+  ("Acme's enterprise seat on WoT grants read-only on WoO") via
+  Permit.io.
+
+### Open question: free-email auto-org behavior
+
+Decision deferred until first complaint:
+
+- **Permissive default**: any email domain can be claimed as an
+  org domain. A coffee shop named "Tom's Coffee" using `@tomscoffee.com`
+  benefits the same as Acme.
+- **Strict default**: free-email domains (gmail, yahoo, hotmail,
+  proton, icloud, outlook) cannot be org domains. Forces a real
+  business email for org features.
+
+Default to permissive. If the strict version becomes necessary
+(spam, abuse, fraud), one config change.
+
 ### Phase 6 - developer key issuance and lifecycle (1 PR, ~1.5 days)
 
 This phase ships the user-facing key system. Independent of the
@@ -229,7 +428,10 @@ Files added:
 
 Files changed:
 
-- `world_of_taxonomy/schema_auth.sql` - add scope/expiry/audit columns.
+- `world_of_taxonomy/schema_auth.sql` - add scope/expiry/audit
+  columns on `api_key`. Add `org` table (empty on day 1, ready for
+  Scenario B in "Multi-user from the same company domain"). Add
+  `org_id`, `role`, `zitadel_sub` columns on `app_user`.
 - `world_of_taxonomy/api/middleware.py` - validate keys with scope
   check; on 401 / 429 return JSON pointing at `/developers`.
 - `world_of_taxonomy/api/deps.py` - new `require_scope("wot:read")`
@@ -296,6 +498,54 @@ What WoO does on day 1: clones WoT's middleware integration, sets
 its own `KEY_SERVICE_URL` to the same central service, defines its
 own scopes (`woo:read`, `woo:export`, etc.) inside the central
 scope registry. Estimated 4 hours, not 4 days.
+
+### Phase 8 - team / org management UI (1 PR, ~2 days, do this when first customer asks)
+
+Triggered by: a customer with multiple developers asking "how do
+we share a billing relationship and a rate-limit pool?" Until then
+the `org` table sits empty and Scenario A (independent signups)
+covers everyone.
+
+When triggered:
+
+Files added:
+
+- `frontend/src/app/developers/team/page.tsx` - list members,
+  invite, remove, change role.
+- `frontend/src/app/developers/team/invite/page.tsx` - accept-invite
+  landing.
+- `world_of_taxonomy/api/routers/team.py` - CRUD for org membership
+  and invites.
+
+Files changed:
+
+- `world_of_taxonomy/api/middleware.py` - rate-limit lookup uses
+  `effective_tier(user)` (org plan if set, individual otherwise);
+  rate-limit pool keys by `org_id` when present.
+- `frontend/src/app/developers/keys/page.tsx` - admins see all
+  team members' keys grouped by user; members see only their own.
+
+Endpoints:
+
+- `POST /api/v1/team` - create org (current user becomes admin).
+- `GET /api/v1/team` - get current user's org details.
+- `POST /api/v1/team/invite { email }` - admin only.
+- `GET /api/v1/team/accept?token=...` - invitee accepts.
+- `DELETE /api/v1/team/members/{user_id}` - admin only.
+- `PATCH /api/v1/team/members/{user_id} { role }` - admin only.
+
+Verification gate:
+
+- Admin invites Bob -> Bob's app_user row gains `org_id` -> rate
+  limit pool now shared.
+- Removing Bob -> Bob's `org_id` cleared, his keys still work but
+  fall back to individual tier.
+- Domain auto-join: signup with `@acme.com` after Acme creates org
+  shows "Join Acme?" prompt; opt-in click adds them.
+
+Defer this phase explicitly. Most customers do not ask. When they
+do, the schema is already in place; only the UI and a few backend
+routes get added.
 
 ## Phase 1 - backend Zitadel verification (1 PR, ~1 day)
 
@@ -564,7 +814,9 @@ For each phase, the rollback is one revert away:
 | 4 | Remove the `Depends(require_permit(...))` from each route | Authz decisions go back to coarse "authenticated y/n." |
 | 5 | Set `AUTH_MODE=local` | Same as Phase 1 rollback. |
 | 6 | Disable the `/developers` route + revert middleware to coarse-tier check | API stays available; key issuance pauses. Revoked keys stay revoked (DB-side, no rollback path needed). |
+| 6.5 | Hide the "Sign in with portfolio SSO" button on `/developers` | Magic-link sign-in continues unchanged; SSO option simply disappears. |
 | 7 | `KEY_SERVICE_URL=` (empty) | Middleware falls back to local DB lookup against the original WoT keys table (kept as safety net for one release cycle post-extraction). |
+| 8 | Hide the `/developers/team` route | Existing org rows remain in the DB but become invisible. Members still authenticate; rate limits fall back to individual tier (effective_tier returns user.tier when org_id is set but org row is hidden). |
 
 Never roll back by deleting the `app_user.zitadel_sub` column. The
 column being populated for some users is harmless; deleting it loses
@@ -581,8 +833,15 @@ the link and forces re-onboarding.
   legacy-code deletion follow-up.
 - Phase 6: 1.5 days. Independent of Phase 1-5; can ship before
   Zitadel arrives. **This is the API/MCP gate for launch.**
+- Phase 6.5: half a day. Adds the "Sign in with portfolio SSO"
+  button on `/developers` after Zitadel is live. Optional polish,
+  not a blocker.
 - Phase 7: 2 days. Triggered by WoO launch <= 4 weeks away or first
   customer asking for cross-product keys.
+- Phase 8: 2 days. Team / org management UI. Triggered by first
+  customer with multiple developers asking to share a billing
+  relationship and rate-limit pool. The schema is in place from
+  Phase 6, only UI + a few backend routes remain.
 
 Wall-clock for the Zitadel migration (Phase 1-5): about a calendar
 week with one engineer, fully focused. Worth doing as a single
