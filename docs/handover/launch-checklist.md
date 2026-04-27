@@ -70,7 +70,7 @@ Owner: ongoing, see [description-backfill-summary](./description-backfill-summar
 
 After all the above: coverage should land near 65-66%. Higher
 percentages (Patent CPC, ICD-10-CM, UNSPSC, ICD-11) are Track 2 LLM
-work and not soft-launch blockers — they can run post-launch in the
+work and not soft-launch blockers - they can run post-launch in the
 background.
 
 **Why second**: credibility. The product's value prop is
