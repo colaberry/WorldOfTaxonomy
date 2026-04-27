@@ -298,116 +298,141 @@ What WOULD make coexistence not seamless (anti-patterns to avoid):
 
 ### Multi-user from the same company domain
 
-The "two devs from Acme both sign up" question. Four scenarios:
+**Decision: orgs are auto-created on signup, throttling is always
+at the org level.** This closes the obvious abuse vector where a
+single company spins up N individual accounts to bypass per-user
+rate limits.
 
-**Scenario A: Independent signups, no org structure (default).**
-Alice (`alice@acme.com`) and Bob (`bob@acme.com`) each magic-link
-sign up. Two separate `app_user` rows, two separate sets of keys,
-no connection. Each is on the free tier individually.
+The mechanism: every signup is bucketed into an `org` row at
+creation time. The bucketing rule:
 
-This is fine for early stage. A small team experimenting with the
-API does not need org-level coordination on day 1. Scenario A is
-the **default** and Phase 6 ships in this state.
+| Signup email | Bucket |
+|---|---|
+| `alice@acme.com` (corporate domain) | Auto-created or existing `acme.com` org |
+| `bob@acme.com` (same domain, later) | Joins existing `acme.com` org automatically |
+| `personal@gmail.com` (free email) | Per-user "personal" org keyed to that email |
+| `me@yahoo.com` (free email) | Per-user "personal" org keyed to that email |
 
-**Scenario B: Manual org claim by one user.**
-Acme's CTO contacts the team (or clicks "Set up team account" on
-the dashboard once that ships). Backend creates an `org` row,
-links CTO's `app_user` to it as `role='admin'`, generates an
-invite link for Alice and Bob. They click, their `app_user` rows
-get `org_id` set. Org admin can now see all three sets of keys
-in a `/developers/team` view, and the org carries the billing
-relationship.
-
-This requires an `org` table:
+Schema (added in Phase 6, enforced from day 1):
 
 ```sql
 CREATE TABLE org (
     id UUID PRIMARY KEY,
     name TEXT NOT NULL,
-    domain TEXT,                    -- 'acme.com'
-    tier TEXT DEFAULT 'free',       -- 'free' / 'pro' / 'enterprise'
+    domain TEXT UNIQUE,                  -- 'acme.com' for corp, NULL for personal
+    kind TEXT NOT NULL DEFAULT 'corporate',  -- 'corporate' | 'personal'
+    tier TEXT NOT NULL DEFAULT 'free',   -- 'free' / 'pro' / 'enterprise'
+    rate_limit_pool_per_minute INT NOT NULL DEFAULT 1000,
     stripe_customer_id TEXT UNIQUE,
-    zitadel_org_id TEXT UNIQUE,     -- populated by Phase 2 linker
+    zitadel_org_id TEXT UNIQUE,          -- populated by Phase 2 linker
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
 ALTER TABLE app_user
-    ADD COLUMN org_id UUID REFERENCES org(id),
+    ADD COLUMN org_id UUID REFERENCES org(id) NOT NULL,
     ADD COLUMN role TEXT DEFAULT 'member';   -- 'admin' / 'member'
 ```
 
-Add this table to the **Phase 6 schema** even though no rows exist
-on day 1. Same rationale as `zitadel_sub`: free to add now, costly
-to retrofit. Org-related UI ships in a later PR (Phase 8) when
-demand justifies it.
+`app_user.org_id` is **NOT NULL** from day 1. Every user belongs
+to exactly one org. The `org.kind` column distinguishes corporate
+orgs (multiple users, shared rate limit) from personal orgs (one
+user per org, behaves like an individual account).
 
-**Scenario C: Domain-claim auto-join.**
-After Acme has an `org` row with `domain='acme.com'`, future signups
-from `*@acme.com` see a prompt: "Acme already has a portfolio
-account. Join the team?" Defaults to opt-in (manual click). If the
-org admin has set "Auto-add domain matches", new users join
-automatically.
-
-The domain match is a heuristic, not a security boundary - personal
-emails (gmail.com, outlook.com, hotmail.com, etc.) are excluded
-from auto-join. Keep a list of free-email domains either inline or
-via a small public dataset; ~30 lines of code.
-
-**Scenario D: Zitadel-driven org membership (post-Phase 2).**
-When Zitadel arrives, Acme can claim `acme.com` in Zitadel and run
-SAML SSO. Every Zitadel sign-in from an `@acme.com` email carries
-an `org_id` claim in the JWT. The Phase 2 linker:
-
-1. Reads `org_id` from the Zitadel JWT.
-2. `SELECT id FROM org WHERE zitadel_org_id = $1`. On miss, INSERT
-   a new `org` row keyed to the Zitadel org.
-3. UPDATE `app_user` SET `org_id`, `role` based on Zitadel
-   membership.
-
-This makes Zitadel the source of truth for org structure. Magic-link
-signups still create individual `app_user` rows (org_id=NULL); they
-can be invited into an org manually or auto-promoted when their
-domain matches a Zitadel-claimed org.
-
-### What rate limits and entitlements mean across users
-
-Rate limits and tier entitlements live on the **org** when one
-exists, otherwise on the **user**:
+### Signup logic (Phase 6)
 
 ```python
-def effective_tier(user: AppUser) -> str:
-    if user.org_id:
-        return user.org.tier         # team plan covers all members
-    return user.tier or 'free'       # individual plan
+def signup_or_link(email: str) -> AppUser:
+    domain = email.split("@", 1)[1].lower()
+
+    # 1. Free-email domain -> personal org, one per email.
+    if domain in FREE_EMAIL_DOMAINS:    # gmail, yahoo, hotmail, proton, ...
+        org = await _find_or_create_personal_org(email)
+        return await _create_app_user(email, org_id=org.id, role="admin")
+
+    # 2. Corporate domain -> shared org for that domain.
+    org = await _find_org_by_domain(domain)
+    if org is None:
+        org = await _create_corporate_org(domain)
+        # First signup for the domain becomes admin.
+        return await _create_app_user(email, org_id=org.id, role="admin")
+    # Subsequent signups join as members.
+    return await _create_app_user(email, org_id=org.id, role="member")
 ```
 
-Concrete consequences:
+`FREE_EMAIL_DOMAINS` is a static set kept in code (publicly
+maintained lists exist; ~6,000 entries). Update quarterly via a
+script that diffs against the upstream list.
 
-- **Free, individual users**: 1,000 req/min per user. Two Acme devs
-  on free individual accounts get 1,000 each (2,000 total). No
-  pooling.
-- **Team plan (org tier='pro')**: rate limit configured per org,
-  shared across members. The plan defines a pool (e.g., 10,000
-  req/min); calls from any team member draw from it. Member-level
-  limits (e.g., "Bob can only use 30% of the pool") are a Permit.io
-  policy on top, not a rate-limit primitive.
-- **Enterprise**: same as Pro, plus cross-product entitlements
-  ("Acme's enterprise seat on WoT grants read-only on WoO") via
-  Permit.io.
+### Rate limits (org-level always)
 
-### Open question: free-email auto-org behavior
+```python
+def rate_limit(user: AppUser) -> int:
+    return user.org.rate_limit_pool_per_minute
+```
 
-Decision deferred until first complaint:
+Concrete consequences with this design:
 
-- **Permissive default**: any email domain can be claimed as an
-  org domain. A coffee shop named "Tom's Coffee" using `@tomscoffee.com`
-  benefits the same as Acme.
-- **Strict default**: free-email domains (gmail, yahoo, hotmail,
-  proton, icloud, outlook) cannot be org domains. Forces a real
-  business email for org features.
+- **Corporate org, free tier**: 1,000 req/min pool **shared** across
+  every employee at that domain. Two Acme devs each making 600
+  req/min = 1,200/min total = throttled. Closes the per-user-times-N
+  bypass.
+- **Personal org, free tier**: 1,000 req/min for the single user
+  in that org. Identical to "individual free tier" UX-wise.
+- **Corporate org, pro tier**: pool grows to 10,000 req/min,
+  shared across members. Pro plans pay for capacity, not per-seat.
+- **Corporate org, enterprise tier**: configurable pool plus
+  Permit.io cross-product entitlements.
 
-Default to permissive. If the strict version becomes necessary
-(spam, abuse, fraud), one config change.
+The rate-limit middleware keys on `org_id`, not `user_id`. A token
+bucket per org sits in Redis (or in-process LRU until traffic
+warrants Redis); each request decrements the bucket regardless of
+which member's key was used.
+
+### Why `kind='personal'` exists at all
+
+It would be simpler to skip it and just have one `org` row per
+domain (including `gmail.com`, etc.). That breaks because:
+
+- Gmail has hundreds of millions of users; a single `gmail.com`
+  org with one shared 1,000 req/min pool would be unusable. Two
+  unrelated devs both signing up with `@gmail.com` would interfere
+  with each other.
+- Personal orgs preserve the "individual free tier" feel for
+  hobbyists and indie devs, while corporate orgs enforce the
+  per-company pool.
+
+The split is a clean two-line change in `signup_or_link()`; there
+is no policy or UI difference between corporate and personal orgs
+beyond the bucketing rule and the visibility of "team" features
+(personal orgs hide the team UI in Phase 8).
+
+### Edge cases and how they resolve
+
+| Edge case | Handling |
+|---|---|
+| Two unrelated companies share a custom domain provider (e.g., both use a shared `@startupincubator.io` email service). | Rare. They'll share a rate-limit pool and find each other on the team page. Solution if it happens: org admin contacts support; we manually split the org into two, reassign users by `app_user.email`. ~10 minutes of admin work, not common enough to build UI for. |
+| Someone wants their `@acme.com` email but a personal-tier rate limit (e.g., experimenting on the side without affecting the company pool). | They use a personal email instead, or admin enables per-member sub-limits inside the corp pool (Phase 8 feature). |
+| Free-email-domain list is incomplete. A signup from a personal-email service we have not classified ends up in a "corporate" org. | Quarterly list refresh. If it's the only user at that domain, the org is effectively personal anyway. |
+| User wants to switch their account from `personal@gmail.com` (personal org) to `me@acme.com` (acme corp org). | Standard "merge accounts" flow: acme admin invites the user, user accepts via verification email, app_user moves to the acme org, personal org is closed if it has no members left. Phase 8. |
+
+### Zitadel-driven org membership (post-Phase 2)
+
+When Zitadel ships, Acme can claim `acme.com` in Zitadel and run
+SAML SSO. The Phase 2 linker now also reconciles `org`:
+
+1. Reads `org_id` from the Zitadel JWT (provided when Acme has
+   claimed the domain).
+2. Looks up the corresponding local `org` row by `zitadel_org_id`.
+3. On hit: ensures `app_user.org_id` matches; updates if different.
+4. On miss: this is the first Zitadel-driven login for the org;
+   either link to the existing domain-bucketed org row (set
+   `org.zitadel_org_id`) or create a new org if no domain match
+   exists.
+
+Magic-link signups continue to bucket by domain as before. The two
+mechanisms produce the same `org` row when the domain matches; the
+Zitadel `org_id` claim is authoritative when present, otherwise
+the email-domain rule applies.
 
 ### Phase 6 - developer key issuance and lifecycle (1 PR, ~1.5 days)
 
@@ -429,9 +454,11 @@ Files added:
 Files changed:
 
 - `world_of_taxonomy/schema_auth.sql` - add scope/expiry/audit
-  columns on `api_key`. Add `org` table (empty on day 1, ready for
-  Scenario B in "Multi-user from the same company domain"). Add
-  `org_id`, `role`, `zitadel_sub` columns on `app_user`.
+  columns on `api_key`. Add `org` table (with `kind`, `tier`,
+  `domain UNIQUE`, `rate_limit_pool_per_minute`). Add NOT NULL
+  `org_id`, plus `role`, `zitadel_sub` columns on `app_user`.
+  Migration backfills existing users into per-user personal orgs
+  by email so the NOT NULL constraint can apply to the table.
 - `world_of_taxonomy/api/middleware.py` - validate keys with scope
   check; on 401 / 429 return JSON pointing at `/developers`.
 - `world_of_taxonomy/api/deps.py` - new `require_scope("wot:read")`
@@ -501,10 +528,11 @@ scope registry. Estimated 4 hours, not 4 days.
 
 ### Phase 8 - team / org management UI (1 PR, ~2 days, do this when first customer asks)
 
-Triggered by: a customer with multiple developers asking "how do
-we share a billing relationship and a rate-limit pool?" Until then
-the `org` table sits empty and Scenario A (independent signups)
-covers everyone.
+Triggered by: a customer asking "how do I see and manage my
+team's keys?" The org enforcement (rate-limit pool, billing
+attachment) is already live from Phase 6 - what is missing is
+the UI to list members, invite new ones, manage roles, and view
+team-wide usage.
 
 When triggered:
 
@@ -816,7 +844,7 @@ For each phase, the rollback is one revert away:
 | 6 | Disable the `/developers` route + revert middleware to coarse-tier check | API stays available; key issuance pauses. Revoked keys stay revoked (DB-side, no rollback path needed). |
 | 6.5 | Hide the "Sign in with portfolio SSO" button on `/developers` | Magic-link sign-in continues unchanged; SSO option simply disappears. |
 | 7 | `KEY_SERVICE_URL=` (empty) | Middleware falls back to local DB lookup against the original WoT keys table (kept as safety net for one release cycle post-extraction). |
-| 8 | Hide the `/developers/team` route | Existing org rows remain in the DB but become invisible. Members still authenticate; rate limits fall back to individual tier (effective_tier returns user.tier when org_id is set but org row is hidden). |
+| 8 | Hide the `/developers/team` route | Existing org rows remain in the DB and continue to enforce rate limits (org enforcement is wired in Phase 6). Members still authenticate. Only the team UI disappears; throttling is unaffected. |
 
 Never roll back by deleting the `app_user.zitadel_sub` column. The
 column being populated for some users is harmless; deleting it loses
