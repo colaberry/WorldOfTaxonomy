@@ -2,7 +2,7 @@
 
 Generated automatically. Total rows in DB: 1,212,486.
 
-**Aggregate**: 793,230 populated / 1,212,486 total = **65.42% coverage** across 1000 systems.
+**Aggregate**: 796,763 populated / 1,212,486 total = **65.71% coverage** across 1000 systems.
 
 | system_id | name | total | populated | empty | coverage |
 |---|---|---:|---:|---:|---:|
@@ -801,7 +801,7 @@ Generated automatically. Total rows in DB: 1,212,486.
 | pacs | Physics and Astronomy Classification System (PACS 2010) | 70 | 70 | 0 | 100.0% |
 | pain_scale | Numeric Pain Rating Scale Categories | 12 | 12 | 0 | 100.0% |
 | pantone_families | Pantone Color System Families | 12 | 12 | 0 | 100.0% |
-| patent_cpc | Cooperative Patent Classification - EPO/USPTO | 254,249 | 43,010 | 211,239 | 16.9% |
+| patent_cpc | Cooperative Patent Classification - EPO/USPTO | 254,249 | 46,543 | 207,706 | 18.3% |
 | pci_sig | PCI-SIG Specification Categories | 14 | 0 | 14 | 0.0% |
 | periodic_table | Periodic Table Element Groups | 18 | 18 | 0 | 100.0% |
 | pkd_2007 | Polska Klasyfikacja Dzialalnosci 2007 | 996 | 996 | 0 | 100.0% |
