@@ -86,6 +86,217 @@ The eventual migration:
 About 1 hour of work plus one cycle of "everyone re-logs in." Not
 painful, just deliberate.
 
+## Developer key model (centralized, scoped, portable)
+
+Zitadel handles **end-user identity** (logging into a dashboard,
+signing in with Google, MFA, SAML). It is not the right home for
+**developer API keys** — the long-lived bearer tokens devs paste
+into `.env` files, MCP configs, and CI runners. Those live in their
+own subsystem. This section locks in three architecture decisions
+that affect Phase 2 schema, Phase 3 frontend, and the eventual
+portfolio extraction.
+
+### Decision 1: one developer account spans the portfolio
+
+A single `app_user` row covers WoT, WoO, WoUC, WoA. Developers see
+one signup, one dashboard, one billing relationship. The schema
+deliberately does **not** carry a `product_id` column on
+`app_user` or `api_key`; product entitlement is expressed through
+key scopes (decision 2). This is the same pattern as a Stripe
+account (one customer, multiple restricted keys per product) or an
+AWS account (one root, scoped IAM access keys).
+
+Sign-up at `/developers` creates the portfolio account regardless
+of which product the developer arrived from. The flow does not
+change as new products launch; only the available scope options
+expand.
+
+### Decision 2: keys carry an array of scopes
+
+```sql
+CREATE TABLE api_key (
+    id UUID PRIMARY KEY,
+    user_id UUID REFERENCES app_user(id),
+    key_hash TEXT NOT NULL,
+    key_prefix TEXT NOT NULL,                  -- prefix-indexed lookup
+    name TEXT,                                 -- "MCP on laptop", "CI runner"
+    scopes TEXT[] NOT NULL,                    -- e.g. ['wot:read','wot:export']
+    revoked_at TIMESTAMPTZ,
+    revoked_reason TEXT,
+    last_used_at TIMESTAMPTZ,
+    expires_at TIMESTAMPTZ,                    -- optional TTL
+    created_at TIMESTAMPTZ DEFAULT NOW()
+);
+CREATE INDEX idx_api_key_prefix ON api_key (key_prefix)
+    WHERE revoked_at IS NULL;
+```
+
+Scopes are formatted `<product>:<action>`:
+
+| Scope         | Meaning |
+|---|---|
+| `wot:read`    | Read taxonomy systems, nodes, equivalences |
+| `wot:list`    | List endpoints (search, browse) |
+| `wot:export`  | Bulk crosswalk / equivalence dumps (pro tier) |
+| `wot:classify`| Submit text to /classify endpoint |
+| `wot:admin`   | Admin-only endpoints |
+| `woo:*`       | Same shape on WorldOfOntology when it ships |
+| `wouc:*`      | Same shape on WorldOfUseCases |
+| `woa:*`       | Same shape on WorldOfAgents |
+
+A developer can request whichever combination they need:
+
+- **Maximum convenience**: one key with `['wot:*','woo:*','wouc:*','woa:*']`. Works everywhere.
+- **Minimum blast radius**: separate keys per product, e.g., one with `['wot:read','wot:list']`, another with `['woo:read']`. Compromise of one only affects that product.
+- **Compliance-driven isolation**: developers whose internal rules require strict separation use product-scoped keys. The schema and audit log treat them as fully independent credentials; rotating, revoking, or auditing one has no effect on others. From the developer's perspective they look like four separate API keys, even though one `app_user` row owns them all.
+
+### Decision 3: the key prefix encodes the scope
+
+Stripe uses `sk_live_*` (live secret) vs `rk_live_*` (restricted live)
+vs `pk_live_*` (publishable). GitHub uses `ghp_*` for personal,
+`gho_*` for OAuth, `ghs_*` for server. The prefix is a visual
+signal that helps with leak detection, log auditing, and
+"why-is-this-key-where" investigations.
+
+We follow the same pattern, derived from the scope at issuance:
+
+| Scope contents | Prefix | Example |
+|---|---|---|
+| Single product, all actions on that product | `wot_`, `woo_`, `wouc_`, `woa_` | `wot_a3f2c5d9...x4z1` |
+| Single product, restricted actions | `rwot_`, `rwoo_`, etc. | `rwot_a3f2c5...x4z1` |
+| Multiple products | `aix_` | `aix_a3f2c5d9...x4z1` |
+
+Three reasons this matters more than a flat `aix_` everywhere:
+
+1. **Leak triage.** A `wot_` key in a public commit tells the
+   secret-scanning team it only affects WoT. A flat `aix_` would
+   force "assume worst case, revoke all access until investigated."
+2. **Misconfiguration spotting.** A reviewer scanning `.env.production`
+   for "the WoT key" greps `wot_` and finds it. With universal
+   prefixes they have to look up the key in the dashboard.
+3. **Industry expectation.** Developers who have used Stripe,
+   GitHub, or AWS keys read prefixes as signals. Following the
+   pattern makes WoT feel professional.
+
+The prefix is computed at issuance time from the requested scopes;
+it is not a separate user choice. If you ask for `['wot:read']`,
+you get `wot_` (or `rwot_` if it's a strict subset of full WoT).
+If you ask for cross-product, you get `aix_`.
+
+### Decision 4: build inside WoT now, extract before WoO ships
+
+The keys subsystem is small enough to build inside the WoT
+codebase today (~1.5 days, see Phase 6 below). When WoO is 2-4
+weeks from launch, extract it to a standalone service at
+`developer.aixcelerator.ai` with its own Postgres database
+(~2 days migration). WoT and WoO both call the central service
+to validate keys; each caches per-key results for 60 seconds to
+avoid round-tripping every request.
+
+The portable design above is the contract that survives extraction:
+
+- Tables move databases, schema does not change.
+- Validation interface goes from "local SQL lookup" to "HTTP
+  `POST /v1/keys/validate { prefix, key, required_scope }`" — same
+  inputs, same outputs.
+- Migration script copies `app_user` and `api_key` rows once;
+  during cutover both WoT and the new central service accept
+  validations from either source for ~24 hours.
+
+This avoids two anti-patterns:
+
+- Building a centralized service before there is a second consumer
+  (you guess the wrong abstractions).
+- Designing keys product-scoped from day 1 and rebuilding the auth
+  surface when the second product arrives.
+
+### Phase 6 - developer key issuance and lifecycle (1 PR, ~1.5 days)
+
+This phase ships the user-facing key system. Independent of the
+Zitadel migration; can ship before, during, or after Phase 1-5.
+
+Files added:
+
+- `world_of_taxonomy/auth/keys.py` - issuance, hashing, scope check.
+- `world_of_taxonomy/auth/magic_link.py` - one-time-token email auth
+  for `/developers/keys` (no password, same pattern as Vercel /
+  Linear / Notion sign-in).
+- `world_of_taxonomy/api/routers/developers.py` - `/api/v1/keys`
+  CRUD endpoints, magic-link routes.
+- `frontend/src/app/developers/page.tsx` - landing + signup.
+- `frontend/src/app/developers/keys/page.tsx` - list / create / revoke.
+- `frontend/src/app/auth/magic/page.tsx` - magic-link callback.
+
+Files changed:
+
+- `world_of_taxonomy/schema_auth.sql` - add scope/expiry/audit columns.
+- `world_of_taxonomy/api/middleware.py` - validate keys with scope
+  check; on 401 / 429 return JSON pointing at `/developers`.
+- `world_of_taxonomy/api/deps.py` - new `require_scope("wot:read")`
+  dependency factory. Replaces ad-hoc auth checks per route.
+
+Email integration:
+
+- Resend (or Postmark / SES) account, transactional templates:
+  - "Your WorldOfTaxonomy API key" - issued on signup
+  - "Sign in to manage your keys" - magic link
+  - "Key wot_xxx... was just revoked" - revocation receipt
+  - "Key expires in 14 days" - rotation reminder
+- API key: `RESEND_API_KEY` in GCP Secret Manager.
+
+Verification gate:
+
+- `pytest tests/test_keys.py -v` covers: prefix derivation, scope
+  validation, revocation, expiry, magic-link round-trip.
+- Manual: signup at `/developers` -> key arrives in inbox -> key
+  works on `/api/v1/systems/naics_2022` -> revoke from dashboard ->
+  key returns 401 on next call within ~2 seconds (cache TTL).
+- Anonymous calls hitting protected endpoints return:
+  ```json
+  {
+    "error": "missing_api_key",
+    "message": "API key required. Get a free key at https://worldoftaxonomy.com/developers",
+    "anonymous_rate_limit": "30 req/min on public reads"
+  }
+  ```
+  with `WWW-Authenticate: ApiKey` and a `Link: <...>; rel="signup"` header.
+
+### Phase 7 - extract to developer.aixcelerator.ai (1 PR, ~2 days, do this when WoO is in flight)
+
+Triggered by: WoO launch <= 4 weeks away, or third-party developer
+asks for a single key across products, whichever comes first.
+
+Steps:
+
+1. Create new repo `aixcelerator-developer` (FastAPI + Next.js).
+   Lift `world_of_taxonomy/auth/keys.py` and the `/developers`
+   frontend pages out of WoT into the new repo. Code is
+   substantially the same; only the package path changes.
+2. Provision Postgres for the new service. Define migration
+   `0001_initial.sql` that creates `app_user` and `api_key` tables
+   with the same shape WoT has.
+3. Deploy to Cloud Run at `developer.aixcelerator.ai`.
+4. Add `POST /v1/keys/validate` endpoint that takes `{ prefix, key,
+   required_scope }` and returns `{ allow: bool, user_id, key_id, scopes }`.
+5. In WoT, replace the local DB lookup in `world_of_taxonomy/api/middleware.py`
+   with an HTTP call to the central service. Cache the result per
+   key for 60 seconds (in-process LRU; do not use Redis until usage
+   patterns warrant it).
+6. Migrate existing WoT keys: copy `app_user` + `api_key` rows from
+   WoT's database into the central database, preserving UUIDs.
+   Do this during a maintenance window with WoT's auth in
+   read-only-cache mode (validate against in-memory cache only,
+   reject revocations) for ~5 minutes during the copy.
+7. Cutover env var: `KEY_SERVICE_URL=https://developer.aixcelerator.ai`.
+8. Watch for 48 hours. If anything breaks, rollback is a single env
+   var revert; the local WoT keys table remains as a safety net for
+   one full release cycle, then drops in a follow-up PR.
+
+What WoO does on day 1: clones WoT's middleware integration, sets
+its own `KEY_SERVICE_URL` to the same central service, defines its
+own scopes (`woo:read`, `woo:export`, etc.) inside the central
+scope registry. Estimated 4 hours, not 4 days.
+
 ## Phase 1 - backend Zitadel verification (1 PR, ~1 day)
 
 **Goal**: every API request that today calls
@@ -352,6 +563,8 @@ For each phase, the rollback is one revert away:
 | 3 | Roll back the frontend deploy | Old login / register pages return; no backend change required. |
 | 4 | Remove the `Depends(require_permit(...))` from each route | Authz decisions go back to coarse "authenticated y/n." |
 | 5 | Set `AUTH_MODE=local` | Same as Phase 1 rollback. |
+| 6 | Disable the `/developers` route + revert middleware to coarse-tier check | API stays available; key issuance pauses. Revoked keys stay revoked (DB-side, no rollback path needed). |
+| 7 | `KEY_SERVICE_URL=` (empty) | Middleware falls back to local DB lookup against the original WoT keys table (kept as safety net for one release cycle post-extraction). |
 
 Never roll back by deleting the `app_user.zitadel_sub` column. The
 column being populated for some users is harmless; deleting it loses
@@ -366,8 +579,40 @@ the link and forces re-onboarding.
 - Phase 4: 2 days.
 - Phase 5: half a day to flip + 48 hours of monitoring before the
   legacy-code deletion follow-up.
+- Phase 6: 1.5 days. Independent of Phase 1-5; can ship before
+  Zitadel arrives. **This is the API/MCP gate for launch.**
+- Phase 7: 2 days. Triggered by WoO launch <= 4 weeks away or first
+  customer asking for cross-product keys.
 
-Wall-clock: about a calendar week with one engineer, fully focused.
-Worth doing as a single concentrated push rather than spread over a
-month - the schema migration in Phase 2 and the cutover in Phase 5
-are easier when Phase 1 is fresh in everyone's head.
+Wall-clock for the Zitadel migration (Phase 1-5): about a calendar
+week with one engineer, fully focused. Worth doing as a single
+concentrated push rather than spread over a month - the schema
+migration in Phase 2 and the cutover in Phase 5 are easier when
+Phase 1 is fresh in everyone's head.
+
+Wall-clock for the developer-key system (Phase 6): 1.5 days, ships
+the API/MCP launch gate. Phase 7 (extraction to
+`developer.aixcelerator.ai`) is deferred until WoO is in flight; do
+not pre-build it.
+
+Recommended sequence if launching WoT before Zitadel migration:
+
+```
+Phase 6 (key system in WoT)         -> ships API + MCP gate
+[launch WoT publicly]
+[customer feedback, validate demand]
+Phase 0-5 (Zitadel + Permit.io)     -> when first paying customer or WoO is on the calendar
+Phase 7 (extract key service)       -> when WoO is 2-4 weeks from launch
+```
+
+Recommended sequence if Zitadel migration ships before WoT goes
+public:
+
+```
+Phase 6 (key system in WoT)         -> ships first regardless; this is the gate
+Phase 0-5 (Zitadel + Permit.io)     -> in parallel or immediately after
+Phase 7 (extract key service)       -> deferred to WoO timing
+```
+
+Either way, Phase 6 ships first. The key system is the launch
+gate; everything else is portfolio prep.
