@@ -165,9 +165,16 @@ async def _verify(
                         title=title,
                         candidate=candidate,
                     ),
+                    # Verification is a yes/no/uncertain classification
+                    # task; a smaller model can handle it. Override via
+                    # VERIFIER_MODEL env var (e.g. "gpt-oss:20b") to
+                    # get ~2x throughput by skipping the heavy
+                    # 120b reasoning budget on the verifier hop.
+                    model=os.environ.get("VERIFIER_MODEL") or None,
                     # gpt-oss:120b consumes a chunk of the budget on
                     # internal reasoning before emitting the verdict;
-                    # 20 tokens gets truncated to empty.
+                    # 20 tokens gets truncated to empty. 200 tokens
+                    # gives any model enough room.
                     max_tokens=200,
                     temperature=0.0,
                     timeout=45.0,
