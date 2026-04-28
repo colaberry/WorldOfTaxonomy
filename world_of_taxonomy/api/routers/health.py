@@ -3,9 +3,10 @@
 from __future__ import annotations
 
 import os
+import secrets
 import time
 
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import JSONResponse
 
 router = APIRouter()
@@ -63,4 +64,39 @@ async def version() -> JSONResponse:
             "git_sha": _GIT_SHA,
             "build_time": _BUILD_TIME,
         }
+    )
+
+
+@router.post("/api/v1/_internal/sentry-test", tags=["internal"])
+async def sentry_test(request: Request) -> JSONResponse:
+    """Throw a deliberate exception so the operator can verify Sentry
+    is wired up and receiving events.
+
+    Gated three ways:
+      1. Disabled unless SENTRY_TEST_TOKEN is set in the environment.
+      2. Caller must present that token via the X-Sentry-Test-Token header.
+      3. Comparison is constant-time to avoid token-leak via timing.
+
+    On a successful auth, raises a fresh exception type so it shows up
+    cleanly in the Sentry inbox without polluting real error groupings.
+    Returns the request_id so the operator can correlate the Sentry
+    event with the access log.
+    """
+    expected = os.getenv("SENTRY_TEST_TOKEN", "").strip()
+    if not expected:
+        raise HTTPException(status_code=404, detail="Not found")
+
+    presented = request.headers.get("X-Sentry-Test-Token", "")
+    if not secrets.compare_digest(presented, expected):
+        raise HTTPException(status_code=403, detail="Forbidden")
+
+    request_id = getattr(request.state, "request_id", "n/a")
+
+    class SentryWiringSmoke(RuntimeError):
+        """Deliberate exception emitted by /api/v1/_internal/sentry-test
+        so operators can confirm Sentry plumbing without polluting
+        real error-grouping in production."""
+
+    raise SentryWiringSmoke(
+        f"Deliberate Sentry wiring test (request_id={request_id})"
     )
