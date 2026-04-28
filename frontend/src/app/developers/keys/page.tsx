@@ -23,7 +23,14 @@ const SCOPE_PRESETS: { label: string; scopes: string[] }[] = [
   { label: 'WoT classify only', scopes: ['wot:classify'] },
 ]
 
+type AuthState = 'checking' | 'authed' | 'anon'
+
 export default function KeysDashboardPage() {
+  // The form, the listing, and every interactive control on this
+  // page must be gated on a confirmed session. We check the cookie
+  // via /api/v1/auth/me FIRST and only render the dashboard once
+  // we have a 200; on 401 we redirect to /sign-in immediately.
+  const [authState, setAuthState] = useState<AuthState>('checking')
   const [keys, setKeys] = useState<KeyMetadata[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -40,6 +47,7 @@ export default function KeysDashboardPage() {
         credentials: 'include',
       })
       if (res.status === 401) {
+        setAuthState('anon')
         window.location.replace('/sign-in?next=/developers/keys')
         return
       }
@@ -55,7 +63,31 @@ export default function KeysDashboardPage() {
   }
 
   useEffect(() => {
-    refresh()
+    let cancelled = false
+    async function gate() {
+      try {
+        const res = await fetch('/api/v1/auth/me', { credentials: 'include' })
+        if (cancelled) return
+        if (res.status === 401) {
+          setAuthState('anon')
+          window.location.replace('/sign-in?next=/developers/keys')
+          return
+        }
+        if (!res.ok) {
+          throw new Error(`auth check failed (${res.status})`)
+        }
+        setAuthState('authed')
+        await refresh()
+      } catch (err) {
+        if (cancelled) return
+        setAuthState('anon')
+        window.location.replace('/sign-in?next=/developers/keys')
+      }
+    }
+    gate()
+    return () => {
+      cancelled = true
+    }
   }, [])
 
   async function handleCreate(event: React.FormEvent<HTMLFormElement>) {
@@ -101,6 +133,23 @@ export default function KeysDashboardPage() {
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Unknown error')
     }
+  }
+
+  // Don't render any of the interactive surface until we have a
+  // confirmed session. While checking, show a neutral placeholder.
+  // While redirecting (anon), show the same placeholder so the form
+  // never flashes on screen.
+  if (authState !== 'authed') {
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-12 space-y-4">
+        <h1 className="text-3xl font-semibold">API keys</h1>
+        <p className="text-muted-foreground">
+          {authState === 'checking'
+            ? 'Checking your session...'
+            : 'Redirecting you to sign in...'}
+        </p>
+      </div>
+    )
   }
 
   return (
