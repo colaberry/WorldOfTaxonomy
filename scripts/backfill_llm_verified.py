@@ -137,7 +137,14 @@ async def _generate(
                         title=title,
                         parent_context=parent_context,
                     ),
-                    max_tokens=400,
+                    # gpt-oss models route chain-of-thought into a hidden
+                    # `reasoning` field that consumes tokens before any
+                    # visible content is emitted. With 400 tokens, ~6% of
+                    # fresh rows finish reasoning with zero visible bytes
+                    # and the sanitizer emits an empty candidate.
+                    # 1200 gives reasoning room without inflating cost
+                    # meaningfully. Verified on patent_cpc bench 2026-04-28.
+                    max_tokens=1200,
                     temperature=0.2 if attempt > 0 else 0.0,
                     timeout=60.0,
                 )
@@ -199,7 +206,7 @@ async def _verify(
 
 
 async def _run_one_system(
-    conn,
+    pool: "asyncpg.Pool",
     *,
     system_id: str,
     sem: asyncio.Semaphore,
@@ -207,21 +214,22 @@ async def _run_one_system(
     limit: int,
     dry_run: bool,
 ) -> Tuple[int, int, int]:
-    sys_meta = await conn.fetchrow(
-        "SELECT full_name, name FROM classification_system WHERE id = $1",
-        system_id,
-    )
-    if not sys_meta:
-        print(f"  {system_id}: not in DB", file=sys.stderr)
-        return (0, 0, 0)
-    system_name = sys_meta["full_name"] or sys_meta["name"] or system_id
+    async with pool.acquire() as conn:
+        sys_meta = await conn.fetchrow(
+            "SELECT full_name, name FROM classification_system WHERE id = $1",
+            system_id,
+        )
+        if not sys_meta:
+            print(f"  {system_id}: not in DB", file=sys.stderr)
+            return (0, 0, 0)
+        system_name = sys_meta["full_name"] or sys_meta["name"] or system_id
 
-    rows = await conn.fetch(
-        "SELECT code, title FROM classification_node "
-        "WHERE system_id = $1 AND (description IS NULL OR description = '') "
-        "ORDER BY code",
-        system_id,
-    )
+        rows = await conn.fetch(
+            "SELECT code, title FROM classification_node "
+            "WHERE system_id = $1 AND (description IS NULL OR description = '') "
+            "ORDER BY code",
+            system_id,
+        )
     if limit:
         rows = rows[:limit]
     if not rows:
@@ -261,11 +269,13 @@ async def _run_one_system(
         }
         if not apply_map:
             return 0
-        return await apply_descriptions(conn, system_id, apply_map)
+        async with pool.acquire() as flush_conn:
+            return await apply_descriptions(flush_conn, system_id, apply_map)
 
+    # Count cached rows once. Their verdicts are already final.
+    pending_rows: List[Dict[str, str]] = []
     for r in rows:
         code = r["code"]
-        title = r["title"] or ""
         if code in cached:
             v = cached[code]["verdict"]
             if v == "yes":
@@ -274,9 +284,20 @@ async def _run_one_system(
                 no_count += 1
             else:
                 uncertain_count += 1
-            continue
+        else:
+            pending_rows.append({"code": code, "title": r["title"] or ""})
 
-        parent_path = await _build_parent_path(conn, system_id, code)
+    # Concurrent processing: launch up to `concurrency` LLM-call rounds
+    # in flight simultaneously. The Semaphore inside _generate / _verify
+    # bounds the actual LLM-call concurrency. Without this gather, the
+    # for loop above awaited every row serially, making the
+    # --concurrency flag a no-op against the loop. Verified by direct
+    # measurement 2026-04-28.
+    cache_lock = asyncio.Lock()
+
+    async def _process_one(code: str, title: str) -> str:
+        async with pool.acquire() as row_conn:
+            parent_path = await _build_parent_path(row_conn, system_id, code)
         candidate = await _generate(
             sem,
             system_name=system_name,
@@ -285,26 +306,43 @@ async def _run_one_system(
             parent_context=parent_path,
         )
         if not candidate:
-            _append_cache(cache_path, code, "", "uncertain")
-            uncertain_count += 1
-            rows_since_last_flush += 1
-        else:
-            verdict = await _verify(
-                sem,
-                system_name=system_name,
-                code=code,
-                title=title,
-                candidate=candidate,
-            )
+            async with cache_lock:
+                _append_cache(cache_path, code, "", "uncertain")
+            return "uncertain"
+        verdict = await _verify(
+            sem,
+            system_name=system_name,
+            code=code,
+            title=title,
+            candidate=candidate,
+        )
+        async with cache_lock:
             _append_cache(cache_path, code, candidate, verdict)
-            if verdict == "yes":
+        return verdict
+
+    # Process in batches sized to the flush interval so the periodic
+    # flush + progress log fire at predictable intervals. Within each
+    # batch, asyncio.gather + Semaphore enforces the configured
+    # concurrency.
+    batch_size = max(flush_every, 50)
+    for batch_start in range(0, len(pending_rows), batch_size):
+        batch = pending_rows[batch_start:batch_start + batch_size]
+        verdicts = await asyncio.gather(
+            *[_process_one(r["code"], r["title"]) for r in batch]
+        )
+        for v in verdicts:
+            if v == "yes":
                 yes_count += 1
-            elif verdict == "no":
+            elif v == "no":
                 no_count += 1
             else:
                 uncertain_count += 1
-            rows_since_last_flush += 1
-
+        rows_since_last_flush += len(batch)
+        completed = yes_count + no_count + uncertain_count
+        print(
+            f"    progress: {completed:,} of {len(rows):,} "
+            f"(yes={yes_count:,} no={no_count:,} uncertain={uncertain_count:,})"
+        )
         if rows_since_last_flush >= flush_every:
             applied = await _flush_yes_to_db()
             print(
@@ -312,13 +350,6 @@ async def _run_one_system(
                 f"(after {rows_since_last_flush} new rows)"
             )
             rows_since_last_flush = 0
-
-        if (yes_count + no_count + uncertain_count) % 50 == 0:
-            total = yes_count + no_count + uncertain_count
-            print(
-                f"    progress: {total:,} of {len(rows):,} "
-                f"(yes={yes_count:,} no={no_count:,} uncertain={uncertain_count:,})"
-            )
 
     print(
         f"  {system_id} totals: yes={yes_count:,} no={no_count:,} "
@@ -335,7 +366,8 @@ async def _run_one_system(
         for code, rec in cached_after.items()
         if rec["verdict"] == "yes" and rec["candidate"]
     }
-    updated = await apply_descriptions(conn, system_id, apply_map)
+    async with pool.acquire() as apply_conn:
+        updated = await apply_descriptions(apply_conn, system_id, apply_map)
     print(f"    applied {updated:,} 'yes' rows to DB")
     return (yes_count, no_count, uncertain_count)
 
@@ -366,12 +398,22 @@ async def _run(
     print(f"Cache directory: {cache_root}")
     sem = asyncio.Semaphore(concurrency)
 
-    conn = await asyncpg.connect(database_url, statement_cache_size=0)
+    # Pool sized to concurrency + 2 (one for the bookkeeping coroutine
+    # that does sys_meta / rows fetch / periodic flush, one buffer).
+    # asyncpg single-connection cannot multiplex, so concurrent
+    # _build_parent_path lookups need their own connection each.
+    pool_size = max(concurrency + 2, 4)
+    pool = await asyncpg.create_pool(
+        database_url,
+        min_size=1,
+        max_size=pool_size,
+        statement_cache_size=0,
+    )
     try:
         total_y = total_n = total_u = 0
         for sid in systems:
             y, n, u = await _run_one_system(
-                conn,
+                pool,
                 system_id=sid,
                 sem=sem,
                 cache_root=cache_root,
@@ -389,7 +431,7 @@ async def _run(
             yes_rate = 100 * total_y / (total_y + total_n + total_u)
             print(f"  yes-rate: {yes_rate:.1f}%")
     finally:
-        await conn.close()
+        await pool.close()
     return 0
 
 
