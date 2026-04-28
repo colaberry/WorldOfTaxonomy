@@ -8,19 +8,51 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { ChevronDown, Globe, LogIn, LogOut, Sparkles, User } from 'lucide-react'
+import { ChevronDown, Globe, KeyRound, LogIn, LogOut, Sparkles, User } from 'lucide-react'
 import { ThemeToggle } from '@/components/ThemeToggle'
 import { getStoredUser, clearAuth, isLoggedIn } from '@/lib/auth'
 import type { StoredUser } from '@/lib/auth'
 
+interface SessionUser {
+  email: string
+  name?: string
+}
+
 export function Header() {
   const pathname = usePathname()
   const router   = useRouter()
-  const [user, setUser] = useState<StoredUser | null>(null)
+  const [user, setUser] = useState<SessionUser | null>(null)
 
   useEffect(() => {
-    setUser(isLoggedIn() ? getStoredUser() : null)
-  }, [pathname]) // re-check on every navigation
+    let cancelled = false
+
+    async function detectUser() {
+      // First check the magic-link session (httpOnly dev_session cookie).
+      // /api/v1/auth/me returns 200 + user record when signed in, 401 otherwise.
+      try {
+        const res = await fetch('/api/v1/auth/me', { credentials: 'include' })
+        if (res.ok) {
+          const body = await res.json()
+          if (!cancelled) {
+            setUser({ email: body.email, name: body.email.split('@')[0] })
+          }
+          return
+        }
+      } catch {
+        // Ignore network errors; fall through to legacy detection.
+      }
+      // Fallback: legacy localStorage token from the old /login flow.
+      // Eligible for removal once all users have migrated to magic-link.
+      if (!cancelled) {
+        setUser(isLoggedIn() ? (getStoredUser() as SessionUser | null) : null)
+      }
+    }
+
+    detectUser()
+    return () => {
+      cancelled = true
+    }
+  }, [pathname])
 
   const navItems = [
     { href: '/', label: 'Galaxy', active: pathname === '/' },
@@ -34,7 +66,17 @@ export function Header() {
     { href: '/pricing', label: 'Pricing', active: pathname === '/pricing' },
   ]
 
-  function handleSignOut() {
+  async function handleSignOut() {
+    // Clear both the magic-link cookie (server-side) and any legacy
+    // localStorage token. Either path could have signed the user in.
+    try {
+      await fetch('/api/v1/auth/sign-out', {
+        method: 'POST',
+        credentials: 'include',
+      })
+    } catch {
+      // Ignore; falling through to local cleanup is still useful.
+    }
     clearAuth()
     setUser(null)
     router.push('/')
@@ -93,6 +135,13 @@ export function Header() {
                   <p className="text-xs font-medium truncate">{user.name || 'Account'}</p>
                   <p className="text-[11px] text-muted-foreground truncate">{user.email}</p>
                 </div>
+                <Link
+                  href="/developers/keys"
+                  className="w-full flex items-center gap-2 px-3 py-1.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary/50 rounded transition-colors"
+                >
+                  <KeyRound className="h-3.5 w-3.5" />
+                  API keys
+                </Link>
                 <button
                   onClick={handleSignOut}
                   className="w-full flex items-center gap-2 px-3 py-1.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary/50 rounded transition-colors"
@@ -104,7 +153,7 @@ export function Header() {
             </DropdownMenu>
           ) : (
             <Link
-              href="/login"
+              href={`/sign-in${pathname && pathname !== '/' ? `?next=${encodeURIComponent(pathname)}` : ''}`}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
             >
               <LogIn className="h-3.5 w-3.5" />

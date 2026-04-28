@@ -70,6 +70,7 @@ _EMAIL_RE = __import__("re").compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 class SignupRequest(BaseModel):
     email: str
+    next: Optional[str] = None  # path to redirect to after magic-link callback
 
     @field_validator("email")
     @classmethod
@@ -77,6 +78,17 @@ class SignupRequest(BaseModel):
         v = v.strip().lower()
         if not _EMAIL_RE.match(v):
             raise ValueError("Invalid email")
+        return v
+
+    @field_validator("next")
+    @classmethod
+    def _safe_next(cls, v: Optional[str]) -> Optional[str]:
+        # Open-redirect guard: only same-origin paths starting with `/`,
+        # never `//` (protocol-relative) or anything containing a scheme.
+        if v is None or v == "":
+            return None
+        if not v.startswith("/") or v.startswith("//") or "\n" in v or "\r" in v:
+            return None
         return v
 
 
@@ -166,11 +178,20 @@ async def get_dev_session_user(
     status_code=202,
 )
 async def developers_signup(body: SignupRequest, conn=Depends(get_conn)):
-    """Idempotent signup. Creates the user + org if new, then emails a magic link."""
+    """Idempotent signup. Creates the user + org if new, then emails a magic link.
+
+    When `next` is supplied, it is propagated through the magic link as
+    a query string parameter, so /auth/magic-callback can hand it back
+    to the frontend for a same-origin redirect after sign-in. Defaults
+    to /developers/keys when absent (matches the original Phase 6 UX).
+    """
     user = await orgs.signup_or_link(conn, body.email)
     raw_token = await ml.mint_token(conn, user["id"])
+    next_path = body.next or "/developers/keys"
+    from urllib.parse import quote
     magic_link_url = (
         f"{_frontend_origin()}/auth/magic?t={raw_token}"
+        f"&next={quote(next_path, safe='/')}"
     )
     try:
         send_login_email(
@@ -194,9 +215,13 @@ async def developers_signup(body: SignupRequest, conn=Depends(get_conn)):
 async def auth_magic_callback(
     t: str,
     response: Response,
+    next: Optional[str] = None,
     conn=Depends(get_conn),
 ):
-    """Consume the magic-link token and set the dev_session cookie."""
+    """Consume the magic-link token, set the dev_session cookie, and
+    return the redirect target. `next` is sanitized: only same-origin
+    paths starting with `/` are honored; anything else falls back to
+    /developers/keys."""
     user = await ml.consume_token(conn, t)
     if user is None:
         raise HTTPException(
@@ -213,9 +238,39 @@ async def auth_magic_callback(
         samesite="lax",
         path="/",
     )
+
+    target = next or "/developers/keys"
+    if not target.startswith("/") or target.startswith("//") or "\n" in target or "\r" in target:
+        target = "/developers/keys"
+
     return {
         "detail": "Signed in",
-        "redirect": f"{_frontend_origin()}/developers/keys",
+        "redirect": f"{_frontend_origin()}{target}",
+    }
+
+
+@router.post("/api/v1/auth/sign-out")
+async def auth_sign_out(response: Response):
+    """Clear the dev_session cookie. Idempotent."""
+    response.delete_cookie(
+        _DEV_SESSION_COOKIE,
+        path="/",
+        samesite="lax",
+    )
+    return {"detail": "Signed out"}
+
+
+@router.get("/api/v1/auth/me")
+async def auth_me(user: dict = Depends(get_dev_session_user)):
+    """Return the current dev_session user. 401 when not signed in.
+
+    Used by the header to render "Signed in as ..." vs a Sign-in link.
+    """
+    return {
+        "id": str(user["id"]),
+        "email": user["email"],
+        "role": user["role"],
+        "org_id": str(user["org_id"]),
     }
 
 
