@@ -81,15 +81,49 @@ function SignInForm() {
       )}
 
       {status === 'sent' && (
-        <div className="space-y-3">
-          <p>Check your inbox for a sign-in link from us.</p>
-          {devLink && (
-            <p className="text-xs text-muted-foreground">
-              Dev mode link:{' '}
-              <a href={devLink} className="underline break-all">
-                {devLink}
+        <div className="space-y-4">
+          {devLink ? (
+            <div className="border border-amber-300 bg-amber-50 dark:bg-amber-950/30 rounded p-4 space-y-3">
+              <div className="flex items-center gap-2 text-sm font-medium text-amber-900 dark:text-amber-200">
+                <span aria-hidden="true">[dev mode]</span>
+                <span>No email server in this environment.</span>
+              </div>
+              <p className="text-sm text-amber-900/80 dark:text-amber-200/80">
+                In production a one-time sign-in link is emailed to you.
+                Here, click the button below to complete sign-in.
+              </p>
+              <a
+                href={devLink}
+                className="inline-flex items-center justify-center w-full px-3 py-2 rounded bg-foreground text-background font-medium hover:opacity-90 transition-opacity"
+              >
+                Sign in now (dev-mode magic link)
               </a>
-            </p>
+              <details className="text-xs text-muted-foreground">
+                <summary className="cursor-pointer">Or copy the URL</summary>
+                <code className="block mt-2 break-all bg-card border rounded px-2 py-1.5">
+                  {devLink}
+                </code>
+              </details>
+            </div>
+          ) : (
+            <div className="border rounded p-4 space-y-2">
+              <p className="font-medium">Check your inbox</p>
+              <p className="text-sm text-muted-foreground">
+                We sent a one-time sign-in link to <strong>{email}</strong>.
+                It expires in 15 minutes and works once.
+              </p>
+              <p className="text-xs text-muted-foreground">
+                No email after a minute or two? Check spam, or{' '}
+                <button
+                  type="button"
+                  className="underline hover:text-foreground"
+                  onClick={() => setStatus('idle')}
+                >
+                  try a different address
+                </button>
+                .
+              </p>
+            </div>
           )}
         </div>
       )}
