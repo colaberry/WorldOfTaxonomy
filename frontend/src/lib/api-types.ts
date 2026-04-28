@@ -840,6 +840,81 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/developers/signup": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Developers Signup
+         * @description Idempotent signup. Creates the user + org if new, then emails a magic link.
+         */
+        post: operations["developers_signup_api_v1_developers_signup_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/auth/magic-callback": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Auth Magic Callback
+         * @description Consume the magic-link token and set the dev_session cookie.
+         */
+        get: operations["auth_magic_callback_api_v1_auth_magic_callback_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/developers/keys": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** List Keys */
+        get: operations["list_keys_api_v1_developers_keys_get"];
+        put?: never;
+        /** Create Key */
+        post: operations["create_key_api_v1_developers_keys_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/developers/keys/{key_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        /** Revoke Key */
+        delete: operations["revoke_key_api_v1_developers_keys__key_id__delete"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/wiki": {
         parameters: {
             query?: never;
@@ -1235,6 +1310,15 @@ export interface components {
              */
             name: string;
         };
+        /** CreateKeyRequest */
+        CreateKeyRequest: {
+            /** Name */
+            name: string;
+            /** Scopes */
+            scopes?: string[];
+            /** Expires In Days */
+            expires_in_days?: number | null;
+        };
         /** CrosswalkEdge */
         CrosswalkEdge: {
             /** From */
@@ -1415,6 +1499,31 @@ export interface components {
             /** Detail */
             detail?: components["schemas"]["ValidationError"][];
         };
+        /** KeyCreatedResponse */
+        KeyCreatedResponse: {
+            /** Raw Key */
+            raw_key: string;
+            metadata: components["schemas"]["KeyMetadata"];
+        };
+        /** KeyMetadata */
+        KeyMetadata: {
+            /** Id */
+            id: string;
+            /** Name */
+            name: string;
+            /** Key Prefix */
+            key_prefix: string;
+            /** Scopes */
+            scopes: string[];
+            /** Created At */
+            created_at: string;
+            /** Expires At */
+            expires_at: string | null;
+            /** Last Used At */
+            last_used_at: string | null;
+            /** Revoked At */
+            revoked_at: string | null;
+        };
         /** LoginRequest */
         LoginRequest: {
             /** Email */
@@ -1500,6 +1609,18 @@ export interface components {
             global_standard_systems: string[];
             /** Candidate Systems */
             candidate_systems: string[];
+        };
+        /** SignupRequest */
+        SignupRequest: {
+            /** Email */
+            email: string;
+        };
+        /** SignupResponse */
+        SignupResponse: {
+            /** Detail */
+            detail: string;
+            /** Magic Link Url */
+            magic_link_url?: string | null;
         };
         /** SubtreeSummaryResponse */
         SubtreeSummaryResponse: {
@@ -2922,6 +3043,169 @@ export interface operations {
                 };
                 content: {
                     "application/json": unknown;
+                };
+            };
+        };
+    };
+    developers_signup_api_v1_developers_signup_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SignupRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            202: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SignupResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    auth_magic_callback_api_v1_auth_magic_callback_get: {
+        parameters: {
+            query: {
+                t: string;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": unknown;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    list_keys_api_v1_developers_keys_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: {
+                dev_session?: string | null;
+            };
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["KeyMetadata"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    create_key_api_v1_developers_keys_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: {
+                dev_session?: string | null;
+            };
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateKeyRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["KeyCreatedResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    revoke_key_api_v1_developers_keys__key_id__delete: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                key_id: string;
+            };
+            cookie?: {
+                dev_session?: string | null;
+            };
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": unknown;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
                 };
             };
         };
