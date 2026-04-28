@@ -24,6 +24,7 @@ from world_of_taxonomy.api.routers import classify_demo as classify_demo_router
 from world_of_taxonomy.api.routers import contact as contact_router
 from world_of_taxonomy.api.routers import mcp_http as mcp_http_router
 from world_of_taxonomy.api.routers import bulk_export as bulk_export_router
+from world_of_taxonomy.api.routers import developers as developers_router
 from world_of_taxonomy.api.routers import wiki as wiki_router
 from world_of_taxonomy.api.routers import health as health_router
 from world_of_taxonomy.api.middleware import (
@@ -369,6 +370,7 @@ def create_app() -> FastAPI:
     app.include_router(contact_router.router)
     app.include_router(mcp_http_router.router)
     app.include_router(bulk_export_router.router)
+    app.include_router(developers_router.router)
     app.include_router(wiki_router.router)
     app.include_router(health_router.router)
     app.include_router(metrics_router)

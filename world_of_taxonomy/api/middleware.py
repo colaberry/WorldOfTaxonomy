@@ -126,6 +126,48 @@ TIER_RATE_LIMITS = {
     "enterprise": 10000,
 }
 
+
+# Org-level rate-limit accounting (Phase 6).
+#
+# Every authenticated request keys its bucket on the user's org_id,
+# never on user_id. This closes the per-user-times-N bypass where a
+# company could spin up N personal accounts to multiply the free-tier
+# ceiling. Anonymous requests still key on IP. See
+# project_org_throttling.md for the rationale.
+
+ANON_PER_MINUTE = 30
+
+
+def bucket_key_for(user, ip: str | None = None) -> str:
+    """Return the rate-limit bucket key for a request.
+
+    Authenticated -> 'org:<org_id>' (every employee at the same org
+    shares one pool, regardless of tier). Anonymous -> 'ip:<address>'
+    so a single IP cannot exhaust the public allowance for everyone.
+    """
+    if user is not None and user.get("org_id"):
+        return f"org:{user['org_id']}"
+    return f"ip:{ip or 'unknown'}"
+
+
+def org_pool_per_minute(user) -> int:
+    """Return the per-minute request allowance for the user's org.
+
+    The org row carries the authoritative pool size
+    (`org.rate_limit_pool_per_minute`). The middleware should fetch
+    that column when looking up the user; this helper just reads it
+    out of the dict.
+    """
+    if user is None:
+        return ANON_PER_MINUTE
+    pool = user.get("rate_limit_pool_per_minute")
+    if pool is None:
+        # Fall back to the tier-based defaults so legacy code paths
+        # keep working before the lookup is updated.
+        tier = user.get("tier", "free")
+        return TIER_RATE_LIMITS.get(tier, TIER_RATE_LIMITS["anonymous"])
+    return int(pool)
+
 # Daily request caps by tier (None = unlimited)
 TIER_DAILY_LIMITS = {
     "anonymous": 1000,
