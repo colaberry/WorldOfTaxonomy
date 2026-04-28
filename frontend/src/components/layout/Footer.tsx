@@ -13,6 +13,9 @@ const DEVELOPER_LINKS = [
   { href: 'https://github.com/colaberry/WorldOfTaxonomy',        label: 'GitHub repository', external: true },
   { href: '/api',                                                  label: 'REST API reference', external: false },
   { href: '/mcp',                                                  label: 'MCP tools', external: false },
+  { href: '/developers/signup',                                    label: 'Get an API key', external: false },
+  { href: '/pricing',                                              label: 'Pricing', external: false },
+  { href: '/developers#contact',                                   label: 'Contact sales', external: false },
   { href: 'https://github.com/colaberry/WorldOfTaxonomy/issues', label: 'Report an issue', external: true },
 ]
 

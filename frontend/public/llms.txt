@@ -11,6 +11,7 @@ Full LLM reference: https://worldoftaxonomy.com/llms-full.txt
 
 - [Getting Started with WorldOfTaxonomy](https://worldoftaxonomy.com/guide/getting-started)
 - [MCP Setup Guide for Claude Desktop, Cursor, Zed, and other AI clients](https://worldoftaxonomy.com/guide/mcp-setup)
+- [API Keys - Get One, Use One, Rotate One](https://worldoftaxonomy.com/guide/api-keys)
 - [Systems Catalog - All 1,000+ Classification Systems](https://worldoftaxonomy.com/guide/systems-catalog)
 - [Crosswalk Map - How Classification Systems Connect](https://worldoftaxonomy.com/guide/crosswalk-map)
 - [Industry Classification Guide - Which System to Use](https://worldoftaxonomy.com/guide/industry-classification)

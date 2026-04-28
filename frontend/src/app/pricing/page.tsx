@@ -32,8 +32,8 @@ const TIERS = [
       'MCP server access',
       'Community support',
     ],
-    cta: 'Get started free',
-    ctaHref: '/login',
+    cta: 'Get a free API key',
+    ctaHref: '/developers/signup',
     highlighted: false,
   },
   {
@@ -89,6 +89,9 @@ export default function PricingPage() {
           The full knowledge graph is available on every plan. Paid tiers add higher
           limits, bulk export, classification API, and dedicated support.
         </p>
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-xs text-amber-700 dark:text-amber-300 font-medium">
+          Public beta - all plans free while we finalize pricing.
+        </div>
       </div>
 
       {/* Tier cards */}
