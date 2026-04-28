@@ -250,7 +250,7 @@ function NodeRow({ systemId, node, systems, expanded, toggleExpanded }: NodeRowP
       {loginRequired && (
         <div className="mx-2 my-1 px-3 py-2 rounded-lg border border-dashed border-purple-500/40 bg-purple-500/5 text-xs text-purple-400/80 flex items-center justify-between">
           <span>
-            <Link href="/login" className="underline hover:text-purple-300">Sign in</Link>
+            <Link href="/sign-in" className="underline hover:text-purple-300">Sign in</Link>
             {' '}to generate AI sub-classifications
           </span>
           <button

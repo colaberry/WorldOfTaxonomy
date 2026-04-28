@@ -61,7 +61,7 @@ export default async function BuildersPage() {
         </p>
         <div className="flex flex-wrap gap-3 pt-2">
           <Link
-            href="/developers/signup"
+            href="/sign-in?next=/developers/keys"
             className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
           >
             <KeyRound className="h-4 w-4" />

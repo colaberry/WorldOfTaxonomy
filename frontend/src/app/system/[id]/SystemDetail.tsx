@@ -310,7 +310,7 @@ function DownloadRow({
       <div className="flex items-center gap-2 p-3 rounded-lg bg-card border border-border/50 text-sm text-muted-foreground">
         <Lock className="h-4 w-4 shrink-0" />
         <span>
-          <a href="/login" className="text-primary hover:underline">Sign in</a>
+          <a href="/sign-in" className="text-primary hover:underline">Sign in</a>
           {' '}to download nodes or crosswalk data as CSV.
         </span>
       </div>

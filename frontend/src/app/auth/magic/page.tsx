@@ -13,13 +13,18 @@ export default function AuthMagicPage() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
     const token = params.get('t')
+    const next = params.get('next')
     if (!token) {
       setStatus('error')
       setErrorMessage('Missing token. Request a new sign-in link.')
       return
     }
 
-    fetch(`/api/v1/auth/magic-callback?t=${encodeURIComponent(token)}`, {
+    const callbackUrl = new URL('/api/v1/auth/magic-callback', window.location.origin)
+    callbackUrl.searchParams.set('t', token)
+    if (next) callbackUrl.searchParams.set('next', next)
+
+    fetch(callbackUrl.toString(), {
       method: 'GET',
       credentials: 'include',
     })
@@ -28,9 +33,8 @@ export default function AuthMagicPage() {
           const body = await res.json().catch(() => ({}))
           throw new Error(body.detail ?? `Sign-in failed (${res.status})`)
         }
-        // Backend returns { redirect: '...' }; honor it client-side.
         const body = await res.json().catch(() => ({}))
-        const target = body.redirect ?? '/developers/keys'
+        const target = body.redirect ?? '/'
         window.location.replace(target)
       })
       .catch((err: Error) => {
@@ -52,7 +56,7 @@ export default function AuthMagicPage() {
           <h1 className="text-3xl font-semibold">Sign-in link is invalid</h1>
           <p className="text-muted-foreground">
             {errorMessage} Links expire after 15 minutes and only work once.{' '}
-            <a href="/developers/signup" className="underline">
+            <a href="/sign-in" className="underline">
               Request a new link
             </a>
             .
