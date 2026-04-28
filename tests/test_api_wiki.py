@@ -32,12 +32,19 @@ def client(app):
 
 class TestWikiAPI:
     def test_list_wiki_pages(self, client):
+        """The endpoint returns one entry per page registered in
+        wiki/_meta.json. We assert the count matches the source of
+        truth rather than a hardcoded number, so adding a new wiki
+        page does not silently break this test."""
+        from world_of_taxonomy.wiki import load_wiki_meta
+        expected = len(load_wiki_meta())
+
         async def _test():
             resp = await client.get("/api/v1/wiki")
             assert resp.status_code == 200
             data = resp.json()
             assert isinstance(data, list)
-            assert len(data) == 11  # 10 content pages + architecture
+            assert len(data) == expected
 
         _run(_test())
 
