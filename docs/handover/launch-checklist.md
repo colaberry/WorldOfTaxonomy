@@ -174,15 +174,33 @@ real, but most of `/explore`, `/system`, `/dashboard` already work.
 
 ### 6. Operational baseline
 
-- [ ] Sentry (or equivalent) wired for backend exceptions.
-- [ ] Cloud Run alerts: 5xx rate > 1%, latency p95 > 2s, instance
-      restart loop.
-- [ ] Daily backup of Postgres (Cloud SQL automatic backups confirmed
-      enabled).
-- [ ] On-call rotation (just Ram for now; documented in
-      `cicd-deployment.md`).
-- [ ] Runbook: "API is 5xx-ing", "key validation is slow", "Cloud
-      Run cold start spike".
+- [x] Sentry (or equivalent) wired for backend exceptions. Starlette
+      + FastAPI integrations active when `SENTRY_DSN` is set;
+      before_send scrubs Authorization headers, cookies, and the
+      `dev_session` cookie value. Tier / org_id / user_id annotated
+      on every request via the rate-limit middleware. (PR #133)
+- [x] Cloud Run alerts: 5xx rate > 1%, latency p95 > 2s, instance
+      restart loop. Provisioning script:
+      `scripts/phase6_setup_alerts.sh` (idempotent; re-running upserts
+      thresholds). (PR #133)
+- [ ] Daily backup of Postgres confirmed enabled. Cloud SQL has
+      automatic backups on by default; verify in the deploy step.
+      Verification one-liner:
+      `gcloud sql instances describe wot-prod
+       --format='value(settings.backupConfiguration)'`
+- [x] On-call rotation. Just Ram for now; documented in
+      [`runbooks/README.md`](./runbooks/README.md) "On-call rotation"
+      section. Add a co-on-call before the first paying customer.
+      (PR #133)
+- [x] Runbooks: "API is 5xx-ing", "key validation is slow", "Cloud
+      Run cold start spike". All three under
+      [`docs/handover/runbooks/`](./runbooks/) with a fixed structure
+      (Triage / Common causes / Mitigation / Root cause / Followups).
+      (PR #133)
+- [ ] Sentry-test smoke: set `SENTRY_TEST_TOKEN` on Cloud Run, then
+      `curl -X POST -H "X-Sentry-Test-Token: $TOKEN" .../api/v1/_internal/sentry-test`
+      and confirm the event lands in the Sentry inbox. Then unset
+      the token (it stays out of prod config except for testing).
 
 ### 7. Legal + brand basics
 

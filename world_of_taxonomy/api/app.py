@@ -257,19 +257,65 @@ def _validate_env() -> None:
         )
 
 
+def _scrub_event(event, hint):
+    """Sentry before_send hook. Strips secrets from outgoing reports.
+
+    Things we never want in Sentry:
+      - dev_session cookie value (auth bypass if leaked)
+      - Authorization header (API keys / JWTs)
+      - Set-Cookie response headers
+      - any header that looks like a secret name
+    """
+    request = event.get("request") if event else None
+    if not request:
+        return event
+
+    headers = request.get("headers")
+    if isinstance(headers, dict):
+        for key in list(headers):
+            low = key.lower()
+            if low in ("authorization", "cookie", "set-cookie", "x-api-key"):
+                headers[key] = "[scrubbed]"
+            elif "secret" in low or "token" in low:
+                headers[key] = "[scrubbed]"
+
+    cookies = request.get("cookies")
+    if isinstance(cookies, dict):
+        if "dev_session" in cookies:
+            cookies["dev_session"] = "[scrubbed]"
+
+    return event
+
+
 def _init_sentry() -> None:
-    """Initialize Sentry only when SENTRY_DSN is set. Safe no-op otherwise."""
+    """Initialize Sentry only when SENTRY_DSN is set. Safe no-op otherwise.
+
+    Uses the FastAPI / Starlette / asyncio auto-instrumentation that
+    `sentry-sdk[fastapi]` ships, plus a before_send hook to scrub
+    Authorization headers and the dev_session cookie before reports
+    leave the process. Sample rates are tunable via env so prod can
+    drop transaction tracing under load without redeploying.
+    """
     dsn = os.getenv("SENTRY_DSN", "").strip()
     if not dsn:
         return
     try:
         import sentry_sdk
+        from sentry_sdk.integrations.starlette import StarletteIntegration
+        from sentry_sdk.integrations.fastapi import FastApiIntegration
 
         sentry_sdk.init(
             dsn=dsn,
             environment=os.getenv("SENTRY_ENVIRONMENT", "production"),
+            release=os.getenv("SENTRY_RELEASE") or os.getenv("CLOUD_RUN_REVISION") or None,
             traces_sample_rate=float(os.getenv("SENTRY_TRACES_SAMPLE_RATE", "0.1")),
+            profiles_sample_rate=float(os.getenv("SENTRY_PROFILES_SAMPLE_RATE", "0.0")),
             send_default_pii=False,
+            integrations=[
+                StarletteIntegration(transaction_style="endpoint"),
+                FastApiIntegration(transaction_style="endpoint"),
+            ],
+            before_send=_scrub_event,
         )
     except Exception:
         # Never let telemetry wiring break startup.

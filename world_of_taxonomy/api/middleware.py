@@ -314,6 +314,20 @@ async def rate_limit_middleware(request: Request, call_next):
     request.state.auth_user = user
     tier = user.get("tier", "free") if user else "anonymous"
 
+    # Annotate the active Sentry scope so any exception raised inside
+    # the handler carries useful context. Best-effort: missing SDK or
+    # unset DSN both produce a no-op.
+    try:
+        import sentry_sdk
+        sentry_sdk.set_tag("tier", tier)
+        if user is not None:
+            if user.get("org_id") is not None:
+                sentry_sdk.set_tag("org_id", str(user["org_id"]))
+            if user.get("id") is not None:
+                sentry_sdk.set_user({"id": str(user["id"])})
+    except Exception:
+        pass
+
     # Check daily limit
     daily_exceeded = await _check_daily_limit(request, user)
     if daily_exceeded is not None:
