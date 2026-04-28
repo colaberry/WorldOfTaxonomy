@@ -31,7 +31,7 @@ httpx>=0.27.0
 # tests/test_isco08_from_esco.py / tests/test_iscedf2013_from_esco.py
 # fails on a stock CI runner (ModuleNotFoundError at import time).
 ijson>=3.2.0
-jinja2>=3.1.0
+jinja2>=3.1.6
 openpyxl>=3.1.0
 prometheus-client>=0.20.0
 psycopg[binary]>=3.1.0
