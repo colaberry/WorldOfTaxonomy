@@ -73,29 +73,32 @@ If you deploy Cloud Run + Cloud SQL with a fresh schema, you get an
 show 0 nodes, and the API will return empty arrays. Not viable for
 any flavor of launch.
 
-**The plan**: Ram dumps his local Postgres, you restore it into
-Cloud SQL on first deploy. ~1-3 GB compressed dump.
+**The plan**: Ram dumps his local Postgres and uploads to a
+Google Drive folder he shares with you. You download it, push it
+through a one-shot GCS bucket (Cloud SQL's `import sql` only reads
+from `gs://`), and restore into Cloud SQL on first deploy.
+~1-3 GB compressed dump.
 
 ### Step 0 (before Step 1) - receive the database dump from Ram
 
-Ask Ram for a recent `pg_dump` of his local DB, uploaded to a GCS
-bucket of his choice. The exact handoff:
+Ram will upload a recent `pg_dump` of his local DB to a Google
+Drive folder and share the link with you. This is the operator-
+friendly path; the actual restore into Cloud SQL still happens
+through GCS (one short bridge step on your side, see below).
+
+The handoff:
 
 ```bash
 # Ram runs this on his laptop (~30 min depending on disk + compression)
 pg_dump -d worldoftaxanomy -F c -Z 9 -f wot_db_$(date +%Y-%m-%d).dump
 
-# Ram uploads to a private GCS bucket and grants you read access
-gsutil cp wot_db_*.dump gs://<bucket-Ram-chooses>/wot/
-gsutil iam ch user:<your-email>:objectViewer gs://<bucket-Ram-chooses>
+# Ram uploads the .dump to a Google Drive folder and shares the
+# folder with your email at "Editor" (or "Viewer" if download-only
+# is acceptable).
 ```
 
-You receive a `gs://...` URL plus the GCS bucket name and the dump
-filename. Verify with:
-
-```bash
-gsutil ls -l gs://<bucket>/wot/wot_db_*.dump
-```
+You receive a Google Drive folder URL with the dump file inside.
+Expected dump size: 1-3 GB compressed.
 
 ### Restoring the dump into Cloud SQL
 
@@ -103,26 +106,44 @@ After Cloud SQL is provisioned (Step 2 below) and before Phase 6
 key issuance (Step 4):
 
 ```bash
-# Grant Cloud SQL service account read access to the bucket
-SA=$(gcloud sql instances describe wot-db --format='value(serviceAccountEmailAddress)')
-gsutil iam ch serviceAccount:${SA}:objectViewer gs://<bucket>/
+# 1. Download the dump from Drive to your laptop. Either:
+#      a) browser download from the shared folder, or
+#      b) `gdown` / `rclone` CLI for non-browser environments.
+#    Save to ~/Downloads/wot_db_<date>.dump
 
-# Import. Cloud SQL handles the streaming restore.
+# 2. Create a one-shot GCS bucket for the bootstrap upload.
+#    Cloud SQL's `import sql` reads only from gs:// URLs, so this
+#    bridge step is unavoidable.
+gsutil mb -l us-central1 gs://wot-deploy-bootstrap/
+
+# 3. Upload the local file to GCS.
+gsutil cp ~/Downloads/wot_db_<date>.dump gs://wot-deploy-bootstrap/
+
+# 4. Grant Cloud SQL service account read access on the bucket.
+SA=$(gcloud sql instances describe wot-db \
+       --format='value(serviceAccountEmailAddress)')
+gsutil iam ch serviceAccount:${SA}:objectViewer gs://wot-deploy-bootstrap/
+
+# 5. Import. Cloud SQL handles the streaming restore.
 gcloud sql import sql wot-db \
-  gs://<bucket>/wot/wot_db_<date>.dump \
+  gs://wot-deploy-bootstrap/wot_db_<date>.dump \
   --database=worldoftaxanomy
 
-# Verify
+# 6. Verify
 gcloud sql connect wot-db --user=postgres --database=worldoftaxanomy \
   --quiet -e "SELECT COUNT(*) FROM classification_node;"
 # expected: ~1,212,486
+
+# 7. Tear down the bootstrap bucket once verified
+gsutil rm -r gs://wot-deploy-bootstrap/
 ```
 
-The restore is a one-time operation. After this, ongoing data
-updates flow through ingester re-runs (scheduled or triggered),
-not dump+restore.
+The Drive folder stays as the canonical archive; the GCS bucket
+is throwaway. The restore is a one-time operation. After this,
+ongoing data updates flow through ingester re-runs (scheduled or
+triggered), not dump+restore.
 
-### What if you can't get a dump?
+### What if you can't get the Drive link?
 
 Fall back to **re-running every ingester in production**. Read
 [docs/handover/description-backfill.md](description-backfill.md)
@@ -144,7 +165,7 @@ Ask Ram for:
 - [ ] Vercel team membership (if frontend is deploying via Vercel - confirm with Ram, see decision #3 below)
 - [ ] Resend / Postmark / SES sender account (if you're wiring email - confirm scope with Ram)
 - [ ] Read access to the `1Password / vault` where Zitadel + Permit.io credentials will live (those are not yet provisioned; out of soft-launch scope)
-- [ ] **GCS read access to the bucket holding the database dump** (see "Step 0" above; Ram chooses the bucket)
+- [ ] **Google Drive folder access for the database dump** (see "Step 0" above; Ram shares the folder with your email)
 
 Verify with:
 
@@ -284,7 +305,7 @@ If all green, you're ready for soft launch.
 
 | # | Decision | Why it matters | Default if not heard |
 |---|---|---|---|
-| 0 | **Where to put the database dump** (GCS bucket name + access list) | Step 0 / soft-launch blocker. The dump is your only path to a populated Cloud SQL without re-running ~3 days of ingest. | private bucket like `gs://aix-private-artifacts/wot/`, deployment dev added as `objectViewer` |
+| 0 | **Where to put the database dump and who to share it with** | Step 0 / soft-launch blocker. The dump is the only practical path to a populated Cloud SQL without re-running ~3 days of ingest. | Google Drive folder, share with the deployment dev's email |
 | 1 | Email service: Resend vs Postmark vs SES | Phase 6 prerequisite. Affects deliverability and cost. | Resend |
 | 2 | Analytics: PostHog vs Plausible vs none | Per-page tracking on the marketing site | none for soft launch |
 | 3 | Frontend hosting: Vercel vs Cloud Run | Already decided per memory: `worldoftaxonomy.com` on Vercel. Confirm before deploying. | per memory: Vercel |
