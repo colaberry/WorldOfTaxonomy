@@ -1,14 +1,22 @@
-# gitleaks configuration — extend defaults, allowlist false positives.
+# gitleaks configuration - extend defaults, allowlist false positives.
 #
 # Consumed by .github/workflows/security.yml via
 #   gitleaks detect --source . --config .gitleaks.toml ...
 #
 # Allowlisted hits below were reviewed and confirmed non-credential:
-#   - frontend/src/app/api/page.tsx  — developer docs: literal curl
+#   - frontend/src/app/api/page.tsx       - developer docs: literal curl
 #     examples with placeholder tokens like "eyJ..." and "wot_abc123...".
-#   - .github/workflows/release.yml  — dev fallback value for JWT_SECRET
+#   - .github/workflows/release.yml       - dev fallback value for JWT_SECRET
 #     used during CI test runs when secrets.JWT_SECRET is absent
 #     ('test-secret-at-least-32-characters-long-xx').
+#   - wiki/mcp-setup.md                   - MCP install guide. Example
+#     `WOT_API_KEY=wot_a3f2c5d9...` strings show developers what a key
+#     looks like; the literal `...` makes it obviously truncated and
+#     not a real credential.
+#   - frontend/public/llms-full.txt       - generated artifact rebuilt
+#     from `wiki/*.md` by `scripts/build_llms_txt.py`. Same placeholder
+#     content as the wiki sources; allowlisted so the regenerated
+#     file does not need separate review on every wiki edit.
 [extend]
 useDefault = true
 
@@ -17,4 +25,6 @@ description = "Docs placeholder tokens and CI test fallback JWT (not real secret
 paths = [
   '''frontend/src/app/api/page\.tsx''',
   '''\.github/workflows/release\.yml''',
+  '''wiki/mcp-setup\.md''',
+  '''frontend/public/llms-full\.txt''',
 ]
