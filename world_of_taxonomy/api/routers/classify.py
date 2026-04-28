@@ -7,7 +7,9 @@ from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 
-from world_of_taxonomy.api.deps import get_conn, get_current_user
+from world_of_taxonomy.api.deps import get_conn, require_tier
+
+_CLASSIFY_TIERS = frozenset({"pro", "enterprise"})
 from world_of_taxonomy.api.text_guard import TextGuardError, guard
 from world_of_taxonomy.category import get_category
 from world_of_taxonomy.classify import DEFAULT_SYSTEMS, classify_text
@@ -119,22 +121,16 @@ def partition_matches(matches: list[dict]) -> tuple[list[dict], list[dict]]:
 @router.post("/classify", response_model=ClassifyResponse)
 async def classify_business(
     body: ClassifyRequest,
-    user: dict = Depends(get_current_user),
+    auth: dict = Depends(require_tier("wot:classify", _CLASSIFY_TIERS)),
     conn=Depends(get_conn),
 ):
     """Classify a business/product/occupation description against taxonomy systems.
 
-    Requires Pro or Enterprise tier.
+    Requires an API key with `wot:classify` scope and a Pro or
+    Enterprise org plan. The web `/classify` UI uses a separate
+    email-only gate (see project_classify_gate); this endpoint is the
+    paid programmatic surface.
     """
-    if user.get("tier") not in ("pro", "enterprise"):
-        raise HTTPException(
-            status_code=403,
-            detail=(
-                "The classify endpoint requires a Pro or Enterprise tier account. "
-                "See /developers for pricing information."
-            ),
-        )
-
     try:
         clean_text, _ = guard(body.text, max_length=500)
     except TextGuardError as exc:

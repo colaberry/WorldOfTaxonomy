@@ -13,23 +13,12 @@ from typing import AsyncGenerator
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import StreamingResponse
 
-from world_of_taxonomy.api.deps import get_conn, get_current_user
+from world_of_taxonomy.api.deps import get_conn, require_tier
 
 router = APIRouter(prefix="/api/v1/export", tags=["bulk-export"])
 
-
-def _require_tier(user: dict, required: tuple[str, ...], endpoint_name: str):
-    """Raise 403 if user tier is insufficient."""
-    tier = user.get("tier", "free")
-    if tier not in required:
-        raise HTTPException(
-            status_code=403,
-            detail=(
-                f"The {endpoint_name} endpoint requires a "
-                f"{' or '.join(required)} tier account. "
-                "See /developers for pricing information."
-            ),
-        )
+_PRO_OR_ENTERPRISE = frozenset({"pro", "enterprise"})
+_ENTERPRISE_ONLY = frozenset({"enterprise"})
 
 
 async def _jsonl_stream(rows, transform) -> AsyncGenerator[str, None]:
@@ -40,12 +29,10 @@ async def _jsonl_stream(rows, transform) -> AsyncGenerator[str, None]:
 
 @router.get("/systems.jsonl")
 async def export_systems_jsonl(
-    user: dict = Depends(get_current_user),
+    auth: dict = Depends(require_tier("wot:export", _PRO_OR_ENTERPRISE)),
     conn=Depends(get_conn),
 ):
     """Export all classification systems as JSONL. Requires Pro+ tier."""
-    _require_tier(user, ("pro", "enterprise"), "bulk systems export")
-
     rows = await conn.fetch(
         """SELECT id, name, full_name, authority, region, version,
                   node_count, source_url, source_date, data_provenance, license
@@ -78,12 +65,10 @@ async def export_systems_jsonl(
 @router.get("/systems/{system_id}/nodes.jsonl")
 async def export_nodes_jsonl(
     system_id: str,
-    user: dict = Depends(get_current_user),
+    auth: dict = Depends(require_tier("wot:export", _PRO_OR_ENTERPRISE)),
     conn=Depends(get_conn),
 ):
     """Export all nodes in a system as JSONL. Requires Pro+ tier."""
-    _require_tier(user, ("pro", "enterprise"), "bulk nodes export")
-
     # Verify system exists
     exists = await conn.fetchval(
         "SELECT 1 FROM classification_system WHERE id = $1", system_id
@@ -119,12 +104,10 @@ async def export_nodes_jsonl(
 
 @router.get("/crosswalks.jsonl")
 async def export_crosswalks_jsonl(
-    user: dict = Depends(get_current_user),
+    auth: dict = Depends(require_tier("wot:export", _ENTERPRISE_ONLY)),
     conn=Depends(get_conn),
 ):
     """Export all crosswalk edges as JSONL. Requires Enterprise tier."""
-    _require_tier(user, ("enterprise",), "bulk crosswalks export")
-
     rows = await conn.fetch(
         """SELECT source_system, source_code, target_system, target_code, match_type
            FROM equivalence

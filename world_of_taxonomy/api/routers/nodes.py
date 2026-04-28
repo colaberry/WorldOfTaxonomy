@@ -4,7 +4,7 @@ from typing import List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Query
 
-from world_of_taxonomy.api.deps import get_conn, get_current_user
+from world_of_taxonomy.api.deps import get_conn, get_current_user, require_scope
 from world_of_taxonomy.api.schemas import (
     NodeResponse,
     EquivalenceResponse,
@@ -84,7 +84,7 @@ async def generate_taxonomy_for_node(
     code: str,
     body: GenerateTaxonomyRequest,
     conn=Depends(get_conn),
-    current_user=Depends(get_current_user),
+    auth=Depends(require_scope("wot:admin")),
 ):
     """Generate AI-suggested sub-classifications for a node (preview only, no DB write)."""
     try:
@@ -111,7 +111,7 @@ async def accept_generated_taxonomy(
     code: str,
     body: AcceptTaxonomyRequest,
     conn=Depends(get_conn),
-    current_user=Depends(get_current_user),
+    auth=Depends(require_scope("wot:admin")),
 ):
     """Persist user-accepted AI-generated nodes to the database."""
     try:
