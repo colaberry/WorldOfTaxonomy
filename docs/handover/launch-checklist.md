@@ -82,28 +82,58 @@ systems (NAICS, ISIC, NACE, NIC, etc.) at 95%+ is launch-ready.
 
 Owner: see [auth-implementation.md](./auth-implementation.md) Phase 6.
 
-- [ ] `app_user` schema migration: `email UNIQUE NOT NULL`,
-      `org_id NOT NULL`, `zitadel_sub` (NULL until Phase 2),
-      `role`, `revoked_at`, `last_used_at`.
-- [ ] `org` table: `kind`, `domain UNIQUE`, `tier`,
-      `rate_limit_pool_per_minute`, `stripe_customer_id`,
-      `zitadel_org_id`.
-- [ ] `api_key` table: `scopes TEXT[]`, expiry, audit columns.
-- [ ] Backfill existing users into per-user personal orgs.
-- [ ] Magic-link auth flow on `/developers`.
-- [ ] `/api/v1/keys` CRUD endpoints with scope check.
-- [ ] Helpful 401 / 429 responses pointing at `/developers`.
-- [ ] Resend (or Postmark / SES) integration for transactional emails.
-- [ ] `/developers` landing page + `/developers/keys` dashboard.
-- [ ] Tests covering: prefix derivation, scope validation, magic-link
-      round-trip, rate-limit org bucketing, revocation.
-- [ ] Manual smoke: signup → key in inbox → key works on
-      `/api/v1/systems/naics_2022` → revoke → key returns 401 within
-      ~2 seconds.
+**Status: implementation complete, four PRs open as drafts**
+(2026-04-28). Merge order is #119 -> #121 -> #122 -> #124. Soft
+launch is unblocked once the chain merges and the migration runs on
+Cloud SQL.
 
-Estimated 1.5 days. **This is the launch gate**: without it, every
-public API/MCP request is anonymous-rate-limited (30 req/min), which
-is hostile to early adopters.
+- [x] `app_user` schema migration: `email UNIQUE NOT NULL`,
+      `org_id NOT NULL`, `zitadel_sub` (NULL until Phase 2),
+      `role`, `revoked_at`, `last_used_at`. (PR #119)
+- [x] `org` table: `kind`, `domain UNIQUE`, `tier`,
+      `rate_limit_pool_per_minute`, `stripe_customer_id`,
+      `zitadel_org_id`. (PR #119)
+- [x] `api_key` table: `scopes TEXT[]`, expiry, audit columns. (PR #119)
+- [x] Backfill existing users into per-domain corporate orgs (or
+      per-email personal orgs for free-email domains). Legacy keys
+      backfilled with `scopes=['wot:*']`. (PR #119,
+      `migrations/003_phase6_developer_keys.sql`)
+- [x] Magic-link auth flow on `/developers`. (PR #121)
+- [x] `/api/v1/developers/keys` CRUD endpoints with scope check.
+      (PR #121)
+- [x] Helpful 401 / 403 responses pointing at `/developers` and
+      `/pricing`, with `WWW-Authenticate: ApiKey` and `Link: <...>;
+      rel="signup"|"manage"|"upgrade"` headers. (PR #121, #124)
+- [x] Resend integration with `NoopEmailClient` fallback when
+      `RESEND_API_KEY` is unset. (PR #121,
+      `world_of_taxonomy/auth/email.py`)
+- [x] `/developers/signup` landing + `/developers/keys` dashboard +
+      `/auth/magic` callback. (PR #121)
+- [x] Tests covering: prefix derivation, scope validation,
+      magic-link round-trip, rate-limit org bucketing, revocation,
+      tier enforcement on bulk export and classify. 88 new tests
+      across the four PRs.
+- [x] MCP server fails loud at startup when `WOT_API_KEY` and
+      `DATABASE_URL` are both unset; actionable stderr message
+      pointing at `/developers`. (PR #122)
+- [x] Existing gated endpoints (bulk export, classify,
+      nodes/generate) wired onto `Depends(require_scope)` /
+      `Depends(require_tier)`. (PR #124)
+- [ ] **Manual smoke after merge:** signup -> key in inbox -> key
+      works on `/api/v1/systems/naics_2022` -> revoke -> key returns
+      401 within ~2 seconds.
+- [ ] **Cloud SQL migration:** deploy engineer runs
+      `migrations/003_phase6_developer_keys.sql` against prod with
+      `psql --single-transaction -v ON_ERROR_STOP=1`. Local
+      `wot-postgres` migration verified clean (2026-04-28).
+- [ ] **Resend account:** set `RESEND_API_KEY` in GCP Secret Manager
+      before public traffic; signup endpoint silently drops mail
+      until then (NoopEmailClient logs a warning).
+
+Estimated 1.5 days; actual ~1 day across four PRs. **This is the
+launch gate**: without it, every public API/MCP request is
+anonymous-rate-limited (30 req/min), which is hostile to early
+adopters.
 
 ### 4. Marketing site (worldoftaxonomy.com)
 
