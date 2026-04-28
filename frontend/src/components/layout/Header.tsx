@@ -28,9 +28,11 @@ export function Header() {
 
     async function detectUser() {
       // First check the magic-link session (httpOnly dev_session cookie).
-      // /api/v1/auth/me returns 200 + user record when signed in, 401 otherwise.
+      // /api/v1/developers/me returns 200 + user record when signed in,
+      // 401 otherwise. Distinct from the legacy /api/v1/auth/me (which
+      // uses the Authorization header / HS256 JWT path).
       try {
-        const res = await fetch('/api/v1/auth/me', { credentials: 'include' })
+        const res = await fetch('/api/v1/developers/me', { credentials: 'include' })
         if (res.ok) {
           const body = await res.json()
           if (!cancelled) {

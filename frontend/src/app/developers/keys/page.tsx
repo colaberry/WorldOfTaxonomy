@@ -66,7 +66,7 @@ export default function KeysDashboardPage() {
     let cancelled = false
     async function gate() {
       try {
-        const res = await fetch('/api/v1/auth/me', { credentials: 'include' })
+        const res = await fetch('/api/v1/developers/me', { credentials: 'include' })
         if (cancelled) return
         if (res.status === 401) {
           setAuthState('anon')

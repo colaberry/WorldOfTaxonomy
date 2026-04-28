@@ -260,11 +260,15 @@ async def auth_sign_out(response: Response):
     return {"detail": "Signed out"}
 
 
-@router.get("/api/v1/auth/me")
-async def auth_me(user: dict = Depends(get_dev_session_user)):
+@router.get("/api/v1/developers/me")
+async def developers_me(user: dict = Depends(get_dev_session_user)):
     """Return the current dev_session user. 401 when not signed in.
 
     Used by the header to render "Signed in as ..." vs a Sign-in link.
+    Lives under /developers/ rather than /auth/me to avoid colliding
+    with the legacy `/api/v1/auth/me` (which uses the Authorization
+    header / bcrypt + HS256 JWT path and stays alive for backward
+    compatibility).
     """
     return {
         "id": str(user["id"]),
