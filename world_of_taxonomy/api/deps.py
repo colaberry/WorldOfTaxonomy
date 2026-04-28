@@ -85,43 +85,157 @@ async def get_current_user(request: Request) -> dict:
 
 
 async def validate_api_key(pool, key: str) -> Optional[dict]:
-    """Check an API key against the database. Returns user record or None."""
-    if not key.startswith("wot_") or len(key) != 36:
-        return None
+    """Check an API key against the database. Returns user record or None.
 
-    key_prefix = key[4:12]  # first 8 chars after 'wot_'
+    Phase 6: returns the user record with org_id, scopes, and the
+    rate-limit pool size from the org row, so middleware can key
+    buckets without an extra round-trip. Honors revoked_at and
+    expires_at; falls back to the legacy is_active=TRUE check for
+    keys created before the migration.
+    """
+    if "_" not in key:
+        return None
+    underscore = key.index("_")
+    key_prefix = key[underscore + 1 : underscore + 9]
 
     async with pool.acquire() as conn:
         rows = await conn.fetch(
-            """SELECT ak.id AS api_key_id, ak.key_hash, ak.user_id, ak.is_active AS key_active,
-                      au.id, au.email, au.display_name, au.tier, au.is_active
+            """SELECT ak.id AS api_key_id, ak.key_hash, ak.user_id,
+                      ak.is_active AS key_active, ak.scopes,
+                      ak.revoked_at, ak.expires_at,
+                      au.id, au.email, au.display_name, au.tier,
+                      au.is_active, au.org_id,
+                      o.tier AS org_tier,
+                      o.rate_limit_pool_per_minute
                FROM api_key ak
                JOIN app_user au ON ak.user_id = au.id
-               WHERE ak.key_prefix = $1 AND ak.is_active = TRUE""",
+               LEFT JOIN org o ON au.org_id = o.id
+               WHERE ak.key_prefix = $1 AND ak.revoked_at IS NULL""",
             key_prefix,
         )
 
+    from datetime import datetime, timezone
+    now = datetime.now(timezone.utc)
+
     for row in rows:
-        key_bytes = key.encode("utf-8")
-        stored_hash = row["key_hash"].encode("utf-8")
-        if bcrypt.checkpw(key_bytes, stored_hash):
-            if not row["is_active"]:
-                return None
-            # Update last_used_at
-            async with pool.acquire() as conn:
-                await conn.execute(
-                    "UPDATE api_key SET last_used_at = NOW() WHERE id = $1",
-                    row["api_key_id"],
-                )
-            return {
-                "id": row["id"],
-                "email": row["email"],
-                "display_name": row["display_name"],
-                "tier": row["tier"],
-                "api_key_id": row["api_key_id"],
-            }
+        if not bcrypt.checkpw(key.encode("utf-8"), row["key_hash"].encode("utf-8")):
+            continue
+        if not row["is_active"]:
+            return None
+        if row["expires_at"] is not None and row["expires_at"] <= now:
+            return None
+        # Update last_used_at on the hot path.
+        async with pool.acquire() as conn:
+            await conn.execute(
+                "UPDATE api_key SET last_used_at = NOW() WHERE id = $1",
+                row["api_key_id"],
+            )
+        return {
+            "id": row["id"],
+            "email": row["email"],
+            "display_name": row["display_name"],
+            "tier": row["tier"],
+            "org_id": row["org_id"],
+            "org_tier": row["org_tier"],
+            "rate_limit_pool_per_minute": row["rate_limit_pool_per_minute"],
+            "scopes": list(row["scopes"]) if row["scopes"] else [],
+            "api_key_id": row["api_key_id"],
+        }
 
     return None
+
+
+def require_scope(scope: str):
+    """FastAPI dependency factory for `Depends(require_scope("wot:export"))`.
+
+    On a request without a valid key carrying `scope`:
+      - 401 missing_api_key when no Authorization header (or wrong shape).
+      - 401 invalid_api_key when the key did not validate.
+      - 403 scope_missing when the key is valid but lacks `scope`.
+
+    Each non-200 response carries the Phase 6 helpful headers
+    (`WWW-Authenticate: ApiKey`, `Link: <...>; rel="signup"`) and a
+    JSON body that points at /developers.
+    """
+    from world_of_taxonomy.auth import keys as keys_mod
+
+    async def _dep(request: Request) -> dict:
+        auth = request.headers.get("Authorization", "")
+        if not auth.startswith("Bearer "):
+            raise _missing_api_key_exception()
+        raw = auth[7:].strip()
+
+        pool = request.app.state.pool
+        async with pool.acquire() as conn:
+            result = await keys_mod.validate_key(conn, raw, required_scope=scope)
+
+        if result["allow"]:
+            return {
+                "user_id": result["user_id"],
+                "org_id": result["org_id"],
+                "key_id": result["key_id"],
+                "scopes": result["scopes"],
+            }
+
+        reason = result.get("reason")
+        if reason == "scope_missing":
+            raise _scope_missing_exception(scope)
+        raise _invalid_api_key_exception(reason)
+
+    return _dep
+
+
+def _missing_api_key_exception() -> HTTPException:
+    return HTTPException(
+        status_code=401,
+        detail={
+            "error": "missing_api_key",
+            "message": (
+                "API key required. Get a free key at "
+                "https://worldoftaxonomy.com/developers"
+            ),
+            "anonymous_rate_limit": "30 req/min on public reads",
+        },
+        headers={
+            "WWW-Authenticate": "ApiKey",
+            "Link": '<https://worldoftaxonomy.com/developers>; rel="signup"',
+        },
+    )
+
+
+def _invalid_api_key_exception(reason: Optional[str]) -> HTTPException:
+    return HTTPException(
+        status_code=401,
+        detail={
+            "error": "invalid_api_key",
+            "reason": reason or "not_found",
+            "message": (
+                "Your API key was not recognized. Manage keys at "
+                "https://worldoftaxonomy.com/developers/keys"
+            ),
+        },
+        headers={
+            "WWW-Authenticate": "ApiKey",
+            "Link": '<https://worldoftaxonomy.com/developers/keys>; rel="manage"',
+        },
+    )
+
+
+def _scope_missing_exception(required: str) -> HTTPException:
+    return HTTPException(
+        status_code=403,
+        detail={
+            "error": "scope_missing",
+            "required_scope": required,
+            "message": (
+                f"Your key does not include {required}. Issue a new key "
+                "with this scope at https://worldoftaxonomy.com/developers/keys"
+            ),
+        },
+        headers={
+            "Link": '<https://worldoftaxonomy.com/developers/keys>; rel="manage"',
+        },
+    )
 
 
 async def get_optional_auth(request: Request) -> Optional[dict]:

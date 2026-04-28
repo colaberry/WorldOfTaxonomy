@@ -15,10 +15,17 @@ JSONL cache at ``data/llm_verified/<system_id>.jsonl`` records
 every (code, candidate, verdict) triple so re-runs are
 deterministic and resumable.
 
+The DB is flushed periodically (default every 500 newly-processed
+rows; override via ``FLUSH_EVERY_N_ROWS``) so the public-facing
+``classification_node.description`` reflects recent verifications
+without waiting for end-of-system. The flush is idempotent and
+NULL-only.
+
 Usage:
 
     python3 -m scripts.backfill_llm_verified --systems unspsc_v24 --limit 100
     python3 -m scripts.backfill_llm_verified --systems unspsc_v24
+    FLUSH_EVERY_N_ROWS=200 python3 -m scripts.backfill_llm_verified --systems patent_cpc
 """
 
 from __future__ import annotations
@@ -48,6 +55,7 @@ from world_of_taxonomy.llm_client import chat_json
 
 _CACHE_DIR = Path("data/llm_verified")
 _DEFAULT_CONCURRENCY = 4
+_DEFAULT_FLUSH_EVERY_N_ROWS = 500
 
 
 def _project_root() -> Path:
@@ -228,6 +236,33 @@ async def _run_one_system(
 
     yes_count = no_count = uncertain_count = 0
 
+    # Periodic-flush settings: cache is durable line-by-line (fsync on
+    # append), but the DB lags the cache by up to flush_every_n rows.
+    # If the process dies mid-system, restart will re-load the cache;
+    # however, anyone querying classification_node mid-run sees stale
+    # data until the next flush. Periodic apply_descriptions calls
+    # close that window.
+    flush_every = int(
+        os.environ.get("FLUSH_EVERY_N_ROWS")
+        or _DEFAULT_FLUSH_EVERY_N_ROWS
+    )
+    rows_since_last_flush = 0
+
+    async def _flush_yes_to_db() -> int:
+        """Apply all current yes-verdicts in cache to the DB. NULL-only;
+        idempotent. Returns rows actually updated."""
+        if dry_run:
+            return 0
+        snapshot = _load_cache(cache_path)
+        apply_map = {
+            c: rec["candidate"]
+            for c, rec in snapshot.items()
+            if rec["verdict"] == "yes" and rec["candidate"]
+        }
+        if not apply_map:
+            return 0
+        return await apply_descriptions(conn, system_id, apply_map)
+
     for r in rows:
         code = r["code"]
         title = r["title"] or ""
@@ -252,22 +287,31 @@ async def _run_one_system(
         if not candidate:
             _append_cache(cache_path, code, "", "uncertain")
             uncertain_count += 1
-            continue
-
-        verdict = await _verify(
-            sem,
-            system_name=system_name,
-            code=code,
-            title=title,
-            candidate=candidate,
-        )
-        _append_cache(cache_path, code, candidate, verdict)
-        if verdict == "yes":
-            yes_count += 1
-        elif verdict == "no":
-            no_count += 1
+            rows_since_last_flush += 1
         else:
-            uncertain_count += 1
+            verdict = await _verify(
+                sem,
+                system_name=system_name,
+                code=code,
+                title=title,
+                candidate=candidate,
+            )
+            _append_cache(cache_path, code, candidate, verdict)
+            if verdict == "yes":
+                yes_count += 1
+            elif verdict == "no":
+                no_count += 1
+            else:
+                uncertain_count += 1
+            rows_since_last_flush += 1
+
+        if rows_since_last_flush >= flush_every:
+            applied = await _flush_yes_to_db()
+            print(
+                f"    periodic flush: applied {applied:,} 'yes' rows to DB "
+                f"(after {rows_since_last_flush} new rows)"
+            )
+            rows_since_last_flush = 0
 
         if (yes_count + no_count + uncertain_count) % 50 == 0:
             total = yes_count + no_count + uncertain_count
@@ -298,6 +342,7 @@ async def _run_one_system(
 
 async def _run(
     *, systems: List[str], limit: int, dry_run: bool, concurrency: int,
+    cache_dir: Optional[str] = None,
 ) -> int:
     root = _project_root()
     load_dotenv(root / ".env")
@@ -311,8 +356,14 @@ async def _run(
         print("ERROR: no LLM provider configured", file=sys.stderr)
         return 1
 
-    cache_root = root / _CACHE_DIR
+    if cache_dir:
+        cache_root = Path(cache_dir)
+        if not cache_root.is_absolute():
+            cache_root = root / cache_root
+    else:
+        cache_root = root / _CACHE_DIR
     cache_root.mkdir(parents=True, exist_ok=True)
+    print(f"Cache directory: {cache_root}")
     sem = asyncio.Semaphore(concurrency)
 
     conn = await asyncpg.connect(database_url, statement_cache_size=0)
@@ -355,10 +406,19 @@ def main() -> int:
             "quota first."
         ),
     )
+    parser.add_argument(
+        "--cache-dir", default=None,
+        help=(
+            "Directory for the per-system .jsonl resume cache. Defaults to "
+            "data/llm_verified. Use a separate dir to A/B a new model "
+            "without polluting the production cache; once happy, merge or "
+            "promote the new cache."
+        ),
+    )
     args = parser.parse_args()
     return asyncio.run(_run(
         systems=args.systems, limit=args.limit, dry_run=args.dry_run,
-        concurrency=args.concurrency,
+        concurrency=args.concurrency, cache_dir=args.cache_dir,
     ))
 
 

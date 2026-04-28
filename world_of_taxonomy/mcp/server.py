@@ -8,14 +8,60 @@ Requires Python 3.9+.
 
 Usage:
     python -m world_of_taxonomy mcp
+
+Auth (Phase 6):
+    The published `worldoftaxonomy-mcp` PyPI package will run in HTTP
+    mode and require a `WOT_API_KEY` env var; missing-key startups
+    print an actionable error and exit. The in-tree direct-DB mode
+    (used by the WoT repo for development and tests) is gated on
+    `DATABASE_URL` and never reaches the API. Production deployments
+    install the PyPI package and set `WOT_API_KEY` from the user's
+    /developers/keys dashboard.
 """
 
 import asyncio
 import json
+import os
 import sys
+from typing import Optional
 
 from world_of_taxonomy.db import get_pool, close_pool
 from world_of_taxonomy.mcp.protocol import handle_jsonrpc_request
+
+
+_MISSING_KEY_MESSAGE = (
+    "WorldOfTaxonomy MCP server: no credentials.\n\n"
+    "Set WOT_API_KEY (preferred for end users; get one at\n"
+    "https://worldoftaxonomy.com/developers) or DATABASE_URL\n"
+    "(local development with direct DB access).\n"
+)
+
+
+def _check_credentials() -> None:
+    """Fail fast at startup with an actionable message.
+
+    Reads stdin/stdout for JSON-RPC, so we cannot rely on the client
+    surfacing a runtime error. Emit the message on stderr and exit
+    non-zero so Claude Desktop's "MCP server failed to start" error
+    actually carries information the user can act on.
+    """
+    has_api_key = bool(os.environ.get("WOT_API_KEY", "").strip())
+    has_db_url = bool(os.environ.get("DATABASE_URL", "").strip())
+    if not has_api_key and not has_db_url:
+        sys.stderr.write(_MISSING_KEY_MESSAGE)
+        sys.stderr.flush()
+        raise SystemExit(2)
+
+
+def _wot_api_key() -> Optional[str]:
+    """Return the Bearer token for HTTP-mode requests, or None.
+
+    Hot path callers will use this when the future HTTP transport is
+    wired in; PR #3 keeps the direct-DB code path so the in-tree
+    development workflow does not regress.
+    """
+    key = os.environ.get("WOT_API_KEY", "").strip()
+    return key or None
 
 
 async def run_stdio_server():
@@ -68,6 +114,7 @@ async def run_stdio_server():
 
 def main():
     """Entry point for the MCP server."""
+    _check_credentials()
     asyncio.run(run_stdio_server())
 
 

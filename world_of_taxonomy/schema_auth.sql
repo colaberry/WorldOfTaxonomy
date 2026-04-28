@@ -1,42 +1,12 @@
--- Auth schema for WorldOfTaxonomy
+-- WoT-specific auth artifacts (NOT extracted with the developer-key
+-- system). Depends on schema_devkeys.sql (uses app_user, api_key).
+--
+-- Everything portable - org, app_user, api_key, magic_link_token -
+-- lives in schema_devkeys.sql. This file holds only the WoT-product
+-- pieces: per-request usage logging, daily caps, and the classify
+-- lead-capture stopgap that disappears once Zitadel ships.
 
--- Users
-CREATE TABLE IF NOT EXISTS app_user (
-    id                UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    email             TEXT NOT NULL UNIQUE,
-    password_hash     TEXT,               -- NULL for OAuth-only accounts
-    display_name      TEXT,
-    tier              TEXT NOT NULL DEFAULT 'free'
-                      CHECK (tier IN ('free', 'pro', 'enterprise')),
-    is_active         BOOLEAN DEFAULT TRUE,
-    -- OAuth / social login fields
-    oauth_provider    TEXT,               -- 'github' | 'google' | 'linkedin'
-    oauth_provider_id TEXT,               -- provider's user ID
-    avatar_url        TEXT,
-    created_at        TIMESTAMPTZ DEFAULT NOW(),
-    updated_at        TIMESTAMPTZ DEFAULT NOW()
-);
-CREATE INDEX IF NOT EXISTS idx_user_email ON app_user(email);
-CREATE UNIQUE INDEX IF NOT EXISTS uq_user_oauth
-    ON app_user(oauth_provider, oauth_provider_id)
-    WHERE oauth_provider IS NOT NULL AND oauth_provider_id IS NOT NULL;
-
--- API Keys
-CREATE TABLE IF NOT EXISTS api_key (
-    id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    user_id     UUID NOT NULL REFERENCES app_user(id) ON DELETE CASCADE,
-    key_hash    TEXT NOT NULL,
-    key_prefix  TEXT NOT NULL,
-    name        TEXT DEFAULT 'Default',
-    is_active   BOOLEAN DEFAULT TRUE,
-    last_used_at TIMESTAMPTZ,
-    created_at  TIMESTAMPTZ DEFAULT NOW(),
-    expires_at  TIMESTAMPTZ
-);
-CREATE INDEX IF NOT EXISTS idx_apikey_prefix ON api_key(key_prefix);
-CREATE INDEX IF NOT EXISTS idx_apikey_user ON api_key(user_id);
-
--- Usage tracking
+-- Per-request usage tracking
 CREATE TABLE IF NOT EXISTS usage_log (
     id          BIGSERIAL PRIMARY KEY,
     user_id     UUID REFERENCES app_user(id),
@@ -58,10 +28,10 @@ CREATE TABLE IF NOT EXISTS daily_usage (
     PRIMARY KEY (user_id, usage_date)
 );
 
--- Lead capture for the free /classify web tool.
--- Anonymous users give an email in exchange for a classify query.
--- Used for lead nurture marketing, NOT for authentication.
--- Migrates to Zitadel accounts once the central IdP is provisioned.
+-- Lead capture for the free /classify web tool. Anonymous users give
+-- an email in exchange for a classify query. Used for lead nurture
+-- marketing, NOT for authentication. Migrates to Zitadel accounts
+-- once the central IdP is provisioned.
 CREATE TABLE IF NOT EXISTS classify_lead (
     id           UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     email        TEXT NOT NULL,

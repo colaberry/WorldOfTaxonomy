@@ -20,6 +20,7 @@
 #   SYSTEM           target system_id (default: patent_cpc)
 #   CONCURRENCY      passed through to backfill_llm_verified (default: 12)
 #   VERIFIER_MODEL   passed through to backfill_llm_verified (default: unset, uses gpt-oss:120b)
+#   FLUSH_EVERY_N_ROWS passed through to backfill_llm_verified (default: 500)
 #   LIMIT            passed through to backfill_llm_verified (default: 0, full system)
 #   STALL_SEC        kill+restart if cache hasn't grown in this many seconds (default: 1800 = 30 min)
 #   CHECK_SEC        polling interval (default: 300 = 5 min)

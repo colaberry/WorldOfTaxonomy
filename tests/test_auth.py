@@ -12,6 +12,7 @@ import secrets
 from datetime import datetime, timedelta, timezone
 
 from world_of_taxonomy.api.deps import JWT_SECRET, JWT_ALGORITHM
+from tests.conftest import DEFAULT_TEST_ORG_ID
 
 
 def _run(coro):
@@ -101,9 +102,9 @@ class TestUserRegistration:
             async with db_pool.acquire() as conn:
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 row = await conn.fetchrow(
-                    """INSERT INTO app_user (email, password_hash, display_name)
-                       VALUES ($1, $2, $3) RETURNING id, email, tier, is_active""",
-                    "test@example.com", password_hash, "Test User",
+                    """INSERT INTO app_user (email, password_hash, display_name, org_id)
+                       VALUES ($1, $2, $3, $4::uuid) RETURNING id, email, tier, is_active""",
+                    "test@example.com", password_hash, "Test User", DEFAULT_TEST_ORG_ID,
                 )
                 assert row["email"] == "test@example.com"
                 assert row["tier"] == "free"
@@ -117,13 +118,13 @@ class TestUserRegistration:
             async with db_pool.acquire() as conn:
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 await conn.execute(
-                    "INSERT INTO app_user (email, password_hash) VALUES ($1, $2)",
-                    "dup@example.com", password_hash,
+                    "INSERT INTO app_user (email, password_hash, org_id) VALUES ($1, $2, $3::uuid)",
+                    "dup@example.com", password_hash, DEFAULT_TEST_ORG_ID,
                 )
                 with pytest.raises(Exception):  # asyncpg.UniqueViolationError
                     await conn.execute(
-                        "INSERT INTO app_user (email, password_hash) VALUES ($1, $2)",
-                        "dup@example.com", password_hash,
+                        "INSERT INTO app_user (email, password_hash, org_id) VALUES ($1, $2, $3::uuid)",
+                        "dup@example.com", password_hash, DEFAULT_TEST_ORG_ID,
                     )
         _run(_test())
 
@@ -134,8 +135,8 @@ class TestUserRegistration:
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 with pytest.raises(Exception):  # asyncpg.CheckViolationError
                     await conn.execute(
-                        "INSERT INTO app_user (email, password_hash, tier) VALUES ($1, $2, $3)",
-                        "tier@example.com", password_hash, "invalid_tier",
+                        "INSERT INTO app_user (email, password_hash, tier, org_id) VALUES ($1, $2, $3, $4::uuid)",
+                        "tier@example.com", password_hash, "invalid_tier", DEFAULT_TEST_ORG_ID,
                     )
         _run(_test())
 
@@ -146,8 +147,8 @@ class TestUserRegistration:
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 for i, tier in enumerate(["free", "pro", "enterprise"]):
                     await conn.execute(
-                        "INSERT INTO app_user (email, password_hash, tier) VALUES ($1, $2, $3)",
-                        f"tier{i}@example.com", password_hash, tier,
+                        "INSERT INTO app_user (email, password_hash, tier, org_id) VALUES ($1, $2, $3, $4::uuid)",
+                        f"tier{i}@example.com", password_hash, tier, DEFAULT_TEST_ORG_ID,
                     )
                 count = await conn.fetchval("SELECT COUNT(*) FROM app_user WHERE email LIKE 'tier%'")
                 assert count == 3
@@ -165,8 +166,8 @@ class TestApiKeyLifecycle:
                 # Create user first
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 user = await conn.fetchrow(
-                    "INSERT INTO app_user (email, password_hash) VALUES ($1, $2) RETURNING id",
-                    "apiuser@example.com", password_hash,
+                    "INSERT INTO app_user (email, password_hash, org_id) VALUES ($1, $2, $3::uuid) RETURNING id",
+                    "apiuser@example.com", password_hash, DEFAULT_TEST_ORG_ID,
                 )
 
                 # Generate key
@@ -205,8 +206,8 @@ class TestApiKeyLifecycle:
             async with db_pool.acquire() as conn:
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 user = await conn.fetchrow(
-                    "INSERT INTO app_user (email, password_hash) VALUES ($1, $2) RETURNING id",
-                    "deactivate@example.com", password_hash,
+                    "INSERT INTO app_user (email, password_hash, org_id) VALUES ($1, $2, $3::uuid) RETURNING id",
+                    "deactivate@example.com", password_hash, DEFAULT_TEST_ORG_ID,
                 )
 
                 raw_key = "wot_" + secrets.token_hex(16)
@@ -233,8 +234,8 @@ class TestApiKeyLifecycle:
             async with db_pool.acquire() as conn:
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 user = await conn.fetchrow(
-                    "INSERT INTO app_user (email, password_hash) VALUES ($1, $2) RETURNING id",
-                    "verify@example.com", password_hash,
+                    "INSERT INTO app_user (email, password_hash, org_id) VALUES ($1, $2, $3::uuid) RETURNING id",
+                    "verify@example.com", password_hash, DEFAULT_TEST_ORG_ID,
                 )
 
                 raw_key = "wot_" + secrets.token_hex(16)
@@ -264,8 +265,8 @@ class TestApiKeyLifecycle:
             async with db_pool.acquire() as conn:
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 user = await conn.fetchrow(
-                    "INSERT INTO app_user (email, password_hash) VALUES ($1, $2) RETURNING id",
-                    "cascade@example.com", password_hash,
+                    "INSERT INTO app_user (email, password_hash, org_id) VALUES ($1, $2, $3::uuid) RETURNING id",
+                    "cascade@example.com", password_hash, DEFAULT_TEST_ORG_ID,
                 )
 
                 raw_key = "wot_" + secrets.token_hex(16)
@@ -297,8 +298,8 @@ class TestUsageLog:
             async with db_pool.acquire() as conn:
                 password_hash = bcrypt.hashpw(b"password123", bcrypt.gensalt()).decode()
                 user = await conn.fetchrow(
-                    "INSERT INTO app_user (email, password_hash) VALUES ($1, $2) RETURNING id",
-                    "usage@example.com", password_hash,
+                    "INSERT INTO app_user (email, password_hash, org_id) VALUES ($1, $2, $3::uuid) RETURNING id",
+                    "usage@example.com", password_hash, DEFAULT_TEST_ORG_ID,
                 )
 
                 await conn.execute(

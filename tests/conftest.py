@@ -97,9 +97,18 @@ def setup_and_teardown(request):
     _run(_teardown(db_pool))
 
 
+# Pre-seeded org id used by tests that insert app_user rows without
+# caring about org bucketing. Phase 6+ tests should create their own
+# orgs via the helpers in world_of_taxonomy/auth/orgs.py.
+DEFAULT_TEST_ORG_ID = "00000000-0000-0000-0000-000000000001"
+
+
 async def _setup(pool):
     schema_path = Path(__file__).parent.parent / "world_of_taxonomy" / "schema.sql"
     schema_sql = schema_path.read_text()
+
+    devkeys_path = Path(__file__).parent.parent / "world_of_taxonomy" / "schema_devkeys.sql"
+    devkeys_sql = devkeys_path.read_text() if devkeys_path.exists() else ""
 
     auth_schema_path = Path(__file__).parent.parent / "world_of_taxonomy" / "schema_auth.sql"
     auth_schema_sql = auth_schema_path.read_text() if auth_schema_path.exists() else ""
@@ -111,8 +120,13 @@ async def _setup(pool):
         await conn.execute(f"CREATE SCHEMA {TEST_SCHEMA}")
         await conn.execute(f"SET search_path TO {TEST_SCHEMA}")
         await conn.execute(schema_sql)
+        # Dev-key system tables come before WoT-specific auth tables
+        # because usage_log / daily_usage reference app_user / api_key.
+        if devkeys_sql:
+            await conn.execute(devkeys_sql)
         if auth_schema_sql:
             await conn.execute(auth_schema_sql)
+        await _seed_default_org(conn)
         await seed_naics(conn)
         await seed_isic(conn)
         await seed_sic(conn)
@@ -120,14 +134,29 @@ async def _setup(pool):
         await seed_country_system_links(conn)
 
 
+async def _seed_default_org(conn):
+    """Create one fixed-id corporate org so legacy auth tests can
+    insert app_user rows without each having to manage bucketing."""
+    await conn.execute(
+        """INSERT INTO org (id, name, domain, kind)
+           VALUES ($1::uuid, 'test_default', 'test.local', 'corporate')
+           ON CONFLICT (id) DO NOTHING""",
+        DEFAULT_TEST_ORG_ID,
+    )
+
+
 async def _teardown(pool):
     async with pool.acquire() as conn:
         await conn.execute(f"SET search_path TO {TEST_SCHEMA}")
         # Auth tables (may not exist yet)
         await conn.execute("DELETE FROM usage_log WHERE TRUE")
+        await conn.execute("DELETE FROM magic_link_token WHERE TRUE")
         await conn.execute("DELETE FROM api_key WHERE TRUE")
         await conn.execute("DELETE FROM app_user WHERE TRUE")
         await conn.execute("DELETE FROM classify_lead WHERE TRUE")
+        await conn.execute(
+            "DELETE FROM org WHERE id != $1::uuid", DEFAULT_TEST_ORG_ID
+        )
         # Core tables
         await conn.execute("DELETE FROM equivalence")
         await conn.execute("DELETE FROM classification_node")
