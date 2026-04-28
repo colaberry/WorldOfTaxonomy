@@ -636,12 +636,17 @@ async def _handle_resource_read(conn, uri: str) -> Dict[str, Any]:
 async def handle_jsonrpc_request(
     request: Dict[str, Any],
     conn=None,
+    http_client=None,
 ) -> Dict[str, Any]:
     """Handle a single JSON-RPC request and return a response.
 
     Args:
         request: Parsed JSON-RPC request dict.
-        conn: asyncpg connection (required for data-fetching methods).
+        conn: asyncpg connection (DB mode; required when http_client is None).
+        http_client: httpx.AsyncClient pre-configured with the WoT API
+            base URL and Authorization header (HTTP mode). When set,
+            tool calls are dispatched over HTTP via http_dispatcher
+            instead of running the local DB-backed handler.
 
     Returns:
         JSON-RPC response dict.
@@ -681,6 +686,37 @@ async def handle_jsonrpc_request(
     if method == "tools/call":
         tool_name = params.get("name", "")
         arguments = params.get("arguments", {})
+
+        # In HTTP mode, route the call through the dispatcher and skip
+        # the local handler. The dispatcher validates the tool name
+        # itself and raises NotImplementedError for unwired tools, so
+        # the "unknown tool" error path stays the same shape.
+        if http_client is not None:
+            from world_of_taxonomy.mcp.http_dispatcher import dispatch_http
+            try:
+                result = await dispatch_http(http_client, tool_name, arguments)
+                return {
+                    "jsonrpc": "2.0",
+                    "id": req_id,
+                    "result": {
+                        "content": [{
+                            "type": "text",
+                            "text": json.dumps(result, indent=2),
+                        }],
+                    },
+                }
+            except NotImplementedError as e:
+                return {
+                    "jsonrpc": "2.0",
+                    "id": req_id,
+                    "error": {"code": -32601, "message": str(e)},
+                }
+            except Exception as e:
+                return {
+                    "jsonrpc": "2.0",
+                    "id": req_id,
+                    "error": {"code": -32603, "message": str(e)},
+                }
 
         handler = _TOOL_HANDLERS.get(tool_name)
         if handler is None:
