@@ -19,11 +19,17 @@ const DEVELOPER_LINKS = [
   { href: 'https://github.com/colaberry/WorldOfTaxonomy/issues', label: 'Report an issue', external: true },
 ]
 
+const LEGAL_LINKS = [
+  { href: '/legal/terms',       label: 'Terms of service' },
+  { href: '/legal/privacy',     label: 'Privacy policy' },
+  { href: '/legal/attribution', label: 'Source attribution' },
+]
+
 export function Footer() {
   return (
     <footer className="border-t border-border/50 bg-card/40 mt-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-8">
 
           {/* Brand */}
           <div className="space-y-3">
@@ -73,6 +79,23 @@ export function Footer() {
                     href={href}
                     target={external ? '_blank' : undefined}
                     rel={external ? 'noopener noreferrer' : undefined}
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div className="space-y-3">
+            <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Legal</p>
+            <ul className="space-y-2">
+              {LEGAL_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link
+                    href={href}
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   >
                     {label}
