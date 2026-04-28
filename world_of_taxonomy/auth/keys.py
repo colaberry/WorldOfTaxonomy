@@ -189,9 +189,12 @@ async def validate_key(conn, raw_key: str, *, required_scope: str) -> Mapping:
     rows = await conn.fetch(
         """SELECT k.id AS key_id, k.user_id, k.key_hash, k.scopes,
                   k.revoked_at, k.expires_at,
-                  u.org_id
+                  u.org_id,
+                  o.tier AS org_tier,
+                  o.rate_limit_pool_per_minute
            FROM api_key k
            JOIN app_user u ON k.user_id = u.id
+           LEFT JOIN org o ON u.org_id = o.id
            WHERE k.key_prefix = $1""",
         key_prefix,
     )
@@ -221,6 +224,8 @@ async def validate_key(conn, raw_key: str, *, required_scope: str) -> Mapping:
             "allow": True,
             "user_id": row["user_id"],
             "org_id": row["org_id"],
+            "org_tier": row["org_tier"],
+            "rate_limit_pool_per_minute": row["rate_limit_pool_per_minute"],
             "key_id": row["key_id"],
             "scopes": list(row["scopes"]),
         }

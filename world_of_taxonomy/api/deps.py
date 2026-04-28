@@ -238,6 +238,69 @@ def _scope_missing_exception(required: str) -> HTTPException:
     )
 
 
+def require_tier(scope: str, allowed_tiers):
+    """Like require_scope, but additionally enforces `org.tier in allowed_tiers`.
+
+    Used on paid-only endpoints (bulk export, classify) where the
+    key's scope says "this caller may invoke the endpoint" but the
+    plan determines whether that invocation is currently entitled.
+
+    `allowed_tiers` accepts any iterable of strings ('free', 'pro',
+    'enterprise'). Pass a frozenset for clarity at the call site.
+    """
+    from world_of_taxonomy.auth import keys as keys_mod
+
+    allowed = frozenset(allowed_tiers)
+
+    async def _dep(request: Request) -> dict:
+        auth = request.headers.get("Authorization", "")
+        if not auth.startswith("Bearer "):
+            raise _missing_api_key_exception()
+        raw = auth[7:].strip()
+
+        pool = request.app.state.pool
+        async with pool.acquire() as conn:
+            result = await keys_mod.validate_key(conn, raw, required_scope=scope)
+
+        if not result["allow"]:
+            reason = result.get("reason")
+            if reason == "scope_missing":
+                raise _scope_missing_exception(scope)
+            raise _invalid_api_key_exception(reason)
+
+        if result.get("org_tier") not in allowed:
+            raise _tier_required_exception(scope, allowed)
+
+        return {
+            "user_id": result["user_id"],
+            "org_id": result["org_id"],
+            "org_tier": result["org_tier"],
+            "key_id": result["key_id"],
+            "scopes": result["scopes"],
+        }
+
+    return _dep
+
+
+def _tier_required_exception(scope: str, required_tiers) -> HTTPException:
+    pretty = " or ".join(sorted(required_tiers))
+    return HTTPException(
+        status_code=403,
+        detail={
+            "error": "tier_required",
+            "scope": scope,
+            "required_tier": pretty,
+            "message": (
+                f"This endpoint requires a {pretty} plan. "
+                "Upgrade at https://worldoftaxonomy.com/pricing"
+            ),
+        },
+        headers={
+            "Link": '<https://worldoftaxonomy.com/pricing>; rel="upgrade"',
+        },
+    )
+
+
 async def get_optional_auth(request: Request) -> Optional[dict]:
     """Return user if JWT or API key present, None otherwise.
 
