@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ContactSalesForm } from './ContactSalesForm'
-import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network, Sparkles, Bot } from 'lucide-react'
+import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network, Sparkles, Bot, KeyRound } from 'lucide-react'
 
 async function fetchGithubStars(): Promise<number | null> {
   try {
@@ -61,6 +61,20 @@ export default async function BuildersPage() {
         </p>
         <div className="flex flex-wrap gap-3 pt-2">
           <Link
+            href="/developers/signup"
+            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+          >
+            <KeyRound className="h-4 w-4" />
+            Get a free API key
+          </Link>
+          <Link
+            href="/explore"
+            className="flex items-center gap-2 px-4 py-2 rounded-lg border border-border/50 bg-card text-sm font-medium hover:bg-secondary/50 transition-colors"
+          >
+            <BookOpen className="h-4 w-4" />
+            Explore the data
+          </Link>
+          <Link
             href="https://github.com/colaberry/WorldOfTaxonomy"
             target="_blank"
             rel="noopener noreferrer"
@@ -78,14 +92,14 @@ export default async function BuildersPage() {
             <Star className="h-4 w-4 text-yellow-500" />
             Star{githubStars != null ? ` (${githubStars.toLocaleString()})` : ''}
           </Link>
-          <Link
-            href="/explore"
-            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
-          >
-            <BookOpen className="h-4 w-4" />
-            Explore the data
-          </Link>
         </div>
+        <p className="text-xs text-muted-foreground pt-1">
+          Already have a key?{' '}
+          <Link href="/developers/keys" className="underline hover:text-foreground transition-colors">
+            Manage your keys
+          </Link>
+          .
+        </p>
       </div>
 
       {/* ── Quick-glance cards ── */}
