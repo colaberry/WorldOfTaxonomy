@@ -76,8 +76,8 @@ any flavor of launch.
 **The plan**: Ram dumps his local Postgres and uploads to a
 Google Drive folder he shares with you. You download it, push it
 through a one-shot GCS bucket (Cloud SQL's `import sql` only reads
-from `gs://`), and restore into Cloud SQL on first deploy.
-~1-3 GB compressed dump.
+from `gs://`), and restore into Cloud SQL on first deploy. **Dump
+is ~165 MB compressed** (PostgreSQL custom format, level-9 zlib).
 
 ### Step 0 (before Step 1) - receive the database dump from Ram
 
@@ -89,16 +89,25 @@ through GCS (one short bridge step on your side, see below).
 The handoff:
 
 ```bash
-# Ram runs this on his laptop (~30 min depending on disk + compression)
-pg_dump -d worldoftaxanomy -F c -Z 9 -f wot_db_$(date +%Y-%m-%d).dump
+# Ram runs pg_dump from inside the wot-postgres Docker container
+# and streams the output to the host data/ folder.
+# Empirically ~30 seconds for the current ~1.2M-row DB.
+docker exec wot-postgres pg_dump \
+  -U wot -d worldoftaxanomy -F c -Z 9 \
+  > data/wot_db_$(date +%Y-%m-%d).dump
+
+# Verify and capture an MD5 for the dev to check integrity later.
+ls -lah data/wot_db_*.dump
+md5 data/wot_db_*.dump
 
 # Ram uploads the .dump to a Google Drive folder and shares the
 # folder with your email at "Editor" (or "Viewer" if download-only
-# is acceptable).
+# is acceptable). Sends you the MD5 in chat.
 ```
 
-You receive a Google Drive folder URL with the dump file inside.
-Expected dump size: 1-3 GB compressed.
+You receive a Google Drive folder URL with the dump file inside,
+plus an MD5 checksum. Expected dump size: **~165 MB** for the
+current schema + data (will grow as coverage and node count grow).
 
 ### Restoring the dump into Cloud SQL
 
@@ -110,6 +119,13 @@ key issuance (Step 4):
 #      a) browser download from the shared folder, or
 #      b) `gdown` / `rclone` CLI for non-browser environments.
 #    Save to ~/Downloads/wot_db_<date>.dump
+
+# 1a. Verify integrity against the MD5 Ram sent you.
+md5 ~/Downloads/wot_db_<date>.dump
+# Expected: matches the value in chat.
+# If it doesn't, re-download (Drive doesn't always return the latest version
+# under heavy edit; force a fresh download by appending ?confirm=t to the URL
+# or using `rclone copyto` with --drive-acknowledge-abuse).
 
 # 2. Create a one-shot GCS bucket for the bootstrap upload.
 #    Cloud SQL's `import sql` reads only from gs:// URLs, so this
