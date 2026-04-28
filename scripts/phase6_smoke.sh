@@ -13,21 +13,45 @@
 #
 # Requires: bash 4+, curl, jq.
 #
-# Usage:
-#   API_BASE=http://localhost:8000 ./scripts/phase6_smoke.sh
-#   API_BASE=https://wot.aixcelerator.ai EMAIL=ram+smoke@colaberry.com \
-#       ./scripts/phase6_smoke.sh
+# Two modes:
 #
-# The signup endpoint must be running with DEV_KEYS_DEV_MODE=1 so the
-# magic link comes back in the response body. Without that env var,
-# this script can't drive the flow because no inbox is involved.
+#   AUTOMATED (local + staging only - requires DEV_KEYS_DEV_MODE=1):
+#       API_BASE=http://localhost:8000 ./scripts/phase6_smoke.sh
+#       API_BASE=https://wot-staging.aixcelerator.ai \
+#           EMAIL=smoke@colaberry.com ./scripts/phase6_smoke.sh
+#
+#   PROD-SAFE (no DEV mode required):
+#       # 1. Sign up at https://worldoftaxonomy.com/developers/signup
+#       #    in a browser; the magic link arrives in your inbox.
+#       # 2. Copy the `t=...` value from the link and run:
+#       API_BASE=https://wot.aixcelerator.ai \
+#           ./scripts/phase6_smoke.sh --token <PASTE>
+#
+# DO NOT run the AUTOMATED mode against production: it requires
+# `DEV_KEYS_DEV_MODE=1`, which makes /developers/signup hand the
+# magic link back in the response body. While that flag is on,
+# anyone who hits the signup endpoint with a victim's email can
+# take over the account. Use the PROD-SAFE mode (or just do the
+# manual walkthrough in docs/handover/phase6-deploy.md).
 
 set -euo pipefail
 
 API_BASE="${API_BASE:-http://localhost:8000}"
 EMAIL="${EMAIL:-smoke+$(date +%s)@gmail.com}"
+TOKEN_OVERRIDE=""
 COOKIE_JAR="$(mktemp)"
 trap 'rm -f "$COOKIE_JAR"' EXIT
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --token) TOKEN_OVERRIDE="$2"; shift 2 ;;
+        -h|--help)
+            sed -n '2,28p' "$0"
+            exit 0
+            ;;
+        *) echo "unknown arg: $1" >&2; exit 2 ;;
+    esac
+done
 
 red()    { printf '\033[31m%s\033[0m\n' "$*" >&2; }
 green()  { printf '\033[32m%s\033[0m\n' "$*"; }
@@ -50,26 +74,42 @@ assert_status() {
     green "  OK: $what -> $actual"
 }
 
-# 1. Signup -> magic link in response (DEV_KEYS_DEV_MODE=1)
-step "Signup ($EMAIL)"
-SIGNUP_RESP=$(curl -sS -w '\n%{http_code}' -X POST "$API_BASE/api/v1/developers/signup" \
-    -H 'Content-Type: application/json' \
-    -d "{\"email\":\"$EMAIL\"}")
-SIGNUP_STATUS=$(echo "$SIGNUP_RESP" | tail -n1)
-SIGNUP_BODY=$(echo "$SIGNUP_RESP" | sed '$d')
-assert_status 202 "$SIGNUP_STATUS" "POST /api/v1/developers/signup"
+# 1. Get a magic-link token. Either via signup endpoint (DEV mode)
+# or supplied directly via --token (operator pasted from inbox).
+if [[ -n "$TOKEN_OVERRIDE" ]]; then
+    step "Using operator-supplied token (--token)"
+    TOKEN="$TOKEN_OVERRIDE"
+    # Strip a full URL down to just the token if the operator pasted
+    # the whole magic-link URL by accident.
+    if [[ "$TOKEN" == *"t="* ]]; then
+        TOKEN=$(echo "$TOKEN" | sed -n 's/.*[?&]t=\([^&]*\).*/\1/p')
+    fi
+    [[ -n "$TOKEN" ]] || { red "could not parse --token value"; exit 1; }
+    green "  token (first 8 chars): ${TOKEN:0:8}..."
+else
+    step "Signup ($EMAIL)"
+    SIGNUP_RESP=$(curl -sS -w '\n%{http_code}' -X POST "$API_BASE/api/v1/developers/signup" \
+        -H 'Content-Type: application/json' \
+        -d "{\"email\":\"$EMAIL\"}")
+    SIGNUP_STATUS=$(echo "$SIGNUP_RESP" | tail -n1)
+    SIGNUP_BODY=$(echo "$SIGNUP_RESP" | sed '$d')
+    assert_status 202 "$SIGNUP_STATUS" "POST /api/v1/developers/signup"
 
-MAGIC_URL=$(echo "$SIGNUP_BODY" | jq -r '.magic_link_url // empty')
-if [[ -z "$MAGIC_URL" ]]; then
-    red "FAIL: response did not include magic_link_url"
-    red "  Did you set DEV_KEYS_DEV_MODE=1 on the API server?"
-    echo "$SIGNUP_BODY" >&2
-    exit 1
+    MAGIC_URL=$(echo "$SIGNUP_BODY" | jq -r '.magic_link_url // empty')
+    if [[ -z "$MAGIC_URL" ]]; then
+        red "FAIL: response did not include magic_link_url."
+        red "  This script's automated mode needs DEV_KEYS_DEV_MODE=1"
+        red "  on the API server (intended for local + staging only)."
+        red "  For production, sign up via the UI to get a real email,"
+        red "  then re-run this script with --token <value-from-link>."
+        echo "$SIGNUP_BODY" >&2
+        exit 1
+    fi
+    green "  magic_link_url: $MAGIC_URL"
+
+    TOKEN=$(echo "$MAGIC_URL" | sed -n 's/.*[?&]t=\([^&]*\).*/\1/p')
+    [[ -n "$TOKEN" ]] || { red "could not extract token from magic_link_url"; exit 1; }
 fi
-green "  magic_link_url: $MAGIC_URL"
-
-TOKEN=$(echo "$MAGIC_URL" | sed -n 's/.*[?&]t=\([^&]*\).*/\1/p')
-[[ -n "$TOKEN" ]] || { red "could not extract token from magic_link_url"; exit 1; }
 
 # 2. Magic callback -> dev_session cookie
 step "Magic-link callback"

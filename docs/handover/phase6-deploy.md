@@ -13,12 +13,20 @@ artifacts:
 ## Order of operations
 
 ```
-[code]   Merge #119 -> #121 -> #122 -> #124 -> #125
-[infra]  Run migration on Cloud SQL prod  (phase6_apply_migration.sh)
-[infra]  Provision Resend secret          (phase6_setup_resend.sh)
-[deploy] Cloud Build picks up main, Cloud Run rolls a new revision
-[smoke]  Run phase6_smoke.sh against prod (phase6_smoke.sh)
+[code]    Merge #119 -> #121 -> #122 -> #124 -> #125
+[staging] Run migration + Resend setup on staging (same scripts)
+[staging] phase6_smoke.sh AUTOMATED mode against staging
+[infra]   Run migration on Cloud SQL prod  (phase6_apply_migration.sh)
+[infra]   Provision Resend secret          (phase6_setup_resend.sh)
+[deploy]  Cloud Build picks up main, Cloud Run rolls a new revision
+[smoke]   Manual walkthrough against prod  (Section 3b)
+[smoke]   Optional: phase6_smoke.sh --token <inbox-link> against prod
 ```
+
+The staging hop is the load-bearing safety net: `DEV_KEYS_DEV_MODE=1`
+is fine there, the automated smoke catches contract drift before
+anyone touches prod, and prod itself only ever sees a clean human
+walkthrough.
 
 If any step fails, the rollback path is documented inline in each
 script's header. The migration is wrapped in a `BEGIN/ROLLBACK`
@@ -95,44 +103,81 @@ echo -n "$NEW_KEY" | gcloud secrets versions add resend-api-key \
 
 ## 3. Run the end-to-end smoke
 
-After the four PRs are merged + Cloud Run has rolled a fresh revision
-+ Resend is wired up, run the smoke against prod:
+The smoke script supports two modes. Pick the right one for your
+target.
+
+### 3a. Local + staging: AUTOMATED mode
+
+For environments with `DEV_KEYS_DEV_MODE=1` set (signup returns the
+magic link in the response body so the script can drive the flow
+without an inbox). **Never enable that flag in production** - while
+it is on, anyone hitting the signup endpoint with someone else's
+email gets a magic link to take over their account.
+
+Staging should run with `DEV_KEYS_DEV_MODE=1` always on; that's
+what staging is for.
 
 ```bash
-API_BASE=https://wot.aixcelerator.ai \
-EMAIL=ram+phase6-smoke@colaberry.com \
+# Local
+API_BASE=http://localhost:8000 ./scripts/phase6_smoke.sh
+
+# Staging
+API_BASE=https://wot-staging.aixcelerator.ai \
+EMAIL=smoke+$(date +%s)@colaberry.com \
     ./scripts/phase6_smoke.sh
 ```
 
-The script walks all six steps (signup, magic-callback, create key,
-use key, revoke key, denied on revoked) and prints a green
-`Phase 6 smoke: ALL PASS` if every assertion passes.
+The script walks all six steps (signup, magic-callback, create
+key, use key, revoke key, denied on revoked) and prints a green
+`Phase 6 smoke: ALL PASS`.
 
-**Important:** the API server must be running with
-`DEV_KEYS_DEV_MODE=1` for the smoke to work, because the signup
-response includes the magic link in the body so the script can drive
-the flow without an inbox. **Disable `DEV_KEYS_DEV_MODE` immediately
-after the smoke passes** - leaving it enabled in production turns
-signup into a passwordless takeover of any email address.
+### 3b. Production: MANUAL walkthrough (preferred)
 
-Recommended flow:
+Production is **never** smoked with the automated script. Instead,
+do the five-minute click-through:
+
+1. Visit `https://worldoftaxonomy.com/developers/signup` in a
+   browser, enter your real email.
+2. Wait for the magic-link email (validates Resend wiring end to
+   end, not just the code path).
+3. Click the link, land on `/developers/keys` with a session
+   cookie.
+4. Click "Generate key", copy the raw key.
+5. From a shell:
+   ```bash
+   curl -H "Authorization: Bearer <KEY>" \
+       https://wot.aixcelerator.ai/api/v1/systems/naics_2022
+   # expect 200
+   ```
+6. Click "Revoke" on the dashboard.
+7. Within ~2 seconds:
+   ```bash
+   curl -i -H "Authorization: Bearer <KEY>" \
+       https://wot.aixcelerator.ai/api/v1/export/systems.jsonl
+   # expect 401 with detail.error == "invalid_api_key"
+   ```
+
+This exercises the same six contract assertions the script does,
+but uses real Resend delivery + a real human-readable inbox check.
+No env-var toggles, no security window.
+
+### 3c. Production: PROD-SAFE script mode (optional)
+
+If you want the script's assertions on prod without the manual
+clicking-through-the-UI part, use `--token`:
 
 ```bash
-# Temporarily enable DEV mode for the smoke window
-gcloud run services update wot-api \
-    --project=aixcelerator-prod --region=us-central1 \
-    --update-env-vars=DEV_KEYS_DEV_MODE=1
-
-API_BASE=https://wot.aixcelerator.ai ./scripts/phase6_smoke.sh
-
-# Disable immediately after PASS
-gcloud run services update wot-api \
-    --project=aixcelerator-prod --region=us-central1 \
-    --remove-env-vars=DEV_KEYS_DEV_MODE
+# 1. Sign up via the browser (steps 1-2 above) so a real magic-link
+#    email arrives in your inbox.
+# 2. Copy the value of `t=...` from the link. Run:
+API_BASE=https://wot.aixcelerator.ai \
+    ./scripts/phase6_smoke.sh --token <PASTE>
 ```
 
-If you'd rather run the smoke against a staging deployment, point
-`API_BASE` at staging and skip the prod env-var dance entirely.
+The script skips the signup step (no `DEV_KEYS_DEV_MODE` needed),
+consumes the token, and runs the rest of the assertions. This is
+the right choice when you want machine-checked output from prod
+without the staging dance.
 
 ## 4. Manual sanity checks (optional but recommended)
 
@@ -156,12 +201,13 @@ curl -i https://wot.aixcelerator.ai/api/v1/export/systems.jsonl \
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| Smoke step 1 fails: `magic_link_url` missing | `DEV_KEYS_DEV_MODE` not set on the server | `gcloud run services update --update-env-vars=DEV_KEYS_DEV_MODE=1` |
-| Smoke step 2 fails: cookie not set | Cookie is `secure=True` and the test hits HTTP | Run against the HTTPS URL, or set `DEV_SESSION_INSECURE=1` for local |
-| Smoke step 3 fails: 401 on key creation | `dev_session` cookie expired (default 60 min) | Re-run the smoke; curl creates a fresh cookie each time |
+| Smoke (automated) step 1 fails: `magic_link_url` missing | `DEV_KEYS_DEV_MODE` not set | Only enable on staging, never on prod. Use `--token` mode against prod instead. |
+| Smoke step 2 fails: cookie not set | Cookie is `secure=True` and the test hits HTTP | Run against the HTTPS URL, or set `DEV_SESSION_INSECURE=1` for local only |
+| Smoke step 3 fails: 401 on key creation | `dev_session` cookie expired (default 60 min) or `--token` already consumed | Re-run with a fresh signup or a fresh token; magic links are single-use |
 | Migration apply fails on `SET NOT NULL` | A row was inserted between backfill and SET NOT NULL during the migration window | Apply during a low-traffic window. The script wraps in `--single-transaction` so a failure rolls back cleanly. |
 | Resend script fails: SA missing | Cloud Run service has no pinned SA | Either pin one via `--service-account` or accept the default compute SA the script falls back to. |
 | Magic-link email never arrives | `RESEND_API_KEY` not on the active revision | `gcloud run revisions describe $REV --format='value(spec.containers[0].env)'` and re-apply step 2 if missing |
+| Prod walkthrough finds magic link in spam | First-send reputation; sender domain not yet warmed | Mark not-spam, then run a few benign sends to the same inbox over the next day; reputation fixes itself. |
 
 ## After everything is green
 
