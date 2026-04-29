@@ -77,3 +77,21 @@ CREATE TABLE IF NOT EXISTS magic_link_token (
 CREATE INDEX IF NOT EXISTS idx_magic_link_user ON magic_link_token(user_id);
 CREATE INDEX IF NOT EXISTS idx_magic_link_expires
     ON magic_link_token(expires_at) WHERE consumed_at IS NULL;
+
+-- email_send_log backs the global "Resend budget" guard. Every
+-- magic-link email writes a row here BEFORE the signup endpoint
+-- returns; the guard counts rows in the last hour to decide whether
+-- to refuse new signups with 503. See migrations/004_email_send_log.sql
+-- for context.
+CREATE TABLE IF NOT EXISTS email_send_log (
+    id          BIGSERIAL PRIMARY KEY,
+    sent_at     TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    email_hash  TEXT,
+    ip_address  TEXT,
+    purpose     TEXT NOT NULL DEFAULT 'magic_link'
+                CHECK (purpose IN ('magic_link', 'key_issued', 'key_revoked', 'other'))
+);
+CREATE INDEX IF NOT EXISTS idx_email_send_log_sent_at
+    ON email_send_log(sent_at);
+CREATE INDEX IF NOT EXISTS idx_email_send_log_email_hash
+    ON email_send_log(email_hash) WHERE email_hash IS NOT NULL;

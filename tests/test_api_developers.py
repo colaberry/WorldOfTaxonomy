@@ -19,6 +19,15 @@ def _run(coro):
     return asyncio.get_event_loop().run_until_complete(coro)
 
 
+@pytest.fixture(autouse=True)
+def _reset_rate_guard():
+    """The per-IP rate counter is in-process and lives for the whole
+    pytest run. Reset between tests so signups in one test do not
+    feed the bucket of the next."""
+    from world_of_taxonomy.api.rate_guard import _reset_for_tests
+    _reset_for_tests()
+
+
 @pytest.fixture
 def app(db_pool):
     """Build the FastAPI app for tests, pinned to the test_wot pool."""
@@ -44,6 +53,12 @@ def _client(app):
 
 class TestSignupAndMagicLink:
     def test_post_signup_accepted_and_returns_link_in_dev_mode(self, app):
+        # Reset the per-IP rate counter so a previous run does not bleed
+        # into this one (in-process LRU is shared across the whole test
+        # process).
+        from world_of_taxonomy.api.rate_guard import _reset_for_tests
+        _reset_for_tests()
+
         async def _test():
             async with _client(app) as c:
                 resp = await c.post(
@@ -55,6 +70,34 @@ class TestSignupAndMagicLink:
                 # In dev mode the magic link is returned for testability.
                 assert "magic_link_url" in body
                 assert "/auth/magic" in body["magic_link_url"]
+        _run(_test())
+
+    def test_signup_per_ip_rate_limit_fires_at_sixth_attempt(self, app):
+        """Per-IP cap of 5/hour means the 6th signup from the same IP
+        in the same window returns 429 with retry-after."""
+        from world_of_taxonomy.api.rate_guard import _reset_for_tests
+        _reset_for_tests()
+
+        async def _test():
+            async with _client(app) as c:
+                # First 5 attempts succeed.
+                for i in range(5):
+                    resp = await c.post(
+                        "/api/v1/developers/signup",
+                        json={"email": f"flood-{i}@gmail.com"},
+                    )
+                    assert resp.status_code == 202, (i, resp.text)
+                # 6th attempt is rate-limited.
+                resp = await c.post(
+                    "/api/v1/developers/signup",
+                    json={"email": "flood-6@gmail.com"},
+                )
+                assert resp.status_code == 429
+                body = resp.json()["detail"]
+                assert body["error"] == "rate_limit_exceeded"
+                assert body["scope"] == "per_ip:developers_signup"
+                assert "retry_after_seconds" in body
+                assert resp.headers.get("retry-after") is not None
         _run(_test())
 
     def test_magic_callback_sets_session_cookie(self, app):
