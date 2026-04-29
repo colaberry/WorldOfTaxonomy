@@ -8,8 +8,9 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { ChevronDown, Globe, LogIn, LogOut, Sparkles, User } from 'lucide-react'
+import { ChevronDown, LogIn, LogOut, Sparkles, User } from 'lucide-react'
 import { ThemeToggle } from '@/components/ThemeToggle'
+import { Logo } from '@/components/Logo'
 import { getStoredUser, clearAuth, isLoggedIn } from '@/lib/auth'
 import type { StoredUser } from '@/lib/auth'
 
@@ -47,9 +48,9 @@ export function Header() {
           href="/"
           className="flex items-center gap-2 text-foreground font-semibold tracking-tight"
         >
-          <Globe className="h-5 w-5 text-primary" />
-          <span className="hidden sm:inline">World Of Taxonomy</span>
-          <span className="sm:hidden">WoT</span>
+          <Logo variant="mark" height={32} className="inline-flex" />
+          <span className="hidden sm:inline text-base">World Of Taxonomy</span>
+          <span className="sm:hidden text-base">WoT</span>
         </Link>
 
         <nav className="flex items-center gap-1">

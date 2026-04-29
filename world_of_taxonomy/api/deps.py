@@ -146,7 +146,7 @@ async def validate_api_key(pool, key: str) -> Optional[dict]:
 
 
 def require_scope(scope: str):
-    """FastAPI dependency factory for `Depends(require_scope("wot:export"))`.
+    """FastAPI dependency factory for `Depends(require_scope("wot:classify"))`.
 
     On a request without a valid key carrying `scope`:
       - 401 missing_api_key when no Authorization header (or wrong shape).

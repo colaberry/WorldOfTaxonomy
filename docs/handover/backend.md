@@ -27,8 +27,8 @@ create_app()
  ├─ metrics_middleware            # wot_http_* counters + latency + in-flight
  ├─ rate_limit_middleware         # tier-aware + X-RateLimit-* headers
  ├─ include_router(explore, systems, nodes, search, equivalences,
- │                 crosswalk_graph, countries, auth, oauth, export,
- │                 audit, classify, classify_demo, contact, bulk_export,
+ │                 crosswalk_graph, countries, auth, oauth,
+ │                 audit, classify, classify_demo, contact,
  │                 wiki, health, metrics, honeypot, csp_report, canary)
  └─ lifespan close -> graceful uvicorn drain -> pool.close()
 ```
@@ -96,7 +96,7 @@ From [world_of_taxonomy/api/routers/](../../world_of_taxonomy/api/routers/):
 | `oauth` | `GET /auth/oauth/{provider}/authorize`, callback | none |
 | `wiki` | `GET /wiki`, `GET /wiki/{slug}` | optional |
 | `contact` | `POST /contact` - form delivery | none |
-| `audit`, `export`, `bulk_export`, `crosswalk_graph` | admin + export utilities | mixed |
+| `audit`, `crosswalk_graph` | admin + graph traversal utilities | mixed |
 | `metrics` | `GET /api/v1/metrics` (Prometheus exposition) | `METRICS_TOKEN` header |
 | `health` | `GET /api/v1/healthz` (uptime probe, no DB hit) + `GET /api/v1/version` (git sha + build time) | none |
 | `csp_report` | `POST /api/v1/csp-report` - CSP violation sink | none |

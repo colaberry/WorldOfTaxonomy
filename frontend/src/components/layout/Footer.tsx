@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { Globe, GitFork } from 'lucide-react'
+import { GitFork } from 'lucide-react'
+import { Logo } from '@/components/Logo'
 
 const EXPLORE_LINKS = [
   { href: '/',           label: 'Home' },
@@ -25,8 +26,8 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-3">
             <Link href="/" className="flex items-center gap-2 text-foreground font-semibold w-fit">
-              <Globe className="h-4 w-4 text-primary" />
-              World Of Taxonomy
+              <Logo variant="mark" height={28} className="inline-flex" />
+              <span>World Of Taxonomy</span>
             </Link>
             <p className="text-xs text-muted-foreground leading-relaxed max-w-xs">
               A unified knowledge graph connecting 1,000+ classification systems across

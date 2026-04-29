@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Braces, ArrowLeft, Key, ExternalLink, Zap, Shield, Download, Globe, Search, GitFork, FlaskConical, BookOpen, MessageSquare, ClipboardCheck } from 'lucide-react'
+import { Braces, ArrowLeft, Key, ExternalLink, Zap, Shield, Globe, Search, GitFork, FlaskConical, BookOpen, MessageSquare, ClipboardCheck } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -282,51 +282,6 @@ const GROUPS: EndpointGroup[] = [
           { name: 'id', location: 'path', type: 'string', required: true, description: 'System ID' },
           { name: 'code', location: 'path', type: 'string', required: true, description: 'Parent node code' },
           { name: 'nodes', location: 'body', type: 'GeneratedNode[]', required: true, description: 'Array of {code, title, description} to accept' },
-        ],
-        tier: 'auth',
-      },
-    ],
-  },
-  {
-    id: 'export',
-    title: 'Export',
-    description: 'Bulk data export in JSONL and CSV formats',
-    icon: <Download className="h-5 w-5" />,
-    endpoints: [
-      {
-        method: 'GET', path: '/api/v1/export/systems.jsonl',
-        description: 'Export all classification systems as JSONL (one JSON object per line).',
-        params: [],
-        tier: 'pro',
-      },
-      {
-        method: 'GET', path: '/api/v1/export/systems/{id}/nodes.jsonl',
-        description: 'Export all nodes in a system as JSONL.',
-        params: [
-          { name: 'id', location: 'path', type: 'string', required: true, description: 'System ID' },
-        ],
-        tier: 'pro',
-      },
-      {
-        method: 'GET', path: '/api/v1/export/crosswalks.jsonl',
-        description: 'Export all crosswalk edges as JSONL.',
-        params: [],
-        tier: 'enterprise',
-      },
-      {
-        method: 'GET', path: '/api/v1/systems/{id}/export.csv',
-        description: 'Download all nodes in a system as CSV. Columns: code, title, description, level, parent_code, is_leaf.',
-        params: [
-          { name: 'id', location: 'path', type: 'string', required: true, description: 'System ID' },
-        ],
-        tier: 'auth',
-      },
-      {
-        method: 'GET', path: '/api/v1/systems/{id}/crosswalk/{target}/export.csv',
-        description: 'Download crosswalk edges between two systems as CSV.',
-        params: [
-          { name: 'id', location: 'path', type: 'string', required: true, description: 'Source system ID' },
-          { name: 'target', location: 'path', type: 'string', required: true, description: 'Target system ID' },
         ],
         tier: 'auth',
       },
