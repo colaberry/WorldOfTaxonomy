@@ -117,27 +117,3 @@ class TestKeyCrudRequiresSession:
         _run(_test())
 
 
-class TestProtectedEndpointHelpfulErrors:
-    def test_anonymous_export_returns_401_with_link_header(self, app):
-        """Protected (require_scope) endpoints emit a JSON pointer to
-        /developers and the right WWW-Authenticate header so curl
-        users see exactly where to go."""
-        async def _test():
-            async with _client(app) as c:
-                # The bulk export router will be wrapped in require_scope
-                # in PR #2; this assertion documents the contract.
-                resp = await c.get(
-                    "/api/v1/export/equivalences/all",
-                )
-                # Already-public listing endpoints stay 200; only the
-                # gated bulk export is required to 401 here.
-                if resp.status_code == 401:
-                    body = resp.json()
-                    assert body.get("error") == "missing_api_key"
-                    assert "developers" in body.get("message", "").lower()
-                    assert resp.headers.get("www-authenticate", "").lower().startswith(
-                        "apikey"
-                    )
-                    link = resp.headers.get("link", "")
-                    assert "rel=\"signup\"" in link or 'rel="signup"' in link
-        _run(_test())

@@ -109,7 +109,7 @@ class TestValidateKey:
             async with db_pool.acquire() as conn:
                 user_id, _ = await _make_user(conn)
                 raw = await _store_issued_key(conn, user_id, ["wot:read"])
-                result = await validate_key(conn, raw, required_scope="wot:export")
+                result = await validate_key(conn, raw, required_scope="wot:admin")
                 assert result["allow"] is False
                 # Differentiated reason so the API layer can choose 401 vs 403.
                 assert result["reason"] == "scope_missing"
@@ -195,7 +195,7 @@ class TestValidateKey:
                     user_id, key_hash, raw[4:12], ["wot:*"],
                 )
                 # Old key, new scope check.
-                for action in ("wot:read", "wot:list", "wot:export"):
+                for action in ("wot:read", "wot:list", "wot:classify"):
                     result = await validate_key(conn, raw, required_scope=action)
                     assert result["allow"] is True, action
         _run(_test())

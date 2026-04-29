@@ -31,7 +31,7 @@ import bcrypt
 # is a one-line change in WOT_FULL_ACTIONS' sibling - or just add the
 # product as a key here when its scopes get defined.
 
-WOT_FULL_ACTIONS = frozenset({"read", "list", "export", "classify", "admin"})
+WOT_FULL_ACTIONS = frozenset({"read", "list", "classify", "admin"})
 
 PRODUCT_FULL_ACTIONS: dict[str, frozenset[str]] = {
     "wot": WOT_FULL_ACTIONS,

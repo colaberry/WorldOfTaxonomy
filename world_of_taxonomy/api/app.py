@@ -17,13 +17,11 @@ from world_of_taxonomy.api.routers import crosswalk_graph as crosswalk_graph_rou
 from world_of_taxonomy.api.routers import auth as auth_router
 from world_of_taxonomy.api.routers import countries as countries_router
 from world_of_taxonomy.api.routers import oauth as oauth_router
-from world_of_taxonomy.api.routers import export as export_router
 from world_of_taxonomy.api.routers import audit as audit_router
 from world_of_taxonomy.api.routers import classify as classify_router
 from world_of_taxonomy.api.routers import classify_demo as classify_demo_router
 from world_of_taxonomy.api.routers import contact as contact_router
 from world_of_taxonomy.api.routers import mcp_http as mcp_http_router
-from world_of_taxonomy.api.routers import bulk_export as bulk_export_router
 from world_of_taxonomy.api.routers import developers as developers_router
 from world_of_taxonomy.api.routers import wiki as wiki_router
 from world_of_taxonomy.api.routers import health as health_router
@@ -409,13 +407,11 @@ def create_app() -> FastAPI:
     app.include_router(countries_router.router)
     app.include_router(auth_router.router)
     app.include_router(oauth_router.router)
-    app.include_router(export_router.router)
     app.include_router(audit_router.router)
     app.include_router(classify_router.router)
     app.include_router(classify_demo_router.router)
     app.include_router(contact_router.router)
     app.include_router(mcp_http_router.router)
-    app.include_router(bulk_export_router.router)
     app.include_router(developers_router.router)
     app.include_router(wiki_router.router)
     app.include_router(health_router.router)

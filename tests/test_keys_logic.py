@@ -51,7 +51,7 @@ class TestPrefixForScopes:
     def test_full_wot_scope_set_yields_wot_prefix(self):
         from world_of_taxonomy.auth.keys import prefix_for_scopes
         # All defined wot:* actions present -> full-product prefix.
-        scopes = ["wot:read", "wot:list", "wot:export", "wot:classify", "wot:admin"]
+        scopes = ["wot:read", "wot:list", "wot:classify", "wot:admin"]
         assert prefix_for_scopes(scopes) == "wot_"
 
     def test_wot_wildcard_is_full_product(self):
@@ -96,12 +96,12 @@ class TestScopeGranted:
 
     def test_exact_scope_mismatch_denies(self):
         from world_of_taxonomy.auth.keys import scope_granted
-        assert scope_granted(["wot:read"], "wot:export") is False
+        assert scope_granted(["wot:read"], "wot:admin") is False
 
     def test_wildcard_grants_any_action_in_product(self):
         from world_of_taxonomy.auth.keys import scope_granted
         assert scope_granted(["wot:*"], "wot:read") is True
-        assert scope_granted(["wot:*"], "wot:export") is True
+        assert scope_granted(["wot:*"], "wot:admin") is True
         assert scope_granted(["wot:*"], "wot:admin") is True
 
     def test_wildcard_does_not_cross_products(self):
@@ -112,4 +112,4 @@ class TestScopeGranted:
         from world_of_taxonomy.auth.keys import scope_granted
         granted = ["wot:read", "wot:list", "woo:read"]
         assert scope_granted(granted, "woo:read") is True
-        assert scope_granted(granted, "wot:export") is False
+        assert scope_granted(granted, "wot:admin") is False

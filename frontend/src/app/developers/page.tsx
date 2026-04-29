@@ -24,7 +24,6 @@ const API_HIGHLIGHTS = [
   { method: 'GET',  path: '/api/v1/systems/{id}/nodes/{code}/equivalences', desc: 'Crosswalk mappings to other systems' },
   { method: 'POST', path: '/api/v1/classify',                               desc: 'Classify free-text against all systems (Pro+)' },
   { method: 'GET',  path: '/api/v1/countries/{code}',                       desc: 'Country taxonomy profile' },
-  { method: 'GET',  path: '/api/v1/export/systems.jsonl',                   desc: 'Bulk export as JSONL (Pro+)' },
 ]
 
 const MCP_HIGHLIGHTS = [
