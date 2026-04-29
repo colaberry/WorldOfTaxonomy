@@ -269,9 +269,20 @@ async def auth_magic_callback(
 )
 async def create_key(
     body: CreateKeyRequest,
+    request: Request,
     user: dict = Depends(get_dev_session_user),
     conn=Depends(get_conn),
 ):
+    """Mint a new developer API key for the cookie-authenticated user.
+
+    Per-IP rate guard: 10/hour. The cookie itself is gated by the
+    rate-limited magic-link flow, but a compromised cookie or a single
+    user wedging a key-generation script could mint hundreds of keys
+    quickly. Real users mint keys infrequently, so 10/hour is comfortable
+    headroom without leaving a flood vector open.
+    """
+    check_per_ip_rate("developers_keys_create", request, max_per_window=10)
+
     try:
         minted = keys_mod.issue_key(body.scopes)
     except ValueError as exc:

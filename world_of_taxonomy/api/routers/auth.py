@@ -170,7 +170,15 @@ async def login(body: LoginRequest, request: Request, conn=Depends(get_conn)):
 
 @router.get("/me", response_model=UserResponse)
 async def get_me(request: Request, conn=Depends(get_conn)):
-    """Get current user profile."""
+    """Get current user profile.
+
+    Per-IP rate guard: 120/min via the shared `auth_session` bucket.
+    Bounds loop attacks from a stolen JWT across /me + /keys CRUD
+    without affecting interactive use.
+    """
+    check_per_ip_rate(
+        "auth_session", request, max_per_window=120, window_seconds=60,
+    )
     user = await get_current_user(request)
     row = await conn.fetchrow(
         "SELECT id, email, display_name, tier, created_at FROM app_user WHERE id = $1",
@@ -183,7 +191,14 @@ async def get_me(request: Request, conn=Depends(get_conn)):
 
 @router.post("/keys", response_model=ApiKeyCreatedResponse)
 async def create_api_key(body: CreateApiKeyRequest, request: Request, conn=Depends(get_conn)):
-    """Create a new API key for the current user."""
+    """Create a new API key for the current user.
+
+    Per-IP rate guard: 10/hour for key creation specifically. A stolen
+    JWT minting many keys is a real abuse pattern; legitimate users
+    create keys rarely. Shared `auth_session` cap (120/min) also
+    applies via the get_current_user path on the second call.
+    """
+    check_per_ip_rate("auth_keys_create", request, max_per_window=10)
     user = await get_current_user(request)
 
     # Generate key: wot_ + 32 hex chars
@@ -209,7 +224,13 @@ async def create_api_key(body: CreateApiKeyRequest, request: Request, conn=Depen
 
 @router.get("/keys", response_model=List[ApiKeyResponse])
 async def list_api_keys(request: Request, conn=Depends(get_conn)):
-    """List all API keys for the current user."""
+    """List all API keys for the current user.
+
+    Shares the `auth_session` bucket (120/min/IP).
+    """
+    check_per_ip_rate(
+        "auth_session", request, max_per_window=120, window_seconds=60,
+    )
     user = await get_current_user(request)
 
     rows = await conn.fetch(
@@ -225,7 +246,13 @@ async def list_api_keys(request: Request, conn=Depends(get_conn)):
 
 @router.delete("/keys/{key_id}")
 async def deactivate_api_key(key_id: str, request: Request, conn=Depends(get_conn)):
-    """Deactivate an API key."""
+    """Deactivate an API key.
+
+    Shares the `auth_session` bucket (120/min/IP).
+    """
+    check_per_ip_rate(
+        "auth_session", request, max_per_window=120, window_seconds=60,
+    )
     user = await get_current_user(request)
 
     try:

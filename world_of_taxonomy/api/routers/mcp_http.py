@@ -26,6 +26,7 @@ from __future__ import annotations
 from fastapi import APIRouter, Request
 from fastapi.responses import JSONResponse, Response
 
+from world_of_taxonomy.api.rate_guard import check_per_ip_rate
 from world_of_taxonomy.db import get_pool
 from world_of_taxonomy.mcp.protocol import handle_jsonrpc_request
 
@@ -34,7 +35,16 @@ router = APIRouter(tags=["mcp"])
 
 @router.post("/mcp")
 async def mcp_http_bridge(request: Request) -> Response:
-    """Handle one MCP JSON-RPC message over HTTP POST."""
+    """Handle one MCP JSON-RPC message over HTTP POST.
+
+    Per-IP rate guard: 600/hour. MCP agents legitimately fan out across
+    many tool calls in a single user task (a Claude session can fire
+    dozens of search/translate calls back-to-back), so the cap is
+    deliberately loose. It still bounds a runaway loop or a single IP
+    using the public bridge as a free LLM-tool harness.
+    """
+    check_per_ip_rate("mcp_http", request, max_per_window=600)
+
     try:
         body = await request.json()
     except Exception:  # noqa: BLE001
