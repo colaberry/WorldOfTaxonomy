@@ -61,6 +61,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://worldoftaxonomy.com",
   },
+  // Branding rolled out with Aleem's WoT design system v1.0.
+  // Next.js auto-detects /src/app/{favicon.ico, icon.png, apple-icon.png} —
+  // these explicit entries pin extra public/* sizes for richer install/share UX.
+  icons: {
+    icon: [
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/logo-favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/apple-icon-180.png", sizes: "180x180", type: "image/png" }],
+    shortcut: ["/favicon.ico"],
+  },
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#FFFFFF" },
+    { media: "(prefers-color-scheme: dark)",  color: "#141414" },
+  ],
 };
 
 const jsonLd = [
