@@ -314,6 +314,13 @@ export interface paths {
         /**
          * Search
          * @description Full-text search across all classification systems.
+         *
+         *     Per-IP rate guard: 200/hour. Sized for interactive use (a real
+         *     user typing tens of queries in a session) but tight enough to deter
+         *     bulk scraping a six-figure node table from a single IP. Once
+         *     Cloudflare is in front, the page-cache rule on /api/v1/systems*
+         *     absorbs most of this; the in-process cap is defense-in-depth for
+         *     queries that bypass cache (unique q values).
          */
         get: operations["search_api_v1_search_get"];
         put?: never;
@@ -477,6 +484,11 @@ export interface paths {
         /**
          * Register
          * @description Register a new user account.
+         *
+         *     Per-IP rate guard: 5/hour. Each registration mints a JWT, writes to
+         *     app_user, and fires a webhook - cheap to abuse, expensive to clean
+         *     up. The cap is the same as /developers/signup since the abuse
+         *     surface is identical (user enumeration + webhook spam).
          */
         post: operations["register_api_v1_auth_register_post"];
         delete?: never;
@@ -621,50 +633,6 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
-    "/api/v1/systems/{system_id}/export.csv": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * Export Nodes
-         * @description Download all nodes in a classification system as CSV.
-         *
-         *     Requires authentication. Returns rows sorted by seq_order.
-         */
-        get: operations["export_nodes_api_v1_systems__system_id__export_csv_get"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/systems/{system_id}/crosswalk/{target_id}/export.csv": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * Export Crosswalk
-         * @description Download crosswalk edges between two systems as CSV.
-         *
-         *     Requires authentication. Returns edges in source -> target direction only.
-         */
-        get: operations["export_crosswalk_api_v1_systems__system_id__crosswalk__target_id__export_csv_get"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
     "/api/v1/audit/provenance": {
         parameters: {
             query?: never;
@@ -725,6 +693,11 @@ export interface paths {
          *
          *     Returns a limited result set (5 systems, 3 results each). Records
          *     the email as a lead.
+         *
+         *     Per-IP rate guard: 20/hour. The cap is well above any legitimate
+         *     interactive use (a user trying ~5 prompts in a session) but tight
+         *     enough to deter farming, since each call is LLM-backed and each
+         *     INSERT into classify_lead is downstream lead-pipeline noise.
          */
         post: operations["classify_demo_api_v1_classify_demo_post"];
         delete?: never;
@@ -748,6 +721,10 @@ export interface paths {
          *
          *     Delivers the message via the configured webhook. No admin email
          *     is ever exposed to the client.
+         *
+         *     Per-IP rate guard: 5/hour. Each submission fires a webhook to our
+         *     notification destination; without this, a single IP could flood
+         *     the operator inbox/Slack channel.
          */
         post: operations["submit_contact_api_v1_contact_post"];
         delete?: never;
@@ -780,66 +757,6 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
-    "/api/v1/export/systems.jsonl": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * Export Systems Jsonl
-         * @description Export all classification systems as JSONL. Requires Pro+ tier.
-         */
-        get: operations["export_systems_jsonl_api_v1_export_systems_jsonl_get"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/export/systems/{system_id}/nodes.jsonl": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * Export Nodes Jsonl
-         * @description Export all nodes in a system as JSONL. Requires Pro+ tier.
-         */
-        get: operations["export_nodes_jsonl_api_v1_export_systems__system_id__nodes_jsonl_get"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/export/crosswalks.jsonl": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * Export Crosswalks Jsonl
-         * @description Export all crosswalk edges as JSONL. Requires Enterprise tier.
-         */
-        get: operations["export_crosswalks_jsonl_api_v1_export_crosswalks_jsonl_get"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
     "/api/v1/developers/signup": {
         parameters: {
             query?: never;
@@ -851,7 +768,15 @@ export interface paths {
         put?: never;
         /**
          * Developers Signup
-         * @description Idempotent signup. Creates the user + org if new, then emails a magic link.
+         * @description Idempotent signup. Creates the user + org if new, then emails a
+         *     magic link.
+         *
+         *     Two abuse guards run BEFORE any DB write or email send:
+         *       - per-IP cap (default 5/hour) catches a single source spamming
+         *         random emails.
+         *       - global email-send budget (default 200/hour, env-tunable via
+         *         EMAIL_SEND_BUDGET_PER_HOUR) caps the Resend bill even if a
+         *         botnet bypasses the per-IP cap.
          */
         post: operations["developers_signup_api_v1_developers_signup_post"];
         delete?: never;
@@ -870,6 +795,10 @@ export interface paths {
         /**
          * Auth Magic Callback
          * @description Consume the magic-link token and set the dev_session cookie.
+         *
+         *     Per-IP rate-limited at 30/min: tokens are 256-bit random, so
+         *     flooding cannot guess one, but the limit caps DB cycles spent on
+         *     failed lookups during a token-spray attack.
          */
         get: operations["auth_magic_callback_api_v1_auth_magic_callback_get"];
         put?: never;
@@ -999,6 +928,37 @@ export interface paths {
         get: operations["version_api_v1_version_get"];
         put?: never;
         post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/_internal/sentry-test": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Sentry Test
+         * @description Throw a deliberate exception so the operator can verify Sentry
+         *     is wired up and receiving events.
+         *
+         *     Gated three ways:
+         *       1. Disabled unless SENTRY_TEST_TOKEN is set in the environment.
+         *       2. Caller must present that token via the X-Sentry-Test-Token header.
+         *       3. Comparison is constant-time to avoid token-leak via timing.
+         *
+         *     On a successful auth, raises a fresh exception type so it shows up
+         *     cleanly in the Sentry inbox without polluting real error groupings.
+         *     Returns the request_id so the operator can correlate the Sentry
+         *     event with the access log.
+         */
+        post: operations["sentry_test_api_v1__internal_sentry_test_post"];
         delete?: never;
         options?: never;
         head?: never;
@@ -2752,69 +2712,6 @@ export interface operations {
             };
         };
     };
-    export_nodes_api_v1_systems__system_id__export_csv_get: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                system_id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": unknown;
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
-    export_crosswalk_api_v1_systems__system_id__crosswalk__target_id__export_csv_get: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                system_id: string;
-                target_id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": unknown;
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
     audit_provenance_api_v1_audit_provenance_get: {
         parameters: {
             query?: never;
@@ -2957,77 +2854,6 @@ export interface operations {
         };
     };
     mcp_http_bridge_mcp_post: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": unknown;
-                };
-            };
-        };
-    };
-    export_systems_jsonl_api_v1_export_systems_jsonl_get: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": unknown;
-                };
-            };
-        };
-    };
-    export_nodes_jsonl_api_v1_export_systems__system_id__nodes_jsonl_get: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                system_id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": unknown;
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
-    export_crosswalks_jsonl_api_v1_export_crosswalks_jsonl_get: {
         parameters: {
             query?: never;
             header?: never;
@@ -3282,6 +3108,26 @@ export interface operations {
         };
     };
     version_api_v1_version_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": unknown;
+                };
+            };
+        };
+    };
+    sentry_test_api_v1__internal_sentry_test_post: {
         parameters: {
             query?: never;
             header?: never;
