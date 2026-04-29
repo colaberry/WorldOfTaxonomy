@@ -1,0 +1,108 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "worldoftaxonomy-mcp"
+version = "0.1.0"
+description = "MCP server for the WorldOfTaxonomy classification knowledge graph (1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Colaberry, Inc.", email = "ram@colaberry.com" }]
+keywords = [
+    "taxonomy", "classification", "industry",
+    "NAICS", "ISIC", "NACE", "SIC", "HS", "CPC", "UNSPSC",
+    "SOC", "ISCO", "ESCO", "CIP", "ATC", "ICD",
+    "knowledge-graph", "crosswalk", "MCP",
+    "claude-desktop", "cursor", "ai-tools", "open-data",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Internet",
+    "Topic :: Office/Business",
+    "Natural Language :: English",
+]
+
+# Runtime deps. Two modes are supported by the same wheel:
+#   HTTP mode (end user; preferred): hits wot.aixcelerator.ai with
+#     a Bearer token. Requires httpx only.
+#   DB mode (self-hosting / development): direct asyncpg against a
+#     local Postgres with the WoT schema loaded. Requires asyncpg.
+# Both deps are listed so a user can switch by env vars without
+# re-installing. Total wheel ~5 MB.
+dependencies = [
+    "httpx>=0.27.0",
+    "asyncpg>=0.29.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+# Adds the full server (FastAPI + Sentry + the auth stack) for
+# people who want to self-host the API alongside the MCP server.
+# Most end users do NOT need this.
+server = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "bcrypt>=4.0.0",
+    "PyJWT>=2.8.0",
+    "slowapi>=0.1.9",
+    "openpyxl>=3.1.0",
+    "xlrd>=2.0.0",
+    "pycountry>=23.12.11",
+    "pypdf>=4.0.0",
+    "ijson>=3.2.0",
+    "alembic>=1.13.0",
+    "SQLAlchemy>=2.0.0",
+    "psycopg[binary]>=3.1.0",
+    "prometheus-client>=0.20.0",
+    "jinja2>=3.1.0",
+    "pyarrow>=21.0.0",
+    "sentry-sdk[fastapi]>=2.0.0",
+]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "twine>=5.0.0",
+    "build>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://worldoftaxonomy.com"
+Documentation = "https://worldoftaxonomy.com/guide/mcp-setup"
+Source = "https://github.com/colaberry/WorldOfTaxonomy"
+Issues = "https://github.com/colaberry/WorldOfTaxonomy/issues"
+"API Keys" = "https://worldoftaxonomy.com/developers/keys"
+
+[project.scripts]
+# Standalone MCP entry point. End users invoke either:
+#   uvx worldoftaxonomy-mcp           (zero-install, recommended)
+#   pip install worldoftaxonomy-mcp && worldoftaxonomy-mcp
+worldoftaxonomy-mcp = "world_of_taxonomy.mcp.server:main"
+
+# Original CLI entry kept for self-hosters and the in-tree dev workflow.
+# Provides subcommands: serve, mcp, ingest, init-auth, etc.
+world-of-taxonomy = "world_of_taxonomy.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["world_of_taxonomy*"]
+exclude = ["tests*", "frontend*", "scripts*", "data*", "wiki*", "blog*", "docs*"]
+
+[tool.setuptools.package-data]
+"world_of_taxonomy" = [
+    "schema.sql",
+    "schema_auth.sql",
+    "schema_devkeys.sql",
+    "migrations/*.sql",
+]

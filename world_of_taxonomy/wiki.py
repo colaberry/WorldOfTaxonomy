@@ -3,6 +3,13 @@
 Wiki files live in the project-root ``wiki/`` directory. This module provides
 helpers to load metadata, individual pages, and build concatenated outputs
 for MCP context injection and llms-full.txt generation.
+
+When the package is installed via PyPI (worldoftaxonomy-mcp wheel), the
+``wiki/`` directory is not bundled - it is a sibling of the ``world_of_taxonomy``
+package in the source tree, not inside it. The loaders below graceful-degrade
+to empty payloads when the directory is missing so the MCP server still
+boots and serves tool calls; only the resources/list and the initialize
+``instructions`` block come back empty.
 """
 from __future__ import annotations
 
@@ -14,8 +21,14 @@ WIKI_DIR = Path(__file__).parent.parent / "wiki"
 
 
 def load_wiki_meta() -> List[dict]:
-    """Parse ``wiki/_meta.json`` and return the page list sorted by order."""
+    """Parse ``wiki/_meta.json`` and return the page list sorted by order.
+
+    Returns ``[]`` when the wiki directory is not present (typical for
+    PyPI-installed wheels where wiki content is not bundled).
+    """
     meta_path = WIKI_DIR / "_meta.json"
+    if not meta_path.exists():
+        return []
     data = json.loads(meta_path.read_text())
     return sorted(data, key=lambda e: e["order"])
 
