@@ -100,6 +100,16 @@ def check_per_ip_rate(
         # Retry-After is the seconds until the oldest hit ages out of
         # the window, so a respectful client waits exactly that long.
         retry_after = max(1, int(bucket[0] + window_seconds - now))
+        # Bump the abuse-signal counter so spikes are visible in
+        # Prometheus / alerting before a human notices the 429s in logs.
+        # Imported lazily to avoid a circular import (metrics module
+        # imports rate_guard for the test stub).
+        try:
+            from world_of_taxonomy.api.metrics import RATE_GUARD_FIRED
+            RATE_GUARD_FIRED.labels(endpoint=endpoint_name).inc()
+        except Exception:
+            # Metrics must never break a hot-path 429.
+            pass
         raise HTTPException(
             status_code=429,
             detail={
@@ -156,6 +166,11 @@ async def check_email_send_budget(
            WHERE sent_at > NOW() - INTERVAL '1 hour'"""
     )
     if count is not None and count >= cap:
+        try:
+            from world_of_taxonomy.api.metrics import RATE_GUARD_FIRED
+            RATE_GUARD_FIRED.labels(endpoint="email_send_budget").inc()
+        except Exception:
+            pass
         raise HTTPException(
             status_code=503,
             detail={
