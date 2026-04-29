@@ -4,7 +4,7 @@
 > `worldoftaxonomy.com`.** Pulls together the threads from
 > `portfolio-auth.md`, `auth-implementation.md`, `cicd-deployment.md`,
 > `description-backfill-summary` (PR #74), and the in-flight LLM
-> coverage work. Updated 2026-04-26.
+> coverage work. Updated 2026-04-28.
 
 ## Status snapshot
 
@@ -197,6 +197,22 @@ real, but most of `/explore`, `/system`, `/dashboard` already work.
       [`docs/handover/runbooks/`](./runbooks/) with a fixed structure
       (Triage / Common causes / Mitigation / Root cause / Followups).
       (PR #133)
+- [x] **Bot / abuse defense layers A + B + C-doc.** (PR #140)
+  - **A (in-process per-IP rate guard):** 5/hour on
+    `/api/v1/developers/signup`, 30/min on `/api/v1/auth/magic-callback`.
+    Honors `X-Forwarded-For`. 429 with `Retry-After` + structured detail.
+  - **B (DB-backed email-send budget):** `email_send_log` table
+    (migration 004) caps Resend sends at 200/hour globally
+    (env-tunable via `EMAIL_SEND_BUDGET_PER_HOUR`). 503 with
+    `Retry-After` when cap trips - protects spend even if a botnet
+    bypasses the per-IP cap.
+  - **C (Cloudflare runbook):** ops task documented at
+    [`runbooks/cloudflare-edge.md`](./runbooks/cloudflare-edge.md).
+    Free-tier Bot Fight Mode + WAF + edge rate-limit on signup.
+    To be wired in Cloudflare dashboard; runbook is the playbook.
+- [ ] **Cloudflare in front of Cloud Run** (Layer C) per the runbook.
+      ~1 hour of Cloudflare dashboard work. Drops scrapers + basic L7
+      DDoS before they reach origin.
 - [ ] Sentry-test smoke: set `SENTRY_TEST_TOKEN` on Cloud Run, then
       `curl -X POST -H "X-Sentry-Test-Token: $TOKEN" .../api/v1/_internal/sentry-test`
       and confirm the event lands in the Sentry inbox. Then unset
