@@ -531,6 +531,10 @@ export interface paths {
         /**
          * Get Me
          * @description Get current user profile.
+         *
+         *     Per-IP rate guard: 120/min via the shared `auth_session` bucket.
+         *     Bounds loop attacks from a stolen JWT across /me + /keys CRUD
+         *     without affecting interactive use.
          */
         get: operations["get_me_api_v1_auth_me_get"];
         put?: never;
@@ -551,12 +555,19 @@ export interface paths {
         /**
          * List Api Keys
          * @description List all API keys for the current user.
+         *
+         *     Shares the `auth_session` bucket (120/min/IP).
          */
         get: operations["list_api_keys_api_v1_auth_keys_get"];
         put?: never;
         /**
          * Create Api Key
          * @description Create a new API key for the current user.
+         *
+         *     Per-IP rate guard: 10/hour for key creation specifically. A stolen
+         *     JWT minting many keys is a real abuse pattern; legitimate users
+         *     create keys rarely. Shared `auth_session` cap (120/min) also
+         *     applies via the get_current_user path on the second call.
          */
         post: operations["create_api_key_api_v1_auth_keys_post"];
         delete?: never;
@@ -578,6 +589,8 @@ export interface paths {
         /**
          * Deactivate Api Key
          * @description Deactivate an API key.
+         *
+         *     Shares the `auth_session` bucket (120/min/IP).
          */
         delete: operations["deactivate_api_key_api_v1_auth_keys__key_id__delete"];
         options?: never;
@@ -749,6 +762,12 @@ export interface paths {
         /**
          * Mcp Http Bridge
          * @description Handle one MCP JSON-RPC message over HTTP POST.
+         *
+         *     Per-IP rate guard: 600/hour. MCP agents legitimately fan out across
+         *     many tool calls in a single user task (a Claude session can fire
+         *     dozens of search/translate calls back-to-back), so the cap is
+         *     deliberately loose. It still bounds a runaway loop or a single IP
+         *     using the public bridge as a free LLM-tool harness.
          */
         post: operations["mcp_http_bridge_mcp_post"];
         delete?: never;
@@ -819,7 +838,16 @@ export interface paths {
         /** List Keys */
         get: operations["list_keys_api_v1_developers_keys_get"];
         put?: never;
-        /** Create Key */
+        /**
+         * Create Key
+         * @description Mint a new developer API key for the cookie-authenticated user.
+         *
+         *     Per-IP rate guard: 10/hour. The cookie itself is gated by the
+         *     rate-limited magic-link flow, but a compromised cookie or a single
+         *     user wedging a key-generation script could mint hundreds of keys
+         *     quickly. Real users mint keys infrequently, so 10/hour is comfortable
+         *     headroom without leaving a flood vector open.
+         */
         post: operations["create_key_api_v1_developers_keys_post"];
         delete?: never;
         options?: never;
