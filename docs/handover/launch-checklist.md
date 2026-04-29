@@ -4,21 +4,33 @@
 > `worldoftaxonomy.com`.** Pulls together the threads from
 > `portfolio-auth.md`, `auth-implementation.md`, `cicd-deployment.md`,
 > `description-backfill-summary` (PR #74), and the in-flight LLM
-> coverage work. Updated 2026-04-26.
+> coverage work. Updated 2026-04-29.
 
 ## Status snapshot
 
-- **Description coverage**: 63.14% across 1,000 systems
-  (760,939 / 1,212,486 nodes). Round 4 LLM run in flight at the time
-  of writing; cascade unlocks ~23K more rows on completion.
-- **API + MCP**: functional today with bcrypt + JWT auth. Email-only
-  gate on `/classify`. No public `/developers` landing yet.
-- **Cloud Run migration to `wot.aixcelerator.ai`**: PR #1 in flight
-  per [project_deployment_plan](../../../.claude/.../memory/project_deployment_plan.md).
-  Frontend stays on `worldoftaxonomy.com`.
-- **Auth**: design locked (Zitadel + Permit.io + magic-link developer
-  keys, see `auth-implementation.md`). Implementation not started.
-- **Marketing site / pricing / docs**: not launched.
+**All seven soft-launch sections are code-complete.** What remains
+is operator action (deploy + configure + smoke), not engineering.
+
+- **Section 1 (Cloud Run migration)**: done pre-Phase-6.
+- **Section 2 (LLM coverage)**: 63%+ on the 1,000 systems; further
+  rounds can run post-launch in the background.
+- **Section 3 (developer-key system)**: shipped via PRs #119, #121,
+  #122, #124, #125, #126 (all merged).
+- **Section 4 (marketing site)**: shipped via PRs #129, #130, #131
+  (all merged).
+- **Section 5 (MCP installation flow)**: PRs #135, #136, #137 open
+  as drafts and pending review. First PyPI release happens on the
+  next `vX.Y.Z` tag push after the trusted-publisher setup on PyPI
+  is done.
+- **Section 6 (operational baseline)**: shipped via PR #133
+  (merged).
+- **Section 7 (legal + brand basics)**: shipped via PR #132
+  (merged).
+
+The remaining operator items (Cloud SQL migration apply, Resend
+secret provisioning, Cloud Run alert provisioning, manual smoke
+walkthrough on prod, first PyPI release) are itemized inline in
+each section below.
 
 ## Launch tiers
 
@@ -137,40 +149,86 @@ adopters.
 
 ### 4. Marketing site (worldoftaxonomy.com)
 
-Owner: TBD.
+**Status: code-complete** (2026-04-29). Shipped via merged PRs
+#129 (developers landing CTA) and #130 (Section 4 marketing).
 
-- [ ] Hero copy + value prop confirmed.
-- [ ] `/explore` (search) - already built.
-- [ ] `/system/[id]/...` - already built.
-- [ ] `/dashboard` - already built.
-- [ ] `/developers` - lands in Phase 6.
-- [ ] `/pricing` - placeholder for soft launch ("Free during beta;
-      paid plans coming"). Real pricing page is a Pro-launch item.
-- [ ] `/guide` (wiki pages) - already built; sanity-check content.
-- [ ] `/guide/api-keys` - new, points users at `/developers`.
-- [ ] `/guide/mcp-setup` - new, see Phase 6 note about MCP install
-      guide.
-- [ ] Footer: terms, privacy, contact form (no public email).
+- [x] Hero copy + value prop confirmed.
+- [x] `/explore` (search) - already built.
+- [x] `/system/[id]/...` - already built.
+- [x] `/dashboard` - already built.
+- [x] `/developers` - shipped with Phase 6 + the new
+      "Get a free API key" / "Manage your keys" CTAs (PR #129).
+- [x] `/pricing` - "Free / Pro / Enterprise" tiers with the
+      "Public beta - all plans free" amber banner (PR #130).
+      Free-tier CTA points at `/sign-in?next=/developers/keys`
+      (after PR #131 universal sign-in landed).
+- [x] `/guide` (wiki pages) - already built; sanity-check still
+      a periodic-review item, not a launch blocker.
+- [x] `/guide/api-keys` - new, points users at `/developers`.
+      (PR #130)
+- [x] `/guide/mcp-setup` - rewritten to match the published PyPI
+      package (`uvx worldoftaxonomy-mcp`, no npm path). See PR #137
+      below.
+- [x] Footer: Legal column with terms / privacy / source attribution
+      (PR #132); Developers column with API-key + pricing + contact
+      links (PR #130); contact form delivers via /api/v1/contact, no
+      public mailto.
 - [ ] OpenGraph + favicon + analytics (PostHog or Plausible -
-      decision deferred).
-- [ ] `llms-full.txt` regenerated and published at root.
-
-**Why fourth**: marketing depends on Phase 6 (the API gate) being
-real, but most of `/explore`, `/system`, `/dashboard` already work.
+      decision deferred). Not a launch blocker; can ship same-day
+      as the public-launch announcement.
+- [x] `llms-full.txt` regenerated and published at
+      `/llms-full.txt`.
 
 ### 5. MCP installation flow validated
 
-- [ ] MCP package published (npm `@worldoftaxonomy/mcp` or PyPI
-      `worldoftaxonomy-mcp`, decision deferred).
-- [ ] `/guide/mcp-setup` walks the user through:
-  1. Get a key at `/developers`.
-  2. Paste into Claude Desktop / Cursor / Zed `mcp.json`.
-  3. Test by asking the assistant to "look up NAICS 2022 code 5417
-     and find the equivalent NACE code".
-- [ ] MCP server prints actionable error if `WOT_API_KEY` is unset:
-      "Get a key at https://worldoftaxonomy.com/developers".
-- [ ] At least one Claude Desktop user has gone through the flow
-      end-to-end without help (Ram).
+**Status: code-complete** (2026-04-29). Three PRs cover the flow.
+First PyPI release happens on the next `vX.Y.Z` tag push after the
+trusted-publisher setup on PyPI is done; that flips the final
+checkbox below.
+
+- [x] **MCP HTTP-mode dispatch.** Decision: PyPI distribution
+      (`worldoftaxonomy-mcp`), no npm. The dispatcher maps each MCP
+      tool to a REST call against `wot.aixcelerator.ai` with a
+      `WOT_API_KEY` Bearer header. 22 of 26 tools wired today; the
+      remaining 3 (`list_crosswalks_by_kind`, `get_country_scope`,
+      `get_audit_report`) raise a clean "not yet supported in HTTP
+      mode" error and are documented as DB-only. (PR #135)
+- [x] **PyPI packaging.** Single `pyproject.toml` at the repo root
+      ships dist `worldoftaxonomy-mcp` with a small default deps set
+      (httpx + asyncpg + python-dotenv, ~5 MB wheel) plus an
+      optional `[server]` extra for self-hosters. Two console
+      scripts: `worldoftaxonomy-mcp` (the new MCP entry) and
+      `world-of-taxonomy` (the existing multi-subcommand CLI).
+      `setup.py` removed. (PR #136)
+- [x] **GitHub Actions tag-based publish.**
+      `.github/workflows/publish-pypi.yml` triggers on `vX.Y.Z` /
+      `vX.Y.Zrc1` tags, validates the tag matches `pyproject.toml`,
+      builds wheel + sdist, smoke-tests the wheel installs cleanly
+      and the entry-point fails closed without env vars, then
+      publishes via PyPI **trusted publishing (OIDC)** - no token
+      stored anywhere. (PR #136)
+- [x] **`/guide/mcp-setup` rewrite.** Walks users through getting a
+      key, configuring Claude Desktop / Cursor / Zed / VS Code
+      Continue / Windsurf, verifying the wiring with a one-shot
+      stdin probe, and the error responses they may hit. All
+      examples use `uvx worldoftaxonomy-mcp`; no npm references
+      anywhere. (PR #137)
+- [x] **MCP server fails loud at startup** if neither `WOT_API_KEY`
+      nor `DATABASE_URL` is set. (PR #122, already merged.)
+- [ ] **First PyPI release.** Pre-requisites:
+      1. Create the project on
+         https://pypi.org/manage/projects/worldoftaxonomy-mcp/.
+      2. Add this workflow as a trusted publisher
+         (`colaberry`/`WorldOfTaxonomy`/`publish-pypi.yml`/`pypi`).
+         See [`docs/handover/pypi-release.md`](./pypi-release.md).
+      3. `git tag v0.1.0 && git push origin v0.1.0`. Workflow
+         publishes ~5 minutes later via OIDC.
+- [ ] **At least one Claude Desktop user end-to-end without help**
+      (Ram). Run `uvx worldoftaxonomy-mcp` from a fresh Mac, drop
+      the config snippet into `claude_desktop_config.json`,
+      restart, ask "convert NAICS 5417 to NACE", confirm the model
+      calls `get_equivalences` or `translate_code`. Records the
+      first end-user smoke time.
 
 ### 6. Operational baseline
 
@@ -204,14 +262,35 @@ real, but most of `/explore`, `/system`, `/dashboard` already work.
 
 ### 7. Legal + brand basics
 
-- [ ] Terms of Service - lifted from a template (e.g., Vercel's open
-      ToS), customized for "early beta, no paid plans yet."
-- [ ] Privacy policy - covers email collection from `/classify`,
-      magic-link cookies, IP logging in audit trail.
-- [ ] Attribution page for source taxonomies (Census, UN, WHO, etc.
-      - their licenses require attribution).
-- [ ] Cookie banner (only if EU traffic expected; defer if US-only
-      soft launch).
+**Status: code-complete** (2026-04-29). All three pages and the
+footer Legal column shipped via PR #132.
+
+- [x] **Terms of Service** at `/legal/terms`. Calibrated for
+      "open beta, no paid plans yet": acceptable use, API-key
+      responsibility, source-data attribution boilerplate, MIT
+      software-license note, no-warranty + liability cap. Last
+      updated date in the page itself; bump when material changes
+      ship. (PR #132)
+- [x] **Privacy policy** at `/legal/privacy`. Plain-English
+      summary plus a table of every data class collected (email,
+      hashed keys, IP, request metadata, `dev_session` cookie,
+      classify lead emails) with retention. Names sub-processors
+      (GCP Cloud Run / Cloud SQL / Secret Manager, Resend, Sentry,
+      GitHub). User-rights section (access / correction /
+      deletion / portability / objection) routes through the
+      contact form for identity verification. (PR #132)
+- [x] **Attribution page** at `/legal/attribution`. Catalog of
+      source publishers grouped by domain (industry, geo, trade,
+      occupational, education, health, financial+regulatory,
+      domain taxonomies). Each entry names the authority and
+      license. Calls out redistribution constraints (LOINC
+      license, ATC commercial-use license, trademarked
+      CPT/SNOMED/DSM-5/ISO standards we carry only as nav
+      skeletons). (PR #132)
+- [ ] Cookie banner (only if EU traffic expected). The `dev_session`
+      cookie is essentials-only (no consent required under most
+      interpretations); defer until the first EU prospect asks. Not
+      a launch blocker.
 
 ## Public-launch checklist (after soft launch settles)
 
