@@ -105,3 +105,40 @@ def test_search_with_multiple_systems_alias(client):
         assert seen_systems <= {"naics_2022", "isic_rev4"}
         assert "sic_1987" not in seen_systems
     _run(_test())
+
+
+class TestSearchPerIPRateLimit:
+    """The /search route applies a per-IP rate guard (200/hour). The
+    cap is high enough to be a no-op for any interactive use; the test
+    drops the cap via direct call to verify the guard wires correctly.
+    """
+
+    def setup_method(self):
+        from world_of_taxonomy.api.rate_guard import _reset_for_tests
+        _reset_for_tests()
+
+    def test_search_rate_limit_fires_when_cap_exceeded(self, monkeypatch, client):
+        """Lower the search cap to 3 via monkeypatch on check_per_ip_rate
+        so we don't have to issue 200 real queries to prove the guard
+        is wired."""
+        from world_of_taxonomy.api.routers import search as search_mod
+        from world_of_taxonomy.api.rate_guard import check_per_ip_rate
+
+        def _capped(endpoint_name, request, max_per_window=200, **kw):
+            if endpoint_name == "search":
+                max_per_window = 3
+            return check_per_ip_rate(endpoint_name, request, max_per_window=max_per_window, **kw)
+
+        monkeypatch.setattr(search_mod, "check_per_ip_rate", _capped)
+
+        async def _test():
+            for i in range(3):
+                resp = await client.get("/api/v1/search", params={"q": "health"})
+                assert resp.status_code == 200, (i, resp.text)
+            resp = await client.get("/api/v1/search", params={"q": "health"})
+            assert resp.status_code == 429
+            body = resp.json()["detail"]
+            assert body["error"] == "rate_limit_exceeded"
+            assert body["scope"] == "per_ip:search"
+            assert resp.headers.get("retry-after") is not None
+        _run(_test())
