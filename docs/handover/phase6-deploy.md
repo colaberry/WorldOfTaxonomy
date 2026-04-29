@@ -153,7 +153,7 @@ do the five-minute click-through:
 7. Within ~2 seconds:
    ```bash
    curl -i -H "Authorization: Bearer <KEY>" \
-       https://wot.aixcelerator.ai/api/v1/export/systems.jsonl
+       https://wot.aixcelerator.ai/api/v1/systems/naics_2022
    # expect 401 with detail.error == "invalid_api_key"
    ```
 
@@ -188,7 +188,8 @@ After the smoke passes, hit a couple of things by hand:
 curl -s https://wot.aixcelerator.ai/api/v1/systems | jq '.[].id' | head -5
 
 # 2. Anonymous on a gated endpoint returns 401 with helpful headers.
-curl -i https://wot.aixcelerator.ai/api/v1/export/systems.jsonl \
+curl -i -X POST https://wot.aixcelerator.ai/api/v1/classify \
+    -H 'Content-Type: application/json' -d '{"text":"telemedicine"}' \
     | grep -E '^HTTP|^WWW-Authenticate|^Link'
 
 # 3. Visit https://worldoftaxonomy.com/developers/signup in a

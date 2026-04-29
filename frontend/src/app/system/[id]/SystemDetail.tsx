@@ -3,9 +3,8 @@
 import { useQuery } from '@tanstack/react-query'
 import { getSystem, getStats, getSystems } from '@/lib/api'
 import Link from 'next/link'
-import { ArrowLeft, ExternalLink, Download, Lock, AlertTriangle } from 'lucide-react'
+import { ArrowLeft, ExternalLink, AlertTriangle } from 'lucide-react'
 import { getSystemColor } from '@/lib/colors'
-import { getToken } from '@/lib/auth'
 import { CrosswalkNetwork } from '@/components/visualizations/CrosswalkNetwork'
 import { NodeTree } from '@/components/NodeTree'
 import { RadialDendrogram } from '@/components/visualizations/RadialDendrogram'
@@ -140,9 +139,6 @@ export function SystemDetail({ id, initialSystem, initialStats, initialSystems, 
         </div>
       </div>
 
-      {/* Download row */}
-      <DownloadRow systemId={id} connections={connections} />
-
       {system.authority && (
         <div className="p-4 rounded-lg bg-card border border-border/50">
           <div className="text-xs text-muted-foreground mb-1">Authority</div>
@@ -273,80 +269,3 @@ export function SystemDetail({ id, initialSystem, initialStats, initialSystems, 
   )
 }
 
-// ---- Download Row ----
-
-interface Connection {
-  systemId: string
-  systemName: string
-  edgeCount: number
-  exactCount: number
-}
-
-function DownloadRow({
-  systemId,
-  connections,
-}: {
-  systemId: string
-  connections: Connection[]
-}) {
-  const token = getToken()
-
-  async function triggerDownload(url: string, filename: string) {
-    const res = await fetch(url, {
-      headers: { Authorization: `Bearer ${token}` },
-    })
-    if (!res.ok) return
-    const blob = await res.blob()
-    const href = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = href
-    a.download = filename
-    a.click()
-    URL.revokeObjectURL(href)
-  }
-
-  if (!token) {
-    return (
-      <div className="flex items-center gap-2 p-3 rounded-lg bg-card border border-border/50 text-sm text-muted-foreground">
-        <Lock className="h-4 w-4 shrink-0" />
-        <span>
-          <a href="/login" className="text-primary hover:underline">Sign in</a>
-          {' '}to download nodes or crosswalk data as CSV.
-        </span>
-      </div>
-    )
-  }
-
-  return (
-    <div className="flex flex-wrap gap-2">
-      <button
-        onClick={() =>
-          triggerDownload(
-            `/api/v1/systems/${systemId}/export.csv`,
-            `${systemId}_nodes.csv`,
-          )
-        }
-        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-card border border-border/50 hover:border-primary/50 text-xs font-medium transition-colors"
-      >
-        <Download className="h-3.5 w-3.5" />
-        All nodes (.csv)
-      </button>
-
-      {connections.map((c) => (
-        <button
-          key={c.systemId}
-          onClick={() =>
-            triggerDownload(
-              `/api/v1/systems/${systemId}/crosswalk/${c.systemId}/export.csv`,
-              `${systemId}_to_${c.systemId}_crosswalk.csv`,
-            )
-          }
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-card border border-border/50 hover:border-primary/50 text-xs font-medium transition-colors"
-        >
-          <Download className="h-3.5 w-3.5" />
-          {c.systemName} crosswalk (.csv)
-        </button>
-      ))}
-    </div>
-  )
-}
