@@ -21,6 +21,7 @@ from pydantic import BaseModel, Field, field_validator
 _EMAIL_RX = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 from world_of_taxonomy.api.deps import get_conn
+from world_of_taxonomy.api.rate_guard import check_per_ip_rate
 from world_of_taxonomy.api.routers.classify import partition_matches
 from world_of_taxonomy.api.text_guard import TextGuardError, guard
 from world_of_taxonomy.classify import classify_text
@@ -232,7 +233,14 @@ async def classify_demo(
 
     Returns a limited result set (5 systems, 3 results each). Records
     the email as a lead.
+
+    Per-IP rate guard: 20/hour. The cap is well above any legitimate
+    interactive use (a user trying ~5 prompts in a session) but tight
+    enough to deter farming, since each call is LLM-backed and each
+    INSERT into classify_lead is downstream lead-pipeline noise.
     """
+    check_per_ip_rate("classify_demo", request, max_per_window=20)
+
     ip = request.client.host if request.client else None
     ua = request.headers.get("user-agent")
     ref = request.headers.get("referer")

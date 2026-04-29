@@ -221,3 +221,55 @@ class TestClassifyDemoHandler:
             assert "crosswalk_count" in item
             assert isinstance(item["crosswalk_count"], int)
             assert item["crosswalk_count"] >= 0
+
+
+class TestClassifyDemoPerIPRateLimit:
+    """The /classify/demo route applies the per-IP rate guard before any
+    DB write or LLM call. 20/hour/IP is the cap; the 21st attempt from
+    the same IP in the same window returns 429.
+    """
+
+    def setup_method(self):
+        from world_of_taxonomy.api.rate_guard import _reset_for_tests
+        _reset_for_tests()
+
+    def test_classify_demo_per_ip_rate_limit_fires_at_21st_attempt(self, monkeypatch):
+        """Drives the actual route function with the inner handler stubbed
+        out so the test does not need a real classify run, just the rate
+        guard's behaviour."""
+        from fastapi import HTTPException
+
+        from world_of_taxonomy.api.routers import classify_demo as cd
+
+        # Stub the inner handler so calls return immediately without
+        # touching the DB or LLM.
+        async def _fast_handler(body, *, conn, ip_address, user_agent, referrer):
+            return {"query": body.text, "demo": True, "domain_matches": [], "standard_matches": []}
+
+        monkeypatch.setattr(cd, "classify_demo_handler", _fast_handler)
+
+        # Stub Request: same client IP for all 21 calls.
+        class _Client:
+            host = "9.9.9.9"
+
+        class _Req:
+            client = _Client()
+            headers = {}
+
+        async def go():
+            req_body = cd.ClassifyDemoRequest(email="x@example.com", text="manufacturing")
+            # 20 calls succeed.
+            for i in range(20):
+                resp = await cd.classify_demo(req_body, _Req(), conn=None)
+                assert resp["demo"] is True, f"call {i} should pass"
+            # 21st call trips the rate guard.
+            with pytest.raises(HTTPException) as exc:
+                await cd.classify_demo(req_body, _Req(), conn=None)
+            assert exc.value.status_code == 429
+            body = exc.value.detail
+            assert body["error"] == "rate_limit_exceeded"
+            assert body["scope"] == "per_ip:classify_demo"
+            assert "retry_after_seconds" in body
+            assert exc.value.headers.get("Retry-After") is not None
+
+        _run(go())
