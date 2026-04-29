@@ -48,6 +48,17 @@ ERROR_COUNT = Counter(
     ["route"],
 )
 
+# Bot/abuse signal: number of times the per-IP rate guard returned 429
+# for a given endpoint. Spikes here mean either (a) abuse traffic
+# arriving, or (b) a legitimate caller hitting the cap, both worth
+# investigating. Cardinality is bounded by the small fixed set of
+# endpoint_name values declared in rate_guard call sites.
+RATE_GUARD_FIRED = Counter(
+    "wot_rate_guard_fired_total",
+    "Number of times the per-IP rate guard returned 429.",
+    ["endpoint"],
+)
+
 
 def _route_template(request: Request) -> str:
     """Return the APIRoute path template (e.g. /api/v1/systems/{id})
