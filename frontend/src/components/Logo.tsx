@@ -7,6 +7,7 @@ type LogoProps = {
   variant?: Variant
   /** Pixel height. Width is computed from the SVG aspect ratio. */
   height?: number
+  /** Applied to the outer <span> wrapper (use this for responsive `hidden sm:flex` etc.). */
   className?: string
   /** Override aria-label. Defaults to "WorldOfTaxonomy". */
   alt?: string
@@ -29,8 +30,11 @@ const ASPECT: Record<Variant, number> = {
  *   /logo-{variant}-mono-black.svg  (W/T strokes are #141414, cyan globe stays cyan)  → light theme
  *   /logo-{variant}-mono-white.svg  (W/T strokes are #FFFFFF, cyan globe stays cyan)  → dark theme
  *
- * We render BOTH and let Tailwind's `dark:` variant flip visibility — no JS hook,
- * no FOUC, no client-only rendering. The cyan globe is consistent across both.
+ * We render BOTH inside an outer <span> and let Tailwind's `dark:` variant flip
+ * which inner image is visible. The OUTER span owns responsive visibility (e.g.
+ * `hidden sm:flex`); the INNER images own theme visibility. They live on
+ * different elements so display utilities never collide. No JS hook, no FOUC,
+ * no client-only rendering.
  */
 export function Logo({
   variant = 'mark',
@@ -43,25 +47,35 @@ export function Logo({
   const dark = `/logo-${variant}-mono-white.svg`
   const light = `/logo-${variant}-mono-black.svg`
 
-  if (forceTheme === 'dark') {
+  if (forceTheme) {
+    const src = forceTheme === 'dark' ? dark : light
     return (
-      <Image src={dark} alt={alt} width={width} height={height} className={className} priority unoptimized />
-    )
-  }
-  if (forceTheme === 'light') {
-    return (
-      <Image src={light} alt={alt} width={width} height={height} className={className} priority unoptimized />
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        className={className}
+        priority
+        unoptimized
+      />
     )
   }
 
+  // Outer wrapper carries responsive visibility from the consumer's className.
+  // Inner images carry ONLY theme visibility — no class collision possible.
+  // `inline-flex items-center` keeps the wrapper sized to the visible img.
+  const wrapperBase = 'inline-flex items-center shrink-0'
+
   return (
-    <>
+    <span className={`${wrapperBase} ${className}`.trim()}>
       <Image
         src={light}
         alt={alt}
         width={width}
         height={height}
-        className={`block dark:hidden ${className}`}
+        className="block dark:hidden h-auto w-auto"
+        style={{ height }}
         priority
         unoptimized
       />
@@ -70,10 +84,11 @@ export function Logo({
         alt={alt}
         width={width}
         height={height}
-        className={`hidden dark:block ${className}`}
+        className="hidden dark:block h-auto w-auto"
+        style={{ height }}
         priority
         unoptimized
       />
-    </>
+    </span>
   )
 }

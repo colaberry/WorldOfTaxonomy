@@ -48,8 +48,8 @@ export function Header() {
           href="/"
           className="flex items-center gap-2 text-foreground font-semibold tracking-tight"
         >
-          <Logo variant="lockup" height={24} className="hidden sm:block w-auto" />
-          <Logo variant="mark" height={28} className="sm:hidden w-auto" />
+          <Logo variant="lockup" height={24} className="hidden sm:inline-flex" />
+          <Logo variant="mark" height={28} className="inline-flex sm:hidden" />
         </Link>
 
         <nav className="flex items-center gap-1">
