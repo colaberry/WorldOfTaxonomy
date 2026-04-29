@@ -2,10 +2,11 @@
 
 from typing import Any, Dict, List, Optional, Union
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, Request
 from fastapi.responses import JSONResponse
 
 from world_of_taxonomy.api.deps import get_conn
+from world_of_taxonomy.api.rate_guard import check_per_ip_rate
 from world_of_taxonomy.api.schemas import NodeResponse, NodeWithContextResponse
 from world_of_taxonomy.category import get_category
 from world_of_taxonomy.query.browse import get_ancestors, get_children
@@ -21,6 +22,7 @@ router = APIRouter(prefix="/api/v1", tags=["search"])
 
 @router.get("/search")
 async def search(
+    request: Request,
     q: str = Query(..., description="Search query"),
     system_id: Optional[List[str]] = Query(
         None,
@@ -51,7 +53,17 @@ async def search(
     context: bool = Query(False, description="Include ancestors and children for each match"),
     conn=Depends(get_conn),
 ):
-    """Full-text search across all classification systems."""
+    """Full-text search across all classification systems.
+
+    Per-IP rate guard: 200/hour. Sized for interactive use (a real
+    user typing tens of queries in a session) but tight enough to deter
+    bulk scraping a six-figure node table from a single IP. Once
+    Cloudflare is in front, the page-cache rule on /api/v1/systems*
+    absorbs most of this; the in-process cap is defense-in-depth for
+    queries that bypass cache (unique q values).
+    """
+    check_per_ip_rate("search", request, max_per_window=200)
+
     if category is not None and category not in ("domain", "standard"):
         raise HTTPException(
             status_code=400,

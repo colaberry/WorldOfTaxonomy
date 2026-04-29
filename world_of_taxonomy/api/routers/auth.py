@@ -14,6 +14,7 @@ import jwt
 from fastapi import APIRouter, Depends, HTTPException, Request
 
 from world_of_taxonomy.api.deps import get_conn, get_current_user, JWT_SECRET, JWT_ALGORITHM
+from world_of_taxonomy.api.rate_guard import check_per_ip_rate
 from world_of_taxonomy.api.failed_auth import (
     check_blocked,
     mark_lockout,
@@ -82,8 +83,15 @@ def _api_key_response(row) -> ApiKeyResponse:
 
 
 @router.post("/register", response_model=TokenResponse)
-async def register(body: RegisterRequest, conn=Depends(get_conn)):
-    """Register a new user account."""
+async def register(body: RegisterRequest, request: Request, conn=Depends(get_conn)):
+    """Register a new user account.
+
+    Per-IP rate guard: 5/hour. Each registration mints a JWT, writes to
+    app_user, and fires a webhook - cheap to abuse, expensive to clean
+    up. The cap is the same as /developers/signup since the abuse
+    surface is identical (user enumeration + webhook spam).
+    """
+    check_per_ip_rate("auth_register", request, max_per_window=5)
     # Check if email already exists
     existing = await conn.fetchrow(
         "SELECT id FROM app_user WHERE email = $1", body.email

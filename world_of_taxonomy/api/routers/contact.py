@@ -5,9 +5,10 @@ from __future__ import annotations
 import asyncio
 from typing import Optional
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel, Field, EmailStr
 
+from world_of_taxonomy.api.rate_guard import check_per_ip_rate
 from world_of_taxonomy.webhook import send_webhook
 
 router = APIRouter(prefix="/api/v1", tags=["contact"])
@@ -26,12 +27,18 @@ class ContactResponse(BaseModel):
 
 
 @router.post("/contact", response_model=ContactResponse)
-async def submit_contact(body: ContactRequest):
+async def submit_contact(body: ContactRequest, request: Request):
     """Submit an enterprise inquiry or general contact form.
 
     Delivers the message via the configured webhook. No admin email
     is ever exposed to the client.
+
+    Per-IP rate guard: 5/hour. Each submission fires a webhook to our
+    notification destination; without this, a single IP could flood
+    the operator inbox/Slack channel.
     """
+    check_per_ip_rate("contact", request, max_per_window=5)
+
     # Fire webhook in background (don't block the response)
     asyncio.create_task(
         send_webhook(
