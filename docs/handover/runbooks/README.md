@@ -23,6 +23,9 @@ write down and saves an hour next time.
   authentication is slow or timing out
 - [cloud-run-cold-start-spike.md](./cloud-run-cold-start-spike.md) -
   p95 latency or instance count spiked
+- [cloudflare-edge.md](./cloudflare-edge.md) - one-time setup of
+  Cloudflare in front of Cloud Run for edge DDoS, bot management,
+  and a pre-origin rate-limit on signup
 
 ## Alert sources
 

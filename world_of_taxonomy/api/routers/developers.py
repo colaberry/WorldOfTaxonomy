@@ -30,6 +30,12 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field, field_validator
 
 from world_of_taxonomy.api.deps import get_conn, JWT_SECRET, JWT_ALGORITHM
+from world_of_taxonomy.api.rate_guard import (
+    _client_ip,
+    check_email_send_budget,
+    check_per_ip_rate,
+    record_email_send,
+)
 from world_of_taxonomy.auth import keys as keys_mod
 from world_of_taxonomy.auth import magic_link as ml
 from world_of_taxonomy.auth import orgs
@@ -165,8 +171,24 @@ async def get_dev_session_user(
     response_model=SignupResponse,
     status_code=202,
 )
-async def developers_signup(body: SignupRequest, conn=Depends(get_conn)):
-    """Idempotent signup. Creates the user + org if new, then emails a magic link."""
+async def developers_signup(
+    body: SignupRequest,
+    request: Request,
+    conn=Depends(get_conn),
+):
+    """Idempotent signup. Creates the user + org if new, then emails a
+    magic link.
+
+    Two abuse guards run BEFORE any DB write or email send:
+      - per-IP cap (default 5/hour) catches a single source spamming
+        random emails.
+      - global email-send budget (default 200/hour, env-tunable via
+        EMAIL_SEND_BUDGET_PER_HOUR) caps the Resend bill even if a
+        botnet bypasses the per-IP cap.
+    """
+    check_per_ip_rate("developers_signup", request, max_per_window=5)
+    await check_email_send_budget(conn)
+
     user = await orgs.signup_or_link(conn, body.email)
     raw_token = await ml.mint_token(conn, user["id"])
     magic_link_url = (
@@ -183,6 +205,15 @@ async def developers_signup(body: SignupRequest, conn=Depends(get_conn)):
         # NoopEmailClient already logs; this catches Resend HTTP errors.
         pass
 
+    # Record the send AFTER the email-client call. The next budget
+    # check (above) will see this row.
+    await record_email_send(
+        conn,
+        email=body.email,
+        ip_address=_client_ip(request),
+        purpose="magic_link",
+    )
+
     payload = SignupResponse(
         detail="A sign-in link was sent to your email. It expires in 15 minutes.",
         magic_link_url=magic_link_url if _dev_mode() else None,
@@ -193,10 +224,19 @@ async def developers_signup(body: SignupRequest, conn=Depends(get_conn)):
 @router.get("/api/v1/auth/magic-callback")
 async def auth_magic_callback(
     t: str,
+    request: Request,
     response: Response,
     conn=Depends(get_conn),
 ):
-    """Consume the magic-link token and set the dev_session cookie."""
+    """Consume the magic-link token and set the dev_session cookie.
+
+    Per-IP rate-limited at 30/min: tokens are 256-bit random, so
+    flooding cannot guess one, but the limit caps DB cycles spent on
+    failed lookups during a token-spray attack.
+    """
+    check_per_ip_rate(
+        "auth_magic_callback", request, max_per_window=30, window_seconds=60,
+    )
     user = await ml.consume_token(conn, t)
     if user is None:
         raise HTTPException(

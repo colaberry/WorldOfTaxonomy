@@ -150,6 +150,7 @@ async def _teardown(pool):
         await conn.execute(f"SET search_path TO {TEST_SCHEMA}")
         # Auth tables (may not exist yet)
         await conn.execute("DELETE FROM usage_log WHERE TRUE")
+        await conn.execute("DELETE FROM email_send_log WHERE TRUE")
         await conn.execute("DELETE FROM magic_link_token WHERE TRUE")
         await conn.execute("DELETE FROM api_key WHERE TRUE")
         await conn.execute("DELETE FROM app_user WHERE TRUE")
