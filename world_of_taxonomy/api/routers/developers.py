@@ -20,6 +20,7 @@ from __future__ import annotations
 import hmac
 import json
 import os
+import secrets
 import uuid as _uuid
 from datetime import datetime, timedelta, timezone
 from typing import List, Optional
@@ -117,6 +118,33 @@ class KeyCreatedResponse(BaseModel):
 
 
 _DEV_SESSION_COOKIE = "dev_session"
+_CSRF_COOKIE = "wot_csrf"
+_CSRF_HEADER = "x-csrf-token"
+
+
+def _check_csrf(request: Request) -> None:
+    """Double-submit CSRF check. The cookie is set on magic-callback
+    (NOT httponly so the same-origin JS can read it) and must be echoed
+    back as the X-CSRF-Token header on every state-changing request.
+
+    SameSite=Lax already blocks cross-origin POST/DELETE, so this layer
+    catches *same-origin* CSRF (e.g. an XSS payload on the same domain
+    or a sibling subdomain trying to mint or revoke keys). Constant-time
+    compare so a leak via timing oracle is not a realistic vector.
+    """
+    cookie = request.cookies.get(_CSRF_COOKIE)
+    header = request.headers.get(_CSRF_HEADER)
+    if not cookie or not header or not hmac.compare_digest(cookie, header):
+        raise HTTPException(
+            status_code=403,
+            detail={
+                "error": "csrf_token_mismatch",
+                "message": (
+                    "Missing or invalid CSRF token. Reload the page and "
+                    "retry; the dashboard sends this automatically."
+                ),
+            },
+        )
 
 
 def _mint_dev_session(user_id, org_id) -> str:
@@ -244,12 +272,25 @@ async def auth_magic_callback(
         )
 
     session = _mint_dev_session(user["user_id"], user["org_id"])
+    secure_cookie = os.environ.get("DEV_SESSION_INSECURE", "").lower() not in ("1", "true")
     response.set_cookie(
         _DEV_SESSION_COOKIE,
         session,
         max_age=_session_ttl_minutes() * 60,
         httponly=True,
-        secure=os.environ.get("DEV_SESSION_INSECURE", "").lower() not in ("1", "true"),
+        secure=secure_cookie,
+        samesite="lax",
+        path="/",
+    )
+    # CSRF token: same lifetime as the session, NOT httponly so the
+    # same-origin dashboard JS can read it and echo it as a header.
+    csrf_token = secrets.token_hex(16)
+    response.set_cookie(
+        _CSRF_COOKIE,
+        csrf_token,
+        max_age=_session_ttl_minutes() * 60,
+        httponly=False,
+        secure=secure_cookie,
         samesite="lax",
         path="/",
     )
@@ -280,8 +321,12 @@ async def create_key(
     user wedging a key-generation script could mint hundreds of keys
     quickly. Real users mint keys infrequently, so 10/hour is comfortable
     headroom without leaving a flood vector open.
+
+    CSRF: requires the X-CSRF-Token header to match the wot_csrf cookie
+    set on magic-callback. Blocks same-origin XSS-driven key minting.
     """
     check_per_ip_rate("developers_keys_create", request, max_per_window=10)
+    _check_csrf(request)
 
     try:
         minted = keys_mod.issue_key(body.scopes)
@@ -330,9 +375,16 @@ async def list_keys(
 @router.delete("/api/v1/developers/keys/{key_id}")
 async def revoke_key(
     key_id: str,
+    request: Request,
     user: dict = Depends(get_dev_session_user),
     conn=Depends(get_conn),
 ):
+    """Revoke an API key the cookie-authenticated user owns.
+
+    CSRF: requires the X-CSRF-Token header to match the wot_csrf cookie
+    set on magic-callback.
+    """
+    _check_csrf(request)
     try:
         key_uuid = _uuid.UUID(key_id)
     except (ValueError, TypeError):
