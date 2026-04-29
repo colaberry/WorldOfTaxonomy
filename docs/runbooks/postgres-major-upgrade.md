@@ -1,4 +1,4 @@
-# PostgreSQL major version upgrade — Cloud SQL `wot-db`
+# PostgreSQL major version upgrade - Cloud SQL `wot-db`
 
 Runbook for upgrading the production `wot-db` instance from one major
 PostgreSQL version to another (e.g. 15 → 17). Cloud SQL supports
@@ -7,7 +7,7 @@ PostgreSQL version to another (e.g. 15 → 17). Cloud SQL supports
 
 This is a destructive-by-omission operation: the upgrade itself is
 recoverable only by restoring a pre-upgrade backup to a NEW instance and
-repointing services. Treat it like a database migration — written
+repointing services. Treat it like a database migration - written
 ahead, communicated, executed in a maintenance window.
 
 ## When to upgrade
@@ -88,7 +88,7 @@ scheduling the window.
 
 - **Pick the lowest-traffic 60-minute slot for both team time-zones.**
   For Colaberry: 03:00–04:00 IST (= 17:30–18:30 PT prev day) typically
-  works — India team asleep, US team end-of-day.
+  works - India team asleep, US team end-of-day.
 - 60 min covers worst case (15-30 min Cloud SQL upgrade + 15 min
   smoke-test + 15 min buffer for rollback if needed).
 - Avoid the day before product demos, board meetings, or known-large
@@ -100,7 +100,7 @@ scheduling the window.
   downtime, and the rollback contact.
 - Email Ram + Karun + any external stakeholders consuming the API.
 - If the public site has stakeholders watching status, post a status-page
-  banner ahead of time — not just during.
+  banner ahead of time - not just during.
 
 ## Pre-flight (T-2h)
 
