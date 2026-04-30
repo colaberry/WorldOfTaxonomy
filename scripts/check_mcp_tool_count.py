@@ -49,7 +49,7 @@ SKIP_DIRS = {"node_modules", ".next", "__pycache__", ".git", "dist", "build", ".
 # build artifacts copied from canonical sources elsewhere in the repo.
 # frontend/src/content/{wiki,blog,crosswalk,tree} are populated by the
 # `prebuild`/`predev` scripts in frontend/package.json from repo-root
-# `wiki/`, `blog/`, `crosswalk-data/`, `tree-data/` — the root copies are
+# `wiki/`, `blog/`, `crosswalk-data/`, `tree-data/` - the root copies are
 # authoritative.
 SKIP_PATH_PREFIXES = (
     "frontend/src/content/",

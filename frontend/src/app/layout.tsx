@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     canonical: "https://worldoftaxonomy.com",
   },
   // Branding rolled out with Aleem's WoT design system v1.0.
-  // Next.js auto-detects /src/app/{favicon.ico, icon.png, apple-icon.png} —
+  // Next.js auto-detects /src/app/{favicon.ico, icon.png, apple-icon.png} -
   // these explicit entries pin extra public/* sizes for richer install/share UX.
   icons: {
     icon: [
