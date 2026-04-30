@@ -223,6 +223,20 @@ export default function AboutPage() {
           </a>
           {' '}team.
         </p>
+        <p className="text-sm leading-relaxed text-muted-foreground pt-3">
+          WorldOfTaxonomy is an open-source project published by{' '}
+          <strong>Colaberry Inc</strong> and{' '}
+          <strong>Colaberry Research Labs</strong>, released under the MIT License at{' '}
+          <a
+            href="https://github.com/colaberry/WorldOfTaxonomy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:underline"
+          >
+            github.com/colaberry/WorldOfTaxonomy
+          </a>
+          .
+        </p>
       </section>
     </div>
   )

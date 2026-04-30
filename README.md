@@ -2,7 +2,8 @@
 
 <p align="center">
   <strong>1,000 classification systems. 1,212,000+ codes. 326,000+ crosswalk edges.</strong><br>
-  The open-source Rosetta Stone for global industry, trade, occupation, health, and regulatory taxonomies.
+  The open-source Rosetta Stone for global industry, trade, occupation, health, and regulatory taxonomies.<br>
+  An open-source project by <a href="https://www.colaberry.ai">Colaberry Inc</a> and <a href="https://www.colaberry.ai">Colaberry Research Labs</a>.
 </p>
 
 <p align="center">
