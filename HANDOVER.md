@@ -97,7 +97,7 @@ Drill-down files:
 | Web framework | FastAPI | Pydantic models double as schema + OpenAPI; async fits asyncpg. |
 | DB driver | asyncpg | Native async, non-blocking. Set `statement_cache_size=0` when the pool sits behind pgbouncer in transaction-pooling mode (Neon, Supabase pooler, any self-hosted pgbouncer). pgbouncer doesn't support server-side prepared statements in that mode. Drop the setting if you connect direct to Postgres. |
 | Database | PostgreSQL | Any Postgres 14+ works. Hosted options (Neon, Supabase, RDS, self-managed) are interchangeable; the only driver-visible difference is whether a pgbouncer-style pooler sits in front. |
-| Auth | bcrypt + PyJWT (HS256) | No external IdP; API keys are `wot_` + 32 hex, bcrypt-hashed, 8-char prefix indexed. OAuth (GitHub/Google/LinkedIn) is layered on top. |
+| Auth | Magic-link cookie session + PyJWT (HS256) for the cookie itself | No password, no third-party IdP. Backend mints a one-time email link via Resend; the callback sets `dev_session` (httponly) + `wot_csrf` (JS-readable double-submit) cookies. API keys are `wot_/rwot_/aix_` + 32 hex, bcrypt-hashed, 8-char prefix indexed. |
 | Rate limit | slowapi + custom tier-aware middleware | Anonymous 30/min up to Enterprise effectively unlimited. |
 | MCP | Official Python MCP SDK, stdio transport | Works in Claude Desktop, Claude Code, Cursor, any stdio-aware host. |
 | Frontend framework | Next.js 16 + Turbopack | SSR for SEO + React Query for client UX. See [frontend/AGENTS.md](frontend/AGENTS.md) - this is NOT the Next.js you know; check `node_modules/next/dist/docs/` before writing code. |
@@ -114,7 +114,7 @@ All DDL is in [world_of_taxonomy/schema.sql](world_of_taxonomy/schema.sql) and [
 - **`classification_system`** - one row per system (`id`, `name`, `region`, `version`, `authority`, `node_count`, `data_provenance`, `license`, `source_file_hash`). `data_provenance` is an enum: `official_download | structural_derivation | manual_transcription | expert_curated` - used to color-code trustworthiness in the UI and in API responses.
 - **`classification_node`** - every code in every system (`system_id`, `code`, `title`, `level`, `parent_code`, `sector_code`, `is_leaf`, `search_vector TSVECTOR`). A trigger (`trg_node_search_vector`) maintains `search_vector` on INSERT/UPDATE with `setweight` for code/title/description. Indexes: GIN on `search_vector`, btree on `(system_id, parent_code)`, `(system_id, level)`, `code`.
 - **`equivalence`** - crosswalk edges (`source_system`, `source_code`, `target_system`, `target_code`, `match_type`). `match_type` is `exact | partial | broad | narrow`.
-- **`app_user`** - UUID PK, email, bcrypt password hash, `tier` (`free | pro | enterprise`), optional `oauth_provider` / `oauth_provider_id`.
+- **`app_user`** - UUID PK, email, `tier` (`free | pro | enterprise`), `org_id` FK. `password_hash` column is NULLable and unused after the 2026-04-30 OAuth + password removal; queued for a follow-up DROP migration.
 - **`api_key`** - UUID PK, `user_id` FK, `key_hash` (bcrypt), `key_prefix` (first 8 chars after `wot_` for index lookup), `name`, `last_used_at`, `expires_at`.
 
 Plus `usage_log` (per-request audit) and `daily_usage` (tier cap counter) - see [docs/handover/backend.md](docs/handover/backend.md).
@@ -125,7 +125,7 @@ Plus `usage_log` (per-request audit) and `daily_usage` (tier cap counter) - see 
 
 ### REST API (`/api/v1/*`)
 
-Routers in [world_of_taxonomy/api/routers/](world_of_taxonomy/api/routers/): `systems`, `nodes`, `search`, `equivalences`, `explore`, `countries`, `classify`, `auth`, `oauth`, `wiki`, `contact`, `audit`, `export`, `bulk_export`, `crosswalk_graph`. Ops/security routers mounted directly from [world_of_taxonomy/api/](world_of_taxonomy/api/): `metrics` (Prometheus at `/api/v1/metrics`, `METRICS_TOKEN`-gated), `healthz` (`/api/v1/healthz` for uptime probes), `version` (`/api/v1/version` for deploy verification), `honeypot` (decoy paths + RFC 9116 `security.txt`), `csp_report` (`/api/v1/csp-report` sink), `canary` (provenance-traced tokens embedded in `llms-full.txt`). App factory at [world_of_taxonomy/api/app.py](world_of_taxonomy/api/app.py) (lifespan-managed asyncpg pool, DB connect retry, env validation, graceful shutdown). Route inventory and auth rules live in [docs/handover/backend.md](docs/handover/backend.md).
+Routers in [world_of_taxonomy/api/routers/](world_of_taxonomy/api/routers/): `systems`, `nodes`, `search`, `equivalences`, `explore`, `countries`, `classify`, `classify_demo`, `developers` (magic-link signup + cookie-gated key dashboard + `/auth/magic-callback` + `/auth/logout`), `wiki`, `contact`, `audit`, `crosswalk_graph`, `mcp_http`. The legacy password+OAuth router (`auth.py` + `oauth.py`) and bulk export routers were removed. Ops/security routers mounted directly from [world_of_taxonomy/api/](world_of_taxonomy/api/): `metrics` (Prometheus at `/api/v1/metrics`, `METRICS_TOKEN`-gated), `healthz` (`/api/v1/healthz` for uptime probes), `version` (`/api/v1/version` for deploy verification), `honeypot` (decoy paths + RFC 9116 `security.txt`), `csp_report` (`/api/v1/csp-report` sink), `canary` (provenance-traced tokens embedded in `llms-full.txt`). App factory at [world_of_taxonomy/api/app.py](world_of_taxonomy/api/app.py) (lifespan-managed asyncpg pool, DB connect retry, env validation, graceful shutdown). Route inventory and auth rules live in [docs/handover/backend.md](docs/handover/backend.md).
 
 ### MCP server
 
@@ -153,10 +153,10 @@ Everything else (parsing, level detection, parent resolution, sector mapping) is
 
 ## 8. Auth and rate limits
 
-- **Registration** (`POST /api/v1/auth/register`): email + password, bcrypt hash, returns JWT (15 min expiry).
-- **Login** (`POST /api/v1/auth/login`): password or OAuth (`/api/v1/auth/oauth/{provider}/authorize` -> `/auth/callback`).
-- **API keys**: `wot_` + 32 hex chars = 36 chars total. Stored as bcrypt hash plus an indexed 8-char prefix so lookup is one btree seek + one bcrypt compare.
-- **JWT config**: HS256, secret in `JWT_SECRET` (>=32 chars in prod - generate with `python3 -c 'import secrets; print(secrets.token_hex(32))'`). Dev bypass: set `DISABLE_AUTH=true` to receive a synthetic user instead of a 401.
+- **Sign in**: visit `/login`, enter email, click the one-time magic link. No password. Backend mints a single-use token via `POST /api/v1/developers/signup`, the user receives the link via Resend, the link's `GET /api/v1/auth/magic-callback?t=...` consumes it and sets the `dev_session` cookie (httponly JWT, 60-min TTL) plus the `wot_csrf` double-submit cookie (JS-readable). OAuth + password sign-in were removed in 2026-04-30.
+- **Sign out**: `POST /api/v1/auth/logout` clears both cookies. Wired to the Header user-menu.
+- **API keys**: prefix scheme `wot_` (full single-product), `rwot_` (restricted single-product), `aix_` (cross-product). 32 hex chars after the prefix. Stored as bcrypt hash + indexed 8-char prefix: lookup is one btree seek + one bcrypt compare. Mint and revoke from `/developers/keys` (cookie-gated, CSRF-protected).
+- **JWT config**: HS256, secret in `JWT_SECRET` (>=32 chars in prod - generate with `python3 -c 'import secrets; print(secrets.token_hex(32))'`). Used to sign the `dev_session` cookie. Dev bypass: set `DISABLE_AUTH=true` to receive a synthetic user instead of a 401.
 - **Rate-limit tiers** (middleware in [world_of_taxonomy/api/middleware.py](world_of_taxonomy/api/middleware.py)):
 
 | Tier | Per minute | Per day |
@@ -168,11 +168,9 @@ Everything else (parsing, level detection, parent resolution, sector mapping) is
 
 Counters stored in `daily_usage`; every request audited to `usage_log`. Responses carry `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset` headers.
 
-**Failed-auth lockout**: a sliding-window in-process tracker ([world_of_taxonomy/api/failed_auth.py](world_of_taxonomy/api/failed_auth.py)) counts login failures per IP and per email. Thresholds tunable via `AUTH_FAILURE_WINDOW_SECONDS`, `AUTH_FAILURE_MAX_PER_IP`, `AUTH_FAILURE_MAX_PER_EMAIL`. Request bodies over 2 MiB are rejected before they reach handlers.
+**Per-endpoint per-IP guards** ([world_of_taxonomy/api/rate_guard.py](world_of_taxonomy/api/rate_guard.py)) layer on top of slowapi for abuse-prone endpoints: 5/hour on `/developers/signup` and `/contact`, 30/min on `/auth/magic-callback`, 20/hour on `/classify/demo`, 200/hour on `/search`, 600/hour on `/mcp`, plus 10/hour on developer-key creation. All emit `wot_rate_guard_fired_total{endpoint}` to Prometheus. A DB-backed global email-send budget (default 200/hour) caps the Resend bill against distributed attacks. Anti-CSRF double-submit cookie protects state-changing requests on `/developers/keys`.
 
 **Input length caps** on auth + API key schemas (Pydantic `min_length`/`max_length`) stop pathological payloads before validation runs. Prompt-injection guard on `/classify` NFKC-normalizes input and rejects known jailbreak patterns ([world_of_taxonomy/api/text_guard.py](world_of_taxonomy/api/text_guard.py)).
-
-OAuth provider setup (redirect URIs, secrets) lives in [OAUTH_PRODUCTION_SETUP.md](OAUTH_PRODUCTION_SETUP.md).
 
 ---
 
@@ -217,7 +215,7 @@ One Prometheus exposition endpoint, one uptime probe, one version probe, one str
 | `wot_honeypot_hits_total` | path | Attacker knocks on `/wp-admin`, `/.env`, etc. |
 | `wot_canary_hits_total` | token | LLM crawler provenance (tokens in `llms-full.txt`). |
 | `wot_csp_reports_total` | directive | Browser CSP violations, bucketed on known directives. |
-| `wot_failed_auth_total` | scope | Login failures (scope=ip/email). |
+| `wot_rate_guard_fired_total` | endpoint | Per-IP rate-guard 429s + email-budget 503s. |
 | `wot_injection_rejections_total` | reason | `/classify` prompt-injection rejections. |
 
 Dashboards are intentionally not committed; the metric names above are the contract. Runbooks in [docs/runbooks/](docs/runbooks/) describe what an alert on each family should trigger.
@@ -403,7 +401,6 @@ What's queued: [ROADMAP.md](ROADMAP.md).
 | [DESIGN.md](DESIGN.md) | Architectural rationale and trade-offs |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | TDD workflow + 7-step new-system checklist |
 | [DATA_SOURCES.md](DATA_SOURCES.md) | Upstream authority, license, URL for every system |
-| [OAUTH_PRODUCTION_SETUP.md](OAUTH_PRODUCTION_SETUP.md) | GitHub/Google/LinkedIn redirect URIs + env vars |
 | [docs/adding-a-new-system.md](docs/adding-a-new-system.md) | Long-form walkthrough for adding an ingester |
 | [docs/diagrams/](docs/diagrams/) | Mermaid sources: system architecture, ingest, API, MCP, wiki flow |
 | [docs/runbooks/](docs/runbooks/) | On-call runbooks: DB, auth, ingest, rate limits, rollback, migrations |

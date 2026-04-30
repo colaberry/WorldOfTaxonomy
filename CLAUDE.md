@@ -1125,11 +1125,12 @@ Test isolation: `conftest.py` creates a `test_wot` PostgreSQL schema, seeds NAIC
 
 ## Auth system
 
-- Registration: POST `/api/v1/auth/register` → bcrypt password hash → JWT token
-- Login: POST `/api/v1/auth/login` → JWT (15 min expiry)
-- API keys: `wot_` + 32 hex chars, bcrypt-hashed, prefix-indexed
-- Rate limits: anonymous 30 req/min, authenticated 1000 req/min
-- JWT secret: `JWT_SECRET` env var (must be ≥32 chars in production)
+- Sign in: visit `/login`, enter email, click the one-time magic link. No password.
+- Backend: POST `/api/v1/developers/signup` mints the link, GET `/api/v1/auth/magic-callback?t=...` consumes it and sets `dev_session` (httponly JWT, 60-min TTL) + `wot_csrf` (JS-readable double-submit token)
+- Sign out: POST `/api/v1/auth/logout` clears both cookies
+- API keys: `wot_` / `rwot_` / `aix_` prefix + 32 hex chars, bcrypt-hashed, 8-char prefix-indexed. Mint and revoke from `/developers/keys` (cookie-gated, CSRF-protected)
+- Rate limits: anonymous 30 req/min, authenticated 1000 req/min, plus per-IP guards on signup, magic-callback, classify/demo, search, contact, MCP, and key creation
+- JWT secret: `JWT_SECRET` env var (must be ≥32 chars in production); used to sign the `dev_session` cookie
 
 ## Key patterns
 

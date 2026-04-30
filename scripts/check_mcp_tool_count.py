@@ -53,6 +53,12 @@ SKIP_DIRS = {"node_modules", ".next", "__pycache__", ".git", "dist", "build", ".
 # authoritative.
 SKIP_PATH_PREFIXES = (
     "frontend/src/content/",
+    # Auto-generated per-system AEO dumps. The build_static_content.py
+    # script dumps Patent CPC, ICD-O-3, and similar systems whose own
+    # node titles + descriptions contain incidental phrases like
+    # "Tools for turning" or "10 tools" that the regex below cannot
+    # distinguish from a real MCP-tool-count claim.
+    "frontend/public/llms-codes/",
 )
 
 FILE_SUFFIXES = {".md", ".mdx", ".ts", ".tsx", ".js", ".jsx", ".py", ".txt", ".json", ".yml", ".yaml"}
