@@ -29,6 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `https://worldoftaxonomy.com/guide/${slug}`,
       type: 'article',
     },
+    alternates: { canonical: `https://worldoftaxonomy.com/guide/${slug}` },
   }
 }
 

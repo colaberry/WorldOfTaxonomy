@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     url: 'https://worldoftaxonomy.com/explore',
     type: 'website',
   },
+  alternates: { canonical: 'https://worldoftaxonomy.com/explore' },
 }
 
 export default async function ExplorePage() {

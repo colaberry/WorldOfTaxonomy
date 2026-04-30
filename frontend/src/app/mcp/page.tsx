@@ -9,7 +9,9 @@ export const metadata: Metadata = {
     title: 'MCP Tools - WorldOfTaxonomy',
     description: 'MCP tools for AI assistants to search, translate, and navigate 1,000+ classification systems.',
     type: 'website',
+    url: 'https://worldoftaxonomy.com/mcp',
   },
+  alternates: { canonical: 'https://worldoftaxonomy.com/mcp' },
 }
 
 /* ── Tool data ── */

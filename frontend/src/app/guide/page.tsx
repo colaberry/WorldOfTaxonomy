@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     url: 'https://worldoftaxonomy.com/guide',
     type: 'website',
   },
+  alternates: { canonical: 'https://worldoftaxonomy.com/guide' },
 }
 
 export default function GuidePage() {
