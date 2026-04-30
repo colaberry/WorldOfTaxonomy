@@ -9,7 +9,7 @@ sequenceDiagram
   C->>RL: GET /api/v1/search?q=physician
   RL->>RL: Check rate - 30/min anon, 1000/min auth
   RL->>AUTH: Forward request
-  AUTH->>AUTH: Validate JWT or API key
+  AUTH->>AUTH: Validate session cookie or API key
   AUTH->>R: Authenticated request
   R->>Q: search(conn, query, limit)
   Q->>DB: SELECT with ts_vector query
