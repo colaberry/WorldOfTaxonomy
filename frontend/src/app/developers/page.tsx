@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ContactSalesForm } from './ContactSalesForm'
-import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network, Sparkles, Bot } from 'lucide-react'
+import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network, Sparkles, Bot, Key } from 'lucide-react'
 
 async function fetchGithubStars(): Promise<number | null> {
   try {
@@ -59,6 +59,13 @@ export default async function BuildersPage() {
           portable), or directly from the open-source repo.
         </p>
         <div className="flex flex-wrap gap-3 pt-2">
+          <Link
+            href="/login"
+            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-foreground text-background text-sm font-medium hover:opacity-90 transition-opacity"
+          >
+            <Key className="h-4 w-4" />
+            Get an API key
+          </Link>
           <Link
             href="https://github.com/colaberry/WorldOfTaxonomy"
             target="_blank"

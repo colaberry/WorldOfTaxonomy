@@ -413,3 +413,22 @@ def _key_metadata_from_row(row) -> KeyMetadata:
         last_used_at=row["last_used_at"].isoformat() if row["last_used_at"] else None,
         revoked_at=row["revoked_at"].isoformat() if row["revoked_at"] else None,
     )
+
+
+# ---- Logout -----------------------------------------------------------------
+
+
+@router.post("/api/v1/auth/logout")
+async def logout(request: Request, response: Response) -> dict:
+    """Sign the user out by clearing both auth cookies.
+
+    Called from the Header user-menu after PR-#155 stripped OAuth + the
+    legacy /auth/* router. We deliberately do NOT invalidate the JWT
+    server-side: the dev_session cookie is short-lived (60-min TTL) and
+    httponly, and sign-out is a one-click client-side action. The
+    backend just needs to clear both cookies on this domain so the
+    Header detects the signed-out state via the absence of wot_csrf.
+    """
+    response.delete_cookie(_DEV_SESSION_COOKIE, path="/")
+    response.delete_cookie(_CSRF_COOKIE, path="/")
+    return {"detail": "Signed out"}

@@ -49,7 +49,7 @@ export default function KeysDashboardPage() {
         credentials: 'include',
       })
       if (res.status === 401) {
-        window.location.replace('/developers/signup')
+        window.location.replace('/login')
         return
       }
       if (!res.ok) {

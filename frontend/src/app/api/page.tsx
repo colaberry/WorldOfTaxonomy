@@ -290,70 +290,51 @@ const GROUPS: EndpointGroup[] = [
   {
     id: 'auth',
     title: 'Authentication',
-    description: 'Register, login, and manage API keys',
+    description: 'Sign in via email magic link; manage API keys via the dashboard at /developers/keys',
     icon: <Shield className="h-5 w-5" />,
     endpoints: [
       {
-        method: 'POST', path: '/api/v1/auth/register',
-        description: 'Create a new user account.',
+        method: 'POST', path: '/api/v1/developers/signup',
+        description: 'Send a one-time sign-in link to the given email. The link expires in 15 minutes and is single-use. Backed by the same handler the /login UI calls.',
         params: [
-          { name: 'email', location: 'body', type: 'string', required: true, description: 'Email address' },
-          { name: 'password', location: 'body', type: 'string', required: true, description: 'Password (min 8 characters)' },
-          { name: 'display_name', location: 'body', type: 'string', required: false, description: 'Display name' },
+          { name: 'email', location: 'body', type: 'string', required: true, description: 'Email address to receive the link' },
         ],
       },
       {
-        method: 'POST', path: '/api/v1/auth/login',
-        description: 'Authenticate and receive a short-lived JWT (15 min expiry).',
+        method: 'GET', path: '/api/v1/auth/magic-callback',
+        description: 'Consume a magic-link token (from the email) and set the dev_session + wot_csrf cookies. Browser flow; the /login page handles this via the /auth/magic page.',
         params: [
-          { name: 'email', location: 'body', type: 'string', required: true, description: 'Email address' },
-          { name: 'password', location: 'body', type: 'string', required: true, description: 'Password' },
+          { name: 't', location: 'query', type: 'string', required: true, description: 'One-time magic-link token' },
         ],
       },
       {
-        method: 'GET', path: '/api/v1/auth/me',
-        description: 'Get current user profile.',
+        method: 'POST', path: '/api/v1/auth/logout',
+        description: 'Clear the dev_session + wot_csrf cookies on this domain.',
+        params: [],
+      },
+      {
+        method: 'POST', path: '/api/v1/developers/keys',
+        description: 'Create a long-lived API key. Cookie-gated; requires a wot_csrf X-CSRF-Token header.',
+        params: [
+          { name: 'name', location: 'body', type: 'string', required: true, description: 'Human-readable name' },
+          { name: 'scopes', location: 'body', type: 'string[]', required: false, description: 'Scope set, e.g. ["wot:read", "wot:list"] or ["wot:*"]', default: '["wot:*"]' },
+          { name: 'expires_in_days', location: 'body', type: 'integer', required: false, description: 'Optional expiry in days (1-3650)' },
+        ],
+        tier: 'auth',
+      },
+      {
+        method: 'GET', path: '/api/v1/developers/keys',
+        description: 'List all API keys for the cookie-authenticated user. No raw key values - prefix only.',
         params: [],
         tier: 'auth',
       },
       {
-        method: 'POST', path: '/api/v1/auth/keys',
-        description: 'Create a long-lived API key (wot_ prefix).',
-        params: [
-          { name: 'name', location: 'body', type: 'string', required: false, description: 'Key name', default: '"Default"' },
-        ],
-        tier: 'auth',
-      },
-      {
-        method: 'GET', path: '/api/v1/auth/keys',
-        description: 'List all API keys for the current user.',
-        params: [],
-        tier: 'auth',
-      },
-      {
-        method: 'DELETE', path: '/api/v1/auth/keys/{key_id}',
-        description: 'Deactivate an API key.',
+        method: 'DELETE', path: '/api/v1/developers/keys/{key_id}',
+        description: 'Revoke an API key. Cookie-gated; requires the X-CSRF-Token header.',
         params: [
           { name: 'key_id', location: 'path', type: 'string', required: true, description: 'API key UUID' },
         ],
         tier: 'auth',
-      },
-      {
-        method: 'GET', path: '/api/v1/auth/oauth/{provider}/authorize',
-        description: 'Get the OAuth authorization URL for a provider. Redirect the user to this URL.',
-        params: [
-          { name: 'provider', location: 'path', type: 'string', required: true, description: 'OAuth provider: github, google, or linkedin' },
-          { name: 'redirect_to', location: 'query', type: 'string', required: false, description: 'Destination URL after auth completes' },
-        ],
-      },
-      {
-        method: 'GET', path: '/api/v1/auth/oauth/{provider}/callback',
-        description: 'OAuth callback handler. Exchanges code for token, upserts user, issues JWT.',
-        params: [
-          { name: 'provider', location: 'path', type: 'string', required: true, description: 'OAuth provider' },
-          { name: 'code', location: 'query', type: 'string', required: false, description: 'Authorization code from provider' },
-          { name: 'state', location: 'query', type: 'string', required: false, description: 'CSRF state parameter' },
-        ],
       },
     ],
   },
@@ -543,24 +524,13 @@ export default function ApiReferencePage() {
           Authentication flow
         </p>
         <pre className="rounded-lg bg-secondary/60 px-4 py-3 text-xs font-mono overflow-x-auto text-foreground/90 leading-relaxed">
-{`# 1. Register
-curl -X POST /api/v1/auth/register \\
-  -H "Content-Type: application/json" \\
-  -d '{"email": "you@company.com", "password": "your-password"}'
+{`# 1. Visit /login in a browser, enter your email. You will receive
+#    a one-time sign-in link (no password). Click it to sign in.
 
-# 2. Login (get a 15-min JWT)
-curl -X POST /api/v1/auth/login \\
-  -H "Content-Type: application/json" \\
-  -d '{"email": "you@company.com", "password": "your-password"}'
-# Response: { "access_token": "eyJ...", "token_type": "bearer" }
+# 2. From /developers/keys, click "Generate key". Copy the value -
+#    we never show it again.
 
-# 3. Create a long-lived API key
-curl -X POST /api/v1/auth/keys \\
-  -H "Authorization: Bearer eyJ..." \\
-  -d '{"name": "My App"}'
-# Response: { "key": "wot_abc123...", "api_key": {...} }
-
-# 4. Use the API key in all future requests
+# 3. Use the key in all future requests:
 curl /api/v1/search?q=physician \\
   -H "Authorization: Bearer wot_abc123..."`}
         </pre>
