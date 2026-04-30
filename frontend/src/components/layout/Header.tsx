@@ -8,20 +8,23 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { ChevronDown, LogIn, LogOut, Sparkles, User } from 'lucide-react'
+import { ChevronDown, Key, LogIn, LogOut, Sparkles, User } from 'lucide-react'
 import { ThemeToggle } from '@/components/ThemeToggle'
 import { Logo } from '@/components/Logo'
-import { getStoredUser, clearAuth, isLoggedIn } from '@/lib/auth'
-import type { StoredUser } from '@/lib/auth'
+import { isLoggedIn, logout } from '@/lib/auth'
 
 export function Header() {
   const pathname = usePathname()
   const router   = useRouter()
-  const [user, setUser] = useState<StoredUser | null>(null)
+  // Cookie-based session detection. The wot_csrf cookie is the
+  // JS-readable companion of dev_session (which is httponly). Presence
+  // == signed in. We re-check on every navigation so the menu updates
+  // after a magic-link callback or a sign-out.
+  const [signedIn, setSignedIn] = useState<boolean>(false)
 
   useEffect(() => {
-    setUser(isLoggedIn() ? getStoredUser() : null)
-  }, [pathname]) // re-check on every navigation
+    setSignedIn(isLoggedIn())
+  }, [pathname])
 
   const navItems = [
     { href: '/', label: 'Galaxy', active: pathname === '/' },
@@ -35,9 +38,9 @@ export function Header() {
     { href: '/pricing', label: 'Pricing', active: pathname === '/pricing' },
   ]
 
-  function handleSignOut() {
-    clearAuth()
-    setUser(null)
+  async function handleSignOut() {
+    await logout()
+    setSignedIn(false)
     router.push('/')
   }
 
@@ -82,18 +85,21 @@ export function Header() {
           </Link>
 
           {/* Auth */}
-          {user ? (
+          {signedIn ? (
             <DropdownMenu>
               <DropdownMenuTrigger className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm text-muted-foreground hover:text-foreground hover:bg-secondary/50 transition-colors outline-none">
                 <User className="h-3.5 w-3.5" />
-                <span className="hidden sm:inline max-w-[100px] truncate text-xs">{user.name || user.email}</span>
+                <span className="hidden sm:inline text-xs">Account</span>
                 <ChevronDown className="h-3 w-3" />
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-52 p-1">
-                <div className="px-3 py-2 border-b border-border/50 mb-1">
-                  <p className="text-xs font-medium truncate">{user.name || 'Account'}</p>
-                  <p className="text-[11px] text-muted-foreground truncate">{user.email}</p>
-                </div>
+                <Link
+                  href="/developers/keys"
+                  className="w-full flex items-center gap-2 px-3 py-1.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary/50 rounded transition-colors"
+                >
+                  <Key className="h-3.5 w-3.5" />
+                  API keys
+                </Link>
                 <button
                   onClick={handleSignOut}
                   className="w-full flex items-center gap-2 px-3 py-1.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary/50 rounded transition-colors"

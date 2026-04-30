@@ -58,25 +58,6 @@ def _install_capture(monkeypatch, target_module):
     return captured
 
 
-class TestAuthRegisterRateGuard:
-    def test_register_route_calls_rate_guard_with_5_per_hour(self, monkeypatch):
-        from world_of_taxonomy.api.routers import auth as auth_mod
-        captured = _install_capture(monkeypatch, auth_mod)
-
-        body = auth_mod.RegisterRequest(
-            email="x@example.com", password="pwd12345", display_name="X",
-        )
-
-        async def go():
-            with pytest.raises(HTTPException) as exc:
-                await auth_mod.register(body, _StubRequest(), conn=None)
-            assert exc.value.status_code == 429
-
-        _run(go())
-        assert captured["endpoint_name"] == "auth_register"
-        assert captured["max_per_window"] == 5
-
-
 class TestContactRateGuard:
     def test_contact_route_calls_rate_guard_with_5_per_hour(self, monkeypatch):
         from world_of_taxonomy.api.routers import contact as contact_mod
@@ -127,73 +108,6 @@ class TestMcpHttpRateGuard:
         _run(go())
         assert captured["endpoint_name"] == "mcp_http"
         assert captured["max_per_window"] == 600
-
-
-class TestAuthSessionRateGuard:
-    """The /auth/me, /auth/keys GET, and /auth/keys DELETE endpoints
-    share an `auth_session` bucket at 120/min/IP. The /auth/keys POST
-    endpoint additionally has its own `auth_keys_create` cap at 10/hour.
-    """
-
-    def test_get_me_calls_auth_session_guard(self, monkeypatch):
-        from world_of_taxonomy.api.routers import auth as auth_mod
-        captured = _install_capture(monkeypatch, auth_mod)
-
-        async def go():
-            with pytest.raises(HTTPException) as exc:
-                await auth_mod.get_me(_StubRequest(), conn=None)
-            assert exc.value.status_code == 429
-
-        _run(go())
-        assert captured["endpoint_name"] == "auth_session"
-        assert captured["max_per_window"] == 120
-        assert captured["kwargs"].get("window_seconds") == 60
-
-    def test_create_api_key_calls_auth_keys_create_guard(self, monkeypatch):
-        from world_of_taxonomy.api.routers import auth as auth_mod
-        from world_of_taxonomy.api.schemas import CreateApiKeyRequest
-
-        captured = _install_capture(monkeypatch, auth_mod)
-        body = CreateApiKeyRequest(name="ci")
-
-        async def go():
-            with pytest.raises(HTTPException) as exc:
-                await auth_mod.create_api_key(body, _StubRequest(), conn=None)
-            assert exc.value.status_code == 429
-
-        _run(go())
-        assert captured["endpoint_name"] == "auth_keys_create"
-        assert captured["max_per_window"] == 10
-
-    def test_list_api_keys_calls_auth_session_guard(self, monkeypatch):
-        from world_of_taxonomy.api.routers import auth as auth_mod
-        captured = _install_capture(monkeypatch, auth_mod)
-
-        async def go():
-            with pytest.raises(HTTPException) as exc:
-                await auth_mod.list_api_keys(_StubRequest(), conn=None)
-            assert exc.value.status_code == 429
-
-        _run(go())
-        assert captured["endpoint_name"] == "auth_session"
-        assert captured["max_per_window"] == 120
-
-    def test_deactivate_api_key_calls_auth_session_guard(self, monkeypatch):
-        from world_of_taxonomy.api.routers import auth as auth_mod
-        captured = _install_capture(monkeypatch, auth_mod)
-
-        async def go():
-            with pytest.raises(HTTPException) as exc:
-                await auth_mod.deactivate_api_key(
-                    "00000000-0000-0000-0000-000000000000",
-                    _StubRequest(),
-                    conn=None,
-                )
-            assert exc.value.status_code == 429
-
-        _run(go())
-        assert captured["endpoint_name"] == "auth_session"
-        assert captured["max_per_window"] == 120
 
 
 class TestDevelopersKeysCreateRateGuard:

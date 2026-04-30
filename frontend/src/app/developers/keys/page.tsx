@@ -32,6 +32,15 @@ export default function KeysDashboardPage() {
   const [creating, setCreating] = useState(false)
   const [justCreated, setJustCreated] = useState<string | null>(null)
 
+  function getCsrfToken(): string {
+    // Same-origin double-submit token set by /api/v1/auth/magic-callback
+    // alongside the dev_session cookie. Echoed on every state-changing
+    // request as X-CSRF-Token. SameSite=Lax already blocks cross-origin
+    // CSRF; this catches same-origin XSS-driven attacks.
+    const match = document.cookie.match(/(?:^|; )wot_csrf=([^;]+)/)
+    return match ? decodeURIComponent(match[1]) : ''
+  }
+
   async function refresh() {
     setLoading(true)
     setError(null)
@@ -40,7 +49,7 @@ export default function KeysDashboardPage() {
         credentials: 'include',
       })
       if (res.status === 401) {
-        window.location.replace('/developers/signup')
+        window.location.replace('/login')
         return
       }
       if (!res.ok) {
@@ -66,7 +75,10 @@ export default function KeysDashboardPage() {
       const res = await fetch('/api/v1/developers/keys', {
         method: 'POST',
         credentials: 'include',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': getCsrfToken(),
+        },
         body: JSON.stringify({
           name: name || 'Untitled key',
           scopes: SCOPE_PRESETS[presetIndex].scopes,
@@ -93,6 +105,7 @@ export default function KeysDashboardPage() {
       const res = await fetch(`/api/v1/developers/keys/${id}`, {
         method: 'DELETE',
         credentials: 'include',
+        headers: { 'X-CSRF-Token': getCsrfToken() },
       })
       if (!res.ok) {
         throw new Error(`Failed (${res.status})`)

@@ -7,13 +7,10 @@ import type {
   CrosswalkStat,
   CrosswalkGraphResponse,
   CrosswalkSectionsResponse,
-  User,
-  ApiKey,
-  AuthTokens,
   GeneratedNode,
   GenerateTaxonomyResponse,
 } from './types'
-import { getToken } from './auth'
+import { getCsrfToken } from './auth'
 
 const API_BASE = ''
 
@@ -82,19 +79,25 @@ export async function getEquivalences(
 
 // ── AI Taxonomy Generation ──
 
+// Note: /nodes/.../generate is JWT-gated server-side via get_current_user.
+// With OAuth + the legacy /auth router removed in 2026-04-30, no JWT can
+// be minted any more, so these routes 401 in practice. The client-side
+// helpers stay so the AI-taxonomy panel in NodeTree compiles, but they
+// will need to be re-pointed at a require_scope-gated endpoint when the
+// AI-extension flow is wired into the magic-link cookie session.
 export async function generateTaxonomy(
   systemId: string,
   code: string,
   count = 5
 ): Promise<GenerateTaxonomyResponse> {
-  const token = getToken()
   const res = await fetch(
     `/api/v1/systems/${systemId}/nodes/${encodeURIComponent(code)}/generate`,
     {
       method: 'POST',
+      credentials: 'include',
       headers: {
         'Content-Type': 'application/json',
-        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        'X-CSRF-Token': getCsrfToken(),
       },
       body: JSON.stringify({ count }),
     }
@@ -110,14 +113,14 @@ export async function acceptGeneratedTaxonomy(
   code: string,
   nodes: GeneratedNode[]
 ): Promise<ClassificationNode[]> {
-  const token = getToken()
   const res = await fetch(
     `/api/v1/systems/${systemId}/nodes/${encodeURIComponent(code)}/generate/accept`,
     {
       method: 'POST',
+      credentials: 'include',
       headers: {
         'Content-Type': 'application/json',
-        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        'X-CSRF-Token': getCsrfToken(),
       },
       body: JSON.stringify({ nodes }),
     }
@@ -244,64 +247,11 @@ export async function getCountryProfile(code: string): Promise<CountryProfile> {
   return fetchJson(`/api/v1/countries/${code.toUpperCase()}`)
 }
 
-// ── Auth ──
-
-export async function register(
-  email: string,
-  password: string,
-  displayName?: string
-): Promise<User> {
-  return fetchJson('/api/v1/auth/register', {
-    method: 'POST',
-    body: JSON.stringify({ email, password, display_name: displayName }),
-  })
-}
-
-export async function login(
-  email: string,
-  password: string
-): Promise<AuthTokens> {
-  return fetchJson('/api/v1/auth/login', {
-    method: 'POST',
-    body: JSON.stringify({ email, password }),
-  })
-}
-
-export async function getMe(token: string): Promise<User> {
-  return fetchJson('/api/v1/auth/me', {
-    headers: { Authorization: `Bearer ${token}` },
-  })
-}
-
-export async function createApiKey(
-  token: string,
-  name?: string
-): Promise<{ key: string; api_key: ApiKey }> {
-  return fetchJson('/api/v1/auth/keys', {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${token}` },
-    body: JSON.stringify({ name: name || 'Default' }),
-  })
-}
-
-export async function listApiKeys(token: string): Promise<ApiKey[]> {
-  return fetchJson('/api/v1/auth/keys', {
-    headers: { Authorization: `Bearer ${token}` },
-  })
-}
-
-export async function revokeApiKey(
-  token: string,
-  keyId: string
-): Promise<void> {
-  const res = await fetch(`${API_BASE}/api/v1/auth/keys/${keyId}`, {
-    method: 'DELETE',
-    headers: { Authorization: `Bearer ${token}` },
-  })
-  if (!res.ok) {
-    throw new ApiError(res.status, `Failed to revoke key: ${res.statusText}`)
-  }
-}
+// Auth helpers were removed in 2026-04-30. The /api/v1/auth/register,
+// /login, /me, and /keys CRUD endpoints they called no longer exist.
+// Sign-in lives on /login (magic-link form), key management lives in
+// the developer dashboard at /developers/keys (cookie-gated; uses the
+// fetch calls in app/developers/keys/page.tsx directly).
 
 // ── Classify (demo, email-gated) ──
 

@@ -1,6 +1,15 @@
-"""Tests for the authentication system.
+"""Tests for authentication primitives + DB schema shape.
 
-Covers: registration, login, JWT validation, API key lifecycle, password hashing.
+Covers: bcrypt round-trip (used for API-key hashing), JWT mint/decode
+(used for the dev_session cookie minted by the magic-link callback),
+and DB-level invariants on `app_user`, `api_key`, and `usage_log`.
+
+The previous /api/v1/auth/register, /login, /me, /keys CRUD endpoints
+and OAuth router were removed in 2026-04-30. Sign-in is now exclusively
+the magic-link flow in `developers.py`. These tests no longer exercise
+the deleted router; they verify the schema + cryptographic primitives
+still behave the way the magic-link path expects.
+
 Uses the test_wot schema (never touches production data).
 """
 

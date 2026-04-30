@@ -52,7 +52,7 @@ export default function AuthMagicPage() {
           <h1 className="text-3xl font-semibold">Sign-in link is invalid</h1>
           <p className="text-muted-foreground">
             {errorMessage} Links expire after 15 minutes and only work once.{' '}
-            <a href="/developers/signup" className="underline">
+            <a href="/login" className="underline">
               Request a new link
             </a>
             .
