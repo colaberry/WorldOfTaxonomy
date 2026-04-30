@@ -472,180 +472,6 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
-    "/api/v1/auth/register": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        /**
-         * Register
-         * @description Register a new user account.
-         *
-         *     Per-IP rate guard: 5/hour. Each registration mints a JWT, writes to
-         *     app_user, and fires a webhook - cheap to abuse, expensive to clean
-         *     up. The cap is the same as /developers/signup since the abuse
-         *     surface is identical (user enumeration + webhook spam).
-         */
-        post: operations["register_api_v1_auth_register_post"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/auth/login": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        /**
-         * Login
-         * @description Login with email and password.
-         *
-         *     Failed attempts are tracked in a sliding window keyed by source IP
-         *     and target email; repeated failures return 429 to blunt credential
-         *     stuffing. Successful logins clear the counters for that IP+email.
-         */
-        post: operations["login_api_v1_auth_login_post"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/auth/me": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * Get Me
-         * @description Get current user profile.
-         *
-         *     Per-IP rate guard: 120/min via the shared `auth_session` bucket.
-         *     Bounds loop attacks from a stolen JWT across /me + /keys CRUD
-         *     without affecting interactive use.
-         */
-        get: operations["get_me_api_v1_auth_me_get"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/auth/keys": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * List Api Keys
-         * @description List all API keys for the current user.
-         *
-         *     Shares the `auth_session` bucket (120/min/IP).
-         */
-        get: operations["list_api_keys_api_v1_auth_keys_get"];
-        put?: never;
-        /**
-         * Create Api Key
-         * @description Create a new API key for the current user.
-         *
-         *     Per-IP rate guard: 10/hour for key creation specifically. A stolen
-         *     JWT minting many keys is a real abuse pattern; legitimate users
-         *     create keys rarely. Shared `auth_session` cap (120/min) also
-         *     applies via the get_current_user path on the second call.
-         */
-        post: operations["create_api_key_api_v1_auth_keys_post"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/auth/keys/{key_id}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post?: never;
-        /**
-         * Deactivate Api Key
-         * @description Deactivate an API key.
-         *
-         *     Shares the `auth_session` bucket (120/min/IP).
-         */
-        delete: operations["deactivate_api_key_api_v1_auth_keys__key_id__delete"];
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/auth/oauth/{provider}/authorize": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * Authorize
-         * @description Return the provider authorization URL.
-         *
-         *     The frontend should redirect the user to this URL.
-         *     The state parameter embeds the redirect_to destination so the callback
-         *     can send the user back to the right place.
-         */
-        get: operations["authorize_api_v1_auth_oauth__provider__authorize_get"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
-    "/api/v1/auth/oauth/{provider}/callback": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        /**
-         * Callback
-         * @description Handle the provider redirect back to our server.
-         *
-         *     Exchanges the code for an access token, fetches the user profile,
-         *     upserts the user in the database, issues a JWT, and redirects to the
-         *     frontend with ?token=<jwt>&email=...&name=...
-         */
-        get: operations["callback_api_v1_auth_oauth__provider__callback_get"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
-    };
     "/api/v1/audit/provenance": {
         parameters: {
             query?: never;
@@ -847,6 +673,9 @@ export interface paths {
          *     user wedging a key-generation script could mint hundreds of keys
          *     quickly. Real users mint keys infrequently, so 10/hour is comfortable
          *     headroom without leaving a flood vector open.
+         *
+         *     CSRF: requires the X-CSRF-Token header to match the wot_csrf cookie
+         *     set on magic-callback. Blocks same-origin XSS-driven key minting.
          */
         post: operations["create_key_api_v1_developers_keys_post"];
         delete?: never;
@@ -865,8 +694,41 @@ export interface paths {
         get?: never;
         put?: never;
         post?: never;
-        /** Revoke Key */
+        /**
+         * Revoke Key
+         * @description Revoke an API key the cookie-authenticated user owns.
+         *
+         *     CSRF: requires the X-CSRF-Token header to match the wot_csrf cookie
+         *     set on magic-callback.
+         */
         delete: operations["revoke_key_api_v1_developers_keys__key_id__delete"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/auth/logout": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Logout
+         * @description Sign the user out by clearing both auth cookies.
+         *
+         *     Called from the Header user-menu after PR-#155 stripped OAuth + the
+         *     legacy /auth/* router. We deliberately do NOT invalidate the JWT
+         *     server-side: the dev_session cookie is short-lived (60-min TTL) and
+         *     httponly, and sign-out is a one-click client-side action. The
+         *     backend just needs to clear both cookies on this domain so the
+         *     Header detects the signed-out state via the absence of wot_csrf.
+         */
+        post: operations["logout_api_v1_auth_logout_post"];
+        delete?: never;
         options?: never;
         head?: never;
         patch?: never;
@@ -1052,29 +914,6 @@ export interface components {
         AcceptTaxonomyRequest: {
             /** Nodes */
             nodes: components["schemas"]["GeneratedNode"][];
-        };
-        /** ApiKeyCreatedResponse */
-        ApiKeyCreatedResponse: {
-            /** Key */
-            key: string;
-            api_key: components["schemas"]["ApiKeyResponse"];
-        };
-        /** ApiKeyResponse */
-        ApiKeyResponse: {
-            /** Id */
-            id: string;
-            /** Key Prefix */
-            key_prefix: string;
-            /** Name */
-            name: string;
-            /** Is Active */
-            is_active: boolean;
-            /** Last Used At */
-            last_used_at: string | null;
-            /** Created At */
-            created_at: string;
-            /** Expires At */
-            expires_at: string | null;
         };
         /** AuditProvenanceResponse */
         AuditProvenanceResponse: {
@@ -1290,14 +1129,6 @@ export interface components {
              */
             message: string;
         };
-        /** CreateApiKeyRequest */
-        CreateApiKeyRequest: {
-            /**
-             * Name
-             * @default Default
-             */
-            name: string;
-        };
         /** CreateKeyRequest */
         CreateKeyRequest: {
             /** Name */
@@ -1512,13 +1343,6 @@ export interface components {
             /** Revoked At */
             revoked_at: string | null;
         };
-        /** LoginRequest */
-        LoginRequest: {
-            /** Email */
-            email: string;
-            /** Password */
-            password: string;
-        };
         /** NodeResponse */
         NodeResponse: {
             /** Id */
@@ -1577,15 +1401,6 @@ export interface components {
             system_count: number;
             /** Node Count */
             node_count: number;
-        };
-        /** RegisterRequest */
-        RegisterRequest: {
-            /** Email */
-            email: string;
-            /** Password */
-            password: string;
-            /** Display Name */
-            display_name?: string | null;
         };
         /** ScopeInfo */
         ScopeInfo: {
@@ -1718,29 +1533,6 @@ export interface components {
              * @default standard
              */
             category: string;
-        };
-        /** TokenResponse */
-        TokenResponse: {
-            /** Access Token */
-            access_token: string;
-            /**
-             * Token Type
-             * @default bearer
-             */
-            token_type: string;
-        };
-        /** UserResponse */
-        UserResponse: {
-            /** Id */
-            id: string;
-            /** Email */
-            email: string;
-            /** Display Name */
-            display_name: string | null;
-            /** Tier */
-            tier: string;
-            /** Created At */
-            created_at: string;
         };
         /** ValidationError */
         ValidationError: {
@@ -2502,244 +2294,6 @@ export interface operations {
             };
         };
     };
-    register_api_v1_auth_register_post: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["RegisterRequest"];
-            };
-        };
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["TokenResponse"];
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
-    login_api_v1_auth_login_post: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["LoginRequest"];
-            };
-        };
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["TokenResponse"];
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
-    get_me_api_v1_auth_me_get: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["UserResponse"];
-                };
-            };
-        };
-    };
-    list_api_keys_api_v1_auth_keys_get: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["ApiKeyResponse"][];
-                };
-            };
-        };
-    };
-    create_api_key_api_v1_auth_keys_post: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["CreateApiKeyRequest"];
-            };
-        };
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["ApiKeyCreatedResponse"];
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
-    deactivate_api_key_api_v1_auth_keys__key_id__delete: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                key_id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": unknown;
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
-    authorize_api_v1_auth_oauth__provider__authorize_get: {
-        parameters: {
-            query?: {
-                redirect_to?: string | null;
-            };
-            header?: never;
-            path: {
-                provider: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": unknown;
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
-    callback_api_v1_auth_oauth__provider__callback_get: {
-        parameters: {
-            query?: {
-                code?: string | null;
-                state?: string | null;
-                error?: string | null;
-            };
-            header?: never;
-            path: {
-                provider: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": unknown;
-                };
-            };
-            /** @description Validation Error */
-            422: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["HTTPValidationError"];
-                };
-            };
-        };
-    };
     audit_provenance_api_v1_audit_provenance_get: {
         parameters: {
             query?: never;
@@ -3060,6 +2614,28 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    logout_api_v1_auth_logout_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": {
+                        [key: string]: unknown;
+                    };
                 };
             };
         };
