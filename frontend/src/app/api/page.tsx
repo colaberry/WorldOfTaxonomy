@@ -9,7 +9,9 @@ export const metadata: Metadata = {
     title: 'API Reference - WorldOfTaxonomy',
     description: 'Complete REST API reference for WorldOfTaxonomy. 50+ endpoints for classification systems, crosswalks, search, and export.',
     type: 'website',
+    url: 'https://worldoftaxonomy.com/api',
   },
+  alternates: { canonical: 'https://worldoftaxonomy.com/api' },
 }
 
 /* ── Endpoint data ── */
