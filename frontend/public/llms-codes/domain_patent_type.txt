@@ -1,0 +1,14 @@
+[PA] Patent Types :: naics_2022:5411
+[PA.01] Utility Patent
+[PA.02] Design Patent
+[PA.03] Plant Patent
+[PA.04] Provisional Patent Application
+[PA.05] PCT International Application
+[PA.06] Continuation Application
+[PA.07] Divisional Application
+[PA.08] CIP (Continuation-in-Part)
+[PA.09] Reissue Patent
+[PA.10] Standard Essential Patent (SEP)
+[PA.11] Patent Cooperation Treaty Filing
+[PA.12] Patent Prosecution Highway
+[PA.13] Inter Partes Review

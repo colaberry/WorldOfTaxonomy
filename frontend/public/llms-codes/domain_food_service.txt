@@ -1,0 +1,23 @@
+[dfs_cuisine] Cuisine Type :: naics_2022:722
+[dfs_cuisine_american] American (burgers, barbecue, diner, comfort)
+[dfs_cuisine_asian] Asian (Chinese, Japanese, Korean, Thai, Indian)
+[dfs_cuisine_italian] Italian (pizza, pasta, trattoria)
+[dfs_cuisine_med] Mediterranean and Middle Eastern
+[dfs_cuisine_mexican] Mexican and Latin American
+[dfs_cuisine_other] Other International and Fusion Cuisine
+[dfs_lodge] Lodging Type :: naics_2022:722
+[dfs_lodge_bnb] Bed and Breakfast / Boutique Inn
+[dfs_lodge_ext] Extended-Stay Hotel (residential-style suites)
+[dfs_lodge_full] Full-Service Hotel (luxury, upscale, branded)
+[dfs_lodge_motel] Motel and Economy Lodging
+[dfs_lodge_resort] Resort and Conference Center
+[dfs_lodge_select] Select-Service and Limited-Service Hotel
+[dfs_lodge_str] Short-Term Rental (Airbnb, VRBO, vacation home)
+[dfs_svc] Food Service Model :: naics_2022:722
+[dfs_svc_bar] Bar, Tavern, and Brewery (food-focused)
+[dfs_svc_casual] Casual Dining (full-service, family restaurant)
+[dfs_svc_catering] Catering and Event Food Service
+[dfs_svc_fc] Fast Casual (counter service, better ingredients)
+[dfs_svc_fine] Fine Dining (white tablecloth, prix fixe)
+[dfs_svc_food] Food Truck and Pop-Up
+[dfs_svc_qsr] Quick Service Restaurant (QSR, fast food)

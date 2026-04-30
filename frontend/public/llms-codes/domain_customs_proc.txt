@@ -1,0 +1,14 @@
+[CU] Customs Procedure Types :: naics_2022:5419
+[CU.01] Import for Home Use
+[CU.02] Export (Outright)
+[CU.03] Transit (T1/T2)
+[CU.04] Customs Warehousing
+[CU.05] Inward Processing
+[CU.06] Outward Processing
+[CU.07] Temporary Admission
+[CU.08] Re-Export
+[CU.09] Re-Import
+[CU.10] Free Zone
+[CU.11] AEO (Authorized Economic Operator)
+[CU.12] Single Window Filing
+[CU.13] Rules of Origin Determination

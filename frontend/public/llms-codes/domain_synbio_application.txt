@@ -1,0 +1,19 @@
+[dsbapp_agriculture] Agricultural Synthetic Biology Applications :: naics_2022:3254, naics_2022:5417
+[dsbapp_agriculture_crop] Enhanced crop traits (drought tolerance, N-fixation, yield)
+[dsbapp_agriculture_soil] Soil microbiome engineering (biofertilizers, bioprotectants)
+[dsbapp_agriculture_vet] Veterinary biologics and animal health applications
+[dsbapp_environ] Environmental Remediation Applications :: naics_2022:3254, naics_2022:5417
+[dsbapp_environ_biorem] Bioremediation of contaminated soil and water (engineered bacteria)
+[dsbapp_environ_biosensor] Whole-cell biosensors for environmental monitoring
+[dsbapp_environ_carbon] Biological carbon capture and sequestration
+[dsbapp_industrial] Industrial Biotechnology Applications :: naics_2022:3254, naics_2022:5417
+[dsbapp_industrial_biocatal] Biocatalysis and enzyme engineering (specialty chemicals, pharma intermediates)
+[dsbapp_industrial_biofuel] Advanced biofuels (lignocellulosic ethanol, SAF, algae biodiesel)
+[dsbapp_industrial_ferment] Precision fermentation (proteins, flavor compounds, biomaterials)
+[dsbapp_materials] Sustainable Materials and Chemicals Applications :: naics_2022:3254, naics_2022:5417
+[dsbapp_materials_biocomposite] Bio-based composites and construction materials
+[dsbapp_materials_bioplastic] Bioplastics and bio-based polymers (PHA, PLA, spider silk)
+[dsbapp_medical] Medical and Therapeutic Applications :: naics_2022:3254, naics_2022:5417
+[dsbapp_medical_cellthx] Cell therapy (CAR-T, iPSC-derived, NK cell therapies)
+[dsbapp_medical_diag] Synthetic biology diagnostics (CRISPR-Dx, paper-based tests)
+[dsbapp_medical_genethx] Gene therapy (viral and non-viral delivery, in vivo editing)

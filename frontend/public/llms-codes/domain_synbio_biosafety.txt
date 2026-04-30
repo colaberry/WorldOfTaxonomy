@@ -1,0 +1,16 @@
+[dsbsaf_bsl1] Biosafety Level 1 (BSL-1) - Minimal Risk :: naics_2022:3254, naics_2022:5417
+[dsbsaf_bsl1_gmo] Low-risk GMO research under contained use (GLM waiver possible)
+[dsbsaf_bsl1_nonpath] Non-pathogenic, well-characterized organisms (E. coli K12, S. cerevisiae)
+[dsbsaf_bsl2] Biosafety Level 2 (BSL-2) - Moderate Risk :: naics_2022:3254, naics_2022:5417
+[dsbsaf_bsl2_adeno] Adeno-associated virus (AAV) gene therapy vector production
+[dsbsaf_bsl2_human] Human pathogens causing disease but rarely life-threatening (Salmonella, HBV)
+[dsbsaf_bsl2_lenti] Lentiviral and retroviral vectors for gene delivery research
+[dsbsaf_bsl3] Biosafety Level 3 (BSL-3) - Serious Risk :: naics_2022:3254, naics_2022:5417
+[dsbsaf_bsl3_endemic] Indigenous or exotic agents (TB, SARs-CoV-2 isolates, West Nile)
+[dsbsaf_bsl3_select] USDA/CDC Select Agent (Tier 1) requiring Federal Select Agent Program registration
+[dsbsaf_bsl4] Biosafety Level 4 (BSL-4) - Maximum Containment :: naics_2022:3254, naics_2022:5417
+[dsbsaf_bsl4_exotic] Exotic life-threatening agents with no vaccine/treatment (Ebola, Marburg, Lassa)
+[dsbsaf_bsl4_select2] Select Agent Tier 1 with potential for mass casualties
+[dsbsaf_dualuse] Dual-Use Research of Concern (DURC) :: naics_2022:3254, naics_2022:5417
+[dsbsaf_dualuse_gofinc] Gain-of-function research involving potential pandemic pathogens
+[dsbsaf_dualuse_nsabb] NSABB policy review-requiring research (enhanced transmissibility, pathogenicity)

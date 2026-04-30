@@ -1,0 +1,15 @@
+[DR] Disaster Recovery Types :: naics_2022:5419
+[DR.01] Hot Site
+[DR.02] Warm Site
+[DR.03] Cold Site
+[DR.04] Cloud-Based DR (DRaaS)
+[DR.05] Active-Active Configuration
+[DR.06] Active-Passive Configuration
+[DR.07] Pilot Light
+[DR.08] RPO/RTO Definition
+[DR.09] Data Replication (Synchronous)
+[DR.10] Data Replication (Asynchronous)
+[DR.11] Failover Testing
+[DR.12] DR Runbook
+[DR.13] Geographic Redundancy
+[DR.14] DR Compliance Audit

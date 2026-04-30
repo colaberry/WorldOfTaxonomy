@@ -1,0 +1,18 @@
+[hrt_core] Core HR Systems :: naics_2022:5613, naics_2022:5614
+[hrt_core_ben] Benefits administration
+[hrt_core_comp] Compensation management
+[hrt_core_hris] HRIS (Human Resource Information System)
+[hrt_core_pay] Payroll processing
+[hrt_core_time] Time and attendance tracking
+[hrt_exp] Employee Experience :: naics_2022:5613, naics_2022:5614
+[hrt_exp_deia] DEI analytics
+[hrt_exp_engage] Employee engagement surveys
+[hrt_exp_pulse] Pulse surveys and analytics
+[hrt_exp_recog] Recognition and rewards
+[hrt_exp_wellb] Wellbeing platforms
+[hrt_talent] Talent Management :: naics_2022:5613, naics_2022:5614
+[hrt_talent_ats] Applicant tracking system (ATS)
+[hrt_talent_lms] Learning management system (LMS)
+[hrt_talent_onb] Onboarding platforms
+[hrt_talent_perf] Performance management
+[hrt_talent_succ] Succession planning

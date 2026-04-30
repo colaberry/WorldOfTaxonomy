@@ -1,0 +1,20 @@
+[pe_growth] Growth and Buyout :: naics_2022:5419
+[pe_growth_exp] Growth equity
+[pe_growth_lbo] Leveraged buyout (LBO)
+[pe_growth_mbo] Management buyout (MBO)
+[pe_growth_recap] Recapitalization
+[pe_growth_sec] Secondary transactions
+[pe_strat] Strategy Types :: naics_2022:5419
+[pe_strat_dist] Distressed and turnaround
+[pe_strat_fund] Fund of funds
+[pe_strat_impact] Impact investing PE
+[pe_strat_infra] Infrastructure PE
+[pe_strat_nat] Natural resources PE
+[pe_strat_re] Real estate PE
+[pe_vc] Venture Capital Stages :: naics_2022:5419
+[pe_vc_a] Series A
+[pe_vc_b] Series B
+[pe_vc_bridge] Bridge and mezzanine
+[pe_vc_c] Series C and later
+[pe_vc_pre] Pre-seed and angel
+[pe_vc_seed] Seed round

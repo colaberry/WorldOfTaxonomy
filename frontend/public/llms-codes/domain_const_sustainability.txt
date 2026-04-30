@@ -1,0 +1,24 @@
+[dcss_carbon] Embodied Carbon and Material Health :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcss_carbon_declare] Declare and Chemicals of Concern Disclosure
+[dcss_carbon_epd] Environmental Product Declaration (EPD - PCR)
+[dcss_carbon_lca] Life Cycle Assessment (LCA - ISO 14040/44)
+[dcss_carbon_living] Living Building Challenge (LBC - regenerative)
+[dcss_energy] Energy Performance Certification :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcss_energy_ashrae] ASHRAE 90.1 Advanced Energy Design Guide
+[dcss_energy_energy_star] ENERGY STAR Certification (EPA, commercial bldg)
+[dcss_energy_passive] Passive House (PHI Certified, PHIUS+)
+[dcss_energy_zne] Zero Net Energy (ZNE) and Net Zero Carbon
+[dcss_finance] Green Financing and Incentive Programs :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcss_finance_bond] Green Bond and Sustainability-Linked Loan
+[dcss_finance_ira] IRA Clean Energy Tax Credit (179D, 45L, 48C)
+[dcss_finance_rebate] Utility Rebate and Incentive Program
+[dcss_leed] LEED and Green Building Rating Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcss_leed_bdnc] LEED BD+C (Building Design and Construction)
+[dcss_leed_breeam] BREEAM (Building Research Establishment, UK/intl)
+[dcss_leed_green_globes] Green Globes (North American rating system)
+[dcss_leed_id] LEED ID+C (Interior Design and Construction)
+[dcss_leed_om] LEED O+M (Operations and Maintenance)
+[dcss_resilience] Resilience and Climate Adaptation Standards :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcss_resilience_fortified] IBHS FORTIFIED Construction Standard
+[dcss_resilience_reset] RESET Building Performance Standard
+[dcss_resilience_well] WELL Building Standard (health and wellness)

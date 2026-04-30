@@ -1,0 +1,16 @@
+[BM] Biomarker Types :: naics_2022:5417, naics_2022:6215
+[BM.01] Diagnostic Biomarker
+[BM.02] Prognostic Biomarker
+[BM.03] Predictive Biomarker
+[BM.04] Pharmacodynamic Biomarker
+[BM.05] Safety Biomarker
+[BM.06] Susceptibility/Risk Biomarker
+[BM.07] Monitoring Biomarker
+[BM.08] Companion Diagnostic Marker
+[BM.09] Liquid Biopsy Marker
+[BM.10] Imaging Biomarker
+[BM.11] Genomic Biomarker
+[BM.12] Proteomic Biomarker
+[BM.13] Metabolomic Biomarker
+[BM.14] Composite Biomarker
+[BM.15] Digital Biomarker

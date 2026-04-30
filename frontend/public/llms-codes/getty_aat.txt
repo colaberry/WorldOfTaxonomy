@@ -1,0 +1,14 @@
+[GA] AAT Facets
+[GA.01] Associated Concepts
+[GA.02] Physical Attributes
+[GA.03] Styles and Periods
+[GA.04] Agents
+[GA.05] Activities
+[GA.06] Materials
+[GA.07] Objects
+[GA.08] Brand Names
+[GA.09] Furnishings and Equipment
+[GA.10] Visual and Verbal Communication
+[GA.11] Built Environment
+[GA.12] Single Built Works
+[GA.13] Open Spaces and Site Elements

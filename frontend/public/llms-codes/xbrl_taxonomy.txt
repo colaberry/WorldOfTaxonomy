@@ -1,0 +1,14 @@
+[XB] XBRL Categories
+[XB.01] US GAAP Taxonomy
+[XB.02] IFRS Taxonomy
+[XB.03] SEC EDGAR Taxonomy
+[XB.04] ESMA ESEF Taxonomy
+[XB.05] Inline XBRL (iXBRL)
+[XB.06] Global Ledger Taxonomy (GL)
+[XB.07] XBRL Dimensions
+[XB.08] XBRL Formula
+[XB.09] Calculation Linkbase
+[XB.10] Presentation Linkbase
+[XB.11] Definition Linkbase
+[XB.12] Label Linkbase
+[XB.13] Reference Linkbase

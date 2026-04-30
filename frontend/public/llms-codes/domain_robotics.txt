@@ -1,0 +1,27 @@
+[drb_amr] Autonomous Mobile Robots (AMR/AGV) :: naics_2022:3333, naics_2022:5415
+[drb_amr_indoor] Indoor Navigation AMR (warehouse, factory floor)
+[drb_amr_last] Last-Mile Delivery Robots (sidewalk, campus)
+[drb_amr_outdoor] Outdoor Autonomous Ground Vehicles (AGV, delivery)
+[drb_av] Autonomous Vehicles :: naics_2022:3333, naics_2022:5415
+[drb_av_freight] Autonomous Freight Trucks (highway L4 platooning)
+[drb_av_passenger] Passenger Autonomous Vehicles (robotaxi, L4/L5)
+[drb_cobot] Collaborative Robots (Cobots) :: naics_2022:3333, naics_2022:5415
+[drb_cobot_heavy] Heavy-Duty Cobots (10kg+ payload, shared workspace)
+[drb_cobot_light] Light-Duty Cobots (under 10kg payload)
+[drb_drone] Aerial Robots and Commercial Drones (UAV/RPAS) :: naics_2022:3333, naics_2022:5415
+[drb_drone_defense] Commercial Security and Monitoring UAVs
+[drb_drone_deliver] Delivery and Logistics Drones
+[drb_drone_inspect] Inspection and Survey Drones (infrastructure, agri)
+[drb_human] Humanoid and Social Robots :: naics_2022:3333, naics_2022:5415
+[drb_human_biped] Bipedal Humanoid Robots (Boston Dynamics, Figure AI)
+[drb_human_social] Social and Service Robots (Pepper, NAO, Astro)
+[drb_indust] Industrial Robots :: naics_2022:3333, naics_2022:5415
+[drb_indust_assemble] Assembly and Handling Robots (pick-and-place, SCARA)
+[drb_indust_paint] Painting and Coating Robots
+[drb_indust_weld] Welding and Joining Robots
+[drb_soft] Robot Software and AI :: naics_2022:3333, naics_2022:5415
+[drb_soft_perception] Robot Perception (SLAM, vision, LiDAR fusion)
+[drb_soft_ros] Robot Operating Systems (ROS 2, middleware)
+[drb_surg] Surgical and Medical Robots :: naics_2022:3333, naics_2022:5415
+[drb_surg_lap] Laparoscopic and Minimally Invasive Surgical Robots
+[drb_surg_ortho] Orthopedic and Spine Surgical Robots

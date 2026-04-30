@@ -1,0 +1,15 @@
+[WC] Work Context -- Physical and social factors that influence the nature of work
+[WC.01] Interpersonal Relationships -- This category describes the context of the job in terms of human interaction processes
+[WC.02] Physical Work Conditions -- This category describes the work context as it relates to the interactions between the worker and the physical job environment
+[WC.03] Structural Job Characteristics -- This category involves the relationships or interactions between the worker and the structural characteristics of the job
+[WC.04] Contact With Others -- How much does this job require the worker to be in contact with others (face-to-face, by telephone, or otherwise) in order to perform it?
+[WC.05] Deal With External Customers
+[WC.06] Coordinate With Others
+[WC.07] Indoors/Outdoors
+[WC.08] Exposed to Hazardous Conditions -- How often does this job require exposure to hazardous conditions?
+[WC.09] Cramped Work Space
+[WC.10] Sounds/Noise Levels
+[WC.11] Very Hot/Cold Temperatures
+[WC.12] Extremely Bright/Dark
+[WC.13] Pace Determined by Equipment
+[WC.14] Time Pressure -- How often does this job require the worker to meet strict deadlines?

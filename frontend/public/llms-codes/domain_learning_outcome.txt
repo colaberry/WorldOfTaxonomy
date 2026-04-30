@@ -1,0 +1,14 @@
+[LO] Learning Outcome Types :: naics_2022:5419
+[LO.01] Knowledge Outcome
+[LO.02] Skill Outcome
+[LO.03] Attitude/Values Outcome
+[LO.04] Bloom Taxonomy Level
+[LO.05] Program-Level Outcome (PLO)
+[LO.06] Course-Level Outcome (CLO)
+[LO.07] Institutional Outcome (ILO)
+[LO.08] Graduate Attribute
+[LO.09] Employability Outcome
+[LO.10] Digital Literacy Outcome
+[LO.11] Critical Thinking Outcome
+[LO.12] Assessment Alignment
+[LO.13] Outcome Mapping

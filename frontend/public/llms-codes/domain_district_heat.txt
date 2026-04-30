@@ -1,0 +1,14 @@
+[DH] District Heating Types :: naics_2022:2211, naics_2022:3359
+[DH.01] Steam-Based District Heating
+[DH.02] Hot Water District Heating
+[DH.03] Low-Temperature District Heating (4GDH)
+[DH.04] Fifth-Generation District Heating
+[DH.05] Combined Heat and Power (CHP)
+[DH.06] Waste Heat Recovery
+[DH.07] Biomass District Heating
+[DH.08] Geothermal District Heating
+[DH.09] Solar Thermal District Heating
+[DH.10] Heat Pump District Heating
+[DH.11] Thermal Energy Storage
+[DH.12] District Cooling
+[DH.13] Heat Network Regulation

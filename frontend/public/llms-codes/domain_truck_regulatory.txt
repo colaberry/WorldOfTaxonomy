@@ -1,0 +1,42 @@
+[dtr_cdl] Commercial Driver's License (CDL) and Endorsements :: naics_2022:484
+[dtr_cdl_class_a] CDL Class A (combination vehicles > 26,001 lbs GCWR)
+[dtr_cdl_class_b] CDL Class B (single vehicle > 26,001 lbs GVWR)
+[dtr_cdl_class_c] CDL Class C (hazmat transport / 16+ passengers)
+[dtr_cdl_doub] Double/Triple Trailer Endorsement - T
+[dtr_cdl_haz] Hazmat Endorsement - H (49 CFR 383.93)
+[dtr_cdl_pass] Passenger Endorsement - P
+[dtr_cdl_school] School Bus Endorsement - S
+[dtr_cdl_tank] Tank Vehicle Endorsement - N
+[dtr_cdl_twic] TWIC Card (Transportation Worker ID, port access)
+[dtr_eld] Electronic Logging Device (ELD) Rules :: naics_2022:484
+[dtr_eld_aobrd] AOBRD Legacy (grandfathered Automatic On-Board Recording)
+[dtr_eld_exempt] ELD Exemptions (short-haul, driveaway-towaway, pre-2000)
+[dtr_eld_mandate] ELD Mandate Compliance (FMCSA ELD Rule, 49 CFR 395)
+[dtr_eld_paper] Paper Logbook (HOS exemption, 8-day/short-haul)
+[dtr_emiss] Emissions Standards :: naics_2022:484
+[dtr_emiss_carb] CARB Emissions Standards (CA Advanced Clean Trucks)
+[dtr_emiss_epa] EPA Heavy-Duty Emissions Standards (40 CFR 86/1036)
+[dtr_emiss_ghg1] GHG Phase 1 Truck Standards (MY 2014-2018)
+[dtr_emiss_ghg2] GHG Phase 2 Truck Standards (MY 2018+)
+[dtr_emiss_idle] Anti-Idling Regulations (state / local)
+[dtr_emiss_zev] Zero Emission Vehicle (ZEV) Mandate Requirements
+[dtr_food] Food Safety Transport Regulations :: naics_2022:484
+[dtr_food_audit] Third-Party Food Safety Audit (SQF, BRC, AIB)
+[dtr_food_clean] Vehicle Cleaning and Sanitization Requirements
+[dtr_food_fsma] FDA FSMA Sanitary Transportation Rule (21 CFR 1.900)
+[dtr_food_temp] Temperature-Controlled Transport Requirements
+[dtr_food_trace] Food Traceability Documentation (FSMA Rule 204)
+[dtr_haz] Hazardous Materials Compliance (DOT) :: naics_2022:484
+[dtr_haz_49cfr] DOT 49 CFR Parts 171-180 Hazmat Regulations
+[dtr_haz_incident] Hazmat Incident Reporting (49 CFR 171.15/171.16)
+[dtr_haz_placard] Hazmat Placard and Marking Requirements
+[dtr_haz_security] Hazmat Security Plan Requirements (49 CFR 172.800)
+[dtr_haz_train] Hazmat Employee Training Requirements (49 CFR 172.700)
+[dtr_hos] Hours of Service (HOS) Regulations :: naics_2022:484
+[dtr_hos_34hr] HOS 34-Hour Restart Provision
+[dtr_hos_adverse] HOS Adverse Driving Conditions Exception
+[dtr_hos_ag] HOS Agricultural Exemption (150 air-mile, harvest)
+[dtr_hos_pass] HOS Passenger-Carrying Rules (10-hr drive / 15-hr on-duty)
+[dtr_hos_prop] HOS Property-Carrying Rules (11-hr drive / 14-hr on-duty)
+[dtr_hos_short] HOS Short-Haul Exemption (150 air-mile radius)
+[dtr_hos_sleeper] HOS Sleeper Berth Provision (split sleeper)

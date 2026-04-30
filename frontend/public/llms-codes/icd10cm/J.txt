@@ -1,0 +1,471 @@
+[J00] Acute nasopharyngitis [common cold] -- **Inclusion terms:** - Acute rhinitis - Coryza (acute) - Infective nasopharyngitis NOS - Infective rhinitis - Nasal catarrh, acute - Nasopharyngitis NOS  **Excludes1:** - acute pharyngitis (J02.-) - acute sore throat NOS (J02.9) - influenza virus with other respiratory manifestations (J09.X2, J10.1, J11.1) - pharyngitis NOS (J02.9) - rhinitis NOS (J31.0) - sore throat NOS (J02.9)  **Excludes2:** - allergic rhinitis (J30.1-J30.9) - chronic pharyngitis (J31.2) - chronic rhinitis (J31.0) - chronic sore throat (J31.2) - nasopharyngitis, chronic (J31.1) - vasomotor rhinitis (J30.0)
+[J01] Acute sinusitis -- **Includes:** - acute abscess of sinus - acute empyema of sinus - acute infection of sinus - acute inflammation of sinus - acute suppuration of sinus  **Excludes1:** - sinusitis NOS (J32.9)  **Excludes2:** - chronic sinusitis (J32.0-J32.8)  **Use additional code:** - code (B95-B97) to identify infectious agent.
+[J010] Acute maxillary sinusitis -- **Inclusion terms:** - Acute antritis
+[J0100] Acute maxillary sinusitis, unspecified
+[J0101] Acute recurrent maxillary sinusitis
+[J011] Acute frontal sinusitis
+[J0110] Acute frontal sinusitis, unspecified
+[J0111] Acute recurrent frontal sinusitis
+[J012] Acute ethmoidal sinusitis
+[J0120] Acute ethmoidal sinusitis, unspecified
+[J0121] Acute recurrent ethmoidal sinusitis
+[J013] Acute sphenoidal sinusitis
+[J0130] Acute sphenoidal sinusitis, unspecified
+[J0131] Acute recurrent sphenoidal sinusitis
+[J014] Acute pansinusitis
+[J0140] Acute pansinusitis, unspecified
+[J0141] Acute recurrent pansinusitis
+[J018] Other acute sinusitis
+[J0180] Other acute sinusitis -- **Inclusion terms:** - Acute sinusitis involving more than one sinus but not pansinusitis
+[J0181] Other acute recurrent sinusitis -- **Inclusion terms:** - Acute recurrent sinusitis involving more than one sinus but not pansinusitis
+[J019] Acute sinusitis, unspecified
+[J0190] Acute sinusitis, unspecified
+[J0191] Acute recurrent sinusitis, unspecified
+[J02] Acute pharyngitis -- **Includes:** - acute sore throat  **Excludes1:** - acute laryngopharyngitis (J06.0) - peritonsillar abscess (J36) - pharyngeal abscess (J39.1) - retropharyngeal abscess (J39.0)  **Excludes2:** - chronic pharyngitis (J31.2)
+[J020] Streptococcal pharyngitis -- **Inclusion terms:** - Septic pharyngitis - Streptococcal sore throat  **Excludes2:** - scarlet fever (A38.-)
+[J028] Acute pharyngitis due to other specified organisms -- **Excludes1:** - acute pharyngitis due to coxsackie virus (B08.5) - acute pharyngitis due to gonococcus (A54.5) - acute pharyngitis due to herpes [simplex] virus (B00.2) - acute pharyngitis due to infectious mononucleosis (B27.-) - enteroviral vesicular pharyngitis (B08.5)  **Use additional code:** - code (B95-B97) to identify infectious agent
+[J029] Acute pharyngitis, unspecified -- **Inclusion terms:** - Gangrenous pharyngitis (acute) - Infective pharyngitis (acute) NOS - Pharyngitis (acute) NOS - Sore throat (acute) NOS - Suppurative pharyngitis (acute) - Ulcerative pharyngitis (acute)  **Excludes1:** - influenza virus with other respiratory manifestations (J09.X2, J10.1, J11.1)
+[J03] Acute tonsillitis -- **Excludes1:** - acute sore throat (J02.-) - hypertrophy of tonsils (J35.1) - peritonsillar abscess (J36) - sore throat NOS (J02.9) - streptococcal sore throat (J02.0)  **Excludes2:** - chronic tonsillitis (J35.0)
+[J030] Streptococcal tonsillitis
+[J0300] Acute streptococcal tonsillitis, unspecified
+[J0301] Acute recurrent streptococcal tonsillitis
+[J038] Acute tonsillitis due to other specified organisms -- **Excludes1:** - diphtheritic tonsillitis (A36.0) - herpesviral pharyngotonsillitis (B00.2) - streptococcal tonsillitis (J03.0) - tuberculous tonsillitis (A15.8) - Vincent's tonsillitis (A69.1)  **Use additional code:** - code (B95-B97) to identify infectious agent.
+[J0380] Acute tonsillitis due to other specified organisms
+[J0381] Acute recurrent tonsillitis due to other specified organisms
+[J039] Acute tonsillitis, unspecified -- **Inclusion terms:** - Follicular tonsillitis (acute) - Gangrenous tonsillitis (acute) - Infective tonsillitis (acute) - Tonsillitis (acute) NOS - Ulcerative tonsillitis (acute)  **Excludes1:** - influenza virus with other respiratory manifestations (J09.X2, J10.1, J11.1)
+[J0390] Acute tonsillitis, unspecified
+[J0391] Acute recurrent tonsillitis, unspecified
+[J04] Acute laryngitis and tracheitis -- **Excludes1:** - acute obstructive laryngitis [croup] and epiglottitis (J05.-)  **Excludes2:** - laryngismus (stridulus) (J38.5)  **Code also:** - influenza, if present, such as: - influenza due to identified novel influenza A virus with other respiratory manifestations (J09.X2) - influenza due to other identified influenza virus with other respiratory manifestations (J10.1) - influenza due to unidentified influenza virus with other respiratory manifestations (J11.1)  **Use additional code:** - code (B95-B97) to identify infectious agent.
+[J040] Acute laryngitis -- **Inclusion terms:** - Edematous laryngitis (acute) - Laryngitis (acute) NOS - Subglottic laryngitis (acute) - Suppurative laryngitis (acute) - Ulcerative laryngitis (acute)  **Excludes1:** - acute obstructive laryngitis (J05.0)  **Excludes2:** - chronic laryngitis (J37.0)
+[J041] Acute tracheitis -- **Inclusion terms:** - Acute viral tracheitis - Catarrhal tracheitis (acute) - Tracheitis (acute) NOS  **Excludes2:** - chronic tracheitis (J42)
+[J0410] Acute tracheitis without obstruction
+[J0411] Acute tracheitis with obstruction
+[J042] Acute laryngotracheitis -- **Inclusion terms:** - Laryngotracheitis NOS - Tracheitis (acute) with laryngitis (acute)  **Excludes1:** - acute obstructive laryngotracheitis (J05.0)  **Excludes2:** - chronic laryngotracheitis (J37.1)
+[J043] Supraglottitis, unspecified
+[J0430] Supraglottitis, unspecified, without obstruction
+[J0431] Supraglottitis, unspecified, with obstruction
+[J05] Acute obstructive laryngitis [croup] and epiglottitis -- **Code also:** - , influenza, if present, such as: - influenza due to identified novel influenza A virus with other respiratory manifestations (J09.X2) - influenza due to other identified influenza virus with other respiratory manifestations (J10.1) - influenza due to unidentified influenza virus with other respiratory manifestations (J11.1)  **Use additional code:** - code (B95-B97) to identify infectious agent.
+[J050] Acute obstructive laryngitis [croup] -- **Inclusion terms:** - Obstructive laryngitis (acute) NOS - Obstructive laryngotracheitis NOS
+[J051] Acute epiglottitis -- **Excludes2:** - epiglottitis, chronic (J37.0)
+[J0510] Acute epiglottitis without obstruction -- **Inclusion terms:** - Epiglottitis NOS
+[J0511] Acute epiglottitis with obstruction
+[J06] Acute upper respiratory infections of multiple and unspecified sites -- **Excludes1:** - acute respiratory infection NOS (J22) - influenza virus with other respiratory manifestations (J09.X2, J10.1, J11.1) - streptococcal pharyngitis (J02.0)
+[J060] Acute laryngopharyngitis
+[J069] Acute upper respiratory infection, unspecified -- **Inclusion terms:** - Upper respiratory disease, acute - Upper respiratory infection NOS  **Use additional code:** - code (B95-B97) to identify infectious agent, if known, such as: - respiratory syncytial virus (RSV) (B97.4)
+[J09] Influenza due to certain identified influenza viruses -- **Excludes1:** - influenza A/H1N1 (J10.-) - influenza due to other identified influenza virus (J10.-) - influenza due to unidentified influenza virus (J11.-) - seasonal influenza due to other identified influenza virus (J10.-) - seasonal influenza due to unidentified influenza virus (J11.-)
+[J09X] Influenza due to identified novel influenza A virus -- **Inclusion terms:** - Avian influenza - Bird influenza - Influenza A/H5N1 - Influenza of other animal origin, not bird or swine - Swine influenza virus (viruses that normally cause infections in pigs)
+[J09X1] Influenza due to identified novel influenza A virus with pneumonia -- **Code also:** - , if applicable, associated: - lung abscess (J85.1) - other specified type of pneumonia
+[J09X2] Influenza due to identified novel influenza A virus with other respiratory manifestations -- **Inclusion terms:** - Influenza due to identified novel influenza A virus NOS - Influenza due to identified novel influenza A virus with laryngitis - Influenza due to identified novel influenza A virus with pharyngitis - Influenza due to identified novel influenza A virus with upper respiratory symptoms  **Use additional code:** - code, if applicable, for associated: - pleural effusion (J91.8) - sinusitis (J01.-)
+[J09X3] Influenza due to identified novel influenza A virus with gastrointestinal manifestations -- **Inclusion terms:** - Influenza due to identified novel influenza A virus gastroenteritis  **Excludes1:** - 'intestinal flu' [viral gastroenteritis] (A08.-)
+[J09X9] Influenza due to identified novel influenza A virus with other manifestations -- **Inclusion terms:** - Influenza due to identified novel influenza A virus with encephalopathy - Influenza due to identified novel influenza A virus with myocarditis - Influenza due to identified novel influenza A virus with otitis media  **Use additional code:** - code to identify manifestation
+[J10] Influenza due to other identified influenza virus -- **Includes:** - influenza A (non-novel) - influenza B - influenza C  **Excludes1:** - influenza due to avian influenza virus (J09.X-) - influenza due to swine flu (J09.X-) - influenza due to unidentifed influenza virus (J11.-)
+[J100] Influenza due to other identified influenza virus with pneumonia -- **Code also:** - associated lung abscess, if applicable (J85.1)
+[J1000] Influenza due to other identified influenza virus with unspecified type of pneumonia
+[J1001] Influenza due to other identified influenza virus with the same other identified influenza virus pneumonia
+[J1008] Influenza due to other identified influenza virus with other specified pneumonia -- **Code also:** - other specified type of pneumonia
+[J101] Influenza due to other identified influenza virus with other respiratory manifestations -- **Inclusion terms:** - Influenza due to other identified influenza virus NOS - Influenza due to other identified influenza virus with laryngitis - Influenza due to other identified influenza virus with pharyngitis - Influenza due to other identified influenza virus with upper respiratory symptoms  **Use additional code:** - code for associated pleural effusion, if applicable (J91.8)
+[J102] Influenza due to other identified influenza virus with gastrointestinal manifestations -- **Inclusion terms:** - Influenza due to other identified influenza virus gastroenteritis  **Excludes1:** - 'intestinal flu' [viral gastroenteritis] (A08.-)
+[J108] Influenza due to other identified influenza virus with other manifestations
+[J1081] Influenza due to other identified influenza virus with encephalopathy
+[J1082] Influenza due to other identified influenza virus with myocarditis
+[J1083] Influenza due to other identified influenza virus with otitis media -- **Use additional code:** - code for any associated perforated tympanic membrane (H72.-)
+[J1089] Influenza due to other identified influenza virus with other manifestations -- **Use additional code:** - codes to identify the manifestations
+[J11] Influenza due to unidentified influenza virus
+[J110] Influenza due to unidentified influenza virus with pneumonia -- **Code also:** - associated lung abscess, if applicable (J85.1)
+[J1100] Influenza due to unidentified influenza virus with unspecified type of pneumonia -- **Inclusion terms:** - Influenza with pneumonia NOS
+[J1108] Influenza due to unidentified influenza virus with specified pneumonia -- **Code also:** - other specified type of pneumonia
+[J111] Influenza due to unidentified influenza virus with other respiratory manifestations -- **Inclusion terms:** - Influenza NOS - Influenzal laryngitis NOS - Influenzal pharyngitis NOS - Influenza with upper respiratory symptoms NOS  **Use additional code:** - code for associated pleural effusion, if applicable (J91.8)
+[J112] Influenza due to unidentified influenza virus with gastrointestinal manifestations -- **Inclusion terms:** - Influenza gastroenteritis NOS  **Excludes1:** - 'intestinal flu' [viral gastroenteritis] (A08.-)
+[J118] Influenza due to unidentified influenza virus with other manifestations
+[J1181] Influenza due to unidentified influenza virus with encephalopathy -- **Inclusion terms:** - Influenzal encephalopathy NOS
+[J1182] Influenza due to unidentified influenza virus with myocarditis -- **Inclusion terms:** - Influenzal myocarditis NOS
+[J1183] Influenza due to unidentified influenza virus with otitis media -- **Inclusion terms:** - Influenzal otitis media NOS  **Use additional code:** - code for any associated perforated tympanic membrane (H72.-)
+[J1189] Influenza due to unidentified influenza virus with other manifestations -- **Use additional code:** - codes to identify the manifestations
+[J12] Viral pneumonia, not elsewhere classified -- **Includes:** - bronchopneumonia due to viruses other than influenza viruses  **Excludes2:** - aspiration pneumonia due to anesthesia during labor and delivery (O74.0) - aspiration pneumonia due to anesthesia during pregnancy (O29) - aspiration pneumonia due to anesthesia during puerperium (O89.0) - aspiration pneumonia due to solids and liquids (J69.-) - aspiration pneumonia NOS (J69.0) - congenital pneumonia (P23.0) - congenital rubella pneumonitis (P35.0) - interstitial pneumonia NOS (J84.9) - lipid pneumonia (J69.1) - neonatal aspiration pneumonia (P24.-)  **Code first:** - associated influenza, if applicable (J09.X1, J10.0-, J11.0-)  **Code also:** - associated abscess, if applicable (J85.1)
+[J120] Adenoviral pneumonia
+[J121] Respiratory syncytial virus pneumonia -- **Inclusion terms:** - RSV pneumonia
+[J122] Parainfluenza virus pneumonia
+[J123] Human metapneumovirus pneumonia
+[J128] Other viral pneumonia
+[J1281] Pneumonia due to SARS-associated coronavirus -- **Inclusion terms:** - Severe acute respiratory syndrome NOS
+[J1282] Pneumonia due to coronavirus disease 2019 -- **Inclusion terms:** - Pneumonia due to 2019 novel coronavirus (SARS-CoV-2) - Pneumonia due to COVID-19  **Code first:** - COVID-19 (U07.1)
+[J1289] Other viral pneumonia
+[J129] Viral pneumonia, unspecified
+[J13] Pneumonia due to Streptococcus pneumoniae -- **Inclusion terms:** - Bronchopneumonia due to S. pneumoniae  **Excludes1:** - congenital pneumonia due to S. pneumoniae (P23.6) - lobar pneumonia, unspecified organism (J18.1) - pneumonia due to other streptococci (J15.3-J15.4)  **Code first:** - , if applicable, associated influenza (J09.X1, J10.0-, J11.0-)  **Code also:** - , if applicable, any associated condition such as: - abscess (J85.1) - aspiration pneumonia (J69.-)
+[J14] Pneumonia due to Hemophilus influenzae -- **Inclusion terms:** - Bronchopneumonia due to H. influenzae  **Excludes1:** - congenital pneumonia due to H. influenzae (P23.6)  **Code first:** - , if applicable, associated influenza (J09.X1, J10.0-, J11.0-)  **Code also:** - , if applicable, any associated condition such as: - abscess (J85.1) - aspiration pneumonia (J69.-)
+[J15] Bacterial pneumonia, not elsewhere classified -- **Includes:** - bronchopneumonia due to bacteria other than S. pneumoniae and H. influenzae  **Excludes1:** - chlamydial pneumonia (J16.0) - congenital pneumonia (P23.-) - Legionnaires' disease (A48.1) - spirochetal pneumonia (A69.8)  **Code first:** - , if applicable, associated influenza (J09.X1, J10.0-, J11.0-)  **Code also:** - , if applicable, any associated condition such as: - abscess (J85.1) - aspiration pneumonia (J69.-)
+[J150] Pneumonia due to Klebsiella pneumoniae
+[J151] Pneumonia due to Pseudomonas
+[J152] Pneumonia due to staphylococcus
+[J1520] Pneumonia due to staphylococcus, unspecified
+[J1521] Pneumonia due to staphylococcus aureus
+[J15211] Pneumonia due to Methicillin susceptible Staphylococcus aureus -- **Inclusion terms:** - MSSA pneumonia - Pneumonia due to Staphylococcus aureus NOS
+[J15212] Pneumonia due to Methicillin resistant Staphylococcus aureus
+[J1529] Pneumonia due to other staphylococcus
+[J153] Pneumonia due to streptococcus, group B
+[J154] Pneumonia due to other streptococci -- **Excludes1:** - pneumonia due to streptococcus, group B (J15.3) - pneumonia due to Streptococcus pneumoniae (J13)
+[J155] Pneumonia due to Escherichia coli
+[J156] Pneumonia due to other Gram-negative bacteria
+[J1561] Pneumonia due to Acinetobacter baumannii
+[J1569] Pneumonia due to other Gram-negative bacteria -- **Inclusion terms:** - Pneumonia due to other aerobic Gram-negative bacteria - Pneumonia due to Serratia marcescens
+[J157] Pneumonia due to Mycoplasma pneumoniae
+[J158] Pneumonia due to other specified bacteria
+[J159] Unspecified bacterial pneumonia -- **Inclusion terms:** - Pneumonia due to gram-positive bacteria
+[J16] Pneumonia due to other infectious organisms, not elsewhere classified -- **Excludes1:** - congenital pneumonia (P23.-) - ornithosis (A70) - pneumocystosis (B59) - pneumonia NOS (J18.9)  **Code first:** - , if applicable, associated influenza (J09.X1, J10.0-, J11.0-)  **Code also:** - , if applicable, any associated condition such as: - abscess (J85.1) - aspiration pneumonia (J69.-)
+[J160] Chlamydial pneumonia
+[J168] Pneumonia due to other specified infectious organisms
+[J17] Pneumonia in diseases classified elsewhere -- **Excludes1:** - candidial pneumonia (B37.1) - chlamydial pneumonia (J16.0) - gonorrheal pneumonia (A54.84) - histoplasmosis pneumonia (B39.0-B39.2) - measles pneumonia (B05.2) - nocardiosis pneumonia (A43.0) - pneumocystosis (B59) - pneumonia due to Pneumocystis carinii (B59) - pneumonia due to Pneumocystis jiroveci (B59) - pneumonia in actinomycosis (A42.0) - pneumonia in anthrax (A22.1) - pneumonia in ascariasis (B77.81) - pneumonia in aspergillosis (B44.0-B44.1) - pneumonia in coccidioidomycosis (B38.0-B38.2) - pneumonia in cytomegalovirus disease (B25.0) - pneumonia in toxoplasmosis (B58.3) - rubella pneumonia (B06.81) - salmonella pneumonia (A02.22) - spirochetal infection NEC with pneumonia (A69.8) - tularemia pneumonia (A21.2) - typhoid fever with pneumonia (A01.03) - varicella pneumonia (B01.2) - whooping cough with pneumonia (A37 with fifth-character 1)  **Code first:** - underlying disease, such as: - Q fever (A78) - rheumatic fever (I00) - schistosomiasis (B65.0-B65.9)  **Code also:** - , if applicable, any associated condition such as: - abscess (J85.1) - aspiration pneumonia (J69.-)
+[J18] Pneumonia, unspecified organism -- **Excludes1:** - congenital pneumonia (P23.0) - drug-induced interstitial lung disorder (J70.2-J70.4) - interstitial pneumonia NOS (J84.9) - neonatal aspiration pneumonia (P24.-) - pneumonitis due to fumes and vapors (J68.0) - usual interstitial pneumonia (J84.178)  **Excludes2:** - abscess of lung with pneumonia (J85.1) - aspiration pneumonia due to anesthesia during labor and delivery (O74.0) - aspiration pneumonia due to anesthesia during pregnancy (O29) - aspiration pneumonia due to anesthesia during puerperium (O89.0) - aspiration pneumonia due to solids and liquids (J69.-) - aspiration pneumonia NOS (J69.0) - lipid pneumonia (J69.1) - pneumonitis due to external agents (J67-J70)  **Code first:** - , if applicable, associated influenza (J09.X1, J10.0-, J11.0-)  **Code also:** - , if applicable, any associated condition such as: - aspiration pneumonia (J69.-)
+[J180] Bronchopneumonia, unspecified organism -- **Excludes1:** - hypostatic bronchopneumonia (J18.2) - lipid pneumonia (J69.1)  **Excludes2:** - acute bronchiolitis (J21.-) - chronic bronchiolitis (J44.89) - other specified chronic obstructive pulmonary disease (J44.89)
+[J181] Lobar pneumonia, unspecified organism
+[J182] Hypostatic pneumonia, unspecified organism -- **Inclusion terms:** - Hypostatic bronchopneumonia - Passive pneumonia
+[J188] Other pneumonia, unspecified organism
+[J189] Pneumonia, unspecified organism
+[J20] Acute bronchitis -- **Includes:** - acute and subacute bronchitis (with) bronchospasm - acute and subacute bronchitis (with) tracheitis - acute and subacute bronchitis (with) tracheobronchitis, acute - acute and subacute fibrinous bronchitis - acute and subacute membranous bronchitis - acute and subacute purulent bronchitis - acute and subacute septic bronchitis  **Excludes1:** - bronchitis NOS (J40) - tracheobronchitis NOS (J40)  **Excludes2:** - acute bronchitis with bronchiectasis (J47.0) - acute bronchitis with chronic obstructive asthma (J44.0) - acute bronchitis with chronic obstructive pulmonary disease (J44.0) - allergic bronchitis NOS (J45.909-) - bronchitis due to chemicals, fumes and vapors (J68.0) - chronic bronchitis NOS (J42) - chronic mucopurulent bronchitis (J41.1) - chronic obstructive bronchitis (J44.-) - chronic obstructive tracheobronchitis (J44.-) - chronic simple bronchitis (J41.0) - chronic tracheobronchitis (J42)
+[J200] Acute bronchitis due to Mycoplasma pneumoniae
+[J201] Acute bronchitis due to Hemophilus influenzae
+[J202] Acute bronchitis due to streptococcus
+[J203] Acute bronchitis due to coxsackievirus
+[J204] Acute bronchitis due to parainfluenza virus
+[J205] Acute bronchitis due to respiratory syncytial virus -- **Inclusion terms:** - Acute bronchitis due to RSV
+[J206] Acute bronchitis due to rhinovirus
+[J207] Acute bronchitis due to echovirus
+[J208] Acute bronchitis due to other specified organisms
+[J209] Acute bronchitis, unspecified
+[J21] Acute bronchiolitis -- **Includes:** - acute bronchiolitis with bronchospasm  **Excludes2:** - respiratory bronchiolitis interstitial lung disease (J84.115)
+[J210] Acute bronchiolitis due to respiratory syncytial virus -- **Inclusion terms:** - Acute bronchiolitis due to RSV
+[J211] Acute bronchiolitis due to human metapneumovirus
+[J218] Acute bronchiolitis due to other specified organisms
+[J219] Acute bronchiolitis, unspecified -- **Inclusion terms:** - Bronchiolitis (acute)  **Excludes1:** - chronic bronchiolitis (J44.89)
+[J22] Unspecified acute lower respiratory infection -- **Inclusion terms:** - Acute (lower) respiratory (tract) infection NOS  **Excludes1:** - upper respiratory infection (acute) (J06.9)
+[J30] Vasomotor and allergic rhinitis -- **Includes:** - spasmodic rhinorrhea  **Excludes1:** - allergic rhinitis with asthma (bronchial) (J45.909) - rhinitis NOS (J31.0)
+[J300] Vasomotor rhinitis
+[J301] Allergic rhinitis due to pollen -- **Inclusion terms:** - Allergy NOS due to pollen - Hay fever - Pollinosis
+[J302] Other seasonal allergic rhinitis
+[J305] Allergic rhinitis due to food
+[J308] Other allergic rhinitis
+[J3081] Allergic rhinitis due to animal (cat) (dog) hair and dander
+[J3089] Other allergic rhinitis -- **Inclusion terms:** - Perennial allergic rhinitis
+[J309] Allergic rhinitis, unspecified
+[J31] Chronic rhinitis, nasopharyngitis and pharyngitis
+[J310] Chronic rhinitis -- **Inclusion terms:** - Atrophic rhinitis (chronic) - Granulomatous rhinitis (chronic) - Hypertrophic rhinitis (chronic) - Obstructive rhinitis (chronic) - Ozena - Purulent rhinitis (chronic) - Rhinitis (chronic) NOS - Ulcerative rhinitis (chronic)  **Excludes1:** - allergic rhinitis (J30.1-J30.9) - vasomotor rhinitis (J30.0)
+[J311] Chronic nasopharyngitis -- **Excludes2:** - acute nasopharyngitis (J00)
+[J312] Chronic pharyngitis -- **Inclusion terms:** - Chronic sore throat - Atrophic pharyngitis (chronic) - Granular pharyngitis (chronic) - Hypertrophic pharyngitis (chronic)  **Excludes2:** - acute pharyngitis (J02.9)
+[J32] Chronic sinusitis -- **Includes:** - sinus abscess - sinus empyema - sinus infection - sinus suppuration  **Excludes2:** - acute sinusitis (J01.-)  **Use additional code:** - code to identify: - infectious agent (B95-B97)
+[J320] Chronic maxillary sinusitis -- **Inclusion terms:** - Antritis (chronic) - Maxillary sinusitis NOS
+[J321] Chronic frontal sinusitis -- **Inclusion terms:** - Frontal sinusitis NOS
+[J322] Chronic ethmoidal sinusitis -- **Inclusion terms:** - Ethmoidal sinusitis NOS  **Excludes1:** - Woakes' ethmoiditis (J33.1)
+[J323] Chronic sphenoidal sinusitis -- **Inclusion terms:** - Sphenoidal sinusitis NOS
+[J324] Chronic pansinusitis -- **Inclusion terms:** - Pansinusitis NOS
+[J328] Other chronic sinusitis -- **Inclusion terms:** - Sinusitis (chronic) involving more than one sinus but not pansinusitis
+[J329] Chronic sinusitis, unspecified -- **Inclusion terms:** - Sinusitis (chronic) NOS
+[J33] Nasal polyp -- **Excludes1:** - adenomatous polyps (D14.0)
+[J330] Polyp of nasal cavity -- **Inclusion terms:** - Choanal polyp - Nasopharyngeal polyp
+[J331] Polypoid sinus degeneration -- **Inclusion terms:** - Woakes' syndrome or ethmoiditis
+[J338] Other polyp of sinus -- **Inclusion terms:** - Accessory polyp of sinus - Ethmoidal polyp of sinus - Maxillary polyp of sinus - Sphenoidal polyp of sinus
+[J339] Nasal polyp, unspecified
+[J34] Other and unspecified disorders of nose and nasal sinuses -- **Excludes2:** - varicose ulcer of nasal septum (I86.8)
+[J340] Abscess, furuncle and carbuncle of nose -- **Inclusion terms:** - Cellulitis of nose - Necrosis of nose - Ulceration of nose
+[J341] Cyst and mucocele of nose and nasal sinus
+[J342] Deviated nasal septum -- **Inclusion terms:** - Deflection or deviation of septum (nasal) (acquired)  **Excludes1:** - congenital deviated nasal septum (Q67.4)
+[J343] Hypertrophy of nasal turbinates
+[J348] Other specified disorders of nose and nasal sinuses
+[J3481] Nasal mucositis (ulcerative) -- **Excludes2:** - gastrointestinal mucositis (ulcerative) (K92.81) - mucositis (ulcerative) of vagina and vulva (N76.81) - oral mucositis (ulcerative) (K12.3-)  **Code also:** - type of associated therapy, such as: - antineoplastic and immunosuppressive drugs (T45.1X-) - radiological procedure and radiotherapy (Y84.2)
+[J3482] Nasal valve collapse -- **Inclusion terms:** - Nasal valve compromise - Nasal valve stenosis  **Code first:** - underlying cause, such as: - deviated nasal septum (J34.2)
+[J34820] Internal nasal valve collapse
+[J348200] Internal nasal valve collapse, unspecified
+[J348201] Internal nasal valve collapse, static -- **Inclusion terms:** - Narrowing of the septum, head of the inferior turbinate and the upper lateral cartilage
+[J348202] Internal nasal valve collapse, dynamic -- **Inclusion terms:** - Collapse or falling of the upper, middle sidewall of the nose on inspiration
+[J34821] External nasal valve collapse
+[J348210] External nasal valve collapse, unspecified
+[J348211] External nasal valve collapse, static -- **Inclusion terms:** - Fixed narrowing of the caudal septum, lower lateral cartilage, alar rim and nasal sill
+[J348212] External nasal valve collapse, dynamic -- **Inclusion terms:** - Collapse or falling of the lower sidewall or nostril of the nose on inspiration
+[J34829] Nasal valve collapse, unspecified -- **Inclusion terms:** - Nasal valve collapse, NOS
+[J3489] Other specified disorders of nose and nasal sinuses -- **Inclusion terms:** - Perforation of nasal septum NOS - Rhinolith
+[J349] Unspecified disorder of nose and nasal sinuses
+[J35] Chronic diseases of tonsils and adenoids
+[J350] Chronic tonsillitis and adenoiditis -- **Excludes2:** - acute tonsillitis (J03.-)
+[J3501] Chronic tonsillitis
+[J3502] Chronic adenoiditis
+[J3503] Chronic tonsillitis and adenoiditis
+[J351] Hypertrophy of tonsils -- **Inclusion terms:** - Enlargement of tonsils  **Excludes1:** - hypertrophy of tonsils with tonsillitis (J35.0-)
+[J352] Hypertrophy of adenoids -- **Inclusion terms:** - Enlargement of adenoids  **Excludes1:** - hypertrophy of adenoids with adenoiditis (J35.0-)
+[J353] Hypertrophy of tonsils with hypertrophy of adenoids -- **Excludes1:** - hypertrophy of tonsils and adenoids with tonsillitis and adenoiditis (J35.03)
+[J358] Other chronic diseases of tonsils and adenoids -- **Inclusion terms:** - Adenoid vegetations - Amygdalolith - Calculus, tonsil - Cicatrix of tonsil (and adenoid) - Tonsillar tag - Ulcer of tonsil
+[J359] Chronic disease of tonsils and adenoids, unspecified -- **Inclusion terms:** - Disease (chronic) of tonsils and adenoids NOS
+[J36] Peritonsillar abscess -- **Includes:** - abscess of tonsil - peritonsillar cellulitis - quinsy  **Excludes1:** - acute tonsillitis (J03.-) - chronic tonsillitis (J35.0) - retropharyngeal abscess (J39.0) - tonsillitis NOS (J03.9-)  **Use additional code:** - code (B95-B97) to identify infectious agent.
+[J37] Chronic laryngitis and laryngotracheitis -- **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - infectious agent (B95-B97) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[J370] Chronic laryngitis -- **Inclusion terms:** - Catarrhal laryngitis - Hypertrophic laryngitis - Sicca laryngitis  **Excludes2:** - acute laryngitis (J04.0) - obstructive (acute) laryngitis (J05.0)
+[J371] Chronic laryngotracheitis -- **Inclusion terms:** - Laryngitis, chronic, with tracheitis (chronic) - Tracheitis, chronic, with laryngitis  **Excludes1:** - chronic tracheitis (J42)  **Excludes2:** - acute laryngotracheitis (J04.2) - acute tracheitis (J04.1)
+[J38] Diseases of vocal cords and larynx, not elsewhere classified -- **Excludes1:** - congenital laryngeal stridor (P28.89) - obstructive laryngitis (acute) (J05.0) - postprocedural subglottic stenosis (J95.5) - stridor (R06.1) - ulcerative laryngitis (J04.0)
+[J380] Paralysis of vocal cords and larynx -- **Inclusion terms:** - Laryngoplegia - Paralysis of glottis
+[J3800] Paralysis of vocal cords and larynx, unspecified
+[J3801] Paralysis of vocal cords and larynx, unilateral
+[J3802] Paralysis of vocal cords and larynx, bilateral
+[J381] Polyp of vocal cord and larynx -- **Excludes1:** - adenomatous polyps (D14.1)
+[J382] Nodules of vocal cords -- **Inclusion terms:** - Chorditis (fibrinous)(nodosa)(tuberosa) - Singer's nodes - Teacher's nodes
+[J383] Other diseases of vocal cords -- **Inclusion terms:** - Abscess of vocal cords - Cellulitis of vocal cords - Granuloma of vocal cords - Leukokeratosis of vocal cords - Leukoplakia of vocal cords
+[J384] Edema of larynx -- **Inclusion terms:** - Edema (of) glottis - Subglottic edema - Supraglottic edema  **Excludes1:** - acute obstructive laryngitis [croup] (J05.0) - edematous laryngitis (J04.0)
+[J385] Laryngeal spasm -- **Inclusion terms:** - Laryngismus (stridulus)
+[J386] Stenosis of larynx
+[J387] Other diseases of larynx -- **Inclusion terms:** - Abscess of larynx - Cellulitis of larynx - Disease of larynx NOS - Necrosis of larynx - Pachyderma of larynx - Perichondritis of larynx - Ulcer of larynx
+[J39] Other diseases of upper respiratory tract -- **Excludes1:** - acute respiratory infection NOS (J22) - acute upper respiratory infection (J06.9) - upper respiratory inflammation due to chemicals, gases, fumes or vapors (J68.2)
+[J390] Retropharyngeal and parapharyngeal abscess -- **Inclusion terms:** - Peripharyngeal abscess  **Excludes1:** - peritonsillar abscess (J36)
+[J391] Other abscess of pharynx -- **Inclusion terms:** - Cellulitis of pharynx - Nasopharyngeal abscess
+[J392] Other diseases of pharynx -- **Inclusion terms:** - Cyst of pharynx - Edema of pharynx  **Excludes2:** - chronic pharyngitis (J31.2) - ulcerative pharyngitis (J02.9)
+[J393] Upper respiratory tract hypersensitivity reaction, site unspecified -- **Excludes1:** - hypersensitivity reaction of upper respiratory tract, such as: - extrinsic allergic alveolitis (J67.9) - pneumoconiosis (J60-J67.9)
+[J398] Other specified diseases of upper respiratory tract
+[J399] Disease of upper respiratory tract, unspecified
+[J40] Bronchitis, not specified as acute or chronic -- **Inclusion terms:** - Bronchitis NOS - Bronchitis with tracheitis NOS - Catarrhal bronchitis - Tracheobronchitis NOS  **Excludes1:** - acute bronchitis (J20.-) - allergic bronchitis NOS (J45.909-) - asthmatic bronchitis NOS (J45.9-) - bronchitis due to chemicals, gases, fumes and vapors (J68.0)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[J41] Simple and mucopurulent chronic bronchitis -- **Excludes2:** - chronic bronchitis NOS (J42) - chronic obstructive bronchitis (J44.-)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[J410] Simple chronic bronchitis
+[J411] Mucopurulent chronic bronchitis
+[J418] Mixed simple and mucopurulent chronic bronchitis
+[J42] Unspecified chronic bronchitis -- **Inclusion terms:** - Chronic bronchitis NOS - Chronic tracheitis - Chronic tracheobronchitis  **Excludes1:** - bronchiolitis obliterans and bronchiolitis obliterans syndrome (J44.81) - chronic asthmatic bronchitis (J44.-) - chronic bronchitis with airways obstruction (J44.-) - chronic emphysematous bronchitis (J44.-) - chronic obstructive pulmonary disease NOS (J44.9) - simple and mucopurulent chronic bronchitis (J41.-)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[J43] Emphysema -- **Excludes1:** - compensatory emphysema (J98.3) - emphysema due to inhalation of chemicals, gases, fumes or vapors (J68.4) - interstitial emphysema (J98.2) - mediastinal emphysema (J98.2) - neonatal interstitial emphysema (P25.0) - surgical (subcutaneous) emphysema (T81.82)  **Excludes2:** - emphysema with chronic (obstructive) bronchitis (J44.-) - emphysematous (obstructive) bronchitis (J44.-) - traumatic subcutaneous emphysema (T79.7)
+[J430] Unilateral pulmonary emphysema [MacLeod's syndrome] -- **Inclusion terms:** - Swyer-James syndrome - Unilateral emphysema - Unilateral hyperlucent lung - Unilateral pulmonary artery functional hypoplasia - Unilateral transparency of lung
+[J431] Panlobular emphysema -- **Inclusion terms:** - Panacinar emphysema
+[J432] Centrilobular emphysema
+[J438] Other emphysema
+[J439] Emphysema, unspecified -- **Inclusion terms:** - Bullous emphysema (lung)(pulmonary) - Emphysema (lung)(pulmonary) NOS - Emphysematous bleb - Vesicular emphysema (lung)(pulmonary)
+[J44] Other chronic obstructive pulmonary disease -- **Includes:** - asthma with chronic obstructive pulmonary disease - chronic asthmatic (obstructive) bronchitis - chronic bronchitis with airway obstruction - chronic bronchitis with emphysema - chronic emphysematous bronchitis - chronic obstructive asthma - chronic obstructive bronchitis - chronic obstructive tracheobronchitis  **Excludes1:** - chronic bronchitis NOS (J42) - chronic simple and mucopurulent bronchitis (J41.-) - chronic tracheitis (J42) - chronic tracheobronchitis (J42)  **Excludes2:** - bronchiectasis (J47.-) - emphysema without chronic bronchitis (J43.-)  **Code also:** - type of asthma, if applicable (J45.-)
+[J440] Chronic obstructive pulmonary disease with (acute) lower respiratory infection -- **Code also:** - to identify the infection
+[J441] Chronic obstructive pulmonary disease with (acute) exacerbation -- **Inclusion terms:** - Decompensated COPD - Decompensated COPD with (acute) exacerbation  **Excludes2:** - chronic obstructive pulmonary disease [COPD] with acute bronchitis (J44.0) - lung diseases due to external agents (J60-J70)
+[J448] Other specified chronic obstructive pulmonary disease
+[J4481] Bronchiolitis obliterans and bronchiolitis obliterans syndrome -- **Inclusion terms:** - Obliterative bronchiolitis  **Code first:** - , if applicable: - complication of bone marrow transplant (T86.09) - complication of stem cell transplant (T86.5) - heart-lung transplant rejection (T86.31) - lung transplant rejection (T86.810) - other complications of heart-lung transplant (T86.39) - other complications of lung transplant (T86.818)  **Code also:** - , if applicable, associated conditions, such as: - chronic graft-versus-host disease (D89.811) - chronic lung allograft dysfunction (J4A.-) - chronic respiratory conditions due to chemicals, gases, fumes and vapors (J68.4)
+[J4489] Other specified chronic obstructive pulmonary disease -- **Inclusion terms:** - Chronic asthmatic (obstructive) bronchitis - Chronic emphysematous bronchitis
+[J449] Chronic obstructive pulmonary disease, unspecified -- **Inclusion terms:** - Chronic obstructive airway disease NOS - Chronic obstructive lung disease NOS  **Excludes2:** - lung diseases due to external agents (J60-J70)
+[J45] Asthma -- **Includes:** - allergic (predominantly) asthma - allergic bronchitis NOS - allergic rhinitis with asthma - atopic asthma - extrinsic allergic asthma - hay fever with asthma - idiosyncratic asthma - intrinsic nonallergic asthma - nonallergic asthma  **Excludes1:** - detergent asthma (J69.8) - miner's asthma (J60) - wheezing NOS (R06.2) - wood asthma (J67.8)  **Excludes2:** - asthma with chronic obstructive pulmonary disease (J44.89) - chronic asthmatic (obstructive) bronchitis (J44.89) - chronic obstructive asthma (J44.89) - other specified chronic obstructive pulmonary disease (J44.89)  **Use additional code:** - code to identify: - eosinophilic asthma (J82.83) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[J452] Mild intermittent asthma
+[J4520] Mild intermittent asthma, uncomplicated -- **Inclusion terms:** - Mild intermittent asthma NOS
+[J4521] Mild intermittent asthma with (acute) exacerbation
+[J4522] Mild intermittent asthma with status asthmaticus
+[J453] Mild persistent asthma
+[J4530] Mild persistent asthma, uncomplicated -- **Inclusion terms:** - Mild persistent asthma NOS
+[J4531] Mild persistent asthma with (acute) exacerbation
+[J4532] Mild persistent asthma with status asthmaticus
+[J454] Moderate persistent asthma
+[J4540] Moderate persistent asthma, uncomplicated -- **Inclusion terms:** - Moderate persistent asthma NOS
+[J4541] Moderate persistent asthma with (acute) exacerbation
+[J4542] Moderate persistent asthma with status asthmaticus
+[J455] Severe persistent asthma
+[J4550] Severe persistent asthma, uncomplicated -- **Inclusion terms:** - Severe persistent asthma NOS
+[J4551] Severe persistent asthma with (acute) exacerbation
+[J4552] Severe persistent asthma with status asthmaticus
+[J459] Other and unspecified asthma
+[J4590] Unspecified asthma -- **Inclusion terms:** - Asthmatic bronchitis NOS - Childhood asthma NOS - Late onset asthma
+[J45901] Unspecified asthma with (acute) exacerbation
+[J45902] Unspecified asthma with status asthmaticus
+[J45909] Unspecified asthma, uncomplicated -- **Inclusion terms:** - Asthma NOS  **Excludes2:** - lung diseases due to external agents (J60-J70)
+[J4599] Other asthma
+[J45990] Exercise induced bronchospasm
+[J45991] Cough variant asthma
+[J45998] Other asthma
+[J47] Bronchiectasis -- **Includes:** - bronchiolectasis  **Excludes1:** - congenital bronchiectasis (Q33.4) - tuberculous bronchiectasis (current disease) (A15.0)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[J470] Bronchiectasis with acute lower respiratory infection -- **Inclusion terms:** - Bronchiectasis with acute bronchitis  **Code also:** - to identify infection, if applicable
+[J471] Bronchiectasis with (acute) exacerbation
+[J479] Bronchiectasis, uncomplicated -- **Inclusion terms:** - Bronchiectasis NOS
+[J4A] Chronic lung allograft dysfunction -- **Code first:** - , if applicable: - heart-lung transplant rejection (T86.31) - lung transplant rejection (T86.810) - other complications of heart-lung transplant (T86.39) - other complications of lung transplant (T86.818)  **Code also:** - , if applicable, bronchiolitis obliterans syndrome (J44.81)
+[J4A0] Restrictive allograft syndrome -- **Code also:** - , if applicable, for mixed chronic lung allograft dysfunction, bronchiolitis obliterans syndrome (J44.81)
+[J4A8] Other chronic lung allograft dysfunction
+[J4A9] Chronic lung allograft dysfunction, unspecified
+[J60] Coalworker's pneumoconiosis -- **Inclusion terms:** - Anthracosilicosis - Anthracosis - Black lung disease - Coalworker's lung  **Excludes1:** - coalworker pneumoconiosis with tuberculosis, any type in A15 (J65)
+[J61] Pneumoconiosis due to asbestos and other mineral fibers -- **Inclusion terms:** - Asbestosis  **Excludes1:** - pleural plaque with asbestosis (J92.0) - pneumoconiosis with tuberculosis, any type in A15 (J65)
+[J62] Pneumoconiosis due to dust containing silica -- **Includes:** - silicotic fibrosis (massive) of lung  **Excludes1:** - pneumoconiosis with tuberculosis, any type in A15 (J65)
+[J620] Pneumoconiosis due to talc dust
+[J628] Pneumoconiosis due to other dust containing silica -- **Inclusion terms:** - Silicosis NOS
+[J63] Pneumoconiosis due to other inorganic dusts -- **Excludes1:** - pneumoconiosis with tuberculosis, any type in A15 (J65)
+[J630] Aluminosis (of lung)
+[J631] Bauxite fibrosis (of lung)
+[J632] Berylliosis
+[J633] Graphite fibrosis (of lung)
+[J634] Siderosis
+[J635] Stannosis
+[J636] Pneumoconiosis due to other specified inorganic dusts
+[J64] Unspecified pneumoconiosis -- **Excludes1:** - pneumonoconiosis with tuberculosis, any type in A15 (J65)
+[J65] Pneumoconiosis associated with tuberculosis -- **Inclusion terms:** - Any condition in J60-J64 with tuberculosis, any type in A15 - Silicotuberculosis
+[J66] Airway disease due to specific organic dust -- **Excludes2:** - allergic alveolitis (J67.-) - asbestosis (J61) - bagassosis (J67.1) - farmer's lung (J67.0) - hypersensitivity pneumonitis due to organic dust (J67.-) - reactive airways dysfunction syndrome (J68.3)
+[J660] Byssinosis -- **Inclusion terms:** - Airway disease due to cotton dust
+[J661] Flax-dressers' disease
+[J662] Cannabinosis
+[J668] Airway disease due to other specific organic dusts
+[J67] Hypersensitivity pneumonitis due to organic dust -- **Includes:** - allergic alveolitis and pneumonitis due to inhaled organic dust and particles of fungal, actinomycetic or other origin  **Excludes1:** - pneumonitis due to inhalation of chemicals, gases, fumes or vapors (J68.0)
+[J670] Farmer's lung -- **Inclusion terms:** - Harvester's lung - Haymaker's lung - Moldy hay disease
+[J671] Bagassosis -- **Inclusion terms:** - Bagasse disease - Bagasse pneumonitis
+[J672] Bird fancier's lung -- **Inclusion terms:** - Budgerigar fancier's disease or lung - Pigeon fancier's disease or lung
+[J673] Suberosis -- **Inclusion terms:** - Corkhandler's disease or lung - Corkworker's disease or lung
+[J674] Maltworker's lung -- **Inclusion terms:** - Alveolitis due to Aspergillus clavatus
+[J675] Mushroom-worker's lung
+[J676] Maple-bark-stripper's lung -- **Inclusion terms:** - Alveolitis due to Cryptostroma corticale - Cryptostromosis
+[J677] Air conditioner and humidifier lung -- **Inclusion terms:** - Allergic alveolitis due to fungal, thermophilic actinomycetes and other organisms growing in ventilation [air conditioning] systems
+[J678] Hypersensitivity pneumonitis due to other organic dusts -- **Inclusion terms:** - Cheese-washer's lung - Coffee-worker's lung - Fish-meal worker's lung - Furrier's lung - Sequoiosis
+[J679] Hypersensitivity pneumonitis due to unspecified organic dust -- **Inclusion terms:** - Allergic alveolitis (extrinsic) NOS - Hypersensitivity pneumonitis NOS
+[J68] Respiratory conditions due to inhalation of chemicals, gases, fumes and vapors -- **Code first:** - (T51-T65) to identify cause  **Use additional code:** - code to identify associated respiratory conditions, such as: - acute respiratory failure (J96.0-)
+[J680] Bronchitis and pneumonitis due to chemicals, gases, fumes and vapors -- **Inclusion terms:** - Chemical bronchitis (acute)
+[J681] Pulmonary edema due to chemicals, gases, fumes and vapors -- **Inclusion terms:** - Chemical pulmonary edema (acute) (chronic)  **Excludes1:** - pulmonary edema (acute) (chronic) NOS (J81.-)
+[J682] Upper respiratory inflammation due to chemicals, gases, fumes and vapors, not elsewhere classified
+[J683] Other acute and subacute respiratory conditions due to chemicals, gases, fumes and vapors -- **Inclusion terms:** - Reactive airways dysfunction syndrome
+[J684] Chronic respiratory conditions due to chemicals, gases, fumes and vapors -- **Excludes1:** - chronic pulmonary edema due to chemicals, gases, fumes and vapors (J68.1)  **Code also:** - , if applicable, chronic conditions, such as: - emphysema (J43.-) - obliterative bronchiolitis (J44.81) - pulmonary fibrosis (J84.10)
+[J688] Other respiratory conditions due to chemicals, gases, fumes and vapors
+[J689] Unspecified respiratory condition due to chemicals, gases, fumes and vapors
+[J69] Pneumonitis due to solids and liquids -- **Inclusion terms:** - Codes also, if applicable, other types of pneumonias  **Excludes1:** - neonatal aspiration syndromes (P24.-) - postprocedural pneumonitis (J95.4)
+[J690] Pneumonitis due to inhalation of food and vomit -- **Inclusion terms:** - Aspiration pneumonia NOS - Aspiration pneumonia (due to) food (regurgitated) - Aspiration pneumonia (due to) gastric secretions - Aspiration pneumonia (due to) milk - Aspiration pneumonia (due to) vomit  **Excludes1:** - chemical pneumonitis due to anesthesia (J95.4) - obstetric aspiration pneumonitis (O74.0)  **Code also:** - any associated foreign body in respiratory tract (T17.-)
+[J691] Pneumonitis due to inhalation of oils and essences -- **Inclusion terms:** - Exogenous lipoid pneumonia - Lipid pneumonia NOS  **Excludes1:** - endogenous lipoid pneumonia (J84.89)  **Code first:** - (T51-T65) to identify substance
+[J698] Pneumonitis due to inhalation of other solids and liquids -- **Inclusion terms:** - Pneumonitis due to aspiration of blood - Pneumonitis due to aspiration of detergent  **Code first:** - (T51-T65) to identify substance
+[J70] Respiratory conditions due to other external agents
+[J700] Acute pulmonary manifestations due to radiation -- **Inclusion terms:** - Radiation pneumonitis  **Use additional code:** - code (W88-W90, X39.0-) to identify the external cause
+[J701] Chronic and other pulmonary manifestations due to radiation -- **Inclusion terms:** - Fibrosis of lung following radiation  **Use additional code:** - code (W88-W90, X39.0-) to identify the external cause
+[J702] Acute drug-induced interstitial lung disorders -- **Excludes1:** - interstitial pneumonia NOS (J84.9) - lymphoid interstitial pneumonia (J84.2)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[J703] Chronic drug-induced interstitial lung disorders -- **Excludes1:** - interstitial pneumonia NOS (J84.9) - lymphoid interstitial pneumonia (J84.2)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[J704] Drug-induced interstitial lung disorders, unspecified -- **Excludes1:** - interstitial pneumonia NOS (J84.9) - lymphoid interstitial pneumonia (J84.2)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[J705] Respiratory conditions due to smoke inhalation -- **Excludes2:** - smoke inhalation due to chemicals, gases, fumes and vapors (J68.9)  **Code first:** - smoke inhalation (T59.81-)
+[J708] Respiratory conditions due to other specified external agents -- **Code first:** - (T51-T65) to identify the external agent
+[J709] Respiratory conditions due to unspecified external agent -- **Code first:** - (T51-T65) to identify the external agent
+[J80] Acute respiratory distress syndrome -- **Inclusion terms:** - Acute respiratory distress syndrome in adult or child - Adult hyaline membrane disease  **Excludes1:** - respiratory distress syndrome in newborn (perinatal) (P22.0)
+[J81] Pulmonary edema -- **Excludes1:** - chemical (acute) pulmonary edema (J68.1) - hypostatic pneumonia (J18.2) - passive pneumonia (J18.2) - pulmonary edema due to external agents (J60-J70) - pulmonary edema with heart disease NOS (I50.1) - pulmonary edema with heart failure (I50.1)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[J810] Acute pulmonary edema -- **Inclusion terms:** - Acute edema of lung
+[J811] Chronic pulmonary edema -- **Inclusion terms:** - Pulmonary congestion (chronic) (passive) - Pulmonary edema NOS
+[J82] Pulmonary eosinophilia, not elsewhere classified -- **Excludes2:** - pulmonary eosinophilia due to aspergillosis (B44.-) - pulmonary eosinophilia due to drugs (J70.2-J70.4) - pulmonary eosinophilia due to specified parasitic infection (B50-B83) - pulmonary eosinophilia due to systemic connective tissue disorders (M30-M36) - pulmonary infiltrate NOS (R91.8)
+[J828] Pulmonary eosinophilia, not elsewhere classified
+[J8281] Chronic eosinophilic pneumonia -- **Inclusion terms:** - Eosinophilic pneumonia, NOS
+[J8282] Acute eosinophilic pneumonia
+[J8283] Eosinophilic asthma -- **Code first:** - asthma, by type, such as: - mild intermittent asthma (J45.2-) - mild persistent asthma (J45.3-) - moderate persistent asthma (J45.4-) - severe persistent asthma (J45.5-)
+[J8289] Other pulmonary eosinophilia, not elsewhere classified -- **Inclusion terms:** - Allergic pneumonia - Löffler's pneumonia - Tropical (pulmonary) eosinophilia NOS
+[J84] Other interstitial pulmonary diseases -- **Excludes1:** - drug-induced interstitial lung disorders (J70.2-J70.4) - interstitial emphysema (J98.2)  **Excludes2:** - lung diseases due to external agents (J60-J70)  **Code also:** - , if applicable, associated condition
+[J840] Alveolar and parieto-alveolar conditions
+[J8401] Alveolar proteinosis
+[J8402] Pulmonary alveolar microlithiasis
+[J8403] Idiopathic pulmonary hemosiderosis -- **Inclusion terms:** - Essential brown induration of lung  **Excludes1:** - acute idiopathic pulmonary hemorrhage in infants [AIPHI] (R04.81)  **Code first:** - underlying disease, such as: - disorders of iron metabolism (E83.1-)
+[J8409] Other alveolar and parieto-alveolar conditions
+[J841] Other interstitial pulmonary diseases with fibrosis -- **Excludes1:** - pulmonary fibrosis (chronic) due to inhalation of chemicals, gases, fumes or vapors (J68.4) - pulmonary fibrosis (chronic) following radiation (J70.1)
+[J8410] Pulmonary fibrosis, unspecified -- **Inclusion terms:** - Capillary fibrosis of lung - Cirrhosis of lung (chronic) NOS - Fibrosis of lung (atrophic) (chronic) (confluent) (massive) (perialveolar) (peribronchial) NOS - Induration of lung (chronic) NOS - Postinflammatory pulmonary fibrosis
+[J8411] Idiopathic interstitial pneumonia -- **Excludes1:** - lymphoid interstitial pneumonia (J84.2) - pneumocystis pneumonia (B59)
+[J84111] Idiopathic interstitial pneumonia, not otherwise specified
+[J84112] Idiopathic pulmonary fibrosis -- **Inclusion terms:** - Cryptogenic fibrosing alveolitis - Idiopathic fibrosing alveolitis
+[J84113] Idiopathic non-specific interstitial pneumonitis -- **Excludes1:** - non-specific interstitial pneumonia NOS, or due to known underlying cause (J84.89)
+[J84114] Acute interstitial pneumonitis -- **Inclusion terms:** - Hamman-Rich syndrome  **Excludes1:** - pneumocystis pneumonia (B59)
+[J84115] Respiratory bronchiolitis interstitial lung disease
+[J84116] Cryptogenic organizing pneumonia -- **Excludes1:** - organizing pneumonia NOS, or due to known underlying cause (J84.89)
+[J84117] Desquamative interstitial pneumonia
+[J8417] Other interstitial pulmonary diseases with fibrosis in diseases classified elsewhere
+[J84170] Interstitial lung disease with progressive fibrotic phenotype in diseases classified elsewhere -- **Inclusion terms:** - Progressive fibrotic interstitial lung disease  **Code first:** - underlying disease, such as: - lung diseases due to external agents (J60-J70) - rheumatoid arthritis (M05.00-M06.9) - sarcoidosis (D86.-) - systemic connective tissue disorders (M30-M36)
+[J84178] Other interstitial pulmonary diseases with fibrosis in diseases classified elsewhere -- **Inclusion terms:** - Interstitial pneumonia (nonspecific) (usual) due to collagen vascular disease - Interstitial pneumonia (nonspecific) (usual) in diseases classified elsewhere - Organizing pneumonia due to collagen vascular disease - Organizing pneumonia in diseases classified elsewhere  **Code first:** - underlying disease, such as: - progressive systemic sclerosis (M34.0) - rheumatoid arthritis (M05.00-M06.9) - systemic lupus erythematosis (M32.0-M32.9)
+[J842] Lymphoid interstitial pneumonia -- **Inclusion terms:** - Lymphoid interstitial pneumonitis
+[J848] Other specified interstitial pulmonary diseases -- **Excludes1:** - exogenous lipoid pneumonia (J69.1) - unspecified lipoid pneumonia (J69.1)
+[J8481] Lymphangioleiomyomatosis -- **Inclusion terms:** - Lymphangiomyomatosis
+[J8482] Adult pulmonary Langerhans cell histiocytosis -- **Inclusion terms:** - Adult PLCH
+[J8483] Surfactant mutations of the lung
+[J8484] Other interstitial lung diseases of childhood
+[J84841] Neuroendocrine cell hyperplasia of infancy
+[J84842] Pulmonary interstitial glycogenosis
+[J84843] Alveolar capillary dysplasia with vein misalignment
+[J84848] Other interstitial lung diseases of childhood
+[J8489] Other specified interstitial pulmonary diseases -- **Inclusion terms:** - Endogenous lipoid pneumonia - Interstitial pneumonitis - Non-specific interstitial pneumonitis NOS - Organizing pneumonia NOS  **Excludes1:** - cryptogenic organizing pneumonia (J84.116) - idiopathic non-specific interstitial pneumonitis (J84.113) - lipoid pneumonia, exogenous or unspecified (J69.1) - lymphoid interstitial pneumonia (J84.2)  **Code first:** - , if applicable: - poisoning due to drug or toxin (T51-T65 with fifth or sixth character to indicate intent), for toxic pneumonopathy - underlying cause of pneumonopathy, if known  **Use additional code:** - code, for adverse effect, to identify drug (T36-T50 with fifth or sixth character 5), if drug-induced
+[J849] Interstitial pulmonary disease, unspecified -- **Inclusion terms:** - Interstitial pneumonia NOS
+[J85] Abscess of lung and mediastinum -- **Use additional code:** - code (B95-B97) to identify infectious agent.
+[J850] Gangrene and necrosis of lung
+[J851] Abscess of lung with pneumonia -- **Code also:** - the type of pneumonia
+[J852] Abscess of lung without pneumonia -- **Inclusion terms:** - Abscess of lung NOS
+[J853] Abscess of mediastinum
+[J86] Pyothorax -- **Excludes1:** - abscess of lung (J85.-) - pyothorax due to tuberculosis (A15.6)  **Use additional code:** - code (B95-B97) to identify infectious agent.
+[J860] Pyothorax with fistula -- **Inclusion terms:** - Bronchocutaneous fistula - Bronchopleural fistula - Hepatopleural fistula - Mediastinal fistula - Pleural fistula - Thoracic fistula - Any condition classifiable to J86.9 with fistula  **Code also:** - , if applicable, disruption of internal operation (surgical) wound (T81.32-)
+[J869] Pyothorax without fistula -- **Inclusion terms:** - Abscess of pleura - Abscess of thorax - Empyema (chest) (lung) (pleura) - Fibrinopurulent pleurisy - Purulent pleurisy - Pyopneumothorax - Septic pleurisy - Seropurulent pleurisy - Suppurative pleurisy
+[J90] Pleural effusion, not elsewhere classified -- **Inclusion terms:** - Encysted pleurisy - Pleural effusion NOS - Pleurisy with effusion (exudative) (serous)  **Excludes1:** - chylous (pleural) effusion (J94.0) - malignant pleural effusion (J91.0)) - pleurisy NOS (R09.1) - tuberculous pleural effusion (A15.6)
+[J91] Pleural effusion in conditions classified elsewhere -- **Excludes2:** - pleural effusion in heart failure (I50.-) - pleural effusion in systemic lupus erythematosus (M32.13)
+[J910] Malignant pleural effusion -- **Code first:** - underlying neoplasm (C00-D49)
+[J918] Pleural effusion in other conditions classified elsewhere -- **Code first:** - underlying disease, such as: - filariasis (B74.0-B74.9) - influenza (J09.X2, J10.1, J11.1)
+[J92] Pleural plaque -- **Includes:** - pleural thickening
+[J920] Pleural plaque with presence of asbestos
+[J929] Pleural plaque without asbestos -- **Inclusion terms:** - Pleural plaque NOS
+[J93] Pneumothorax and air leak -- **Excludes1:** - congenital or perinatal pneumothorax (P25.1) - postprocedural air leak (J95.812) - postprocedural pneumothorax (J95.811) - traumatic pneumothorax (S27.0) - tuberculous (current disease) pneumothorax (A15.-) - pyopneumothorax (J86.-)
+[J930] Spontaneous tension pneumothorax
+[J931] Other spontaneous pneumothorax
+[J9311] Primary spontaneous pneumothorax
+[J9312] Secondary spontaneous pneumothorax -- **Code first:** - underlying condition, such as: - catamenial pneumothorax due to endometriosis (N80.B-) - cystic fibrosis (E84.-) - eosinophilic pneumonia (J82.81-J82.82) - lymphangioleiomyomatosis (J84.81) - malignant neoplasm of bronchus and lung (C34.-) - Marfan syndrome (Q87.4-) - pneumonia due to Pneumocystis carinii (B59) - secondary malignant neoplasm of lung (C78.0-) - spontaneous rupture of the esophagus (K22.3)
+[J938] Other pneumothorax and air leak
+[J9381] Chronic pneumothorax
+[J9382] Other air leak -- **Inclusion terms:** - Persistent air leak
+[J9383] Other pneumothorax -- **Inclusion terms:** - Acute pneumothorax - Spontaneous pneumothorax NOS
+[J939] Pneumothorax, unspecified -- **Inclusion terms:** - Pneumothorax NOS
+[J94] Other pleural conditions -- **Excludes1:** - pleurisy NOS (R09.1) - traumatic hemopneumothorax (S27.2) - traumatic hemothorax (S27.1) - tuberculous pleural conditions (current disease) (A15.-)
+[J940] Chylous effusion -- **Inclusion terms:** - Chyliform effusion
+[J941] Fibrothorax
+[J942] Hemothorax -- **Inclusion terms:** - Hemopneumothorax
+[J948] Other specified pleural conditions -- **Inclusion terms:** - Hydropneumothorax - Hydrothorax
+[J949] Pleural condition, unspecified
+[J95] Intraoperative and postprocedural complications and disorders of respiratory system, not elsewhere classified -- **Excludes2:** - aspiration pneumonia (J69.-) - emphysema (subcutaneous) resulting from a procedure (T81.82) - hypostatic pneumonia (J18.2) - pulmonary manifestations due to radiation (J70.0-J70.1)
+[J950] Tracheostomy complications
+[J9500] Unspecified tracheostomy complication
+[J9501] Hemorrhage from tracheostomy stoma
+[J9502] Infection of tracheostomy stoma -- **Use additional code:** - code to identify type of infection, such as: - cellulitis of neck (L03.221) - sepsis (A40, A41.-)
+[J9503] Malfunction of tracheostomy stoma -- **Inclusion terms:** - Mechanical complication of tracheostomy stoma - Obstruction of tracheostomy airway - Tracheal stenosis due to tracheostomy
+[J9504] Tracheo-esophageal fistula following tracheostomy
+[J9509] Other tracheostomy complication
+[J951] Acute pulmonary insufficiency following thoracic surgery -- **Excludes2:** - Functional disturbances following cardiac surgery (I97.0, I97.1-)
+[J952] Acute pulmonary insufficiency following nonthoracic surgery -- **Excludes2:** - Functional disturbances following cardiac surgery (I97.0, I97.1-)
+[J953] Chronic pulmonary insufficiency following surgery -- **Excludes2:** - Functional disturbances following cardiac surgery (I97.0, I97.1-)
+[J954] Chemical pneumonitis due to anesthesia -- **Inclusion terms:** - Mendelson's syndrome - Postprocedural aspiration pneumonia  **Excludes1:** - aspiration pneumonitis due to anesthesia complicating labor and delivery (O74.0) - aspiration pneumonitis due to anesthesia complicating pregnancy (O29) - aspiration pneumonitis due to anesthesia complicating the puerperium (O89.01)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T41.- with fifth or sixth character 5)
+[J955] Postprocedural subglottic stenosis
+[J956] Intraoperative hemorrhage and hematoma of a respiratory system organ or structure complicating a procedure -- **Excludes1:** - intraoperative hemorrhage and hematoma of a respiratory system organ or structure due to accidental puncture and laceration during procedure (J95.7-)
+[J9561] Intraoperative hemorrhage and hematoma of a respiratory system organ or structure complicating a respiratory system procedure
+[J9562] Intraoperative hemorrhage and hematoma of a respiratory system organ or structure complicating other procedure
+[J957] Accidental puncture and laceration of a respiratory system organ or structure during a procedure -- **Excludes2:** - postprocedural pneumothorax (J95.811)
+[J9571] Accidental puncture and laceration of a respiratory system organ or structure during a respiratory system procedure
+[J9572] Accidental puncture and laceration of a respiratory system organ or structure during other procedure
+[J958] Other intraoperative and postprocedural complications and disorders of respiratory system, not elsewhere classified
+[J9581] Postprocedural pneumothorax and air leak
+[J95811] Postprocedural pneumothorax
+[J95812] Postprocedural air leak
+[J9582] Postprocedural respiratory failure -- **Excludes1:** - Respiratory failure in other conditions (J96.-)
+[J95821] Acute postprocedural respiratory failure -- **Inclusion terms:** - Postprocedural respiratory failure NOS
+[J95822] Acute and chronic postprocedural respiratory failure
+[J9583] Postprocedural hemorrhage of a respiratory system organ or structure following a procedure
+[J95830] Postprocedural hemorrhage of a respiratory system organ or structure following a respiratory system procedure
+[J95831] Postprocedural hemorrhage of a respiratory system organ or structure following other procedure
+[J9584] Transfusion-related acute lung injury (TRALI)
+[J9585] Complication of respirator [ventilator]
+[J95850] Mechanical complication of respirator -- **Excludes1:** - encounter for respirator [ventilator] dependence during power failure (Z99.12)
+[J95851] Ventilator associated pneumonia -- **Inclusion terms:** - Ventilator associated pneumonitis  **Excludes1:** - ventilator lung in newborn (P27.8)  **Use additional code:** - code to identify the organism, if known (B95.-, B96.-, B97.-)
+[J95859] Other complication of respirator [ventilator]
+[J9586] Postprocedural hematoma and seroma of a respiratory system organ or structure following a procedure
+[J95860] Postprocedural hematoma of a respiratory system organ or structure following a respiratory system procedure
+[J95861] Postprocedural hematoma of a respiratory system organ or structure following other procedure
+[J95862] Postprocedural seroma of a respiratory system organ or structure following a respiratory system procedure
+[J95863] Postprocedural seroma of a respiratory system organ or structure following other procedure
+[J9587] Transfusion-associated dyspnea (TAD) -- **Excludes1:** - transfusion associated circulatory overload (TACO) (E87.71) - transfusion-related acute lung injury (TRALI) (J95.84)
+[J9588] Other intraoperative complications of respiratory system, not elsewhere classified
+[J9589] Other postprocedural complications and disorders of respiratory system, not elsewhere classified -- **Excludes2:** - acute pulmonary insufficiency following thoracic surgery (J95.1) - postprocedural subglottic stenosis (J95.5)  **Use additional code:** - code to identify disorder, such as: - aspiration pneumonia (J69.-) - bacterial or viral pneumonia (J12-J18)
+[J96] Respiratory failure, not elsewhere classified -- **Excludes1:** - acute respiratory distress syndrome (J80) - cardiorespiratory failure (R09.2) - newborn respiratory distress syndrome (P22.0) - postprocedural respiratory failure (J95.82-) - respiratory arrest (R09.2) - respiratory arrest of newborn (P28.81) - respiratory failure of newborn (P28.5)
+[J960] Acute respiratory failure
+[J9600] Acute respiratory failure, unspecified whether with hypoxia or hypercapnia
+[J9601] Acute respiratory failure with hypoxia
+[J9602] Acute respiratory failure with hypercapnia -- **Inclusion terms:** - Acute respiratory acidosis
+[J961] Chronic respiratory failure
+[J9610] Chronic respiratory failure, unspecified whether with hypoxia or hypercapnia
+[J9611] Chronic respiratory failure with hypoxia
+[J9612] Chronic respiratory failure with hypercapnia -- **Inclusion terms:** - Chronic respiratory acidosis
+[J962] Acute and chronic respiratory failure -- **Inclusion terms:** - Acute on chronic respiratory failure
+[J9620] Acute and chronic respiratory failure, unspecified whether with hypoxia or hypercapnia
+[J9621] Acute and chronic respiratory failure with hypoxia
+[J9622] Acute and chronic respiratory failure with hypercapnia
+[J969] Respiratory failure, unspecified
+[J9690] Respiratory failure, unspecified, unspecified whether with hypoxia or hypercapnia
+[J9691] Respiratory failure, unspecified with hypoxia
+[J9692] Respiratory failure, unspecified with hypercapnia
+[J98] Other respiratory disorders -- **Excludes1:** - newborn apnea (P28.4-) - newborn sleep apnea (P28.3-)  **Excludes2:** - apnea NOS (R06.81) - sleep apnea (G47.3-)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[J980] Diseases of bronchus, not elsewhere classified
+[J9801] Acute bronchospasm -- **Excludes1:** - acute bronchiolitis with bronchospasm (J21.-) - acute bronchitis with bronchospasm (J20.-) - asthma (J45.-) - exercise induced bronchospasm (J45.990)
+[J9809] Other diseases of bronchus, not elsewhere classified -- **Inclusion terms:** - Broncholithiasis - Calcification of bronchus - Stenosis of bronchus - Tracheobronchial collapse - Tracheobronchial dyskinesia - Ulcer of bronchus
+[J981] Pulmonary collapse -- **Excludes1:** - therapeutic collapse of lung status (Z98.3)
+[J9811] Atelectasis -- **Excludes1:** - newborn atelectasis - tuberculous atelectasis (current disease) (A15)
+[J9819] Other pulmonary collapse
+[J982] Interstitial emphysema -- **Inclusion terms:** - Mediastinal emphysema  **Excludes1:** - emphysema NOS (J43.9) - emphysema in newborn (P25.0) - surgical emphysema (subcutaneous) (T81.82) - traumatic subcutaneous emphysema (T79.7)
+[J983] Compensatory emphysema
+[J984] Other disorders of lung -- **Inclusion terms:** - Calcification of lung - Cystic lung disease (acquired) - Lung disease NOS - Pulmolithiasis  **Excludes1:** - acute interstitial pneumonitis (J84.114) - pulmonary insufficiency following surgery (J95.1-J95.2)
+[J985] Diseases of mediastinum, not elsewhere classified -- **Excludes2:** - abscess of mediastinum (J85.3)
+[J9851] Mediastinitis -- **Code first:** - underlying condition, if applicable, such as postoperative mediastinitis (T81.-)
+[J9859] Other diseases of mediastinum, not elsewhere classified -- **Inclusion terms:** - Fibrosis of mediastinum - Hernia of mediastinum - Retraction of mediastinum
+[J986] Disorders of diaphragm -- **Inclusion terms:** - Diaphragmatitis - Paralysis of diaphragm - Relaxation of diaphragm  **Excludes1:** - congenital malformation of diaphragm NEC (Q79.1) - congenital diaphragmatic hernia (Q79.0)  **Excludes2:** - diaphragmatic hernia (K44.-)
+[J988] Other specified respiratory disorders
+[J989] Respiratory disorder, unspecified -- **Inclusion terms:** - Respiratory disease (chronic) NOS
+[J99] Respiratory disorders in diseases classified elsewhere -- **Excludes1:** - respiratory disorders in: - amebiasis (A06.5) - blastomycosis (B40.0-B40.2) - candidiasis (B37.1) - coccidioidomycosis (B38.0-B38.2) - cystic fibrosis with pulmonary manifestations (E84.0) - dermatomyositis (M33.01, M33.11) - histoplasmosis (B39.0-B39.2) - late syphilis (A52.72, A52.73) - polymyositis (M33.21) - Sjögren syndrome (M35.02) - systemic lupus erythematosus (M32.13) - systemic sclerosis (M34.81) - Wegener's granulomatosis (M31.30-M31.31)  **Code first:** - underlying disease, such as: - amyloidosis (E85.-) - ankylosing spondylitis (M45.-) - congenital syphilis (A50.-) - cryoglobulinemia (D89.1) - early congenital syphilis (A50.0-) - plasminogen deficiency (E88.02) - schistosomiasis (B65.0-B65.9)

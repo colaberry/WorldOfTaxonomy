@@ -1,0 +1,883 @@
+[0G] Endocrine System -- Body system (Endocrine System) within ICD-10-PCS section 'Medical and Surgical'. Aggregator of root-operation tables for this body system.
+[0G2] Endocrine System, Change -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G20X0Z] Change Drainage Device in Pituitary Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G20XYZ] Change Other Device in Pituitary Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G21X0Z] Change Drainage Device in Pineal Body, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G21XYZ] Change Other Device in Pineal Body, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G25X0Z] Change Drainage Device in Adrenal Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G25XYZ] Change Other Device in Adrenal Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G2KX0Z] Change Drainage Device in Thyroid Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G2KXYZ] Change Other Device in Thyroid Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G2RX0Z] Change Drainage Device in Parathyroid Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G2RXYZ] Change Other Device in Parathyroid Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G2SX0Z] Change Drainage Device in Endocrine Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G2SXYZ] Change Other Device in Endocrine Gland, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[0G5] Endocrine System, Destruction -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G500Z3] Destruction of Pituitary Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G500ZZ] Destruction of Pituitary Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G503Z3] Destruction of Pituitary Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G503ZZ] Destruction of Pituitary Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G504Z3] Destruction of Pituitary Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G504ZZ] Destruction of Pituitary Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G510Z3] Destruction of Pineal Body using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G510ZZ] Destruction of Pineal Body, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G513Z3] Destruction of Pineal Body using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G513ZZ] Destruction of Pineal Body, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G514Z3] Destruction of Pineal Body using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G514ZZ] Destruction of Pineal Body, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G520Z3] Destruction of Left Adrenal Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G520ZZ] Destruction of Left Adrenal Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G523Z3] Destruction of Left Adrenal Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G523ZZ] Destruction of Left Adrenal Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G524Z3] Destruction of Left Adrenal Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G524ZZ] Destruction of Left Adrenal Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G530Z3] Destruction of Right Adrenal Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G530ZZ] Destruction of Right Adrenal Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G533Z3] Destruction of Right Adrenal Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G533ZZ] Destruction of Right Adrenal Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G534Z3] Destruction of Right Adrenal Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G534ZZ] Destruction of Right Adrenal Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G540Z3] Destruction of Bilateral Adrenal Glands using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G540ZZ] Destruction of Bilateral Adrenal Glands, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G543Z3] Destruction of Bilateral Adrenal Glands using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G543ZZ] Destruction of Bilateral Adrenal Glands, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G544Z3] Destruction of Bilateral Adrenal Glands using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G544ZZ] Destruction of Bilateral Adrenal Glands, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G560Z3] Destruction of Left Carotid Body using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G560ZZ] Destruction of Left Carotid Body, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G563Z3] Destruction of Left Carotid Body using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G563ZZ] Destruction of Left Carotid Body, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G564Z3] Destruction of Left Carotid Body using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G564ZZ] Destruction of Left Carotid Body, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G570Z3] Destruction of Right Carotid Body using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G570ZZ] Destruction of Right Carotid Body, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G573Z3] Destruction of Right Carotid Body using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G573ZZ] Destruction of Right Carotid Body, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G574Z3] Destruction of Right Carotid Body using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G574ZZ] Destruction of Right Carotid Body, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G580Z3] Destruction of Bilateral Carotid Bodies using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G580ZZ] Destruction of Bilateral Carotid Bodies, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G583Z3] Destruction of Bilateral Carotid Bodies using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G583ZZ] Destruction of Bilateral Carotid Bodies, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G584Z3] Destruction of Bilateral Carotid Bodies using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G584ZZ] Destruction of Bilateral Carotid Bodies, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G590Z3] Destruction of Para-aortic Body using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G590ZZ] Destruction of Para-aortic Body, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G593Z3] Destruction of Para-aortic Body using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G593ZZ] Destruction of Para-aortic Body, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G594Z3] Destruction of Para-aortic Body using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G594ZZ] Destruction of Para-aortic Body, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5B0Z3] Destruction of Coccygeal Glomus using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5B0ZZ] Destruction of Coccygeal Glomus, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5B3Z3] Destruction of Coccygeal Glomus using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5B3ZZ] Destruction of Coccygeal Glomus, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5B4Z3] Destruction of Coccygeal Glomus using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5B4ZZ] Destruction of Coccygeal Glomus, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5C0Z3] Destruction of Glomus Jugulare using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5C0ZZ] Destruction of Glomus Jugulare, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5C3Z3] Destruction of Glomus Jugulare using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5C3ZZ] Destruction of Glomus Jugulare, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5C4Z3] Destruction of Glomus Jugulare using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5C4ZZ] Destruction of Glomus Jugulare, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5D0Z3] Destruction of Aortic Body using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5D0ZZ] Destruction of Aortic Body, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5D3Z3] Destruction of Aortic Body using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5D3ZZ] Destruction of Aortic Body, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5D4Z3] Destruction of Aortic Body using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5D4ZZ] Destruction of Aortic Body, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5F0Z3] Destruction of Paraganglion Extremity using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5F0ZZ] Destruction of Paraganglion Extremity, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5F3Z3] Destruction of Paraganglion Extremity using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5F3ZZ] Destruction of Paraganglion Extremity, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5F4Z3] Destruction of Paraganglion Extremity using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5F4ZZ] Destruction of Paraganglion Extremity, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5G0Z3] Destruction of Left Thyroid Gland Lobe using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5G0ZZ] Destruction of Left Thyroid Gland Lobe, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5G3Z3] Destruction of Left Thyroid Gland Lobe using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5G3ZZ] Destruction of Left Thyroid Gland Lobe, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5G4Z3] Destruction of Left Thyroid Gland Lobe using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5G4ZZ] Destruction of Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5H0Z3] Destruction of Right Thyroid Gland Lobe using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5H0ZZ] Destruction of Right Thyroid Gland Lobe, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5H3Z3] Destruction of Right Thyroid Gland Lobe using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5H3ZZ] Destruction of Right Thyroid Gland Lobe, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5H4Z3] Destruction of Right Thyroid Gland Lobe using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5H4ZZ] Destruction of Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5K0Z3] Destruction of Thyroid Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5K0ZZ] Destruction of Thyroid Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5K3Z3] Destruction of Thyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5K3ZZ] Destruction of Thyroid Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5K4Z3] Destruction of Thyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5K4ZZ] Destruction of Thyroid Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5L0Z3] Destruction of Right Superior Parathyroid Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5L0ZZ] Destruction of Right Superior Parathyroid Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5L3Z3] Destruction of Right Superior Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5L3ZZ] Destruction of Right Superior Parathyroid Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5L4Z3] Destruction of Right Superior Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5L4ZZ] Destruction of Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5M0Z3] Destruction of Left Superior Parathyroid Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5M0ZZ] Destruction of Left Superior Parathyroid Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5M3Z3] Destruction of Left Superior Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5M3ZZ] Destruction of Left Superior Parathyroid Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5M4Z3] Destruction of Left Superior Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5M4ZZ] Destruction of Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5N0Z3] Destruction of Right Inferior Parathyroid Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5N0ZZ] Destruction of Right Inferior Parathyroid Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5N3Z3] Destruction of Right Inferior Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5N3ZZ] Destruction of Right Inferior Parathyroid Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5N4Z3] Destruction of Right Inferior Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5N4ZZ] Destruction of Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5P0Z3] Destruction of Left Inferior Parathyroid Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5P0ZZ] Destruction of Left Inferior Parathyroid Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5P3Z3] Destruction of Left Inferior Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5P3ZZ] Destruction of Left Inferior Parathyroid Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5P4Z3] Destruction of Left Inferior Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5P4ZZ] Destruction of Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5Q0Z3] Destruction of Multiple Parathyroid Glands using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5Q0ZZ] Destruction of Multiple Parathyroid Glands, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5Q3Z3] Destruction of Multiple Parathyroid Glands using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5Q3ZZ] Destruction of Multiple Parathyroid Glands, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5Q4Z3] Destruction of Multiple Parathyroid Glands using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5Q4ZZ] Destruction of Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5R0Z3] Destruction of Parathyroid Gland using Laser Interstitial Thermal Therapy, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5R0ZZ] Destruction of Parathyroid Gland, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5R3Z3] Destruction of Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5R3ZZ] Destruction of Parathyroid Gland, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5R4Z3] Destruction of Parathyroid Gland using Laser Interstitial Thermal Therapy, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G5R4ZZ] Destruction of Parathyroid Gland, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[0G8] Endocrine System, Division -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[0G800ZZ] Division of Pituitary Gland, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[0G803ZZ] Division of Pituitary Gland, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[0G804ZZ] Division of Pituitary Gland, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[0G8J0ZZ] Division of Thyroid Gland Isthmus, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[0G8J3ZZ] Division of Thyroid Gland Isthmus, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[0G8J4ZZ] Division of Thyroid Gland Isthmus, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[0G9] Endocrine System, Drainage -- Taking or letting out fluids and/or gases from a body part
+[0G9000Z] Drainage of Pituitary Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G900ZX] Drainage of Pituitary Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G900ZZ] Drainage of Pituitary Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9030Z] Drainage of Pituitary Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G903ZX] Drainage of Pituitary Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G903ZZ] Drainage of Pituitary Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9040Z] Drainage of Pituitary Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G904ZX] Drainage of Pituitary Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G904ZZ] Drainage of Pituitary Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9100Z] Drainage of Pineal Body with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G910ZX] Drainage of Pineal Body, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G910ZZ] Drainage of Pineal Body, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9130Z] Drainage of Pineal Body with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G913ZX] Drainage of Pineal Body, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G913ZZ] Drainage of Pineal Body, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9140Z] Drainage of Pineal Body with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G914ZX] Drainage of Pineal Body, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G914ZZ] Drainage of Pineal Body, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9200Z] Drainage of Left Adrenal Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G920ZX] Drainage of Left Adrenal Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G920ZZ] Drainage of Left Adrenal Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9230Z] Drainage of Left Adrenal Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G923ZX] Drainage of Left Adrenal Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G923ZZ] Drainage of Left Adrenal Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9240Z] Drainage of Left Adrenal Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G924ZX] Drainage of Left Adrenal Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G924ZZ] Drainage of Left Adrenal Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9300Z] Drainage of Right Adrenal Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G930ZX] Drainage of Right Adrenal Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G930ZZ] Drainage of Right Adrenal Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9330Z] Drainage of Right Adrenal Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G933ZX] Drainage of Right Adrenal Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G933ZZ] Drainage of Right Adrenal Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9340Z] Drainage of Right Adrenal Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G934ZX] Drainage of Right Adrenal Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G934ZZ] Drainage of Right Adrenal Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9400Z] Drainage of Bilateral Adrenal Glands with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G940ZX] Drainage of Bilateral Adrenal Glands, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G940ZZ] Drainage of Bilateral Adrenal Glands, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9430Z] Drainage of Bilateral Adrenal Glands with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G943ZX] Drainage of Bilateral Adrenal Glands, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G943ZZ] Drainage of Bilateral Adrenal Glands, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9440Z] Drainage of Bilateral Adrenal Glands with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G944ZX] Drainage of Bilateral Adrenal Glands, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G944ZZ] Drainage of Bilateral Adrenal Glands, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9600Z] Drainage of Left Carotid Body with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G960ZX] Drainage of Left Carotid Body, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G960ZZ] Drainage of Left Carotid Body, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9630Z] Drainage of Left Carotid Body with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G963ZX] Drainage of Left Carotid Body, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G963ZZ] Drainage of Left Carotid Body, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9640Z] Drainage of Left Carotid Body with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G964ZX] Drainage of Left Carotid Body, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G964ZZ] Drainage of Left Carotid Body, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9700Z] Drainage of Right Carotid Body with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G970ZX] Drainage of Right Carotid Body, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G970ZZ] Drainage of Right Carotid Body, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9730Z] Drainage of Right Carotid Body with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G973ZX] Drainage of Right Carotid Body, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G973ZZ] Drainage of Right Carotid Body, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9740Z] Drainage of Right Carotid Body with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G974ZX] Drainage of Right Carotid Body, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G974ZZ] Drainage of Right Carotid Body, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9800Z] Drainage of Bilateral Carotid Bodies with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G980ZX] Drainage of Bilateral Carotid Bodies, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G980ZZ] Drainage of Bilateral Carotid Bodies, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9830Z] Drainage of Bilateral Carotid Bodies with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G983ZX] Drainage of Bilateral Carotid Bodies, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G983ZZ] Drainage of Bilateral Carotid Bodies, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9840Z] Drainage of Bilateral Carotid Bodies with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G984ZX] Drainage of Bilateral Carotid Bodies, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G984ZZ] Drainage of Bilateral Carotid Bodies, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9900Z] Drainage of Para-aortic Body with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G990ZX] Drainage of Para-aortic Body, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G990ZZ] Drainage of Para-aortic Body, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9930Z] Drainage of Para-aortic Body with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G993ZX] Drainage of Para-aortic Body, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G993ZZ] Drainage of Para-aortic Body, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9940Z] Drainage of Para-aortic Body with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G994ZX] Drainage of Para-aortic Body, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G994ZZ] Drainage of Para-aortic Body, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9B00Z] Drainage of Coccygeal Glomus with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9B0ZX] Drainage of Coccygeal Glomus, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9B0ZZ] Drainage of Coccygeal Glomus, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9B30Z] Drainage of Coccygeal Glomus with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9B3ZX] Drainage of Coccygeal Glomus, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9B3ZZ] Drainage of Coccygeal Glomus, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9B40Z] Drainage of Coccygeal Glomus with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9B4ZX] Drainage of Coccygeal Glomus, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9B4ZZ] Drainage of Coccygeal Glomus, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9C00Z] Drainage of Glomus Jugulare with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9C0ZX] Drainage of Glomus Jugulare, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9C0ZZ] Drainage of Glomus Jugulare, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9C30Z] Drainage of Glomus Jugulare with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9C3ZX] Drainage of Glomus Jugulare, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9C3ZZ] Drainage of Glomus Jugulare, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9C40Z] Drainage of Glomus Jugulare with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9C4ZX] Drainage of Glomus Jugulare, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9C4ZZ] Drainage of Glomus Jugulare, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9D00Z] Drainage of Aortic Body with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9D0ZX] Drainage of Aortic Body, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9D0ZZ] Drainage of Aortic Body, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9D30Z] Drainage of Aortic Body with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9D3ZX] Drainage of Aortic Body, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9D3ZZ] Drainage of Aortic Body, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9D40Z] Drainage of Aortic Body with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9D4ZX] Drainage of Aortic Body, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9D4ZZ] Drainage of Aortic Body, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9F00Z] Drainage of Paraganglion Extremity with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9F0ZX] Drainage of Paraganglion Extremity, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9F0ZZ] Drainage of Paraganglion Extremity, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9F30Z] Drainage of Paraganglion Extremity with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9F3ZX] Drainage of Paraganglion Extremity, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9F3ZZ] Drainage of Paraganglion Extremity, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9F40Z] Drainage of Paraganglion Extremity with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9F4ZX] Drainage of Paraganglion Extremity, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9F4ZZ] Drainage of Paraganglion Extremity, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9G00Z] Drainage of Left Thyroid Gland Lobe with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9G0ZX] Drainage of Left Thyroid Gland Lobe, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9G0ZZ] Drainage of Left Thyroid Gland Lobe, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9G30Z] Drainage of Left Thyroid Gland Lobe with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9G3ZX] Drainage of Left Thyroid Gland Lobe, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9G3ZZ] Drainage of Left Thyroid Gland Lobe, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9G40Z] Drainage of Left Thyroid Gland Lobe with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9G4ZX] Drainage of Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9G4ZZ] Drainage of Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9H00Z] Drainage of Right Thyroid Gland Lobe with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9H0ZX] Drainage of Right Thyroid Gland Lobe, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9H0ZZ] Drainage of Right Thyroid Gland Lobe, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9H30Z] Drainage of Right Thyroid Gland Lobe with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9H3ZX] Drainage of Right Thyroid Gland Lobe, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9H3ZZ] Drainage of Right Thyroid Gland Lobe, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9H40Z] Drainage of Right Thyroid Gland Lobe with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9H4ZX] Drainage of Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9H4ZZ] Drainage of Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9K00Z] Drainage of Thyroid Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9K0ZX] Drainage of Thyroid Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9K0ZZ] Drainage of Thyroid Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9K30Z] Drainage of Thyroid Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9K3ZX] Drainage of Thyroid Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9K3ZZ] Drainage of Thyroid Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9K40Z] Drainage of Thyroid Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9K4ZX] Drainage of Thyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9K4ZZ] Drainage of Thyroid Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9L00Z] Drainage of Right Superior Parathyroid Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9L0ZX] Drainage of Right Superior Parathyroid Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9L0ZZ] Drainage of Right Superior Parathyroid Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9L30Z] Drainage of Right Superior Parathyroid Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9L3ZX] Drainage of Right Superior Parathyroid Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9L3ZZ] Drainage of Right Superior Parathyroid Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9L40Z] Drainage of Right Superior Parathyroid Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9L4ZX] Drainage of Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9L4ZZ] Drainage of Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9M00Z] Drainage of Left Superior Parathyroid Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9M0ZX] Drainage of Left Superior Parathyroid Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9M0ZZ] Drainage of Left Superior Parathyroid Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9M30Z] Drainage of Left Superior Parathyroid Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9M3ZX] Drainage of Left Superior Parathyroid Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9M3ZZ] Drainage of Left Superior Parathyroid Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9M40Z] Drainage of Left Superior Parathyroid Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9M4ZX] Drainage of Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9M4ZZ] Drainage of Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9N00Z] Drainage of Right Inferior Parathyroid Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9N0ZX] Drainage of Right Inferior Parathyroid Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9N0ZZ] Drainage of Right Inferior Parathyroid Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9N30Z] Drainage of Right Inferior Parathyroid Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9N3ZX] Drainage of Right Inferior Parathyroid Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9N3ZZ] Drainage of Right Inferior Parathyroid Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9N40Z] Drainage of Right Inferior Parathyroid Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9N4ZX] Drainage of Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9N4ZZ] Drainage of Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9P00Z] Drainage of Left Inferior Parathyroid Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9P0ZX] Drainage of Left Inferior Parathyroid Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9P0ZZ] Drainage of Left Inferior Parathyroid Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9P30Z] Drainage of Left Inferior Parathyroid Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9P3ZX] Drainage of Left Inferior Parathyroid Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9P3ZZ] Drainage of Left Inferior Parathyroid Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9P40Z] Drainage of Left Inferior Parathyroid Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9P4ZX] Drainage of Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9P4ZZ] Drainage of Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9Q00Z] Drainage of Multiple Parathyroid Glands with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9Q0ZX] Drainage of Multiple Parathyroid Glands, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9Q0ZZ] Drainage of Multiple Parathyroid Glands, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9Q30Z] Drainage of Multiple Parathyroid Glands with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9Q3ZX] Drainage of Multiple Parathyroid Glands, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9Q3ZZ] Drainage of Multiple Parathyroid Glands, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9Q40Z] Drainage of Multiple Parathyroid Glands with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9Q4ZX] Drainage of Multiple Parathyroid Glands, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9Q4ZZ] Drainage of Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9R00Z] Drainage of Parathyroid Gland with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9R0ZX] Drainage of Parathyroid Gland, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9R0ZZ] Drainage of Parathyroid Gland, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9R30Z] Drainage of Parathyroid Gland with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9R3ZX] Drainage of Parathyroid Gland, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9R3ZZ] Drainage of Parathyroid Gland, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9R40Z] Drainage of Parathyroid Gland with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0G9R4ZX] Drainage of Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[0G9R4ZZ] Drainage of Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[0GB] Endocrine System, Excision -- Cutting out or off, without replacement, a portion of a body part
+[0GB00ZX] Excision of Pituitary Gland, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB00ZZ] Excision of Pituitary Gland, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB03ZX] Excision of Pituitary Gland, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB03ZZ] Excision of Pituitary Gland, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB04ZX] Excision of Pituitary Gland, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB04ZZ] Excision of Pituitary Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB10ZX] Excision of Pineal Body, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB10ZZ] Excision of Pineal Body, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB13ZX] Excision of Pineal Body, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB13ZZ] Excision of Pineal Body, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB14ZX] Excision of Pineal Body, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB14ZZ] Excision of Pineal Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB20ZX] Excision of Left Adrenal Gland, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB20ZZ] Excision of Left Adrenal Gland, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB23ZX] Excision of Left Adrenal Gland, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB23ZZ] Excision of Left Adrenal Gland, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB24ZX] Excision of Left Adrenal Gland, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB24ZZ] Excision of Left Adrenal Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB30ZX] Excision of Right Adrenal Gland, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB30ZZ] Excision of Right Adrenal Gland, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB33ZX] Excision of Right Adrenal Gland, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB33ZZ] Excision of Right Adrenal Gland, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB34ZX] Excision of Right Adrenal Gland, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB34ZZ] Excision of Right Adrenal Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB40ZX] Excision of Bilateral Adrenal Glands, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB40ZZ] Excision of Bilateral Adrenal Glands, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB43ZX] Excision of Bilateral Adrenal Glands, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB43ZZ] Excision of Bilateral Adrenal Glands, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB44ZX] Excision of Bilateral Adrenal Glands, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB44ZZ] Excision of Bilateral Adrenal Glands, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB60ZX] Excision of Left Carotid Body, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB60ZZ] Excision of Left Carotid Body, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB63ZX] Excision of Left Carotid Body, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB63ZZ] Excision of Left Carotid Body, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB64ZX] Excision of Left Carotid Body, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB64ZZ] Excision of Left Carotid Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB70ZX] Excision of Right Carotid Body, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB70ZZ] Excision of Right Carotid Body, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB73ZX] Excision of Right Carotid Body, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB73ZZ] Excision of Right Carotid Body, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB74ZX] Excision of Right Carotid Body, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB74ZZ] Excision of Right Carotid Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB80ZX] Excision of Bilateral Carotid Bodies, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB80ZZ] Excision of Bilateral Carotid Bodies, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB83ZX] Excision of Bilateral Carotid Bodies, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB83ZZ] Excision of Bilateral Carotid Bodies, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB84ZX] Excision of Bilateral Carotid Bodies, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB84ZZ] Excision of Bilateral Carotid Bodies, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB90ZX] Excision of Para-aortic Body, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB90ZZ] Excision of Para-aortic Body, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB93ZX] Excision of Para-aortic Body, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB93ZZ] Excision of Para-aortic Body, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GB94ZX] Excision of Para-aortic Body, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GB94ZZ] Excision of Para-aortic Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBB0ZX] Excision of Coccygeal Glomus, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBB0ZZ] Excision of Coccygeal Glomus, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBB3ZX] Excision of Coccygeal Glomus, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBB3ZZ] Excision of Coccygeal Glomus, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBB4ZX] Excision of Coccygeal Glomus, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBB4ZZ] Excision of Coccygeal Glomus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBC0ZX] Excision of Glomus Jugulare, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBC0ZZ] Excision of Glomus Jugulare, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBC3ZX] Excision of Glomus Jugulare, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBC3ZZ] Excision of Glomus Jugulare, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBC4ZX] Excision of Glomus Jugulare, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBC4ZZ] Excision of Glomus Jugulare, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBD0ZX] Excision of Aortic Body, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBD0ZZ] Excision of Aortic Body, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBD3ZX] Excision of Aortic Body, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBD3ZZ] Excision of Aortic Body, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBD4ZX] Excision of Aortic Body, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBD4ZZ] Excision of Aortic Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBF0ZX] Excision of Paraganglion Extremity, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBF0ZZ] Excision of Paraganglion Extremity, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBF3ZX] Excision of Paraganglion Extremity, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBF3ZZ] Excision of Paraganglion Extremity, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBF4ZX] Excision of Paraganglion Extremity, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBF4ZZ] Excision of Paraganglion Extremity, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBG0ZX] Excision of Left Thyroid Gland Lobe, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBG0ZZ] Excision of Left Thyroid Gland Lobe, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBG3ZX] Excision of Left Thyroid Gland Lobe, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBG3ZZ] Excision of Left Thyroid Gland Lobe, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBG4ZX] Excision of Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBG4ZZ] Excision of Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBH0ZX] Excision of Right Thyroid Gland Lobe, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBH0ZZ] Excision of Right Thyroid Gland Lobe, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBH3ZX] Excision of Right Thyroid Gland Lobe, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBH3ZZ] Excision of Right Thyroid Gland Lobe, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBH4ZX] Excision of Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBH4ZZ] Excision of Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBJ0ZX] Excision of Thyroid Gland Isthmus, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBJ0ZZ] Excision of Thyroid Gland Isthmus, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBJ3ZX] Excision of Thyroid Gland Isthmus, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBJ3ZZ] Excision of Thyroid Gland Isthmus, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBJ4ZX] Excision of Thyroid Gland Isthmus, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBJ4ZZ] Excision of Thyroid Gland Isthmus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBL0ZX] Excision of Right Superior Parathyroid Gland, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBL0ZZ] Excision of Right Superior Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBL3ZX] Excision of Right Superior Parathyroid Gland, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBL3ZZ] Excision of Right Superior Parathyroid Gland, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBL4ZX] Excision of Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBL4ZZ] Excision of Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBM0ZX] Excision of Left Superior Parathyroid Gland, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBM0ZZ] Excision of Left Superior Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBM3ZX] Excision of Left Superior Parathyroid Gland, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBM3ZZ] Excision of Left Superior Parathyroid Gland, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBM4ZX] Excision of Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBM4ZZ] Excision of Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBN0ZX] Excision of Right Inferior Parathyroid Gland, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBN0ZZ] Excision of Right Inferior Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBN3ZX] Excision of Right Inferior Parathyroid Gland, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBN3ZZ] Excision of Right Inferior Parathyroid Gland, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBN4ZX] Excision of Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBN4ZZ] Excision of Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBP0ZX] Excision of Left Inferior Parathyroid Gland, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBP0ZZ] Excision of Left Inferior Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBP3ZX] Excision of Left Inferior Parathyroid Gland, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBP3ZZ] Excision of Left Inferior Parathyroid Gland, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBP4ZX] Excision of Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBP4ZZ] Excision of Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBQ0ZX] Excision of Multiple Parathyroid Glands, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBQ0ZZ] Excision of Multiple Parathyroid Glands, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBQ3ZX] Excision of Multiple Parathyroid Glands, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBQ3ZZ] Excision of Multiple Parathyroid Glands, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBQ4ZX] Excision of Multiple Parathyroid Glands, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBQ4ZZ] Excision of Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBR0ZX] Excision of Parathyroid Gland, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBR0ZZ] Excision of Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBR3ZX] Excision of Parathyroid Gland, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBR3ZZ] Excision of Parathyroid Gland, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GBR4ZX] Excision of Parathyroid Gland, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[0GBR4ZZ] Excision of Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[0GC] Endocrine System, Extirpation -- Taking or cutting out solid matter from a body part
+[0GC00ZZ] Extirpation of Matter from Pituitary Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC03ZZ] Extirpation of Matter from Pituitary Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC04ZZ] Extirpation of Matter from Pituitary Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GC10ZZ] Extirpation of Matter from Pineal Body, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC13ZZ] Extirpation of Matter from Pineal Body, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC14ZZ] Extirpation of Matter from Pineal Body, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GC20ZZ] Extirpation of Matter from Left Adrenal Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC23ZZ] Extirpation of Matter from Left Adrenal Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC24ZZ] Extirpation of Matter from Left Adrenal Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GC30ZZ] Extirpation of Matter from Right Adrenal Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC33ZZ] Extirpation of Matter from Right Adrenal Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC34ZZ] Extirpation of Matter from Right Adrenal Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GC40ZZ] Extirpation of Matter from Bilateral Adrenal Glands, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC43ZZ] Extirpation of Matter from Bilateral Adrenal Glands, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC44ZZ] Extirpation of Matter from Bilateral Adrenal Glands, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GC60ZZ] Extirpation of Matter from Left Carotid Body, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC63ZZ] Extirpation of Matter from Left Carotid Body, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC64ZZ] Extirpation of Matter from Left Carotid Body, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GC70ZZ] Extirpation of Matter from Right Carotid Body, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC73ZZ] Extirpation of Matter from Right Carotid Body, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC74ZZ] Extirpation of Matter from Right Carotid Body, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GC80ZZ] Extirpation of Matter from Bilateral Carotid Bodies, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC83ZZ] Extirpation of Matter from Bilateral Carotid Bodies, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC84ZZ] Extirpation of Matter from Bilateral Carotid Bodies, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GC90ZZ] Extirpation of Matter from Para-aortic Body, Open Approach -- Taking or cutting out solid matter from a body part
+[0GC93ZZ] Extirpation of Matter from Para-aortic Body, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GC94ZZ] Extirpation of Matter from Para-aortic Body, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCB0ZZ] Extirpation of Matter from Coccygeal Glomus, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCB3ZZ] Extirpation of Matter from Coccygeal Glomus, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCB4ZZ] Extirpation of Matter from Coccygeal Glomus, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCC0ZZ] Extirpation of Matter from Glomus Jugulare, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCC3ZZ] Extirpation of Matter from Glomus Jugulare, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCC4ZZ] Extirpation of Matter from Glomus Jugulare, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCD0ZZ] Extirpation of Matter from Aortic Body, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCD3ZZ] Extirpation of Matter from Aortic Body, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCD4ZZ] Extirpation of Matter from Aortic Body, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCF0ZZ] Extirpation of Matter from Paraganglion Extremity, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCF3ZZ] Extirpation of Matter from Paraganglion Extremity, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCF4ZZ] Extirpation of Matter from Paraganglion Extremity, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCG0ZZ] Extirpation of Matter from Left Thyroid Gland Lobe, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCG3ZZ] Extirpation of Matter from Left Thyroid Gland Lobe, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCG4ZZ] Extirpation of Matter from Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCH0ZZ] Extirpation of Matter from Right Thyroid Gland Lobe, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCH3ZZ] Extirpation of Matter from Right Thyroid Gland Lobe, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCH4ZZ] Extirpation of Matter from Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCK0ZZ] Extirpation of Matter from Thyroid Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCK3ZZ] Extirpation of Matter from Thyroid Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCK4ZZ] Extirpation of Matter from Thyroid Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCL0ZZ] Extirpation of Matter from Right Superior Parathyroid Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCL3ZZ] Extirpation of Matter from Right Superior Parathyroid Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCL4ZZ] Extirpation of Matter from Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCM0ZZ] Extirpation of Matter from Left Superior Parathyroid Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCM3ZZ] Extirpation of Matter from Left Superior Parathyroid Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCM4ZZ] Extirpation of Matter from Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCN0ZZ] Extirpation of Matter from Right Inferior Parathyroid Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCN3ZZ] Extirpation of Matter from Right Inferior Parathyroid Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCN4ZZ] Extirpation of Matter from Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCP0ZZ] Extirpation of Matter from Left Inferior Parathyroid Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCP3ZZ] Extirpation of Matter from Left Inferior Parathyroid Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCP4ZZ] Extirpation of Matter from Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCQ0ZZ] Extirpation of Matter from Multiple Parathyroid Glands, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCQ3ZZ] Extirpation of Matter from Multiple Parathyroid Glands, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCQ4ZZ] Extirpation of Matter from Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GCR0ZZ] Extirpation of Matter from Parathyroid Gland, Open Approach -- Taking or cutting out solid matter from a body part
+[0GCR3ZZ] Extirpation of Matter from Parathyroid Gland, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[0GCR4ZZ] Extirpation of Matter from Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[0GH] Endocrine System, Insertion -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS01Z] Insertion of Radioactive Element into Endocrine Gland, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS02Z] Insertion of Monitoring Device into Endocrine Gland, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS03Z] Insertion of Infusion Device into Endocrine Gland, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS0YZ] Insertion of Other Device into Endocrine Gland, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS31Z] Insertion of Radioactive Element into Endocrine Gland, Percutaneous Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS32Z] Insertion of Monitoring Device into Endocrine Gland, Percutaneous Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS33Z] Insertion of Infusion Device into Endocrine Gland, Percutaneous Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS3YZ] Insertion of Other Device into Endocrine Gland, Percutaneous Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS41Z] Insertion of Radioactive Element into Endocrine Gland, Percutaneous Endoscopic Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS42Z] Insertion of Monitoring Device into Endocrine Gland, Percutaneous Endoscopic Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS43Z] Insertion of Infusion Device into Endocrine Gland, Percutaneous Endoscopic Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GHS4YZ] Insertion of Other Device into Endocrine Gland, Percutaneous Endoscopic Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[0GJ] Endocrine System, Inspection -- Visually and/or manually exploring a body part
+[0GJ00ZZ] Inspection of Pituitary Gland, Open Approach -- Visually and/or manually exploring a body part
+[0GJ03ZZ] Inspection of Pituitary Gland, Percutaneous Approach -- Visually and/or manually exploring a body part
+[0GJ04ZZ] Inspection of Pituitary Gland, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[0GJ10ZZ] Inspection of Pineal Body, Open Approach -- Visually and/or manually exploring a body part
+[0GJ13ZZ] Inspection of Pineal Body, Percutaneous Approach -- Visually and/or manually exploring a body part
+[0GJ14ZZ] Inspection of Pineal Body, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[0GJ50ZZ] Inspection of Adrenal Gland, Open Approach -- Visually and/or manually exploring a body part
+[0GJ53ZZ] Inspection of Adrenal Gland, Percutaneous Approach -- Visually and/or manually exploring a body part
+[0GJ54ZZ] Inspection of Adrenal Gland, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[0GJK0ZZ] Inspection of Thyroid Gland, Open Approach -- Visually and/or manually exploring a body part
+[0GJK3ZZ] Inspection of Thyroid Gland, Percutaneous Approach -- Visually and/or manually exploring a body part
+[0GJK4ZZ] Inspection of Thyroid Gland, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[0GJR0ZZ] Inspection of Parathyroid Gland, Open Approach -- Visually and/or manually exploring a body part
+[0GJR3ZZ] Inspection of Parathyroid Gland, Percutaneous Approach -- Visually and/or manually exploring a body part
+[0GJR4ZZ] Inspection of Parathyroid Gland, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[0GJS0ZZ] Inspection of Endocrine Gland, Open Approach -- Visually and/or manually exploring a body part
+[0GJS3ZZ] Inspection of Endocrine Gland, Percutaneous Approach -- Visually and/or manually exploring a body part
+[0GJS4ZZ] Inspection of Endocrine Gland, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[0GM] Endocrine System, Reattachment -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GM20ZZ] Reattachment of Left Adrenal Gland, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GM24ZZ] Reattachment of Left Adrenal Gland, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GM30ZZ] Reattachment of Right Adrenal Gland, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GM34ZZ] Reattachment of Right Adrenal Gland, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMG0ZZ] Reattachment of Left Thyroid Gland Lobe, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMG4ZZ] Reattachment of Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMH0ZZ] Reattachment of Right Thyroid Gland Lobe, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMH4ZZ] Reattachment of Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GML0ZZ] Reattachment of Right Superior Parathyroid Gland, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GML4ZZ] Reattachment of Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMM0ZZ] Reattachment of Left Superior Parathyroid Gland, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMM4ZZ] Reattachment of Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMN0ZZ] Reattachment of Right Inferior Parathyroid Gland, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMN4ZZ] Reattachment of Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMP0ZZ] Reattachment of Left Inferior Parathyroid Gland, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMP4ZZ] Reattachment of Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMQ0ZZ] Reattachment of Multiple Parathyroid Glands, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMQ4ZZ] Reattachment of Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMR0ZZ] Reattachment of Parathyroid Gland, Open Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GMR4ZZ] Reattachment of Parathyroid Gland, Percutaneous Endoscopic Approach -- Putting back in or on all or a portion of a separated body part to its normal location or other suitable location
+[0GN] Endocrine System, Release -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN00ZZ] Release Pituitary Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN03ZZ] Release Pituitary Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN04ZZ] Release Pituitary Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN10ZZ] Release Pineal Body, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN13ZZ] Release Pineal Body, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN14ZZ] Release Pineal Body, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN20ZZ] Release Left Adrenal Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN23ZZ] Release Left Adrenal Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN24ZZ] Release Left Adrenal Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN30ZZ] Release Right Adrenal Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN33ZZ] Release Right Adrenal Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN34ZZ] Release Right Adrenal Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN40ZZ] Release Bilateral Adrenal Glands, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN43ZZ] Release Bilateral Adrenal Glands, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN44ZZ] Release Bilateral Adrenal Glands, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN60ZZ] Release Left Carotid Body, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN63ZZ] Release Left Carotid Body, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN64ZZ] Release Left Carotid Body, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN70ZZ] Release Right Carotid Body, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN73ZZ] Release Right Carotid Body, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN74ZZ] Release Right Carotid Body, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN80ZZ] Release Bilateral Carotid Bodies, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN83ZZ] Release Bilateral Carotid Bodies, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN84ZZ] Release Bilateral Carotid Bodies, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN90ZZ] Release Para-aortic Body, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN93ZZ] Release Para-aortic Body, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GN94ZZ] Release Para-aortic Body, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNB0ZZ] Release Coccygeal Glomus, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNB3ZZ] Release Coccygeal Glomus, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNB4ZZ] Release Coccygeal Glomus, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNC0ZZ] Release Glomus Jugulare, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNC3ZZ] Release Glomus Jugulare, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNC4ZZ] Release Glomus Jugulare, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GND0ZZ] Release Aortic Body, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GND3ZZ] Release Aortic Body, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GND4ZZ] Release Aortic Body, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNF0ZZ] Release Paraganglion Extremity, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNF3ZZ] Release Paraganglion Extremity, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNF4ZZ] Release Paraganglion Extremity, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNG0ZZ] Release Left Thyroid Gland Lobe, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNG3ZZ] Release Left Thyroid Gland Lobe, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNG4ZZ] Release Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNH0ZZ] Release Right Thyroid Gland Lobe, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNH3ZZ] Release Right Thyroid Gland Lobe, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNH4ZZ] Release Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNK0ZZ] Release Thyroid Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNK3ZZ] Release Thyroid Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNK4ZZ] Release Thyroid Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNL0ZZ] Release Right Superior Parathyroid Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNL3ZZ] Release Right Superior Parathyroid Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNL4ZZ] Release Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNM0ZZ] Release Left Superior Parathyroid Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNM3ZZ] Release Left Superior Parathyroid Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNM4ZZ] Release Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNN0ZZ] Release Right Inferior Parathyroid Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNN3ZZ] Release Right Inferior Parathyroid Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNN4ZZ] Release Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNP0ZZ] Release Left Inferior Parathyroid Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNP3ZZ] Release Left Inferior Parathyroid Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNP4ZZ] Release Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNQ0ZZ] Release Multiple Parathyroid Glands, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNQ3ZZ] Release Multiple Parathyroid Glands, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNQ4ZZ] Release Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNR0ZZ] Release Parathyroid Gland, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNR3ZZ] Release Parathyroid Gland, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GNR4ZZ] Release Parathyroid Gland, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[0GP] Endocrine System, Removal -- Taking out or off a device from a body part
+[0GP000Z] Removal of Drainage Device from Pituitary Gland, Open Approach -- Taking out or off a device from a body part
+[0GP030Z] Removal of Drainage Device from Pituitary Gland, Percutaneous Approach -- Taking out or off a device from a body part
+[0GP040Z] Removal of Drainage Device from Pituitary Gland, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GP0X0Z] Removal of Drainage Device from Pituitary Gland, External Approach -- Taking out or off a device from a body part
+[0GP100Z] Removal of Drainage Device from Pineal Body, Open Approach -- Taking out or off a device from a body part
+[0GP130Z] Removal of Drainage Device from Pineal Body, Percutaneous Approach -- Taking out or off a device from a body part
+[0GP140Z] Removal of Drainage Device from Pineal Body, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GP1X0Z] Removal of Drainage Device from Pineal Body, External Approach -- Taking out or off a device from a body part
+[0GP500Z] Removal of Drainage Device from Adrenal Gland, Open Approach -- Taking out or off a device from a body part
+[0GP530Z] Removal of Drainage Device from Adrenal Gland, Percutaneous Approach -- Taking out or off a device from a body part
+[0GP540Z] Removal of Drainage Device from Adrenal Gland, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GP5X0Z] Removal of Drainage Device from Adrenal Gland, External Approach -- Taking out or off a device from a body part
+[0GPK00Z] Removal of Drainage Device from Thyroid Gland, Open Approach -- Taking out or off a device from a body part
+[0GPK30Z] Removal of Drainage Device from Thyroid Gland, Percutaneous Approach -- Taking out or off a device from a body part
+[0GPK40Z] Removal of Drainage Device from Thyroid Gland, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GPKX0Z] Removal of Drainage Device from Thyroid Gland, External Approach -- Taking out or off a device from a body part
+[0GPR00Z] Removal of Drainage Device from Parathyroid Gland, Open Approach -- Taking out or off a device from a body part
+[0GPR30Z] Removal of Drainage Device from Parathyroid Gland, Percutaneous Approach -- Taking out or off a device from a body part
+[0GPR40Z] Removal of Drainage Device from Parathyroid Gland, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GPRX0Z] Removal of Drainage Device from Parathyroid Gland, External Approach -- Taking out or off a device from a body part
+[0GPS00Z] Removal of Drainage Device from Endocrine Gland, Open Approach -- Taking out or off a device from a body part
+[0GPS02Z] Removal of Monitoring Device from Endocrine Gland, Open Approach -- Taking out or off a device from a body part
+[0GPS03Z] Removal of Infusion Device from Endocrine Gland, Open Approach -- Taking out or off a device from a body part
+[0GPS0YZ] Removal of Other Device from Endocrine Gland, Open Approach -- Taking out or off a device from a body part
+[0GPS30Z] Removal of Drainage Device from Endocrine Gland, Percutaneous Approach -- Taking out or off a device from a body part
+[0GPS32Z] Removal of Monitoring Device from Endocrine Gland, Percutaneous Approach -- Taking out or off a device from a body part
+[0GPS33Z] Removal of Infusion Device from Endocrine Gland, Percutaneous Approach -- Taking out or off a device from a body part
+[0GPS3YZ] Removal of Other Device from Endocrine Gland, Percutaneous Approach -- Taking out or off a device from a body part
+[0GPS40Z] Removal of Drainage Device from Endocrine Gland, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GPS42Z] Removal of Monitoring Device from Endocrine Gland, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GPS43Z] Removal of Infusion Device from Endocrine Gland, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GPS4YZ] Removal of Other Device from Endocrine Gland, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[0GPSX0Z] Removal of Drainage Device from Endocrine Gland, External Approach -- Taking out or off a device from a body part
+[0GPSX2Z] Removal of Monitoring Device from Endocrine Gland, External Approach -- Taking out or off a device from a body part
+[0GPSX3Z] Removal of Infusion Device from Endocrine Gland, External Approach -- Taking out or off a device from a body part
+[0GQ] Endocrine System, Repair -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ00ZZ] Repair Pituitary Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ03ZZ] Repair Pituitary Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ04ZZ] Repair Pituitary Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ10ZZ] Repair Pineal Body, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ13ZZ] Repair Pineal Body, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ14ZZ] Repair Pineal Body, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ20ZZ] Repair Left Adrenal Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ23ZZ] Repair Left Adrenal Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ24ZZ] Repair Left Adrenal Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ30ZZ] Repair Right Adrenal Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ33ZZ] Repair Right Adrenal Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ34ZZ] Repair Right Adrenal Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ40ZZ] Repair Bilateral Adrenal Glands, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ43ZZ] Repair Bilateral Adrenal Glands, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ44ZZ] Repair Bilateral Adrenal Glands, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ60ZZ] Repair Left Carotid Body, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ63ZZ] Repair Left Carotid Body, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ64ZZ] Repair Left Carotid Body, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ70ZZ] Repair Right Carotid Body, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ73ZZ] Repair Right Carotid Body, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ74ZZ] Repair Right Carotid Body, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ80ZZ] Repair Bilateral Carotid Bodies, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ83ZZ] Repair Bilateral Carotid Bodies, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ84ZZ] Repair Bilateral Carotid Bodies, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ90ZZ] Repair Para-aortic Body, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ93ZZ] Repair Para-aortic Body, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQ94ZZ] Repair Para-aortic Body, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQB0ZZ] Repair Coccygeal Glomus, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQB3ZZ] Repair Coccygeal Glomus, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQB4ZZ] Repair Coccygeal Glomus, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQC0ZZ] Repair Glomus Jugulare, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQC3ZZ] Repair Glomus Jugulare, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQC4ZZ] Repair Glomus Jugulare, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQD0ZZ] Repair Aortic Body, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQD3ZZ] Repair Aortic Body, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQD4ZZ] Repair Aortic Body, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQF0ZZ] Repair Paraganglion Extremity, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQF3ZZ] Repair Paraganglion Extremity, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQF4ZZ] Repair Paraganglion Extremity, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQG0ZZ] Repair Left Thyroid Gland Lobe, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQG3ZZ] Repair Left Thyroid Gland Lobe, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQG4ZZ] Repair Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQH0ZZ] Repair Right Thyroid Gland Lobe, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQH3ZZ] Repair Right Thyroid Gland Lobe, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQH4ZZ] Repair Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQJ0ZZ] Repair Thyroid Gland Isthmus, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQJ3ZZ] Repair Thyroid Gland Isthmus, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQJ4ZZ] Repair Thyroid Gland Isthmus, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQK0ZZ] Repair Thyroid Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQK3ZZ] Repair Thyroid Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQK4ZZ] Repair Thyroid Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQL0ZZ] Repair Right Superior Parathyroid Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQL3ZZ] Repair Right Superior Parathyroid Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQL4ZZ] Repair Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQM0ZZ] Repair Left Superior Parathyroid Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQM3ZZ] Repair Left Superior Parathyroid Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQM4ZZ] Repair Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQN0ZZ] Repair Right Inferior Parathyroid Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQN3ZZ] Repair Right Inferior Parathyroid Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQN4ZZ] Repair Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQP0ZZ] Repair Left Inferior Parathyroid Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQP3ZZ] Repair Left Inferior Parathyroid Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQP4ZZ] Repair Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQQ0ZZ] Repair Multiple Parathyroid Glands, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQQ3ZZ] Repair Multiple Parathyroid Glands, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQQ4ZZ] Repair Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQR0ZZ] Repair Parathyroid Gland, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQR3ZZ] Repair Parathyroid Gland, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GQR4ZZ] Repair Parathyroid Gland, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[0GS] Endocrine System, Reposition -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GS20ZZ] Reposition Left Adrenal Gland, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GS24ZZ] Reposition Left Adrenal Gland, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GS30ZZ] Reposition Right Adrenal Gland, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GS34ZZ] Reposition Right Adrenal Gland, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSG0ZZ] Reposition Left Thyroid Gland Lobe, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSG4ZZ] Reposition Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSH0ZZ] Reposition Right Thyroid Gland Lobe, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSH4ZZ] Reposition Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSL0ZZ] Reposition Right Superior Parathyroid Gland, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSL4ZZ] Reposition Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSM0ZZ] Reposition Left Superior Parathyroid Gland, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSM4ZZ] Reposition Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSN0ZZ] Reposition Right Inferior Parathyroid Gland, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSN4ZZ] Reposition Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSP0ZZ] Reposition Left Inferior Parathyroid Gland, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSP4ZZ] Reposition Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSQ0ZZ] Reposition Multiple Parathyroid Glands, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSQ4ZZ] Reposition Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSR0ZZ] Reposition Parathyroid Gland, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GSR4ZZ] Reposition Parathyroid Gland, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[0GT] Endocrine System, Resection -- Cutting out or off, without replacement, all of a body part
+[0GT00ZZ] Resection of Pituitary Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT04ZZ] Resection of Pituitary Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GT10ZZ] Resection of Pineal Body, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT14ZZ] Resection of Pineal Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GT20ZZ] Resection of Left Adrenal Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT24ZZ] Resection of Left Adrenal Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GT30ZZ] Resection of Right Adrenal Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT34ZZ] Resection of Right Adrenal Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GT40ZZ] Resection of Bilateral Adrenal Glands, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT44ZZ] Resection of Bilateral Adrenal Glands, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GT60ZZ] Resection of Left Carotid Body, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT64ZZ] Resection of Left Carotid Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GT70ZZ] Resection of Right Carotid Body, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT74ZZ] Resection of Right Carotid Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GT80ZZ] Resection of Bilateral Carotid Bodies, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT84ZZ] Resection of Bilateral Carotid Bodies, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GT90ZZ] Resection of Para-aortic Body, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GT94ZZ] Resection of Para-aortic Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTB0ZZ] Resection of Coccygeal Glomus, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTB4ZZ] Resection of Coccygeal Glomus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTC0ZZ] Resection of Glomus Jugulare, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTC4ZZ] Resection of Glomus Jugulare, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTD0ZZ] Resection of Aortic Body, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTD4ZZ] Resection of Aortic Body, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTF0ZZ] Resection of Paraganglion Extremity, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTF4ZZ] Resection of Paraganglion Extremity, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTG0ZZ] Resection of Left Thyroid Gland Lobe, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTG4ZZ] Resection of Left Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTH0ZZ] Resection of Right Thyroid Gland Lobe, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTH4ZZ] Resection of Right Thyroid Gland Lobe, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTJ0ZZ] Resection of Thyroid Gland Isthmus, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTJ4ZZ] Resection of Thyroid Gland Isthmus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTK0ZZ] Resection of Thyroid Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTK4ZZ] Resection of Thyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTL0ZZ] Resection of Right Superior Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTL4ZZ] Resection of Right Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTM0ZZ] Resection of Left Superior Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTM4ZZ] Resection of Left Superior Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTN0ZZ] Resection of Right Inferior Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTN4ZZ] Resection of Right Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTP0ZZ] Resection of Left Inferior Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTP4ZZ] Resection of Left Inferior Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTQ0ZZ] Resection of Multiple Parathyroid Glands, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTQ4ZZ] Resection of Multiple Parathyroid Glands, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GTR0ZZ] Resection of Parathyroid Gland, Open Approach -- Cutting out or off, without replacement, all of a body part
+[0GTR4ZZ] Resection of Parathyroid Gland, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[0GW] Endocrine System, Revision -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW000Z] Revision of Drainage Device in Pituitary Gland, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW030Z] Revision of Drainage Device in Pituitary Gland, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW040Z] Revision of Drainage Device in Pituitary Gland, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW0X0Z] Revision of Drainage Device in Pituitary Gland, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW100Z] Revision of Drainage Device in Pineal Body, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW130Z] Revision of Drainage Device in Pineal Body, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW140Z] Revision of Drainage Device in Pineal Body, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW1X0Z] Revision of Drainage Device in Pineal Body, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW500Z] Revision of Drainage Device in Adrenal Gland, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW530Z] Revision of Drainage Device in Adrenal Gland, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW540Z] Revision of Drainage Device in Adrenal Gland, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GW5X0Z] Revision of Drainage Device in Adrenal Gland, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWK00Z] Revision of Drainage Device in Thyroid Gland, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWK30Z] Revision of Drainage Device in Thyroid Gland, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWK40Z] Revision of Drainage Device in Thyroid Gland, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWKX0Z] Revision of Drainage Device in Thyroid Gland, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWR00Z] Revision of Drainage Device in Parathyroid Gland, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWR30Z] Revision of Drainage Device in Parathyroid Gland, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWR40Z] Revision of Drainage Device in Parathyroid Gland, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWRX0Z] Revision of Drainage Device in Parathyroid Gland, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS00Z] Revision of Drainage Device in Endocrine Gland, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS02Z] Revision of Monitoring Device in Endocrine Gland, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS03Z] Revision of Infusion Device in Endocrine Gland, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS0YZ] Revision of Other Device in Endocrine Gland, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS30Z] Revision of Drainage Device in Endocrine Gland, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS32Z] Revision of Monitoring Device in Endocrine Gland, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS33Z] Revision of Infusion Device in Endocrine Gland, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS3YZ] Revision of Other Device in Endocrine Gland, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS40Z] Revision of Drainage Device in Endocrine Gland, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS42Z] Revision of Monitoring Device in Endocrine Gland, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS43Z] Revision of Infusion Device in Endocrine Gland, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWS4YZ] Revision of Other Device in Endocrine Gland, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWSX0Z] Revision of Drainage Device in Endocrine Gland, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWSX2Z] Revision of Monitoring Device in Endocrine Gland, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[0GWSX3Z] Revision of Infusion Device in Endocrine Gland, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device

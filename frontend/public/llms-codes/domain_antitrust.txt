@@ -1,0 +1,14 @@
+[AT] Antitrust Types :: naics_2022:5411
+[AT.01] Horizontal Price Fixing
+[AT.02] Bid Rigging
+[AT.03] Market Allocation
+[AT.04] Monopolization (Sherman Act)
+[AT.05] Attempted Monopolization
+[AT.06] Tying Arrangement
+[AT.07] Exclusive Dealing
+[AT.08] Merger Review (Hart-Scott-Rodino)
+[AT.09] Vertical Restraint
+[AT.10] Refusal to Deal
+[AT.11] Abuse of Dominance (EU Art 102)
+[AT.12] Cartel Leniency Program
+[AT.13] Digital Platform Antitrust

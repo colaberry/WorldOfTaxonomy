@@ -1,0 +1,18 @@
+[br_feature] Bond Features :: naics_2022:523
+[br_feature_call] Callable bond
+[br_feature_fixed] Fixed coupon
+[br_feature_float] Floating rate note (FRN)
+[br_feature_link] Inflation-linked (TIPS, linkers)
+[br_feature_put] Puttable bond
+[br_feature_zero] Zero coupon
+[br_market] Market Segments :: naics_2022:523
+[br_market_dom] Domestic bond market
+[br_market_em] Emerging market debt
+[br_market_euro] Eurobond market
+[br_market_green] Green and social bonds
+[br_type] Bond Types :: naics_2022:523
+[br_type_agency] Agency bonds (GSE, MBS pass-through)
+[br_type_convert] Convertible bonds
+[br_type_corp] Corporate bonds (IG, HY)
+[br_type_govt] Government bonds (sovereign, treasury)
+[br_type_muni] Municipal bonds (GO, revenue)

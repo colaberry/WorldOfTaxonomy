@@ -1,0 +1,18 @@
+[dimplt_gaming] Gaming and Interactive Entertainment Platforms :: naics_2022:51
+[dimplt_marketplace] Marketplace and Commerce Platforms :: naics_2022:51
+[dimplt_marketplace_app] App Store and Software Marketplace (Apple, Google Play)
+[dimplt_marketplace_gen] General Marketplace (Amazon, eBay, Etsy)
+[dimplt_owned] Owned and Operated Media Platforms :: naics_2022:51
+[dimplt_owned_ott] Owned OTT and CTV Platform (Peacock, Paramount+)
+[dimplt_owned_web] Owned Website and App (publisher, brand direct)
+[dimplt_search] Search and Discovery Platforms :: naics_2022:51
+[dimplt_search_general] General Search Engine (Google, Bing)
+[dimplt_search_vertical] Vertical Search (Zillow, Indeed, Expedia)
+[dimplt_social] Social and User-Generated Content Platforms :: naics_2022:51
+[dimplt_social_messaging] Messaging and Chat Platform (WhatsApp, Telegram)
+[dimplt_social_prof] Professional Network Platform (LinkedIn, GitHub)
+[dimplt_social_ump] Universal Social Platform (Meta, TikTok, YouTube)
+[dimplt_streaming] Audio and Video Streaming Platforms :: naics_2022:51
+[dimplt_streaming_music] Music Streaming (Spotify, Apple Music)
+[dimplt_streaming_podcast] Podcast and Spoken Word Platform
+[dimplt_streaming_video] Video-on-Demand and SVOD (Netflix, HBO Max)

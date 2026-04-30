@@ -1,0 +1,16 @@
+[rcx_assess] Assessment Methods :: naics_2022:5419
+[rcx_assess_energy] Energy benchmarking and baselining
+[rcx_assess_func] Functional testing of existing systems
+[rcx_assess_occ] Occupant comfort surveys
+[rcx_assess_trend] Trend log analysis
+[rcx_measure] Common Measures :: naics_2022:5419
+[rcx_measure_econ] Economizer repair and optimization
+[rcx_measure_reset] Supply air temperature reset
+[rcx_measure_sched] Schedule optimization
+[rcx_measure_sensor] Sensor calibration and replacement
+[rcx_measure_vfd] Variable frequency drive (VFD) optimization
+[rcx_tool] Tools and Technology :: naics_2022:5419
+[rcx_tool_bms] BMS data analytics
+[rcx_tool_energy] Energy modeling software
+[rcx_tool_fdd] Automated fault detection (AFDD)
+[rcx_tool_meter] Portable metering and logging

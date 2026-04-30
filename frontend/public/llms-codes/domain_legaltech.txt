@@ -1,0 +1,26 @@
+[dlt_compliance] Compliance Automation :: naics_2022:5415
+[dlt_compliance_audit] Compliance Audit Trail and Reporting Tools
+[dlt_compliance_monitor] Regulatory Change Monitoring and Alerts
+[dlt_compliance_policy] Policy Management and Distribution Platforms
+[dlt_compliance_privacy] Data Privacy and GDPR Compliance Automation
+[dlt_contract] Contract Automation :: naics_2022:5415
+[dlt_contract_esign] Electronic Signature and Execution Platforms
+[dlt_contract_gen] Automated Contract Drafting and Generation
+[dlt_contract_lifecycle] Contract Lifecycle Management (CLM) Platforms
+[dlt_contract_review] AI-Powered Contract Review and Analysis
+[dlt_court] Court Technology :: naics_2022:5415
+[dlt_court_docket] Docket Management and Case Tracking
+[dlt_court_filing] Electronic Court Filing (e-Filing) Systems
+[dlt_court_jury] Jury Selection and Management Technology
+[dlt_court_virtual] Virtual Hearing and Online Dispute Resolution
+[dlt_ediscovery] E-Discovery :: naics_2022:5415
+[dlt_ediscovery_collect] Data Collection and Forensic Preservation
+[dlt_ediscovery_forensic] Digital Forensics and Data Recovery
+[dlt_ediscovery_process] Document Processing and De-Duplication
+[dlt_ediscovery_produce] Document Production and Redaction Tools
+[dlt_ediscovery_review] Technology-Assisted Review (TAR) and Predictive Coding
+[dlt_research] Legal Research AI :: naics_2022:5415
+[dlt_research_case] Case Law Search and Analysis Engines
+[dlt_research_cite] Citation Analysis and Legal Brief Automation
+[dlt_research_predict] Litigation Outcome Prediction and Analytics
+[dlt_research_statute] Statute and Regulation Retrieval Platforms

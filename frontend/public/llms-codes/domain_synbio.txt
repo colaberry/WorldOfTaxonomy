@@ -1,0 +1,28 @@
+[dsb_cfs] Cell-Free Synthetic Biology :: naics_2022:3254, naics_2022:5417
+[dsb_cfs_enzyme] Enzymatic Cell-Free Manufacturing
+[dsb_cfs_proto] Protocells and Minimal Cell Systems
+[dsb_cfs_txtl] Transcription-Translation (TX-TL) Systems
+[dsb_chassis] Chassis Organisms and Biological Platforms :: naics_2022:3254, naics_2022:5417
+[dsb_chassis_ecoli] Escherichia coli Chassis (industrial workhorse)
+[dsb_chassis_mamm] Mammalian Cell Chassis (CHO, HEK293, stem cells)
+[dsb_chassis_yeast] Yeast Chassis (S. cerevisiae, Pichia, Yarrowia)
+[dsb_crispr] CRISPR and Gene Editing Technologies :: naics_2022:3254, naics_2022:5417
+[dsb_crispr_base] Base Editing and Prime Editing
+[dsb_crispr_cas9] CRISPR-Cas9 Genome Editing
+[dsb_crispr_crispri] CRISPRi and CRISPRa (gene regulation)
+[dsb_dna] DNA Synthesis and Assembly :: naics_2022:3254, naics_2022:5417
+[dsb_dna_assemble] DNA Assembly Methods (Gibson, Golden Gate, SLIC)
+[dsb_dna_genome] Genome Writing and Chromosome Engineering
+[dsb_dna_oligo] Oligonucleotide and Gene Synthesis
+[dsb_meta] Metabolic Engineering :: naics_2022:3254, naics_2022:5417
+[dsb_meta_model] Genome-Scale Metabolic Modeling (COBRA, FBA)
+[dsb_meta_pathway] Metabolic Pathway Engineering and Optimization
+[dsb_meta_strain] Strain Development and Adaptive Laboratory Evolution
+[dsb_prod] Bioproducts and Bio-Based Outputs :: naics_2022:3254, naics_2022:5417
+[dsb_prod_biochem] Bio-Based Chemicals (succinic acid, muconic acid)
+[dsb_prod_biofuel] Biofuels (cellulosic ethanol, farnesene, isobutanol)
+[dsb_prod_material] Living Materials and Bioplastics (PHA, PLA, mycelium)
+[dsb_prod_meat] Cultivated Meat and Precision Fermentation Proteins
+[dsb_sensor] Biosensors and Biological Detection :: naics_2022:3254, naics_2022:5417
+[dsb_sensor_cell] Cell-Based Biosensors (reporter strains, whole-cell)
+[dsb_sensor_molec] Molecular Biosensors (aptamers, riboswitches, FRET)

@@ -1,0 +1,17 @@
+[gm_finish] Finish Materials :: naics_2022:5419
+[gm_finish_cork] Cork flooring
+[gm_finish_linol] Linoleum (natural)
+[gm_finish_low] Low-VOC paints and adhesives
+[gm_finish_recl] Reclaimed wood flooring and paneling
+[gm_finish_recyc] Recycled glass and ceramic tile
+[gm_insul] Insulation Materials :: naics_2022:5419
+[gm_insul_aero] Aerogel insulation
+[gm_insul_cellulose] Cellulose insulation
+[gm_insul_sheep] Sheep wool insulation
+[gm_insul_wool] Mineral wool (rock, slag)
+[gm_struct] Structural Materials :: naics_2022:5419
+[gm_struct_bamboo] Bamboo structural elements
+[gm_struct_geo] Geopolymer concrete (low-carbon)
+[gm_struct_hemp] Hempcrete
+[gm_struct_recyc] Recycled steel and reclaimed materials
+[gm_struct_timber] Mass timber (CLT, NLT, DLT, glulam)

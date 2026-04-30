@@ -1,0 +1,16 @@
+[DQ] Data Quality Types :: naics_2022:518, naics_2022:5415
+[DQ.01] Completeness Check
+[DQ.02] Accuracy Validation
+[DQ.03] Consistency Check
+[DQ.04] Timeliness Check
+[DQ.05] Uniqueness Validation
+[DQ.06] Referential Integrity
+[DQ.07] Schema Validation
+[DQ.08] Statistical Profiling
+[DQ.09] Anomaly Detection
+[DQ.10] Data Reconciliation
+[DQ.11] Great Expectations Framework
+[DQ.12] dbt Tests
+[DQ.13] Data Quality SLA
+[DQ.14] Data Quality Dashboard
+[DQ.15] Root Cause Analysis

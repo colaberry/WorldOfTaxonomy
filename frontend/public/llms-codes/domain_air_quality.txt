@@ -1,0 +1,14 @@
+[AQ] Air Quality Index Types :: naics_2022:5417, naics_2022:924
+[AQ.01] AQI - Good (0-50)
+[AQ.02] AQI - Moderate (51-100)
+[AQ.03] AQI - Unhealthy Sensitive (101-150)
+[AQ.04] AQI - Unhealthy (151-200)
+[AQ.05] AQI - Very Unhealthy (201-300)
+[AQ.06] AQI - Hazardous (301-500)
+[AQ.07] PM2.5 Measurement
+[AQ.08] PM10 Measurement
+[AQ.09] Ozone (O3) Level
+[AQ.10] NO2 Level
+[AQ.11] SO2 Level
+[AQ.12] CO Level
+[AQ.13] Indoor Air Quality

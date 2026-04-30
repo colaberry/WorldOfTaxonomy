@@ -1,0 +1,14 @@
+[AP] Apprenticeship Types :: naics_2022:611
+[AP.01] Registered Apprenticeship (US)
+[AP.02] Dual System (Germany)
+[AP.03] Industry Apprenticeship
+[AP.04] Pre-Apprenticeship
+[AP.05] Youth Apprenticeship
+[AP.06] IT Apprenticeship
+[AP.07] Healthcare Apprenticeship
+[AP.08] Construction Apprenticeship
+[AP.09] Manufacturing Apprenticeship
+[AP.10] Degree Apprenticeship (UK)
+[AP.11] Competency-Based Apprenticeship
+[AP.12] Virtual/Hybrid Apprenticeship
+[AP.13] Apprenticeship Standard

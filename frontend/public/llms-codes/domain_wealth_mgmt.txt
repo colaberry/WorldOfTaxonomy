@@ -1,0 +1,17 @@
+[wm_plan] Planning Services :: naics_2022:523
+[wm_plan_estate] Estate planning
+[wm_plan_phil] Philanthropic advisory
+[wm_plan_retire] Retirement planning
+[wm_plan_tax] Tax optimization
+[wm_plan_trust] Trust services
+[wm_strat] Investment Strategies :: naics_2022:523
+[wm_strat_active] Active management
+[wm_strat_alt] Alternative investments
+[wm_strat_esg] ESG / impact investing
+[wm_strat_passive] Passive / index investing
+[wm_strat_quant] Quantitative / systematic strategies
+[wm_svc] Service Tiers :: naics_2022:523
+[wm_svc_hnw] High net worth (HNW) advisory
+[wm_svc_inst] Institutional advisory
+[wm_svc_mass] Mass affluent (digital advisory)
+[wm_svc_uhnw] Ultra-high net worth (UHNW) / family office

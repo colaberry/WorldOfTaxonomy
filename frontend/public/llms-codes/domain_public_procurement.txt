@@ -1,0 +1,19 @@
+[dpubprc_competitive] Competitive Procurement Methods :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpubprc_competitive_bestvalue] Best-value competition (tradeoff between technical and price)
+[dpubprc_competitive_open] Open competitive tendering (IFB, RFP, RFQ - full and open competition)
+[dpubprc_competitive_sealed] Sealed bidding (Invitation for Bids, lowest price technically acceptable)
+[dpubprc_framework] Framework and Indefinite Delivery Vehicle (IDV) Methods :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpubprc_framework_blanket] Blanket Purchase Agreement (BPA) for recurring needs
+[dpubprc_framework_gwac] GWAC / IDIQ multi-award contract (GSA Schedules, SEWP, OASIS)
+[dpubprc_noncompetitive] Non-Competitive and Sole-Source Methods :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpubprc_noncompetitive_emergency] Emergency procurement (disaster, urgent operational need)
+[dpubprc_noncompetitive_sole] Sole-source (single award without competition, justified exception)
+[dpubprc_ppp] Public-Private Partnership (PPP) Procurement :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpubprc_ppp_availability] Availability payment PPP (government pays based on service availability)
+[dpubprc_ppp_concession] Concession-based PPP (operator collects user fees)
+[dpubprc_restricted] Restricted and Pre-Qualified Procurement :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpubprc_restricted_prequalify] Pre-qualification shortlisting before RFP stage
+[dpubprc_restricted_twostage] Two-stage / two-envelope process (technical then commercial)
+[dpubprc_setaside] Set-Aside and Preferential Procurement Programs :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpubprc_setaside_sbir] SBIR/STTR innovation programs
+[dpubprc_setaside_small] Small business set-aside (SBA 8(a), SDVOSB, HUBZone, WOSB)

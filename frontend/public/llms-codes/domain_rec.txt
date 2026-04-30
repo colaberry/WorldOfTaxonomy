@@ -1,0 +1,14 @@
+[RE] Renewable Certificate Types :: naics_2022:5419
+[RE.01] Renewable Energy Certificate (REC)
+[RE.02] Guarantee of Origin (EU)
+[RE.03] I-REC (International)
+[RE.04] TIGR (Tracking Instrument)
+[RE.05] Green-e Certified
+[RE.06] Solar REC (SREC)
+[RE.07] Offshore Wind Certificate
+[RE.08] Bundled REC
+[RE.09] Unbundled REC
+[RE.10] 24/7 Carbon-Free Energy
+[RE.11] Power Purchase Agreement (PPA)
+[RE.12] Virtual PPA
+[RE.13] Community Solar Credit

@@ -1,0 +1,16 @@
+[dqcapp_crypto] Quantum Cryptography and Communications :: naics_2022:3344, naics_2022:5415
+[dqcapp_crypto_pqc] Post-Quantum Cryptography (NIST PQC standards: Kyber, Dilithium)
+[dqcapp_crypto_qkd] Quantum Key Distribution (QKD, BB84, E91 protocols)
+[dqcapp_crypto_qrng] Quantum Random Number Generation (QRNG, hardware entropy)
+[dqcapp_optimize] Quantum Optimization :: naics_2022:3344, naics_2022:5415
+[dqcapp_optimize_fin] Financial portfolio optimization and risk calculation
+[dqcapp_optimize_log] Logistics and supply chain optimization (QAOA, VQE)
+[dqcapp_optimize_ml] Quantum machine learning (QML, quantum kernel methods)
+[dqcapp_sensing] Quantum Sensing and Metrology :: naics_2022:3344, naics_2022:5415
+[dqcapp_sensing_clock] Optical atomic clocks and quantum timing (GPS, telecom)
+[dqcapp_sensing_imag] Quantum imaging (ghost imaging, enhanced resolution)
+[dqcapp_sensing_mag] Quantum magnetometers and gravimeters (medical, navigation)
+[dqcapp_simulate] Quantum Simulation :: naics_2022:3344, naics_2022:5415
+[dqcapp_simulate_chem] Molecular and quantum chemistry simulation (drug discovery, catalysis)
+[dqcapp_simulate_mat] Materials science simulation (superconductors, battery chemistry)
+[dqcapp_simulate_phys] High-energy physics and condensed matter simulation

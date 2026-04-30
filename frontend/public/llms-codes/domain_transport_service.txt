@@ -1,0 +1,19 @@
+[dtsvc_cargo] Cargo and Freight-Only Service :: naics_2022:485, naics_2022:488
+[dtsvc_cargo_freight] Air Cargo Carrier (freighter, belly cargo)
+[dtsvc_cargo_ocean] Ocean Freight (container ship, bulk, tanker)
+[dtsvc_cargo_rail_frt] Rail Freight (Class I, II, III railroad)
+[dtsvc_charter] Charter and Non-Scheduled Service :: naics_2022:485, naics_2022:488
+[dtsvc_charter_air] Air Charter (FAR Part 135, on-demand air taxi)
+[dtsvc_charter_bus] Motor Coach Charter and Tour Bus
+[dtsvc_charter_vessel] Private Vessel Charter (yacht, cruise charter)
+[dtsvc_govt] Government and Special Purpose Service :: naics_2022:485, naics_2022:488
+[dtsvc_govt_school] School Bus and Student Transportation
+[dtsvc_govt_transit] Public Transit (urban bus, light rail, subway)
+[dtsvc_ondemand] On-Demand and Rideshare Service :: naics_2022:485, naics_2022:488
+[dtsvc_ondemand_auto] Autonomous Ride-Hail (SAE Level 4 commercial)
+[dtsvc_ondemand_micro] Micromobility (e-scooter, e-bike, shared)
+[dtsvc_ondemand_tnc] TNC (Transportation Network Company) Rideshare
+[dtsvc_scheduled] Scheduled Commercial Service :: naics_2022:485, naics_2022:488
+[dtsvc_scheduled_airline] Scheduled Commercial Airline (FAR Part 121)
+[dtsvc_scheduled_ferry] Scheduled Ferry and Water Passenger Service
+[dtsvc_scheduled_rail] Scheduled Intercity and Commuter Rail

@@ -1,0 +1,18 @@
+[CPT] CPT Category Sections
+[CPT.A] Anesthesia
+[CPT.E] Evaluation and Management
+[CPT.II] Category II (Performance)
+[CPT.III] Category III (Emerging)
+[CPT.M] Medicine
+[CPT.P] Pathology and Laboratory
+[CPT.R] Radiology
+[CPT.S] Surgery
+[CPT.S1] Surgery - Integumentary
+[CPT.S2] Surgery - Musculoskeletal
+[CPT.S3] Surgery - Respiratory
+[CPT.S4] Surgery - Cardiovascular
+[CPT.S5] Surgery - Digestive
+[CPT.S6] Surgery - Urinary
+[CPT.S7] Surgery - Nervous System
+[CPT.S8] Surgery - Eye and Ocular
+[CPT.S9] Surgery - Auditory

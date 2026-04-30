@@ -1,0 +1,19 @@
+[sub_metric] Key Metrics :: naics_2022:5419
+[sub_metric_arpu] Average revenue per user (ARPU)
+[sub_metric_cac] Customer acquisition cost (CAC)
+[sub_metric_churn] Churn rate (voluntary, involuntary)
+[sub_metric_ltv] Customer lifetime value (CLV/LTV)
+[sub_metric_mrr] Monthly recurring revenue (MRR)
+[sub_pricing] Pricing Models :: naics_2022:5419
+[sub_pricing_flat] Flat-rate pricing
+[sub_pricing_free] Freemium model
+[sub_pricing_per] Per-seat pricing
+[sub_pricing_tier] Tiered pricing
+[sub_pricing_usage] Usage-based pricing
+[sub_type] Subscription Types :: naics_2022:5419
+[sub_type_access] Access subscriptions (coworking, vehicles)
+[sub_type_box] Subscription boxes (curated products)
+[sub_type_meal] Meal kit subscriptions
+[sub_type_media] Media and content subscriptions
+[sub_type_member] Membership clubs
+[sub_type_soft] Software subscriptions (SaaS)

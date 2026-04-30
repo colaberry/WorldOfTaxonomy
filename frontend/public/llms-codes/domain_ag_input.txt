@@ -1,0 +1,30 @@
+[daip_feed] Livestock Feed and Nutrition :: naics_2022:3253, naics_2022:4245
+[daip_feed_additive] Feed Additives (ionophores, enzymes, probiotics)
+[daip_feed_grain] Grain and Oilseed Feed Ingredients (corn, SBM)
+[daip_feed_premix] Feed Premixes and Supplements (vitamins, minerals)
+[daip_feed_roughage] Roughage and Forage (hay, silage, distillers grains)
+[daip_fert] Fertilizers and Soil Amendments :: naics_2022:3253, naics_2022:4245
+[daip_fert_biochar] Biochar and Soil Carbon Amendments
+[daip_fert_biostim] Biostimulants (humic acids, amino acids, seaweed)
+[daip_fert_lime] Lime and pH Amendment Products
+[daip_fert_micro] Micronutrient Products (zinc, boron, sulfur, iron)
+[daip_fert_npk] Synthetic NPK Fertilizers (urea, MAP, DAP, potash)
+[daip_fert_org] Organic and Biological Fertilizers (manure, compost)
+[daip_protect] Crop Protection Products :: naics_2022:3253, naics_2022:4245
+[daip_protect_bio] Biological Crop Protection (biopesticides, BCAs)
+[daip_protect_fung] Fungicides (DMI, SDHI, biologicals)
+[daip_protect_herb] Herbicides (pre-emergent and post-emergent)
+[daip_protect_insect] Insecticides (organophosphate, pyrethroid, bioinsect)
+[daip_protect_rodent] Rodenticides and Vertebrate Pest Control
+[daip_seed] Seed and Planting Material :: naics_2022:3253, naics_2022:4245
+[daip_seed_conv] Conventional Non-GM Seed
+[daip_seed_cover] Cover Crop and Forage Seed Mixes
+[daip_seed_gmo] Genetically Modified (GM/Biotech) Seed
+[daip_seed_hybrid] Hybrid Seed (F1 crosses, licensed genetics)
+[daip_seed_organic] Certified Organic Seed
+[daip_seed_transplant] Transplants, Plugs, and Vegetative Starts
+[daip_vet] Veterinary Inputs and Animal Health :: naics_2022:3253, naics_2022:4245
+[daip_vet_antibiotic] Veterinary Antibiotics and Antimicrobials (VFD)
+[daip_vet_hormone] Growth Promotants and Hormone Implants
+[daip_vet_parasite] Parasiticides (dewormers, pour-ons, ear tags)
+[daip_vet_vaccine] Livestock Vaccines (BRD, viral, clostridial)

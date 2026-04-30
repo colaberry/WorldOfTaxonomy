@@ -1,0 +1,20 @@
+[SCT] SNOMED CT Top-Level Hierarchies
+[SCT.01] Clinical Finding
+[SCT.02] Procedure
+[SCT.03] Observable Entity
+[SCT.04] Body Structure
+[SCT.05] Organism
+[SCT.06] Substance
+[SCT.07] Pharmaceutical/Biologic Product
+[SCT.08] Specimen
+[SCT.09] Special Concept
+[SCT.10] Physical Object
+[SCT.11] Physical Force
+[SCT.12] Event
+[SCT.13] Environment/Geographic Location
+[SCT.14] Social Context
+[SCT.15] Situation with Explicit Context
+[SCT.16] Staging and Scales
+[SCT.17] Qualifier Value
+[SCT.18] Record Artifact
+[SCT.19] SNOMED CT Model Component

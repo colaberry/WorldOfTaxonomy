@@ -1,0 +1,16 @@
+[dwcreg_dea] DEA Controlled Substance Distribution Compliance :: naics_2022:42
+[dwcreg_dea_chem] DEA Listed Chemical Distribution (precursor chemicals)
+[dwcreg_dea_dist] DEA Schedule II-V Distributor Registration (21 USC 828)
+[dwcreg_dot] DOT Hazardous Materials Transportation Compliance :: naics_2022:42
+[dwcreg_dot_hm] DOT 49 CFR HazMat Shipping and Packaging Requirements
+[dwcreg_dot_temp] DOT Temperature-Controlled Food Transport (21 CFR)
+[dwcreg_epa] EPA Chemical and Hazardous Material Compliance :: naics_2022:42
+[dwcreg_epa_rcra] EPA RCRA Hazardous Waste Generator and Transporter
+[dwcreg_epa_tsca] EPA TSCA Chemical Distribution Requirements
+[dwcreg_fda] FDA Supply Chain and Drug Distribution Compliance :: naics_2022:42
+[dwcreg_fda_device] FDA Medical Device Distribution (UDI, 21 CFR 820)
+[dwcreg_fda_drug] FDA DSCSA Drug Supply Chain Security Act (serialization, traceability)
+[dwcreg_fda_food] FDA FSMA Sanitary Food Transport Rule
+[dwcreg_usda] USDA Agricultural Marketing and Food Safety Compliance :: naics_2022:42
+[dwcreg_usda_ams] USDA AMS Perishable Agricultural Commodities Act (PACA)
+[dwcreg_usda_meat] USDA FSIS Meat and Poultry Distributor Requirements

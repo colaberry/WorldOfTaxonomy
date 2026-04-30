@@ -1,0 +1,15 @@
+[GC] Government Contract Types :: naics_2022:921, naics_2022:922, naics_2022:924
+[GC.01] Firm-Fixed-Price (FFP)
+[GC.02] Cost-Plus-Fixed-Fee
+[GC.03] Cost-Plus-Incentive-Fee
+[GC.04] Time-and-Materials (T&M)
+[GC.05] Labor-Hour Contract
+[GC.06] Indefinite Delivery/Indefinite Quantity
+[GC.07] Blanket Purchase Agreement
+[GC.08] GSA Schedule Contract
+[GC.09] Small Business Set-Aside
+[GC.10] 8(a) Program Contract
+[GC.11] HUBZone Contract
+[GC.12] Service-Disabled Veteran
+[GC.13] Sole Source Contract
+[GC.14] Best Value Procurement

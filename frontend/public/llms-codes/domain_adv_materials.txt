@@ -1,0 +1,27 @@
+[dam_alloy] High-Performance Alloys :: naics_2022:325, naics_2022:3261
+[dam_alloy_hea] High-Entropy Alloys (multi-principal element)
+[dam_alloy_super] Superalloys (Inconel, Hastelloy, cobalt-based)
+[dam_alloy_ti] Titanium and Titanium Alloys (aerospace, medical)
+[dam_bio] Biomaterials :: naics_2022:325, naics_2022:3261
+[dam_bio_drug] Drug Delivery Materials (nanoparticles, microspheres)
+[dam_bio_implant] Implant Biomaterials (Ti, Co-Cr, UHMWPE, hydroxyapatite)
+[dam_bio_scaffold] Tissue Engineering Scaffolds (hydrogels, bioprinted)
+[dam_cer] Ceramics and Glass :: naics_2022:325, naics_2022:3261
+[dam_cer_glass] Specialty Glass (optical, chemically strengthened)
+[dam_cer_refract] Refractory Materials (high-temp furnace linings)
+[dam_cer_tech] Technical Ceramics (alumina, zirconia, SiC, Si3N4)
+[dam_comp] Composite Materials :: naics_2022:325, naics_2022:3261
+[dam_comp_cfrp] Carbon Fiber Reinforced Polymer (CFRP)
+[dam_comp_gfrp] Glass Fiber Reinforced Polymer (GFRP, fiberglass)
+[dam_comp_mmc] Metal Matrix Composites (MMC) and Ceramic Matrix
+[dam_nano] Nanomaterials :: naics_2022:325, naics_2022:3261
+[dam_nano_cnt] Carbon Nanotubes and Graphene
+[dam_nano_nanocomp] Nanocomposites and Nanocoatings
+[dam_nano_qdot] Quantum Dots and Nanoparticles
+[dam_semi] Semiconducting Materials :: naics_2022:325, naics_2022:3261
+[dam_semi_compound] Compound Semiconductors (GaAs, InP, InGaN)
+[dam_semi_wbg] Wide-Bandgap Semiconductors (SiC, GaN, diamond)
+[dam_smart] Smart and Functional Materials :: naics_2022:325, naics_2022:3261
+[dam_smart_mag] Magnetostrictive and Magnetocaloric Materials
+[dam_smart_piezo] Piezoelectric Materials (PZT, PVDF, BaTiO3)
+[dam_smart_sma] Shape Memory Alloys (Nitinol, Cu-Zn-Al, Fe-Mn-Si)

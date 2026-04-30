@@ -1,0 +1,19 @@
+[dfnclt_corporate] Corporate and Treasury Clients :: naics_2022:522, naics_2022:523
+[dfnclt_corporate_sme] SME and middle-market corporate banking clients
+[dfnclt_corporate_treasury] Corporate treasury (cash mgmt, FX hedging, liquidity)
+[dfnclt_hnw] High-Net-Worth (HNW) Clients :: naics_2022:522, naics_2022:523
+[dfnclt_hnw_hnwi] HNWI: $1M-$5M investable assets (private banking, WM)
+[dfnclt_hnw_uhnw] Ultra HNWI: $30M+ (family office, private credit, alternatives)
+[dfnclt_hnw_vhnwi] Very HNWI: $5M-$30M (multi-family office, tailored products)
+[dfnclt_institutional] Institutional Investors :: naics_2022:522, naics_2022:523
+[dfnclt_institutional_endow] Endowments and foundations (university endowments, community foundations)
+[dfnclt_institutional_ins] Insurance company general accounts (P&C, life, re-insurance)
+[dfnclt_institutional_pension] Pension funds (DB/DC, sovereign pension, public employee)
+[dfnclt_institutional_sovereign] Sovereign wealth funds (GIC, ADIA, Norges Bank Investment Mgmt)
+[dfnclt_public] Government and Public Sector Clients :: naics_2022:522, naics_2022:523
+[dfnclt_public_dfi] Development finance institutions (DFI, MDB, EXIM banks)
+[dfnclt_public_muni] Municipal issuers and public finance (tax-exempt bonds)
+[dfnclt_retail] Retail and Mass-Market Clients :: naics_2022:522, naics_2022:523
+[dfnclt_retail_digital] Digital-first retail investors (fintech, robo-advisor, neobank)
+[dfnclt_retail_emerging] Emerging affluent / mass-affluent: $100k-$250k assets
+[dfnclt_retail_mass] Mass market: <$100k investable assets, basic products

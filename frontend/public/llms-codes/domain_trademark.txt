@@ -1,0 +1,14 @@
+[TM] Trademark Classification Types :: naics_2022:5411
+[TM.01] Nice Classification (Goods: 1-34)
+[TM.02] Nice Classification (Services: 35-45)
+[TM.03] Word Mark
+[TM.04] Design Mark (Logo)
+[TM.05] Sound Mark
+[TM.06] Color Mark
+[TM.07] Trade Dress
+[TM.08] Certification Mark
+[TM.09] Collective Mark
+[TM.10] Madrid Protocol Filing
+[TM.11] Trademark Opposition
+[TM.12] Trademark Renewal
+[TM.13] Well-Known Mark (Paris Convention)

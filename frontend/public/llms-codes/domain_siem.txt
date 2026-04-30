@@ -1,0 +1,15 @@
+[SI] SIEM Types :: naics_2022:5415, naics_2022:5417
+[SI.01] Log Collection and Aggregation
+[SI.02] Real-Time Correlation
+[SI.03] Threat Detection Rules
+[SI.04] User Behavior Analytics (UBA)
+[SI.05] Entity Behavior Analytics
+[SI.06] Security Data Lake
+[SI.07] SIEM as a Service (Cloud)
+[SI.08] On-Premises SIEM
+[SI.09] Hybrid SIEM
+[SI.10] Compliance Reporting
+[SI.11] Incident Timeline Reconstruction
+[SI.12] Forensic Investigation
+[SI.13] Alert Triage and Prioritization
+[SI.14] SIEM Integration (API)

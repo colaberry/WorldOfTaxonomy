@@ -1,0 +1,26 @@
+[dsc_assisted] Assisted Living Facilities :: naics_2022:6231
+[dsc_assisted_board] Board and Care Home (residential, small group)
+[dsc_assisted_ccrc] Continuing Care Retirement Community (CCRC/LCRC)
+[dsc_assisted_indep] Independent Living Community (55+, active senior)
+[dsc_assisted_memory] Memory Care Unit (Alzheimer, dementia-specific)
+[dsc_assisted_standard] Standard Assisted Living (ADL support, meals)
+[dsc_day] Adult Day Services :: naics_2022:6231
+[dsc_day_dementia] Dementia-Specific Day Program (structured activities)
+[dsc_day_medical] Medical Model Adult Day (nursing, therapy on-site)
+[dsc_day_social] Social Model Adult Day (recreation, meals, socialization)
+[dsc_home] Home Health Services :: naics_2022:6231
+[dsc_home_aide] Home Health Aide (bathing, dressing, mobility)
+[dsc_home_nurse] Visiting Nurse Service (skilled nursing at home)
+[dsc_home_personal] Personal Care Attendant (companion, light housework)
+[dsc_home_telecare] Remote Monitoring and Telecare (PERS, sensors)
+[dsc_home_therapy] Home-Based Therapy (PT, OT, speech at home)
+[dsc_hospice] Hospice and Palliative Care :: naics_2022:6231
+[dsc_hospice_home] Home Hospice (end-of-life care at patient home)
+[dsc_hospice_inpatient] Inpatient Hospice Unit (symptom management, GIP)
+[dsc_hospice_palliative] Palliative Care Consultation (non-hospice, concurrent)
+[dsc_hospice_respite] Respite Hospice Care (caregiver relief, short-term)
+[dsc_nursing] Nursing Home and Skilled Nursing :: naics_2022:6231
+[dsc_nursing_ltc] Long-Term Care Nursing (chronic, custodial)
+[dsc_nursing_snf] Skilled Nursing Facility (SNF, Medicare Part A)
+[dsc_nursing_subacute] Subacute Care Unit (post-surgical, wound care)
+[dsc_nursing_vent] Ventilator and Respiratory Care Unit

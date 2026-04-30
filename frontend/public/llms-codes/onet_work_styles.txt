@@ -1,0 +1,17 @@
+[WS] Work Styles -- Personal characteristics that can affect how well someone performs a job.
+[WS.01] Achievement/Effort -- Job requires establishing and maintaining personally challenging achievement goals and exerting effort toward mastering tasks.
+[WS.02] Persistence -- Job requires persistence in the face of obstacles.
+[WS.03] Initiative -- Job requires a willingness to take on responsibilities and challenges.
+[WS.04] Leadership -- Job requires a willingness to lead, take charge, and offer opinions and direction.
+[WS.05] Cooperation -- Job requires being pleasant with others on the job and displaying a good-natured, cooperative attitude.
+[WS.06] Concern for Others -- Job requires being sensitive to others' needs and feelings and being understanding and helpful on the job.
+[WS.07] Social Orientation -- Job requires preferring to work with others rather than alone, and being personally connected with others on the job.
+[WS.08] Self-Control -- Job requires maintaining composure, keeping emotions in check, controlling anger, and avoiding aggressive behavior, even in very difficult situations.
+[WS.09] Stress Tolerance -- Job requires accepting criticism and dealing calmly and effectively with high-stress situations.
+[WS.10] Adaptability/Flexibility -- Job requires being open to change (positive or negative) and to considerable variety in the workplace.
+[WS.11] Dependability -- Job requires being reliable, responsible, and dependable, and fulfilling obligations.
+[WS.12] Attention to Detail -- Job requires being careful about detail and thorough in completing work tasks.
+[WS.13] Integrity -- Job requires being honest and ethical.
+[WS.14] Independence -- Job requires developing one's own ways of doing things, guiding oneself with little or no supervision, and depending on oneself to get things done.
+[WS.15] Innovation -- Innovation; finding new and better ways of doing things; openness to new ideas
+[WS.16] Analytical Thinking -- Job requires analyzing information and using logic to address work-related issues and problems.

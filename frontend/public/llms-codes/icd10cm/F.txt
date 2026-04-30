@@ -1,0 +1,1112 @@
+[F01] Vascular dementia -- **Includes:** - arteriosclerotic dementia - major neurocognitive disorder due to vascular disease - multi-infarct dementia  **Inclusion terms:** - Vascular dementia as a result of infarction of the brain due to vascular disease, including hypertensive cerebrovascular disease.  **Code first:** - , if applicable, any causal condition
+[F015] Vascular dementia, unspecified severity
+[F0150] Vascular dementia, unspecified severity, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease NOS - Vascular dementia NOS
+[F0151] Vascular dementia, unspecified severity, with behavioral disturbance
+[F01511] Vascular dementia, unspecified severity, with agitation -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, unspecified severity, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Major neurocognitive disorder due to vascular disease, unspecified severity, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence - Vascular dementia, unspecified severity, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Vascular dementia, unspecified severity, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F01518] Vascular dementia, unspecified severity, with other behavioral disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, unspecified severity, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition - Vascular dementia, unspecified severity, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in vascular dementia (Z91.83)
+[F0152] Vascular dementia, unspecified severity, with psychotic disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, unspecified severity, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state - Vascular dementia, unspecified severity, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F0153] Vascular dementia, unspecified severity, with mood disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, unspecified severity, with mood disturbance such as depression, apathy, or anhedonia - Vascular dementia, unspecified severity, with mood disturbance such as depression, apathy, or anhedonia
+[F0154] Vascular dementia, unspecified severity, with anxiety -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, unspecified severity, with anxiety
+[F01A] Vascular dementia, mild -- **Excludes1:** - mild neurocognitive disorder due to known physiological condition with or without behavioral disturbance (F06.7-)
+[F01A0] Vascular dementia, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, mild, NOS - Vascular dementia, mild, NOS
+[F01A1] Vascular dementia, mild, with behavioral disturbance
+[F01A11] Vascular dementia, mild, with agitation -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, mild, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Major neurocognitive disorder due to vascular disease, mild, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence - Vascular dementia, mild, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Vascular dementia, mild, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F01A18] Vascular dementia, mild, with other behavioral disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, mild, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition - Vascular dementia, mild, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in vascular dementia (Z91.83)
+[F01A2] Vascular dementia, mild, with psychotic disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, mild, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state - Vascular dementia, mild, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F01A3] Vascular dementia, mild, with mood disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, mild, with mood disturbance such as depression, apathy, or anhedonia - Vascular dementia, mild, with mood disturbance such as depression, apathy, or anhedonia
+[F01A4] Vascular dementia, mild, with anxiety -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, mild, with anxiety
+[F01B] Vascular dementia, moderate
+[F01B0] Vascular dementia, moderate, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, moderate, NOS - Vascular dementia, moderate, NOS
+[F01B1] Vascular dementia, moderate, with behavioral disturbance
+[F01B11] Vascular dementia, moderate, with agitation -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, moderate, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Major neurocognitive disorder due to vascular disease, moderate, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence - Vascular dementia, moderate, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Vascular dementia, moderate, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F01B18] Vascular dementia, moderate, with other behavioral disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, moderate, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition - Vascular dementia, moderate, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in vascular dementia (Z91.83)
+[F01B2] Vascular dementia, moderate, with psychotic disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, moderate, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state - Vascular dementia, moderate, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F01B3] Vascular dementia, moderate, with mood disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, moderate, with mood disturbance such as depression, apathy, or anhedonia - Vascular dementia, moderate, with mood disturbance such as depression, apathy, or anhedonia
+[F01B4] Vascular dementia, moderate, with anxiety -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, moderate, with anxiety
+[F01C] Vascular dementia, severe
+[F01C0] Vascular dementia, severe, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, severe, NOS - Vascular dementia, severe, NOS
+[F01C1] Vascular dementia, severe, with behavioral disturbance
+[F01C11] Vascular dementia, severe, with agitation -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, severe, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Major neurocognitive disorder due to vascular disease, severe, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence - Vascular dementia, severe, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Vascular dementia, severe, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F01C18] Vascular dementia, severe, with other behavioral disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, severe, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition - Vascular dementia, severe, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in vascular dementia (Z91.83)
+[F01C2] Vascular dementia, severe, with psychotic disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, severe, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state - Vascular dementia, severe, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F01C3] Vascular dementia, severe, with mood disturbance -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, severe, with mood disturbance such as depression, apathy, or anhedonia - Vascular dementia, severe, with mood disturbance such as depression, apathy, or anhedonia
+[F01C4] Vascular dementia, severe, with anxiety -- **Inclusion terms:** - Major neurocognitive disorder due to vascular disease, severe, with anxiety
+[F02] Dementia in other diseases classified elsewhere -- **Includes:** - Major neurocognitive disorder in other diseases classified elsewhere  **Excludes1:** - mild neurocognitive disorder due to known physiological condition with or without behavioral disturbance (F06.7-)  **Excludes2:** - dementia in alcohol and psychoactive substance disorders (F10-F19, with .17, .27, .97) - vascular dementia (F01.5-, F01.A-, F01.B-, F01.C-)  **Code first:** - the underlying physiological condition, such as: - Alzheimer's (G30.-) - cerebral lipidosis (E75.4) - Creutzfeldt-Jakob disease (A81.0-) - epilepsy and recurrent seizures (G40.-) - frontotemporal dementia (G31.09) - hepatolenticular degeneration (E83.01) - human immunodeficiency virus [HIV] disease (B20) - Huntington's disease (G10) - hypercalcemia (E83.52) - hypothyroidism, acquired (E00-E03.-) - intoxications (T36-T65) - Jakob-Creutzfeldt disease (A81.0-) - multiple sclerosis (G35) - neurocognitive disorder with Lewy bodies (G31.83) - neurosyphilis (A52.17) - niacin deficiency [pellagra] (E52) - other frontotemporal neurocognitive disorder (G31.90) - Parkinson's disease (G20.-) - Pick's disease (G31.01) - polyarteritis nodosa (M30.0) - prion disease (A81.9) - systemic lupus erythematosus (M32.-) - traumatic brain injury (S06.-) - trypanosomiasis (B56.-, B57.-) - vitamin B deficiency (E53.8)
+[F028] Dementia in other diseases classified elsewhere, unspecified severity
+[F0280] Dementia in other diseases classified elsewhere, unspecified severity, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Dementia in other diseases classified elsewhere NOS - Major neurocognitive disorder in other diseases classified elsewhere NOS
+[F0281] Dementia in other diseases classified elsewhere, unspecified severity, with behavioral disturbance
+[F02811] Dementia in other diseases classified elsewhere, unspecified severity, with agitation -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, unspecified severity, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Dementia in other diseases classified elsewhere, unspecified severity, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence - Major neurocognitive disorder in other diseases classified elsewhere, unspecified severity, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Major neurocognitive disorder in other diseases classified elsewhere, unspecified severity, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F02818] Dementia in other diseases classified elsewhere, unspecified severity, with other behavioral disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere with sleep disturbance, social disinhibition, or sexual disinhibition - Major neurocognitive disorder in other diseases classified elsewhere with sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in dementia in conditions classified elsewhere (Z91.83)
+[F0282] Dementia in other diseases classified elsewhere, unspecified severity, with psychotic disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, unspecified severity, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state - Major neurocognitive disorder in other diseases classified elsewhere, unspecified, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F0283] Dementia in other diseases classified elsewhere, unspecified severity, with mood disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, unspecified severity, with mood disturbance such as depression, apathy, or anhedonia - Major neurocognitive disorder in other diseases classified elsewhere unspecified severity, with mood disturbance such as with depression, apathy, or anhedonia
+[F0284] Dementia in other diseases classified elsewhere, unspecified severity, with anxiety -- **Inclusion terms:** - Major neurocognitive disorder in other diseases classified elsewhere unspecified severity, with anxiety
+[F02A] Dementia in other diseases classified elsewhere, mild -- **Excludes1:** - mild neurocognitive disorder due to known physiological condition with or without behavioral disturbance (F06.7-)
+[F02A0] Dementia in other diseases classified elsewhere, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, mild, NOS - Major neurocognitive disorder in other diseases classified elsewhere, mild, NOS
+[F02A1] Dementia in other diseases classified elsewhere, mild, with behavioral disturbance
+[F02A11] Dementia in other diseases classified elsewhere, mild, with agitation -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, mild, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Dementia in other diseases classified elsewhere, mild, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence - Major neurocognitive disorder in other diseases classified elsewhere, mild, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Major neurocognitive disorder in other diseases classified elsewhere, mild, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F02A18] Dementia in other diseases classified elsewhere, mild, with other behavioral disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, mild, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition - Major neurocognitive disorder in other diseases classified elsewhere, mild, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in dementia in conditions classified elsewhere (Z91.83)
+[F02A2] Dementia in other diseases classified elsewhere, mild, with psychotic disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, mild, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state - Major neurocognitive disorder in other diseases classified elsewhere, mild, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F02A3] Dementia in other diseases classified elsewhere, mild, with mood disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, mild, with mood disturbance such as depression, apathy, or anhedonia - Major neurocognitive disorder in other diseases classified elsewhere, mild, with mood disturbance such as depression, apathy, or anhedonia
+[F02A4] Dementia in other diseases classified elsewhere, mild, with anxiety -- **Inclusion terms:** - Major neurocognitive disorder in other diseases classified elsewhere, mild, with anxiety
+[F02B] Dementia in other diseases classified elsewhere, moderate
+[F02B0] Dementia in other diseases classified elsewhere, moderate, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, moderate, NOS - Major neurocognitive disorder in other diseases classified elsewhere, moderate, NOS
+[F02B1] Dementia in other diseases classified elsewhere, moderate, with behavioral disturbance
+[F02B11] Dementia in other diseases classified elsewhere, moderate, with agitation -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, moderate, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Dementia in other diseases classified elsewhere, moderate, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence - Major neurocognitive disorder in other diseases classified elsewhere, moderate, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Major neurocognitive disorder in other diseases classified elsewhere, moderate, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F02B18] Dementia in other diseases classified elsewhere, moderate, with other behavioral disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, moderate, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition - Major neurocognitive disorder in other diseases classified elsewhere, moderate, with behavioral disturbance such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in dementia in conditions classified elsewhere (Z91.83)
+[F02B2] Dementia in other diseases classified elsewhere, moderate, with psychotic disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, moderate, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state - Major neurocognitive disorder in other diseases classified elsewhere, moderate, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F02B3] Dementia in other diseases classified elsewhere, moderate, with mood disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, moderate, with mood disturbance such as depression, apathy, or anhedonia - Major neurocognitive disorder in other diseases classified elsewhere, moderate, with mood disturbance such as depression, apathy, or anhedonia
+[F02B4] Dementia in other diseases classified elsewhere, moderate, with anxiety -- **Inclusion terms:** - Major neurocognitive disorder in other diseases classified elsewhere, moderate, with anxiety
+[F02C] Dementia in other diseases classified elsewhere, severe
+[F02C0] Dementia in other diseases classified elsewhere, severe, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, severe, NOS - Major neurocognitive disorder in other diseases classified elsewhere, severe, NOS
+[F02C1] Dementia in other diseases classified elsewhere, severe, with behavioral disturbance
+[F02C11] Dementia in other diseases classified elsewhere, severe, with agitation -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, severe, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Dementia in other diseases classified elsewhere, severe, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence - Major neurocognitive disorder in other diseases classified elsewhere, severe, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Major neurocognitive disorder in other diseases classified elsewhere, severe, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F02C18] Dementia in other diseases classified elsewhere, severe, with other behavioral disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, severe, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition - Major neurocognitive disorder in other diseases classified elsewhere, severe, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in dementia in conditions classified elsewhere (Z91.83)
+[F02C2] Dementia in other diseases classified elsewhere, severe, with psychotic disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, severe, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state - Major neurocognitive disorder in other diseases classified elsewhere, severe, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F02C3] Dementia in other diseases classified elsewhere, severe, with mood disturbance -- **Inclusion terms:** - Dementia in other diseases classified elsewhere, severe, with mood disturbance such as depression, apathy, or anhedonia - Major neurocognitive disorder in other diseases classified elsewhere, severe, with mood disturbance such as depression, apathy, or anhedonia
+[F02C4] Dementia in other diseases classified elsewhere, severe, with anxiety -- **Inclusion terms:** - Major neurocognitive disorder in other diseases classified elsewhere, severe, with anxiety
+[F03] Unspecified dementia -- **Inclusion terms:** - Major neurocognitive disorder NOS - Presenile dementia NOS - Presenile psychosis NOS - Primary degenerative dementia NOS - Senile dementia NOS - Senile dementia depressed or paranoid type - Senile psychosis NOS  **Excludes2:** - dementia with delirium or acute confusional state (F05) - mild memory disturbance due to known physiological condition (F06.8)
+[F039] Unspecified dementia, unspecified severity
+[F0390] Unspecified dementia, unspecified severity, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Dementia NOS
+[F0391] Unspecified dementia, unspecified severity, with behavioral disturbance
+[F03911] Unspecified dementia, unspecified severity, with agitation -- **Inclusion terms:** - Unspecified dementia, unspecified severity, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Unspecified dementia, unspecified severity, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F03918] Unspecified dementia, unspecified severity, with other behavioral disturbance -- **Inclusion terms:** - Unspecified dementia, unspecified severity, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in unspecified dementia (Z91.83)
+[F0392] Unspecified dementia, unspecified severity, with psychotic disturbance -- **Inclusion terms:** - Unspecified dementia, unspecified severity, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F0393] Unspecified dementia, unspecified severity, with mood disturbance -- **Inclusion terms:** - Unspecified dementia, unspecified severity, with mood disturbance such as depression, apathy, or anhedonia
+[F0394] Unspecified dementia, unspecified severity, with anxiety
+[F03A] Unspecified dementia, mild -- **Excludes1:** - mild neurocognitive disorder due to known physiological condition with or without behavioral disturbance (F06.7-)
+[F03A0] Unspecified dementia, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Dementia, mild, NOS
+[F03A1] Unspecified dementia, mild, with behavioral disturbance
+[F03A11] Unspecified dementia, mild, with agitation -- **Inclusion terms:** - Unspecified dementia, mild, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Unspecified dementia, mild, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F03A18] Unspecified dementia, mild, with other behavioral disturbance -- **Inclusion terms:** - Unspecified dementia, mild, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in unspecified dementia (Z91.83)
+[F03A2] Unspecified dementia, mild, with psychotic disturbance -- **Inclusion terms:** - Unspecified dementia, mild, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F03A3] Unspecified dementia, mild, with mood disturbance -- **Inclusion terms:** - Unspecified dementia, mild, with mood disturbance such as depression, apathy, or anhedonia
+[F03A4] Unspecified dementia, mild, with anxiety
+[F03B] Unspecified dementia, moderate
+[F03B0] Unspecified dementia, moderate, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Dementia, moderate, NOS
+[F03B1] Unspecified dementia, moderate, with behavioral disturbance
+[F03B11] Unspecified dementia, moderate, with agitation -- **Inclusion terms:** - Unspecified dementia, moderate, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Unspecified dementia, moderate, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F03B18] Unspecified dementia, moderate, with other behavioral disturbance -- **Inclusion terms:** - Unspecified dementia, moderate, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in unspecified dementia (Z91.83)
+[F03B2] Unspecified dementia, moderate, with psychotic disturbance -- **Inclusion terms:** - Unspecified dementia, moderate, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F03B3] Unspecified dementia, moderate, with mood disturbance -- **Inclusion terms:** - Unspecified dementia, moderate, with mood disturbance such as depression, apathy, or anhedonia
+[F03B4] Unspecified dementia, moderate, with anxiety
+[F03C] Unspecified dementia, severe
+[F03C0] Unspecified dementia, severe, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety -- **Inclusion terms:** - Dementia, severe, NOS
+[F03C1] Unspecified dementia, severe, with behavioral disturbance
+[F03C11] Unspecified dementia, severe, with agitation -- **Inclusion terms:** - Unspecified dementia, severe, with aberrant motor behavior such as restlessness, rocking, pacing, or exit-seeking - Unspecified dementia, severe, with verbal or physical behaviors such as profanity, shouting, threatening, anger, aggression, combativeness, or violence
+[F03C18] Unspecified dementia, severe, with other behavioral disturbance -- **Inclusion terms:** - Unspecified dementia, severe, with behavioral disturbances such as sleep disturbance, social disinhibition, or sexual disinhibition  **Use additional code:** - code, if applicable, to identify wandering in unspecified dementia (Z91.83)
+[F03C2] Unspecified dementia, severe, with psychotic disturbance -- **Inclusion terms:** - Unspecified dementia, severe, with psychotic disturbance such as hallucinations, paranoia, suspiciousness, or delusional state
+[F03C3] Unspecified dementia, severe, with mood disturbance -- **Inclusion terms:** - Unspecified dementia, severe, with mood disturbance such as depression, apathy, or anhedonia
+[F03C4] Unspecified dementia, severe, with anxiety
+[F04] Amnestic disorder due to known physiological condition -- **Inclusion terms:** - Korsakov's psychosis or syndrome, nonalcoholic  **Excludes1:** - amnesia NOS (R41.3) - anterograde amnesia (R41.1) - dissociative amnesia (F44.0) - retrograde amnesia (R41.2)  **Excludes2:** - alcohol-induced or unspecified Korsakov's syndrome (F10.26, F10.96) - Korsakov's syndrome induced by other psychoactive substances (F13.26, F13.96, F19.16, F19.26, F19.96)  **Code first:** - the underlying physiological condition
+[F05] Delirium due to known physiological condition -- **Inclusion terms:** - Acute or subacute brain syndrome - Acute or subacute confusional state (nonalcoholic) - Acute or subacute infective psychosis - Acute or subacute organic reaction - Acute or subacute psycho-organic syndrome - Delirium of mixed etiology - Delirium superimposed on dementia - Sundowning  **Excludes1:** - delirium NOS (R41.0)  **Excludes2:** - delirium tremens alcohol-induced or unspecified (F10.231, F10.921)  **Code first:** - the underlying physiological condition, such as: - dementia (F03.9-)
+[F06] Other mental disorders due to known physiological condition -- **Includes:** - mental disorders due to endocrine disorder - mental disorders due to exogenous hormone - mental disorders due to exogenous toxic substance - mental disorders due to primary cerebral disease - mental disorders due to somatic illness - mental disorders due to systemic disease affecting the brain  **Excludes1:** - unspecified dementia (F03.-)  **Excludes2:** - delirium due to known physiological condition (F05) - dementia as classified in F01-F02 - other mental disorders associated with alcohol and other psychoactive substances (F10-F19)  **Code first:** - the underlying physiological condition
+[F060] Psychotic disorder with hallucinations due to known physiological condition -- **Inclusion terms:** - Organic hallucinatory state (nonalcoholic)  **Excludes2:** - hallucinations and perceptual disturbance induced by alcohol and other psychoactive substances (F10-F19 with .151, .251, .951) - schizophrenia (F20.-)
+[F061] Catatonic disorder due to known physiological condition -- **Inclusion terms:** - Catatonia associated with another mental disorder - Catatonia NOS  **Excludes1:** - catatonic stupor (R40.1) - stupor NOS (R40.1)  **Excludes2:** - catatonic schizophrenia (F20.2) - dissociative stupor (F44.2)
+[F062] Psychotic disorder with delusions due to known physiological condition -- **Inclusion terms:** - Paranoid and paranoid-hallucinatory organic states - Schizophrenia-like psychosis in epilepsy  **Excludes2:** - alcohol and drug-induced psychotic disorder (F10-F19 with .150, .250, .950) - brief psychotic disorder (F23) - delusional disorder (F22) - schizophrenia (F20.-)
+[F063] Mood disorder due to known physiological condition -- **Excludes2:** - mood disorders due to alcohol and other psychoactive substances (F10-F19 with .14, .24, .94) - mood disorders, not due to known physiological condition or unspecified (F30-F39)
+[F0630] Mood disorder due to known physiological condition, unspecified
+[F0631] Mood disorder due to known physiological condition with depressive features -- **Inclusion terms:** - Depressive disorder due to known physiological condition, with depressive features
+[F0632] Mood disorder due to known physiological condition with major depressive-like episode -- **Inclusion terms:** - Depressive disorder due to known physiological condition, with major depressive-like episode
+[F0633] Mood disorder due to known physiological condition with manic features -- **Inclusion terms:** - Bipolar and related disorder due to a known physiological condition, with manic features - Bipolar and related disorder due to known physiological condition, with manic- or hypomanic-like episodes
+[F0634] Mood disorder due to known physiological condition with mixed features -- **Inclusion terms:** - Bipolar and related disorder due to known physiological condition, with mixed features - Depressive disorder due to known physiological condition, with mixed features
+[F064] Anxiety disorder due to known physiological condition -- **Excludes2:** - anxiety disorders due to alcohol and other psychoactive substances (F10-F19 with .180, .280, .980) - anxiety disorders, not due to known physiological condition or unspecified (F40.-, F41.-)
+[F067] Mild neurocognitive disorder due to known physiological condition -- **Inclusion terms:** - Mild neurocognitive impairment due to a known physiological condition  **Excludes1:** - age related cognitive decline (R41.81) - altered mental status (R41.82) - cerebral degeneration (G31.9) - change in mental status (R41.82) - cognitive deficits following (sequelae of) cerebral hemorrhage or infarction (I69.01-I69.11-, I69.21-I69.31-, I69.81- I69.91-) - dementia (F01.-, F02.-, F03.-) - mild cognitive impairment due to unknown or unspecified etiology (G31.84) - neurologic neglect syndrome (R41.4) - personality change, nonpsychotic (F68.8)  **Code first:** - the underlying physiological condition, such as: - Alzheimer's disease (G30.-) - human immunodeficiency virus [HIV] disease (B20) - Huntington's disease (G10) - Neurocognitive disorder with Lewy bodies (G31.83) - other frontotemporal neurocognitive disorder (G31.09) - Parkinson's disease (G20.-) - systemic lupus erythematosus (M32.-) - traumatic brain injury (S06.-) - vitamin B deficiency (E53.-)
+[F0670] Mild neurocognitive disorder due to known physiological condition without behavioral disturbance -- **Inclusion terms:** - Mild neurocognitive disorder due to known physiological condition, NOS
+[F0671] Mild neurocognitive disorder due to known physiological condition with behavioral disturbance
+[F068] Other specified mental disorders due to known physiological condition -- **Inclusion terms:** - Epileptic psychosis NOS - Obsessive-compulsive and related disorder due to a known physiological condition - Organic dissociative disorder - Organic emotionally labile [asthenic] disorder
+[F07] Personality and behavioral disorders due to known physiological condition -- **Code first:** - the underlying physiological condition
+[F070] Personality change due to known physiological condition -- **Inclusion terms:** - Frontal lobe syndrome - Limbic epilepsy personality syndrome - Lobotomy syndrome - Organic personality disorder - Organic pseudopsychopathic personality - Organic pseudoretarded personality - Postleucotomy syndrome  **Excludes1:** - mild cognitive impairment (G31.84) - postconcussional syndrome (F07.81) - postencephalitic syndrome (F07.89) - signs and symptoms involving emotional state (R45.-)  **Excludes2:** - specific personality disorder (F60.-)
+[F078] Other personality and behavioral disorders due to known physiological condition
+[F0781] Postconcussional syndrome -- **Inclusion terms:** - Postcontusional syndrome (encephalopathy) - Post-traumatic brain syndrome, nonpsychotic  **Excludes1:** - current concussion (brain) (S06.0-) - postencephalitic syndrome (F07.89)  **Use additional code:** - code to identify associated post-traumatic headache, if applicable (G44.3-)
+[F0789] Other personality and behavioral disorders due to known physiological condition -- **Inclusion terms:** - Postencephalitic syndrome - Right hemispheric organic affective disorder
+[F079] Unspecified personality and behavioral disorder due to known physiological condition -- **Inclusion terms:** - Organic psychosyndrome
+[F09] Unspecified mental disorder due to known physiological condition -- **Inclusion terms:** - Mental disorder NOS due to known physiological condition - Organic brain syndrome NOS - Organic mental disorder NOS - Organic psychosis NOS - Symptomatic psychosis NOS  **Excludes1:** - mild neurocognitive disorder due to known physiological condition (F06.7-) - psychosis NOS (F29)  **Code first:** - the underlying physiological condition
+[F10] Alcohol related disorders -- **Use additional code:** - code for blood alcohol level, if applicable (Y90.-)
+[F101] Alcohol abuse -- **Excludes1:** - alcohol dependence (F10.2-) - alcohol use, unspecified (F10.9-)
+[F1010] Alcohol abuse, uncomplicated -- **Inclusion terms:** - Alcohol use disorder, mild
+[F1011] Alcohol abuse, in remission -- **Inclusion terms:** - Alcohol use disorder, mild, in early remission - Alcohol use disorder, mild, in sustained remission
+[F1012] Alcohol abuse with intoxication
+[F10120] Alcohol abuse with intoxication, uncomplicated
+[F10121] Alcohol abuse with intoxication delirium
+[F10129] Alcohol abuse with intoxication, unspecified
+[F1013] Alcohol abuse, with withdrawal
+[F10130] Alcohol abuse with withdrawal, uncomplicated
+[F10131] Alcohol abuse with withdrawal delirium
+[F10132] Alcohol abuse with withdrawal with perceptual disturbance
+[F10139] Alcohol abuse with withdrawal, unspecified
+[F1014] Alcohol abuse with alcohol-induced mood disorder -- **Inclusion terms:** - Alcohol use disorder, mild, with alcohol-induced bipolar or related disorder - Alcohol use disorder, mild, with alcohol-induced depressive disorder
+[F1015] Alcohol abuse with alcohol-induced psychotic disorder
+[F10150] Alcohol abuse with alcohol-induced psychotic disorder with delusions
+[F10151] Alcohol abuse with alcohol-induced psychotic disorder with hallucinations
+[F10159] Alcohol abuse with alcohol-induced psychotic disorder, unspecified
+[F1018] Alcohol abuse with other alcohol-induced disorders
+[F10180] Alcohol abuse with alcohol-induced anxiety disorder
+[F10181] Alcohol abuse with alcohol-induced sexual dysfunction
+[F10182] Alcohol abuse with alcohol-induced sleep disorder
+[F10188] Alcohol abuse with other alcohol-induced disorder
+[F1019] Alcohol abuse with unspecified alcohol-induced disorder
+[F102] Alcohol dependence -- **Excludes1:** - alcohol abuse (F10.1-) - alcohol use, unspecified (F10.9-)  **Excludes2:** - toxic effect of alcohol (T51.0-)
+[F1020] Alcohol dependence, uncomplicated -- **Inclusion terms:** - Alcohol use disorder, moderate - Alcohol use disorder, severe
+[F1021] Alcohol dependence, in remission -- **Inclusion terms:** - Alcohol use disorder, moderate, in early remission - Alcohol use disorder, moderate, in sustained remission - Alcohol use disorder, severe, in early remission - Alcohol use disorder, severe, in sustained remission
+[F1022] Alcohol dependence with intoxication -- **Inclusion terms:** - Acute drunkenness (in alcoholism)  **Excludes2:** - alcohol dependence with withdrawal (F10.23-)
+[F10220] Alcohol dependence with intoxication, uncomplicated
+[F10221] Alcohol dependence with intoxication delirium
+[F10229] Alcohol dependence with intoxication, unspecified
+[F1023] Alcohol dependence with withdrawal -- **Excludes2:** - Alcohol dependence with intoxication (F10.22-)
+[F10230] Alcohol dependence with withdrawal, uncomplicated
+[F10231] Alcohol dependence with withdrawal delirium
+[F10232] Alcohol dependence with withdrawal with perceptual disturbance
+[F10239] Alcohol dependence with withdrawal, unspecified
+[F1024] Alcohol dependence with alcohol-induced mood disorder -- **Inclusion terms:** - Alcohol use disorder, moderate, with alcohol-induced bipolar or related disorder - Alcohol use disorder, moderate, with alcohol-induced depressive disorder - Alcohol use disorder, severe, with alcohol-induced bipolar or related disorder - Alcohol use disorder, severe, with alcohol-induced depressive disorder
+[F1025] Alcohol dependence with alcohol-induced psychotic disorder
+[F10250] Alcohol dependence with alcohol-induced psychotic disorder with delusions
+[F10251] Alcohol dependence with alcohol-induced psychotic disorder with hallucinations
+[F10259] Alcohol dependence with alcohol-induced psychotic disorder, unspecified
+[F1026] Alcohol dependence with alcohol-induced persisting amnestic disorder -- **Inclusion terms:** - Alcohol use disorder, moderate, with alcohol-induced major neurocognitive disorder, amnestic-confabulatory type - Alcohol use disorder, severe, with alcohol-induced major neurocognitive disorder, amnestic-confabulatory type
+[F1027] Alcohol dependence with alcohol-induced persisting dementia -- **Inclusion terms:** - Alcohol use disorder, moderate, with alcohol-induced major neurocognitive disorder, nonamnestic-confabulatory type - Alcohol use disorder, severe, with alcohol-induced major neurocognitive disorder, nonamnestic-confabulatory type
+[F1028] Alcohol dependence with other alcohol-induced disorders
+[F10280] Alcohol dependence with alcohol-induced anxiety disorder
+[F10281] Alcohol dependence with alcohol-induced sexual dysfunction
+[F10282] Alcohol dependence with alcohol-induced sleep disorder
+[F10288] Alcohol dependence with other alcohol-induced disorder -- **Inclusion terms:** - Alcohol use disorder, moderate, with alcohol-induced mild neurocognitive disorder - Alcohol use disorder, severe, with alcohol-induced mild neurocognitive disorder
+[F1029] Alcohol dependence with unspecified alcohol-induced disorder
+[F109] Alcohol use, unspecified -- **Excludes1:** - alcohol abuse (F10.1-) - alcohol dependence (F10.2-)
+[F1090] Alcohol use, unspecified, uncomplicated
+[F1091] Alcohol use, unspecified, in remission
+[F1092] Alcohol use, unspecified with intoxication
+[F10920] Alcohol use, unspecified with intoxication, uncomplicated
+[F10921] Alcohol use, unspecified with intoxication delirium
+[F10929] Alcohol use, unspecified with intoxication, unspecified
+[F1093] Alcohol use, unspecified with withdrawal
+[F10930] Alcohol use, unspecified with withdrawal, uncomplicated
+[F10931] Alcohol use, unspecified with withdrawal delirium
+[F10932] Alcohol use, unspecified with withdrawal with perceptual disturbance
+[F10939] Alcohol use, unspecified with withdrawal, unspecified
+[F1094] Alcohol use, unspecified with alcohol-induced mood disorder -- **Inclusion terms:** - Alcohol induced bipolar or related disorder, without use disorder - Alcohol induced depressive disorder, without use disorder
+[F1095] Alcohol use, unspecified with alcohol-induced psychotic disorder
+[F10950] Alcohol use, unspecified with alcohol-induced psychotic disorder with delusions
+[F10951] Alcohol use, unspecified with alcohol-induced psychotic disorder with hallucinations
+[F10959] Alcohol use, unspecified with alcohol-induced psychotic disorder, unspecified -- **Inclusion terms:** - Alcohol-induced psychotic disorder without use disorder
+[F1096] Alcohol use, unspecified with alcohol-induced persisting amnestic disorder -- **Inclusion terms:** - Alcohol-induced major neurocognitive disorder, amnestic-confabulatory type, without use disorder
+[F1097] Alcohol use, unspecified with alcohol-induced persisting dementia -- **Inclusion terms:** - Alcohol-induced major neurocognitive disorder, nonamnestic-confabulatory type, without use disorder
+[F1098] Alcohol use, unspecified with other alcohol-induced disorders
+[F10980] Alcohol use, unspecified with alcohol-induced anxiety disorder -- **Inclusion terms:** - Alcohol induced anxiety disorder, without use disorder
+[F10981] Alcohol use, unspecified with alcohol-induced sexual dysfunction -- **Inclusion terms:** - Alcohol induced sexual dysfunction, without use disorder
+[F10982] Alcohol use, unspecified with alcohol-induced sleep disorder -- **Inclusion terms:** - Alcohol induced sleep disorder, without use disorder
+[F10988] Alcohol use, unspecified with other alcohol-induced disorder -- **Inclusion terms:** - Alcohol induced mild neurocognitive disorder, without use disorder
+[F1099] Alcohol use, unspecified with unspecified alcohol-induced disorder
+[F11] Opioid related disorders
+[F111] Opioid abuse -- **Excludes1:** - opioid dependence (F11.2-) - opioid use, unspecified (F11.9-)
+[F1110] Opioid abuse, uncomplicated -- **Inclusion terms:** - Opioid use disorder, mild
+[F1111] Opioid abuse, in remission -- **Inclusion terms:** - Opioid use disorder, mild, in early remission - Opioid use disorder, mild, in sustained remission
+[F1112] Opioid abuse with intoxication
+[F11120] Opioid abuse with intoxication, uncomplicated
+[F11121] Opioid abuse with intoxication delirium
+[F11122] Opioid abuse with intoxication with perceptual disturbance
+[F11129] Opioid abuse with intoxication, unspecified
+[F1113] Opioid abuse with withdrawal
+[F1114] Opioid abuse with opioid-induced mood disorder -- **Inclusion terms:** - Opioid use disorder, mild, with opioid-induced depressive disorder
+[F1115] Opioid abuse with opioid-induced psychotic disorder
+[F11150] Opioid abuse with opioid-induced psychotic disorder with delusions
+[F11151] Opioid abuse with opioid-induced psychotic disorder with hallucinations
+[F11159] Opioid abuse with opioid-induced psychotic disorder, unspecified
+[F1118] Opioid abuse with other opioid-induced disorder
+[F11181] Opioid abuse with opioid-induced sexual dysfunction
+[F11182] Opioid abuse with opioid-induced sleep disorder
+[F11188] Opioid abuse with other opioid-induced disorder -- **Inclusion terms:** - Opioid-associated amnestic syndrome with opioid abuse
+[F1119] Opioid abuse with unspecified opioid-induced disorder
+[F112] Opioid dependence -- **Excludes1:** - opioid abuse (F11.1-) - opioid use, unspecified (F11.9-)  **Excludes2:** - opioid poisoning (T40.0-T40.2-)
+[F1120] Opioid dependence, uncomplicated -- **Inclusion terms:** - Opioid use disorder, moderate - Opioid use disorder, severe
+[F1121] Opioid dependence, in remission -- **Inclusion terms:** - Opioid use disorder, moderate, in early remission - Opioid use disorder, moderate, in sustained remission - Opioid use disorder, severe, in early remission - Opioid use disorder, severe, in sustained remission
+[F1122] Opioid dependence with intoxication -- **Excludes1:** - opioid dependence with withdrawal (F11.23)
+[F11220] Opioid dependence with intoxication, uncomplicated
+[F11221] Opioid dependence with intoxication delirium
+[F11222] Opioid dependence with intoxication with perceptual disturbance
+[F11229] Opioid dependence with intoxication, unspecified
+[F1123] Opioid dependence with withdrawal -- **Excludes1:** - opioid dependence with intoxication (F11.22-)
+[F1124] Opioid dependence with opioid-induced mood disorder -- **Inclusion terms:** - Opioid use disorder, moderate, with opioid induced depressive disorder
+[F1125] Opioid dependence with opioid-induced psychotic disorder
+[F11250] Opioid dependence with opioid-induced psychotic disorder with delusions
+[F11251] Opioid dependence with opioid-induced psychotic disorder with hallucinations
+[F11259] Opioid dependence with opioid-induced psychotic disorder, unspecified
+[F1128] Opioid dependence with other opioid-induced disorder
+[F11281] Opioid dependence with opioid-induced sexual dysfunction
+[F11282] Opioid dependence with opioid-induced sleep disorder
+[F11288] Opioid dependence with other opioid-induced disorder -- **Inclusion terms:** - Opioid-associated amnestic syndrome with opioid dependence
+[F1129] Opioid dependence with unspecified opioid-induced disorder
+[F119] Opioid use, unspecified -- **Excludes1:** - opioid abuse (F11.1-) - opioid dependence (F11.2-)
+[F1190] Opioid use, unspecified, uncomplicated
+[F1191] Opioid use, unspecified, in remission
+[F1192] Opioid use, unspecified with intoxication -- **Excludes1:** - opioid use, unspecified with withdrawal (F11.93)
+[F11920] Opioid use, unspecified with intoxication, uncomplicated
+[F11921] Opioid use, unspecified with intoxication delirium -- **Inclusion terms:** - Opioid-induced delirium
+[F11922] Opioid use, unspecified with intoxication with perceptual disturbance
+[F11929] Opioid use, unspecified with intoxication, unspecified
+[F1193] Opioid use, unspecified with withdrawal -- **Excludes1:** - opioid use, unspecified with intoxication (F11.92-)
+[F1194] Opioid use, unspecified with opioid-induced mood disorder -- **Inclusion terms:** - Opioid induced depressive disorder, without use disorder
+[F1195] Opioid use, unspecified with opioid-induced psychotic disorder
+[F11950] Opioid use, unspecified with opioid-induced psychotic disorder with delusions
+[F11951] Opioid use, unspecified with opioid-induced psychotic disorder with hallucinations
+[F11959] Opioid use, unspecified with opioid-induced psychotic disorder, unspecified
+[F1198] Opioid use, unspecified with other specified opioid-induced disorder
+[F11981] Opioid use, unspecified with opioid-induced sexual dysfunction -- **Inclusion terms:** - Opioid induced sexual dysfunction, without use disorder
+[F11982] Opioid use, unspecified with opioid-induced sleep disorder -- **Inclusion terms:** - Opioid induced sleep disorder, without use disorder
+[F11988] Opioid use, unspecified with other opioid-induced disorder -- **Inclusion terms:** - Opioid-associated amnestic syndrome without use disorder - Opioid induced anxiety disorder, without use disorder
+[F1199] Opioid use, unspecified with unspecified opioid-induced disorder
+[F12] Cannabis related disorders -- **Includes:** - marijuana
+[F121] Cannabis abuse -- **Excludes1:** - cannabis dependence (F12.2-) - cannabis use, unspecified (F12.9-)
+[F1210] Cannabis abuse, uncomplicated -- **Inclusion terms:** - Cannabis use disorder, mild
+[F1211] Cannabis abuse, in remission -- **Inclusion terms:** - Cannabis use disorder, mild, in early remission - Cannabis use disorder, mild, in sustained remission
+[F1212] Cannabis abuse with intoxication
+[F12120] Cannabis abuse with intoxication, uncomplicated
+[F12121] Cannabis abuse with intoxication delirium
+[F12122] Cannabis abuse with intoxication with perceptual disturbance
+[F12129] Cannabis abuse with intoxication, unspecified
+[F1213] Cannabis abuse with withdrawal
+[F1215] Cannabis abuse with psychotic disorder
+[F12150] Cannabis abuse with psychotic disorder with delusions
+[F12151] Cannabis abuse with psychotic disorder with hallucinations
+[F12159] Cannabis abuse with psychotic disorder, unspecified
+[F1218] Cannabis abuse with other cannabis-induced disorder
+[F12180] Cannabis abuse with cannabis-induced anxiety disorder
+[F12188] Cannabis abuse with other cannabis-induced disorder -- **Inclusion terms:** - Cannabis use disorder, mild, with cannabis-induced sleep disorder
+[F1219] Cannabis abuse with unspecified cannabis-induced disorder
+[F122] Cannabis dependence -- **Excludes1:** - cannabis abuse (F12.1-) - cannabis use, unspecified (F12.9-)  **Excludes2:** - cannabis poisoning (T40.7-)
+[F1220] Cannabis dependence, uncomplicated -- **Inclusion terms:** - Cannabis use disorder, moderate - Cannabis use disorder, severe
+[F1221] Cannabis dependence, in remission -- **Inclusion terms:** - Cannabis use disorder, moderate, in early remission - Cannabis use disorder, moderate, in sustained remission - Cannabis use disorder, severe, in early remission - Cannabis use disorder, severe, in sustained remission
+[F1222] Cannabis dependence with intoxication
+[F12220] Cannabis dependence with intoxication, uncomplicated
+[F12221] Cannabis dependence with intoxication delirium
+[F12222] Cannabis dependence with intoxication with perceptual disturbance
+[F12229] Cannabis dependence with intoxication, unspecified
+[F1223] Cannabis dependence with withdrawal
+[F1225] Cannabis dependence with psychotic disorder
+[F12250] Cannabis dependence with psychotic disorder with delusions
+[F12251] Cannabis dependence with psychotic disorder with hallucinations
+[F12259] Cannabis dependence with psychotic disorder, unspecified
+[F1228] Cannabis dependence with other cannabis-induced disorder
+[F12280] Cannabis dependence with cannabis-induced anxiety disorder
+[F12288] Cannabis dependence with other cannabis-induced disorder -- **Inclusion terms:** - Cannabis use disorder, moderate, with cannabis-induced sleep disorder - Cannabis use disorder, severe, with cannabis-induced sleep disorder
+[F1229] Cannabis dependence with unspecified cannabis-induced disorder
+[F129] Cannabis use, unspecified -- **Excludes1:** - cannabis abuse (F12.1-) - cannabis dependence (F12.2-)
+[F1290] Cannabis use, unspecified, uncomplicated
+[F1291] Cannabis use, unspecified, in remission
+[F1292] Cannabis use, unspecified with intoxication
+[F12920] Cannabis use, unspecified with intoxication, uncomplicated
+[F12921] Cannabis use, unspecified with intoxication delirium
+[F12922] Cannabis use, unspecified with intoxication with perceptual disturbance
+[F12929] Cannabis use, unspecified with intoxication, unspecified
+[F1293] Cannabis use, unspecified with withdrawal
+[F1295] Cannabis use, unspecified with psychotic disorder
+[F12950] Cannabis use, unspecified with psychotic disorder with delusions
+[F12951] Cannabis use, unspecified with psychotic disorder with hallucinations
+[F12959] Cannabis use, unspecified with psychotic disorder, unspecified -- **Inclusion terms:** - Cannabis induced psychotic disorder, without use disorder
+[F1298] Cannabis use, unspecified with other cannabis-induced disorder
+[F12980] Cannabis use, unspecified with anxiety disorder -- **Inclusion terms:** - Cannabis induced anxiety disorder, without use disorder
+[F12988] Cannabis use, unspecified with other cannabis-induced disorder -- **Inclusion terms:** - Cannabis induced sleep disorder, without use disorder
+[F1299] Cannabis use, unspecified with unspecified cannabis-induced disorder
+[F13] Sedative, hypnotic, or anxiolytic related disorders
+[F131] Sedative, hypnotic or anxiolytic-related abuse -- **Excludes1:** - sedative, hypnotic or anxiolytic-related dependence (F13.2-) - sedative, hypnotic, or anxiolytic use, unspecified (F13.9-)
+[F1310] Sedative, hypnotic or anxiolytic abuse, uncomplicated -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic use disorder, mild
+[F1311] Sedative, hypnotic or anxiolytic abuse, in remission -- **Inclusion terms:** - Sedative, hypnotic or anxiolytic use disorder, mild, in early remission - Sedative, hypnotic or anxiolytic use disorder, mild, in sustained remission
+[F1312] Sedative, hypnotic or anxiolytic abuse with intoxication
+[F13120] Sedative, hypnotic or anxiolytic abuse with intoxication, uncomplicated
+[F13121] Sedative, hypnotic or anxiolytic abuse with intoxication delirium
+[F13129] Sedative, hypnotic or anxiolytic abuse with intoxication, unspecified
+[F1313] Sedative, hypnotic or anxiolytic abuse with withdrawal
+[F13130] Sedative, hypnotic or anxiolytic abuse with withdrawal, uncomplicated
+[F13131] Sedative, hypnotic or anxiolytic abuse with withdrawal delirium
+[F13132] Sedative, hypnotic or anxiolytic abuse with withdrawal with perceptual disturbance
+[F13139] Sedative, hypnotic or anxiolytic abuse with withdrawal, unspecified
+[F1314] Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced mood disorder -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic use disorder, mild, with sedative, hypnotic, or anxiolytic-induced bipolar or related disorder - Sedative, hypnotic, or anxiolytic use disorder, mild, with sedative, hypnotic, or anxiolytic-induced depressive disorder
+[F1315] Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder
+[F13150] Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions
+[F13151] Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinations
+[F13159] Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified
+[F1318] Sedative, hypnotic or anxiolytic abuse with other sedative, hypnotic or anxiolytic-induced disorders
+[F13180] Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced anxiety disorder
+[F13181] Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced sexual dysfunction
+[F13182] Sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced sleep disorder
+[F13188] Sedative, hypnotic or anxiolytic abuse with other sedative, hypnotic or anxiolytic-induced disorder
+[F1319] Sedative, hypnotic or anxiolytic abuse with unspecified sedative, hypnotic or anxiolytic-induced disorder
+[F132] Sedative, hypnotic or anxiolytic-related dependence -- **Excludes1:** - sedative, hypnotic or anxiolytic-related abuse (F13.1-) - sedative, hypnotic, or anxiolytic use, unspecified (F13.9-)  **Excludes2:** - sedative, hypnotic, or anxiolytic poisoning (T42.-)
+[F1320] Sedative, hypnotic or anxiolytic dependence, uncomplicated
+[F1321] Sedative, hypnotic or anxiolytic dependence, in remission -- **Inclusion terms:** - Sedative, hypnotic or anxiolytic use disorder, moderate, in early remission - Sedative, hypnotic or anxiolytic use disorder, moderate, in sustained remission - Sedative, hypnotic or anxiolytic use disorder, severe, in early remission - Sedative, hypnotic or anxiolytic use disorder, severe, in sustained remission
+[F1322] Sedative, hypnotic or anxiolytic dependence with intoxication -- **Excludes1:** - sedative, hypnotic or anxiolytic dependence with withdrawal (F13.23-)
+[F13220] Sedative, hypnotic or anxiolytic dependence with intoxication, uncomplicated
+[F13221] Sedative, hypnotic or anxiolytic dependence with intoxication delirium
+[F13229] Sedative, hypnotic or anxiolytic dependence with intoxication, unspecified
+[F1323] Sedative, hypnotic or anxiolytic dependence with withdrawal -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic use disorder, moderate - Sedative, hypnotic, or anxiolytic use disorder, severe  **Excludes1:** - sedative, hypnotic or anxiolytic dependence with intoxication (F13.22-)
+[F13230] Sedative, hypnotic or anxiolytic dependence with withdrawal, uncomplicated
+[F13231] Sedative, hypnotic or anxiolytic dependence with withdrawal delirium
+[F13232] Sedative, hypnotic or anxiolytic dependence with withdrawal with perceptual disturbance -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic withdrawal with perceptual disturbances
+[F13239] Sedative, hypnotic or anxiolytic dependence with withdrawal, unspecified -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic withdrawal without perceptual disturbances
+[F1324] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced mood disorder -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic use disorder, moderate, with sedative, hypnotic, or anxiolytic-induced bipolar or related disorder - Sedative, hypnotic, or anxiolytic use disorder, moderate, with sedative, hypnotic, or anxiolytic-induced depressive disorder - Sedative, hypnotic, or anxiolytic use disorder, severe, with sedative, hypnotic, or anxiolytic-induced bipolar or related disorder - Sedative, hypnotic, or anxiolytic use disorder, severe, with sedative, hypnotic, or anxiolytic-induced depressive disorder
+[F1325] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder
+[F13250] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions
+[F13251] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinations
+[F13259] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified
+[F1326] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced persisting amnestic disorder
+[F1327] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced persisting dementia -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic use disorder, moderate, with sedative, hypnotic, or anxiolytic-induced major neurocognitive disorder - Sedative, hypnotic, or anxiolytic use disorder, severe, with sedative, hypnotic, or anxiolytic-induced major neurocognitive disorder
+[F1328] Sedative, hypnotic or anxiolytic dependence with other sedative, hypnotic or anxiolytic-induced disorders
+[F13280] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced anxiety disorder
+[F13281] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced sexual dysfunction
+[F13282] Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced sleep disorder
+[F13288] Sedative, hypnotic or anxiolytic dependence with other sedative, hypnotic or anxiolytic-induced disorder -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic use disorder, moderate, with sedative, hypnotic, or anxiolytic-induced mild neurocognitive disorder - Sedative, hypnotic, or anxiolytic use disorder, severe, with sedative, hypnotic, or anxiolytic-induced mild neurocognitive disorder
+[F1329] Sedative, hypnotic or anxiolytic dependence with unspecified sedative, hypnotic or anxiolytic-induced disorder
+[F139] Sedative, hypnotic or anxiolytic-related use, unspecified -- **Excludes1:** - sedative, hypnotic or anxiolytic-related abuse (F13.1-) - sedative, hypnotic or anxiolytic-related dependence (F13.2-)
+[F1390] Sedative, hypnotic, or anxiolytic use, unspecified, uncomplicated
+[F1391] Sedative, hypnotic or anxiolytic use, unspecified, in remission
+[F1392] Sedative, hypnotic or anxiolytic use, unspecified with intoxication -- **Excludes1:** - sedative, hypnotic or anxiolytic use, unspecified with withdrawal (F13.93-)
+[F13920] Sedative, hypnotic or anxiolytic use, unspecified with intoxication, uncomplicated
+[F13921] Sedative, hypnotic or anxiolytic use, unspecified with intoxication delirium -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic-induced delirium
+[F13929] Sedative, hypnotic or anxiolytic use, unspecified with intoxication, unspecified
+[F1393] Sedative, hypnotic or anxiolytic use, unspecified with withdrawal -- **Excludes1:** - sedative, hypnotic or anxiolytic use, unspecified with intoxication (F13.92-)
+[F13930] Sedative, hypnotic or anxiolytic use, unspecified with withdrawal, uncomplicated
+[F13931] Sedative, hypnotic or anxiolytic use, unspecified with withdrawal delirium
+[F13932] Sedative, hypnotic or anxiolytic use, unspecified with withdrawal with perceptual disturbances
+[F13939] Sedative, hypnotic or anxiolytic use, unspecified with withdrawal, unspecified
+[F1394] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced mood disorder -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic-induced bipolar or related disorder, without use disorder - Sedative, hypnotic, or anxiolytic-induced depressive disorder, without use disorder
+[F1395] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced psychotic disorder
+[F13950] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions
+[F13951] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinations
+[F13959] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic-induced psychotic disorder, without use disorder
+[F1396] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced persisting amnestic disorder
+[F1397] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced persisting dementia -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic-induced major neurocognitive disorder, without use disorder
+[F1398] Sedative, hypnotic or anxiolytic use, unspecified with other sedative, hypnotic or anxiolytic-induced disorders
+[F13980] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced anxiety disorder -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic-induced anxiety disorder, without use disorder
+[F13981] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced sexual dysfunction -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic-induced sexual dysfunction disorder, without use disorder
+[F13982] Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced sleep disorder -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic-induced sleep disorder, without use disorder
+[F13988] Sedative, hypnotic or anxiolytic use, unspecified with other sedative, hypnotic or anxiolytic-induced disorder -- **Inclusion terms:** - Sedative, hypnotic, or anxiolytic-induced mild neurocognitive disorder
+[F1399] Sedative, hypnotic or anxiolytic use, unspecified with unspecified sedative, hypnotic or anxiolytic-induced disorder
+[F14] Cocaine related disorders -- **Excludes2:** - other stimulant-related disorders (F15.-)
+[F141] Cocaine abuse -- **Excludes1:** - cocaine dependence (F14.2-) - cocaine use, unspecified (F14.9-)
+[F1410] Cocaine abuse, uncomplicated -- **Inclusion terms:** - Cocaine use disorder, mild
+[F1411] Cocaine abuse, in remission -- **Inclusion terms:** - Cocaine use disorder, mild, in early remission - Cocaine use disorder, mild, in sustained remission
+[F1412] Cocaine abuse with intoxication
+[F14120] Cocaine abuse with intoxication, uncomplicated
+[F14121] Cocaine abuse with intoxication with delirium
+[F14122] Cocaine abuse with intoxication with perceptual disturbance
+[F14129] Cocaine abuse with intoxication, unspecified
+[F1413] Cocaine abuse, unspecified with withdrawal
+[F1414] Cocaine abuse with cocaine-induced mood disorder -- **Inclusion terms:** - Cocaine use disorder, mild, with cocaine-induced bipolar or related disorder - Cocaine use disorder, mild, with cocaine-induced depressive disorder
+[F1415] Cocaine abuse with cocaine-induced psychotic disorder
+[F14150] Cocaine abuse with cocaine-induced psychotic disorder with delusions
+[F14151] Cocaine abuse with cocaine-induced psychotic disorder with hallucinations
+[F14159] Cocaine abuse with cocaine-induced psychotic disorder, unspecified
+[F1418] Cocaine abuse with other cocaine-induced disorder
+[F14180] Cocaine abuse with cocaine-induced anxiety disorder
+[F14181] Cocaine abuse with cocaine-induced sexual dysfunction
+[F14182] Cocaine abuse with cocaine-induced sleep disorder
+[F14188] Cocaine abuse with other cocaine-induced disorder -- **Inclusion terms:** - Cocaine use disorder, mild, with cocaine-induced obsessive compulsive or related disorder
+[F1419] Cocaine abuse with unspecified cocaine-induced disorder
+[F142] Cocaine dependence -- **Excludes1:** - cocaine abuse (F14.1-) - cocaine use, unspecified (F14.9-)  **Excludes2:** - cocaine poisoning (T40.5-)
+[F1420] Cocaine dependence, uncomplicated -- **Inclusion terms:** - Cocaine use disorder, moderate - Cocaine use disorder, severe
+[F1421] Cocaine dependence, in remission -- **Inclusion terms:** - Cocaine use disorder, moderate, in early remission - Cocaine use disorder, moderate, in sustained remission - Cocaine use disorder, severe, in early remission - Cocaine use disorder, severe, in sustained remission
+[F1422] Cocaine dependence with intoxication -- **Excludes1:** - cocaine dependence with withdrawal (F14.23)
+[F14220] Cocaine dependence with intoxication, uncomplicated
+[F14221] Cocaine dependence with intoxication delirium
+[F14222] Cocaine dependence with intoxication with perceptual disturbance
+[F14229] Cocaine dependence with intoxication, unspecified
+[F1423] Cocaine dependence with withdrawal -- **Excludes1:** - cocaine dependence with intoxication (F14.22-)
+[F1424] Cocaine dependence with cocaine-induced mood disorder -- **Inclusion terms:** - Cocaine use disorder, moderate, with cocaine-induced bipolar or related disorder - Cocaine use disorder, moderate, with cocaine-induced depressive disorder - Cocaine use disorder, severe, with cocaine-induced bipolar or related disorder - Cocaine use disorder, severe, with cocaine-induced depressive disorder
+[F1425] Cocaine dependence with cocaine-induced psychotic disorder
+[F14250] Cocaine dependence with cocaine-induced psychotic disorder with delusions
+[F14251] Cocaine dependence with cocaine-induced psychotic disorder with hallucinations
+[F14259] Cocaine dependence with cocaine-induced psychotic disorder, unspecified
+[F1428] Cocaine dependence with other cocaine-induced disorder
+[F14280] Cocaine dependence with cocaine-induced anxiety disorder
+[F14281] Cocaine dependence with cocaine-induced sexual dysfunction
+[F14282] Cocaine dependence with cocaine-induced sleep disorder
+[F14288] Cocaine dependence with other cocaine-induced disorder -- **Inclusion terms:** - Cocaine use disorder, moderate, with cocaine-induced obsessive compulsive or related disorder - Cocaine use disorder, severe, with cocaine-induced obsessive compulsive or related disorder
+[F1429] Cocaine dependence with unspecified cocaine-induced disorder
+[F149] Cocaine use, unspecified -- **Excludes1:** - cocaine abuse (F14.1-) - cocaine dependence (F14.2-)
+[F1490] Cocaine use, unspecified, uncomplicated
+[F1491] Cocaine use, unspecified, in remission
+[F1492] Cocaine use, unspecified with intoxication
+[F14920] Cocaine use, unspecified with intoxication, uncomplicated
+[F14921] Cocaine use, unspecified with intoxication delirium
+[F14922] Cocaine use, unspecified with intoxication with perceptual disturbance
+[F14929] Cocaine use, unspecified with intoxication, unspecified
+[F1493] Cocaine use, unspecified with withdrawal
+[F1494] Cocaine use, unspecified with cocaine-induced mood disorder -- **Inclusion terms:** - Cocaine induced bipolar or related disorder, without use disorder - Cocaine induced depressive disorder, without use disorder
+[F1495] Cocaine use, unspecified with cocaine-induced psychotic disorder
+[F14950] Cocaine use, unspecified with cocaine-induced psychotic disorder with delusions
+[F14951] Cocaine use, unspecified with cocaine-induced psychotic disorder with hallucinations
+[F14959] Cocaine use, unspecified with cocaine-induced psychotic disorder, unspecified -- **Inclusion terms:** - Cocaine induced psychotic disorder, without use disorder
+[F1498] Cocaine use, unspecified with other specified cocaine-induced disorder
+[F14980] Cocaine use, unspecified with cocaine-induced anxiety disorder -- **Inclusion terms:** - Cocaine induced anxiety disorder, without use disorder
+[F14981] Cocaine use, unspecified with cocaine-induced sexual dysfunction -- **Inclusion terms:** - Cocaine induced sexual dysfunction, without use disorder
+[F14982] Cocaine use, unspecified with cocaine-induced sleep disorder -- **Inclusion terms:** - Cocaine induced sleep disorder, without use disorder
+[F14988] Cocaine use, unspecified with other cocaine-induced disorder -- **Inclusion terms:** - Cocaine induced obsessive compulsive or related disorder
+[F1499] Cocaine use, unspecified with unspecified cocaine-induced disorder
+[F15] Other stimulant related disorders -- **Includes:** - amphetamine-related disorders - caffeine  **Excludes2:** - cocaine-related disorders (F14.-)
+[F151] Other stimulant abuse -- **Excludes1:** - other stimulant dependence (F15.2-) - other stimulant use, unspecified (F15.9-)
+[F1510] Other stimulant abuse, uncomplicated -- **Inclusion terms:** - Amphetamine type substance use disorder, mild - Other or unspecified stimulant use disorder, mild
+[F1511] Other stimulant abuse, in remission -- **Inclusion terms:** - Amphetamine type substance use disorder, mild, in early remission - Amphetamine type substance use disorder, mild, in sustained remission - Other or unspecified stimulant use disorder, mild, in early remission - Other or unspecified stimulant use disorder, mild, in sustained remission
+[F1512] Other stimulant abuse with intoxication
+[F15120] Other stimulant abuse with intoxication, uncomplicated
+[F15121] Other stimulant abuse with intoxication delirium
+[F15122] Other stimulant abuse with intoxication with perceptual disturbance -- **Inclusion terms:** - Amphetamine or other stimulant use disorder, mild, with amphetamine or other stimulant intoxication, with perceptual disturbances
+[F15129] Other stimulant abuse with intoxication, unspecified -- **Inclusion terms:** - Amphetamine or other stimulant use disorder, mild, with amphetamine or other stimulant intoxication, without perceptual disturbances
+[F1513] Other stimulant abuse with withdrawal
+[F1514] Other stimulant abuse with stimulant-induced mood disorder -- **Inclusion terms:** - Amphetamine or other stimulant use disorder, mild, with amphetamine or other stimulant induced bipolar or related disorder - Amphetamine or other stimulant use disorder, mild, with amphetamine or other stimulant induced depressive disorder
+[F1515] Other stimulant abuse with stimulant-induced psychotic disorder
+[F15150] Other stimulant abuse with stimulant-induced psychotic disorder with delusions
+[F15151] Other stimulant abuse with stimulant-induced psychotic disorder with hallucinations
+[F15159] Other stimulant abuse with stimulant-induced psychotic disorder, unspecified
+[F1518] Other stimulant abuse with other stimulant-induced disorder
+[F15180] Other stimulant abuse with stimulant-induced anxiety disorder
+[F15181] Other stimulant abuse with stimulant-induced sexual dysfunction
+[F15182] Other stimulant abuse with stimulant-induced sleep disorder
+[F15188] Other stimulant abuse with other stimulant-induced disorder -- **Inclusion terms:** - Amphetamine or other stimulant use disorder, mild, with amphetamine or other stimulant induced obsessive-compulsive or related disorder
+[F1519] Other stimulant abuse with unspecified stimulant-induced disorder
+[F152] Other stimulant dependence -- **Excludes1:** - other stimulant abuse (F15.1-) - other stimulant use, unspecified (F15.9-)
+[F1520] Other stimulant dependence, uncomplicated -- **Inclusion terms:** - Amphetamine type substance use disorder, moderate - Amphetamine type substance use disorder, severe - Other or unspecified stimulant use disorder, moderate - Other or unspecified stimulant use disorder, severe
+[F1521] Other stimulant dependence, in remission -- **Inclusion terms:** - Amphetamine type substance use disorder, moderate, in early remission - Amphetamine type substance use disorder, moderate, in sustained remission - Amphetamine type substance use disorder, severe, in early remission - Amphetamine type substance use disorder, severe, in sustained remission - Other or unspecified stimulant use disorder, moderate, in early remission - Other or unspecified stimulant use disorder, moderate, in sustained remission - Other or unspecified stimulant use disorder, severe, in early remission - Other or unspecified stimulant use disorder, severe, in sustained remission
+[F1522] Other stimulant dependence with intoxication -- **Excludes1:** - other stimulant dependence with withdrawal (F15.23)
+[F15220] Other stimulant dependence with intoxication, uncomplicated
+[F15221] Other stimulant dependence with intoxication delirium
+[F15222] Other stimulant dependence with intoxication with perceptual disturbance -- **Inclusion terms:** - Amphetamine or other stimulant use disorder, moderate, with amphetamine or other stimulant intoxication, with perceptual disturbances - Amphetamine or other stimulant use disorder, severe, with amphetamine or other stimulant intoxication, with perceptual disturbances
+[F15229] Other stimulant dependence with intoxication, unspecified -- **Inclusion terms:** - Amphetamine or other stimulant use disorder, moderate, with amphetamine or other stimulant intoxication, without perceptual disturbances - Amphetamine or other stimulant use disorder, severe, with amphetamine or other stimulant intoxication, without perceptual disturbances
+[F1523] Other stimulant dependence with withdrawal -- **Inclusion terms:** - Amphetamine or other stimulant withdrawal  **Excludes1:** - other stimulant dependence with intoxication (F15.22-)
+[F1524] Other stimulant dependence with stimulant-induced mood disorder -- **Inclusion terms:** - Amphetamine or other stimulant use disorder, moderate, with amphetamine or other stimulant-induced bipolar or related disorder - Amphetamine or other stimulant use disorder, moderate, with amphetamine or other stimulant induced depressive disorder - Amphetamine or other stimulant use disorder, severe, with amphetamine or other stimulant-induced bipolar or related disorder - Amphetamine or other stimulant use disorder, severe, with amphetamine or other stimulant-induced depressive disorder
+[F1525] Other stimulant dependence with stimulant-induced psychotic disorder
+[F15250] Other stimulant dependence with stimulant-induced psychotic disorder with delusions
+[F15251] Other stimulant dependence with stimulant-induced psychotic disorder with hallucinations
+[F15259] Other stimulant dependence with stimulant-induced psychotic disorder, unspecified
+[F1528] Other stimulant dependence with other stimulant-induced disorder
+[F15280] Other stimulant dependence with stimulant-induced anxiety disorder
+[F15281] Other stimulant dependence with stimulant-induced sexual dysfunction
+[F15282] Other stimulant dependence with stimulant-induced sleep disorder
+[F15288] Other stimulant dependence with other stimulant-induced disorder -- **Inclusion terms:** - Amphetamine or other stimulant use disorder, moderate, with amphetamine or other stimulant induced obsessive compulsive or related disorder - Amphetamine or other stimulant use disorder, severe, with amphetamine or other stimulant induced obsessive compulsive or related disorder
+[F1529] Other stimulant dependence with unspecified stimulant-induced disorder
+[F159] Other stimulant use, unspecified -- **Excludes1:** - other stimulant abuse (F15.1-) - other stimulant dependence (F15.2-)
+[F1590] Other stimulant use, unspecified, uncomplicated
+[F1591] Other stimulant use, unspecified, in remission
+[F1592] Other stimulant use, unspecified with intoxication -- **Excludes1:** - other stimulant use, unspecified with withdrawal (F15.93)
+[F15920] Other stimulant use, unspecified with intoxication, uncomplicated
+[F15921] Other stimulant use, unspecified with intoxication delirium -- **Inclusion terms:** - Amphetamine or other stimulant-induced delirium
+[F15922] Other stimulant use, unspecified with intoxication with perceptual disturbance
+[F15929] Other stimulant use, unspecified with intoxication, unspecified -- **Inclusion terms:** - Caffeine intoxication
+[F1593] Other stimulant use, unspecified with withdrawal -- **Inclusion terms:** - Caffeine withdrawal  **Excludes1:** - other stimulant use, unspecified with intoxication (F15.92-)
+[F1594] Other stimulant use, unspecified with stimulant-induced mood disorder -- **Inclusion terms:** - Amphetamine or other stimulant-induced bipolar or related disorder, without use disorder - Amphetamine or other stimulant-induced depressive disorder, without use disorder
+[F1595] Other stimulant use, unspecified with stimulant-induced psychotic disorder
+[F15950] Other stimulant use, unspecified with stimulant-induced psychotic disorder with delusions
+[F15951] Other stimulant use, unspecified with stimulant-induced psychotic disorder with hallucinations
+[F15959] Other stimulant use, unspecified with stimulant-induced psychotic disorder, unspecified -- **Inclusion terms:** - Amphetamine or other stimulant-induced psychotic disorder, without use disorder
+[F1598] Other stimulant use, unspecified with other stimulant-induced disorder
+[F15980] Other stimulant use, unspecified with stimulant-induced anxiety disorder -- **Inclusion terms:** - Amphetamine or other stimulant-induced anxiety disorder, without use disorder - Caffeine induced anxiety disorder, without use disorder
+[F15981] Other stimulant use, unspecified with stimulant-induced sexual dysfunction -- **Inclusion terms:** - Amphetamine or other stimulant-induced sexual dysfunction, without use disorder
+[F15982] Other stimulant use, unspecified with stimulant-induced sleep disorder -- **Inclusion terms:** - Amphetamine or other stimulant-induced sleep disorder, without use disorder - Caffeine induced sleep disorder, without use disorder
+[F15988] Other stimulant use, unspecified with other stimulant-induced disorder -- **Inclusion terms:** - Amphetamine or other stimulant-induced obsessive compulsive or related disorder, without use disorder
+[F1599] Other stimulant use, unspecified with unspecified stimulant-induced disorder
+[F16] Hallucinogen related disorders -- **Includes:** - ecstasy - PCP - phencyclidine
+[F161] Hallucinogen abuse -- **Excludes1:** - hallucinogen dependence (F16.2-) - hallucinogen use, unspecified (F16.9-)
+[F1610] Hallucinogen abuse, uncomplicated -- **Inclusion terms:** - Other hallucinogen use disorder, mild - Phencyclidine use disorder, mild
+[F1611] Hallucinogen abuse, in remission -- **Inclusion terms:** - Other hallucinogen use disorder, mild, in early remission - Other hallucinogen use disorder, mild, in sustained remission - Phencyclidine use disorder, mild, in early remission - Phencyclidine use disorder, mild, in sustained remission
+[F1612] Hallucinogen abuse with intoxication
+[F16120] Hallucinogen abuse with intoxication, uncomplicated
+[F16121] Hallucinogen abuse with intoxication with delirium
+[F16122] Hallucinogen abuse with intoxication with perceptual disturbance
+[F16129] Hallucinogen abuse with intoxication, unspecified
+[F1614] Hallucinogen abuse with hallucinogen-induced mood disorder -- **Inclusion terms:** - Other hallucinogen use disorder, mild, with other hallucinogen induced bipolar or related disorder - Other hallucinogen use disorder, mild, with other hallucinogen induced depressive disorder - Phencyclidine use disorder, mild, with phencyclidine induced bipolar or related disorder - Phencyclidine use disorder, mild, with phencyclidine induced depressive disorder
+[F1615] Hallucinogen abuse with hallucinogen-induced psychotic disorder
+[F16150] Hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions
+[F16151] Hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations
+[F16159] Hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified
+[F1618] Hallucinogen abuse with other hallucinogen-induced disorder
+[F16180] Hallucinogen abuse with hallucinogen-induced anxiety disorder
+[F16183] Hallucinogen abuse with hallucinogen persisting perception disorder (flashbacks)
+[F16188] Hallucinogen abuse with other hallucinogen-induced disorder
+[F1619] Hallucinogen abuse with unspecified hallucinogen-induced disorder
+[F162] Hallucinogen dependence -- **Excludes1:** - hallucinogen abuse (F16.1-) - hallucinogen use, unspecified (F16.9-)
+[F1620] Hallucinogen dependence, uncomplicated -- **Inclusion terms:** - Other hallucinogen use disorder, moderate - Other hallucinogen use disorder, severe - Phencyclidine use disorder, moderate - Phencyclidine use disorder, severe
+[F1621] Hallucinogen dependence, in remission -- **Inclusion terms:** - Other hallucinogen use disorder, moderate, in early remission - Other hallucinogen use disorder, moderate, in sustained remission - Other hallucinogen use disorder, severe, in early remission - Other hallucinogen use disorder, severe, in sustained remission - Phencyclidine use disorder, moderate, in early remission - Phencyclidine use disorder, moderate, in sustained remission - Phencyclidine use disorder, severe, in early remission - Phencyclidine use disorder, severe, in sustained remission
+[F1622] Hallucinogen dependence with intoxication
+[F16220] Hallucinogen dependence with intoxication, uncomplicated
+[F16221] Hallucinogen dependence with intoxication with delirium
+[F16229] Hallucinogen dependence with intoxication, unspecified
+[F1624] Hallucinogen dependence with hallucinogen-induced mood disorder -- **Inclusion terms:** - Other hallucinogen use disorder, moderate, with other hallucinogen induced bipolar or related disorder - Other hallucinogen use disorder, moderate, with other hallucinogen induced depressive disorder - Other hallucinogen use disorder, severe, with other hallucinogen-induced bipolar or related disorder - Other hallucinogen use disorder, severe, with other hallucinogen-induced depressive disorder - Phencyclidine use disorder, moderate, with phencyclidine induced bipolar or related disorder - Phencyclidine use disorder, moderate, with phencyclidine induced depressive disorder - Phencyclidine use disorder, severe, with phencyclidine induced bipolar or related disorder - Phencyclidine use disorder, severe, with phencyclidine-induced depressive disorder
+[F1625] Hallucinogen dependence with hallucinogen-induced psychotic disorder
+[F16250] Hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions
+[F16251] Hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations
+[F16259] Hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified
+[F1628] Hallucinogen dependence with other hallucinogen-induced disorder
+[F16280] Hallucinogen dependence with hallucinogen-induced anxiety disorder
+[F16283] Hallucinogen dependence with hallucinogen persisting perception disorder (flashbacks)
+[F16288] Hallucinogen dependence with other hallucinogen-induced disorder
+[F1629] Hallucinogen dependence with unspecified hallucinogen-induced disorder
+[F169] Hallucinogen use, unspecified -- **Excludes1:** - hallucinogen abuse (F16.1-) - hallucinogen dependence (F16.2-)
+[F1690] Hallucinogen use, unspecified, uncomplicated
+[F1691] Hallucinogen use, unspecified, in remission
+[F1692] Hallucinogen use, unspecified with intoxication
+[F16920] Hallucinogen use, unspecified with intoxication, uncomplicated
+[F16921] Hallucinogen use, unspecified with intoxication with delirium -- **Inclusion terms:** - Other hallucinogen intoxication delirium
+[F16929] Hallucinogen use, unspecified with intoxication, unspecified
+[F1694] Hallucinogen use, unspecified with hallucinogen-induced mood disorder -- **Inclusion terms:** - Other hallucinogen induced bipolar or related disorder, without use disorder - Other hallucinogen induced depressive disorder, without use disorder - Phencyclidine induced bipolar or related disorder, without use disorder - Phencyclidine induced depressive disorder, without use disorder
+[F1695] Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder
+[F16950] Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with delusions
+[F16951] Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with hallucinations
+[F16959] Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder, unspecified -- **Inclusion terms:** - Other hallucinogen induced psychotic disorder, without use disorder - Phencyclidine induced psychotic disorder, without use disorder
+[F1698] Hallucinogen use, unspecified with other specified hallucinogen-induced disorder
+[F16980] Hallucinogen use, unspecified with hallucinogen-induced anxiety disorder -- **Inclusion terms:** - Other hallucinogen-induced anxiety disorder, without use disorder - Phencyclidine induced anxiety disorder, without use disorder
+[F16983] Hallucinogen use, unspecified with hallucinogen persisting perception disorder (flashbacks)
+[F16988] Hallucinogen use, unspecified with other hallucinogen-induced disorder
+[F1699] Hallucinogen use, unspecified with unspecified hallucinogen-induced disorder
+[F17] Nicotine dependence -- **Excludes1:** - history of tobacco dependence (Z87.891) - tobacco use NOS (Z72.0)  **Excludes2:** - tobacco use (smoking) during pregnancy, childbirth and the puerperium (O99.33-) - toxic effect of nicotine (T65.2-)
+[F172] Nicotine dependence
+[F1720] Nicotine dependence, unspecified
+[F17200] Nicotine dependence, unspecified, uncomplicated -- **Inclusion terms:** - Tobacco use disorder, mild - Tobacco use disorder, moderate - Tobacco use disorder, severe
+[F17201] Nicotine dependence, unspecified, in remission -- **Inclusion terms:** - Tobacco use disorder, mild, in early remission - Tobacco use disorder, mild, in sustained remission - Tobacco use disorder, moderate, in early remission - Tobacco use disorder, moderate, in sustained remission - Tobacco use disorder, severe, in early remission - Tobacco use disorder, severe, in sustained remission
+[F17203] Nicotine dependence unspecified, with withdrawal -- **Inclusion terms:** - Tobacco withdrawal
+[F17208] Nicotine dependence, unspecified, with other nicotine-induced disorders
+[F17209] Nicotine dependence, unspecified, with unspecified nicotine-induced disorders
+[F1721] Nicotine dependence, cigarettes
+[F17210] Nicotine dependence, cigarettes, uncomplicated
+[F17211] Nicotine dependence, cigarettes, in remission -- **Inclusion terms:** - Tobacco use disorder, cigarettes, mild, in early remission - Tobacco use disorder, cigarettes, mild, in sustained remission - Tobacco use disorder, cigarettes, moderate, in early remission - Tobacco use disorder, cigarettes, moderate, in sustained remission - Tobacco use disorder, cigarettes, severe, in early remission - Tobacco use disorder, cigarettes, severe, in sustained remission
+[F17213] Nicotine dependence, cigarettes, with withdrawal
+[F17218] Nicotine dependence, cigarettes, with other nicotine-induced disorders
+[F17219] Nicotine dependence, cigarettes, with unspecified nicotine-induced disorders
+[F1722] Nicotine dependence, chewing tobacco
+[F17220] Nicotine dependence, chewing tobacco, uncomplicated
+[F17221] Nicotine dependence, chewing tobacco, in remission -- **Inclusion terms:** - Tobacco use disorder, chewing tobacco, mild, in early remission - Tobacco use disorder, chewing tobacco, mild, in sustained remission - Tobacco use disorder, chewing tobacco, moderate, in early remission - Tobacco use disorder, chewing tobacco, moderate, in sustained remission - Tobacco use disorder, chewing tobacco, severe, in early remission - Tobacco use disorder, chewing tobacco, severe, in sustained remission
+[F17223] Nicotine dependence, chewing tobacco, with withdrawal
+[F17228] Nicotine dependence, chewing tobacco, with other nicotine-induced disorders
+[F17229] Nicotine dependence, chewing tobacco, with unspecified nicotine-induced disorders
+[F1729] Nicotine dependence, other tobacco product
+[F17290] Nicotine dependence, other tobacco product, uncomplicated
+[F17291] Nicotine dependence, other tobacco product, in remission -- **Inclusion terms:** - Tobacco use disorder, other tobacco product, mild, in early remission - Tobacco use disorder, other tobacco product, mild, in sustained remission - Tobacco use disorder, other tobacco product, moderate, in early remission - Tobacco use disorder, other tobacco product, moderate, in sustained remission - Tobacco use disorder, other tobacco product, severe, in early remission - Tobacco use disorder, other tobacco product, severe, in sustained remission
+[F17293] Nicotine dependence, other tobacco product, with withdrawal
+[F17298] Nicotine dependence, other tobacco product, with other nicotine-induced disorders
+[F17299] Nicotine dependence, other tobacco product, with unspecified nicotine-induced disorders
+[F18] Inhalant related disorders -- **Includes:** - volatile solvents
+[F181] Inhalant abuse -- **Excludes1:** - inhalant dependence (F18.2-) - inhalant use, unspecified (F18.9-)
+[F1810] Inhalant abuse, uncomplicated -- **Inclusion terms:** - Inhalant use disorder, mild
+[F1811] Inhalant abuse, in remission -- **Inclusion terms:** - Inhalant use disorder, mild, in early remission - Inhalant use disorder, mild, in sustained remission
+[F1812] Inhalant abuse with intoxication
+[F18120] Inhalant abuse with intoxication, uncomplicated
+[F18121] Inhalant abuse with intoxication delirium
+[F18129] Inhalant abuse with intoxication, unspecified
+[F1814] Inhalant abuse with inhalant-induced mood disorder -- **Inclusion terms:** - Inhalant use disorder, mild, with inhalant induced depressive disorder
+[F1815] Inhalant abuse with inhalant-induced psychotic disorder
+[F18150] Inhalant abuse with inhalant-induced psychotic disorder with delusions
+[F18151] Inhalant abuse with inhalant-induced psychotic disorder with hallucinations
+[F18159] Inhalant abuse with inhalant-induced psychotic disorder, unspecified
+[F1817] Inhalant abuse with inhalant-induced dementia -- **Inclusion terms:** - Inhalant use disorder, mild, with inhalant induced major neurocognitive disorder
+[F1818] Inhalant abuse with other inhalant-induced disorders
+[F18180] Inhalant abuse with inhalant-induced anxiety disorder
+[F18188] Inhalant abuse with other inhalant-induced disorder -- **Inclusion terms:** - Inhalant use disorder, mild, with inhalant induced mild neurocognitive disorder
+[F1819] Inhalant abuse with unspecified inhalant-induced disorder
+[F182] Inhalant dependence -- **Excludes1:** - inhalant abuse (F18.1-) - inhalant use, unspecified (F18.9-)
+[F1820] Inhalant dependence, uncomplicated -- **Inclusion terms:** - Inhalant use disorder, moderate - Inhalant use disorder, severe
+[F1821] Inhalant dependence, in remission -- **Inclusion terms:** - Inhalant use disorder, moderate, in early remission - Inhalant use disorder, moderate, in sustained remission - Inhalant use disorder, severe, in early remission - Inhalant use disorder, severe, in sustained remission
+[F1822] Inhalant dependence with intoxication
+[F18220] Inhalant dependence with intoxication, uncomplicated
+[F18221] Inhalant dependence with intoxication delirium
+[F18229] Inhalant dependence with intoxication, unspecified
+[F1824] Inhalant dependence with inhalant-induced mood disorder -- **Inclusion terms:** - Inhalant use disorder, moderate, with inhalant induced depressive disorder - Inhalant use disorder, severe, with inhalant induced depressive disorder
+[F1825] Inhalant dependence with inhalant-induced psychotic disorder
+[F18250] Inhalant dependence with inhalant-induced psychotic disorder with delusions
+[F18251] Inhalant dependence with inhalant-induced psychotic disorder with hallucinations
+[F18259] Inhalant dependence with inhalant-induced psychotic disorder, unspecified
+[F1827] Inhalant dependence with inhalant-induced dementia -- **Inclusion terms:** - Inhalant use disorder, moderate, with inhalant induced major neurocognitive disorder - Inhalant use disorder, severe, with inhalant induced major neurocognitive disorder
+[F1828] Inhalant dependence with other inhalant-induced disorders
+[F18280] Inhalant dependence with inhalant-induced anxiety disorder
+[F18288] Inhalant dependence with other inhalant-induced disorder -- **Inclusion terms:** - Inhalant use disorder, moderate, with inhalant-induced mild neurocognitive disorder - Inhalant use disorder, severe, with inhalant-induced mild neurocognitive disorder
+[F1829] Inhalant dependence with unspecified inhalant-induced disorder
+[F189] Inhalant use, unspecified -- **Excludes1:** - inhalant abuse (F18.1-) - inhalant dependence (F18.2-)
+[F1890] Inhalant use, unspecified, uncomplicated
+[F1891] Inhalant use, unspecified, in remission
+[F1892] Inhalant use, unspecified with intoxication
+[F18920] Inhalant use, unspecified with intoxication, uncomplicated
+[F18921] Inhalant use, unspecified with intoxication with delirium
+[F18929] Inhalant use, unspecified with intoxication, unspecified
+[F1894] Inhalant use, unspecified with inhalant-induced mood disorder -- **Inclusion terms:** - Inhalant induced depressive disorder
+[F1895] Inhalant use, unspecified with inhalant-induced psychotic disorder
+[F18950] Inhalant use, unspecified with inhalant-induced psychotic disorder with delusions
+[F18951] Inhalant use, unspecified with inhalant-induced psychotic disorder with hallucinations
+[F18959] Inhalant use, unspecified with inhalant-induced psychotic disorder, unspecified
+[F1897] Inhalant use, unspecified with inhalant-induced persisting dementia -- **Inclusion terms:** - Inhalant-induced major neurocognitive disorder
+[F1898] Inhalant use, unspecified with other inhalant-induced disorders
+[F18980] Inhalant use, unspecified with inhalant-induced anxiety disorder
+[F18988] Inhalant use, unspecified with other inhalant-induced disorder -- **Inclusion terms:** - Inhalant-induced mild neurocognitive disorder
+[F1899] Inhalant use, unspecified with unspecified inhalant-induced disorder
+[F19] Other psychoactive substance related disorders -- **Includes:** - polysubstance drug use (indiscriminate drug use)
+[F191] Other psychoactive substance abuse -- **Excludes1:** - other psychoactive substance dependence (F19.2-) - other psychoactive substance use, unspecified (F19.9-)
+[F1910] Other psychoactive substance abuse, uncomplicated -- **Inclusion terms:** - Other (or unknown) substance use disorder, mild
+[F1911] Other psychoactive substance abuse, in remission -- **Inclusion terms:** - Other (or unknown) substance use disorder, mild, in early remission - Other (or unknown) substance use disorder, mild, in sustained remission
+[F1912] Other psychoactive substance abuse with intoxication
+[F19120] Other psychoactive substance abuse with intoxication, uncomplicated
+[F19121] Other psychoactive substance abuse with intoxication delirium
+[F19122] Other psychoactive substance abuse with intoxication with perceptual disturbances
+[F19129] Other psychoactive substance abuse with intoxication, unspecified
+[F1913] Other psychoactive substance abuse with withdrawal
+[F19130] Other psychoactive substance abuse with withdrawal, uncomplicated
+[F19131] Other psychoactive substance abuse with withdrawal delirium
+[F19132] Other psychoactive substance abuse with withdrawal with perceptual disturbance
+[F19139] Other psychoactive substance abuse with withdrawal, unspecified
+[F1914] Other psychoactive substance abuse with psychoactive substance-induced mood disorder -- **Inclusion terms:** - Other (or unknown) substance use disorder, mild, with other (or unknown) substance-induced bipolar or related disorder - Other (or unknown) substance use disorder, mild, with other (or unknown) substance-induced depressive disorder
+[F1915] Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder
+[F19150] Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions
+[F19151] Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations
+[F19159] Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified
+[F1916] Other psychoactive substance abuse with psychoactive substance-induced persisting amnestic disorder
+[F1917] Other psychoactive substance abuse with psychoactive substance-induced persisting dementia -- **Inclusion terms:** - Other (or unknown) substance use disorder, mild, with other (or unknown) substance-induced major neurocognitive disorder
+[F1918] Other psychoactive substance abuse with other psychoactive substance-induced disorders
+[F19180] Other psychoactive substance abuse with psychoactive substance-induced anxiety disorder
+[F19181] Other psychoactive substance abuse with psychoactive substance-induced sexual dysfunction
+[F19182] Other psychoactive substance abuse with psychoactive substance-induced sleep disorder
+[F19188] Other psychoactive substance abuse with other psychoactive substance-induced disorder -- **Inclusion terms:** - Other (or unknown) substance use disorder, mild, with other (or unknown) substance induced mild neurocognitive disorder - Other (or unknown) substance use disorder, mild, with other (or unknown) substance induced obsessive-compulsive or related disorder
+[F1919] Other psychoactive substance abuse with unspecified psychoactive substance-induced disorder
+[F192] Other psychoactive substance dependence -- **Excludes1:** - other psychoactive substance abuse (F19.1-) - other psychoactive substance use, unspecified (F19.9-)
+[F1920] Other psychoactive substance dependence, uncomplicated -- **Inclusion terms:** - Other (or unknown) substance use disorder, moderate - Other (or unknown) substance use disorder, severe
+[F1921] Other psychoactive substance dependence, in remission -- **Inclusion terms:** - Other (or unknown) substance use disorder, moderate, in early remission - Other (or unknown) substance use disorder, moderate, in sustained remission - Other (or unknown) substance use disorder, severe, in early remission - Other (or unknown) substance use disorder, severe, in sustained remission
+[F1922] Other psychoactive substance dependence with intoxication -- **Excludes1:** - other psychoactive substance dependence with withdrawal (F19.23-)
+[F19220] Other psychoactive substance dependence with intoxication, uncomplicated
+[F19221] Other psychoactive substance dependence with intoxication delirium
+[F19222] Other psychoactive substance dependence with intoxication with perceptual disturbance
+[F19229] Other psychoactive substance dependence with intoxication, unspecified
+[F1923] Other psychoactive substance dependence with withdrawal -- **Excludes1:** - other psychoactive substance dependence with intoxication (F19.22-)
+[F19230] Other psychoactive substance dependence with withdrawal, uncomplicated
+[F19231] Other psychoactive substance dependence with withdrawal delirium
+[F19232] Other psychoactive substance dependence with withdrawal with perceptual disturbance
+[F19239] Other psychoactive substance dependence with withdrawal, unspecified
+[F1924] Other psychoactive substance dependence with psychoactive substance-induced mood disorder -- **Inclusion terms:** - Other (or unknown) substance use disorder, moderate, with other (or unknown) substance induced bipolar or related disorder - Other (or unknown) substance use disorder, moderate, with other (or unknown) substance induced depressive disorder - Other (or unknown) substance use disorder, severe, with other (or unknown) substance induced bipolar or related disorder - Other (or unknown) substance use disorder, severe, with other (or unknown) substance induced depressive disorder
+[F1925] Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder
+[F19250] Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions
+[F19251] Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations
+[F19259] Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified
+[F1926] Other psychoactive substance dependence with psychoactive substance-induced persisting amnestic disorder
+[F1927] Other psychoactive substance dependence with psychoactive substance-induced persisting dementia -- **Inclusion terms:** - Other (or unknown) substance use disorder, moderate, with other (or unknown) substance induced major neurocognitive disorder - Other (or unknown) substance use disorder, severe, with other (or unknown) substance induced major neurocognitive disorder
+[F1928] Other psychoactive substance dependence with other psychoactive substance-induced disorders
+[F19280] Other psychoactive substance dependence with psychoactive substance-induced anxiety disorder
+[F19281] Other psychoactive substance dependence with psychoactive substance-induced sexual dysfunction
+[F19282] Other psychoactive substance dependence with psychoactive substance-induced sleep disorder
+[F19288] Other psychoactive substance dependence with other psychoactive substance-induced disorder -- **Inclusion terms:** - Other (or unknown) substance use disorder, moderate, with other (or unknown) substance induced mild neurocognitive disorder - Other (or unknown) substance use disorder, severe, with other (or unknown) substance induced mild neurocognitive disorder - Other (or unknown) substance use disorder, moderate, with other (or unknown) substance induced obsessive compulsive or related disorder - Other (or unknown) substance use disorder, severe, with other (or unknown) substance induced obsessive-compulsive or related disorder
+[F1929] Other psychoactive substance dependence with unspecified psychoactive substance-induced disorder
+[F199] Other psychoactive substance use, unspecified -- **Excludes1:** - other psychoactive substance abuse (F19.1-) - other psychoactive substance dependence (F19.2-)
+[F1990] Other psychoactive substance use, unspecified, uncomplicated
+[F1991] Other psychoactive substance use, unspecified, in remission
+[F1992] Other psychoactive substance use, unspecified with intoxication -- **Excludes1:** - other psychoactive substance use, unspecified with withdrawal (F19.93)
+[F19920] Other psychoactive substance use, unspecified with intoxication, uncomplicated
+[F19921] Other psychoactive substance use, unspecified with intoxication with delirium -- **Inclusion terms:** - Other (or unknown) substance-induced delirium
+[F19922] Other psychoactive substance use, unspecified with intoxication with perceptual disturbance
+[F19929] Other psychoactive substance use, unspecified with intoxication, unspecified
+[F1993] Other psychoactive substance use, unspecified with withdrawal -- **Excludes1:** - other psychoactive substance use, unspecified with intoxication (F19.92-)
+[F19930] Other psychoactive substance use, unspecified with withdrawal, uncomplicated
+[F19931] Other psychoactive substance use, unspecified with withdrawal delirium
+[F19932] Other psychoactive substance use, unspecified with withdrawal with perceptual disturbance
+[F19939] Other psychoactive substance use, unspecified with withdrawal, unspecified
+[F1994] Other psychoactive substance use, unspecified with psychoactive substance-induced mood disorder -- **Inclusion terms:** - Other (or unknown) substance-induced bipolar or related disorder, without use disorder - Other (or unknown) substance-induced depressive disorder, without use disorder
+[F1995] Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder
+[F19950] Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with delusions
+[F19951] Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with hallucinations
+[F19959] Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder, unspecified -- **Inclusion terms:** - Other or unknown substance-induced psychotic disorder, without use disorder
+[F1996] Other psychoactive substance use, unspecified with psychoactive substance-induced persisting amnestic disorder
+[F1997] Other psychoactive substance use, unspecified with psychoactive substance-induced persisting dementia -- **Inclusion terms:** - Other (or unknown) substance-induced major neurocognitive disorder, without use disorder
+[F1998] Other psychoactive substance use, unspecified with other psychoactive substance-induced disorders
+[F19980] Other psychoactive substance use, unspecified with psychoactive substance-induced anxiety disorder -- **Inclusion terms:** - Other (or unknown) substance-induced anxiety disorder, without use disorder
+[F19981] Other psychoactive substance use, unspecified with psychoactive substance-induced sexual dysfunction -- **Inclusion terms:** - Other (or unknown) substance-induced sexual dysfunction, without use disorder
+[F19982] Other psychoactive substance use, unspecified with psychoactive substance-induced sleep disorder -- **Inclusion terms:** - Other (or unknown) substance-induced sleep disorder, without use disorder
+[F19988] Other psychoactive substance use, unspecified with other psychoactive substance-induced disorder -- **Inclusion terms:** - Other (or unknown) substance-induced mild neurocognitive disorder, without use disorder - Other (or unknown) substance-induced obsessive-compulsive or related disorder, without use disorder
+[F1999] Other psychoactive substance use, unspecified with unspecified psychoactive substance-induced disorder
+[F20] Schizophrenia -- **Excludes1:** - brief psychotic disorder (F23) - cyclic schizophrenia (F25.0) - mood [affective] disorders with psychotic symptoms (F30.2, F31.2, F31.5, F31.64, F32.3, F33.3) - schizoaffective disorder (F25.-) - schizophrenic reaction NOS (F23)  **Excludes2:** - schizophrenic reaction in: - alcoholism (F10.15-, F10.25-, F10.95-) - brain disease (F06.2) - epilepsy (F06.2) - psychoactive drug use (F11-F19 with .15. .25, .95) - schizotypal disorder (F21)  **Use additional code:** - code, if applicable, to identify: - other specified cognitive deficit (R41.84-)
+[F200] Paranoid schizophrenia -- **Inclusion terms:** - Paraphrenic schizophrenia  **Excludes1:** - involutional paranoid state (F22) - paranoia (F22)
+[F201] Disorganized schizophrenia -- **Inclusion terms:** - Hebephrenic schizophrenia - Hebephrenia
+[F202] Catatonic schizophrenia -- **Inclusion terms:** - Schizophrenic catalepsy - Schizophrenic catatonia - Schizophrenic flexibilitas cerea  **Excludes1:** - catatonic stupor (R40.1)
+[F203] Undifferentiated schizophrenia -- **Inclusion terms:** - Atypical schizophrenia  **Excludes1:** - acute schizophrenia-like psychotic disorder (F23)  **Excludes2:** - post-schizophrenic depression (F32.89)
+[F205] Residual schizophrenia -- **Inclusion terms:** - Restzustand (schizophrenic) - Schizophrenic residual state
+[F208] Other schizophrenia
+[F2081] Schizophreniform disorder -- **Inclusion terms:** - Schizophreniform psychosis NOS
+[F2089] Other schizophrenia -- **Inclusion terms:** - Cenesthopathic schizophrenia - Simple schizophrenia
+[F209] Schizophrenia, unspecified
+[F21] Schizotypal disorder -- **Inclusion terms:** - Borderline schizophrenia - Latent schizophrenia - Latent schizophrenic reaction - Prepsychotic schizophrenia - Prodromal schizophrenia - Pseudoneurotic schizophrenia - Pseudopsychopathic schizophrenia - Schizotypal personality disorder  **Excludes2:** - Asperger's syndrome (F84.5) - schizoid personality disorder (F60.1)
+[F22] Delusional disorders -- **Inclusion terms:** - Delusional dysmorphophobia - Involutional paranoid state - Paranoia - Paranoia querulans - Paranoid psychosis - Paranoid state - Paraphrenia (late) - Sensitiver Beziehungswahn  **Excludes1:** - mood [affective] disorders with psychotic symptoms (F30.2, F31.2, F31.5, F31.64, F32.3, F33.3) - paranoid schizophrenia (F20.0)  **Excludes2:** - paranoid personality disorder (F60.0) - paranoid psychosis, psychogenic (F23) - paranoid reaction (F23)
+[F23] Brief psychotic disorder -- **Inclusion terms:** - Paranoid reaction - Psychogenic paranoid psychosis  **Excludes2:** - mood [affective] disorders with psychotic symptoms (F30.2, F31.2, F31.5, F31.64, F32.3, F33.3)
+[F24] Shared psychotic disorder -- **Inclusion terms:** - Folie à deux - Induced paranoid disorder - Induced psychotic disorder
+[F25] Schizoaffective disorders -- **Excludes1:** - mood [affective] disorders with psychotic symptoms (F30.2, F31.2, F31.5, F31.64, F32.3, F33.3) - schizophrenia (F20.-)
+[F250] Schizoaffective disorder, bipolar type -- **Inclusion terms:** - Cyclic schizophrenia - Schizoaffective disorder, manic type - Schizoaffective disorder, mixed type - Schizoaffective psychosis, bipolar type
+[F251] Schizoaffective disorder, depressive type -- **Inclusion terms:** - Schizoaffective psychosis, depressive type
+[F258] Other schizoaffective disorders
+[F259] Schizoaffective disorder, unspecified -- **Inclusion terms:** - Schizoaffective psychosis NOS
+[F28] Other psychotic disorder not due to a substance or known physiological condition -- **Inclusion terms:** - Chronic hallucinatory psychosis - Other specified schizophrenia spectrum and other psychotic disorder
+[F29] Unspecified psychosis not due to a substance or known physiological condition -- **Inclusion terms:** - Psychosis NOS - Unspecified schizophrenia spectrum and other psychotic disorder  **Excludes1:** - mental disorder NOS (F99) - unspecified mental disorder due to known physiological condition (F09)
+[F30] Manic episode -- **Includes:** - bipolar disorder, single manic episode - mixed affective episode  **Excludes1:** - bipolar disorder (F31.-) - major depressive disorder, single episode (F32.-) - major depressive disorder, recurrent (F33.-)
+[F301] Manic episode without psychotic symptoms
+[F3010] Manic episode without psychotic symptoms, unspecified
+[F3011] Manic episode without psychotic symptoms, mild
+[F3012] Manic episode without psychotic symptoms, moderate
+[F3013] Manic episode, severe, without psychotic symptoms
+[F302] Manic episode, severe with psychotic symptoms -- **Inclusion terms:** - Manic stupor - Mania with mood-congruent psychotic symptoms - Mania with mood-incongruent psychotic symptoms
+[F303] Manic episode in partial remission
+[F304] Manic episode in full remission
+[F308] Other manic episodes -- **Inclusion terms:** - Hypomania
+[F309] Manic episode, unspecified -- **Inclusion terms:** - Mania NOS
+[F31] Bipolar disorder -- **Includes:** - bipolar I disorder - bipolar type I disorder - manic-depressive illness - manic-depressive psychosis - manic-depressive reaction - seasonal bipolar disorder  **Excludes1:** - bipolar disorder, single manic episode (F30.-) - major depressive disorder, single episode (F32.-) - major depressive disorder, recurrent (F33.-)  **Excludes2:** - cyclothymia (F34.0)
+[F310] Bipolar disorder, current episode hypomanic
+[F311] Bipolar disorder, current episode manic without psychotic features
+[F3110] Bipolar disorder, current episode manic without psychotic features, unspecified
+[F3111] Bipolar disorder, current episode manic without psychotic features, mild
+[F3112] Bipolar disorder, current episode manic without psychotic features, moderate
+[F3113] Bipolar disorder, current episode manic without psychotic features, severe
+[F312] Bipolar disorder, current episode manic severe with psychotic features -- **Inclusion terms:** - Bipolar disorder, current episode manic with mood-congruent psychotic symptoms - Bipolar disorder, current episode manic with mood-incongruent psychotic symptoms - Bipolar I disorder, current or most recent episode manic with psychotic features
+[F313] Bipolar disorder, current episode depressed, mild or moderate severity
+[F3130] Bipolar disorder, current episode depressed, mild or moderate severity, unspecified
+[F3131] Bipolar disorder, current episode depressed, mild
+[F3132] Bipolar disorder, current episode depressed, moderate
+[F314] Bipolar disorder, current episode depressed, severe, without psychotic features
+[F315] Bipolar disorder, current episode depressed, severe, with psychotic features -- **Inclusion terms:** - Bipolar disorder, current episode depressed with mood-incongruent psychotic symptoms - Bipolar disorder, current episode depressed with mood-congruent psychotic symptoms - Bipolar I disorder, current or most recent episode depressed, with psychotic features
+[F316] Bipolar disorder, current episode mixed
+[F3160] Bipolar disorder, current episode mixed, unspecified
+[F3161] Bipolar disorder, current episode mixed, mild
+[F3162] Bipolar disorder, current episode mixed, moderate
+[F3163] Bipolar disorder, current episode mixed, severe, without psychotic features
+[F3164] Bipolar disorder, current episode mixed, severe, with psychotic features -- **Inclusion terms:** - Bipolar disorder, current episode mixed with mood-congruent psychotic symptoms - Bipolar disorder, current episode mixed with mood-incongruent psychotic symptoms
+[F317] Bipolar disorder, currently in remission
+[F3170] Bipolar disorder, currently in remission, most recent episode unspecified
+[F3171] Bipolar disorder, in partial remission, most recent episode hypomanic
+[F3172] Bipolar disorder, in full remission, most recent episode hypomanic
+[F3173] Bipolar disorder, in partial remission, most recent episode manic
+[F3174] Bipolar disorder, in full remission, most recent episode manic
+[F3175] Bipolar disorder, in partial remission, most recent episode depressed
+[F3176] Bipolar disorder, in full remission, most recent episode depressed
+[F3177] Bipolar disorder, in partial remission, most recent episode mixed
+[F3178] Bipolar disorder, in full remission, most recent episode mixed
+[F318] Other bipolar disorders
+[F3181] Bipolar II disorder -- **Inclusion terms:** - Bipolar disorder, type 2
+[F3189] Other bipolar disorder -- **Inclusion terms:** - Recurrent manic episodes NOS
+[F319] Bipolar disorder, unspecified -- **Inclusion terms:** - Manic depression
+[F32] Depressive episode -- **Includes:** - single episode of agitated depression - single episode of depressive reaction - single episode of major depression - single episode of psychogenic depression - single episode of reactive depression - single episode of vital depression  **Excludes1:** - bipolar disorder (F31.-) - manic episode (F30.-) - recurrent depressive disorder (F33.-)  **Excludes2:** - adjustment disorder (F43.2)
+[F320] Major depressive disorder, single episode, mild
+[F321] Major depressive disorder, single episode, moderate
+[F322] Major depressive disorder, single episode, severe without psychotic features
+[F323] Major depressive disorder, single episode, severe with psychotic features -- **Inclusion terms:** - Single episode of major depression with mood-congruent psychotic symptoms - Single episode of major depression with mood-incongruent psychotic symptoms - Single episode of major depression with psychotic symptoms - Single episode of psychogenic depressive psychosis - Single episode of psychotic depression - Single episode of reactive depressive psychosis
+[F324] Major depressive disorder, single episode, in partial remission
+[F325] Major depressive disorder, single episode, in full remission
+[F328] Other depressive episodes
+[F3281] Premenstrual dysphoric disorder -- **Excludes1:** - premenstrual tension syndrome (N94.3)
+[F3289] Other specified depressive episodes -- **Inclusion terms:** - Atypical depression - Post-schizophrenic depression - Single episode of 'masked' depression NOS
+[F329] Major depressive disorder, single episode, unspecified -- **Inclusion terms:** - Major depression NOS
+[F32A] Depression, unspecified -- **Inclusion terms:** - Depression NOS - Depressive disorder NOS
+[F33] Major depressive disorder, recurrent -- **Includes:** - recurrent episodes of depressive reaction - recurrent episodes of endogenous depression - recurrent episodes of major depression - recurrent episodes of psychogenic depression - recurrent episodes of reactive depression - recurrent episodes of seasonal affective disorder - recurrent episodes of seasonal depressive disorder - recurrent episodes of vital depression  **Excludes1:** - bipolar disorder (F31.-) - manic episode (F30.-)
+[F330] Major depressive disorder, recurrent, mild
+[F331] Major depressive disorder, recurrent, moderate
+[F332] Major depressive disorder, recurrent severe without psychotic features
+[F333] Major depressive disorder, recurrent, severe with psychotic symptoms -- **Inclusion terms:** - Endogenous depression with psychotic symptoms - Major depressive disorder, recurrent, with psychotic features - Recurrent severe episodes of major depression with mood-congruent psychotic symptoms - Recurrent severe episodes of major depression with mood-incongruent psychotic symptoms - Recurrent severe episodes of major depression with psychotic symptoms - Recurrent severe episodes of psychogenic depressive psychosis - Recurrent severe episodes of psychotic depression - Recurrent severe episodes of reactive depressive psychosis
+[F334] Major depressive disorder, recurrent, in remission
+[F3340] Major depressive disorder, recurrent, in remission, unspecified
+[F3341] Major depressive disorder, recurrent, in partial remission
+[F3342] Major depressive disorder, recurrent, in full remission
+[F338] Other recurrent depressive disorders -- **Inclusion terms:** - Recurrent brief depressive episodes
+[F339] Major depressive disorder, recurrent, unspecified -- **Inclusion terms:** - Monopolar depression NOS
+[F34] Persistent mood [affective] disorders
+[F340] Cyclothymic disorder -- **Inclusion terms:** - Affective personality disorder - Cycloid personality - Cyclothymia - Cyclothymic personality
+[F341] Dysthymic disorder -- **Inclusion terms:** - Depressive neurosis - Depressive personality disorder - Dysthymia - Neurotic depression - Persistent anxiety depression - Persistent depressive disorder  **Excludes2:** - anxiety depression (mild or not persistent) (F41.8)
+[F348] Other persistent mood [affective] disorders
+[F3481] Disruptive mood dysregulation disorder
+[F3489] Other specified persistent mood disorders
+[F349] Persistent mood [affective] disorder, unspecified
+[F39] Unspecified mood [affective] disorder -- **Inclusion terms:** - Affective psychosis NOS
+[F40] Phobic anxiety disorders
+[F400] Agoraphobia
+[F4000] Agoraphobia, unspecified
+[F4001] Agoraphobia with panic disorder -- **Inclusion terms:** - Panic disorder with agoraphobia  **Excludes1:** - panic disorder without agoraphobia (F41.0)
+[F4002] Agoraphobia without panic disorder
+[F401] Social phobias -- **Inclusion terms:** - Anthropophobia - Social anxiety disorder - Social anxiety disorder of childhood - Social neurosis
+[F4010] Social phobia, unspecified
+[F4011] Social phobia, generalized
+[F402] Specific (isolated) phobias -- **Excludes2:** - dysmorphophobia (nondelusional) (F45.22) - nosophobia (F45.22)
+[F4021] Animal type phobia
+[F40210] Arachnophobia -- **Inclusion terms:** - Fear of spiders
+[F40218] Other animal type phobia
+[F4022] Natural environment type phobia
+[F40220] Fear of thunderstorms
+[F40228] Other natural environment type phobia
+[F4023] Blood, injection, injury type phobia
+[F40230] Fear of blood
+[F40231] Fear of injections and transfusions
+[F40232] Fear of other medical care
+[F40233] Fear of injury
+[F4024] Situational type phobia
+[F40240] Claustrophobia
+[F40241] Acrophobia
+[F40242] Fear of bridges
+[F40243] Fear of flying
+[F40248] Other situational type phobia
+[F4029] Other specified phobia
+[F40290] Androphobia -- **Inclusion terms:** - Fear of men
+[F40291] Gynephobia -- **Inclusion terms:** - Fear of women
+[F40298] Other specified phobia
+[F408] Other phobic anxiety disorders -- **Inclusion terms:** - Phobic anxiety disorder of childhood
+[F409] Phobic anxiety disorder, unspecified -- **Inclusion terms:** - Phobia NOS - Phobic state NOS
+[F41] Other anxiety disorders -- **Excludes2:** - anxiety in: - acute stress reaction (F43.0) - transient adjustment reaction (F43.2) - neurasthenia (F48.8) - psychophysiologic disorders (F45.-) - separation anxiety (F93.0)
+[F410] Panic disorder [episodic paroxysmal anxiety] -- **Inclusion terms:** - Panic attack - Panic state  **Excludes1:** - panic disorder with agoraphobia (F40.01)
+[F411] Generalized anxiety disorder -- **Inclusion terms:** - Anxiety neurosis - Anxiety reaction - Anxiety state - Overanxious disorder  **Excludes2:** - neurasthenia (F48.8)
+[F413] Other mixed anxiety disorders
+[F418] Other specified anxiety disorders -- **Inclusion terms:** - Anxiety depression (mild or not persistent) - Anxiety hysteria - Mixed anxiety and depressive disorder
+[F419] Anxiety disorder, unspecified -- **Inclusion terms:** - Anxiety NOS
+[F42] Obsessive-compulsive disorder -- **Excludes2:** - obsessive-compulsive personality (disorder) (F60.5) - obsessive-compulsive symptoms occurring in depression (F32-F33) - obsessive-compulsive symptoms occurring in schizophrenia (F20.-)
+[F422] Mixed obsessional thoughts and acts
+[F423] Hoarding disorder
+[F424] Excoriation (skin-picking) disorder -- **Excludes1:** - factitial dermatitis (L98.1) - other specified behavioral and emotional disorders with onset usually occurring in early childhood and adolescence (F98.8)
+[F428] Other obsessive-compulsive disorder -- **Inclusion terms:** - Anancastic neurosis - Obsessive-compulsive neurosis
+[F429] Obsessive-compulsive disorder, unspecified
+[F43] Reaction to severe stress, and adjustment disorders
+[F430] Acute stress reaction -- **Inclusion terms:** - Acute crisis reaction - Acute reaction to stress - Combat and operational stress reaction - Combat fatigue - Crisis state - Psychic shock
+[F431] Post-traumatic stress disorder (PTSD) -- **Inclusion terms:** - Traumatic neurosis
+[F4310] Post-traumatic stress disorder, unspecified
+[F4311] Post-traumatic stress disorder, acute
+[F4312] Post-traumatic stress disorder, chronic
+[F432] Adjustment disorders -- **Inclusion terms:** - Culture shock - Grief reaction - Hospitalism in children  **Excludes2:** - separation anxiety disorder of childhood (F93.0)
+[F4320] Adjustment disorder, unspecified
+[F4321] Adjustment disorder with depressed mood
+[F4322] Adjustment disorder with anxiety
+[F4323] Adjustment disorder with mixed anxiety and depressed mood
+[F4324] Adjustment disorder with disturbance of conduct
+[F4325] Adjustment disorder with mixed disturbance of emotions and conduct
+[F4329] Adjustment disorder with other symptoms
+[F438] Other reactions to severe stress -- **Inclusion terms:** - Other specified trauma and stressor-related disorder
+[F4381] Prolonged grief disorder -- **Inclusion terms:** - Complicated grief - Complicated grief disorder - Persistent complex bereavement disorder
+[F4389] Other reactions to severe stress
+[F439] Reaction to severe stress, unspecified -- **Inclusion terms:** - Trauma and stressor-related disorder, NOS - Unspecified trauma and stressor-related disorder
+[F44] Dissociative and conversion disorders -- **Includes:** - conversion hysteria - conversion reaction - hysteria - hysterical psychosis  **Excludes2:** - malingering [conscious simulation] (Z76.5)
+[F440] Dissociative amnesia -- **Excludes1:** - amnesia NOS (R41.3) - anterograde amnesia (R41.1) - dissociative amnesia with dissociative fugue (F44.1) - retrograde amnesia (R41.2)  **Excludes2:** - alcohol-or other psychoactive substance-induced amnestic disorder (F10, F13, F19 with .26, .96) - amnestic disorder due to known physiological condition (F04) - postictal amnesia in epilepsy (G40.-)
+[F441] Dissociative fugue -- **Inclusion terms:** - Dissociative amnesia with dissociative fugue  **Excludes2:** - postictal fugue in epilepsy (G40.-)
+[F442] Dissociative stupor -- **Excludes1:** - catatonic stupor (R40.1) - stupor NOS (R40.1)  **Excludes2:** - catatonic disorder due to known physiological condition (F06.1) - depressive stupor (F32, F33) - manic stupor (F30, F31)
+[F444] Conversion disorder with motor symptom or deficit -- **Inclusion terms:** - Conversion disorder with abnormal movement - Conversion disorder with speech symptoms - Conversion disorder with swallowing symptoms - Conversion disorder with weakness/paralysis - Dissociative motor disorders - Psychogenic aphonia - Psychogenic dysphonia
+[F445] Conversion disorder with seizures or convulsions -- **Inclusion terms:** - Conversion disorder with attacks or seizures - Dissociative convulsions
+[F446] Conversion disorder with sensory symptom or deficit -- **Inclusion terms:** - Conversion disorder with anesthesia or sensory loss - Conversion disorder with special sensory symptoms - Dissociative anesthesia and sensory loss - Psychogenic deafness
+[F447] Conversion disorder with mixed symptom presentation
+[F448] Other dissociative and conversion disorders
+[F4481] Dissociative identity disorder -- **Inclusion terms:** - Multiple personality disorder
+[F4489] Other dissociative and conversion disorders -- **Inclusion terms:** - Ganser's syndrome - Psychogenic confusion - Psychogenic twilight state - Trance and possession disorders
+[F449] Dissociative and conversion disorder, unspecified -- **Inclusion terms:** - Dissociative disorder NOS
+[F45] Somatoform disorders -- **Excludes2:** - dissociative and conversion disorders (F44.-) - factitious disorders (F68.1-, F68.A) - hair-plucking (F63.3) - lalling (F80.0) - lisping (F80.0) - malingering [conscious simulation] (Z76.5) - nail-biting (F98.8) - psychological or behavioral factors associated with disorders or diseases classified elsewhere (F54) - sexual dysfunction, not due to a substance or known physiological condition (F52.-) - thumb-sucking (F98.8) - tic disorders (in childhood and adolescence) (F95.-) - Tourette's syndrome (F95.2) - trichotillomania (F63.3)
+[F450] Somatization disorder -- **Inclusion terms:** - Briquet's disorder - Multiple psychosomatic disorder
+[F451] Undifferentiated somatoform disorder -- **Inclusion terms:** - Somatic symptom disorder - Undifferentiated psychosomatic disorder
+[F452] Hypochondriacal disorders -- **Excludes2:** - delusional dysmorphophobia (F22) - fixed delusions about bodily functions or shape (F22)
+[F4520] Hypochondriacal disorder, unspecified
+[F4521] Hypochondriasis -- **Inclusion terms:** - Hypochondriacal neurosis - Illness anxiety disorder
+[F4522] Body dysmorphic disorder -- **Inclusion terms:** - Bigorexia - Dysmorphophobia (nondelusional) - Muscle dysmorphia - Nosophobia
+[F4529] Other hypochondriacal disorders
+[F454] Pain disorders related to psychological factors -- **Excludes1:** - pain NOS (R52)
+[F4541] Pain disorder exclusively related to psychological factors -- **Inclusion terms:** - Somatoform pain disorder (persistent)
+[F4542] Pain disorder with related psychological factors -- **Code also:** - associated acute or chronic pain (G89.-)
+[F458] Other somatoform disorders -- **Inclusion terms:** - Psychogenic dysmenorrhea - Psychogenic dysphagia, including 'globus hystericus' - Psychogenic pruritus - Psychogenic torticollis - Somatoform autonomic dysfunction - Teeth grinding  **Excludes1:** - sleep related teeth grinding (G47.63)
+[F459] Somatoform disorder, unspecified -- **Inclusion terms:** - Psychosomatic disorder NOS
+[F48] Other nonpsychotic mental disorders
+[F481] Depersonalization-derealization syndrome
+[F482] Pseudobulbar affect -- **Inclusion terms:** - Involuntary emotional expression disorder  **Code first:** - underlying cause, if known, such as: - amyotrophic lateral sclerosis (G12.21) - multiple sclerosis (G35) - sequelae of cerebrovascular disease (I69.-) - sequelae of traumatic intracranial injury (S06.-)
+[F488] Other specified nonpsychotic mental disorders -- **Inclusion terms:** - Dhat syndrome - Neurasthenia - Occupational neurosis, including writer's cramp - Psychasthenia - Psychasthenic neurosis - Psychogenic syncope
+[F489] Nonpsychotic mental disorder, unspecified -- **Inclusion terms:** - Neurosis NOS
+[F50] Eating disorders -- **Excludes1:** - anorexia NOS (R63.0) - feeding problems of newborn (P92.-) - polyphagia (R63.2)  **Excludes2:** - feeding difficulties (R63.3-) - feeding disorder in infancy or childhood (F98.2-)
+[F500] Anorexia nervosa -- **Excludes1:** - loss of appetite (R63.0) - psychogenic loss of appetite (F50.89)
+[F5000] Anorexia nervosa, unspecified
+[F5001] Anorexia nervosa, restricting type
+[F50010] Anorexia nervosa, restricting type, mild -- **Inclusion terms:** - Anorexia nervosa, restricting type, with a body mass index greater than or equal to 17 kg/m2
+[F50011] Anorexia nervosa, restricting type, moderate -- **Inclusion terms:** - Anorexia nervosa, restricting type, with a body mass index of 16.0-16.99 kg/m2
+[F50012] Anorexia nervosa, restricting type, severe -- **Inclusion terms:** - Anorexia nervosa, restricting type, with a body mass index of 15.0-15.99 kg/m2
+[F50013] Anorexia nervosa, restricting type, extreme -- **Inclusion terms:** - Anorexia nervosa, restricting type, with a body mass index of less than 15.0 kg/m2
+[F50014] Anorexia nervosa, restricting type, in remission -- **Inclusion terms:** - Anorexia nervosa, restricting type, in full remission - Anorexia nervosa, restricting type, in partial remission
+[F50019] Anorexia nervosa, restricting type, unspecified
+[F5002] Anorexia nervosa, binge eating/purging type -- **Excludes1:** - bulimia nervosa (F50.2-)
+[F50020] Anorexia nervosa, binge eating/purging type, mild -- **Inclusion terms:** - Anorexia nervosa, binge eating/purging type, with a body mass index greater than or equal to 17 kg/m2
+[F50021] Anorexia nervosa, binge eating/purging type, moderate -- **Inclusion terms:** - Anorexia nervosa, binge eating/purging type, with a body mass index of 16.0-16.99 kg/m2
+[F50022] Anorexia nervosa, binge eating/purging type, severe -- **Inclusion terms:** - Anorexia nervosa, binge eating/purging type, with a body mass index of 15.0-15.99 kg/m2
+[F50023] Anorexia nervosa, binge eating/purging type, extreme -- **Inclusion terms:** - Anorexia nervosa, binge eating/purging type, with a body mass index of less than 15.0 kg/m2
+[F50024] Anorexia nervosa, binge eating/purging type, in remission -- **Inclusion terms:** - Anorexia nervosa, binge eating/purging type, in full remission - Anorexia nervosa, binge eating/purging type, in partial remission
+[F50029] Anorexia nervosa, binge eating/purging type, unspecified
+[F502] Bulimia nervosa -- **Inclusion terms:** - Bulimia NOS - Hyperorexia nervosa  **Excludes1:** - anorexia nervosa, binge eating/purging type (F50.02-)
+[F5020] Bulimia nervosa, unspecified
+[F5021] Bulimia nervosa, mild -- **Inclusion terms:** - Bulimia nervosa with 1-3 episodes of inappropriate compensatory behavior per week
+[F5022] Bulimia nervosa, moderate -- **Inclusion terms:** - Bulimia nervosa with 4-7 episodes of inappropriate compensatory behavior per week
+[F5023] Bulimia nervosa, severe -- **Inclusion terms:** - Bulimia nervosa with 8-13 episodes of inappropriate compensatory behavior per week
+[F5024] Bulimia nervosa, extreme -- **Inclusion terms:** - Bulimia nervosa with 14 or more episodes of inappropriate compensatory behavior per week
+[F5025] Bulimia nervosa, in remission -- **Inclusion terms:** - Bulimia nervosa, in full remission - Bulimia nervosa, in partial remission
+[F508] Other eating disorders
+[F5081] Binge eating disorder
+[F50810] Binge eating disorder, mild -- **Inclusion terms:** - Binge eating disorder with 1-3 binge eating episodes per week
+[F50811] Binge eating disorder, moderate -- **Inclusion terms:** - Binge eating disorder with 4-7 binge eating episodes per week
+[F50812] Binge eating disorder, severe -- **Inclusion terms:** - Binge eating disorder with 8-13 binge eating episodes per week
+[F50813] Binge eating disorder, extreme -- **Inclusion terms:** - Binge eating disorder with 14 or more eating episodes per week
+[F50814] Binge eating disorder, in remission -- **Inclusion terms:** - Binge eating disorder, in full remission - Binge eating disorder, in partial remission
+[F50819] Binge eating disorder, unspecified
+[F5082] Avoidant/restrictive food intake disorder -- **Inclusion terms:** - Avoidant/restrictive food intake disorder, in remission
+[F5083] Pica in adults -- **Inclusion terms:** - Pica in adults, in remission  **Excludes1:** - pica in infancy and childhood (F98.3)
+[F5084] Rumination disorder in adults -- **Inclusion terms:** - Rumination disorder in adults, in remission  **Excludes1:** - rumination disorder in infancy and childhood (F98.21)
+[F5089] Other specified eating disorder -- **Inclusion terms:** - Psychogenic loss of appetite
+[F509] Eating disorder, unspecified -- **Inclusion terms:** - Atypical anorexia nervosa - Atypical bulimia nervosa - Feeding or eating disorder, unspecified - Other specified feeding disorder
+[F51] Sleep disorders not due to a substance or known physiological condition -- **Excludes2:** - organic sleep disorders (G47.-)
+[F510] Insomnia not due to a substance or known physiological condition -- **Excludes2:** - alcohol related insomnia (F10.182, F10.282, F10.982) - drug-related insomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982) - insomnia NOS (G47.0-) - insomnia due to known physiological condition (G47.0-) - organic insomnia (G47.0-) - sleep deprivation (Z72.820)
+[F5101] Primary insomnia -- **Inclusion terms:** - Idiopathic insomnia
+[F5102] Adjustment insomnia
+[F5103] Paradoxical insomnia
+[F5104] Psychophysiologic insomnia
+[F5105] Insomnia due to other mental disorder -- **Code also:** - associated mental disorder
+[F5109] Other insomnia not due to a substance or known physiological condition
+[F511] Hypersomnia not due to a substance or known physiological condition -- **Excludes2:** - alcohol related hypersomnia (F10.182, F10.282, F10.982) - drug-related hypersomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982) - hypersomnia NOS (G47.10) - hypersomnia due to known physiological condition (G47.10) - idiopathic hypersomnia (G47.11, G47.12) - narcolepsy (G47.4-)
+[F5111] Primary hypersomnia
+[F5112] Insufficient sleep syndrome -- **Excludes1:** - sleep deprivation (Z72.820)
+[F5113] Hypersomnia due to other mental disorder -- **Code also:** - associated mental disorder
+[F5119] Other hypersomnia not due to a substance or known physiological condition
+[F513] Sleepwalking [somnambulism] -- **Inclusion terms:** - Non-rapid eye movement sleep arousal disorders, sleepwalking type
+[F514] Sleep terrors [night terrors] -- **Inclusion terms:** - Non-rapid eye movement sleep arousal disorders, sleep terror type
+[F515] Nightmare disorder -- **Inclusion terms:** - Dream anxiety disorder
+[F518] Other sleep disorders not due to a substance or known physiological condition
+[F519] Sleep disorder not due to a substance or known physiological condition, unspecified -- **Inclusion terms:** - Emotional sleep disorder NOS
+[F52] Sexual dysfunction not due to a substance or known physiological condition -- **Excludes2:** - Dhat syndrome (F48.8)
+[F520] Hypoactive sexual desire disorder -- **Inclusion terms:** - Lack or loss of sexual desire - Male hypoactive sexual desire disorder - Sexual anhedonia  **Excludes1:** - decreased libido (R68.82)
+[F521] Sexual aversion disorder -- **Inclusion terms:** - Sexual aversion and lack of sexual enjoyment
+[F522] Sexual arousal disorders -- **Inclusion terms:** - Failure of genital response
+[F5221] Male erectile disorder -- **Inclusion terms:** - Erectile disorder - Psychogenic impotence  **Excludes1:** - impotence of organic origin (N52.-) - impotence NOS (N52.-)
+[F5222] Female sexual arousal disorder -- **Inclusion terms:** - Female sexual interest/arousal disorder
+[F523] Orgasmic disorder -- **Inclusion terms:** - Inhibited orgasm - Psychogenic anorgasmy
+[F5231] Female orgasmic disorder
+[F5232] Male orgasmic disorder -- **Inclusion terms:** - Delayed ejaculation
+[F524] Premature ejaculation
+[F525] Vaginismus not due to a substance or known physiological condition -- **Inclusion terms:** - Psychogenic vaginismus  **Excludes2:** - vaginismus (due to a known physiological condition) (N94.2)
+[F526] Dyspareunia not due to a substance or known physiological condition -- **Inclusion terms:** - Genito-pelvic pain penetration disorder - Psychogenic dyspareunia  **Excludes2:** - dyspareunia (due to a known physiological condition) (N94.1-)
+[F528] Other sexual dysfunction not due to a substance or known physiological condition -- **Inclusion terms:** - Excessive sexual drive - Nymphomania - Satyriasis
+[F529] Unspecified sexual dysfunction not due to a substance or known physiological condition -- **Inclusion terms:** - Sexual dysfunction NOS
+[F53] Mental and behavioral disorders associated with the puerperium, not elsewhere classified -- **Excludes1:** - mood disorders with psychotic features (F30.2, F31.2, F31.5, F31.64, F32.3, F33.3) - postpartum dysphoria (O90.6) - psychosis in schizophrenia, schizotypal, delusional, and other psychotic disorders (F20-F29)
+[F530] Postpartum depression -- **Inclusion terms:** - Postnatal depression, NOS - Postpartum depression, NOS
+[F531] Puerperal psychosis -- **Inclusion terms:** - Postpartum psychosis - Puerperal psychosis, NOS
+[F54] Psychological and behavioral factors associated with disorders or diseases classified elsewhere -- **Inclusion terms:** - Psychological factors affecting physical conditions  **Excludes2:** - tension-type headache (G44.2)  **Code first:** - the associated physical disorder, such as: - asthma (J45.-) - dermatitis (L23-L25) - gastric ulcer (K25.-) - mucous colitis (K58.-) - ulcerative colitis (K51.-) - urticaria (L50.-)
+[F55] Abuse of non-psychoactive substances -- **Excludes2:** - abuse of psychoactive substances (F10-F19)
+[F550] Abuse of antacids
+[F551] Abuse of herbal or folk remedies
+[F552] Abuse of laxatives
+[F553] Abuse of steroids or hormones
+[F554] Abuse of vitamins
+[F558] Abuse of other non-psychoactive substances
+[F59] Unspecified behavioral syndromes associated with physiological disturbances and physical factors -- **Inclusion terms:** - Psychogenic physiological dysfunction NOS
+[F60] Specific personality disorders
+[F600] Paranoid personality disorder -- **Inclusion terms:** - Expansive paranoid personality (disorder) - Fanatic personality (disorder) - Querulant personality (disorder) - Paranoid personality (disorder) - Sensitive paranoid personality (disorder)  **Excludes2:** - paranoia (F22) - paranoia querulans (F22) - paranoid psychosis (F22) - paranoid schizophrenia (F20.0) - paranoid state (F22)
+[F601] Schizoid personality disorder -- **Excludes2:** - Asperger's syndrome (F84.5) - delusional disorder (F22) - schizoid disorder of childhood (F84.5) - schizophrenia (F20.-) - schizotypal disorder (F21)
+[F602] Antisocial personality disorder -- **Inclusion terms:** - Amoral personality (disorder) - Asocial personality (disorder) - Dissocial personality disorder - Psychopathic personality (disorder) - Sociopathic personality (disorder)  **Excludes1:** - conduct disorders (F91.-)  **Excludes2:** - borderline personality disorder (F60.3)
+[F603] Borderline personality disorder -- **Inclusion terms:** - Aggressive personality (disorder) - Emotionally unstable personality disorder - Explosive personality (disorder)  **Excludes2:** - antisocial personality disorder (F60.2)
+[F604] Histrionic personality disorder -- **Inclusion terms:** - Hysterical personality (disorder) - Psychoinfantile personality (disorder)
+[F605] Obsessive-compulsive personality disorder -- **Inclusion terms:** - Anankastic personality (disorder) - Compulsive personality (disorder) - Obsessional personality (disorder)  **Excludes2:** - obsessive-compulsive disorder (F42.-)
+[F606] Avoidant personality disorder -- **Inclusion terms:** - Anxious personality disorder
+[F607] Dependent personality disorder -- **Inclusion terms:** - Asthenic personality (disorder) - Inadequate personality (disorder) - Passive personality (disorder)
+[F608] Other specific personality disorders
+[F6081] Narcissistic personality disorder
+[F6089] Other specific personality disorders -- **Inclusion terms:** - Eccentric personality disorder - 'Haltlose' type personality disorder - Immature personality disorder - Passive-aggressive personality disorder - Psychoneurotic personality disorder - Self-defeating personality disorder
+[F609] Personality disorder, unspecified -- **Inclusion terms:** - Character disorder NOS - Character neurosis NOS - Pathological personality NOS
+[F63] Impulse disorders -- **Excludes2:** - habitual excessive use of alcohol or psychoactive substances (F10-F19) - impulse disorders involving sexual behavior (F65.-)
+[F630] Pathological gambling -- **Inclusion terms:** - Compulsive gambling - Gambling disorder  **Excludes1:** - gambling and betting NOS (Z72.6)  **Excludes2:** - excessive gambling by manic patients (F30, F31) - gambling in antisocial personality disorder (F60.2)
+[F631] Pyromania -- **Inclusion terms:** - Pathological fire-setting  **Excludes2:** - fire-setting (by) (in): - adult with antisocial personality disorder (F60.2) - alcohol or psychoactive substance intoxication (F10-F19) - conduct disorders (F91.-) - mental disorders due to known physiological condition (F01-F09) - schizophrenia (F20.-)
+[F632] Kleptomania -- **Inclusion terms:** - Pathological stealing  **Excludes1:** - shoplifting as the reason for observation for suspected mental disorder (Z03.8)  **Excludes2:** - depressive disorder with stealing (F31-F33) - stealing due to underlying mental condition-code to mental condition - stealing in mental disorders due to known physiological condition (F01-F09)
+[F633] Trichotillomania -- **Inclusion terms:** - Hair plucking  **Excludes2:** - other stereotyped movement disorder (F98.4)
+[F638] Other impulse disorders
+[F6381] Intermittent explosive disorder
+[F6389] Other impulse disorders
+[F639] Impulse disorder, unspecified -- **Inclusion terms:** - Impulse control disorder NOS
+[F64] Gender identity disorders
+[F640] Transsexualism -- **Inclusion terms:** - Gender dysphoria in adolescents and adults - Gender identity disorder in adolescence and adulthood - Gender incongruence in adolescents and adults - Transgender  **Excludes1:** - gender identity disorder of childhood (F64.2)
+[F641] Dual role transvestism -- **Excludes1:** - gender identity disorder in childhood (F64.2)  **Excludes2:** - fetishistic transvestism (F65.1)  **Use additional code:** - code to identify sex reassignment status (Z87.890)
+[F642] Gender identity disorder of childhood -- **Inclusion terms:** - Gender dysphoria in children - Gender incongruence of childhood  **Excludes1:** - gender identity disorder in adolescence and adulthood (F64.0)  **Excludes2:** - sexual maturation disorder (F66)
+[F648] Other gender identity disorders -- **Inclusion terms:** - Other specified gender dysphoria
+[F649] Gender identity disorder, unspecified -- **Inclusion terms:** - Gender dysphoria, unspecified - Gender incongruence, unspecified - Gender-role disorder NOS
+[F65] Paraphilias
+[F650] Fetishism -- **Inclusion terms:** - Fetishistic disorder
+[F651] Transvestic fetishism -- **Inclusion terms:** - Fetishistic transvestism - Transvestic disorder
+[F652] Exhibitionism -- **Inclusion terms:** - Exhibitionistic disorder
+[F653] Voyeurism -- **Inclusion terms:** - Voyeuristic disorder
+[F654] Pedophilia -- **Inclusion terms:** - Pedophilic disorder
+[F655] Sadomasochism
+[F6550] Sadomasochism, unspecified
+[F6551] Sexual masochism -- **Inclusion terms:** - Sexual masochism disorder
+[F6552] Sexual sadism -- **Inclusion terms:** - Sexual sadism disorder
+[F658] Other paraphilias
+[F6581] Frotteurism -- **Inclusion terms:** - Frotteuristic disorder
+[F6589] Other paraphilias -- **Inclusion terms:** - Necrophilia - Other specified paraphilic disorder
+[F659] Paraphilia, unspecified -- **Inclusion terms:** - Paraphilic disorder, unspecified - Sexual deviation NOS
+[F66] Other sexual disorders -- **Inclusion terms:** - Sexual maturation disorder - Sexual relationship disorder
+[F68] Other disorders of adult personality and behavior
+[F681] Factitious disorder imposed on self -- **Inclusion terms:** - Compensation neurosis - Elaboration of physical symptoms for psychological reasons - Hospital hopper syndrome - Münchausen's syndrome - Peregrinating patient  **Excludes2:** - factitial dermatitis (L98.1) - person feigning illness (with obvious motivation) (Z76.5)
+[F6810] Factitious disorder imposed on self, unspecified
+[F6811] Factitious disorder imposed on self, with predominantly psychological signs and symptoms
+[F6812] Factitious disorder imposed on self, with predominantly physical signs and symptoms
+[F6813] Factitious disorder imposed on self, with combined psychological and physical signs and symptoms
+[F688] Other specified disorders of adult personality and behavior
+[F68A] Factitious disorder imposed on another -- **Inclusion terms:** - Factitious disorder by proxy - Münchausen's by proxy
+[F69] Unspecified disorder of adult personality and behavior
+[F70] Mild intellectual disabilities -- **Inclusion terms:** - IQ level 50-55 to approximately 70 - Mild mental subnormality
+[F71] Moderate intellectual disabilities -- **Inclusion terms:** - IQ level 35-40 to 50-55 - Moderate mental subnormality
+[F72] Severe intellectual disabilities -- **Inclusion terms:** - IQ 20-25 to 35-40 - Severe mental subnormality
+[F73] Profound intellectual disabilities -- **Inclusion terms:** - IQ level below 20-25 - Profound mental subnormality
+[F78] Other intellectual disabilities
+[F78A] Other genetic related intellectual disabilities
+[F78A1] SYNGAP1-related intellectual disability -- **Code also:** - , if applicable, any associated: - autism spectrum disorder (F84.0) - autistic disorder (F84.0) - encephalopathy (G93.4-) - epilepsy and recurrent seizures (G40.-) - other pervasive developmental disorders (F84.8) - pervasive developmental disorder, NOS (F84.9)
+[F78A9] Other genetic related intellectual disability -- **Code also:** - , if applicable, any associated disorders
+[F79] Unspecified intellectual disabilities -- **Inclusion terms:** - Mental deficiency NOS - Mental subnormality NOS
+[F80] Specific developmental disorders of speech and language
+[F800] Phonological disorder -- **Inclusion terms:** - Dyslalia - Functional speech articulation disorder - Lalling - Lisping - Phonological developmental disorder - Speech articulation developmental disorder - Speech-sound disorder  **Excludes1:** - speech articulation impairment due to aphasia NOS (R47.01) - speech articulation impairment due to apraxia (R48.2)  **Excludes2:** - speech articulation impairment due to hearing loss (F80.4) - speech articulation impairment due to intellectual disabilities (F70-F79) - speech articulation impairment with expressive language developmental disorder (F80.1) - speech articulation impairment with mixed receptive expressive language developmental disorder (F80.2)
+[F801] Expressive language disorder -- **Inclusion terms:** - Developmental dysphasia or aphasia, expressive type  **Excludes1:** - mixed receptive-expressive language disorder (F80.2) - dysphasia and aphasia NOS (R47.-)  **Excludes2:** - acquired aphasia with epilepsy [Landau-Kleffner] (G40.80-) - selective mutism (F94.0) - intellectual disabilities (F70-F79) - pervasive developmental disorders (F84.-)
+[F802] Mixed receptive-expressive language disorder -- **Inclusion terms:** - Developmental dysphasia or aphasia, receptive type - Developmental Wernicke's aphasia  **Excludes1:** - central auditory processing disorder (H93.25) - dysphasia or aphasia NOS (R47.-) - expressive language disorder (F80.1) - expressive type dysphasia or aphasia (F80.1) - word deafness (H93.25)  **Excludes2:** - acquired aphasia with epilepsy [Landau-Kleffner] (G40.80-) - pervasive developmental disorders (F84.-) - selective mutism (F94.0) - intellectual disabilities (F70-F79)
+[F804] Speech and language development delay due to hearing loss -- **Code also:** - type of hearing loss (H90.-, H91.-)
+[F808] Other developmental disorders of speech and language
+[F8081] Childhood onset fluency disorder -- **Inclusion terms:** - Cluttering NOS - Stuttering NOS  **Excludes1:** - adult onset fluency disorder (F98.5) - fluency disorder in conditions classified elsewhere (R47.82) - fluency disorder (stuttering) following cerebrovascular disease (I69. with final characters -23)
+[F8082] Social pragmatic communication disorder -- **Excludes1:** - Asperger's syndrome (F84.5) - autistic disorder (F84.0)
+[F8089] Other developmental disorders of speech and language
+[F809] Developmental disorder of speech and language, unspecified -- **Inclusion terms:** - Communication disorder NOS - Language disorder NOS
+[F81] Specific developmental disorders of scholastic skills
+[F810] Specific reading disorder -- **Inclusion terms:** - 'Backward reading' - Developmental dyslexia - Specific learning disorder, with impairment in reading - Specific reading retardation  **Excludes1:** - alexia NOS (R48.0) - dyslexia NOS (R48.0)
+[F812] Mathematics disorder -- **Inclusion terms:** - Developmental acalculia - Developmental arithmetical disorder - Developmental Gerstmann's syndrome - Specific learning disorder, with impairment in mathematics  **Excludes1:** - acalculia NOS (R48.8)  **Excludes2:** - arithmetical difficulties associated with a reading disorder (F81.0) - arithmetical difficulties associated with a spelling disorder (F81.81) - arithmetical difficulties due to inadequate teaching (Z55.8)
+[F818] Other developmental disorders of scholastic skills
+[F8181] Disorder of written expression -- **Inclusion terms:** - Specific learning disorder, with impairment in written expression - Specific spelling disorder
+[F8189] Other developmental disorders of scholastic skills
+[F819] Developmental disorder of scholastic skills, unspecified -- **Inclusion terms:** - Knowledge acquisition disability NOS - Learning disability NOS - Learning disorder NOS
+[F82] Specific developmental disorder of motor function -- **Inclusion terms:** - Clumsy child syndrome - Developmental coordination disorder - Developmental dyspraxia  **Excludes1:** - abnormalities of gait and mobility (R26.-) - lack of coordination (R27.-)  **Excludes2:** - lack of coordination secondary to intellectual disabilities (F70-F79)
+[F84] Pervasive developmental disorders -- **Code also:** - any associated medical condition and intellectual disabilities
+[F840] Autistic disorder -- **Inclusion terms:** - Autism spectrum disorder - Infantile autism - Infantile psychosis - Kanner's syndrome  **Excludes1:** - Asperger's syndrome (F84.5)
+[F842] Rett's syndrome -- **Excludes1:** - Asperger's syndrome (F84.5) - Autistic disorder (F84.0) - Other childhood disintegrative disorder (F84.3)
+[F843] Other childhood disintegrative disorder -- **Inclusion terms:** - Dementia infantilis - Disintegrative psychosis - Heller's syndrome - Symbiotic psychosis  **Excludes1:** - Asperger's syndrome (F84.5) - Autistic disorder (F84.0) - Rett's syndrome (F84.2)  **Use additional code:** - code to identify any associated neurological condition.
+[F845] Asperger's syndrome -- **Inclusion terms:** - Asperger's disorder - Autistic psychopathy - Schizoid disorder of childhood
+[F848] Other pervasive developmental disorders -- **Inclusion terms:** - Overactive disorder associated with intellectual disabilities and stereotyped movements
+[F849] Pervasive developmental disorder, unspecified -- **Inclusion terms:** - Atypical autism
+[F88] Other disorders of psychological development -- **Inclusion terms:** - Developmental agnosia - Global developmental delay - Other specified neurodevelopmental disorder
+[F89] Unspecified disorder of psychological development -- **Inclusion terms:** - Developmental disorder NOS - Neurodevelopmental disorder NOS
+[F90] Attention-deficit hyperactivity disorders -- **Includes:** - attention deficit disorder with hyperactivity - attention deficit syndrome with hyperactivity  **Excludes2:** - anxiety disorders (F40.-, F41.-) - mood [affective] disorders (F30-F39) - pervasive developmental disorders (F84.-) - schizophrenia (F20.-)
+[F900] Attention-deficit hyperactivity disorder, predominantly inattentive type -- **Inclusion terms:** - Attention-deficit/hyperactivity disorder, predominantly inattentive presentation
+[F901] Attention-deficit hyperactivity disorder, predominantly hyperactive type -- **Inclusion terms:** - Attention-deficit/hyperactivity disorder, predominantly hyperactive impulsive presentation
+[F902] Attention-deficit hyperactivity disorder, combined type -- **Inclusion terms:** - Attention-deficit/hyperactivity disorder, combined presentation
+[F908] Attention-deficit hyperactivity disorder, other type
+[F909] Attention-deficit hyperactivity disorder, unspecified type -- **Inclusion terms:** - Attention-deficit hyperactivity disorder of childhood or adolescence NOS - Attention-deficit hyperactivity disorder NOS
+[F91] Conduct disorders -- **Excludes1:** - antisocial behavior (Z72.81-) - antisocial personality disorder (F60.2)  **Excludes2:** - conduct problems associated with attention-deficit hyperactivity disorder (F90.-) - mood [affective] disorders (F30-F39) - pervasive developmental disorders (F84.-) - schizophrenia (F20.-)
+[F910] Conduct disorder confined to family context
+[F911] Conduct disorder, childhood-onset type -- **Inclusion terms:** - Unsocialized conduct disorder - Conduct disorder, solitary aggressive type - Unsocialized aggressive disorder
+[F912] Conduct disorder, adolescent-onset type -- **Inclusion terms:** - Socialized conduct disorder - Conduct disorder, group type
+[F913] Oppositional defiant disorder
+[F918] Other conduct disorders -- **Inclusion terms:** - Other specified conduct disorder - Other specified disruptive disorder
+[F919] Conduct disorder, unspecified -- **Inclusion terms:** - Behavioral disorder NOS - Conduct disorder NOS - Disruptive behavior disorder NOS - Disruptive disorder NOS
+[F93] Emotional disorders with onset specific to childhood
+[F930] Separation anxiety disorder of childhood -- **Excludes2:** - mood [affective] disorders (F30-F39) - nonpsychotic mental disorders (F40-F48) - phobic anxiety disorder of childhood (F40.8) - social phobia (F40.1)
+[F938] Other childhood emotional disorders -- **Inclusion terms:** - Identity disorder  **Excludes2:** - gender identity disorder of childhood (F64.2)
+[F939] Childhood emotional disorder, unspecified
+[F94] Disorders of social functioning with onset specific to childhood and adolescence
+[F940] Selective mutism -- **Inclusion terms:** - Elective mutism  **Excludes2:** - pervasive developmental disorders (F84.-) - schizophrenia (F20.-) - specific developmental disorders of speech and language (F80.-) - transient mutism as part of separation anxiety in young children (F93.0)
+[F941] Reactive attachment disorder of childhood -- **Excludes1:** - disinhibited attachment disorder of childhood (F94.2) - normal variation in pattern of selective attachment  **Excludes2:** - Asperger's syndrome (F84.5) - maltreatment syndromes (T74.-) - sexual or physical abuse in childhood, resulting in psychosocial problems (Z62.81-)  **Use additional code:** - code to identify any associated failure to thrive or growth retardation
+[F942] Disinhibited attachment disorder of childhood -- **Inclusion terms:** - Affectionless psychopathy - Institutional syndrome  **Excludes1:** - reactive attachment disorder of childhood (F94.1)  **Excludes2:** - Asperger's syndrome (F84.5) - attention-deficit hyperactivity disorders (F90.-) - hospitalism in children (F43.2-)
+[F948] Other childhood disorders of social functioning
+[F949] Childhood disorder of social functioning, unspecified
+[F95] Tic disorder
+[F950] Transient tic disorder -- **Inclusion terms:** - Provisional tic disorder
+[F951] Chronic motor or vocal tic disorder
+[F952] Tourette's disorder -- **Inclusion terms:** - Combined vocal and multiple motor tic disorder [de la Tourette] - Tourette's syndrome
+[F958] Other tic disorders
+[F959] Tic disorder, unspecified -- **Inclusion terms:** - Tic NOS
+[F98] Other behavioral and emotional disorders with onset usually occurring in childhood and adolescence -- **Excludes2:** - breath-holding spells (R06.89) - gender identity disorder of childhood (F64.2) - Kleine-Levin syndrome (G47.13) - obsessive-compulsive disorder (F42.-) - sleep disorders not due to a substance or known physiological condition (F51.-)
+[F980] Enuresis not due to a substance or known physiological condition -- **Inclusion terms:** - Enuresis (primary) (secondary) of nonorganic origin - Functional enuresis - Psychogenic enuresis - Urinary incontinence of nonorganic origin  **Excludes1:** - enuresis NOS (R32)
+[F981] Encopresis not due to a substance or known physiological condition -- **Inclusion terms:** - Functional encopresis - Incontinence of feces of nonorganic origin - Psychogenic encopresis  **Excludes1:** - encopresis NOS (R15.-)  **Use additional code:** - code to identify the cause of any coexisting constipation.
+[F982] Other feeding disorders of infancy and childhood -- **Excludes2:** - anorexia nervosa and other eating disorders (F50.-) - feeding difficulties (R63.3-) - feeding problems of newborn (P92.-) - pica of infancy or childhood (F98.3)
+[F9821] Rumination disorder of infancy and childhood -- **Inclusion terms:** - Rumination disorder in infancy or childhood, in remission  **Excludes1:** - rumination disorder in adults (F50.84)
+[F9829] Other feeding disorders of infancy and early childhood
+[F983] Pica of infancy and childhood -- **Inclusion terms:** - Pica in infancy or childhood, in remission  **Excludes1:** - pica in adults (F50.83)
+[F984] Stereotyped movement disorders -- **Inclusion terms:** - Stereotype/habit disorder  **Excludes1:** - abnormal involuntary movements (R25.-)  **Excludes2:** - compulsions in obsessive-compulsive disorder (F42.-) - hair plucking (F63.3) - movement disorders of organic origin (G20-G25) - nail-biting (F98.8) - nose-picking (F98.8) - stereotypies that are part of a broader psychiatric condition (F01-F95) - thumb-sucking (F98.8) - tic disorders (F95.-) - trichotillomania (F63.3)
+[F985] Adult onset fluency disorder -- **Excludes1:** - childhood onset fluency disorder (F80.81) - dysphasia (R47.02) - fluency disorder in conditions classified elsewhere (R47.82) - fluency disorder (stuttering) following cerebrovascular disease (I69. with final characters -23) - tic disorders (F95.-)
+[F988] Other specified behavioral and emotional disorders with onset usually occurring in childhood and adolescence -- **Inclusion terms:** - Excessive masturbation - Nail-biting - Nose-picking - Thumb-sucking
+[F989] Unspecified behavioral and emotional disorders with onset usually occurring in childhood and adolescence
+[F99] Mental disorder, not otherwise specified -- **Inclusion terms:** - Mental illness NOS  **Excludes1:** - unspecified mental disorder due to known physiological condition (F09)

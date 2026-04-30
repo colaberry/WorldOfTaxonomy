@@ -1,0 +1,15 @@
+[KM] Key Management Types :: naics_2022:5419
+[KM.01] Key Generation
+[KM.02] Key Distribution
+[KM.03] Key Storage (Vault)
+[KM.04] Key Rotation
+[KM.05] Key Revocation
+[KM.06] Key Escrow
+[KM.07] Customer-Managed Keys (CMK)
+[KM.08] Cloud KMS
+[KM.09] Key Hierarchy
+[KM.10] Key Wrapping
+[KM.11] Multi-Region Key
+[KM.12] Key Access Policy
+[KM.13] Key Audit Trail
+[KM.14] BYOK (Bring Your Own Key)

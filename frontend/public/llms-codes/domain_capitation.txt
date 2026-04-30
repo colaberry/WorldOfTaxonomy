@@ -1,0 +1,14 @@
+[CM] Capitation Model Types :: naics_2022:5415, naics_2022:6215
+[CM.01] Full Capitation
+[CM.02] Partial Capitation
+[CM.03] Primary Care Capitation
+[CM.04] Specialty Capitation
+[CM.05] Global Capitation
+[CM.06] Sub-Capitation
+[CM.07] Risk-Adjusted Capitation
+[CM.08] Age-Sex Capitation
+[CM.09] HCC Risk Adjustment
+[CM.10] Pediatric Capitation
+[CM.11] Behavioral Health Capitation
+[CM.12] Pharmacy Capitation
+[CM.13] Capitation Withhold

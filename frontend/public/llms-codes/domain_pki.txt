@@ -1,0 +1,15 @@
+[PK] PKI Component Types :: naics_2022:5415, naics_2022:5417
+[PK.01] Certificate Authority (CA)
+[PK.02] Registration Authority (RA)
+[PK.03] Certificate Repository
+[PK.04] CRL Distribution Point
+[PK.05] OCSP Responder
+[PK.06] Key Pair Generation
+[PK.07] Certificate Enrollment
+[PK.08] Certificate Renewal
+[PK.09] Certificate Revocation
+[PK.10] Cross-Certification
+[PK.11] Bridge CA
+[PK.12] PKI Policy Framework
+[PK.13] HSM Integration
+[PK.14] PKI Automation

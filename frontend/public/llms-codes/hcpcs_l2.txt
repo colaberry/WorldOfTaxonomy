@@ -1,0 +1,59 @@
+[A] Transportation Services Including Ambulance, Medical and Surgical Supplies
+[A0021] Ambulance Services - Land
+[A0080] Air Ambulance
+[A4000] Medical and Surgical Supplies
+[A6000] Wound Care Supplies
+[A9000] Radiopharmaceuticals and Contrast Media
+[B] Enteral and Parenteral Therapy
+[B4034] Enteral Feeding Supplies
+[B4100] Food Thickeners and Formula
+[B9000] Parenteral Nutrition Solutions
+[C] Outpatient PPS
+[D] Dental Procedures
+[D0100] Diagnostic Dental Services
+[D1000] Preventive Dental Services
+[D2000] Restorative Dental Services
+[D3000] Endodontic Dental Services
+[D4000] Periodontic Dental Services
+[D5000] Prosthodontics - Removable
+[D6000] Prosthodontics - Fixed
+[D7000] Oral and Maxillofacial Surgery
+[E] Durable Medical Equipment
+[E0100] Canes and Crutches
+[E0250] Hospital Beds and Accessories
+[E0500] IPPB Machines and Nebulizers
+[E0600] Suction Pumps
+[E1000] Wheelchair - Manual
+[E1230] Power Wheelchairs
+[E1390] Oxygen Equipment and Supplies
+[G] Procedures and Professional Services (Temporary)
+[H] Alcohol and Drug Abuse Treatment Services
+[J] Drugs Administered Other Than Oral Method
+[J0001] Injectable Antibiotics
+[J0100] Cardiovascular Drugs - Injectable
+[J1000] Immunosuppressants - Injectable
+[J1440] Filgrastim and Colony Stimulating Factors
+[J2000] Oncology Drugs - Injectable
+[J3000] Other Drugs - Injectable
+[J7000] Biologics and Specialty Drugs
+[K] Temporary Codes - Durable Medical Equipment
+[L] Orthotic and Prosthetic Procedures and Devices
+[L0100] Cervical Orthoses
+[L0300] Thoracic Orthoses
+[L1000] Ankle-Foot Orthoses
+[L1900] Knee Orthoses
+[L3000] Foot Inserts and Custom Orthotics
+[L5000] Lower Limb Prostheses
+[L6000] Upper Limb Prostheses
+[L7000] Prosthetic Implants
+[M] Medical Services
+[P] Pathology and Laboratory Services
+[Q] Temporary Codes Assigned by CMS
+[R] Diagnostic Radiology Services
+[S] Temporary National Codes Non-Medicare
+[T] State Medicaid Agency Codes
+[U] Coronavirus Diagnostic Panel Codes
+[V] Vision, Hearing, Speech-Language Pathology and Audiology Services
+[V2000] Lenses and Frames
+[V5000] Hearing Aids and Accessories
+[V5010] Cochlear Implants

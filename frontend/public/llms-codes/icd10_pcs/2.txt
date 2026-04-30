@@ -1,0 +1,874 @@
+[2] Placement -- ICD-10-PCS section (Placement). Top-level grouping of procedure codes; sub-nodes break down by body system, operation, and detailed code.
+[2W] Placement, Anatomical Regions -- Body system (Placement, Anatomical Regions) within ICD-10-PCS section 'Placement'. Aggregator of root-operation tables for this body system.
+[2W0] Placement, Anatomical Regions, Change -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00X0Z] Change Traction Apparatus on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00X1Z] Change Splint on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00X2Z] Change Cast on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00X3Z] Change Brace on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00X4Z] Change Bandage on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00X5Z] Change Packing Material on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00X6Z] Change Pressure Dressing on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00X7Z] Change Intermittent Pressure Device on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W00XYZ] Change Other Device on Head -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X0Z] Change Traction Apparatus on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X1Z] Change Splint on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X2Z] Change Cast on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X3Z] Change Brace on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X4Z] Change Bandage on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X5Z] Change Packing Material on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X6Z] Change Pressure Dressing on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X7Z] Change Intermittent Pressure Device on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01X9Z] Change Wire on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W01XYZ] Change Other Device on Face -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02X0Z] Change Traction Apparatus on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02X1Z] Change Splint on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02X2Z] Change Cast on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02X3Z] Change Brace on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02X4Z] Change Bandage on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02X5Z] Change Packing Material on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02X6Z] Change Pressure Dressing on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02X7Z] Change Intermittent Pressure Device on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W02XYZ] Change Other Device on Neck -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03X0Z] Change Traction Apparatus on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03X1Z] Change Splint on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03X2Z] Change Cast on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03X3Z] Change Brace on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03X4Z] Change Bandage on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03X5Z] Change Packing Material on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03X6Z] Change Pressure Dressing on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03X7Z] Change Intermittent Pressure Device on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W03XYZ] Change Other Device on Abdominal Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04X0Z] Change Traction Apparatus on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04X1Z] Change Splint on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04X2Z] Change Cast on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04X3Z] Change Brace on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04X4Z] Change Bandage on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04X5Z] Change Packing Material on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04X6Z] Change Pressure Dressing on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04X7Z] Change Intermittent Pressure Device on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W04XYZ] Change Other Device on Chest Wall -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05X0Z] Change Traction Apparatus on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05X1Z] Change Splint on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05X2Z] Change Cast on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05X3Z] Change Brace on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05X4Z] Change Bandage on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05X5Z] Change Packing Material on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05X6Z] Change Pressure Dressing on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05X7Z] Change Intermittent Pressure Device on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W05XYZ] Change Other Device on Back -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06X0Z] Change Traction Apparatus on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06X1Z] Change Splint on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06X2Z] Change Cast on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06X3Z] Change Brace on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06X4Z] Change Bandage on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06X5Z] Change Packing Material on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06X6Z] Change Pressure Dressing on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06X7Z] Change Intermittent Pressure Device on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W06XYZ] Change Other Device on Right Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07X0Z] Change Traction Apparatus on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07X1Z] Change Splint on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07X2Z] Change Cast on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07X3Z] Change Brace on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07X4Z] Change Bandage on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07X5Z] Change Packing Material on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07X6Z] Change Pressure Dressing on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07X7Z] Change Intermittent Pressure Device on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W07XYZ] Change Other Device on Left Inguinal Region -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08X0Z] Change Traction Apparatus on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08X1Z] Change Splint on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08X2Z] Change Cast on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08X3Z] Change Brace on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08X4Z] Change Bandage on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08X5Z] Change Packing Material on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08X6Z] Change Pressure Dressing on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08X7Z] Change Intermittent Pressure Device on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W08XYZ] Change Other Device on Right Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09X0Z] Change Traction Apparatus on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09X1Z] Change Splint on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09X2Z] Change Cast on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09X3Z] Change Brace on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09X4Z] Change Bandage on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09X5Z] Change Packing Material on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09X6Z] Change Pressure Dressing on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09X7Z] Change Intermittent Pressure Device on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W09XYZ] Change Other Device on Left Upper Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AX0Z] Change Traction Apparatus on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AX1Z] Change Splint on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AX2Z] Change Cast on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AX3Z] Change Brace on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AX4Z] Change Bandage on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AX5Z] Change Packing Material on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AX6Z] Change Pressure Dressing on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AX7Z] Change Intermittent Pressure Device on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0AXYZ] Change Other Device on Right Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BX0Z] Change Traction Apparatus on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BX1Z] Change Splint on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BX2Z] Change Cast on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BX3Z] Change Brace on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BX4Z] Change Bandage on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BX5Z] Change Packing Material on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BX6Z] Change Pressure Dressing on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BX7Z] Change Intermittent Pressure Device on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0BXYZ] Change Other Device on Left Upper Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CX0Z] Change Traction Apparatus on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CX1Z] Change Splint on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CX2Z] Change Cast on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CX3Z] Change Brace on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CX4Z] Change Bandage on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CX5Z] Change Packing Material on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CX6Z] Change Pressure Dressing on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CX7Z] Change Intermittent Pressure Device on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0CXYZ] Change Other Device on Right Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DX0Z] Change Traction Apparatus on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DX1Z] Change Splint on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DX2Z] Change Cast on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DX3Z] Change Brace on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DX4Z] Change Bandage on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DX5Z] Change Packing Material on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DX6Z] Change Pressure Dressing on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DX7Z] Change Intermittent Pressure Device on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0DXYZ] Change Other Device on Left Lower Arm -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EX0Z] Change Traction Apparatus on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EX1Z] Change Splint on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EX2Z] Change Cast on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EX3Z] Change Brace on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EX4Z] Change Bandage on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EX5Z] Change Packing Material on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EX6Z] Change Pressure Dressing on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EX7Z] Change Intermittent Pressure Device on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0EXYZ] Change Other Device on Right Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FX0Z] Change Traction Apparatus on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FX1Z] Change Splint on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FX2Z] Change Cast on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FX3Z] Change Brace on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FX4Z] Change Bandage on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FX5Z] Change Packing Material on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FX6Z] Change Pressure Dressing on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FX7Z] Change Intermittent Pressure Device on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0FXYZ] Change Other Device on Left Hand -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GX0Z] Change Traction Apparatus on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GX1Z] Change Splint on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GX2Z] Change Cast on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GX3Z] Change Brace on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GX4Z] Change Bandage on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GX5Z] Change Packing Material on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GX6Z] Change Pressure Dressing on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GX7Z] Change Intermittent Pressure Device on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0GXYZ] Change Other Device on Right Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HX0Z] Change Traction Apparatus on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HX1Z] Change Splint on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HX2Z] Change Cast on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HX3Z] Change Brace on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HX4Z] Change Bandage on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HX5Z] Change Packing Material on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HX6Z] Change Pressure Dressing on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HX7Z] Change Intermittent Pressure Device on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0HXYZ] Change Other Device on Left Thumb -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JX0Z] Change Traction Apparatus on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JX1Z] Change Splint on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JX2Z] Change Cast on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JX3Z] Change Brace on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JX4Z] Change Bandage on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JX5Z] Change Packing Material on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JX6Z] Change Pressure Dressing on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JX7Z] Change Intermittent Pressure Device on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0JXYZ] Change Other Device on Right Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KX0Z] Change Traction Apparatus on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KX1Z] Change Splint on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KX2Z] Change Cast on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KX3Z] Change Brace on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KX4Z] Change Bandage on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KX5Z] Change Packing Material on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KX6Z] Change Pressure Dressing on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KX7Z] Change Intermittent Pressure Device on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0KXYZ] Change Other Device on Left Finger -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LX0Z] Change Traction Apparatus on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LX1Z] Change Splint on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LX2Z] Change Cast on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LX3Z] Change Brace on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LX4Z] Change Bandage on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LX5Z] Change Packing Material on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LX6Z] Change Pressure Dressing on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LX7Z] Change Intermittent Pressure Device on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0LXYZ] Change Other Device on Right Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MX0Z] Change Traction Apparatus on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MX1Z] Change Splint on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MX2Z] Change Cast on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MX3Z] Change Brace on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MX4Z] Change Bandage on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MX5Z] Change Packing Material on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MX6Z] Change Pressure Dressing on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MX7Z] Change Intermittent Pressure Device on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0MXYZ] Change Other Device on Left Lower Extremity -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NX0Z] Change Traction Apparatus on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NX1Z] Change Splint on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NX2Z] Change Cast on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NX3Z] Change Brace on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NX4Z] Change Bandage on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NX5Z] Change Packing Material on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NX6Z] Change Pressure Dressing on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NX7Z] Change Intermittent Pressure Device on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0NXYZ] Change Other Device on Right Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PX0Z] Change Traction Apparatus on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PX1Z] Change Splint on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PX2Z] Change Cast on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PX3Z] Change Brace on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PX4Z] Change Bandage on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PX5Z] Change Packing Material on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PX6Z] Change Pressure Dressing on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PX7Z] Change Intermittent Pressure Device on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0PXYZ] Change Other Device on Left Upper Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QX0Z] Change Traction Apparatus on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QX1Z] Change Splint on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QX2Z] Change Cast on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QX3Z] Change Brace on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QX4Z] Change Bandage on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QX5Z] Change Packing Material on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QX6Z] Change Pressure Dressing on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QX7Z] Change Intermittent Pressure Device on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0QXYZ] Change Other Device on Right Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RX0Z] Change Traction Apparatus on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RX1Z] Change Splint on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RX2Z] Change Cast on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RX3Z] Change Brace on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RX4Z] Change Bandage on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RX5Z] Change Packing Material on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RX6Z] Change Pressure Dressing on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RX7Z] Change Intermittent Pressure Device on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0RXYZ] Change Other Device on Left Lower Leg -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SX0Z] Change Traction Apparatus on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SX1Z] Change Splint on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SX2Z] Change Cast on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SX3Z] Change Brace on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SX4Z] Change Bandage on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SX5Z] Change Packing Material on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SX6Z] Change Pressure Dressing on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SX7Z] Change Intermittent Pressure Device on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0SXYZ] Change Other Device on Right Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TX0Z] Change Traction Apparatus on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TX1Z] Change Splint on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TX2Z] Change Cast on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TX3Z] Change Brace on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TX4Z] Change Bandage on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TX5Z] Change Packing Material on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TX6Z] Change Pressure Dressing on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TX7Z] Change Intermittent Pressure Device on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0TXYZ] Change Other Device on Left Foot -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UX0Z] Change Traction Apparatus on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UX1Z] Change Splint on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UX2Z] Change Cast on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UX3Z] Change Brace on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UX4Z] Change Bandage on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UX5Z] Change Packing Material on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UX6Z] Change Pressure Dressing on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UX7Z] Change Intermittent Pressure Device on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0UXYZ] Change Other Device on Right Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VX0Z] Change Traction Apparatus on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VX1Z] Change Splint on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VX2Z] Change Cast on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VX3Z] Change Brace on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VX4Z] Change Bandage on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VX5Z] Change Packing Material on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VX6Z] Change Pressure Dressing on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VX7Z] Change Intermittent Pressure Device on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W0VXYZ] Change Other Device on Left Toe -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2W1] Placement, Anatomical Regions, Compression -- Putting pressure on a body region
+[2W10X6Z] Compression of Head using Pressure Dressing -- Putting pressure on a body region
+[2W10X7Z] Compression of Head using Intermittent Pressure Device -- Putting pressure on a body region
+[2W11X6Z] Compression of Face using Pressure Dressing -- Putting pressure on a body region
+[2W11X7Z] Compression of Face using Intermittent Pressure Device -- Putting pressure on a body region
+[2W12X6Z] Compression of Neck using Pressure Dressing -- Putting pressure on a body region
+[2W12X7Z] Compression of Neck using Intermittent Pressure Device -- Putting pressure on a body region
+[2W13X6Z] Compression of Abdominal Wall using Pressure Dressing -- Putting pressure on a body region
+[2W13X7Z] Compression of Abdominal Wall using Intermittent Pressure Device -- Putting pressure on a body region
+[2W14X6Z] Compression of Chest Wall using Pressure Dressing -- Putting pressure on a body region
+[2W14X7Z] Compression of Chest Wall using Intermittent Pressure Device -- Putting pressure on a body region
+[2W15X6Z] Compression of Back using Pressure Dressing -- Putting pressure on a body region
+[2W15X7Z] Compression of Back using Intermittent Pressure Device -- Putting pressure on a body region
+[2W16X6Z] Compression of Right Inguinal Region using Pressure Dressing -- Putting pressure on a body region
+[2W16X7Z] Compression of Right Inguinal Region using Intermittent Pressure Device -- Putting pressure on a body region
+[2W17X6Z] Compression of Left Inguinal Region using Pressure Dressing -- Putting pressure on a body region
+[2W17X7Z] Compression of Left Inguinal Region using Intermittent Pressure Device -- Putting pressure on a body region
+[2W18X6Z] Compression of Right Upper Extremity using Pressure Dressing -- Putting pressure on a body region
+[2W18X7Z] Compression of Right Upper Extremity using Intermittent Pressure Device -- Putting pressure on a body region
+[2W19X6Z] Compression of Left Upper Extremity using Pressure Dressing -- Putting pressure on a body region
+[2W19X7Z] Compression of Left Upper Extremity using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1AX6Z] Compression of Right Upper Arm using Pressure Dressing -- Putting pressure on a body region
+[2W1AX7Z] Compression of Right Upper Arm using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1BX6Z] Compression of Left Upper Arm using Pressure Dressing -- Putting pressure on a body region
+[2W1BX7Z] Compression of Left Upper Arm using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1CX6Z] Compression of Right Lower Arm using Pressure Dressing -- Putting pressure on a body region
+[2W1CX7Z] Compression of Right Lower Arm using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1DX6Z] Compression of Left Lower Arm using Pressure Dressing -- Putting pressure on a body region
+[2W1DX7Z] Compression of Left Lower Arm using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1EX6Z] Compression of Right Hand using Pressure Dressing -- Putting pressure on a body region
+[2W1EX7Z] Compression of Right Hand using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1FX6Z] Compression of Left Hand using Pressure Dressing -- Putting pressure on a body region
+[2W1FX7Z] Compression of Left Hand using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1GX6Z] Compression of Right Thumb using Pressure Dressing -- Putting pressure on a body region
+[2W1GX7Z] Compression of Right Thumb using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1HX6Z] Compression of Left Thumb using Pressure Dressing -- Putting pressure on a body region
+[2W1HX7Z] Compression of Left Thumb using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1JX6Z] Compression of Right Finger using Pressure Dressing -- Putting pressure on a body region
+[2W1JX7Z] Compression of Right Finger using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1KX6Z] Compression of Left Finger using Pressure Dressing -- Putting pressure on a body region
+[2W1KX7Z] Compression of Left Finger using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1LX6Z] Compression of Right Lower Extremity using Pressure Dressing -- Putting pressure on a body region
+[2W1LX7Z] Compression of Right Lower Extremity using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1MX6Z] Compression of Left Lower Extremity using Pressure Dressing -- Putting pressure on a body region
+[2W1MX7Z] Compression of Left Lower Extremity using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1NX6Z] Compression of Right Upper Leg using Pressure Dressing -- Putting pressure on a body region
+[2W1NX7Z] Compression of Right Upper Leg using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1PX6Z] Compression of Left Upper Leg using Pressure Dressing -- Putting pressure on a body region
+[2W1PX7Z] Compression of Left Upper Leg using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1QX6Z] Compression of Right Lower Leg using Pressure Dressing -- Putting pressure on a body region
+[2W1QX7Z] Compression of Right Lower Leg using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1RX6Z] Compression of Left Lower Leg using Pressure Dressing -- Putting pressure on a body region
+[2W1RX7Z] Compression of Left Lower Leg using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1SX6Z] Compression of Right Foot using Pressure Dressing -- Putting pressure on a body region
+[2W1SX7Z] Compression of Right Foot using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1TX6Z] Compression of Left Foot using Pressure Dressing -- Putting pressure on a body region
+[2W1TX7Z] Compression of Left Foot using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1UX6Z] Compression of Right Toe using Pressure Dressing -- Putting pressure on a body region
+[2W1UX7Z] Compression of Right Toe using Intermittent Pressure Device -- Putting pressure on a body region
+[2W1VX6Z] Compression of Left Toe using Pressure Dressing -- Putting pressure on a body region
+[2W1VX7Z] Compression of Left Toe using Intermittent Pressure Device -- Putting pressure on a body region
+[2W2] Placement, Anatomical Regions, Dressing -- Putting material on a body region for protection
+[2W20X4Z] Dressing of Head using Bandage -- Putting material on a body region for protection
+[2W21X4Z] Dressing of Face using Bandage -- Putting material on a body region for protection
+[2W22X4Z] Dressing of Neck using Bandage -- Putting material on a body region for protection
+[2W23X4Z] Dressing of Abdominal Wall using Bandage -- Putting material on a body region for protection
+[2W24X4Z] Dressing of Chest Wall using Bandage -- Putting material on a body region for protection
+[2W25X4Z] Dressing of Back using Bandage -- Putting material on a body region for protection
+[2W26X4Z] Dressing of Right Inguinal Region using Bandage -- Putting material on a body region for protection
+[2W27X4Z] Dressing of Left Inguinal Region using Bandage -- Putting material on a body region for protection
+[2W28X4Z] Dressing of Right Upper Extremity using Bandage -- Putting material on a body region for protection
+[2W29X4Z] Dressing of Left Upper Extremity using Bandage -- Putting material on a body region for protection
+[2W2AX4Z] Dressing of Right Upper Arm using Bandage -- Putting material on a body region for protection
+[2W2BX4Z] Dressing of Left Upper Arm using Bandage -- Putting material on a body region for protection
+[2W2CX4Z] Dressing of Right Lower Arm using Bandage -- Putting material on a body region for protection
+[2W2DX4Z] Dressing of Left Lower Arm using Bandage -- Putting material on a body region for protection
+[2W2EX4Z] Dressing of Right Hand using Bandage -- Putting material on a body region for protection
+[2W2FX4Z] Dressing of Left Hand using Bandage -- Putting material on a body region for protection
+[2W2GX4Z] Dressing of Right Thumb using Bandage -- Putting material on a body region for protection
+[2W2HX4Z] Dressing of Left Thumb using Bandage -- Putting material on a body region for protection
+[2W2JX4Z] Dressing of Right Finger using Bandage -- Putting material on a body region for protection
+[2W2KX4Z] Dressing of Left Finger using Bandage -- Putting material on a body region for protection
+[2W2LX4Z] Dressing of Right Lower Extremity using Bandage -- Putting material on a body region for protection
+[2W2MX4Z] Dressing of Left Lower Extremity using Bandage -- Putting material on a body region for protection
+[2W2NX4Z] Dressing of Right Upper Leg using Bandage -- Putting material on a body region for protection
+[2W2PX4Z] Dressing of Left Upper Leg using Bandage -- Putting material on a body region for protection
+[2W2QX4Z] Dressing of Right Lower Leg using Bandage -- Putting material on a body region for protection
+[2W2RX4Z] Dressing of Left Lower Leg using Bandage -- Putting material on a body region for protection
+[2W2SX4Z] Dressing of Right Foot using Bandage -- Putting material on a body region for protection
+[2W2TX4Z] Dressing of Left Foot using Bandage -- Putting material on a body region for protection
+[2W2UX4Z] Dressing of Right Toe using Bandage -- Putting material on a body region for protection
+[2W2VX4Z] Dressing of Left Toe using Bandage -- Putting material on a body region for protection
+[2W3] Placement, Anatomical Regions, Immobilization -- Limiting or preventing motion of a body region
+[2W30X1Z] Immobilization of Head using Splint -- Limiting or preventing motion of a body region
+[2W30X2Z] Immobilization of Head using Cast -- Limiting or preventing motion of a body region
+[2W30X3Z] Immobilization of Head using Brace -- Limiting or preventing motion of a body region
+[2W30XYZ] Immobilization of Head using Other Device -- Limiting or preventing motion of a body region
+[2W31X1Z] Immobilization of Face using Splint -- Limiting or preventing motion of a body region
+[2W31X2Z] Immobilization of Face using Cast -- Limiting or preventing motion of a body region
+[2W31X3Z] Immobilization of Face using Brace -- Limiting or preventing motion of a body region
+[2W31X9Z] Immobilization of Face using Wire -- Limiting or preventing motion of a body region
+[2W31XYZ] Immobilization of Face using Other Device -- Limiting or preventing motion of a body region
+[2W32X1Z] Immobilization of Neck using Splint -- Limiting or preventing motion of a body region
+[2W32X2Z] Immobilization of Neck using Cast -- Limiting or preventing motion of a body region
+[2W32X3Z] Immobilization of Neck using Brace -- Limiting or preventing motion of a body region
+[2W32XYZ] Immobilization of Neck using Other Device -- Limiting or preventing motion of a body region
+[2W33X1Z] Immobilization of Abdominal Wall using Splint -- Limiting or preventing motion of a body region
+[2W33X2Z] Immobilization of Abdominal Wall using Cast -- Limiting or preventing motion of a body region
+[2W33X3Z] Immobilization of Abdominal Wall using Brace -- Limiting or preventing motion of a body region
+[2W33XYZ] Immobilization of Abdominal Wall using Other Device -- Limiting or preventing motion of a body region
+[2W34X1Z] Immobilization of Chest Wall using Splint -- Limiting or preventing motion of a body region
+[2W34X2Z] Immobilization of Chest Wall using Cast -- Limiting or preventing motion of a body region
+[2W34X3Z] Immobilization of Chest Wall using Brace -- Limiting or preventing motion of a body region
+[2W34XYZ] Immobilization of Chest Wall using Other Device -- Limiting or preventing motion of a body region
+[2W35X1Z] Immobilization of Back using Splint -- Limiting or preventing motion of a body region
+[2W35X2Z] Immobilization of Back using Cast -- Limiting or preventing motion of a body region
+[2W35X3Z] Immobilization of Back using Brace -- Limiting or preventing motion of a body region
+[2W35XYZ] Immobilization of Back using Other Device -- Limiting or preventing motion of a body region
+[2W36X1Z] Immobilization of Right Inguinal Region using Splint -- Limiting or preventing motion of a body region
+[2W36X2Z] Immobilization of Right Inguinal Region using Cast -- Limiting or preventing motion of a body region
+[2W36X3Z] Immobilization of Right Inguinal Region using Brace -- Limiting or preventing motion of a body region
+[2W36XYZ] Immobilization of Right Inguinal Region using Other Device -- Limiting or preventing motion of a body region
+[2W37X1Z] Immobilization of Left Inguinal Region using Splint -- Limiting or preventing motion of a body region
+[2W37X2Z] Immobilization of Left Inguinal Region using Cast -- Limiting or preventing motion of a body region
+[2W37X3Z] Immobilization of Left Inguinal Region using Brace -- Limiting or preventing motion of a body region
+[2W37XYZ] Immobilization of Left Inguinal Region using Other Device -- Limiting or preventing motion of a body region
+[2W38X1Z] Immobilization of Right Upper Extremity using Splint -- Limiting or preventing motion of a body region
+[2W38X2Z] Immobilization of Right Upper Extremity using Cast -- Limiting or preventing motion of a body region
+[2W38X3Z] Immobilization of Right Upper Extremity using Brace -- Limiting or preventing motion of a body region
+[2W38XYZ] Immobilization of Right Upper Extremity using Other Device -- Limiting or preventing motion of a body region
+[2W39X1Z] Immobilization of Left Upper Extremity using Splint -- Limiting or preventing motion of a body region
+[2W39X2Z] Immobilization of Left Upper Extremity using Cast -- Limiting or preventing motion of a body region
+[2W39X3Z] Immobilization of Left Upper Extremity using Brace -- Limiting or preventing motion of a body region
+[2W39XYZ] Immobilization of Left Upper Extremity using Other Device -- Limiting or preventing motion of a body region
+[2W3AX1Z] Immobilization of Right Upper Arm using Splint -- Limiting or preventing motion of a body region
+[2W3AX2Z] Immobilization of Right Upper Arm using Cast -- Limiting or preventing motion of a body region
+[2W3AX3Z] Immobilization of Right Upper Arm using Brace -- Limiting or preventing motion of a body region
+[2W3AXYZ] Immobilization of Right Upper Arm using Other Device -- Limiting or preventing motion of a body region
+[2W3BX1Z] Immobilization of Left Upper Arm using Splint -- Limiting or preventing motion of a body region
+[2W3BX2Z] Immobilization of Left Upper Arm using Cast -- Limiting or preventing motion of a body region
+[2W3BX3Z] Immobilization of Left Upper Arm using Brace -- Limiting or preventing motion of a body region
+[2W3BXYZ] Immobilization of Left Upper Arm using Other Device -- Limiting or preventing motion of a body region
+[2W3CX1Z] Immobilization of Right Lower Arm using Splint -- Limiting or preventing motion of a body region
+[2W3CX2Z] Immobilization of Right Lower Arm using Cast -- Limiting or preventing motion of a body region
+[2W3CX3Z] Immobilization of Right Lower Arm using Brace -- Limiting or preventing motion of a body region
+[2W3CXYZ] Immobilization of Right Lower Arm using Other Device -- Limiting or preventing motion of a body region
+[2W3DX1Z] Immobilization of Left Lower Arm using Splint -- Limiting or preventing motion of a body region
+[2W3DX2Z] Immobilization of Left Lower Arm using Cast -- Limiting or preventing motion of a body region
+[2W3DX3Z] Immobilization of Left Lower Arm using Brace -- Limiting or preventing motion of a body region
+[2W3DXYZ] Immobilization of Left Lower Arm using Other Device -- Limiting or preventing motion of a body region
+[2W3EX1Z] Immobilization of Right Hand using Splint -- Limiting or preventing motion of a body region
+[2W3EX2Z] Immobilization of Right Hand using Cast -- Limiting or preventing motion of a body region
+[2W3EX3Z] Immobilization of Right Hand using Brace -- Limiting or preventing motion of a body region
+[2W3EXYZ] Immobilization of Right Hand using Other Device -- Limiting or preventing motion of a body region
+[2W3FX1Z] Immobilization of Left Hand using Splint -- Limiting or preventing motion of a body region
+[2W3FX2Z] Immobilization of Left Hand using Cast -- Limiting or preventing motion of a body region
+[2W3FX3Z] Immobilization of Left Hand using Brace -- Limiting or preventing motion of a body region
+[2W3FXYZ] Immobilization of Left Hand using Other Device -- Limiting or preventing motion of a body region
+[2W3GX1Z] Immobilization of Right Thumb using Splint -- Limiting or preventing motion of a body region
+[2W3GX2Z] Immobilization of Right Thumb using Cast -- Limiting or preventing motion of a body region
+[2W3GX3Z] Immobilization of Right Thumb using Brace -- Limiting or preventing motion of a body region
+[2W3GXYZ] Immobilization of Right Thumb using Other Device -- Limiting or preventing motion of a body region
+[2W3HX1Z] Immobilization of Left Thumb using Splint -- Limiting or preventing motion of a body region
+[2W3HX2Z] Immobilization of Left Thumb using Cast -- Limiting or preventing motion of a body region
+[2W3HX3Z] Immobilization of Left Thumb using Brace -- Limiting or preventing motion of a body region
+[2W3HXYZ] Immobilization of Left Thumb using Other Device -- Limiting or preventing motion of a body region
+[2W3JX1Z] Immobilization of Right Finger using Splint -- Limiting or preventing motion of a body region
+[2W3JX2Z] Immobilization of Right Finger using Cast -- Limiting or preventing motion of a body region
+[2W3JX3Z] Immobilization of Right Finger using Brace -- Limiting or preventing motion of a body region
+[2W3JXYZ] Immobilization of Right Finger using Other Device -- Limiting or preventing motion of a body region
+[2W3KX1Z] Immobilization of Left Finger using Splint -- Limiting or preventing motion of a body region
+[2W3KX2Z] Immobilization of Left Finger using Cast -- Limiting or preventing motion of a body region
+[2W3KX3Z] Immobilization of Left Finger using Brace -- Limiting or preventing motion of a body region
+[2W3KXYZ] Immobilization of Left Finger using Other Device -- Limiting or preventing motion of a body region
+[2W3LX1Z] Immobilization of Right Lower Extremity using Splint -- Limiting or preventing motion of a body region
+[2W3LX2Z] Immobilization of Right Lower Extremity using Cast -- Limiting or preventing motion of a body region
+[2W3LX3Z] Immobilization of Right Lower Extremity using Brace -- Limiting or preventing motion of a body region
+[2W3LXYZ] Immobilization of Right Lower Extremity using Other Device -- Limiting or preventing motion of a body region
+[2W3MX1Z] Immobilization of Left Lower Extremity using Splint -- Limiting or preventing motion of a body region
+[2W3MX2Z] Immobilization of Left Lower Extremity using Cast -- Limiting or preventing motion of a body region
+[2W3MX3Z] Immobilization of Left Lower Extremity using Brace -- Limiting or preventing motion of a body region
+[2W3MXYZ] Immobilization of Left Lower Extremity using Other Device -- Limiting or preventing motion of a body region
+[2W3NX1Z] Immobilization of Right Upper Leg using Splint -- Limiting or preventing motion of a body region
+[2W3NX2Z] Immobilization of Right Upper Leg using Cast -- Limiting or preventing motion of a body region
+[2W3NX3Z] Immobilization of Right Upper Leg using Brace -- Limiting or preventing motion of a body region
+[2W3NXYZ] Immobilization of Right Upper Leg using Other Device -- Limiting or preventing motion of a body region
+[2W3PX1Z] Immobilization of Left Upper Leg using Splint -- Limiting or preventing motion of a body region
+[2W3PX2Z] Immobilization of Left Upper Leg using Cast -- Limiting or preventing motion of a body region
+[2W3PX3Z] Immobilization of Left Upper Leg using Brace -- Limiting or preventing motion of a body region
+[2W3PXYZ] Immobilization of Left Upper Leg using Other Device -- Limiting or preventing motion of a body region
+[2W3QX1Z] Immobilization of Right Lower Leg using Splint -- Limiting or preventing motion of a body region
+[2W3QX2Z] Immobilization of Right Lower Leg using Cast -- Limiting or preventing motion of a body region
+[2W3QX3Z] Immobilization of Right Lower Leg using Brace -- Limiting or preventing motion of a body region
+[2W3QXYZ] Immobilization of Right Lower Leg using Other Device -- Limiting or preventing motion of a body region
+[2W3RX1Z] Immobilization of Left Lower Leg using Splint -- Limiting or preventing motion of a body region
+[2W3RX2Z] Immobilization of Left Lower Leg using Cast -- Limiting or preventing motion of a body region
+[2W3RX3Z] Immobilization of Left Lower Leg using Brace -- Limiting or preventing motion of a body region
+[2W3RXYZ] Immobilization of Left Lower Leg using Other Device -- Limiting or preventing motion of a body region
+[2W3SX1Z] Immobilization of Right Foot using Splint -- Limiting or preventing motion of a body region
+[2W3SX2Z] Immobilization of Right Foot using Cast -- Limiting or preventing motion of a body region
+[2W3SX3Z] Immobilization of Right Foot using Brace -- Limiting or preventing motion of a body region
+[2W3SXYZ] Immobilization of Right Foot using Other Device -- Limiting or preventing motion of a body region
+[2W3TX1Z] Immobilization of Left Foot using Splint -- Limiting or preventing motion of a body region
+[2W3TX2Z] Immobilization of Left Foot using Cast -- Limiting or preventing motion of a body region
+[2W3TX3Z] Immobilization of Left Foot using Brace -- Limiting or preventing motion of a body region
+[2W3TXYZ] Immobilization of Left Foot using Other Device -- Limiting or preventing motion of a body region
+[2W3UX1Z] Immobilization of Right Toe using Splint -- Limiting or preventing motion of a body region
+[2W3UX2Z] Immobilization of Right Toe using Cast -- Limiting or preventing motion of a body region
+[2W3UX3Z] Immobilization of Right Toe using Brace -- Limiting or preventing motion of a body region
+[2W3UXYZ] Immobilization of Right Toe using Other Device -- Limiting or preventing motion of a body region
+[2W3VX1Z] Immobilization of Left Toe using Splint -- Limiting or preventing motion of a body region
+[2W3VX2Z] Immobilization of Left Toe using Cast -- Limiting or preventing motion of a body region
+[2W3VX3Z] Immobilization of Left Toe using Brace -- Limiting or preventing motion of a body region
+[2W3VXYZ] Immobilization of Left Toe using Other Device -- Limiting or preventing motion of a body region
+[2W4] Placement, Anatomical Regions, Packing -- Putting material in a body region or orifice
+[2W40X5Z] Packing of Head using Packing Material -- Putting material in a body region or orifice
+[2W41X5Z] Packing of Face using Packing Material -- Putting material in a body region or orifice
+[2W42X5Z] Packing of Neck using Packing Material -- Putting material in a body region or orifice
+[2W43X5Z] Packing of Abdominal Wall using Packing Material -- Putting material in a body region or orifice
+[2W44X5Z] Packing of Chest Wall using Packing Material -- Putting material in a body region or orifice
+[2W45X5Z] Packing of Back using Packing Material -- Putting material in a body region or orifice
+[2W46X5Z] Packing of Right Inguinal Region using Packing Material -- Putting material in a body region or orifice
+[2W47X5Z] Packing of Left Inguinal Region using Packing Material -- Putting material in a body region or orifice
+[2W48X5Z] Packing of Right Upper Extremity using Packing Material -- Putting material in a body region or orifice
+[2W49X5Z] Packing of Left Upper Extremity using Packing Material -- Putting material in a body region or orifice
+[2W4AX5Z] Packing of Right Upper Arm using Packing Material -- Putting material in a body region or orifice
+[2W4BX5Z] Packing of Left Upper Arm using Packing Material -- Putting material in a body region or orifice
+[2W4CX5Z] Packing of Right Lower Arm using Packing Material -- Putting material in a body region or orifice
+[2W4DX5Z] Packing of Left Lower Arm using Packing Material -- Putting material in a body region or orifice
+[2W4EX5Z] Packing of Right Hand using Packing Material -- Putting material in a body region or orifice
+[2W4FX5Z] Packing of Left Hand using Packing Material -- Putting material in a body region or orifice
+[2W4GX5Z] Packing of Right Thumb using Packing Material -- Putting material in a body region or orifice
+[2W4HX5Z] Packing of Left Thumb using Packing Material -- Putting material in a body region or orifice
+[2W4JX5Z] Packing of Right Finger using Packing Material -- Putting material in a body region or orifice
+[2W4KX5Z] Packing of Left Finger using Packing Material -- Putting material in a body region or orifice
+[2W4LX5Z] Packing of Right Lower Extremity using Packing Material -- Putting material in a body region or orifice
+[2W4MX5Z] Packing of Left Lower Extremity using Packing Material -- Putting material in a body region or orifice
+[2W4NX5Z] Packing of Right Upper Leg using Packing Material -- Putting material in a body region or orifice
+[2W4PX5Z] Packing of Left Upper Leg using Packing Material -- Putting material in a body region or orifice
+[2W4QX5Z] Packing of Right Lower Leg using Packing Material -- Putting material in a body region or orifice
+[2W4RX5Z] Packing of Left Lower Leg using Packing Material -- Putting material in a body region or orifice
+[2W4SX5Z] Packing of Right Foot using Packing Material -- Putting material in a body region or orifice
+[2W4TX5Z] Packing of Left Foot using Packing Material -- Putting material in a body region or orifice
+[2W4UX5Z] Packing of Right Toe using Packing Material -- Putting material in a body region or orifice
+[2W4VX5Z] Packing of Left Toe using Packing Material -- Putting material in a body region or orifice
+[2W5] Placement, Anatomical Regions, Removal -- Taking out or off a device from a body part
+[2W50X0Z] Removal of Traction Apparatus on Head -- Taking out or off a device from a body part
+[2W50X1Z] Removal of Splint on Head -- Taking out or off a device from a body part
+[2W50X2Z] Removal of Cast on Head -- Taking out or off a device from a body part
+[2W50X3Z] Removal of Brace on Head -- Taking out or off a device from a body part
+[2W50X4Z] Removal of Bandage on Head -- Taking out or off a device from a body part
+[2W50X5Z] Removal of Packing Material on Head -- Taking out or off a device from a body part
+[2W50X6Z] Removal of Pressure Dressing on Head -- Taking out or off a device from a body part
+[2W50X7Z] Removal of Intermittent Pressure Device on Head -- Taking out or off a device from a body part
+[2W50XYZ] Removal of Other Device on Head -- Taking out or off a device from a body part
+[2W51X0Z] Removal of Traction Apparatus on Face -- Taking out or off a device from a body part
+[2W51X1Z] Removal of Splint on Face -- Taking out or off a device from a body part
+[2W51X2Z] Removal of Cast on Face -- Taking out or off a device from a body part
+[2W51X3Z] Removal of Brace on Face -- Taking out or off a device from a body part
+[2W51X4Z] Removal of Bandage on Face -- Taking out or off a device from a body part
+[2W51X5Z] Removal of Packing Material on Face -- Taking out or off a device from a body part
+[2W51X6Z] Removal of Pressure Dressing on Face -- Taking out or off a device from a body part
+[2W51X7Z] Removal of Intermittent Pressure Device on Face -- Taking out or off a device from a body part
+[2W51X9Z] Removal of Wire on Face -- Taking out or off a device from a body part
+[2W51XYZ] Removal of Other Device on Face -- Taking out or off a device from a body part
+[2W52X0Z] Removal of Traction Apparatus on Neck -- Taking out or off a device from a body part
+[2W52X1Z] Removal of Splint on Neck -- Taking out or off a device from a body part
+[2W52X2Z] Removal of Cast on Neck -- Taking out or off a device from a body part
+[2W52X3Z] Removal of Brace on Neck -- Taking out or off a device from a body part
+[2W52X4Z] Removal of Bandage on Neck -- Taking out or off a device from a body part
+[2W52X5Z] Removal of Packing Material on Neck -- Taking out or off a device from a body part
+[2W52X6Z] Removal of Pressure Dressing on Neck -- Taking out or off a device from a body part
+[2W52X7Z] Removal of Intermittent Pressure Device on Neck -- Taking out or off a device from a body part
+[2W52XYZ] Removal of Other Device on Neck -- Taking out or off a device from a body part
+[2W53X0Z] Removal of Traction Apparatus on Abdominal Wall -- Taking out or off a device from a body part
+[2W53X1Z] Removal of Splint on Abdominal Wall -- Taking out or off a device from a body part
+[2W53X2Z] Removal of Cast on Abdominal Wall -- Taking out or off a device from a body part
+[2W53X3Z] Removal of Brace on Abdominal Wall -- Taking out or off a device from a body part
+[2W53X4Z] Removal of Bandage on Abdominal Wall -- Taking out or off a device from a body part
+[2W53X5Z] Removal of Packing Material on Abdominal Wall -- Taking out or off a device from a body part
+[2W53X6Z] Removal of Pressure Dressing on Abdominal Wall -- Taking out or off a device from a body part
+[2W53X7Z] Removal of Intermittent Pressure Device on Abdominal Wall -- Taking out or off a device from a body part
+[2W53XYZ] Removal of Other Device on Abdominal Wall -- Taking out or off a device from a body part
+[2W54X0Z] Removal of Traction Apparatus on Chest Wall -- Taking out or off a device from a body part
+[2W54X1Z] Removal of Splint on Chest Wall -- Taking out or off a device from a body part
+[2W54X2Z] Removal of Cast on Chest Wall -- Taking out or off a device from a body part
+[2W54X3Z] Removal of Brace on Chest Wall -- Taking out or off a device from a body part
+[2W54X4Z] Removal of Bandage on Chest Wall -- Taking out or off a device from a body part
+[2W54X5Z] Removal of Packing Material on Chest Wall -- Taking out or off a device from a body part
+[2W54X6Z] Removal of Pressure Dressing on Chest Wall -- Taking out or off a device from a body part
+[2W54X7Z] Removal of Intermittent Pressure Device on Chest Wall -- Taking out or off a device from a body part
+[2W54XYZ] Removal of Other Device on Chest Wall -- Taking out or off a device from a body part
+[2W55X0Z] Removal of Traction Apparatus on Back -- Taking out or off a device from a body part
+[2W55X1Z] Removal of Splint on Back -- Taking out or off a device from a body part
+[2W55X2Z] Removal of Cast on Back -- Taking out or off a device from a body part
+[2W55X3Z] Removal of Brace on Back -- Taking out or off a device from a body part
+[2W55X4Z] Removal of Bandage on Back -- Taking out or off a device from a body part
+[2W55X5Z] Removal of Packing Material on Back -- Taking out or off a device from a body part
+[2W55X6Z] Removal of Pressure Dressing on Back -- Taking out or off a device from a body part
+[2W55X7Z] Removal of Intermittent Pressure Device on Back -- Taking out or off a device from a body part
+[2W55XYZ] Removal of Other Device on Back -- Taking out or off a device from a body part
+[2W56X0Z] Removal of Traction Apparatus on Right Inguinal Region -- Taking out or off a device from a body part
+[2W56X1Z] Removal of Splint on Right Inguinal Region -- Taking out or off a device from a body part
+[2W56X2Z] Removal of Cast on Right Inguinal Region -- Taking out or off a device from a body part
+[2W56X3Z] Removal of Brace on Right Inguinal Region -- Taking out or off a device from a body part
+[2W56X4Z] Removal of Bandage on Right Inguinal Region -- Taking out or off a device from a body part
+[2W56X5Z] Removal of Packing Material on Right Inguinal Region -- Taking out or off a device from a body part
+[2W56X6Z] Removal of Pressure Dressing on Right Inguinal Region -- Taking out or off a device from a body part
+[2W56X7Z] Removal of Intermittent Pressure Device on Right Inguinal Region -- Taking out or off a device from a body part
+[2W56XYZ] Removal of Other Device on Right Inguinal Region -- Taking out or off a device from a body part
+[2W57X0Z] Removal of Traction Apparatus on Left Inguinal Region -- Taking out or off a device from a body part
+[2W57X1Z] Removal of Splint on Left Inguinal Region -- Taking out or off a device from a body part
+[2W57X2Z] Removal of Cast on Left Inguinal Region -- Taking out or off a device from a body part
+[2W57X3Z] Removal of Brace on Left Inguinal Region -- Taking out or off a device from a body part
+[2W57X4Z] Removal of Bandage on Left Inguinal Region -- Taking out or off a device from a body part
+[2W57X5Z] Removal of Packing Material on Left Inguinal Region -- Taking out or off a device from a body part
+[2W57X6Z] Removal of Pressure Dressing on Left Inguinal Region -- Taking out or off a device from a body part
+[2W57X7Z] Removal of Intermittent Pressure Device on Left Inguinal Region -- Taking out or off a device from a body part
+[2W57XYZ] Removal of Other Device on Left Inguinal Region -- Taking out or off a device from a body part
+[2W58X0Z] Removal of Traction Apparatus on Right Upper Extremity -- Taking out or off a device from a body part
+[2W58X1Z] Removal of Splint on Right Upper Extremity -- Taking out or off a device from a body part
+[2W58X2Z] Removal of Cast on Right Upper Extremity -- Taking out or off a device from a body part
+[2W58X3Z] Removal of Brace on Right Upper Extremity -- Taking out or off a device from a body part
+[2W58X4Z] Removal of Bandage on Right Upper Extremity -- Taking out or off a device from a body part
+[2W58X5Z] Removal of Packing Material on Right Upper Extremity -- Taking out or off a device from a body part
+[2W58X6Z] Removal of Pressure Dressing on Right Upper Extremity -- Taking out or off a device from a body part
+[2W58X7Z] Removal of Intermittent Pressure Device on Right Upper Extremity -- Taking out or off a device from a body part
+[2W58XYZ] Removal of Other Device on Right Upper Extremity -- Taking out or off a device from a body part
+[2W59X0Z] Removal of Traction Apparatus on Left Upper Extremity -- Taking out or off a device from a body part
+[2W59X1Z] Removal of Splint on Left Upper Extremity -- Taking out or off a device from a body part
+[2W59X2Z] Removal of Cast on Left Upper Extremity -- Taking out or off a device from a body part
+[2W59X3Z] Removal of Brace on Left Upper Extremity -- Taking out or off a device from a body part
+[2W59X4Z] Removal of Bandage on Left Upper Extremity -- Taking out or off a device from a body part
+[2W59X5Z] Removal of Packing Material on Left Upper Extremity -- Taking out or off a device from a body part
+[2W59X6Z] Removal of Pressure Dressing on Left Upper Extremity -- Taking out or off a device from a body part
+[2W59X7Z] Removal of Intermittent Pressure Device on Left Upper Extremity -- Taking out or off a device from a body part
+[2W59XYZ] Removal of Other Device on Left Upper Extremity -- Taking out or off a device from a body part
+[2W5AX0Z] Removal of Traction Apparatus on Right Upper Arm -- Taking out or off a device from a body part
+[2W5AX1Z] Removal of Splint on Right Upper Arm -- Taking out or off a device from a body part
+[2W5AX2Z] Removal of Cast on Right Upper Arm -- Taking out or off a device from a body part
+[2W5AX3Z] Removal of Brace on Right Upper Arm -- Taking out or off a device from a body part
+[2W5AX4Z] Removal of Bandage on Right Upper Arm -- Taking out or off a device from a body part
+[2W5AX5Z] Removal of Packing Material on Right Upper Arm -- Taking out or off a device from a body part
+[2W5AX6Z] Removal of Pressure Dressing on Right Upper Arm -- Taking out or off a device from a body part
+[2W5AX7Z] Removal of Intermittent Pressure Device on Right Upper Arm -- Taking out or off a device from a body part
+[2W5AXYZ] Removal of Other Device on Right Upper Arm -- Taking out or off a device from a body part
+[2W5BX0Z] Removal of Traction Apparatus on Left Upper Arm -- Taking out or off a device from a body part
+[2W5BX1Z] Removal of Splint on Left Upper Arm -- Taking out or off a device from a body part
+[2W5BX2Z] Removal of Cast on Left Upper Arm -- Taking out or off a device from a body part
+[2W5BX3Z] Removal of Brace on Left Upper Arm -- Taking out or off a device from a body part
+[2W5BX4Z] Removal of Bandage on Left Upper Arm -- Taking out or off a device from a body part
+[2W5BX5Z] Removal of Packing Material on Left Upper Arm -- Taking out or off a device from a body part
+[2W5BX6Z] Removal of Pressure Dressing on Left Upper Arm -- Taking out or off a device from a body part
+[2W5BX7Z] Removal of Intermittent Pressure Device on Left Upper Arm -- Taking out or off a device from a body part
+[2W5BXYZ] Removal of Other Device on Left Upper Arm -- Taking out or off a device from a body part
+[2W5CX0Z] Removal of Traction Apparatus on Right Lower Arm -- Taking out or off a device from a body part
+[2W5CX1Z] Removal of Splint on Right Lower Arm -- Taking out or off a device from a body part
+[2W5CX2Z] Removal of Cast on Right Lower Arm -- Taking out or off a device from a body part
+[2W5CX3Z] Removal of Brace on Right Lower Arm -- Taking out or off a device from a body part
+[2W5CX4Z] Removal of Bandage on Right Lower Arm -- Taking out or off a device from a body part
+[2W5CX5Z] Removal of Packing Material on Right Lower Arm -- Taking out or off a device from a body part
+[2W5CX6Z] Removal of Pressure Dressing on Right Lower Arm -- Taking out or off a device from a body part
+[2W5CX7Z] Removal of Intermittent Pressure Device on Right Lower Arm -- Taking out or off a device from a body part
+[2W5CXYZ] Removal of Other Device on Right Lower Arm -- Taking out or off a device from a body part
+[2W5DX0Z] Removal of Traction Apparatus on Left Lower Arm -- Taking out or off a device from a body part
+[2W5DX1Z] Removal of Splint on Left Lower Arm -- Taking out or off a device from a body part
+[2W5DX2Z] Removal of Cast on Left Lower Arm -- Taking out or off a device from a body part
+[2W5DX3Z] Removal of Brace on Left Lower Arm -- Taking out or off a device from a body part
+[2W5DX4Z] Removal of Bandage on Left Lower Arm -- Taking out or off a device from a body part
+[2W5DX5Z] Removal of Packing Material on Left Lower Arm -- Taking out or off a device from a body part
+[2W5DX6Z] Removal of Pressure Dressing on Left Lower Arm -- Taking out or off a device from a body part
+[2W5DX7Z] Removal of Intermittent Pressure Device on Left Lower Arm -- Taking out or off a device from a body part
+[2W5DXYZ] Removal of Other Device on Left Lower Arm -- Taking out or off a device from a body part
+[2W5EX0Z] Removal of Traction Apparatus on Right Hand -- Taking out or off a device from a body part
+[2W5EX1Z] Removal of Splint on Right Hand -- Taking out or off a device from a body part
+[2W5EX2Z] Removal of Cast on Right Hand -- Taking out or off a device from a body part
+[2W5EX3Z] Removal of Brace on Right Hand -- Taking out or off a device from a body part
+[2W5EX4Z] Removal of Bandage on Right Hand -- Taking out or off a device from a body part
+[2W5EX5Z] Removal of Packing Material on Right Hand -- Taking out or off a device from a body part
+[2W5EX6Z] Removal of Pressure Dressing on Right Hand -- Taking out or off a device from a body part
+[2W5EX7Z] Removal of Intermittent Pressure Device on Right Hand -- Taking out or off a device from a body part
+[2W5EXYZ] Removal of Other Device on Right Hand -- Taking out or off a device from a body part
+[2W5FX0Z] Removal of Traction Apparatus on Left Hand -- Taking out or off a device from a body part
+[2W5FX1Z] Removal of Splint on Left Hand -- Taking out or off a device from a body part
+[2W5FX2Z] Removal of Cast on Left Hand -- Taking out or off a device from a body part
+[2W5FX3Z] Removal of Brace on Left Hand -- Taking out or off a device from a body part
+[2W5FX4Z] Removal of Bandage on Left Hand -- Taking out or off a device from a body part
+[2W5FX5Z] Removal of Packing Material on Left Hand -- Taking out or off a device from a body part
+[2W5FX6Z] Removal of Pressure Dressing on Left Hand -- Taking out or off a device from a body part
+[2W5FX7Z] Removal of Intermittent Pressure Device on Left Hand -- Taking out or off a device from a body part
+[2W5FXYZ] Removal of Other Device on Left Hand -- Taking out or off a device from a body part
+[2W5GX0Z] Removal of Traction Apparatus on Right Thumb -- Taking out or off a device from a body part
+[2W5GX1Z] Removal of Splint on Right Thumb -- Taking out or off a device from a body part
+[2W5GX2Z] Removal of Cast on Right Thumb -- Taking out or off a device from a body part
+[2W5GX3Z] Removal of Brace on Right Thumb -- Taking out or off a device from a body part
+[2W5GX4Z] Removal of Bandage on Right Thumb -- Taking out or off a device from a body part
+[2W5GX5Z] Removal of Packing Material on Right Thumb -- Taking out or off a device from a body part
+[2W5GX6Z] Removal of Pressure Dressing on Right Thumb -- Taking out or off a device from a body part
+[2W5GX7Z] Removal of Intermittent Pressure Device on Right Thumb -- Taking out or off a device from a body part
+[2W5GXYZ] Removal of Other Device on Right Thumb -- Taking out or off a device from a body part
+[2W5HX0Z] Removal of Traction Apparatus on Left Thumb -- Taking out or off a device from a body part
+[2W5HX1Z] Removal of Splint on Left Thumb -- Taking out or off a device from a body part
+[2W5HX2Z] Removal of Cast on Left Thumb -- Taking out or off a device from a body part
+[2W5HX3Z] Removal of Brace on Left Thumb -- Taking out or off a device from a body part
+[2W5HX4Z] Removal of Bandage on Left Thumb -- Taking out or off a device from a body part
+[2W5HX5Z] Removal of Packing Material on Left Thumb -- Taking out or off a device from a body part
+[2W5HX6Z] Removal of Pressure Dressing on Left Thumb -- Taking out or off a device from a body part
+[2W5HX7Z] Removal of Intermittent Pressure Device on Left Thumb -- Taking out or off a device from a body part
+[2W5HXYZ] Removal of Other Device on Left Thumb -- Taking out or off a device from a body part
+[2W5JX0Z] Removal of Traction Apparatus on Right Finger -- Taking out or off a device from a body part
+[2W5JX1Z] Removal of Splint on Right Finger -- Taking out or off a device from a body part
+[2W5JX2Z] Removal of Cast on Right Finger -- Taking out or off a device from a body part
+[2W5JX3Z] Removal of Brace on Right Finger -- Taking out or off a device from a body part
+[2W5JX4Z] Removal of Bandage on Right Finger -- Taking out or off a device from a body part
+[2W5JX5Z] Removal of Packing Material on Right Finger -- Taking out or off a device from a body part
+[2W5JX6Z] Removal of Pressure Dressing on Right Finger -- Taking out or off a device from a body part
+[2W5JX7Z] Removal of Intermittent Pressure Device on Right Finger -- Taking out or off a device from a body part
+[2W5JXYZ] Removal of Other Device on Right Finger -- Taking out or off a device from a body part
+[2W5KX0Z] Removal of Traction Apparatus on Left Finger -- Taking out or off a device from a body part
+[2W5KX1Z] Removal of Splint on Left Finger -- Taking out or off a device from a body part
+[2W5KX2Z] Removal of Cast on Left Finger -- Taking out or off a device from a body part
+[2W5KX3Z] Removal of Brace on Left Finger -- Taking out or off a device from a body part
+[2W5KX4Z] Removal of Bandage on Left Finger -- Taking out or off a device from a body part
+[2W5KX5Z] Removal of Packing Material on Left Finger -- Taking out or off a device from a body part
+[2W5KX6Z] Removal of Pressure Dressing on Left Finger -- Taking out or off a device from a body part
+[2W5KX7Z] Removal of Intermittent Pressure Device on Left Finger -- Taking out or off a device from a body part
+[2W5KXYZ] Removal of Other Device on Left Finger -- Taking out or off a device from a body part
+[2W5LX0Z] Removal of Traction Apparatus on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5LX1Z] Removal of Splint on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5LX2Z] Removal of Cast on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5LX3Z] Removal of Brace on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5LX4Z] Removal of Bandage on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5LX5Z] Removal of Packing Material on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5LX6Z] Removal of Pressure Dressing on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5LX7Z] Removal of Intermittent Pressure Device on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5LXYZ] Removal of Other Device on Right Lower Extremity -- Taking out or off a device from a body part
+[2W5MX0Z] Removal of Traction Apparatus on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5MX1Z] Removal of Splint on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5MX2Z] Removal of Cast on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5MX3Z] Removal of Brace on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5MX4Z] Removal of Bandage on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5MX5Z] Removal of Packing Material on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5MX6Z] Removal of Pressure Dressing on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5MX7Z] Removal of Intermittent Pressure Device on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5MXYZ] Removal of Other Device on Left Lower Extremity -- Taking out or off a device from a body part
+[2W5NX0Z] Removal of Traction Apparatus on Right Upper Leg -- Taking out or off a device from a body part
+[2W5NX1Z] Removal of Splint on Right Upper Leg -- Taking out or off a device from a body part
+[2W5NX2Z] Removal of Cast on Right Upper Leg -- Taking out or off a device from a body part
+[2W5NX3Z] Removal of Brace on Right Upper Leg -- Taking out or off a device from a body part
+[2W5NX4Z] Removal of Bandage on Right Upper Leg -- Taking out or off a device from a body part
+[2W5NX5Z] Removal of Packing Material on Right Upper Leg -- Taking out or off a device from a body part
+[2W5NX6Z] Removal of Pressure Dressing on Right Upper Leg -- Taking out or off a device from a body part
+[2W5NX7Z] Removal of Intermittent Pressure Device on Right Upper Leg -- Taking out or off a device from a body part
+[2W5NXYZ] Removal of Other Device on Right Upper Leg -- Taking out or off a device from a body part
+[2W5PX0Z] Removal of Traction Apparatus on Left Upper Leg -- Taking out or off a device from a body part
+[2W5PX1Z] Removal of Splint on Left Upper Leg -- Taking out or off a device from a body part
+[2W5PX2Z] Removal of Cast on Left Upper Leg -- Taking out or off a device from a body part
+[2W5PX3Z] Removal of Brace on Left Upper Leg -- Taking out or off a device from a body part
+[2W5PX4Z] Removal of Bandage on Left Upper Leg -- Taking out or off a device from a body part
+[2W5PX5Z] Removal of Packing Material on Left Upper Leg -- Taking out or off a device from a body part
+[2W5PX6Z] Removal of Pressure Dressing on Left Upper Leg -- Taking out or off a device from a body part
+[2W5PX7Z] Removal of Intermittent Pressure Device on Left Upper Leg -- Taking out or off a device from a body part
+[2W5PXYZ] Removal of Other Device on Left Upper Leg -- Taking out or off a device from a body part
+[2W5QX0Z] Removal of Traction Apparatus on Right Lower Leg -- Taking out or off a device from a body part
+[2W5QX1Z] Removal of Splint on Right Lower Leg -- Taking out or off a device from a body part
+[2W5QX2Z] Removal of Cast on Right Lower Leg -- Taking out or off a device from a body part
+[2W5QX3Z] Removal of Brace on Right Lower Leg -- Taking out or off a device from a body part
+[2W5QX4Z] Removal of Bandage on Right Lower Leg -- Taking out or off a device from a body part
+[2W5QX5Z] Removal of Packing Material on Right Lower Leg -- Taking out or off a device from a body part
+[2W5QX6Z] Removal of Pressure Dressing on Right Lower Leg -- Taking out or off a device from a body part
+[2W5QX7Z] Removal of Intermittent Pressure Device on Right Lower Leg -- Taking out or off a device from a body part
+[2W5QXYZ] Removal of Other Device on Right Lower Leg -- Taking out or off a device from a body part
+[2W5RX0Z] Removal of Traction Apparatus on Left Lower Leg -- Taking out or off a device from a body part
+[2W5RX1Z] Removal of Splint on Left Lower Leg -- Taking out or off a device from a body part
+[2W5RX2Z] Removal of Cast on Left Lower Leg -- Taking out or off a device from a body part
+[2W5RX3Z] Removal of Brace on Left Lower Leg -- Taking out or off a device from a body part
+[2W5RX4Z] Removal of Bandage on Left Lower Leg -- Taking out or off a device from a body part
+[2W5RX5Z] Removal of Packing Material on Left Lower Leg -- Taking out or off a device from a body part
+[2W5RX6Z] Removal of Pressure Dressing on Left Lower Leg -- Taking out or off a device from a body part
+[2W5RX7Z] Removal of Intermittent Pressure Device on Left Lower Leg -- Taking out or off a device from a body part
+[2W5RXYZ] Removal of Other Device on Left Lower Leg -- Taking out or off a device from a body part
+[2W5SX0Z] Removal of Traction Apparatus on Right Foot -- Taking out or off a device from a body part
+[2W5SX1Z] Removal of Splint on Right Foot -- Taking out or off a device from a body part
+[2W5SX2Z] Removal of Cast on Right Foot -- Taking out or off a device from a body part
+[2W5SX3Z] Removal of Brace on Right Foot -- Taking out or off a device from a body part
+[2W5SX4Z] Removal of Bandage on Right Foot -- Taking out or off a device from a body part
+[2W5SX5Z] Removal of Packing Material on Right Foot -- Taking out or off a device from a body part
+[2W5SX6Z] Removal of Pressure Dressing on Right Foot -- Taking out or off a device from a body part
+[2W5SX7Z] Removal of Intermittent Pressure Device on Right Foot -- Taking out or off a device from a body part
+[2W5SXYZ] Removal of Other Device on Right Foot -- Taking out or off a device from a body part
+[2W5TX0Z] Removal of Traction Apparatus on Left Foot -- Taking out or off a device from a body part
+[2W5TX1Z] Removal of Splint on Left Foot -- Taking out or off a device from a body part
+[2W5TX2Z] Removal of Cast on Left Foot -- Taking out or off a device from a body part
+[2W5TX3Z] Removal of Brace on Left Foot -- Taking out or off a device from a body part
+[2W5TX4Z] Removal of Bandage on Left Foot -- Taking out or off a device from a body part
+[2W5TX5Z] Removal of Packing Material on Left Foot -- Taking out or off a device from a body part
+[2W5TX6Z] Removal of Pressure Dressing on Left Foot -- Taking out or off a device from a body part
+[2W5TX7Z] Removal of Intermittent Pressure Device on Left Foot -- Taking out or off a device from a body part
+[2W5TXYZ] Removal of Other Device on Left Foot -- Taking out or off a device from a body part
+[2W5UX0Z] Removal of Traction Apparatus on Right Toe -- Taking out or off a device from a body part
+[2W5UX1Z] Removal of Splint on Right Toe -- Taking out or off a device from a body part
+[2W5UX2Z] Removal of Cast on Right Toe -- Taking out or off a device from a body part
+[2W5UX3Z] Removal of Brace on Right Toe -- Taking out or off a device from a body part
+[2W5UX4Z] Removal of Bandage on Right Toe -- Taking out or off a device from a body part
+[2W5UX5Z] Removal of Packing Material on Right Toe -- Taking out or off a device from a body part
+[2W5UX6Z] Removal of Pressure Dressing on Right Toe -- Taking out or off a device from a body part
+[2W5UX7Z] Removal of Intermittent Pressure Device on Right Toe -- Taking out or off a device from a body part
+[2W5UXYZ] Removal of Other Device on Right Toe -- Taking out or off a device from a body part
+[2W5VX0Z] Removal of Traction Apparatus on Left Toe -- Taking out or off a device from a body part
+[2W5VX1Z] Removal of Splint on Left Toe -- Taking out or off a device from a body part
+[2W5VX2Z] Removal of Cast on Left Toe -- Taking out or off a device from a body part
+[2W5VX3Z] Removal of Brace on Left Toe -- Taking out or off a device from a body part
+[2W5VX4Z] Removal of Bandage on Left Toe -- Taking out or off a device from a body part
+[2W5VX5Z] Removal of Packing Material on Left Toe -- Taking out or off a device from a body part
+[2W5VX6Z] Removal of Pressure Dressing on Left Toe -- Taking out or off a device from a body part
+[2W5VX7Z] Removal of Intermittent Pressure Device on Left Toe -- Taking out or off a device from a body part
+[2W5VXYZ] Removal of Other Device on Left Toe -- Taking out or off a device from a body part
+[2W6] Placement, Anatomical Regions, Traction -- Exerting a pulling force on a body region in a distal direction
+[2W60X0Z] Traction of Head using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W60XZZ] Traction of Head -- Exerting a pulling force on a body region in a distal direction
+[2W61X0Z] Traction of Face using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W61XZZ] Traction of Face -- Exerting a pulling force on a body region in a distal direction
+[2W62X0Z] Traction of Neck using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W62XZZ] Traction of Neck -- Exerting a pulling force on a body region in a distal direction
+[2W63X0Z] Traction of Abdominal Wall using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W63XZZ] Traction of Abdominal Wall -- Exerting a pulling force on a body region in a distal direction
+[2W64X0Z] Traction of Chest Wall using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W64XZZ] Traction of Chest Wall -- Exerting a pulling force on a body region in a distal direction
+[2W65X0Z] Traction of Back using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W65XZZ] Traction of Back -- Exerting a pulling force on a body region in a distal direction
+[2W66X0Z] Traction of Right Inguinal Region using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W66XZZ] Traction of Right Inguinal Region -- Exerting a pulling force on a body region in a distal direction
+[2W67X0Z] Traction of Left Inguinal Region using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W67XZZ] Traction of Left Inguinal Region -- Exerting a pulling force on a body region in a distal direction
+[2W68X0Z] Traction of Right Upper Extremity using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W68XZZ] Traction of Right Upper Extremity -- Exerting a pulling force on a body region in a distal direction
+[2W69X0Z] Traction of Left Upper Extremity using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W69XZZ] Traction of Left Upper Extremity -- Exerting a pulling force on a body region in a distal direction
+[2W6AX0Z] Traction of Right Upper Arm using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6AXZZ] Traction of Right Upper Arm -- Exerting a pulling force on a body region in a distal direction
+[2W6BX0Z] Traction of Left Upper Arm using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6BXZZ] Traction of Left Upper Arm -- Exerting a pulling force on a body region in a distal direction
+[2W6CX0Z] Traction of Right Lower Arm using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6CXZZ] Traction of Right Lower Arm -- Exerting a pulling force on a body region in a distal direction
+[2W6DX0Z] Traction of Left Lower Arm using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6DXZZ] Traction of Left Lower Arm -- Exerting a pulling force on a body region in a distal direction
+[2W6EX0Z] Traction of Right Hand using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6EXZZ] Traction of Right Hand -- Exerting a pulling force on a body region in a distal direction
+[2W6FX0Z] Traction of Left Hand using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6FXZZ] Traction of Left Hand -- Exerting a pulling force on a body region in a distal direction
+[2W6GX0Z] Traction of Right Thumb using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6GXZZ] Traction of Right Thumb -- Exerting a pulling force on a body region in a distal direction
+[2W6HX0Z] Traction of Left Thumb using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6HXZZ] Traction of Left Thumb -- Exerting a pulling force on a body region in a distal direction
+[2W6JX0Z] Traction of Right Finger using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6JXZZ] Traction of Right Finger -- Exerting a pulling force on a body region in a distal direction
+[2W6KX0Z] Traction of Left Finger using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6KXZZ] Traction of Left Finger -- Exerting a pulling force on a body region in a distal direction
+[2W6LX0Z] Traction of Right Lower Extremity using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6LXZZ] Traction of Right Lower Extremity -- Exerting a pulling force on a body region in a distal direction
+[2W6MX0Z] Traction of Left Lower Extremity using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6MXZZ] Traction of Left Lower Extremity -- Exerting a pulling force on a body region in a distal direction
+[2W6NX0Z] Traction of Right Upper Leg using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6NXZZ] Traction of Right Upper Leg -- Exerting a pulling force on a body region in a distal direction
+[2W6PX0Z] Traction of Left Upper Leg using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6PXZZ] Traction of Left Upper Leg -- Exerting a pulling force on a body region in a distal direction
+[2W6QX0Z] Traction of Right Lower Leg using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6QXZZ] Traction of Right Lower Leg -- Exerting a pulling force on a body region in a distal direction
+[2W6RX0Z] Traction of Left Lower Leg using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6RXZZ] Traction of Left Lower Leg -- Exerting a pulling force on a body region in a distal direction
+[2W6SX0Z] Traction of Right Foot using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6SXZZ] Traction of Right Foot -- Exerting a pulling force on a body region in a distal direction
+[2W6TX0Z] Traction of Left Foot using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6TXZZ] Traction of Left Foot -- Exerting a pulling force on a body region in a distal direction
+[2W6UX0Z] Traction of Right Toe using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6UXZZ] Traction of Right Toe -- Exerting a pulling force on a body region in a distal direction
+[2W6VX0Z] Traction of Left Toe using Traction Apparatus -- Exerting a pulling force on a body region in a distal direction
+[2W6VXZZ] Traction of Left Toe -- Exerting a pulling force on a body region in a distal direction
+[2Y] Placement, Anatomical Orifices -- Body system (Placement, Anatomical Orifices) within ICD-10-PCS section 'Placement'. Aggregator of root-operation tables for this body system.
+[2Y0] Placement, Anatomical Orifices, Change -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2Y00X5Z] Change Mouth and Pharynx Packing Material -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2Y01X5Z] Change Nasal Packing Material -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2Y02X5Z] Change Ear Packing Material -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2Y03X5Z] Change Anorectal Packing Material -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2Y04X5Z] Change Female Genital Tract Packing Material -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2Y05X5Z] Change Urethra Packing Material -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[2Y4] Placement, Anatomical Orifices, Packing -- Putting material in a body region or orifice
+[2Y40X5Z] Packing of Mouth and Pharynx using Packing Material -- Putting material in a body region or orifice
+[2Y41X5Z] Packing of Nasal Region using Packing Material -- Putting material in a body region or orifice
+[2Y42X5Z] Packing of Ear using Packing Material -- Putting material in a body region or orifice
+[2Y43X5Z] Packing of Anorectal Region using Packing Material -- Putting material in a body region or orifice
+[2Y44X5Z] Packing of Female Genital Tract using Packing Material -- Putting material in a body region or orifice
+[2Y45X5Z] Packing of Urethra using Packing Material -- Putting material in a body region or orifice
+[2Y5] Placement, Anatomical Orifices, Removal -- Taking out or off a device from a body part
+[2Y50X5Z] Removal of Mouth and Pharynx Packing Material -- Taking out or off a device from a body part
+[2Y51X5Z] Removal of Nasal Packing Material -- Taking out or off a device from a body part
+[2Y52X5Z] Removal of Ear Packing Material -- Taking out or off a device from a body part
+[2Y53X5Z] Removal of Anorectal Packing Material -- Taking out or off a device from a body part
+[2Y54X5Z] Removal of Female Genital Tract Packing Material -- Taking out or off a device from a body part
+[2Y55X5Z] Removal of Urethra Packing Material -- Taking out or off a device from a body part

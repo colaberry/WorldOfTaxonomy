@@ -1,0 +1,14 @@
+[DB] Digital Badge Types :: naics_2022:518, naics_2022:5415
+[DB.01] Open Badge (OBv2)
+[DB.02] Verifiable Credential (W3C)
+[DB.03] Skill Badge
+[DB.04] Achievement Badge
+[DB.05] Participation Badge
+[DB.06] Certification Badge
+[DB.07] Issuer Platform (Credly)
+[DB.08] Blockchain-Verified Badge
+[DB.09] Stackable Badge Pathway
+[DB.10] Endorsement Badge
+[DB.11] Compliance Badge
+[DB.12] Badge Metadata Standard
+[DB.13] Badge Backpack/Wallet

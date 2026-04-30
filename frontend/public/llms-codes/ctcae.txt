@@ -1,0 +1,27 @@
+[CTCAE] CTCAE System Organ Classes
+[CTCAE.01] Blood and lymphatic system
+[CTCAE.02] Cardiac disorders
+[CTCAE.03] Congenital, familial and genetic
+[CTCAE.04] Ear and labyrinth
+[CTCAE.05] Endocrine disorders
+[CTCAE.06] Eye disorders
+[CTCAE.07] Gastrointestinal disorders
+[CTCAE.08] General and administration site
+[CTCAE.09] Hepatobiliary disorders
+[CTCAE.10] Immune system disorders
+[CTCAE.11] Infections and infestations
+[CTCAE.12] Injury and procedural
+[CTCAE.13] Investigations
+[CTCAE.14] Metabolism and nutrition
+[CTCAE.15] Musculoskeletal and connective
+[CTCAE.16] Neoplasms
+[CTCAE.17] Nervous system
+[CTCAE.18] Psychiatric disorders
+[CTCAE.19] Renal and urinary
+[CTCAE.20] Reproductive and breast
+[CTCAE.21] Respiratory and thoracic
+[CTCAE.22] Skin and subcutaneous
+[CTCAE.23] Social circumstances
+[CTCAE.24] Surgical and medical procedures
+[CTCAE.25] Vascular disorders
+[CTCAE.26] Product issues

@@ -1,0 +1,13 @@
+[CB] Collective Bargaining Types :: naics_2022:5419
+[CB.01] Single-Employer Bargaining
+[CB.02] Multi-Employer Bargaining
+[CB.03] Industry-Level Bargaining
+[CB.04] National-Level Bargaining
+[CB.05] Pattern Bargaining
+[CB.06] Concessionary Bargaining
+[CB.07] Interest-Based Bargaining
+[CB.08] Good Faith Bargaining
+[CB.09] Impasse Resolution
+[CB.10] Strike/Lockout
+[CB.11] Binding Interest Arbitration
+[CB.12] CBA Administration

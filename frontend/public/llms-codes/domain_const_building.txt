@@ -1,0 +1,18 @@
+[dcb_comm] Commercial Buildings :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcb_comm_hotel] Hotel and Lodging (full-service, select-service)
+[dcb_comm_office] Office and Business (Class A/B/C office)
+[dcb_comm_rest] Restaurant and Food Service
+[dcb_comm_retail] Retail and Mercantile (mall, strip center, box)
+[dcb_indust] Industrial Buildings :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcb_indust_mfg] Manufacturing and Factory (light, heavy)
+[dcb_indust_utility] Utility and Infrastructure (plant, substation)
+[dcb_indust_warehouse] Warehouse and Distribution
+[dcb_inst] Institutional Buildings :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcb_inst_edu] Education (K-12 school, university, daycare)
+[dcb_inst_gov] Government and Civic (courthouse, library, DMV)
+[dcb_inst_health] Healthcare (hospital, clinic, medical office)
+[dcb_inst_rec] Recreation and Assembly (arena, theater, gym)
+[dcb_resid] Residential Buildings :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcb_resid_mixed] Mixed-Use Residential (live/work, ground-floor retail)
+[dcb_resid_multi] Multi-Family Residential (apartment, condo)
+[dcb_resid_single] Single-Family Residential (detached, townhouse)

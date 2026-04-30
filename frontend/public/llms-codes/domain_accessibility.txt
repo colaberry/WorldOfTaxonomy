@@ -1,0 +1,16 @@
+[ax_phys] Physical Accessibility :: naics_2022:236, naics_2022:237, naics_2022:238
+[ax_phys_door] Automatic doors and hardware
+[ax_phys_elev] Accessible elevators and lifts
+[ax_phys_park] Accessible parking (van, standard)
+[ax_phys_ramp] Ramps and accessible routes
+[ax_phys_restroom] Accessible restrooms
+[ax_sense] Sensory Accessibility :: naics_2022:236, naics_2022:237, naics_2022:238
+[ax_sense_audio] Audio aids (hearing loops, PA systems)
+[ax_sense_braille] Braille signage and labels
+[ax_sense_visual] Visual aids (tactile paving, high-contrast)
+[ax_sense_wayfind] Accessible wayfinding (tactile maps, audio beacons)
+[ax_tech] Technology Accessibility :: naics_2022:236, naics_2022:237, naics_2022:238
+[ax_tech_assist] Assistive listening systems
+[ax_tech_caption] Real-time captioning systems
+[ax_tech_smart] Smart home accessibility features
+[ax_tech_voice] Voice-activated controls

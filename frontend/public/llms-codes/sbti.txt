@@ -1,0 +1,14 @@
+[SB] SBTi Categories
+[SB.01] Near-Term Targets (5-10 years)
+[SB.02] Long-Term Targets (by 2050)
+[SB.03] Net-Zero Standard
+[SB.04] Scope 1 Targets
+[SB.05] Scope 2 Targets
+[SB.06] Scope 3 Targets
+[SB.07] FLAG (Forest, Land, Agriculture)
+[SB.08] Financial Institutions
+[SB.09] SME Route
+[SB.10] 1.5C Aligned Pathway
+[SB.11] Well-Below 2C Pathway
+[SB.12] Sector-Specific Guidance
+[SB.13] Verification and Monitoring

@@ -1,0 +1,696 @@
+[X00] Exposure to uncontrolled fire in building or structure -- **Includes:** - conflagration in building or structure  **Excludes2:** - Exposure to ignition or melting of nightwear (X05) - Exposure to ignition or melting of other clothing and apparel (X06.-) - Exposure to other specified smoke, fire and flames (X08.-)  **Code first:** - any associated cataclysm  **7th character note:** - The appropriate 7th character is to be added to each code from category X00  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X000] Exposure to flames in uncontrolled fire in building or structure
+[X000XXA] Exposure to flames in uncontrolled fire in building or structure, initial encounter
+[X000XXD] Exposure to flames in uncontrolled fire in building or structure, subsequent encounter
+[X000XXS] Exposure to flames in uncontrolled fire in building or structure, sequela
+[X001] Exposure to smoke in uncontrolled fire in building or structure
+[X001XXA] Exposure to smoke in uncontrolled fire in building or structure, initial encounter
+[X001XXD] Exposure to smoke in uncontrolled fire in building or structure, subsequent encounter
+[X001XXS] Exposure to smoke in uncontrolled fire in building or structure, sequela
+[X002] Injury due to collapse of burning building or structure in uncontrolled fire -- **Excludes1:** - injury due to collapse of building not on fire (W20.1)
+[X002XXA] Injury due to collapse of burning building or structure in uncontrolled fire, initial encounter
+[X002XXD] Injury due to collapse of burning building or structure in uncontrolled fire, subsequent encounter
+[X002XXS] Injury due to collapse of burning building or structure in uncontrolled fire, sequela
+[X003] Fall from burning building or structure in uncontrolled fire
+[X003XXA] Fall from burning building or structure in uncontrolled fire, initial encounter
+[X003XXD] Fall from burning building or structure in uncontrolled fire, subsequent encounter
+[X003XXS] Fall from burning building or structure in uncontrolled fire, sequela
+[X004] Hit by object from burning building or structure in uncontrolled fire
+[X004XXA] Hit by object from burning building or structure in uncontrolled fire, initial encounter
+[X004XXD] Hit by object from burning building or structure in uncontrolled fire, subsequent encounter
+[X004XXS] Hit by object from burning building or structure in uncontrolled fire, sequela
+[X005] Jump from burning building or structure in uncontrolled fire
+[X005XXA] Jump from burning building or structure in uncontrolled fire, initial encounter
+[X005XXD] Jump from burning building or structure in uncontrolled fire, subsequent encounter
+[X005XXS] Jump from burning building or structure in uncontrolled fire, sequela
+[X008] Other exposure to uncontrolled fire in building or structure
+[X008XXA] Other exposure to uncontrolled fire in building or structure, initial encounter
+[X008XXD] Other exposure to uncontrolled fire in building or structure, subsequent encounter
+[X008XXS] Other exposure to uncontrolled fire in building or structure, sequela
+[X01] Exposure to uncontrolled fire, not in building or structure -- **Includes:** - exposure to forest fire  **7th character note:** - The appropriate 7th character is to be added to each code from category X01  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X010] Exposure to flames in uncontrolled fire, not in building or structure
+[X010XXA] Exposure to flames in uncontrolled fire, not in building or structure, initial encounter
+[X010XXD] Exposure to flames in uncontrolled fire, not in building or structure, subsequent encounter
+[X010XXS] Exposure to flames in uncontrolled fire, not in building or structure, sequela
+[X011] Exposure to smoke in uncontrolled fire, not in building or structure
+[X011XXA] Exposure to smoke in uncontrolled fire, not in building or structure, initial encounter
+[X011XXD] Exposure to smoke in uncontrolled fire, not in building or structure, subsequent encounter
+[X011XXS] Exposure to smoke in uncontrolled fire, not in building or structure, sequela
+[X013] Fall due to uncontrolled fire, not in building or structure
+[X013XXA] Fall due to uncontrolled fire, not in building or structure, initial encounter
+[X013XXD] Fall due to uncontrolled fire, not in building or structure, subsequent encounter
+[X013XXS] Fall due to uncontrolled fire, not in building or structure, sequela
+[X014] Hit by object due to uncontrolled fire, not in building or structure
+[X014XXA] Hit by object due to uncontrolled fire, not in building or structure, initial encounter
+[X014XXD] Hit by object due to uncontrolled fire, not in building or structure, subsequent encounter
+[X014XXS] Hit by object due to uncontrolled fire, not in building or structure, sequela
+[X018] Other exposure to uncontrolled fire, not in building or structure
+[X018XXA] Other exposure to uncontrolled fire, not in building or structure, initial encounter
+[X018XXD] Other exposure to uncontrolled fire, not in building or structure, subsequent encounter
+[X018XXS] Other exposure to uncontrolled fire, not in building or structure, sequela
+[X02] Exposure to controlled fire in building or structure -- **Includes:** - exposure to fire in fireplace - exposure to fire in stove  **7th character note:** - The appropriate 7th character is to be added to each code from category X02  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X020] Exposure to flames in controlled fire in building or structure
+[X020XXA] Exposure to flames in controlled fire in building or structure, initial encounter
+[X020XXD] Exposure to flames in controlled fire in building or structure, subsequent encounter
+[X020XXS] Exposure to flames in controlled fire in building or structure, sequela
+[X021] Exposure to smoke in controlled fire in building or structure
+[X021XXA] Exposure to smoke in controlled fire in building or structure, initial encounter
+[X021XXD] Exposure to smoke in controlled fire in building or structure, subsequent encounter
+[X021XXS] Exposure to smoke in controlled fire in building or structure, sequela
+[X022] Injury due to collapse of burning building or structure in controlled fire -- **Excludes1:** - injury due to collapse of building not on fire (W20.1)
+[X022XXA] Injury due to collapse of burning building or structure in controlled fire, initial encounter
+[X022XXD] Injury due to collapse of burning building or structure in controlled fire, subsequent encounter
+[X022XXS] Injury due to collapse of burning building or structure in controlled fire, sequela
+[X023] Fall from burning building or structure in controlled fire
+[X023XXA] Fall from burning building or structure in controlled fire, initial encounter
+[X023XXD] Fall from burning building or structure in controlled fire, subsequent encounter
+[X023XXS] Fall from burning building or structure in controlled fire, sequela
+[X024] Hit by object from burning building or structure in controlled fire
+[X024XXA] Hit by object from burning building or structure in controlled fire, initial encounter
+[X024XXD] Hit by object from burning building or structure in controlled fire, subsequent encounter
+[X024XXS] Hit by object from burning building or structure in controlled fire, sequela
+[X025] Jump from burning building or structure in controlled fire
+[X025XXA] Jump from burning building or structure in controlled fire, initial encounter
+[X025XXD] Jump from burning building or structure in controlled fire, subsequent encounter
+[X025XXS] Jump from burning building or structure in controlled fire, sequela
+[X028] Other exposure to controlled fire in building or structure
+[X028XXA] Other exposure to controlled fire in building or structure, initial encounter
+[X028XXD] Other exposure to controlled fire in building or structure, subsequent encounter
+[X028XXS] Other exposure to controlled fire in building or structure, sequela
+[X03] Exposure to controlled fire, not in building or structure -- **Includes:** - exposure to bon fire - exposure to camp-fire - exposure to trash fire  **7th character note:** - The appropriate 7th character is to be added to each code from category X03  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X030] Exposure to flames in controlled fire, not in building or structure
+[X030XXA] Exposure to flames in controlled fire, not in building or structure, initial encounter
+[X030XXD] Exposure to flames in controlled fire, not in building or structure, subsequent encounter
+[X030XXS] Exposure to flames in controlled fire, not in building or structure, sequela
+[X031] Exposure to smoke in controlled fire, not in building or structure
+[X031XXA] Exposure to smoke in controlled fire, not in building or structure, initial encounter
+[X031XXD] Exposure to smoke in controlled fire, not in building or structure, subsequent encounter
+[X031XXS] Exposure to smoke in controlled fire, not in building or structure, sequela
+[X033] Fall due to controlled fire, not in building or structure
+[X033XXA] Fall due to controlled fire, not in building or structure, initial encounter
+[X033XXD] Fall due to controlled fire, not in building or structure, subsequent encounter
+[X033XXS] Fall due to controlled fire, not in building or structure, sequela
+[X034] Hit by object due to controlled fire, not in building or structure
+[X034XXA] Hit by object due to controlled fire, not in building or structure, initial encounter
+[X034XXD] Hit by object due to controlled fire, not in building or structure, subsequent encounter
+[X034XXS] Hit by object due to controlled fire, not in building or structure, sequela
+[X038] Other exposure to controlled fire, not in building or structure
+[X038XXA] Other exposure to controlled fire, not in building or structure, initial encounter
+[X038XXD] Other exposure to controlled fire, not in building or structure, subsequent encounter
+[X038XXS] Other exposure to controlled fire, not in building or structure, sequela
+[X04] Exposure to ignition of highly flammable material -- **Inclusion terms:** - Exposure to ignition of gasoline - Exposure to ignition of kerosene - Exposure to ignition of petrol  **Excludes2:** - exposure to ignition or melting of nightwear (X05) - exposure to ignition or melting of other clothing and apparel (X06)  **7th character note:** - The appropriate 7th character is to be added to code X04  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X04XXXA] Exposure to ignition of highly flammable material, initial encounter
+[X04XXXD] Exposure to ignition of highly flammable material, subsequent encounter
+[X04XXXS] Exposure to ignition of highly flammable material, sequela
+[X05] Exposure to ignition or melting of nightwear -- **Excludes2:** - exposure to uncontrolled fire in building or structure (X00.-) - exposure to uncontrolled fire, not in building or structure (X01.-) - exposure to controlled fire in building or structure (X02.-) - exposure to controlled fire, not in building or structure (X03.-) - exposure to ignition of highly flammable materials (X04.-)  **7th character note:** - The appropriate 7th character is to be added to code X05  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X05XXXA] Exposure to ignition or melting of nightwear, initial encounter
+[X05XXXD] Exposure to ignition or melting of nightwear, subsequent encounter
+[X05XXXS] Exposure to ignition or melting of nightwear, sequela
+[X06] Exposure to ignition or melting of other clothing and apparel -- **Excludes2:** - exposure to uncontrolled fire in building or structure (X00.-) - exposure to uncontrolled fire, not in building or structure (X01.-) - exposure to controlled fire in building or structure (X02.-) - exposure to controlled fire, not in building or structure (X03.-) - exposure to ignition of highly flammable materials (X04.-)  **7th character note:** - The appropriate 7th character is to be added to each code from category X06  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X060] Exposure to ignition of plastic jewelry
+[X060XXA] Exposure to ignition of plastic jewelry, initial encounter
+[X060XXD] Exposure to ignition of plastic jewelry, subsequent encounter
+[X060XXS] Exposure to ignition of plastic jewelry, sequela
+[X061] Exposure to melting of plastic jewelry
+[X061XXA] Exposure to melting of plastic jewelry, initial encounter
+[X061XXD] Exposure to melting of plastic jewelry, subsequent encounter
+[X061XXS] Exposure to melting of plastic jewelry, sequela
+[X062] Exposure to ignition of other clothing and apparel
+[X062XXA] Exposure to ignition of other clothing and apparel, initial encounter
+[X062XXD] Exposure to ignition of other clothing and apparel, subsequent encounter
+[X062XXS] Exposure to ignition of other clothing and apparel, sequela
+[X063] Exposure to melting of other clothing and apparel
+[X063XXA] Exposure to melting of other clothing and apparel, initial encounter
+[X063XXD] Exposure to melting of other clothing and apparel, subsequent encounter
+[X063XXS] Exposure to melting of other clothing and apparel, sequela
+[X08] Exposure to other specified smoke, fire and flames -- **7th character note:** - The appropriate 7th character is to be added to each code from category X08  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X080] Exposure to bed fire -- **Inclusion terms:** - Exposure to mattress fire
+[X0800] Exposure to bed fire due to unspecified burning material
+[X0800XA] Exposure to bed fire due to unspecified burning material, initial encounter
+[X0800XD] Exposure to bed fire due to unspecified burning material, subsequent encounter
+[X0800XS] Exposure to bed fire due to unspecified burning material, sequela
+[X0801] Exposure to bed fire due to burning cigarette
+[X0801XA] Exposure to bed fire due to burning cigarette, initial encounter
+[X0801XD] Exposure to bed fire due to burning cigarette, subsequent encounter
+[X0801XS] Exposure to bed fire due to burning cigarette, sequela
+[X0809] Exposure to bed fire due to other burning material
+[X0809XA] Exposure to bed fire due to other burning material, initial encounter
+[X0809XD] Exposure to bed fire due to other burning material, subsequent encounter
+[X0809XS] Exposure to bed fire due to other burning material, sequela
+[X081] Exposure to sofa fire
+[X0810] Exposure to sofa fire due to unspecified burning material
+[X0810XA] Exposure to sofa fire due to unspecified burning material, initial encounter
+[X0810XD] Exposure to sofa fire due to unspecified burning material, subsequent encounter
+[X0810XS] Exposure to sofa fire due to unspecified burning material, sequela
+[X0811] Exposure to sofa fire due to burning cigarette
+[X0811XA] Exposure to sofa fire due to burning cigarette, initial encounter
+[X0811XD] Exposure to sofa fire due to burning cigarette, subsequent encounter
+[X0811XS] Exposure to sofa fire due to burning cigarette, sequela
+[X0819] Exposure to sofa fire due to other burning material
+[X0819XA] Exposure to sofa fire due to other burning material, initial encounter
+[X0819XD] Exposure to sofa fire due to other burning material, subsequent encounter
+[X0819XS] Exposure to sofa fire due to other burning material, sequela
+[X082] Exposure to other furniture fire
+[X0820] Exposure to other furniture fire due to unspecified burning material
+[X0820XA] Exposure to other furniture fire due to unspecified burning material, initial encounter
+[X0820XD] Exposure to other furniture fire due to unspecified burning material, subsequent encounter
+[X0820XS] Exposure to other furniture fire due to unspecified burning material, sequela
+[X0821] Exposure to other furniture fire due to burning cigarette
+[X0821XA] Exposure to other furniture fire due to burning cigarette, initial encounter
+[X0821XD] Exposure to other furniture fire due to burning cigarette, subsequent encounter
+[X0821XS] Exposure to other furniture fire due to burning cigarette, sequela
+[X0829] Exposure to other furniture fire due to other burning material
+[X0829XA] Exposure to other furniture fire due to other burning material, initial encounter
+[X0829XD] Exposure to other furniture fire due to other burning material, subsequent encounter
+[X0829XS] Exposure to other furniture fire due to other burning material, sequela
+[X088] Exposure to other specified smoke, fire and flames
+[X088XXA] Exposure to other specified smoke, fire and flames, initial encounter
+[X088XXD] Exposure to other specified smoke, fire and flames, subsequent encounter
+[X088XXS] Exposure to other specified smoke, fire and flames, sequela
+[X10] Contact with hot drinks, food, fats and cooking oils -- **7th character note:** - The appropriate 7th character is to be added to each code from category X10  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X100] Contact with hot drinks
+[X100XXA] Contact with hot drinks, initial encounter
+[X100XXD] Contact with hot drinks, subsequent encounter
+[X100XXS] Contact with hot drinks, sequela
+[X101] Contact with hot food
+[X101XXA] Contact with hot food, initial encounter
+[X101XXD] Contact with hot food, subsequent encounter
+[X101XXS] Contact with hot food, sequela
+[X102] Contact with fats and cooking oils
+[X102XXA] Contact with fats and cooking oils, initial encounter
+[X102XXD] Contact with fats and cooking oils, subsequent encounter
+[X102XXS] Contact with fats and cooking oils, sequela
+[X11] Contact with hot tap-water -- **Includes:** - contact with boiling tap-water - contact with boiling water NOS  **Excludes1:** - contact with water heated on stove (X12)  **7th character note:** - The appropriate 7th character is to be added to each code from category X11  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X110] Contact with hot water in bath or tub -- **Excludes1:** - contact with running hot water in bath or tub (X11.1)
+[X110XXA] Contact with hot water in bath or tub, initial encounter
+[X110XXD] Contact with hot water in bath or tub, subsequent encounter
+[X110XXS] Contact with hot water in bath or tub, sequela
+[X111] Contact with running hot water -- **Inclusion terms:** - Contact with hot water running out of hose - Contact with hot water running out of tap
+[X111XXA] Contact with running hot water, initial encounter
+[X111XXD] Contact with running hot water, subsequent encounter
+[X111XXS] Contact with running hot water, sequela
+[X118] Contact with other hot tap-water -- **Inclusion terms:** - Contact with hot water in bucket - Contact with hot tap-water NOS
+[X118XXA] Contact with other hot tap-water, initial encounter
+[X118XXD] Contact with other hot tap-water, subsequent encounter
+[X118XXS] Contact with other hot tap-water, sequela
+[X12] Contact with other hot fluids -- **Inclusion terms:** - Contact with water heated on stove  **Excludes1:** - hot (liquid) metals (X18)  **7th character note:** - The appropriate 7th character is to be added to code X12  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X12XXXA] Contact with other hot fluids, initial encounter
+[X12XXXD] Contact with other hot fluids, subsequent encounter
+[X12XXXS] Contact with other hot fluids, sequela
+[X13] Contact with steam and other hot vapors -- **7th character note:** - The appropriate 7th character is to be added to each code from category X13  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X130] Inhalation of steam and other hot vapors
+[X130XXA] Inhalation of steam and other hot vapors, initial encounter
+[X130XXD] Inhalation of steam and other hot vapors, subsequent encounter
+[X130XXS] Inhalation of steam and other hot vapors, sequela
+[X131] Other contact with steam and other hot vapors
+[X131XXA] Other contact with steam and other hot vapors, initial encounter
+[X131XXD] Other contact with steam and other hot vapors, subsequent encounter
+[X131XXS] Other contact with steam and other hot vapors, sequela
+[X14] Contact with hot air and other hot gases -- **7th character note:** - The appropriate 7th character is to be added to each code from category X14  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X140] Inhalation of hot air and gases
+[X140XXA] Inhalation of hot air and gases, initial encounter
+[X140XXD] Inhalation of hot air and gases, subsequent encounter
+[X140XXS] Inhalation of hot air and gases, sequela
+[X141] Other contact with hot air and other hot gases
+[X141XXA] Other contact with hot air and other hot gases, initial encounter
+[X141XXD] Other contact with hot air and other hot gases, subsequent encounter
+[X141XXS] Other contact with hot air and other hot gases, sequela
+[X15] Contact with hot household appliances -- **Excludes1:** - contact with heating appliances (X16) - contact with powered household appliances (W29.-) - exposure to controlled fire in building or structure due to household appliance (X02.8) - exposure to household appliances electrical current (W86.0)  **7th character note:** - The appropriate 7th character is to be added to each code from category X15  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X150] Contact with hot stove (kitchen)
+[X150XXA] Contact with hot stove (kitchen), initial encounter
+[X150XXD] Contact with hot stove (kitchen), subsequent encounter
+[X150XXS] Contact with hot stove (kitchen), sequela
+[X151] Contact with hot toaster
+[X151XXA] Contact with hot toaster, initial encounter
+[X151XXD] Contact with hot toaster, subsequent encounter
+[X151XXS] Contact with hot toaster, sequela
+[X152] Contact with hotplate
+[X152XXA] Contact with hotplate, initial encounter
+[X152XXD] Contact with hotplate, subsequent encounter
+[X152XXS] Contact with hotplate, sequela
+[X153] Contact with hot saucepan or skillet -- **Inclusion terms:** - Contact with hot cooking pan - Contact with hot cooking pot
+[X153XXA] Contact with hot saucepan or skillet, initial encounter
+[X153XXD] Contact with hot saucepan or skillet, subsequent encounter
+[X153XXS] Contact with hot saucepan or skillet, sequela
+[X158] Contact with other hot household appliances -- **Inclusion terms:** - Contact with cooker - Contact with kettle - Contact with light bulbs
+[X158XXA] Contact with other hot household appliances, initial encounter
+[X158XXD] Contact with other hot household appliances, subsequent encounter
+[X158XXS] Contact with other hot household appliances, sequela
+[X16] Contact with hot heating appliances, radiators and pipes -- **Excludes1:** - contact with powered appliances (W29.-) - exposure to controlled fire in building or structure due to appliance (X02.8) - exposure to industrial appliances electrical current (W86.1)  **7th character note:** - The appropriate 7th character is to be added to code X16  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X16XXXA] Contact with hot heating appliances, radiators and pipes, initial encounter
+[X16XXXD] Contact with hot heating appliances, radiators and pipes, subsequent encounter
+[X16XXXS] Contact with hot heating appliances, radiators and pipes, sequela
+[X17] Contact with hot engines, machinery and tools -- **Excludes1:** - contact with hot heating appliances, radiators and pipes (X16) - contact with hot household appliances (X15)  **7th character note:** - The appropriate 7th character is to be added to code X17  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X17XXXA] Contact with hot engines, machinery and tools, initial encounter
+[X17XXXD] Contact with hot engines, machinery and tools, subsequent encounter
+[X17XXXS] Contact with hot engines, machinery and tools, sequela
+[X18] Contact with other hot metals -- **Inclusion terms:** - Contact with liquid metal  **7th character note:** - The appropriate 7th character is to be added to code X18  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X18XXXA] Contact with other hot metals, initial encounter
+[X18XXXD] Contact with other hot metals, subsequent encounter
+[X18XXXS] Contact with other hot metals, sequela
+[X19] Contact with other heat and hot substances -- **Excludes1:** - objects that are not normally hot, e.g., an object made hot by a house fire (X00-X08)  **7th character note:** - The appropriate 7th character is to be added to code X19  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X19XXXA] Contact with other heat and hot substances, initial encounter
+[X19XXXD] Contact with other heat and hot substances, subsequent encounter
+[X19XXXS] Contact with other heat and hot substances, sequela
+[X30] Exposure to excessive natural heat -- **Inclusion terms:** - Exposure to excessive heat as the cause of sunstroke - Exposure to heat NOS  **Excludes1:** - excessive heat of man-made origin (W92) - exposure to man-made radiation (W89) - exposure to sunlight (X32) - exposure to tanning bed (W89)  **7th character note:** - The appropriate 7th character is to be added to code X30  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X30XXXA] Exposure to excessive natural heat, initial encounter
+[X30XXXD] Exposure to excessive natural heat, subsequent encounter
+[X30XXXS] Exposure to excessive natural heat, sequela
+[X31] Exposure to excessive natural cold -- **Inclusion terms:** - Excessive cold as the cause of chilblains NOS - Excessive cold as the cause of immersion foot or hand - Exposure to cold NOS - Exposure to weather conditions  **Excludes1:** - cold of man-made origin (W93.-) - contact with or inhalation of dry ice (W93.-) - contact with or inhalation of liquefied gas (W93.-)  **7th character note:** - The appropriate 7th character is to be added to code X31  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X31XXXA] Exposure to excessive natural cold, initial encounter
+[X31XXXD] Exposure to excessive natural cold, subsequent encounter
+[X31XXXS] Exposure to excessive natural cold, sequela
+[X32] Exposure to sunlight -- **Excludes1:** - man-made radiation (tanning bed) (W89)  **Excludes2:** - radiation-related disorders of the skin and subcutaneous tissue (L55-L59)  **7th character note:** - The appropriate 7th character is to be added to code X32  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X32XXXA] Exposure to sunlight, initial encounter
+[X32XXXD] Exposure to sunlight, subsequent encounter
+[X32XXXS] Exposure to sunlight, sequela
+[X34] Earthquake -- **Excludes2:** - tidal wave (tsunami) due to earthquake (X37.41)  **7th character note:** - The appropriate 7th character is to be added to code X34  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X34XXXA] Earthquake, initial encounter
+[X34XXXD] Earthquake, subsequent encounter
+[X34XXXS] Earthquake, sequela
+[X35] Volcanic eruption -- **Excludes2:** - tidal wave (tsunami) due to volcanic eruption (X37.41)  **7th character note:** - The appropriate 7th character is to be added to code X35  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X35XXXA] Volcanic eruption, initial encounter
+[X35XXXD] Volcanic eruption, subsequent encounter
+[X35XXXS] Volcanic eruption, sequela
+[X36] Avalanche, landslide and other earth movements -- **Includes:** - victim of mudslide of cataclysmic nature  **Excludes1:** - earthquake (X34)  **Excludes2:** - transport accident involving collision with avalanche or landslide not in motion (V01-V99)  **7th character note:** - The appropriate 7th character is to be added to each code from category X36  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X360] Collapse of dam or man-made structure causing earth movement
+[X360XXA] Collapse of dam or man-made structure causing earth movement, initial encounter
+[X360XXD] Collapse of dam or man-made structure causing earth movement, subsequent encounter
+[X360XXS] Collapse of dam or man-made structure causing earth movement, sequela
+[X361] Avalanche, landslide, or mudslide
+[X361XXA] Avalanche, landslide, or mudslide, initial encounter
+[X361XXD] Avalanche, landslide, or mudslide, subsequent encounter
+[X361XXS] Avalanche, landslide, or mudslide, sequela
+[X37] Cataclysmic storm -- **7th character note:** - The appropriate 7th character is to be added to each code from category X37  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X370] Hurricane -- **Inclusion terms:** - Storm surge - Typhoon
+[X370XXA] Hurricane, initial encounter
+[X370XXD] Hurricane, subsequent encounter
+[X370XXS] Hurricane, sequela
+[X371] Tornado -- **Inclusion terms:** - Cyclone - Twister
+[X371XXA] Tornado, initial encounter
+[X371XXD] Tornado, subsequent encounter
+[X371XXS] Tornado, sequela
+[X372] Blizzard (snow)(ice)
+[X372XXA] Blizzard (snow)(ice), initial encounter
+[X372XXD] Blizzard (snow)(ice), subsequent encounter
+[X372XXS] Blizzard (snow)(ice), sequela
+[X373] Dust storm
+[X373XXA] Dust storm, initial encounter
+[X373XXD] Dust storm, subsequent encounter
+[X373XXS] Dust storm, sequela
+[X374] Tidalwave
+[X3741] Tidal wave due to earthquake or volcanic eruption -- **Inclusion terms:** - Tidal wave NOS - Tsunami
+[X3741XA] Tidal wave due to earthquake or volcanic eruption, initial encounter
+[X3741XD] Tidal wave due to earthquake or volcanic eruption, subsequent encounter
+[X3741XS] Tidal wave due to earthquake or volcanic eruption, sequela
+[X3742] Tidal wave due to storm
+[X3742XA] Tidal wave due to storm, initial encounter
+[X3742XD] Tidal wave due to storm, subsequent encounter
+[X3742XS] Tidal wave due to storm, sequela
+[X3743] Tidal wave due to landslide
+[X3743XA] Tidal wave due to landslide, initial encounter
+[X3743XD] Tidal wave due to landslide, subsequent encounter
+[X3743XS] Tidal wave due to landslide, sequela
+[X378] Other cataclysmic storms -- **Inclusion terms:** - Cloudburst - Torrential rain  **Excludes2:** - flood (X38)
+[X378XXA] Other cataclysmic storms, initial encounter
+[X378XXD] Other cataclysmic storms, subsequent encounter
+[X378XXS] Other cataclysmic storms, sequela
+[X379] Unspecified cataclysmic storm -- **Inclusion terms:** - Storm NOS  **Excludes1:** - collapse of dam or man-made structure causing earth movement (X36.0)
+[X379XXA] Unspecified cataclysmic storm, initial encounter
+[X379XXD] Unspecified cataclysmic storm, subsequent encounter
+[X379XXS] Unspecified cataclysmic storm, sequela
+[X38] Flood -- **Inclusion terms:** - Flood arising from remote storm - Flood of cataclysmic nature arising from melting snow - Flood resulting directly from storm  **Excludes1:** - collapse of dam or man-made structure causing earth movement (X36.0) - tidal wave NOS (X37.41) - tidal wave caused by storm (X37.42)  **7th character note:** - The appropriate 7th character is to be added to code X38  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X38XXXA] Flood, initial encounter
+[X38XXXD] Flood, subsequent encounter
+[X38XXXS] Flood, sequela
+[X39] Exposure to other forces of nature -- **7th character note:** - The appropriate 7th character is to be added to each code from category X39  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X390] Exposure to natural radiation -- **Excludes1:** - contact with and (suspected) exposure to radon and other naturally occurring radiation (Z77.123) - exposure to man-made radiation (W88-W90) - exposure to sunlight (X32)
+[X3901] Exposure to radon
+[X3901XA] Exposure to radon, initial encounter
+[X3901XD] Exposure to radon, subsequent encounter
+[X3901XS] Exposure to radon, sequela
+[X3908] Exposure to other natural radiation
+[X3908XA] Exposure to other natural radiation, initial encounter
+[X3908XD] Exposure to other natural radiation, subsequent encounter
+[X3908XS] Exposure to other natural radiation, sequela
+[X398] Other exposure to forces of nature
+[X398XXA] Other exposure to forces of nature, initial encounter
+[X398XXD] Other exposure to forces of nature, subsequent encounter
+[X398XXS] Other exposure to forces of nature, sequela
+[X50] Overexertion and strenuous or repetitive movements -- **7th character note:** - The appropriate 7th character is to be added to each code from category X50  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X500] Overexertion from strenuous movement or load -- **Inclusion terms:** - Lifting heavy objects - Lifting weights
+[X500XXA] Overexertion from strenuous movement or load, initial encounter
+[X500XXD] Overexertion from strenuous movement or load, subsequent encounter
+[X500XXS] Overexertion from strenuous movement or load, sequela
+[X501] Overexertion from prolonged static or awkward postures -- **Inclusion terms:** - Prolonged bending - Prolonged kneeling - Prolonged reaching - Prolonged sitting - Prolonged standing - Prolonged twisting - Static bending - Static kneeling - Static reaching - Static sitting - Static standing - Static twisting
+[X501XXA] Overexertion from prolonged static or awkward postures, initial encounter
+[X501XXD] Overexertion from prolonged static or awkward postures, subsequent encounter
+[X501XXS] Overexertion from prolonged static or awkward postures, sequela
+[X503] Overexertion from repetitive movements -- **Inclusion terms:** - Use of hand as hammer  **Excludes2:** - Overuse from prolonged static or awkward postures (X50.1)
+[X503XXA] Overexertion from repetitive movements, initial encounter
+[X503XXD] Overexertion from repetitive movements, subsequent encounter
+[X503XXS] Overexertion from repetitive movements, sequela
+[X509] Other and unspecified overexertion or strenuous movements or postures -- **Inclusion terms:** - Contact pressure - Contact stress
+[X509XXA] Other and unspecified overexertion or strenuous movements or postures, initial encounter
+[X509XXD] Other and unspecified overexertion or strenuous movements or postures, subsequent encounter
+[X509XXS] Other and unspecified overexertion or strenuous movements or postures, sequela
+[X52] Prolonged stay in weightless environment -- **Inclusion terms:** - Weightlessness in spacecraft (simulator)  **7th character note:** - The appropriate 7th character is to be added to code X52  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X52XXXA] Prolonged stay in weightless environment, initial encounter
+[X52XXXD] Prolonged stay in weightless environment, subsequent encounter
+[X52XXXS] Prolonged stay in weightless environment, sequela
+[X58] Exposure to other specified factors -- **Inclusion terms:** - Accident NOS - Exposure NOS  **7th character note:** - The appropriate 7th character is to be added to code X58  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X58XXXA] Exposure to other specified factors, initial encounter
+[X58XXXD] Exposure to other specified factors, subsequent encounter
+[X58XXXS] Exposure to other specified factors, sequela
+[X71] Intentional self-harm by drowning and submersion -- **7th character note:** - The appropriate 7th character is to be added to each code from category X71  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X710] Intentional self-harm by drowning and submersion while in bathtub
+[X710XXA] Intentional self-harm by drowning and submersion while in bathtub, initial encounter
+[X710XXD] Intentional self-harm by drowning and submersion while in bathtub, subsequent encounter
+[X710XXS] Intentional self-harm by drowning and submersion while in bathtub, sequela
+[X711] Intentional self-harm by drowning and submersion while in swimming pool
+[X711XXA] Intentional self-harm by drowning and submersion while in swimming pool, initial encounter
+[X711XXD] Intentional self-harm by drowning and submersion while in swimming pool, subsequent encounter
+[X711XXS] Intentional self-harm by drowning and submersion while in swimming pool, sequela
+[X712] Intentional self-harm by drowning and submersion after jump into swimming pool
+[X712XXA] Intentional self-harm by drowning and submersion after jump into swimming pool, initial encounter
+[X712XXD] Intentional self-harm by drowning and submersion after jump into swimming pool, subsequent encounter
+[X712XXS] Intentional self-harm by drowning and submersion after jump into swimming pool, sequela
+[X713] Intentional self-harm by drowning and submersion in natural water
+[X713XXA] Intentional self-harm by drowning and submersion in natural water, initial encounter
+[X713XXD] Intentional self-harm by drowning and submersion in natural water, subsequent encounter
+[X713XXS] Intentional self-harm by drowning and submersion in natural water, sequela
+[X718] Other intentional self-harm by drowning and submersion
+[X718XXA] Other intentional self-harm by drowning and submersion, initial encounter
+[X718XXD] Other intentional self-harm by drowning and submersion, subsequent encounter
+[X718XXS] Other intentional self-harm by drowning and submersion, sequela
+[X719] Intentional self-harm by drowning and submersion, unspecified
+[X719XXA] Intentional self-harm by drowning and submersion, unspecified, initial encounter
+[X719XXD] Intentional self-harm by drowning and submersion, unspecified, subsequent encounter
+[X719XXS] Intentional self-harm by drowning and submersion, unspecified, sequela
+[X72] Intentional self-harm by handgun discharge -- **Inclusion terms:** - Intentional self-harm by gun for single hand use - Intentional self-harm by pistol - Intentional self-harm by revolver  **Excludes1:** - Very pistol (X74.8)  **7th character note:** - The appropriate 7th character is to be added to code X72  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X72XXXA] Intentional self-harm by handgun discharge, initial encounter
+[X72XXXD] Intentional self-harm by handgun discharge, subsequent encounter
+[X72XXXS] Intentional self-harm by handgun discharge, sequela
+[X73] Intentional self-harm by rifle, shotgun and larger firearm discharge -- **Excludes1:** - airgun (X74.01)  **7th character note:** - The appropriate 7th character is to be added to each code from category X73  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X730] Intentional self-harm by shotgun discharge
+[X730XXA] Intentional self-harm by shotgun discharge, initial encounter
+[X730XXD] Intentional self-harm by shotgun discharge, subsequent encounter
+[X730XXS] Intentional self-harm by shotgun discharge, sequela
+[X731] Intentional self-harm by hunting rifle discharge
+[X731XXA] Intentional self-harm by hunting rifle discharge, initial encounter
+[X731XXD] Intentional self-harm by hunting rifle discharge, subsequent encounter
+[X731XXS] Intentional self-harm by hunting rifle discharge, sequela
+[X732] Intentional self-harm by machine gun discharge
+[X732XXA] Intentional self-harm by machine gun discharge, initial encounter
+[X732XXD] Intentional self-harm by machine gun discharge, subsequent encounter
+[X732XXS] Intentional self-harm by machine gun discharge, sequela
+[X738] Intentional self-harm by other larger firearm discharge
+[X738XXA] Intentional self-harm by other larger firearm discharge, initial encounter
+[X738XXD] Intentional self-harm by other larger firearm discharge, subsequent encounter
+[X738XXS] Intentional self-harm by other larger firearm discharge, sequela
+[X739] Intentional self-harm by unspecified larger firearm discharge
+[X739XXA] Intentional self-harm by unspecified larger firearm discharge, initial encounter
+[X739XXD] Intentional self-harm by unspecified larger firearm discharge, subsequent encounter
+[X739XXS] Intentional self-harm by unspecified larger firearm discharge, sequela
+[X74] Intentional self-harm by other and unspecified firearm and gun discharge -- **7th character note:** - The appropriate 7th character is to be added to each code from category X74  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X740] Intentional self-harm by gas, air or spring-operated guns
+[X7401] Intentional self-harm by airgun -- **Inclusion terms:** - Intentional self-harm by BB gun discharge - Intentional self-harm by pellet gun discharge
+[X7401XA] Intentional self-harm by airgun, initial encounter
+[X7401XD] Intentional self-harm by airgun, subsequent encounter
+[X7401XS] Intentional self-harm by airgun, sequela
+[X7402] Intentional self-harm by paintball gun
+[X7402XA] Intentional self-harm by paintball gun, initial encounter
+[X7402XD] Intentional self-harm by paintball gun, subsequent encounter
+[X7402XS] Intentional self-harm by paintball gun, sequela
+[X7409] Intentional self-harm by other gas, air or spring-operated gun
+[X7409XA] Intentional self-harm by other gas, air or spring-operated gun, initial encounter
+[X7409XD] Intentional self-harm by other gas, air or spring-operated gun, subsequent encounter
+[X7409XS] Intentional self-harm by other gas, air or spring-operated gun, sequela
+[X748] Intentional self-harm by other firearm discharge -- **Inclusion terms:** - Intentional self-harm by Very pistol [flare] discharge
+[X748XXA] Intentional self-harm by other firearm discharge, initial encounter
+[X748XXD] Intentional self-harm by other firearm discharge, subsequent encounter
+[X748XXS] Intentional self-harm by other firearm discharge, sequela
+[X749] Intentional self-harm by unspecified firearm discharge
+[X749XXA] Intentional self-harm by unspecified firearm discharge, initial encounter
+[X749XXD] Intentional self-harm by unspecified firearm discharge, subsequent encounter
+[X749XXS] Intentional self-harm by unspecified firearm discharge, sequela
+[X75] Intentional self-harm by explosive material -- **7th character note:** - The appropriate 7th character is to be added to code X75  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X75XXXA] Intentional self-harm by explosive material, initial encounter
+[X75XXXD] Intentional self-harm by explosive material, subsequent encounter
+[X75XXXS] Intentional self-harm by explosive material, sequela
+[X76] Intentional self-harm by smoke, fire and flames -- **7th character note:** - The appropriate 7th character is to be added to code X76  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X76XXXA] Intentional self-harm by smoke, fire and flames, initial encounter
+[X76XXXD] Intentional self-harm by smoke, fire and flames, subsequent encounter
+[X76XXXS] Intentional self-harm by smoke, fire and flames, sequela
+[X77] Intentional self-harm by steam, hot vapors and hot objects -- **7th character note:** - The appropriate 7th character is to be added to each code from category X77  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X770] Intentional self-harm by steam or hot vapors
+[X770XXA] Intentional self-harm by steam or hot vapors, initial encounter
+[X770XXD] Intentional self-harm by steam or hot vapors, subsequent encounter
+[X770XXS] Intentional self-harm by steam or hot vapors, sequela
+[X771] Intentional self-harm by hot tap water
+[X771XXA] Intentional self-harm by hot tap water, initial encounter
+[X771XXD] Intentional self-harm by hot tap water, subsequent encounter
+[X771XXS] Intentional self-harm by hot tap water, sequela
+[X772] Intentional self-harm by other hot fluids
+[X772XXA] Intentional self-harm by other hot fluids, initial encounter
+[X772XXD] Intentional self-harm by other hot fluids, subsequent encounter
+[X772XXS] Intentional self-harm by other hot fluids, sequela
+[X773] Intentional self-harm by hot household appliances
+[X773XXA] Intentional self-harm by hot household appliances, initial encounter
+[X773XXD] Intentional self-harm by hot household appliances, subsequent encounter
+[X773XXS] Intentional self-harm by hot household appliances, sequela
+[X778] Intentional self-harm by other hot objects
+[X778XXA] Intentional self-harm by other hot objects, initial encounter
+[X778XXD] Intentional self-harm by other hot objects, subsequent encounter
+[X778XXS] Intentional self-harm by other hot objects, sequela
+[X779] Intentional self-harm by unspecified hot objects
+[X779XXA] Intentional self-harm by unspecified hot objects, initial encounter
+[X779XXD] Intentional self-harm by unspecified hot objects, subsequent encounter
+[X779XXS] Intentional self-harm by unspecified hot objects, sequela
+[X78] Intentional self-harm by sharp object -- **7th character note:** - The appropriate 7th character is to be added to each code from category X78  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X780] Intentional self-harm by sharp glass
+[X780XXA] Intentional self-harm by sharp glass, initial encounter
+[X780XXD] Intentional self-harm by sharp glass, subsequent encounter
+[X780XXS] Intentional self-harm by sharp glass, sequela
+[X781] Intentional self-harm by knife
+[X781XXA] Intentional self-harm by knife, initial encounter
+[X781XXD] Intentional self-harm by knife, subsequent encounter
+[X781XXS] Intentional self-harm by knife, sequela
+[X782] Intentional self-harm by sword or dagger
+[X782XXA] Intentional self-harm by sword or dagger, initial encounter
+[X782XXD] Intentional self-harm by sword or dagger, subsequent encounter
+[X782XXS] Intentional self-harm by sword or dagger, sequela
+[X788] Intentional self-harm by other sharp object
+[X788XXA] Intentional self-harm by other sharp object, initial encounter
+[X788XXD] Intentional self-harm by other sharp object, subsequent encounter
+[X788XXS] Intentional self-harm by other sharp object, sequela
+[X789] Intentional self-harm by unspecified sharp object
+[X789XXA] Intentional self-harm by unspecified sharp object, initial encounter
+[X789XXD] Intentional self-harm by unspecified sharp object, subsequent encounter
+[X789XXS] Intentional self-harm by unspecified sharp object, sequela
+[X79] Intentional self-harm by blunt object -- **7th character note:** - The appropriate 7th character is to be added to code X79  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X79XXXA] Intentional self-harm by blunt object, initial encounter
+[X79XXXD] Intentional self-harm by blunt object, subsequent encounter
+[X79XXXS] Intentional self-harm by blunt object, sequela
+[X80] Intentional self-harm by jumping from a high place -- **Inclusion terms:** - Intentional fall from one level to another  **7th character note:** - The appropriate 7th character is to be added to code X80  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X80XXXA] Intentional self-harm by jumping from a high place, initial encounter
+[X80XXXD] Intentional self-harm by jumping from a high place, subsequent encounter
+[X80XXXS] Intentional self-harm by jumping from a high place, sequela
+[X81] Intentional self-harm by jumping or lying in front of moving object -- **7th character note:** - The appropriate 7th character is to be added to each code from category X81  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X810] Intentional self-harm by jumping or lying in front of motor vehicle
+[X810XXA] Intentional self-harm by jumping or lying in front of motor vehicle, initial encounter
+[X810XXD] Intentional self-harm by jumping or lying in front of motor vehicle, subsequent encounter
+[X810XXS] Intentional self-harm by jumping or lying in front of motor vehicle, sequela
+[X811] Intentional self-harm by jumping or lying in front of (subway) train
+[X811XXA] Intentional self-harm by jumping or lying in front of (subway) train, initial encounter
+[X811XXD] Intentional self-harm by jumping or lying in front of (subway) train, subsequent encounter
+[X811XXS] Intentional self-harm by jumping or lying in front of (subway) train, sequela
+[X818] Intentional self-harm by jumping or lying in front of other moving object
+[X818XXA] Intentional self-harm by jumping or lying in front of other moving object, initial encounter
+[X818XXD] Intentional self-harm by jumping or lying in front of other moving object, subsequent encounter
+[X818XXS] Intentional self-harm by jumping or lying in front of other moving object, sequela
+[X82] Intentional self-harm by crashing of motor vehicle -- **7th character note:** - The appropriate 7th character is to be added to each code from category X82  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X820] Intentional collision of motor vehicle with other motor vehicle
+[X820XXA] Intentional collision of motor vehicle with other motor vehicle, initial encounter
+[X820XXD] Intentional collision of motor vehicle with other motor vehicle, subsequent encounter
+[X820XXS] Intentional collision of motor vehicle with other motor vehicle, sequela
+[X821] Intentional collision of motor vehicle with train
+[X821XXA] Intentional collision of motor vehicle with train, initial encounter
+[X821XXD] Intentional collision of motor vehicle with train, subsequent encounter
+[X821XXS] Intentional collision of motor vehicle with train, sequela
+[X822] Intentional collision of motor vehicle with tree
+[X822XXA] Intentional collision of motor vehicle with tree, initial encounter
+[X822XXD] Intentional collision of motor vehicle with tree, subsequent encounter
+[X822XXS] Intentional collision of motor vehicle with tree, sequela
+[X828] Other intentional self-harm by crashing of motor vehicle
+[X828XXA] Other intentional self-harm by crashing of motor vehicle, initial encounter
+[X828XXD] Other intentional self-harm by crashing of motor vehicle, subsequent encounter
+[X828XXS] Other intentional self-harm by crashing of motor vehicle, sequela
+[X83] Intentional self-harm by other specified means -- **Excludes1:** - intentional self-harm by poisoning or contact with toxic substance- See Table of Drugs and Chemicals  **7th character note:** - The appropriate 7th character is to be added to each code from category X83  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X830] Intentional self-harm by crashing of aircraft
+[X830XXA] Intentional self-harm by crashing of aircraft, initial encounter
+[X830XXD] Intentional self-harm by crashing of aircraft, subsequent encounter
+[X830XXS] Intentional self-harm by crashing of aircraft, sequela
+[X831] Intentional self-harm by electrocution
+[X831XXA] Intentional self-harm by electrocution, initial encounter
+[X831XXD] Intentional self-harm by electrocution, subsequent encounter
+[X831XXS] Intentional self-harm by electrocution, sequela
+[X832] Intentional self-harm by exposure to extremes of cold
+[X832XXA] Intentional self-harm by exposure to extremes of cold, initial encounter
+[X832XXD] Intentional self-harm by exposure to extremes of cold, subsequent encounter
+[X832XXS] Intentional self-harm by exposure to extremes of cold, sequela
+[X838] Intentional self-harm by other specified means
+[X838XXA] Intentional self-harm by other specified means, initial encounter
+[X838XXD] Intentional self-harm by other specified means, subsequent encounter
+[X838XXS] Intentional self-harm by other specified means, sequela
+[X92] Assault by drowning and submersion -- **7th character note:** - The appropriate 7th character is to be added to each code from category X92  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X920] Assault by drowning and submersion while in bathtub
+[X920XXA] Assault by drowning and submersion while in bathtub, initial encounter
+[X920XXD] Assault by drowning and submersion while in bathtub, subsequent encounter
+[X920XXS] Assault by drowning and submersion while in bathtub, sequela
+[X921] Assault by drowning and submersion while in swimming pool
+[X921XXA] Assault by drowning and submersion while in swimming pool, initial encounter
+[X921XXD] Assault by drowning and submersion while in swimming pool, subsequent encounter
+[X921XXS] Assault by drowning and submersion while in swimming pool, sequela
+[X922] Assault by drowning and submersion after push into swimming pool
+[X922XXA] Assault by drowning and submersion after push into swimming pool, initial encounter
+[X922XXD] Assault by drowning and submersion after push into swimming pool, subsequent encounter
+[X922XXS] Assault by drowning and submersion after push into swimming pool, sequela
+[X923] Assault by drowning and submersion in natural water
+[X923XXA] Assault by drowning and submersion in natural water, initial encounter
+[X923XXD] Assault by drowning and submersion in natural water, subsequent encounter
+[X923XXS] Assault by drowning and submersion in natural water, sequela
+[X928] Other assault by drowning and submersion
+[X928XXA] Other assault by drowning and submersion, initial encounter
+[X928XXD] Other assault by drowning and submersion, subsequent encounter
+[X928XXS] Other assault by drowning and submersion, sequela
+[X929] Assault by drowning and submersion, unspecified
+[X929XXA] Assault by drowning and submersion, unspecified, initial encounter
+[X929XXD] Assault by drowning and submersion, unspecified, subsequent encounter
+[X929XXS] Assault by drowning and submersion, unspecified, sequela
+[X93] Assault by handgun discharge -- **Inclusion terms:** - Assault by discharge of gun for single hand use - Assault by discharge of pistol - Assault by discharge of revolver  **Excludes1:** - Very pistol (X95.8)  **7th character note:** - The appropriate 7th character is to be added to code X93  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X93XXXA] Assault by handgun discharge, initial encounter
+[X93XXXD] Assault by handgun discharge, subsequent encounter
+[X93XXXS] Assault by handgun discharge, sequela
+[X94] Assault by rifle, shotgun and larger firearm discharge -- **Excludes1:** - airgun (X95.01)  **7th character note:** - The appropriate 7th character is to be added to each code from category X94  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X940] Assault by shotgun
+[X940XXA] Assault by shotgun, initial encounter
+[X940XXD] Assault by shotgun, subsequent encounter
+[X940XXS] Assault by shotgun, sequela
+[X941] Assault by hunting rifle
+[X941XXA] Assault by hunting rifle, initial encounter
+[X941XXD] Assault by hunting rifle, subsequent encounter
+[X941XXS] Assault by hunting rifle, sequela
+[X942] Assault by machine gun
+[X942XXA] Assault by machine gun, initial encounter
+[X942XXD] Assault by machine gun, subsequent encounter
+[X942XXS] Assault by machine gun, sequela
+[X948] Assault by other larger firearm discharge
+[X948XXA] Assault by other larger firearm discharge, initial encounter
+[X948XXD] Assault by other larger firearm discharge, subsequent encounter
+[X948XXS] Assault by other larger firearm discharge, sequela
+[X949] Assault by unspecified larger firearm discharge
+[X949XXA] Assault by unspecified larger firearm discharge, initial encounter
+[X949XXD] Assault by unspecified larger firearm discharge, subsequent encounter
+[X949XXS] Assault by unspecified larger firearm discharge, sequela
+[X95] Assault by other and unspecified firearm and gun discharge -- **7th character note:** - The appropriate 7th character is to be added to each code from category X95  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X950] Assault by gas, air or spring-operated guns
+[X9501] Assault by airgun discharge -- **Inclusion terms:** - Assault by BB gun discharge - Assault by pellet gun discharge
+[X9501XA] Assault by airgun discharge, initial encounter
+[X9501XD] Assault by airgun discharge, subsequent encounter
+[X9501XS] Assault by airgun discharge, sequela
+[X9502] Assault by paintball gun discharge
+[X9502XA] Assault by paintball gun discharge, initial encounter
+[X9502XD] Assault by paintball gun discharge, subsequent encounter
+[X9502XS] Assault by paintball gun discharge, sequela
+[X9509] Assault by other gas, air or spring-operated gun
+[X9509XA] Assault by other gas, air or spring-operated gun, initial encounter
+[X9509XD] Assault by other gas, air or spring-operated gun, subsequent encounter
+[X9509XS] Assault by other gas, air or spring-operated gun, sequela
+[X958] Assault by other firearm discharge -- **Inclusion terms:** - Assault by very pistol [flare] discharge
+[X958XXA] Assault by other firearm discharge, initial encounter
+[X958XXD] Assault by other firearm discharge, subsequent encounter
+[X958XXS] Assault by other firearm discharge, sequela
+[X959] Assault by unspecified firearm discharge
+[X959XXA] Assault by unspecified firearm discharge, initial encounter
+[X959XXD] Assault by unspecified firearm discharge, subsequent encounter
+[X959XXS] Assault by unspecified firearm discharge, sequela
+[X96] Assault by explosive material -- **Excludes1:** - incendiary device (X97) - terrorism involving explosive material (Y38.2-)  **7th character note:** - The appropriate 7th character is to be added to each code from category X96  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X960] Assault by antipersonnel bomb -- **Excludes1:** - antipersonnel bomb use in military or war (Y36.2-)
+[X960XXA] Assault by antipersonnel bomb, initial encounter
+[X960XXD] Assault by antipersonnel bomb, subsequent encounter
+[X960XXS] Assault by antipersonnel bomb, sequela
+[X961] Assault by gasoline bomb
+[X961XXA] Assault by gasoline bomb, initial encounter
+[X961XXD] Assault by gasoline bomb, subsequent encounter
+[X961XXS] Assault by gasoline bomb, sequela
+[X962] Assault by letter bomb
+[X962XXA] Assault by letter bomb, initial encounter
+[X962XXD] Assault by letter bomb, subsequent encounter
+[X962XXS] Assault by letter bomb, sequela
+[X963] Assault by fertilizer bomb
+[X963XXA] Assault by fertilizer bomb, initial encounter
+[X963XXD] Assault by fertilizer bomb, subsequent encounter
+[X963XXS] Assault by fertilizer bomb, sequela
+[X964] Assault by pipe bomb
+[X964XXA] Assault by pipe bomb, initial encounter
+[X964XXD] Assault by pipe bomb, subsequent encounter
+[X964XXS] Assault by pipe bomb, sequela
+[X968] Assault by other specified explosive
+[X968XXA] Assault by other specified explosive, initial encounter
+[X968XXD] Assault by other specified explosive, subsequent encounter
+[X968XXS] Assault by other specified explosive, sequela
+[X969] Assault by unspecified explosive
+[X969XXA] Assault by unspecified explosive, initial encounter
+[X969XXD] Assault by unspecified explosive, subsequent encounter
+[X969XXS] Assault by unspecified explosive, sequela
+[X97] Assault by smoke, fire and flames -- **Inclusion terms:** - Assault by arson - Assault by cigarettes - Assault by incendiary device  **7th character note:** - The appropriate 7th character is to be added to code X97  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X97XXXA] Assault by smoke, fire and flames, initial encounter
+[X97XXXD] Assault by smoke, fire and flames, subsequent encounter
+[X97XXXS] Assault by smoke, fire and flames, sequela
+[X98] Assault by steam, hot vapors and hot objects -- **7th character note:** - The appropriate 7th character is to be added to each code from category X98  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X980] Assault by steam or hot vapors
+[X980XXA] Assault by steam or hot vapors, initial encounter
+[X980XXD] Assault by steam or hot vapors, subsequent encounter
+[X980XXS] Assault by steam or hot vapors, sequela
+[X981] Assault by hot tap water
+[X981XXA] Assault by hot tap water, initial encounter
+[X981XXD] Assault by hot tap water, subsequent encounter
+[X981XXS] Assault by hot tap water, sequela
+[X982] Assault by hot fluids
+[X982XXA] Assault by hot fluids, initial encounter
+[X982XXD] Assault by hot fluids, subsequent encounter
+[X982XXS] Assault by hot fluids, sequela
+[X983] Assault by hot household appliances
+[X983XXA] Assault by hot household appliances, initial encounter
+[X983XXD] Assault by hot household appliances, subsequent encounter
+[X983XXS] Assault by hot household appliances, sequela
+[X988] Assault by other hot objects
+[X988XXA] Assault by other hot objects, initial encounter
+[X988XXD] Assault by other hot objects, subsequent encounter
+[X988XXS] Assault by other hot objects, sequela
+[X989] Assault by unspecified hot objects
+[X989XXA] Assault by unspecified hot objects, initial encounter
+[X989XXD] Assault by unspecified hot objects, subsequent encounter
+[X989XXS] Assault by unspecified hot objects, sequela
+[X99] Assault by sharp object -- **Excludes1:** - assault by strike by sports equipment (Y08.0-)  **7th character note:** - The appropriate 7th character is to be added to each code from category X99  **7th character:** - A: initial encounter - D: subsequent encounter - S: sequela
+[X990] Assault by sharp glass
+[X990XXA] Assault by sharp glass, initial encounter
+[X990XXD] Assault by sharp glass, subsequent encounter
+[X990XXS] Assault by sharp glass, sequela
+[X991] Assault by knife
+[X991XXA] Assault by knife, initial encounter
+[X991XXD] Assault by knife, subsequent encounter
+[X991XXS] Assault by knife, sequela
+[X992] Assault by sword or dagger
+[X992XXA] Assault by sword or dagger, initial encounter
+[X992XXD] Assault by sword or dagger, subsequent encounter
+[X992XXS] Assault by sword or dagger, sequela
+[X998] Assault by other sharp object
+[X998XXA] Assault by other sharp object, initial encounter
+[X998XXD] Assault by other sharp object, subsequent encounter
+[X998XXS] Assault by other sharp object, sequela
+[X999] Assault by unspecified sharp object -- **Inclusion terms:** - Assault by stabbing NOS
+[X999XXA] Assault by unspecified sharp object, initial encounter
+[X999XXD] Assault by unspecified sharp object, subsequent encounter
+[X999XXS] Assault by unspecified sharp object, sequela

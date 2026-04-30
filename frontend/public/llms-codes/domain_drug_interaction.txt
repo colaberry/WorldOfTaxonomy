@@ -1,0 +1,15 @@
+[DI] Drug Interaction Types :: naics_2022:5419
+[DI.01] Pharmacokinetic Interaction
+[DI.02] Pharmacodynamic Interaction
+[DI.03] Drug-Drug Interaction
+[DI.04] Drug-Food Interaction
+[DI.05] Drug-Herb Interaction
+[DI.06] Drug-Lab Test Interaction
+[DI.07] CYP450 Enzyme Inhibition
+[DI.08] CYP450 Enzyme Induction
+[DI.09] P-glycoprotein Interaction
+[DI.10] QT Prolongation Risk
+[DI.11] Serotonin Syndrome Risk
+[DI.12] Renal Clearance Interaction
+[DI.13] Protein Binding Displacement
+[DI.14] Additive Toxicity

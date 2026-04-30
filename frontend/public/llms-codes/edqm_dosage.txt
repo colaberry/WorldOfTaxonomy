@@ -1,0 +1,17 @@
+[ED] EDQM Categories
+[ED.01] Oral Solid Dosage Forms
+[ED.02] Oral Liquid Dosage Forms
+[ED.03] Parenteral Dosage Forms
+[ED.04] Topical Dosage Forms
+[ED.05] Rectal Dosage Forms
+[ED.06] Vaginal Dosage Forms
+[ED.07] Ophthalmic Dosage Forms
+[ED.08] Nasal Dosage Forms
+[ED.09] Auricular Dosage Forms
+[ED.10] Inhalation Dosage Forms
+[ED.11] Transdermal Dosage Forms
+[ED.12] Implantable Dosage Forms
+[ED.13] Routes of Administration
+[ED.14] Containers and Closures
+[ED.15] Units of Presentation
+[ED.16] Combination Packages

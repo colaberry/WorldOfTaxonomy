@@ -1,0 +1,565 @@
+[P00] Newborn affected by maternal conditions that may be unrelated to present pregnancy -- **Excludes2:** - encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-) - newborn affected by maternal complications of pregnancy (P01.-) - newborn affected by maternal endocrine and metabolic disorders (P70-P74) - newborn affected by noxious substances transmitted via placenta or breast milk (P04.-)  **Code first:** - any current condition in newborn
+[P000] Newborn affected by maternal hypertensive disorders -- **Inclusion terms:** - Newborn affected by maternal conditions classifiable to O10-O11, O13-O16
+[P001] Newborn affected by maternal renal and urinary tract diseases -- **Inclusion terms:** - Newborn affected by maternal conditions classifiable to N00-N39
+[P002] Newborn affected by maternal infectious and parasitic diseases -- **Inclusion terms:** - Newborn affected by maternal infectious disease classifiable to A00-B99, J09 and J10  **Excludes1:** - maternal genital tract or other localized infections (P00.8)  **Excludes2:** - infections specific to the perinatal period (P35-P39) - newborn affected by (positive) maternal group B streptococcus (GBS) colonization (P00.82)
+[P003] Newborn affected by other maternal circulatory and respiratory diseases -- **Inclusion terms:** - Newborn affected by maternal conditions classifiable to I00-I99, J00-J99, Q20-Q34 and not included in P00.0, P00.2
+[P004] Newborn affected by maternal nutritional disorders -- **Inclusion terms:** - Newborn affected by maternal disorders classifiable to E40-E64 - Maternal malnutrition NOS
+[P005] Newborn affected by maternal injury -- **Inclusion terms:** - Newborn affected by maternal conditions classifiable to O9A.2-
+[P006] Newborn affected by surgical procedure on mother -- **Inclusion terms:** - Newborn affected by amniocentesis  **Excludes1:** - Cesarean delivery for present delivery (P03.4) - damage to placenta from amniocentesis, Cesarean delivery or surgical induction (P02.1) - previous surgery to uterus or pelvic organs (P03.89)  **Excludes2:** - newborn affected by complication of (fetal) intrauterine procedure (P96.5)
+[P007] Newborn affected by other medical procedures on mother, not elsewhere classified -- **Inclusion terms:** - Newborn affected by radiation to mother  **Excludes1:** - damage to placenta from amniocentesis, cesarean delivery or surgical induction (P02.1) - newborn affected by other complications of labor and delivery (P03.-)
+[P008] Newborn affected by other maternal conditions
+[P0081] Newborn affected by periodontal disease in mother
+[P0082] Newborn affected by (positive) maternal group B streptococcus (GBS) colonization -- **Inclusion terms:** - Contact with positive maternal group B streptococcus
+[P0089] Newborn affected by other maternal conditions -- **Inclusion terms:** - Newborn affected by conditions classifiable to T80-T88 - Newborn affected by maternal genital tract or other localized infections - Newborn affected by maternal systemic lupus erythematosus  **Excludes2:** - newborn affected by positive maternal group B streptococcus (GBS) colonization (P00.82)  **Use additional code:** - code to identify infectious agent, if known
+[P009] Newborn affected by unspecified maternal condition
+[P01] Newborn affected by maternal complications of pregnancy -- **Excludes2:** - encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-)  **Code first:** - any current condition in newborn
+[P010] Newborn affected by incompetent cervix
+[P011] Newborn affected by premature rupture of membranes
+[P012] Newborn affected by oligohydramnios -- **Excludes1:** - oligohydramnios due to premature rupture of membranes (P01.1)
+[P013] Newborn affected by polyhydramnios -- **Inclusion terms:** - Newborn affected by hydramnios
+[P014] Newborn affected by ectopic pregnancy -- **Inclusion terms:** - Newborn affected by abdominal pregnancy
+[P015] Newborn affected by multiple pregnancy -- **Inclusion terms:** - Newborn affected by triplet (pregnancy) - Newborn affected by twin (pregnancy)
+[P016] Newborn affected by maternal death
+[P017] Newborn affected by malpresentation before labor -- **Inclusion terms:** - Newborn affected by breech presentation before labor - Newborn affected by external version before labor - Newborn affected by face presentation before labor - Newborn affected by transverse lie before labor - Newborn affected by unstable lie before labor
+[P018] Newborn affected by other maternal complications of pregnancy
+[P019] Newborn affected by maternal complication of pregnancy, unspecified
+[P02] Newborn affected by complications of placenta, cord and membranes -- **Excludes2:** - encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-)  **Code first:** - any current condition in newborn
+[P020] Newborn affected by placenta previa
+[P021] Newborn affected by other forms of placental separation and hemorrhage -- **Inclusion terms:** - Newborn affected by abruptio placenta - Newborn affected by accidental hemorrhage - Newborn affected by antepartum hemorrhage - Newborn affected by damage to placenta from amniocentesis, cesarean delivery or surgical induction - Newborn affected by maternal blood loss - Newborn affected by premature separation of placenta
+[P022] Newborn affected by other and unspecified morphological and functional abnormalities of placenta
+[P0220] Newborn affected by unspecified morphological and functional abnormalities of placenta
+[P0229] Newborn affected by other morphological and functional abnormalities of placenta -- **Inclusion terms:** - Newborn affected by placental dysfunction - Newborn affected by placental infarction - Newborn affected by placental insufficiency
+[P023] Newborn affected by placental transfusion syndromes -- **Inclusion terms:** - Newborn affected by placental and cord abnormalities resulting in twin-to-twin or other transplacental transfusion
+[P024] Newborn affected by prolapsed cord
+[P025] Newborn affected by other compression of umbilical cord -- **Inclusion terms:** - Newborn affected by umbilical cord (tightly) around neck - Newborn affected by entanglement of umbilical cord - Newborn affected by knot in umbilical cord
+[P026] Newborn affected by other and unspecified conditions of umbilical cord
+[P0260] Newborn affected by unspecified conditions of umbilical cord
+[P0269] Newborn affected by other conditions of umbilical cord -- **Inclusion terms:** - Newborn affected by short umbilical cord - Newborn affected by vasa previa  **Excludes1:** - newborn affected by single umbilical artery (Q27.0)
+[P027] Newborn affected by chorioamnionitis
+[P0270] Newborn affected by fetal inflammatory response syndrome -- **Inclusion terms:** - Newborn affected by FIRS
+[P0278] Newborn affected by other conditions from chorioamnionitis -- **Inclusion terms:** - Newborn affected by amnionitis - Newborn affected by membranitis - Newborn affected by placentitis
+[P028] Newborn affected by other abnormalities of membranes
+[P029] Newborn affected by abnormality of membranes, unspecified
+[P03] Newborn affected by other complications of labor and delivery -- **Excludes2:** - encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-)  **Code first:** - any current condition in newborn
+[P030] Newborn affected by breech delivery and extraction
+[P031] Newborn affected by other malpresentation, malposition and disproportion during labor and delivery -- **Inclusion terms:** - Newborn affected by contracted pelvis - Newborn affected by conditions classifiable to O64-O66 - Newborn affected by persistent occipitoposterior - Newborn affected by transverse lie
+[P032] Newborn affected by forceps delivery
+[P033] Newborn affected by delivery by vacuum extractor [ventouse]
+[P034] Newborn affected by Cesarean delivery
+[P035] Newborn affected by precipitate delivery -- **Inclusion terms:** - Newborn affected by rapid second stage
+[P036] Newborn affected by abnormal uterine contractions -- **Inclusion terms:** - Newborn affected by conditions classifiable to O62.-, except O62.3 - Newborn affected by hypertonic labor - Newborn affected by uterine inertia
+[P038] Newborn affected by other specified complications of labor and delivery
+[P0381] Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm -- **Excludes1:** - neonatal cardiac dysrhythmia (P29.1-)
+[P03810] Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm before the onset of labor
+[P03811] Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm during labor
+[P03819] Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm, unspecified as to time of onset
+[P0382] Meconium passage during delivery -- **Excludes1:** - meconium aspiration (P24.00, P24.01) - meconium staining (P96.83)
+[P0389] Newborn affected by other specified complications of labor and delivery -- **Inclusion terms:** - Newborn affected by abnormality of maternal soft tissues - Newborn affected by conditions classifiable to O60-O75 and by procedures used in labor and delivery not included in P02.- and P03.0-P03.6 - Newborn affected by induction of labor
+[P039] Newborn affected by complication of labor and delivery, unspecified
+[P04] Newborn affected by noxious substances transmitted via placenta or breast milk -- **Includes:** - nonteratogenic effects of substances transmitted via placenta  **Excludes2:** - congenital malformations (Q00-Q99) - encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-) - neonatal jaundice from excessive hemolysis due to drugs or toxins transmitted from mother (P58.4) - newborn in contact with and (suspected) exposures hazardous to health not transmitted via placenta or breast milk (Z77.-)  **Code first:** - any current condition in newborn, if applicable
+[P040] Newborn affected by maternal anesthesia and analgesia in pregnancy, labor and delivery -- **Inclusion terms:** - Newborn affected by reactions and intoxications from maternal opiates and tranquilizers administered for procedures during pregnancy or labor and delivery  **Excludes2:** - newborn affected by other maternal medication (P04.1-)
+[P041] Newborn affected by other maternal medication -- **Excludes1:** - dysmorphism due to warfarin (Q86.2) - fetal hydantoin syndrome (Q86.1)  **Excludes2:** - maternal anesthesia and analgesia in pregnancy, labor and delivery (P04.0) - maternal use of drugs of addiction (P04.4-)  **Code first:** - , if applicable, withdrawal symptoms from maternal use of drugs of addiction (P96.1) - withdrawal symptoms from therapeutic use of drugs in newborn (P96.2)
+[P0411] Newborn affected by maternal antineoplastic chemotherapy
+[P0412] Newborn affected by maternal cytotoxic drugs
+[P0413] Newborn affected by maternal use of anticonvulsants
+[P0414] Newborn affected by maternal use of opiates
+[P0415] Newborn affected by maternal use of antidepressants
+[P0416] Newborn affected by maternal use of amphetamines
+[P0417] Newborn affected by maternal use of sedative-hypnotics
+[P0418] Newborn affected by other maternal medication
+[P0419] Newborn affected by maternal use of unspecified medication
+[P041A] Newborn affected by maternal use of anxiolytics
+[P042] Newborn affected by maternal use of tobacco -- **Inclusion terms:** - Newborn affected by exposure in utero to tobacco smoke  **Excludes2:** - newborn exposure to environmental tobacco smoke (P96.81)
+[P043] Newborn affected by maternal use of alcohol -- **Excludes1:** - fetal alcohol syndrome (Q86.0)
+[P044] Newborn affected by maternal use of drugs of addiction
+[P0440] Newborn affected by maternal use of unspecified drugs of addiction
+[P0441] Newborn affected by maternal use of cocaine
+[P0442] Newborn affected by maternal use of hallucinogens -- **Excludes2:** - newborn affected by other maternal medication (P04.1-)
+[P0449] Newborn affected by maternal use of other drugs of addiction -- **Excludes2:** - newborn affected by maternal anesthesia and analgesia (P04.0) - withdrawal symptoms from maternal use of drugs of addiction (P96.1)
+[P045] Newborn affected by maternal use of nutritional chemical substances
+[P046] Newborn affected by maternal exposure to environmental chemical substances
+[P048] Newborn affected by other maternal noxious substances
+[P0481] Newborn affected by maternal use of cannabis
+[P0489] Newborn affected by other maternal noxious substances
+[P049] Newborn affected by maternal noxious substance, unspecified
+[P05] Disorders of newborn related to slow fetal growth and fetal malnutrition
+[P050] Newborn light for gestational age -- **Inclusion terms:** - Newborn light-for-dates - Weight below but length above 10th percentile for gestational age
+[P0500] Newborn light for gestational age, unspecified weight
+[P0501] Newborn light for gestational age, less than 500 grams
+[P0502] Newborn light for gestational age, 500-749 grams
+[P0503] Newborn light for gestational age, 750-999 grams
+[P0504] Newborn light for gestational age, 1000-1249 grams
+[P0505] Newborn light for gestational age, 1250-1499 grams
+[P0506] Newborn light for gestational age, 1500-1749 grams
+[P0507] Newborn light for gestational age, 1750-1999 grams
+[P0508] Newborn light for gestational age, 2000-2499 grams
+[P0509] Newborn light for gestational age, 2500 grams and over -- **Inclusion terms:** - Newborn light for gestational age, other
+[P051] Newborn small for gestational age -- **Inclusion terms:** - Newborn small-and-light-for-dates - Newborn small-for-dates - Weight and length below 10th percentile for gestational age
+[P0510] Newborn small for gestational age, unspecified weight
+[P0511] Newborn small for gestational age, less than 500 grams
+[P0512] Newborn small for gestational age, 500-749 grams
+[P0513] Newborn small for gestational age, 750-999 grams
+[P0514] Newborn small for gestational age, 1000-1249 grams
+[P0515] Newborn small for gestational age, 1250-1499 grams
+[P0516] Newborn small for gestational age, 1500-1749 grams
+[P0517] Newborn small for gestational age, 1750-1999 grams
+[P0518] Newborn small for gestational age, 2000-2499 grams
+[P0519] Newborn small for gestational age, other -- **Inclusion terms:** - Newborn small for gestational age, 2500 grams and over
+[P052] Newborn affected by fetal (intrauterine) malnutrition not light or small for gestational age -- **Inclusion terms:** - Infant, not light or small for gestational age, showing signs of fetal malnutrition, such as dry, peeling skin and loss of subcutaneous tissue  **Excludes1:** - newborn affected by fetal malnutrition with light for gestational age (P05.0-) - newborn affected by fetal malnutrition with small for gestational age (P05.1-)
+[P059] Newborn affected by slow intrauterine growth, unspecified -- **Inclusion terms:** - Newborn affected by fetal growth retardation NOS
+[P07] Disorders of newborn related to short gestation and low birth weight, not elsewhere classified -- **Includes:** - the listed conditions, without further specification, as the cause of morbidity or additional care, in newborn  **Notes:** - When both birth weight and gestational age of the newborn are available, both should be coded with birth weight sequenced before gestational age
+[P070] Extremely low birth weight newborn -- **Inclusion terms:** - Newborn birth weight 999 g. or less  **Excludes1:** - low birth weight due to slow fetal growth and fetal malnutrition (P05.-)
+[P0700] Extremely low birth weight newborn, unspecified weight
+[P0701] Extremely low birth weight newborn, less than 500 grams
+[P0702] Extremely low birth weight newborn, 500-749 grams
+[P0703] Extremely low birth weight newborn, 750-999 grams
+[P071] Other low birth weight newborn -- **Inclusion terms:** - Newborn birth weight 1000-2499 g.  **Excludes1:** - low birth weight due to slow fetal growth and fetal malnutrition (P05.-)
+[P0710] Other low birth weight newborn, unspecified weight
+[P0714] Other low birth weight newborn, 1000-1249 grams
+[P0715] Other low birth weight newborn, 1250-1499 grams
+[P0716] Other low birth weight newborn, 1500-1749 grams
+[P0717] Other low birth weight newborn, 1750-1999 grams
+[P0718] Other low birth weight newborn, 2000-2499 grams
+[P072] Extreme immaturity of newborn -- **Inclusion terms:** - Less than 28 completed weeks (less than 196 completed days) of gestation.
+[P0720] Extreme immaturity of newborn, unspecified weeks of gestation -- **Inclusion terms:** - Gestational age less than 28 completed weeks NOS
+[P0721] Extreme immaturity of newborn, gestational age less than 23 completed weeks -- **Inclusion terms:** - Extreme immaturity of newborn, gestational age less than 23 weeks, 0 days
+[P0722] Extreme immaturity of newborn, gestational age 23 completed weeks -- **Inclusion terms:** - Extreme immaturity of newborn, gestational age 23 weeks, 0 days through 23 weeks, 6 days
+[P0723] Extreme immaturity of newborn, gestational age 24 completed weeks -- **Inclusion terms:** - Extreme immaturity of newborn, gestational age 24 weeks, 0 days through 24 weeks, 6 days
+[P0724] Extreme immaturity of newborn, gestational age 25 completed weeks -- **Inclusion terms:** - Extreme immaturity of newborn, gestational age 25 weeks, 0 days through 25 weeks, 6 days
+[P0725] Extreme immaturity of newborn, gestational age 26 completed weeks -- **Inclusion terms:** - Extreme immaturity of newborn, gestational age 26 weeks, 0 days through 26 weeks, 6 days
+[P0726] Extreme immaturity of newborn, gestational age 27 completed weeks -- **Inclusion terms:** - Extreme immaturity of newborn, gestational age 27 weeks, 0 days through 27 weeks, 6 days
+[P073] Preterm [premature] newborn [other] -- **Inclusion terms:** - 28 completed weeks or more but less than 37 completed weeks (196 completed days but less than 259 completed days) of gestation. - Prematurity NOS
+[P0730] Preterm newborn, unspecified weeks of gestation
+[P0731] Preterm newborn, gestational age 28 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 28 weeks, 0 days through 28 weeks, 6 days
+[P0732] Preterm newborn, gestational age 29 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 29 weeks, 0 days through 29 weeks, 6 days
+[P0733] Preterm newborn, gestational age 30 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 30 weeks, 0 days through 30 weeks, 6 days
+[P0734] Preterm newborn, gestational age 31 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 31 weeks, 0 days through 31 weeks, 6 days
+[P0735] Preterm newborn, gestational age 32 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 32 weeks, 0 days through 32 weeks, 6 days
+[P0736] Preterm newborn, gestational age 33 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 33 weeks, 0 days through 33 weeks, 6 days
+[P0737] Preterm newborn, gestational age 34 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 34 weeks, 0 days through 34 weeks, 6 days
+[P0738] Preterm newborn, gestational age 35 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 35 weeks, 0 days through 35 weeks, 6 days
+[P0739] Preterm newborn, gestational age 36 completed weeks -- **Inclusion terms:** - Preterm newborn, gestational age 36 weeks, 0 days through 36 weeks, 6 days
+[P08] Disorders of newborn related to long gestation and high birth weight -- **Includes:** - the listed conditions, without further specification, as causes of morbidity or additional care, in newborn  **Notes:** - When both birth weight and gestational age of the newborn are available, priority of assignment should be given to birth weight
+[P080] Exceptionally large newborn baby -- **Inclusion terms:** - Usually implies a birth weight of 4500 g. or more  **Excludes1:** - syndrome of infant of diabetic mother (P70.1) - syndrome of infant of mother with gestational diabetes (P70.0)
+[P081] Other heavy for gestational age newborn -- **Inclusion terms:** - Other newborn heavy- or large-for-dates regardless of period of gestation - Usually implies a birth weight of 4000 g. to 4499 g.  **Excludes1:** - newborn with a birth weight of 4500 or more (P08.0) - syndrome of infant of diabetic mother (P70.1) - syndrome of infant of mother with gestational diabetes (P70.0)
+[P082] Late newborn, not heavy for gestational age
+[P0821] Post-term newborn -- **Inclusion terms:** - Newborn with gestation period over 40 completed weeks to 42 completed weeks
+[P0822] Prolonged gestation of newborn -- **Inclusion terms:** - Newborn with gestation period over 42 completed weeks (294 days or more), not heavy- or large-for-dates. - Postmaturity NOS
+[P09] Abnormal findings on neonatal screening -- **Includes:** - Abnormal findings on state mandated newborn screens - Failed newborn screening  **Excludes2:** - nonspecific serologic evidence of human immunodeficiency virus [HIV] (R75)
+[P091] Abnormal findings on neonatal screening for inborn errors of metabolism
+[P092] Abnormal findings on neonatal screening for congenital endocrine disease -- **Inclusion terms:** - Abnormal findings on neonatal screening for congenital adrenal hyperplasia - Abnormal findings on neonatal screening for hypothyroidism screen
+[P093] Abnormal findings on neonatal screening for congenital hematologic disorders -- **Inclusion terms:** - Abnormal findings for hemoglobinopathy screening - Abnormal findings on red cell membrane defects screen - Abnormal findings on sickle cell screen
+[P094] Abnormal findings on neonatal screening for cystic fibrosis
+[P095] Abnormal findings on neonatal screening for critical congenital heart disease -- **Inclusion terms:** - Neonatal congenital heart disease screening failure
+[P096] Abnormal findings on neonatal screening for neonatal hearing loss -- **Excludes2:** - encounter for hearing examination following failed hearing screening (Z01.110)
+[P098] Other abnormal findings on neonatal screening
+[P099] Abnormal findings on neonatal screening, unspecified
+[P10] Intracranial laceration and hemorrhage due to birth injury -- **Excludes1:** - intracranial hemorrhage of newborn NOS (P52.9) - intracranial hemorrhage of newborn due to anoxia or hypoxia (P52.-) - nontraumatic intracranial hemorrhage of newborn (P52.-)
+[P100] Subdural hemorrhage due to birth injury -- **Inclusion terms:** - Subdural hematoma (localized) due to birth injury  **Excludes1:** - subdural hemorrhage accompanying tentorial tear (P10.4)
+[P101] Cerebral hemorrhage due to birth injury
+[P102] Intraventricular hemorrhage due to birth injury
+[P103] Subarachnoid hemorrhage due to birth injury
+[P104] Tentorial tear due to birth injury
+[P108] Other intracranial lacerations and hemorrhages due to birth injury
+[P109] Unspecified intracranial laceration and hemorrhage due to birth injury
+[P11] Other birth injuries to central nervous system
+[P110] Cerebral edema due to birth injury
+[P111] Other specified brain damage due to birth injury
+[P112] Unspecified brain damage due to birth injury
+[P113] Birth injury to facial nerve -- **Inclusion terms:** - Facial palsy due to birth injury
+[P114] Birth injury to other cranial nerves
+[P115] Birth injury to spine and spinal cord -- **Inclusion terms:** - Fracture of spine due to birth injury
+[P119] Birth injury to central nervous system, unspecified
+[P12] Birth injury to scalp
+[P120] Cephalhematoma due to birth injury
+[P121] Chignon (from vacuum extraction) due to birth injury
+[P122] Epicranial subaponeurotic hemorrhage due to birth injury -- **Inclusion terms:** - Subgaleal hemorrhage
+[P123] Bruising of scalp due to birth injury
+[P124] Injury of scalp of newborn due to monitoring equipment -- **Inclusion terms:** - Sampling incision of scalp of newborn - Scalp clip (electrode) injury of newborn
+[P128] Other birth injuries to scalp
+[P1281] Caput succedaneum
+[P1289] Other birth injuries to scalp
+[P129] Birth injury to scalp, unspecified
+[P13] Birth injury to skeleton -- **Excludes2:** - birth injury to spine (P11.5)
+[P130] Fracture of skull due to birth injury
+[P131] Other birth injuries to skull -- **Excludes1:** - cephalhematoma (P12.0)
+[P132] Birth injury to femur
+[P133] Birth injury to other long bones
+[P134] Fracture of clavicle due to birth injury
+[P138] Birth injuries to other parts of skeleton
+[P139] Birth injury to skeleton, unspecified
+[P14] Birth injury to peripheral nervous system
+[P140] Erb's paralysis due to birth injury
+[P141] Klumpke's paralysis due to birth injury
+[P142] Phrenic nerve paralysis due to birth injury
+[P143] Other brachial plexus birth injuries
+[P148] Birth injuries to other parts of peripheral nervous system
+[P149] Birth injury to peripheral nervous system, unspecified
+[P15] Other birth injuries
+[P150] Birth injury to liver -- **Inclusion terms:** - Rupture of liver due to birth injury
+[P151] Birth injury to spleen -- **Inclusion terms:** - Rupture of spleen due to birth injury
+[P152] Sternomastoid injury due to birth injury
+[P153] Birth injury to eye -- **Inclusion terms:** - Subconjunctival hemorrhage due to birth injury - Traumatic glaucoma due to birth injury
+[P154] Birth injury to face -- **Inclusion terms:** - Facial congestion due to birth injury
+[P155] Birth injury to external genitalia
+[P156] Subcutaneous fat necrosis due to birth injury
+[P158] Other specified birth injuries
+[P159] Birth injury, unspecified
+[P19] Metabolic acidemia in newborn -- **Includes:** - metabolic acidemia in newborn
+[P190] Metabolic acidemia in newborn first noted before onset of labor
+[P191] Metabolic acidemia in newborn first noted during labor
+[P192] Metabolic acidemia noted at birth
+[P199] Metabolic acidemia in newborn, unspecified
+[P22] Respiratory distress of newborn
+[P220] Respiratory distress syndrome of newborn -- **Inclusion terms:** - Cardiorespiratory distress syndrome of newborn - Hyaline membrane disease - Idiopathic respiratory distress syndrome [IRDS or RDS] of newborn - Pulmonary hypoperfusion syndrome - Respiratory distress syndrome, type I  **Excludes2:** - respiratory arrest of newborn (P28.81) - respiratory failure of newborn NOS (P28.5)
+[P221] Transient tachypnea of newborn -- **Inclusion terms:** - Idiopathic tachypnea of newborn - Respiratory distress syndrome, type II - Wet lung syndrome
+[P228] Other respiratory distress of newborn -- **Excludes1:** - respiratory arrest of newborn (P28.81) - respiratory failure of newborn NOS (P28.5)
+[P229] Respiratory distress of newborn, unspecified -- **Excludes1:** - respiratory arrest of newborn (P28.81) - respiratory failure of newborn NOS (P28.5)
+[P23] Congenital pneumonia -- **Includes:** - infective pneumonia acquired in utero or during birth  **Excludes1:** - neonatal pneumonia resulting from aspiration (P24.-)
+[P230] Congenital pneumonia due to viral agent -- **Excludes1:** - congenital rubella pneumonitis (P35.0)  **Use additional code:** - code (B97) to identify organism
+[P231] Congenital pneumonia due to Chlamydia
+[P232] Congenital pneumonia due to staphylococcus
+[P233] Congenital pneumonia due to streptococcus, group B
+[P234] Congenital pneumonia due to Escherichia coli
+[P235] Congenital pneumonia due to Pseudomonas
+[P236] Congenital pneumonia due to other bacterial agents -- **Inclusion terms:** - Congenital pneumonia due to Hemophilus influenzae - Congenital pneumonia due to Klebsiella pneumoniae - Congenital pneumonia due to Mycoplasma - Congenital pneumonia due to Streptococcus, except group B  **Use additional code:** - code (B95-B96) to identify organism
+[P238] Congenital pneumonia due to other organisms
+[P239] Congenital pneumonia, unspecified
+[P24] Neonatal aspiration -- **Includes:** - aspiration in utero and during delivery
+[P240] Meconium aspiration -- **Excludes1:** - meconium passage (without aspiration) during delivery (P03.82 ) - meconium staining (P96.83 )
+[P2400] Meconium aspiration without respiratory symptoms -- **Inclusion terms:** - Meconium aspiration NOS
+[P2401] Meconium aspiration with respiratory symptoms -- **Inclusion terms:** - Meconium aspiration pneumonia - Meconium aspiration pneumonitis - Meconium aspiration syndrome NOS  **Use additional code:** - code to identify any secondary pulmonary hypertension, if applicable (I27.2-)
+[P241] Neonatal aspiration of (clear) amniotic fluid and mucus -- **Inclusion terms:** - Neonatal aspiration of liquor (amnii)
+[P2410] Neonatal aspiration of (clear) amniotic fluid and mucus without respiratory symptoms -- **Inclusion terms:** - Neonatal aspiration of amniotic fluid and mucus NOS
+[P2411] Neonatal aspiration of (clear) amniotic fluid and mucus with respiratory symptoms -- **Inclusion terms:** - Neonatal aspiration of amniotic fluid and mucus with pneumonia - Neonatal aspiration of amniotic fluid and mucus with pneumonitis  **Use additional code:** - code to identify any secondary pulmonary hypertension, if applicable (I27.2-)
+[P242] Neonatal aspiration of blood
+[P2420] Neonatal aspiration of blood without respiratory symptoms -- **Inclusion terms:** - Neonatal aspiration of blood NOS
+[P2421] Neonatal aspiration of blood with respiratory symptoms -- **Inclusion terms:** - Neonatal aspiration of blood with pneumonia - Neonatal aspiration of blood with pneumonitis  **Use additional code:** - code to identify any secondary pulmonary hypertension, if applicable (I27.2-)
+[P243] Neonatal aspiration of milk and regurgitated food -- **Inclusion terms:** - Neonatal aspiration of stomach contents
+[P2430] Neonatal aspiration of milk and regurgitated food without respiratory symptoms -- **Inclusion terms:** - Neonatal aspiration of milk and regurgitated food NOS
+[P2431] Neonatal aspiration of milk and regurgitated food with respiratory symptoms -- **Inclusion terms:** - Neonatal aspiration of milk and regurgitated food with pneumonia - Neonatal aspiration of milk and regurgitated food with pneumonitis  **Use additional code:** - code to identify any secondary pulmonary hypertension, if applicable (I27.2-)
+[P248] Other neonatal aspiration
+[P2480] Other neonatal aspiration without respiratory symptoms -- **Inclusion terms:** - Neonatal aspiration NEC
+[P2481] Other neonatal aspiration with respiratory symptoms -- **Inclusion terms:** - Neonatal aspiration pneumonia NEC - Neonatal aspiration with pneumonitis NEC - Neonatal aspiration with pneumonia NOS - Neonatal aspiration with pneumonitis NOS  **Use additional code:** - code to identify any secondary pulmonary hypertension, if applicable (I27.2-)
+[P249] Neonatal aspiration, unspecified
+[P25] Interstitial emphysema and related conditions originating in the perinatal period
+[P250] Interstitial emphysema originating in the perinatal period
+[P251] Pneumothorax originating in the perinatal period
+[P252] Pneumomediastinum originating in the perinatal period
+[P253] Pneumopericardium originating in the perinatal period
+[P258] Other conditions related to interstitial emphysema originating in the perinatal period
+[P26] Pulmonary hemorrhage originating in the perinatal period -- **Excludes1:** - acute idiopathic hemorrhage in infants over 28 days old (R04.81)
+[P260] Tracheobronchial hemorrhage originating in the perinatal period
+[P261] Massive pulmonary hemorrhage originating in the perinatal period
+[P268] Other pulmonary hemorrhages originating in the perinatal period
+[P269] Unspecified pulmonary hemorrhage originating in the perinatal period
+[P27] Chronic respiratory disease originating in the perinatal period -- **Excludes2:** - respiratory distress of newborn (P22.0-P22.9)
+[P270] Wilson-Mikity syndrome -- **Inclusion terms:** - Pulmonary dysmaturity
+[P271] Bronchopulmonary dysplasia originating in the perinatal period
+[P278] Other chronic respiratory diseases originating in the perinatal period -- **Inclusion terms:** - Congenital pulmonary fibrosis - Ventilator lung in newborn
+[P279] Unspecified chronic respiratory disease originating in the perinatal period
+[P28] Other respiratory conditions originating in the perinatal period -- **Code also:** - , if applicable, congenital malformations of the respiratory system (Q30-Q34)
+[P280] Primary atelectasis of newborn -- **Inclusion terms:** - Primary failure to expand terminal respiratory units - Pulmonary hypoplasia associated with short gestation - Pulmonary immaturity NOS
+[P281] Other and unspecified atelectasis of newborn
+[P2810] Unspecified atelectasis of newborn -- **Inclusion terms:** - Atelectasis of newborn NOS
+[P2811] Resorption atelectasis without respiratory distress syndrome -- **Excludes1:** - resorption atelectasis with respiratory distress syndrome (P22.0)
+[P2819] Other atelectasis of newborn -- **Inclusion terms:** - Partial atelectasis of newborn - Secondary atelectasis of newborn
+[P282] Cyanotic attacks of newborn -- **Excludes1:** - apnea of newborn (P28.3- - P28.4-)
+[P283] Primary sleep apnea of newborn -- **Inclusion terms:** - Sleep apnea of newborn NOS  **Excludes2:** - other apnea of newborn (P28.4-)
+[P2830] Primary sleep apnea of newborn, unspecified -- **Inclusion terms:** - Transient oxygen desaturation spells of newborn during sleep
+[P2831] Primary central sleep apnea of newborn
+[P2832] Primary obstructive sleep apnea of newborn
+[P2833] Primary mixed sleep apnea of newborn
+[P2839] Other primary sleep apnea of newborn
+[P284] Other apnea of newborn -- **Excludes2:** - primary sleep apnea of newborn (P28.3-)
+[P2840] Unspecified apnea of newborn -- **Inclusion terms:** - Apnea of newborn, NOS - Transient oxygen desaturation spells of newborn
+[P2841] Central neonatal apnea of newborn
+[P2842] Obstructive apnea of newborn
+[P2843] Mixed neonatal apnea of newborn
+[P2849] Other apnea of newborn -- **Inclusion terms:** - Apnea of prematurity
+[P285] Respiratory failure of newborn -- **Excludes2:** - respiratory arrest of newborn (P28.81) - respiratory distress of newborn (P22.0)
+[P288] Other specified respiratory conditions of newborn
+[P2881] Respiratory arrest of newborn
+[P2889] Other specified respiratory conditions of newborn -- **Inclusion terms:** - Congenital laryngeal stridor - Sniffles in newborn - Snuffles in newborn  **Excludes1:** - early congenital syphilitic rhinitis (A50.05)
+[P289] Respiratory condition of newborn, unspecified -- **Inclusion terms:** - Respiratory depression in newborn
+[P29] Cardiovascular disorders originating in the perinatal period -- **Excludes2:** - congenital malformations of the circulatory system (Q20-Q28)
+[P290] Neonatal cardiac failure -- **Code also:** - associated underlying condition
+[P291] Neonatal cardiac dysrhythmia
+[P2911] Neonatal tachycardia
+[P2912] Neonatal bradycardia
+[P292] Neonatal hypertension
+[P293] Persistent fetal circulation
+[P2930] Pulmonary hypertension of newborn -- **Inclusion terms:** - Persistent pulmonary hypertension of newborn
+[P2938] Other persistent fetal circulation -- **Inclusion terms:** - Delayed closure of ductus arteriosus
+[P294] Transient myocardial ischemia in newborn
+[P298] Other cardiovascular disorders originating in the perinatal period
+[P2981] Cardiac arrest of newborn
+[P2989] Other cardiovascular disorders originating in the perinatal period
+[P299] Cardiovascular disorder originating in the perinatal period, unspecified
+[P35] Congenital viral diseases -- **Includes:** - infections acquired in utero or during birth
+[P350] Congenital rubella syndrome -- **Inclusion terms:** - Congenital rubella pneumonitis
+[P351] Congenital cytomegalovirus infection
+[P352] Congenital herpesviral [herpes simplex] infection
+[P353] Congenital viral hepatitis
+[P354] Congenital Zika virus disease -- **Use additional code:** - code to identify manifestations of congenital Zika virus disease
+[P358] Other congenital viral diseases -- **Inclusion terms:** - Congenital varicella [chickenpox]
+[P359] Congenital viral disease, unspecified
+[P36] Bacterial sepsis of newborn -- **Includes:** - congenital sepsis  **Use additional code:** - code(s), if applicable, to identify severe sepsis (R65.2-) and associated acute organ dysfunction(s)
+[P360] Sepsis of newborn due to streptococcus, group B
+[P361] Sepsis of newborn due to other and unspecified streptococci
+[P3610] Sepsis of newborn due to unspecified streptococci
+[P3619] Sepsis of newborn due to other streptococci
+[P362] Sepsis of newborn due to Staphylococcus aureus
+[P363] Sepsis of newborn due to other and unspecified staphylococci
+[P3630] Sepsis of newborn due to unspecified staphylococci
+[P3639] Sepsis of newborn due to other staphylococci
+[P364] Sepsis of newborn due to Escherichia coli
+[P365] Sepsis of newborn due to anaerobes
+[P368] Other bacterial sepsis of newborn -- **Use additional code:** - code from category B96 to identify organism
+[P369] Bacterial sepsis of newborn, unspecified
+[P37] Other congenital infectious and parasitic diseases -- **Excludes2:** - congenital syphilis (A50.-) - infectious neonatal diarrhea (A00-A09) - necrotizing enterocolitis in newborn (P77.-) - noninfectious neonatal diarrhea (P78.3) - ophthalmia neonatorum due to gonococcus (A54.31) - tetanus neonatorum (A33)
+[P370] Congenital tuberculosis
+[P371] Congenital toxoplasmosis -- **Inclusion terms:** - Hydrocephalus due to congenital toxoplasmosis
+[P372] Neonatal (disseminated) listeriosis
+[P373] Congenital falciparum malaria
+[P374] Other congenital malaria
+[P375] Neonatal candidiasis
+[P378] Other specified congenital infectious and parasitic diseases
+[P379] Congenital infectious or parasitic disease, unspecified
+[P38] Omphalitis of newborn -- **Excludes1:** - omphalitis not of newborn (L08.82) - tetanus omphalitis (A33) - umbilical hemorrhage of newborn (P51.-)
+[P381] Omphalitis with mild hemorrhage
+[P389] Omphalitis without hemorrhage -- **Inclusion terms:** - Omphalitis of newborn NOS
+[P39] Other infections specific to the perinatal period -- **Use additional code:** - code to identify organism or specific infection
+[P390] Neonatal infective mastitis -- **Excludes1:** - breast engorgement of newborn (P83.4) - noninfective mastitis of newborn (P83.4)
+[P391] Neonatal conjunctivitis and dacryocystitis -- **Inclusion terms:** - Neonatal chlamydial conjunctivitis - Ophthalmia neonatorum NOS  **Excludes1:** - gonococcal conjunctivitis (A54.31)
+[P392] Intra-amniotic infection affecting newborn, not elsewhere classified
+[P393] Neonatal urinary tract infection
+[P394] Neonatal skin infection -- **Inclusion terms:** - Neonatal pyoderma  **Excludes1:** - pemphigus neonatorum (L00) - staphylococcal scalded skin syndrome (L00)
+[P398] Other specified infections specific to the perinatal period
+[P399] Infection specific to the perinatal period, unspecified
+[P50] Newborn affected by intrauterine (fetal) blood loss -- **Excludes1:** - congenital anemia from intrauterine (fetal) blood loss (P61.3)
+[P500] Newborn affected by intrauterine (fetal) blood loss from vasa previa
+[P501] Newborn affected by intrauterine (fetal) blood loss from ruptured cord
+[P502] Newborn affected by intrauterine (fetal) blood loss from placenta
+[P503] Newborn affected by hemorrhage into co-twin
+[P504] Newborn affected by hemorrhage into maternal circulation
+[P505] Newborn affected by intrauterine (fetal) blood loss from cut end of co-twin's cord
+[P508] Newborn affected by other intrauterine (fetal) blood loss
+[P509] Newborn affected by intrauterine (fetal) blood loss, unspecified -- **Inclusion terms:** - Newborn affected by fetal hemorrhage NOS
+[P51] Umbilical hemorrhage of newborn -- **Excludes1:** - omphalitis with mild hemorrhage (P38.1) - umbilical hemorrhage from cut end of co-twins cord (P50.5)
+[P510] Massive umbilical hemorrhage of newborn
+[P518] Other umbilical hemorrhages of newborn -- **Inclusion terms:** - Slipped umbilical ligature NOS
+[P519] Umbilical hemorrhage of newborn, unspecified
+[P52] Intracranial nontraumatic hemorrhage of newborn -- **Includes:** - intracranial hemorrhage due to anoxia or hypoxia  **Excludes1:** - intracranial hemorrhage due to birth injury (P10.-) - intracranial hemorrhage due to other injury (S06.-)
+[P520] Intraventricular (nontraumatic) hemorrhage, grade 1, of newborn -- **Inclusion terms:** - Subependymal hemorrhage (without intraventricular extension) - Bleeding into germinal matrix
+[P521] Intraventricular (nontraumatic) hemorrhage, grade 2, of newborn -- **Inclusion terms:** - Subependymal hemorrhage with intraventricular extension - Bleeding into ventricle
+[P522] Intraventricular (nontraumatic) hemorrhage, grade 3 and grade 4, of newborn
+[P5221] Intraventricular (nontraumatic) hemorrhage, grade 3, of newborn -- **Inclusion terms:** - Subependymal hemorrhage with intraventricular extension with enlargement of ventricle
+[P5222] Intraventricular (nontraumatic) hemorrhage, grade 4, of newborn -- **Inclusion terms:** - Bleeding into cerebral cortex - Subependymal hemorrhage with intracerebral extension
+[P523] Unspecified intraventricular (nontraumatic) hemorrhage of newborn
+[P524] Intracerebral (nontraumatic) hemorrhage of newborn
+[P525] Subarachnoid (nontraumatic) hemorrhage of newborn
+[P526] Cerebellar (nontraumatic) and posterior fossa hemorrhage of newborn
+[P528] Other intracranial (nontraumatic) hemorrhages of newborn
+[P529] Intracranial (nontraumatic) hemorrhage of newborn, unspecified
+[P53] Hemorrhagic disease of newborn -- **Inclusion terms:** - Vitamin K deficiency of newborn
+[P54] Other neonatal hemorrhages -- **Excludes1:** - newborn affected by (intrauterine) blood loss (P50.-) - pulmonary hemorrhage originating in the perinatal period (P26.-)
+[P540] Neonatal hematemesis -- **Excludes1:** - neonatal hematemesis due to swallowed maternal blood (P78.2)
+[P541] Neonatal melena -- **Excludes1:** - neonatal melena due to swallowed maternal blood (P78.2)
+[P542] Neonatal rectal hemorrhage
+[P543] Other neonatal gastrointestinal hemorrhage
+[P544] Neonatal adrenal hemorrhage
+[P545] Neonatal cutaneous hemorrhage -- **Inclusion terms:** - Neonatal bruising - Neonatal ecchymoses - Neonatal petechiae - Neonatal superficial hematomata  **Excludes2:** - bruising of scalp due to birth injury (P12.3) - cephalhematoma due to birth injury (P12.0)
+[P546] Neonatal vaginal hemorrhage -- **Inclusion terms:** - Neonatal pseudomenses
+[P548] Other specified neonatal hemorrhages
+[P549] Neonatal hemorrhage, unspecified
+[P55] Hemolytic disease of newborn
+[P550] Rh isoimmunization of newborn
+[P551] ABO isoimmunization of newborn
+[P558] Other hemolytic diseases of newborn
+[P559] Hemolytic disease of newborn, unspecified
+[P56] Hydrops fetalis due to hemolytic disease -- **Excludes1:** - hydrops fetalis NOS (P83.2)
+[P560] Hydrops fetalis due to isoimmunization
+[P569] Hydrops fetalis due to other and unspecified hemolytic disease
+[P5690] Hydrops fetalis due to unspecified hemolytic disease
+[P5699] Hydrops fetalis due to other hemolytic disease
+[P57] Kernicterus
+[P570] Kernicterus due to isoimmunization
+[P578] Other specified kernicterus -- **Excludes1:** - Crigler-Najjar syndrome (E80.5)
+[P579] Kernicterus, unspecified
+[P58] Neonatal jaundice due to other excessive hemolysis -- **Excludes1:** - jaundice due to isoimmunization (P55-P57)
+[P580] Neonatal jaundice due to bruising
+[P581] Neonatal jaundice due to bleeding
+[P582] Neonatal jaundice due to infection
+[P583] Neonatal jaundice due to polycythemia
+[P584] Neonatal jaundice due to drugs or toxins transmitted from mother or given to newborn -- **Code first:** - poisoning due to drug or toxin, if applicable (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[P5841] Neonatal jaundice due to drugs or toxins transmitted from mother
+[P5842] Neonatal jaundice due to drugs or toxins given to newborn
+[P585] Neonatal jaundice due to swallowed maternal blood
+[P588] Neonatal jaundice due to other specified excessive hemolysis
+[P589] Neonatal jaundice due to excessive hemolysis, unspecified
+[P59] Neonatal jaundice from other and unspecified causes -- **Excludes1:** - jaundice due to inborn errors of metabolism (E70-E88) - kernicterus (P57.-)
+[P590] Neonatal jaundice associated with preterm delivery -- **Inclusion terms:** - Hyperbilirubinemia of prematurity - Jaundice due to delayed conjugation associated with preterm delivery
+[P591] Inspissated bile syndrome
+[P592] Neonatal jaundice from other and unspecified hepatocellular damage -- **Excludes1:** - congenital viral hepatitis (P35.3)
+[P5920] Neonatal jaundice from unspecified hepatocellular damage
+[P5929] Neonatal jaundice from other hepatocellular damage -- **Inclusion terms:** - Neonatal giant cell hepatitis - Neonatal (idiopathic) hepatitis
+[P593] Neonatal jaundice from breast milk inhibitor
+[P598] Neonatal jaundice from other specified causes
+[P599] Neonatal jaundice, unspecified -- **Inclusion terms:** - Neonatal physiological jaundice (intense)(prolonged) NOS
+[P60] Disseminated intravascular coagulation of newborn -- **Inclusion terms:** - Defibrination syndrome of newborn
+[P61] Other perinatal hematological disorders -- **Excludes1:** - transient hypogammaglobulinemia of infancy (D80.7)
+[P610] Transient neonatal thrombocytopenia -- **Inclusion terms:** - Neonatal thrombocytopenia due to exchange transfusion - Neonatal thrombocytopenia due to idiopathic maternal thrombocytopenia - Neonatal thrombocytopenia due to isoimmunization
+[P611] Polycythemia neonatorum
+[P612] Anemia of prematurity
+[P613] Congenital anemia from fetal blood loss
+[P614] Other congenital anemias, not elsewhere classified -- **Inclusion terms:** - Congenital anemia NOS
+[P615] Transient neonatal neutropenia -- **Excludes1:** - congenital neutropenia (nontransient) (D70.0)
+[P616] Other transient neonatal disorders of coagulation
+[P618] Other specified perinatal hematological disorders
+[P619] Perinatal hematological disorder, unspecified
+[P70] Transitory disorders of carbohydrate metabolism specific to newborn
+[P700] Syndrome of infant of mother with gestational diabetes -- **Inclusion terms:** - Newborn (with hypoglycemia) affected by maternal gestational diabetes  **Excludes1:** - newborn (with hypoglycemia) affected by maternal (pre-existing) diabetes mellitus (P70.1) - syndrome of infant of a diabetic mother (P70.1)
+[P701] Syndrome of infant of a diabetic mother -- **Inclusion terms:** - Newborn (with hypoglycemia) affected by maternal (pre-existing) diabetes mellitus  **Excludes1:** - newborn (with hypoglycemia) affected by maternal gestational diabetes (P70.0) - syndrome of infant of mother with gestational diabetes (P70.0)
+[P702] Neonatal diabetes mellitus
+[P703] Iatrogenic neonatal hypoglycemia
+[P704] Other neonatal hypoglycemia -- **Inclusion terms:** - Transitory neonatal hypoglycemia
+[P708] Other transitory disorders of carbohydrate metabolism of newborn
+[P709] Transitory disorder of carbohydrate metabolism of newborn, unspecified
+[P71] Transitory neonatal disorders of calcium and magnesium metabolism
+[P710] Cow's milk hypocalcemia in newborn
+[P711] Other neonatal hypocalcemia -- **Excludes1:** - neonatal hypoparathyroidism (P71.4)
+[P712] Neonatal hypomagnesemia
+[P713] Neonatal tetany without calcium or magnesium deficiency -- **Inclusion terms:** - Neonatal tetany NOS
+[P714] Transitory neonatal hypoparathyroidism
+[P718] Other transitory neonatal disorders of calcium and magnesium metabolism
+[P719] Transitory neonatal disorder of calcium and magnesium metabolism, unspecified
+[P72] Other transitory neonatal endocrine disorders -- **Excludes1:** - congenital hypothyroidism with or without goiter (E03.0-E03.1) - dyshormogenetic goiter (E07.1) - dyshormonogenetic goiter (E07.1) - Pendred's syndrome (E07.1)
+[P720] Neonatal goiter, not elsewhere classified -- **Inclusion terms:** - Transitory congenital goiter with normal functioning
+[P721] Transitory neonatal hyperthyroidism -- **Inclusion terms:** - Neonatal thyrotoxicosis
+[P722] Other transitory neonatal disorders of thyroid function, not elsewhere classified -- **Inclusion terms:** - Transitory neonatal hypothyroidism
+[P728] Other specified transitory neonatal endocrine disorders
+[P729] Transitory neonatal endocrine disorder, unspecified
+[P74] Other transitory neonatal electrolyte and metabolic disturbances
+[P740] Late metabolic acidosis of newborn -- **Excludes1:** - (fetal) metabolic acidosis of newborn (P19)
+[P741] Dehydration of newborn
+[P742] Disturbances of sodium balance of newborn
+[P7421] Hypernatremia of newborn
+[P7422] Hyponatremia of newborn
+[P743] Disturbances of potassium balance of newborn
+[P7431] Hyperkalemia of newborn
+[P7432] Hypokalemia of newborn
+[P744] Other transitory electrolyte disturbances of newborn
+[P7441] Alkalosis of newborn -- **Inclusion terms:** - Hyperbicarbonatemia
+[P7442] Disturbances of chlorine balance of newborn
+[P74421] Hyperchloremia of newborn -- **Inclusion terms:** - Hyperchloremic metabolic acidosis  **Excludes2:** - late metabolic acidosis of the newborn (P74.0)
+[P74422] Hypochloremia of newborn
+[P7449] Other transitory electrolyte disturbance of newborn
+[P745] Transitory tyrosinemia of newborn
+[P746] Transitory hyperammonemia of newborn
+[P748] Other transitory metabolic disturbances of newborn -- **Inclusion terms:** - Amino-acid metabolic disorders described as transitory
+[P749] Transitory metabolic disturbance of newborn, unspecified
+[P76] Other intestinal obstruction of newborn
+[P760] Meconium plug syndrome -- **Inclusion terms:** - Meconium ileus NOS  **Excludes1:** - meconium ileus in cystic fibrosis (E84.11)
+[P761] Transitory ileus of newborn -- **Excludes1:** - Hirschsprung's disease (Q43.1)
+[P762] Intestinal obstruction due to inspissated milk
+[P768] Other specified intestinal obstruction of newborn -- **Excludes1:** - intestinal obstruction classifiable to K56.-
+[P769] Intestinal obstruction of newborn, unspecified
+[P77] Necrotizing enterocolitis of newborn
+[P771] Stage 1 necrotizing enterocolitis in newborn -- **Inclusion terms:** - Necrotizing enterocolitis without pneumatosis, without perforation
+[P772] Stage 2 necrotizing enterocolitis in newborn -- **Inclusion terms:** - Necrotizing enterocolitis with pneumatosis, without perforation
+[P773] Stage 3 necrotizing enterocolitis in newborn -- **Inclusion terms:** - Necrotizing enterocolitis with perforation - Necrotizing enterocolitis with pneumatosis and perforation
+[P779] Necrotizing enterocolitis in newborn, unspecified -- **Inclusion terms:** - Necrotizing enterocolitis in newborn, NOS
+[P78] Other perinatal digestive system disorders -- **Excludes1:** - cystic fibrosis (E84.0-E84.9) - neonatal gastrointestinal hemorrhages (P54.0-P54.3)
+[P780] Perinatal intestinal perforation -- **Inclusion terms:** - Meconium peritonitis
+[P781] Other neonatal peritonitis -- **Inclusion terms:** - Neonatal peritonitis NOS
+[P782] Neonatal hematemesis and melena due to swallowed maternal blood
+[P783] Noninfective neonatal diarrhea -- **Inclusion terms:** - Neonatal diarrhea NOS
+[P788] Other specified perinatal digestive system disorders
+[P7881] Congenital cirrhosis (of liver)
+[P7882] Peptic ulcer of newborn
+[P7883] Newborn esophageal reflux -- **Inclusion terms:** - Neonatal esophageal reflux
+[P7884] Gestational alloimmune liver disease -- **Inclusion terms:** - GALD - Neonatal hemochromatosis  **Excludes1:** - hemochromatosis (E83.11-)
+[P7889] Other specified perinatal digestive system disorders
+[P789] Perinatal digestive system disorder, unspecified
+[P80] Hypothermia of newborn
+[P800] Cold injury syndrome -- **Inclusion terms:** - Severe and usually chronic hypothermia associated with a pink flushed appearance, edema and neurological and biochemical abnormalities.  **Excludes1:** - mild hypothermia of newborn (P80.8)
+[P808] Other hypothermia of newborn -- **Inclusion terms:** - Mild hypothermia of newborn
+[P809] Hypothermia of newborn, unspecified
+[P81] Other disturbances of temperature regulation of newborn
+[P810] Environmental hyperthermia of newborn
+[P818] Other specified disturbances of temperature regulation of newborn
+[P819] Disturbance of temperature regulation of newborn, unspecified -- **Inclusion terms:** - Fever of newborn NOS
+[P83] Other conditions of integument specific to newborn -- **Excludes1:** - congenital malformations of skin and integument (Q80-Q84) - hydrops fetalis due to hemolytic disease (P56.-) - neonatal skin infection (P39.4) - staphylococcal scalded skin syndrome (L00)  **Excludes2:** - cradle cap (L21.0) - diaper [napkin] dermatitis (L22)
+[P830] Sclerema neonatorum
+[P831] Neonatal erythema toxicum
+[P832] Hydrops fetalis not due to hemolytic disease -- **Inclusion terms:** - Hydrops fetalis NOS
+[P833] Other and unspecified edema specific to newborn
+[P8330] Unspecified edema specific to newborn
+[P8339] Other edema specific to newborn
+[P834] Breast engorgement of newborn -- **Inclusion terms:** - Noninfective mastitis of newborn
+[P835] Congenital hydrocele
+[P836] Umbilical polyp of newborn
+[P838] Other specified conditions of integument specific to newborn
+[P8381] Umbilical granuloma -- **Excludes2:** - Granulomatous disorder of the skin and subcutaneous tissue, unspecified (L92.9)
+[P8388] Other specified conditions of integument specific to newborn -- **Inclusion terms:** - Bronze baby syndrome - Neonatal scleroderma - Urticaria neonatorum
+[P839] Condition of the integument specific to newborn, unspecified
+[P84] Other problems with newborn -- **Inclusion terms:** - Acidemia of newborn - Acidosis of newborn - Anoxia of newborn NOS - Asphyxia of newborn NOS - Hypercapnia of newborn - Hypoxemia of newborn - Hypoxia of newborn NOS - Mixed metabolic and respiratory acidosis of newborn  **Excludes1:** - intracranial hemorrhage due to anoxia or hypoxia (P52.-) - hypoxic ischemic encephalopathy [HIE] (P91.6-) - late metabolic acidosis of newborn (P74.0)
+[P90] Convulsions of newborn -- **Excludes1:** - benign myoclonic epilepsy in infancy (G40.3-) - benign neonatal convulsions (familial) (G40.3-)
+[P91] Other disturbances of cerebral status of newborn
+[P910] Neonatal cerebral ischemia -- **Excludes1:** - Neonatal cerebral infarction (P91.82-)
+[P911] Acquired periventricular cysts of newborn
+[P912] Neonatal cerebral leukomalacia -- **Inclusion terms:** - Periventricular leukomalacia
+[P913] Neonatal cerebral irritability
+[P914] Neonatal cerebral depression
+[P915] Neonatal coma
+[P916] Hypoxic ischemic encephalopathy [HIE] -- **Excludes1:** - Neonatal cerebral depression (P91.4) - Neonatal cerebral irritability (P91.3) - Neonatal coma (P91.5)
+[P9160] Hypoxic ischemic encephalopathy [HIE], unspecified
+[P9161] Mild hypoxic ischemic encephalopathy [HIE]
+[P9162] Moderate hypoxic ischemic encephalopathy [HIE]
+[P9163] Severe hypoxic ischemic encephalopathy [HIE]
+[P918] Other specified disturbances of cerebral status of newborn
+[P9181] Neonatal encephalopathy
+[P91811] Neonatal encephalopathy in diseases classified elsewhere -- **Code first:** - underlying condition, if known, such as: - congenital cirrhosis (of liver) (P78.81) - intracranial nontraumatic hemorrhage of newborn (P52.-) - kernicterus (P57.-)
+[P91819] Neonatal encephalopathy, unspecified
+[P9182] Neonatal cerebral infarction -- **Inclusion terms:** - Neonatal stroke - Perinatal arterial ischemic stroke - Perinatal cerebral infarction  **Excludes1:** - cerebral infarction (I63.-)  **Excludes2:** - intracranial hemorrhage of newborn (P52.-)
+[P91821] Neonatal cerebral infarction, right side of brain
+[P91822] Neonatal cerebral infarction, left side of brain
+[P91823] Neonatal cerebral infarction, bilateral
+[P91829] Neonatal cerebral infarction, unspecified side
+[P9188] Other specified disturbances of cerebral status of newborn
+[P919] Disturbance of cerebral status of newborn, unspecified
+[P92] Feeding problems of newborn -- **Excludes1:** - eating disorders (F50.-)  **Excludes2:** - feeding problems in child over 28 days old (R63.3-)
+[P920] Vomiting of newborn -- **Excludes1:** - vomiting of child over 28 days old (R11.-)
+[P9201] Bilious vomiting of newborn -- **Excludes1:** - bilious vomiting in child over 28 days old (R11.14)
+[P9209] Other vomiting of newborn -- **Excludes1:** - regurgitation of food in newborn (P92.1)
+[P921] Regurgitation and rumination of newborn
+[P922] Slow feeding of newborn
+[P923] Underfeeding of newborn
+[P924] Overfeeding of newborn
+[P925] Neonatal difficulty in feeding at breast
+[P926] Failure to thrive in newborn -- **Excludes1:** - failure to thrive in child over 28 days old (R62.51)
+[P928] Other feeding problems of newborn
+[P929] Feeding problem of newborn, unspecified
+[P93] Reactions and intoxications due to drugs administered to newborn -- **Includes:** - reactions and intoxications due to drugs administered to fetus affecting newborn  **Excludes1:** - jaundice due to drugs or toxins transmitted from mother or given to newborn (P58.4-) - reactions and intoxications from maternal opiates, tranquilizers and other medication (P04.0-P04.1, P04.4-) - withdrawal symptoms from maternal use of drugs of addiction (P96.1) - withdrawal symptoms from therapeutic use of drugs in newborn (P96.2)
+[P930] Grey baby syndrome -- **Inclusion terms:** - Grey syndrome from chloramphenicol administration in newborn
+[P938] Other reactions and intoxications due to drugs administered to newborn -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[P94] Disorders of muscle tone of newborn
+[P940] Transient neonatal myasthenia gravis -- **Excludes1:** - myasthenia gravis (G70.0)
+[P941] Congenital hypertonia
+[P942] Congenital hypotonia -- **Inclusion terms:** - Floppy baby syndrome, unspecified
+[P948] Other disorders of muscle tone of newborn
+[P949] Disorder of muscle tone of newborn, unspecified
+[P95] Stillbirth -- **Inclusion terms:** - Deadborn fetus NOS - Fetal death of unspecified cause - Stillbirth NOS  **Excludes1:** - maternal care for intrauterine death (O36.4) - missed abortion (O02.1) - outcome of delivery, stillbirth (Z37.1, Z37.3, Z37.4, Z37.7)
+[P96] Other conditions originating in the perinatal period
+[P960] Congenital renal failure -- **Inclusion terms:** - Uremia of newborn
+[P961] Neonatal withdrawal symptoms from maternal use of drugs of addiction -- **Inclusion terms:** - Drug withdrawal syndrome in infant of dependent mother - Neonatal abstinence syndrome  **Excludes1:** - reactions and intoxications from maternal opiates and tranquilizers administered during labor and delivery (P04.0)
+[P962] Withdrawal symptoms from therapeutic use of drugs in newborn
+[P963] Wide cranial sutures of newborn -- **Inclusion terms:** - Neonatal craniotabes
+[P965] Complication to newborn due to (fetal) intrauterine procedure -- **Excludes2:** - newborn affected by amniocentesis (P00.6)
+[P968] Other specified conditions originating in the perinatal period
+[P9681] Exposure to (parental) (environmental) tobacco smoke in the perinatal period -- **Excludes2:** - newborn affected by in utero exposure to tobacco (P04.2) - exposure to environmental tobacco smoke after the perinatal period (Z77.22)
+[P9682] Delayed separation of umbilical cord
+[P9683] Meconium staining -- **Excludes1:** - meconium aspiration (P24.00, P24.01) - meconium passage during delivery (P03.82)
+[P9689] Other specified conditions originating in the perinatal period -- **Use additional code:** - code to specify condition
+[P969] Condition originating in the perinatal period, unspecified -- **Inclusion terms:** - Congenital debility NOS

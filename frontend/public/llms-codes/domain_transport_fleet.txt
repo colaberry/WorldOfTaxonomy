@@ -1,0 +1,17 @@
+[dtrnflt_assetlight] Asset-Light and Brokerage Models :: naics_2022:485, naics_2022:488
+[dtrnflt_assetlight_broker] Non-asset broker / freight forwarder (no owned fleet)
+[dtrnflt_assetlight_platform] Platform / digital freight broker (Convoy, Uber Freight)
+[dtrnflt_fleetop] Fleet Operator and Carrier-Owned Models :: naics_2022:485, naics_2022:488
+[dtrnflt_fleetop_captive] Captive carrier (private fleet owned by shipper company)
+[dtrnflt_fleetop_forprofit] For-profit common carrier fleet (asset-based trucking, airline)
+[dtrnflt_fleetop_publicfr] Public freight operator (rail, port authority-owned vessels)
+[dtrnflt_leasing] Leasing and Rental Fleet Models :: naics_2022:485, naics_2022:488
+[dtrnflt_leasing_finlease] Finance lease (effective ownership, on-balance sheet)
+[dtrnflt_leasing_fleet] Fleet management service (Ryder, Penske - full-service lease)
+[dtrnflt_leasing_operlease] Operating lease (no ownership risk, off-balance sheet)
+[dtrnflt_ownerop] Owner-Operator and Independent Contractor Models :: naics_2022:485, naics_2022:488
+[dtrnflt_ownerop_smallfleet] Small fleet owner (3-20 vehicles, family business)
+[dtrnflt_ownerop_solo] Solo owner-operator (1-3 vehicles, personal investment)
+[dtrnflt_public] Public and Government Fleet Models :: naics_2022:485, naics_2022:488
+[dtrnflt_public_school] School district and government fleet
+[dtrnflt_public_transit] Public transit authority fleet (municipal bus, metro rolling stock)

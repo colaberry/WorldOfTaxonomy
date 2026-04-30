@@ -1,0 +1,14 @@
+[PO] Population Health Types :: naics_2022:5415, naics_2022:6215
+[PO.01] Disease Surveillance
+[PO.02] Health Risk Stratification
+[PO.03] Care Gap Analysis
+[PO.04] Chronic Disease Management
+[PO.05] Preventive Health Program
+[PO.06] Community Health Assessment
+[PO.07] Health Equity Analysis
+[PO.08] Social Needs Screening
+[PO.09] Panel Management
+[PO.10] Quality Measure Reporting
+[PO.11] Predictive Analytics
+[PO.12] Patient Attribution Model
+[PO.13] Population Health Dashboard

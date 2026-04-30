@@ -1,0 +1,14 @@
+[PB] Product Liability Types :: naics_2022:5419
+[PB.01] Manufacturing Defect
+[PB.02] Design Defect
+[PB.03] Failure to Warn
+[PB.04] Strict Liability
+[PB.05] Negligence-Based Liability
+[PB.06] Breach of Warranty
+[PB.07] Class Action (Product)
+[PB.08] MDL (Multi-District Litigation)
+[PB.09] Product Recall Trigger
+[PB.10] CPSC Reporting
+[PB.11] Pharmaceutical Liability
+[PB.12] Automotive Recall
+[PB.13] Software/AI Liability

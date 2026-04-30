@@ -1,0 +1,18 @@
+[A] General and Unspecified
+[B] Blood and Blood-Forming Organs
+[D] Digestive
+[F] Eye
+[H] Ear
+[ICPC] ICPC-2 Chapters
+[K] Cardiovascular
+[L] Musculoskeletal
+[N] Neurological
+[P] Psychological
+[R] Respiratory
+[S] Skin
+[T] Endocrine/Metabolic
+[U] Urological
+[W] Pregnancy/Family Planning
+[X] Female Genital
+[Y] Male Genital
+[Z] Social Problems

@@ -1,0 +1,14 @@
+[CR] Copyright Category Types :: naics_2022:5411
+[CR.01] Literary Work
+[CR.02] Musical Work
+[CR.03] Dramatic Work
+[CR.04] Artistic Work
+[CR.05] Cinematographic Work
+[CR.06] Sound Recording
+[CR.07] Software Copyright
+[CR.08] Database Copyright
+[CR.09] Architectural Work
+[CR.10] Compilation/Collection
+[CR.11] Derivative Work
+[CR.12] Fair Use/Fair Dealing
+[CR.13] Creative Commons License

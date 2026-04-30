@@ -1,0 +1,14 @@
+[EE] EEO Category Types :: naics_2022:5613, naics_2022:5614
+[EE.01] Race and Ethnicity
+[EE.02] Gender
+[EE.03] Age (ADEA Protected)
+[EE.04] Disability Status (ADA)
+[EE.05] Veteran Status
+[EE.06] Religion
+[EE.07] National Origin
+[EE.08] Pregnancy Status
+[EE.09] Genetic Information (GINA)
+[EE.10] Sexual Orientation
+[EE.11] Gender Identity
+[EE.12] EEO-1 Report Category
+[EE.13] Adverse Impact Analysis

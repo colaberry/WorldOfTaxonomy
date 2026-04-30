@@ -1,0 +1,13 @@
+[LU] Labor Union Types :: naics_2022:5613, naics_2022:5614
+[LU.01] Craft Union
+[LU.02] Industrial Union
+[LU.03] General Union
+[LU.04] White-Collar Union
+[LU.05] Public Sector Union
+[LU.06] Trade Union Federation
+[LU.07] Enterprise Union
+[LU.08] Works Council
+[LU.09] Professional Association (Union)
+[LU.10] Union Density Rate
+[LU.11] Right-to-Work State
+[LU.12] Union Certification Process

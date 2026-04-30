@@ -1,0 +1,16 @@
+[drttxn_acquire] Acquisition and Investment :: naics_2022:531
+[drttxn_acquire_core] Core Acquisition (stabilized, low risk, low return)
+[drttxn_acquire_opp] Opportunistic Acquisition (distressed, development site)
+[drttxn_acquire_value] Value-Add Acquisition (repositioning, renovation)
+[drttxn_develop] Development and Construction :: naics_2022:531
+[drttxn_develop_adaptive] Adaptive Reuse (office to residential, historic conversion)
+[drttxn_develop_condo] Condominium Conversion and Subdivision
+[drttxn_develop_ground] Ground-Up Development (new construction from land)
+[drttxn_dispose] Disposition and Exit :: naics_2022:531
+[drttxn_dispose_1031] 1031 Like-Kind Exchange Transaction
+[drttxn_dispose_recap] Recapitalization (partial interest sale, JV recap)
+[drttxn_dispose_sale] Outright Sale (broker marketed, off-market)
+[drttxn_finance] Financing and Capital Transaction :: naics_2022:531
+[drttxn_finance_cmbs] CMBS and Agency (Fannie, Freddie, HUD) Financing
+[drttxn_finance_mezz] Mezzanine and Preferred Equity Placement
+[drttxn_finance_refi] Refinancing (rate/term, cash-out, construction perm)

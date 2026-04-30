@@ -1,0 +1,14 @@
+[BF] Beaufort Scale
+[BF.00] Force 0: Calm
+[BF.01] Force 1: Light Air
+[BF.02] Force 2: Light Breeze
+[BF.03] Force 3: Gentle Breeze
+[BF.04] Force 4: Moderate Breeze
+[BF.05] Force 5: Fresh Breeze
+[BF.06] Force 6: Strong Breeze
+[BF.07] Force 7: Near Gale
+[BF.08] Force 8: Gale
+[BF.09] Force 9: Strong Gale
+[BF.10] Force 10: Storm
+[BF.11] Force 11: Violent Storm
+[BF.12] Force 12: Hurricane Force

@@ -1,0 +1,18 @@
+[evt_format] Event Formats :: naics_2022:711, naics_2022:713
+[evt_format_hybrid] Hybrid events
+[evt_format_inperson] In-person events
+[evt_format_popup] Pop-up experiences
+[evt_format_virtual] Virtual events
+[evt_svc] Event Services :: naics_2022:711, naics_2022:713
+[evt_svc_analytics] Event analytics and ROI measurement
+[evt_svc_av] Audio-visual production
+[evt_svc_cater] Catering and hospitality
+[evt_svc_market] Event marketing and promotion
+[evt_svc_reg] Registration and ticketing
+[evt_svc_venue] Venue management
+[evt_type] Event Types :: naics_2022:711, naics_2022:713
+[evt_type_concert] Concerts and festivals
+[evt_type_corp] Corporate events (conferences, retreats)
+[evt_type_social] Social events (weddings, galas)
+[evt_type_sport] Sporting events
+[evt_type_trade] Trade shows and exhibitions

@@ -1,0 +1,14 @@
+[AA] AACSB Standards
+[AA.01] Strategic Management and Innovation
+[AA.02] Learner Success
+[AA.03] Thought Leadership
+[AA.04] Engagement and Societal Impact
+[AA.05] Faculty Qualifications
+[AA.06] Scholarly Academics (SA)
+[AA.07] Practice Academics (PA)
+[AA.08] Scholarly Practitioners (SP)
+[AA.09] Instructional Practitioners (IP)
+[AA.10] Curriculum Management
+[AA.11] Assurance of Learning
+[AA.12] Teaching Effectiveness
+[AA.13] Student/Stakeholder Engagement

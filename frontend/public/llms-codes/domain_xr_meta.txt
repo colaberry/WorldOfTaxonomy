@@ -1,0 +1,27 @@
+[dxr_ar] Augmented Reality (AR) :: naics_2022:5121, naics_2022:7139
+[dxr_ar_glasses] AR Smart Glasses (industrial - RealWear, Google Glass)
+[dxr_ar_hud] Heads-Up Displays (HUD) for Vehicles and Aviation
+[dxr_ar_mobile] Mobile AR (ARKit, ARCore, Snapchat, Instagram lenses)
+[dxr_content] XR Content and Experiences :: naics_2022:5121, naics_2022:7139
+[dxr_content_event] Virtual Events, Concerts and Social XR
+[dxr_content_game] XR Gaming and Entertainment
+[dxr_content_train] Enterprise XR Training and Simulation
+[dxr_dt] Digital Twins :: naics_2022:5121, naics_2022:7139
+[dxr_dt_city] City and Infrastructure Digital Twins
+[dxr_dt_industrial] Industrial Digital Twins (factory, asset, process)
+[dxr_dt_product] Product and Lifecycle Digital Twins (PLM, simulation)
+[dxr_hw] XR Hardware and Components :: naics_2022:5121, naics_2022:7139
+[dxr_hw_display] XR Displays (micro-OLED, micro-LED, waveguide optics)
+[dxr_hw_haptic] Haptics and Force Feedback Devices
+[dxr_hw_track] Tracking and Sensing (inside-out, eye-tracking, hand)
+[dxr_mr] Mixed Reality (MR) and Spatial Computing :: naics_2022:5121, naics_2022:7139
+[dxr_mr_headset] Mixed Reality Headsets (HoloLens, Apple Vision Pro)
+[dxr_mr_spatial] Spatial Computing Platforms and Frameworks
+[dxr_plat] XR Platforms and App Ecosystems :: naics_2022:5121, naics_2022:7139
+[dxr_plat_meta] Open Metaverse Platforms (Horizon Worlds, Decentraland)
+[dxr_plat_sdk] XR Developer SDKs and Toolkits (OpenXR, WebXR)
+[dxr_plat_store] XR App Stores and Content Marketplaces
+[dxr_vr] Virtual Reality (VR) :: naics_2022:5121, naics_2022:7139
+[dxr_vr_cave] CAVE and Room-Scale VR (enterprise, training, sim)
+[dxr_vr_standalone] Standalone VR Headsets (Meta Quest, PICO, HTC Vive)
+[dxr_vr_tethered] Tethered VR Headsets (PC VR, PlayStation VR)

@@ -1,0 +1,18 @@
+[dwkfinc_fatality] Fatalities and Life-Altering Events :: naics_2022:5613, naics_2022:622
+[dwkfinc_fatality_amputation] Work-related amputation or loss of an eye (OSHA severe injury)
+[dwkfinc_fatality_workfatal] Work-related fatality (death on or from workplace cause)
+[dwkfinc_firstaid] First Aid Only Cases :: naics_2022:5613, naics_2022:622
+[dwkfinc_firstaid_minor] Minor injury treated on-site (cut, bruise, minor sprain)
+[dwkfinc_firstaid_nonrecordable] Non-recordable first aid (single-visit treatment only)
+[dwkfinc_nearmiss] Near Misses and Unsafe Conditions :: naics_2022:5613, naics_2022:622
+[dwkfinc_nearmiss_close] Close call (potential for injury but no contact/harm)
+[dwkfinc_nearmiss_obs] Safety observation (positive or negative field observation)
+[dwkfinc_nearmiss_unsafe] Unsafe condition (hazard identified, no incident yet)
+[dwkfinc_property] Property Damage and Environmental Events :: naics_2022:5613, naics_2022:622
+[dwkfinc_property_spill] Chemical spill or environmental release (reportable or not)
+[dwkfinc_property_vehicle] Vehicle or equipment damage incident
+[dwkfinc_recordable] OSHA Recordable Injuries and Illnesses :: naics_2022:5613, naics_2022:622
+[dwkfinc_recordable_illness] Occupational illness (OSHA 300 Column M: skin, respiratory, poisoning)
+[dwkfinc_recordable_losttime] Lost-time incident (DART case, days away from work)
+[dwkfinc_recordable_medical] Medical treatment beyond first aid (other recordable)
+[dwkfinc_recordable_restricted] Restricted work or job transfer case (RWTD case)

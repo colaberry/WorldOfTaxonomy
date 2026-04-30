@@ -1,0 +1,14 @@
+[WQ] Water Quality Index Types :: naics_2022:5417, naics_2022:924
+[WQ.01] pH Level
+[WQ.02] Dissolved Oxygen (DO)
+[WQ.03] Biochemical Oxygen Demand (BOD)
+[WQ.04] Chemical Oxygen Demand (COD)
+[WQ.05] Total Dissolved Solids (TDS)
+[WQ.06] Turbidity
+[WQ.07] Fecal Coliform Count
+[WQ.08] Nitrate Level
+[WQ.09] Phosphate Level
+[WQ.10] Heavy Metal Content
+[WQ.11] Chlorine Residual
+[WQ.12] Total Suspended Solids (TSS)
+[WQ.13] PFAS Detection

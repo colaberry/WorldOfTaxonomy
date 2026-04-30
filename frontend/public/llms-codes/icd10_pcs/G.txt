@@ -1,0 +1,42 @@
+[G] Mental Health -- ICD-10-PCS section (Mental Health). Top-level grouping of procedure codes; sub-nodes break down by body system, operation, and detailed code.
+[GZ] Mental Health -- Body system (Mental Health) within ICD-10-PCS section 'Mental Health'. Aggregator of root-operation tables for this body system.
+[GZ1] Mental Health, Psychological Tests -- The administration and interpretation of standardized psychological tests and measurement instruments for the assessment of psychological function
+[GZ10ZZZ] Psychological Tests, Developmental -- The administration and interpretation of standardized psychological tests and measurement instruments for the assessment of psychological function
+[GZ11ZZZ] Psychological Tests, Personality and Behavioral -- The administration and interpretation of standardized psychological tests and measurement instruments for the assessment of psychological function
+[GZ12ZZZ] Psychological Tests, Intellectual and Psychoeducational -- The administration and interpretation of standardized psychological tests and measurement instruments for the assessment of psychological function
+[GZ13ZZZ] Psychological Tests, Neuropsychological -- The administration and interpretation of standardized psychological tests and measurement instruments for the assessment of psychological function
+[GZ14ZZZ] Psychological Tests, Neurobehavioral and Cognitive Status -- The administration and interpretation of standardized psychological tests and measurement instruments for the assessment of psychological function
+[GZ2] Mental Health, Crisis Intervention -- Treatment of a traumatized, acutely disturbed or distressed individual for the purpose of short-term stabilization
+[GZ2ZZZZ] Crisis Intervention -- Treatment of a traumatized, acutely disturbed or distressed individual for the purpose of short-term stabilization
+[GZ3] Mental Health, Medication Management -- Monitoring and adjusting the use of medications for the treatment of a mental health disorder
+[GZ3ZZZZ] Medication Management -- Monitoring and adjusting the use of medications for the treatment of a mental health disorder
+[GZ5] Mental Health, Individual Psychotherapy -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ50ZZZ] Individual Psychotherapy, Interactive -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ51ZZZ] Individual Psychotherapy, Behavioral -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ52ZZZ] Individual Psychotherapy, Cognitive -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ53ZZZ] Individual Psychotherapy, Interpersonal -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ54ZZZ] Individual Psychotherapy, Psychoanalysis -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ55ZZZ] Individual Psychotherapy, Psychodynamic -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ56ZZZ] Individual Psychotherapy, Supportive -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ58ZZZ] Individual Psychotherapy, Cognitive-Behavioral -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ59ZZZ] Individual Psychotherapy, Psychophysiological -- Treatment of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ6] Mental Health, Counseling -- The application of psychological methods to treat an individual with normal developmental issues and psychological problems in order to increase function, improve well-being, alleviate distress, maladjustment or resolve crises
+[GZ60ZZZ] Educational Counseling -- The application of psychological methods to treat an individual with normal developmental issues and psychological problems in order to increase function, improve well-being, alleviate distress, maladjustment or resolve crises
+[GZ61ZZZ] Vocational Counseling -- The application of psychological methods to treat an individual with normal developmental issues and psychological problems in order to increase function, improve well-being, alleviate distress, maladjustment or resolve crises
+[GZ63ZZZ] Other Counseling -- The application of psychological methods to treat an individual with normal developmental issues and psychological problems in order to increase function, improve well-being, alleviate distress, maladjustment or resolve crises
+[GZ7] Mental Health, Family Psychotherapy -- Treatment that includes one or more family members of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZ72ZZZ] Family Psychotherapy -- Treatment that includes one or more family members of an individual with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZB] Mental Health, Electroconvulsive Therapy -- The application of controlled electrical voltages to treat a mental health disorder
+[GZB0ZZZ] Electroconvulsive Therapy, Unilateral-Single Seizure -- The application of controlled electrical voltages to treat a mental health disorder
+[GZB2ZZZ] Electroconvulsive Therapy, Bilateral-Single Seizure -- The application of controlled electrical voltages to treat a mental health disorder
+[GZB4ZZZ] Other Electroconvulsive Therapy -- The application of controlled electrical voltages to treat a mental health disorder
+[GZC] Mental Health, Biofeedback -- Provision of information from the monitoring and regulating of physiological processes in conjunction with cognitive-behavioral techniques to improve patient functioning or well-being
+[GZC9ZZZ] Biofeedback -- Provision of information from the monitoring and regulating of physiological processes in conjunction with cognitive-behavioral techniques to improve patient functioning or well-being
+[GZF] Mental Health, Hypnosis -- Induction of a state of heightened suggestibility by auditory, visual and tactile techniques to elicit an emotional or behavioral response
+[GZFZZZZ] Hypnosis -- Induction of a state of heightened suggestibility by auditory, visual and tactile techniques to elicit an emotional or behavioral response
+[GZG] Mental Health, Narcosynthesis -- Administration of intravenous barbiturates in order to release suppressed or repressed thoughts
+[GZGZZZZ] Narcosynthesis -- Administration of intravenous barbiturates in order to release suppressed or repressed thoughts
+[GZH] Mental Health, Group Psychotherapy -- Treatment of two or more individuals with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZHZZZZ] Group Psychotherapy -- Treatment of two or more individuals with a mental health disorder by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means to improve functioning or well-being
+[GZJ] Mental Health, Light Therapy -- Application of specialized light treatments to improve functioning or well-being
+[GZJZZZZ] Light Therapy -- Application of specialized light treatments to improve functioning or well-being

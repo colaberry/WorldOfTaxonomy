@@ -1,0 +1,17 @@
+[sm_class] Soil Classification :: naics_2022:111
+[sm_class_drain] Drainage classification
+[sm_class_order] USDA Soil Taxonomy orders
+[sm_class_ph] pH classification (acidic, neutral, alkaline)
+[sm_class_text] Texture classification (sand, silt, clay)
+[sm_pract] Management Practices :: naics_2022:111
+[sm_pract_biochar] Biochar application
+[sm_pract_compost] Composting and organic amendments
+[sm_pract_cover] Cover cropping
+[sm_pract_drain] Drainage and irrigation management
+[sm_pract_terrace] Terracing and contour farming
+[sm_pract_till] Tillage practices (conventional, reduced, no-till)
+[sm_test] Soil Testing :: naics_2022:111
+[sm_test_bio] Soil biology and microbial analysis
+[sm_test_cec] Cation exchange capacity (CEC)
+[sm_test_nutri] Nutrient analysis (N, P, K, micronutrients)
+[sm_test_om] Organic matter testing

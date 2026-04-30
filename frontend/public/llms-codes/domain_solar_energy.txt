@@ -1,0 +1,19 @@
+[sol_app] Applications :: naics_2022:2211
+[sol_app_agri] Agrivoltaics (solar + agriculture)
+[sol_app_comm] Commercial rooftop solar
+[sol_app_comm_g] Community solar (shared)
+[sol_app_float] Floating solar (floatovoltaics)
+[sol_app_res] Residential rooftop solar
+[sol_app_util] Utility-scale solar farm
+[sol_biz] Business Models :: naics_2022:2211
+[sol_biz_comm_s] Community solar subscription
+[sol_biz_lease] Solar lease
+[sol_biz_own] Direct ownership
+[sol_biz_ppa] Power purchase agreement (PPA)
+[sol_tech] Solar Technology :: naics_2022:2211
+[sol_tech_bipv] Building-integrated PV (BIPV)
+[sol_tech_csp] Concentrated solar power (CSP)
+[sol_tech_mono] Monocrystalline silicon PV
+[sol_tech_pero] Perovskite solar cells
+[sol_tech_poly] Polycrystalline silicon PV
+[sol_tech_thin] Thin-film PV (CdTe, CIGS, a-Si)

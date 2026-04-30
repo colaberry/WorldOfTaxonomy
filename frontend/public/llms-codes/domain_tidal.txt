@@ -1,0 +1,13 @@
+[TE] Tidal Energy Types :: naics_2022:2211
+[TE.01] Tidal Barrage
+[TE.02] Tidal Stream Turbine
+[TE.03] Tidal Lagoon
+[TE.04] Horizontal Axis Turbine
+[TE.05] Vertical Axis Turbine
+[TE.06] Oscillating Water Column
+[TE.07] Tidal Kite System
+[TE.08] Venturi Effect Device
+[TE.09] Tidal Fence
+[TE.10] Marine Current Energy
+[TE.11] Tidal Range Assessment
+[TE.12] Environmental Impact (Tidal)

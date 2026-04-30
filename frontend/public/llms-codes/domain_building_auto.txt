@@ -1,0 +1,16 @@
+[ba_ctrl] Control Types :: naics_2022:236, naics_2022:237, naics_2022:238
+[ba_ctrl_ddc] Direct digital control (DDC)
+[ba_ctrl_opt] Optimal start/stop
+[ba_ctrl_pid] PID loop control
+[ba_ctrl_seq] Sequence of operations
+[ba_level] System Levels :: naics_2022:236, naics_2022:237, naics_2022:238
+[ba_level_auto] Automation level (controllers)
+[ba_level_enter] Enterprise level (analytics, cloud)
+[ba_level_field] Field level (sensors, actuators)
+[ba_level_mgmt] Management level (BMS workstation)
+[ba_proto] Communication Protocols :: naics_2022:236, naics_2022:237, naics_2022:238
+[ba_proto_bacnet] BACnet (ASHRAE 135)
+[ba_proto_knx] KNX
+[ba_proto_lonworks] LonWorks
+[ba_proto_modbus] Modbus (RTU, TCP/IP)
+[ba_proto_mqtt] MQTT and REST API (IoT protocols)

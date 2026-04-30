@@ -1,0 +1,19 @@
+[mdc_reg] Regulatory Pathways :: naics_2022:3345, naics_2022:3391
+[mdc_reg_510k] 510(k) premarket notification
+[mdc_reg_ce] CE marking (EU MDR)
+[mdc_reg_denovo] De Novo classification
+[mdc_reg_hde] Humanitarian device exemption
+[mdc_reg_pma] Premarket approval (PMA)
+[mdc_risk] Risk Classification :: naics_2022:3345, naics_2022:3391
+[mdc_risk_1] Class I (low risk, general controls)
+[mdc_risk_2] Class II (moderate risk, special controls)
+[mdc_risk_3] Class III (high risk, premarket approval)
+[mdc_type] Device Categories :: naics_2022:3345, naics_2022:3391
+[mdc_type_comb] Combination products (drug-device)
+[mdc_type_diag] Diagnostic devices (in vitro, imaging)
+[mdc_type_ivd] In vitro diagnostics (IVD)
+[mdc_type_life] Life support and resuscitation
+[mdc_type_mon] Patient monitoring devices
+[mdc_type_soft] Software as medical device (SaMD)
+[mdc_type_surg] Surgical instruments and tools
+[mdc_type_ther] Therapeutic devices (implants, prosthetics)

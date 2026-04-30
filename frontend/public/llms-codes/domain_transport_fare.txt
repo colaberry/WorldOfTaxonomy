@@ -1,0 +1,18 @@
+[dtrnfar_dynamic] Dynamic and Surge Pricing :: naics_2022:485, naics_2022:488
+[dtrnfar_dynamic_congestion] Cordon congestion pricing (London, Stockholm, NYC)
+[dtrnfar_dynamic_surge] Surge / dynamic pricing (Uber, Lyft multiplier pricing)
+[dtrnfar_dynamic_yield] Yield management (airline, intercity rail revenue mgmt)
+[dtrnfar_flat] Fixed and Flat-Rate Fare Structures :: naics_2022:485, naics_2022:488
+[dtrnfar_flat_free] Zero-fare / free transit (city-funded fare-free systems)
+[dtrnfar_flat_single] Single flat fare per trip (local bus, metro flat-fare zone)
+[dtrnfar_regulated] Government-Regulated and Subsidized Fare Models :: naics_2022:485, naics_2022:488
+[dtrnfar_regulated_discount] Concessionary fares (seniors, students, disabled riders)
+[dtrnfar_regulated_freight] Regulated freight tariffs (rail common carrier pricing)
+[dtrnfar_regulated_pub] Publicly-set fares (regulated transit authority pricing)
+[dtrnfar_subscription] Subscription and Pass Models :: naics_2022:485, naics_2022:488
+[dtrnfar_subscription_mobility] Mobility-as-a-Service (MaaS) bundle subscriptions
+[dtrnfar_subscription_monthly] Monthly transit pass (unlimited or capped trips)
+[dtrnfar_zonal] Zone-Based and Distance-Based Fare Structures :: naics_2022:485, naics_2022:488
+[dtrnfar_zonal_distance] Distance-based fare: cents/mile or per-km tariff
+[dtrnfar_zonal_origin] Origin-destination matrix pricing
+[dtrnfar_zonal_zone] Zone fare: price by number of zones crossed (London TfL)

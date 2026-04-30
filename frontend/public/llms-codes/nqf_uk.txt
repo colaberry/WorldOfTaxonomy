@@ -1,0 +1,14 @@
+[NQ] NQF Levels
+[NQ.01] Entry Level 1
+[NQ.02] Entry Level 2
+[NQ.03] Entry Level 3
+[NQ.04] Level 1 (GCSE D-G)
+[NQ.05] Level 2 (GCSE A*-C)
+[NQ.06] Level 3 (A-Level)
+[NQ.07] Level 4 (HNC/CertHE)
+[NQ.08] Level 5 (HND/FdA)
+[NQ.09] Level 6 (Bachelor)
+[NQ.10] Level 7 (Master)
+[NQ.11] Level 8 (Doctorate)
+[NQ.12] T Levels
+[NQ.13] Functional Skills

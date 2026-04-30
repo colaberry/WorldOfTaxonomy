@@ -1,0 +1,17 @@
+[dspreg_debris] Space Debris Mitigation and Orbital Sustainability :: naics_2022:3364, naics_2022:5415
+[dspreg_debris_esa] ESA Zero Debris Charter and sustainable design criteria
+[dspreg_debris_fcc] FCC 5-year deorbit rule (2022 Order for LEO sats)
+[dspreg_debris_iadc] IADC 25-year rule and passivation requirements
+[dspreg_launch] Launch and Re-entry Licensing :: naics_2022:3364, naics_2022:5415
+[dspreg_launch_eu] EU national launch authorizations (France, Germany, Netherlands)
+[dspreg_launch_faa] FAA AST launch operator and vehicle licenses (14 CFR Part 450)
+[dspreg_launch_uk] UK Space Industry Act 2018 - launch from UK territory
+[dspreg_national] National Space Legislation and Authorization :: naics_2022:3364, naics_2022:5415
+[dspreg_national_liab] Liability Convention - state liability for damage by space objects
+[dspreg_national_ost] Outer Space Treaty Art VI - national authorization and supervision
+[dspreg_national_remote] Remote sensing data laws (US NOAA, Landsat, commercial policy)
+[dspreg_spectrum] Radio Frequency / Spectrum Coordination :: naics_2022:3364, naics_2022:5415
+[dspreg_spectrum_fcc] FCC Part 25 satellite communications licensing (US)
+[dspreg_spectrum_itu] ITU Radio Regulations coordination (filing, MIFR notification)
+[dspreg_spectrum_ofcom] UK Ofcom earth station and satellite authorizations
+[dspreg_spectrum_rr] ITU Radio Regulations Article 44 - equitable access

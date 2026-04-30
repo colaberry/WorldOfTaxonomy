@@ -1,0 +1,16 @@
+[desperf_energydens] Energy Density and Capacity :: naics_2022:2211, naics_2022:3359
+[desperf_energydens_grav] Gravimetric energy density (Wh/kg) - weight-sensitive applications
+[desperf_energydens_sys] System-level energy capacity (kWh to GWh total storage)
+[desperf_energydens_vol] Volumetric energy density (Wh/L) - space-constrained applications
+[desperf_lifetime] Cycle Life and Calendar Life :: naics_2022:2211, naics_2022:3359
+[desperf_lifetime_calendar] Calendar life (years of useful service, degradation rate)
+[desperf_lifetime_cycles] Cycle life (number of charge-discharge cycles at EOL capacity)
+[desperf_lifetime_warranted] Warranted throughput (MWh guaranteed, annual degradation guarantee)
+[desperf_power] Power Density and Response Speed :: naics_2022:2211, naics_2022:3359
+[desperf_power_crate] C-rate capability (1C, 2C, 4C charge/discharge rates)
+[desperf_power_density] Power density (W/kg or W/L) - high-rate applications
+[desperf_power_response] Response time (milliseconds for frequency regulation)
+[desperf_safety] Safety, Thermal and Environmental :: naics_2022:2211, naics_2022:3359
+[desperf_safety_fire] Fire safety and thermal runaway propagation containment
+[desperf_safety_recycling] End-of-life recycling and second-life repurposing options
+[desperf_safety_thermal] Thermal management requirements (liquid cooling, phase change)

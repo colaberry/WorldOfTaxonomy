@@ -1,0 +1,17 @@
+[NS] Nursing Specialty Types :: naics_2022:6211, naics_2022:6221
+[NS.01] Critical Care Nursing
+[NS.02] Emergency Nursing
+[NS.03] Pediatric Nursing
+[NS.04] Oncology Nursing
+[NS.05] Psychiatric-Mental Health
+[NS.06] Perioperative Nursing
+[NS.07] Neonatal Nursing
+[NS.08] Gerontological Nursing
+[NS.09] Community Health Nursing
+[NS.10] Home Health Nursing
+[NS.11] Hospice and Palliative
+[NS.12] Cardiac-Vascular Nursing
+[NS.13] Nurse Practitioner
+[NS.14] Nurse Anesthetist (CRNA)
+[NS.15] Nurse Midwife
+[NS.16] Infection Control Nursing

@@ -1,0 +1,17 @@
+[ML] MLOps Types :: naics_2022:5419
+[ML.01] Model Training Pipeline
+[ML.02] Model Serving Infrastructure
+[ML.03] Experiment Tracking
+[ML.04] Model Monitoring
+[ML.05] Data Drift Detection
+[ML.06] Model Drift Detection
+[ML.07] A/B Testing (Model)
+[ML.08] Shadow Deployment
+[ML.09] Model Explainability
+[ML.10] Feature Pipeline
+[ML.11] Training Data Management
+[ML.12] Model Compression
+[ML.13] Edge ML Deployment
+[ML.14] LLMOps
+[ML.15] ML Platform Architecture
+[ML.16] Responsible AI Pipeline

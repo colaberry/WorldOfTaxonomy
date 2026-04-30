@@ -1,0 +1,16 @@
+[ea_area] Audit Areas :: naics_2022:2211
+[ea_area_envelope] Building envelope assessment
+[ea_area_hvac] HVAC system assessment
+[ea_area_light] Lighting assessment
+[ea_area_plug] Plug load assessment
+[ea_area_process] Process energy assessment
+[ea_area_renew] Renewable energy feasibility
+[ea_cert] Certifications and Standards :: naics_2022:2211
+[ea_cert_ashrae] ASHRAE Level I/II/III standards
+[ea_cert_iso50001] ISO 50001 energy management
+[ea_cert_leed] LEED energy credits
+[ea_cert_star] ENERGY STAR certification
+[ea_level] Audit Levels :: naics_2022:2211
+[ea_level_invest] Level 3 - Investment-grade audit
+[ea_level_standard] Level 2 - Standard energy audit
+[ea_level_walk] Level 1 - Walk-through audit

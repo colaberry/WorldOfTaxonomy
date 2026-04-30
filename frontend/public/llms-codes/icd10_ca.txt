@@ -1,0 +1,23 @@
+[I] Certain infectious and parasitic diseases
+[ICD10CA] ICD-10-CA Chapters
+[II] Neoplasms
+[III] Blood diseases and immune disorders
+[IV] Endocrine, nutritional and metabolic
+[IX] Circulatory system diseases
+[V] Mental and behavioural disorders
+[VI] Nervous system diseases
+[VII] Eye and adnexa diseases
+[VIII] Ear and mastoid diseases
+[X] Respiratory system diseases
+[XI] Digestive system diseases
+[XII] Skin and subcutaneous tissue
+[XIII] Musculoskeletal and connective tissue
+[XIV] Genitourinary system
+[XIX] Injury, poisoning and external causes
+[XV] Pregnancy, childbirth and puerperium
+[XVI] Perinatal conditions
+[XVII] Congenital malformations
+[XVIII] Symptoms and abnormal findings
+[XX] External causes of morbidity
+[XXI] Health status and health services
+[XXII] Special purpose codes

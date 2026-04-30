@@ -1,0 +1,15 @@
+[CD] Companion Diagnostic Types :: naics_2022:5419
+[CD.01] IHC-Based CDx
+[CD.02] FISH-Based CDx
+[CD.03] PCR-Based CDx
+[CD.04] NGS-Based CDx
+[CD.05] ISH-Based CDx
+[CD.06] Gene Expression CDx
+[CD.07] Protein Expression CDx
+[CD.08] Mutation Detection CDx
+[CD.09] Microsatellite Instability CDx
+[CD.10] Tumor Mutational Burden
+[CD.11] PD-L1 Expression CDx
+[CD.12] HER2 CDx
+[CD.13] Multi-Gene Panel CDx
+[CD.14] Liquid Biopsy CDx

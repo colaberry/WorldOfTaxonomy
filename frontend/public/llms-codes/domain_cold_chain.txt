@@ -1,0 +1,14 @@
+[CC] Cold Chain Types :: naics_2022:1151, naics_2022:4931
+[CC.01] Refrigerated Truck
+[CC.02] Reefer Container
+[CC.03] Cold Storage Warehouse
+[CC.04] Blast Freezer
+[CC.05] Controlled Atmosphere Storage
+[CC.06] Cryogenic Transport
+[CC.07] Phase Change Material (PCM)
+[CC.08] Temperature Logger/IoT
+[CC.09] GDP Compliance (Pharma)
+[CC.10] HACCP Cold Chain
+[CC.11] Last-Mile Cold Delivery
+[CC.12] Vaccine Cold Chain
+[CC.13] Dry Ice Shipping

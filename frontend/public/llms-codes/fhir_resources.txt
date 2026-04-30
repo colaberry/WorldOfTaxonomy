@@ -1,0 +1,15 @@
+[FH] FHIR Resource Categories
+[FH.01] Foundation: Bundle, OperationOutcome
+[FH.02] Base: Patient, Practitioner, Organization
+[FH.03] Clinical: Condition, Procedure, Observation
+[FH.04] Diagnostics: DiagnosticReport, Specimen
+[FH.05] Medications: MedicationRequest, Immunization
+[FH.06] Workflow: Task, Appointment, Schedule
+[FH.07] Financial: Claim, Coverage, ExplanationOfBenefit
+[FH.08] Conformance: CapabilityStatement, StructureDefinition
+[FH.09] Terminology: CodeSystem, ValueSet, ConceptMap
+[FH.10] Security: AuditEvent, Provenance, Consent
+[FH.11] Documents: Composition, DocumentReference
+[FH.12] Exchange: MessageHeader, Subscription
+[FH.13] Public Health: MeasureReport, Library
+[FH.14] Research: ResearchStudy, ResearchSubject

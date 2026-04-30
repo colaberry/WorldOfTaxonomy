@@ -1,0 +1,14 @@
+[MR] Model Registry Types :: naics_2022:5419
+[MR.01] Model Version Control
+[MR.02] Model Metadata Store
+[MR.03] Model Artifact Storage
+[MR.04] Model Stage Promotion
+[MR.05] Model Approval Workflow
+[MR.06] Model Lineage Tracking
+[MR.07] Model Performance Baseline
+[MR.08] Model Deployment Trigger
+[MR.09] Model Rollback
+[MR.10] Model Compliance Check
+[MR.11] Model Card Generation
+[MR.12] Model Deprecation
+[MR.13] Multi-Framework Registry

@@ -1,0 +1,25 @@
+[dmsaf_env] Environmental and Water Compliance :: naics_2022:212, naics_2022:213
+[dmsaf_env_air] Clean Air Act Permit to Construct/Operate
+[dmsaf_env_nepa] NEPA Environmental Impact Assessment (EIS/EA)
+[dmsaf_env_smcra] SMCRA Surface Mining Reclamation (coal)
+[dmsaf_env_superfund] CERCLA / Superfund Liability Management
+[dmsaf_env_water] Clean Water Act NPDES Stormwater Permit
+[dmsaf_intl] International Safety and ESG Standards :: naics_2022:212, naics_2022:213
+[dmsaf_intl_eiti] EITI Extractive Industries Transparency Reporting
+[dmsaf_intl_icmm] ICMM Mining Principles (10 principles, 6 WDs)
+[dmsaf_intl_ifc] IFC Performance Standards on Mining
+[dmsaf_intl_tsm] MAC Towards Sustainable Mining (TSM) Protocol
+[dmsaf_msha] MSHA Regulatory Domain (US - 30 CFR) :: naics_2022:212, naics_2022:213
+[dmsaf_msha_coal] MSHA Coal Mine Safety (30 CFR Parts 70-90)
+[dmsaf_msha_surface] MSHA Surface Metal/Non-Metal (30 CFR Part 56)
+[dmsaf_msha_training] MSHA Miner Training (30 CFR Part 46/48)
+[dmsaf_msha_underground] MSHA Underground Metal/Non-Metal (30 CFR 57)
+[dmsaf_social] Community and Social License to Operate :: naics_2022:212, naics_2022:213
+[dmsaf_social_fpic] Free, Prior, and Informed Consent (FPIC)
+[dmsaf_social_gm] Grievance Mechanism and Community Relations
+[dmsaf_social_iam] Indigenous and Aboriginal Community Agreement
+[dmsaf_tailings] Tailings and Waste Management :: naics_2022:212, naics_2022:213
+[dmsaf_tailings_dam] Tailings Storage Facility (TSF) - Dam Safety
+[dmsaf_tailings_heap] Heap Leach Pad Liner and Containment System
+[dmsaf_tailings_mac] MAC GISTM - Global Standard on TSF Management
+[dmsaf_tailings_waste] Waste Rock Dump and Acid Rock Drainage (ARD)

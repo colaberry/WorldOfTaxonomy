@@ -1,0 +1,51 @@
+[A00-A09] Intestinale Infektionskrankheiten (Intestinal infectious diseases)
+[A15-A19] Tuberkulose (Tuberculosis)
+[A20-A28] Bestimmte bakterielle Zoonosen (Certain zoonotic bacterial diseases)
+[A30-A49] Sonstige bakterielle Krankheiten (Other bacterial diseases)
+[A50-A64] Infektionen, die vorwiegend durch Geschlechtsverkehr uebertragen werden
+[B00-B09] Viruskrankheiten, die durch Haut- und Schleimhautlaesionen charakterisiert sind
+[B20-B24] HIV-Krankheit (HIV disease)
+[C00-C75] Boesamtige Neubildungen (Malignant neoplasms)
+[C76-C80] Boesamtige Neubildungen ungenau bezeichneter Lokalisationen
+[C81-C96] Boesamtige Neubildungen des lymphatischen Gewebes (Lymphoid malignancies)
+[D00-D09] In-situ-Neubildungen (In situ neoplasms)
+[D10-D36] Gutartige Neubildungen (Benign neoplasms)
+[F00-F09] Organische, einschliesslich symptomatischer psychischer Stoerungen
+[F10-F19] Psychische und Verhaltensstoerungen durch psychotrope Substanzen
+[F20-F29] Schizophrenie, schizotype und wahnhafte Stoerungen
+[F30-F39] Affektive Stoerungen (Mood disorders)
+[F40-F48] Neurotische, Belastungs- und somatoforme Stoerungen
+[GM01] Bestimmte infektioese und parasitaere Krankheiten (Certain infectious and parasitic diseases)
+[GM02] Neubildungen (Neoplasms)
+[GM03] Krankheiten des Blutes und der blutbildenden Organe (Blood and immune disorders)
+[GM04] Endokrine, Ernaehrungs- und Stoffwechselkrankheiten (Endocrine, nutritional and metabolic diseases)
+[GM05] Psychische und Verhaltensstoerungen (Mental and behavioural disorders)
+[GM06] Krankheiten des Nervensystems (Diseases of the nervous system)
+[GM07] Krankheiten des Auges und der Augenanhangsgebilde (Diseases of the eye and adnexa)
+[GM08] Krankheiten des Ohres und des Warzenfortsatzes (Diseases of the ear and mastoid process)
+[GM09] Krankheiten des Kreislaufsystems (Diseases of the circulatory system)
+[GM10] Krankheiten des Atmungssystems (Diseases of the respiratory system)
+[GM11] Krankheiten des Verdauungssystems (Diseases of the digestive system)
+[GM12] Krankheiten der Haut und der Unterhaut (Diseases of the skin and subcutaneous tissue)
+[GM13] Krankheiten des Muskel-Skelett-Systems und des Bindegewebes (Musculoskeletal diseases)
+[GM14] Krankheiten des Urogenitalsystems (Diseases of the genitourinary system)
+[GM15] Schwangerschaft, Geburt und Wochenbett (Pregnancy, childbirth and the puerperium)
+[GM16] Bestimmte Zustande, die ihren Ursprung in der Perinatalperiode haben (Perinatal conditions)
+[GM17] Angeborene Fehlbildungen, Deformitaeten und Chromosomenanomalien (Congenital malformations)
+[GM18] Symptome und abnorme klinische und Laborbefunde (Symptoms and signs)
+[GM19] Verletzungen, Vergiftungen und bestimmte andere Folgen aeusserer Ursachen (Injury and poisoning)
+[GM20] Aeussere Ursachen von Morbidi taet und Mortalitaet (External causes of morbidity)
+[GM21] Faktoren, die den Gesundheitszustand beeinflussen (Factors influencing health status)
+[GM22] Schluessel fuer besondere Zwecke - German extension codes (Codes for special purposes)
+[I00-I02] Akutes rheumatisches Fieber (Acute rheumatic fever)
+[I10-I15] Hypertonie (Hypertensive diseases)
+[I20-I25] Ischaemische Herzkrankheiten (Ischaemic heart diseases)
+[I60-I69] Zerebrovaskulaere Krankheiten (Cerebrovascular diseases)
+[J00-J06] Akute Infektionen der oberen Atemwege (Acute upper respiratory infections)
+[J09-J18] Grippe und Pneumonie (Influenza and pneumonia)
+[J40-J47] Chronische Krankheiten der unteren Atemwege (Chronic lower respiratory diseases)
+[U50-U52] Funktionseinschraenkungen - German-specific extension codes
+[U55] Erfolgreiche Reanimation - German-specific resuscitation code
+[U60-U61] Stadieneinteilung der HIV-Infektion - German HIV staging codes
+[U69] Sonstige sekundaere Schluessel - Secondary key codes
+[U80-U85] Infektionserreger mit Resistenzen - Antimicrobial resistance codes

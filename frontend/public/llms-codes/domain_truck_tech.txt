@@ -1,0 +1,33 @@
+[dtt_auto] Automation and Autonomy Level :: naics_2022:484
+[dtt_auto_adas] ADAS Safety Features (collision alert, lane departure, AEB)
+[dtt_auto_av] Autonomous Vehicle Operation (SAE Level 4, geofenced)
+[dtt_auto_none] No Automation (fully manual driver operation)
+[dtt_auto_partial] Partial Automation (SAE Level 2-3, driver supervised)
+[dtt_auto_platooning] Automated Truck Platooning (SAE Level 2, convoy tech)
+[dtt_book] Load Booking and Matching Method :: naics_2022:484
+[dtt_book_api] API-Integrated Direct Shipper-Carrier Connection
+[dtt_book_auction] Reverse Auction / RFP Procurement Platform
+[dtt_book_board] Load Board Posting (DAT, Truckstop, 123Loadboard)
+[dtt_book_dfm] Digital Freight Matching (Uber Freight, Convoy, Loadsmart)
+[dtt_book_manual] Manual / Phone and Email Brokerage
+[dtt_book_spot] Automated Spot Market Bidding (algorithmic pricing)
+[dtt_doc] Digital Documentation and Compliance :: naics_2022:484
+[dtt_doc_api] API-Based Real-Time Data Exchange (REST/JSON)
+[dtt_doc_blockchain] Blockchain-Based Document and Chain-of-Custody
+[dtt_doc_ebol] Electronic Bill of Lading (eBOL)
+[dtt_doc_edi] EDI Data Exchange (EDI 204/210/214 standards)
+[dtt_doc_epod] Electronic Proof of Delivery (ePOD, signature capture)
+[dtt_doc_paper] Paper Documents (BOL, POD, paper logbook)
+[dtt_telem] Fleet Telematics and Monitoring :: naics_2022:484
+[dtt_telem_asset] Asset and Cargo Tracking (trailer, temp, door sensors)
+[dtt_telem_dash] Dashcam and Video Safety System (AI event detection)
+[dtt_telem_eld] ELD Telematics (HOS + real-time location combined)
+[dtt_telem_gps] GPS Tracking and Location (basic position reporting)
+[dtt_telem_perf] Driver Performance Monitoring (ADAS coaching, scorecards)
+[dtt_telem_predict] Predictive Maintenance Telematics (OBD diagnostics)
+[dtt_tms] Transportation Management System (TMS) Maturity :: naics_2022:484
+[dtt_tms_basic] Basic TMS (dispatch and billing only)
+[dtt_tms_cloud] Cloud-Based SaaS TMS (McLeod, TMW, Samsara TMS)
+[dtt_tms_erp] ERP-Integrated TMS (SAP TM, Oracle OTM)
+[dtt_tms_full] Full-Suite TMS (optimization, visibility, analytics)
+[dtt_tms_none] No TMS (manual dispatch, spreadsheet-based)

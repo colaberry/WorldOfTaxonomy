@@ -1,0 +1,94 @@
+[8] Other Procedures -- ICD-10-PCS section (Other Procedures). Top-level grouping of procedure codes; sub-nodes break down by body system, operation, and detailed code.
+[8C] Other Procedures, Indwelling Device -- Body system (Other Procedures, Indwelling Device) within ICD-10-PCS section 'Other Procedures'. Aggregator of root-operation tables for this body system.
+[8C0] Other Procedures, Indwelling Device, Other Procedures -- Methodologies which attempt to remediate or cure a disorder or disease
+[8C01X6J] Collection of Cerebrospinal Fluid from Indwelling Device in Nervous System -- Methodologies which attempt to remediate or cure a disorder or disease
+[8C01X6L] Collection of Other Fluid from Indwelling Device in Nervous System -- Methodologies which attempt to remediate or cure a disorder or disease
+[8C02X6K] Collection of Blood from Indwelling Device in Circulatory System -- Methodologies which attempt to remediate or cure a disorder or disease
+[8C02X6L] Collection of Other Fluid from Indwelling Device in Circulatory System -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E] Other Procedures, Physiological Systems and Anatomical Regions -- Body system (Other Procedures, Physiological Systems and Anatomical Regions) within ICD-10-PCS section 'Other Procedures'. Aggregator of root-operation tables for this body system.
+[8E0] Other Procedures, Physiological Systems and Anatomical Regions, Other Procedures -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E01XY7] Examination of Nervous System -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E023DZ] Near Infrared Spectroscopy of Circulatory System, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E023FZ] Fiber Optic 3D Guided Procedure of Circulatory System, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E02XDZ] Near Infrared Spectroscopy of Circulatory System, External Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E090CZ] Robotic Assisted Procedure of Head and Neck Region, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E090EM] Fluorescence Guided Procedure of Head and Neck Region using Aminolevulinic Acid, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E090EZ] Fluorescence Guided Procedure of Head and Neck Region, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E093CZ] Robotic Assisted Procedure of Head and Neck Region, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E093EZ] Fluorescence Guided Procedure of Head and Neck Region, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E094CZ] Robotic Assisted Procedure of Head and Neck Region, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E094EZ] Fluorescence Guided Procedure of Head and Neck Region, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E097CZ] Robotic Assisted Procedure of Head and Neck Region, Via Natural or Artificial Opening -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E097EZ] Fluorescence Guided Procedure of Head and Neck Region, Via Natural or Artificial Opening -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E098CZ] Robotic Assisted Procedure of Head and Neck Region, Via Natural or Artificial Opening Endoscopic -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E098EZ] Fluorescence Guided Procedure of Head and Neck Region, Via Natural or Artificial Opening Endoscopic -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E09XBF] Computer Assisted Procedure of Head and Neck Region, With Fluoroscopy -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E09XBG] Computer Assisted Procedure of Head and Neck Region, With Computerized Tomography -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E09XBH] Computer Assisted Procedure of Head and Neck Region, With Magnetic Resonance Imaging -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E09XBZ] Computer Assisted Procedure of Head and Neck Region -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E09XCZ] Robotic Assisted Procedure of Head and Neck Region -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E09XY8] Suture Removal from Head and Neck Region -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0H300] Acupuncture using Anesthesia -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0H30Z] Acupuncture -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0HX62] Breast Milk Collection -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0HXY9] Piercing of Integumentary System and Breast -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0KX1Z] Therapeutic Massage -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0KXY7] Examination of Musculoskeletal System -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0U0EN] Fluorescence Guided Procedure of Female Reproductive System using Pafolacianine, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0U3EN] Fluorescence Guided Procedure of Female Reproductive System using Pafolacianine, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0U4EN] Fluorescence Guided Procedure of Female Reproductive System using Pafolacianine, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0U7EN] Fluorescence Guided Procedure of Female Reproductive System using Pafolacianine, Via Natural or Artificial Opening -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0U8EN] Fluorescence Guided Procedure of Female Reproductive System using Pafolacianine, Via Natural or Artificial Opening Endoscopic -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0UXY7] Examination of Female Reproductive System -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0VX1C] Therapeutic Massage of Prostate -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0VX1D] Therapeutic Massage of Rectum -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0VX63] Sperm Collection -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W0CZ] Robotic Assisted Procedure of Trunk Region, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W0EN] Fluorescence Guided Procedure of Trunk Region using Pafolacianine, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W0EZ] Fluorescence Guided Procedure of Trunk Region, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W3CZ] Robotic Assisted Procedure of Trunk Region, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W3EN] Fluorescence Guided Procedure of Trunk Region using Pafolacianine, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W3EZ] Fluorescence Guided Procedure of Trunk Region, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W4CZ] Robotic Assisted Procedure of Trunk Region, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W4EN] Fluorescence Guided Procedure of Trunk Region using Pafolacianine, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W4EZ] Fluorescence Guided Procedure of Trunk Region, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W7CZ] Robotic Assisted Procedure of Trunk Region, Via Natural or Artificial Opening -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W7EN] Fluorescence Guided Procedure of Trunk Region using Pafolacianine, Via Natural or Artificial Opening -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W7EZ] Fluorescence Guided Procedure of Trunk Region, Via Natural or Artificial Opening -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W8CZ] Robotic Assisted Procedure of Trunk Region, Via Natural or Artificial Opening Endoscopic -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W8EN] Fluorescence Guided Procedure of Trunk Region using Pafolacianine, Via Natural or Artificial Opening Endoscopic -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0W8EZ] Fluorescence Guided Procedure of Trunk Region, Via Natural or Artificial Opening Endoscopic -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0WXBF] Computer Assisted Procedure of Trunk Region, With Fluoroscopy -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0WXBG] Computer Assisted Procedure of Trunk Region, With Computerized Tomography -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0WXBH] Computer Assisted Procedure of Trunk Region, With Magnetic Resonance Imaging -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0WXBZ] Computer Assisted Procedure of Trunk Region -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0WXCZ] Robotic Assisted Procedure of Trunk Region -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0WXY8] Suture Removal from Trunk Region -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0X0CZ] Robotic Assisted Procedure of Upper Extremity, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0X0EZ] Fluorescence Guided Procedure of Upper Extremity, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0X3CZ] Robotic Assisted Procedure of Upper Extremity, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0X3EZ] Fluorescence Guided Procedure of Upper Extremity, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0X4CZ] Robotic Assisted Procedure of Upper Extremity, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0X4EZ] Fluorescence Guided Procedure of Upper Extremity, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0XXBF] Computer Assisted Procedure of Upper Extremity, With Fluoroscopy -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0XXBG] Computer Assisted Procedure of Upper Extremity, With Computerized Tomography -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0XXBH] Computer Assisted Procedure of Upper Extremity, With Magnetic Resonance Imaging -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0XXBZ] Computer Assisted Procedure of Upper Extremity -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0XXCZ] Robotic Assisted Procedure of Upper Extremity -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0XXY8] Suture Removal from Upper Extremity -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0Y0CZ] Robotic Assisted Procedure of Lower Extremity, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0Y0EZ] Fluorescence Guided Procedure of Lower Extremity, Open Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0Y3CZ] Robotic Assisted Procedure of Lower Extremity, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0Y3EZ] Fluorescence Guided Procedure of Lower Extremity, Percutaneous Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0Y4CZ] Robotic Assisted Procedure of Lower Extremity, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0Y4EZ] Fluorescence Guided Procedure of Lower Extremity, Percutaneous Endoscopic Approach -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0YXBF] Computer Assisted Procedure of Lower Extremity, With Fluoroscopy -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0YXBG] Computer Assisted Procedure of Lower Extremity, With Computerized Tomography -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0YXBH] Computer Assisted Procedure of Lower Extremity, With Magnetic Resonance Imaging -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0YXBZ] Computer Assisted Procedure of Lower Extremity -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0YXCZ] Robotic Assisted Procedure of Lower Extremity -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0YXY8] Suture Removal from Lower Extremity -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0ZXY1] In Vitro Fertilization -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0ZXY4] Yoga Therapy -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0ZXY5] Meditation -- Methodologies which attempt to remediate or cure a disorder or disease
+[8E0ZXY6] Isolation -- Methodologies which attempt to remediate or cure a disorder or disease

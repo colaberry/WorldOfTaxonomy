@@ -1,0 +1,13 @@
+[BO] Biodiversity Offset Types :: naics_2022:5419
+[BO.01] Habitat Banking
+[BO.02] Species Banking
+[BO.03] Mitigation Banking (Wetland)
+[BO.04] Conservation Credit
+[BO.05] Biodiversity Net Gain
+[BO.06] No Net Loss Policy
+[BO.07] Offset Equivalence Metric
+[BO.08] In-Kind Offset
+[BO.09] Out-of-Kind Offset
+[BO.10] Offset Additionality
+[BO.11] Offset Permanence
+[BO.12] Offset Monitoring

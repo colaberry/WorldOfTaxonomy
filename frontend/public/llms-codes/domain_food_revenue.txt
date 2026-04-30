@@ -1,0 +1,15 @@
+[dfsrev_ancillary] Ancillary and Total Revenue Management :: naics_2022:722
+[dfsrev_ancillary_parking] Parking and Transportation Revenue
+[dfsrev_ancillary_retail] Retail and Gift Shop Revenue (branded merchandise)
+[dfsrev_ancillary_spa] Spa, Golf, and Recreational Amenity Revenue
+[dfsrev_event] Event and Group Revenue Management :: naics_2022:722
+[dfsrev_event_catering] Catering and Banquet Function Revenue
+[dfsrev_event_meeting] Meeting and Convention Space Revenue (SMERF, corporate)
+[dfsrev_fb] Food and Beverage Revenue Management :: naics_2022:722
+[dfsrev_fb_covers] Cover-Based Pricing (RevPASH - revenue per available seat hour)
+[dfsrev_fb_dynamic] Dynamic Menu Pricing (surge pricing, daypart variation)
+[dfsrev_fb_prix] Prix Fixe and Tasting Menu Pricing
+[dfsrev_room] Lodging Revenue Management :: naics_2022:722
+[dfsrev_room_length] Length-of-Stay Pricing (LOS restrictions, packages)
+[dfsrev_room_ota] OTA and GDS Channel Pricing (Booking, Expedia, GDS)
+[dfsrev_room_revpar] RevPAR-Based Yield Management (ADR x Occupancy)

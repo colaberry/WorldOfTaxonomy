@@ -1,0 +1,14 @@
+[ONK] O*NET Knowledge Areas
+[ONK.01] Business and Management -- Knowledge of principles and facts related to business administration and accounting, human and material resource management in organizations, sales and marketing, economics, and office information and organizing systems
+[ONK.02] Manufacturing and Production -- Knowledge of principles and facts related to the production, processing, storage, and distribution of manufactured and agricultural goods
+[ONK.03] Engineering and Technology -- Knowledge of the practical application of engineering science and technology. This includes applying principles, techniques, procedures, and equipment to the design and production of various goods and services.
+[ONK.04] Mathematics and Science -- Knowledge of the history, theories, methods, and applications of the physical, biological, social, mathematical, and geography
+[ONK.05] Health Services -- Knowledge of principles and facts regarding diagnosing, curing, and preventing disease, and improving and preserving physical and mental health and well-being
+[ONK.06] Education and Training -- Knowledge of principles and methods for curriculum and training design, teaching and instruction for individuals and groups, and the measurement of training effects.
+[ONK.07] Arts and Humanities -- Knowledge of facts and principles related to the branches of learning concerned with human thought, language, and the arts.
+[ONK.08] Law and Public Safety -- Knowledge of regulations and methods for maintaining people and property free from danger, injury, or damage; the rules of public conduct established and enforced by legislation, and the political process establishing such rules.
+[ONK.09] Communications -- Knowledge of the science and art of delivering information
+[ONK.10] Transportation -- Knowledge of principles and methods for moving people or goods by air, rail, sea, or road, including the relative costs and benefits.
+[ONK.11] Sales and Marketing -- Knowledge of principles and methods for showing, promoting, and selling products or services. This includes marketing strategy and tactics, product demonstration, sales techniques, and sales control systems.
+[ONK.12] Customer and Personal Service -- Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment, meeting quality standards for services, and evaluation of customer satisfaction.
+[ONK.13] Computers and Electronics -- Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming.

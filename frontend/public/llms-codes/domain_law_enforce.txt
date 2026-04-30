@@ -1,0 +1,14 @@
+[LE] Law Enforcement Types :: naics_2022:5419
+[LE.01] Federal Law Enforcement (FBI)
+[LE.02] Federal Law Enforcement (DEA)
+[LE.03] Federal Law Enforcement (ATF)
+[LE.04] US Marshals Service
+[LE.05] Secret Service
+[LE.06] State Police/Highway Patrol
+[LE.07] County Sheriff
+[LE.08] Municipal Police
+[LE.09] Campus Police
+[LE.10] Tribal Police
+[LE.11] Border Patrol (CBP)
+[LE.12] ICE (Immigration)
+[LE.13] Cybercrime Unit

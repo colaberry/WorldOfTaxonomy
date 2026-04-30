@@ -1,0 +1,25 @@
+[dip_health] Health Insurance :: naics_2022:524
+[dip_health_dental] Dental and Vision Insurance (standalone, embedded)
+[dip_health_disab] Disability Insurance (short-term, long-term, own-occ)
+[dip_health_group] Group Health Insurance (employer-sponsored, ERISA)
+[dip_health_indiv] Individual Health Insurance (ACA marketplace plans)
+[dip_health_ltc] Long-Term Care Insurance (traditional, hybrid)
+[dip_life] Life Insurance :: naics_2022:524
+[dip_life_annuity] Annuity Products (fixed, variable, deferred, immediate)
+[dip_life_term] Term Life Insurance (level, decreasing, convertible)
+[dip_life_universal] Universal Life Insurance (flexible premium, indexed)
+[dip_life_variable] Variable Life Insurance (investment-linked)
+[dip_life_whole] Whole Life Insurance (ordinary, limited pay, single)
+[dip_pc] Property and Casualty Insurance :: naics_2022:524
+[dip_pc_auto] Auto Insurance (liability, collision, comprehensive)
+[dip_pc_comm] Commercial Property Insurance (BOP, inland marine)
+[dip_pc_home] Homeowners Insurance (dwelling, contents, liability)
+[dip_pc_liability] General Liability Insurance (CGL, products liability)
+[dip_pc_umbrella] Umbrella and Excess Liability Insurance
+[dip_pc_workers] Workers Compensation Insurance (statutory, excess)
+[dip_spec] Specialty Insurance :: naics_2022:524
+[dip_spec_cyber] Cyber Insurance (data breach, network security)
+[dip_spec_dando] Directors and Officers Insurance (D&O liability)
+[dip_spec_eando] Errors and Omissions Insurance (professional liability)
+[dip_spec_marine] Marine and Aviation Insurance (hull, cargo, war risk)
+[dip_spec_surety] Surety Bonds (contract, commercial, fidelity)

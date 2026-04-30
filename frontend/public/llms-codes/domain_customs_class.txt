@@ -1,0 +1,14 @@
+[CX] Customs Classification Types :: naics_2022:5411
+[CX.01] HS Code Classification
+[CX.02] Binding Ruling
+[CX.03] Country of Origin Determination
+[CX.04] Customs Valuation (Transaction)
+[CX.05] Tariff Preference
+[CX.06] Anti-Dumping Duty
+[CX.07] Countervailing Duty
+[CX.08] Tariff Rate Quota
+[CX.09] Generalized System of Preferences
+[CX.10] Section 301 Tariff (US)
+[CX.11] Customs Audit
+[CX.12] Advance Ruling
+[CX.13] Post-Clearance Audit

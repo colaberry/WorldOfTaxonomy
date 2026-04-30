@@ -1,0 +1,19 @@
+[FC] Freight Class Types :: naics_2022:488, naics_2022:493
+[FC.01] Class 50 (Heaviest/Densest)
+[FC.02] Class 55
+[FC.03] Class 60
+[FC.04] Class 65
+[FC.05] Class 70
+[FC.06] Class 77.5
+[FC.07] Class 85
+[FC.08] Class 92.5
+[FC.09] Class 100
+[FC.10] Class 110
+[FC.11] Class 125
+[FC.12] Class 150
+[FC.13] Class 175
+[FC.14] Class 200
+[FC.15] Class 250
+[FC.16] Class 300
+[FC.17] Class 400
+[FC.18] Class 500 (Lightest/Least Dense)

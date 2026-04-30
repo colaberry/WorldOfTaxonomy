@@ -1,0 +1,22 @@
+[daidep_cloud] Cloud-Based AI Deployment :: naics_2022:518, naics_2022:5415
+[daidep_cloud_gpu] GPU cloud compute (A100/H100 clusters, spot instances)
+[daidep_cloud_hosted] Managed ML platforms (SageMaker, Vertex AI, Azure ML)
+[daidep_cloud_saas] AI-as-a-Service (API access, OpenAI, Anthropic, Cohere)
+[daidep_cloud_serverless] Serverless inference (Lambda, Cloud Functions, modal)
+[daidep_edge] Edge and On-Device AI Deployment :: naics_2022:518, naics_2022:5415
+[daidep_edge_gateway] Edge gateway inference (Jetson, AWS Greengrass, Azure IoT Edge)
+[daidep_edge_iot] IoT edge inference (microcontrollers, TinyML, ONNX)
+[daidep_edge_mobile] Mobile device inference (iOS Core ML, Android NNAPI)
+[daidep_hybrid] Hybrid and Multi-Cloud AI Deployment :: naics_2022:518, naics_2022:5415
+[daidep_hybrid_burst] Burst-to-cloud from on-premise (reserved + spot mix)
+[daidep_hybrid_federated] Federated learning (train across distributed data without sharing)
+[daidep_hybrid_multicloud] Multi-cloud inference routing (cost, latency, compliance)
+[daidep_onprem] On-Premise AI Infrastructure :: naics_2022:518, naics_2022:5415
+[daidep_onprem_aiappl] Dedicated AI appliances (NVidia DGX Pod, Gaudi racks)
+[daidep_onprem_dcgpu] On-premise GPU server clusters (DGX, custom HPC)
+[daidep_onprem_private] Private cloud AI (VMware, OpenStack with GPU passthrough)
+[daidep_pattern] AI Serving and Inference Patterns :: naics_2022:518, naics_2022:5415
+[daidep_pattern_ab] A/B model serving and shadow deployment patterns
+[daidep_pattern_batch] Batch inference (overnight scoring pipelines)
+[daidep_pattern_rag] Retrieval-augmented generation (RAG) serving pattern
+[daidep_pattern_realtime] Real-time inference (sub-100ms latency SLA)

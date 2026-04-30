@@ -1,0 +1,59 @@
+[6] Extracorporeal or Systemic Therapies -- ICD-10-PCS section (Extracorporeal or Systemic Therapies). Top-level grouping of procedure codes; sub-nodes break down by body system, operation, and detailed code.
+[6A] Extracorporeal or Systemic Therapies, Physiological Systems -- Body system (Extracorporeal or Systemic Therapies, Physiological Systems) within ICD-10-PCS section 'Extracorporeal or Systemic Therapies'. Aggregator of root-operation tables for this body system.
+[6A0] Extracorporeal or Systemic Therapies, Physiological Systems, Atmospheric Control -- Extracorporeal control of atmospheric pressure and composition
+[6A0Z0ZZ] Atmospheric Control, Single -- Extracorporeal control of atmospheric pressure and composition
+[6A0Z1ZZ] Atmospheric Control, Multiple -- Extracorporeal control of atmospheric pressure and composition
+[6A1] Extracorporeal or Systemic Therapies, Physiological Systems, Decompression -- Extracorporeal elimination of undissolved gas from body fluids
+[6A150ZZ] Decompression, Circulatory, Single -- Extracorporeal elimination of undissolved gas from body fluids
+[6A151ZZ] Decompression, Circulatory, Multiple -- Extracorporeal elimination of undissolved gas from body fluids
+[6A2] Extracorporeal or Systemic Therapies, Physiological Systems, Electromagnetic Therapy -- Extracorporeal treatment by electromagnetic rays
+[6A210ZZ] Electromagnetic Therapy, Urinary, Single -- Extracorporeal treatment by electromagnetic rays
+[6A211ZZ] Electromagnetic Therapy, Urinary, Multiple -- Extracorporeal treatment by electromagnetic rays
+[6A220ZZ] Electromagnetic Therapy, Central Nervous, Single -- Extracorporeal treatment by electromagnetic rays
+[6A221ZZ] Electromagnetic Therapy, Central Nervous, Multiple -- Extracorporeal treatment by electromagnetic rays
+[6A3] Extracorporeal or Systemic Therapies, Physiological Systems, Hyperthermia -- Extracorporeal raising of body temperature
+[6A3Z0ZZ] Hyperthermia, Single -- Extracorporeal raising of body temperature
+[6A3Z1ZZ] Hyperthermia, Multiple -- Extracorporeal raising of body temperature
+[6A4] Extracorporeal or Systemic Therapies, Physiological Systems, Hypothermia -- Extracorporeal lowering of body temperature
+[6A4Z0ZZ] Hypothermia, Single -- Extracorporeal lowering of body temperature
+[6A4Z1ZZ] Hypothermia, Multiple -- Extracorporeal lowering of body temperature
+[6A5] Extracorporeal or Systemic Therapies, Physiological Systems, Pheresis -- Extracorporeal separation of blood products
+[6A550Z0] Pheresis of Erythrocytes, Single -- Extracorporeal separation of blood products
+[6A550Z1] Pheresis of Leukocytes, Single -- Extracorporeal separation of blood products
+[6A550Z2] Pheresis of Platelets, Single -- Extracorporeal separation of blood products
+[6A550Z3] Pheresis of Plasma, Single -- Extracorporeal separation of blood products
+[6A550ZT] Pheresis of Cord Blood Stem Cells, Single -- Extracorporeal separation of blood products
+[6A550ZV] Pheresis of Hematopoietic Stem Cells, Single -- Extracorporeal separation of blood products
+[6A551Z0] Pheresis of Erythrocytes, Multiple -- Extracorporeal separation of blood products
+[6A551Z1] Pheresis of Leukocytes, Multiple -- Extracorporeal separation of blood products
+[6A551Z2] Pheresis of Platelets, Multiple -- Extracorporeal separation of blood products
+[6A551Z3] Pheresis of Plasma, Multiple -- Extracorporeal separation of blood products
+[6A551ZT] Pheresis of Cord Blood Stem Cells, Multiple -- Extracorporeal separation of blood products
+[6A551ZV] Pheresis of Hematopoietic Stem Cells, Multiple -- Extracorporeal separation of blood products
+[6A6] Extracorporeal or Systemic Therapies, Physiological Systems, Phototherapy -- Extracorporeal treatment by light rays
+[6A600ZZ] Phototherapy of Skin, Single -- Extracorporeal treatment by light rays
+[6A601ZZ] Phototherapy of Skin, Multiple -- Extracorporeal treatment by light rays
+[6A650ZZ] Phototherapy, Circulatory, Single -- Extracorporeal treatment by light rays
+[6A651ZZ] Phototherapy, Circulatory, Multiple -- Extracorporeal treatment by light rays
+[6A7] Extracorporeal or Systemic Therapies, Physiological Systems, Ultrasound Therapy -- Extracorporeal treatment by ultrasound
+[6A750Z4] Ultrasound Therapy of Head and Neck Vessels, Single -- Extracorporeal treatment by ultrasound
+[6A750Z5] Ultrasound Therapy of Heart, Single -- Extracorporeal treatment by ultrasound
+[6A750Z6] Ultrasound Therapy of Peripheral Vessels, Single -- Extracorporeal treatment by ultrasound
+[6A750Z7] Ultrasound Therapy of Other Vessels, Single -- Extracorporeal treatment by ultrasound
+[6A750ZZ] Ultrasound Therapy, Circulatory, Single -- Extracorporeal treatment by ultrasound
+[6A751Z4] Ultrasound Therapy of Head and Neck Vessels, Multiple -- Extracorporeal treatment by ultrasound
+[6A751Z5] Ultrasound Therapy of Heart, Multiple -- Extracorporeal treatment by ultrasound
+[6A751Z6] Ultrasound Therapy of Peripheral Vessels, Multiple -- Extracorporeal treatment by ultrasound
+[6A751Z7] Ultrasound Therapy of Other Vessels, Multiple -- Extracorporeal treatment by ultrasound
+[6A751ZZ] Ultrasound Therapy, Circulatory, Multiple -- Extracorporeal treatment by ultrasound
+[6A8] Extracorporeal or Systemic Therapies, Physiological Systems, Ultraviolet Light Therapy -- Extracorporeal treatment by ultraviolet light
+[6A800ZZ] Ultraviolet Light Therapy of Skin, Single -- Extracorporeal treatment by ultraviolet light
+[6A801ZZ] Ultraviolet Light Therapy of Skin, Multiple -- Extracorporeal treatment by ultraviolet light
+[6A9] Extracorporeal or Systemic Therapies, Physiological Systems, Shock Wave Therapy -- Extracorporeal treatment by shock waves
+[6A930ZZ] Shock Wave Therapy, Musculoskeletal, Single -- Extracorporeal treatment by shock waves
+[6A931ZZ] Shock Wave Therapy, Musculoskeletal, Multiple -- Extracorporeal treatment by shock waves
+[6AB] Extracorporeal or Systemic Therapies, Physiological Systems, Perfusion -- Extracorporeal treatment by diffusion of therapeutic fluid
+[6AB50BZ] Perfusion of Circulatory Donor Organ, Single -- Extracorporeal treatment by diffusion of therapeutic fluid
+[6ABB0BZ] Perfusion of Respiratory System Donor Organ, Single -- Extracorporeal treatment by diffusion of therapeutic fluid
+[6ABF0BZ] Perfusion of Hepatobiliary System and Pancreas Donor Organ, Single -- Extracorporeal treatment by diffusion of therapeutic fluid
+[6ABT0BZ] Perfusion of Urinary System Donor Organ, Single -- Extracorporeal treatment by diffusion of therapeutic fluid

@@ -1,0 +1,20 @@
+[drcmerch_apparel] Apparel, Footwear, and Accessories :: naics_2022:44-45
+[drcmerch_apparel_fast] Fast Fashion and Mass Market Apparel
+[drcmerch_apparel_luxury] Luxury and Premium Apparel and Accessories
+[drcmerch_apparel_sport] Athletic and Activewear
+[drcmerch_auto] Automotive Parts and Accessories :: naics_2022:44-45
+[drcmerch_auto_new] New and Used Vehicle Retail (dealer franchise)
+[drcmerch_auto_parts] Replacement Parts and Accessories (AutoZone, O'Reilly)
+[drcmerch_electronics] Consumer Electronics and Technology :: naics_2022:44-45
+[drcmerch_electronics_ce] Consumer Electronics (TV, audio, PC, gaming)
+[drcmerch_electronics_phone] Smartphones and Mobile Devices
+[drcmerch_grocery] Grocery and Food Retail :: naics_2022:44-45
+[drcmerch_grocery_cpg] Packaged Consumer Goods (CPG - center store)
+[drcmerch_grocery_fresh] Fresh Produce and Perishables
+[drcmerch_grocery_nat] Natural, Organic, and Specialty Food
+[drcmerch_health] Health, Beauty, and Personal Care :: naics_2022:44-45
+[drcmerch_health_beauty] Beauty, Cosmetics, and Personal Care Products
+[drcmerch_health_otc] OTC Drugs, Vitamins, and Supplements
+[drcmerch_home] Home Goods, Furniture, and Improvement :: naics_2022:44-45
+[drcmerch_home_furn] Furniture and Home Furnishings
+[drcmerch_home_improve] Home Improvement and Hardware

@@ -1,0 +1,18 @@
+[fm_seg] Fleet Segments :: naics_2022:485, naics_2022:488
+[fm_seg_ev] Electric fleet transition
+[fm_seg_heavy] Heavy-duty fleet
+[fm_seg_light] Light-duty fleet
+[fm_seg_medium] Medium-duty fleet
+[fm_seg_spec] Specialty vehicles (refrigerated, tanker)
+[fm_svc] Fleet Services :: naics_2022:485, naics_2022:488
+[fm_svc_fuel] Fuel management and cards
+[fm_svc_insur] Fleet insurance programs
+[fm_svc_leas] Fleet leasing and financing
+[fm_svc_maint] Fleet maintenance management
+[fm_svc_remarket] Remarketing and disposal
+[fm_tech] Fleet Technology :: naics_2022:485, naics_2022:488
+[fm_tech_dash] Dashcam and video telematics
+[fm_tech_eld] Electronic logging device (ELD)
+[fm_tech_pred] Predictive maintenance analytics
+[fm_tech_route] Route optimization software
+[fm_tech_telem] Telematics and GPS tracking

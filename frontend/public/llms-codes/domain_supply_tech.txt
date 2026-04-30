@@ -1,0 +1,19 @@
+[dsctech_oms] Order Management and Commerce Systems (OMS) :: naics_2022:488, naics_2022:493
+[dsctech_oms_cloud] Cloud OMS / Unified Commerce (Salesforce OMS, Fluent)
+[dsctech_oms_erp] ERP-Integrated Order Management (SAP ERP, Oracle, NetSuite)
+[dsctech_plan] Supply Chain Planning and S&OP Platforms :: naics_2022:488, naics_2022:493
+[dsctech_plan_demand] Demand Planning and Forecasting (o9, Kinaxis, Blue Yonder)
+[dsctech_plan_inv] Inventory Optimization and Multi-Echelon Planning
+[dsctech_procure] Procurement and Sourcing Technology :: naics_2022:488, naics_2022:493
+[dsctech_procure_esource] E-Sourcing and Strategic Sourcing Platform (Ariba, Ivalua)
+[dsctech_procure_p2p] Procure-to-Pay (P2P) Platform (Coupa, Jaggaer)
+[dsctech_tms] Transportation Management Systems (TMS) :: naics_2022:488, naics_2022:493
+[dsctech_tms_cloud] Cloud TMS (MercuryGate, Oracle TMS, SAP TM)
+[dsctech_tms_freight] Freight Brokerage Platform (Echo, C.H. Robinson Navisphere)
+[dsctech_tms_lsp] 4PL / Managed TMS Service Platform
+[dsctech_visibility] Real-Time Visibility and Track-and-Trace Platforms :: naics_2022:488, naics_2022:493
+[dsctech_visibility_iot] IoT and Sensor-Based Supply Chain Monitoring
+[dsctech_visibility_realtime] Real-Time Freight Visibility (project44, FourKites)
+[dsctech_wms] Warehouse Management Systems (WMS) :: naics_2022:488, naics_2022:493
+[dsctech_wms_robot] Robotics-Integrated WMS (Autostore, Geek+, Locus)
+[dsctech_wms_tier1] Tier 1 WMS (Manhattan Associates, Blue Yonder)

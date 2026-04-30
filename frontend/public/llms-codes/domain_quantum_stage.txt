@@ -1,0 +1,13 @@
+[dqcstg_earlybiz] Early Commercial and Cloud Access Stage :: naics_2022:3344, naics_2022:5415
+[dqcstg_earlybiz_cloud] Cloud-accessible quantum computers (IBM Q Network, IonQ, Rigetti)
+[dqcstg_earlybiz_hybrid] Quantum-classical hybrid algorithms for near-term advantage
+[dqcstg_faulttol] Fault-Tolerant Quantum Computing Stage :: naics_2022:3344, naics_2022:5415
+[dqcstg_faulttol_early] Early fault-tolerant (logical qubits, surface code, limited error-correction)
+[dqcstg_faulttol_full] Full fault-tolerant (millions of physical qubits, broad QEA)
+[dqcstg_research] Research and Academic Stage :: naics_2022:3344, naics_2022:5415
+[dqcstg_research_lab] University/national lab prototype (sub-100 physical qubits)
+[dqcstg_research_noisy] NISQ era (noisy intermediate-scale quantum, 100-1000 qubits)
+[dqcstg_software] Quantum Software and Toolchain Stage :: naics_2022:3344, naics_2022:5415
+[dqcstg_software_app] Quantum application software for specific use cases
+[dqcstg_software_os] Quantum OS and control software stack
+[dqcstg_software_sdk] Quantum SDK and programming framework (Qiskit, Cirq, PennyLane)

@@ -1,0 +1,15 @@
+[VC] Version Control Types :: naics_2022:5419
+[VC.01] Git (Distributed)
+[VC.02] Subversion (Centralized)
+[VC.03] Mercurial (Distributed)
+[VC.04] Monorepo Strategy
+[VC.05] Polyrepo Strategy
+[VC.06] Git Flow Branching
+[VC.07] Trunk-Based Development
+[VC.08] GitHub Flow
+[VC.09] GitLab Flow
+[VC.10] Release Branching
+[VC.11] Feature Flag Strategy
+[VC.12] Semantic Versioning
+[VC.13] Calendar Versioning
+[VC.14] Large File Storage (LFS)

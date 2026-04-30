@@ -1,0 +1,26 @@
+[dfpi_aero] Aerospace and Defense Manufacturing :: naics_2022:31-33
+[dfpi_aero_civil] Commercial Aviation Structures and Engines (FAA Part 21)
+[dfpi_aero_defense] Defense Systems and Platforms (ITAR controlled)
+[dfpi_aero_space] Space and Satellite Hardware Manufacturing
+[dfpi_auto] Automotive and Transportation Equipment :: naics_2022:31-33
+[dfpi_auto_ev] Electric Vehicle and Battery Pack Manufacturing
+[dfpi_auto_oem] OEM Vehicle Assembly (Tier 1 supply, final assembly)
+[dfpi_auto_tier2] Tier 2-3 Automotive Components and Stamping
+[dfpi_chem] Chemical and Materials Manufacturing :: naics_2022:31-33
+[dfpi_chem_basic] Basic Chemicals (industrial chemicals, petrochemicals)
+[dfpi_chem_specialty] Specialty Chemicals (adhesives, coatings, catalysts)
+[dfpi_elec] Electronics and Semiconductor Manufacturing :: naics_2022:31-33
+[dfpi_elec_display] Display and Optoelectronics Manufacturing
+[dfpi_elec_pcba] PCB Assembly and Electronics Manufacturing Services
+[dfpi_elec_semi] Semiconductor Wafer Fab and Packaging
+[dfpi_food] Food and Beverage Manufacturing :: naics_2022:31-33
+[dfpi_food_bev] Beverage Manufacturing (beer, spirits, soft drinks)
+[dfpi_food_cold] Frozen and Refrigerated Food Manufacturing
+[dfpi_food_process] Processed Food and Packaged Goods (FDA FSMA)
+[dfpi_indust] Industrial Equipment and Machinery :: naics_2022:31-33
+[dfpi_indust_heavy] Heavy Industrial Machinery and Machine Tools
+[dfpi_indust_robot] Industrial Robots and Automation Equipment
+[dfpi_life] Life Sciences and Medical Devices :: naics_2022:31-33
+[dfpi_life_diag] Diagnostics and In-Vitro Device Manufacturing (IVD)
+[dfpi_life_implant] Implantable Medical Devices (FDA Class III)
+[dfpi_life_pharma] Pharmaceutical Drug Manufacturing (FDA 21 CFR 210/211)

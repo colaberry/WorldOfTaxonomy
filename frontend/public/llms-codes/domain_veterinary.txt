@@ -1,0 +1,19 @@
+[vet_comp] Companion Animal Services :: naics_2022:5419
+[vet_comp_dent] Veterinary dentistry
+[vet_comp_diag] Diagnostic imaging and laboratory
+[vet_comp_emerg] Emergency and critical care
+[vet_comp_surg] Small animal surgery
+[vet_comp_well] Wellness exams and vaccination
+[vet_large] Large Animal and Equine :: naics_2022:5419
+[vet_large_equine] Equine medicine and surgery
+[vet_large_food] Food animal medicine (cattle, swine, poultry)
+[vet_large_herd] Herd health management
+[vet_large_repro] Reproductive services and breeding
+[vet_spec] Veterinary Specialties :: naics_2022:5419
+[vet_spec_behav] Animal behavior
+[vet_spec_cardio] Veterinary cardiology
+[vet_spec_derm] Veterinary dermatology
+[vet_spec_exotic] Exotic and zoo animal medicine
+[vet_spec_neuro] Veterinary neurology
+[vet_spec_onco] Veterinary oncology
+[vet_spec_ophth] Veterinary ophthalmology

@@ -1,0 +1,318 @@
+[1] Obstetrics -- ICD-10-PCS section (Obstetrics). Top-level grouping of procedure codes; sub-nodes break down by body system, operation, and detailed code.
+[10] Obstetrics, Pregnancy -- Body system (Obstetrics, Pregnancy) within ICD-10-PCS section 'Obstetrics'. Aggregator of root-operation tables for this body system.
+[102] Obstetrics, Pregnancy, Change -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[102073Z] Change Monitoring Electrode in Products of Conception, Via Natural or Artificial Opening -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[10207YZ] Change Other Device in Products of Conception, Via Natural or Artificial Opening -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[109] Obstetrics, Pregnancy, Drainage -- Taking or letting out fluids and/or gases from a body part
+[10900Z9] Drainage of Fetal Blood from Products of Conception, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[10900ZA] Drainage of Fetal Cerebrospinal Fluid from Products of Conception, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[10900ZB] Drainage of Other Fetal Fluid from Products of Conception, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[10900ZC] Drainage of Amniotic Fluid, Therapeutic from Products of Conception, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[10900ZD] Drainage of Other Fluid from Products of Conception, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[10900ZU] Drainage of Amniotic Fluid, Diagnostic from Products of Conception, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[10903Z9] Drainage of Fetal Blood from Products of Conception, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[10903ZA] Drainage of Fetal Cerebrospinal Fluid from Products of Conception, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[10903ZB] Drainage of Other Fetal Fluid from Products of Conception, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[10903ZC] Drainage of Amniotic Fluid, Therapeutic from Products of Conception, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[10903ZD] Drainage of Other Fluid from Products of Conception, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[10903ZU] Drainage of Amniotic Fluid, Diagnostic from Products of Conception, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[10904Z9] Drainage of Fetal Blood from Products of Conception, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[10904ZA] Drainage of Fetal Cerebrospinal Fluid from Products of Conception, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[10904ZB] Drainage of Other Fetal Fluid from Products of Conception, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[10904ZC] Drainage of Amniotic Fluid, Therapeutic from Products of Conception, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[10904ZD] Drainage of Other Fluid from Products of Conception, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[10904ZU] Drainage of Amniotic Fluid, Diagnostic from Products of Conception, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[10907Z9] Drainage of Fetal Blood from Products of Conception, Via Natural or Artificial Opening -- Taking or letting out fluids and/or gases from a body part
+[10907ZA] Drainage of Fetal Cerebrospinal Fluid from Products of Conception, Via Natural or Artificial Opening -- Taking or letting out fluids and/or gases from a body part
+[10907ZB] Drainage of Other Fetal Fluid from Products of Conception, Via Natural or Artificial Opening -- Taking or letting out fluids and/or gases from a body part
+[10907ZC] Drainage of Amniotic Fluid, Therapeutic from Products of Conception, Via Natural or Artificial Opening -- Taking or letting out fluids and/or gases from a body part
+[10907ZD] Drainage of Other Fluid from Products of Conception, Via Natural or Artificial Opening -- Taking or letting out fluids and/or gases from a body part
+[10907ZU] Drainage of Amniotic Fluid, Diagnostic from Products of Conception, Via Natural or Artificial Opening -- Taking or letting out fluids and/or gases from a body part
+[10908Z9] Drainage of Fetal Blood from Products of Conception, Via Natural or Artificial Opening Endoscopic -- Taking or letting out fluids and/or gases from a body part
+[10908ZA] Drainage of Fetal Cerebrospinal Fluid from Products of Conception, Via Natural or Artificial Opening Endoscopic -- Taking or letting out fluids and/or gases from a body part
+[10908ZB] Drainage of Other Fetal Fluid from Products of Conception, Via Natural or Artificial Opening Endoscopic -- Taking or letting out fluids and/or gases from a body part
+[10908ZC] Drainage of Amniotic Fluid, Therapeutic from Products of Conception, Via Natural or Artificial Opening Endoscopic -- Taking or letting out fluids and/or gases from a body part
+[10908ZD] Drainage of Other Fluid from Products of Conception, Via Natural or Artificial Opening Endoscopic -- Taking or letting out fluids and/or gases from a body part
+[10908ZU] Drainage of Amniotic Fluid, Diagnostic from Products of Conception, Via Natural or Artificial Opening Endoscopic -- Taking or letting out fluids and/or gases from a body part
+[10A] Obstetrics, Pregnancy, Abortion -- Artificially terminating a pregnancy
+[10A00ZZ] Abortion of Products of Conception, Open Approach -- Artificially terminating a pregnancy
+[10A03ZZ] Abortion of Products of Conception, Percutaneous Approach -- Artificially terminating a pregnancy
+[10A04ZZ] Abortion of Products of Conception, Percutaneous Endoscopic Approach -- Artificially terminating a pregnancy
+[10A07Z6] Abortion of Products of Conception, Vacuum, Via Natural or Artificial Opening -- Artificially terminating a pregnancy
+[10A07ZW] Abortion of Products of Conception, Laminaria, Via Natural or Artificial Opening -- Artificially terminating a pregnancy
+[10A07ZX] Abortion of Products of Conception, Abortifacient, Via Natural or Artificial Opening -- Artificially terminating a pregnancy
+[10A07ZZ] Abortion of Products of Conception, Via Natural or Artificial Opening -- Artificially terminating a pregnancy
+[10A08ZZ] Abortion of Products of Conception, Via Natural or Artificial Opening Endoscopic -- Artificially terminating a pregnancy
+[10D] Obstetrics, Pregnancy, Extraction -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D00Z0] Extraction of Products of Conception, High, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D00Z1] Extraction of Products of Conception, Low, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D00Z2] Extraction of Products of Conception, Extraperitoneal, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D07Z3] Extraction of Products of Conception, Low Forceps, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D07Z4] Extraction of Products of Conception, Mid Forceps, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D07Z5] Extraction of Products of Conception, High Forceps, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D07Z6] Extraction of Products of Conception, Vacuum, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D07Z7] Extraction of Products of Conception, Internal Version, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D07Z8] Extraction of Products of Conception, Other, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D17Z9] Manual Extraction of Products of Conception, Retained, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D17ZZ] Extraction of Products of Conception, Retained, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D18Z9] Manual Extraction of Products of Conception, Retained, Via Natural or Artificial Opening Endoscopic -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D18ZZ] Extraction of Products of Conception, Retained, Via Natural or Artificial Opening Endoscopic -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D20ZZ] Extraction of Products of Conception, Ectopic, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D24ZZ] Extraction of Products of Conception, Ectopic, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D27ZZ] Extraction of Products of Conception, Ectopic, Via Natural or Artificial Opening -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10D28ZZ] Extraction of Products of Conception, Ectopic, Via Natural or Artificial Opening Endoscopic -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[10E] Obstetrics, Pregnancy, Delivery -- Assisting the passage of the products of conception from the genital canal
+[10E0XZZ] Delivery of Products of Conception, External Approach -- Assisting the passage of the products of conception from the genital canal
+[10H] Obstetrics, Pregnancy, Insertion -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[10H003Z] Insertion of Monitoring Electrode into Products of Conception, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[10H00YZ] Insertion of Other Device into Products of Conception, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[10H073Z] Insertion of Monitoring Electrode into Products of Conception, Via Natural or Artificial Opening -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[10H07YZ] Insertion of Other Device into Products of Conception, Via Natural or Artificial Opening -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[10J] Obstetrics, Pregnancy, Inspection -- Visually and/or manually exploring a body part
+[10J00ZZ] Inspection of Products of Conception, Open Approach -- Visually and/or manually exploring a body part
+[10J03ZZ] Inspection of Products of Conception, Percutaneous Approach -- Visually and/or manually exploring a body part
+[10J04ZZ] Inspection of Products of Conception, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[10J07ZZ] Inspection of Products of Conception, Via Natural or Artificial Opening -- Visually and/or manually exploring a body part
+[10J08ZZ] Inspection of Products of Conception, Via Natural or Artificial Opening Endoscopic -- Visually and/or manually exploring a body part
+[10J0XZZ] Inspection of Products of Conception, External Approach -- Visually and/or manually exploring a body part
+[10J10ZZ] Inspection of Products of Conception, Retained, Open Approach -- Visually and/or manually exploring a body part
+[10J13ZZ] Inspection of Products of Conception, Retained, Percutaneous Approach -- Visually and/or manually exploring a body part
+[10J14ZZ] Inspection of Products of Conception, Retained, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[10J17ZZ] Inspection of Products of Conception, Retained, Via Natural or Artificial Opening -- Visually and/or manually exploring a body part
+[10J18ZZ] Inspection of Products of Conception, Retained, Via Natural or Artificial Opening Endoscopic -- Visually and/or manually exploring a body part
+[10J1XZZ] Inspection of Products of Conception, Retained, External Approach -- Visually and/or manually exploring a body part
+[10J20ZZ] Inspection of Products of Conception, Ectopic, Open Approach -- Visually and/or manually exploring a body part
+[10J23ZZ] Inspection of Products of Conception, Ectopic, Percutaneous Approach -- Visually and/or manually exploring a body part
+[10J24ZZ] Inspection of Products of Conception, Ectopic, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[10J27ZZ] Inspection of Products of Conception, Ectopic, Via Natural or Artificial Opening -- Visually and/or manually exploring a body part
+[10J28ZZ] Inspection of Products of Conception, Ectopic, Via Natural or Artificial Opening Endoscopic -- Visually and/or manually exploring a body part
+[10J2XZZ] Inspection of Products of Conception, Ectopic, External Approach -- Visually and/or manually exploring a body part
+[10P] Obstetrics, Pregnancy, Removal -- Taking out or off a device from a body part, region or orifice
+[10P003Z] Removal of Monitoring Electrode from Products of Conception, Open Approach -- Taking out or off a device from a body part, region or orifice
+[10P00YZ] Removal of Other Device from Products of Conception, Open Approach -- Taking out or off a device from a body part, region or orifice
+[10P073Z] Removal of Monitoring Electrode from Products of Conception, Via Natural or Artificial Opening -- Taking out or off a device from a body part, region or orifice
+[10P07YZ] Removal of Other Device from Products of Conception, Via Natural or Artificial Opening -- Taking out or off a device from a body part, region or orifice
+[10Q] Obstetrics, Pregnancy, Repair -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YE] Repair Nervous System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YF] Repair Cardiovascular System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YG] Repair Lymphatics and Hemic in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YH] Repair Eye in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YJ] Repair Ear, Nose and Sinus in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YK] Repair Respiratory System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YL] Repair Mouth and Throat in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YM] Repair Gastrointestinal System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YN] Repair Hepatobiliary and Pancreas in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YP] Repair Endocrine System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YQ] Repair Skin in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YR] Repair Musculoskeletal System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YS] Repair Urinary System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YT] Repair Female Reproductive System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YV] Repair Male Reproductive System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00YY] Repair Other Body System in Products of Conception with Other Device, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZE] Repair Nervous System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZF] Repair Cardiovascular System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZG] Repair Lymphatics and Hemic in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZH] Repair Eye in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZJ] Repair Ear, Nose and Sinus in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZK] Repair Respiratory System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZL] Repair Mouth and Throat in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZM] Repair Gastrointestinal System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZN] Repair Hepatobiliary and Pancreas in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZP] Repair Endocrine System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZQ] Repair Skin in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZR] Repair Musculoskeletal System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZS] Repair Urinary System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZT] Repair Female Reproductive System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZV] Repair Male Reproductive System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q00ZY] Repair Other Body System in Products of Conception, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YE] Repair Nervous System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YF] Repair Cardiovascular System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YG] Repair Lymphatics and Hemic in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YH] Repair Eye in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YJ] Repair Ear, Nose and Sinus in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YK] Repair Respiratory System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YL] Repair Mouth and Throat in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YM] Repair Gastrointestinal System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YN] Repair Hepatobiliary and Pancreas in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YP] Repair Endocrine System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YQ] Repair Skin in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YR] Repair Musculoskeletal System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YS] Repair Urinary System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YT] Repair Female Reproductive System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YV] Repair Male Reproductive System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03YY] Repair Other Body System in Products of Conception with Other Device, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZE] Repair Nervous System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZF] Repair Cardiovascular System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZG] Repair Lymphatics and Hemic in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZH] Repair Eye in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZJ] Repair Ear, Nose and Sinus in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZK] Repair Respiratory System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZL] Repair Mouth and Throat in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZM] Repair Gastrointestinal System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZN] Repair Hepatobiliary and Pancreas in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZP] Repair Endocrine System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZQ] Repair Skin in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZR] Repair Musculoskeletal System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZS] Repair Urinary System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZT] Repair Female Reproductive System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZV] Repair Male Reproductive System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q03ZY] Repair Other Body System in Products of Conception, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YE] Repair Nervous System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YF] Repair Cardiovascular System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YG] Repair Lymphatics and Hemic in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YH] Repair Eye in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YJ] Repair Ear, Nose and Sinus in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YK] Repair Respiratory System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YL] Repair Mouth and Throat in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YM] Repair Gastrointestinal System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YN] Repair Hepatobiliary and Pancreas in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YP] Repair Endocrine System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YQ] Repair Skin in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YR] Repair Musculoskeletal System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YS] Repair Urinary System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YT] Repair Female Reproductive System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YV] Repair Male Reproductive System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04YY] Repair Other Body System in Products of Conception with Other Device, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZE] Repair Nervous System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZF] Repair Cardiovascular System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZG] Repair Lymphatics and Hemic in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZH] Repair Eye in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZJ] Repair Ear, Nose and Sinus in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZK] Repair Respiratory System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZL] Repair Mouth and Throat in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZM] Repair Gastrointestinal System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZN] Repair Hepatobiliary and Pancreas in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZP] Repair Endocrine System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZQ] Repair Skin in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZR] Repair Musculoskeletal System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZS] Repair Urinary System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZT] Repair Female Reproductive System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZV] Repair Male Reproductive System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q04ZY] Repair Other Body System in Products of Conception, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YE] Repair Nervous System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YF] Repair Cardiovascular System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YG] Repair Lymphatics and Hemic in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YH] Repair Eye in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YJ] Repair Ear, Nose and Sinus in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YK] Repair Respiratory System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YL] Repair Mouth and Throat in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YM] Repair Gastrointestinal System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YN] Repair Hepatobiliary and Pancreas in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YP] Repair Endocrine System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YQ] Repair Skin in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YR] Repair Musculoskeletal System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YS] Repair Urinary System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YT] Repair Female Reproductive System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YV] Repair Male Reproductive System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07YY] Repair Other Body System in Products of Conception with Other Device, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZE] Repair Nervous System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZF] Repair Cardiovascular System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZG] Repair Lymphatics and Hemic in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZH] Repair Eye in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZJ] Repair Ear, Nose and Sinus in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZK] Repair Respiratory System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZL] Repair Mouth and Throat in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZM] Repair Gastrointestinal System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZN] Repair Hepatobiliary and Pancreas in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZP] Repair Endocrine System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZQ] Repair Skin in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZR] Repair Musculoskeletal System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZS] Repair Urinary System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZT] Repair Female Reproductive System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZV] Repair Male Reproductive System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q07ZY] Repair Other Body System in Products of Conception, Via Natural or Artificial Opening -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YE] Repair Nervous System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YF] Repair Cardiovascular System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YG] Repair Lymphatics and Hemic in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YH] Repair Eye in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YJ] Repair Ear, Nose and Sinus in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YK] Repair Respiratory System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YL] Repair Mouth and Throat in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YM] Repair Gastrointestinal System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YN] Repair Hepatobiliary and Pancreas in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YP] Repair Endocrine System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YQ] Repair Skin in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YR] Repair Musculoskeletal System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YS] Repair Urinary System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YT] Repair Female Reproductive System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YV] Repair Male Reproductive System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08YY] Repair Other Body System in Products of Conception with Other Device, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZE] Repair Nervous System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZF] Repair Cardiovascular System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZG] Repair Lymphatics and Hemic in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZH] Repair Eye in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZJ] Repair Ear, Nose and Sinus in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZK] Repair Respiratory System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZL] Repair Mouth and Throat in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZM] Repair Gastrointestinal System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZN] Repair Hepatobiliary and Pancreas in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZP] Repair Endocrine System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZQ] Repair Skin in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZR] Repair Musculoskeletal System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZS] Repair Urinary System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZT] Repair Female Reproductive System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZV] Repair Male Reproductive System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10Q08ZY] Repair Other Body System in Products of Conception, Via Natural or Artificial Opening Endoscopic -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[10S] Obstetrics, Pregnancy, Reposition -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[10S07ZZ] Reposition Products of Conception, Via Natural or Artificial Opening -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[10S0XZZ] Reposition Products of Conception, External Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[10S20ZZ] Reposition Products of Conception, Ectopic, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[10S23ZZ] Reposition Products of Conception, Ectopic, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[10S24ZZ] Reposition Products of Conception, Ectopic, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[10S27ZZ] Reposition Products of Conception, Ectopic, Via Natural or Artificial Opening -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[10S28ZZ] Reposition Products of Conception, Ectopic, Via Natural or Artificial Opening Endoscopic -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[10T] Obstetrics, Pregnancy, Resection -- Cutting out or off, without replacement, all of a body part
+[10T20ZZ] Resection of Products of Conception, Ectopic, Open Approach -- Cutting out or off, without replacement, all of a body part
+[10T23ZZ] Resection of Products of Conception, Ectopic, Percutaneous Approach -- Cutting out or off, without replacement, all of a body part
+[10T24ZZ] Resection of Products of Conception, Ectopic, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, all of a body part
+[10T27ZZ] Resection of Products of Conception, Ectopic, Via Natural or Artificial Opening -- Cutting out or off, without replacement, all of a body part
+[10T28ZZ] Resection of Products of Conception, Ectopic, Via Natural or Artificial Opening Endoscopic -- Cutting out or off, without replacement, all of a body part
+[10Y] Obstetrics, Pregnancy, Transplantation -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZE] Transplantation of Nervous System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZF] Transplantation of Cardiovascular System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZG] Transplantation of Lymphatics and Hemic into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZH] Transplantation of Eye into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZJ] Transplantation of Ear, Nose and Sinus into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZK] Transplantation of Respiratory System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZL] Transplantation of Mouth and Throat into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZM] Transplantation of Gastrointestinal System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZN] Transplantation of Hepatobiliary and Pancreas into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZP] Transplantation of Endocrine System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZQ] Transplantation of Skin into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZR] Transplantation of Musculoskeletal System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZS] Transplantation of Urinary System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZT] Transplantation of Female Reproductive System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZV] Transplantation of Male Reproductive System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y03ZY] Transplantation of Other Body System into Products of Conception, Percutaneous Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZE] Transplantation of Nervous System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZF] Transplantation of Cardiovascular System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZG] Transplantation of Lymphatics and Hemic into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZH] Transplantation of Eye into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZJ] Transplantation of Ear, Nose and Sinus into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZK] Transplantation of Respiratory System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZL] Transplantation of Mouth and Throat into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZM] Transplantation of Gastrointestinal System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZN] Transplantation of Hepatobiliary and Pancreas into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZP] Transplantation of Endocrine System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZQ] Transplantation of Skin into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZR] Transplantation of Musculoskeletal System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZS] Transplantation of Urinary System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZT] Transplantation of Female Reproductive System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZV] Transplantation of Male Reproductive System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y04ZY] Transplantation of Other Body System into Products of Conception, Percutaneous Endoscopic Approach -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZE] Transplantation of Nervous System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZF] Transplantation of Cardiovascular System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZG] Transplantation of Lymphatics and Hemic into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZH] Transplantation of Eye into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZJ] Transplantation of Ear, Nose and Sinus into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZK] Transplantation of Respiratory System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZL] Transplantation of Mouth and Throat into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZM] Transplantation of Gastrointestinal System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZN] Transplantation of Hepatobiliary and Pancreas into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZP] Transplantation of Endocrine System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZQ] Transplantation of Skin into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZR] Transplantation of Musculoskeletal System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZS] Transplantation of Urinary System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZT] Transplantation of Female Reproductive System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZV] Transplantation of Male Reproductive System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part
+[10Y07ZY] Transplantation of Other Body System into Products of Conception, Via Natural or Artificial Opening -- Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part

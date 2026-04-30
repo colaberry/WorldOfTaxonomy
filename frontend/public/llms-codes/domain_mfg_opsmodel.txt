@@ -1,0 +1,18 @@
+[dfpm_ato] Assemble-to-Order (ATO) :: naics_2022:31-33
+[dfpm_ato_bto] Build-to-Order (BTO) - consumer electronics, PCs
+[dfpm_ato_modular] Modular Assembly (configure from standard sub-assemblies)
+[dfpm_eto] Engineer-to-Order (ETO) :: naics_2022:31-33
+[dfpm_eto_defense] Defense and Aerospace ETO (mil-spec, CDRL deliverables)
+[dfpm_eto_project] Project-Based Engineering (one-off capital equipment)
+[dfpm_flow] Flow and Pull Production Systems :: naics_2022:31-33
+[dfpm_flow_jit] Just-in-Time (JIT) Production
+[dfpm_flow_kanban] Kanban Pull System (demand-driven replenishment)
+[dfpm_flow_onepiece] One-Piece Flow (cellular manufacturing)
+[dfpm_mto] Make-to-Order (MTO) :: naics_2022:31-33
+[dfpm_mto_custom] Custom Manufacturing (unique spec per order)
+[dfpm_mto_jop] Job Order Production (small batch, high mix)
+[dfpm_mto_semicustom] Semi-Custom (standard platform, configured to order)
+[dfpm_mts] Make-to-Stock (MTS) :: naics_2022:31-33
+[dfpm_mts_batch] Batch Production (fixed runs, scheduled changeover)
+[dfpm_mts_continuous] Continuous Flow Production (high volume, low mix)
+[dfpm_mts_discrete] Discrete Repetitive Production (standard products, fixed BOMs)

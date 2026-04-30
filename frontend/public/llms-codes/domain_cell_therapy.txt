@@ -1,0 +1,15 @@
+[CT] Cell Therapy Types :: naics_2022:3254, naics_2022:5417
+[CT.01] CAR-T Cell Therapy
+[CT.02] CAR-NK Cell Therapy
+[CT.03] TIL Therapy
+[CT.04] TCR-T Cell Therapy
+[CT.05] Mesenchymal Stem Cell
+[CT.06] Hematopoietic Stem Cell
+[CT.07] iPSC-Derived Cell Therapy
+[CT.08] Dendritic Cell Therapy
+[CT.09] Autologous Cell Therapy
+[CT.10] Allogeneic Cell Therapy
+[CT.11] Xenogeneic Cell Therapy
+[CT.12] Cell Expansion Platform
+[CT.13] Cryopreservation Protocol
+[CT.14] Point-of-Care Manufacturing

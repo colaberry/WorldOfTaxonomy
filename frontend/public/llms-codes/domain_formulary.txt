@@ -1,0 +1,15 @@
+[FO] Formulary Tier Types :: naics_2022:5419
+[FO.01] Tier 1 - Preferred Generic
+[FO.02] Tier 2 - Generic
+[FO.03] Tier 3 - Preferred Brand
+[FO.04] Tier 4 - Non-Preferred Brand
+[FO.05] Tier 5 - Specialty
+[FO.06] Tier 6 - Specialty (High Cost)
+[FO.07] Prior Authorization Required
+[FO.08] Step Therapy Required
+[FO.09] Quantity Limit
+[FO.10] Over-the-Counter (OTC)
+[FO.11] Preventive Drug List
+[FO.12] Specialty Mail Order
+[FO.13] Limited Distribution
+[FO.14] Formulary Exception

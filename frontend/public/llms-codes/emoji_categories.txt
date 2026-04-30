@@ -1,0 +1,13 @@
+[EM] Emoji Categories
+[EM.01] Smileys and Emotion
+[EM.02] People and Body
+[EM.03] Animals and Nature
+[EM.04] Food and Drink
+[EM.05] Travel and Places
+[EM.06] Activities
+[EM.07] Objects
+[EM.08] Symbols
+[EM.09] Flags
+[EM.10] Component (Skin Tones/Hair)
+[EM.11] Emoji Sequences (ZWJ)
+[EM.12] Emoji Modifiers

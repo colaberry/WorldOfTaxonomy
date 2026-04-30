@@ -1,0 +1,17 @@
+[ONA] O*NET Abilities
+[ONA.01] Cognitive Abilities -- Abilities that influence the acquisition and application of knowledge in problem solving
+[ONA.02] Psychomotor Abilities -- Abilities that influence the capacity to manipulate and control objects
+[ONA.03] Physical Abilities -- Abilities that influence strength, endurance, flexibility, balance and coordination
+[ONA.04] Sensory Abilities -- Abilities that influence visual, auditory and speech perception
+[ONA.C1] Verbal Abilities -- Abilities that influence the acquisition and application of verbal information in problem solving
+[ONA.C2] Idea Generation and Reasoning
+[ONA.C3] Quantitative Abilities -- Abilities that influence the solution of problems involving mathematical relationships
+[ONA.C4] Memory -- Abilities related to the recall of available information
+[ONA.C5] Perceptual Abilities -- Abilities related to the acquisition and organization of visual information
+[ONA.C6] Spatial Abilities -- Abilities related to the manipulation and organization of spatial information
+[ONA.C7] Attentiveness -- Abilities related to application of attention
+[ONA.P1] Fine Manipulative Abilities -- Abilities related to the manipulation of objects
+[ONA.P2] Control Movement Abilities -- Abilities related to the control and manipulation of objects in time and space
+[ONA.P3] Reaction Time and Speed
+[ONA.S1] Visual Abilities -- Abilities related to visual sensory input
+[ONA.S2] Auditory and Speech Abilities -- Abilities related to auditory and oral input

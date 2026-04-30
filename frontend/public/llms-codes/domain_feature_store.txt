@@ -1,0 +1,15 @@
+[FS] Feature Store Types :: naics_2022:5419
+[FS.01] Online Feature Store
+[FS.02] Offline Feature Store
+[FS.03] Feature Registry
+[FS.04] Feature Transformation
+[FS.05] Feature Serving
+[FS.06] Point-in-Time Join
+[FS.07] Feature Freshness SLA
+[FS.08] Feature Lineage
+[FS.09] Feature Monitoring
+[FS.10] Streaming Feature
+[FS.11] Batch Feature
+[FS.12] Feature Discovery
+[FS.13] Feature Access Control
+[FS.14] Feature Versioning

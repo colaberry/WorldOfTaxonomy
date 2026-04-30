@@ -1,0 +1,103 @@
+[7] Osteopathic -- ICD-10-PCS section (Osteopathic). Top-level grouping of procedure codes; sub-nodes break down by body system, operation, and detailed code.
+[7W] Osteopathic, Anatomical Regions -- Body system (Osteopathic, Anatomical Regions) within ICD-10-PCS section 'Osteopathic'. Aggregator of root-operation tables for this body system.
+[7W0] Osteopathic, Anatomical Regions, Treatment -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X0Z] Osteopathic Treatment of Head using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X1Z] Osteopathic Treatment of Head using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X2Z] Osteopathic Treatment of Head using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X3Z] Osteopathic Treatment of Head using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X4Z] Osteopathic Treatment of Head using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X5Z] Osteopathic Treatment of Head using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X6Z] Osteopathic Treatment of Head using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X7Z] Osteopathic Treatment of Head using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X8Z] Osteopathic Treatment of Head using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W00X9Z] Osteopathic Treatment of Head using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X0Z] Osteopathic Treatment of Cervical Region using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X1Z] Osteopathic Treatment of Cervical Region using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X2Z] Osteopathic Treatment of Cervical Region using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X3Z] Osteopathic Treatment of Cervical Region using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X4Z] Osteopathic Treatment of Cervical Region using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X5Z] Osteopathic Treatment of Cervical Region using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X6Z] Osteopathic Treatment of Cervical Region using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X7Z] Osteopathic Treatment of Cervical Region using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X8Z] Osteopathic Treatment of Cervical Region using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W01X9Z] Osteopathic Treatment of Cervical Region using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X0Z] Osteopathic Treatment of Thoracic Region using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X1Z] Osteopathic Treatment of Thoracic Region using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X2Z] Osteopathic Treatment of Thoracic Region using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X3Z] Osteopathic Treatment of Thoracic Region using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X4Z] Osteopathic Treatment of Thoracic Region using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X5Z] Osteopathic Treatment of Thoracic Region using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X6Z] Osteopathic Treatment of Thoracic Region using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X7Z] Osteopathic Treatment of Thoracic Region using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X8Z] Osteopathic Treatment of Thoracic Region using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W02X9Z] Osteopathic Treatment of Thoracic Region using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X0Z] Osteopathic Treatment of Lumbar Region using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X1Z] Osteopathic Treatment of Lumbar Region using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X2Z] Osteopathic Treatment of Lumbar Region using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X3Z] Osteopathic Treatment of Lumbar Region using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X4Z] Osteopathic Treatment of Lumbar Region using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X5Z] Osteopathic Treatment of Lumbar Region using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X6Z] Osteopathic Treatment of Lumbar Region using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X7Z] Osteopathic Treatment of Lumbar Region using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X8Z] Osteopathic Treatment of Lumbar Region using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W03X9Z] Osteopathic Treatment of Lumbar Region using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X0Z] Osteopathic Treatment of Sacrum using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X1Z] Osteopathic Treatment of Sacrum using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X2Z] Osteopathic Treatment of Sacrum using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X3Z] Osteopathic Treatment of Sacrum using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X4Z] Osteopathic Treatment of Sacrum using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X5Z] Osteopathic Treatment of Sacrum using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X6Z] Osteopathic Treatment of Sacrum using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X7Z] Osteopathic Treatment of Sacrum using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X8Z] Osteopathic Treatment of Sacrum using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W04X9Z] Osteopathic Treatment of Sacrum using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X0Z] Osteopathic Treatment of Pelvis using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X1Z] Osteopathic Treatment of Pelvis using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X2Z] Osteopathic Treatment of Pelvis using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X3Z] Osteopathic Treatment of Pelvis using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X4Z] Osteopathic Treatment of Pelvis using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X5Z] Osteopathic Treatment of Pelvis using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X6Z] Osteopathic Treatment of Pelvis using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X7Z] Osteopathic Treatment of Pelvis using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X8Z] Osteopathic Treatment of Pelvis using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W05X9Z] Osteopathic Treatment of Pelvis using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X0Z] Osteopathic Treatment of Lower Extremities using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X1Z] Osteopathic Treatment of Lower Extremities using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X2Z] Osteopathic Treatment of Lower Extremities using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X3Z] Osteopathic Treatment of Lower Extremities using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X4Z] Osteopathic Treatment of Lower Extremities using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X5Z] Osteopathic Treatment of Lower Extremities using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X6Z] Osteopathic Treatment of Lower Extremities using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X7Z] Osteopathic Treatment of Lower Extremities using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X8Z] Osteopathic Treatment of Lower Extremities using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W06X9Z] Osteopathic Treatment of Lower Extremities using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X0Z] Osteopathic Treatment of Upper Extremities using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X1Z] Osteopathic Treatment of Upper Extremities using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X2Z] Osteopathic Treatment of Upper Extremities using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X3Z] Osteopathic Treatment of Upper Extremities using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X4Z] Osteopathic Treatment of Upper Extremities using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X5Z] Osteopathic Treatment of Upper Extremities using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X6Z] Osteopathic Treatment of Upper Extremities using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X7Z] Osteopathic Treatment of Upper Extremities using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X8Z] Osteopathic Treatment of Upper Extremities using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W07X9Z] Osteopathic Treatment of Upper Extremities using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X0Z] Osteopathic Treatment of Rib Cage using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X1Z] Osteopathic Treatment of Rib Cage using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X2Z] Osteopathic Treatment of Rib Cage using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X3Z] Osteopathic Treatment of Rib Cage using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X4Z] Osteopathic Treatment of Rib Cage using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X5Z] Osteopathic Treatment of Rib Cage using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X6Z] Osteopathic Treatment of Rib Cage using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X7Z] Osteopathic Treatment of Rib Cage using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X8Z] Osteopathic Treatment of Rib Cage using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W08X9Z] Osteopathic Treatment of Rib Cage using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X0Z] Osteopathic Treatment of Abdomen using Articulatory-Raising Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X1Z] Osteopathic Treatment of Abdomen using Fascial Release -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X2Z] Osteopathic Treatment of Abdomen using General Mobilization -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X3Z] Osteopathic Treatment of Abdomen using High Velocity-Low Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X4Z] Osteopathic Treatment of Abdomen using Indirect Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X5Z] Osteopathic Treatment of Abdomen using Low Velocity-High Amplitude Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X6Z] Osteopathic Treatment of Abdomen using Lymphatic Pump -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X7Z] Osteopathic Treatment of Abdomen using Muscle Energy-Isometric Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X8Z] Osteopathic Treatment of Abdomen using Muscle Energy-Isotonic Forces -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders
+[7W09X9Z] Osteopathic Treatment of Abdomen using Other Method -- Manual treatment to eliminate or alleviate somatic dysfunction and related disorders

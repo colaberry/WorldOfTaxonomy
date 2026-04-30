@@ -1,0 +1,21 @@
+[dwc_buyer] Wholesale Buyer Category :: naics_2022:42
+[dwc_buyer_food] Foodservice and Restaurant Buyer
+[dwc_buyer_govt] Government and Institutional Buyer
+[dwc_buyer_mfg] Industrial and Manufacturing Buyer
+[dwc_buyer_retail] Retail and Mass Merchant Buyer
+[dwc_cold] Temperature and Cold Chain Management :: naics_2022:42
+[dwc_cold_ambient] Ambient (non-refrigerated, dry storage)
+[dwc_cold_controlled] Controlled Atmosphere (CA storage for produce)
+[dwc_cold_fresh] Refrigerated Fresh (0 to 4 deg C)
+[dwc_cold_frozen] Frozen (below -18 deg C)
+[dwc_dist] Distribution Channel Type :: naics_2022:42
+[dwc_dist_broker] Broker and Agent (commission-based intermediary)
+[dwc_dist_direct] Direct Sales (manufacturer to end buyer)
+[dwc_dist_distrib] Full-Service Distributor (stock and deliver)
+[dwc_dist_dropship] Drop-Ship (supplier ships direct to customer)
+[dwc_dist_market] Online Marketplace (B2B platform, e-procurement)
+[dwc_fulfill] Fulfillment and Logistics Method :: naics_2022:42
+[dwc_fulfill_1pl] 1PL - Private Fleet (own trucks, own staff)
+[dwc_fulfill_3pl] 3PL - Third-Party Logistics (outsourced)
+[dwc_fulfill_4pl] 4PL - Lead Logistics Provider (orchestration)
+[dwc_fulfill_xdock] Cross-Dock (transit without storage)

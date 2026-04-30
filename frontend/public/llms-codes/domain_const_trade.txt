@@ -1,0 +1,20 @@
+[dct_finish] Finish Trades :: naics_2022:236, naics_2022:237, naics_2022:238
+[dct_finish_drywall] Drywall and Plaster (interior partitions)
+[dct_finish_floor] Flooring (hardwood, tile, carpet, LVP)
+[dct_finish_glass] Glazing and Glass (windows, curtain wall)
+[dct_finish_paint] Painting and Coatings
+[dct_mep] MEP Trades (Mechanical-Electrical-Plumbing) :: naics_2022:236, naics_2022:237, naics_2022:238
+[dct_mep_elec] Electrical (power, lighting, low-voltage)
+[dct_mep_fire] Fire Protection (sprinklers, alarms, suppression)
+[dct_mep_hvac] HVAC and Mechanical (heating, cooling, ventilation)
+[dct_mep_plumb] Plumbing (domestic water, sanitary, storm)
+[dct_site] Site Work Trades :: naics_2022:236, naics_2022:237, naics_2022:238
+[dct_site_concrete] Concrete and Foundation Work
+[dct_site_excav] Excavation, Grading, and Earthwork
+[dct_site_paving] Paving and Asphalt Work
+[dct_site_utility] Site Utilities (underground piping, conduit)
+[dct_struct] Structural Trades :: naics_2022:236, naics_2022:237, naics_2022:238
+[dct_struct_mason] Masonry and Stonework (brick, block, tile)
+[dct_struct_precast] Precast Concrete and Tilt-Up
+[dct_struct_steel] Structural Steel and Ironwork
+[dct_struct_wood] Carpentry and Wood Framing

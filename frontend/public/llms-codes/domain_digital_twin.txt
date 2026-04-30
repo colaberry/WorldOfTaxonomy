@@ -1,0 +1,19 @@
+[dt_comp] Components :: naics_2022:518, naics_2022:5415
+[dt_comp_ai] AI and predictive analytics
+[dt_comp_data] Data integration and IoT feeds
+[dt_comp_model] Physics-based models
+[dt_comp_sim] Simulation engine
+[dt_comp_viz] 3D visualization
+[dt_ind] Industry Applications :: naics_2022:518, naics_2022:5415
+[dt_ind_build] Building and facility twin
+[dt_ind_city] City and infrastructure twin
+[dt_ind_energy] Energy system digital twin
+[dt_ind_health] Healthcare digital twin (patient, device)
+[dt_ind_mfg] Manufacturing digital twin
+[dt_ind_supply] Supply chain digital twin
+[dt_mat] Maturity Levels :: naics_2022:518, naics_2022:5415
+[dt_mat_auto] Autonomous twin (self-adjusting)
+[dt_mat_desc] Descriptive twin (current state)
+[dt_mat_info] Informative twin (alerts and KPIs)
+[dt_mat_pred] Predictive twin (forecasting)
+[dt_mat_presc] Prescriptive twin (optimization)

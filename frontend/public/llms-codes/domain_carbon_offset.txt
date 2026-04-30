@@ -1,0 +1,14 @@
+[CP] Carbon Offset Protocol Types :: naics_2022:5417, naics_2022:924
+[CP.01] Verified Carbon Standard (VCS)
+[CP.02] Gold Standard
+[CP.03] CDM (Clean Development)
+[CP.04] American Carbon Registry
+[CP.05] Climate Action Reserve
+[CP.06] Plan Vivo
+[CP.07] REDD+ Forest Carbon
+[CP.08] Afforestation/Reforestation
+[CP.09] Soil Carbon Sequestration
+[CP.10] Blue Carbon (Ocean)
+[CP.11] Direct Air Capture Credit
+[CP.12] Biochar Carbon Removal
+[CP.13] Article 6 (Paris Agreement)

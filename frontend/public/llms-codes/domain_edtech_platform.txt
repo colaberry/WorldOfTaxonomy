@@ -1,0 +1,27 @@
+[det_corp] Corporate Learning and Development :: naics_2022:5415, naics_2022:611
+[det_corp_coach] Coaching and Mentoring Platform (BetterUp, CoachHub)
+[det_corp_compliance] Compliance and Mandatory Training (SOC, HIPAA, OSHA)
+[det_corp_lxp] Learning Experience Platform (Degreed, EdCast, Cornerstone)
+[det_corp_sim] Simulation and Scenario Training (VR, role-play)
+[det_corp_upskill] Upskilling and Reskilling Platform (Pluralsight, Udacity)
+[det_higher] Higher Education Platforms :: naics_2022:5415, naics_2022:611
+[det_higher_credential] Digital Credential and Micro-Credential (Credly, Parchment)
+[det_higher_mooc] MOOC and Course Marketplace (Coursera, edX, Udemy)
+[det_higher_opm] Online Program Management (OPM, 2U, Noodle)
+[det_higher_sis] Student Information System (Ellucian, Workday Student)
+[det_k12] K-12 EdTech :: naics_2022:5415, naics_2022:611
+[det_k12_adaptive] Adaptive Learning Platform (DreamBox, i-Ready)
+[det_k12_assess] Digital Assessment and Testing (MAP, SBAC, iStation)
+[det_k12_classroom] Classroom Management Tool (ClassDojo, Google Classroom)
+[det_k12_curriculum] Digital Curriculum and Content (Khan Academy, IXL)
+[det_k12_lms] K-12 Learning Management System (Canvas, Schoology)
+[det_lang] Language Learning :: naics_2022:5415, naics_2022:611
+[det_lang_ai] AI Conversation and Speech Practice Tool
+[det_lang_app] App-Based Language Learning (Duolingo, Babbel, Busuu)
+[det_lang_immersion] Immersive and VR Language Learning
+[det_lang_tutor] Online Language Tutoring (iTalki, Preply, Cambly)
+[det_stem] STEM Education Platforms :: naics_2022:5415, naics_2022:611
+[det_stem_coding] Coding Bootcamp and Platform (Codecademy, freeCodeCamp)
+[det_stem_data] Data Science and AI Education (DataCamp, fast.ai)
+[det_stem_lab] Virtual Lab and Science Simulation (Labster, PhET)
+[det_stem_robotics] Robotics and Hardware Learning Kit (LEGO, Arduino)

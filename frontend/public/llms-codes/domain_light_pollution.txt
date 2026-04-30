@@ -1,0 +1,13 @@
+[LP] Light Pollution Types :: naics_2022:5417, naics_2022:924
+[LP.01] Skyglow
+[LP.02] Light Trespass
+[LP.03] Glare
+[LP.04] Over-Illumination
+[LP.05] Clutter (Excessive Grouping)
+[LP.06] Ecological Light Pollution
+[LP.07] Artificial Light at Night (ALAN)
+[LP.08] Blue Light Hazard
+[LP.09] Dark Sky Reserve
+[LP.10] Lighting Ordinance
+[LP.11] Bortle Scale
+[LP.12] Shielded Fixture Standard

@@ -1,0 +1,27 @@
+[dns_advocacy] Advocacy Groups :: naics_2022:6241, naics_2022:8131
+[dns_advocacy_environ] Environmental Advocacy and Conservation
+[dns_advocacy_labor] Labor Unions and Worker Advocacy
+[dns_advocacy_policy] Public Policy Think Tanks and Research Institutes
+[dns_advocacy_rights] Civil Rights and Human Rights Organizations
+[dns_charity] Charitable Organizations :: naics_2022:6241, naics_2022:8131
+[dns_charity_disaster] Disaster Relief and Emergency Response
+[dns_charity_education] Educational Charities and Scholarship Funds
+[dns_charity_health] Health and Medical Charities
+[dns_charity_human] Human Services Charities (food banks, shelters)
+[dns_charity_religious] Religious Charitable Organizations
+[dns_found] Foundations :: naics_2022:6241, naics_2022:8131
+[dns_found_community] Community Foundations
+[dns_found_donor] Donor-Advised Fund Sponsors
+[dns_found_operating] Operating Foundations (direct program delivery)
+[dns_found_private] Private Foundations (family, corporate)
+[dns_intl] International Development :: naics_2022:6241, naics_2022:8131
+[dns_intl_bilateral] Bilateral Development Agencies (USAID, DFID)
+[dns_intl_capacity] Capacity Building and Technical Assistance
+[dns_intl_multilateral] Multilateral Organizations (UN, World Bank)
+[dns_intl_ngo] International NGOs and Humanitarian Aid
+[dns_intl_volunteer] International Volunteer and Service Programs
+[dns_social] Social Enterprises :: naics_2022:6241, naics_2022:8131
+[dns_social_bcorp] B Corporations and Benefit Corporations
+[dns_social_coop] Cooperative Enterprises and Mutual Organizations
+[dns_social_impact] Impact Investment Vehicles and Funds
+[dns_social_micro] Microfinance and Community Development Finance

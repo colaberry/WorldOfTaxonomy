@@ -1,0 +1,15 @@
+[GT] Gene Therapy Types :: naics_2022:3254, naics_2022:5417
+[GT.01] In Vivo Gene Therapy
+[GT.02] Ex Vivo Gene Therapy
+[GT.03] AAV Vector Therapy
+[GT.04] Lentiviral Vector Therapy
+[GT.05] Retroviral Vector Therapy
+[GT.06] mRNA Therapy
+[GT.07] CRISPR Gene Editing
+[GT.08] Antisense Oligonucleotide
+[GT.09] siRNA Therapy
+[GT.10] Gene Augmentation
+[GT.11] Gene Silencing
+[GT.12] Gene Replacement
+[GT.13] Oncolytic Virus Therapy
+[GT.14] Base Editing

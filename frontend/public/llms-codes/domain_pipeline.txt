@@ -1,0 +1,14 @@
+[PL] Pipeline Types :: naics_2022:211, naics_2022:2212, naics_2022:4861
+[PL.01] Crude Oil Pipeline
+[PL.02] Natural Gas Pipeline
+[PL.03] Product Pipeline (Refined)
+[PL.04] NGL Pipeline
+[PL.05] Gathering Pipeline
+[PL.06] Transmission Pipeline
+[PL.07] Distribution Pipeline
+[PL.08] Subsea Pipeline
+[PL.09] Hydrogen Pipeline
+[PL.10] CO2 Pipeline
+[PL.11] Water Injection Pipeline
+[PL.12] Slurry Pipeline
+[PL.13] Pipeline Integrity Management

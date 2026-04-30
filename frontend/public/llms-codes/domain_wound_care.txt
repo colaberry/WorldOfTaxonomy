@@ -1,0 +1,15 @@
+[WC] Wound Care Types :: naics_2022:5419
+[WC.01] Primary Wound Dressing
+[WC.02] Foam Dressing
+[WC.03] Hydrocolloid Dressing
+[WC.04] Alginate Dressing
+[WC.05] Hydrogel Dressing
+[WC.06] Negative Pressure (VAC)
+[WC.07] Silver-Containing Dressing
+[WC.08] Collagen Dressing
+[WC.09] Skin Substitute
+[WC.10] Compression Therapy
+[WC.11] Debridement Method
+[WC.12] Growth Factor Therapy
+[WC.13] Hyperbaric Oxygen Therapy
+[WC.14] Wound Assessment Scale

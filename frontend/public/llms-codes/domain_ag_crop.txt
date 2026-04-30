@@ -1,0 +1,48 @@
+[dac_fiber] Fiber Crops :: naics_2022:111
+[dac_fiber_cotton] Cotton (upland cotton, pima cotton)
+[dac_fiber_flax] Flax (fiber flax)
+[dac_fiber_hemp] Hemp (industrial hemp)
+[dac_forage] Forages and Feed Crops :: naics_2022:111
+[dac_forage_alfalfa] Alfalfa / Hay (alfalfa, timothy, orchard grass)
+[dac_forage_clover] Clover and Legume Forages
+[dac_forage_pasture] Pasture Grasses (bermuda, fescue, bluegrass)
+[dac_forage_silage] Silage Crops (corn silage, sorghum silage)
+[dac_fruit] Fruits and Tree Crops :: naics_2022:111
+[dac_fruit_berry] Berries (strawberry, blueberry, grape)
+[dac_fruit_citrus] Citrus (orange, lemon, lime, grapefruit)
+[dac_fruit_nut] Tree Nuts (almond, walnut, pecan, pistachio)
+[dac_fruit_pome] Pome Fruits (apple, pear, quince)
+[dac_fruit_stone] Stone Fruits (peach, plum, cherry, apricot)
+[dac_fruit_tropical] Tropical Fruits (banana, avocado, mango, papaya)
+[dac_grain] Cereal Grains :: naics_2022:111
+[dac_grain_barley] Barley (feed barley, malting barley)
+[dac_grain_corn] Corn / Maize (field corn, sweet corn)
+[dac_grain_millet] Millet (proso, foxtail, pearl)
+[dac_grain_oats] Oats (feed oats, milling oats)
+[dac_grain_rice] Rice (long grain, medium grain, short grain)
+[dac_grain_rye] Rye
+[dac_grain_sorghum] Sorghum / Milo (grain sorghum)
+[dac_grain_wheat] Wheat (hard red, soft red, winter, spring)
+[dac_oil] Oilseeds :: naics_2022:111
+[dac_oil_canola] Canola / Rapeseed
+[dac_oil_cotton] Cottonseed (oil use)
+[dac_oil_flaxseed] Flaxseed / Linseed
+[dac_oil_peanut] Peanuts / Groundnuts
+[dac_oil_soy] Soybeans
+[dac_oil_sunflower] Sunflower
+[dac_spec] Specialty and Industrial Crops :: naics_2022:111
+[dac_spec_herbs] Herbs and Spices (mint, basil, cilantro)
+[dac_spec_hops] Hops
+[dac_spec_mushroom] Mushrooms and Fungi
+[dac_spec_nursery] Nursery and Greenhouse Crops (flowers, trees)
+[dac_spec_tobacco] Tobacco (flue-cured, burley, fire-cured)
+[dac_sugar] Sugar Crops :: naics_2022:111
+[dac_sugar_beet] Sugar Beets
+[dac_sugar_cane] Sugarcane
+[dac_veg] Vegetables :: naics_2022:111
+[dac_veg_allium] Allium Vegetables (onion, garlic, leek)
+[dac_veg_brassica] Brassica Vegetables (broccoli, cauliflower, kale)
+[dac_veg_fruiting] Fruiting Vegetables (tomato, pepper, cucumber, squash)
+[dac_veg_leafy] Leafy and Stem Vegetables (lettuce, spinach, cabbage)
+[dac_veg_legume] Legume Vegetables (green beans, peas, edamame)
+[dac_veg_root] Root and Tuber Vegetables (potato, carrot, beet)

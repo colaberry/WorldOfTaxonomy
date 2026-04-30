@@ -1,0 +1,1037 @@
+[D00] Carcinoma in situ of oral cavity, esophagus and stomach -- **Excludes1:** - melanoma in situ (D03.-)
+[D000] Carcinoma in situ of lip, oral cavity and pharynx -- **Excludes1:** - carcinoma in situ of aryepiglottic fold or interarytenoid fold, laryngeal aspect (D02.0) - carcinoma in situ of epiglottis NOS (D02.0) - carcinoma in situ of epiglottis suprahyoid portion (D02.0) - carcinoma in situ of skin of lip (D03.0, D04.0)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[D0000] Carcinoma in situ of oral cavity, unspecified site
+[D0001] Carcinoma in situ of labial mucosa and vermilion border
+[D0002] Carcinoma in situ of buccal mucosa
+[D0003] Carcinoma in situ of gingiva and edentulous alveolar ridge
+[D0004] Carcinoma in situ of soft palate
+[D0005] Carcinoma in situ of hard palate
+[D0006] Carcinoma in situ of floor of mouth
+[D0007] Carcinoma in situ of tongue
+[D0008] Carcinoma in situ of pharynx -- **Inclusion terms:** - Carcinoma in situ of aryepiglottic fold NOS - Carcinoma in situ of hypopharyngeal aspect of aryepiglottic fold - Carcinoma in situ of marginal zone of aryepiglottic fold
+[D001] Carcinoma in situ of esophagus
+[D002] Carcinoma in situ of stomach
+[D01] Carcinoma in situ of other and unspecified digestive organs -- **Excludes1:** - melanoma in situ (D03.-)
+[D010] Carcinoma in situ of colon -- **Excludes1:** - carcinoma in situ of rectosigmoid junction (D01.1)
+[D011] Carcinoma in situ of rectosigmoid junction
+[D012] Carcinoma in situ of rectum
+[D013] Carcinoma in situ of anus and anal canal -- **Inclusion terms:** - Anal intraepithelial neoplasia III [AIN III] - Severe dysplasia of anus  **Excludes1:** - anal intraepithelial neoplasia I and II [AIN I and AIN II] (K62.82) - carcinoma in situ of anal margin (D04.5) - carcinoma in situ of anal skin (D04.5) - carcinoma in situ of perianal skin (D04.5)
+[D014] Carcinoma in situ of other and unspecified parts of intestine -- **Excludes1:** - carcinoma in situ of ampulla of Vater (D01.5)
+[D0140] Carcinoma in situ of unspecified part of intestine
+[D0149] Carcinoma in situ of other parts of intestine
+[D015] Carcinoma in situ of liver, gallbladder and bile ducts -- **Inclusion terms:** - Carcinoma in situ of ampulla of Vater
+[D017] Carcinoma in situ of other specified digestive organs -- **Inclusion terms:** - Carcinoma in situ of pancreas
+[D019] Carcinoma in situ of digestive organ, unspecified
+[D02] Carcinoma in situ of middle ear and respiratory system -- **Excludes1:** - melanoma in situ (D03.-)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[D020] Carcinoma in situ of larynx -- **Inclusion terms:** - Carcinoma in situ of aryepiglottic fold or interarytenoid fold, laryngeal aspect - Carcinoma in situ of epiglottis (suprahyoid portion)  **Excludes1:** - carcinoma in situ of aryepiglottic fold or interarytenoid fold NOS (D00.08) - carcinoma in situ of hypopharyngeal aspect (D00.08) - carcinoma in situ of marginal zone (D00.08)
+[D021] Carcinoma in situ of trachea
+[D022] Carcinoma in situ of bronchus and lung
+[D0220] Carcinoma in situ of unspecified bronchus and lung
+[D0221] Carcinoma in situ of right bronchus and lung
+[D0222] Carcinoma in situ of left bronchus and lung
+[D023] Carcinoma in situ of other parts of respiratory system -- **Inclusion terms:** - Carcinoma in situ of accessory sinuses - Carcinoma in situ of middle ear - Carcinoma in situ of nasal cavities  **Excludes1:** - carcinoma in situ of ear (external) (skin) (D04.2-) - carcinoma in situ of nose NOS (D09.8) - carcinoma in situ of skin of nose (D04.3)
+[D024] Carcinoma in situ of respiratory system, unspecified
+[D03] Melanoma in situ
+[D030] Melanoma in situ of lip
+[D031] Melanoma in situ of eyelid, including canthus
+[D0310] Melanoma in situ of unspecified eyelid, including canthus
+[D0311] Melanoma in situ of right eyelid, including canthus
+[D03111] Melanoma in situ of right upper eyelid, including canthus
+[D03112] Melanoma in situ of right lower eyelid, including canthus
+[D0312] Melanoma in situ of left eyelid, including canthus
+[D03121] Melanoma in situ of left upper eyelid, including canthus
+[D03122] Melanoma in situ of left lower eyelid, including canthus
+[D032] Melanoma in situ of ear and external auricular canal
+[D0320] Melanoma in situ of unspecified ear and external auricular canal
+[D0321] Melanoma in situ of right ear and external auricular canal
+[D0322] Melanoma in situ of left ear and external auricular canal
+[D033] Melanoma in situ of other and unspecified parts of face
+[D0330] Melanoma in situ of unspecified part of face
+[D0339] Melanoma in situ of other parts of face
+[D034] Melanoma in situ of scalp and neck
+[D035] Melanoma in situ of trunk
+[D0351] Melanoma in situ of anal skin -- **Inclusion terms:** - Melanoma in situ of anal margin - Melanoma in situ of perianal skin
+[D0352] Melanoma in situ of breast (skin) (soft tissue)
+[D0359] Melanoma in situ of other part of trunk
+[D036] Melanoma in situ of upper limb, including shoulder
+[D0360] Melanoma in situ of unspecified upper limb, including shoulder
+[D0361] Melanoma in situ of right upper limb, including shoulder
+[D0362] Melanoma in situ of left upper limb, including shoulder
+[D037] Melanoma in situ of lower limb, including hip
+[D0370] Melanoma in situ of unspecified lower limb, including hip
+[D0371] Melanoma in situ of right lower limb, including hip
+[D0372] Melanoma in situ of left lower limb, including hip
+[D038] Melanoma in situ of other sites -- **Inclusion terms:** - Melanoma in situ of scrotum  **Excludes1:** - carcinoma in situ of scrotum (D07.61)
+[D039] Melanoma in situ, unspecified
+[D04] Carcinoma in situ of skin -- **Excludes1:** - erythroplasia of Queyrat (penis) NOS (D07.4) - melanoma in situ (D03.-)
+[D040] Carcinoma in situ of skin of lip -- **Excludes2:** - carcinoma in situ of vermilion border of lip (D00.01)
+[D041] Carcinoma in situ of skin of eyelid, including canthus
+[D0410] Carcinoma in situ of skin of unspecified eyelid, including canthus
+[D0411] Carcinoma in situ of skin of right eyelid, including canthus
+[D04111] Carcinoma in situ of skin of right upper eyelid, including canthus
+[D04112] Carcinoma in situ of skin of right lower eyelid, including canthus
+[D0412] Carcinoma in situ of skin of left eyelid, including canthus
+[D04121] Carcinoma in situ of skin of left upper eyelid, including canthus
+[D04122] Carcinoma in situ of skin of left lower eyelid, including canthus
+[D042] Carcinoma in situ of skin of ear and external auricular canal
+[D0420] Carcinoma in situ of skin of unspecified ear and external auricular canal
+[D0421] Carcinoma in situ of skin of right ear and external auricular canal
+[D0422] Carcinoma in situ of skin of left ear and external auricular canal
+[D043] Carcinoma in situ of skin of other and unspecified parts of face
+[D0430] Carcinoma in situ of skin of unspecified part of face
+[D0439] Carcinoma in situ of skin of other parts of face
+[D044] Carcinoma in situ of skin of scalp and neck
+[D045] Carcinoma in situ of skin of trunk -- **Inclusion terms:** - Carcinoma in situ of anal margin - Carcinoma in situ of anal skin - Carcinoma in situ of perianal skin - Carcinoma in situ of skin of breast  **Excludes1:** - carcinoma in situ of anus NOS (D01.3) - carcinoma in situ of scrotum (D07.61) - carcinoma in situ of skin of genital organs (D07.-)
+[D046] Carcinoma in situ of skin of upper limb, including shoulder
+[D0460] Carcinoma in situ of skin of unspecified upper limb, including shoulder
+[D0461] Carcinoma in situ of skin of right upper limb, including shoulder
+[D0462] Carcinoma in situ of skin of left upper limb, including shoulder
+[D047] Carcinoma in situ of skin of lower limb, including hip
+[D0470] Carcinoma in situ of skin of unspecified lower limb, including hip
+[D0471] Carcinoma in situ of skin of right lower limb, including hip
+[D0472] Carcinoma in situ of skin of left lower limb, including hip
+[D048] Carcinoma in situ of skin of other sites
+[D049] Carcinoma in situ of skin, unspecified
+[D05] Carcinoma in situ of breast -- **Excludes1:** - carcinoma in situ of skin of breast (D04.5) - melanoma in situ of breast (skin) (D03.5) - Paget's disease of breast or nipple (C50.-)  **Excludes2:** - malignant neoplasm of breast (C50.-)
+[D050] Lobular carcinoma in situ of breast
+[D0500] Lobular carcinoma in situ of unspecified breast
+[D0501] Lobular carcinoma in situ of right breast
+[D0502] Lobular carcinoma in situ of left breast
+[D051] Intraductal carcinoma in situ of breast
+[D0510] Intraductal carcinoma in situ of unspecified breast
+[D0511] Intraductal carcinoma in situ of right breast
+[D0512] Intraductal carcinoma in situ of left breast
+[D058] Other specified type of carcinoma in situ of breast
+[D0580] Other specified type of carcinoma in situ of unspecified breast
+[D0581] Other specified type of carcinoma in situ of right breast
+[D0582] Other specified type of carcinoma in situ of left breast
+[D059] Unspecified type of carcinoma in situ of breast
+[D0590] Unspecified type of carcinoma in situ of unspecified breast
+[D0591] Unspecified type of carcinoma in situ of right breast
+[D0592] Unspecified type of carcinoma in situ of left breast
+[D06] Carcinoma in situ of cervix uteri -- **Includes:** - cervical adenocarcinoma in situ - cervical intraepithelial glandular neoplasia - cervical intraepithelial neoplasia III [CIN III] - severe dysplasia of cervix uteri  **Excludes1:** - cervical intraepithelial neoplasia II [CIN II] (N87.1) - cytologic evidence of malignancy of cervix without histologic confirmation (R87.614) - high grade squamous intraepithelial lesion (HGSIL) of cervix (R87.613) - melanoma in situ of cervix (D03.5) - moderate cervical dysplasia (N87.1)
+[D060] Carcinoma in situ of endocervix
+[D061] Carcinoma in situ of exocervix
+[D067] Carcinoma in situ of other parts of cervix
+[D069] Carcinoma in situ of cervix, unspecified
+[D07] Carcinoma in situ of other and unspecified genital organs -- **Excludes1:** - melanoma in situ of trunk (D03.5)
+[D070] Carcinoma in situ of endometrium
+[D071] Carcinoma in situ of vulva -- **Inclusion terms:** - Severe dysplasia of vulva - Vulvar intraepithelial neoplasia III [VIN III]  **Excludes1:** - moderate dysplasia of vulva (N90.1) - vulvar intraepithelial neoplasia II [VIN II] (N90.1)
+[D072] Carcinoma in situ of vagina -- **Inclusion terms:** - Severe dysplasia of vagina - Vaginal intraepithelial neoplasia III [VAIN III]  **Excludes1:** - moderate dysplasia of vagina (N89.1) - vaginal intraepithelial neoplasia II [VIN II] (N89.1)
+[D073] Carcinoma in situ of other and unspecified female genital organs
+[D0730] Carcinoma in situ of unspecified female genital organs
+[D0739] Carcinoma in situ of other female genital organs
+[D074] Carcinoma in situ of penis -- **Inclusion terms:** - Erythroplasia of Queyrat NOS
+[D075] Carcinoma in situ of prostate -- **Inclusion terms:** - Prostatic intraepithelial neoplasia III (PIN III) - Severe dysplasia of prostate  **Excludes1:** - dysplasia (mild) (moderate) of prostate (N42.3-) - prostatic intraepithelial neoplasia II [PIN II] (N42.3-)
+[D076] Carcinoma in situ of other and unspecified male genital organs
+[D0760] Carcinoma in situ of unspecified male genital organs
+[D0761] Carcinoma in situ of scrotum
+[D0769] Carcinoma in situ of other male genital organs
+[D09] Carcinoma in situ of other and unspecified sites -- **Excludes1:** - melanoma in situ (D03.-)
+[D090] Carcinoma in situ of bladder
+[D091] Carcinoma in situ of other and unspecified urinary organs
+[D0910] Carcinoma in situ of unspecified urinary organ
+[D0919] Carcinoma in situ of other urinary organs
+[D092] Carcinoma in situ of eye -- **Excludes1:** - carcinoma in situ of skin of eyelid (D04.1-)
+[D0920] Carcinoma in situ of unspecified eye
+[D0921] Carcinoma in situ of right eye
+[D0922] Carcinoma in situ of left eye
+[D093] Carcinoma in situ of thyroid and other endocrine glands -- **Excludes1:** - carcinoma in situ of endocrine pancreas (D01.7) - carcinoma in situ of ovary (D07.39) - carcinoma in situ of testis (D07.69)
+[D098] Carcinoma in situ of other specified sites
+[D099] Carcinoma in situ, unspecified
+[D10] Benign neoplasm of mouth and pharynx
+[D100] Benign neoplasm of lip -- **Inclusion terms:** - Benign neoplasm of lip (frenulum) (inner aspect) (mucosa) (vermilion border)  **Excludes1:** - benign neoplasm of skin of lip (D22.0, D23.0)
+[D101] Benign neoplasm of tongue -- **Inclusion terms:** - Benign neoplasm of lingual tonsil
+[D102] Benign neoplasm of floor of mouth
+[D103] Benign neoplasm of other and unspecified parts of mouth
+[D1030] Benign neoplasm of unspecified part of mouth
+[D1039] Benign neoplasm of other parts of mouth -- **Inclusion terms:** - Benign neoplasm of minor salivary gland NOS  **Excludes1:** - benign odontogenic neoplasms (D16.4-D16.5) - benign neoplasm of mucosa of lip (D10.0) - benign neoplasm of nasopharyngeal surface of soft palate (D10.6)
+[D104] Benign neoplasm of tonsil -- **Inclusion terms:** - Benign neoplasm of tonsil (faucial) (palatine)  **Excludes1:** - benign neoplasm of lingual tonsil (D10.1) - benign neoplasm of pharyngeal tonsil (D10.6) - benign neoplasm of tonsillar fossa (D10.5) - benign neoplasm of tonsillar pillars (D10.5)
+[D105] Benign neoplasm of other parts of oropharynx -- **Inclusion terms:** - Benign neoplasm of epiglottis, anterior aspect - Benign neoplasm of tonsillar fossa - Benign neoplasm of tonsillar pillars - Benign neoplasm of vallecula  **Excludes1:** - benign neoplasm of epiglottis NOS (D14.1) - benign neoplasm of epiglottis, suprahyoid portion (D14.1)
+[D106] Benign neoplasm of nasopharynx -- **Inclusion terms:** - Benign neoplasm of pharyngeal tonsil - Benign neoplasm of posterior margin of septum and choanae
+[D107] Benign neoplasm of hypopharynx
+[D109] Benign neoplasm of pharynx, unspecified
+[D11] Benign neoplasm of major salivary glands -- **Excludes1:** - benign neoplasms of specified minor salivary glands which are classified according to their anatomical location - benign neoplasms of minor salivary glands NOS (D10.39)
+[D110] Benign neoplasm of parotid gland
+[D117] Benign neoplasm of other major salivary glands -- **Inclusion terms:** - Benign neoplasm of sublingual salivary gland - Benign neoplasm of submandibular salivary gland
+[D119] Benign neoplasm of major salivary gland, unspecified
+[D12] Benign neoplasm of colon, rectum, anus and anal canal -- **Excludes2:** - benign carcinoid tumors of the large intestine and rectum (D3A.02-) - polyp of colon NOS (K63.5)
+[D120] Benign neoplasm of cecum -- **Inclusion terms:** - Benign neoplasm of ileocecal valve
+[D121] Benign neoplasm of appendix -- **Excludes1:** - benign carcinoid tumor of the appendix (D3A.020)
+[D122] Benign neoplasm of ascending colon
+[D123] Benign neoplasm of transverse colon -- **Inclusion terms:** - Benign neoplasm of hepatic flexure - Benign neoplasm of splenic flexure
+[D124] Benign neoplasm of descending colon
+[D125] Benign neoplasm of sigmoid colon
+[D126] Benign neoplasm of colon, unspecified -- **Inclusion terms:** - Adenomatosis of colon - Benign neoplasm of large intestine NOS - Polyposis (hereditary) of colon  **Excludes1:** - inflammatory polyp of colon (K51.4-)
+[D127] Benign neoplasm of rectosigmoid junction
+[D128] Benign neoplasm of rectum -- **Excludes1:** - benign carcinoid tumor of the rectum (D3A.026)
+[D129] Benign neoplasm of anus and anal canal -- **Inclusion terms:** - Benign neoplasm of anus NOS  **Excludes1:** - benign neoplasm of anal margin (D22.5, D23.5) - benign neoplasm of anal skin (D22.5, D23.5) - benign neoplasm of perianal skin (D22.5, D23.5)
+[D13] Benign neoplasm of other and ill-defined parts of digestive system -- **Excludes1:** - benign stromal tumors of digestive system (D21.4)
+[D130] Benign neoplasm of esophagus
+[D131] Benign neoplasm of stomach -- **Excludes1:** - benign carcinoid tumor of the stomach (D3A.092)
+[D132] Benign neoplasm of duodenum -- **Excludes1:** - benign carcinoid tumor of the duodenum (D3A.010)
+[D133] Benign neoplasm of other and unspecified parts of small intestine -- **Excludes1:** - benign carcinoid tumors of the small intestine (D3A.01-) - benign neoplasm of ileocecal valve (D12.0)
+[D1330] Benign neoplasm of unspecified part of small intestine
+[D1339] Benign neoplasm of other parts of small intestine
+[D134] Benign neoplasm of liver -- **Inclusion terms:** - Benign neoplasm of intrahepatic bile ducts
+[D135] Benign neoplasm of extrahepatic bile ducts
+[D136] Benign neoplasm of pancreas -- **Excludes1:** - benign neoplasm of endocrine pancreas (D13.7)
+[D137] Benign neoplasm of endocrine pancreas -- **Inclusion terms:** - Islet cell tumor - Benign neoplasm of islets of Langerhans  **Use additional code:** - code to identify any functional activity.
+[D139] Benign neoplasm of ill-defined sites within the digestive system
+[D1391] Familial adenomatous polyposis -- **Code also:** - associated conditions, such as: - benign neoplasm of colon (D12.6) - malignant neoplasm of colon (C18.-)
+[D1399] Benign neoplasm of ill-defined sites within the digestive system -- **Inclusion terms:** - Benign neoplasm of digestive system NOS - Benign neoplasm of intestine NOS - Benign neoplasm of spleen
+[D14] Benign neoplasm of middle ear and respiratory system
+[D140] Benign neoplasm of middle ear, nasal cavity and accessory sinuses -- **Inclusion terms:** - Benign neoplasm of cartilage of nose  **Excludes1:** - benign neoplasm of auricular canal (external) (D22.2-, D23.2-) - benign neoplasm of bone of ear (D16.4) - benign neoplasm of bone of nose (D16.4) - benign neoplasm of cartilage of ear (D21.0) - benign neoplasm of ear (external)(skin) (D22.2-, D23.2-) - benign neoplasm of nose NOS (D36.7) - benign neoplasm of skin of nose (D22.39, D23.39) - benign neoplasm of olfactory bulb (D33.3) - benign neoplasm of posterior margin of septum and choanae (D10.6) - polyp of accessory sinus (J33.8) - polyp of ear (middle) (H74.4) - polyp of nasal (cavity) (J33.-)
+[D141] Benign neoplasm of larynx -- **Inclusion terms:** - Adenomatous polyp of larynx - Benign neoplasm of epiglottis (suprahyoid portion)  **Excludes1:** - benign neoplasm of epiglottis, anterior aspect (D10.5) - polyp (nonadenomatous) of vocal cord or larynx (J38.1)
+[D142] Benign neoplasm of trachea
+[D143] Benign neoplasm of bronchus and lung -- **Excludes1:** - benign carcinoid tumor of the bronchus and lung (D3A.090)
+[D1430] Benign neoplasm of unspecified bronchus and lung
+[D1431] Benign neoplasm of right bronchus and lung
+[D1432] Benign neoplasm of left bronchus and lung
+[D144] Benign neoplasm of respiratory system, unspecified
+[D15] Benign neoplasm of other and unspecified intrathoracic organs -- **Excludes1:** - benign neoplasm of mesothelial tissue (D19.-)
+[D150] Benign neoplasm of thymus -- **Excludes1:** - benign carcinoid tumor of the thymus (D3A.091)
+[D151] Benign neoplasm of heart -- **Excludes1:** - benign neoplasm of great vessels (D21.3)
+[D152] Benign neoplasm of mediastinum
+[D157] Benign neoplasm of other specified intrathoracic organs
+[D159] Benign neoplasm of intrathoracic organ, unspecified
+[D16] Benign neoplasm of bone and articular cartilage -- **Excludes1:** - benign neoplasm of connective tissue of ear (D21.0) - benign neoplasm of connective tissue of eyelid (D21.0) - benign neoplasm of connective tissue of larynx (D14.1) - benign neoplasm of connective tissue of nose (D14.0) - benign neoplasm of synovia (D21.-)
+[D160] Benign neoplasm of scapula and long bones of upper limb
+[D1600] Benign neoplasm of scapula and long bones of unspecified upper limb
+[D1601] Benign neoplasm of scapula and long bones of right upper limb
+[D1602] Benign neoplasm of scapula and long bones of left upper limb
+[D161] Benign neoplasm of short bones of upper limb
+[D1610] Benign neoplasm of short bones of unspecified upper limb
+[D1611] Benign neoplasm of short bones of right upper limb
+[D1612] Benign neoplasm of short bones of left upper limb
+[D162] Benign neoplasm of long bones of lower limb
+[D1620] Benign neoplasm of long bones of unspecified lower limb
+[D1621] Benign neoplasm of long bones of right lower limb
+[D1622] Benign neoplasm of long bones of left lower limb
+[D163] Benign neoplasm of short bones of lower limb
+[D1630] Benign neoplasm of short bones of unspecified lower limb
+[D1631] Benign neoplasm of short bones of right lower limb
+[D1632] Benign neoplasm of short bones of left lower limb
+[D164] Benign neoplasm of bones of skull and face -- **Inclusion terms:** - Benign neoplasm of maxilla (superior) - Benign neoplasm of orbital bone - Keratocyst of maxilla - Keratocystic odontogenic tumor of maxilla  **Excludes2:** - benign neoplasm of lower jaw bone (D16.5)
+[D165] Benign neoplasm of lower jaw bone -- **Inclusion terms:** - Keratocyst of mandible - Keratocystic odontogenic tumor of mandible
+[D166] Benign neoplasm of vertebral column -- **Excludes1:** - benign neoplasm of sacrum and coccyx (D16.8)
+[D167] Benign neoplasm of ribs, sternum and clavicle
+[D168] Benign neoplasm of pelvic bones, sacrum and coccyx
+[D169] Benign neoplasm of bone and articular cartilage, unspecified
+[D17] Benign lipomatous neoplasm
+[D170] Benign lipomatous neoplasm of skin and subcutaneous tissue of head, face and neck
+[D171] Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk
+[D172] Benign lipomatous neoplasm of skin and subcutaneous tissue of limb
+[D1720] Benign lipomatous neoplasm of skin and subcutaneous tissue of unspecified limb
+[D1721] Benign lipomatous neoplasm of skin and subcutaneous tissue of right arm
+[D1722] Benign lipomatous neoplasm of skin and subcutaneous tissue of left arm
+[D1723] Benign lipomatous neoplasm of skin and subcutaneous tissue of right leg
+[D1724] Benign lipomatous neoplasm of skin and subcutaneous tissue of left leg
+[D173] Benign lipomatous neoplasm of skin and subcutaneous tissue of other and unspecified sites
+[D1730] Benign lipomatous neoplasm of skin and subcutaneous tissue of unspecified sites
+[D1739] Benign lipomatous neoplasm of skin and subcutaneous tissue of other sites
+[D174] Benign lipomatous neoplasm of intrathoracic organs
+[D175] Benign lipomatous neoplasm of intra-abdominal organs -- **Excludes1:** - benign lipomatous neoplasm of peritoneum and retroperitoneum (D17.79)
+[D176] Benign lipomatous neoplasm of spermatic cord
+[D177] Benign lipomatous neoplasm of other sites
+[D1771] Benign lipomatous neoplasm of kidney
+[D1772] Benign lipomatous neoplasm of other genitourinary organ
+[D1779] Benign lipomatous neoplasm of other sites -- **Inclusion terms:** - Benign lipomatous neoplasm of peritoneum - Benign lipomatous neoplasm of retroperitoneum
+[D179] Benign lipomatous neoplasm, unspecified -- **Inclusion terms:** - Lipoma NOS
+[D18] Hemangioma and lymphangioma, any site -- **Excludes1:** - benign neoplasm of glomus jugulare (D35.6) - blue or pigmented nevus (D22.-) - nevus NOS (D22.-) - vascular nevus (Q82.5)
+[D180] Hemangioma -- **Inclusion terms:** - Angioma NOS - Cavernous nevus
+[D1800] Hemangioma unspecified site
+[D1801] Hemangioma of skin and subcutaneous tissue
+[D1802] Hemangioma of intracranial structures
+[D1803] Hemangioma of intra-abdominal structures
+[D1809] Hemangioma of other sites
+[D181] Lymphangioma, any site
+[D19] Benign neoplasm of mesothelial tissue
+[D190] Benign neoplasm of mesothelial tissue of pleura
+[D191] Benign neoplasm of mesothelial tissue of peritoneum
+[D197] Benign neoplasm of mesothelial tissue of other sites
+[D199] Benign neoplasm of mesothelial tissue, unspecified -- **Inclusion terms:** - Benign mesothelioma NOS
+[D20] Benign neoplasm of soft tissue of retroperitoneum and peritoneum -- **Excludes1:** - benign lipomatous neoplasm of peritoneum and retroperitoneum (D17.79) - benign neoplasm of mesothelial tissue (D19.-)
+[D200] Benign neoplasm of soft tissue of retroperitoneum
+[D201] Benign neoplasm of soft tissue of peritoneum
+[D21] Other benign neoplasms of connective and other soft tissue -- **Includes:** - benign neoplasm of blood vessel - benign neoplasm of bursa - benign neoplasm of cartilage - benign neoplasm of fascia - benign neoplasm of fat - benign neoplasm of ligament, except uterine - benign neoplasm of lymphatic channel - benign neoplasm of muscle - benign neoplasm of synovia - benign neoplasm of tendon (sheath) - benign stromal tumors  **Excludes1:** - benign neoplasm of articular cartilage (D16.-) - benign neoplasm of cartilage of larynx (D14.1) - benign neoplasm of cartilage of nose (D14.0) - benign neoplasm of connective tissue of breast (D24.-) - benign neoplasm of peripheral nerves and autonomic nervous system (D36.1-) - benign neoplasm of peritoneum (D20.1) - benign neoplasm of retroperitoneum (D20.0) - benign neoplasm of uterine ligament, any (D28.2) - benign neoplasm of vascular tissue (D18.-) - hemangioma (D18.0-) - lipomatous neoplasm (D17.-) - lymphangioma (D18.1) - uterine leiomyoma (D25.-)
+[D210] Benign neoplasm of connective and other soft tissue of head, face and neck -- **Inclusion terms:** - Benign neoplasm of connective tissue of ear - Benign neoplasm of connective tissue of eyelid  **Excludes1:** - benign neoplasm of connective tissue of orbit (D31.6-)
+[D211] Benign neoplasm of connective and other soft tissue of upper limb, including shoulder
+[D2110] Benign neoplasm of connective and other soft tissue of unspecified upper limb, including shoulder
+[D2111] Benign neoplasm of connective and other soft tissue of right upper limb, including shoulder
+[D2112] Benign neoplasm of connective and other soft tissue of left upper limb, including shoulder
+[D212] Benign neoplasm of connective and other soft tissue of lower limb, including hip
+[D2120] Benign neoplasm of connective and other soft tissue of unspecified lower limb, including hip
+[D2121] Benign neoplasm of connective and other soft tissue of right lower limb, including hip
+[D2122] Benign neoplasm of connective and other soft tissue of left lower limb, including hip
+[D213] Benign neoplasm of connective and other soft tissue of thorax -- **Inclusion terms:** - Benign neoplasm of axilla - Benign neoplasm of diaphragm - Benign neoplasm of great vessels  **Excludes1:** - benign neoplasm of heart (D15.1) - benign neoplasm of mediastinum (D15.2) - benign neoplasm of thymus (D15.0)
+[D214] Benign neoplasm of connective and other soft tissue of abdomen -- **Inclusion terms:** - Benign stromal tumors of abdomen
+[D215] Benign neoplasm of connective and other soft tissue of pelvis -- **Excludes1:** - benign neoplasm of any uterine ligament (D28.2) - uterine leiomyoma (D25.-)
+[D216] Benign neoplasm of connective and other soft tissue of trunk, unspecified -- **Inclusion terms:** - Benign neoplasm of connective and other soft tissue of back NOS
+[D219] Benign neoplasm of connective and other soft tissue, unspecified
+[D22] Melanocytic nevi -- **Includes:** - atypical nevus - blue hairy pigmented nevus - nevus NOS
+[D220] Melanocytic nevi of lip
+[D221] Melanocytic nevi of eyelid, including canthus
+[D2210] Melanocytic nevi of unspecified eyelid, including canthus
+[D2211] Melanocytic nevi of right eyelid, including canthus
+[D22111] Melanocytic nevi of right upper eyelid, including canthus
+[D22112] Melanocytic nevi of right lower eyelid, including canthus
+[D2212] Melanocytic nevi of left eyelid, including canthus
+[D22121] Melanocytic nevi of left upper eyelid, including canthus
+[D22122] Melanocytic nevi of left lower eyelid, including canthus
+[D222] Melanocytic nevi of ear and external auricular canal
+[D2220] Melanocytic nevi of unspecified ear and external auricular canal
+[D2221] Melanocytic nevi of right ear and external auricular canal
+[D2222] Melanocytic nevi of left ear and external auricular canal
+[D223] Melanocytic nevi of other and unspecified parts of face
+[D2230] Melanocytic nevi of unspecified part of face
+[D2239] Melanocytic nevi of other parts of face
+[D224] Melanocytic nevi of scalp and neck
+[D225] Melanocytic nevi of trunk -- **Inclusion terms:** - Melanocytic nevi of anal margin - Melanocytic nevi of anal skin - Melanocytic nevi of perianal skin - Melanocytic nevi of skin of breast
+[D226] Melanocytic nevi of upper limb, including shoulder
+[D2260] Melanocytic nevi of unspecified upper limb, including shoulder
+[D2261] Melanocytic nevi of right upper limb, including shoulder
+[D2262] Melanocytic nevi of left upper limb, including shoulder
+[D227] Melanocytic nevi of lower limb, including hip
+[D2270] Melanocytic nevi of unspecified lower limb, including hip
+[D2271] Melanocytic nevi of right lower limb, including hip
+[D2272] Melanocytic nevi of left lower limb, including hip
+[D229] Melanocytic nevi, unspecified
+[D23] Other benign neoplasms of skin -- **Includes:** - benign neoplasm of hair follicles - benign neoplasm of sebaceous glands - benign neoplasm of sweat glands  **Excludes1:** - benign lipomatous neoplasms of skin (D17.0-D17.3)  **Excludes2:** - melanocytic nevi (D22.-)
+[D230] Other benign neoplasm of skin of lip -- **Excludes1:** - benign neoplasm of vermilion border of lip (D10.0)
+[D231] Other benign neoplasm of skin of eyelid, including canthus
+[D2310] Other benign neoplasm of skin of unspecified eyelid, including canthus
+[D2311] Other benign neoplasm of skin of right eyelid, including canthus
+[D23111] Other benign neoplasm of skin of right upper eyelid, including canthus
+[D23112] Other benign neoplasm of skin of right lower eyelid, including canthus
+[D2312] Other benign neoplasm of skin of left eyelid, including canthus
+[D23121] Other benign neoplasm of skin of left upper eyelid, including canthus
+[D23122] Other benign neoplasm of skin of left lower eyelid, including canthus
+[D232] Other benign neoplasm of skin of ear and external auricular canal
+[D2320] Other benign neoplasm of skin of unspecified ear and external auricular canal
+[D2321] Other benign neoplasm of skin of right ear and external auricular canal
+[D2322] Other benign neoplasm of skin of left ear and external auricular canal
+[D233] Other benign neoplasm of skin of other and unspecified parts of face
+[D2330] Other benign neoplasm of skin of unspecified part of face
+[D2339] Other benign neoplasm of skin of other parts of face
+[D234] Other benign neoplasm of skin of scalp and neck
+[D235] Other benign neoplasm of skin of trunk -- **Inclusion terms:** - Other benign neoplasm of anal margin - Other benign neoplasm of anal skin - Other benign neoplasm of perianal skin - Other benign neoplasm of skin of breast  **Excludes1:** - benign neoplasm of anus NOS (D12.9)
+[D236] Other benign neoplasm of skin of upper limb, including shoulder
+[D2360] Other benign neoplasm of skin of unspecified upper limb, including shoulder
+[D2361] Other benign neoplasm of skin of right upper limb, including shoulder
+[D2362] Other benign neoplasm of skin of left upper limb, including shoulder
+[D237] Other benign neoplasm of skin of lower limb, including hip
+[D2370] Other benign neoplasm of skin of unspecified lower limb, including hip
+[D2371] Other benign neoplasm of skin of right lower limb, including hip
+[D2372] Other benign neoplasm of skin of left lower limb, including hip
+[D239] Other benign neoplasm of skin, unspecified
+[D24] Benign neoplasm of breast -- **Includes:** - benign neoplasm of connective tissue of breast - benign neoplasm of soft parts of breast - fibroadenoma of breast  **Excludes2:** - adenofibrosis of breast (N60.2) - benign cyst of breast (N60.-) - benign mammary dysplasia (N60.-) - benign neoplasm of skin of breast (D22.5, D23.5) - fibrocystic disease of breast (N60.-)
+[D241] Benign neoplasm of right breast
+[D242] Benign neoplasm of left breast
+[D249] Benign neoplasm of unspecified breast
+[D25] Leiomyoma of uterus -- **Includes:** - uterine fibroid - uterine fibromyoma - uterine myoma
+[D250] Submucous leiomyoma of uterus
+[D251] Intramural leiomyoma of uterus -- **Inclusion terms:** - Interstitial leiomyoma of uterus
+[D252] Subserosal leiomyoma of uterus -- **Inclusion terms:** - Subperitoneal leiomyoma of uterus
+[D259] Leiomyoma of uterus, unspecified
+[D26] Other benign neoplasms of uterus
+[D260] Other benign neoplasm of cervix uteri
+[D261] Other benign neoplasm of corpus uteri
+[D267] Other benign neoplasm of other parts of uterus
+[D269] Other benign neoplasm of uterus, unspecified
+[D27] Benign neoplasm of ovary -- **Excludes2:** - corpus albicans cyst (N83.2-) - corpus luteum cyst (N83.1-) - endometrial cyst (N80.1-) - follicular (atretic) cyst (N83.0-) - graafian follicle cyst (N83.0-) - ovarian cyst NEC (N83.2-) - ovarian retention cyst (N83.2-)  **Use additional code:** - code to identify any functional activity.
+[D270] Benign neoplasm of right ovary
+[D271] Benign neoplasm of left ovary
+[D279] Benign neoplasm of unspecified ovary
+[D28] Benign neoplasm of other and unspecified female genital organs -- **Includes:** - adenomatous polyp - benign neoplasm of skin of female genital organs - benign teratoma  **Excludes1:** - epoophoron cyst (Q50.5) - fimbrial cyst (Q50.4) - Gartner's duct cyst (Q52.4) - parovarian cyst (Q50.5)
+[D280] Benign neoplasm of vulva
+[D281] Benign neoplasm of vagina
+[D282] Benign neoplasm of uterine tubes and ligaments -- **Inclusion terms:** - Benign neoplasm of fallopian tube - Benign neoplasm of uterine ligament (broad) (round)
+[D287] Benign neoplasm of other specified female genital organs
+[D289] Benign neoplasm of female genital organ, unspecified
+[D29] Benign neoplasm of male genital organs -- **Includes:** - benign neoplasm of skin of male genital organs
+[D290] Benign neoplasm of penis
+[D291] Benign neoplasm of prostate -- **Excludes1:** - enlarged prostate (N40.-)
+[D292] Benign neoplasm of testis -- **Use additional code:** - code to identify any functional activity.
+[D2920] Benign neoplasm of unspecified testis
+[D2921] Benign neoplasm of right testis
+[D2922] Benign neoplasm of left testis
+[D293] Benign neoplasm of epididymis
+[D2930] Benign neoplasm of unspecified epididymis
+[D2931] Benign neoplasm of right epididymis
+[D2932] Benign neoplasm of left epididymis
+[D294] Benign neoplasm of scrotum -- **Inclusion terms:** - Benign neoplasm of skin of scrotum
+[D298] Benign neoplasm of other specified male genital organs -- **Inclusion terms:** - Benign neoplasm of seminal vesicle - Benign neoplasm of spermatic cord - Benign neoplasm of tunica vaginalis
+[D299] Benign neoplasm of male genital organ, unspecified
+[D30] Benign neoplasm of urinary organs
+[D300] Benign neoplasm of kidney -- **Excludes1:** - benign carcinoid tumor of the kidney (D3A.093) - benign neoplasm of renal calyces (D30.1-) - benign neoplasm of renal pelvis (D30.1-)
+[D3000] Benign neoplasm of unspecified kidney
+[D3001] Benign neoplasm of right kidney
+[D3002] Benign neoplasm of left kidney
+[D301] Benign neoplasm of renal pelvis
+[D3010] Benign neoplasm of unspecified renal pelvis
+[D3011] Benign neoplasm of right renal pelvis
+[D3012] Benign neoplasm of left renal pelvis
+[D302] Benign neoplasm of ureter -- **Excludes1:** - benign neoplasm of ureteric orifice of bladder (D30.3)
+[D3020] Benign neoplasm of unspecified ureter
+[D3021] Benign neoplasm of right ureter
+[D3022] Benign neoplasm of left ureter
+[D303] Benign neoplasm of bladder -- **Inclusion terms:** - Benign neoplasm of ureteric orifice of bladder - Benign neoplasm of urethral orifice of bladder
+[D304] Benign neoplasm of urethra -- **Excludes1:** - benign neoplasm of urethral orifice of bladder (D30.3)
+[D308] Benign neoplasm of other specified urinary organs -- **Inclusion terms:** - Benign neoplasm of paraurethral glands
+[D309] Benign neoplasm of urinary organ, unspecified -- **Inclusion terms:** - Benign neoplasm of urinary system NOS
+[D31] Benign neoplasm of eye and adnexa -- **Excludes1:** - benign neoplasm of connective tissue of eyelid (D21.0) - benign neoplasm of optic nerve (D33.3) - benign neoplasm of skin of eyelid (D22.1-, D23.1-)
+[D310] Benign neoplasm of conjunctiva
+[D3100] Benign neoplasm of unspecified conjunctiva
+[D3101] Benign neoplasm of right conjunctiva
+[D3102] Benign neoplasm of left conjunctiva
+[D311] Benign neoplasm of cornea
+[D3110] Benign neoplasm of unspecified cornea
+[D3111] Benign neoplasm of right cornea
+[D3112] Benign neoplasm of left cornea
+[D312] Benign neoplasm of retina -- **Excludes1:** - dark area on retina (D49.81) - hemangioma of retina (D49.81) - neoplasm of unspecified behavior of retina and choroid (D49.81) - retinal freckle (D49.81)
+[D3120] Benign neoplasm of unspecified retina
+[D3121] Benign neoplasm of right retina
+[D3122] Benign neoplasm of left retina
+[D313] Benign neoplasm of choroid
+[D3130] Benign neoplasm of unspecified choroid
+[D3131] Benign neoplasm of right choroid
+[D3132] Benign neoplasm of left choroid
+[D314] Benign neoplasm of ciliary body
+[D3140] Benign neoplasm of unspecified ciliary body
+[D3141] Benign neoplasm of right ciliary body
+[D3142] Benign neoplasm of left ciliary body
+[D315] Benign neoplasm of lacrimal gland and duct -- **Inclusion terms:** - Benign neoplasm of lacrimal sac - Benign neoplasm of nasolacrimal duct
+[D3150] Benign neoplasm of unspecified lacrimal gland and duct
+[D3151] Benign neoplasm of right lacrimal gland and duct
+[D3152] Benign neoplasm of left lacrimal gland and duct
+[D316] Benign neoplasm of unspecified site of orbit -- **Inclusion terms:** - Benign neoplasm of connective tissue of orbit - Benign neoplasm of extraocular muscle - Benign neoplasm of peripheral nerves of orbit - Benign neoplasm of retrobulbar tissue - Benign neoplasm of retro-ocular tissue  **Excludes1:** - benign neoplasm of orbital bone (D16.4)
+[D3160] Benign neoplasm of unspecified site of unspecified orbit
+[D3161] Benign neoplasm of unspecified site of right orbit
+[D3162] Benign neoplasm of unspecified site of left orbit
+[D319] Benign neoplasm of unspecified part of eye -- **Inclusion terms:** - Benign neoplasm of eyeball
+[D3190] Benign neoplasm of unspecified part of unspecified eye
+[D3191] Benign neoplasm of unspecified part of right eye
+[D3192] Benign neoplasm of unspecified part of left eye
+[D32] Benign neoplasm of meninges
+[D320] Benign neoplasm of cerebral meninges
+[D321] Benign neoplasm of spinal meninges
+[D329] Benign neoplasm of meninges, unspecified -- **Inclusion terms:** - Meningioma NOS
+[D33] Benign neoplasm of brain and other parts of central nervous system -- **Excludes1:** - angioma (D18.0-) - benign neoplasm of meninges (D32.-) - benign neoplasm of peripheral nerves and autonomic nervous system (D36.1-) - hemangioma (D18.0-) - neurofibromatosis (Q85.0-) - retro-ocular benign neoplasm (D31.6-)
+[D330] Benign neoplasm of brain, supratentorial -- **Inclusion terms:** - Benign neoplasm of cerebral ventricle - Benign neoplasm of cerebrum - Benign neoplasm of frontal lobe - Benign neoplasm of occipital lobe - Benign neoplasm of parietal lobe - Benign neoplasm of temporal lobe  **Excludes1:** - benign neoplasm of fourth ventricle (D33.1)
+[D331] Benign neoplasm of brain, infratentorial -- **Inclusion terms:** - Benign neoplasm of brain stem - Benign neoplasm of cerebellum - Benign neoplasm of fourth ventricle
+[D332] Benign neoplasm of brain, unspecified
+[D333] Benign neoplasm of cranial nerves -- **Inclusion terms:** - Benign neoplasm of olfactory bulb
+[D334] Benign neoplasm of spinal cord
+[D337] Benign neoplasm of other specified parts of central nervous system
+[D339] Benign neoplasm of central nervous system, unspecified -- **Inclusion terms:** - Benign neoplasm of nervous system (central) NOS
+[D34] Benign neoplasm of thyroid gland -- **Use additional code:** - code to identify any functional activity
+[D35] Benign neoplasm of other and unspecified endocrine glands -- **Excludes1:** - benign neoplasm of endocrine pancreas (D13.7) - benign neoplasm of ovary (D27.-) - benign neoplasm of testis (D29.2.-) - benign neoplasm of thymus (D15.0)  **Use additional code:** - code to identify any functional activity
+[D350] Benign neoplasm of adrenal gland
+[D3500] Benign neoplasm of unspecified adrenal gland
+[D3501] Benign neoplasm of right adrenal gland
+[D3502] Benign neoplasm of left adrenal gland
+[D351] Benign neoplasm of parathyroid gland
+[D352] Benign neoplasm of pituitary gland
+[D353] Benign neoplasm of craniopharyngeal duct
+[D354] Benign neoplasm of pineal gland
+[D355] Benign neoplasm of carotid body
+[D356] Benign neoplasm of aortic body and other paraganglia -- **Inclusion terms:** - Benign tumor of glomus jugulare
+[D357] Benign neoplasm of other specified endocrine glands
+[D359] Benign neoplasm of endocrine gland, unspecified -- **Inclusion terms:** - Benign neoplasm of unspecified endocrine gland
+[D36] Benign neoplasm of other and unspecified sites
+[D360] Benign neoplasm of lymph nodes -- **Excludes1:** - lymphangioma (D18.1)
+[D361] Benign neoplasm of peripheral nerves and autonomic nervous system -- **Excludes1:** - benign neoplasm of peripheral nerves of orbit (D31.6-) - neurofibromatosis (Q85.0-)
+[D3610] Benign neoplasm of peripheral nerves and autonomic nervous system, unspecified
+[D3611] Benign neoplasm of peripheral nerves and autonomic nervous system of face, head, and neck
+[D3612] Benign neoplasm of peripheral nerves and autonomic nervous system, upper limb, including shoulder
+[D3613] Benign neoplasm of peripheral nerves and autonomic nervous system of lower limb, including hip
+[D3614] Benign neoplasm of peripheral nerves and autonomic nervous system of thorax
+[D3615] Benign neoplasm of peripheral nerves and autonomic nervous system of abdomen
+[D3616] Benign neoplasm of peripheral nerves and autonomic nervous system of pelvis
+[D3617] Benign neoplasm of peripheral nerves and autonomic nervous system of trunk, unspecified
+[D367] Benign neoplasm of other specified sites -- **Inclusion terms:** - Benign neoplasm of back NOS - Benign neoplasm of nose NOS
+[D369] Benign neoplasm, unspecified site
+[D37] Neoplasm of uncertain behavior of oral cavity and digestive organs -- **Excludes1:** - stromal tumors of uncertain behavior of digestive system (D48.1-)
+[D370] Neoplasm of uncertain behavior of lip, oral cavity and pharynx -- **Excludes1:** - neoplasm of uncertain behavior of aryepiglottic fold or interarytenoid fold, laryngeal aspect (D38.0) - neoplasm of uncertain behavior of epiglottis NOS (D38.0) - neoplasm of uncertain behavior of skin of lip (D48.5) - neoplasm of uncertain behavior of suprahyoid portion of epiglottis (D38.0)
+[D3701] Neoplasm of uncertain behavior of lip -- **Inclusion terms:** - Neoplasm of uncertain behavior of vermilion border of lip
+[D3702] Neoplasm of uncertain behavior of tongue
+[D3703] Neoplasm of uncertain behavior of the major salivary glands
+[D37030] Neoplasm of uncertain behavior of the parotid salivary glands
+[D37031] Neoplasm of uncertain behavior of the sublingual salivary glands
+[D37032] Neoplasm of uncertain behavior of the submandibular salivary glands
+[D37039] Neoplasm of uncertain behavior of the major salivary glands, unspecified
+[D3704] Neoplasm of uncertain behavior of the minor salivary glands -- **Inclusion terms:** - Neoplasm of uncertain behavior of submucosal salivary glands of lip - Neoplasm of uncertain behavior of submucosal salivary glands of cheek - Neoplasm of uncertain behavior of submucosal salivary glands of hard palate - Neoplasm of uncertain behavior of submucosal salivary glands of soft palate
+[D3705] Neoplasm of uncertain behavior of pharynx -- **Inclusion terms:** - Neoplasm of uncertain behavior of aryepiglottic fold of pharynx NOS - Neoplasm of uncertain behavior of hypopharyngeal aspect of aryepiglottic fold of pharynx - Neoplasm of uncertain behavior of marginal zone of aryepiglottic fold of pharynx
+[D3709] Neoplasm of uncertain behavior of other specified sites of the oral cavity
+[D371] Neoplasm of uncertain behavior of stomach
+[D372] Neoplasm of uncertain behavior of small intestine
+[D373] Neoplasm of uncertain behavior of appendix
+[D374] Neoplasm of uncertain behavior of colon
+[D375] Neoplasm of uncertain behavior of rectum -- **Inclusion terms:** - Neoplasm of uncertain behavior of rectosigmoid junction
+[D376] Neoplasm of uncertain behavior of liver, gallbladder and bile ducts -- **Inclusion terms:** - Neoplasm of uncertain behavior of ampulla of Vater
+[D378] Neoplasm of uncertain behavior of other specified digestive organs -- **Inclusion terms:** - Neoplasm of uncertain behavior of anal canal - Neoplasm of uncertain behavior of anal sphincter - Neoplasm of uncertain behavior of anus NOS - Neoplasm of uncertain behavior of esophagus - Neoplasm of uncertain behavior of intestine NOS - Neoplasm of uncertain behavior of pancreas  **Excludes1:** - neoplasm of uncertain behavior of anal margin (D48.5) - neoplasm of uncertain behavior of anal skin (D48.5) - neoplasm of uncertain behavior of perianal skin (D48.5)
+[D379] Neoplasm of uncertain behavior of digestive organ, unspecified
+[D38] Neoplasm of uncertain behavior of middle ear and respiratory and intrathoracic organs -- **Excludes1:** - neoplasm of uncertain behavior of heart (D48.7)
+[D380] Neoplasm of uncertain behavior of larynx -- **Inclusion terms:** - Neoplasm of uncertain behavior of aryepiglottic fold or interarytenoid fold, laryngeal aspect - Neoplasm of uncertain behavior of epiglottis (suprahyoid portion)  **Excludes1:** - neoplasm of uncertain behavior of aryepiglottic fold or interarytenoid fold NOS (D37.05) - neoplasm of uncertain behavior of hypopharyngeal aspect of aryepiglottic fold (D37.05) - neoplasm of uncertain behavior of marginal zone of aryepiglottic fold (D37.05)
+[D381] Neoplasm of uncertain behavior of trachea, bronchus and lung
+[D382] Neoplasm of uncertain behavior of pleura
+[D383] Neoplasm of uncertain behavior of mediastinum
+[D384] Neoplasm of uncertain behavior of thymus
+[D385] Neoplasm of uncertain behavior of other respiratory organs -- **Inclusion terms:** - Neoplasm of uncertain behavior of accessory sinuses - Neoplasm of uncertain behavior of cartilage of nose - Neoplasm of uncertain behavior of middle ear - Neoplasm of uncertain behavior of nasal cavities  **Excludes1:** - neoplasm of uncertain behavior of ear (external) (skin) (D48.5) - neoplasm of uncertain behavior of nose NOS (D48.7) - neoplasm of uncertain behavior of skin of nose (D48.5)
+[D386] Neoplasm of uncertain behavior of respiratory organ, unspecified
+[D39] Neoplasm of uncertain behavior of female genital organs
+[D390] Neoplasm of uncertain behavior of uterus
+[D391] Neoplasm of uncertain behavior of ovary -- **Use additional code:** - code to identify any functional activity.
+[D3910] Neoplasm of uncertain behavior of unspecified ovary
+[D3911] Neoplasm of uncertain behavior of right ovary
+[D3912] Neoplasm of uncertain behavior of left ovary
+[D392] Neoplasm of uncertain behavior of placenta -- **Inclusion terms:** - Chorioadenoma destruens - Invasive hydatidiform mole - Malignant hydatidiform mole  **Excludes1:** - hydatidiform mole NOS (O01.9)
+[D398] Neoplasm of uncertain behavior of other specified female genital organs -- **Inclusion terms:** - Neoplasm of uncertain behavior of skin of female genital organs
+[D399] Neoplasm of uncertain behavior of female genital organ, unspecified
+[D3A] Benign neuroendocrine tumors -- **Excludes2:** - benign pancreatic islet cell tumors (D13.7)  **Code also:** - any associated multiple endocrine neoplasia [MEN] syndromes (E31.2-)  **Use additional code:** - code to identify any associated endocrine syndrome, such as: - carcinoid syndrome (E34.00)
+[D3A0] Benign carcinoid tumors
+[D3A00] Benign carcinoid tumor of unspecified site -- **Inclusion terms:** - Carcinoid tumor NOS
+[D3A01] Benign carcinoid tumors of the small intestine
+[D3A010] Benign carcinoid tumor of the duodenum
+[D3A011] Benign carcinoid tumor of the jejunum
+[D3A012] Benign carcinoid tumor of the ileum
+[D3A019] Benign carcinoid tumor of the small intestine, unspecified portion
+[D3A02] Benign carcinoid tumors of the appendix, large intestine, and rectum
+[D3A020] Benign carcinoid tumor of the appendix
+[D3A021] Benign carcinoid tumor of the cecum
+[D3A022] Benign carcinoid tumor of the ascending colon
+[D3A023] Benign carcinoid tumor of the transverse colon
+[D3A024] Benign carcinoid tumor of the descending colon
+[D3A025] Benign carcinoid tumor of the sigmoid colon
+[D3A026] Benign carcinoid tumor of the rectum
+[D3A029] Benign carcinoid tumor of the large intestine, unspecified portion -- **Inclusion terms:** - Benign carcinoid tumor of the colon NOS
+[D3A09] Benign carcinoid tumors of other sites
+[D3A090] Benign carcinoid tumor of the bronchus and lung
+[D3A091] Benign carcinoid tumor of the thymus
+[D3A092] Benign carcinoid tumor of the stomach
+[D3A093] Benign carcinoid tumor of the kidney
+[D3A094] Benign carcinoid tumor of the foregut, unspecified
+[D3A095] Benign carcinoid tumor of the midgut, unspecified
+[D3A096] Benign carcinoid tumor of the hindgut, unspecified
+[D3A098] Benign carcinoid tumors of other sites
+[D3A8] Other benign neuroendocrine tumors -- **Inclusion terms:** - Neuroendocrine tumor NOS
+[D40] Neoplasm of uncertain behavior of male genital organs
+[D400] Neoplasm of uncertain behavior of prostate
+[D401] Neoplasm of uncertain behavior of testis
+[D4010] Neoplasm of uncertain behavior of unspecified testis
+[D4011] Neoplasm of uncertain behavior of right testis
+[D4012] Neoplasm of uncertain behavior of left testis
+[D408] Neoplasm of uncertain behavior of other specified male genital organs -- **Inclusion terms:** - Neoplasm of uncertain behavior of skin of male genital organs
+[D409] Neoplasm of uncertain behavior of male genital organ, unspecified
+[D41] Neoplasm of uncertain behavior of urinary organs
+[D410] Neoplasm of uncertain behavior of kidney -- **Excludes1:** - neoplasm of uncertain behavior of renal pelvis (D41.1-)
+[D4100] Neoplasm of uncertain behavior of unspecified kidney
+[D4101] Neoplasm of uncertain behavior of right kidney
+[D4102] Neoplasm of uncertain behavior of left kidney
+[D411] Neoplasm of uncertain behavior of renal pelvis
+[D4110] Neoplasm of uncertain behavior of unspecified renal pelvis
+[D4111] Neoplasm of uncertain behavior of right renal pelvis
+[D4112] Neoplasm of uncertain behavior of left renal pelvis
+[D412] Neoplasm of uncertain behavior of ureter
+[D4120] Neoplasm of uncertain behavior of unspecified ureter
+[D4121] Neoplasm of uncertain behavior of right ureter
+[D4122] Neoplasm of uncertain behavior of left ureter
+[D413] Neoplasm of uncertain behavior of urethra
+[D414] Neoplasm of uncertain behavior of bladder
+[D418] Neoplasm of uncertain behavior of other specified urinary organs
+[D419] Neoplasm of uncertain behavior of unspecified urinary organ
+[D42] Neoplasm of uncertain behavior of meninges
+[D420] Neoplasm of uncertain behavior of cerebral meninges
+[D421] Neoplasm of uncertain behavior of spinal meninges
+[D429] Neoplasm of uncertain behavior of meninges, unspecified
+[D43] Neoplasm of uncertain behavior of brain and central nervous system -- **Excludes1:** - neoplasm of uncertain behavior of peripheral nerves and autonomic nervous system (D48.2)
+[D430] Neoplasm of uncertain behavior of brain, supratentorial -- **Inclusion terms:** - Neoplasm of uncertain behavior of cerebral ventricle - Neoplasm of uncertain behavior of cerebrum - Neoplasm of uncertain behavior of frontal lobe - Neoplasm of uncertain behavior of occipital lobe - Neoplasm of uncertain behavior of parietal lobe - Neoplasm of uncertain behavior of temporal lobe  **Excludes1:** - neoplasm of uncertain behavior of fourth ventricle (D43.1)
+[D431] Neoplasm of uncertain behavior of brain, infratentorial -- **Inclusion terms:** - Neoplasm of uncertain behavior of brain stem - Neoplasm of uncertain behavior of cerebellum - Neoplasm of uncertain behavior of fourth ventricle
+[D432] Neoplasm of uncertain behavior of brain, unspecified
+[D433] Neoplasm of uncertain behavior of cranial nerves
+[D434] Neoplasm of uncertain behavior of spinal cord
+[D438] Neoplasm of uncertain behavior of other specified parts of central nervous system
+[D439] Neoplasm of uncertain behavior of central nervous system, unspecified -- **Inclusion terms:** - Neoplasm of uncertain behavior of nervous system (central) NOS
+[D44] Neoplasm of uncertain behavior of endocrine glands -- **Excludes1:** - multiple endocrine adenomatosis (E31.2-) - multiple endocrine neoplasia (E31.2-) - neoplasm of uncertain behavior of endocrine pancreas (D37.8) - neoplasm of uncertain behavior of ovary (D39.1-) - neoplasm of uncertain behavior of testis (D40.1-) - neoplasm of uncertain behavior of thymus (D38.4)
+[D440] Neoplasm of uncertain behavior of thyroid gland
+[D441] Neoplasm of uncertain behavior of adrenal gland -- **Use additional code:** - code to identify any functional activity.
+[D4410] Neoplasm of uncertain behavior of unspecified adrenal gland
+[D4411] Neoplasm of uncertain behavior of right adrenal gland
+[D4412] Neoplasm of uncertain behavior of left adrenal gland
+[D442] Neoplasm of uncertain behavior of parathyroid gland
+[D443] Neoplasm of uncertain behavior of pituitary gland -- **Use additional code:** - code to identify any functional activity.
+[D444] Neoplasm of uncertain behavior of craniopharyngeal duct
+[D445] Neoplasm of uncertain behavior of pineal gland
+[D446] Neoplasm of uncertain behavior of carotid body
+[D447] Neoplasm of uncertain behavior of aortic body and other paraganglia
+[D449] Neoplasm of uncertain behavior of unspecified endocrine gland
+[D45] Polycythemia vera -- **Excludes1:** - familial polycythemia (D75.0) - secondary polycythemia (D75.1)
+[D46] Myelodysplastic syndromes -- **Excludes2:** - drug-induced aplastic anemia (D61.1)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D460] Refractory anemia without ring sideroblasts, so stated -- **Inclusion terms:** - Refractory anemia without sideroblasts, without excess of blasts
+[D461] Refractory anemia with ring sideroblasts -- **Inclusion terms:** - RARS
+[D462] Refractory anemia with excess of blasts [RAEB]
+[D4620] Refractory anemia with excess of blasts, unspecified -- **Inclusion terms:** - RAEB NOS
+[D4621] Refractory anemia with excess of blasts 1 -- **Inclusion terms:** - RAEB 1
+[D4622] Refractory anemia with excess of blasts 2 -- **Inclusion terms:** - RAEB 2
+[D464] Refractory anemia, unspecified
+[D469] Myelodysplastic syndrome, unspecified -- **Inclusion terms:** - Myelodysplasia NOS
+[D46A] Refractory cytopenia with multilineage dysplasia
+[D46B] Refractory cytopenia with multilineage dysplasia and ring sideroblasts -- **Inclusion terms:** - RCMD RS
+[D46C] Myelodysplastic syndrome with isolated del(5q) chromosomal abnormality -- **Inclusion terms:** - Myelodysplastic syndrome with 5q deletion - 5q minus syndrome NOS
+[D46Z] Other myelodysplastic syndromes -- **Excludes1:** - chronic myelomonocytic leukemia (C93.1-)
+[D47] Other neoplasms of uncertain behavior of lymphoid, hematopoietic and related tissue
+[D470] Mast cell neoplasms of uncertain behavior -- **Excludes1:** - congenital cutaneous mastocytosis (Q82.2) - histiocytic neoplasms of uncertain behavior (D47.Z9) - malignant mast cell neoplasm (C96.2-)
+[D4701] Cutaneous mastocytosis -- **Inclusion terms:** - Diffuse cutaneous mastocytosis - Maculopapular cutaneous mastocytosis - Solitary mastocytoma - Telangiectasia macularis eruptiva perstans - Urticaria pigmentosa  **Excludes1:** - congenital (diffuse) (maculopapular) cutaneous mastocytosis (Q82.2) - congenital urticaria pigmentosa (Q82.2) - extracutaneous mastocytoma (D47.09)
+[D4702] Systemic mastocytosis -- **Inclusion terms:** - Indolent systemic mastocytosis - Isolated bone marrow mastocytosis - Smoldering systemic mastocytosis - Systemic mastocytosis, with an associated hematological non-mast cell lineage disease (SM-AHNMD)  **Excludes1:** - aggressive systemic mastocytosis (C96.21) - mast cell leukemia (C94.3-)  **Code also:** - , if applicable, any associated hematological non-mast cell lineage disease, such as: - acute myeloid leukemia (C92.6-, C92.A-) - chronic myelomonocytic leukemia (C93.1-) - essential thrombocytosis (D47.3) - hypereosinophilic syndrome (D72.1) - myelodysplastic syndrome (D46.9) - myeloproliferative syndrome (D47.1) - non-Hodgkin lymphoma (C82-C85) - plasma cell myeloma (C90.0-) - polycythemia vera (D45)
+[D4709] Other mast cell neoplasms of uncertain behavior -- **Inclusion terms:** - Extracutaneous mastocytoma - Mast cell tumor NOS - Mastocytoma NOS - Mastocytosis NOS
+[D471] Chronic myeloproliferative disease -- **Inclusion terms:** - Chronic neutrophilic leukemia - Myeloproliferative disease, unspecified  **Excludes1:** - atypical chronic myeloid leukemia BCR/ABL-negative (C92.2-) - chronic myeloid leukemia BCR/ABL-positive (C92.1-) - myelofibrosis NOS (D75.81) - myelophthisic anemia (D61.82) - myelophthisis (D61.82) - secondary myelofibrosis NOS (D75.81)
+[D472] Monoclonal gammopathy -- **Inclusion terms:** - Monoclonal gammopathy of undetermined significance [MGUS]
+[D473] Essential (hemorrhagic) thrombocythemia -- **Inclusion terms:** - Essential thrombocytosis - Idiopathic hemorrhagic thrombocythemia - Primary thrombocytosis  **Excludes2:** - reactive thrombocytosis (D75.838) - secondary thrombocytosis (D75.838) - thrombocythemia NOS (D75.839) - thrombocytosis NOS (D75.839)
+[D474] Osteomyelofibrosis -- **Inclusion terms:** - Chronic idiopathic myelofibrosis - Myelofibrosis (idiopathic) (with myeloid metaplasia) - Myelosclerosis (megakaryocytic) with myeloid metaplasia - Secondary myelofibrosis in myeloproliferative disease  **Excludes1:** - acute myelofibrosis (C94.4-)
+[D479] Neoplasm of uncertain behavior of lymphoid, hematopoietic and related tissue, unspecified -- **Inclusion terms:** - Lymphoproliferative disease NOS
+[D47Z] Other specified neoplasms of uncertain behavior of lymphoid, hematopoietic and related tissue
+[D47Z1] Post-transplant lymphoproliferative disorder (PTLD) -- **Code first:** - complications of transplanted organs and tissue (T86.-)
+[D47Z2] Castleman disease -- **Excludes2:** - Kaposi's sarcoma (C46.-)  **Code also:** - , if applicable, human herpesvirus 8 infection (B10.89)
+[D47Z9] Other specified neoplasms of uncertain behavior of lymphoid, hematopoietic and related tissue -- **Inclusion terms:** - Histiocytic tumors of uncertain behavior
+[D48] Neoplasm of uncertain behavior of other and unspecified sites -- **Excludes1:** - neurofibromatosis (nonmalignant) (Q85.0-)
+[D480] Neoplasm of uncertain behavior of bone and articular cartilage -- **Excludes1:** - neoplasm of uncertain behavior of cartilage of ear (D48.1-) - neoplasm of uncertain behavior of cartilage of larynx (D38.0) - neoplasm of uncertain behavior of cartilage of nose (D38.5) - neoplasm of uncertain behavior of connective tissue of eyelid (D48.1-) - neoplasm of uncertain behavior of synovia (D48.1-)
+[D481] Neoplasm of uncertain behavior of connective and other soft tissue -- **Inclusion terms:** - Neoplasm of uncertain behavior of connective tissue of ear - Neoplasm of uncertain behavior of connective tissue of eyelid - Stromal tumors of uncertain behavior of digestive system  **Excludes1:** - neoplasm of uncertain behavior of articular cartilage (D48.0) - neoplasm of uncertain behavior of cartilage of larynx (D38.0) - neoplasm of uncertain behavior of cartilage of nose (D38.5) - neoplasm of uncertain behavior of connective tissue of breast (D48.6-)
+[D4811] Desmoid tumor
+[D48110] Desmoid tumor of head and neck
+[D48111] Desmoid tumor of chest wall
+[D48112] Desmoid tumor, intrathoracic
+[D48113] Desmoid tumor of abdominal wall
+[D48114] Desmoid tumor, intraabdominal -- **Inclusion terms:** - Desmoid tumor of pelvic cavity - Desmoid tumor, peritoneal, retroperitoneal
+[D48115] Desmoid tumor of upper extremity and shoulder girdle
+[D48116] Desmoid tumor of lower extremity and pelvic girdle -- **Inclusion terms:** - Desmoid tumor of buttock
+[D48117] Desmoid tumor of back
+[D48118] Desmoid tumor of other site
+[D48119] Desmoid tumor of unspecified site
+[D4819] Other specified neoplasm of uncertain behavior of connective and other soft tissue
+[D482] Neoplasm of uncertain behavior of peripheral nerves and autonomic nervous system -- **Excludes1:** - neoplasm of uncertain behavior of peripheral nerves of orbit (D48.7)
+[D483] Neoplasm of uncertain behavior of retroperitoneum
+[D484] Neoplasm of uncertain behavior of peritoneum
+[D485] Neoplasm of uncertain behavior of skin -- **Inclusion terms:** - Neoplasm of uncertain behavior of anal margin - Neoplasm of uncertain behavior of anal skin - Neoplasm of uncertain behavior of perianal skin - Neoplasm of uncertain behavior of skin of breast  **Excludes1:** - neoplasm of uncertain behavior of anus NOS (D37.8) - neoplasm of uncertain behavior of skin of genital organs (D39.8, D40.8) - neoplasm of uncertain behavior of vermilion border of lip (D37.0)
+[D486] Neoplasm of uncertain behavior of breast -- **Inclusion terms:** - Neoplasm of uncertain behavior of connective tissue of breast - Cystosarcoma phyllodes  **Excludes1:** - neoplasm of uncertain behavior of skin of breast (D48.5)
+[D4860] Neoplasm of uncertain behavior of unspecified breast
+[D4861] Neoplasm of uncertain behavior of right breast
+[D4862] Neoplasm of uncertain behavior of left breast
+[D487] Neoplasm of uncertain behavior of other specified sites -- **Inclusion terms:** - Neoplasm of uncertain behavior of eye - Neoplasm of uncertain behavior of heart - Neoplasm of uncertain behavior of peripheral nerves of orbit  **Excludes1:** - neoplasm of uncertain behavior of connective tissue (D48.1-) - neoplasm of uncertain behavior of skin of eyelid (D48.5)
+[D489] Neoplasm of uncertain behavior, unspecified
+[D49] Neoplasms of unspecified behavior -- **Includes:** - 'growth' NOS - neoplasm NOS - new growth NOS - tumor NOS  **Notes:** - Category D49 classifies by site neoplasms of unspecified morphology and behavior. The term 'mass', unless otherwise stated, is not to be regarded as a neoplastic growth.  **Excludes1:** - neoplasms of uncertain behavior (D37-D44, D48)
+[D490] Neoplasm of unspecified behavior of digestive system -- **Excludes1:** - neoplasm of unspecified behavior of margin of anus (D49.2) - neoplasm of unspecified behavior of perianal skin (D49.2) - neoplasm of unspecified behavior of skin of anus (D49.2)
+[D491] Neoplasm of unspecified behavior of respiratory system
+[D492] Neoplasm of unspecified behavior of bone, soft tissue, and skin -- **Excludes1:** - neoplasm of unspecified behavior of anal canal (D49.0) - neoplasm of unspecified behavior of anus NOS (D49.0) - neoplasm of unspecified behavior of bone marrow (D49.89) - neoplasm of unspecified behavior of cartilage of larynx (D49.1) - neoplasm of unspecified behavior of cartilage of nose (D49.1) - neoplasm of unspecified behavior of connective tissue of breast (D49.3) - neoplasm of unspecified behavior of skin of genital organs (D49.59) - neoplasm of unspecified behavior of vermilion border of lip (D49.0)
+[D493] Neoplasm of unspecified behavior of breast -- **Excludes1:** - neoplasm of unspecified behavior of skin of breast (D49.2)
+[D494] Neoplasm of unspecified behavior of bladder
+[D495] Neoplasm of unspecified behavior of other genitourinary organs
+[D4951] Neoplasm of unspecified behavior of kidney
+[D49511] Neoplasm of unspecified behavior of right kidney
+[D49512] Neoplasm of unspecified behavior of left kidney
+[D49519] Neoplasm of unspecified behavior of unspecified kidney
+[D4959] Neoplasm of unspecified behavior of other genitourinary organ
+[D496] Neoplasm of unspecified behavior of brain -- **Excludes1:** - neoplasm of unspecified behavior of cerebral meninges (D49.7) - neoplasm of unspecified behavior of cranial nerves (D49.7)
+[D497] Neoplasm of unspecified behavior of endocrine glands and other parts of nervous system -- **Excludes1:** - neoplasm of unspecified behavior of peripheral, sympathetic, and parasympathetic nerves and ganglia (D49.2)
+[D498] Neoplasm of unspecified behavior of other specified sites -- **Excludes1:** - neoplasm of unspecified behavior of eyelid (skin) (D49.2) - neoplasm of unspecified behavior of eyelid cartilage (D49.2) - neoplasm of unspecified behavior of great vessels (D49.2) - neoplasm of unspecified behavior of optic nerve (D49.7)
+[D4981] Neoplasm of unspecified behavior of retina and choroid -- **Inclusion terms:** - Dark area on retina - Retinal freckle
+[D4989] Neoplasm of unspecified behavior of other specified sites
+[D499] Neoplasm of unspecified behavior of unspecified site
+[D50] Iron deficiency anemia -- **Includes:** - asiderotic anemia - hypochromic anemia
+[D500] Iron deficiency anemia secondary to blood loss (chronic) -- **Inclusion terms:** - Posthemorrhagic anemia (chronic)  **Excludes1:** - acute posthemorrhagic anemia (D62) - congenital anemia from fetal blood loss (P61.3)
+[D501] Sideropenic dysphagia -- **Inclusion terms:** - Kelly-Paterson syndrome - Plummer-Vinson syndrome
+[D508] Other iron deficiency anemias -- **Inclusion terms:** - Iron deficiency anemia due to inadequate dietary iron intake
+[D509] Iron deficiency anemia, unspecified
+[D51] Vitamin B12 deficiency anemia -- **Excludes1:** - vitamin B12 deficiency (E53.8)
+[D510] Vitamin B12 deficiency anemia due to intrinsic factor deficiency -- **Inclusion terms:** - Addison anemia - Biermer anemia - Pernicious (congenital) anemia - Congenital intrinsic factor deficiency
+[D511] Vitamin B12 deficiency anemia due to selective vitamin B12 malabsorption with proteinuria -- **Inclusion terms:** - Imerslund (Gräsbeck) syndrome - Megaloblastic hereditary anemia
+[D512] Transcobalamin II deficiency
+[D513] Other dietary vitamin B12 deficiency anemia -- **Inclusion terms:** - Vegan anemia
+[D518] Other vitamin B12 deficiency anemias
+[D519] Vitamin B12 deficiency anemia, unspecified
+[D52] Folate deficiency anemia -- **Excludes1:** - folate deficiency without anemia (E53.8)
+[D520] Dietary folate deficiency anemia -- **Inclusion terms:** - Nutritional megaloblastic anemia
+[D521] Drug-induced folate deficiency anemia -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D528] Other folate deficiency anemias
+[D529] Folate deficiency anemia, unspecified -- **Inclusion terms:** - Folic acid deficiency anemia NOS
+[D53] Other nutritional anemias -- **Includes:** - megaloblastic anemia unresponsive to vitamin B12 or folate therapy
+[D530] Protein deficiency anemia -- **Inclusion terms:** - Amino-acid deficiency anemia - Orotaciduric anemia  **Excludes1:** - Lesch-Nyhan syndrome (E79.1)
+[D531] Other megaloblastic anemias, not elsewhere classified -- **Inclusion terms:** - Megaloblastic anemia NOS  **Excludes1:** - Di Guglielmo's disease (C94.0)
+[D532] Scorbutic anemia -- **Excludes1:** - scurvy (E54)
+[D538] Other specified nutritional anemias -- **Inclusion terms:** - Anemia associated with deficiency of copper - Anemia associated with deficiency of molybdenum - Anemia associated with deficiency of zinc  **Excludes1:** - nutritional deficiencies without anemia, such as: - copper deficiency NOS (E61.0) - molybdenum deficiency NOS (E61.5) - zinc deficiency NOS (E60)
+[D539] Nutritional anemia, unspecified -- **Inclusion terms:** - Simple chronic anemia  **Excludes1:** - anemia NOS (D64.9)
+[D55] Anemia due to enzyme disorders -- **Excludes1:** - drug-induced enzyme deficiency anemia (D59.2)
+[D550] Anemia due to glucose-6-phosphate dehydrogenase [G6PD] deficiency -- **Inclusion terms:** - Favism - G6PD deficiency anemia  **Excludes1:** - glucose-6-phosphate dehydrogenase (G6PD) deficiency without anemia (D75.A)
+[D551] Anemia due to other disorders of glutathione metabolism -- **Inclusion terms:** - Anemia (due to) enzyme deficiencies, except G6PD, related to the hexose monophosphate [HMP] shunt pathway - Anemia (due to) hemolytic nonspherocytic (hereditary), type I
+[D552] Anemia due to disorders of glycolytic enzymes -- **Excludes1:** - disorders of glycolysis not associated with anemia (E74.81-)
+[D5521] Anemia due to pyruvate kinase deficiency -- **Inclusion terms:** - PK deficiency anemia - Pyruvate kinase deficiency anemia
+[D5529] Anemia due to other disorders of glycolytic enzymes -- **Inclusion terms:** - Hexokinase deficiency anemia - Triose-phosphate isomerase deficiency anemia
+[D553] Anemia due to disorders of nucleotide metabolism
+[D558] Other anemias due to enzyme disorders
+[D559] Anemia due to enzyme disorder, unspecified
+[D56] Thalassemia -- **Excludes1:** - sickle-cell thalassemia (D57.4-)
+[D560] Alpha thalassemia -- **Inclusion terms:** - Alpha thalassemia major - Hemoglobin H Constant Spring - Hemoglobin H disease - Hydrops fetalis due to alpha thalassemia - Severe alpha thalassemia - Triple gene defect alpha thalassemia  **Excludes1:** - alpha thalassemia trait or minor (D56.3) - asymptomatic alpha thalassemia (D56.3) - hydrops fetalis due to isoimmunization (P56.0) - hydrops fetalis not due to immune hemolysis (P83.2)  **Use additional code:** - code, if applicable, for hydrops fetalis due to alpha thalassemia (P56.99)
+[D561] Beta thalassemia -- **Inclusion terms:** - Beta thalassemia major - Cooley's anemia - Homozygous beta thalassemia - Severe beta thalassemia - Thalassemia intermedia - Thalassemia major  **Excludes1:** - beta thalassemia minor (D56.3) - beta thalassemia trait (D56.3) - delta-beta thalassemia (D56.2) - hemoglobin E-beta thalassemia (D56.5) - sickle-cell beta thalassemia (D57.4-)
+[D562] Delta-beta thalassemia -- **Inclusion terms:** - Homozygous delta-beta thalassemia  **Excludes1:** - delta-beta thalassemia minor (D56.3) - delta-beta thalassemia trait (D56.3)
+[D563] Thalassemia minor -- **Inclusion terms:** - Alpha thalassemia minor - Alpha thalassemia silent carrier - Alpha thalassemia trait - Beta thalassemia minor - Beta thalassemia trait - Delta-beta thalassemia minor - Delta-beta thalassemia trait - Thalassemia trait NOS  **Excludes1:** - alpha thalassemia (D56.0) - beta thalassemia (D56.1) - delta-beta thalassemia (D56.2) - hemoglobin E-beta thalassemia (D56.5) - sickle-cell trait (D57.3)
+[D564] Hereditary persistence of fetal hemoglobin [HPFH]
+[D565] Hemoglobin E-beta thalassemia -- **Excludes1:** - beta thalassemia (D56.1) - beta thalassemia minor (D56.3) - beta thalassemia trait (D56.3) - delta-beta thalassemia (D56.2) - delta-beta thalassemia trait (D56.3) - hemoglobin E disease (D58.2) - other hemoglobinopathies (D58.2) - sickle-cell beta thalassemia (D57.4-)
+[D568] Other thalassemias -- **Inclusion terms:** - Dominant thalassemia - Hemoglobin C thalassemia - Mixed thalassemia - Thalassemia with other hemoglobinopathy  **Excludes1:** - hemoglobin C disease (D58.2) - hemoglobin E disease (D58.2) - other hemoglobinopathies (D58.2) - sickle-cell anemia (D57.-) - sickle-cell thalassemia (D57.4-)
+[D569] Thalassemia, unspecified -- **Inclusion terms:** - Mediterranean anemia (with other hemoglobinopathy)
+[D57] Sickle-cell disorders -- **Excludes1:** - other hemoglobinopathies (D58.-)  **Use additional code:** - code for any associated fever (R50.81)
+[D570] Hb-SS disease with crisis -- **Inclusion terms:** - Sickle-cell disease with crisis - Hb-SS disease with (vaso-occlusive) pain
+[D5700] Hb-SS disease with crisis, unspecified -- **Inclusion terms:** - Hb-SS disease with (painful) crisis NOS - Hb-SS disease with (vaso-occlusive) pain NOS
+[D5701] Hb-SS disease with acute chest syndrome
+[D5702] Hb-SS disease with splenic sequestration
+[D5703] Hb-SS disease with cerebral vascular involvement -- **Code also:** - , if applicable, cerebral infarction (I63.-)
+[D5704] Hb-SS disease with dactylitis
+[D5709] Hb-SS disease with crisis with other specified complication -- **Use additional code:** - code to identify complications, such as: - cholelithiasis (K80.-) - priapism (N48.32)
+[D571] Sickle-cell disease without crisis -- **Inclusion terms:** - Hb-SS disease without crisis - Sickle-cell anemia NOS - Sickle-cell disease NOS - Sickle-cell disorder NOS
+[D572] Sickle-cell/Hb-C disease -- **Inclusion terms:** - Hb-SC disease - Hb-S/Hb-C disease
+[D5720] Sickle-cell/Hb-C disease without crisis
+[D5721] Sickle-cell/Hb-C disease with crisis
+[D57211] Sickle-cell/Hb-C disease with acute chest syndrome
+[D57212] Sickle-cell/Hb-C disease with splenic sequestration
+[D57213] Sickle-cell/Hb-C disease with cerebral vascular involvement -- **Code also:** - , if applicable, cerebral infarction (I63.-)
+[D57214] Sickle-cell/Hb-C disease with dactylitis
+[D57218] Sickle-cell/Hb-C disease with crisis with other specified complication -- **Use additional code:** - code to identify complications, such as: - cholelithiasis (K80.-) - priapism (N48.32)
+[D57219] Sickle-cell/Hb-C disease with crisis, unspecified -- **Inclusion terms:** - Sickle-cell/Hb-C disease with crisis NOS - Sickle-cell/Hb-C disease with (vaso-occlusive) pain NOS
+[D573] Sickle-cell trait -- **Inclusion terms:** - Hb-S trait - Heterozygous hemoglobin S
+[D574] Sickle-cell thalassemia -- **Inclusion terms:** - Sickle-cell beta thalassemia - Thalassemia Hb-S disease
+[D5740] Sickle-cell thalassemia without crisis -- **Inclusion terms:** - Microdrepanocytosis - Sickle-cell thalassemia NOS
+[D5741] Sickle-cell thalassemia, unspecified, with crisis -- **Inclusion terms:** - Sickle-cell thalassemia with (painful) crisis NOS - Sickle-cell thalassemia with (vaso-occlusive) pain NOS
+[D57411] Sickle-cell thalassemia, unspecified, with acute chest syndrome
+[D57412] Sickle-cell thalassemia, unspecified, with splenic sequestration
+[D57413] Sickle-cell thalassemia, unspecified, with cerebral vascular involvement -- **Code also:** - , if applicable cerebral infarction (I63.-)
+[D57414] Sickle-cell thalassemia, unspecified, with dactylitis
+[D57418] Sickle-cell thalassemia, unspecified, with crisis with other specified complication -- **Use additional code:** - code to identify complications, such as: - cholelithiasis (K80.-) - priapism (N48.32)
+[D57419] Sickle-cell thalassemia, unspecified, with crisis -- **Inclusion terms:** - Sickle-cell thalassemia with (painful) crisis NOS - Sickle-cell thalassemia with (vaso-occlusive) pain NOS
+[D5742] Sickle-cell thalassemia beta zero without crisis -- **Inclusion terms:** - HbS-beta zero without crisis - Sickle-cell beta zero without crisis
+[D5743] Sickle-cell thalassemia beta zero with crisis -- **Inclusion terms:** - HbS-beta zero with crisis - Sickle-cell beta zero with crisis
+[D57431] Sickle-cell thalassemia beta zero with acute chest syndrome -- **Inclusion terms:** - HbS-beta zero with acute chest syndrome - Sickle-cell beta zero with acute chest syndrome
+[D57432] Sickle-cell thalassemia beta zero with splenic sequestration -- **Inclusion terms:** - HbS-beta zero with splenic sequestration - Sickle-cell beta zero with splenic sequestration
+[D57433] Sickle-cell thalassemia beta zero with cerebral vascular involvement -- **Inclusion terms:** - HbS-beta zero with cerebral vascular involvement - Sickle-cell beta zero with cerebral vascular involvement  **Code also:** - , if applicable cerebral infarction (I63.-)
+[D57434] Sickle-cell thalassemia beta zero with dactylitis
+[D57438] Sickle-cell thalassemia beta zero with crisis with other specified complication -- **Inclusion terms:** - HbS-beta zero with other specified complication - Sickle-cell beta zero with other specified complication  **Use additional code:** - code to identify complications, such as: - cholelithiasis (K80.-) - priapism (N48.32)
+[D57439] Sickle-cell thalassemia beta zero with crisis, unspecified -- **Inclusion terms:** - HbS-beta zero with other specified complication - Sickle-cell beta zero with crisis unspecified - Sickle-cell thalassemia beta zero with (painful) crisis NOS - Sickle-cell thalassemia beta zero with (vaso-occlusive) pain NOS
+[D5744] Sickle-cell thalassemia beta plus without crisis -- **Inclusion terms:** - HbS-beta plus without crisis - Sickle-cell beta plus without crisis
+[D5745] Sickle-cell thalassemia beta plus with crisis -- **Inclusion terms:** - HbS-beta plus with crisis - Sickle-cell beta plus with crisis
+[D57451] Sickle-cell thalassemia beta plus with acute chest syndrome -- **Inclusion terms:** - HbS-beta plus with acute chest syndrome - Sickle-cell beta plus with acute chest syndrome
+[D57452] Sickle-cell thalassemia beta plus with splenic sequestration -- **Inclusion terms:** - HbS-beta plus with splenic sequestration - Sickle-cell beta plus with splenic sequestration
+[D57453] Sickle-cell thalassemia beta plus with cerebral vascular involvement -- **Inclusion terms:** - HbS-beta plus with cerebral vascular involvement - Sickle-cell beta plus with cerebral vascular involvement  **Code also:** - , if applicable cerebral infarction (I63.-)
+[D57454] Sickle-cell thalassemia beta plus with dactylitis
+[D57458] Sickle-cell thalassemia beta plus with crisis with other specified complication -- **Inclusion terms:** - HbS-beta plus with crisis with other specified complication - Sickle-cell beta plus with crisis with other specified complication  **Use additional code:** - code to identify complications, such as: - cholelithiasis (K80.-) - priapism (N48.32)
+[D57459] Sickle-cell thalassemia beta plus with crisis, unspecified -- **Inclusion terms:** - HbS-beta plus with crisis with unspecified complication - Sickle-cell beta plus with crisis with unspecified complication - Sickle-cell thalassemia beta plus with (painful) crisis NOS - Sickle-cell thalassemia beta plus with (vaso-occlusive) pain NOS
+[D578] Other sickle-cell disorders -- **Inclusion terms:** - Hb-SD disease - Hb-SE disease
+[D5780] Other sickle-cell disorders without crisis
+[D5781] Other sickle-cell disorders with crisis
+[D57811] Other sickle-cell disorders with acute chest syndrome
+[D57812] Other sickle-cell disorders with splenic sequestration
+[D57813] Other sickle-cell disorders with cerebral vascular involvement -- **Code also:** - , if applicable: cerebral infarction (I63.-)
+[D57814] Other sickle-cell disorders with dactylitis
+[D57818] Other sickle-cell disorders with crisis with other specified complication -- **Use additional code:** - code to identify complications, such as: - cholelithiasis (K80.-) - priapism (N48.32)
+[D57819] Other sickle-cell disorders with crisis, unspecified -- **Inclusion terms:** - Other sickle-cell disorders with crisis NOS - Other sickle-cell disorders with (vaso-occlusive) pain NOS
+[D58] Other hereditary hemolytic anemias -- **Excludes1:** - hemolytic anemia of the newborn (P55.-)
+[D580] Hereditary spherocytosis -- **Inclusion terms:** - Acholuric (familial) jaundice - Congenital (spherocytic) hemolytic icterus - Minkowski-Chauffard syndrome
+[D581] Hereditary elliptocytosis -- **Inclusion terms:** - Elliptocytosis (congenital) - Ovalocytosis (congenital) (hereditary)
+[D582] Other hemoglobinopathies -- **Inclusion terms:** - Abnormal hemoglobin NOS - Congenital Heinz body anemia - Hb-C disease - Hb-D disease - Hb-E disease - Hemoglobinopathy NOS - Unstable hemoglobin hemolytic disease  **Excludes1:** - familial polycythemia (D75.0) - Hb-M disease (D74.0) - hemoglobin E-beta thalassemia (D56.5) - hereditary persistence of fetal hemoglobin [HPFH] (D56.4) - high-altitude polycythemia (D75.1) - methemoglobinemia (D74.-) - other hemoglobinopathies with thalassemia (D56.8)
+[D588] Other specified hereditary hemolytic anemias -- **Inclusion terms:** - Stomatocytosis
+[D589] Hereditary hemolytic anemia, unspecified
+[D59] Acquired hemolytic anemia
+[D590] Drug-induced autoimmune hemolytic anemia -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D591] Other autoimmune hemolytic anemias -- **Excludes2:** - Evans syndrome (D69.41) - hemolytic disease of newborn (P55.-) - paroxysmal cold hemoglobinuria (D59.6)
+[D5910] Autoimmune hemolytic anemia, unspecified
+[D5911] Warm autoimmune hemolytic anemia -- **Inclusion terms:** - Warm type (primary) (secondary) (symptomatic) autoimmune hemolytic anemia - Warm type autoimmune hemolytic disease
+[D5912] Cold autoimmune hemolytic anemia -- **Inclusion terms:** - Chronic cold hemagglutinin disease - Cold agglutinin disease - Cold agglutinin hemoglobinuria - Cold type (primary) (secondary) (symptomatic) autoimmune hemolytic anemia - Cold type autoimmune hemolytic disease
+[D5913] Mixed type autoimmune hemolytic anemia -- **Inclusion terms:** - Mixed type autoimmune hemolytic disease - Mixed type, cold and warm, (primary) (secondary) (symptomatic) autoimmune hemolytic anemia
+[D5919] Other autoimmune hemolytic anemia
+[D592] Drug-induced nonautoimmune hemolytic anemia -- **Inclusion terms:** - Drug-induced enzyme deficiency anemia  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D593] Hemolytic-uremic syndrome -- **Code also:** - , if applicable, any associated: - acute kidney failure (N17.-) - chronic kidney disease (N18.-)
+[D5930] Hemolytic-uremic syndrome, unspecified -- **Inclusion terms:** - Hemolytic-uremic syndrome NOS
+[D5931] Infection-associated hemolytic-uremic syndrome -- **Inclusion terms:** - Shiga toxin-producing E. coli [STEC] related hemolytic uremic syndrome - Typical hemolytic uremic syndrome  **Use additional code:** - code to identify associated infection, such as : - E. coli infection (B96.2-) - Human immunodeficiency virus [HIV] disease (B20) - Pneumococcal meningitis (G00.1) - Pneumococcal pneumonia (J13) - Sepsis due to Streptococcus pneumoniae (A40.3) - Shigella dysenteriae (A03.9) - Streptococcus pneumoniae as the cause of diseases classified elsewhere (B95.3)
+[D5932] Hereditary hemolytic-uremic syndrome -- **Inclusion terms:** - Atypical hemolytic uremic syndrome with an identified genetic cause  **Code also:** - , if applicable: - defects in the complement system (D84.1) - methylmalonic acidemia (E71.120)
+[D5939] Other hemolytic-uremic syndrome -- **Inclusion terms:** - Atypical (nongenetic) hemolytic uremic syndrome - Secondary hemolytic-uremic syndrome  **Code first:** - , if applicable, any associated: - COVID-19 (U07.1) - complications of kidney transplant (T86.1-) - complications of heart transplant (T86.2-) - complications of liver transplant (T86.4-)  **Code also:** - , if applicable, any associated condition, such as: - hypertensive emergency (I16.1) - malignant neoplasm (C00-C96) - systemic lupus erythematosus (M32.-)  **Use additional code:** - code, if applicable, for adverse effect to identify drug (T36-T50 with fifth or sixth character 5)
+[D594] Other nonautoimmune hemolytic anemias -- **Inclusion terms:** - Mechanical hemolytic anemia - Microangiopathic hemolytic anemia - Toxic hemolytic anemia
+[D595] Paroxysmal nocturnal hemoglobinuria [Marchiafava-Micheli] -- **Excludes1:** - hemoglobinuria NOS (R82.3)
+[D596] Hemoglobinuria due to hemolysis from other external causes -- **Inclusion terms:** - Hemoglobinuria from exertion - March hemoglobinuria - Paroxysmal cold hemoglobinuria  **Excludes1:** - hemoglobinuria NOS (R82.3)  **Use additional code:** - code (Chapter 20) to identify external cause
+[D598] Other acquired hemolytic anemias
+[D599] Acquired hemolytic anemia, unspecified -- **Inclusion terms:** - Idiopathic hemolytic anemia, chronic
+[D60] Acquired pure red cell aplasia [erythroblastopenia] -- **Includes:** - red cell aplasia (acquired) (adult) (with thymoma)  **Excludes1:** - congenital red cell aplasia (D61.01)
+[D600] Chronic acquired pure red cell aplasia
+[D601] Transient acquired pure red cell aplasia
+[D608] Other acquired pure red cell aplasias
+[D609] Acquired pure red cell aplasia, unspecified
+[D61] Other aplastic anemias and other bone marrow failure syndromes -- **Excludes2:** - neutropenia (D70.-)
+[D610] Constitutional aplastic anemia
+[D6101] Constitutional (pure) red blood cell aplasia -- **Inclusion terms:** - Blackfan-Diamond syndrome - Congenital (pure) red cell aplasia - Familial hypoplastic anemia - Primary (pure) red cell aplasia - Red cell (pure) aplasia of infants  **Excludes1:** - acquired red cell aplasia (D60.9)
+[D6102] Shwachman-Diamond syndrome -- **Code also:** - , if applicable, associated conditions such as: - acute myeloblastic leukemia (C92.0-) - exocrine pancreatic insufficiency (K86.81) - myelodysplastic syndrome (D46.-)  **Use additional code:** - code, if applicable, for genetic susceptibility to other malignant neoplasm (Z15.09)
+[D6103] Fanconi anemia -- **Inclusion terms:** - Fanconi pancytopenia - Fanconi's anemia  **Excludes1:** - Fanconi syndrome (E72.0-)
+[D6109] Other constitutional aplastic anemia -- **Inclusion terms:** - Pancytopenia with malformations
+[D611] Drug-induced aplastic anemia -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D612] Aplastic anemia due to other external agents -- **Code first:** - , if applicable, toxic effects of substances chiefly nonmedicinal as to source (T51-T65)
+[D613] Idiopathic aplastic anemia
+[D618] Other specified aplastic anemias and other bone marrow failure syndromes
+[D6181] Pancytopenia -- **Excludes1:** - pancytopenia (due to) (with) aplastic anemia (D61.9) - pancytopenia (due to) (with) bone marrow infiltration (D61.82) - pancytopenia (due to) (with) congenital (pure) red cell aplasia (D61.01) - pancytopenia (due to) (with) hairy cell leukemia (C91.4-) - pancytopenia (due to) (with) human immunodeficiency virus disease (B20.-) - pancytopenia (due to) (with) leukoerythroblastic anemia (D61.82) - pancytopenia (due to) (with) myeloproliferative disease (D47.1)  **Excludes2:** - pancytopenia (due to) (with) myelodysplastic syndromes (D46.-)
+[D61810] Antineoplastic chemotherapy induced pancytopenia -- **Excludes2:** - aplastic anemia due to antineoplastic chemotherapy (D61.1)
+[D61811] Other drug-induced pancytopenia -- **Excludes2:** - aplastic anemia due to drugs (D61.1)
+[D61818] Other pancytopenia
+[D6182] Myelophthisis -- **Inclusion terms:** - Leukoerythroblastic anemia - Myelophthisic anemia - Panmyelophthisis  **Excludes1:** - idiopathic myelofibrosis (D47.1) - myelofibrosis NOS (D75.81) - myelofibrosis with myeloid metaplasia (D47.4) - primary myelofibrosis (D47.1) - secondary myelofibrosis (D75.81)  **Code also:** - the underlying disorder, such as: - malignant neoplasm of breast (C50.-) - tuberculosis (A15.-)
+[D6189] Other specified aplastic anemias and other bone marrow failure syndromes
+[D619] Aplastic anemia, unspecified -- **Inclusion terms:** - Hypoplastic anemia NOS - Medullary hypoplasia
+[D62] Acute posthemorrhagic anemia -- **Excludes1:** - anemia due to chronic blood loss (D50.0) - blood loss anemia NOS (D50.0) - congenital anemia from fetal blood loss (P61.3)
+[D63] Anemia in chronic diseases classified elsewhere
+[D630] Anemia in neoplastic disease -- **Excludes1:** - aplastic anemia due to antineoplastic chemotherapy (D61.1)  **Excludes2:** - anemia due to antineoplastic chemotherapy (D64.81)  **Code first:** - neoplasm (C00-D49)
+[D631] Anemia in chronic kidney disease -- **Inclusion terms:** - Erythropoietin resistant anemia (EPO resistant anemia)  **Code first:** - underlying chronic kidney disease (CKD) (N18.-)
+[D638] Anemia in other chronic diseases classified elsewhere -- **Code first:** - underlying disease, such as: - diphyllobothriasis (B70.0) - hookworm disease (B76.0-B76.9) - hypothyroidism (E00.0-E03.9) - malaria (B50.0-B54) - symptomatic late syphilis (A52.79) - tuberculosis (A18.89)
+[D64] Other anemias -- **Excludes1:** - refractory anemia (D46.-) - refractory anemia with excess blasts in transformation [RAEB T] (C92.0-)
+[D640] Hereditary sideroblastic anemia -- **Inclusion terms:** - Sex-linked hypochromic sideroblastic anemia
+[D641] Secondary sideroblastic anemia due to disease -- **Code first:** - underlying disease
+[D642] Secondary sideroblastic anemia due to drugs and toxins -- **Code first:** - poisoning due to drug or toxin, if applicable (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D643] Other sideroblastic anemias -- **Inclusion terms:** - Sideroblastic anemia NOS - Pyridoxine-responsive sideroblastic anemia NEC
+[D644] Congenital dyserythropoietic anemia -- **Inclusion terms:** - Dyshematopoietic anemia (congenital)  **Excludes1:** - Blackfan-Diamond syndrome (D61.01) - Di Guglielmo's disease (C94.0)
+[D648] Other specified anemias
+[D6481] Anemia due to antineoplastic chemotherapy -- **Inclusion terms:** - Antineoplastic chemotherapy induced anemia  **Excludes2:** - anemia in neoplastic disease (D63.0) - aplastic anemia due to antineoplastic chemotherapy (D61.1)
+[D6489] Other specified anemias -- **Inclusion terms:** - Infantile pseudoleukemia
+[D649] Anemia, unspecified
+[D65] Disseminated intravascular coagulation [defibrination syndrome] -- **Inclusion terms:** - Afibrinogenemia, acquired - Consumption coagulopathy - COVID-19 associated diffuse or disseminated intravascular coagulopathy - Diffuse or disseminated intravascular coagulation [DIC] - Fibrinolytic hemorrhage, acquired - Fibrinolytic purpura - Purpura fulminans  **Excludes1:** - disseminated intravascular coagulation (complicating): - abortion or ectopic or molar pregnancy (O00-O07, O08.1) - in newborn (P60) - pregnancy, childbirth and the puerperium (O45.0, O46.0, O67.0, O72.3)  **Code also:** - , if applicable, associated condition
+[D66] Hereditary factor VIII deficiency -- **Inclusion terms:** - Classical hemophilia - Deficiency factor VIII (with functional defect) - Hemophilia NOS - Hemophilia A  **Excludes1:** - factor VIII deficiency with vascular defect (D68.0-)
+[D67] Hereditary factor IX deficiency -- **Inclusion terms:** - Christmas disease - Factor IX deficiency (with functional defect) - Hemophilia B - Plasma thromboplastin component [PTC] deficiency
+[D68] Other coagulation defects -- **Excludes1:** - abnormal coagulation profile NOS (R79.1)  **Excludes2:** - coagulation defects complicating abortion or ectopic or molar pregnancy (O00-O07, O08.1) - coagulation defects complicating pregnancy, childbirth and the puerperium (O45.0, O46.0, O67.0, O72.3)
+[D680] Von Willebrand disease -- **Excludes1:** - capillary fragility (hereditary) (D69.8) - factor VIII deficiency NOS (D66) - factor VIII deficiency with functional defect (D66)
+[D6800] Von Willebrand disease, unspecified
+[D6801] Von Willebrand disease, type 1 -- **Inclusion terms:** - Partial quantitative deficiency of von Willebrand factor - Type 1C von Willebrand disease
+[D6802] Von Willebrand disease, type 2 -- **Inclusion terms:** - Qualitative defects of von Willebrand factor
+[D68020] Von Willebrand disease, type 2A -- **Inclusion terms:** - Qualitative defects of von Willebrand factor with decreased platelet adhesion and selective deficiency of high-molecular-weight multimers
+[D68021] Von Willebrand disease, type 2B -- **Inclusion terms:** - Qualitative defects of von Willebrand factor with high-molecular-weight von Willebrand factor loss - Qualitative defects of von Willebrand factor with hyper-adhesive forms - Qualitative defects of von Willebrand factor with increased affinity for platelet glycoprotein lb
+[D68022] Von Willebrand disease, type 2M -- **Inclusion terms:** - Qualitative defects of von Willebrand factor with defective platelet adhesion with a normal size distribution of von Willebrand factor multimers
+[D68023] Von Willebrand disease, type 2N -- **Inclusion terms:** - Qualitative defects of von Willebrand factor with defective von Willebrand factor to factor VIII binding - Qualitative defects of von Willebrand factor with markedly decreased affinity for factor VIII
+[D68029] Von Willebrand disease, type 2, unspecified -- **Inclusion terms:** - Qualitative defect in von Willebrand factor function, with no further subtyping
+[D6803] Von Willebrand disease, type 3 -- **Inclusion terms:** - (Near) complete absence of von Willebrand factor - Total quantitative deficiency of von Willebrand factor
+[D6804] Acquired von Willebrand disease -- **Inclusion terms:** - Acquired von Willebrand syndrome
+[D6809] Other von Willebrand disease -- **Inclusion terms:** - Platelet-type von Willebrand disease - Pseudo-von Willebrand disease  **Code also:** - , if applicable, qualitative platelet defects (D69.1)
+[D681] Hereditary factor XI deficiency -- **Inclusion terms:** - Hemophilia C - Plasma thromboplastin antecedent [PTA] deficiency - Rosenthal's disease
+[D682] Hereditary deficiency of other clotting factors -- **Inclusion terms:** - AC globulin deficiency - Congenital afibrinogenemia - Deficiency of factor I [fibrinogen] - Deficiency of factor II [prothrombin] - Deficiency of factor V [labile] - Deficiency of factor VII [stable] - Deficiency of factor X [Stuart-Prower] - Deficiency of factor XII [Hageman] - Deficiency of factor XIII [fibrin stabilizing] - Dysfibrinogenemia (congenital) - Hypoproconvertinemia - Owren's disease - Proaccelerin deficiency
+[D683] Hemorrhagic disorder due to circulating anticoagulants
+[D6831] Hemorrhagic disorder due to intrinsic circulating anticoagulants, antibodies, or inhibitors
+[D68311] Acquired hemophilia -- **Inclusion terms:** - Autoimmune hemophilia - Autoimmune inhibitors to clotting factors - Secondary hemophilia
+[D68312] Antiphospholipid antibody with hemorrhagic disorder -- **Inclusion terms:** - Lupus anticoagulant (LAC) with hemorrhagic disorder - Systemic lupus erythematosus [SLE] inhibitor with hemorrhagic disorder  **Excludes1:** - antiphospholipid antibody, finding without diagnosis (R76.0) - antiphospholipid antibody syndrome (D68.61) - antiphospholipid antibody with hypercoagulable state (D68.61) - lupus anticoagulant (LAC) finding without diagnosis (R76.0) - lupus anticoagulant (LAC) with hypercoagulable state (D68.62) - systemic lupus erythematosus [SLE] inhibitor finding without diagnosis (R76.0) - systemic lupus erythematosus [SLE] inhibitor with hypercoagulable state (D68.62)
+[D68318] Other hemorrhagic disorder due to intrinsic circulating anticoagulants, antibodies, or inhibitors -- **Inclusion terms:** - Antithromboplastinemia - Antithromboplastinogenemia - Hemorrhagic disorder due to intrinsic increase in antithrombin - Hemorrhagic disorder due to intrinsic increase in anti-VIIIa - Hemorrhagic disorder due to intrinsic increase in anti-IXa - Hemorrhagic disorder due to intrinsic increase in anti-XIa
+[D6832] Hemorrhagic disorder due to extrinsic circulating anticoagulants -- **Inclusion terms:** - Drug-induced hemorrhagic disorder - Hemorrhagic disorder due to increase in anti-IIa - Hemorrhagic disorder due to increase in anti-Xa - Hyperheparinemia  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T45.515, T45.525)
+[D684] Acquired coagulation factor deficiency -- **Inclusion terms:** - Deficiency of coagulation factor due to liver disease - Deficiency of coagulation factor due to vitamin K deficiency  **Excludes1:** - vitamin K deficiency of newborn (P53)
+[D685] Primary thrombophilia -- **Inclusion terms:** - Primary hypercoagulable states  **Excludes1:** - antiphospholipid syndrome (D68.61) - lupus anticoagulant (D68.62) - secondary activated protein C resistance (D68.69) - secondary antiphospholipid antibody syndrome (D68.69) - secondary lupus anticoagulant with hypercoagulable state (D68.69) - secondary systemic lupus erythematosus [SLE] inhibitor with hypercoagulable state (D68.69) - systemic lupus erythematosus [SLE] inhibitor finding without diagnosis (R76.0) - systemic lupus erythematosus [SLE] inhibitor with hemorrhagic disorder (D68.312) - thrombotic thrombocytopenic purpura (M31.19)
+[D6851] Activated protein C resistance -- **Inclusion terms:** - Factor V Leiden mutation
+[D6852] Prothrombin gene mutation
+[D6859] Other primary thrombophilia -- **Inclusion terms:** - Antithrombin III deficiency - Hypercoagulable state NOS - Primary hypercoagulable state NEC - Primary thrombophilia NEC - Protein C deficiency - Protein S deficiency - Thrombophilia NOS
+[D686] Other thrombophilia -- **Inclusion terms:** - Other hypercoagulable states  **Excludes1:** - diffuse or disseminated intravascular coagulation [DIC] (D65) - heparin induced thrombocytopenia (HIT) (D75.82-) - hyperhomocysteinemia (E72.11)
+[D6861] Antiphospholipid syndrome -- **Inclusion terms:** - Anticardiolipin syndrome - Antiphospholipid antibody syndrome  **Excludes1:** - anti-phospholipid antibody, finding without diagnosis (R76.0) - anti-phospholipid antibody with hemorrhagic disorder (D68.312) - lupus anticoagulant syndrome (D68.62)
+[D6862] Lupus anticoagulant syndrome -- **Inclusion terms:** - Lupus anticoagulant - Presence of systemic lupus erythematosus [SLE] inhibitor  **Excludes1:** - anticardiolipin syndrome (D68.61) - antiphospholipid syndrome (D68.61) - lupus anticoagulant (LAC) finding without diagnosis (R76.0) - lupus anticoagulant (LAC) with hemorrhagic disorder (D68.312)
+[D6869] Other thrombophilia -- **Inclusion terms:** - COVID-19 associated hypercoagulability - Hypercoagulable states NEC - Secondary hypercoagulable state NOS  **Code also:** - , if applicable, associated condition
+[D688] Other specified coagulation defects -- **Inclusion terms:** - COVID-19 associated coagulopathy  **Excludes1:** - hemorrhagic disease of newborn (P53)  **Code also:** - , if applicable, associated condition
+[D689] Coagulation defect, unspecified
+[D69] Purpura and other hemorrhagic conditions -- **Excludes1:** - benign hypergammaglobulinemic purpura (D89.0) - cryoglobulinemic purpura (D89.1) - essential (hemorrhagic) thrombocythemia (D47.3) - hemorrhagic thrombocythemia (D47.3) - purpura fulminans (D65) - thrombotic thrombocytopenic purpura (M31.19) - Waldenström hypergammaglobulinemic purpura (D89.0)
+[D690] Allergic purpura -- **Inclusion terms:** - Allergic vasculitis - Nonthrombocytopenic hemorrhagic purpura - Nonthrombocytopenic idiopathic purpura - Purpura anaphylactoid - Purpura Henoch(-Schönlein) - Purpura rheumatica - Vascular purpura  **Excludes1:** - thrombocytopenic hemorrhagic purpura (D69.3)
+[D691] Qualitative platelet defects -- **Inclusion terms:** - Bernard-Soulier [giant platelet] syndrome - Glanzmann's disease - Grey platelet syndrome - Thromboasthenia (hemorrhagic) (hereditary) - Thrombocytopathy  **Excludes1:** - hemolytic-uremic syndrome (D59.3-)  **Excludes2:** - von Willebrand disease (D68.0-)
+[D692] Other nonthrombocytopenic purpura -- **Inclusion terms:** - Purpura NOS - Purpura simplex - Senile purpura
+[D693] Immune thrombocytopenic purpura -- **Inclusion terms:** - Hemorrhagic (thrombocytopenic) purpura - Idiopathic thrombocytopenic purpura - Tidal platelet dysgenesis
+[D694] Other primary thrombocytopenia -- **Excludes1:** - transient neonatal thrombocytopenia (P61.0) - Wiskott-Aldrich syndrome (D82.0)
+[D6941] Evans syndrome
+[D6942] Congenital and hereditary thrombocytopenia purpura -- **Inclusion terms:** - Congenital thrombocytopenia - Hereditary thrombocytopenia  **Code first:** - congential or hereditary disorder, such as: - thrombocytopenia with absent radius (TAR syndrome) (Q87.2)
+[D6949] Other primary thrombocytopenia -- **Inclusion terms:** - Megakaryocytic hypoplasia - Primary thrombocytopenia NOS
+[D695] Secondary thrombocytopenia -- **Excludes1:** - heparin induced thrombocytopenia (HIT) (D75.82-) - transient thrombocytopenia of newborn (P61.0)
+[D6951] Posttransfusion purpura -- **Inclusion terms:** - Posttransfusion purpura from whole blood (fresh) or blood products - PTP
+[D6959] Other secondary thrombocytopenia
+[D696] Thrombocytopenia, unspecified
+[D698] Other specified hemorrhagic conditions -- **Inclusion terms:** - Capillary fragility (hereditary) - Vascular pseudohemophilia
+[D699] Hemorrhagic condition, unspecified
+[D70] Neutropenia -- **Includes:** - agranulocytosis - decreased absolute neurophile count (ANC)  **Excludes1:** - neutropenic splenomegaly (D73.81) - transient neonatal neutropenia (P61.5)  **Code also:** - , if applicable, mucositis (J34.81, K12.3-, K92.81, N76.81)  **Use additional code:** - code for any associated: - fever (R50.81)
+[D700] Congenital agranulocytosis -- **Inclusion terms:** - Congenital neutropenia - Infantile genetic agranulocytosis - Kostmann's disease
+[D701] Agranulocytosis secondary to cancer chemotherapy -- **Code also:** - underlying neoplasm  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T45.1X5)
+[D702] Other drug-induced agranulocytosis -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D703] Neutropenia due to infection
+[D704] Cyclic neutropenia -- **Inclusion terms:** - Cyclic hematopoiesis - Periodic neutropenia
+[D708] Other neutropenia
+[D709] Neutropenia, unspecified
+[D71] Functional disorders of polymorphonuclear neutrophils -- **Inclusion terms:** - Cell membrane receptor complex [CR3] defect - Chronic (childhood) granulomatous disease - Congenital dysphagocytosis - Progressive septic granulomatosis
+[D72] Other disorders of white blood cells -- **Excludes1:** - basophilia (D72.824) - immunity disorders (D80-D89) - neutropenia (D70) - preleukemia (syndrome) (D46.9)
+[D720] Genetic anomalies of leukocytes -- **Inclusion terms:** - Alder (granulation) (granulocyte) anomaly - Alder syndrome - Hereditary leukocytic hypersegmentation - Hereditary leukocytic hyposegmentation - Hereditary leukomelanopathy - May-Hegglin (granulation) (granulocyte) anomaly - May-Hegglin syndrome - Pelger-Huët (granulation) (granulocyte) anomaly - Pelger-Huët syndrome  **Excludes1:** - Chédiak (-Steinbrinck)-Higashi syndrome (E70.330)
+[D721] Eosinophilia -- **Excludes2:** - Löffler's syndrome (J82.89) - pulmonary eosinophilia (J82.-)
+[D7210] Eosinophilia, unspecified
+[D7211] Hypereosinophilic syndrome [HES]
+[D72110] Idiopathic hypereosinophilic syndrome [IHES]
+[D72111] Lymphocytic Variant Hypereosinophilic Syndrome [LHES] -- **Inclusion terms:** - Lymphocyte variant hypereosinophilia  **Code also:** - , if applicable, any associated lymphocytic neoplastic disorder
+[D72118] Other hypereosinophilic syndrome -- **Inclusion terms:** - Episodic angioedema with eosinophilia - Gleich's syndrome
+[D72119] Hypereosinophilic syndrome [HES], unspecified
+[D7212] Drug rash with eosinophilia and systemic symptoms syndrome -- **Inclusion terms:** - DRESS syndrome  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D7218] Eosinophilia in diseases classified elsewhere -- **Code first:** - underlying disease, such as: - chronic myelomonocytic leukemia (C93.1-)
+[D7219] Other eosinophilia -- **Inclusion terms:** - Familial eosinophilia - Hereditary eosinophilia
+[D728] Other specified disorders of white blood cells -- **Excludes1:** - leukemia (C91-C95)
+[D7281] Decreased white blood cell count -- **Excludes1:** - neutropenia (D70.-)
+[D72810] Lymphocytopenia -- **Inclusion terms:** - Decreased lymphocytes
+[D72818] Other decreased white blood cell count -- **Inclusion terms:** - Basophilic leukopenia - Eosinophilic leukopenia - Monocytopenia - Other decreased leukocytes - Plasmacytopenia
+[D72819] Decreased white blood cell count, unspecified -- **Inclusion terms:** - Decreased leukocytes, unspecified - Leukocytopenia, unspecified - Leukopenia  **Excludes1:** - malignant leukopenia (D70.9)
+[D7282] Elevated white blood cell count -- **Excludes1:** - eosinophilia (D72.1)
+[D72820] Lymphocytosis (symptomatic) -- **Inclusion terms:** - Elevated lymphocytes
+[D72821] Monocytosis (symptomatic) -- **Excludes1:** - infectious mononucleosis (B27.-)
+[D72822] Plasmacytosis
+[D72823] Leukemoid reaction -- **Inclusion terms:** - Basophilic leukemoid reaction - Leukemoid reaction NOS - Lymphocytic leukemoid reaction - Monocytic leukemoid reaction - Myelocytic leukemoid reaction - Neutrophilic leukemoid reaction
+[D72824] Basophilia
+[D72825] Bandemia -- **Inclusion terms:** - Bandemia without diagnosis of specific infection  **Excludes1:** - confirmed infection - code to infection - leukemia (C91.-, C92.-, C93.-, C94.-, C95.-)
+[D72828] Other elevated white blood cell count
+[D72829] Elevated white blood cell count, unspecified -- **Inclusion terms:** - Elevated leukocytes, unspecified - Leukocytosis, unspecified
+[D7289] Other specified disorders of white blood cells -- **Inclusion terms:** - Abnormality of white blood cells NEC
+[D729] Disorder of white blood cells, unspecified -- **Inclusion terms:** - Abnormal leukocyte differential NOS
+[D73] Diseases of spleen
+[D730] Hyposplenism -- **Inclusion terms:** - Atrophy of spleen  **Excludes1:** - asplenia (congenital) (Q89.01) - postsurgical absence of spleen (Z90.81)
+[D731] Hypersplenism -- **Excludes1:** - neutropenic splenomegaly (D73.81) - primary splenic neutropenia (D73.81) - splenitis, splenomegaly in late syphilis (A52.79) - splenitis, splenomegaly in tuberculosis (A18.85) - splenomegaly NOS (R16.1) - splenomegaly congenital (Q89.0)
+[D732] Chronic congestive splenomegaly
+[D733] Abscess of spleen
+[D734] Cyst of spleen
+[D735] Infarction of spleen -- **Inclusion terms:** - Splenic rupture, nontraumatic - Torsion of spleen  **Excludes1:** - rupture of spleen due to Plasmodium vivax malaria (B51.0) - traumatic rupture of spleen (S36.03-)
+[D738] Other diseases of spleen
+[D7381] Neutropenic splenomegaly -- **Inclusion terms:** - Werner-Schultz disease
+[D7389] Other diseases of spleen -- **Inclusion terms:** - Fibrosis of spleen NOS - Perisplenitis - Splenitis NOS
+[D739] Disease of spleen, unspecified
+[D74] Methemoglobinemia
+[D740] Congenital methemoglobinemia -- **Inclusion terms:** - Congenital NADH-methemoglobin reductase deficiency - Hemoglobin-M [Hb-M] disease - Methemoglobinemia, hereditary
+[D748] Other methemoglobinemias -- **Inclusion terms:** - Acquired methemoglobinemia (with sulfhemoglobinemia) - Toxic methemoglobinemia
+[D749] Methemoglobinemia, unspecified
+[D75] Other and unspecified diseases of blood and blood-forming organs -- **Excludes2:** - acute lymphadenitis (L04.-) - chronic lymphadenitis (I88.1) - enlarged lymph nodes (R59.-) - hypergammaglobulinemia NOS (D89.2) - lymphadenitis NOS (I88.9) - mesenteric lymphadenitis (acute) (chronic) (I88.0)
+[D750] Familial erythrocytosis -- **Inclusion terms:** - Benign polycythemia - Familial polycythemia  **Excludes1:** - hereditary ovalocytosis (D58.1)
+[D751] Secondary polycythemia -- **Inclusion terms:** - Acquired polycythemia - Emotional polycythemia - Erythrocytosis NOS - Hypoxemic polycythemia - Nephrogenous polycythemia - Polycythemia due to erythropoietin - Polycythemia due to fall in plasma volume - Polycythemia due to high altitude - Polycythemia due to stress - Polycythemia NOS - Relative polycythemia  **Excludes1:** - polycythemia neonatorum (P61.1) - polycythemia vera (D45)
+[D758] Other specified diseases of blood and blood-forming organs
+[D7581] Myelofibrosis -- **Inclusion terms:** - Myelofibrosis NOS - Secondary myelofibrosis NOS  **Excludes1:** - acute myelofibrosis (C94.4-) - idiopathic myelofibrosis (D47.1) - leukoerythroblastic anemia (D61.82) - myelofibrosis with myeloid metaplasia (D47.4) - myelophthisic anemia (D61.82) - myelophthisis (D61.82) - primary myelofibrosis (D47.1)  **Code first:** - the underlying disorder, such as: - malignant neoplasm of breast (C50.-)  **Use additional code:** - code, if applicable, for associated therapy-related myelodysplastic syndrome (D46.-)
+[D7582] Heparin induced thrombocytopenia (HIT) -- **Use additional code:** - code, if applicable, for adverse effect of heparin (T45.515-)
+[D75821] Non-immune heparin-induced thrombocytopenia -- **Inclusion terms:** - Non-immune HIT - Type 1 heparin-induced thrombocytopenia
+[D75822] Immune-mediated heparin-induced thrombocytopenia -- **Inclusion terms:** - Immune-mediated HIT - Type 2 heparin-induced thrombocytopenia
+[D75828] Other heparin-induced thrombocytopenia syndrome -- **Inclusion terms:** - Autoimmune heparin-induced thrombocytopenia syndrome - Delayed-onset heparin-induced thrombocytopenia - Persisting heparin-induced thrombocytopenia
+[D75829] Heparin-induced thrombocytopenia, unspecified
+[D7583] Thrombocytosis -- **Excludes2:** - essential thrombocythemia (D47.3)
+[D75838] Other thrombocytosis -- **Inclusion terms:** - Reactive thrombocytosis - Secondary thrombocytosis  **Code also:** - underlying condition, if known and applicable
+[D75839] Thrombocytosis, unspecified -- **Inclusion terms:** - Thrombocythemia NOS - Thrombocytosis NOS
+[D7584] Other platelet-activating anti-PF4 disorders -- **Inclusion terms:** - Spontaneous heparin-induced thrombocytopenia syndrome (without heparin exposure) - Thrombosis with thrombocytopenia syndrome - Vaccine-induced thrombotic thrombocytopenia  **Use additional code:** - code, if applicable, for adverse effect of other viral vaccine (T50.B95-)
+[D7589] Other specified diseases of blood and blood-forming organs
+[D759] Disease of blood and blood-forming organs, unspecified
+[D75A] Glucose-6-phosphate dehydrogenase (G6PD) deficiency without anemia -- **Excludes1:** - glucose-6-phosphate dehydrogenase (G6PD) deficiency with anemia (D55.0)
+[D76] Other specified diseases with participation of lymphoreticular and reticulohistiocytic tissue -- **Excludes1:** - (Abt-) Letterer-Siwe disease (C96.0) - eosinophilic granuloma (C96.6) - Hand-Schüller-Christian disease (C96.5) - histiocytic medullary reticulosis (C96.9) - histiocytic sarcoma (C96.A) - histiocytosis X, multifocal (C96.5) - histiocytosis X, unifocal (C96.6) - Langerhans-cell histiocytosis, multifocal (C96.5) - Langerhans-cell histiocytosis NOS (C96.6) - Langerhans-cell histiocytosis, unifocal (C96.6) - leukemic reticuloendotheliosis (C91.4-) - lipomelanotic reticulosis (I89.8) - malignant histiocytosis (C96.A) - malignant reticulosis (C86.0) - nonlipid reticuloendotheliosis (C96.0)
+[D761] Hemophagocytic lymphohistiocytosis -- **Inclusion terms:** - Familial hemophagocytic reticulosis - Histiocytoses of mononuclear phagocytes
+[D762] Hemophagocytic syndrome, infection-associated -- **Use additional code:** - code to identify infectious agent or disease.
+[D763] Other histiocytosis syndromes -- **Inclusion terms:** - Reticulohistiocytoma (giant-cell) - Sinus histiocytosis with massive lymphadenopathy - Xanthogranuloma
+[D77] Other disorders of blood and blood-forming organs in diseases classified elsewhere -- **Excludes1:** - rupture of spleen due to Plasmodium vivax malaria (B51.0) - splenitis, splenomegaly in late syphilis (A52.79) - splenitis, splenomegaly in tuberculosis (A18.85)  **Code first:** - underlying disease, such as: - amyloidosis (E85.-) - congenital early syphilis (A50.0-) - echinococcosis (B67.0-B67.9) - malaria (B50.0-B54) - schistosomiasis [bilharziasis] (B65.0-B65.9) - vitamin C deficiency (E54)
+[D78] Intraoperative and postprocedural complications of the spleen
+[D780] Intraoperative hemorrhage and hematoma of the spleen complicating a procedure -- **Excludes1:** - intraoperative hemorrhage and hematoma of the spleen due to accidental puncture or laceration during a procedure (D78.1-)
+[D7801] Intraoperative hemorrhage and hematoma of the spleen complicating a procedure on the spleen
+[D7802] Intraoperative hemorrhage and hematoma of the spleen complicating other procedure
+[D781] Accidental puncture and laceration of the spleen during a procedure
+[D7811] Accidental puncture and laceration of the spleen during a procedure on the spleen
+[D7812] Accidental puncture and laceration of the spleen during other procedure
+[D782] Postprocedural hemorrhage of the spleen following a procedure
+[D7821] Postprocedural hemorrhage of the spleen following a procedure on the spleen
+[D7822] Postprocedural hemorrhage of the spleen following other procedure
+[D783] Postprocedural hematoma and seroma of the spleen following a procedure
+[D7831] Postprocedural hematoma of the spleen following a procedure on the spleen
+[D7832] Postprocedural hematoma of the spleen following other procedure
+[D7833] Postprocedural seroma of the spleen following a procedure on the spleen
+[D7834] Postprocedural seroma of the spleen following other procedure
+[D788] Other intraoperative and postprocedural complications of the spleen -- **Use additional code:** - code, if applicable, to further specify disorder
+[D7881] Other intraoperative complications of the spleen
+[D7889] Other postprocedural complications of the spleen
+[D80] Immunodeficiency with predominantly antibody defects
+[D800] Hereditary hypogammaglobulinemia -- **Inclusion terms:** - Autosomal recessive agammaglobulinemia (Swiss type) - X-linked agammaglobulinemia [Bruton] (with growth hormone deficiency)
+[D801] Nonfamilial hypogammaglobulinemia -- **Inclusion terms:** - Agammaglobulinemia with immunoglobulin-bearing B-lymphocytes - Common variable agammaglobulinemia [CVAgamma] - Hypogammaglobulinemia NOS
+[D802] Selective deficiency of immunoglobulin A [IgA]
+[D803] Selective deficiency of immunoglobulin G [IgG] subclasses
+[D804] Selective deficiency of immunoglobulin M [IgM]
+[D805] Immunodeficiency with increased immunoglobulin M [IgM]
+[D806] Antibody deficiency with near-normal immunoglobulins or with hyperimmunoglobulinemia
+[D807] Transient hypogammaglobulinemia of infancy
+[D808] Other immunodeficiencies with predominantly antibody defects -- **Inclusion terms:** - Kappa light chain deficiency
+[D809] Immunodeficiency with predominantly antibody defects, unspecified
+[D81] Combined immunodeficiencies -- **Excludes1:** - autosomal recessive agammaglobulinemia (Swiss type) (D80.0)
+[D810] Severe combined immunodeficiency [SCID] with reticular dysgenesis
+[D811] Severe combined immunodeficiency [SCID] with low T- and B-cell numbers
+[D812] Severe combined immunodeficiency [SCID] with low or normal B-cell numbers
+[D813] Adenosine deaminase [ADA] deficiency
+[D8130] Adenosine deaminase deficiency, unspecified -- **Inclusion terms:** - ADA deficiency NOS
+[D8131] Severe combined immunodeficiency due to adenosine deaminase deficiency -- **Inclusion terms:** - ADA deficiency with SCID - Adenosine deaminase [ADA] deficiency with severe combined immunodeficiency
+[D8132] Adenosine deaminase 2 deficiency -- **Inclusion terms:** - ADA2 deficiency - Adenosine deaminase deficiency type 2  **Code also:** - , if applicable, any associated manifestations, such as: - polyarteritis nodosa (M30.0) - stroke (I63.-)
+[D8139] Other adenosine deaminase deficiency -- **Inclusion terms:** - Adenosine deaminase [ADA] deficiency type 1, NOS - Adenosine deaminase [ADA] deficiency type 1, without SCID - Adenosine deaminase [ADA] deficiency type 1, without severe combined immunodeficiency - Partial ADA deficiency (type 1) - Partial adenosine deaminase deficiency (type 1)
+[D814] Nezelof's syndrome
+[D815] Purine nucleoside phosphorylase [PNP] deficiency
+[D816] Major histocompatibility complex class I deficiency -- **Inclusion terms:** - Bare lymphocyte syndrome
+[D817] Major histocompatibility complex class II deficiency
+[D818] Other combined immunodeficiencies
+[D8181] Biotin-dependent carboxylase deficiency -- **Inclusion terms:** - Multiple carboxylase deficiency  **Excludes1:** - biotin-dependent carboxylase deficiency due to dietary deficiency of biotin (E53.8)
+[D81810] Biotinidase deficiency
+[D81818] Other biotin-dependent carboxylase deficiency -- **Inclusion terms:** - Holocarboxylase synthetase deficiency - Other multiple carboxylase deficiency
+[D81819] Biotin-dependent carboxylase deficiency, unspecified -- **Inclusion terms:** - Multiple carboxylase deficiency, unspecified
+[D8182] Activated Phosphoinositide 3-kinase Delta Syndrome [APDS] -- **Inclusion terms:** - p110d-activating mutation causing senescent T cells, lymphadenopathy, and immunodeficiency [PASLI] disease  **Code also:** - , if applicable, any associated manifestations, such as: - bronchiectasis (J47.-) - herpes virus infections (B00.-) - other acute respiratory tract infections (J00-J06; J20-J22) - other infections (A00-B99) - pneumonia (J12-J18)
+[D8189] Other combined immunodeficiencies
+[D819] Combined immunodeficiency, unspecified -- **Inclusion terms:** - Severe combined immunodeficiency disorder [SCID] NOS
+[D82] Immunodeficiency associated with other major defects -- **Excludes1:** - ataxia telangiectasia [Louis-Bar] (G11.3)
+[D820] Wiskott-Aldrich syndrome -- **Inclusion terms:** - Immunodeficiency with thrombocytopenia and eczema
+[D821] Di George's syndrome -- **Inclusion terms:** - Pharyngeal pouch syndrome - Thymic alymphoplasia - Thymic aplasia or hypoplasia with immunodeficiency
+[D822] Immunodeficiency with short-limbed stature
+[D823] Immunodeficiency following hereditary defective response to Epstein-Barr virus -- **Inclusion terms:** - X-linked lymphoproliferative disease
+[D824] Hyperimmunoglobulin E [IgE] syndrome
+[D828] Immunodeficiency associated with other specified major defects
+[D829] Immunodeficiency associated with major defect, unspecified
+[D83] Common variable immunodeficiency
+[D830] Common variable immunodeficiency with predominant abnormalities of B-cell numbers and function
+[D831] Common variable immunodeficiency with predominant immunoregulatory T-cell disorders
+[D832] Common variable immunodeficiency with autoantibodies to B- or T-cells
+[D838] Other common variable immunodeficiencies
+[D839] Common variable immunodeficiency, unspecified
+[D84] Other immunodeficiencies
+[D840] Lymphocyte function antigen-1 [LFA-1] defect
+[D841] Defects in the complement system -- **Inclusion terms:** - C1 esterase inhibitor [C1-INH] deficiency
+[D848] Other specified immunodeficiencies
+[D8481] Immunodeficiency due to conditions classified elsewhere -- **Excludes1:** - certain disorders involving the immune mechanism (D80-D83, D84.0, D84.1, D84.9) - human immunodeficiency virus [HIV] disease (B20)  **Code first:** - underlying condition, such as: - chromosomal abnormalities (Q90-Q99) - diabetes mellitus (E08-E13) - malignant neoplasms (C00-C96)
+[D8482] Immunodeficiency due to drugs and external causes
+[D84821] Immunodeficiency due to drugs -- **Inclusion terms:** - Immunodeficiency due to (current or past) medication  **Use additional code:** - code for adverse effect if applicable, to identify adverse effect of drug (T36-T50 with fifth or six character 5)
+[D84822] Immunodeficiency due to external causes -- **Code also:** - , if applicable, radiological procedure and radiotherapy (Y84.2)  **Use additional code:** - code for external cause such as: - exposure to ionizing radiation (W88)
+[D8489] Other immunodeficiencies
+[D849] Immunodeficiency, unspecified -- **Inclusion terms:** - Immunocompromised NOS - Immunodeficient NOS - Immunosuppressed NOS
+[D86] Sarcoidosis
+[D860] Sarcoidosis of lung
+[D861] Sarcoidosis of lymph nodes
+[D862] Sarcoidosis of lung with sarcoidosis of lymph nodes
+[D863] Sarcoidosis of skin
+[D868] Sarcoidosis of other sites
+[D8681] Sarcoid meningitis
+[D8682] Multiple cranial nerve palsies in sarcoidosis
+[D8683] Sarcoid iridocyclitis
+[D8684] Sarcoid pyelonephritis -- **Inclusion terms:** - Tubulo-interstitial nephropathy in sarcoidosis
+[D8685] Sarcoid myocarditis
+[D8686] Sarcoid arthropathy -- **Inclusion terms:** - Polyarthritis in sarcoidosis
+[D8687] Sarcoid myositis
+[D8689] Sarcoidosis of other sites -- **Inclusion terms:** - Hepatic granuloma - Uveoparotid fever [Heerfordt]
+[D869] Sarcoidosis, unspecified
+[D89] Other disorders involving the immune mechanism, not elsewhere classified -- **Excludes1:** - hyperglobulinemia NOS (R77.1) - monoclonal gammopathy (of undetermined significance) (D47.2)  **Excludes2:** - transplant failure and rejection (T86.-)
+[D890] Polyclonal hypergammaglobulinemia -- **Inclusion terms:** - Benign hypergammaglobulinemic purpura - Polyclonal gammopathy NOS
+[D891] Cryoglobulinemia -- **Inclusion terms:** - Cryoglobulinemic purpura - Cryoglobulinemic vasculitis - Essential cryoglobulinemia - Idiopathic cryoglobulinemia - Mixed cryoglobulinemia - Primary cryoglobulinemia - Secondary cryoglobulinemia
+[D892] Hypergammaglobulinemia, unspecified
+[D893] Immune reconstitution syndrome -- **Inclusion terms:** - Immune reconstitution inflammatory syndrome [IRIS]  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[D894] Mast cell activation syndrome and related disorders -- **Excludes1:** - aggressive systemic mastocytosis (C96.21) - congenital cutaneous mastocytosis (Q82.2) - (non-congenital) cutaneous mastocytosis (D47.01) - (indolent) systemic mastocytosis (D47.02) - malignant mast cell neoplasm (C96.2-) - malignant mastocytoma (C96.29) - mast cell leukemia (C94.3-) - mast cell sarcoma (C96.22) - mastocytoma NOS (D47.09) - other mast cell neoplasms of uncertain behavior (D47.09) - systemic mastocytosis associated with a clonal hematologic non-mast cell lineage disease (SM-AHNMD) (D47.02)
+[D8940] Mast cell activation, unspecified -- **Inclusion terms:** - Mast cell activation disorder, unspecified - Mast cell activation syndrome, NOS
+[D8941] Monoclonal mast cell activation syndrome
+[D8942] Idiopathic mast cell activation syndrome
+[D8943] Secondary mast cell activation -- **Inclusion terms:** - Secondary mast cell activation syndrome  **Code also:** - underlying etiology, if known
+[D8944] Hereditary alpha tryptasemia -- **Use additional code:** - code, if applicable, for: - allergy status, other than to drugs and biological substances (Z91.0-) - personal history of anaphylaxis (Z87.892)
+[D8949] Other mast cell activation disorder -- **Inclusion terms:** - Other mast cell activation syndrome
+[D898] Other specified disorders involving the immune mechanism, not elsewhere classified
+[D8981] Graft-versus-host disease -- **Code first:** - underlying cause, such as: - complications of transplanted organs and tissue (T86.-) - complications of blood transfusion (T80.89)  **Use additional code:** - code to identify associated manifestations, such as: - desquamative dermatitis (L30.8) - diarrhea (R19.7) - elevated bilirubin (R17) - hair loss (L65.9)
+[D89810] Acute graft-versus-host disease
+[D89811] Chronic graft-versus-host disease
+[D89812] Acute on chronic graft-versus-host disease
+[D89813] Graft-versus-host disease, unspecified
+[D8982] Autoimmune lymphoproliferative syndrome [ALPS]
+[D8983] Cytokine release syndrome -- **Code first:** - underlying cause, such as: - complications following infusion, transfusion and therapeutic injection (T80.89-) - complications of transplanted organs and tissue (T86.-)  **Use additional code:** - code for adverse effect, if applicable, to identify immune checkpoint inhibitors and immunostimulant drugs (T45.AX5)
+[D89831] Cytokine release syndrome, grade 1
+[D89832] Cytokine release syndrome, grade 2
+[D89833] Cytokine release syndrome, grade 3
+[D89834] Cytokine release syndrome, grade 4
+[D89835] Cytokine release syndrome, grade 5
+[D89839] Cytokine release syndrome, grade unspecified
+[D8984] IgG4-related disease -- **Inclusion terms:** - Immunoglobulin G4-related disease
+[D8989] Other specified disorders involving the immune mechanism, not elsewhere classified -- **Excludes1:** - human immunodeficiency virus disease (B20)
+[D899] Disorder involving the immune mechanism, unspecified -- **Inclusion terms:** - Immune disease NOS

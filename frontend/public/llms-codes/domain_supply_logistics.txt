@@ -1,0 +1,19 @@
+[dsclog_contract] Contract Logistics and Dedicated Services :: naics_2022:488, naics_2022:493
+[dsclog_contract_dedicated] Dedicated contract carriage (DCC): fleet dedicated to one shipper
+[dsclog_contract_managed] Managed logistics services (outsourced logistics department)
+[dsclog_fifthparty] 5PL: Digital and Platform-Based Logistics :: naics_2022:488, naics_2022:493
+[dsclog_fifthparty_marketplace] Open logistics marketplace (Amazon Shipping, Uber Freight, Convoy)
+[dsclog_fifthparty_platform] Digital freight platform aggregating carriers (Flexport, project44)
+[dsclog_firstparty] 1PL: First-Party Logistics (Self-Managed) :: naics_2022:488, naics_2022:493
+[dsclog_firstparty_captive] Captive logistics subsidiary (in-house logistics arm)
+[dsclog_firstparty_shipper] Shipper self-manages own fleet and warehousing (private fleet)
+[dsclog_fourthparty] 4PL: Fourth-Party Logistics (Lead Logistics Provider) :: naics_2022:488, naics_2022:493
+[dsclog_fourthparty_controlower] Control tower: 4PL providing end-to-end visibility and orchestration
+[dsclog_fourthparty_llp] LLP / 4PL: manages network of 3PLs on shipper's behalf
+[dsclog_secondparty] 2PL: Second-Party Logistics (Asset-Based Carriers) :: naics_2022:488, naics_2022:493
+[dsclog_secondparty_carrier] Asset-based carrier (trucking, rail, ocean, air carriers)
+[dsclog_secondparty_warehouse] Public warehouse and distribution center operator
+[dsclog_thirdparty] 3PL: Third-Party Logistics (Outsourced Logistics) :: naics_2022:488, naics_2022:493
+[dsclog_thirdparty_integrated] Integrated 3PL (full-service supply chain outsourcing, XPO, DSV)
+[dsclog_thirdparty_transport] Transportation-based 3PL (freight brokerage + managed transport)
+[dsclog_thirdparty_warehouse] Warehouse-based 3PL (fulfillment center, value-added services)

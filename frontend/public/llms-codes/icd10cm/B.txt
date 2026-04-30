@@ -1,0 +1,612 @@
+[B00] Herpesviral [herpes simplex] infections -- **Excludes1:** - congenital herpesviral infections (P35.2)  **Excludes2:** - anogenital herpesviral infection (A60.-) - gammaherpesviral mononucleosis (B27.0-) - herpangina (B08.5)
+[B000] Eczema herpeticum -- **Inclusion terms:** - Kaposi's varicelliform eruption
+[B001] Herpesviral vesicular dermatitis -- **Inclusion terms:** - Herpes simplex facialis - Herpes simplex labialis - Herpes simplex otitis externa - Vesicular dermatitis of ear - Vesicular dermatitis of lip
+[B002] Herpesviral gingivostomatitis and pharyngotonsillitis -- **Inclusion terms:** - Herpesviral pharyngitis
+[B003] Herpesviral meningitis
+[B004] Herpesviral encephalitis -- **Inclusion terms:** - Herpesviral meningoencephalitis - Simian B disease  **Excludes1:** - herpesviral encephalitis due to herpesvirus 6 and 7 (B10.01, B10.09) - non-simplex herpesviral encephalitis (B10.0-)
+[B005] Herpesviral ocular disease
+[B0050] Herpesviral ocular disease, unspecified
+[B0051] Herpesviral iridocyclitis -- **Inclusion terms:** - Herpesviral iritis - Herpesviral uveitis, anterior
+[B0052] Herpesviral keratitis -- **Inclusion terms:** - Herpesviral keratoconjunctivitis
+[B0053] Herpesviral conjunctivitis
+[B0059] Other herpesviral disease of eye -- **Inclusion terms:** - Herpesviral dermatitis of eyelid
+[B007] Disseminated herpesviral disease -- **Inclusion terms:** - Herpesviral sepsis
+[B008] Other forms of herpesviral infections
+[B0081] Herpesviral hepatitis
+[B0082] Herpes simplex myelitis
+[B0089] Other herpesviral infection -- **Inclusion terms:** - Herpesviral whitlow
+[B009] Herpesviral infection, unspecified -- **Inclusion terms:** - Herpes simplex infection NOS
+[B01] Varicella [chickenpox]
+[B010] Varicella meningitis
+[B011] Varicella encephalitis, myelitis and encephalomyelitis -- **Inclusion terms:** - Postchickenpox encephalitis, myelitis and encephalomyelitis
+[B0111] Varicella encephalitis and encephalomyelitis -- **Inclusion terms:** - Postchickenpox encephalitis and encephalomyelitis
+[B0112] Varicella myelitis -- **Inclusion terms:** - Postchickenpox myelitis
+[B012] Varicella pneumonia
+[B018] Varicella with other complications
+[B0181] Varicella keratitis
+[B0189] Other varicella complications
+[B019] Varicella without complication -- **Inclusion terms:** - Varicella NOS
+[B02] Zoster [herpes zoster] -- **Includes:** - shingles - zona
+[B020] Zoster encephalitis -- **Inclusion terms:** - Zoster meningoencephalitis
+[B021] Zoster meningitis
+[B022] Zoster with other nervous system involvement
+[B0221] Postherpetic geniculate ganglionitis
+[B0222] Postherpetic trigeminal neuralgia
+[B0223] Postherpetic polyneuropathy
+[B0224] Postherpetic myelitis -- **Inclusion terms:** - Herpes zoster myelitis
+[B0229] Other postherpetic nervous system involvement -- **Inclusion terms:** - Postherpetic radiculopathy
+[B023] Zoster ocular disease
+[B0230] Zoster ocular disease, unspecified
+[B0231] Zoster conjunctivitis
+[B0232] Zoster iridocyclitis
+[B0233] Zoster keratitis -- **Inclusion terms:** - Herpes zoster keratoconjunctivitis
+[B0234] Zoster scleritis
+[B0239] Other herpes zoster eye disease -- **Inclusion terms:** - Zoster blepharitis
+[B027] Disseminated zoster
+[B028] Zoster with other complications -- **Inclusion terms:** - Herpes zoster otitis externa
+[B029] Zoster without complications -- **Inclusion terms:** - Zoster NOS
+[B03] Smallpox -- **Notes:** - In 1980 the 33rd World Health Assembly declared that smallpox had been eradicated. - The classification is maintained for surveillance purposes.
+[B04] Monkeypox -- **Inclusion terms:** - Mpox
+[B05] Measles -- **Includes:** - morbilli  **Excludes1:** - subacute sclerosing panencephalitis (A81.1)
+[B050] Measles complicated by encephalitis -- **Inclusion terms:** - Postmeasles encephalitis
+[B051] Measles complicated by meningitis -- **Inclusion terms:** - Postmeasles meningitis
+[B052] Measles complicated by pneumonia -- **Inclusion terms:** - Postmeasles pneumonia
+[B053] Measles complicated by otitis media -- **Inclusion terms:** - Postmeasles otitis media
+[B054] Measles with intestinal complications
+[B058] Measles with other complications
+[B0581] Measles keratitis and keratoconjunctivitis
+[B0589] Other measles complications
+[B059] Measles without complication -- **Inclusion terms:** - Measles NOS
+[B06] Rubella [German measles] -- **Excludes1:** - congenital rubella (P35.0)
+[B060] Rubella with neurological complications
+[B0600] Rubella with neurological complication, unspecified
+[B0601] Rubella encephalitis -- **Inclusion terms:** - Rubella meningoencephalitis
+[B0602] Rubella meningitis
+[B0609] Other neurological complications of rubella
+[B068] Rubella with other complications
+[B0681] Rubella pneumonia
+[B0682] Rubella arthritis
+[B0689] Other rubella complications
+[B069] Rubella without complication -- **Inclusion terms:** - Rubella NOS
+[B07] Viral warts -- **Includes:** - verruca simplex - verruca vulgaris - viral warts due to human papillomavirus  **Excludes2:** - anogenital (venereal) warts (A63.0) - papilloma of bladder (D41.4) - papilloma of cervix (D26.0) - papilloma larynx (D14.1)
+[B070] Plantar wart -- **Inclusion terms:** - Verruca plantaris
+[B078] Other viral warts -- **Inclusion terms:** - Common wart - Flat wart - Verruca plana
+[B079] Viral wart, unspecified
+[B08] Other viral infections characterized by skin and mucous membrane lesions, not elsewhere classified -- **Excludes1:** - vesicular stomatitis virus disease (A93.8)
+[B080] Other orthopoxvirus infections -- **Excludes2:** - monkeypox (B04)
+[B0801] Cowpox and vaccinia not from vaccine
+[B08010] Cowpox
+[B08011] Vaccinia not from vaccine -- **Excludes1:** - vaccinia (from vaccination) (generalized) (T88.1)
+[B0802] Orf virus disease -- **Inclusion terms:** - Contagious pustular dermatitis - Ecthyma contagiosum
+[B0803] Pseudocowpox [milker's node]
+[B0804] Paravaccinia, unspecified
+[B0809] Other orthopoxvirus infections -- **Inclusion terms:** - Orthopoxvirus infection NOS
+[B081] Molluscum contagiosum
+[B082] Exanthema subitum [sixth disease] -- **Inclusion terms:** - Roseola infantum
+[B0820] Exanthema subitum [sixth disease], unspecified -- **Inclusion terms:** - Roseola infantum, unspecified
+[B0821] Exanthema subitum [sixth disease] due to human herpesvirus 6 -- **Inclusion terms:** - Roseola infantum due to human herpesvirus 6
+[B0822] Exanthema subitum [sixth disease] due to human herpesvirus 7 -- **Inclusion terms:** - Roseola infantum due to human herpesvirus 7
+[B083] Erythema infectiosum [fifth disease]
+[B084] Enteroviral vesicular stomatitis with exanthem -- **Inclusion terms:** - Hand, foot and mouth disease
+[B085] Enteroviral vesicular pharyngitis -- **Inclusion terms:** - Herpangina
+[B086] Parapoxvirus infections
+[B0860] Parapoxvirus infection, unspecified
+[B0861] Bovine stomatitis
+[B0862] Sealpox
+[B0869] Other parapoxvirus infections
+[B087] Yatapoxvirus infections
+[B0870] Yatapoxvirus infection, unspecified
+[B0871] Tanapox virus disease
+[B0872] Yaba pox virus disease -- **Inclusion terms:** - Yaba monkey tumor disease
+[B0879] Other yatapoxvirus infections
+[B088] Other specified viral infections characterized by skin and mucous membrane lesions -- **Inclusion terms:** - Enteroviral lymphonodular pharyngitis - Foot-and-mouth disease - Poxvirus NEC
+[B09] Unspecified viral infection characterized by skin and mucous membrane lesions -- **Inclusion terms:** - Viral enanthema NOS - Viral exanthema NOS
+[B10] Other human herpesviruses -- **Excludes2:** - cytomegalovirus (B25.9) - Epstein-Barr virus (B27.0-) - herpes NOS (B00.9) - herpes simplex (B00.-) - herpes zoster (B02.-) - human herpesvirus NOS (B00.-) - human herpesvirus 1 and 2 (B00.-) - human herpesvirus 3 (B01.-, B02.-) - human herpesvirus 4 (B27.0-) - human herpesvirus 5 (B25.-) - varicella (B01.-) - zoster (B02.-)
+[B100] Other human herpesvirus encephalitis -- **Excludes2:** - herpes encephalitis NOS (B00.4) - herpes simplex encephalitis (B00.4) - human herpesvirus encephalitis (B00.4) - simian B herpes virus encephalitis (B00.4)
+[B1001] Human herpesvirus 6 encephalitis
+[B1009] Other human herpesvirus encephalitis -- **Inclusion terms:** - Human herpesvirus 7 encephalitis
+[B108] Other human herpesvirus infection
+[B1081] Human herpesvirus 6 infection
+[B1082] Human herpesvirus 7 infection
+[B1089] Other human herpesvirus infection -- **Inclusion terms:** - Human herpesvirus 8 infection - Kaposi's sarcoma-associated herpesvirus infection
+[B15] Acute hepatitis A
+[B150] Hepatitis A with hepatic coma
+[B159] Hepatitis A without hepatic coma -- **Inclusion terms:** - Hepatitis A (acute)(viral) NOS
+[B16] Acute hepatitis B
+[B160] Acute hepatitis B with delta-agent with hepatic coma
+[B161] Acute hepatitis B with delta-agent without hepatic coma
+[B162] Acute hepatitis B without delta-agent with hepatic coma
+[B169] Acute hepatitis B without delta-agent and without hepatic coma -- **Inclusion terms:** - Hepatitis B (acute) (viral) NOS
+[B17] Other acute viral hepatitis
+[B170] Acute delta-(super) infection of hepatitis B carrier
+[B171] Acute hepatitis C
+[B1710] Acute hepatitis C without hepatic coma -- **Inclusion terms:** - Acute hepatitis C NOS
+[B1711] Acute hepatitis C with hepatic coma
+[B172] Acute hepatitis E
+[B178] Other specified acute viral hepatitis -- **Inclusion terms:** - Hepatitis non-A non-B (acute) (viral) NEC
+[B179] Acute viral hepatitis, unspecified -- **Inclusion terms:** - Acute hepatitis NOS - Acute infectious hepatitis NOS
+[B18] Chronic viral hepatitis -- **Includes:** - Carrier of viral hepatitis
+[B180] Chronic viral hepatitis B with delta-agent
+[B181] Chronic viral hepatitis B without delta-agent -- **Inclusion terms:** - Carrier of viral hepatitis B - Chronic (viral) hepatitis B
+[B182] Chronic viral hepatitis C -- **Inclusion terms:** - Carrier of viral hepatitis C
+[B188] Other chronic viral hepatitis -- **Inclusion terms:** - Carrier of other viral hepatitis
+[B189] Chronic viral hepatitis, unspecified -- **Inclusion terms:** - Carrier of unspecified viral hepatitis
+[B19] Unspecified viral hepatitis
+[B190] Unspecified viral hepatitis with hepatic coma
+[B191] Unspecified viral hepatitis B
+[B1910] Unspecified viral hepatitis B without hepatic coma -- **Inclusion terms:** - Unspecified viral hepatitis B NOS
+[B1911] Unspecified viral hepatitis B with hepatic coma
+[B192] Unspecified viral hepatitis C
+[B1920] Unspecified viral hepatitis C without hepatic coma -- **Inclusion terms:** - Viral hepatitis C NOS
+[B1921] Unspecified viral hepatitis C with hepatic coma
+[B199] Unspecified viral hepatitis without hepatic coma -- **Inclusion terms:** - Viral hepatitis NOS
+[B20] Human immunodeficiency virus [HIV] disease -- **Includes:** - acquired immune deficiency syndrome [AIDS] - AIDS-related complex [ARC] - HIV infection, symptomatic  **Excludes1:** - asymptomatic human immunodeficiency virus [HIV] infection status (Z21) - exposure to HIV virus (Z20.6) - inconclusive serologic evidence of HIV (R75)  **Code first:** - Human immunodeficiency virus [HIV] disease complicating pregnancy, childbirth and the puerperium, if applicable (O98.7-)  **Use additional code:** - code(s) to identify all manifestations of HIV infection
+[B25] Cytomegaloviral disease -- **Excludes1:** - congenital cytomegalovirus infection (P35.1) - cytomegaloviral mononucleosis (B27.1-)
+[B250] Cytomegaloviral pneumonitis
+[B251] Cytomegaloviral hepatitis
+[B252] Cytomegaloviral pancreatitis
+[B258] Other cytomegaloviral diseases -- **Inclusion terms:** - Cytomegaloviral encephalitis
+[B259] Cytomegaloviral disease, unspecified
+[B26] Mumps -- **Includes:** - epidemic parotitis - infectious parotitis
+[B260] Mumps orchitis
+[B261] Mumps meningitis
+[B262] Mumps encephalitis
+[B263] Mumps pancreatitis
+[B268] Mumps with other complications
+[B2681] Mumps hepatitis
+[B2682] Mumps myocarditis
+[B2683] Mumps nephritis
+[B2684] Mumps polyneuropathy
+[B2685] Mumps arthritis
+[B2689] Other mumps complications
+[B269] Mumps without complication -- **Inclusion terms:** - Mumps NOS - Mumps parotitis NOS
+[B27] Infectious mononucleosis -- **Includes:** - glandular fever - monocytic angina - Pfeiffer's disease
+[B270] Gammaherpesviral mononucleosis -- **Inclusion terms:** - Mononucleosis due to Epstein-Barr virus
+[B2700] Gammaherpesviral mononucleosis without complication
+[B2701] Gammaherpesviral mononucleosis with polyneuropathy
+[B2702] Gammaherpesviral mononucleosis with meningitis
+[B2709] Gammaherpesviral mononucleosis with other complications -- **Inclusion terms:** - Hepatomegaly in gammaherpesviral mononucleosis
+[B271] Cytomegaloviral mononucleosis
+[B2710] Cytomegaloviral mononucleosis without complications
+[B2711] Cytomegaloviral mononucleosis with polyneuropathy
+[B2712] Cytomegaloviral mononucleosis with meningitis
+[B2719] Cytomegaloviral mononucleosis with other complication -- **Inclusion terms:** - Hepatomegaly in cytomegaloviral mononucleosis
+[B278] Other infectious mononucleosis
+[B2780] Other infectious mononucleosis without complication
+[B2781] Other infectious mononucleosis with polyneuropathy
+[B2782] Other infectious mononucleosis with meningitis
+[B2789] Other infectious mononucleosis with other complication -- **Inclusion terms:** - Hepatomegaly in other infectious mononucleosis
+[B279] Infectious mononucleosis, unspecified
+[B2790] Infectious mononucleosis, unspecified without complication
+[B2791] Infectious mononucleosis, unspecified with polyneuropathy
+[B2792] Infectious mononucleosis, unspecified with meningitis
+[B2799] Infectious mononucleosis, unspecified with other complication -- **Inclusion terms:** - Hepatomegaly in unspecified infectious mononucleosis
+[B30] Viral conjunctivitis -- **Excludes1:** - herpesviral [herpes simplex] ocular disease (B00.5) - ocular zoster (B02.3)
+[B300] Keratoconjunctivitis due to adenovirus -- **Inclusion terms:** - Epidemic keratoconjunctivitis - Shipyard eye
+[B301] Conjunctivitis due to adenovirus -- **Inclusion terms:** - Acute adenoviral follicular conjunctivitis - Swimming-pool conjunctivitis
+[B302] Viral pharyngoconjunctivitis
+[B303] Acute epidemic hemorrhagic conjunctivitis (enteroviral) -- **Inclusion terms:** - Conjunctivitis due to coxsackievirus 24 - Conjunctivitis due to enterovirus 70 - Hemorrhagic conjunctivitis (acute)(epidemic)
+[B308] Other viral conjunctivitis -- **Inclusion terms:** - Newcastle conjunctivitis
+[B309] Viral conjunctivitis, unspecified
+[B33] Other viral diseases, not elsewhere classified
+[B330] Epidemic myalgia -- **Inclusion terms:** - Bornholm disease
+[B331] Ross River disease -- **Inclusion terms:** - Epidemic polyarthritis and exanthema - Ross River fever
+[B332] Viral carditis -- **Inclusion terms:** - Coxsackie (virus) carditis
+[B3320] Viral carditis, unspecified
+[B3321] Viral endocarditis
+[B3322] Viral myocarditis
+[B3323] Viral pericarditis
+[B3324] Viral cardiomyopathy
+[B333] Retrovirus infections, not elsewhere classified -- **Inclusion terms:** - Retrovirus infection NOS
+[B334] Hantavirus (cardio)-pulmonary syndrome [HPS] [HCPS] -- **Inclusion terms:** - Hantavirus disease with pulmonary manifestations - Sin nombre virus disease  **Excludes1:** - hantavirus disease with renal manifestations (A98.5) - hemorrhagic fever with renal manifestations (A98.5)  **Use additional code:** - code to identify any associated acute kidney failure (N17.9)
+[B338] Other specified viral diseases -- **Excludes1:** - anogenital human papillomavirus infection (A63.0) - viral warts due to human papillomavirus infection (B07)
+[B34] Viral infection of unspecified site -- **Excludes1:** - anogenital human papillomavirus infection (A63.0) - cytomegaloviral disease NOS (B25.9) - herpesvirus [herpes simplex] infection NOS (B00.9) - retrovirus infection NOS (B33.3) - viral agents as the cause of diseases classified elsewhere (B97.-) - viral warts due to human papillomavirus infection (B07)
+[B340] Adenovirus infection, unspecified
+[B341] Enterovirus infection, unspecified -- **Inclusion terms:** - Coxsackievirus infection NOS - Echovirus infection NOS
+[B342] Coronavirus infection, unspecified -- **Excludes1:** - COVID-19 (U07.1) - pneumonia due to SARS-associated coronavirus (J12.81)
+[B343] Parvovirus infection, unspecified
+[B344] Papovavirus infection, unspecified
+[B348] Other viral infections of unspecified site
+[B349] Viral infection, unspecified -- **Inclusion terms:** - Viremia NOS
+[B35] Dermatophytosis -- **Includes:** - favus - infections due to species of Epidermophyton, Micro-sporum and Trichophyton - tinea, any type except those in B36.-
+[B350] Tinea barbae and tinea capitis -- **Inclusion terms:** - Beard ringworm - Kerion - Scalp ringworm - Sycosis, mycotic
+[B351] Tinea unguium -- **Inclusion terms:** - Dermatophytic onychia - Dermatophytosis of nail - Onychomycosis - Ringworm of nails
+[B352] Tinea manuum -- **Inclusion terms:** - Dermatophytosis of hand - Hand ringworm
+[B353] Tinea pedis -- **Inclusion terms:** - Athlete's foot - Dermatophytosis of foot - Foot ringworm
+[B354] Tinea corporis -- **Inclusion terms:** - Ringworm of the body
+[B355] Tinea imbricata -- **Inclusion terms:** - Tokelau
+[B356] Tinea cruris -- **Inclusion terms:** - Dhobi itch - Groin ringworm - Jock itch
+[B358] Other dermatophytoses -- **Inclusion terms:** - Disseminated dermatophytosis - Granulomatous dermatophytosis
+[B359] Dermatophytosis, unspecified -- **Inclusion terms:** - Ringworm NOS
+[B36] Other superficial mycoses
+[B360] Pityriasis versicolor -- **Inclusion terms:** - Tinea flava - Tinea versicolor
+[B361] Tinea nigra -- **Inclusion terms:** - Keratomycosis nigricans palmaris - Microsporosis nigra - Pityriasis nigra
+[B362] White piedra -- **Inclusion terms:** - Tinea blanca
+[B363] Black piedra
+[B368] Other specified superficial mycoses
+[B369] Superficial mycosis, unspecified
+[B37] Candidiasis -- **Includes:** - candidosis - moniliasis  **Excludes1:** - neonatal candidiasis (P37.5)
+[B370] Candidal stomatitis -- **Inclusion terms:** - Oral thrush
+[B371] Pulmonary candidiasis -- **Inclusion terms:** - Candidal bronchitis - Candidal pneumonia
+[B372] Candidiasis of skin and nail -- **Inclusion terms:** - Candidal onychia - Candidal paronychia  **Excludes2:** - diaper dermatitis (L22)
+[B373] Candidiasis of vulva and vagina -- **Inclusion terms:** - Candidal vulvovaginitis - Monilial vulvovaginitis - Vaginal thrush
+[B3731] Acute candidiasis of vulva and vagina -- **Inclusion terms:** - Candidiasis of vulva and vagina NOS
+[B3732] Chronic candidiasis of vulva and vagina -- **Inclusion terms:** - Recurrent candidiasis of vulva and vagina
+[B374] Candidiasis of other urogenital sites
+[B3741] Candidal cystitis and urethritis
+[B3742] Candidal balanitis
+[B3749] Other urogenital candidiasis -- **Inclusion terms:** - Candidal pyelonephritis
+[B375] Candidal meningitis
+[B376] Candidal endocarditis
+[B377] Candidal sepsis -- **Inclusion terms:** - Disseminated candidiasis - Systemic candidiasis
+[B378] Candidiasis of other sites
+[B3781] Candidal esophagitis
+[B3782] Candidal enteritis -- **Inclusion terms:** - Candidal proctitis
+[B3783] Candidal cheilitis
+[B3784] Candidal otitis externa
+[B3789] Other sites of candidiasis -- **Inclusion terms:** - Candidal osteomyelitis
+[B379] Candidiasis, unspecified -- **Inclusion terms:** - Thrush NOS
+[B38] Coccidioidomycosis
+[B380] Acute pulmonary coccidioidomycosis
+[B381] Chronic pulmonary coccidioidomycosis
+[B382] Pulmonary coccidioidomycosis, unspecified
+[B383] Cutaneous coccidioidomycosis
+[B384] Coccidioidomycosis meningitis
+[B387] Disseminated coccidioidomycosis -- **Inclusion terms:** - Generalized coccidioidomycosis
+[B388] Other forms of coccidioidomycosis
+[B3881] Prostatic coccidioidomycosis
+[B3889] Other forms of coccidioidomycosis
+[B389] Coccidioidomycosis, unspecified
+[B39] Histoplasmosis -- **Code first:** - associated AIDS (B20)  **Use additional code:** - code for any associated manifestations, such as: - endocarditis (I39) - meningitis (G02) - pericarditis (I32) - retinitis (H32)
+[B390] Acute pulmonary histoplasmosis capsulati
+[B391] Chronic pulmonary histoplasmosis capsulati
+[B392] Pulmonary histoplasmosis capsulati, unspecified
+[B393] Disseminated histoplasmosis capsulati -- **Inclusion terms:** - Generalized histoplasmosis capsulati
+[B394] Histoplasmosis capsulati, unspecified -- **Inclusion terms:** - American histoplasmosis
+[B395] Histoplasmosis duboisii -- **Inclusion terms:** - African histoplasmosis
+[B399] Histoplasmosis, unspecified
+[B40] Blastomycosis -- **Excludes1:** - Brazilian blastomycosis (B41.-) - keloidal blastomycosis (B48.0)
+[B400] Acute pulmonary blastomycosis
+[B401] Chronic pulmonary blastomycosis
+[B402] Pulmonary blastomycosis, unspecified
+[B403] Cutaneous blastomycosis
+[B407] Disseminated blastomycosis -- **Inclusion terms:** - Generalized blastomycosis
+[B408] Other forms of blastomycosis
+[B4081] Blastomycotic meningoencephalitis -- **Inclusion terms:** - Meningomyelitis due to blastomycosis
+[B4089] Other forms of blastomycosis
+[B409] Blastomycosis, unspecified
+[B41] Paracoccidioidomycosis -- **Includes:** - Brazilian blastomycosis - Lutz' disease
+[B410] Pulmonary paracoccidioidomycosis
+[B417] Disseminated paracoccidioidomycosis -- **Inclusion terms:** - Generalized paracoccidioidomycosis
+[B418] Other forms of paracoccidioidomycosis
+[B419] Paracoccidioidomycosis, unspecified
+[B42] Sporotrichosis
+[B420] Pulmonary sporotrichosis
+[B421] Lymphocutaneous sporotrichosis
+[B427] Disseminated sporotrichosis -- **Inclusion terms:** - Generalized sporotrichosis
+[B428] Other forms of sporotrichosis
+[B4281] Cerebral sporotrichosis -- **Inclusion terms:** - Meningitis due to sporotrichosis
+[B4282] Sporotrichosis arthritis
+[B4289] Other forms of sporotrichosis
+[B429] Sporotrichosis, unspecified
+[B43] Chromomycosis and pheomycotic abscess
+[B430] Cutaneous chromomycosis -- **Inclusion terms:** - Dermatitis verrucosa
+[B431] Pheomycotic brain abscess -- **Inclusion terms:** - Cerebral chromomycosis
+[B432] Subcutaneous pheomycotic abscess and cyst
+[B438] Other forms of chromomycosis
+[B439] Chromomycosis, unspecified
+[B44] Aspergillosis -- **Includes:** - aspergilloma
+[B440] Invasive pulmonary aspergillosis
+[B441] Other pulmonary aspergillosis
+[B442] Tonsillar aspergillosis
+[B447] Disseminated aspergillosis -- **Inclusion terms:** - Generalized aspergillosis
+[B448] Other forms of aspergillosis
+[B4481] Allergic bronchopulmonary aspergillosis
+[B4489] Other forms of aspergillosis
+[B449] Aspergillosis, unspecified
+[B45] Cryptococcosis
+[B450] Pulmonary cryptococcosis
+[B451] Cerebral cryptococcosis -- **Inclusion terms:** - Cryptococcal meningitis - Cryptococcosis meningocerebralis
+[B452] Cutaneous cryptococcosis
+[B453] Osseous cryptococcosis
+[B457] Disseminated cryptococcosis -- **Inclusion terms:** - Generalized cryptococcosis
+[B458] Other forms of cryptococcosis
+[B459] Cryptococcosis, unspecified
+[B46] Zygomycosis
+[B460] Pulmonary mucormycosis
+[B461] Rhinocerebral mucormycosis
+[B462] Gastrointestinal mucormycosis
+[B463] Cutaneous mucormycosis -- **Inclusion terms:** - Subcutaneous mucormycosis
+[B464] Disseminated mucormycosis -- **Inclusion terms:** - Generalized mucormycosis
+[B465] Mucormycosis, unspecified
+[B468] Other zygomycoses -- **Inclusion terms:** - Entomophthoromycosis
+[B469] Zygomycosis, unspecified -- **Inclusion terms:** - Phycomycosis NOS
+[B47] Mycetoma
+[B470] Eumycetoma -- **Inclusion terms:** - Madura foot, mycotic - Maduromycosis
+[B471] Actinomycetoma
+[B479] Mycetoma, unspecified -- **Inclusion terms:** - Madura foot NOS
+[B48] Other mycoses, not elsewhere classified
+[B480] Lobomycosis -- **Inclusion terms:** - Keloidal blastomycosis - Lobo's disease
+[B481] Rhinosporidiosis
+[B482] Allescheriasis -- **Inclusion terms:** - Infection due to Pseudallescheria boydii  **Excludes1:** - eumycetoma (B47.0)
+[B483] Geotrichosis -- **Inclusion terms:** - Geotrichum stomatitis
+[B484] Penicillosis -- **Inclusion terms:** - Talaromycosis
+[B488] Other specified mycoses -- **Inclusion terms:** - Adiaspiromycosis - Infection of tissue and organs by Alternaria - Infection of tissue and organs by Drechslera - Infection of tissue and organs by Fusarium - Infection of tissue and organs by saprophytic fungi NEC
+[B49] Unspecified mycosis -- **Inclusion terms:** - Fungemia NOS
+[B50] Plasmodium falciparum malaria -- **Includes:** - mixed infections of Plasmodium falciparum with any other Plasmodium species
+[B500] Plasmodium falciparum malaria with cerebral complications -- **Inclusion terms:** - Cerebral malaria NOS
+[B508] Other severe and complicated Plasmodium falciparum malaria -- **Inclusion terms:** - Severe or complicated Plasmodium falciparum malaria NOS
+[B509] Plasmodium falciparum malaria, unspecified
+[B51] Plasmodium vivax malaria -- **Includes:** - mixed infections of Plasmodium vivax with other Plasmodium species, except Plasmodium falciparum  **Excludes1:** - plasmodium vivax with Plasmodium falciparum (B50.-)
+[B510] Plasmodium vivax malaria with rupture of spleen
+[B518] Plasmodium vivax malaria with other complications
+[B519] Plasmodium vivax malaria without complication -- **Inclusion terms:** - Plasmodium vivax malaria NOS
+[B52] Plasmodium malariae malaria -- **Includes:** - mixed infections of Plasmodium malariae with other Plasmodium species, except Plasmodium falciparum and Plasmodium vivax  **Excludes1:** - Plasmodium falciparum (B50.-) - Plasmodium vivax (B51.-)
+[B520] Plasmodium malariae malaria with nephropathy
+[B528] Plasmodium malariae malaria with other complications
+[B529] Plasmodium malariae malaria without complication -- **Inclusion terms:** - Plasmodium malariae malaria NOS
+[B53] Other specified malaria
+[B530] Plasmodium ovale malaria -- **Excludes1:** - Plasmodium ovale with Plasmodium falciparum (B50.-) - Plasmodium ovale with Plasmodium malariae (B52.-) - Plasmodium ovale with Plasmodium vivax (B51.-)
+[B531] Malaria due to simian plasmodia -- **Excludes1:** - Malaria due to simian plasmodia with Plasmodium falciparum (B50.-) - Malaria due to simian plasmodia with Plasmodium malariae (B52.-) - Malaria due to simian plasmodia with Plasmodium ovale (B53.0) - Malaria due to simian plasmodia with Plasmodium vivax (B51.-)
+[B538] Other malaria, not elsewhere classified
+[B54] Unspecified malaria
+[B55] Leishmaniasis
+[B550] Visceral leishmaniasis -- **Inclusion terms:** - Kala-azar - Post-kala-azar dermal leishmaniasis
+[B551] Cutaneous leishmaniasis
+[B552] Mucocutaneous leishmaniasis
+[B559] Leishmaniasis, unspecified
+[B56] African trypanosomiasis
+[B560] Gambiense trypanosomiasis -- **Inclusion terms:** - Infection due to Trypanosoma brucei gambiense - West African sleeping sickness
+[B561] Rhodesiense trypanosomiasis -- **Inclusion terms:** - East African sleeping sickness - Infection due to Trypanosoma brucei rhodesiense
+[B569] African trypanosomiasis, unspecified -- **Inclusion terms:** - Sleeping sickness NOS
+[B57] Chagas' disease -- **Includes:** - American trypanosomiasis - infection due to Trypanosoma cruzi
+[B570] Acute Chagas' disease with heart involvement -- **Inclusion terms:** - Acute Chagas' disease with myocarditis
+[B571] Acute Chagas' disease without heart involvement -- **Inclusion terms:** - Acute Chagas' disease NOS
+[B572] Chagas' disease (chronic) with heart involvement -- **Inclusion terms:** - American trypanosomiasis NOS - Chagas' disease (chronic) NOS - Chagas' disease (chronic) with myocarditis - Trypanosomiasis NOS
+[B573] Chagas' disease (chronic) with digestive system involvement
+[B5730] Chagas' disease with digestive system involvement, unspecified
+[B5731] Megaesophagus in Chagas' disease
+[B5732] Megacolon in Chagas' disease
+[B5739] Other digestive system involvement in Chagas' disease
+[B574] Chagas' disease (chronic) with nervous system involvement
+[B5740] Chagas' disease with nervous system involvement, unspecified
+[B5741] Meningitis in Chagas' disease
+[B5742] Meningoencephalitis in Chagas' disease
+[B5749] Other nervous system involvement in Chagas' disease
+[B575] Chagas' disease (chronic) with other organ involvement
+[B58] Toxoplasmosis -- **Includes:** - infection due to Toxoplasma gondii  **Excludes1:** - congenital toxoplasmosis (P37.1)
+[B580] Toxoplasma oculopathy
+[B5800] Toxoplasma oculopathy, unspecified
+[B5801] Toxoplasma chorioretinitis
+[B5809] Other toxoplasma oculopathy -- **Inclusion terms:** - Toxoplasma uveitis
+[B581] Toxoplasma hepatitis
+[B582] Toxoplasma meningoencephalitis
+[B583] Pulmonary toxoplasmosis
+[B588] Toxoplasmosis with other organ involvement
+[B5881] Toxoplasma myocarditis
+[B5882] Toxoplasma myositis
+[B5883] Toxoplasma tubulo-interstitial nephropathy -- **Inclusion terms:** - Toxoplasma pyelonephritis
+[B5889] Toxoplasmosis with other organ involvement
+[B589] Toxoplasmosis, unspecified
+[B59] Pneumocystosis -- **Inclusion terms:** - Pneumonia due to Pneumocystis carinii - Pneumonia due to Pneumocystis jiroveci
+[B60] Other protozoal diseases, not elsewhere classified -- **Excludes1:** - cryptosporidiosis (A07.2) - intestinal microsporidiosis (A07.8) - isosporiasis (A07.3)
+[B600] Babesiosis
+[B6000] Babesiosis, unspecified -- **Inclusion terms:** - Babesiosis due to unspecified Babesia species - Piroplasmosis, unspecified
+[B6001] Babesiosis due to Babesia microti -- **Inclusion terms:** - Infection due to B. microti
+[B6002] Babesiosis due to Babesia duncani -- **Inclusion terms:** - Infection due to B. duncani and B. duncani-type species
+[B6003] Babesiosis due to Babesia divergens -- **Inclusion terms:** - Babesiosis due to Babesia MO-1 - Infection due to B. divergens and B. divergens-like strains
+[B6009] Other babesiosis -- **Inclusion terms:** - Babesiosis due to Babesia KO-1 - Babesiosis due to Babesia venatorum - Infection due to other Babesia species - Infection due to other protozoa of the order Piroplasmida - Other piroplasmosis
+[B601] Acanthamebiasis
+[B6010] Acanthamebiasis, unspecified
+[B6011] Meningoencephalitis due to Acanthamoeba (culbertsoni)
+[B6012] Conjunctivitis due to Acanthamoeba
+[B6013] Keratoconjunctivitis due to Acanthamoeba
+[B6019] Other acanthamebic disease
+[B602] Naegleriasis -- **Inclusion terms:** - Primary amebic meningoencephalitis
+[B608] Other specified protozoal diseases -- **Inclusion terms:** - Microsporidiosis
+[B64] Unspecified protozoal disease
+[B65] Schistosomiasis [bilharziasis] -- **Includes:** - snail fever
+[B650] Schistosomiasis due to Schistosoma haematobium [urinary schistosomiasis]
+[B651] Schistosomiasis due to Schistosoma mansoni [intestinal schistosomiasis]
+[B652] Schistosomiasis due to Schistosoma japonicum -- **Inclusion terms:** - Asiatic schistosomiasis
+[B653] Cercarial dermatitis -- **Inclusion terms:** - Swimmer's itch
+[B658] Other schistosomiasis -- **Inclusion terms:** - Infection due to Schistosoma intercalatum - Infection due to Schistosoma mattheei - Infection due to Schistosoma mekongi
+[B659] Schistosomiasis, unspecified
+[B66] Other fluke infections
+[B660] Opisthorchiasis -- **Inclusion terms:** - Infection due to cat liver fluke - Infection due to Opisthorchis (felineus)(viverrini)
+[B661] Clonorchiasis -- **Inclusion terms:** - Chinese liver fluke disease - Infection due to Clonorchis sinensis - Oriental liver fluke disease
+[B662] Dicroceliasis -- **Inclusion terms:** - Infection due to Dicrocoelium dendriticum - Lancet fluke infection
+[B663] Fascioliasis -- **Inclusion terms:** - Infection due to Fasciola gigantica - Infection due to Fasciola hepatica - Infection due to Fasciola indica - Sheep liver fluke disease
+[B664] Paragonimiasis -- **Inclusion terms:** - Infection due to Paragonimus species - Lung fluke disease - Pulmonary distomiasis
+[B665] Fasciolopsiasis -- **Inclusion terms:** - Infection due to Fasciolopsis buski - Intestinal distomiasis
+[B668] Other specified fluke infections -- **Inclusion terms:** - Echinostomiasis - Heterophyiasis - Metagonimiasis - Nanophyetiasis - Watsoniasis
+[B669] Fluke infection, unspecified
+[B67] Echinococcosis -- **Includes:** - hydatidosis
+[B670] Echinococcus granulosus infection of liver
+[B671] Echinococcus granulosus infection of lung
+[B672] Echinococcus granulosus infection of bone
+[B673] Echinococcus granulosus infection, other and multiple sites
+[B6731] Echinococcus granulosus infection, thyroid gland
+[B6732] Echinococcus granulosus infection, multiple sites
+[B6739] Echinococcus granulosus infection, other sites
+[B674] Echinococcus granulosus infection, unspecified -- **Inclusion terms:** - Dog tapeworm (infection)
+[B675] Echinococcus multilocularis infection of liver
+[B676] Echinococcus multilocularis infection, other and multiple sites
+[B6761] Echinococcus multilocularis infection, multiple sites
+[B6769] Echinococcus multilocularis infection, other sites
+[B677] Echinococcus multilocularis infection, unspecified
+[B678] Echinococcosis, unspecified, of liver
+[B679] Echinococcosis, other and unspecified
+[B6790] Echinococcosis, unspecified -- **Inclusion terms:** - Echinococcosis NOS
+[B6799] Other echinococcosis
+[B68] Taeniasis -- **Excludes1:** - cysticercosis (B69.-)
+[B680] Taenia solium taeniasis -- **Inclusion terms:** - Pork tapeworm (infection)
+[B681] Taenia saginata taeniasis -- **Inclusion terms:** - Beef tapeworm (infection) - Infection due to adult tapeworm Taenia saginata
+[B689] Taeniasis, unspecified
+[B69] Cysticercosis -- **Includes:** - cysticerciasis infection due to larval form of Taenia solium
+[B690] Cysticercosis of central nervous system
+[B691] Cysticercosis of eye
+[B698] Cysticercosis of other sites
+[B6981] Myositis in cysticercosis
+[B6989] Cysticercosis of other sites
+[B699] Cysticercosis, unspecified
+[B70] Diphyllobothriasis and sparganosis
+[B700] Diphyllobothriasis -- **Inclusion terms:** - Diphyllobothrium (adult) (latum) (pacificum) infection - Fish tapeworm (infection)  **Excludes2:** - larval diphyllobothriasis (B70.1)
+[B701] Sparganosis -- **Inclusion terms:** - Infection due to Sparganum (mansoni) (proliferum) - Infection due to Spirometra larva - Larval diphyllobothriasis - Spirometrosis
+[B71] Other cestode infections
+[B710] Hymenolepiasis -- **Inclusion terms:** - Dwarf tapeworm infection - Rat tapeworm (infection)
+[B711] Dipylidiasis
+[B718] Other specified cestode infections -- **Inclusion terms:** - Coenurosis
+[B719] Cestode infection, unspecified -- **Inclusion terms:** - Tapeworm (infection) NOS
+[B72] Dracunculiasis -- **Includes:** - guinea worm infection - infection due to Dracunculus medinensis
+[B73] Onchocerciasis -- **Includes:** - onchocerca volvulus infection - onchocercosis - river blindness
+[B730] Onchocerciasis with eye disease
+[B7300] Onchocerciasis with eye involvement, unspecified
+[B7301] Onchocerciasis with endophthalmitis
+[B7302] Onchocerciasis with glaucoma
+[B7309] Onchocerciasis with other eye involvement -- **Inclusion terms:** - Infestation of eyelid due to onchocerciasis
+[B731] Onchocerciasis without eye disease
+[B74] Filariasis -- **Excludes2:** - onchocerciasis (B73) - tropical (pulmonary) eosinophilia NOS (J82.89)
+[B740] Filariasis due to Wuchereria bancrofti -- **Inclusion terms:** - Bancroftian elephantiasis - Bancroftian filariasis
+[B741] Filariasis due to Brugia malayi
+[B742] Filariasis due to Brugia timori
+[B743] Loiasis -- **Inclusion terms:** - Calabar swelling - Eyeworm disease of Africa - Loa loa infection
+[B744] Mansonelliasis -- **Inclusion terms:** - Infection due to Mansonella ozzardi - Infection due to Mansonella perstans - Infection due to Mansonella streptocerca
+[B748] Other filariases -- **Inclusion terms:** - Dirofilariasis
+[B749] Filariasis, unspecified
+[B75] Trichinellosis -- **Includes:** - infection due to Trichinella species - trichiniasis
+[B76] Hookworm diseases -- **Includes:** - uncinariasis
+[B760] Ancylostomiasis -- **Inclusion terms:** - Infection due to Ancylostoma species
+[B761] Necatoriasis -- **Inclusion terms:** - Infection due to Necator americanus
+[B768] Other hookworm diseases
+[B769] Hookworm disease, unspecified -- **Inclusion terms:** - Cutaneous larva migrans NOS
+[B77] Ascariasis -- **Includes:** - ascaridiasis - roundworm infection
+[B770] Ascariasis with intestinal complications
+[B778] Ascariasis with other complications
+[B7781] Ascariasis pneumonia
+[B7789] Ascariasis with other complications
+[B779] Ascariasis, unspecified
+[B78] Strongyloidiasis -- **Excludes1:** - trichostrongyliasis (B81.2)
+[B780] Intestinal strongyloidiasis
+[B781] Cutaneous strongyloidiasis
+[B787] Disseminated strongyloidiasis
+[B789] Strongyloidiasis, unspecified
+[B79] Trichuriasis -- **Includes:** - trichocephaliasis - whipworm (disease)(infection)
+[B80] Enterobiasis -- **Includes:** - oxyuriasis - pinworm infection - threadworm infection
+[B81] Other intestinal helminthiases, not elsewhere classified -- **Excludes1:** - angiostrongyliasis due to: - Angiostrongylus cantonensis (B83.2) - Parastrongylus cantonensis (B83.2)
+[B810] Anisakiasis -- **Inclusion terms:** - Infection due to Anisakis larva
+[B811] Intestinal capillariasis -- **Inclusion terms:** - Capillariasis NOS - Infection due to Capillaria philippinensis  **Excludes2:** - hepatic capillariasis (B83.8)
+[B812] Trichostrongyliasis
+[B813] Intestinal angiostrongyliasis -- **Inclusion terms:** - Angiostrongyliasis due to: - Angiostrongylus costaricensis - Parastrongylus costaricensis
+[B814] Mixed intestinal helminthiases -- **Inclusion terms:** - Infection due to intestinal helminths classified to more than one of the categories B65.0-B81.3 and B81.8 - Mixed helminthiasis NOS
+[B818] Other specified intestinal helminthiases -- **Inclusion terms:** - Infection due to Oesophagostomum species [esophagostomiasis] - Infection due to Ternidens diminutus [ternidensiasis]
+[B82] Unspecified intestinal parasitism
+[B820] Intestinal helminthiasis, unspecified
+[B829] Intestinal parasitism, unspecified
+[B83] Other helminthiases -- **Excludes1:** - capillariasis NOS (B81.1)  **Excludes2:** - intestinal capillariasis (B81.1)
+[B830] Visceral larva migrans -- **Inclusion terms:** - Toxocariasis
+[B831] Gnathostomiasis -- **Inclusion terms:** - Wandering swelling
+[B832] Angiostrongyliasis due to Parastrongylus cantonensis -- **Inclusion terms:** - Eosinophilic meningoencephalitis due to Parastrongylus cantonensis  **Excludes2:** - intestinal angiostrongyliasis (B81.3)
+[B833] Syngamiasis -- **Inclusion terms:** - Syngamosis
+[B834] Internal hirudiniasis -- **Excludes2:** - external hirudiniasis (B88.3)
+[B838] Other specified helminthiases -- **Inclusion terms:** - Acanthocephaliasis - Gongylonemiasis - Hepatic capillariasis - Metastrongyliasis - Thelaziasis
+[B839] Helminthiasis, unspecified -- **Inclusion terms:** - Worms NOS  **Excludes1:** - intestinal helminthiasis NOS (B82.0)
+[B85] Pediculosis and phthiriasis
+[B850] Pediculosis due to Pediculus humanus capitis -- **Inclusion terms:** - Head-louse infestation
+[B851] Pediculosis due to Pediculus humanus corporis -- **Inclusion terms:** - Body-louse infestation
+[B852] Pediculosis, unspecified
+[B853] Phthiriasis -- **Inclusion terms:** - Infestation by crab-louse - Infestation by Phthirus pubis
+[B854] Mixed pediculosis and phthiriasis -- **Inclusion terms:** - Infestation classifiable to more than one of the categories B85.0-B85.3
+[B86] Scabies -- **Inclusion terms:** - Sarcoptic itch
+[B87] Myiasis -- **Includes:** - infestation by larva of flies
+[B870] Cutaneous myiasis -- **Inclusion terms:** - Creeping myiasis
+[B871] Wound myiasis -- **Inclusion terms:** - Traumatic myiasis
+[B872] Ocular myiasis
+[B873] Nasopharyngeal myiasis -- **Inclusion terms:** - Laryngeal myiasis
+[B874] Aural myiasis
+[B878] Myiasis of other sites
+[B8781] Genitourinary myiasis
+[B8782] Intestinal myiasis
+[B8789] Myiasis of other sites
+[B879] Myiasis, unspecified
+[B88] Other infestations
+[B880] Other acariasis -- **Inclusion terms:** - Acarine dermatitis - Dermatitis due to Demodex species - Dermatitis due to Dermanyssus gallinae - Dermatitis due to Liponyssoides sanguineus - Trombiculosis  **Excludes2:** - scabies (B86)
+[B881] Tungiasis [sandflea infestation]
+[B882] Other arthropod infestations -- **Inclusion terms:** - Scarabiasis
+[B883] External hirudiniasis -- **Inclusion terms:** - Leech infestation NOS  **Excludes2:** - internal hirudiniasis (B83.4)
+[B888] Other specified infestations -- **Inclusion terms:** - Ichthyoparasitism due to Vandellia cirrhosa - Linguatulosis - Porocephaliasis
+[B889] Infestation, unspecified -- **Inclusion terms:** - Infestation (skin) NOS - Infestation by mites NOS - Skin parasites NOS
+[B89] Unspecified parasitic disease
+[B90] Sequelae of tuberculosis
+[B900] Sequelae of central nervous system tuberculosis
+[B901] Sequelae of genitourinary tuberculosis
+[B902] Sequelae of tuberculosis of bones and joints
+[B908] Sequelae of tuberculosis of other organs -- **Excludes2:** - sequelae of respiratory tuberculosis (B90.9)
+[B909] Sequelae of respiratory and unspecified tuberculosis -- **Inclusion terms:** - Sequelae of tuberculosis NOS
+[B91] Sequelae of poliomyelitis -- **Excludes1:** - postpolio syndrome (G14)
+[B92] Sequelae of leprosy
+[B94] Sequelae of other and unspecified infectious and parasitic diseases
+[B940] Sequelae of trachoma
+[B941] Sequelae of viral encephalitis
+[B942] Sequelae of viral hepatitis
+[B948] Sequelae of other specified infectious and parasitic diseases
+[B949] Sequelae of unspecified infectious and parasitic disease -- **Excludes2:** - post COVID-19 condition (U09.9)
+[B95] Streptococcus, Staphylococcus, and Enterococcus as the cause of diseases classified elsewhere
+[B950] Streptococcus, group A, as the cause of diseases classified elsewhere
+[B951] Streptococcus, group B, as the cause of diseases classified elsewhere
+[B952] Enterococcus as the cause of diseases classified elsewhere
+[B953] Streptococcus pneumoniae as the cause of diseases classified elsewhere
+[B954] Other streptococcus as the cause of diseases classified elsewhere
+[B955] Unspecified streptococcus as the cause of diseases classified elsewhere
+[B956] Staphylococcus aureus as the cause of diseases classified elsewhere
+[B9561] Methicillin susceptible Staphylococcus aureus infection as the cause of diseases classified elsewhere -- **Inclusion terms:** - Methicillin susceptible Staphylococcus aureus (MSSA) infection as the cause of diseases classified elsewhere - Staphylococcus aureus infection NOS as the cause of diseases classified elsewhere
+[B9562] Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere -- **Inclusion terms:** - Methicillin resistant staphylococcus aureus (MRSA) infection as the cause of diseases classified elsewhere
+[B957] Other staphylococcus as the cause of diseases classified elsewhere
+[B958] Unspecified staphylococcus as the cause of diseases classified elsewhere
+[B96] Other bacterial agents as the cause of diseases classified elsewhere
+[B960] Mycoplasma pneumoniae [M. pneumoniae] as the cause of diseases classified elsewhere -- **Inclusion terms:** - Pleuro-pneumonia-like-organism [PPLO]
+[B961] Klebsiella pneumoniae [K. pneumoniae] as the cause of diseases classified elsewhere
+[B962] Escherichia coli [E. coli ] as the cause of diseases classified elsewhere
+[B9620] Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere -- **Inclusion terms:** - Escherichia coli [E. coli] NOS
+[B9621] Shiga toxin-producing Escherichia coli [E. coli] [STEC] O157 as the cause of diseases classified elsewhere -- **Inclusion terms:** - E. coli O157:H- (nonmotile) with confirmation of Shiga toxin - E. coli O157 with confirmation of Shiga toxin when H antigen is unknown, or is not H7 - O157:H7 Escherichia coli [E.coli] with or without confirmation of Shiga toxin-production - Shiga toxin-producing Escherichia coli [E.coli] O157:H7 with or without confirmation of Shiga toxin-production - STEC O157:H7 with or without confirmation of Shiga toxin-production
+[B9622] Other specified Shiga toxin-producing Escherichia coli [E. coli] [STEC] as the cause of diseases classified elsewhere -- **Inclusion terms:** - Non-O157 Shiga toxin-producing Escherichia coli [E.coli] - Non-O157 Shiga toxin-producing Escherichia coli [E.coli] with known O group
+[B9623] Unspecified Shiga toxin-producing Escherichia coli [E. coli] [STEC] as the cause of diseases classified elsewhere -- **Inclusion terms:** - Shiga toxin-producing Escherichia coli [E. coli] with unspecified O group - STEC NOS
+[B9629] Other Escherichia coli [E. coli] as the cause of diseases classified elsewhere -- **Inclusion terms:** - Non-Shiga toxin-producing E. coli
+[B963] Hemophilus influenzae [H. influenzae] as the cause of diseases classified elsewhere
+[B964] Proteus (mirabilis) (morganii) as the cause of diseases classified elsewhere
+[B965] Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere
+[B966] Bacteroides fragilis [B. fragilis] as the cause of diseases classified elsewhere
+[B967] Clostridium perfringens [C. perfringens] as the cause of diseases classified elsewhere
+[B968] Other specified bacterial agents as the cause of diseases classified elsewhere
+[B9681] Helicobacter pylori [H. pylori] as the cause of diseases classified elsewhere
+[B9682] Vibrio vulnificus as the cause of diseases classified elsewhere
+[B9683] Acinetobacter baumannii as the cause of diseases classified elsewhere
+[B9689] Other specified bacterial agents as the cause of diseases classified elsewhere
+[B97] Viral agents as the cause of diseases classified elsewhere
+[B970] Adenovirus as the cause of diseases classified elsewhere
+[B971] Enterovirus as the cause of diseases classified elsewhere
+[B9710] Unspecified enterovirus as the cause of diseases classified elsewhere
+[B9711] Coxsackievirus as the cause of diseases classified elsewhere
+[B9712] Echovirus as the cause of diseases classified elsewhere
+[B9719] Other enterovirus as the cause of diseases classified elsewhere
+[B972] Coronavirus as the cause of diseases classified elsewhere
+[B9721] SARS-associated coronavirus as the cause of diseases classified elsewhere -- **Excludes1:** - pneumonia due to SARS-associated coronavirus (J12.81)
+[B9729] Other coronavirus as the cause of diseases classified elsewhere
+[B973] Retrovirus as the cause of diseases classified elsewhere -- **Excludes1:** - Human immunodeficiency virus [HIV] disease (B20)
+[B9730] Unspecified retrovirus as the cause of diseases classified elsewhere
+[B9731] Lentivirus as the cause of diseases classified elsewhere
+[B9732] Oncovirus as the cause of diseases classified elsewhere
+[B9733] Human T-cell lymphotrophic virus, type I [HTLV-I] as the cause of diseases classified elsewhere
+[B9734] Human T-cell lymphotrophic virus, type II [HTLV-II] as the cause of diseases classified elsewhere
+[B9735] Human immunodeficiency virus, type 2 [HIV 2] as the cause of diseases classified elsewhere
+[B9739] Other retrovirus as the cause of diseases classified elsewhere
+[B974] Respiratory syncytial virus as the cause of diseases classified elsewhere -- **Inclusion terms:** - RSV as the cause of diseases classified elsewhere  **Excludes1:** - acute bronchiolitis due to respiratory syncytial virus (RSV) (J21.0) - acute bronchitis due to respiratory syncytial virus (RSV) (J20.5) - respiratory syncytial virus (RSV) pneumonia (J12.1)  **Code first:** - related disorders, such as: - otitis media (H65.-) - upper respiratory infection (J06.9)
+[B975] Reovirus as the cause of diseases classified elsewhere
+[B976] Parvovirus as the cause of diseases classified elsewhere
+[B977] Papillomavirus as the cause of diseases classified elsewhere
+[B978] Other viral agents as the cause of diseases classified elsewhere
+[B9781] Human metapneumovirus as the cause of diseases classified elsewhere
+[B9789] Other viral agents as the cause of diseases classified elsewhere
+[B99] Other and unspecified infectious diseases
+[B998] Other infectious disease
+[B999] Unspecified infectious disease

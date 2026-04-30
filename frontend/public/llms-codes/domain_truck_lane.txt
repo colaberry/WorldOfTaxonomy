@@ -1,0 +1,34 @@
+[dtl_border] Cross-Border and International :: naics_2022:484
+[dtl_border_ftz] Free Trade Zone / Foreign Trade Zone (FTZ) Lane
+[dtl_border_transship] International Transshipment / NVOCC Drayage
+[dtl_border_us_ca] US-Canada Cross-Border (USMCA, CBSA clearance)
+[dtl_border_us_mx] US-Mexico Cross-Border (USMCA, Drayage at POE)
+[dtl_density] Lane Market Density :: naics_2022:484
+[dtl_density_backhaul] Backhaul Lane (return trip, soft rates, low demand)
+[dtl_density_headhaul] Headhaul Lane (outbound, tight capacity, strong rates)
+[dtl_density_high] High-Density Lane (many carriers, competitive spot market)
+[dtl_density_low] Low-Density / Capacity-Constrained Lane
+[dtl_density_medium] Medium-Density Lane (moderate carrier availability)
+[dtl_dist] Haul Distance Classification :: naics_2022:484
+[dtl_dist_local] Local (under 50 miles / same metro area)
+[dtl_dist_longhaul] Long Haul (500-1,500 miles)
+[dtl_dist_otr] Over-the-Road OTR (1,500+ miles, sleeper cab)
+[dtl_dist_regional] Regional (250-500 miles, day cab territory)
+[dtl_dist_short] Short Haul (50-250 miles)
+[dtl_geo] Geographic Corridor :: naics_2022:484
+[dtl_geo_appalachian] Appalachian / Mid-South (WV, KY, TN, AR)
+[dtl_geo_ca] California / West Coast (CARB regulatory zone)
+[dtl_geo_central] Central Plains (Grain Belt: KS, NE, IA, MN)
+[dtl_geo_intercoastal] Intercoastal Transcontinental (East-West I-80/I-90)
+[dtl_geo_mw] Midwest (Chicago hub, Great Lakes, Ohio Valley)
+[dtl_geo_ne] Northeast Corridor (BOS-NYC-PHL-DC-BAL)
+[dtl_geo_nw] Northwest / Pacific Northwest (PNW, ID, MT)
+[dtl_geo_se] Southeast (ATL-MIA-CHA-RIC hub region)
+[dtl_geo_sw] Southwest (TX, AZ, NM, OK)
+[dtl_lastmile] Last Mile / Final Delivery Classification :: naics_2022:484
+[dtl_lastmile_commercial] Commercial Delivery (dock, forklift, scheduled)
+[dtl_lastmile_ondemand] On-Demand / Same-Day Delivery (e-commerce, hot shot)
+[dtl_lastmile_resi] Residential Delivery (home / apartment delivery)
+[dtl_lastmile_rural] Rural Last Mile (low-density, extended reach)
+[dtl_lastmile_suburban] Suburban Last Mile (residential neighborhoods)
+[dtl_lastmile_urban] Urban Last Mile (dense city center, stop-heavy)

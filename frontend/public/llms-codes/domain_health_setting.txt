@@ -1,0 +1,24 @@
+[dhs_beh] Behavioral Health Settings :: naics_2022:6221, naics_2022:6222
+[dhs_beh_crisis] Crisis Stabilization Unit (CSU, 23-hour)
+[dhs_beh_inpt] Inpatient Psychiatric Hospital (IPF)
+[dhs_beh_outpt] Outpatient Mental Health and SUD Clinic
+[dhs_inpt] Inpatient Care Settings :: naics_2022:6221, naics_2022:6222
+[dhs_inpt_acute] Acute Care Hospital (general medical/surgical)
+[dhs_inpt_icu] Intensive Care Unit (ICU, CCU, NICU)
+[dhs_inpt_rehab] Inpatient Rehabilitation Hospital (IRF)
+[dhs_inpt_surg] Inpatient Surgical (OR, PACU)
+[dhs_outpt] Outpatient Care Settings :: naics_2022:6221, naics_2022:6222
+[dhs_outpt_asc] Ambulatory Surgery Center (ASC)
+[dhs_outpt_clinic] Outpatient Clinic and Health Center (FQHC)
+[dhs_outpt_diag] Diagnostic Center (imaging, lab, radiology)
+[dhs_outpt_phys] Physician Office and Medical Practice
+[dhs_outpt_urgent] Urgent Care Center (walk-in clinic)
+[dhs_post] Post-Acute Care Settings :: naics_2022:6221, naics_2022:6222
+[dhs_post_home] Home Health Agency (HHA, home visits)
+[dhs_post_hospice] Hospice Care (palliative, end-of-life)
+[dhs_post_ltach] Long-Term Acute Care Hospital (LTACH)
+[dhs_post_snf] Skilled Nursing Facility (SNF, nursing home)
+[dhs_tele] Telehealth and Virtual Care :: naics_2022:6221, naics_2022:6222
+[dhs_tele_async] Asynchronous (store-and-forward, e-consult)
+[dhs_tele_rpm] Remote Patient Monitoring (RPM, wearables)
+[dhs_tele_sync] Synchronous Telehealth (live video visit)

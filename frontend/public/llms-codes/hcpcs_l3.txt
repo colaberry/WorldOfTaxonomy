@@ -1,0 +1,13 @@
+[H3] HCPCS L3 Categories
+[H3.01] Local Carrier Codes
+[H3.02] DME Regional Codes
+[H3.03] State-Specific Modifier Codes
+[H3.04] Home Health Codes
+[H3.05] Rehabilitation Codes
+[H3.06] Mental Health Local Codes
+[H3.07] Dental Local Codes
+[H3.08] Vision Local Codes
+[H3.09] Telehealth Local Codes
+[H3.10] Laboratory Local Codes
+[H3.11] Radiology Local Codes
+[H3.12] Anesthesia Local Codes

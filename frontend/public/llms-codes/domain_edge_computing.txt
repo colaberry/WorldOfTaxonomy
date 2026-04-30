@@ -1,0 +1,17 @@
+[ec_infra] Infrastructure :: naics_2022:5419
+[ec_infra_5g] 5G edge node
+[ec_infra_k8s] Edge Kubernetes (K3s, KubeEdge)
+[ec_infra_mec] Multi-access edge computing (MEC)
+[ec_infra_micro] Micro data center
+[ec_type] Edge Types :: naics_2022:5419
+[ec_type_cloud] Cloud edge (cloud region extension)
+[ec_type_device] Device edge (on-device AI/ML)
+[ec_type_far] Far edge (telco edge, CDN pop)
+[ec_type_near] Near edge (on-premises, gateway)
+[ec_use] Use Cases :: naics_2022:5419
+[ec_use_ar] AR/VR low-latency rendering
+[ec_use_auto] Autonomous vehicle computing
+[ec_use_health] Healthcare edge (bedside computing)
+[ec_use_iot] IoT data processing and filtering
+[ec_use_retail] Retail edge (POS, inventory, checkout)
+[ec_use_video] Video analytics and surveillance

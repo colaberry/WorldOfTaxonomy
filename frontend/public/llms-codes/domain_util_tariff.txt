@@ -1,0 +1,26 @@
+[dut_comm] Commercial and Industrial Tariffs :: naics_2022:2211, naics_2022:2213
+[dut_comm_demand] Demand Charge Tariff ($/kW measured peak demand)
+[dut_comm_economic] Economic Development / Large Load Attraction Rate
+[dut_comm_interruptible] Interruptible Service Rate (curtailable load)
+[dut_comm_rtp] Real-Time Pricing (industrial, hourly wholesale pass-through)
+[dut_comm_tou] Commercial TOU with Demand and Energy Components
+[dut_nem] Distributed Generation and Net Metering :: naics_2022:2211, naics_2022:2213
+[dut_nem_1] Net Energy Metering 1.0 (retail rate credit)
+[dut_nem_2] Net Billing Tariff (export at avoided cost)
+[dut_nem_fita] Feed-In Tariff (FIT) - Guaranteed export rate
+[dut_nem_vnem] Virtual Net Metering (shared solar, community)
+[dut_res] Residential Rate Structures :: naics_2022:2211, naics_2022:2213
+[dut_res_budget] Budget Billing and Levelized Payment Plan
+[dut_res_cpp] Critical Peak Pricing (CPP) Rate
+[dut_res_flat] Flat / Tiered Energy Rate (cents per kWh)
+[dut_res_tou] Time-of-Use (TOU) Rate (peak/off-peak periods)
+[dut_special] Special Purpose and Incentive Tariffs :: naics_2022:2211, naics_2022:2213
+[dut_special_dr] Demand Response Program Incentive Rate
+[dut_special_ev] EV Charging Rate (time-of-use for transportation)
+[dut_special_green] Green Tariff / Renewable Energy Tariff (REAT)
+[dut_special_lics] Low-Income Customer Assistance Program (CARE, FERA)
+[dut_wholesale] Wholesale and Market-Based Rates :: naics_2022:2211, naics_2022:2213
+[dut_wholesale_ancillary] Ancillary Services Market (spinning reserve, regulation)
+[dut_wholesale_capacity] Capacity Market Payment (ISO-NE, PJM, MISO)
+[dut_wholesale_lmp] Locational Marginal Price (LMP) - ISO/RTO Markets
+[dut_wholesale_ppa] Power Purchase Agreement (PPA) - Fixed or Indexed

@@ -1,0 +1,26 @@
+[dit_analytics] Insurance Analytics :: naics_2022:524
+[dit_analytics_actuarial] AI-Enhanced Actuarial Modeling
+[dit_analytics_customer] Customer Segmentation and Retention Analytics
+[dit_analytics_portfolio] Portfolio Risk Analytics and Optimization
+[dit_analytics_pricing] Dynamic Pricing and Rate Optimization
+[dit_claims] Claims Automation :: naics_2022:524
+[dit_claims_ai] AI-Powered Claims Assessment and Adjudication
+[dit_claims_fnol] First Notice of Loss (FNOL) Digital Intake
+[dit_claims_fraud] Claims Fraud Detection and Prevention
+[dit_claims_photo] Photo and Video Damage Estimation
+[dit_p2p] Peer-to-Peer Insurance :: naics_2022:524
+[dit_p2p_community] Community-Based Risk Pooling Platforms
+[dit_p2p_dao] Decentralized Insurance (DAO-based) Models
+[dit_p2p_micro] Microinsurance and On-Demand Coverage
+[dit_p2p_mutual] Digital Mutual Aid and Group Insurance
+[dit_parametric] Parametric Insurance :: naics_2022:524
+[dit_parametric_cat] Catastrophe Bond and Index-Based Solutions
+[dit_parametric_crop] Crop and Agricultural Parametric Products
+[dit_parametric_cyber] Cyber Event Parametric Insurance
+[dit_parametric_weather] Weather-Triggered Parametric Coverage
+[dit_underwrite] Digital Underwriting :: naics_2022:524
+[dit_underwrite_auto] Automated Risk Assessment and Scoring
+[dit_underwrite_health] Digital Health Underwriting and Wearable Data
+[dit_underwrite_instant] Instant and Embedded Insurance Issuance
+[dit_underwrite_iot] IoT Sensor-Based Property Underwriting
+[dit_underwrite_telematic] Telematics-Based Underwriting (auto, fleet)

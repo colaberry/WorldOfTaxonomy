@@ -1,0 +1,32 @@
+[dag_dairy] Dairy Product Grades :: naics_2022:111, naics_2022:112
+[dag_dairy_a] Grade A (fluid milk standard, pasteurized)
+[dag_dairy_aa] Grade AA Butter (highest USDA butter grade)
+[dag_dairy_a_butter] Grade A Butter
+[dag_dairy_b] Grade B (manufacturing grade milk)
+[dag_dairy_b_butter] Grade B Butter
+[dag_egg] Egg Grades :: naics_2022:111, naics_2022:112
+[dag_egg_a] Grade A (standard retail quality)
+[dag_egg_aa] Grade AA (highest quality, firm yolk)
+[dag_egg_b] Grade B (breaking/processing use)
+[dag_grain] Grain Grades :: naics_2022:111, naics_2022:112
+[dag_grain_1] US No. 1 (highest quality grain)
+[dag_grain_2] US No. 2
+[dag_grain_3] US No. 3
+[dag_grain_4] US No. 4
+[dag_grain_5] US No. 5
+[dag_grain_sample] Sample Grade (does not meet No.5 requirements)
+[dag_live] Livestock and Meat Quality Grades :: naics_2022:111, naics_2022:112
+[dag_live_choice] USDA Choice
+[dag_live_prime] USDA Prime (highest marbling, top 2%)
+[dag_live_select] USDA Select
+[dag_live_standard] USDA Standard
+[dag_live_yield1] Yield Grade 1 (most lean, least fat)
+[dag_live_yield2] Yield Grade 2
+[dag_live_yield3] Yield Grade 3
+[dag_prod] Produce and Fresh Market Grades :: naics_2022:111, naics_2022:112
+[dag_prod_1] US No. 1
+[dag_prod_2] US No. 2
+[dag_prod_3] US No. 3 (lowest marketable grade)
+[dag_prod_combo] US Combination (mixed grade lots)
+[dag_prod_extra1] US Extra No. 1
+[dag_prod_fancy] US Fancy (top quality fresh produce)

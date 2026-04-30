@@ -1,0 +1,14 @@
+[BL] Bloom's Taxonomy
+[BL.01] Remember (Knowledge)
+[BL.02] Understand (Comprehension)
+[BL.03] Apply (Application)
+[BL.04] Analyze (Analysis)
+[BL.05] Evaluate (Evaluation)
+[BL.06] Create (Synthesis)
+[BL.07] Cognitive Domain
+[BL.08] Affective Domain
+[BL.09] Psychomotor Domain
+[BL.10] Knowledge Dimension: Factual
+[BL.11] Knowledge Dimension: Conceptual
+[BL.12] Knowledge Dimension: Procedural
+[BL.13] Knowledge Dimension: Metacognitive

@@ -1,0 +1,16 @@
+[TI] Threat Intelligence Types :: naics_2022:5415, naics_2022:5417
+[TI.01] Strategic Threat Intelligence
+[TI.02] Tactical Threat Intelligence
+[TI.03] Operational Threat Intelligence
+[TI.04] Technical Indicators (IOC)
+[TI.05] STIX/TAXII Feed
+[TI.06] MITRE ATT&CK Mapping
+[TI.07] Open Source Intelligence (OSINT)
+[TI.08] Dark Web Monitoring
+[TI.09] Threat Actor Profiling
+[TI.10] Campaign Tracking
+[TI.11] Malware Analysis
+[TI.12] Vulnerability Intelligence
+[TI.13] Industry-Specific Threat Feed
+[TI.14] Threat Scoring
+[TI.15] Intelligence Sharing (ISAC)

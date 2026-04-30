@@ -1,0 +1,25 @@
+[dfi_alt] Alternative Investments :: naics_2022:522, naics_2022:523
+[dfi_alt_comm] Commodities (physical, futures-based)
+[dfi_alt_hf] Hedge Funds (multi-strategy, macro, quant)
+[dfi_alt_pe] Private Equity (buyout, venture, growth)
+[dfi_alt_re] Real Estate (REIT, direct, private)
+[dfi_cash] Cash and Cash Equivalents :: naics_2022:522, naics_2022:523
+[dfi_cash_cd] Certificates of Deposit (CDs)
+[dfi_cash_deposit] Bank Deposits (savings, checking, sweep)
+[dfi_cash_mmf] Money Market Funds
+[dfi_deriv] Derivatives :: naics_2022:522, naics_2022:523
+[dfi_deriv_future] Futures (commodity, financial, index)
+[dfi_deriv_fwd] Forwards (FX forwards, commodity forwards)
+[dfi_deriv_option] Options (equity, index, currency, commodity)
+[dfi_deriv_swap] Swaps (interest rate, currency, credit default)
+[dfi_equity] Equity Securities :: naics_2022:522, naics_2022:523
+[dfi_equity_adr] ADRs and GDRs (depositary receipts)
+[dfi_equity_common] Common Stock (ordinary shares)
+[dfi_equity_etf] Exchange-Traded Funds (ETF, ETP)
+[dfi_equity_pref] Preferred Stock (preference shares)
+[dfi_fixed] Fixed Income Securities :: naics_2022:522, naics_2022:523
+[dfi_fixed_corp] Corporate Bonds (investment grade, high yield)
+[dfi_fixed_govt] Government Bonds (Treasury, sovereign)
+[dfi_fixed_mbs] Mortgage-Backed Securities (MBS, ABS, CMBS)
+[dfi_fixed_mm] Money Market Securities (T-bills, CP, repos)
+[dfi_fixed_muni] Municipal Bonds (tax-exempt, revenue, GO)

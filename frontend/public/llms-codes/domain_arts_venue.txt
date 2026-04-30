@@ -1,0 +1,19 @@
+[dartsvn_digital] Digital Distribution Platforms :: naics_2022:711, naics_2022:713
+[dartsvn_digital_avod] Ad-supported streaming (YouTube, Pluto TV, Tubi, Peacock Free)
+[dartsvn_digital_games] Game platform storefronts (Steam, PlayStation Store, Xbox Game Pass)
+[dartsvn_digital_music] Music streaming (Spotify, Apple Music, Amazon Music, Tidal)
+[dartsvn_digital_svod] SVOD streaming (Netflix, Disney+, HBO Max, Prime Video)
+[dartsvn_exhibit] Gallery, Museum and Exhibition Spaces :: naics_2022:711, naics_2022:713
+[dartsvn_exhibit_commercial] Commercial gallery (art sales, artist representation)
+[dartsvn_exhibit_museum] Museum and public gallery (permanent and traveling exhibitions)
+[dartsvn_liveperform] Live Performance Venues :: naics_2022:711, naics_2022:713
+[dartsvn_liveperform_arena] Arena and stadium (10k+ capacity touring acts, sports)
+[dartsvn_liveperform_club] Club and small venue (under 500 cap, indie, jazz, comedy)
+[dartsvn_liveperform_theater] Concert hall and theater (500-5000 seats, symphony, ballet, theater)
+[dartsvn_market] Online Marketplaces for Arts and Collectibles :: naics_2022:711, naics_2022:713
+[dartsvn_market_craft] Handmade goods marketplaces (Etsy, Society6, Redbubble)
+[dartsvn_market_nft] NFT and digital art marketplace (OpenSea, Foundation, SuperRare)
+[dartsvn_screen] Film and Video Screening Venues :: naics_2022:711, naics_2022:713
+[dartsvn_screen_arthouse] Arthouse and indie cinema
+[dartsvn_screen_drive] Drive-in and outdoor cinema
+[dartsvn_screen_multiplex] Multiplex cinema / theater chain (AMC, Regal, Cinemark)

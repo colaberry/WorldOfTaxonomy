@@ -1,0 +1,13 @@
+[CK] Capacity Market Types :: naics_2022:5419
+[CK.01] Forward Capacity Market
+[CK.02] Reliability Pricing Model
+[CK.03] Capacity Auction
+[CK.04] Strategic Reserve
+[CK.05] Decentralized Reliability Option
+[CK.06] Energy-Only Market
+[CK.07] Capacity Performance Obligation
+[CK.08] Demand-Side Capacity
+[CK.09] Storage Capacity Qualification
+[CK.10] Renewable Capacity Credit
+[CK.11] Capacity Transfer Rights
+[CK.12] Resource Adequacy

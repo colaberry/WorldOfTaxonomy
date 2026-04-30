@@ -1,0 +1,14 @@
+[CU] Curriculum Standard Types :: naics_2022:611
+[CU.01] Common Core State Standards
+[CU.02] NGSS (Next Generation Science)
+[CU.03] International Baccalaureate (IB)
+[CU.04] Cambridge International
+[CU.05] National Curriculum (UK)
+[CU.06] State/Provincial Curriculum
+[CU.07] Competency-Based Curriculum
+[CU.08] Project-Based Curriculum
+[CU.09] STEAM Curriculum
+[CU.10] Social-Emotional Learning (SEL)
+[CU.11] Montessori Curriculum
+[CU.12] Waldorf Curriculum
+[CU.13] OER-Based Curriculum

@@ -1,0 +1,19 @@
+[dpafund_approp] Appropriations and Tax Revenue Funding :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpafund_approp_annual] Annual Appropriations (discretionary, mandatory budget)
+[dpafund_approp_capital] Capital Appropriations and Infrastructure Funding
+[dpafund_approp_tax] Property, Sales, and Income Tax Revenue
+[dpafund_bonds] Debt and Bond Financing :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpafund_bonds_go] General Obligation (GO) Bond (full faith and credit)
+[dpafund_bonds_revenue] Revenue Bond (pledged revenue stream - toll, utility)
+[dpafund_bonds_tax] Tax Increment Financing (TIF) and Special Assessment
+[dpafund_federal] Federal Direct Expenditure and Transfers :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpafund_federal_direct] Federal Direct Services and Operations Funding
+[dpafund_federal_entitlement] Entitlement Programs (Medicare, Medicaid, Social Security)
+[dpafund_fees] User Fees and Regulatory Charges :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpafund_fees_fine] Fines, Penalties, and Forfeitures
+[dpafund_fees_franchise] Franchise Fees and Right-of-Way Revenues
+[dpafund_fees_user] User Fees and Service Charges (utility, permit, license)
+[dpafund_grants] Grant and Intergovernmental Funding :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpafund_grants_federal] Federal Grants and Formula Funding (CDBG, Title I, FHWA)
+[dpafund_grants_foundation] Foundation and Private Grant Funding (public entity)
+[dpafund_grants_state] State Aid and Pass-Through Grants to Local Government

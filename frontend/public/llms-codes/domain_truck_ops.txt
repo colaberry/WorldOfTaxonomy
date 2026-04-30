@@ -1,0 +1,27 @@
+[dto_biz] Business Model :: isic_rev4:4923, naics_2022:484
+[dto_biz_contract] Contract Carrier (negotiated rates, set lanes)
+[dto_biz_dedicated] Dedicated Contract Carriage (fixed customer)
+[dto_biz_dispatch] Dispatch Service Provider
+[dto_biz_lease] Power-Only / Leased Operator Program
+[dto_biz_spot] Spot Market / Transactional (load board)
+[dto_fleet] Fleet Size :: isic_rev4:4923, naics_2022:484
+[dto_fleet_large] Large Fleet (101-500 power units)
+[dto_fleet_mega] Mega Carrier (500+ power units)
+[dto_fleet_micro] Micro Fleet (1-2 power units)
+[dto_fleet_mid] Mid-size Fleet (21-100 power units)
+[dto_fleet_small] Small Fleet (3-20 power units)
+[dto_route] Route Pattern :: isic_rev4:4923, naics_2022:484
+[dto_route_backhaul] Backhaul / Return Load
+[dto_route_drop] Drop-and-Hook (no live load/unload)
+[dto_route_linehaul] Line-Haul (terminal-to-terminal, 500+ mi)
+[dto_route_live] Live Load and Unload
+[dto_route_milk] Milk Run / Multi-stop (scheduled stops)
+[dto_route_pd] Pickup and Delivery (P&D, local city routes)
+[dto_route_relay] Relay / Team Driving (continuous movement)
+[dto_type] Carrier Type :: isic_rev4:4923, naics_2022:484
+[dto_type_broker] Freight Broker (arranges transport, no truck)
+[dto_type_forhire] For-Hire Carrier (transports freight for compensation)
+[dto_type_forwarder] Freight Forwarder (consolidates/arranges)
+[dto_type_intermodal_mktg] Intermodal Marketing Company (IMC)
+[dto_type_owner_op] Owner-Operator / Independent Contractor
+[dto_type_private] Private Carrier (transports own goods)

@@ -1,0 +1,14 @@
+[WS] WCO SAFE Pillars
+[WS.01] Pillar 1: Customs-to-Customs
+[WS.02] Pillar 2: Customs-to-Business
+[WS.03] Pillar 3: Customs-to-Other Agencies
+[WS.04] AEO (Authorized Economic Operator)
+[WS.05] Advance Cargo Information
+[WS.06] Risk Management
+[WS.07] Non-Intrusive Inspection
+[WS.08] Mutual Recognition
+[WS.09] Data Analytics
+[WS.10] E-Commerce Framework
+[WS.11] Trade Facilitation
+[WS.12] Supply Chain Security
+[WS.13] Single Window

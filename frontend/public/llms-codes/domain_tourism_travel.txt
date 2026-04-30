@@ -1,0 +1,25 @@
+[dtt_adventure] Adventure Tourism :: naics_2022:5615
+[dtt_adventure_eco] Ecotourism and Nature-Based Tourism
+[dtt_adventure_extreme] Extreme Sports and Expedition Tourism
+[dtt_adventure_safari] Wildlife Safari and Observation Tourism
+[dtt_adventure_trek] Trekking and Hiking Tourism
+[dtt_business] Business Travel :: naics_2022:5615
+[dtt_business_bleisure] Bleisure and Extended Business Stays
+[dtt_business_conf] Conference and Convention Travel
+[dtt_business_corp] Corporate Travel Management
+[dtt_business_incent] Incentive and Reward Travel Programs
+[dtt_culture] Cultural Tourism :: naics_2022:5615
+[dtt_culture_festival] Festival and Event-Based Tourism
+[dtt_culture_food] Culinary and Food Tourism
+[dtt_culture_heritage] Heritage and Historical Site Tourism
+[dtt_culture_religious] Religious and Pilgrimage Tourism
+[dtt_leisure] Leisure Travel :: naics_2022:5615
+[dtt_leisure_beach] Beach and Resort Vacations
+[dtt_leisure_cruise] Cruise Line and River Cruise Travel
+[dtt_leisure_family] Family and Theme Park Travel
+[dtt_leisure_luxury] Luxury and Premium Leisure Travel
+[dtt_medical] Medical Tourism :: naics_2022:5615
+[dtt_medical_dental] Dental Tourism Services
+[dtt_medical_rehab] Rehabilitation and Recovery Tourism
+[dtt_medical_surgery] Surgical and Elective Procedure Tourism
+[dtt_medical_wellness] Wellness and Spa Tourism

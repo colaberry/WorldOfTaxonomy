@@ -1,0 +1,14 @@
+[RP] Radiopharmaceutical Types :: naics_2022:5419
+[RP.01] Diagnostic Radiopharmaceutical
+[RP.02] Therapeutic Radiopharmaceutical
+[RP.03] PET Tracer
+[RP.04] SPECT Agent
+[RP.05] Radioimmunotherapy
+[RP.06] Peptide Receptor Radionuclide
+[RP.07] Alpha-Emitter Therapy
+[RP.08] Beta-Emitter Therapy
+[RP.09] Theranostic Agent
+[RP.10] Radiopharmacy Compounding
+[RP.11] Cyclotron-Produced Isotope
+[RP.12] Generator-Produced Isotope
+[RP.13] Radiopharmaceutical GMP

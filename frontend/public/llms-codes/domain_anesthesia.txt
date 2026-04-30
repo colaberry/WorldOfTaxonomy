@@ -1,0 +1,16 @@
+[AN] Anesthesia Types :: naics_2022:6211, naics_2022:6221
+[AN.01] General Anesthesia
+[AN.02] Regional Anesthesia
+[AN.03] Local Anesthesia
+[AN.04] Spinal Anesthesia
+[AN.05] Epidural Anesthesia
+[AN.06] Nerve Block
+[AN.07] Sedation (Conscious)
+[AN.08] Deep Sedation
+[AN.09] Monitored Anesthesia Care
+[AN.10] Topical Anesthesia
+[AN.11] Intravenous Regional (Bier)
+[AN.12] Pediatric Anesthesia
+[AN.13] Obstetric Anesthesia
+[AN.14] Cardiac Anesthesia
+[AN.15] Pain Management

@@ -1,0 +1,16 @@
+[mt_conv] Conventional Mortgages :: naics_2022:531
+[mt_conv_arm] Adjustable-rate mortgage (ARM)
+[mt_conv_conf] Conforming loan (GSE eligible)
+[mt_conv_fixed] Fixed-rate mortgage (15yr, 20yr, 30yr)
+[mt_conv_jumbo] Jumbo / non-conforming loan
+[mt_govt] Government-Backed Mortgages :: naics_2022:531
+[mt_govt_fha] FHA loan (Federal Housing Administration)
+[mt_govt_usda] USDA Rural Development loan
+[mt_govt_va] VA loan (Veterans Affairs)
+[mt_spec] Specialty Mortgages :: naics_2022:531
+[mt_spec_bridge] Bridge loan
+[mt_spec_constr] Construction-to-permanent loan
+[mt_spec_heloc] Home equity line of credit (HELOC)
+[mt_spec_io] Interest-only mortgage
+[mt_spec_refi] Refinance (rate-term, cash-out)
+[mt_spec_rev] Reverse mortgage (HECM)

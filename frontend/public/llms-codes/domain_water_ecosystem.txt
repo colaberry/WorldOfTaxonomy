@@ -1,0 +1,18 @@
+[dweco_cultural] Cultural and Social Services :: naics_2022:2213, naics_2022:5629
+[dweco_cultural_aesthetic] Aesthetic and landscape values
+[dweco_cultural_recreation] Recreation and ecotourism (fishing, swimming, kayaking)
+[dweco_cultural_spiritual] Spiritual, ceremonial and sacred water sites
+[dweco_provision] Provisioning Services :: naics_2022:2213, naics_2022:5629
+[dweco_provision_fiber] Freshwater fiber and raw materials (reed, timber)
+[dweco_provision_food] Aquatic food production (fish, shellfish, algae)
+[dweco_provision_water] Fresh water supply for drinking and irrigation
+[dweco_regulating] Regulating Services :: naics_2022:2213, naics_2022:5629
+[dweco_regulating_carbon] Carbon sequestration in wetlands and riparian zones
+[dweco_regulating_climate] Local climate regulation via evapotranspiration
+[dweco_regulating_erosion] Erosion control and sediment retention
+[dweco_regulating_flood] Flood attenuation and flow regulation (wetlands, floodplains)
+[dweco_regulating_purif] Water purification and waste treatment (natural filtration)
+[dweco_supporting] Supporting and Habitat Services :: naics_2022:2213, naics_2022:5629
+[dweco_supporting_habitat] Aquatic and riparian biodiversity habitat
+[dweco_supporting_nutrient] Nutrient cycling and biogeochemical processing
+[dweco_supporting_seed] Seed dispersal and genetic flow via waterways

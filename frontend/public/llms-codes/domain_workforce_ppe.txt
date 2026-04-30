@@ -1,0 +1,24 @@
+[dwkfppe_eye] Eye and Face Protection :: naics_2022:5613, naics_2022:622
+[dwkfppe_eye_faceshield] Face shields: splash, grinding, welding (ANSI Z87.1)
+[dwkfppe_eye_goggles] Safety goggles: splash, chemical, dust and impact
+[dwkfppe_eye_safetyglasses] Safety glasses: ANSI Z87.1 rated impact-resistant lenses
+[dwkfppe_eye_welding] Welding helmets and auto-darkening filters (ANSI Z87.1, DIN shade)
+[dwkfppe_fall] Fall Protection and Body Harnesses :: naics_2022:5613, naics_2022:622
+[dwkfppe_fall_harness] Full-body harness and personal fall arrest systems (ANSI Z359)
+[dwkfppe_fall_lanyard] Shock-absorbing lanyards and self-retracting lifelines (SRL)
+[dwkfppe_foot] Foot and Leg Protection :: naics_2022:5613, naics_2022:622
+[dwkfppe_foot_safetytoe] Steel-toe / composite-toe footwear (ASTM F2413)
+[dwkfppe_foot_slip] Slip-resistant and EH-rated footwear
+[dwkfppe_hand] Hand and Arm Protection :: naics_2022:5613, naics_2022:622
+[dwkfppe_hand_chemical] Chemical-resistant gloves (nitrile, neoprene, butyl rubber)
+[dwkfppe_hand_cut] Cut-resistant gloves (ANSI/ISEA 105 cut level A1-A9)
+[dwkfppe_hand_thermal] Thermal and heat-resistant gloves for welding, foundry
+[dwkfppe_head] Head and Scalp Protection :: naics_2022:5613, naics_2022:622
+[dwkfppe_head_bump] Bump caps: lightweight for low-impact head bump hazards
+[dwkfppe_head_hardhat] Hard hats: Type I/II, Class E/G/C (ANSI Z89.1)
+[dwkfppe_hearing] Hearing Protection :: naics_2022:5613, naics_2022:622
+[dwkfppe_hearing_earmuff] Earmuffs: passive and electronic hearing protection (3M Peltor)
+[dwkfppe_hearing_earplug] Disposable and reusable earplugs (NRR-rated foam, banded)
+[dwkfppe_respiratory] Respiratory Protection :: naics_2022:5613, naics_2022:622
+[dwkfppe_respiratory_filtering] Air-purifying respirators (N95, P100, PAPR - NIOSH 42 CFR 84)
+[dwkfppe_respiratory_supplied] Supplied-air respirators (SCBA, SAR - OSHA 1910.134)

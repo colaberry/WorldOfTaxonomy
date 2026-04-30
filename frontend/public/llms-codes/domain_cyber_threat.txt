@@ -1,0 +1,26 @@
+[dct_app] Application-Layer Attacks :: naics_2022:5415, naics_2022:5417
+[dct_app_api] API Abuse and Exploitation (BOLA, BFLA, rate bypass)
+[dct_app_injection] Injection Attacks (SQL, command, LDAP, XPath)
+[dct_app_supply] Supply Chain Attacks (dependency confusion, typosquat)
+[dct_app_xss] Cross-Site Scripting (reflected, stored, DOM-based)
+[dct_insider] Insider Threats :: naics_2022:5415, naics_2022:5417
+[dct_insider_compromised] Compromised Insider (credential theft, account takeover)
+[dct_insider_malicious] Malicious Insider (data theft, sabotage, espionage)
+[dct_insider_negligent] Negligent Insider (misconfiguration, accidental leak)
+[dct_insider_privilege] Privilege Escalation (unauthorized access, role abuse)
+[dct_malware] Malware Threats :: naics_2022:5415, naics_2022:5417
+[dct_malware_fileless] Fileless Malware (memory-resident, LOLBins, scripts)
+[dct_malware_ransom] Ransomware (crypto-locking, double extortion, RaaS)
+[dct_malware_rootkit] Rootkits and Bootkits (kernel, firmware, UEFI)
+[dct_malware_trojan] Trojan and Remote Access Trojan (RAT, banking trojan)
+[dct_malware_worm] Worms and Self-Propagating Malware (network, email)
+[dct_network] Network-Based Attacks :: naics_2022:5415, naics_2022:5417
+[dct_network_ddos] DDoS Attacks (volumetric, protocol, application layer)
+[dct_network_dns] DNS Attacks (poisoning, tunneling, hijacking, typosquat)
+[dct_network_lateral] Lateral Movement (pass-the-hash, Kerberoasting, RDP)
+[dct_network_mitm] Man-in-the-Middle Attacks (ARP spoofing, SSL stripping)
+[dct_social] Social Engineering Threats :: naics_2022:5415, naics_2022:5417
+[dct_social_bec] Business Email Compromise (account takeover, redirect)
+[dct_social_phishing] Phishing (email, spear-phishing, whaling, clone)
+[dct_social_pretext] Pretexting and Impersonation (executive, vendor fraud)
+[dct_social_vishing] Voice Phishing and Smishing (phone, SMS, deepfake)

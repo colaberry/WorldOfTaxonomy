@@ -1,0 +1,17 @@
+[AA] API Architecture Types :: naics_2022:5415
+[AA.01] REST API
+[AA.02] GraphQL API
+[AA.03] gRPC API
+[AA.04] SOAP API
+[AA.05] WebSocket API
+[AA.06] Webhook
+[AA.07] AsyncAPI
+[AA.08] OpenAPI Specification
+[AA.09] API Gateway Pattern
+[AA.10] Backend for Frontend (BFF)
+[AA.11] API Mesh
+[AA.12] Event-Driven API
+[AA.13] Hypermedia API (HATEOAS)
+[AA.14] JSON-RPC
+[AA.15] Server-Sent Events (SSE)
+[AA.16] API Versioning Strategy

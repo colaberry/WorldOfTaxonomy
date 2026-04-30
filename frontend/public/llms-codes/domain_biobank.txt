@@ -1,0 +1,14 @@
+[BB] Biobank Types :: naics_2022:5417, naics_2022:6215
+[BB.01] Population Biobank
+[BB.02] Disease-Specific Biobank
+[BB.03] Clinical Trial Biobank
+[BB.04] Tissue Bank
+[BB.05] Blood/Plasma Bank
+[BB.06] Cord Blood Bank
+[BB.07] DNA/RNA Biobank
+[BB.08] Microbiome Bank
+[BB.09] Virtual Biobank
+[BB.10] Agricultural Biobank (Seed)
+[BB.11] Biobank Quality Management
+[BB.12] Biobank Informatics (LIMS)
+[BB.13] Consent and Ethics Framework

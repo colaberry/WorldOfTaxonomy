@@ -1,0 +1,14 @@
+[CP] Consumer Protection Types :: naics_2022:5411
+[CP.01] Unfair Trade Practice
+[CP.02] Deceptive Advertising
+[CP.03] Product Safety Recall
+[CP.04] Truth in Lending (TILA)
+[CP.05] Fair Debt Collection (FDCPA)
+[CP.06] Warranty Protection (Magnuson-Moss)
+[CP.07] Data Privacy Protection
+[CP.08] Telemarketing Regulation
+[CP.09] Email Marketing (CAN-SPAM)
+[CP.10] Lemon Law
+[CP.11] Consumer Class Action
+[CP.12] Product Liability
+[CP.13] Right to Repair

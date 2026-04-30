@@ -1,0 +1,15 @@
+[dacstruct_collective] Artist Collectives and Cooperatives :: naics_2022:711, naics_2022:713
+[dacstruct_collective_coop] Artist-Owned Cooperative and Collective
+[dacstruct_collective_improv] Improv and Sketch Comedy Ensemble
+[dacstruct_collective_writer] Writers Room and Showrunner Production Entity
+[dacstruct_indie] Independent and Alternative Structures :: naics_2022:711, naics_2022:713
+[dacstruct_indie_film] Independent Film Production Company
+[dacstruct_indie_games] Independent Game Developer (indie studio)
+[dacstruct_indie_label] Independent Record Label (A24, Domino, Sub Pop)
+[dacstruct_major] Major Studio and Label Structures :: naics_2022:711, naics_2022:713
+[dacstruct_major_label] Major Record Label (Universal, Sony, Warner Music)
+[dacstruct_major_publisher] Major Music Publisher (UMPG, Sony Music Publishing)
+[dacstruct_major_studio] Major Film Studio (Warner Bros, Disney, Universal Pictures)
+[dacstruct_self] Self-Published and Direct-to-Fan :: naics_2022:711, naics_2022:713
+[dacstruct_self_artist] Self-Released Artist (DistroKid, TuneCore, CD Baby)
+[dacstruct_self_creator] Independent Creator Economy (YouTube, TikTok, Twitch)

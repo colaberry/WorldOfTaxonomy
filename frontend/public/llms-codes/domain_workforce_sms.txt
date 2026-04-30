@@ -1,0 +1,15 @@
+[dwssms_behavbased] Behavior-Based Safety (BBS) Programs :: naics_2022:5613, naics_2022:622
+[dwssms_behavbased_near] Near-Miss Reporting and Leading Indicator Tracking
+[dwssms_behavbased_obs] Safety Observation and Reporting System
+[dwssms_incident] Incident Investigation and Root Cause Analysis :: naics_2022:5613, naics_2022:622
+[dwssms_incident_osha300] OSHA 300 Log and Recordkeeping Compliance
+[dwssms_incident_rca] Root Cause Analysis (5-Why, Fishbone, TapRoot)
+[dwssms_industry] Industry-Specific Safety Management Programs :: naics_2022:5613, naics_2022:622
+[dwssms_industry_csms] Contractor Safety Management System (oil and gas SEMS)
+[dwssms_industry_isnetworld] ISNetworld and PICS Contractor Safety Pre-qualification
+[dwssms_iso45001] ISO 45001 Occupational Health and Safety Management :: naics_2022:5613, naics_2022:622
+[dwssms_iso45001_cert] ISO 45001 Certified (third-party audited)
+[dwssms_iso45001_conform] ISO 45001 Conformance (self-declared, not certified)
+[dwssms_vpp] OSHA Voluntary Protection Programs (VPP) :: naics_2022:5613, naics_2022:622
+[dwssms_vpp_merit] VPP Merit Site (working toward Star)
+[dwssms_vpp_star] VPP Star Site (top-tier OSHA recognition)

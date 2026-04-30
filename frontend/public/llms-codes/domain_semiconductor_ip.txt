@@ -1,0 +1,17 @@
+[dscip_fabless] Fabless Design Companies :: naics_2022:3344
+[dscip_fabless_consumer] Consumer fabless (Qualcomm, MediaTek, Apple silicon design)
+[dscip_fabless_hpc] HPC/AI fabless (NVIDIA, AMD, Marvell, Broadcom ASIC)
+[dscip_fabless_startup] Fabless startups and chip design companies (seed to Series C)
+[dscip_foundry] Pure-Play Foundry Services :: naics_2022:3344
+[dscip_foundry_leading] Leading-edge foundry (TSMC, Samsung Foundry - 2nm-5nm)
+[dscip_foundry_mature] Mature-node foundry (GlobalFoundries, SMIC, UMC - 28nm+)
+[dscip_idm] Integrated Device Manufacturers (IDM) :: naics_2022:3344
+[dscip_idm_logic] Logic IDM (Intel, TI, STMicro - own design and fab)
+[dscip_idm_memory] Memory IDM (Samsung, SK Hynix, Micron - DRAM and NAND)
+[dscip_iplicense] IP Licensing Model (ARM Architecture Model) :: naics_2022:3344
+[dscip_iplicense_arch] Architecture licensors (ARM, RISC-V consortium, MIPS) - ISA IP
+[dscip_iplicense_designip] Design IP licensors (Imagination GPU, Tensilica DSP, Ceva DSP)
+[dscip_iplicense_phyip] Physical IP licensors (Synopsys, Cadence, Rambus) - standard cells, PHYs
+[dscip_osat] OSAT (Outsourced Semiconductor Assembly and Test) :: naics_2022:3344
+[dscip_osat_advanced] Advanced packaging OSAT (CoWoS, 2.5D/3D integration, chiplets)
+[dscip_osat_traditional] Traditional OSAT (ASE, Amkor, JCET wire-bond packages)

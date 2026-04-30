@@ -1,0 +1,23 @@
+[dpa_agency] Agency and Entity Type :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpa_agency_exec] Executive Department or Cabinet Agency
+[dpa_agency_indep] Independent Regulatory Agency (FCC, SEC, EPA)
+[dpa_agency_judic] Judicial Branch and Courts
+[dpa_agency_legis] Legislative Branch and Congress
+[dpa_func] Government Function Type :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpa_func_defense] Defense and National Security
+[dpa_func_env] Environment, Natural Resources and Land Use
+[dpa_func_infra] Infrastructure, Transportation and Public Works
+[dpa_func_justice] Justice, Public Safety and Courts
+[dpa_func_revenue] Tax Collection and Revenue Administration
+[dpa_func_social] Social Services and Public Welfare
+[dpa_level] Government Level :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpa_level_federal] Federal and National Government
+[dpa_level_local] Local, County and Municipal Government
+[dpa_level_special] Special District (water, transit, school district)
+[dpa_level_state] State and Provincial Government
+[dpa_level_tribal] Tribal and Indigenous Government
+[dpa_proc] Government Process Type :: naics_2022:921, naics_2022:922, naics_2022:924
+[dpa_proc_adjudicate] Adjudication and Administrative Hearings
+[dpa_proc_elections] Elections, Voting and Electoral Administration
+[dpa_proc_procure] Government Procurement and Contracting
+[dpa_proc_rulemaking] Regulatory and Rulemaking Process

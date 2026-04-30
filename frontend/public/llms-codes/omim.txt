@@ -1,0 +1,14 @@
+[OM] OMIM Categories
+[OM.01] Autosomal Dominant
+[OM.02] Autosomal Recessive
+[OM.03] X-Linked
+[OM.04] Y-Linked
+[OM.05] Mitochondrial
+[OM.06] Digenic
+[OM.07] Somatic Mutation
+[OM.08] Gene (Asterisk *)
+[OM.09] Phenotype (Number #)
+[OM.10] Suspected Phenotype (%)
+[OM.11] Phenotype Locus/Series
+[OM.12] Gene/Phenotype (Plus +)
+[OM.13] Moved/Removed Entries

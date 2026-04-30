@@ -1,0 +1,16 @@
+[rf_green] Sustainable Roofing :: naics_2022:236, naics_2022:237, naics_2022:238
+[rf_green_cool] Cool roofing (reflective coatings)
+[rf_green_solar] Solar-ready / BIPV roofing
+[rf_green_veg] Green / vegetated roof (extensive, intensive)
+[rf_low] Low-Slope Roofing :: naics_2022:236, naics_2022:237, naics_2022:238
+[rf_low_bur] Built-up roof (BUR / tar and gravel)
+[rf_low_epdm] EPDM rubber membrane
+[rf_low_mod] Modified bitumen
+[rf_low_pvc] PVC membrane
+[rf_low_tpo] TPO membrane
+[rf_steep] Steep-Slope Roofing :: naics_2022:236, naics_2022:237, naics_2022:238
+[rf_steep_asph] Asphalt shingles (3-tab, architectural)
+[rf_steep_metal] Metal roofing (standing seam, corrugated)
+[rf_steep_slate] Slate roofing
+[rf_steep_tile] Tile roofing (clay, concrete)
+[rf_steep_wood] Wood shakes and shingles
