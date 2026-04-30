@@ -14,6 +14,7 @@ detail location and lists the rough effort + the unblock condition.
 | 5 | [Demo video (~2 min)](#5-demo-video-2-min) | 1d | Pricing copy locked |
 | 6 | [Phase 1-5 Zitadel + Permit.io migration](#6-phase-1-5-zitadel--permitio-migration) | ~1w | Soft-launch traffic patterns observed |
 | 7 | [MCP server registration / discoverability](#7-mcp-server-registration--discoverability) | 1d | First PyPI release tag |
+| 8 | [REST API registration / discoverability](#8-rest-api-registration--discoverability) | 1d | OpenAPI spec frozen at v1 |
 
 ## 1. Pricing page with real numbers
 
@@ -199,6 +200,118 @@ After submitting, watch:
 This is the cheapest customer-acquisition channel we have - one good
 listing on Anthropic's repo can outweigh a Hacker News post in
 sustained traffic.
+
+## 8. REST API registration / discoverability
+
+The MCP audience overlaps with but does not equal the API audience.
+Where MCP-side reach is mostly AI-tool users, the API-side reach is
+classical developers who never touch an LLM. Different directories,
+different communities. The unblock condition is a **stable, public
+OpenAPI v3 spec** at `/api/v1/openapi.json` (FastAPI emits this for
+free; verify it is reachable + clean before submitting anywhere).
+
+### Official + canonical
+
+- [ ] **APIs.guru / OpenAPI Directory** -
+      [github.com/APIs-guru/openapi-directory](https://github.com/APIs-guru/openapi-directory).
+      Single highest-leverage API submission. Postman, Stoplight,
+      SwaggerHub, ReadMe, and dozens of devtools index this list. PR
+      adds a `worldoftaxonomy.com.yaml` pointing at our hosted spec.
+- [ ] **public-apis/public-apis** -
+      [github.com/public-apis/public-apis](https://github.com/public-apis/public-apis).
+      ~300k-star awesome list; submission is a one-line PR adding us
+      under "Government" or "Open Data" (taxonomy data is closer to
+      reference than government). Massive discoverability.
+- [ ] **GitHub topics** - tag the repo with `rest-api`, `openapi`,
+      `swagger`, `taxonomy`, `classification`, `naics`, `isic`,
+      `nace`, `hs-codes`. Topics surface in GitHub's Explore page +
+      its API consumers (e.g. SourceGraph code search).
+
+### Public API marketplaces
+
+- [ ] **RapidAPI Hub** - [rapidapi.com](https://rapidapi.com). The
+      largest commercial API marketplace. Listing requires an
+      OpenAPI spec + a pricing schedule. Set the free tier at our
+      anonymous rate (30/min) so the listing remains true after the
+      Stripe paid tier ships.
+- [ ] **Postman Public API Network** - publish a Postman workspace
+      with example collections. [postman.com/explore](https://postman.com/explore).
+      Strong discoverability inside Postman's own product, and the
+      collections double as quickstart docs.
+- [ ] **SwaggerHub** (SmartBear) - host the spec there as a public
+      project. SmartBear's directory indexes public APIs + the page
+      auto-generates code samples in 10+ languages.
+- [ ] **ReadMe.io** - if we want hosted API docs separate from our
+      `/api` page. ReadMe-hosted docs come with built-in
+      discoverability + a "try it" sandbox. Optional; skip if our
+      `/api` page is good enough.
+- [ ] **APIList.fun** / **AnyAPI** - smaller catalogs; one-line
+      submissions, low effort.
+
+### AI-developer surfaces (different audience than MCP)
+
+- [ ] **OpenAI Plugin Manifest** - publish at
+      `worldoftaxonomy.com/.well-known/ai-plugin.json` so
+      ChatGPT Custom GPTs and other plugin-aware agents can install
+      our API as a tool without an MCP client. Effort: 1 hour
+      (manifest + matching OpenAPI spec at the well-known path).
+- [ ] **Anthropic Tool Use** docs - we are not a tool ourselves,
+      but if we appear in their public examples list (e.g. the
+      "real-world tool examples" page), that drives adoption. Open
+      a docs PR if their examples are community-sourced.
+
+### Open-data + classification-domain channels
+
+- [ ] **Awesome-Public-Datasets** -
+      [github.com/awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets).
+      We are reference data, not raw datasets, but several entries
+      in the "Government" section are similar in spirit. Worth a
+      submission.
+- [ ] **datahub.io** / **OpenDataSoft** - if we ship periodic data
+      dumps (post-Pro-launch), these aggregate open data with
+      indexed search. Skip until dumps exist.
+- [ ] **Hugging Face Datasets** - publish a snapshot of
+      `classification_node` + `equivalence` tables as a
+      versioned dataset. ML researchers find taxonomy data through
+      HF, not through API directories. Effort: 0.5d for a first
+      snapshot + a release script.
+- [ ] **Awesome-X domain lists** - awesome-naics, awesome-trade,
+      awesome-medical-coding, awesome-occupation-data exist as
+      community repos. Submit to each that fits; ~5 min each.
+
+### Adjacent communities (developer audience, not registries)
+
+- [ ] **Hacker News Show HN** - post #1 was MCP-focused; post #2 is
+      API-focused. "Show HN: A unified REST API for every industry
+      classification (NAICS, ISIC, NACE, HS, SOC...)". Different
+      hook, different audience.
+- [ ] **r/webdev, r/programming, r/datasets, r/opendata** -
+      announcement threads on launch day; one post per subreddit,
+      personalized.
+- [ ] **dev.to / Medium / Hashnode** - one technical blog post on
+      launch ("Translating between 1,000 classification systems with
+      a single API call"). Repost across all three; cross-link from
+      our `/blog`.
+- [ ] **Stack Overflow** - watch tags `naics`, `isic`, `industry-codes`,
+      `classification`. Answer existing questions with a one-line
+      mention of the API + a link to the relevant guide page. Don't
+      spam new threads.
+
+### Track + measure
+
+After submitting, watch:
+
+- API-key signup conversion per registry (referrer logs in Cloud
+  Run, partitioned by source domain)
+- OpenAPI spec hits (`/api/v1/openapi.json` request count)
+- GitHub stars / clones from the public-apis listing landing
+- RapidAPI usage report (their own dashboard) once listed
+- Postman workspace forks + collection runs
+
+The API directories are slower-burn than HN but the traffic
+compounds. APIs.guru-derived traffic in particular tends to last
+years because Postman et al. keep their indexes fresh from that
+single source.
 
 ## How this list should evolve
 
