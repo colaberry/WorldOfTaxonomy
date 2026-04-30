@@ -3,10 +3,12 @@
 > **Status: proposed architecture, not yet implemented.** Zitadel Cloud
 > has been chosen as the authentication IdP and Permit.io has been
 > chosen as the authorization engine, but neither is provisioned or
-> integrated yet. WoT today still uses local bcrypt passwords plus
-> HS256 JWTs (see `world_of_taxonomy/api/deps.py`). When the migration
-> lands, this doc becomes current-state; until then, treat it as the
-> roadmap.
+> integrated yet. WoT today uses a magic-link cookie session (sign-in
+> by emailing a one-time link). The legacy password sign-in and
+> per-app OAuth (GitHub/Google/LinkedIn) were removed in 2026-04-30
+> in favor of magic-link as the simplest pre-Zitadel state.
+> When the Zitadel migration lands, this doc becomes current-state;
+> until then, treat it as the roadmap.
 
 This doc lives in the WorldOfTaxonomy repo because WoT is the first
 product to need the integration, but the design is portfolio-wide. It
@@ -164,17 +166,19 @@ Every product, every protected request:
 
 ## What this changes for WorldOfTaxonomy
 
-WoT currently implements auth itself: bcrypt passwords, HS256 JWT,
-three OAuth providers, a `wot_` API-key table. The central-IdP
-migration replaces the first three and re-homes the fourth:
+WoT currently implements auth itself: a magic-link cookie session
+(post-Phase-6 simplification, 2026-04-30) with `dev_session` (httponly
+JWT, 60-min) + `wot_csrf` cookies, plus a `wot_` API-key table. The
+central-IdP migration replaces magic-link with hosted Zitadel login
+and re-homes the API-key table around Zitadel `sub` claims:
 
-| Today (WoT-local) | After migration (Zitadel-backed) |
+| Today (WoT-local, post-2026-04-30) | After migration (Zitadel-backed) |
 |-------------------|-----------------------------------|
-| `POST /auth/register` + bcrypt | Deleted. Users register at `auth.aixcelerator.ai`. |
-| `POST /auth/login` + HS256 JWT | Deleted. Login happens at Zitadel; backend verifies RS256 JWT via JWKS. |
-| `/auth/oauth/{github,google,linkedin}` | Deleted. Social providers are configured once inside Zitadel. |
+| Magic-link sign-in via `POST /api/v1/developers/signup` + email | Deleted. Users sign in at `auth.aixcelerator.ai`'s hosted Zitadel UI. |
+| `dev_session` cookie (HS256 JWT, signed with `JWT_SECRET`) | Deleted. Backend verifies RS256 JWT from Zitadel via JWKS. |
 | `JWT_SECRET` env var | Deleted. Replaced by `ZITADEL_ISSUER` + JWKS URL. |
-| `app_user` table | Keep, but add `zitadel_sub` (TEXT, unique). New rows created on first login keyed by `sub`. Existing rows get linked by email on next login. |
+| Resend (magic-link emails) | Optional; Zitadel handles confirmation emails. Kept only for transactional emails (key-revocation notices, etc.) if those are ever wired. |
+| `app_user` table | Keep, but add `zitadel_sub` (TEXT, unique). New rows created on first login keyed by `sub`. Existing rows get linked by email on next login. The `password_hash` column is already NULLable and unused; will be DROPped in the migration. |
 | `api_key` table with `wot_...` prefix | Two options: (A) keep the table, continue minting `wot_...` keys, but scope them to a `zitadel_sub` instead of a local user ID. (B) move entirely to Zitadel Personal Access Tokens. **Recommendation: (A)** - it preserves the `wot_...` ergonomics and doesn't force every skills bundle to re-plumb. |
 | Rate-limit tier lookup | Unchanged mechanism; `tier` now comes from a claim on the Zitadel token or from the local `app_user.tier` column that Stripe webhooks update. |
 
@@ -279,7 +283,8 @@ because the pattern is already worn in.
 1. **When to migrate to Zitadel.** Before the first paying customer
    (cheap) or after launch (unblocks launch, harder to retrofit). The
    current WoT auth works; this is not launch-blocking.
-2. **Skip the per-product OAuth setup?** The existing
-   `OAUTH_PRODUCTION_SETUP.md` wires GitHub / Google / LinkedIn OAuth
-   apps directly into WoT. If Zitadel comes soon, that whole setup is
-   throwaway. Tied to question 1.
+2. **Decided 2026-04-30**: skipped per-product OAuth. Removed the
+   `oauth.py` router, the `/login` OAuth picker, and the
+   `OAUTH_PRODUCTION_SETUP.md` doc. Magic-link covers the
+   pre-Zitadel state with no third-party dependencies; Zitadel will
+   federate GitHub/Google/LinkedIn under one login when it lands.
