@@ -6511,7 +6511,7 @@
     "nodes": 12
   },
   "patent_cpc": {
-    "bytes": 59915731,
+    "bytes": 60947802,
     "files": [
       "patent_cpc/A.txt",
       "patent_cpc/A0.txt",
@@ -6541,7 +6541,7 @@
       "patent_cpc/H.txt",
       "patent_cpc/Y.txt"
     ],
-    "hash": "65cdc3c46d9d9342ccd89b2370ebb15989d63e8809603f1a90d1e7ae5aa24664",
+    "hash": "0439448fa9ff70739f0327daa34fc89457889f520af8170fc49bde5b38ed4f03",
     "nodes": 254249
   },
   "pci_sig": {
