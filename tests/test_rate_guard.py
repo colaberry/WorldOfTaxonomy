@@ -26,6 +26,7 @@ from world_of_taxonomy.api.rate_guard import (
     _client_ip,
     _hash_email,
     _reset_for_tests,
+    check_classify_lead_budget,
     check_email_send_budget,
     check_per_ip_rate,
     record_email_send,
@@ -190,6 +191,83 @@ class TestEmailSendBudget:
                 # No explicit cap; resolver reads the env (=2). Trips.
                 with pytest.raises(HTTPException) as exc:
                     await check_email_send_budget(conn)
+                assert exc.value.status_code == 503
+        _run(go())
+
+
+# ----- classify-lead budget guard (DB-backed) -------------------------------
+
+
+class TestClassifyLeadBudget:
+    def test_under_cap_passes(self, db_pool):
+        async def go():
+            async with db_pool.acquire() as conn:
+                await conn.execute("DELETE FROM classify_lead")
+                # Two recent classifies, well under the default 500 cap.
+                await conn.execute(
+                    """INSERT INTO classify_lead (email, query_text)
+                       VALUES ('a@x.com', 'q1'), ('b@x.com', 'q2')"""
+                )
+                await check_classify_lead_budget(conn, max_per_hour=500)
+        _run(go())
+
+    def test_at_cap_raises_503(self, db_pool):
+        async def go():
+            async with db_pool.acquire() as conn:
+                await conn.execute("DELETE FROM classify_lead")
+                # Cap=3; insert 3 leads. Check is `>=` so 3 trips.
+                await conn.execute(
+                    """INSERT INTO classify_lead (email, query_text)
+                       SELECT 'lead-' || g || '@x.com', 'q' || g
+                       FROM generate_series(1, 3) AS g"""
+                )
+                with pytest.raises(HTTPException) as exc:
+                    await check_classify_lead_budget(conn, max_per_hour=3)
+                assert exc.value.status_code == 503
+                assert exc.value.detail["error"] == "classify_budget_exhausted"
+                assert exc.value.headers.get("Retry-After") == "60"
+        _run(go())
+
+    def test_old_rows_do_not_count(self, db_pool):
+        async def go():
+            async with db_pool.acquire() as conn:
+                await conn.execute("DELETE FROM classify_lead")
+                # 10 rows from 2 hours ago, none in the last hour.
+                await conn.execute(
+                    """INSERT INTO classify_lead (email, query_text, created_at)
+                       SELECT 'old-' || g || '@x.com', 'q' || g,
+                              NOW() - INTERVAL '2 hours'
+                       FROM generate_series(1, 10) AS g"""
+                )
+                # Cap=3 must not trip because rolling-hour count is 0.
+                await check_classify_lead_budget(conn, max_per_hour=3)
+        _run(go())
+
+    def test_cap_zero_disables(self, db_pool):
+        async def go():
+            async with db_pool.acquire() as conn:
+                await conn.execute("DELETE FROM classify_lead")
+                await conn.execute(
+                    """INSERT INTO classify_lead (email, query_text)
+                       SELECT 'h-' || g || '@x.com', 'q' || g
+                       FROM generate_series(1, 50) AS g"""
+                )
+                # 50 leads but cap=0 should disable entirely.
+                await check_classify_lead_budget(conn, max_per_hour=0)
+        _run(go())
+
+    def test_env_var_resolves_default(self, db_pool, monkeypatch):
+        monkeypatch.setenv("CLASSIFY_LEAD_BUDGET_PER_HOUR", "2")
+        async def go():
+            async with db_pool.acquire() as conn:
+                await conn.execute("DELETE FROM classify_lead")
+                await conn.execute(
+                    """INSERT INTO classify_lead (email, query_text)
+                       VALUES ('a@x.com', 'q1'), ('b@x.com', 'q2')"""
+                )
+                # No explicit cap; resolver reads env (=2). Trips.
+                with pytest.raises(HTTPException) as exc:
+                    await check_classify_lead_budget(conn)
                 assert exc.value.status_code == 503
         _run(go())
 

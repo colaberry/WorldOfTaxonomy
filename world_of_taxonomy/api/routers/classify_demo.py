@@ -21,7 +21,10 @@ from pydantic import BaseModel, Field, field_validator
 _EMAIL_RX = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 from world_of_taxonomy.api.deps import get_conn
-from world_of_taxonomy.api.rate_guard import check_per_ip_rate
+from world_of_taxonomy.api.rate_guard import (
+    check_classify_lead_budget,
+    check_per_ip_rate,
+)
 from world_of_taxonomy.api.routers.classify import partition_matches
 from world_of_taxonomy.api.text_guard import TextGuardError, guard
 from world_of_taxonomy.classify import classify_text
@@ -238,8 +241,15 @@ async def classify_demo(
     interactive use (a user trying ~5 prompts in a session) but tight
     enough to deter farming, since each call is LLM-backed and each
     INSERT into classify_lead is downstream lead-pipeline noise.
+
+    Global classify-lead budget: 500/hour, env-tunable via
+    CLASSIFY_LEAD_BUDGET_PER_HOUR. The per-IP cap above bounds a
+    single source; this DB-backed counter catches distributed botnets
+    rotating IPs (each making 1-2 calls, slipping under the per-IP
+    cap) and acts as a hard ceiling on LLM cost.
     """
     check_per_ip_rate("classify_demo", request, max_per_window=20)
+    await check_classify_lead_budget(conn)
 
     ip = request.client.host if request.client else None
     ua = request.headers.get("user-agent")
