@@ -185,6 +185,75 @@ async def check_email_send_budget(
         )
 
 
+# ---------- global classify-lead budget (DB-backed) -------------------------
+#
+# /api/v1/classify/demo writes one row to `classify_lead` per accepted
+# request. The per-IP guard (20/hour) bounds a single-source attack but
+# a distributed botnet rotating IPs would each make 1-2 calls and slip
+# under the cap. This DB-backed counter caps the total across instances:
+# beyond `max_per_hour` accepted classifies in a rolling hour, the
+# endpoint 503s until the window clears.
+#
+# Each call also burns one LLM-backed classify computation, so the cap
+# doubles as a hard ceiling on Ollama / OpenRouter spend.
+#
+# Default 500/hour. Tunable via CLASSIFY_LEAD_BUDGET_PER_HOUR.
+
+_CLASSIFY_LEAD_CAP_ENV = "CLASSIFY_LEAD_BUDGET_PER_HOUR"
+_CLASSIFY_LEAD_CAP_DEFAULT = 500
+
+
+def _resolve_classify_cap(explicit: Optional[int]) -> int:
+    if explicit is not None:
+        return explicit
+    raw = os.environ.get(_CLASSIFY_LEAD_CAP_ENV, "").strip()
+    if raw.isdigit():
+        return int(raw)
+    return _CLASSIFY_LEAD_CAP_DEFAULT
+
+
+async def check_classify_lead_budget(
+    conn,
+    *,
+    max_per_hour: Optional[int] = None,
+) -> None:
+    """Refuse /classify/demo with 503 when global classify_lead inserts
+    in the last hour are at or above the configured cap.
+
+    DB-backed so the cap is enforced consistently across every Cloud Run
+    instance. The query is a single index range scan on
+    `idx_classify_lead_created`; expected sub-millisecond.
+
+    Set `max_per_hour=0` to disable (useful in tests + dev).
+    """
+    cap = _resolve_classify_cap(max_per_hour)
+    if cap <= 0:
+        return
+    count = await conn.fetchval(
+        """SELECT count(*)
+           FROM classify_lead
+           WHERE created_at > NOW() - INTERVAL '1 hour'"""
+    )
+    if count is not None and count >= cap:
+        try:
+            from world_of_taxonomy.api.metrics import RATE_GUARD_FIRED
+            RATE_GUARD_FIRED.labels(endpoint="classify_lead_budget").inc()
+        except Exception:
+            pass
+        raise HTTPException(
+            status_code=503,
+            detail={
+                "error": "classify_budget_exhausted",
+                "message": (
+                    "Classify volume is over the safety cap right now. "
+                    "This usually clears within a few minutes; if it does "
+                    "not, contact support."
+                ),
+            },
+            headers={"Retry-After": "60"},
+        )
+
+
 async def record_email_send(
     conn,
     *,

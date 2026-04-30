@@ -26,6 +26,10 @@ write down and saves an hour next time.
 - [cloudflare-edge.md](./cloudflare-edge.md) - one-time setup of
   Cloudflare in front of Cloud Run for edge DDoS, bot management,
   and a pre-origin rate-limit on signup
+- [classify-abuse-defense.md](./classify-abuse-defense.md) - five
+  defense layers on the free /classify/demo endpoint (per-IP guard,
+  DB-backed budget, Turnstile, disposable-email block, per-email
+  cap, MX check) with implementation skeletons for the deferred ones
 
 ## Alert sources
 
