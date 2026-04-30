@@ -6,6 +6,7 @@ tool listing, tool calling, resource listing, and resource reading.
 
 import asyncio
 import json
+import pathlib
 import pytest
 
 from world_of_taxonomy.mcp.protocol import (
@@ -17,6 +18,14 @@ from world_of_taxonomy.mcp.protocol import (
 
 def _run(coro):
     return asyncio.get_event_loop().run_until_complete(coro)
+
+
+# 2 core MCP resources (taxonomy://systems, taxonomy://stats) plus one
+# resource per wiki page. Derived from wiki/_meta.json so adding a page
+# does not silently break this test.
+_REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
+_WIKI_META = _REPO_ROOT / "wiki" / "_meta.json"
+EXPECTED_RESOURCE_COUNT = 2 + len(json.loads(_WIKI_META.read_text()))
 
 
 # ── tools/list ────────────────────────────────────────────────
@@ -71,9 +80,12 @@ def test_tools_have_schema():
 
 def test_resources_list():
     resources = build_resources_list()
-    assert len(resources) == 13  # 2 core + 11 wiki pages
+    # 2 core resources + every wiki page; count derived from
+    # wiki/_meta.json so adding a page does not silently break.
+    assert len(resources) == EXPECTED_RESOURCE_COUNT
     uris = {r["uri"] for r in resources}
     assert "taxonomy://systems" in uris
+    assert "taxonomy://stats" in uris
     assert "taxonomy://wiki/getting-started" in uris
 
 
@@ -167,7 +179,7 @@ def test_handle_resources_list():
         response = await handle_jsonrpc_request(request, conn=None)
         assert response["id"] == 5
         assert "result" in response
-        assert len(response["result"]["resources"]) == 13  # 2 core + 11 wiki pages
+        assert len(response["result"]["resources"]) == EXPECTED_RESOURCE_COUNT
     _run(_test())
 
 
