@@ -241,9 +241,15 @@ This is the same grep CI runs. Must return `clean`.
 - Pick any Postgres 14+ and set its connection string as `DATABASE_URL`. Examples: Neon (pooled URL), Supabase (pooled URL), RDS, Cloud SQL, self-hosted Postgres, local install.
 - If a pgbouncer-style pooler sits in front of it in transaction mode, asyncpg needs `statement_cache_size=0`. Production code path in [world_of_taxonomy/db.py](../../world_of_taxonomy/db.py) sets this when the URL looks pooled; double-check for your provider.
 
-### OAuth providers
+### Magic-link sign-in
 
-Follow [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md) for GitHub, Google, and LinkedIn redirect URIs per environment. Note: this per-product OAuth wiring is a bridge; the Zitadel migration described in [portfolio-auth.md](portfolio-auth.md) will centralize identity at `auth.aixcelerator.ai` and obsolete these product-local OAuth client registrations.
+Sign-in is by emailing a one-time link via Resend. Provision a Resend
+account, set `RESEND_API_KEY` in the deployment env, and verify your
+sending domain. Without that key, signup endpoints fall back to
+`NoopEmailClient` (logs the link, never delivers) - fine for dev,
+fatal in prod. Magic-link is the post-Phase-6, pre-Zitadel state;
+the Zitadel migration in [portfolio-auth.md](portfolio-auth.md)
+replaces magic-link with hosted login at `auth.aixcelerator.ai`.
 
 ---
 
@@ -253,7 +259,7 @@ Follow [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md) for GitHub, 
 - `GET https://<frontend-host>/llms-full.txt` returns the full wiki as plain text.
 - MCP client (Claude Desktop) connects and lists 26 tools.
 - A logged-out user hits the anonymous rate cap (30/min) with rapid curls.
-- Sign up via OAuth; API key creation works from the account dashboard (when the auth frontend ships).
+- Sign up via the magic-link flow on `/login`; API key creation works from `/developers/keys` after sign-in.
 
 ---
 
@@ -272,7 +278,7 @@ You do not need all of these to have a working system:
 
 - Full 864-ingester run. NAICS + ISIC + NACE is enough to demo the API, MCP, and web app. Layer in more systems as needed.
 - AI classify / generate endpoints. They need either `OLLAMA_API_KEY` (primary, Ollama Cloud) or `OPENROUTER_API_KEY` (fallback), plus Pro+ auth. Skip if unused.
-- OAuth providers. Password login works without them.
+- Resend account on day one. Without `RESEND_API_KEY`, sign-up endpoints log the magic link instead of emailing it (`NoopEmailClient`); fine for dev. Wire Resend before public traffic.
 - Vercel. `npm run build && npm start` on any host works.
 - llms-full.txt. Nice to have for AI crawlers; not required for humans.
 

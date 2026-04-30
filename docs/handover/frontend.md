@@ -34,8 +34,10 @@ When in doubt, read the docs shipped with the installed version: `node_modules/n
 | `/guide` + `/guide/[slug]` | wiki index + dynamic | SSR | Renders [wiki/*.md](../../wiki/) via remark + remark-gfm + remark-html |
 | `/blog` + `/blog/[slug]` | SSR | SSR | Same, for [blog/](../../blog/) |
 | `/about`, `/pricing`, `/developers`, `/api`, `/mcp` | static | SSR | Long-form pages |
-| `/login` | client | Client | OAuth buttons (GitHub, Google, LinkedIn). Bounces logged-in users home |
-| `/auth/callback` | SSR | SSR | OAuth callback; stashes JWT + user in `localStorage`, redirects home |
+| `/login` | client | Client | Magic-link sign-in form. POSTs email to `/api/v1/developers/signup`; bounces signed-in users (cookie present) to `/developers/keys` |
+| `/auth/magic` | client | Client | Magic-link callback. Reads `?t=...`, calls `/api/v1/auth/magic-callback`, redirects to `/developers/keys` on success |
+| `/developers/signup` | server | Server | 308 permanent redirect to `/login` (consolidated entry point) |
+| `/developers/keys` | client | Client | Cookie-gated dashboard: list/create/revoke API keys. CSRF-protected via `wot_csrf` double-submit cookie |
 | `/dashboard` | `page.tsx` | Server | 308 permanent redirect to `/explore` (preserves query string) |
 | `/api/revalidate` | route handler | Server | ISR webhook; `x-revalidate-secret` header required (constant-time compared) |
 | `/api/crosswalk/[source]/[target]/graph` | route handler | Server | Falls back to backend when a pair isn't bundled |
@@ -96,12 +98,12 @@ This gives fast TTFB (SSR renders with real data), SEO (crawlers see real conten
 
 ## Authentication on the frontend
 
-- Tokens + user blob live in `localStorage` under `wot_token` and `wot_user`.
-- `getToken()` returns `null` on SSR (guards with `typeof window !== 'undefined'`), so server components must treat auth-required state as absent and let the client re-hydrate.
-- OAuth flow: click a button on `/login` -> `window.location.href` to `/api/v1/auth/oauth/{provider}/authorize` -> backend redirects to provider -> provider redirects back to `/auth/callback` -> callback page writes token + user to `localStorage` and bounces to `/`.
-- Logout is client-side only. Expiry is enforced by the backend; the frontend doesn't track it proactively.
-
-OAuth provider setup (client IDs, secrets, redirect URIs per environment) is documented in [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md).
+- Magic-link cookie session. Two cookies: `dev_session` (httponly JWT, 60-min TTL) and `wot_csrf` (JS-readable double-submit token).
+- `isLoggedIn()` in [`lib/auth.ts`](../../frontend/src/lib/auth.ts) checks for the presence of `wot_csrf`. SSR returns `false` (no `document.cookie`); the Header re-checks on every navigation.
+- Sign-in flow: enter email on `/login` -> POST to `/api/v1/developers/signup` -> Resend sends a one-time link -> user clicks the link -> `/auth/magic` calls `/api/v1/auth/magic-callback?t=...` -> backend sets both cookies -> redirect to `/developers/keys`.
+- Sign-out flow: `logout()` POSTs to `/api/v1/auth/logout` which clears both cookies; the Header detects the absence of `wot_csrf` on next render and switches to "Sign in".
+- The `getCsrfToken()` helper reads `wot_csrf` and returns it; state-changing requests on `/developers/keys` send it as the `X-CSRF-Token` header.
+- OAuth (GitHub/Google/LinkedIn) and password sign-in were both removed in 2026-04-30. Future Zitadel migration (see [auth-implementation.md](auth-implementation.md)) replaces magic-link with hosted login at `auth.aixcelerator.ai`.
 
 ---
 
