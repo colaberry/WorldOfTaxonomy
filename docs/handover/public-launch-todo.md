@@ -15,6 +15,7 @@ detail location and lists the rough effort + the unblock condition.
 | 6 | [Phase 1-5 Zitadel + Permit.io migration](#6-phase-1-5-zitadel--permitio-migration) | ~1w | Soft-launch traffic patterns observed |
 | 7 | [MCP server registration / discoverability](#7-mcp-server-registration--discoverability) | 1d | First PyPI release tag |
 | 8 | [REST API registration / discoverability](#8-rest-api-registration--discoverability) | 1d | OpenAPI spec frozen at v1 |
+| 9 | [Website outreach / discoverability](#9-website-outreach--discoverability) | 2d | Soft launch live + status page + press kit |
 
 ## 1. Pricing page with real numbers
 
@@ -312,6 +313,177 @@ The API directories are slower-burn than HN but the traffic
 compounds. APIs.guru-derived traffic in particular tends to last
 years because Postman et al. keep their indexes fresh from that
 single source.
+
+## 9. Website outreach / discoverability
+
+The third audience: humans who arrive via search or social, not
+through an API client or MCP tool. Different distribution channels,
+different message ("explore 1,000 classification systems" instead of
+"integrate with our API"). Three Hacker News posts total are warranted
+across items 7, 8, 9 - each with a distinct hook and a distinct
+audience - but the rest of this list does not overlap with the MCP or
+API sections.
+
+Unblock condition: the site needs the soft-launch fundamentals already
+shipped in PRs #152, #154, plus a status page (item 4) and a press kit
+(item 3). Without those, a launch post that sends a wave of traffic
+risks looking unprofessional.
+
+### Search engines (passive but essential)
+
+- [ ] **Google Search Console** - verify the property at
+      [search.google.com/search-console](https://search.google.com/search-console).
+      Submit the sitemap (`worldoftaxonomy.com/sitemap.xml`). Watch
+      for crawl errors and structured-data issues.
+- [ ] **Bing Webmaster Tools** - same idea at
+      [bing.com/webmasters](https://www.bing.com/webmasters). Bing
+      indexes faster than Google for new sites and feeds DuckDuckGo +
+      Yahoo.
+- [ ] **IndexNow** - one POST per new URL pings Bing, Yandex, and
+      Naver simultaneously. Wire this into the Next.js
+      `/api/revalidate` handler so it fires whenever a wiki page
+      republishes. ~1 hour of work.
+- [ ] **Yandex Webmaster** + **Naver Search Advisor** - low-priority
+      but free. Useful if Russian or Korean industry-classification
+      queries are a real audience for us.
+
+### AI search / answer engines (the AEO surface)
+
+The Karpathy-wiki + llms-full.txt pattern is built for this audience.
+Each engine has a different submission / ingestion path; most do not
+have a public submit form yet, so the goal is to make the site
+**impossible to miss** when their crawlers come through.
+
+- [ ] **Perplexity** - no submit form. They follow `robots.txt`
+      respect (PerplexityBot already allowed in our robots.ts) and
+      pull from indexed sites. Make sure the `<head>`-linked
+      `/llms-full.txt` is reachable; verify after launch by asking
+      Perplexity a NAICS-vs-ISIC question and seeing if we appear in
+      sources.
+- [ ] **OpenAI / ChatGPT search** - GPTBot is allowed in our
+      robots.ts. ChatGPT's "Search" feature pulls from indexed sites
+      via Bing, so the Bing Webmaster submission above doubles as
+      ChatGPT-search distribution.
+- [ ] **Google AI Overviews / Gemini** - rides on Google's index +
+      `Google-Extended` opt-in (already allowed). Submit + confirm
+      Google Search Console verification.
+- [ ] **You.com**, **Brave Search**, **Kagi** - smaller but
+      AI-friendly. Brave has a free submit endpoint
+      ([search.brave.com/help/submit-url](https://search.brave.com/help/submit-url)).
+- [ ] **Wikipedia / Wikidata** - if the project becomes notable
+      enough by community standards, a Wikipedia article on
+      "WorldOfTaxonomy" or a Wikidata Q-item creates a permanent
+      reference that AI engines disproportionately weight. Don't
+      self-author; wait for an external editor or refer the project
+      via Wikipedia's Articles for Creation. Lower-priority.
+
+### Launch posts (one-time signals, time-limited spike)
+
+- [ ] **Hacker News Show HN #3** - human-website hook, distinct from
+      the MCP and API posts. Suggested title: "Show HN: Explore 1,000
+      classification systems side by side (NAICS, HS, ICD-11, ISCO,
+      and 996 more)". Lead with the visual `/explore` page, not the
+      developer integration. Post on a Tuesday-Thursday morning ET.
+- [ ] **Product Hunt** - launch on a Tuesday for the daily ranking
+      window. Press kit assets (item 3) are mandatory here: Product
+      Hunt without good screenshots underperforms by ~10x. Hunter
+      handoff: have someone with > 500 followers on Product Hunt
+      submit on our behalf.
+- [ ] **Reddit** - one post per relevant subreddit on launch day,
+      personalized to each: r/dataisbeautiful (lead with a
+      crosswalk visualization), r/datasets (the data dump angle),
+      r/InternationalBusiness (the trade/HS angle), r/MapPorn (the
+      country-system map). One post, one community, no crossposting.
+- [ ] **Mastodon / Bluesky / X** - one announcement thread per
+      platform, video-first. The 90-second demo (item 5) is the
+      asset. Pin the thread on each profile.
+- [ ] **LinkedIn** - long-form post from Ram + a paragraph from
+      Colaberry's company page. The audience here is enterprise
+      buyers, not developers; lead with "we just open-sourced X"
+      framing.
+
+### Tech / tool directories (ongoing, slow-burn traffic)
+
+- [ ] **AlternativeTo** - submit at
+      [alternativeto.net/feedback](https://alternativeto.net/feedback).
+      Position as an alternative to "looking up codes manually" or
+      to expensive licensed crosswalk products. Slow-burn but
+      durable.
+- [ ] **futuretools.io** - free directory of AI tools. Submit at
+      [futuretools.io/submit-a-tool](https://www.futuretools.io/submit-a-tool).
+      The MCP server angle qualifies us here even though we are
+      mostly classical infrastructure.
+- [ ] **theresanaiforthat.com** - same shape; submit if MCP-tool
+      framing is real for our use case.
+- [ ] **OpenAlternative.co** - directory of OS alternatives to paid
+      tools. Good fit because most existing crosswalk products are
+      proprietary subscriptions.
+- [ ] **G2** / **Capterra** / **GetApp** - paid placements; defer
+      until paid plans exist (item 1+2).
+
+### Domain-specific communities (highest engagement, smallest reach)
+
+- [ ] **Federal data community** - GitHub repos like
+      `usds/federalist`, `18F/`, gov.uk's
+      open-data-network-of-networks, EU Open Data Portal forums.
+      Listings here are slow but the audience is exactly our
+      ideal-customer profile (data scientists at orgs that need
+      cross-jurisdiction taxonomy reconciliation).
+- [ ] **Trade / customs communities** - WCO discussion forum,
+      ICC International Chamber of Commerce, customs broker
+      LinkedIn groups. Lead with the HS + Schedule B + CN angle.
+- [ ] **Healthcare informatics** - HL7 community lists, AMIA
+      forums, HIMSS. Lead with the ICD-10/11 + LOINC + SNOMED
+      angle. Be careful not to overpromise on clinical accuracy
+      (legal exposure); link to the Disclaimer in the footer.
+- [ ] **HR-tech communities** - SHRM forums, recruitership
+      networks, OWASP-style ATS-developer Discords. Lead with
+      ESCO + SOC + ISCO + O*NET.
+
+### Earned media / newsletters
+
+- [ ] **AI newsletters** - Ben's Bites, The Rundown AI, AI Tidbits,
+      Bensbites's "Show & Tell" section. Pitch via their public tip
+      lines.
+- [ ] **Data engineering newsletters** - Data Engineering Weekly
+      (Ananth Packkildurai), Seattle Data Guy newsletter, Andreessen
+      Horowitz's data newsletter.
+- [ ] **TechCrunch / VentureBeat tip lines** - low conversion but
+      free. Pitch as "open-source alternative to Dun & Bradstreet's
+      industry-classification tooling".
+- [ ] **Hacker Newsletter** (curated weekly) - submit via tip jar;
+      gets re-distributed if the HN post performed well.
+
+### Encyclopedic / reference
+
+- [ ] **Wikidata Q-item** - create
+      `worldoftaxonomy.com` as a Wikidata entity, link from the
+      Wikidata entries on NAICS, ISIC, etc. (the "described by URL"
+      property). Permanent reference that AI engines weight heavily.
+- [ ] **Open Knowledge Foundation / OKFN forums** - the project
+      directly serves their mission. Get listed in Frictionless
+      Data's catalog of taxonomy resources.
+- [ ] **Awesome-Open-Source-Data** lists on GitHub - submit to the
+      ones that are still maintained. Different list from the
+      `awesome-public-apis` and `awesome-mcp-servers` from items 7
+      and 8.
+
+### Track + measure
+
+After launch:
+
+- Cloud Run referrer logs partitioned by `Referer` host
+- Google Search Console weekly report (impressions, clicks, top queries)
+- Bing Webmaster equivalent
+- Posthog/Plausible if/when wired (currently deferred per launch checklist)
+- Hacker News post score + top comments (qualitative signal)
+- Product Hunt rank + upvote source
+
+The website outreach is the slowest-burn of the three (MCP/API/web)
+because each item compounds individually but takes weeks to register
+in search. Start the search-engine submissions on day 1; the launch
+posts can wait until item 3 (press kit) and item 5 (demo video) are
+ready.
 
 ## How this list should evolve
 
