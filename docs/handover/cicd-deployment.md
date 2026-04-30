@@ -175,7 +175,7 @@ Cloud Run needs a new revision for the rotated secret to take effect; the `updat
 
 ## 6. Authentication (current state vs roadmap)
 
-**Today**: local bcrypt passwords + HS256 JWTs signed with `JWT_SECRET`. Social login (GitHub/Google/LinkedIn) is wired per [OAUTH_PRODUCTION_SETUP.md](../../OAUTH_PRODUCTION_SETUP.md).
+**Today**: magic-link cookie session. Sign-in is by emailing a single-use link via Resend; the callback at `GET /api/v1/auth/magic-callback?t=...` sets `dev_session` (httponly JWT, 60-min TTL) + `wot_csrf` (JS-readable double-submit token). Sign-out via `POST /api/v1/auth/logout`. JWT signature secret in `JWT_SECRET`. Password sign-in and OAuth (GitHub/Google/LinkedIn) were both removed in 2026-04-30 - the magic-link flow is the only authenticated entry point on the public site.
 
 **Planned migration** (not implemented yet): central IdP at `auth.aixcelerator.ai` using **Zitadel Cloud** for authN plus **Permit.io** for authZ. When this lands, the backend switches from HS256 local JWT verification to RS256 JWKS against Zitadel, and per-operation checks move to `permit.check(user, action, resource)`. See [docs/handover/portfolio-auth.md](portfolio-auth.md). Do not plan pipeline changes around this until the migration plan is green-lit.
 

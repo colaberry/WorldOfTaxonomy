@@ -8,9 +8,17 @@
 > **Prerequisites for this work to start**: Cloud Run migration to
 > `wot.aixcelerator.ai` is fully landed (PR #1 merged + DNS cut over),
 > and the team has provisioned Zitadel Cloud + Permit.io accounts.
-> Don't start Phase 1 if either is still pending - the OAuth callback
-> URL is part of the Zitadel app config, and changing it post-cutover
+> Don't start Phase 1 if either is still pending - the redirect-URI
+> is part of the Zitadel app config, and changing it post-cutover
 > means a manual re-issue of every active session.
+>
+> **Note on the starting state (2026-04-30)**: the local OAuth router
+> (`oauth.py` at `/api/v1/auth/oauth/{provider}/*`) and the password
+> login (`/api/v1/auth/register`, `/login`) were removed. Sign-in
+> today is the magic-link cookie session (`developers.py`). Phase 1
+> below replaces magic-link with Zitadel as the primary IdP; Zitadel
+> federates GitHub / Google / LinkedIn under one login, and we no
+> longer wire those providers per-app on our side.
 
 ## Phase 0 - account provisioning (manual, ~1 hour)
 
@@ -23,7 +31,7 @@ human-in-the-loop email + 2FA).
 | 0.2 | **OPTIONAL (paid plan only).** Add custom domain `auth.aixcelerator.ai`. Verify the CNAME, request the cert. Skip on free tier; default `<instance>.zitadel.cloud` URL works fine. See "Free tier vs custom domain" below. | Cert status `active` in Zitadel Console > Settings > Domains. |
 | 0.3 | Create a Project named `aixcelerator-portfolio`. | Visible in Console > Projects. |
 | 0.4 | Inside the project, create a Web Application named `WorldOfTaxonomy`. Authentication method: PKCE. Redirect URI: `https://worldoftaxonomy.com/auth/callback`. Post-logout: `https://worldoftaxonomy.com`. | Application detail page shows the Client ID. |
-| 0.5 | Add social IdPs: GitHub, Google, LinkedIn. Use the existing OAuth client IDs from `OAUTH_PRODUCTION_SETUP.md` (no new app registrations - reuse). | Each IdP shows a green check on Console > Settings > Identity Providers. |
+| 0.5 | Add social IdPs: GitHub, Google, LinkedIn. Register fresh OAuth applications at each provider per the [Zitadel docs](https://zitadel.com/docs/guides/integrate/identity-providers/openid-connect) - we no longer have local provider registrations to reuse. | Each IdP shows a green check on Console > Settings > Identity Providers. |
 | 0.6 | Create a Service User `wot-backend-introspection` for token introspection. Generate a Personal Access Token. | PAT copied to GCP Secret Manager as `zitadel-introspect-pat`. |
 | 0.7 | Create Permit.io account. Create an Environment named `prod`. Generate a Project API Key. | Key visible in Permit.io Console > Settings > API Keys. |
 | 0.8 | Store secrets in GCP Secret Manager: `zitadel-issuer`, `zitadel-client-id`, `zitadel-introspect-pat`, `permit-api-key`, `permit-pdp-url`. | `gcloud secrets versions access latest --secret=...` returns each. |
