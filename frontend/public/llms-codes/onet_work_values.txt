@@ -1,0 +1,14 @@
+[OV] O*NET Work Values
+[OV.01] Achievement
+[OV.02] Working Conditions
+[OV.03] Recognition
+[OV.04] Relationships
+[OV.05] Support
+[OV.06] Independence
+[OV.07] Ability Utilization
+[OV.08] Compensation
+[OV.09] Security
+[OV.10] Advancement
+[OV.11] Creativity
+[OV.12] Authority
+[OV.13] Social Status

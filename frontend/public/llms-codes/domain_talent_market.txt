@@ -1,0 +1,18 @@
+[tm_model] Engagement Models :: naics_2022:5613, naics_2022:5614
+[tm_model_fte] Contract-to-hire (temp-to-perm)
+[tm_model_managed] Managed services
+[tm_model_proj] Project-based engagement
+[tm_model_retain] Retainer-based engagement
+[tm_model_sow] Statement of work (SOW)
+[tm_type] Platform Types :: naics_2022:5613, naics_2022:5614
+[tm_type_direct] Direct sourcing platform
+[tm_type_exec] Executive search platform
+[tm_type_free] Freelance marketplace (Upwork, Fiverr)
+[tm_type_internal] Internal talent marketplace
+[tm_type_staff] Staffing platform (temp, contract)
+[tm_worker] Worker Categories :: naics_2022:5613, naics_2022:5614
+[tm_worker_blue] Blue-collar and skilled trades
+[tm_worker_care] Care workers (healthcare, childcare)
+[tm_worker_creative] Creative professionals (design, content)
+[tm_worker_gig] Gig economy workers (delivery, rideshare)
+[tm_worker_know] Knowledge workers (tech, consulting)

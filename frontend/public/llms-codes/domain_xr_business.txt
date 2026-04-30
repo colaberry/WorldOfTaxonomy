@@ -1,0 +1,17 @@
+[dxrbiz_ads] Advertising and Sponsorship Revenue :: naics_2022:5121, naics_2022:7139
+[dxrbiz_ads_ar_overlay] AR display advertising (location-based AR overlays)
+[dxrbiz_ads_immersive] Immersive advertising in virtual environments (in-game, branded spaces)
+[dxrbiz_hardware] Hardware and Device Sales :: naics_2022:5121, naics_2022:7139
+[dxrbiz_hardware_accessory] Controllers, haptics, and peripheral accessories
+[dxrbiz_hardware_b2b] Enterprise hardware bundles and managed device programs
+[dxrbiz_hardware_headset] Standalone and tethered headset sales (Meta, Apple Vision Pro, Pico)
+[dxrbiz_platform] Platform and Marketplace Revenue :: naics_2022:5121, naics_2022:7139
+[dxrbiz_platform_appstore] App store revenue share (Meta Quest Store, PlayStation Store)
+[dxrbiz_platform_land] Virtual land and real estate in metaverse platforms
+[dxrbiz_platform_virtualgood] Virtual goods, digital item and avatar economy
+[dxrbiz_saas] Enterprise SaaS and Subscription Licensing :: naics_2022:5121, naics_2022:7139
+[dxrbiz_saas_b2b] Per-seat or usage-based B2B licensing (training, simulation)
+[dxrbiz_saas_sdk] Developer SDK and platform fee for XR app builders
+[dxrbiz_services] Professional Services and Content Creation :: naics_2022:5121, naics_2022:7139
+[dxrbiz_services_consult] XR strategy consulting and implementation services
+[dxrbiz_services_content] XR content production and experience development

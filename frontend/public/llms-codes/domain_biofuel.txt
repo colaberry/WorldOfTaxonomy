@@ -1,0 +1,14 @@
+[BF] Biofuel Generation Types :: naics_2022:2211
+[BF.01] First-Generation (Food Crop)
+[BF.02] Second-Generation (Cellulosic)
+[BF.03] Third-Generation (Algae)
+[BF.04] Fourth-Generation (Synthetic)
+[BF.05] Bioethanol
+[BF.06] Biodiesel (FAME)
+[BF.07] Renewable Diesel (HVO)
+[BF.08] Sustainable Aviation Fuel (SAF)
+[BF.09] Biogas and Biomethane
+[BF.10] Bio-Butanol
+[BF.11] Fischer-Tropsch Fuel
+[BF.12] Pyrolysis Oil
+[BF.13] Waste-to-Fuel

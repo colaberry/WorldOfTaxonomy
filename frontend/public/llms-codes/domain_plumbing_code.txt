@@ -1,0 +1,16 @@
+[pl_code] Code Standards :: naics_2022:5419
+[pl_code_ipc] International Plumbing Code (IPC)
+[pl_code_nsf] NSF/ANSI standards (water treatment)
+[pl_code_upc] Uniform Plumbing Code (UPC)
+[pl_mat] Piping Materials :: naics_2022:5419
+[pl_mat_cast] Cast iron (hub, hubless)
+[pl_mat_copper] Copper (Type K, L, M)
+[pl_mat_cpvc] CPVC (chlorinated PVC)
+[pl_mat_pex] PEX (cross-linked polyethylene)
+[pl_mat_pvc] PVC (DWV applications)
+[pl_sys] Plumbing Systems :: naics_2022:5419
+[pl_sys_dws] Drain, waste and vent (DWV)
+[pl_sys_fire] Fire protection piping (wet, dry standpipe)
+[pl_sys_hot] Hot water systems (storage, tankless, recirculating)
+[pl_sys_storm] Stormwater drainage
+[pl_sys_supply] Water supply and distribution

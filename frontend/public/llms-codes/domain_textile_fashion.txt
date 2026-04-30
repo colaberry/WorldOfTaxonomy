@@ -1,0 +1,25 @@
+[dtf_apparel] Apparel Design :: naics_2022:315
+[dtf_apparel_access] Fashion Accessories and Footwear Design
+[dtf_apparel_rtw] Ready-to-Wear Apparel Design
+[dtf_apparel_sport] Sportswear and Activewear Design
+[dtf_apparel_sustain] Sustainable and Ethical Fashion Design
+[dtf_fabric] Fabric Manufacturing :: naics_2022:315
+[dtf_fabric_dye] Textile Dyeing and Finishing
+[dtf_fabric_knit] Knitted and Crocheted Fabric Production
+[dtf_fabric_nonwoven] Nonwoven Fabric and Technical Textiles
+[dtf_fabric_woven] Woven Fabric Production
+[dtf_fast] Fast Fashion :: naics_2022:315
+[dtf_fast_ecomm] Direct-to-Consumer Fashion E-Commerce
+[dtf_fast_mass] Mass-Market Fast Fashion Production
+[dtf_fast_supply] Fast Fashion Supply Chain and Sourcing
+[dtf_fast_ultra] Ultra-Fast Fashion and On-Demand Manufacturing
+[dtf_fiber] Fiber and Yarn :: naics_2022:315
+[dtf_fiber_blend] Blended and Composite Yarn Manufacturing
+[dtf_fiber_natural] Natural Fiber Processing (cotton, wool, silk, linen)
+[dtf_fiber_reclaim] Recycled and Reclaimed Fiber Processing
+[dtf_fiber_synthetic] Synthetic Fiber Production (polyester, nylon)
+[dtf_luxury] Luxury and Haute Couture :: naics_2022:315
+[dtf_luxury_artisan] Artisan Craftsmanship and Heritage Textiles
+[dtf_luxury_brand] Luxury Brand Management and Licensing
+[dtf_luxury_couture] Haute Couture and Bespoke Fashion
+[dtf_luxury_resale] Luxury Resale and Authentication Services

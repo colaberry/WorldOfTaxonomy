@@ -1,0 +1,35 @@
+[daln_cap] USDA Land Capability Classification :: naics_2022:111, naics_2022:112
+[daln_cap_1] Class I - Excellent, Few Limitations
+[daln_cap_2] Class II - Good, Moderate Limitations
+[daln_cap_3] Class III - Moderately Good, Severe Limitations
+[daln_cap_4] Class IV - Fair, Very Severe Limitations
+[daln_cap_56] Classes V-VI - Limited Cropland Use
+[daln_cap_78] Classes VII-VIII - Non-Cropland (range, forest)
+[daln_climate] Climate and Temperature Zone :: naics_2022:111, naics_2022:112
+[daln_climate_humid] Humid Continental (freeze-thaw cycle, adequate rain)
+[daln_climate_med] Mediterranean and Dry-Summer (CA Central Valley)
+[daln_climate_semi] Semi-Arid and Sub-Humid (less than 20 in/year rain)
+[daln_climate_trop] Subtropical and Tropical (FL, HI, PR - frost-free)
+[daln_region] Major Agricultural Region and Growing Zone :: naics_2022:111, naics_2022:112
+[daln_region_appala] Appalachian (VA, NC, KY - tobacco, burley)
+[daln_region_corn] Corn Belt (IA, IL, IN, OH, MN, SD)
+[daln_region_lake] Lake States (MI, WI, MN - dairy, vegetables)
+[daln_region_plains] Great Plains (KS, NE, ND, TX Panhandle)
+[daln_region_south] Southeast and Delta (MS, AR, LA, AL cotton and rice)
+[daln_region_west] Western Irrigated (CA, WA, ID, AZ specialty crops)
+[daln_soil] Soil Type and Texture Class :: naics_2022:111, naics_2022:112
+[daln_soil_clay] Clay and Clay Loam (high water retention)
+[daln_soil_muck] Organic and Muck Soils (histosols, high vegetable use)
+[daln_soil_rocky] Rocky and Shallow Soils (limited tillage depth)
+[daln_soil_sand] Sandy and Sandy Loam (low retention, irrigation req)
+[daln_soil_silt] Silt and Silt Loam (loess deposits, high productivity)
+[daln_tenure] Land Use and Tenure Classification :: naics_2022:111, naics_2022:112
+[daln_tenure_cash] Cash Rent Farmland (fixed annual rent per acre)
+[daln_tenure_crp] Conservation Reserve Program (CRP) Enrolled Land
+[daln_tenure_owned] Owner-Operated Farmland
+[daln_tenure_share] Crop Share Farmland (landlord shares output)
+[daln_water] Water Availability and Hydrology :: naics_2022:111, naics_2022:112
+[daln_water_dryland] Dryland / Rainfed (dependent on precipitation only)
+[daln_water_flood] Floodplain and Hydric (seasonal inundation risk)
+[daln_water_irrig] Irrigated Farmland (surface or groundwater applied)
+[daln_water_tile] Tile-Drained Cropland (subsurface drainage installed)

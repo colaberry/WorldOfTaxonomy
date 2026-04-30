@@ -1,0 +1,25 @@
+[dfm_agro] Agroforestry :: naics_2022:113
+[dfm_agro_alley] Alley Cropping and Intercropping Systems
+[dfm_agro_riparian] Riparian and Windbreak Buffer Plantings
+[dfm_agro_silvo] Silvopasture and Livestock-Forest Integration
+[dfm_agro_tropical] Tropical Agroforestry and Shade-Grown Crops
+[dfm_conserve] Forest Conservation :: naics_2022:113
+[dfm_conserve_biodiv] Biodiversity Monitoring and Wildlife Habitat
+[dfm_conserve_fire] Wildfire Prevention and Forest Fire Management
+[dfm_conserve_pest] Forest Pest and Disease Control
+[dfm_conserve_protect] Protected Area and National Forest Management
+[dfm_product] Forest Products :: naics_2022:113
+[dfm_product_biomass] Forest Biomass and Wood Energy Products
+[dfm_product_lumber] Lumber and Sawn Wood Products
+[dfm_product_nontimber] Non-Timber Forest Products (resins, nuts, fungi)
+[dfm_product_pulp] Pulp, Paper, and Cellulose Products
+[dfm_reforest] Reforestation :: naics_2022:113
+[dfm_reforest_carbon] Carbon Offset and Forest Credit Programs
+[dfm_reforest_nursery] Forest Nursery and Seedling Production
+[dfm_reforest_plant] Reforestation and Afforestation Programs
+[dfm_reforest_restore] Degraded Land Restoration and Rewilding
+[dfm_timber] Timber Production :: naics_2022:113
+[dfm_timber_hardwood] Hardwood Timber Harvesting (oak, maple, teak)
+[dfm_timber_plantation] Plantation Forestry and Tree Farming
+[dfm_timber_selective] Selective and Sustainable Logging
+[dfm_timber_softwood] Softwood Timber Harvesting (pine, spruce, fir)

@@ -1,0 +1,21 @@
+[pp_infra] Processing Infrastructure :: naics_2022:522, naics_2022:5223
+[pp_infra_acquir] Acquiring bank
+[pp_infra_gateway] Payment gateway
+[pp_infra_iso] ISO/agent (independent sales org)
+[pp_infra_pf] Payment facilitator (PayFac)
+[pp_infra_proc] Payment processor
+[pp_infra_scheme] Card network/scheme (Visa, MC, Amex)
+[pp_meth] Payment Methods :: naics_2022:522, naics_2022:5223
+[pp_meth_ach] ACH and bank transfers
+[pp_meth_card] Card payments (credit, debit, prepaid)
+[pp_meth_cb] Central bank digital currency (CBDC)
+[pp_meth_crypto] Cryptocurrency payments
+[pp_meth_mobile] Mobile payments (NFC, QR, in-app)
+[pp_meth_wire] Wire transfers (SWIFT, CHIPS, Fedwire)
+[pp_settle] Settlement Types :: naics_2022:522, naics_2022:5223
+[pp_settle_dvp] Delivery vs payment (DvP)
+[pp_settle_net] Net settlement (batch)
+[pp_settle_rt] Real-time gross settlement (RTGS)
+[pp_settle_t0] T+0 same-day settlement
+[pp_settle_t1] T+1 settlement
+[pp_settle_t2] T+2 securities settlement

@@ -1,0 +1,17 @@
+[iot_cons] Consumer IoT :: naics_2022:518, naics_2022:5415
+[iot_cons_auto] Connected vehicle systems
+[iot_cons_home] Smart home devices (thermostat, lighting, locks)
+[iot_cons_voice] Voice assistants and smart speakers
+[iot_cons_wear] Wearables (fitness, smartwatch, health)
+[iot_ind] Industrial IoT (IIoT) :: naics_2022:518, naics_2022:5415
+[iot_ind_agri] Agricultural IoT (soil, weather, livestock)
+[iot_ind_city] Smart city infrastructure
+[iot_ind_energy] Energy grid IoT (smart meters, SCADA)
+[iot_ind_health] Healthcare IoT (remote patient monitoring)
+[iot_ind_mfg] Manufacturing sensors and controllers
+[iot_infra] IoT Infrastructure :: naics_2022:518, naics_2022:5415
+[iot_infra_conn] Connectivity (LoRaWAN, NB-IoT, 5G, Zigbee)
+[iot_infra_gate] IoT gateways and edge devices
+[iot_infra_plat] IoT platforms (AWS IoT, Azure IoT)
+[iot_infra_sec] IoT security (device identity, firmware)
+[iot_infra_twin] Digital twin integration

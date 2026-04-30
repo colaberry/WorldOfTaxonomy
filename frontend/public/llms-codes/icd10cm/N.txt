@@ -1,0 +1,1037 @@
+[N00] Acute nephritic syndrome -- **Includes:** - acute glomerular disease - acute glomerulonephritis - acute nephritis  **Excludes1:** - acute tubulo-interstitial nephritis (N10) - nephritic syndrome NOS (N05.-)
+[N000] Acute nephritic syndrome with minor glomerular abnormality -- **Inclusion terms:** - Acute nephritic syndrome with minimal change lesion
+[N001] Acute nephritic syndrome with focal and segmental glomerular lesions -- **Inclusion terms:** - Acute nephritic syndrome with focal and segmental hyalinosis - Acute nephritic syndrome with focal and segmental sclerosis - Acute nephritic syndrome with focal glomerulonephritis
+[N002] Acute nephritic syndrome with diffuse membranous glomerulonephritis
+[N003] Acute nephritic syndrome with diffuse mesangial proliferative glomerulonephritis
+[N004] Acute nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis
+[N005] Acute nephritic syndrome with diffuse mesangiocapillary glomerulonephritis -- **Inclusion terms:** - Acute nephritic syndrome with membranoproliferative glomerulonephritis, types 1 and 3, or NOS  **Excludes1:** - Acute nephritic syndrome with C3 glomerulonephritis (N00.A) - Acute nephritic syndrome with C3 glomerulopathy (N00.A)
+[N006] Acute nephritic syndrome with dense deposit disease -- **Inclusion terms:** - Acute nephritic syndrome with C3 glomerulopathy with dense deposit disease - Acute nephritic syndrome with membranoproliferative glomerulonephritis, type 2
+[N007] Acute nephritic syndrome with diffuse crescentic glomerulonephritis -- **Inclusion terms:** - Acute nephritic syndrome with extracapillary glomerulonephritis
+[N008] Acute nephritic syndrome with other morphologic changes -- **Inclusion terms:** - Acute nephritic syndrome with proliferative glomerulonephritis NOS
+[N009] Acute nephritic syndrome with unspecified morphologic changes
+[N00A] Acute nephritic syndrome with C3 glomerulonephritis -- **Inclusion terms:** - Acute nephritic syndrome with C3 glomerulopathy, NOS  **Excludes1:** - Acute nephritic syndrome (with C3 glomerulopathy) with dense deposit disease (N00.6)
+[N01] Rapidly progressive nephritic syndrome -- **Includes:** - rapidly progressive glomerular disease - rapidly progressive glomerulonephritis - rapidly progressive nephritis  **Excludes1:** - nephritic syndrome NOS (N05.-)
+[N010] Rapidly progressive nephritic syndrome with minor glomerular abnormality -- **Inclusion terms:** - Rapidly progressive nephritic syndrome with minimal change lesion
+[N011] Rapidly progressive nephritic syndrome with focal and segmental glomerular lesions -- **Inclusion terms:** - Rapidly progressive nephritic syndrome with focal and segmental hyalinosis - Rapidly progressive nephritic syndrome with focal and segmental sclerosis - Rapidly progressive nephritic syndrome with focal glomerulonephritis
+[N012] Rapidly progressive nephritic syndrome with diffuse membranous glomerulonephritis
+[N013] Rapidly progressive nephritic syndrome with diffuse mesangial proliferative glomerulonephritis
+[N014] Rapidly progressive nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis
+[N015] Rapidly progressive nephritic syndrome with diffuse mesangiocapillary glomerulonephritis -- **Inclusion terms:** - Rapidly progressive nephritic syndrome with membranoproliferative glomerulonephritis, types 1 and 3, or NOS  **Excludes1:** - Rapidly progressive nephritic syndrome with C3 glomerulonephritis (N01.A) - Rapidly progressive nephritic syndrome with C3 glomerulopathy (N01.A)
+[N016] Rapidly progressive nephritic syndrome with dense deposit disease -- **Inclusion terms:** - Rapidly progressive nephritic syndrome with C3 glomerulopathy with dense deposit disease - Rapidly progressive nephritic syndrome with membranoproliferative glomerulonephritis, type 2
+[N017] Rapidly progressive nephritic syndrome with diffuse crescentic glomerulonephritis -- **Inclusion terms:** - Rapidly progressive nephritic syndrome with extracapillary glomerulonephritis
+[N018] Rapidly progressive nephritic syndrome with other morphologic changes -- **Inclusion terms:** - Rapidly progressive nephritic syndrome with proliferative glomerulonephritis NOS
+[N019] Rapidly progressive nephritic syndrome with unspecified morphologic changes
+[N01A] Rapidly progressive nephritic syndrome with C3 glomerulonephritis -- **Inclusion terms:** - Rapidly progressive nephritic syndrome with C3 glomerulopathy, NOS  **Excludes1:** - Rapidly progressive nephritic syndrome (with C3 glomerulopathy) with dense deposit disease (N01.6)
+[N02] Recurrent and persistent hematuria -- **Excludes1:** - acute cystitis with hematuria (N30.01) - hematuria NOS (R31.9) - hematuria not associated with specified morphologic lesions (R31.-)
+[N020] Recurrent and persistent hematuria with minor glomerular abnormality -- **Inclusion terms:** - Recurrent and persistent hematuria with minimal change lesion
+[N021] Recurrent and persistent hematuria with focal and segmental glomerular lesions -- **Inclusion terms:** - Recurrent and persistent hematuria with focal and segmental hyalinosis - Recurrent and persistent hematuria with focal and segmental sclerosis - Recurrent and persistent hematuria with focal glomerulonephritis
+[N022] Recurrent and persistent hematuria with diffuse membranous glomerulonephritis
+[N023] Recurrent and persistent hematuria with diffuse mesangial proliferative glomerulonephritis
+[N024] Recurrent and persistent hematuria with diffuse endocapillary proliferative glomerulonephritis
+[N025] Recurrent and persistent hematuria with diffuse mesangiocapillary glomerulonephritis -- **Inclusion terms:** - Recurrent and persistent hematuria with membranoproliferative glomerulonephritis, types 1 and 3, or NOS  **Excludes1:** - Recurrent and persistent hematuria with C3 glomerulonephritis (N02.A) - Recurrent and persistent hematuria with C3 glomerulopathy (N02.A)
+[N026] Recurrent and persistent hematuria with dense deposit disease -- **Inclusion terms:** - Recurrent and persistent hematuria with C3 glomerulopathy with dense deposit disease - Recurrent and persistent hematuria with membranoproliferative glomerulonephritis, type 2
+[N027] Recurrent and persistent hematuria with diffuse crescentic glomerulonephritis -- **Inclusion terms:** - Recurrent and persistent hematuria with extracapillary glomerulonephritis
+[N028] Recurrent and persistent hematuria with other morphologic changes -- **Inclusion terms:** - Recurrent and persistent hematuria with proliferative glomerulonephritis NOS
+[N029] Recurrent and persistent hematuria with unspecified morphologic changes
+[N02A] Recurrent and persistent hematuria with C3 glomerulonephritis -- **Inclusion terms:** - Recurrent and persistent hematuria with C3 glomerulopathy  **Excludes1:** - Recurrent and persistent hematuria (with C3 glomerulopathy) with dense deposit disease (N02.6)
+[N02B] Recurrent and persistent immunoglobulin A nephropathy
+[N02B1] Recurrent and persistent immunoglobulin A nephropathy with glomerular lesion
+[N02B2] Recurrent and persistent immunoglobulin A nephropathy with focal and segmental glomerular lesion -- **Inclusion terms:** - Recurrent and persistent immunoglobulin A nephropathy with focal and segmental hyalinosis or sclerosis
+[N02B3] Recurrent and persistent immunoglobulin A nephropathy with diffuse membranoproliferative glomerulonephritis
+[N02B4] Recurrent and persistent immunoglobulin A nephropathy with diffuse membranous glomerulonephritis
+[N02B5] Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangial proliferative glomerulonephritis
+[N02B6] Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangiocapillary glomerulonephritis
+[N02B9] Other recurrent and persistent immunoglobulin A nephropathy
+[N03] Chronic nephritic syndrome -- **Includes:** - chronic glomerular disease - chronic glomerulonephritis - chronic nephritis  **Excludes1:** - chronic tubulo-interstitial nephritis (N11.-) - diffuse sclerosing glomerulonephritis (N05.8-) - nephritic syndrome NOS (N05.-)
+[N030] Chronic nephritic syndrome with minor glomerular abnormality -- **Inclusion terms:** - Chronic nephritic syndrome with minimal change lesion
+[N031] Chronic nephritic syndrome with focal and segmental glomerular lesions -- **Inclusion terms:** - Chronic nephritic syndrome with focal and segmental hyalinosis - Chronic nephritic syndrome with focal and segmental sclerosis - Chronic nephritic syndrome with focal glomerulonephritis
+[N032] Chronic nephritic syndrome with diffuse membranous glomerulonephritis
+[N033] Chronic nephritic syndrome with diffuse mesangial proliferative glomerulonephritis
+[N034] Chronic nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis
+[N035] Chronic nephritic syndrome with diffuse mesangiocapillary glomerulonephritis -- **Inclusion terms:** - Chronic nephritic syndrome with membranoproliferative glomerulonephritis, types 1 and 3, or NOS  **Excludes1:** - Chronic nephritic syndrome with C3 glomerulonephritis (N03.A) - Chronic nephritic syndrome with C3 glomerulopathy (N03.A)
+[N036] Chronic nephritic syndrome with dense deposit disease -- **Inclusion terms:** - Chronic nephritic syndrome with C3 glomerulopathy with dense deposit disease - Chronic nephritic syndrome with membranoproliferative glomerulonephritis, type 2
+[N037] Chronic nephritic syndrome with diffuse crescentic glomerulonephritis -- **Inclusion terms:** - Chronic nephritic syndrome with extracapillary glomerulonephritis
+[N038] Chronic nephritic syndrome with other morphologic changes -- **Inclusion terms:** - Chronic nephritic syndrome with proliferative glomerulonephritis NOS
+[N039] Chronic nephritic syndrome with unspecified morphologic changes
+[N03A] Chronic nephritic syndrome with C3 glomerulonephritis -- **Inclusion terms:** - Chronic nephritic syndrome with C3 glomerulopathy  **Excludes1:** - Chronic nephritic syndrome (with C3 glomerulopathy) with dense deposit disease (N03.6)
+[N04] Nephrotic syndrome -- **Includes:** - congenital nephrotic syndrome - lipoid nephrosis
+[N040] Nephrotic syndrome with minor glomerular abnormality -- **Inclusion terms:** - Nephrotic syndrome with minimal change lesion
+[N041] Nephrotic syndrome with focal and segmental glomerular lesions -- **Inclusion terms:** - Nephrotic syndrome with focal and segmental hyalinosis - Nephrotic syndrome with focal and segmental sclerosis - Nephrotic syndrome with focal glomerulonephritis
+[N042] Nephrotic syndrome with diffuse membranous glomerulonephritis
+[N0420] Nephrotic syndrome with diffuse membranous glomerulonephritis, unspecified -- **Inclusion terms:** - Membranous nephropathy NOS with nephrotic syndrome
+[N0421] Primary membranous nephropathy with nephrotic syndrome -- **Inclusion terms:** - Idiopathic membranous nephropathy with nephrotic syndrome
+[N0422] Secondary membranous nephropathy with nephrotic syndrome -- **Code first:** - , if applicable, other disease or disorder or poisoning causing membranous nephropathy  **Use additional code:** - code, if applicable, for adverse effect of drug causing membranous nephropathy
+[N0429] Other nephrotic syndrome with diffuse membranous glomerulonephritis
+[N043] Nephrotic syndrome with diffuse mesangial proliferative glomerulonephritis
+[N044] Nephrotic syndrome with diffuse endocapillary proliferative glomerulonephritis
+[N045] Nephrotic syndrome with diffuse mesangiocapillary glomerulonephritis -- **Inclusion terms:** - Nephrotic syndrome with membranoproliferative glomerulonephritis, types 1 and 3, or NOS  **Excludes1:** - Nephrotic syndrome with C3 glomerulonephritis (N04.A) - Nephrotic syndrome with C3 glomerulopathy (N04.A)
+[N046] Nephrotic syndrome with dense deposit disease -- **Inclusion terms:** - Nephrotic syndrome with C3 glomerulopathy with dense deposit disease - Nephrotic syndrome with membranoproliferative glomerulonephritis, type 2
+[N047] Nephrotic syndrome with diffuse crescentic glomerulonephritis -- **Inclusion terms:** - Nephrotic syndrome with extracapillary glomerulonephritis
+[N048] Nephrotic syndrome with other morphologic changes -- **Inclusion terms:** - Nephrotic syndrome with proliferative glomerulonephritis NOS
+[N049] Nephrotic syndrome with unspecified morphologic changes
+[N04A] Nephrotic syndrome with C3 glomerulonephritis -- **Inclusion terms:** - Nephrotic syndrome with C3 glomerulopathy  **Excludes1:** - Nephrotic syndrome (with C3 glomerulopathy) with dense deposit disease (N04.6)
+[N05] Unspecified nephritic syndrome -- **Includes:** - glomerular disease NOS - glomerulonephritis NOS - nephritis NOS - nephropathy NOS and renal disease NOS with morphological lesion specified in .0-.8  **Excludes1:** - nephropathy NOS with no stated morphological lesion (N28.9) - renal disease NOS with no stated morphological lesion (N28.9) - tubulo-interstitial nephritis NOS (N12)
+[N050] Unspecified nephritic syndrome with minor glomerular abnormality -- **Inclusion terms:** - Unspecified nephritic syndrome with minimal change lesion
+[N051] Unspecified nephritic syndrome with focal and segmental glomerular lesions -- **Inclusion terms:** - Unspecified nephritic syndrome with focal and segmental hyalinosis - Unspecified nephritic syndrome with focal and segmental sclerosis - Unspecified nephritic syndrome with focal glomerulonephritis
+[N052] Unspecified nephritic syndrome with diffuse membranous glomerulonephritis
+[N053] Unspecified nephritic syndrome with diffuse mesangial proliferative glomerulonephritis
+[N054] Unspecified nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis
+[N055] Unspecified nephritic syndrome with diffuse mesangiocapillary glomerulonephritis -- **Inclusion terms:** - Unspecified nephritic syndrome with membranoproliferative glomerulonephritis, types 1 and 3, or NOS  **Excludes1:** - Unspecified nephritic syndrome with C3 glomerulonephritis (N05.A) - Unspecified nephritic syndrome with C3 glomerulopathy (N05.A)
+[N056] Unspecified nephritic syndrome with dense deposit disease -- **Inclusion terms:** - Unspecified nephritic syndrome with C3 glomerulopathy with dense deposit disease - Unspecified nephritic syndrome with membranoproliferative glomerulonephritis, type 2
+[N057] Unspecified nephritic syndrome with diffuse crescentic glomerulonephritis -- **Inclusion terms:** - Unspecified nephritic syndrome with extracapillary glomerulonephritis
+[N058] Unspecified nephritic syndrome with other morphologic changes -- **Inclusion terms:** - Unspecified nephritic syndrome with proliferative glomerulonephritis NOS
+[N059] Unspecified nephritic syndrome with unspecified morphologic changes
+[N05A] Unspecified nephritic syndrome with C3 glomerulonephritis -- **Inclusion terms:** - Unspecified nephritic syndrome with C3 glomerulopathy  **Excludes1:** - Unspecified nephritic syndrome (with C3 glomerulopathy) with dense deposit disease (N05.6)
+[N06] Isolated proteinuria with specified morphological lesion -- **Excludes1:** - Proteinuria not associated with specific morphologic lesions (R80.0)
+[N060] Isolated proteinuria with minor glomerular abnormality -- **Inclusion terms:** - Isolated proteinuria with minimal change lesion
+[N061] Isolated proteinuria with focal and segmental glomerular lesions -- **Inclusion terms:** - Isolated proteinuria with focal and segmental hyalinosis - Isolated proteinuria with focal and segmental sclerosis - Isolated proteinuria with focal glomerulonephritis
+[N062] Isolated proteinuria with diffuse membranous glomerulonephritis
+[N0620] Isolated proteinuria with diffuse membranous glomerulonephritis, unspecified -- **Inclusion terms:** - Membranous nephropathy, NOS  **Excludes1:** - membranous nephropathy NOS with nephrotic syndrome (N04.20)
+[N0621] Primary membranous nephropathy with isolated proteinuria -- **Inclusion terms:** - Idiopathic membranous nephropathy (with isolated proteinuria) - Primary membranous nephropathy, NOS  **Excludes1:** - primary membranous nephropathy with nephrotic syndrome (N04.21)
+[N0622] Secondary membranous nephropathy with isolated proteinuria -- **Inclusion terms:** - Secondary membranous nephropathy, NOS  **Excludes1:** - secondary membranous nephropathy with nephrotic syndrome (N04.22)  **Code first:** - , if applicable, other disease or disorder or poisoning causing membranous nephropathy  **Use additional code:** - code, if applicable, for adverse effect of drug causing membranous nephropathy
+[N0629] Other isolated proteinuria with diffuse membranous glomerulonephritis
+[N063] Isolated proteinuria with diffuse mesangial proliferative glomerulonephritis
+[N064] Isolated proteinuria with diffuse endocapillary proliferative glomerulonephritis
+[N065] Isolated proteinuria with diffuse mesangiocapillary glomerulonephritis -- **Inclusion terms:** - Isolated proteinuria with membranoproliferative glomerulonephritis, types 1 and 3, or NOS  **Excludes1:** - Isolated proteinuria with C3 glomerulonephritis (N06.A) - Isolated proteinuria with C3 glomerulopathy (N06.A)
+[N066] Isolated proteinuria with dense deposit disease -- **Inclusion terms:** - Isolated proteinuria with C3 glomerulopathy with dense deposit disease - Isolated proteinuria with membranoproliferative glomerulonephritis, type 2
+[N067] Isolated proteinuria with diffuse crescentic glomerulonephritis -- **Inclusion terms:** - Isolated proteinuria with extracapillary glomerulonephritis
+[N068] Isolated proteinuria with other morphologic lesion -- **Inclusion terms:** - Isolated proteinuria with proliferative glomerulonephritis NOS
+[N069] Isolated proteinuria with unspecified morphologic lesion
+[N06A] Isolated proteinuria with C3 glomerulonephritis -- **Inclusion terms:** - Isolated proteinuria with C3 glomerulopathy  **Excludes1:** - Isolated proteinuria (with C3 glomerulopathy) with dense deposit disease (N06.6)
+[N07] Hereditary nephropathy, not elsewhere classified -- **Excludes2:** - Alport's syndrome (Q87.81-) - hereditary amyloid nephropathy (E85.-) - nail patella syndrome (Q87.2) - non-neuropathic heredofamilial amyloidosis (E85.-)
+[N070] Hereditary nephropathy, not elsewhere classified with minor glomerular abnormality -- **Inclusion terms:** - Hereditary nephropathy, not elsewhere classified with minimal change lesion
+[N071] Hereditary nephropathy, not elsewhere classified with focal and segmental glomerular lesions -- **Inclusion terms:** - Hereditary nephropathy, not elsewhere classified with focal and segmental hyalinosis - Hereditary nephropathy, not elsewhere classified with focal and segmental sclerosis - Hereditary nephropathy, not elsewhere classified with focal glomerulonephritis
+[N072] Hereditary nephropathy, not elsewhere classified with diffuse membranous glomerulonephritis
+[N073] Hereditary nephropathy, not elsewhere classified with diffuse mesangial proliferative glomerulonephritis
+[N074] Hereditary nephropathy, not elsewhere classified with diffuse endocapillary proliferative glomerulonephritis
+[N075] Hereditary nephropathy, not elsewhere classified with diffuse mesangiocapillary glomerulonephritis -- **Inclusion terms:** - Hereditary nephropathy, not elsewhere classified with membranoproliferative glomerulonephritis, types 1 and 3, or NOS  **Excludes1:** - Hereditary nephropathy, not elsewhere classified with C3 glomerulonephritis (N07.A) - Hereditary nephropathy, not elsewhere classified with C3 glomerulopathy (N07.A)
+[N076] Hereditary nephropathy, not elsewhere classified with dense deposit disease -- **Inclusion terms:** - Hereditary nephropathy, not elsewhere classified with C3 glomerulopathy with dense deposit disease - Hereditary nephropathy, not elsewhere classified with membranoproliferative glomerulonephritis, type 2
+[N077] Hereditary nephropathy, not elsewhere classified with diffuse crescentic glomerulonephritis -- **Inclusion terms:** - Hereditary nephropathy, not elsewhere classified with extracapillary glomerulonephritis
+[N078] Hereditary nephropathy, not elsewhere classified with other morphologic lesions -- **Inclusion terms:** - Hereditary nephropathy, not elsewhere classified with proliferative glomerulonephritis NOS
+[N079] Hereditary nephropathy, not elsewhere classified with unspecified morphologic lesions
+[N07A] Hereditary nephropathy, not elsewhere classified with C3 glomerulonephritis -- **Inclusion terms:** - Hereditary nephropathy, not elsewhere classified with C3 glomerulopathy  **Excludes1:** - Hereditary nephropathy, not elsewhere classified (with C3 glomerulopathy) with dense deposit disease (N07.6)
+[N08] Glomerular disorders in diseases classified elsewhere -- **Inclusion terms:** - Glomerulonephritis - Nephritis - Nephropathy  **Excludes1:** - glomerulonephritis, nephritis and nephropathy (in): - antiglomerular basement membrane disease (M31.0) - diabetes (E08-E13 with .21) - gonococcal (A54.21) - Goodpasture's syndrome (M31.0) - hemolytic-uremic syndrome (D59.3-) - lupus (M32.14) - mumps (B26.83) - syphilis (A52.75) - systemic lupus erythematosus (M32.14) - Wegener's granulomatosis (M31.31) - pyelonephritis in diseases classified elsewhere (N16) - renal tubulo-interstitial disorders classified elsewhere (N16)  **Code first:** - underlying disease, such as: - amyloidosis (E85.-) - congenital syphilis (A50.5) - cryoglobulinemia (D89.1) - disseminated intravascular coagulation (D65) - gout (M1A.-, M10.-) - microscopic polyangiitis (M31.7) - multiple myeloma (C90.0-) - sepsis (A40.0-A41.9) - sickle-cell disease (D57.0-D57.8)
+[N10] Acute pyelonephritis -- **Inclusion terms:** - Acute infectious interstitial nephritis - Acute pyelitis - Acute tubulo-interstitial nephritis - Hemoglobin nephrosis - Myoglobin nephrosis  **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N11] Chronic tubulo-interstitial nephritis -- **Includes:** - chronic infectious interstitial nephritis - chronic pyelitis - chronic pyelonephritis  **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N110] Nonobstructive reflux-associated chronic pyelonephritis -- **Inclusion terms:** - Pyelonephritis (chronic) associated with (vesicoureteral) reflux  **Excludes1:** - vesicoureteral reflux NOS (N13.70)
+[N111] Chronic obstructive pyelonephritis -- **Inclusion terms:** - Pyelonephritis (chronic) associated with anomaly of pelviureteric junction - Pyelonephritis (chronic) associated with anomaly of pyeloureteric junction - Pyelonephritis (chronic) associated with crossing of vessel - Pyelonephritis (chronic) associated with kinking of ureter - Pyelonephritis (chronic) associated with obstruction of ureter - Pyelonephritis (chronic) associated with stricture of pelviureteric junction - Pyelonephritis (chronic) associated with stricture of ureter  **Excludes1:** - calculous pyelonephritis (N20.9) - obstructive uropathy (N13.-)
+[N118] Other chronic tubulo-interstitial nephritis -- **Inclusion terms:** - Nonobstructive chronic pyelonephritis NOS
+[N119] Chronic tubulo-interstitial nephritis, unspecified -- **Inclusion terms:** - Chronic interstitial nephritis NOS - Chronic pyelitis NOS - Chronic pyelonephritis NOS
+[N12] Tubulo-interstitial nephritis, not specified as acute or chronic -- **Inclusion terms:** - Interstitial nephritis NOS - Pyelitis NOS - Pyelonephritis NOS  **Excludes1:** - calculous pyelonephritis (N20.9)
+[N13] Obstructive and reflux uropathy -- **Excludes2:** - calculus of kidney and ureter without hydronephrosis (N20.-) - congenital obstructive defects of renal pelvis and ureter (Q62.0-Q62.3) - hydronephrosis with ureteropelvic junction obstruction (Q62.11) - obstructive pyelonephritis (N11.1)
+[N130] Hydronephrosis with ureteropelvic junction obstruction -- **Inclusion terms:** - Hydronephrosis due to acquired occlusion of ureteropelvic junction  **Excludes2:** - Hydronephrosis with ureteropelvic junction obstruction due to calculus (N13.2)
+[N131] Hydronephrosis with ureteral stricture, not elsewhere classified -- **Excludes1:** - Hydronephrosis with ureteral stricture with infection (N13.6)
+[N132] Hydronephrosis with renal and ureteral calculous obstruction -- **Excludes1:** - Hydronephrosis with renal and ureteral calculous obstruction with infection (N13.6)
+[N133] Other and unspecified hydronephrosis -- **Excludes1:** - hydronephrosis with infection (N13.6)
+[N1330] Unspecified hydronephrosis
+[N1339] Other hydronephrosis
+[N134] Hydroureter -- **Excludes1:** - congenital hydroureter (Q62.3-) - hydroureter with infection (N13.6) - vesicoureteral-reflux with hydroureter (N13.73-)
+[N135] Crossing vessel and stricture of ureter without hydronephrosis -- **Inclusion terms:** - Kinking and stricture of ureter without hydronephrosis  **Excludes1:** - Crossing vessel and stricture of ureter without hydronephrosis with infection (N13.6)
+[N136] Pyonephrosis -- **Inclusion terms:** - Conditions in N13.0-N13.5 with infection - Obstructive uropathy with infection  **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N137] Vesicoureteral-reflux -- **Excludes1:** - reflux-associated pyelonephritis (N11.0)
+[N1370] Vesicoureteral-reflux, unspecified -- **Inclusion terms:** - Vesicoureteral-reflux NOS
+[N1371] Vesicoureteral-reflux without reflux nephropathy
+[N1372] Vesicoureteral-reflux with reflux nephropathy without hydroureter
+[N13721] Vesicoureteral-reflux with reflux nephropathy without hydroureter, unilateral
+[N13722] Vesicoureteral-reflux with reflux nephropathy without hydroureter, bilateral
+[N13729] Vesicoureteral-reflux with reflux nephropathy without hydroureter, unspecified
+[N1373] Vesicoureteral-reflux with reflux nephropathy with hydroureter
+[N13731] Vesicoureteral-reflux with reflux nephropathy with hydroureter, unilateral
+[N13732] Vesicoureteral-reflux with reflux nephropathy with hydroureter, bilateral
+[N13739] Vesicoureteral-reflux with reflux nephropathy with hydroureter, unspecified
+[N138] Other obstructive and reflux uropathy -- **Inclusion terms:** - Urinary tract obstruction due to specified cause  **Code first:** - , if applicable, any causal condition, such as: - enlarged prostate (N40.1)
+[N139] Obstructive and reflux uropathy, unspecified -- **Inclusion terms:** - Urinary tract obstruction NOS
+[N14] Drug- and heavy-metal-induced tubulo-interstitial and tubular conditions -- **Code first:** - poisoning due to drug or toxin, if applicable (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[N140] Analgesic nephropathy
+[N141] Nephropathy induced by other drugs, medicaments and biological substances
+[N1411] Contrast-induced nephropathy -- **Inclusion terms:** - Contrast medium, radiography nephropathy  **Excludes2:** - acute kidney failure (N17.-)
+[N1419] Nephropathy induced by other drugs, medicaments and biological substances
+[N142] Nephropathy induced by unspecified drug, medicament or biological substance
+[N143] Nephropathy induced by heavy metals
+[N144] Toxic nephropathy, not elsewhere classified
+[N15] Other renal tubulo-interstitial diseases
+[N150] Balkan nephropathy -- **Inclusion terms:** - Balkan endemic nephropathy
+[N151] Renal and perinephric abscess
+[N158] Other specified renal tubulo-interstitial diseases
+[N159] Renal tubulo-interstitial disease, unspecified -- **Inclusion terms:** - Infection of kidney NOS  **Excludes1:** - urinary tract infection NOS (N39.0)
+[N16] Renal tubulo-interstitial disorders in diseases classified elsewhere -- **Inclusion terms:** - Pyelonephritis - Tubulo-interstitial nephritis  **Excludes1:** - diphtheritic pyelonephritis and tubulo-interstitial nephritis (A36.84) - pyelonephritis and tubulo-interstitial nephritis in candidiasis (B37.49) - pyelonephritis and tubulo-interstitial nephritis in cystinosis (E72.04) - pyelonephritis and tubulo-interstitial nephritis in salmonella infection (A02.25) - pyelonephritis and tubulo-interstitial nephritis in sarcoidosis (D86.84) - pyelonephritis and tubulo-interstitial nephritis in Sjogren syndrome (M35.04) - pyelonephritis and tubulo-interstitial nephritis in systemic lupus erythematosus (M32.15) - pyelonephritis and tubulo-interstitial nephritis in toxoplasmosis (B58.83) - renal tubular degeneration in diabetes (E08-E13 with .29) - syphilitic pyelonephritis and tubulo-interstitial nephritis (A52.75)  **Code first:** - underlying disease, such as: - brucellosis (A23.0-A23.9) - cryoglobulinemia (D89.1) - glycogen storage disease (E74.0-) - leukemia (C91-C95) - lymphoma (C81.0-C85.9, C96.0-C96.9) - multiple myeloma (C90.0-) - sepsis (A40.0-A41.9) - Wilson's disease (E83.01)
+[N17] Acute kidney failure -- **Excludes1:** - posttraumatic renal failure (T79.5)  **Code also:** - associated underlying condition
+[N170] Acute kidney failure with tubular necrosis -- **Inclusion terms:** - Acute tubular necrosis - Renal tubular necrosis - Tubular necrosis NOS
+[N171] Acute kidney failure with acute cortical necrosis -- **Inclusion terms:** - Acute cortical necrosis - Cortical necrosis NOS - Renal cortical necrosis
+[N172] Acute kidney failure with medullary necrosis -- **Inclusion terms:** - Medullary [papillary] necrosis NOS - Acute medullary [papillary] necrosis - Renal medullary [papillary] necrosis
+[N178] Other acute kidney failure
+[N179] Acute kidney failure, unspecified -- **Inclusion terms:** - Acute kidney injury (nontraumatic)  **Excludes2:** - traumatic kidney injury (S37.0-)
+[N18] Chronic kidney disease (CKD) -- **Code first:** - any associated: - diabetic chronic kidney disease (E08.22, E09.22, E10.22, E11.22, E13.22) - hypertensive chronic kidney disease (I12.-, I13.-)  **Use additional code:** - code to identify kidney transplant status, if applicable, (Z94.0)
+[N181] Chronic kidney disease, stage 1
+[N182] Chronic kidney disease, stage 2 (mild)
+[N183] Chronic kidney disease, stage 3 (moderate)
+[N1830] Chronic kidney disease, stage 3 unspecified
+[N1831] Chronic kidney disease, stage 3a
+[N1832] Chronic kidney disease, stage 3b
+[N184] Chronic kidney disease, stage 4 (severe)
+[N185] Chronic kidney disease, stage 5 -- **Excludes1:** - chronic kidney disease, stage 5 requiring chronic dialysis (N18.6)
+[N186] End stage renal disease -- **Inclusion terms:** - Chronic kidney disease requiring chronic dialysis  **Use additional code:** - code to identify dialysis status (Z99.2)
+[N189] Chronic kidney disease, unspecified -- **Inclusion terms:** - Chronic renal disease - Chronic renal failure NOS - Chronic renal insufficiency - Chronic uremia NOS - Diffuse sclerosing glomerulonephritis NOS
+[N19] Unspecified kidney failure -- **Inclusion terms:** - Uremia NOS  **Excludes1:** - acute kidney failure (N17.-) - chronic kidney disease (N18.-) - chronic uremia (N18.9) - extrarenal uremia (R39.2) - prerenal uremia (R39.2) - renal insufficiency (acute) (N28.9) - uremia of newborn (P96.0)
+[N20] Calculus of kidney and ureter -- **Inclusion terms:** - Calculous pyelonephritis  **Excludes1:** - nephrocalcinosis (E83.59) - that with hydronephrosis (N13.2)
+[N200] Calculus of kidney -- **Inclusion terms:** - Nephrolithiasis NOS - Renal calculus - Renal stone - Staghorn calculus - Stone in kidney
+[N201] Calculus of ureter -- **Inclusion terms:** - Calculus of the ureteropelvic junction - Ureteric stone
+[N202] Calculus of kidney with calculus of ureter
+[N209] Urinary calculus, unspecified
+[N21] Calculus of lower urinary tract -- **Includes:** - calculus of lower urinary tract with cystitis and urethritis
+[N210] Calculus in bladder -- **Inclusion terms:** - Calculus in diverticulum of bladder - Urinary bladder stone  **Excludes2:** - staghorn calculus (N20.0)
+[N211] Calculus in urethra -- **Excludes2:** - calculus of prostate (N42.0)
+[N218] Other lower urinary tract calculus
+[N219] Calculus of lower urinary tract, unspecified -- **Excludes1:** - calculus of urinary tract NOS (N20.9)
+[N22] Calculus of urinary tract in diseases classified elsewhere -- **Code first:** - underlying disease, such as: - gout (M1A.-, M10.-) - schistosomiasis (B65.0-B65.9)
+[N23] Unspecified renal colic
+[N25] Disorders resulting from impaired renal tubular function
+[N250] Renal osteodystrophy -- **Inclusion terms:** - Azotemic osteodystrophy - Phosphate-losing tubular disorders - Renal rickets - Renal short stature  **Excludes2:** - metabolic disorders classifiable to E70-E88
+[N251] Nephrogenic diabetes insipidus -- **Excludes1:** - diabetes insipidus NOS (E23.2)
+[N258] Other disorders resulting from impaired renal tubular function
+[N2581] Secondary hyperparathyroidism of renal origin -- **Excludes1:** - secondary hyperparathyroidism, non-renal (E21.1)  **Excludes2:** - metabolic disorders classifiable to E70-E88
+[N2589] Other disorders resulting from impaired renal tubular function -- **Inclusion terms:** - Hypokalemic nephropathy - Lightwood-Albright syndrome - Renal tubular acidosis NOS
+[N259] Disorder resulting from impaired renal tubular function, unspecified
+[N26] Unspecified contracted kidney -- **Excludes1:** - contracted kidney due to hypertension (I12.-) - diffuse sclerosing glomerulonephritis (N05.8.-) - hypertensive nephrosclerosis (arteriolar) (arteriosclerotic) (I12.-) - small kidney of unknown cause (N27.-)
+[N261] Atrophy of kidney (terminal)
+[N262] Page kidney
+[N269] Renal sclerosis, unspecified
+[N27] Small kidney of unknown cause -- **Includes:** - oligonephronia
+[N270] Small kidney, unilateral
+[N271] Small kidney, bilateral
+[N279] Small kidney, unspecified
+[N28] Other disorders of kidney and ureter, not elsewhere classified
+[N280] Ischemia and infarction of kidney -- **Inclusion terms:** - Renal artery embolism - Renal artery obstruction - Renal artery occlusion - Renal artery thrombosis - Renal infarct  **Excludes1:** - atherosclerosis of renal artery (extrarenal part) (I70.1) - congenital stenosis of renal artery (Q27.1) - Goldblatt's kidney (I70.1)
+[N281] Cyst of kidney, acquired -- **Inclusion terms:** - Cyst (multiple) (solitary) of kidney (acquired)  **Excludes1:** - cystic kidney disease (congenital) (Q61.-)
+[N288] Other specified disorders of kidney and ureter -- **Excludes1:** - hydroureter (N13.4) - ureteric stricture with hydronephrosis (N13.1) - ureteric stricture without hydronephrosis (N13.5)
+[N2881] Hypertrophy of kidney
+[N2882] Megaloureter
+[N2883] Nephroptosis
+[N2884] Pyelitis cystica
+[N2885] Pyeloureteritis cystica
+[N2886] Ureteritis cystica
+[N2889] Other specified disorders of kidney and ureter
+[N289] Disorder of kidney and ureter, unspecified -- **Inclusion terms:** - Nephropathy NOS - Renal disease (acute) NOS - Renal insufficiency (acute)  **Excludes1:** - chronic renal insufficiency (N18.9) - unspecified nephritic syndrome (N05.-)
+[N29] Other disorders of kidney and ureter in diseases classified elsewhere -- **Excludes1:** - disorders of kidney and ureter in: - cystinosis (E72.0) - gonorrhea (A54.21) - syphilis (A52.75) - tuberculosis (A18.11)  **Code first:** - underlying disease, such as: - amyloidosis (E85.-) - nephrocalcinosis (E83.59) - schistosomiasis (B65.0-B65.9)
+[N30] Cystitis -- **Excludes1:** - prostatocystitis (N41.3)  **Use additional code:** - code to identify infectious agent (B95-B97)
+[N300] Acute cystitis -- **Excludes1:** - irradiation cystitis (N30.4-) - trigonitis (N30.3-)
+[N3000] Acute cystitis without hematuria
+[N3001] Acute cystitis with hematuria
+[N301] Interstitial cystitis (chronic)
+[N3010] Interstitial cystitis (chronic) without hematuria
+[N3011] Interstitial cystitis (chronic) with hematuria
+[N302] Other chronic cystitis
+[N3020] Other chronic cystitis without hematuria
+[N3021] Other chronic cystitis with hematuria
+[N303] Trigonitis -- **Inclusion terms:** - Urethrotrigonitis
+[N3030] Trigonitis without hematuria
+[N3031] Trigonitis with hematuria
+[N304] Irradiation cystitis
+[N3040] Irradiation cystitis without hematuria
+[N3041] Irradiation cystitis with hematuria
+[N308] Other cystitis -- **Inclusion terms:** - Abscess of bladder
+[N3080] Other cystitis without hematuria
+[N3081] Other cystitis with hematuria
+[N309] Cystitis, unspecified
+[N3090] Cystitis, unspecified without hematuria
+[N3091] Cystitis, unspecified with hematuria
+[N31] Neuromuscular dysfunction of bladder, not elsewhere classified -- **Excludes1:** - cord bladder NOS (G95.89) - neurogenic bladder due to cauda equina syndrome (G83.4) - neuromuscular dysfunction due to spinal cord lesion (G95.89)  **Use additional code:** - code to identify any associated urinary incontinence (N39.3-N39.4-)
+[N310] Uninhibited neuropathic bladder, not elsewhere classified
+[N311] Reflex neuropathic bladder, not elsewhere classified
+[N312] Flaccid neuropathic bladder, not elsewhere classified -- **Inclusion terms:** - Atonic (motor) (sensory) neuropathic bladder - Autonomous neuropathic bladder - Nonreflex neuropathic bladder
+[N318] Other neuromuscular dysfunction of bladder
+[N319] Neuromuscular dysfunction of bladder, unspecified -- **Inclusion terms:** - Neurogenic bladder dysfunction NOS
+[N32] Other disorders of bladder -- **Excludes2:** - calculus of bladder (N21.0) - cystocele (N81.1-) - hernia or prolapse of bladder, female (N81.1-)
+[N320] Bladder-neck obstruction -- **Inclusion terms:** - Bladder-neck stenosis (acquired)  **Excludes1:** - congenital bladder-neck obstruction (Q64.3-)
+[N321] Vesicointestinal fistula -- **Inclusion terms:** - Vesicorectal fistula
+[N322] Vesical fistula, not elsewhere classified -- **Excludes1:** - fistula between bladder and female genital tract (N82.0-N82.1)
+[N323] Diverticulum of bladder -- **Excludes1:** - congenital diverticulum of bladder (Q64.6) - diverticulitis of bladder (N30.8-)
+[N328] Other specified disorders of bladder
+[N3281] Overactive bladder -- **Inclusion terms:** - Detrusor muscle hyperactivity  **Excludes1:** - frequent urination due to specified bladder condition- code to condition
+[N3289] Other specified disorders of bladder -- **Inclusion terms:** - Bladder hemorrhage - Bladder hypertrophy - Calcified bladder - Contracted bladder
+[N329] Bladder disorder, unspecified
+[N33] Bladder disorders in diseases classified elsewhere -- **Excludes1:** - bladder disorder in syphilis (A52.76) - bladder disorder in tuberculosis (A18.12) - candidal cystitis (B37.41) - chlamydial cystitis (A56.01) - cystitis in gonorrhea (A54.01) - cystitis in neurogenic bladder (N31.-) - diphtheritic cystitis (A36.85) - syphilitic cystitis (A52.76) - trichomonal cystitis (A59.03)  **Code first:** - underlying disease, such as: - schistosomiasis (B65.0-B65.9)
+[N34] Urethritis and urethral syndrome -- **Excludes2:** - Reiter's disease (M02.3-) - urethritis in diseases with a predominantly sexual mode of transmission (A50-A64) - urethrotrigonitis (N30.3-)  **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N340] Urethral abscess -- **Inclusion terms:** - Abscess (of) Cowper's gland - Abscess (of) Littré's gland - Abscess (of) urethral (gland) - Periurethral abscess  **Excludes1:** - urethral caruncle (N36.2)
+[N341] Nonspecific urethritis -- **Inclusion terms:** - Nongonococcal urethritis - Nonvenereal urethritis
+[N342] Other urethritis -- **Inclusion terms:** - Meatitis, urethral - Postmenopausal urethritis - Ulcer of urethra (meatus) - Urethritis NOS
+[N343] Urethral syndrome, unspecified
+[N35] Urethral stricture -- **Excludes1:** - congenital urethral stricture (Q64.3-) - postprocedural urethral stricture (N99.1-)
+[N350] Post-traumatic urethral stricture -- **Inclusion terms:** - Urethral stricture due to injury  **Excludes1:** - postprocedural urethral stricture (N99.1-)
+[N3501] Post-traumatic urethral stricture, male
+[N35010] Post-traumatic urethral stricture, male, meatal
+[N35011] Post-traumatic bulbous urethral stricture
+[N35012] Post-traumatic membranous urethral stricture
+[N35013] Post-traumatic anterior urethral stricture
+[N35014] Post-traumatic urethral stricture, male, unspecified
+[N35016] Post-traumatic urethral stricture, male, overlapping sites
+[N3502] Post-traumatic urethral stricture, female
+[N35021] Urethral stricture due to childbirth
+[N35028] Other post-traumatic urethral stricture, female
+[N351] Postinfective urethral stricture, not elsewhere classified -- **Excludes1:** - urethral stricture associated with schistosomiasis (B65.-, N29) - gonococcal urethral stricture (A54.01) - syphilitic urethral stricture (A52.76)
+[N3511] Postinfective urethral stricture, not elsewhere classified, male
+[N35111] Postinfective urethral stricture, not elsewhere classified, male, meatal
+[N35112] Postinfective bulbous urethral stricture, not elsewhere classified, male
+[N35113] Postinfective membranous urethral stricture, not elsewhere classified, male
+[N35114] Postinfective anterior urethral stricture, not elsewhere classified, male
+[N35116] Postinfective urethral stricture, not elsewhere classified, male, overlapping sites
+[N35119] Postinfective urethral stricture, not elsewhere classified, male, unspecified
+[N3512] Postinfective urethral stricture, not elsewhere classified, female
+[N358] Other urethral stricture -- **Excludes1:** - postprocedural urethral stricture (N99.1-)
+[N3581] Other urethral stricture, male
+[N35811] Other urethral stricture, male, meatal
+[N35812] Other bulbous urethral stricture, male
+[N35813] Other membranous urethral stricture, male
+[N35814] Other anterior urethral stricture, male
+[N35816] Other urethral stricture, male, overlapping sites
+[N35819] Other urethral stricture, male, unspecified site
+[N3582] Other urethral stricture, female
+[N359] Urethral stricture, unspecified
+[N3591] Urethral stricture, unspecified, male
+[N35911] Unspecified urethral stricture, male, meatal
+[N35912] Unspecified bulbous urethral stricture, male
+[N35913] Unspecified membranous urethral stricture, male
+[N35914] Unspecified anterior urethral stricture, male
+[N35916] Unspecified urethral stricture, male, overlapping sites
+[N35919] Unspecified urethral stricture, male, unspecified site -- **Inclusion terms:** - Pinhole meatus NOS - Urethral stricture NOS
+[N3592] Unspecified urethral stricture, female
+[N36] Other disorders of urethra
+[N360] Urethral fistula -- **Inclusion terms:** - Urethroperineal fistula - Urethrorectal fistula - Urinary fistula NOS  **Excludes1:** - urethroscrotal fistula (N50.89) - urethrovaginal fistula (N82.1) - urethrovesicovaginal fistula (N82.1)
+[N361] Urethral diverticulum
+[N362] Urethral caruncle
+[N364] Urethral functional and muscular disorders -- **Use additional code:** - code to identify associated urinary stress incontinence (N39.3)
+[N3641] Hypermobility of urethra
+[N3642] Intrinsic sphincter deficiency (ISD)
+[N3643] Combined hypermobility of urethra and intrinsic sphincter deficiency
+[N3644] Muscular disorders of urethra -- **Inclusion terms:** - Bladder sphincter dyssynergy
+[N365] Urethral false passage
+[N368] Other specified disorders of urethra -- **Excludes1:** - congenital urethrocele (Q64.7) - female urethrocele (N81.0)
+[N369] Urethral disorder, unspecified
+[N37] Urethral disorders in diseases classified elsewhere -- **Excludes1:** - urethritis (in): - candidal infection (B37.41) - chlamydial (A56.01) - gonorrhea (A54.01) - syphilis (A52.76) - trichomonal infection (A59.03) - tuberculosis (A18.13)  **Code first:** - underlying disease
+[N39] Other disorders of urinary system -- **Excludes2:** - hematuria NOS (R31.-) - recurrent or persistent hematuria (N02.-) - recurrent or persistent hematuria with specified morphological lesion (N02.-) - proteinuria NOS (R80.-)
+[N390] Urinary tract infection, site not specified -- **Excludes1:** - candidiasis of urinary tract (B37.4-) - neonatal urinary tract infection (P39.3) - pyuria (R82.81) - urinary tract infection of specified site, such as: - cystitis (N30.-) - pyonephrosis (N13.6) - urethritis (N34.-)  **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N393] Stress incontinence (female) (male) -- **Excludes1:** - mixed incontinence (N39.46)  **Code also:** - any associated overactive bladder (N32.81)
+[N394] Other specified urinary incontinence -- **Excludes1:** - enuresis NOS (R32) - functional urinary incontinence (R39.81) - urinary incontinence associated with cognitive impairment (R39.81) - urinary incontinence NOS (R32) - urinary incontinence of nonorganic origin (F98.0)  **Code also:** - any associated overactive bladder (N32.81)
+[N3941] Urge incontinence -- **Excludes1:** - mixed incontinence (N39.46)
+[N3942] Incontinence without sensory awareness -- **Inclusion terms:** - Insensible (urinary) incontinence
+[N3943] Post-void dribbling
+[N3944] Nocturnal enuresis -- **Excludes2:** - nocturnal polyuria (R35.81)
+[N3945] Continuous leakage
+[N3946] Mixed incontinence -- **Inclusion terms:** - Urge and stress incontinence
+[N3949] Other specified urinary incontinence
+[N39490] Overflow incontinence
+[N39491] Coital incontinence
+[N39492] Postural (urinary) incontinence
+[N39498] Other specified urinary incontinence -- **Inclusion terms:** - Reflex incontinence - Total incontinence
+[N398] Other specified disorders of urinary system
+[N399] Disorder of urinary system, unspecified
+[N40] Benign prostatic hyperplasia -- **Includes:** - adenofibromatous hypertrophy of prostate - benign hypertrophy of the prostate - benign prostatic hypertrophy - BPH - enlarged prostate - nodular prostate - polyp of prostate  **Excludes1:** - benign neoplasms of prostate (adenoma, benign) (fibroadenoma) (fibroma) (myoma) (D29.1)  **Excludes2:** - malignant neoplasm of prostate (C61)
+[N400] Benign prostatic hyperplasia without lower urinary tract symptoms -- **Inclusion terms:** - Enlarged prostate without LUTS - Enlarged prostate NOS
+[N401] Benign prostatic hyperplasia with lower urinary tract symptoms -- **Inclusion terms:** - Enlarged prostate with LUTS  **Use additional code:** - code for associated symptoms, when specified: - incomplete bladder emptying (R39.14) - nocturia (R35.1) - straining on urination (R39.16) - urinary frequency (R35.0) - urinary hesitancy (R39.11) - urinary incontinence (N39.4-) - urinary obstruction (N13.8) - urinary retention (R33.8) - urinary urgency (R39.15) - weak urinary stream (R39.12)
+[N402] Nodular prostate without lower urinary tract symptoms -- **Inclusion terms:** - Nodular prostate without LUTS
+[N403] Nodular prostate with lower urinary tract symptoms -- **Use additional code:** - code for associated symptoms, when specified: - incomplete bladder emptying (R39.14) - nocturia (R35.1) - straining on urination (R39.16) - urinary frequency (R35.0) - urinary hesitancy (R39.11) - urinary incontinence (N39.4-) - urinary obstruction (N13.8) - urinary retention (R33.8) - urinary urgency (R39.15) - weak urinary stream (R39.12)
+[N41] Inflammatory diseases of prostate -- **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N410] Acute prostatitis
+[N411] Chronic prostatitis
+[N412] Abscess of prostate
+[N413] Prostatocystitis
+[N414] Granulomatous prostatitis
+[N418] Other inflammatory diseases of prostate
+[N419] Inflammatory disease of prostate, unspecified -- **Inclusion terms:** - Prostatitis NOS
+[N42] Other and unspecified disorders of prostate
+[N420] Calculus of prostate -- **Inclusion terms:** - Prostatic stone
+[N421] Congestion and hemorrhage of prostate -- **Excludes1:** - enlarged prostate (N40.-) - hematuria (R31.-) - hyperplasia of prostate (N40.-) - inflammatory diseases of prostate (N41.-)
+[N423] Dysplasia of prostate
+[N4230] Unspecified dysplasia of prostate
+[N4231] Prostatic intraepithelial neoplasia -- **Inclusion terms:** - PIN - Prostatic intraepithelial neoplasia I (PIN I) - Prostatic intraepithelial neoplasia II (PIN II)  **Excludes1:** - prostatic intraepithelial neoplasia III (PIN III) (D07.5)
+[N4232] Atypical small acinar proliferation of prostate
+[N4239] Other dysplasia of prostate
+[N428] Other specified disorders of prostate
+[N4281] Prostatodynia syndrome -- **Inclusion terms:** - Painful prostate syndrome
+[N4282] Prostatosis syndrome
+[N4283] Cyst of prostate
+[N4289] Other specified disorders of prostate
+[N429] Disorder of prostate, unspecified
+[N43] Hydrocele and spermatocele -- **Includes:** - hydrocele of spermatic cord, testis or tunica vaginalis  **Excludes1:** - congenital hydrocele (P83.5)
+[N430] Encysted hydrocele
+[N431] Infected hydrocele -- **Use additional code:** - code (B95-B97), to identify infectious agent
+[N432] Other hydrocele
+[N433] Hydrocele, unspecified
+[N434] Spermatocele of epididymis -- **Inclusion terms:** - Spermatic cyst
+[N4340] Spermatocele of epididymis, unspecified
+[N4341] Spermatocele of epididymis, single
+[N4342] Spermatocele of epididymis, multiple
+[N44] Noninflammatory disorders of testis
+[N440] Torsion of testis
+[N4400] Torsion of testis, unspecified
+[N4401] Extravaginal torsion of spermatic cord
+[N4402] Intravaginal torsion of spermatic cord -- **Inclusion terms:** - Torsion of spermatic cord NOS
+[N4403] Torsion of appendix testis
+[N4404] Torsion of appendix epididymis
+[N441] Cyst of tunica albuginea testis
+[N442] Benign cyst of testis
+[N448] Other noninflammatory disorders of the testis
+[N45] Orchitis and epididymitis -- **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N451] Epididymitis
+[N452] Orchitis
+[N453] Epididymo-orchitis
+[N454] Abscess of epididymis or testis
+[N46] Male infertility -- **Excludes1:** - vasectomy status (Z98.52)
+[N460] Azoospermia -- **Inclusion terms:** - Absolute male infertility - Male infertility due to germinal (cell) aplasia - Male infertility due to spermatogenic arrest (complete)
+[N4601] Organic azoospermia -- **Inclusion terms:** - Azoospermia NOS
+[N4602] Azoospermia due to extratesticular causes -- **Code also:** - associated cause
+[N46021] Azoospermia due to drug therapy
+[N46022] Azoospermia due to infection
+[N46023] Azoospermia due to obstruction of efferent ducts
+[N46024] Azoospermia due to radiation
+[N46025] Azoospermia due to systemic disease
+[N46029] Azoospermia due to other extratesticular causes
+[N461] Oligospermia -- **Inclusion terms:** - Male infertility due to germinal cell desquamation - Male infertility due to hypospermatogenesis - Male infertility due to incomplete spermatogenic arrest
+[N4611] Organic oligospermia -- **Inclusion terms:** - Oligospermia NOS
+[N4612] Oligospermia due to extratesticular causes -- **Code also:** - associated cause
+[N46121] Oligospermia due to drug therapy
+[N46122] Oligospermia due to infection
+[N46123] Oligospermia due to obstruction of efferent ducts
+[N46124] Oligospermia due to radiation
+[N46125] Oligospermia due to systemic disease
+[N46129] Oligospermia due to other extratesticular causes
+[N468] Other male infertility
+[N469] Male infertility, unspecified
+[N47] Disorders of prepuce
+[N470] Adherent prepuce, newborn
+[N471] Phimosis
+[N472] Paraphimosis
+[N473] Deficient foreskin
+[N474] Benign cyst of prepuce
+[N475] Adhesions of prepuce and glans penis
+[N476] Balanoposthitis -- **Excludes1:** - balanitis (N48.1)  **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N477] Other inflammatory diseases of prepuce -- **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N478] Other disorders of prepuce
+[N48] Other disorders of penis
+[N480] Leukoplakia of penis -- **Inclusion terms:** - Balanitis xerotica obliterans - Kraurosis of penis - Lichen sclerosus of external male genital organs  **Excludes1:** - carcinoma in situ of penis (D07.4)
+[N481] Balanitis -- **Excludes1:** - amebic balanitis (A06.8) - balanitis xerotica obliterans (N48.0) - candidal balanitis (B37.42) - gonococcal balanitis (A54.23) - herpesviral [herpes simplex] balanitis (A60.01)  **Use additional code:** - code (B95-B97), to identify infectious agent
+[N482] Other inflammatory disorders of penis -- **Excludes1:** - balanitis (N48.1) - balanitis xerotica obliterans (N48.0) - balanoposthitis (N47.6)  **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N4821] Abscess of corpus cavernosum and penis
+[N4822] Cellulitis of corpus cavernosum and penis
+[N4829] Other inflammatory disorders of penis
+[N483] Priapism -- **Inclusion terms:** - Painful erection  **Code first:** - underlying cause
+[N4830] Priapism, unspecified
+[N4831] Priapism due to trauma
+[N4832] Priapism due to disease classified elsewhere
+[N4833] Priapism, drug-induced
+[N4839] Other priapism
+[N485] Ulcer of penis
+[N486] Induration penis plastica -- **Inclusion terms:** - Peyronie's disease - Plastic induration of penis
+[N488] Other specified disorders of penis
+[N4881] Thrombosis of superficial vein of penis
+[N4882] Acquired torsion of penis -- **Inclusion terms:** - Acquired torsion of penis NOS  **Excludes1:** - congenital torsion of penis (Q55.63)
+[N4883] Acquired buried penis -- **Excludes1:** - congenital hidden penis (Q55.64)
+[N4889] Other specified disorders of penis
+[N489] Disorder of penis, unspecified
+[N49] Inflammatory disorders of male genital organs, not elsewhere classified -- **Excludes1:** - inflammation of penis (N48.1, N48.2-) - orchitis and epididymitis (N45.-)  **Use additional code:** - code (B95-B97), to identify infectious agent
+[N490] Inflammatory disorders of seminal vesicle -- **Inclusion terms:** - Vesiculitis NOS
+[N491] Inflammatory disorders of spermatic cord, tunica vaginalis and vas deferens -- **Inclusion terms:** - Vasitis
+[N492] Inflammatory disorders of scrotum
+[N493] Fournier gangrene
+[N498] Inflammatory disorders of other specified male genital organs -- **Inclusion terms:** - Inflammation of multiple sites in male genital organs
+[N499] Inflammatory disorder of unspecified male genital organ -- **Inclusion terms:** - Abscess of unspecified male genital organ - Boil of unspecified male genital organ - Carbuncle of unspecified male genital organ - Cellulitis of unspecified male genital organ
+[N50] Other and unspecified disorders of male genital organs -- **Excludes2:** - torsion of testis (N44.0-)
+[N500] Atrophy of testis
+[N501] Vascular disorders of male genital organs -- **Inclusion terms:** - Hematocele, NOS, of male genital organs - Hemorrhage of male genital organs - Thrombosis of male genital organs
+[N503] Cyst of epididymis
+[N508] Other specified disorders of male genital organs
+[N5081] Testicular pain
+[N50811] Right testicular pain
+[N50812] Left testicular pain
+[N50819] Testicular pain, unspecified
+[N5082] Scrotal pain
+[N5089] Other specified disorders of the male genital organs -- **Inclusion terms:** - Atrophy of scrotum, seminal vesicle, spermatic cord, tunica vaginalis and vas deferens - Chylocele, tunica vaginalis (nonfilarial) NOS - Edema of scrotum, seminal vesicle, spermatic cord, tunica vaginalis and vas deferens - Hypertrophy of scrotum, seminal vesicle, spermatic cord, tunica vaginalis and vas deferens - Stricture of spermatic cord, tunica vaginalis, and vas deferens - Ulcer of scrotum, seminal vesicle, spermatic cord, testis, tunica vaginalis and vas deferens - Urethroscrotal fistula
+[N509] Disorder of male genital organs, unspecified
+[N51] Disorders of male genital organs in diseases classified elsewhere -- **Excludes1:** - amebic balanitis (A06.8) - candidal balanitis (B37.42) - gonococcal balanitis (A54.23) - gonococcal prostatitis (A54.22) - herpesviral [herpes simplex] balanitis (A60.01) - trichomonal prostatitis (A59.02) - tuberculous prostatitis (A18.14)  **Code first:** - underlying disease, such as: - filariasis (B74.0-B74.9)
+[N52] Male erectile dysfunction -- **Excludes1:** - psychogenic impotence (F52.21)
+[N520] Vasculogenic erectile dysfunction
+[N5201] Erectile dysfunction due to arterial insufficiency
+[N5202] Corporo-venous occlusive erectile dysfunction
+[N5203] Combined arterial insufficiency and corporo-venous occlusive erectile dysfunction
+[N521] Erectile dysfunction due to diseases classified elsewhere -- **Code first:** - underlying disease
+[N522] Drug-induced erectile dysfunction
+[N523] Postprocedural erectile dysfunction
+[N5231] Erectile dysfunction following radical prostatectomy
+[N5232] Erectile dysfunction following radical cystectomy
+[N5233] Erectile dysfunction following urethral surgery
+[N5234] Erectile dysfunction following simple prostatectomy
+[N5235] Erectile dysfunction following radiation therapy
+[N5236] Erectile dysfunction following interstitial seed therapy
+[N5237] Erectile dysfunction following prostate ablative therapy -- **Inclusion terms:** - Erectile dysfunction following cryotherapy - Erectile dysfunction following other prostate ablative therapies - Erectile dysfunction following ultrasound ablative therapies
+[N5239] Other and unspecified postprocedural erectile dysfunction
+[N528] Other male erectile dysfunction
+[N529] Male erectile dysfunction, unspecified -- **Inclusion terms:** - Impotence NOS
+[N53] Other male sexual dysfunction -- **Excludes1:** - psychogenic sexual dysfunction (F52.-)
+[N531] Ejaculatory dysfunction -- **Excludes1:** - premature ejaculation (F52.4)
+[N5311] Retarded ejaculation
+[N5312] Painful ejaculation
+[N5313] Anejaculatory orgasm
+[N5314] Retrograde ejaculation
+[N5319] Other ejaculatory dysfunction -- **Inclusion terms:** - Ejaculatory dysfunction NOS
+[N538] Other male sexual dysfunction
+[N539] Unspecified male sexual dysfunction
+[N60] Benign mammary dysplasia -- **Includes:** - fibrocystic mastopathy
+[N600] Solitary cyst of breast -- **Inclusion terms:** - Cyst of breast
+[N6001] Solitary cyst of right breast
+[N6002] Solitary cyst of left breast
+[N6009] Solitary cyst of unspecified breast
+[N601] Diffuse cystic mastopathy -- **Inclusion terms:** - Cystic breast - Fibrocystic disease of breast  **Excludes1:** - diffuse cystic mastopathy with epithelial proliferation (N60.3-)
+[N6011] Diffuse cystic mastopathy of right breast
+[N6012] Diffuse cystic mastopathy of left breast
+[N6019] Diffuse cystic mastopathy of unspecified breast
+[N602] Fibroadenosis of breast -- **Inclusion terms:** - Adenofibrosis of breast  **Excludes2:** - fibroadenoma of breast (D24.-)
+[N6021] Fibroadenosis of right breast
+[N6022] Fibroadenosis of left breast
+[N6029] Fibroadenosis of unspecified breast
+[N603] Fibrosclerosis of breast -- **Inclusion terms:** - Cystic mastopathy with epithelial proliferation
+[N6031] Fibrosclerosis of right breast
+[N6032] Fibrosclerosis of left breast
+[N6039] Fibrosclerosis of unspecified breast
+[N604] Mammary duct ectasia
+[N6041] Mammary duct ectasia of right breast
+[N6042] Mammary duct ectasia of left breast
+[N6049] Mammary duct ectasia of unspecified breast
+[N608] Other benign mammary dysplasias
+[N6081] Other benign mammary dysplasias of right breast
+[N6082] Other benign mammary dysplasias of left breast
+[N6089] Other benign mammary dysplasias of unspecified breast
+[N609] Unspecified benign mammary dysplasia
+[N6091] Unspecified benign mammary dysplasia of right breast
+[N6092] Unspecified benign mammary dysplasia of left breast
+[N6099] Unspecified benign mammary dysplasia of unspecified breast
+[N61] Inflammatory disorders of breast -- **Excludes1:** - inflammatory carcinoma of breast (C50.9) - inflammatory disorder of breast associated with childbirth (O91.-) - neonatal infective mastitis (P39.0) - thrombophlebitis of breast [Mondor's disease] (I80.8)
+[N610] Mastitis without abscess -- **Inclusion terms:** - Infective mastitis (acute) (nonpuerperal) (subacute) - Mastitis (acute) (nonpuerperal) (subacute) NOS - Cellulitis (acute) (nonpuerperal) (subacute) of breast NOS - Cellulitis (acute) (nonpuerperal) (subacute) of nipple NOS
+[N611] Abscess of the breast and nipple -- **Inclusion terms:** - Abscess (acute) (chronic) (nonpuerperal) of areola - Abscess (acute) (chronic) (nonpuerperal) of breast - Carbuncle of breast - Mastitis with abscess
+[N612] Granulomatous mastitis
+[N6120] Granulomatous mastitis, unspecified breast
+[N6121] Granulomatous mastitis, right breast
+[N6122] Granulomatous mastitis, left breast
+[N6123] Granulomatous mastitis, bilateral breast
+[N62] Hypertrophy of breast -- **Inclusion terms:** - Gynecomastia - Hypertrophy of breast NOS - Massive pubertal hypertrophy of breast  **Excludes1:** - breast engorgement of newborn (P83.4) - disproportion of reconstructed breast (N65.1)
+[N63] Unspecified lump in breast -- **Inclusion terms:** - Nodule(s) NOS in breast
+[N630] Unspecified lump in unspecified breast
+[N631] Unspecified lump in the right breast
+[N6310] Unspecified lump in the right breast, unspecified quadrant
+[N6311] Unspecified lump in the right breast, upper outer quadrant
+[N6312] Unspecified lump in the right breast, upper inner quadrant
+[N6313] Unspecified lump in the right breast, lower outer quadrant
+[N6314] Unspecified lump in the right breast, lower inner quadrant
+[N6315] Unspecified lump in the right breast, overlapping quadrants
+[N632] Unspecified lump in the left breast
+[N6320] Unspecified lump in the left breast, unspecified quadrant
+[N6321] Unspecified lump in the left breast, upper outer quadrant
+[N6322] Unspecified lump in the left breast, upper inner quadrant
+[N6323] Unspecified lump in the left breast, lower outer quadrant
+[N6324] Unspecified lump in the left breast, lower inner quadrant
+[N6325] Unspecified lump in the left breast, overlapping quadrants
+[N633] Unspecified lump in axillary tail
+[N6331] Unspecified lump in axillary tail of the right breast
+[N6332] Unspecified lump in axillary tail of the left breast
+[N634] Unspecified lump in breast, subareolar
+[N6341] Unspecified lump in right breast, subareolar
+[N6342] Unspecified lump in left breast, subareolar
+[N64] Other disorders of breast -- **Excludes2:** - mechanical complication of breast prosthesis and implant (T85.4-)
+[N640] Fissure and fistula of nipple
+[N641] Fat necrosis of breast -- **Inclusion terms:** - Fat necrosis (segmental) of breast  **Code first:** - breast necrosis due to breast graft (T85.898)
+[N642] Atrophy of breast
+[N643] Galactorrhea not associated with childbirth
+[N644] Mastodynia
+[N645] Other signs and symptoms in breast -- **Excludes2:** - abnormal findings on diagnostic imaging of breast (R92.-)
+[N6451] Induration of breast
+[N6452] Nipple discharge -- **Excludes1:** - abnormal findings in nipple discharge (R89.-)
+[N6453] Retraction of nipple
+[N6459] Other signs and symptoms in breast
+[N648] Other specified disorders of breast
+[N6481] Ptosis of breast -- **Excludes1:** - ptosis of native breast in relation to reconstructed breast (N65.1)
+[N6482] Hypoplasia of breast -- **Inclusion terms:** - Micromastia  **Excludes1:** - congenital absence of breast (Q83.0) - hypoplasia of native breast in relation to reconstructed breast (N65.1)
+[N6489] Other specified disorders of breast -- **Inclusion terms:** - Galactocele - Subinvolution of breast (postlactational)
+[N649] Disorder of breast, unspecified
+[N65] Deformity and disproportion of reconstructed breast
+[N650] Deformity of reconstructed breast -- **Inclusion terms:** - Contour irregularity in reconstructed breast - Excess tissue in reconstructed breast - Misshapen reconstructed breast
+[N651] Disproportion of reconstructed breast -- **Inclusion terms:** - Breast asymmetry between native breast and reconstructed breast - Disproportion between native breast and reconstructed breast
+[N70] Salpingitis and oophoritis -- **Includes:** - abscess (of) fallopian tube - abscess (of) ovary - pyosalpinx - salpingo-oophoritis - tubo-ovarian abscess - tubo-ovarian inflammatory disease  **Excludes1:** - gonococcal infection (A54.24) - tuberculous infection (A18.17)  **Use additional code:** - code (B95-B97), to identify infectious agent
+[N700] Acute salpingitis and oophoritis
+[N7001] Acute salpingitis
+[N7002] Acute oophoritis
+[N7003] Acute salpingitis and oophoritis
+[N701] Chronic salpingitis and oophoritis -- **Inclusion terms:** - Hydrosalpinx
+[N7011] Chronic salpingitis
+[N7012] Chronic oophoritis
+[N7013] Chronic salpingitis and oophoritis
+[N709] Salpingitis and oophoritis, unspecified
+[N7091] Salpingitis, unspecified
+[N7092] Oophoritis, unspecified
+[N7093] Salpingitis and oophoritis, unspecified
+[N71] Inflammatory disease of uterus, except cervix -- **Includes:** - endo (myo) metritis - metritis - myometritis - pyometra - uterine abscess  **Excludes1:** - hyperplastic endometritis (N85.0-) - infection of uterus following delivery (O85, O86.-)  **Use additional code:** - code (B95-B97), to identify infectious agent
+[N710] Acute inflammatory disease of uterus
+[N711] Chronic inflammatory disease of uterus
+[N719] Inflammatory disease of uterus, unspecified
+[N72] Inflammatory disease of cervix uteri -- **Includes:** - cervicitis (with or without erosion or ectropion) - endocervicitis (with or without erosion or ectropion) - exocervicitis (with or without erosion or ectropion)  **Excludes1:** - erosion and ectropion of cervix without cervicitis (N86)  **Use additional code:** - code (B95-B97), to identify infectious agent
+[N73] Other female pelvic inflammatory diseases -- **Use additional code:** - code (B95-B97), to identify infectious agent.
+[N730] Acute parametritis and pelvic cellulitis -- **Inclusion terms:** - Abscess of broad ligament - Abscess of parametrium - Pelvic cellulitis, female
+[N731] Chronic parametritis and pelvic cellulitis -- **Inclusion terms:** - Any condition in N73.0 specified as chronic  **Excludes1:** - tuberculous parametritis and pelvic cellultis (A18.17)
+[N732] Unspecified parametritis and pelvic cellulitis -- **Inclusion terms:** - Any condition in N73.0 unspecified whether acute or chronic
+[N733] Female acute pelvic peritonitis
+[N734] Female chronic pelvic peritonitis -- **Excludes1:** - tuberculous pelvic (female) peritonitis (A18.17)
+[N735] Female pelvic peritonitis, unspecified
+[N736] Female pelvic peritoneal adhesions (postinfective) -- **Excludes2:** - postprocedural pelvic peritoneal adhesions (N99.4)
+[N738] Other specified female pelvic inflammatory diseases
+[N739] Female pelvic inflammatory disease, unspecified -- **Inclusion terms:** - Female pelvic infection or inflammation NOS
+[N74] Female pelvic inflammatory disorders in diseases classified elsewhere -- **Excludes1:** - chlamydial cervicitis (A56.02) - chlamydial pelvic inflammatory disease (A56.11) - gonococcal cervicitis (A54.03) - gonococcal pelvic inflammatory disease (A54.24) - herpesviral [herpes simplex] cervicitis (A60.03) - herpesviral [herpes simplex] pelvic inflammatory disease (A60.09) - syphilitic cervicitis (A52.76) - syphilitic pelvic inflammatory disease (A52.76) - trichomonal cervicitis (A59.09) - tuberculous cervicitis (A18.16) - tuberculous pelvic inflammatory disease (A18.17)  **Code first:** - underlying disease
+[N75] Diseases of Bartholin's gland
+[N750] Cyst of Bartholin's gland
+[N751] Abscess of Bartholin's gland
+[N758] Other diseases of Bartholin's gland -- **Inclusion terms:** - Bartholinitis
+[N759] Disease of Bartholin's gland, unspecified
+[N76] Other inflammation of vagina and vulva -- **Excludes2:** - senile (atrophic) vaginitis (N95.2) - vulvar vestibulitis (N94.810)  **Use additional code:** - code (B95-B97), to identify infectious agent
+[N760] Acute vaginitis -- **Inclusion terms:** - Acute vulvovaginitis - Vaginitis NOS - Vulvovaginitis NOS
+[N761] Subacute and chronic vaginitis -- **Inclusion terms:** - Chronic vulvovaginitis - Subacute vulvovaginitis
+[N762] Acute vulvitis -- **Inclusion terms:** - Vulvitis NOS
+[N763] Subacute and chronic vulvitis
+[N764] Abscess of vulva -- **Inclusion terms:** - Furuncle of vulva
+[N765] Ulceration of vagina
+[N766] Ulceration of vulva
+[N768] Other specified inflammation of vagina and vulva
+[N7681] Mucositis (ulcerative) of vagina and vulva -- **Excludes2:** - gastrointestinal mucositis (ulcerative) (K92.81) - nasal mucositis (ulcerative) (J34.81) - oral mucositis (ulcerative) (K12.3-)  **Code also:** - type of associated therapy, such as: - antineoplastic and immunosuppressive drugs (T45.1X-) - radiological procedure and radiotherapy (Y84.2)
+[N7682] Fournier disease of vagina and vulva -- **Inclusion terms:** - Fournier gangrene of vagina and vulva  **Excludes1:** - gangrene in diabetes mellitus (E08-E13 with .52)  **Code also:** - , if applicable, diabetes mellitus (E08-E13 with .9)
+[N7689] Other specified inflammation of vagina and vulva
+[N77] Vulvovaginal ulceration and inflammation in diseases classified elsewhere
+[N770] Ulceration of vulva in diseases classified elsewhere -- **Excludes1:** - ulceration of vulva in gonococcal infection (A54.02) - ulceration of vulva in herpesviral [herpes simplex] infection (A60.04) - ulceration of vulva in syphilis (A51.0) - ulceration of vulva in tuberculosis (A18.18)  **Code first:** - underlying disease, such as: - Behçet's disease (M35.2)
+[N771] Vaginitis, vulvitis and vulvovaginitis in diseases classified elsewhere -- **Excludes1:** - candidal vulvovaginitis (B37.3-) - chlamydial vulvovaginitis (A56.02) - gonococcal vulvovaginitis (A54.02) - herpesviral [herpes simplex] vulvovaginitis (A60.04) - trichomonal vulvovaginitis (A59.01) - tuberculous vulvovaginitis (A18.18) - vulvovaginitis in early syphilis (A51.0) - vulvovaginitis in late syphilis (A52.76)  **Code first:** - underlying disease, such as: - pinworm (B80)
+[N80] Endometriosis
+[N800] Endometriosis of uterus -- **Inclusion terms:** - Endometriosis of the cervix  **Excludes1:** - stromal endometriosis (D39.0)
+[N8000] Endometriosis of the uterus, unspecified
+[N8001] Superficial endometriosis of the uterus
+[N8002] Deep endometriosis of the uterus -- **Inclusion terms:** - Deep retrocervical endometriosis
+[N8003] Adenomyosis of the uterus -- **Inclusion terms:** - Adenomyosis NOS
+[N801] Endometriosis of ovary
+[N8010] Endometriosis of ovary, unspecified depth
+[N80101] Endometriosis of right ovary, unspecified depth
+[N80102] Endometriosis of left ovary, unspecified depth
+[N80103] Endometriosis of bilateral ovaries, unspecified depth
+[N80109] Endometriosis of ovary, unspecified side, unspecified depth -- **Inclusion terms:** - Endometriosis of ovary NOS
+[N8011] Superficial endometriosis of the ovary
+[N80111] Superficial endometriosis of right ovary
+[N80112] Superficial endometriosis of left ovary
+[N80113] Superficial endometriosis of bilateral ovaries
+[N80119] Superficial endometriosis of ovary, unspecified ovary
+[N8012] Deep endometriosis of ovary -- **Inclusion terms:** - Deep ovarian endometriosis - Endometrioma
+[N80121] Deep endometriosis of right ovary
+[N80122] Deep endometriosis of left ovary
+[N80123] Deep endometriosis of bilateral ovaries
+[N80129] Deep endometriosis of ovary, unspecified ovary
+[N802] Endometriosis of fallopian tube
+[N8020] Endometriosis of fallopian tube, unspecified depth
+[N80201] Endometriosis of right fallopian tube, unspecified depth
+[N80202] Endometriosis of left fallopian tube, unspecified depth
+[N80203] Endometriosis of bilateral fallopian tubes, unspecified depth
+[N80209] Endometriosis of unspecified fallopian tube, unspecified depth -- **Inclusion terms:** - Endometriosis fallopian tube NOS
+[N8021] Superficial endometriosis of fallopian tube
+[N80211] Superficial endometriosis of right fallopian tube
+[N80212] Superficial endometriosis of left fallopian tube
+[N80213] Superficial endometriosis of bilateral fallopian tubes
+[N80219] Superficial endometriosis of unspecified fallopian tube
+[N8022] Deep endometriosis of the fallopian tube -- **Inclusion terms:** - Deep endometriosis involving muscular wall of fallopian tube
+[N80221] Deep endometriosis of right fallopian tube
+[N80222] Deep endometriosis of left fallopian tube
+[N80223] Deep endometriosis of bilateral fallopian tubes
+[N80229] Deep endometriosis of unspecified fallopian tube
+[N803] Endometriosis of pelvic peritoneum
+[N8030] Endometriosis of pelvic peritoneum, unspecified -- **Inclusion terms:** - Endometriosis of the retroperitoneum NOS
+[N8031] Endometriosis of the anterior cul-de-sac
+[N80311] Superficial endometriosis of the anterior cul-de-sac
+[N80312] Deep endometriosis of the anterior cul-de-sac
+[N80319] Endometriosis of the anterior cul-de-sac, unspecified depth -- **Inclusion terms:** - Endometriosis of the anterior cul-de-sac NOS
+[N8032] Endometriosis of the posterior cul-de-sac
+[N80321] Superficial endometriosis of the posterior cul-de-sac
+[N80322] Deep endometriosis of the posterior cul-de-sac
+[N80329] Endometriosis of the posterior cul-de-sac, unspecified depth -- **Inclusion terms:** - Endometriosis of the posterior cul-de-sac NOS
+[N8033] Superficial endometriosis of the pelvic sidewall
+[N80331] Superficial endometriosis of the right pelvic sidewall
+[N80332] Superficial endometriosis of the left pelvic sidewall
+[N80333] Superficial endometriosis of bilateral pelvic sidewall
+[N80339] Superficial endometriosis of pelvic sidewall, unspecified side
+[N8034] Deep endometriosis of the pelvic sidewall
+[N80341] Deep endometriosis of the right pelvic sidewall
+[N80342] Deep endometriosis of the left pelvic sidewall
+[N80343] Deep endometriosis of the bilateral pelvic sidewall
+[N80349] Deep endometriosis of the pelvic sidewall, unspecified side
+[N8035] Endometriosis of the pelvic sidewall, unspecified depth
+[N80351] Endometriosis of the right pelvic sidewall, unspecified depth
+[N80352] Endometriosis of the left pelvic sidewall, unspecified depth
+[N80353] Endometriosis of bilateral pelvic sidewall, unspecified depth
+[N80359] Endometriosis of pelvic sidewall, unspecified side, unspecified depth -- **Inclusion terms:** - Endometriosis of the pelvic sidewall NOS
+[N8036] Superficial endometriosis of the pelvic brim
+[N80361] Superficial endometriosis of the right pelvic brim
+[N80362] Superficial endometriosis of the left pelvic brim
+[N80363] Superficial endometriosis of bilateral pelvic brim
+[N80369] Superficial endometriosis of the pelvic brim, unspecified side
+[N8037] Deep endometriosis of the pelvic brim
+[N80371] Deep endometriosis of the right pelvic brim
+[N80372] Deep endometriosis of the left pelvic brim
+[N80373] Deep endometriosis of bilateral pelvic brim
+[N80379] Deep endometriosis of the pelvic brim, unspecified side
+[N8038] Endometriosis of the pelvic brim, unspecified depth
+[N80381] Endometriosis of the right pelvic brim, unspecified depth
+[N80382] Endometriosis of the left pelvic brim, unspecified depth
+[N80383] Endometriosis of bilateral pelvic brim, unspecified depth
+[N80389] Endometriosis of the pelvic brim, unspecified side, unspecified depth -- **Inclusion terms:** - Endometriosis of the pelvic brim NOS
+[N8039] Endometriosis of other pelvic peritoneum
+[N80391] Superficial endometriosis of the pelvic peritoneum, other specified sites
+[N80392] Deep endometriosis of the pelvic peritoneum, other specified sites
+[N80399] Endometriosis of the pelvic peritoneum, other specified sites, unspecified depth
+[N803A] Superficial endometriosis of the uterosacral ligament(s)
+[N803A1] Superficial endometriosis of the right uterosacral ligament
+[N803A2] Superficial endometriosis of the left uterosacral ligament
+[N803A3] Superficial endometriosis of the bilateral uterosacral ligament(s)
+[N803A9] Superficial endometriosis of the uterosacral ligament(s), unspecified side
+[N803B] Deep endometriosis of the uterosacral ligament(s)
+[N803B1] Deep endometriosis of the right uterosacral ligament
+[N803B2] Deep endometriosis of the left uterosacral ligament
+[N803B3] Deep endometriosis of bilateral uterosacral ligament(s)
+[N803B9] Deep endometriosis of the uterosacral ligament(s), unspecified side
+[N803C] Endometriosis of the uterosacral ligament(s), unspecified depth
+[N803C1] Endometriosis of the right uterosacral ligament, unspecified depth
+[N803C2] Endometriosis of the left uterosacral ligament, unspecified depth
+[N803C3] Endometriosis of bilateral uterosacral ligament(s), unspecified depth
+[N803C9] Endometriosis of the uterosacral ligament(s), unspecified side, unspecified depth -- **Inclusion terms:** - Endometriosis of the uterosacral ligament(s) NOS
+[N804] Endometriosis of rectovaginal septum and vagina
+[N8040] Endometriosis of rectovaginal septum, unspecified involvement of vagina -- **Inclusion terms:** - Endometriosis of the rectovaginal septum, NOS
+[N8041] Endometriosis of rectovaginal septum without involvement of vagina
+[N8042] Endometriosis of rectovaginal septum with involvement of vagina
+[N805] Endometriosis of intestine
+[N8050] Endometriosis of intestine, unspecified
+[N8051] Endometriosis of the rectum
+[N80511] Superficial endometriosis of the rectum
+[N80512] Deep endometriosis of the rectum -- **Inclusion terms:** - Deep endometriosis of the rectum, multifocal
+[N80519] Endometriosis of the rectum, unspecified depth -- **Inclusion terms:** - Endometriosis of the rectum NOS
+[N8052] Endometriosis of the sigmoid colon
+[N80521] Superficial endometriosis of the sigmoid colon
+[N80522] Deep endometriosis of the sigmoid colon
+[N80529] Endometriosis of the sigmoid colon, unspecified depth -- **Inclusion terms:** - Endometriosis of the sigmoid colon NOS
+[N8053] Endometriosis of the cecum
+[N80531] Superficial endometriosis of the cecum
+[N80532] Deep endometriosis of the cecum
+[N80539] Endometriosis of the cecum, unspecified depth -- **Inclusion terms:** - Endometriosis of the cecum NOS
+[N8054] Endometriosis of the appendix
+[N80541] Superficial endometriosis of the appendix
+[N80542] Deep endometriosis of the appendix
+[N80549] Endometriosis of the appendix, unspecified depth -- **Inclusion terms:** - Endometriosis of the appendix NOS
+[N8055] Endometriosis of other parts of the colon -- **Inclusion terms:** - Endometriosis of descending colon - Endometriosis of transverse colon
+[N80551] Superficial endometriosis of other parts of the colon
+[N80552] Deep endometriosis of other parts of the colon
+[N80559] Endometriosis of other parts of the colon, unspecified depth -- **Inclusion terms:** - Endometriosis of colon NOS
+[N8056] Endometriosis of the small intestine
+[N80561] Superficial endometriosis of the small intestine
+[N80562] Deep endometriosis of the small intestine -- **Inclusion terms:** - Deep endometriosis of the small intestine, multifocal
+[N80569] Endometriosis of the small intestine, unspecified depth -- **Inclusion terms:** - Endometriosis of the small intestine NOS
+[N806] Endometriosis in cutaneous scar
+[N808] Other endometriosis -- **Inclusion terms:** - Endometriosis of other site
+[N809] Endometriosis, unspecified
+[N80A] Endometriosis of bladder and ureters
+[N80A0] Endometriosis of bladder, unspecified depth -- **Inclusion terms:** - Endometriosis of bladder NOS
+[N80A1] Superficial endometriosis of bladder
+[N80A2] Deep endometriosis of bladder
+[N80A4] Superficial endometriosis of ureter -- **Inclusion terms:** - Extrinsic endometriosis of ureter  **Code also:** - , if applicable, obstructive and reflux uropathy (N13.-)
+[N80A41] Superficial endometriosis of right ureter
+[N80A42] Superficial endometriosis of left ureter
+[N80A43] Superficial endometriosis of bilateral ureters
+[N80A49] Superficial endometriosis of unspecified ureter
+[N80A5] Deep endometriosis of ureter -- **Inclusion terms:** - Intrinsic endometriosis of ureter  **Code also:** - , if applicable, obstructive and reflux uropathy (N13.-)
+[N80A51] Deep endometriosis of right ureter
+[N80A52] Deep endometriosis of left ureter
+[N80A53] Deep endometriosis of bilateral ureters
+[N80A59] Deep endometriosis of unspecified ureter
+[N80A6] Endometriosis of ureter, unspecified depth -- **Code also:** - , if applicable, obstructive and reflux uropathy (N13.-)
+[N80A61] Endometriosis of right ureter, unspecified depth
+[N80A62] Endometriosis of left ureter, unspecified depth
+[N80A63] Endometriosis of bilateral ureters, unspecified depth
+[N80A69] Endometriosis of unspecified ureter, unspecified depth
+[N80B] Endometriosis of cardiothoracic space -- **Inclusion terms:** - Endometriosis of thorax  **Code also:** - , if applicable: - catamenial hemothorax (J94.2) - catamenial pneumothorax (J93.12)
+[N80B1] Endometriosis of pleura
+[N80B2] Endometriosis of lung
+[N80B3] Endometriosis of diaphragm
+[N80B31] Superficial endometriosis of diaphragm
+[N80B32] Deep endometriosis of diaphragm
+[N80B39] Endometriosis of diaphragm, unspecified depth -- **Inclusion terms:** - Endometriosis of the diaphragm NOS
+[N80B4] Endometriosis of the pericardial space
+[N80B5] Endometriosis of the mediastinal space
+[N80B6] Endometriosis of cardiothoracic space
+[N80C] Endometriosis of the abdomen
+[N80C0] Endometriosis of the abdomen, unspecified -- **Inclusion terms:** - Endometriosis of the abdomen NOS
+[N80C1] Endometriosis of the anterior abdominal wall
+[N80C10] Endometriosis of the anterior abdominal wall, subcutaneous tissue
+[N80C11] Endometriosis of the anterior abdominal wall, fascia and muscular layers
+[N80C19] Endometriosis of the anterior abdominal wall, unspecified depth -- **Inclusion terms:** - Endometriosis of the anterior abdominal wall NOS
+[N80C2] Endometriosis of the umbilicus
+[N80C3] Endometriosis of the inguinal canal
+[N80C4] Endometriosis of extra-pelvic abdominal peritoneum
+[N80C9] Endometriosis of other site of abdomen
+[N80D] Endometriosis of the pelvic nerves -- **Inclusion terms:** - Endometriosis of the nerves of the retroperitoneum
+[N80D0] Endometriosis of the pelvic nerves, unspecified -- **Inclusion terms:** - Endometriosis of nerve of the retroperitoneum, NOS
+[N80D1] Endometriosis of the sacral splanchnic nerves -- **Inclusion terms:** - Endometriosis of the pelvic splanchnic nerves
+[N80D2] Endometriosis of the sacral nerve roots
+[N80D3] Endometriosis of the obturator nerve
+[N80D4] Endometriosis of the sciatic nerve
+[N80D5] Endometriosis of the pudendal nerve
+[N80D6] Endometriosis of the femoral nerve
+[N80D9] Endometriosis of other pelvic nerve -- **Inclusion terms:** - Endometriosis of the other nerves of the retroperitoneum
+[N81] Female genital prolapse -- **Excludes1:** - genital prolapse complicating pregnancy, labor or delivery (O34.5-) - prolapse and hernia of ovary and fallopian tube (N83.4-) - prolapse of vaginal vault after hysterectomy (N99.3)
+[N810] Urethrocele -- **Excludes1:** - urethrocele with cystocele (N81.1-) - urethrocele with prolapse of uterus (N81.2-N81.4)
+[N811] Cystocele -- **Inclusion terms:** - Cystocele with urethrocele - Cystourethrocele  **Excludes1:** - cystocele with prolapse of uterus (N81.2-N81.4)
+[N8110] Cystocele, unspecified -- **Inclusion terms:** - Prolapse of (anterior) vaginal wall NOS
+[N8111] Cystocele, midline
+[N8112] Cystocele, lateral -- **Inclusion terms:** - Paravaginal cystocele
+[N812] Incomplete uterovaginal prolapse -- **Inclusion terms:** - First degree uterine prolapse - Prolapse of cervix NOS - Second degree uterine prolapse  **Excludes1:** - cervical stump prolapse (N81.85)
+[N813] Complete uterovaginal prolapse -- **Inclusion terms:** - Procidentia (uteri) NOS - Third degree uterine prolapse
+[N814] Uterovaginal prolapse, unspecified -- **Inclusion terms:** - Prolapse of uterus NOS
+[N815] Vaginal enterocele -- **Excludes1:** - enterocele with prolapse of uterus (N81.2-N81.4)
+[N816] Rectocele -- **Inclusion terms:** - Prolapse of posterior vaginal wall  **Excludes1:** - rectocele with prolapse of uterus (N81.2-N81.4)  **Excludes2:** - perineocele (N81.81) - rectal prolapse (K62.3)  **Use additional code:** - code for any associated fecal incontinence, if applicable (R15.-)
+[N818] Other female genital prolapse
+[N8181] Perineocele
+[N8182] Incompetence or weakening of pubocervical tissue
+[N8183] Incompetence or weakening of rectovaginal tissue
+[N8184] Pelvic muscle wasting -- **Inclusion terms:** - Disuse atrophy of pelvic muscles and anal sphincter
+[N8185] Cervical stump prolapse
+[N8189] Other female genital prolapse -- **Inclusion terms:** - Deficient perineum - Old laceration of muscles of pelvic floor
+[N819] Female genital prolapse, unspecified
+[N82] Fistulae involving female genital tract -- **Excludes1:** - vesicointestinal fistulae (N32.1)
+[N820] Vesicovaginal fistula
+[N821] Other female urinary-genital tract fistulae -- **Inclusion terms:** - Cervicovesical fistula - Ureterovaginal fistula - Urethrovaginal fistula - Uteroureteric fistula - Uterovesical fistula
+[N822] Fistula of vagina to small intestine
+[N823] Fistula of vagina to large intestine -- **Inclusion terms:** - Rectovaginal fistula
+[N824] Other female intestinal-genital tract fistulae -- **Inclusion terms:** - Intestinouterine fistula
+[N825] Female genital tract-skin fistulae -- **Inclusion terms:** - Uterus to abdominal wall fistula - Vaginoperineal fistula
+[N828] Other female genital tract fistulae
+[N829] Female genital tract fistula, unspecified
+[N83] Noninflammatory disorders of ovary, fallopian tube and broad ligament -- **Excludes2:** - hydrosalpinx (N70.1-)
+[N830] Follicular cyst of ovary -- **Inclusion terms:** - Cyst of graafian follicle - Hemorrhagic follicular cyst (of ovary)
+[N8300] Follicular cyst of ovary, unspecified side
+[N8301] Follicular cyst of right ovary
+[N8302] Follicular cyst of left ovary
+[N831] Corpus luteum cyst -- **Inclusion terms:** - Hemorrhagic corpus luteum cyst
+[N8310] Corpus luteum cyst of ovary, unspecified side
+[N8311] Corpus luteum cyst of right ovary
+[N8312] Corpus luteum cyst of left ovary
+[N832] Other and unspecified ovarian cysts -- **Excludes1:** - developmental ovarian cyst (Q50.1) - neoplastic ovarian cyst (D27.-) - polycystic ovarian syndrome (E28.2) - Stein-Leventhal syndrome (E28.2)
+[N8320] Unspecified ovarian cysts
+[N83201] Unspecified ovarian cyst, right side
+[N83202] Unspecified ovarian cyst, left side
+[N83209] Unspecified ovarian cyst, unspecified side -- **Inclusion terms:** - Ovarian cyst, NOS
+[N8329] Other ovarian cysts -- **Inclusion terms:** - Retention cyst of ovary - Simple cyst of ovary
+[N83291] Other ovarian cyst, right side
+[N83292] Other ovarian cyst, left side
+[N83299] Other ovarian cyst, unspecified side
+[N833] Acquired atrophy of ovary and fallopian tube
+[N8331] Acquired atrophy of ovary
+[N83311] Acquired atrophy of right ovary
+[N83312] Acquired atrophy of left ovary
+[N83319] Acquired atrophy of ovary, unspecified side -- **Inclusion terms:** - Acquired atrophy of ovary, NOS
+[N8332] Acquired atrophy of fallopian tube
+[N83321] Acquired atrophy of right fallopian tube
+[N83322] Acquired atrophy of left fallopian tube
+[N83329] Acquired atrophy of fallopian tube, unspecified side -- **Inclusion terms:** - Acquired atrophy of fallopian tube, NOS
+[N8333] Acquired atrophy of ovary and fallopian tube
+[N83331] Acquired atrophy of right ovary and fallopian tube
+[N83332] Acquired atrophy of left ovary and fallopian tube
+[N83339] Acquired atrophy of ovary and fallopian tube, unspecified side -- **Inclusion terms:** - Acquired atrophy of ovary and fallopian tube, NOS
+[N834] Prolapse and hernia of ovary and fallopian tube
+[N8340] Prolapse and hernia of ovary and fallopian tube, unspecified side -- **Inclusion terms:** - Prolapse and hernia of ovary and fallopian tube, NOS
+[N8341] Prolapse and hernia of right ovary and fallopian tube
+[N8342] Prolapse and hernia of left ovary and fallopian tube
+[N835] Torsion of ovary, ovarian pedicle and fallopian tube -- **Inclusion terms:** - Torsion of accessory tube
+[N8351] Torsion of ovary and ovarian pedicle
+[N83511] Torsion of right ovary and ovarian pedicle
+[N83512] Torsion of left ovary and ovarian pedicle
+[N83519] Torsion of ovary and ovarian pedicle, unspecified side -- **Inclusion terms:** - Torsion of ovary and ovarian pedicle, NOS
+[N8352] Torsion of fallopian tube -- **Inclusion terms:** - Torsion of hydatid of Morgagni
+[N83521] Torsion of right fallopian tube
+[N83522] Torsion of left fallopian tube
+[N83529] Torsion of fallopian tube, unspecified side -- **Inclusion terms:** - Torsion of fallopian tube, NOS
+[N8353] Torsion of ovary, ovarian pedicle and fallopian tube
+[N836] Hematosalpinx -- **Excludes1:** - hematosalpinx (with) (in): - hematocolpos (N89.7) - hematometra (N85.7) - tubal pregnancy (O00.1-)
+[N837] Hematoma of broad ligament
+[N838] Other noninflammatory disorders of ovary, fallopian tube and broad ligament -- **Inclusion terms:** - Broad ligament laceration syndrome [Allen-Masters]
+[N839] Noninflammatory disorder of ovary, fallopian tube and broad ligament, unspecified
+[N84] Polyp of female genital tract -- **Excludes1:** - adenomatous polyp (D28.-) - placental polyp (O90.89)
+[N840] Polyp of corpus uteri -- **Inclusion terms:** - Polyp of endometrium - Polyp of uterus NOS  **Excludes1:** - polypoid endometrial hyperplasia (N85.0-)
+[N841] Polyp of cervix uteri -- **Inclusion terms:** - Mucous polyp of cervix
+[N842] Polyp of vagina
+[N843] Polyp of vulva -- **Inclusion terms:** - Polyp of labia
+[N848] Polyp of other parts of female genital tract
+[N849] Polyp of female genital tract, unspecified
+[N85] Other noninflammatory disorders of uterus, except cervix -- **Excludes1:** - endometriosis (N80.-) - inflammatory diseases of uterus (N71.-) - noninflammatory disorders of cervix, except malposition (N86-N88) - polyp of corpus uteri (N84.0) - uterine prolapse (N81.-)
+[N850] Endometrial hyperplasia
+[N8500] Endometrial hyperplasia, unspecified -- **Inclusion terms:** - Hyperplasia (adenomatous) (cystic) (glandular) of endometrium - Hyperplastic endometritis
+[N8501] Benign endometrial hyperplasia -- **Inclusion terms:** - Endometrial hyperplasia (complex) (simple) without atypia
+[N8502] Endometrial intraepithelial neoplasia [EIN] -- **Inclusion terms:** - Endometrial hyperplasia with atypia  **Excludes1:** - malignant neoplasm of endometrium (with endometrial intraepithelial neoplasia [EIN]) (C54.1)
+[N852] Hypertrophy of uterus -- **Inclusion terms:** - Bulky or enlarged uterus  **Excludes1:** - puerperal hypertrophy of uterus (O90.89)
+[N853] Subinvolution of uterus -- **Excludes1:** - puerperal subinvolution of uterus (O90.89)
+[N854] Malposition of uterus -- **Inclusion terms:** - Anteversion of uterus - Retroflexion of uterus - Retroversion of uterus  **Excludes1:** - malposition of uterus complicating pregnancy, labor or delivery (O34.5-, O65.5)
+[N855] Inversion of uterus -- **Excludes1:** - current obstetric trauma (O71.2) - postpartum inversion of uterus (O71.2)
+[N856] Intrauterine synechiae
+[N857] Hematometra -- **Inclusion terms:** - Hematosalpinx with hematometra  **Excludes1:** - hematometra with hematocolpos (N89.7)
+[N858] Other specified noninflammatory disorders of uterus -- **Inclusion terms:** - Atrophy of uterus, acquired - Fibrosis of uterus NOS
+[N859] Noninflammatory disorder of uterus, unspecified -- **Inclusion terms:** - Disorder of uterus NOS
+[N85A] Isthmocele -- **Inclusion terms:** - Isthmocele (non-pregnant state)  **Excludes1:** - maternal care for cesarean scar defect (isthmocele) (O34.22)  **Code also:** - any associated conditions such as: - abnormal uterine and vaginal bleeding, unspecified (N93.9) - female infertility of uterine origin (N97.2) - pelvic and perineal pain (R10.2)
+[N86] Erosion and ectropion of cervix uteri -- **Inclusion terms:** - Decubitus (trophic) ulcer of cervix - Eversion of cervix  **Excludes1:** - erosion and ectropion of cervix with cervicitis (N72)
+[N87] Dysplasia of cervix uteri -- **Excludes1:** - abnormal results from cervical cytologic examination without histologic confirmation (R87.61-) - carcinoma in situ of cervix uteri (D06.-) - cervical intraepithelial neoplasia III [CIN III] (D06.-) - HGSIL of cervix (R87.613) - severe dysplasia of cervix uteri (D06.-)
+[N870] Mild cervical dysplasia -- **Inclusion terms:** - Cervical intraepithelial neoplasia I [CIN I]
+[N871] Moderate cervical dysplasia -- **Inclusion terms:** - Cervical intraepithelial neoplasia II [CIN II]
+[N879] Dysplasia of cervix uteri, unspecified -- **Inclusion terms:** - Anaplasia of cervix - Cervical atypism - Cervical dysplasia NOS
+[N88] Other noninflammatory disorders of cervix uteri -- **Excludes2:** - inflammatory disease of cervix (N72) - polyp of cervix (N84.1)
+[N880] Leukoplakia of cervix uteri
+[N881] Old laceration of cervix uteri -- **Inclusion terms:** - Adhesions of cervix  **Excludes1:** - current obstetric trauma (O71.3)
+[N882] Stricture and stenosis of cervix uteri -- **Excludes1:** - stricture and stenosis of cervix uteri complicating labor (O65.5)
+[N883] Incompetence of cervix uteri -- **Inclusion terms:** - Investigation and management of (suspected) cervical incompetence in a nonpregnant woman  **Excludes1:** - cervical incompetence complicating pregnancy (O34.3-)
+[N884] Hypertrophic elongation of cervix uteri
+[N888] Other specified noninflammatory disorders of cervix uteri -- **Excludes1:** - current obstetric trauma (O71.3)
+[N889] Noninflammatory disorder of cervix uteri, unspecified
+[N89] Other noninflammatory disorders of vagina -- **Excludes1:** - abnormal results from vaginal cytologic examination without histologic confirmation (R87.62-) - carcinoma in situ of vagina (D07.2) - HGSIL of vagina (R87.623) - inflammation of vagina (N76.-) - senile (atrophic) vaginitis (N95.2) - severe dysplasia of vagina (D07.2) - trichomonal leukorrhea (A59.00) - vaginal intraepithelial neoplasia [VAIN], grade III (D07.2)
+[N890] Mild vaginal dysplasia -- **Inclusion terms:** - Vaginal intraepithelial neoplasia [VAIN], grade I
+[N891] Moderate vaginal dysplasia -- **Inclusion terms:** - Vaginal intraepithelial neoplasia [VAIN], grade II
+[N893] Dysplasia of vagina, unspecified
+[N894] Leukoplakia of vagina
+[N895] Stricture and atresia of vagina -- **Inclusion terms:** - Vaginal adhesions - Vaginal stenosis  **Excludes1:** - congenital atresia or stricture (Q52.4) - postprocedural adhesions of vagina (N99.2)
+[N896] Tight hymenal ring -- **Inclusion terms:** - Rigid hymen - Tight introitus  **Excludes1:** - imperforate hymen (Q52.3)
+[N897] Hematocolpos -- **Inclusion terms:** - Hematocolpos with hematometra or hematosalpinx
+[N898] Other specified noninflammatory disorders of vagina -- **Inclusion terms:** - Leukorrhea NOS - Old vaginal laceration - Pessary ulcer of vagina  **Excludes1:** - current obstetric trauma (O70.-, O71.4, O71.7-O71.8) - old laceration involving muscles of pelvic floor (N81.8)
+[N899] Noninflammatory disorder of vagina, unspecified
+[N90] Other noninflammatory disorders of vulva and perineum -- **Excludes1:** - anogenital (venereal) warts (A63.0) - carcinoma in situ of vulva (D07.1) - condyloma acuminatum (A63.0) - current obstetric trauma (O70.-, O71.7-O71.8) - inflammation of vulva (N76.-) - severe dysplasia of vulva (D07.1) - vulvar intraepithelial neoplasm III [VIN III] (D07.1)
+[N900] Mild vulvar dysplasia -- **Inclusion terms:** - Vulvar intraepithelial neoplasia [VIN], grade I
+[N901] Moderate vulvar dysplasia -- **Inclusion terms:** - Vulvar intraepithelial neoplasia [VIN], grade II
+[N903] Dysplasia of vulva, unspecified
+[N904] Leukoplakia of vulva -- **Inclusion terms:** - Dystrophy of vulva - Kraurosis of vulva - Lichen sclerosus of external female genital organs
+[N905] Atrophy of vulva -- **Inclusion terms:** - Stenosis of vulva
+[N906] Hypertrophy of vulva
+[N9060] Unspecified hypertrophy of vulva -- **Inclusion terms:** - Unspecified hypertrophy of labia
+[N9061] Childhood asymmetric labium majus enlargement -- **Inclusion terms:** - CALME
+[N9069] Other specified hypertrophy of vulva -- **Inclusion terms:** - Other specified hypertrophy of labia
+[N907] Vulvar cyst
+[N908] Other specified noninflammatory disorders of vulva and perineum
+[N9081] Female genital mutilation status -- **Inclusion terms:** - Female genital cutting status
+[N90810] Female genital mutilation status, unspecified -- **Inclusion terms:** - Female genital cutting status, unspecified - Female genital mutilation status NOS
+[N90811] Female genital mutilation Type I status -- **Inclusion terms:** - Clitorectomy status - Female genital cutting Type I status
+[N90812] Female genital mutilation Type II status -- **Inclusion terms:** - Clitorectomy with excision of labia minora status - Female genital cutting Type II status
+[N90813] Female genital mutilation Type III status -- **Inclusion terms:** - Female genital cutting Type III status - Infibulation status
+[N90818] Other female genital mutilation status -- **Inclusion terms:** - Female genital cutting Type IV status - Female genital mutilation Type IV status - Other female genital cutting status
+[N9089] Other specified noninflammatory disorders of vulva and perineum -- **Inclusion terms:** - Adhesions of vulva - Hypertrophy of clitoris
+[N909] Noninflammatory disorder of vulva and perineum, unspecified
+[N91] Absent, scanty and rare menstruation -- **Excludes1:** - ovarian dysfunction (E28.-)
+[N910] Primary amenorrhea
+[N911] Secondary amenorrhea
+[N912] Amenorrhea, unspecified
+[N913] Primary oligomenorrhea
+[N914] Secondary oligomenorrhea
+[N915] Oligomenorrhea, unspecified -- **Inclusion terms:** - Hypomenorrhea NOS
+[N92] Excessive, frequent and irregular menstruation -- **Excludes1:** - postmenopausal bleeding (N95.0) - precocious puberty (menstruation) (E30.1)
+[N920] Excessive and frequent menstruation with regular cycle -- **Inclusion terms:** - Heavy periods NOS - Menorrhagia NOS - Polymenorrhea
+[N921] Excessive and frequent menstruation with irregular cycle -- **Inclusion terms:** - Irregular intermenstrual bleeding - Irregular, shortened intervals between menstrual bleeding - Menometrorrhagia - Metrorrhagia
+[N922] Excessive menstruation at puberty -- **Inclusion terms:** - Excessive bleeding associated with onset of menstrual periods - Pubertal menorrhagia - Puberty bleeding
+[N923] Ovulation bleeding -- **Inclusion terms:** - Regular intermenstrual bleeding
+[N924] Excessive bleeding in the premenopausal period -- **Inclusion terms:** - Climacteric menorrhagia or metrorrhagia - Menopausal menorrhagia or metrorrhagia - Perimenopausal bleeding - Perimenopausal menorrhagia or metrorrhagia - Preclimacteric menorrhagia or metrorrhagia - Premenopausal menorrhagia or metrorrhagia
+[N925] Other specified irregular menstruation
+[N926] Irregular menstruation, unspecified -- **Inclusion terms:** - Irregular bleeding NOS - Irregular periods NOS  **Excludes1:** - irregular menstruation with: - lengthened intervals or scanty bleeding (N91.3-N91.5) - shortened intervals or excessive bleeding (N92.1)
+[N93] Other abnormal uterine and vaginal bleeding -- **Excludes1:** - neonatal vaginal hemorrhage (P54.6) - precocious puberty (menstruation) (E30.1) - pseudomenses (P54.6)
+[N930] Postcoital and contact bleeding
+[N931] Pre-pubertal vaginal bleeding
+[N938] Other specified abnormal uterine and vaginal bleeding -- **Inclusion terms:** - Dysfunctional or functional uterine or vaginal bleeding NOS
+[N939] Abnormal uterine and vaginal bleeding, unspecified
+[N94] Pain and other conditions associated with female genital organs and menstrual cycle
+[N940] Mittelschmerz
+[N941] Dyspareunia -- **Excludes1:** - psychogenic dyspareunia (F52.6)
+[N9410] Unspecified dyspareunia
+[N9411] Superficial (introital) dyspareunia
+[N9412] Deep dyspareunia
+[N9419] Other specified dyspareunia
+[N942] Vaginismus -- **Excludes1:** - psychogenic vaginismus (F52.5)
+[N943] Premenstrual tension syndrome -- **Excludes1:** - Premenstrual dysphoric disorder (F32.81)  **Code also:** - associated menstrual migraine (G43.82-, G43.83-)
+[N944] Primary dysmenorrhea
+[N945] Secondary dysmenorrhea
+[N946] Dysmenorrhea, unspecified -- **Excludes1:** - psychogenic dysmenorrhea (F45.8)
+[N948] Other specified conditions associated with female genital organs and menstrual cycle
+[N9481] Vulvodynia
+[N94810] Vulvar vestibulitis
+[N94818] Other vulvodynia
+[N94819] Vulvodynia, unspecified -- **Inclusion terms:** - Vulvodynia NOS
+[N9489] Other specified conditions associated with female genital organs and menstrual cycle
+[N949] Unspecified condition associated with female genital organs and menstrual cycle
+[N95] Menopausal and other perimenopausal disorders -- **Inclusion terms:** - Menopausal and other perimenopausal disorders due to naturally occurring (age-related) menopause and perimenopause  **Excludes1:** - excessive bleeding in the premenopausal period (N92.4) - menopausal and perimenopausal disorders due to artificial or premature menopause (E89.4-, E28.31-) - premature menopause (E28.31-)  **Excludes2:** - postmenopausal osteoporosis (M81.0-) - postmenopausal osteoporosis with current pathological fracture (M80.0-) - postmenopausal urethritis (N34.2)
+[N950] Postmenopausal bleeding
+[N951] Menopausal and female climacteric states -- **Inclusion terms:** - Symptoms such as flushing, sleeplessness, headache, lack of concentration, associated with natural (age-related) menopause  **Excludes1:** - asymptomatic menopausal state (Z78.0) - symptoms associated with artificial menopause (E89.41) - symptoms associated with premature menopause (E28.310)  **Use additional code:** - code for associated symptoms
+[N952] Postmenopausal atrophic vaginitis -- **Inclusion terms:** - Senile (atrophic) vaginitis
+[N958] Other specified menopausal and perimenopausal disorders
+[N959] Unspecified menopausal and perimenopausal disorder
+[N96] Recurrent pregnancy loss -- **Inclusion terms:** - Investigation or care in a nonpregnant woman with history of recurrent pregnancy loss  **Excludes1:** - recurrent pregancy loss with current pregnancy (O26.2-)
+[N97] Female infertility -- **Includes:** - inability to achieve a pregnancy - sterility, female NOS  **Excludes2:** - female infertility associated with: - hypopituitarism (E23.0) - Stein-Leventhal syndrome (E28.2) - incompetence of cervix uteri (N88.3)
+[N970] Female infertility associated with anovulation
+[N971] Female infertility of tubal origin -- **Inclusion terms:** - Female infertility associated with congenital anomaly of tube - Female infertility due to tubal block - Female infertility due to tubal occlusion - Female infertility due to tubal stenosis
+[N972] Female infertility of uterine origin -- **Inclusion terms:** - Female infertility associated with congenital anomaly of uterus - Female infertility due to nonimplantation of ovum
+[N978] Female infertility of other origin
+[N979] Female infertility, unspecified
+[N98] Complications associated with artificial fertilization
+[N980] Infection associated with artificial insemination
+[N981] Hyperstimulation of ovaries -- **Inclusion terms:** - Hyperstimulation of ovaries NOS - Hyperstimulation of ovaries associated with induced ovulation
+[N982] Complications of attempted introduction of fertilized ovum following in vitro fertilization
+[N983] Complications of attempted introduction of embryo in embryo transfer
+[N988] Other complications associated with artificial fertilization
+[N989] Complication associated with artificial fertilization, unspecified
+[N99] Intraoperative and postprocedural complications and disorders of genitourinary system, not elsewhere classified -- **Excludes2:** - irradiation cystitis (N30.4-) - postoophorectomy osteoporosis with current pathological fracture (M80.8-) - postoophorectomy osteoporosis without current pathological fracture (M81.8)
+[N990] Postprocedural (acute) (chronic) kidney failure -- **Use additional code:** - code to type of kidney disease
+[N991] Postprocedural urethral stricture -- **Inclusion terms:** - Postcatheterization urethral stricture
+[N9911] Postprocedural urethral stricture, male
+[N99110] Postprocedural urethral stricture, male, meatal
+[N99111] Postprocedural bulbous urethral stricture, male
+[N99112] Postprocedural membranous urethral stricture, male
+[N99113] Postprocedural anterior bulbous urethral stricture, male
+[N99114] Postprocedural urethral stricture, male, unspecified
+[N99115] Postprocedural fossa navicularis urethral stricture
+[N99116] Postprocedural urethral stricture, male, overlapping sites
+[N9912] Postprocedural urethral stricture, female
+[N992] Postprocedural adhesions of vagina
+[N993] Prolapse of vaginal vault after hysterectomy
+[N994] Postprocedural pelvic peritoneal adhesions -- **Excludes2:** - pelvic peritoneal adhesions NOS (N73.6) - postinfective pelvic peritoneal adhesions (N73.6)
+[N995] Complications of stoma of urinary tract -- **Excludes2:** - mechanical complication of urinary catheter (T83.0-)
+[N9951] Complication of cystostomy
+[N99510] Cystostomy hemorrhage
+[N99511] Cystostomy infection
+[N99512] Cystostomy malfunction
+[N99518] Other cystostomy complication
+[N9952] Complication of incontinent external stoma of urinary tract
+[N99520] Hemorrhage of incontinent external stoma of urinary tract
+[N99521] Infection of incontinent external stoma of urinary tract
+[N99522] Malfunction of incontinent external stoma of urinary tract
+[N99523] Herniation of incontinent stoma of urinary tract
+[N99524] Stenosis of incontinent stoma of urinary tract
+[N99528] Other complication of incontinent external stoma of urinary tract
+[N9953] Complication of continent stoma of urinary tract
+[N99530] Hemorrhage of continent stoma of urinary tract
+[N99531] Infection of continent stoma of urinary tract
+[N99532] Malfunction of continent stoma of urinary tract
+[N99533] Herniation of continent stoma of urinary tract
+[N99534] Stenosis of continent stoma of urinary tract
+[N99538] Other complication of continent stoma of urinary tract
+[N996] Intraoperative hemorrhage and hematoma of a genitourinary system organ or structure complicating a procedure -- **Excludes1:** - intraoperative hemorrhage and hematoma of a genitourinary system organ or structure due to accidental puncture or laceration during a procedure (N99.7-)
+[N9961] Intraoperative hemorrhage and hematoma of a genitourinary system organ or structure complicating a genitourinary system procedure
+[N9962] Intraoperative hemorrhage and hematoma of a genitourinary system organ or structure complicating other procedure
+[N997] Accidental puncture and laceration of a genitourinary system organ or structure during a procedure
+[N9971] Accidental puncture and laceration of a genitourinary system organ or structure during a genitourinary system procedure
+[N9972] Accidental puncture and laceration of a genitourinary system organ or structure during other procedure
+[N998] Other intraoperative and postprocedural complications and disorders of genitourinary system
+[N9981] Other intraoperative complications of genitourinary system
+[N9982] Postprocedural hemorrhage of a genitourinary system organ or structure following a procedure
+[N99820] Postprocedural hemorrhage of a genitourinary system organ or structure following a genitourinary system procedure
+[N99821] Postprocedural hemorrhage of a genitourinary system organ or structure following other procedure
+[N9983] Residual ovary syndrome
+[N9984] Postprocedural hematoma and seroma of a genitourinary system organ or structure following a procedure
+[N99840] Postprocedural hematoma of a genitourinary system organ or structure following a genitourinary system procedure
+[N99841] Postprocedural hematoma of a genitourinary system organ or structure following other procedure
+[N99842] Postprocedural seroma of a genitourinary system organ or structure following a genitourinary system procedure
+[N99843] Postprocedural seroma of a genitourinary system organ or structure following other procedure
+[N9985] Post endometrial ablation syndrome
+[N9989] Other postprocedural complications and disorders of genitourinary system

@@ -1,0 +1,15 @@
+[mb_sec] Security Types :: naics_2022:523
+[mb_sec_escrowed] Escrowed-to-maturity bonds
+[mb_sec_insured] Insured municipal bonds
+[mb_sec_preref] Pre-refunded bonds
+[mb_tax] Tax Status :: naics_2022:523
+[mb_tax_amt] Alternative minimum tax (AMT) bonds
+[mb_tax_bab] Build America Bonds (BABs)
+[mb_tax_exempt] Tax-exempt municipal bonds
+[mb_tax_taxable] Taxable municipal bonds
+[mb_type] Bond Types :: naics_2022:523
+[mb_type_assess] Special assessment bonds
+[mb_type_conduit] Conduit bonds (industrial revenue)
+[mb_type_go] General obligation (GO) bonds
+[mb_type_rev] Revenue bonds
+[mb_type_tif] Tax increment financing (TIF)

@@ -1,0 +1,18 @@
+[ddareg_aml] AML / CFT and Travel Rule Compliance :: naics_2022:518, naics_2022:5415
+[ddareg_aml_fatf] FATF Recommendation 16 (Travel Rule) for VASPs
+[ddareg_aml_kyc] KYC / CDD requirements for crypto on/off-ramps
+[ddareg_aml_sanctioned] Sanctions screening (OFAC, EU, UN SDN list compliance)
+[ddareg_cbdc] Central Bank Digital Currency (CBDC) Frameworks :: naics_2022:518, naics_2022:5415
+[ddareg_cbdc_retail] Retail CBDC design and pilot programmes (digital dollar, e-CNY, e-EUR)
+[ddareg_cbdc_wholesale] Wholesale CBDC for interbank settlement (Banque de France, BIS mBridge)
+[ddareg_exchange] Exchange and Custodian Licensing :: naics_2022:518, naics_2022:5415
+[ddareg_exchange_apac] APAC digital asset exchange licenses (MAS, SFC Hong Kong, FSA Japan)
+[ddareg_exchange_eu] EU CASP license under MiCA (authorization requirements)
+[ddareg_exchange_us] US crypto exchange licensing (BitLicense, MSB registration, MTL)
+[ddareg_securities] Securities and Investment Regulation :: naics_2022:518, naics_2022:5415
+[ddareg_securities_howey] US Howey test - security token vs. commodity determination
+[ddareg_securities_mica] EU MiCA Regulation (2024) - e-money tokens, ARTs, utility tokens
+[ddareg_securities_prospectus] Security token offerings (STOs) - prospectus and disclosure
+[ddareg_stablecoin] Stablecoin and Payment Token Regulation :: naics_2022:518, naics_2022:5415
+[ddareg_stablecoin_emi] E-money token issuance under MiCA / EMD2
+[ddareg_stablecoin_us] US stablecoin bill framework (Fed, OCC, state money transmission)

@@ -1,0 +1,13 @@
+[CG] Cogeneration Types :: naics_2022:2211, naics_2022:3359
+[CG.01] Steam Turbine CHP
+[CG.02] Gas Turbine CHP
+[CG.03] Reciprocating Engine CHP
+[CG.04] Fuel Cell CHP
+[CG.05] Micro-CHP (Residential)
+[CG.06] Industrial CHP
+[CG.07] Combined Cycle CHP
+[CG.08] Trigeneration (CCHP)
+[CG.09] Biomass CHP
+[CG.10] Waste-to-Energy CHP
+[CG.11] CHP Efficiency Rating
+[CG.12] CHP Grid Interconnection

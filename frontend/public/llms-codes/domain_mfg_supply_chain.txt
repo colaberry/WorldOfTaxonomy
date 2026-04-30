@@ -1,0 +1,19 @@
+[dmfgsc_digital] Digital and Platform-Enabled Supply Models :: naics_2022:31-33
+[dmfgsc_digital_marketplace] Digital manufacturing marketplace (Xometry, Fictiv, Hubs)
+[dmfgsc_digital_twin] Digital twin-enabled supply chain coordination
+[dmfgsc_lean] Lean and Just-in-Time Supply Models :: naics_2022:31-33
+[dmfgsc_lean_jit] Just-in-Time (JIT): minimal inventory, pull-based replenishment
+[dmfgsc_lean_kanban] Kanban-driven replenishment with visual signals
+[dmfgsc_lean_vmi] Vendor-managed inventory (VMI): supplier manages stock levels
+[dmfgsc_outsource] Outsourcing and Contract Manufacturing Models :: naics_2022:31-33
+[dmfgsc_outsource_cm] Contract manufacturing: full-build outsourced (EMS)
+[dmfgsc_outsource_jdm] JDM (joint design manufacturing): co-designed product
+[dmfgsc_outsource_oem] OEM: brand owns IP, contract manufacturer builds
+[dmfgsc_resilient] Resilient and Diversified Supply Models :: naics_2022:31-33
+[dmfgsc_resilient_buffer] Strategic buffer stock for risk components
+[dmfgsc_resilient_dual] Dual sourcing: two qualified suppliers per critical component
+[dmfgsc_resilient_near] Nearshoring and friend-shoring: geographic diversification
+[dmfgsc_vertical] Vertical Integration Models :: naics_2022:31-33
+[dmfgsc_vertical_back] Backward integration: owns upstream raw/intermediate supply
+[dmfgsc_vertical_full] Fully integrated: raw material through finished goods
+[dmfgsc_vertical_fwd] Forward integration: owns distribution and retail

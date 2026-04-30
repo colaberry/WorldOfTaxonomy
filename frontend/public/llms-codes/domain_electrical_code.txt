@@ -1,0 +1,16 @@
+[ec_code] Code Standards :: naics_2022:5419
+[ec_code_ieee] IEEE standards (grounding, power quality)
+[ec_code_nec] National Electrical Code (NEC / NFPA 70)
+[ec_code_nfpa70e] NFPA 70E (Electrical Safety in Workplace)
+[ec_code_nfpa79] NFPA 79 (Industrial Machinery)
+[ec_safe] Safety Requirements :: naics_2022:5419
+[ec_safe_afci] AFCI protection requirements
+[ec_safe_arc] Arc flash analysis and labeling
+[ec_safe_gfci] GFCI protection requirements
+[ec_safe_lockout] Lockout/tagout (LOTO) procedures
+[ec_safe_surge] Surge protection (SPD)
+[ec_sys] Electrical Systems :: naics_2022:5419
+[ec_sys_emerg] Emergency and standby power
+[ec_sys_light] Lighting systems (LED, fluorescent, controls)
+[ec_sys_low] Low-voltage systems (data, telecom)
+[ec_sys_power] Power distribution (switchgear, panelboards)

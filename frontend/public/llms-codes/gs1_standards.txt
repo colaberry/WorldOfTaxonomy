@@ -1,0 +1,14 @@
+[G1] GS1 Standards
+[G1.01] GTIN (Global Trade Item Number)
+[G1.02] GLN (Global Location Number)
+[G1.03] SSCC (Serial Shipping Container Code)
+[G1.04] GRAI (Global Returnable Asset Identifier)
+[G1.05] GIAI (Global Individual Asset Identifier)
+[G1.06] GSRN (Global Service Relation Number)
+[G1.07] GDTI (Global Document Type Identifier)
+[G1.08] GS1 Digital Link
+[G1.09] EPCIS (Electronic Product Code Information Services)
+[G1.10] GS1 EDI (EANCOM)
+[G1.11] GS1 DataMatrix
+[G1.12] GS1 QR Code
+[G1.13] RFID/EPC (Electronic Product Code)

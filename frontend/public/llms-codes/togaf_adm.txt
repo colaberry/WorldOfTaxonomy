@@ -1,0 +1,14 @@
+[TG] TOGAF ADM Phases
+[TG.01] Preliminary Phase
+[TG.02] Phase A: Architecture Vision
+[TG.03] Phase B: Business Architecture
+[TG.04] Phase C: Information Systems Architecture
+[TG.05] Phase D: Technology Architecture
+[TG.06] Phase E: Opportunities and Solutions
+[TG.07] Phase F: Migration Planning
+[TG.08] Phase G: Implementation Governance
+[TG.09] Phase H: Architecture Change Management
+[TG.10] Requirements Management
+[TG.11] Architecture Repository
+[TG.12] Architecture Content Framework
+[TG.13] Enterprise Continuum

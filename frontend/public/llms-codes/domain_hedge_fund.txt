@@ -1,0 +1,18 @@
+[hf_eq] Equity Strategies :: naics_2022:523
+[hf_eq_activ] Activist investing
+[hf_eq_ls] Long/short equity
+[hf_eq_mn] Market neutral equity
+[hf_eq_sect] Sector specialist
+[hf_event] Event-Driven :: naics_2022:523
+[hf_event_dist] Distressed debt
+[hf_event_merger] Merger arbitrage
+[hf_event_spec] Special situations
+[hf_macro] Macro and Relative Value :: naics_2022:523
+[hf_macro_disc] Discretionary macro
+[hf_macro_fx] FX and rates trading
+[hf_macro_rv] Fixed income relative value
+[hf_macro_sys] Systematic macro / CTA
+[hf_quant] Quantitative :: naics_2022:523
+[hf_quant_hft] High-frequency trading (HFT)
+[hf_quant_ml] Machine learning alpha
+[hf_quant_stat] Statistical arbitrage

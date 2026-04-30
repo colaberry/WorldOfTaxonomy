@@ -1,0 +1,12 @@
+[dmr_cont] Contingent Resources (Discovered, Sub-commercial) :: naics_2022:212, naics_2022:213
+[dmr_cont_1c] Contingent Resources 1C (Low Estimate)
+[dmr_cont_2c] Contingent Resources 2C (Best Estimate)
+[dmr_cont_3c] Contingent Resources 3C (High Estimate)
+[dmr_prosp] Prospective Resources (Undiscovered) :: naics_2022:212, naics_2022:213
+[dmr_prosp_best] Prospective Resources Best Estimate
+[dmr_prosp_high] Prospective Resources High Estimate
+[dmr_prosp_low] Prospective Resources Low Estimate
+[dmr_res] Reserves (Commercially Recoverable) :: naics_2022:212, naics_2022:213
+[dmr_res_possible] Possible Reserves (3P - at least 10% confidence)
+[dmr_res_probable] Probable Reserves (2P - at least 50% confidence)
+[dmr_res_proved] Proved Reserves (1P - high certainty)

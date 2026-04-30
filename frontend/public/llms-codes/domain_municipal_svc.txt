@@ -1,0 +1,14 @@
+[MS] Municipal Service Types :: naics_2022:921, naics_2022:922, naics_2022:924
+[MS.01] Water and Sewer Service
+[MS.02] Waste Collection
+[MS.03] Public Transportation
+[MS.04] Parks and Recreation
+[MS.05] Public Library System
+[MS.06] Building Inspection
+[MS.07] Code Enforcement
+[MS.08] Street Maintenance
+[MS.09] Snow Removal
+[MS.10] Animal Control
+[MS.11] Public Health Department
+[MS.12] Planning and Zoning
+[MS.13] 311 Service Center

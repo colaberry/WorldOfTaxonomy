@@ -1,0 +1,24 @@
+[dws_hazard] Occupational Hazard Category :: naics_2022:5613, naics_2022:622
+[dws_hazard_bio] Biological Hazard (pathogen, bloodborne, mold)
+[dws_hazard_chemical] Chemical Hazard (toxic, corrosive, flammable)
+[dws_hazard_ergo] Ergonomic Hazard (repetitive motion, lifting)
+[dws_hazard_physical] Physical Hazard (noise, radiation, temperature)
+[dws_hazard_psych] Psychosocial Hazard (stress, violence, fatigue)
+[dws_incident] Workplace Incident Classification :: naics_2022:5613, naics_2022:622
+[dws_incident_dart] DART Case (Days Away, Restricted, Transferred)
+[dws_incident_fatal] Fatality (work-related death, OSHA 300 Log)
+[dws_incident_first] First Aid Case (recordable, no lost time)
+[dws_incident_near] Near-Miss (close call, no injury)
+[dws_incident_prop] Property Damage (equipment, facility damage)
+[dws_osha] OSHA Regulatory Standard :: naics_2022:5613, naics_2022:622
+[dws_osha_agri] Agriculture (29 CFR Part 1928)
+[dws_osha_construct] Construction (29 CFR Part 1926)
+[dws_osha_general] General Industry (29 CFR Part 1910)
+[dws_osha_maritime] Maritime (29 CFR Parts 1915-1919)
+[dws_ppe] Personal Protective Equipment (PPE) Type :: naics_2022:5613, naics_2022:622
+[dws_ppe_eye] Eye and Face Protection (safety glasses, shield)
+[dws_ppe_fall] Fall Protection (harness, lanyard, guardrail)
+[dws_ppe_foot] Foot Protection (safety boots, metatarsal guards)
+[dws_ppe_hand] Hand Protection (gloves: cut, chemical, thermal)
+[dws_ppe_head] Head Protection (hard hat, bump cap)
+[dws_ppe_resp] Respiratory Protection (N95, SCBA, supplied air)

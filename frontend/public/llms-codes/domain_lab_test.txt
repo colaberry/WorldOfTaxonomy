@@ -1,0 +1,17 @@
+[LT] Lab Test Category Types :: naics_2022:5419
+[LT.01] Hematology Panel
+[LT.02] Chemistry Panel (CMP/BMP)
+[LT.03] Lipid Panel
+[LT.04] Liver Function Tests
+[LT.05] Thyroid Function Panel
+[LT.06] Coagulation Studies
+[LT.07] Urinalysis
+[LT.08] Microbiology Culture
+[LT.09] Immunology and Serology
+[LT.10] Molecular Diagnostics (PCR)
+[LT.11] Blood Gas Analysis
+[LT.12] Toxicology Screen
+[LT.13] Tumor Marker Panel
+[LT.14] Genetic Testing
+[LT.15] Point-of-Care Testing
+[LT.16] Flow Cytometry

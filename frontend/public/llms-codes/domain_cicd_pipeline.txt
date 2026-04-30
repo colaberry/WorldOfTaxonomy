@@ -1,0 +1,17 @@
+[CI] CI/CD Pipeline Types :: naics_2022:211, naics_2022:2212, naics_2022:4861
+[CI.01] Continuous Integration
+[CI.02] Continuous Delivery
+[CI.03] Continuous Deployment
+[CI.04] Build Pipeline
+[CI.05] Test Pipeline (Unit/Integration)
+[CI.06] Security Pipeline (SAST/DAST)
+[CI.07] Artifact Management
+[CI.08] Container Image Pipeline
+[CI.09] Infrastructure Pipeline (IaC)
+[CI.10] GitOps Pipeline
+[CI.11] Canary Deployment Pipeline
+[CI.12] Blue-Green Deployment
+[CI.13] Rolling Update Pipeline
+[CI.14] Multi-Environment Pipeline
+[CI.15] Compliance Gate Pipeline
+[CI.16] Monorepo Pipeline

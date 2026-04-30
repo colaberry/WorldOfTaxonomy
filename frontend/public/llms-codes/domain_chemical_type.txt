@@ -1,0 +1,29 @@
+[dch_agroc] Agrochemicals :: naics_2022:325
+[dch_agroc_fert] Fertilizers (nitrogen, phosphate, potash)
+[dch_agroc_growth] Plant Growth Regulators and Soil Amendments
+[dch_agroc_pest] Pesticides (herbicides, insecticides, fungicides)
+[dch_coat] Coatings, Adhesives and Inks :: naics_2022:325
+[dch_coat_adhesive] Adhesives and Sealants
+[dch_coat_arch] Architectural and Decorative Coatings
+[dch_coat_indust] Industrial and Protective Coatings
+[dch_gas] Industrial Gases :: naics_2022:325
+[dch_gas_cryo] Cryogenic Gases (liquid nitrogen, liquid helium)
+[dch_gas_indust] Industrial Gases (oxygen, nitrogen, argon, CO2)
+[dch_gas_special] Specialty Gases (ultra-high purity, calibration mixes)
+[dch_petro] Petrochemicals :: naics_2022:325
+[dch_petro_aromatic] Aromatic Hydrocarbons (benzene, toluene, xylene)
+[dch_petro_basic] Basic Petrochemicals (ethylene, propylene, methanol)
+[dch_petro_olefin] Olefins and Derivatives (butadiene, butylene)
+[dch_pharma] Pharmaceutical Intermediates :: naics_2022:325
+[dch_pharma_api] Active Pharmaceutical Ingredients (APIs)
+[dch_pharma_bio] Biologics Intermediates (cell culture media, buffers)
+[dch_pharma_excip] Pharmaceutical Excipients and Carriers
+[dch_poly] Polymers and Plastics :: naics_2022:325
+[dch_poly_elast] Elastomers and Synthetic Rubber (SBR, EPDM, NBR)
+[dch_poly_therm] Thermoplastics (PE, PP, PVC, PET, ABS)
+[dch_poly_thermo] Thermosets (epoxy, phenolic, polyurethane, silicone)
+[dch_spec] Specialty Chemicals :: naics_2022:325
+[dch_spec_biocide] Biocides and Preservatives
+[dch_spec_catalyst] Catalysts and Catalysis (zeolites, organometallics)
+[dch_spec_elec] Electronic Chemicals (semiconductor-grade solvents)
+[dch_spec_surfact] Surfactants and Emulsifiers

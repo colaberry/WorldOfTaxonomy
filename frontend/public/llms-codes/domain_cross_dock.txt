@@ -1,0 +1,13 @@
+[XD] Cross-Dock Types :: naics_2022:5419
+[XD.01] Manufacturing Cross-Dock
+[XD.02] Distributor Cross-Dock
+[XD.03] Transportation Cross-Dock
+[XD.04] Retail Cross-Dock
+[XD.05] Opportunistic Cross-Dock
+[XD.06] Pre-Allocated Cross-Dock
+[XD.07] Post-Allocated Cross-Dock
+[XD.08] Continuous Cross-Dock
+[XD.09] Consolidation Cross-Dock
+[XD.10] Deconsolidation Cross-Dock
+[XD.11] LTL Cross-Dock
+[XD.12] E-Commerce Cross-Dock

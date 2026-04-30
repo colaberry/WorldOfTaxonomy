@@ -1,0 +1,16 @@
+[dregrad_class] Traditional A/B/C Office and Industrial Class :: naics_2022:531
+[dregrad_class_a] Class A: best quality, prime location, institutional-grade
+[dregrad_class_b] Class B: average quality, functional, good but secondary location
+[dregrad_class_c] Class C: below average, dated, limited amenities, value play
+[dregrad_invest] Investment Strategy and Risk-Return Grade :: naics_2022:531
+[dregrad_invest_core] Core: stabilized, low risk, Class A, low leverage (NCREIF core)
+[dregrad_invest_coreplus] Core-Plus: mostly stabilized, minor value-add, modest risk
+[dregrad_invest_opport] Opportunistic: development, distressed, or full-repositioning
+[dregrad_invest_valueadd] Value-Add: significant capex/lease-up required, moderate risk
+[dregrad_residential] Residential Property Quality Grade :: naics_2022:531
+[dregrad_residential_affordable] Affordable housing (LIHTC, Section 8, income-restricted)
+[dregrad_residential_luxury] Luxury residential (penthouses, branded residences, trophy condos)
+[dregrad_residential_market] Market-rate workforce housing
+[dregrad_trophy] Trophy and Flagship Asset Classifications :: naics_2022:531
+[dregrad_trophy_creative] Creative campus / lifestyle product (innovation district, mixed-use)
+[dregrad_trophy_iconic] Trophy / iconic: landmark buildings, best-in-market

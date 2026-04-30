@@ -1,0 +1,13 @@
+[NO] Notary Types :: naics_2022:5411
+[NO.01] Traditional Notary Public
+[NO.02] Remote Online Notarization (RON)
+[NO.03] Signing Agent (Loan)
+[NO.04] Mobile Notary
+[NO.05] Apostille Service
+[NO.06] Civil Law Notary
+[NO.07] Notary Acknowledgment
+[NO.08] Jurat (Oath/Affirmation)
+[NO.09] Copy Certification
+[NO.10] Signature Witnessing
+[NO.11] Electronic Notarization
+[NO.12] Notary Journal/Record

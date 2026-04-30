@@ -1,0 +1,20 @@
+[drtlfmt_convenience] Convenience and Small-Format Stores :: naics_2022:44-45
+[drtlfmt_convenience_c_store] Traditional c-store (2-5k sq ft, fuel, beverages, snacks)
+[drtlfmt_convenience_express] Grocer express format (urban micro-store, grab-and-go)
+[drtlfmt_dept] Department Store and Anchor Formats :: naics_2022:44-45
+[drtlfmt_dept_fullline] Full-line department store (Nordstrom, Macy's - apparel, home, beauty)
+[drtlfmt_dept_offprice] Off-price department store (TJ Maxx, Marshalls, Burlington)
+[drtlfmt_digital] Digital-First and Hybrid Retail Formats :: naics_2022:44-45
+[drtlfmt_digital_omni] Omni-channel: integrated online + physical stores
+[drtlfmt_digital_pop] Pop-up shop and experiential retail format
+[drtlfmt_digital_pure] Pure-play e-commerce (no physical stores)
+[drtlfmt_grocery] Grocery and Supermarket Formats :: naics_2022:44-45
+[drtlfmt_grocery_limited] Limited assortment / hard discount (Aldi, Lidl, 2000 SKUs)
+[drtlfmt_grocery_natural] Natural and organic grocer (Whole Foods, Sprouts)
+[drtlfmt_grocery_traditional] Traditional supermarket (25-50k sq ft, full-service)
+[drtlfmt_mass] Mass Market and Supercenter Formats :: naics_2022:44-45
+[drtlfmt_mass_hyper] Hypermarket / supercenter (100k+ sq ft, full grocery + GM)
+[drtlfmt_mass_superstore] Superstore (50-100k sq ft, dominant category + grocery)
+[drtlfmt_specialty] Specialty and Category-Killer Formats :: naics_2022:44-45
+[drtlfmt_specialty_boutique] Specialty boutique (under 3000 sq ft, curated assortment)
+[drtlfmt_specialty_cat] Category killer (Home Depot, Best Buy, Petco - category dominance)

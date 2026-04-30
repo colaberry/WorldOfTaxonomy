@@ -1,0 +1,21 @@
+[db_core] Core Digital Banking :: naics_2022:522, naics_2022:5223
+[db_core_baas] Banking-as-a-Service (BaaS)
+[db_core_chal] Challenger bank (digital + limited branches)
+[db_core_embed] Embedded banking
+[db_core_neo] Neobank (digital-only bank)
+[db_infra] Banking Infrastructure :: naics_2022:522, naics_2022:5223
+[db_infra_api] Open banking APIs
+[db_infra_core] Core banking platform
+[db_infra_fraud] Fraud detection and prevention
+[db_infra_kyc] Digital KYC and identity verification
+[db_lend] Digital Lending :: naics_2022:522, naics_2022:5223
+[db_lend_cons] Consumer digital lending
+[db_lend_mort] Digital mortgage origination
+[db_lend_p2p] P2P lending marketplaces
+[db_lend_smb] SMB lending platforms
+[db_pay] Payments and Transfers :: naics_2022:522, naics_2022:5223
+[db_pay_bnpl] Buy now pay later (BNPL)
+[db_pay_cross] Cross-border remittances
+[db_pay_inst] Instant payments (real-time)
+[db_pay_p2p] P2P payments
+[db_pay_wallet] Digital wallets

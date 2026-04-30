@@ -1,0 +1,16 @@
+[DG] Data Governance Types :: naics_2022:518, naics_2022:5415
+[DG.01] Data Stewardship
+[DG.02] Data Policy Management
+[DG.03] Data Classification Framework
+[DG.04] Data Retention Policy
+[DG.05] Data Access Control
+[DG.06] Data Privacy Compliance
+[DG.07] Data Ethics Framework
+[DG.08] Data Sovereignty
+[DG.09] Cross-Border Data Transfer
+[DG.10] Data Sharing Agreement
+[DG.11] Data Catalog Governance
+[DG.12] Metadata Standard
+[DG.13] Data Governance Council
+[DG.14] Data Maturity Model
+[DG.15] Regulatory Data Reporting

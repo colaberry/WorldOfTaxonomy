@@ -1,0 +1,15 @@
+[CA] Certificate Authority Types :: naics_2022:5419
+[CA.01] Public CA
+[CA.02] Private CA
+[CA.03] Root CA
+[CA.04] Intermediate CA
+[CA.05] Domain Validation (DV)
+[CA.06] Organization Validation (OV)
+[CA.07] Extended Validation (EV)
+[CA.08] Wildcard Certificate
+[CA.09] SAN Certificate
+[CA.10] Code Signing Certificate
+[CA.11] S/MIME Certificate
+[CA.12] Certificate Transparency
+[CA.13] ACME Protocol (Let's Encrypt)
+[CA.14] Certificate Lifecycle

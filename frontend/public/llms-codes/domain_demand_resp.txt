@@ -1,0 +1,14 @@
+[DA] Demand Response Types :: naics_2022:5419
+[DA.01] Price-Based DR (Time-of-Use)
+[DA.02] Critical Peak Pricing
+[DA.03] Real-Time Pricing DR
+[DA.04] Incentive-Based DR
+[DA.05] Direct Load Control
+[DA.06] Interruptible Service
+[DA.07] Emergency DR Program
+[DA.08] Capacity Market DR
+[DA.09] Ancillary Services DR
+[DA.10] Behind-the-Meter DR
+[DA.11] Automated DR (OpenADR)
+[DA.12] Behavioral DR
+[DA.13] Industrial DR

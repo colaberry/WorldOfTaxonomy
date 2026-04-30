@@ -1,0 +1,17 @@
+[wind_app] Applications :: naics_2022:2211
+[wind_app_dist] Distributed/community wind
+[wind_app_hybrid] Hybrid wind-solar projects
+[wind_app_small] Small wind (residential, farm)
+[wind_app_util] Utility-scale wind farm
+[wind_comp] Components :: naics_2022:2211
+[wind_comp_blade] Blades and rotor systems
+[wind_comp_found] Foundations (monopile, jacket, floating)
+[wind_comp_nacelle] Nacelle and drivetrain
+[wind_comp_ops] O&M and service vessels
+[wind_comp_sub] Subsea cables and interconnection
+[wind_comp_tower] Tower structures
+[wind_tech] Wind Technology :: naics_2022:2211
+[wind_tech_hawt] Horizontal-axis wind turbine (HAWT)
+[wind_tech_off_fb] Offshore fixed-bottom
+[wind_tech_off_fl] Offshore floating
+[wind_tech_vawt] Vertical-axis wind turbine (VAWT)

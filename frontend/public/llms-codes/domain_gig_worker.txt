@@ -1,0 +1,14 @@
+[GW] Gig Worker Types :: naics_2022:5613, naics_2022:5614
+[GW.01] Platform-Based Gig Worker
+[GW.02] Rideshare Driver
+[GW.03] Delivery Courier
+[GW.04] Freelance Knowledge Worker
+[GW.05] Task-Based Worker
+[GW.06] Creative Freelancer
+[GW.07] Independent Contractor
+[GW.08] Temporary Agency Worker
+[GW.09] On-Demand Professional
+[GW.10] Crowdsource Worker
+[GW.11] Digital Nomad
+[GW.12] Gig Worker Classification
+[GW.13] Portable Benefits Model

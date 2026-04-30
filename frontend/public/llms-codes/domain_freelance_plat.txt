@@ -1,0 +1,14 @@
+[FP] Freelance Platform Types :: naics_2022:5613, naics_2022:5614
+[FP.01] General Freelance (Upwork)
+[FP.02] Creative Freelance (Fiverr)
+[FP.03] Tech Freelance (Toptal)
+[FP.04] Writing Freelance
+[FP.05] Design Freelance (99designs)
+[FP.06] Consulting Platform
+[FP.07] Legal Freelance
+[FP.08] Translation Platform
+[FP.09] Video/Audio Freelance
+[FP.10] Data Annotation Platform
+[FP.11] Staffing Marketplace
+[FP.12] Talent Cloud Platform
+[FP.13] Project-Based Marketplace

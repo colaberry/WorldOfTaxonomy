@@ -1,0 +1,428 @@
+[4] Measurement and Monitoring -- ICD-10-PCS section (Measurement and Monitoring). Top-level grouping of procedure codes; sub-nodes break down by body system, operation, and detailed code.
+[4A] Measurement and Monitoring, Physiological Systems -- Body system (Measurement and Monitoring, Physiological Systems) within ICD-10-PCS section 'Measurement and Monitoring'. Aggregator of root-operation tables for this body system.
+[4A0] Measurement and Monitoring, Physiological Systems, Measurement -- Determining the level of a physiological or physical function at a point in time
+[4A0002Z] Measurement of Central Nervous Conductivity, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0004Z] Measurement of Central Nervous Electrical Activity, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A000BZ] Measurement of Central Nervous Pressure, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0034Z] Measurement of Central Nervous Electrical Activity, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A003BD] Measurement of Intracranial Pressure, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A003KD] Measurement of Intracranial Temperature, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A003RD] Measurement of Intracranial Saturation, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0074Z] Measurement of Central Nervous Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A007BD] Measurement of Intracranial Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A007KD] Measurement of Intracranial Temperature, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A007RD] Measurement of Intracranial Saturation, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0084Z] Measurement of Central Nervous Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A008BD] Measurement of Intracranial Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A008KD] Measurement of Intracranial Temperature, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A008RD] Measurement of Intracranial Saturation, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A00X2Z] Measurement of Central Nervous Conductivity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A00X4Z] Measurement of Central Nervous Electrical Activity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A01029] Measurement of Peripheral Nervous Conductivity, Sensory, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0102B] Measurement of Peripheral Nervous Conductivity, Motor, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0104Z] Measurement of Peripheral Nervous Electrical Activity, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A01329] Measurement of Peripheral Nervous Conductivity, Sensory, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0132B] Measurement of Peripheral Nervous Conductivity, Motor, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0134Z] Measurement of Peripheral Nervous Electrical Activity, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A01729] Measurement of Peripheral Nervous Conductivity, Sensory, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0172B] Measurement of Peripheral Nervous Conductivity, Motor, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0174Z] Measurement of Peripheral Nervous Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A01829] Measurement of Peripheral Nervous Conductivity, Sensory, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0182B] Measurement of Peripheral Nervous Conductivity, Motor, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0184Z] Measurement of Peripheral Nervous Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A01X29] Measurement of Peripheral Nervous Conductivity, Sensory, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A01X2B] Measurement of Peripheral Nervous Conductivity, Motor, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A01X4Z] Measurement of Peripheral Nervous Electrical Activity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0204Z] Measurement of Cardiac Electrical Activity, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0209Z] Measurement of Cardiac Output, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A020CZ] Measurement of Cardiac Rate, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A020FZ] Measurement of Cardiac Rhythm, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A020HZ] Measurement of Cardiac Sound, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A020N6] Measurement of Cardiac Sampling and Pressure, Right Heart, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A020N7] Measurement of Cardiac Sampling and Pressure, Left Heart, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A020N8] Measurement of Cardiac Sampling and Pressure, Bilateral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A020PZ] Measurement of Cardiac Action Currents, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0234Z] Measurement of Cardiac Electrical Activity, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0239Z] Measurement of Cardiac Output, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A023CZ] Measurement of Cardiac Rate, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A023FZ] Measurement of Cardiac Rhythm, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A023HZ] Measurement of Cardiac Sound, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A023N6] Measurement of Cardiac Sampling and Pressure, Right Heart, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A023N7] Measurement of Cardiac Sampling and Pressure, Left Heart, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A023N8] Measurement of Cardiac Sampling and Pressure, Bilateral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A023PZ] Measurement of Cardiac Action Currents, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0274Z] Measurement of Cardiac Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0279Z] Measurement of Cardiac Output, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A027CZ] Measurement of Cardiac Rate, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A027FZ] Measurement of Cardiac Rhythm, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A027HZ] Measurement of Cardiac Sound, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A027N6] Measurement of Cardiac Sampling and Pressure, Right Heart, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A027N7] Measurement of Cardiac Sampling and Pressure, Left Heart, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A027N8] Measurement of Cardiac Sampling and Pressure, Bilateral, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A027PZ] Measurement of Cardiac Action Currents, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0284Z] Measurement of Cardiac Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0289Z] Measurement of Cardiac Output, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A028CZ] Measurement of Cardiac Rate, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A028FZ] Measurement of Cardiac Rhythm, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A028HZ] Measurement of Cardiac Sound, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A028N6] Measurement of Cardiac Sampling and Pressure, Right Heart, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A028N7] Measurement of Cardiac Sampling and Pressure, Left Heart, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A028N8] Measurement of Cardiac Sampling and Pressure, Bilateral, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A028PZ] Measurement of Cardiac Action Currents, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A02X4A] Measurement of Cardiac Electrical Activity, Guidance, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A02X4Z] Measurement of Cardiac Electrical Activity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A02X9Z] Measurement of Cardiac Output, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A02XCZ] Measurement of Cardiac Rate, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A02XFZ] Measurement of Cardiac Rhythm, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A02XHZ] Measurement of Cardiac Sound, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A02XM4] Measurement of Cardiac Total Activity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A02XPZ] Measurement of Cardiac Action Currents, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03051] Measurement of Arterial Flow, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03053] Measurement of Arterial Flow, Pulmonary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0305C] Measurement of Arterial Flow, Coronary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030B1] Measurement of Arterial Pressure, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030B3] Measurement of Arterial Pressure, Pulmonary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030BC] Measurement of Arterial Pressure, Coronary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030BF] Measurement of Arterial Pressure, Other Thoracic, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030H1] Measurement of Arterial Sound, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030J1] Measurement of Arterial Pulse, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030J3] Measurement of Arterial Pulse, Pulmonary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030JC] Measurement of Arterial Pulse, Coronary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A030R1] Measurement of Arterial Saturation, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03351] Measurement of Arterial Flow, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03353] Measurement of Arterial Flow, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0335C] Measurement of Arterial Flow, Coronary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033B1] Measurement of Arterial Pressure, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033B3] Measurement of Arterial Pressure, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033BC] Measurement of Arterial Pressure, Coronary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033BF] Measurement of Arterial Pressure, Other Thoracic, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033H1] Measurement of Arterial Sound, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033J1] Measurement of Arterial Pulse, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033J3] Measurement of Arterial Pulse, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033JC] Measurement of Arterial Pulse, Coronary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A033R1] Measurement of Arterial Saturation, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03X51] Measurement of Arterial Flow, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03X5D] Measurement of Arterial Flow, Intracranial, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03XB1] Measurement of Arterial Pressure, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03XH1] Measurement of Arterial Sound, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03XJ1] Measurement of Arterial Pulse, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A03XR1] Measurement of Arterial Saturation, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04050] Measurement of Venous Flow, Central, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04051] Measurement of Venous Flow, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04052] Measurement of Venous Flow, Portal, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04053] Measurement of Venous Flow, Pulmonary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040B0] Measurement of Venous Pressure, Central, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040B1] Measurement of Venous Pressure, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040B2] Measurement of Venous Pressure, Portal, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040B3] Measurement of Venous Pressure, Pulmonary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040J0] Measurement of Venous Pulse, Central, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040J1] Measurement of Venous Pulse, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040J2] Measurement of Venous Pulse, Portal, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040J3] Measurement of Venous Pulse, Pulmonary, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A040R1] Measurement of Venous Saturation, Peripheral, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04350] Measurement of Venous Flow, Central, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04351] Measurement of Venous Flow, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04352] Measurement of Venous Flow, Portal, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04353] Measurement of Venous Flow, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043B0] Measurement of Venous Pressure, Central, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043B1] Measurement of Venous Pressure, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043B2] Measurement of Venous Pressure, Portal, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043B3] Measurement of Venous Pressure, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043J0] Measurement of Venous Pulse, Central, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043J1] Measurement of Venous Pulse, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043J2] Measurement of Venous Pulse, Portal, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043J3] Measurement of Venous Pulse, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A043R1] Measurement of Venous Saturation, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A044B2] Measurement of Venous Pressure, Portal, Percutaneous Endoscopic Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04X51] Measurement of Venous Flow, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04XB1] Measurement of Venous Pressure, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04XJ1] Measurement of Venous Pulse, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A04XR1] Measurement of Venous Saturation, Peripheral, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A05XLZ] Measurement of Circulatory Volume, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0605Z] Measurement of Lymphatic Flow, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A060BZ] Measurement of Lymphatic Pressure, Open Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0635Z] Measurement of Lymphatic Flow, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A063BZ] Measurement of Lymphatic Pressure, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0675Z] Measurement of Lymphatic Flow, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A067BZ] Measurement of Lymphatic Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0685Z] Measurement of Lymphatic Flow, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A068BZ] Measurement of Lymphatic Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A07X0Z] Measurement of Visual Acuity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A07X7Z] Measurement of Visual Mobility, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A07XBZ] Measurement of Visual Pressure, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A08X0Z] Measurement of Olfactory Acuity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0971Z] Measurement of Respiratory Capacity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0975Z] Measurement of Respiratory Flow, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A097CZ] Measurement of Respiratory Rate, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A097DZ] Measurement of Respiratory Resistance, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A097LZ] Measurement of Respiratory Volume, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A097MZ] Measurement of Respiratory Total Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0981Z] Measurement of Respiratory Capacity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0985Z] Measurement of Respiratory Flow, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A098CZ] Measurement of Respiratory Rate, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A098DZ] Measurement of Respiratory Resistance, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A098LZ] Measurement of Respiratory Volume, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A098MZ] Measurement of Respiratory Total Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A09X1Z] Measurement of Respiratory Capacity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A09X5Z] Measurement of Respiratory Flow, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A09XCZ] Measurement of Respiratory Rate, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A09XDZ] Measurement of Respiratory Resistance, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A09XLZ] Measurement of Respiratory Volume, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A09XMZ] Measurement of Respiratory Total Activity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0B78Z] Measurement of Gastrointestinal Motility, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0B7BZ] Measurement of Gastrointestinal Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0B7GZ] Measurement of Gastrointestinal Secretion, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0B88Z] Measurement of Gastrointestinal Motility, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0B8BZ] Measurement of Gastrointestinal Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0B8GZ] Measurement of Gastrointestinal Secretion, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0C35Z] Measurement of Biliary Flow, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0C3BZ] Measurement of Biliary Pressure, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0C45Z] Measurement of Biliary Flow, Percutaneous Endoscopic Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0C4BZ] Measurement of Biliary Pressure, Percutaneous Endoscopic Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0C75Z] Measurement of Biliary Flow, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0C7BZ] Measurement of Biliary Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0C85Z] Measurement of Biliary Flow, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0C8BZ] Measurement of Biliary Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0D73Z] Measurement of Urinary Contractility, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0D75Z] Measurement of Urinary Flow, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0D7BZ] Measurement of Urinary Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0D7DZ] Measurement of Urinary Resistance, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0D7LZ] Measurement of Urinary Volume, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0D83Z] Measurement of Urinary Contractility, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0D85Z] Measurement of Urinary Flow, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0D8BZ] Measurement of Urinary Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0D8DZ] Measurement of Urinary Resistance, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0D8LZ] Measurement of Urinary Volume, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0F33Z] Measurement of Musculoskeletal Contractility, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0F3BE] Measurement of Musculoskeletal Pressure, Compartment, Percutaneous Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0FX3Z] Measurement of Musculoskeletal Contractility, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0H74Z] Measurement of Products of Conception, Cardiac Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0H7CZ] Measurement of Products of Conception, Cardiac Rate, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0H7FZ] Measurement of Products of Conception, Cardiac Rhythm, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0H7HZ] Measurement of Products of Conception, Cardiac Sound, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0H84Z] Measurement of Products of Conception, Cardiac Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0H8CZ] Measurement of Products of Conception, Cardiac Rate, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0H8FZ] Measurement of Products of Conception, Cardiac Rhythm, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0H8HZ] Measurement of Products of Conception, Cardiac Sound, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0HX4Z] Measurement of Products of Conception, Cardiac Electrical Activity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0HXCZ] Measurement of Products of Conception, Cardiac Rate, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0HXFZ] Measurement of Products of Conception, Cardiac Rhythm, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0HXHZ] Measurement of Products of Conception, Cardiac Sound, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0J72Z] Measurement of Products of Conception, Nervous Conductivity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0J74Z] Measurement of Products of Conception, Nervous Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0J7BZ] Measurement of Products of Conception, Nervous Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0J82Z] Measurement of Products of Conception, Nervous Conductivity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0J84Z] Measurement of Products of Conception, Nervous Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0J8BZ] Measurement of Products of Conception, Nervous Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function at a point in time
+[4A0JX2Z] Measurement of Products of Conception, Nervous Conductivity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0JX4Z] Measurement of Products of Conception, Nervous Electrical Activity, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0JXBZ] Measurement of Products of Conception, Nervous Pressure, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0Z76Z] Measurement of Metabolism, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0Z7KZ] Measurement of Temperature, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function at a point in time
+[4A0ZX6Z] Measurement of Metabolism, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0ZXKZ] Measurement of Temperature, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A0ZXQZ] Measurement of Sleep, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4A1] Measurement and Monitoring, Physiological Systems, Monitoring -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1002Z] Monitoring of Central Nervous Conductivity, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1004G] Monitoring of Central Nervous Electrical Activity, Intraoperative, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1004Z] Monitoring of Central Nervous Electrical Activity, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A100BZ] Monitoring of Central Nervous Pressure, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1034G] Monitoring of Central Nervous Electrical Activity, Intraoperative, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1034Z] Monitoring of Central Nervous Electrical Activity, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A103BD] Monitoring of Intracranial Pressure, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A103KD] Monitoring of Intracranial Temperature, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A103RD] Monitoring of Intracranial Saturation, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1074G] Monitoring of Central Nervous Electrical Activity, Intraoperative, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1074Z] Monitoring of Central Nervous Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A107BD] Monitoring of Intracranial Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A107KD] Monitoring of Intracranial Temperature, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A107RD] Monitoring of Intracranial Saturation, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1084G] Monitoring of Central Nervous Electrical Activity, Intraoperative, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1084Z] Monitoring of Central Nervous Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A108BD] Monitoring of Intracranial Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A108KD] Monitoring of Intracranial Temperature, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A108RD] Monitoring of Intracranial Saturation, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A10X2Z] Monitoring of Central Nervous Conductivity, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A10X4G] Monitoring of Central Nervous Electrical Activity, Intraoperative, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A10X4Z] Monitoring of Central Nervous Electrical Activity, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A11029] Monitoring of Peripheral Nervous Conductivity, Sensory, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1102B] Monitoring of Peripheral Nervous Conductivity, Motor, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1104G] Monitoring of Peripheral Nervous Electrical Activity, Intraoperative, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1104Z] Monitoring of Peripheral Nervous Electrical Activity, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A11329] Monitoring of Peripheral Nervous Conductivity, Sensory, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1132B] Monitoring of Peripheral Nervous Conductivity, Motor, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1134G] Monitoring of Peripheral Nervous Electrical Activity, Intraoperative, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1134Z] Monitoring of Peripheral Nervous Electrical Activity, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A11729] Monitoring of Peripheral Nervous Conductivity, Sensory, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1172B] Monitoring of Peripheral Nervous Conductivity, Motor, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1174G] Monitoring of Peripheral Nervous Electrical Activity, Intraoperative, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1174Z] Monitoring of Peripheral Nervous Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A11829] Monitoring of Peripheral Nervous Conductivity, Sensory, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1182B] Monitoring of Peripheral Nervous Conductivity, Motor, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1184G] Monitoring of Peripheral Nervous Electrical Activity, Intraoperative, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1184Z] Monitoring of Peripheral Nervous Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A11X29] Monitoring of Peripheral Nervous Conductivity, Sensory, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A11X2B] Monitoring of Peripheral Nervous Conductivity, Motor, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A11X4G] Monitoring of Peripheral Nervous Electrical Activity, Intraoperative, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A11X4Z] Monitoring of Peripheral Nervous Electrical Activity, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1204Z] Monitoring of Cardiac Electrical Activity, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1209Z] Monitoring of Cardiac Output, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A120CZ] Monitoring of Cardiac Rate, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A120FZ] Monitoring of Cardiac Rhythm, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A120HZ] Monitoring of Cardiac Sound, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1234Z] Monitoring of Cardiac Electrical Activity, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1239Z] Monitoring of Cardiac Output, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A123CZ] Monitoring of Cardiac Rate, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A123FZ] Monitoring of Cardiac Rhythm, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A123HZ] Monitoring of Cardiac Sound, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1274Z] Monitoring of Cardiac Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1279Z] Monitoring of Cardiac Output, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A127CZ] Monitoring of Cardiac Rate, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A127FZ] Monitoring of Cardiac Rhythm, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A127HZ] Monitoring of Cardiac Sound, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1284Z] Monitoring of Cardiac Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1289Z] Monitoring of Cardiac Output, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A128CZ] Monitoring of Cardiac Rate, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A128FZ] Monitoring of Cardiac Rhythm, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A128HZ] Monitoring of Cardiac Sound, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A12X45] Monitoring of Cardiac Electrical Activity, Ambulatory, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A12X4Z] Monitoring of Cardiac Electrical Activity, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A12X9Z] Monitoring of Cardiac Output, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A12XCZ] Monitoring of Cardiac Rate, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A12XFZ] Monitoring of Cardiac Rhythm, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A12XHZ] Monitoring of Cardiac Sound, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A12XM4] Monitoring of Cardiac Stress, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A12XSH] Monitoring of Cardiac Vascular Perfusion using Indocyanine Green Dye, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13051] Monitoring of Arterial Flow, Peripheral, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13053] Monitoring of Arterial Flow, Pulmonary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1305C] Monitoring of Arterial Flow, Coronary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A130B1] Monitoring of Arterial Pressure, Peripheral, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A130B3] Monitoring of Arterial Pressure, Pulmonary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A130BC] Monitoring of Arterial Pressure, Coronary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A130H1] Monitoring of Arterial Sound, Peripheral, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A130J1] Monitoring of Arterial Pulse, Peripheral, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A130J3] Monitoring of Arterial Pulse, Pulmonary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A130JC] Monitoring of Arterial Pulse, Coronary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A130R1] Monitoring of Arterial Saturation, Peripheral, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13351] Monitoring of Arterial Flow, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13353] Monitoring of Arterial Flow, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1335C] Monitoring of Arterial Flow, Coronary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A133B1] Monitoring of Arterial Pressure, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A133B3] Monitoring of Arterial Pressure, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A133BC] Monitoring of Arterial Pressure, Coronary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A133H1] Monitoring of Arterial Sound, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A133J1] Monitoring of Arterial Pulse, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A133J3] Monitoring of Arterial Pulse, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A133JC] Monitoring of Arterial Pulse, Coronary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A133R1] Monitoring of Arterial Saturation, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13X51] Monitoring of Arterial Flow, Peripheral, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13XB1] Monitoring of Arterial Pressure, Peripheral, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13XH1] Monitoring of Arterial Sound, Peripheral, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13XJ1] Monitoring of Arterial Pulse, Peripheral, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A13XR1] Monitoring of Arterial Saturation, Peripheral, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14050] Monitoring of Venous Flow, Central, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14051] Monitoring of Venous Flow, Peripheral, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14052] Monitoring of Venous Flow, Portal, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14053] Monitoring of Venous Flow, Pulmonary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140B0] Monitoring of Venous Pressure, Central, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140B1] Monitoring of Venous Pressure, Peripheral, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140B2] Monitoring of Venous Pressure, Portal, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140B3] Monitoring of Venous Pressure, Pulmonary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140J0] Monitoring of Venous Pulse, Central, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140J1] Monitoring of Venous Pulse, Peripheral, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140J2] Monitoring of Venous Pulse, Portal, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140J3] Monitoring of Venous Pulse, Pulmonary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140R0] Monitoring of Venous Saturation, Central, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140R2] Monitoring of Venous Saturation, Portal, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A140R3] Monitoring of Venous Saturation, Pulmonary, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14350] Monitoring of Venous Flow, Central, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14351] Monitoring of Venous Flow, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14352] Monitoring of Venous Flow, Portal, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14353] Monitoring of Venous Flow, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143B0] Monitoring of Venous Pressure, Central, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143B1] Monitoring of Venous Pressure, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143B2] Monitoring of Venous Pressure, Portal, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143B3] Monitoring of Venous Pressure, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143J0] Monitoring of Venous Pulse, Central, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143J1] Monitoring of Venous Pulse, Peripheral, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143J2] Monitoring of Venous Pulse, Portal, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143J3] Monitoring of Venous Pulse, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143R0] Monitoring of Venous Saturation, Central, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143R2] Monitoring of Venous Saturation, Portal, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A143R3] Monitoring of Venous Saturation, Pulmonary, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14X51] Monitoring of Venous Flow, Peripheral, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14XB1] Monitoring of Venous Pressure, Peripheral, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A14XJ1] Monitoring of Venous Pulse, Peripheral, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1605H] Monitoring of Lymphatic Flow using Indocyanine Green Dye, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1605Z] Monitoring of Lymphatic Flow, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A160BZ] Monitoring of Lymphatic Pressure, Open Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1635H] Monitoring of Lymphatic Flow using Indocyanine Green Dye, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1635Z] Monitoring of Lymphatic Flow, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A163BZ] Monitoring of Lymphatic Pressure, Percutaneous Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1675H] Monitoring of Lymphatic Flow using Indocyanine Green Dye, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1675Z] Monitoring of Lymphatic Flow, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A167BZ] Monitoring of Lymphatic Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1685H] Monitoring of Lymphatic Flow using Indocyanine Green Dye, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1685Z] Monitoring of Lymphatic Flow, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A168BZ] Monitoring of Lymphatic Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1971Z] Monitoring of Respiratory Capacity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1975Z] Monitoring of Respiratory Flow, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A197CZ] Monitoring of Respiratory Rate, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A197DZ] Monitoring of Respiratory Resistance, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A197LZ] Monitoring of Respiratory Volume, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A19X1Z] Monitoring of Respiratory Capacity, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A19X5Z] Monitoring of Respiratory Flow, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A19XCZ] Monitoring of Respiratory Rate, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A19XDZ] Monitoring of Respiratory Resistance, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A19XLZ] Monitoring of Respiratory Volume, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1B78Z] Monitoring of Gastrointestinal Motility, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1B7BZ] Monitoring of Gastrointestinal Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1B7GZ] Monitoring of Gastrointestinal Secretion, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1B88Z] Monitoring of Gastrointestinal Motility, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1B8BZ] Monitoring of Gastrointestinal Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1B8GZ] Monitoring of Gastrointestinal Secretion, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1BXSH] Monitoring of Gastrointestinal Vascular Perfusion using Indocyanine Green Dye, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D73Z] Monitoring of Urinary Contractility, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D75Z] Monitoring of Urinary Flow, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D7BZ] Monitoring of Urinary Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D7DZ] Monitoring of Urinary Resistance, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D7LZ] Monitoring of Urinary Volume, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D83Z] Monitoring of Urinary Contractility, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D85Z] Monitoring of Urinary Flow, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D8BZ] Monitoring of Urinary Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D8DZ] Monitoring of Urinary Resistance, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1D8LZ] Monitoring of Urinary Volume, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1GXSH] Monitoring of Skin and Breast Vascular Perfusion using Indocyanine Green Dye, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1H74Z] Monitoring of Products of Conception, Cardiac Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1H7CZ] Monitoring of Products of Conception, Cardiac Rate, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1H7FZ] Monitoring of Products of Conception, Cardiac Rhythm, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1H7HZ] Monitoring of Products of Conception, Cardiac Sound, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1H84Z] Monitoring of Products of Conception, Cardiac Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1H8CZ] Monitoring of Products of Conception, Cardiac Rate, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1H8FZ] Monitoring of Products of Conception, Cardiac Rhythm, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1H8HZ] Monitoring of Products of Conception, Cardiac Sound, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1HX4Z] Monitoring of Products of Conception, Cardiac Electrical Activity, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1HXCZ] Monitoring of Products of Conception, Cardiac Rate, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1HXFZ] Monitoring of Products of Conception, Cardiac Rhythm, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1HXHZ] Monitoring of Products of Conception, Cardiac Sound, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1J72Z] Monitoring of Products of Conception, Nervous Conductivity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1J74Z] Monitoring of Products of Conception, Nervous Electrical Activity, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1J7BZ] Monitoring of Products of Conception, Nervous Pressure, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1J82Z] Monitoring of Products of Conception, Nervous Conductivity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1J84Z] Monitoring of Products of Conception, Nervous Electrical Activity, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1J8BZ] Monitoring of Products of Conception, Nervous Pressure, Via Natural or Artificial Opening Endoscopic -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1JX2Z] Monitoring of Products of Conception, Nervous Conductivity, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1JX4Z] Monitoring of Products of Conception, Nervous Electrical Activity, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1JXBZ] Monitoring of Products of Conception, Nervous Pressure, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1Z7KZ] Monitoring of Temperature, Via Natural or Artificial Opening -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1ZXKZ] Monitoring of Temperature, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4A1ZXQZ] Monitoring of Sleep, External Approach -- Determining the level of a physiological or physical function repetitively over a period of time
+[4B] Measurement and Monitoring, Physiological Devices -- Body system (Measurement and Monitoring, Physiological Devices) within ICD-10-PCS section 'Measurement and Monitoring'. Aggregator of root-operation tables for this body system.
+[4B0] Measurement and Monitoring, Physiological Devices, Measurement -- Determining the level of a physiological or physical function at a point in time
+[4B00XVZ] Measurement of Central Nervous Stimulator, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4B00XW0] Measurement of Central Nervous Cerebrospinal Fluid Shunt using Wireless Sensor, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4B01XVZ] Measurement of Peripheral Nervous Stimulator, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4B02XSZ] Measurement of Cardiac Pacemaker, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4B02XTZ] Measurement of Cardiac Defibrillator, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4B09XSZ] Measurement of Respiratory Pacemaker, External Approach -- Determining the level of a physiological or physical function at a point in time
+[4B0FXVZ] Measurement of Musculoskeletal Stimulator, External Approach -- Determining the level of a physiological or physical function at a point in time

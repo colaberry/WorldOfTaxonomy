@@ -1,0 +1,17 @@
+[cow_amenity] Amenity Categories :: naics_2022:5311, naics_2022:5321
+[cow_amenity_comm] Community and networking events
+[cow_amenity_food] Food and beverage (kitchen, cafe)
+[cow_amenity_tech] Technology (WiFi, AV, printing)
+[cow_amenity_well] Wellness (gym, meditation, nap pods)
+[cow_model] Business Models :: naics_2022:5311, naics_2022:5321
+[cow_model_corp] Enterprise/corporate flex
+[cow_model_day] Day pass
+[cow_model_incub] Incubator and accelerator space
+[cow_model_mem] Membership-based
+[cow_type] Space Types :: naics_2022:5311, naics_2022:5321
+[cow_type_ded] Dedicated desk
+[cow_type_hot] Hot desking
+[cow_type_meet] Meeting and event space
+[cow_type_priv] Private office
+[cow_type_team] Team suite
+[cow_type_virt] Virtual office

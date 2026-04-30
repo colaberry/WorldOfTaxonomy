@@ -1,0 +1,21 @@
+[dchhaz_env] Environmental Hazards :: naics_2022:325
+[dchhaz_env_aquachronic] Chronic Aquatic Toxicity (Cat 1-4)
+[dchhaz_env_aquacute] Acute Aquatic Toxicity (Cat 1-3)
+[dchhaz_env_ozone] Hazardous to the Ozone Layer (Cat 1)
+[dchhaz_health] Health Hazards :: naics_2022:325
+[dchhaz_health_acutetox] Acute Toxicity (oral, dermal, inhalation Cat 1-5)
+[dchhaz_health_aspirate] Aspiration Hazard (Cat 1, 2)
+[dchhaz_health_carcin] Carcinogenicity (Cat 1A, 1B, 2)
+[dchhaz_health_eyeirr] Serious Eye Damage and Eye Irritation
+[dchhaz_health_mutagen] Germ Cell Mutagenicity (Cat 1A, 1B, 2)
+[dchhaz_health_reptox] Reproductive Toxicity (Cat 1A, 1B, 2, additional)
+[dchhaz_health_sensitize] Respiratory and Skin Sensitizers (Cat 1, 1A, 1B)
+[dchhaz_health_skincorr] Skin Corrosion and Irritation (Cat 1A-1C, Cat 2)
+[dchhaz_health_stot] STOT Single and Repeated Exposure (Cat 1, 2, 3)
+[dchhaz_phys] Physical Hazards :: naics_2022:325
+[dchhaz_phys_cormet] Corrosive to Metals (Cat 1)
+[dchhaz_phys_expl] Explosives (Div 1.1-1.6, unstable explosives)
+[dchhaz_phys_flamgas] Flammable Gases (Cat 1-2, chemical instability)
+[dchhaz_phys_flamliq] Flammable Liquids (Cat 1-4, flash point ranges)
+[dchhaz_phys_oxid] Oxidizing Substances and Organic Peroxides
+[dchhaz_phys_presgas] Gases Under Pressure (compressed, liquefied, dissolved)

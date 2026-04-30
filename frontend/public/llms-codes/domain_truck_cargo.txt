@@ -1,0 +1,44 @@
+[dtc_com] Commodity Groups :: isic_rev4:4923, naics_2022:484
+[dtc_com_apparel] Apparel and Textiles
+[dtc_com_auto] Automotive Parts and Accessories
+[dtc_com_beverage] Beverages (alcoholic and non-alcoholic)
+[dtc_com_chemicals] Non-hazardous Chemicals and Plastics
+[dtc_com_electronics] Electronics and Technology Equipment
+[dtc_com_food] Food and Grocery Products
+[dtc_com_general] General Freight (mixed commodities)
+[dtc_com_grain] Grain, Feed and Agricultural Commodities
+[dtc_com_livestock] Livestock and Live Animals
+[dtc_com_lumber] Lumber, Wood and Building Materials
+[dtc_com_machinery] Industrial Machinery and Equipment
+[dtc_com_paper] Paper, Pulp and Printing Materials
+[dtc_com_pharma] Pharmaceuticals and Medical Supplies
+[dtc_com_retail] Retail / Consumer Goods
+[dtc_com_steel] Steel, Metal and Raw Materials
+[dtc_com_vehicle] New Vehicles (automobiles, motorcycles)
+[dtc_com_waste] Waste, Recyclables and Scrap
+[dtc_haz] Hazardous Materials (DOT Classes 1-9) :: isic_rev4:4923, naics_2022:484
+[dtc_haz_1] Class 1 - Explosives
+[dtc_haz_2] Class 2 - Gases (flammable, non-flammable, toxic)
+[dtc_haz_3] Class 3 - Flammable Liquids
+[dtc_haz_4] Class 4 - Flammable Solids
+[dtc_haz_5] Class 5 - Oxidizers and Organic Peroxides
+[dtc_haz_6] Class 6 - Toxic and Infectious Substances
+[dtc_haz_7] Class 7 - Radioactive Materials
+[dtc_haz_8] Class 8 - Corrosives
+[dtc_haz_9] Class 9 - Miscellaneous Hazardous Materials
+[dtc_hdl] Special Handling Requirements :: isic_rev4:4923, naics_2022:484
+[dtc_hdl_flexi] Flexitank / Bulk Liquid in Dry Van
+[dtc_hdl_fragile] Fragile / High-value / White Glove
+[dtc_hdl_highsec] High-security / Bonded (customs, currency)
+[dtc_hdl_liftgate] Liftgate Required (no loading dock)
+[dtc_hdl_od] Overdimensional / Oversize / Overweight (OS/OW)
+[dtc_hdl_strapping] Blocking and Bracing / Chains / Strapping
+[dtc_hdl_tarp] Tarping Required (flatbed protection)
+[dtc_hdl_temp] Temperature-controlled (refrigerated/frozen)
+[dtc_reg] Regulatory and Permit Categories :: isic_rev4:4923, naics_2022:484
+[dtc_reg_bonded] Bonded / In-transit Customs (CBP Form 7512)
+[dtc_reg_food_grade] Food-grade Compliance (FDA 21 CFR)
+[dtc_reg_hazmat_pl] Hazmat Placard Required (49 CFR 172)
+[dtc_reg_pharma_gmp] Pharmaceutical GMP (FDA 21 CFR Part 211)
+[dtc_reg_pilot] Pilot Car / Escort Required
+[dtc_reg_superload] Superload Permit (multi-state coordination)

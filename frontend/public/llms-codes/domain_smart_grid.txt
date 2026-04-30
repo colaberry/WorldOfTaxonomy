@@ -1,0 +1,18 @@
+[sg_comp] Grid Components :: naics_2022:2211, naics_2022:3359
+[sg_comp_ami] Advanced metering infrastructure (AMI)
+[sg_comp_da] Distribution automation
+[sg_comp_scada] SCADA and grid management
+[sg_comp_sub] Smart substation
+[sg_svc] Grid Services :: naics_2022:2211, naics_2022:3359
+[sg_svc_black] Black start capability
+[sg_svc_cap] Capacity market participation
+[sg_svc_freq] Frequency regulation
+[sg_svc_peak] Peak shaving
+[sg_svc_spin] Spinning reserves
+[sg_svc_volt] Voltage support
+[sg_tech] Smart Technologies :: naics_2022:2211, naics_2022:3359
+[sg_tech_der] Distributed energy resources (DER)
+[sg_tech_dr] Demand response
+[sg_tech_ev] EV grid integration (V2G, smart charging)
+[sg_tech_micro] Microgrid controller
+[sg_tech_vpp] Virtual power plant (VPP)

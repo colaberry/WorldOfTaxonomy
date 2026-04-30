@@ -1,0 +1,14 @@
+[VP] Virtual Power Plant Types :: naics_2022:5419
+[VP.01] Supply-Side VPP
+[VP.02] Demand-Side VPP
+[VP.03] Mixed VPP
+[VP.04] Technical VPP
+[VP.05] Commercial VPP
+[VP.06] DER Aggregation Platform
+[VP.07] Battery Storage VPP
+[VP.08] EV Fleet VPP
+[VP.09] Solar PV Aggregation
+[VP.10] Wind Farm Aggregation
+[VP.11] Industrial Load VPP
+[VP.12] VPP Optimization Algorithm
+[VP.13] VPP Market Participation

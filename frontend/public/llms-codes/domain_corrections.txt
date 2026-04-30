@@ -1,0 +1,15 @@
+[CO] Corrections Types :: naics_2022:5411
+[CO.01] Federal Prison (BOP)
+[CO.02] State Prison
+[CO.03] County Jail
+[CO.04] Private Prison
+[CO.05] Minimum Security
+[CO.06] Medium Security
+[CO.07] Maximum Security
+[CO.08] Supermax Facility
+[CO.09] Juvenile Detention
+[CO.10] Community Corrections
+[CO.11] Probation
+[CO.12] Parole
+[CO.13] Electronic Monitoring
+[CO.14] Reentry Program

@@ -1,0 +1,15 @@
+[BK] Backup Strategy Types :: naics_2022:5419
+[BK.01] Full Backup
+[BK.02] Incremental Backup
+[BK.03] Differential Backup
+[BK.04] Continuous Data Protection
+[BK.05] Snapshot-Based Backup
+[BK.06] Cloud Backup (BaaS)
+[BK.07] Air-Gapped Backup
+[BK.08] Immutable Backup
+[BK.09] 3-2-1 Backup Rule
+[BK.10] Deduplication
+[BK.11] Backup Encryption
+[BK.12] Backup Verification
+[BK.13] Retention Policy
+[BK.14] Bare Metal Recovery

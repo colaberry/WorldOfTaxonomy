@@ -1,0 +1,16 @@
+[cp_build] Building Permits :: naics_2022:5419
+[cp_build_add] Addition permit
+[cp_build_demo] Demolition permit
+[cp_build_new] New construction permit
+[cp_build_reno] Renovation and alteration permit
+[cp_build_temp] Temporary structure permit
+[cp_special] Special Permits :: naics_2022:5419
+[cp_special_env] Environmental compliance permit
+[cp_special_grade] Grading and excavation permit
+[cp_special_occ] Certificate of occupancy
+[cp_special_sign] Sign permit
+[cp_trade] Trade Permits :: naics_2022:5419
+[cp_trade_elec] Electrical permit
+[cp_trade_fire] Fire protection permit
+[cp_trade_mech] Mechanical / HVAC permit
+[cp_trade_plumb] Plumbing permit

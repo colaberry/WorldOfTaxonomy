@@ -1,0 +1,16 @@
+[PH] Pharmacy Practice Types :: naics_2022:3254
+[PH.01] Community Pharmacy
+[PH.02] Hospital Pharmacy
+[PH.03] Clinical Pharmacy
+[PH.04] Ambulatory Care Pharmacy
+[PH.05] Compounding Pharmacy
+[PH.06] Nuclear Pharmacy
+[PH.07] Specialty Pharmacy
+[PH.08] Mail-Order Pharmacy
+[PH.09] Informatics Pharmacy
+[PH.10] Oncology Pharmacy
+[PH.11] Psychiatric Pharmacy
+[PH.12] Geriatric Pharmacy
+[PH.13] Pediatric Pharmacy
+[PH.14] Pharmacogenomics
+[PH.15] Managed Care Pharmacy

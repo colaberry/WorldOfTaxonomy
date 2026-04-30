@@ -1,0 +1,18 @@
+[dhlcdlv_capitation] Capitation and Per-Member-Per-Month (PMPM) Models :: naics_2022:5415, naics_2022:6215
+[dhlcdlv_capitation_full] Full capitation: fixed payment covers all services
+[dhlcdlv_capitation_partial] Partial / specialty capitation for defined scope of care
+[dhlcdlv_direct] Direct and Concierge Care Models :: naics_2022:5415, naics_2022:6215
+[dhlcdlv_direct_clinic] Employer-sponsored or retail clinic (CVS MinuteClinic, on-site clinic)
+[dhlcdlv_direct_concierge] Concierge medicine: retainer fee + insurance billing hybrid
+[dhlcdlv_direct_dpc] Direct Primary Care (DPC): flat monthly fee, no insurance billing
+[dhlcdlv_ffs] Fee-for-Service (FFS) Delivery Models :: naics_2022:5415, naics_2022:6215
+[dhlcdlv_ffs_perf] Pay-for-performance (P4P): FFS with quality bonuses/penalties
+[dhlcdlv_ffs_traditional] Traditional FFS: unbundled service-by-service reimbursement
+[dhlcdlv_managed] Managed Care and HMO Models :: naics_2022:5415, naics_2022:6215
+[dhlcdlv_managed_epo] Exclusive Provider Organization (EPO): in-network only but no gatekeeper
+[dhlcdlv_managed_hmo] Health Maintenance Organization (HMO): gated primary care model
+[dhlcdlv_managed_ppo] Preferred Provider Organization (PPO): network with out-of-network option
+[dhlcdlv_vbc] Value-Based Care and Alternative Payment Models :: naics_2022:5415, naics_2022:6215
+[dhlcdlv_vbc_bundled] Bundled payments (episode-of-care payment, CMS BPCI)
+[dhlcdlv_vbc_globalbudget] Global budget / population-based payment (Maryland model)
+[dhlcdlv_vbc_sharedsvg] Shared savings (ACO MSSP, REACH ACO, upside/downside risk)

@@ -1,0 +1,260 @@
+[NDC-ALG] Non-Standardized Allergenic -- FDA marketing category aggregator for Non-Standardized Allergenic products. Sub-nodes group products in this category by dosage form.
+[NDC-ALG.INJECTION] Injection -- Injection dosage form aggregator within the FDA marketing category 'Non-Standardized Allergenic'.
+[NDC-ALG.INJECTION_SOLUTION] Injection, Solution -- Injection, Solution dosage form aggregator within the FDA marketing category 'Non-Standardized Allergenic'.
+[NDC-ALG.INJECTION_SUSPENSION] Injection, Suspension -- Injection, Suspension dosage form aggregator within the FDA marketing category 'Non-Standardized Allergenic'.
+[NDC-ALG.LIQUID] Liquid -- Liquid dosage form aggregator within the FDA marketing category 'Non-Standardized Allergenic'.
+[NDC-ALG.SOLUTION] Solution -- Solution dosage form aggregator within the FDA marketing category 'Non-Standardized Allergenic'.
+[NDC-CEL] Cellular Therapy -- FDA marketing category aggregator for Cellular Therapy products. Sub-nodes group products in this category by dosage form.
+[NDC-CEL.IMPLANT] Implant -- **Product type:** Cellular Therapy  **Active ingredient:** AUTOLOGOUS CULTURED CHONDROCYTES; PORK COLLAGEN  **Strength:** 15000000; 15 1/1; cm2/1  **Dosage form:** Implant  **Route:** Intra-Articular  **Labeler:** Vericel Corporation  **Marketing category:** BLA (BLA125603)  **Pharmacologic class:** Autologous Cultured Cell [EPC], Cells, Cultured, Autologous [EXT], Chondrocytes [CS]
+[NDC-CEL.INJECTION] Injection -- **Product type:** Cellular Therapy  **Active ingredient:** SIPULEUCEL-T  **Strength:** 50000000 1/1  **Dosage form:** Injection  **Route:** Intravenous  **Labeler:** Dendreon Pharmaceuticals LLC  **Marketing category:** BLA (BLA125197)  **Pharmacologic class:** Autologous Cellular Immunotherapy [EPC], Cell-mediated Immunity [PE], Cells, Cultured, Autologous [EXT], Leukocytes, Mononuclear [CS]
+[NDC-CEL.INJECTION_SUSPENSION] Injection, Suspension -- Injection, Suspension dosage form aggregator within the FDA marketing category 'Cellular Therapy'.
+[NDC-CEL.KIT] Kit -- Kit dosage form aggregator within the FDA marketing category 'Cellular Therapy'.
+[NDC-CEL.SOLUTION] Solution -- **Product type:** Cellular Therapy  **Active ingredient:** DONISLECEL  **Strength:** 5000 [arb'U]/400mL  **Dosage form:** Solution  **Route:** Intravascular  **Labeler:** CellTrans Inc.  **Marketing category:** BLA (BLA125734)
+[NDC-CEL.SUSPENSION] Suspension -- Suspension dosage form aggregator within the FDA marketing category 'Cellular Therapy'.
+[NDC-OTC] Human OTC Drug -- FDA marketing category aggregator for Human OTC Drug products. Sub-nodes group products in this category by dosage form.
+[NDC-OTC.AEROSOL] Aerosol -- Aerosol dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.AEROSOL_FOAM] Aerosol, Foam -- Aerosol, Foam dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.AEROSOL_POWDER] Aerosol, Powder -- Aerosol, Powder dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.AEROSOL_SPRAY] Aerosol, Spray -- Aerosol, Spray dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.BAR_CHEWABLE] Bar, Chewable -- Bar, Chewable dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CAPSULE] Capsule -- Capsule dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CAPSULE_COATED] Capsule, Coated -- Capsule, Coated dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CAPSULE_DELAYED_RELEASE] Capsule, Delayed Release -- Capsule, Delayed Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CAPSULE_GELATIN_COATED] Capsule, Gelatin Coated -- Capsule, Gelatin Coated dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CAPSULE_LIQUID_FILLED] Capsule, Liquid Filled -- Capsule, Liquid Filled dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CELLULAR_SHEET] Cellular Sheet -- **Product type:** Human Otc Drug  **Active ingredient:** ALUMINUM CHLORIDE; ALUMINUM CHLOROHYDRATE  **Strength:** 10; 10 g/100mL; g/100mL  **Dosage form:** Cellular Sheet  **Route:** Topical  **Labeler:** Thomas Brunner Hygiene GmbH  **Marketing category:** OTC MONOGRAPH DRUG (M019)
+[NDC-OTC.CHEWABLE_GEL] Chewable Gel -- Chewable Gel dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CLOTH] Cloth -- Cloth dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CONCENTRATE] Concentrate -- Concentrate dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CREAM] Cream -- Cream dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CREAM_AUGMENTED] Cream, Augmented -- Cream, Augmented dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.CRYSTAL] Crystal -- Crystal dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.DISC] Disc -- Disc dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.DOUCHE] Douche -- Douche dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.DRESSING] Dressing -- Dressing dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.ELIXIR] Elixir -- Elixir dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.EMULSION] Emulsion -- Emulsion dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.ENEMA] Enema -- Enema dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.FILM_EXTENDED_RELEASE] Film, Extended Release -- Film, Extended Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.FILM_SOLUBLE] Film, Soluble -- Film, Soluble dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.FOR_SOLUTION] For Solution -- For Solution dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.GAS] Gas -- **Product type:** Human Otc Drug  **Active ingredient:** AMMONIA  **Strength:** .15 g/g  **Dosage form:** Gas  **Route:** Respiratory (Inhalation)  **Labeler:** Foshan Nanhai District Didi Didi E Commerce Co., Ltd.  **Marketing category:** UNAPPROVED DRUG OTHER
+[NDC-OTC.GEL] Gel -- Gel dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.GEL_DENTIFRICE] Gel, Dentifrice -- Gel, Dentifrice dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.GEL_METERED] Gel, Metered -- **Product type:** Human Otc Drug  **Active ingredient:** NONOXYNOL-9  **Strength:** 4 g/100g  **Dosage form:** Gel, Metered  **Route:** Vaginal  **Labeler:** APOTHECUS PHARMACEUTICAL CORP  **Marketing category:** OTC MONOGRAPH DRUG (505G(a)(3))
+[NDC-OTC.GLOBULE] Globule -- Globule dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.GRANULE] Granule -- Granule dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.GRANULE_EFFERVESCENT] Granule, Effervescent -- Granule, Effervescent dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.GRANULE_FOR_SOLUTION] Granule, For Solution -- Granule, For Solution dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.GUM_CHEWING] Gum, Chewing -- Gum, Chewing dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.INHALANT] Inhalant -- Inhalant dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.INJECTION_SOLUTION] Injection, Solution -- Injection, Solution dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.INJECTION_SUSPENSION] Injection, Suspension -- Injection, Suspension dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.INSERT] Insert -- **Product type:** Human Otc Drug  **Active ingredient:** CALENDULA OFFICINALIS FLOWERING TOP  **Strength:** 150 mg/1  **Dosage form:** Insert  **Route:** Vaginal  **Labeler:** Farmina sp. z o.o.  **Marketing category:** UNAPPROVED HOMEOPATHIC
+[NDC-OTC.JELLY] Jelly -- Jelly dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.KIT] Kit -- Kit dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.LINIMENT] Liniment -- Liniment dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.LIPSTICK] Lipstick -- Lipstick dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.LIQUID] Liquid -- Liquid dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.LOTION] Lotion -- Lotion dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.LOTION_AUGMENTED] Lotion, Augmented -- Lotion, Augmented dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.LOTION_SHAMPOO] Lotion/Shampoo -- Lotion/Shampoo dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.LOZENGE] Lozenge -- Lozenge dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.MOUTHWASH] Mouthwash -- Mouthwash dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.OIL] Oil -- Oil dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.OINTMENT] Ointment -- Ointment dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.PASTE] Paste -- Paste dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.PASTE_DENTIFRICE] Paste, Dentifrice -- Paste, Dentifrice dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.PASTILLE] Pastille -- Pastille dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.PATCH] Patch -- Patch dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.PATCH_EXTENDED_RELEASE] Patch, Extended Release -- Patch, Extended Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.PELLET] Pellet -- Pellet dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.PILL] Pill -- Pill dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.PLASTER] Plaster -- Plaster dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.POULTICE] Poultice -- **Product type:** Human Otc Drug  **Active ingredient:** RHEUM OFFICINALE ROOT  **Strength:** .15 g/.15mL  **Dosage form:** Poultice  **Route:** Topical  **Labeler:** M&T Pharmaceutical Technology Co.,LTD  **Marketing category:** UNAPPROVED DRUG OTHER
+[NDC-OTC.POWDER] Powder -- Powder dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.POWDER_DENTIFRICE] Powder, Dentifrice -- Powder, Dentifrice dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.POWDER_FOR_SOLUTION] Powder, For Solution -- Powder, For Solution dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.POWDER_FOR_SUSPENSION] Powder, For Suspension -- Powder, For Suspension dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.RINSE] Rinse -- Rinse dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SALVE] Salve -- Salve dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SHAMPOO] Shampoo -- Shampoo dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SHAMPOO_SUSPENSION] Shampoo, Suspension -- Shampoo, Suspension dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SOAP] Soap -- Soap dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SOLUTION] Solution -- Solution dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SOLUTION_CONCENTRATE] Solution, Concentrate -- Solution, Concentrate dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SOLUTION_DROPS] Solution/ Drops -- Solution/ Drops dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SOLUTION_GEL_FORMING__DROPS] Solution, Gel Forming / Drops -- **Product type:** Human Otc Drug  **Active ingredient:** HYPROMELLOSE 2208 (15000 MPA.S)  **Strength:** 20 mg/mL  **Dosage form:** Solution, Gel Forming / Drops  **Route:** Ophthalmic  **Labeler:** Aurolab  **Marketing category:** OTC MONOGRAPH DRUG (M018)
+[NDC-OTC.SPONGE] Sponge -- Sponge dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SPRAY] Spray -- Spray dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SPRAY_METERED] Spray, Metered -- Spray, Metered dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SPRAY_SUSPENSION] Spray, Suspension -- **Product type:** Human Otc Drug  **Active ingredient:** ALCOHOL  **Strength:** 70 mL/100mL  **Dosage form:** Spray, Suspension  **Route:** Topical  **Labeler:** Apollo Health and Beauty Care  **Marketing category:** OTC MONOGRAPH DRUG (505G(a)(3))
+[NDC-OTC.STICK] Stick -- Stick dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.STRIP] Strip -- Strip dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SUPPOSITORY] Suppository -- Suppository dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SUSPENSION] Suspension -- Suspension dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SUSPENSION_DROPS] Suspension/ Drops -- Suspension/ Drops dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SUSPENSION_EXTENDED_RELEASE] Suspension, Extended Release -- Suspension, Extended Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SWAB] Swab -- Swab dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SYRUP] Syrup -- Syrup dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.SYSTEM] System -- **Product type:** Human Otc Drug  **Active ingredient:** SALICYLIC ACID  **Strength:** 17 g/100mL  **Dosage form:** System  **Route:** Topical  **Labeler:** Jiangxi Yudexi Pharmaceutical Co., LTD  **Marketing category:** OTC MONOGRAPH DRUG (M028)
+[NDC-OTC.TABLET] Tablet -- Tablet dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_CHEWABLE] Tablet, Chewable -- Tablet, Chewable dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_CHEWABLE_EXTENDED_RELEA] Tablet, Chewable, Extended Release -- Tablet, Chewable, Extended Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_COATED] Tablet, Coated -- Tablet, Coated dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_DELAYED_RELEASE] Tablet, Delayed Release -- Tablet, Delayed Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_EFFERVESCENT] Tablet, Effervescent -- Tablet, Effervescent dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_EXTENDED_RELEASE] Tablet, Extended Release -- Tablet, Extended Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_FILM_COATED] Tablet, Film Coated -- Tablet, Film Coated dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_FILM_COATED_EXTENDED_RE] Tablet, Film Coated, Extended Release -- Tablet, Film Coated, Extended Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_FOR_SOLUTION] Tablet, For Solution -- **Product type:** Human Otc Drug  **Active ingredient:** CALCIUM BICARBONATE; SODIUM CHLORIDE  **Strength:** 65; 2860 mg/1; mg/1  **Dosage form:** Tablet, For Solution  **Route:** Nasal  **Labeler:** LETS BURBLE, INC.  **Marketing category:** OTC MONOGRAPH DRUG (M018)  **Pharmacologic class:** Alkalinizing Activity [MoA]
+[NDC-OTC.TABLET_MULTILAYER] Tablet, Multilayer -- Tablet, Multilayer dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_MULTILAYER_EXTENDED_REL] Tablet, Multilayer, Extended Release -- Tablet, Multilayer, Extended Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_ORALLY_DISINTEGRATING] Tablet, Orally Disintegrating -- Tablet, Orally Disintegrating dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_ORALLY_DISINTEGRATING_D] Tablet, Orally Disintegrating, Delayed Release -- Tablet, Orally Disintegrating, Delayed Release dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_SOLUBLE] Tablet, Soluble -- Tablet, Soluble dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TABLET_SUGAR_COATED] Tablet, Sugar Coated -- Tablet, Sugar Coated dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TAPE] Tape -- Tape dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TINCTURE] Tincture -- Tincture dosage form aggregator within the FDA marketing category 'Human OTC Drug'.
+[NDC-OTC.TROCHE] Troche -- **Product type:** Human Otc Drug  **Active ingredient:** FLURBIPROFEN  **Strength:** 8.75 mg/1  **Dosage form:** Troche  **Route:** Oral  **Labeler:** Lydia Co., Ltd.  **Marketing category:** UNAPPROVED DRUG OTHER  **Pharmacologic class:** Anti-Inflammatory Agents, Non-Steroidal [CS], Cyclooxygenase Inhibitors [MoA], Nonsteroidal Anti-inflammatory Drug [EPC]
+[NDC-PLS] Plasma Derivative -- **Product type:** Plasma Derivative  **Active ingredient:** FIBRINOGEN HUMAN; HUMAN THROMBIN  **Strength:** 8.6; 37.5 mg/cm2; [iU]/cm2  **Dosage form:** Patch  **Route:** Topical  **Labeler:** Ethicon, Inc.  **Marketing category:** BLA (BLA125392)  **Pharmacologic class:** Blood Coagulation Factors [CS], Blood Coagulation Factors [CS], Human Blood Coagulation Factor [EPC], Human Blood Coagulation Factor [EPC], Increased Coagulation Activity [PE], Increased Coagulation Factor Activity [PE]
+[NDC-PLS.INJECTION] Injection -- Injection dosage form aggregator within the FDA marketing category 'Plasma Derivative'.
+[NDC-PLS.INJECTION_POWDER_LYOPHILIZED_F] Injection, Powder, Lyophilized, For Solution -- Injection, Powder, Lyophilized, For Solution dosage form aggregator within the FDA marketing category 'Plasma Derivative'.
+[NDC-PLS.INJECTION_SOLUTION] Injection, Solution -- Injection, Solution dosage form aggregator within the FDA marketing category 'Plasma Derivative'.
+[NDC-PLS.KIT] Kit -- Kit dosage form aggregator within the FDA marketing category 'Plasma Derivative'.
+[NDC-PLS.LIQUID] Liquid -- Liquid dosage form aggregator within the FDA marketing category 'Plasma Derivative'.
+[NDC-PLS.PATCH] Patch -- **Product type:** Plasma Derivative  **Active ingredient:** FIBRINOGEN HUMAN; HUMAN THROMBIN  **Strength:** 8.6; 37.5 mg/cm2; [iU]/cm2  **Dosage form:** Patch  **Route:** Topical  **Labeler:** Ethicon, Inc.  **Marketing category:** BLA (BLA125392)  **Pharmacologic class:** Blood Coagulation Factors [CS], Blood Coagulation Factors [CS], Human Blood Coagulation Factor [EPC], Human Blood Coagulation Factor [EPC], Increased Coagulation Activity [PE], Increased Coagulation Factor Activity [PE]
+[NDC-PLS.POWDER_FOR_SOLUTION] Powder, For Solution -- Powder, For Solution dosage form aggregator within the FDA marketing category 'Plasma Derivative'.
+[NDC-PLS.SOLUTION] Solution -- Solution dosage form aggregator within the FDA marketing category 'Plasma Derivative'.
+[NDC-RX] Human Prescription Drug -- FDA marketing category aggregator for Human Prescription Drug products. Sub-nodes group products in this category by dosage form.
+[NDC-RX.AEROSOL] Aerosol -- Aerosol dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.AEROSOL_FOAM] Aerosol, Foam -- Aerosol, Foam dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.AEROSOL_METERED] Aerosol, Metered -- Aerosol, Metered dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.AEROSOL_POWDER] Aerosol, Powder -- Aerosol, Powder dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.AEROSOL_SPRAY] Aerosol, Spray -- Aerosol, Spray dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CAPSULE] Capsule -- Capsule dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CAPSULE_COATED] Capsule, Coated -- **Product type:** Human Prescription Drug  **Active ingredient:** .BETA.-SITOSTEROL; CYANOCOBALAMIN; DOCONEXENT; FOLIC ACID; ICOSAPENT; OMEGA-3 FATTY ACIDS; PYRIDOXINE HYDROCHLORIDE  **Strength:** 200; 500; 350; 1; 35; 500; 12.5 mg/1; ug/1; mg/1; mg/1; mg/1; mg/1; mg/1  **Dosage form:** Capsule, Coated  **Route:** Oral  **Labeler:** Acella Pharmaceuticals, LLC  **Marketing category:** UNAPPROVED DRUG OTHER  **Pharmacologic class:** Analogs/Derivatives [Chemical/Ingredient], Fatty Acids, Omega-3 [CS], Omega-3 Fatty Acid [EPC], Vitamin B 12 [CS], Vitamin B 6 [Chemical/Ingredient], Vitamin B12 [EPC], Vitamin B6 Analog [EPC]
+[NDC-RX.CAPSULE_COATED_EXTENDED_RELEAS] Capsule, Coated, Extended Release -- Capsule, Coated, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CAPSULE_COATED_PELLETS] Capsule, Coated Pellets -- Capsule, Coated Pellets dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CAPSULE_DELAYED_RELEASE] Capsule, Delayed Release -- Capsule, Delayed Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CAPSULE_DELAYED_RELEASE_PELLET] Capsule, Delayed Release Pellets -- Capsule, Delayed Release Pellets dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CAPSULE_EXTENDED_RELEASE] Capsule, Extended Release -- Capsule, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CAPSULE_GELATIN_COATED] Capsule, Gelatin Coated -- Capsule, Gelatin Coated dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CAPSULE_LIQUID_FILLED] Capsule, Liquid Filled -- Capsule, Liquid Filled dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CELLULAR_SHEET] Cellular Sheet -- **Product type:** Human Prescription Drug  **Active ingredient:** PRADEMAGENE ZAMIKERACEL  **Strength:** 40 cm2/1  **Dosage form:** Cellular Sheet  **Route:** Topical  **Labeler:** Abeona Therapeutics Inc.  **Marketing category:** BLA (BLA125807)
+[NDC-RX.CLOTH] Cloth -- Cloth dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CONCENTRATE] Concentrate -- Concentrate dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CREAM] Cream -- Cream dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.CREAM_AUGMENTED] Cream, Augmented -- Cream, Augmented dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.ELIXIR] Elixir -- Elixir dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.EMULSION] Emulsion -- Emulsion dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.ENEMA] Enema -- Enema dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.FILM] Film -- Film dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.FILM_EXTENDED_RELEASE] Film, Extended Release -- Film, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.FILM_SOLUBLE] Film, Soluble -- Film, Soluble dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.FOR_SOLUTION] For Solution -- For Solution dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.FOR_SUSPENSION] For Suspension -- For Suspension dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.FOR_SUSPENSION_EXTENDED_RELEAS] For Suspension, Extended Release -- For Suspension, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GAS] Gas -- Gas dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GEL] Gel -- Gel dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GEL_DENTIFRICE] Gel, Dentifrice -- Gel, Dentifrice dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GEL_METERED] Gel, Metered -- Gel, Metered dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GLOBULE] Globule -- **Product type:** Human Prescription Drug  **Active ingredient:** FERROSOFERRIC PHOSPHATE; POTASSIUM PHOSPHATE, DIBASIC; SODIUM PHOSPHATE, DIBASIC, HEPTAHYDRATE; SODIUM SULFATE; TRIBASIC CALCIUM PHOSPHATE  **Strength:** 3; 3; 3; 3; 3 [hp_X]/g; [hp_X]/g; [hp_X]/g; [hp_X]/g; [hp_X]/g  **Dosage form:** Globule  **Route:** Oral  **Labeler:** BM Private Limited  **Marketing category:** UNAPPROVED HOMEOPATHIC  **Pharmacologic class:** Increased Large Intestinal Motility [PE], Inhibition Large Intestine Fluid/Electrolyte Absorption [PE], Osmotic Activity [MoA], Osmotic Laxative [EPC]
+[NDC-RX.GRANULE] Granule -- Granule dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GRANULE_DELAYED_RELEASE] Granule, Delayed Release -- Granule, Delayed Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GRANULE_FOR_SOLUTION] Granule, For Solution -- Granule, For Solution dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GRANULE_FOR_SUSPENSION] Granule, For Suspension -- Granule, For Suspension dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.GRANULE_FOR_SUSPENSION_EXTENDE] Granule, For Suspension, Extended Release -- Granule, For Suspension, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.IMPLANT] Implant -- Implant dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INHALANT] Inhalant -- Inhalant dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTABLE_LIPOSOMAL] Injectable, Liposomal -- Injectable, Liposomal dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION] Injection -- Injection dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_EMULSION] Injection, Emulsion -- Injection, Emulsion dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_LIPID_COMPLEX] Injection, Lipid Complex -- **Product type:** Human Prescription Drug  **Active ingredient:** PATISIRAN SODIUM  **Strength:** 2 mg/mL  **Dosage form:** Injection, Lipid Complex  **Route:** Intravenous  **Labeler:** Alnylam Pharmaceuticals, Inc.  **Marketing category:** NDA (NDA210922)  **Pharmacologic class:** Decreased RNA Integrity [PE], Increased Protein Breakdown [PE], RNA, Small Interfering [CS], Small Interfering RNA [EPC], Transthyretin-directed RNA Interaction [EPC]
+[NDC-RX.INJECTION_POWDER_FOR_SOLUTION] Injection, Powder, For Solution -- Injection, Powder, For Solution dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_POWDER_FOR_SUSPENSIO] Injection, Powder, For Suspension -- Injection, Powder, For Suspension dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_POWDER_LYOPHILIZED_F] Injection, Powder, Lyophilized, For Solution -- Injection, Powder, Lyophilized, For Solution dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_SOLUTION] Injection, Solution -- Injection, Solution dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_SOLUTION_CONCENTRATE] Injection, Solution, Concentrate -- Injection, Solution, Concentrate dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_SUSPENSION] Injection, Suspension -- Injection, Suspension dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_SUSPENSION_EXTENDED_] Injection, Suspension, Extended Release -- Injection, Suspension, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INJECTION_SUSPENSION_LIPOSOMAL] Injection, Suspension, Liposomal -- Injection, Suspension, Liposomal dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INSERT] Insert -- Insert dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INSERT_EXTENDED_RELEASE] Insert, Extended Release -- Insert, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.INTRAUTERINE_DEVICE] Intrauterine Device -- Intrauterine Device dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.IRRIGANT] Irrigant -- Irrigant dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.JELLY] Jelly -- Jelly dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.KIT] Kit -- Kit dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.LIQUID] Liquid -- Liquid dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.LOTION] Lotion -- Lotion dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.LOTION_AUGMENTED] Lotion, Augmented -- Lotion, Augmented dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.LOZENGE] Lozenge -- Lozenge dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.MOUTHWASH] Mouthwash -- Mouthwash dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.OIL] Oil -- Oil dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.OINTMENT] Ointment -- Ointment dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.OINTMENT_AUGMENTED] Ointment, Augmented -- Ointment, Augmented dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.PASTE] Paste -- Paste dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.PASTE_DENTIFRICE] Paste, Dentifrice -- Paste, Dentifrice dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.PATCH] Patch -- Patch dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.PATCH_EXTENDED_RELEASE] Patch, Extended Release -- Patch, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.PELLET] Pellet -- Pellet dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.POWDER] Powder -- Powder dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.POWDER_FOR_SOLUTION] Powder, For Solution -- Powder, For Solution dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.POWDER_FOR_SUSPENSION] Powder, For Suspension -- Powder, For Suspension dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.POWDER_METERED] Powder, Metered -- Powder, Metered dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.RING] Ring -- Ring dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.RINSE] Rinse -- Rinse dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SHAMPOO] Shampoo -- Shampoo dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SHAMPOO_SUSPENSION] Shampoo, Suspension -- Shampoo, Suspension dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SOLUTION] Solution -- Solution dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SOLUTION_CONCENTRATE] Solution, Concentrate -- Solution, Concentrate dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SOLUTION_DROPS] Solution/ Drops -- Solution/ Drops dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SOLUTION_GEL_FORMING__DROPS] Solution, Gel Forming / Drops -- Solution, Gel Forming / Drops dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SPRAY] Spray -- Spray dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SPRAY_METERED] Spray, Metered -- Spray, Metered dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.STICK] Stick -- Stick dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.STRIP] Strip -- Strip dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SUPPOSITORY] Suppository -- Suppository dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SUSPENSION] Suspension -- Suspension dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SUSPENSION_DROPS] Suspension/ Drops -- Suspension/ Drops dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SUSPENSION_EXTENDED_RELEASE] Suspension, Extended Release -- Suspension, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SWAB] Swab -- Swab dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SYRUP] Syrup -- Syrup dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.SYSTEM] System -- System dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET] Tablet -- Tablet dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_CHEWABLE] Tablet, Chewable -- Tablet, Chewable dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_CHEWABLE_EXTENDED_RELEA] Tablet, Chewable, Extended Release -- Tablet, Chewable, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_COATED] Tablet, Coated -- Tablet, Coated dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_DELAYED_RELEASE] Tablet, Delayed Release -- Tablet, Delayed Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_EFFERVESCENT] Tablet, Effervescent -- Tablet, Effervescent dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_EXTENDED_RELEASE] Tablet, Extended Release -- Tablet, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_FILM_COATED] Tablet, Film Coated -- Tablet, Film Coated dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_FILM_COATED_EXTENDED_RE] Tablet, Film Coated, Extended Release -- Tablet, Film Coated, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_FOR_SUSPENSION] Tablet, For Suspension -- Tablet, For Suspension dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_MULTILAYER] Tablet, Multilayer -- **Product type:** Human Prescription Drug  **Active ingredient:** ASPIRIN; CAFFEINE; ORPHENADRINE CITRATE  **Strength:** 770; 60; 50 mg/1; mg/1; mg/1  **Dosage form:** Tablet, Multilayer  **Route:** Oral  **Labeler:** Poly Pharmaceuticals, Inc.  **Marketing category:** ANDA (ANDA075141)  **Pharmacologic class:** Anti-Inflammatory Agents, Non-Steroidal [CS], Central Nervous System Stimulant [EPC], Central Nervous System Stimulation [PE], Centrally-mediated Muscle Relaxation [PE], Cyclooxygenase Inhibitors [MoA], Decreased Platelet Aggregation [PE], Decreased Prostaglandin Production [PE], Methylxanthine [EPC], Muscle Relaxant [EPC], Nonsteroidal Anti-inflammatory Drug [EPC], Platelet Aggregation Inhibitor [EPC], Xanthines [CS]
+[NDC-RX.TABLET_MULTILAYER_EXTENDED_REL] Tablet, Multilayer, Extended Release -- Tablet, Multilayer, Extended Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_ORALLY_DISINTEGRATING] Tablet, Orally Disintegrating -- Tablet, Orally Disintegrating dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_ORALLY_DISINTEGRATING_D] Tablet, Orally Disintegrating, Delayed Release -- Tablet, Orally Disintegrating, Delayed Release dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TABLET_SOLUBLE] Tablet, Soluble -- **Product type:** Human Prescription Drug  **Active ingredient:** POTASSIUM PHOSPHATE, MONOBASIC  **Strength:** 500 mg/1  **Dosage form:** Tablet, Soluble  **Route:** Oral  **Labeler:** Beach Products, Inc.  **Marketing category:** UNAPPROVED DRUG OTHER
+[NDC-RX.TABLET_SUGAR_COATED] Tablet, Sugar Coated -- Tablet, Sugar Coated dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.TAPE] Tape -- **Product type:** Human Prescription Drug  **Active ingredient:** FLURANDRENOLIDE  **Strength:** 4 ug/cm2  **Dosage form:** Tape  **Route:** Topical  **Labeler:** Almirall, LLC  **Marketing category:** NDA (NDA016455)  **Pharmacologic class:** Corticosteroid Hormone Receptor Agonists [MoA], Corticosteroid [EPC]
+[NDC-RX.TINCTURE] Tincture -- Tincture dosage form aggregator within the FDA marketing category 'Human Prescription Drug'.
+[NDC-RX.WAFER] Wafer -- **Product type:** Human Prescription Drug  **Active ingredient:** CARMUSTINE  **Strength:** 7.7 mg/1  **Dosage form:** Wafer  **Route:** Intracavitary  **Labeler:** Azurity Pharmaceuticals, Inc.  **Marketing category:** NDA (NDA020637)  **Pharmacologic class:** Alkylating Activity [MoA], Alkylating Drug [EPC]
+[NDC-SAL] Standardized Allergenic -- FDA marketing category aggregator for Standardized Allergenic products. Sub-nodes group products in this category by dosage form.
+[NDC-SAL.INJECTION_POWDER_LYOPHILIZED_F] Injection, Powder, Lyophilized, For Solution -- Injection, Powder, Lyophilized, For Solution dosage form aggregator within the FDA marketing category 'Standardized Allergenic'.
+[NDC-SAL.INJECTION_SOLUTION] Injection, Solution -- Injection, Solution dosage form aggregator within the FDA marketing category 'Standardized Allergenic'.
+[NDC-SAL.KIT] Kit -- Kit dosage form aggregator within the FDA marketing category 'Standardized Allergenic'.
+[NDC-SAL.SOLUTION] Solution -- Solution dosage form aggregator within the FDA marketing category 'Standardized Allergenic'.
+[NDC-SAL.TABLET] Tablet -- Tablet dosage form aggregator within the FDA marketing category 'Standardized Allergenic'.
+[NDC-SAL.TABLET_ORALLY_DISINTEGRATING] Tablet, Orally Disintegrating -- Tablet, Orally Disintegrating dosage form aggregator within the FDA marketing category 'Standardized Allergenic'.
+[NDC-VAC] Vaccine -- FDA marketing category aggregator for Vaccine products. Sub-nodes group products in this category by dosage form.
+[NDC-VAC.CAPSULE_COATED] Capsule, Coated -- **Product type:** Vaccine  **Active ingredient:** SALMONELLA TYPHI TY21A LIVE ANTIGEN  **Strength:** 6000000000 [CFU]/1  **Dosage form:** Capsule, Coated  **Route:** Oral  **Labeler:** Bavarian Nordic A/S  **Marketing category:** BLA (BLA103123)  **Pharmacologic class:** Actively Acquired Immunity [PE], Live Attenuated Salmonella Typhi Vaccine [EPC], Vaccines, Attenuated [CS], Vaccines, Typhoid [CS]
+[NDC-VAC.INJECTION] Injection -- Injection dosage form aggregator within the FDA marketing category 'Vaccine'.
+[NDC-VAC.INJECTION_POWDER_LYOPHILIZED_F] Injection, Powder, Lyophilized, For Solution -- Injection, Powder, Lyophilized, For Solution dosage form aggregator within the FDA marketing category 'Vaccine'.
+[NDC-VAC.INJECTION_SOLUTION] Injection, Solution -- Injection, Solution dosage form aggregator within the FDA marketing category 'Vaccine'.
+[NDC-VAC.INJECTION_SUSPENSION] Injection, Suspension -- Injection, Suspension dosage form aggregator within the FDA marketing category 'Vaccine'.
+[NDC-VAC.KIT] Kit -- Kit dosage form aggregator within the FDA marketing category 'Vaccine'.
+[NDC-VAC.LIQUID] Liquid -- **Product type:** Vaccine  **Active ingredient:** WATER  **Strength:** .65 mL/.65mL  **Dosage form:** Liquid  **Route:** Subcutaneous  **Labeler:** Bavarian Nordic A/S  **Marketing category:** BLA (BLA125678)
+[NDC-VAC.SOLUTION] Solution -- Solution dosage form aggregator within the FDA marketing category 'Vaccine'.
+[NDC-VAC.SPRAY] Spray -- **Product type:** Vaccine  **Active ingredient:** INFLUENZA A VIRUS A/NORWAY/31694/2022 (H1N1) LIVE (ATTENUATED) ANTIGEN; INFLUENZA A VIRUS A/PERTH/722/2024 (H3N2) LIVE (ATTENUATED) ANTIGEN; INFLUENZA B VIRUS B/AUSTRIA/1359417/2021 LIVE (ATTENUATED) ANTIGEN  **Strength:** 10000000; 10000000; 10000000 [FFU]/.2mL; [FFU]/.2mL; [FFU]/.2mL  **Dosage form:** Spray  **Route:** Nasal  **Labeler:** MedImmune, LLC  **Marketing category:** BLA (BLA125020)
+[NDC-VAC.SUSPENSION] Suspension -- Suspension dosage form aggregator within the FDA marketing category 'Vaccine'.

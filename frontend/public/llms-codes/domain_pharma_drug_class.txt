@@ -1,0 +1,26 @@
+[pdc_class] Drug Classification Methods :: naics_2022:3254
+[pdc_class_bio] Biologic vs small molecule
+[pdc_class_chem] Chemical/Pharmacological classification
+[pdc_class_moa] Mechanism of action classification
+[pdc_class_rx] Prescription vs OTC classification
+[pdc_class_ther] Therapeutic classification
+[pdc_dev] Drug Development Stages :: naics_2022:3254
+[pdc_dev_disc] Discovery and preclinical
+[pdc_dev_p1] Phase I clinical trials
+[pdc_dev_p2] Phase II clinical trials
+[pdc_dev_p3] Phase III clinical trials
+[pdc_dev_p4] Phase IV post-market surveillance
+[pdc_dev_reg] Regulatory submission and approval
+[pdc_form] Dosage Forms :: naics_2022:3254
+[pdc_form_liq] Liquid dosage forms (solution, suspension, emulsion)
+[pdc_form_semi] Semi-solid forms (cream, ointment, gel)
+[pdc_form_solid] Solid dosage forms (tablet, capsule, powder)
+[pdc_form_spec] Specialty forms (implant, depot, liposomal)
+[pdc_route] Routes of Administration :: naics_2022:3254
+[pdc_route_im] Intramuscular injection
+[pdc_route_inh] Inhalation (MDI, DPI, nebulizer)
+[pdc_route_iv] Intravenous and infusion
+[pdc_route_oral] Oral (tablets, capsules, liquids)
+[pdc_route_rec] Rectal and vaginal
+[pdc_route_sc] Subcutaneous injection
+[pdc_route_top] Topical (creams, patches, gels)

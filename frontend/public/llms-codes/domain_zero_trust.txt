@@ -1,0 +1,16 @@
+[ZT] Zero Trust Architecture Types :: naics_2022:5415, naics_2022:5417
+[ZT.01] Identity-Centric Security
+[ZT.02] Micro-Segmentation
+[ZT.03] Software-Defined Perimeter
+[ZT.04] Continuous Verification
+[ZT.05] Least Privilege Access
+[ZT.06] Device Trust Evaluation
+[ZT.07] Network Access Control
+[ZT.08] Application Access Broker
+[ZT.09] Data-Centric Security
+[ZT.10] Conditional Access Policy
+[ZT.11] Session Trust Scoring
+[ZT.12] Zero Trust Network Access (ZTNA)
+[ZT.13] Policy Engine
+[ZT.14] Policy Decision Point
+[ZT.15] Policy Enforcement Point

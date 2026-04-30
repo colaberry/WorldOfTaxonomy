@@ -1,0 +1,30 @@
+[dct_bldg] Building Efficiency and Decarbonization :: naics_2022:2211, naics_2022:5417
+[dct_bldg_retrofit] Building Retrofits (insulation, heat pumps, glazing)
+[dct_bldg_smart] Smart Buildings and Energy Management Systems (EMS)
+[dct_carbon] Carbon Markets and Climate Finance :: naics_2022:2211, naics_2022:5417
+[dct_carbon_comply] Compliance Carbon Markets (EU ETS, RGGI, CCA)
+[dct_carbon_mrv] MRV Systems (monitoring, reporting, verification)
+[dct_carbon_vol] Voluntary Carbon Markets and Offsets (VCS, Gold Std)
+[dct_ccs] Carbon Capture, Utilization and Storage (CCUS) :: naics_2022:2211, naics_2022:5417
+[dct_ccs_dac] Direct Air Capture (DAC) and BECCS
+[dct_ccs_point] Point Source Carbon Capture (industrial flue gas)
+[dct_ccs_util] Carbon Utilization (e-fuels, CO2 to chemicals)
+[dct_ev] Electric Vehicles :: naics_2022:2211, naics_2022:5417
+[dct_ev_charging] EV Charging Infrastructure (Level 2, DCFC, V2G)
+[dct_ev_commercial] Commercial EVs (e-trucks, e-buses, last-mile)
+[dct_ev_passenger] Passenger EVs (BEV, PHEV, range-extender)
+[dct_grid] Grid Modernization :: naics_2022:2211, naics_2022:5417
+[dct_grid_dr] Demand Response and Virtual Power Plants (VPP)
+[dct_grid_smart] Smart Grid and Advanced Metering Infrastructure (AMI)
+[dct_h2] Green Hydrogen :: naics_2022:2211, naics_2022:5417
+[dct_h2_electro] Electrolysis (PEM, alkaline, solid oxide)
+[dct_h2_fuel] Fuel Cells and Power-to-Gas
+[dct_h2_store] Hydrogen Storage and Transport (compressed, liquid)
+[dct_solar] Solar Energy :: naics_2022:2211, naics_2022:5417
+[dct_solar_bipv] Building-Integrated PV and Agrivoltaics
+[dct_solar_csp] Concentrated Solar Power (parabolic trough, tower)
+[dct_solar_pv] Solar Photovoltaic (utility, commercial, residential)
+[dct_wind] Wind Energy :: naics_2022:2211, naics_2022:5417
+[dct_wind_offshore] Offshore Wind (fixed and floating foundations)
+[dct_wind_onshore] Onshore Wind (utility-scale turbines)
+[dct_wind_small] Small and Distributed Wind

@@ -1,0 +1,15 @@
+[CS] Clinical Decision Support Types :: naics_2022:5419
+[CS.01] Drug Allergy Alert
+[CS.02] Drug Interaction Alert
+[CS.03] Dosage Recommendation
+[CS.04] Order Set
+[CS.05] Clinical Pathway
+[CS.06] Diagnostic Support
+[CS.07] Risk Calculator
+[CS.08] Preventive Care Reminder
+[CS.09] Evidence-Based Guideline
+[CS.10] AI-Powered CDS
+[CS.11] Sepsis Early Warning
+[CS.12] Pharmacogenomic Alert
+[CS.13] Image Analysis CDS
+[CS.14] Interoperable CDS (CDS Hooks)

@@ -1,0 +1,14 @@
+[WS] WorldSkills Categories
+[WS.01] Construction and Building Technology
+[WS.02] Creative Arts and Fashion
+[WS.03] Information and Communication Technology
+[WS.04] Manufacturing and Engineering Technology
+[WS.05] Social and Personal Services
+[WS.06] Transportation and Logistics
+[WS.07] Landscape and Agriculture
+[WS.08] Welding and Joining
+[WS.09] Electrical Installations
+[WS.10] Mechatronics and Robotics
+[WS.11] Web Technologies
+[WS.12] Cooking and Hospitality
+[WS.13] Health and Social Care

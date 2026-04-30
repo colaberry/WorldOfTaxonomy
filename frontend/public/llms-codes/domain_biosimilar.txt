@@ -1,0 +1,14 @@
+[BS] Biosimilar Types :: naics_2022:3254, naics_2022:5417
+[BS.01] Monoclonal Antibody Biosimilar
+[BS.02] Insulin Biosimilar
+[BS.03] Growth Hormone Biosimilar
+[BS.04] Erythropoietin Biosimilar
+[BS.05] G-CSF Biosimilar
+[BS.06] Anti-TNF Biosimilar
+[BS.07] Interchangeable Biosimilar
+[BS.08] Non-Interchangeable Biosimilar
+[BS.09] Biosimilar Extrapolation
+[BS.10] Biosimilar Analytical Study
+[BS.11] Biosimilar Clinical Trial
+[BS.12] Biosimilar Switching Study
+[BS.13] Biosimilar Naming Convention

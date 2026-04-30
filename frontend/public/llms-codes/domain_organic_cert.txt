@@ -1,0 +1,16 @@
+[oc_food] Food and Agriculture Certifications :: naics_2022:111
+[oc_food_dem] Demeter (biodynamic)
+[oc_food_eu] EU Organic Regulation
+[oc_food_non] Non-GMO Project Verified
+[oc_food_rgn] Regenerative Organic Certified (ROC)
+[oc_food_usda] USDA Organic
+[oc_prod] Product Certifications :: naics_2022:111
+[oc_prod_cos] COSMOS Organic (cosmetics)
+[oc_prod_eco] Ecocert
+[oc_prod_gots] GOTS (Global Organic Textile Standard)
+[oc_sustain] Sustainability Certifications :: naics_2022:111
+[oc_sustain_bcorp] B Corp Certification
+[oc_sustain_fair] Fairtrade International
+[oc_sustain_fsc] FSC (Forest Stewardship Council)
+[oc_sustain_msc] MSC (Marine Stewardship Council)
+[oc_sustain_rain] Rainforest Alliance

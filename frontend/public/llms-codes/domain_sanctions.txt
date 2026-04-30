@@ -1,0 +1,14 @@
+[SN] Sanctions Types :: naics_2022:5411
+[SN.01] Country-Based Sanctions
+[SN.02] Sectoral Sanctions
+[SN.03] SDN List (Specially Designated)
+[SN.04] Entity List
+[SN.05] Trade Embargo
+[SN.06] Financial Sanctions
+[SN.07] Travel Ban
+[SN.08] Arms Embargo
+[SN.09] UN Security Council Sanctions
+[SN.10] EU Restrictive Measures
+[SN.11] Secondary Sanctions
+[SN.12] Sanctions Screening
+[SN.13] General License (OFAC)

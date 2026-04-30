@@ -1,0 +1,25 @@
+[dne_decom] Decommissioning :: naics_2022:2211
+[dne_decom_dismantle] Reactor Dismantling and Site Remediation
+[dne_decom_monitor] Long-Term Environmental Monitoring
+[dne_decom_waste] Radioactive Waste Management and Disposal
+[dne_fuel] Fuel Cycle :: naics_2022:2211
+[dne_fuel_enrich] Uranium Enrichment (centrifuge, gaseous diffusion)
+[dne_fuel_fabricate] Fuel Rod and Assembly Fabrication
+[dne_fuel_mining] Uranium Mining and Milling
+[dne_fuel_reprocess] Spent Fuel Reprocessing and Recycling
+[dne_fuel_storage] Spent Fuel Dry Cask and Pool Storage
+[dne_med] Nuclear Medicine :: naics_2022:2211
+[dne_med_imaging] Nuclear Diagnostic Imaging (PET, SPECT)
+[dne_med_isotope] Medical Isotope Production (Mo-99, I-131, F-18)
+[dne_med_steril] Radiation Sterilization of Medical Devices
+[dne_med_therapy] Radiation Therapy and Oncology Applications
+[dne_power] Nuclear Power Generation :: naics_2022:2211
+[dne_power_grid] Nuclear Grid Integration and Load Following
+[dne_power_heavy] Heavy Water Reactor Power Plants (PHWR, CANDU)
+[dne_power_lwr] Light Water Reactor Power Plants (PWR, BWR)
+[dne_power_smr] Small Modular Reactors (SMR)
+[dne_reactor] Reactor Technology :: naics_2022:2211
+[dne_reactor_control] Reactor Control Systems and Instrumentation
+[dne_reactor_fusion] Fusion Energy Research and Development
+[dne_reactor_gen4] Generation IV Reactor Designs (MSR, HTGR, SFR)
+[dne_reactor_safety] Nuclear Safety Systems and Containment

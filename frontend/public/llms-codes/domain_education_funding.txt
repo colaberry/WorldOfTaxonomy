@@ -1,0 +1,18 @@
+[detfund_charter] Charter and Alternative Governance Models :: naics_2022:611
+[detfund_charter_home] Home School and Microschool Programs
+[detfund_charter_school] Charter School (publicly funded, independently operated)
+[detfund_corporate] Corporate and Employer-Funded Training :: naics_2022:611
+[detfund_corporate_academy] Corporate Academy and Internal University
+[detfund_corporate_apprentice] Registered Apprenticeship and Earn-and-Learn Program
+[detfund_corporate_tuition] Employer Tuition Assistance Program (TAP)
+[detfund_forprofit] For-Profit Education Providers :: naics_2022:611
+[detfund_forprofit_bootcamp] Coding Bootcamp and Vocational For-Profit Program
+[detfund_forprofit_corp] Corporate For-Profit College (University of Phoenix tier)
+[detfund_privnp] Private Non-Profit Education Institutions :: naics_2022:611
+[detfund_privnp_liberal] Private Liberal Arts College
+[detfund_privnp_religious] Faith-Based and Religious School or College
+[detfund_privnp_research] Private Research University (R1, R2 Carnegie)
+[detfund_public] Public and Government-Funded Education :: naics_2022:611
+[detfund_public_higher] Public Higher Education (state university, community college)
+[detfund_public_k12] Public K-12 (LEA - Local Education Agency, state funded)
+[detfund_public_tribal] Tribal College and Federally-Operated School

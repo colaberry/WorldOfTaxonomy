@@ -1,0 +1,16 @@
+[IM] Imaging Modality Types :: naics_2022:5419
+[IM.01] X-Ray (Radiography)
+[IM.02] CT Scan (Computed Tomography)
+[IM.03] MRI (Magnetic Resonance)
+[IM.04] Ultrasound (Sonography)
+[IM.05] PET Scan (Positron Emission)
+[IM.06] SPECT Imaging
+[IM.07] Mammography
+[IM.08] Fluoroscopy
+[IM.09] Nuclear Medicine
+[IM.10] Interventional Radiology
+[IM.11] Bone Densitometry (DEXA)
+[IM.12] Angiography
+[IM.13] Echocardiography
+[IM.14] Endoscopy (Imaging)
+[IM.15] Optical Coherence Tomography

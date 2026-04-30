@@ -1,0 +1,14 @@
+[IN] ICNP Axes
+[IN.01] Focus (Nursing Phenomena)
+[IN.02] Judgement
+[IN.03] Means (Interventions)
+[IN.04] Action
+[IN.05] Time
+[IN.06] Location (Body)
+[IN.07] Client (Beneficiary)
+[IN.08] Nursing Diagnosis Concepts
+[IN.09] Nursing Outcome Concepts
+[IN.10] Nursing Intervention Concepts
+[IN.11] Catalogues (Specialty)
+[IN.12] Mapping to SNOMED CT
+[IN.13] C-HOBIC Integration

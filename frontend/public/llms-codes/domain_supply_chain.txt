@@ -1,0 +1,24 @@
+[dsc_customs] Customs and Trade Compliance :: naics_2022:488, naics_2022:493
+[dsc_customs_bonded] Bonded Warehouse Storage
+[dsc_customs_drawback] Duty Drawback and Refund Programs
+[dsc_customs_entry] Formal Customs Entry and Clearance
+[dsc_customs_ftz] Foreign Trade Zone (FTZ) Operations
+[dsc_incoterm] Incoterms 2020 Trade Terms :: naics_2022:488, naics_2022:493
+[dsc_incoterm_cif] CIF - Cost, Insurance and Freight (sea only)
+[dsc_incoterm_dap] DAP - Delivered at Place (buyer unloads)
+[dsc_incoterm_ddp] DDP - Delivered Duty Paid (seller maximum oblig.)
+[dsc_incoterm_exw] EXW - Ex Works (seller minimum obligation)
+[dsc_incoterm_fca] FCA - Free Carrier (named place of delivery)
+[dsc_incoterm_fob] FOB - Free on Board (vessel, sea/inland waterway)
+[dsc_lane] Trade Lane :: naics_2022:488, naics_2022:493
+[dsc_lane_domestic] Domestic (within same country)
+[dsc_lane_global] Global and Multi-Modal (hub-and-spoke)
+[dsc_lane_nearshore] Nearshore (adjacent country, short-haul)
+[dsc_lane_transatl] Transatlantic (US/EU/UK trade corridor)
+[dsc_lane_transpacif] Transpacific (US/Asia trade corridor)
+[dsc_tier] Logistics Provider Tier :: naics_2022:488, naics_2022:493
+[dsc_tier_1pl] 1PL - First-Party (own assets and operations)
+[dsc_tier_2pl] 2PL - Second-Party (asset-based carrier)
+[dsc_tier_3pl] 3PL - Third-Party (outsourced warehousing + transport)
+[dsc_tier_4pl] 4PL - Fourth-Party (lead logistics orchestrator)
+[dsc_tier_5pl] 5PL - Fifth-Party (e-logistics and digital platforms)

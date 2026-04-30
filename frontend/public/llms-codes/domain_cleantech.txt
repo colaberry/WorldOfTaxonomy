@@ -1,0 +1,26 @@
+[dcl_carbon] Carbon Capture :: naics_2022:5415
+[dcl_carbon_dac] Direct Air Capture (DAC) Systems
+[dcl_carbon_ocean] Ocean-Based Carbon Removal Technologies
+[dcl_carbon_point] Point-Source Carbon Capture (flue gas, industrial)
+[dcl_carbon_storage] Carbon Storage and Geological Sequestration
+[dcl_carbon_util] Carbon Utilization and Conversion (CCU)
+[dcl_circular] Circular Economy :: naics_2022:5415
+[dcl_circular_design] Design for Disassembly and Lifecycle Tools
+[dcl_circular_recycle] Advanced Recycling and Material Recovery
+[dcl_circular_remanuf] Remanufacturing and Refurbishment Platforms
+[dcl_circular_sharing] Product-as-a-Service and Sharing Platforms
+[dcl_envmon] Environmental Monitoring :: naics_2022:5415
+[dcl_envmon_air] Air Quality Monitoring and Emissions Tracking
+[dcl_envmon_bio] Biodiversity Monitoring and Ecosystem Tracking
+[dcl_envmon_satellite] Satellite-Based Environmental Observation
+[dcl_envmon_water] Water Quality Sensor Networks
+[dcl_greenchem] Green Chemistry :: naics_2022:5415
+[dcl_greenchem_bio] Bio-Based Chemicals and Solvents
+[dcl_greenchem_cat] Green Catalysis and Process Intensification
+[dcl_greenchem_plastic] Biodegradable and Compostable Polymers
+[dcl_greenchem_toxic] Toxic Substance Replacement and Safer Alternatives
+[dcl_water] Water Purification Tech :: naics_2022:5415
+[dcl_water_desal] Desalination Technologies
+[dcl_water_membrane] Membrane Filtration and Reverse Osmosis
+[dcl_water_reuse] Wastewater Reclamation and Reuse Systems
+[dcl_water_uv] UV and Advanced Oxidation Treatment

@@ -1,0 +1,15 @@
+[fx_deriv] FX Derivatives :: naics_2022:523
+[fx_deriv_ccs] Cross-currency swaps
+[fx_deriv_fwd] FX forwards and NDFs
+[fx_deriv_opt] FX options (vanilla, barrier, digital)
+[fx_deriv_swap] FX swaps (short-dated, long-dated)
+[fx_pair] Currency Pair Categories :: naics_2022:523
+[fx_pair_crypto] Crypto-fiat pairs
+[fx_pair_em] Emerging market pairs
+[fx_pair_exot] Exotic pairs (USD/TRY, USD/ZAR)
+[fx_pair_major] Major pairs (EUR/USD, GBP/USD, USD/JPY)
+[fx_pair_minor] Minor / cross pairs (EUR/GBP, AUD/NZD)
+[fx_spot] Spot Market :: naics_2022:523
+[fx_spot_ecn] ECN / electronic matching
+[fx_spot_inter] Interbank spot FX
+[fx_spot_retail] Retail FX (CFDs, spread betting)

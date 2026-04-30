@@ -1,0 +1,15 @@
+[PA] Pathology Subspecialty Types :: naics_2022:6211, naics_2022:6221
+[PA.01] Anatomic Pathology
+[PA.02] Clinical Pathology
+[PA.03] Surgical Pathology
+[PA.04] Cytopathology
+[PA.05] Dermatopathology
+[PA.06] Neuropathology
+[PA.07] Hematopathology
+[PA.08] Molecular Pathology
+[PA.09] Forensic Pathology
+[PA.10] Renal Pathology
+[PA.11] Gastrointestinal Pathology
+[PA.12] Pulmonary Pathology
+[PA.13] Pediatric Pathology
+[PA.14] Digital Pathology

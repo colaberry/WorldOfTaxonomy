@@ -1,0 +1,25 @@
+[dai_infra] Data Infrastructure :: naics_2022:518, naics_2022:5415
+[dai_infra_lake] Data Lakes and Lakehouses (S3, Databricks, Iceberg)
+[dai_infra_pipeline] Data Pipelines and ETL/ELT (Airflow, dbt, Fivetran)
+[dai_infra_stream] Streaming and Real-Time Data (Kafka, Flink, Kinesis)
+[dai_infra_vector] Vector Databases (Pinecone, Weaviate, pgvector)
+[dai_infra_warehouse] Data Warehouses (Snowflake, BigQuery, Redshift)
+[dai_model] AI Model Types :: naics_2022:518, naics_2022:5415
+[dai_model_discrim] Discriminative Models (classifiers, regression)
+[dai_model_edge] Edge and Embedded AI (TinyML, on-device inference)
+[dai_model_found] Foundation Models (large pre-trained LLMs, VLMs)
+[dai_model_gen] Generative AI (text, image, video, audio, code gen)
+[dai_model_multi] Multimodal AI (vision-language, audio-visual models)
+[dai_model_rl] Reinforcement Learning (RL, RLHF, multi-agent)
+[dai_ops] MLOps and AI Governance :: naics_2022:518, naics_2022:5415
+[dai_ops_govern] AI Governance, Bias Detection and Fairness
+[dai_ops_lineage] Data Lineage and Provenance
+[dai_ops_observe] AI Observability and Monitoring
+[dai_ops_registry] Model Registry and Versioning
+[dai_vert] AI Application Verticals :: naics_2022:518, naics_2022:5415
+[dai_vert_finance] AI in Financial Services (fraud, trading, risk)
+[dai_vert_health] AI in Healthcare (clinical NLP, imaging AI, genomics)
+[dai_vert_legal] AI in Legal and Compliance (contract AI, regulatory)
+[dai_vert_logistics] AI in Logistics (route optimization, demand forecast)
+[dai_vert_mfg] AI in Manufacturing (predictive maintenance, QC)
+[dai_vert_science] AI for Science (drug discovery, materials, climate)

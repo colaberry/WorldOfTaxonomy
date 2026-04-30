@@ -1,0 +1,15 @@
+[dpsdeliv_hybrid] Hybrid Delivery Model :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsdeliv_hybrid_agile] Agile and Sprint-Based Hybrid Teams
+[dpsdeliv_hybrid_pod] Pod-Based Delivery (blended on/offshore team)
+[dpsdeliv_onsite] On-Site and Embedded Delivery :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsdeliv_onsite_embedded] Long-Term Embedded Engagement (client premises)
+[dpsdeliv_onsite_field] Field and On-Location Delivery (inspections, audit)
+[dpsdeliv_outcome] Outcome-Based and Managed Services :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsdeliv_outcome_msp] Managed Service Provider (MSP) - ongoing ops responsibility
+[dpsdeliv_product] Product-Led and Platform Delivery :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsdeliv_product_saas] SaaS-Enabled Services (software plus advisory)
+[dpsdeliv_product_self] Self-Service and Automated Workflow Delivery
+[dpsdeliv_remote] Remote and Virtual Delivery :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsdeliv_remote_domestic] Domestic Remote (US-based, virtual team)
+[dpsdeliv_remote_nearshore] Nearshore Delivery (Mexico, Canada, Eastern Europe)
+[dpsdeliv_remote_offshore] Offshore Delivery Center (India, Philippines, LATAM)

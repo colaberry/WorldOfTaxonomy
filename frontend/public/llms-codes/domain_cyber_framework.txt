@@ -1,0 +1,23 @@
+[dcf_comply] Compliance Standards and Regulations :: naics_2022:5415, naics_2022:5417
+[dcf_comply_cmmc] CMMC (Cybersecurity Maturity Model, DoD, level assessment)
+[dcf_comply_fedramp] FedRAMP (cloud authorization, POAM, 3PAO assessment)
+[dcf_comply_hipaa] HIPAA Security Rule (PHI safeguards, risk analysis, BAA)
+[dcf_comply_pci] PCI DSS (payment card data, SAQ, QSA, network segmentation)
+[dcf_comply_sox] SOX IT Controls (Sarbanes-Oxley, ITGC, change management)
+[dcf_controls] Security Control Frameworks :: naics_2022:5415, naics_2022:5417
+[dcf_controls_mitre] MITRE ATT&CK (tactics, techniques, procedures, groups)
+[dcf_controls_nist800] NIST SP 800-53 (federal controls, baselines, overlays)
+[dcf_controls_owasp] OWASP Framework (Top 10, ASVS, SAMM, testing guide)
+[dcf_controls_soc2] SOC 2 Trust Services Criteria (security, availability)
+[dcf_controls_zero] Zero Trust Architecture (NIST 800-207, microsegmentation)
+[dcf_privacy] Privacy and Data Protection Frameworks :: naics_2022:5415, naics_2022:5417
+[dcf_privacy_ccpa] CCPA and CPRA (consumer rights, opt-out, data broker)
+[dcf_privacy_gdpr] GDPR Framework (data subject rights, DPIA, DPO, SCCs)
+[dcf_privacy_iso27701] ISO 27701 (PIMS, privacy controls, processor obligations)
+[dcf_privacy_nistpf] NIST Privacy Framework (identify, govern, control, communicate)
+[dcf_risk] Cybersecurity Risk Frameworks :: naics_2022:5415, naics_2022:5417
+[dcf_risk_cis] CIS Controls (implementation groups, benchmarks, CAT)
+[dcf_risk_cobit] COBIT Framework (IT governance, management objectives)
+[dcf_risk_fair] FAIR Risk Quantification (factor analysis, loss magnitude)
+[dcf_risk_iso27001] ISO 27001/27002 (ISMS, risk treatment, Annex A controls)
+[dcf_risk_nist] NIST Cybersecurity Framework (CSF 2.0, identify-protect-detect)

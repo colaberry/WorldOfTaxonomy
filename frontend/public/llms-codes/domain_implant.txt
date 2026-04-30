@@ -1,0 +1,15 @@
+[IC] Implant Classification Types :: naics_2022:3345, naics_2022:3391
+[IC.01] Orthopedic Implant (Joint)
+[IC.02] Spinal Implant
+[IC.03] Cardiac Implant (Pacemaker)
+[IC.04] Cardiac Stent
+[IC.05] Cochlear Implant
+[IC.06] Dental Implant
+[IC.07] Breast Implant
+[IC.08] Intraocular Lens
+[IC.09] Neurostimulator
+[IC.10] Vascular Graft
+[IC.11] Bone Graft Substitute
+[IC.12] Hernia Mesh
+[IC.13] Drug-Eluting Implant
+[IC.14] Bioresorbable Implant

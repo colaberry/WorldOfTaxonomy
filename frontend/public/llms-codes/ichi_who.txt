@@ -1,0 +1,15 @@
+[ICHI] ICHI Axes
+[ICHI.A] Action (Intervention Type)
+[ICHI.A1] Investigation Actions
+[ICHI.A2] Treating Actions
+[ICHI.A3] Managing Actions
+[ICHI.A4] Preventing Actions
+[ICHI.EX] Extensions
+[ICHI.M] Means (Technology/Approach)
+[ICHI.M1] Physical/Mechanical Means
+[ICHI.M2] Pharmacological Means
+[ICHI.M3] Radiation Means
+[ICHI.M4] Psychosocial Means
+[ICHI.M5] Education Means
+[ICHI.M6] Environmental Means
+[ICHI.T] Target (Anatomy/Function)

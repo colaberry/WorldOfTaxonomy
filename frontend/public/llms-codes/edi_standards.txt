@@ -1,0 +1,14 @@
+[EI] EDI Standards
+[EI.01] UN/EDIFACT
+[EI.02] ANSI X12
+[EI.03] TRADACOMS
+[EI.04] ebXML
+[EI.05] RosettaNet
+[EI.06] SWIFT FIN
+[EI.07] HL7 (Healthcare)
+[EI.08] MISMO (Mortgage)
+[EI.09] ACORD (Insurance)
+[EI.10] FIX Protocol (Finance)
+[EI.11] OAGIS (Manufacturing)
+[EI.12] GS1 EANCOM
+[EI.13] Peppol BIS (E-Invoicing)

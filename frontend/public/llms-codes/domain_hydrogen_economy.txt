@@ -1,0 +1,26 @@
+[dhe_blue] Blue Hydrogen :: naics_2022:2211
+[dhe_blue_atr] Autothermal Reforming with CCS
+[dhe_blue_capture] Carbon Capture and Sequestration for Hydrogen
+[dhe_blue_grey] Grey Hydrogen (unabated fossil-based)
+[dhe_blue_smr] Steam Methane Reforming with CCS
+[dhe_cell] Fuel Cells :: naics_2022:2211
+[dhe_cell_mcfc] Molten Carbonate Fuel Cells
+[dhe_cell_pem] PEM Fuel Cells (automotive and portable)
+[dhe_cell_sofc] Solid Oxide Fuel Cells (stationary power)
+[dhe_cell_stack] Fuel Cell Stack Manufacturing and Assembly
+[dhe_green] Green Hydrogen :: naics_2022:2211
+[dhe_green_bio] Biomass and Biohydrogen Production
+[dhe_green_electro] Electrolysis (PEM, alkaline, solid oxide)
+[dhe_green_solar] Solar-Powered Hydrogen Production
+[dhe_green_wind] Wind-Powered Hydrogen Production
+[dhe_store] Hydrogen Storage :: naics_2022:2211
+[dhe_store_compress] Compressed Gas Storage (350-700 bar tanks)
+[dhe_store_liquid] Liquid Hydrogen Cryogenic Storage
+[dhe_store_metal] Metal Hydride and Solid-State Storage
+[dhe_store_underground] Underground Cavern and Salt Dome Storage
+[dhe_trans] Hydrogen Transport :: naics_2022:2211
+[dhe_trans_ammonia] Ammonia Carrier Conversion and Shipping
+[dhe_trans_blend] Hydrogen Blending in Natural Gas Pipelines
+[dhe_trans_pipeline] Dedicated Hydrogen Pipeline Networks
+[dhe_trans_station] Hydrogen Refueling Station Infrastructure
+[dhe_trans_truck] Tube Trailer and Tanker Truck Delivery

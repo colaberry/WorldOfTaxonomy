@@ -1,0 +1,16 @@
+[ct_agri] Agricultural Commodities :: naics_2022:523
+[ct_agri_grain] Grains (corn, wheat, soybeans)
+[ct_agri_live] Livestock (cattle, hogs)
+[ct_agri_soft] Softs (coffee, cocoa, sugar, cotton)
+[ct_energy] Energy Commodities :: naics_2022:523
+[ct_energy_coal] Coal (thermal, coking)
+[ct_energy_crude] Crude oil (WTI, Brent, Dubai)
+[ct_energy_gas] Natural gas (Henry Hub, TTF, JKM)
+[ct_energy_power] Electricity (day-ahead, intraday)
+[ct_mech] Trading Mechanisms :: naics_2022:523
+[ct_mech_paper] Paper trading (futures, options, swaps)
+[ct_mech_phys] Physical trading (spot, forward)
+[ct_metal] Metal Commodities :: naics_2022:523
+[ct_metal_base] Base metals (copper, aluminum, zinc)
+[ct_metal_prec] Precious metals (gold, silver, platinum)
+[ct_metal_rare] Rare earths and critical minerals

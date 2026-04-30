@@ -1,0 +1,18 @@
+[cx_phase] Commissioning Phases :: naics_2022:236, naics_2022:237, naics_2022:238
+[cx_phase_constr] Construction verification
+[cx_phase_design] Design phase review
+[cx_phase_func] Functional performance testing
+[cx_phase_occ] Post-occupancy verification
+[cx_phase_season] Seasonal commissioning
+[cx_sys] Systems Commissioned :: naics_2022:236, naics_2022:237, naics_2022:238
+[cx_sys_elec] Electrical systems
+[cx_sys_envelope] Building envelope
+[cx_sys_fire] Fire and life safety
+[cx_sys_hvac] HVAC systems
+[cx_sys_light] Lighting controls
+[cx_sys_plumb] Plumbing and domestic hot water
+[cx_type] Commissioning Types :: naics_2022:236, naics_2022:237, naics_2022:238
+[cx_type_monitor] Monitoring-based commissioning (MBCx)
+[cx_type_new] New construction commissioning (Cx)
+[cx_type_recx] Re-commissioning
+[cx_type_retro] Retro-commissioning (RCx)

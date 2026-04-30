@@ -1,0 +1,21 @@
+[dme_fluid] Fluid and Solution Mining :: naics_2022:212, naics_2022:213
+[dme_fluid_dewater] Dewatering and Brine Extraction
+[dme_fluid_drill] Drilling and Well Completion
+[dme_fluid_frack] Hydraulic Fracturing (fracking)
+[dme_fluid_solution] Solution Mining (in-situ leaching)
+[dme_process] Mineral Processing Methods :: naics_2022:212, naics_2022:213
+[dme_process_crush] Crushing and Grinding (comminution)
+[dme_process_float] Flotation (froth flotation)
+[dme_process_heap] Heap Leaching (hydrometallurgy)
+[dme_process_smelt] Smelting and Refining (pyrometallurgy)
+[dme_surface] Surface Mining Methods :: naics_2022:212, naics_2022:213
+[dme_surface_dredge] Dredging
+[dme_surface_open] Open-Pit Mining
+[dme_surface_quarry] Quarrying
+[dme_surface_strip] Strip Mining
+[dme_underground] Underground Mining Methods :: naics_2022:212, naics_2022:213
+[dme_underground_block] Block Caving
+[dme_underground_long] Longwall Mining
+[dme_underground_room] Room and Pillar Mining
+[dme_underground_shaft] Shaft Mining and Drift Mining
+[dme_underground_stope] Stoping (cut-and-fill, shrinkage)

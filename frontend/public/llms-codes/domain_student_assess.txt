@@ -1,0 +1,15 @@
+[SA] Student Assessment Types :: naics_2022:611
+[SA.01] Formative Assessment
+[SA.02] Summative Assessment
+[SA.03] Diagnostic Assessment
+[SA.04] Standardized Test
+[SA.05] Portfolio Assessment
+[SA.06] Performance Assessment
+[SA.07] Rubric-Based Assessment
+[SA.08] Peer Assessment
+[SA.09] Self-Assessment
+[SA.10] Computer Adaptive Testing
+[SA.11] Authentic Assessment
+[SA.12] Competency-Based Assessment
+[SA.13] Norm-Referenced Test
+[SA.14] Criterion-Referenced Test

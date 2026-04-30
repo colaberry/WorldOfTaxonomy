@@ -1,0 +1,14 @@
+[PS] PCI-SIG Specs
+[PS.01] PCI Express 6.0
+[PS.02] PCI Express 5.0
+[PS.03] PCI Express 4.0
+[PS.04] PCI Express 3.0
+[PS.05] CXL (Compute Express Link)
+[PS.06] PCI-X 2.0
+[PS.07] Mini PCI Express
+[PS.08] M.2 Specification
+[PS.09] U.2 (SFF-8639)
+[PS.10] PCI Power Management
+[PS.11] PCI Hot-Plug
+[PS.12] PCI Express Card Electromechanical
+[PS.13] Single Root I/O Virtualization (SR-IOV)

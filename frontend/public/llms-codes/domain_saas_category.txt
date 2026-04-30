@@ -1,0 +1,18 @@
+[saas_biz] Business SaaS :: naics_2022:518, naics_2022:5415
+[saas_biz_bi] BI and analytics (Tableau, Looker)
+[saas_biz_collab] Collaboration (Slack, Teams)
+[saas_biz_crm] CRM (Salesforce, HubSpot)
+[saas_biz_erp] ERP (NetSuite, SAP)
+[saas_biz_hr] HCM/HRIS (Workday, BambooHR)
+[saas_biz_pm] Project management (Asana, Monday)
+[saas_dev] Developer SaaS :: naics_2022:518, naics_2022:5415
+[saas_dev_ci] CI/CD platforms (GitHub Actions, CircleCI)
+[saas_dev_log] Log management (Splunk, Elastic)
+[saas_dev_monitor] APM and monitoring (Datadog, New Relic)
+[saas_dev_sec] Security SaaS (Snyk, CrowdStrike)
+[saas_vert] Vertical SaaS :: naics_2022:518, naics_2022:5415
+[saas_vert_constr] Construction SaaS (Procore, PlanGrid)
+[saas_vert_edtech] EdTech SaaS (Canvas, Blackboard)
+[saas_vert_health] Healthcare SaaS (Epic, athenahealth)
+[saas_vert_legal] Legal SaaS (Clio, LegalZoom)
+[saas_vert_realestate] Real estate SaaS (Yardi, AppFolio)

@@ -1,0 +1,18 @@
+[re_alt] Alternative Risk Transfer :: naics_2022:524
+[re_alt_cap] Captive reinsurance
+[re_alt_cat] Catastrophe bonds (ILS)
+[re_alt_pool] Risk pools
+[re_alt_retro] Retrocession
+[re_alt_side] Sidecars
+[re_alt_sw] Industry loss warranties (ILW)
+[re_fac] Facultative Reinsurance :: naics_2022:524
+[re_fac_obl] Facultative-obligatory (fac-ob)
+[re_fac_prop] Facultative proportional
+[re_fac_xl] Facultative excess of loss
+[re_treaty] Treaty Reinsurance :: naics_2022:524
+[re_treaty_cat] Catastrophe excess of loss
+[re_treaty_prop] Proportional treaty (quota share, surplus share)
+[re_treaty_qs] Quota share treaty
+[re_treaty_sl] Stop loss (aggregate excess of loss)
+[re_treaty_ss] Surplus share treaty
+[re_treaty_xl] Excess of loss (per risk, per occurrence, aggregate)

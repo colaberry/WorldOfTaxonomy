@@ -1,0 +1,17 @@
+[drbsen_force] Force, Torque and Tactile Sensing :: naics_2022:3333, naics_2022:5415
+[drbsen_force_ft] 6-axis force/torque sensors (assembly contact detection)
+[drbsen_force_joint] Joint torque sensors (collaborative robots, safety monitoring)
+[drbsen_force_tactile] Tactile skin arrays (grasping, surface texture sensing)
+[drbsen_lidar] LiDAR and Radar Sensing :: naics_2022:3333, naics_2022:5415
+[drbsen_lidar_mech] Mechanical spinning LiDAR (Velodyne, HESAI multi-layer)
+[drbsen_lidar_radar] Automotive radar (77 GHz FMCW for pedestrian/object detection)
+[drbsen_lidar_solid] Solid-state LiDAR (MEMS, OPA, Flash LiDAR)
+[drbsen_proprioceptive] Proprioceptive and Navigation Sensing :: naics_2022:3333, naics_2022:5415
+[drbsen_proprioceptive_encoder] Rotary/linear encoders for joint position feedback
+[drbsen_proprioceptive_gnss] GPS/GNSS with RTK for outdoor robot localization
+[drbsen_proprioceptive_imu] IMU (accelerometer, gyroscope, magnetometer) for pose estimation
+[drbsen_vision] Computer Vision and Imaging Systems :: naics_2022:3333, naics_2022:5415
+[drbsen_vision_rgb] RGB cameras and monocular depth estimation
+[drbsen_vision_stereo] Stereo vision systems (depth from disparity)
+[drbsen_vision_thermal] Thermal and infrared imaging for detection
+[drbsen_vision_tof] Time-of-flight 3D imaging (structured light, ToF chips)

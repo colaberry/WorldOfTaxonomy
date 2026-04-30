@@ -1,0 +1,16 @@
+[fp_detect] Detection Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[fp_detect_alarm] Fire alarm control panel (FACP)
+[fp_detect_flame] Flame detectors (UV, IR)
+[fp_detect_gas] Gas detection systems
+[fp_detect_heat] Heat detectors (fixed temp, rate-of-rise)
+[fp_detect_smoke] Smoke detectors (ionization, photoelectric)
+[fp_passive] Passive Protection :: naics_2022:236, naics_2022:237, naics_2022:238
+[fp_passive_firestop] Firestopping and penetration seals
+[fp_passive_rated] Fire-rated assemblies (walls, floors, doors)
+[fp_passive_smoke] Smoke barriers and partitions
+[fp_suppress] Suppression Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[fp_suppress_clean] Clean agent systems (FM-200, Novec)
+[fp_suppress_co2] CO2 suppression systems
+[fp_suppress_foam] Foam suppression systems
+[fp_suppress_sprink] Automatic sprinkler systems (wet, dry, deluge)
+[fp_suppress_standpipe] Standpipe and hose systems

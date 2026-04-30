@@ -1,0 +1,14 @@
+[LD] LEED Categories
+[LD.01] Integrative Process
+[LD.02] Location and Transportation
+[LD.03] Sustainable Sites
+[LD.04] Water Efficiency
+[LD.05] Energy and Atmosphere
+[LD.06] Materials and Resources
+[LD.07] Indoor Environmental Quality
+[LD.08] Innovation
+[LD.09] Regional Priority Credits
+[LD.10] Certified (40-49 points)
+[LD.11] Silver (50-59 points)
+[LD.12] Gold (60-79 points)
+[LD.13] Platinum (80+ points)

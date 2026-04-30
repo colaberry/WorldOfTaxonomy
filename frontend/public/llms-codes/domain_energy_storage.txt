@@ -1,0 +1,25 @@
+[des_batt] Battery Chemistries :: naics_2022:2211, naics_2022:3359
+[des_batt_flow] Flow Batteries (vanadium redox, zinc-bromine, iron)
+[des_batt_liion] Lithium-Ion (NMC, LFP, NCA, cylindrical, pouch)
+[des_batt_sodium] Sodium-Ion Batteries (hard carbon, NASICON cathode)
+[des_batt_solid] Solid-State Batteries (sulfide, oxide, polymer SSE)
+[des_grid] Grid-Scale Energy Storage :: naics_2022:2211, naics_2022:3359
+[des_grid_bess] Battery Energy Storage Systems (utility BESS, front-of-meter)
+[des_grid_caes] Compressed Air Energy Storage (CAES, adiabatic CAES)
+[des_grid_hydro] Pumped Hydroelectric Storage (PSH)
+[des_h2] Hydrogen Energy Storage :: naics_2022:2211, naics_2022:3359
+[des_h2_compressed] Compressed Gaseous Hydrogen (350/700 bar tanks)
+[des_h2_hydride] Metal Hydride and Chemical Hydrogen Storage
+[des_h2_liquid] Liquid Hydrogen Storage and Cryogenic Systems
+[des_soft] Storage Software and Management :: naics_2022:2211, naics_2022:3359
+[des_soft_bms] Battery Management Systems (BMS)
+[des_soft_ems] Energy Management Systems (EMS) and SCADA
+[des_soft_vpp] Virtual Power Plants (VPP) and Grid Dispatch
+[des_therm] Thermal Energy Storage :: naics_2022:2211, naics_2022:3359
+[des_therm_ice] Ice and Chilled Water Storage (HVAC, district cooling)
+[des_therm_molten] Molten Salt Thermal Storage (CSP, industrial heat)
+[des_therm_pcm] Phase Change Materials (PCM) Thermal Storage
+[des_veh] Vehicle Battery Systems :: naics_2022:2211, naics_2022:3359
+[des_veh_commercial] Commercial Vehicle Battery Systems (trucks, buses)
+[des_veh_ebike] E-Bike and Micro-Mobility Batteries
+[des_veh_passenger] Passenger EV Battery Packs (NMC/LFP, cylindrical/pouch)

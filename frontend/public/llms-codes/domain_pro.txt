@@ -1,0 +1,15 @@
+[PR] Patient-Reported Outcome Types :: naics_2022:5419
+[PR.01] Generic Health Status (SF-36)
+[PR.02] Disease-Specific PRO
+[PR.03] Symptom Severity Scale
+[PR.04] Functional Status Measure
+[PR.05] Quality of Life (QoL)
+[PR.06] Patient Satisfaction Survey
+[PR.07] PROMIS Instruments
+[PR.08] Pain Assessment (VAS/NRS)
+[PR.09] Fatigue Assessment
+[PR.10] Depression Screening (PHQ-9)
+[PR.11] Anxiety Screening (GAD-7)
+[PR.12] ePRO (Electronic)
+[PR.13] PRO-CTCAE
+[PR.14] Caregiver-Reported Outcome

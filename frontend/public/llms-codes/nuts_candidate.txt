@@ -1,0 +1,11 @@
+[NC] NUTS Candidate Regions
+[NC.AL] Albania (AL)
+[NC.BA] Bosnia and Herzegovina (BA)
+[NC.GE] Georgia (GE)
+[NC.MD] Moldova (MD)
+[NC.ME] Montenegro (ME)
+[NC.MK] North Macedonia (MK)
+[NC.RS] Serbia (RS)
+[NC.TR] Turkey (TR)
+[NC.UA] Ukraine (UA)
+[NC.XK] Kosovo (XK)

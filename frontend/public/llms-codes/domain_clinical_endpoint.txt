@@ -1,0 +1,15 @@
+[CE] Clinical Endpoint Types :: naics_2022:5417, naics_2022:6215
+[CE.01] Primary Endpoint
+[CE.02] Secondary Endpoint
+[CE.03] Surrogate Endpoint
+[CE.04] Composite Endpoint
+[CE.05] Patient-Reported Outcome (PRO)
+[CE.06] Overall Survival
+[CE.07] Progression-Free Survival
+[CE.08] Objective Response Rate
+[CE.09] Time-to-Event Endpoint
+[CE.10] Biomarker Endpoint
+[CE.11] Safety Endpoint
+[CE.12] Quality of Life Endpoint
+[CE.13] Digital Endpoint
+[CE.14] Real-World Endpoint

@@ -1,0 +1,15 @@
+[AE] Adverse Event Classification Types :: naics_2022:5417, naics_2022:6215
+[AE.01] Type A (Augmented/Dose-Related)
+[AE.02] Type B (Bizarre/Idiosyncratic)
+[AE.03] Type C (Chronic/Cumulative)
+[AE.04] Type D (Delayed)
+[AE.05] Type E (End-of-Treatment)
+[AE.06] Serious Adverse Event (SAE)
+[AE.07] Unexpected Adverse Reaction
+[AE.08] Medication Error
+[AE.09] Allergic Reaction
+[AE.10] Anaphylaxis
+[AE.11] Black Box Warning Event
+[AE.12] Drug Withdrawal Effect
+[AE.13] Off-Label Use Adverse Event
+[AE.14] Vaccine Adverse Event

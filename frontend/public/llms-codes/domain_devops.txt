@@ -1,0 +1,20 @@
+[dop_cd] Continuous Delivery/Deployment :: naics_2022:5415
+[dop_cd_blue] Blue-green deployment
+[dop_cd_canary] Canary releases
+[dop_cd_feature] Feature flags and toggles
+[dop_cd_gitops] GitOps
+[dop_cd_pipe] Deployment pipelines
+[dop_ci] Continuous Integration :: naics_2022:5415
+[dop_ci_build] Build automation
+[dop_ci_lint] Code quality and linting
+[dop_ci_scan] Security scanning (SAST, SCA)
+[dop_ci_test] Automated testing (unit, integration, e2e)
+[dop_culture] Culture and Methodology :: naics_2022:5415
+[dop_culture_devsecops] DevSecOps
+[dop_culture_plat] Platform engineering
+[dop_culture_sre] Site reliability engineering (SRE)
+[dop_ops] Operations Practices :: naics_2022:5415
+[dop_ops_chaos] Chaos engineering
+[dop_ops_iac] Infrastructure as Code (IaC)
+[dop_ops_incident] Incident management and on-call
+[dop_ops_monitor] Monitoring and observability

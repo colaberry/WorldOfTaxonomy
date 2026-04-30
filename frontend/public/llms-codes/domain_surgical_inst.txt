@@ -1,0 +1,16 @@
+[SU] Surgical Instrument Types :: naics_2022:3345, naics_2022:3391
+[SU.01] Cutting Instruments (Scalpels)
+[SU.02] Grasping Instruments (Forceps)
+[SU.03] Clamping Instruments
+[SU.04] Retractors
+[SU.05] Suturing Instruments
+[SU.06] Electrosurgical Instruments
+[SU.07] Endoscopic Instruments
+[SU.08] Laparoscopic Instruments
+[SU.09] Robotic Surgical Instruments
+[SU.10] Microsurgical Instruments
+[SU.11] Orthopedic Instruments
+[SU.12] Ophthalmic Instruments
+[SU.13] Cardiovascular Instruments
+[SU.14] Neurosurgical Instruments
+[SU.15] Powered Instruments (Drills)

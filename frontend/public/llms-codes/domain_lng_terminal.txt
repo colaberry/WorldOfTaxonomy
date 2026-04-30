@@ -1,0 +1,14 @@
+[LN] LNG Terminal Types :: naics_2022:211, naics_2022:2212, naics_2022:4861
+[LN.01] Liquefaction Terminal
+[LN.02] Regasification Terminal
+[LN.03] Floating LNG (FLNG)
+[LN.04] FSRU (Floating Storage)
+[LN.05] Small-Scale LNG Terminal
+[LN.06] LNG Bunkering Facility
+[LN.07] LNG Storage Tank (Full Containment)
+[LN.08] LNG Carrier (Ship)
+[LN.09] LNG Truck Loading
+[LN.10] Boil-Off Gas Management
+[LN.11] LNG Spot Market
+[LN.12] LNG Long-Term Contract
+[LN.13] LNG Hub Pricing

@@ -1,0 +1,25 @@
+[dir_cyber] Cyber Risk :: naics_2022:524
+[dir_cyber_bec] Business Email Compromise Risk (social engineering)
+[dir_cyber_breach] Data Breach Risk (PII exposure, notification costs)
+[dir_cyber_cloud] Cloud and Infrastructure Risk (misconfiguration, outage)
+[dir_cyber_ransom] Ransomware and Extortion Risk (encryption, exfiltration)
+[dir_fin] Financial Risk :: naics_2022:524
+[dir_fin_credit] Credit Risk (default, counterparty, concentration)
+[dir_fin_liquidity] Liquidity Risk (funding, asset-liability mismatch)
+[dir_fin_market] Market Risk (interest rate, equity, currency, commodity)
+[dir_fin_reserve] Reserve Risk (loss reserve inadequacy, IBNR)
+[dir_liab] Liability Risk :: naics_2022:524
+[dir_liab_employer] Employer Liability Risk (workplace injury, harassment)
+[dir_liab_enviro] Environmental Liability Risk (pollution, remediation)
+[dir_liab_product] Product Liability Risk (manufacturing defect, design)
+[dir_liab_prof] Professional Liability Risk (malpractice, negligence)
+[dir_natcat] Natural Catastrophe Risk :: naics_2022:524
+[dir_natcat_earthquake] Earthquake Risk (seismic, liquefaction, tsunami)
+[dir_natcat_flood] Flood Risk (riverine, coastal, pluvial, flash flood)
+[dir_natcat_hurricane] Hurricane and Windstorm Risk (tropical cyclone, tornado)
+[dir_natcat_wildfire] Wildfire Risk (wildland-urban interface, prescribed)
+[dir_ops] Operational Risk :: naics_2022:524
+[dir_ops_fraud] Fraud Risk (claims fraud, agent fraud, identity theft)
+[dir_ops_model] Model Risk (pricing errors, catastrophe model failure)
+[dir_ops_regulatory] Regulatory Risk (compliance failure, sanctions, fines)
+[dir_ops_vendor] Third-Party and Vendor Risk (outsourcing, supply chain)

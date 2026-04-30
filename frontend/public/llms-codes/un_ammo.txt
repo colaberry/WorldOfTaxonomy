@@ -1,0 +1,14 @@
+[UA] IATG Categories
+[UA.01] Ammunition Stockpile Management
+[UA.02] Risk Assessment
+[UA.03] Storage and Compatibility
+[UA.04] Infrastructure
+[UA.05] Surveillance and Testing
+[UA.06] Transport
+[UA.07] Destruction Methods
+[UA.08] Explosive Ordnance Disposal
+[UA.09] Demilitarization
+[UA.10] Environmental Guidelines
+[UA.11] Security of Stockpiles
+[UA.12] Record Keeping
+[UA.13] Training and Education

@@ -1,0 +1,23 @@
+[dqc_ecc] Quantum Error Correction :: naics_2022:3344, naics_2022:5415
+[dqc_ecc_fault] Fault-Tolerant Quantum Computing Architectures
+[dqc_ecc_surface] Surface Code and Topological Error Correction
+[dqc_net] Quantum Networking and Communications :: naics_2022:3344, naics_2022:5415
+[dqc_net_internet] Quantum Internet and Long-Distance Entanglement
+[dqc_net_qkd] Quantum Key Distribution (QKD) Networks
+[dqc_net_repeat] Quantum Repeaters and Entanglement Distribution
+[dqc_plat] Quantum Platforms and Cloud Access :: naics_2022:3344, naics_2022:5415
+[dqc_plat_cloud] Quantum Cloud Services (IBM Quantum, AWS Braket)
+[dqc_plat_hybrid] Hybrid Quantum-Classical Computing Platforms
+[dqc_qubit] Qubit Technologies :: naics_2022:3344, naics_2022:5415
+[dqc_qubit_ion] Trapped Ion Qubits (IonQ, Quantinuum, Oxford Ionics)
+[dqc_qubit_photon] Photonic Qubits (PsiQuantum, QuiX Quantum)
+[dqc_qubit_sc] Superconducting Qubits (IBM, Google, Rigetti)
+[dqc_qubit_topo] Topological Qubits (Microsoft Station Q)
+[dqc_sense] Quantum Sensing and Metrology :: naics_2022:3344, naics_2022:5415
+[dqc_sense_clock] Atomic Clocks and Precision Timekeeping
+[dqc_sense_grav] Quantum Gravimetry and Inertial Navigation
+[dqc_sense_mag] Quantum Magnetometry (NV centers, SQUIDs)
+[dqc_soft] Quantum Software and Algorithms :: naics_2022:3344, naics_2022:5415
+[dqc_soft_algo] Quantum Algorithms (Shor, Grover, VQE, QAOA)
+[dqc_soft_compiler] Quantum Compilers and Circuit Optimization
+[dqc_soft_sim] Quantum Simulators and Classical Emulators

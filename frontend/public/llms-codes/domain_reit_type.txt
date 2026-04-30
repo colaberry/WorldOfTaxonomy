@@ -1,0 +1,17 @@
+[reit_eq] Equity REITs :: naics_2022:531
+[reit_eq_data] Data center REITs
+[reit_eq_health] Healthcare REITs (hospitals, senior housing)
+[reit_eq_hotel] Hotel and hospitality REITs
+[reit_eq_indust] Industrial REITs (warehouse, logistics)
+[reit_eq_office] Office REITs
+[reit_eq_resid] Residential REITs (apartments, SFR)
+[reit_eq_retail] Retail REITs (malls, shopping centers)
+[reit_eq_self] Self-storage REITs
+[reit_eq_spec] Specialty REITs (gaming, billboard, farmland)
+[reit_eq_timber] Timber REITs
+[reit_eq_tower] Cell tower REITs
+[reit_hybrid] Hybrid REITs :: naics_2022:531
+[reit_mort] Mortgage REITs :: naics_2022:531
+[reit_mort_agency] Agency mREITs
+[reit_mort_comm] Commercial mREITs
+[reit_mort_non] Non-agency mREITs

@@ -1,0 +1,18 @@
+[dwstrain_equipment] Equipment Operation and Specialty Training :: naics_2022:5613, naics_2022:622
+[dwstrain_equipment_crane] Crane and Rigging Operator Certification (NCCCO)
+[dwstrain_equipment_forklift] Powered Industrial Truck (Forklift) Operator Training
+[dwstrain_equipment_scaffold] Scaffold Erector and User Training
+[dwstrain_hazmat] Hazardous Materials and Emergency Response Training :: naics_2022:5613, naics_2022:622
+[dwstrain_hazmat_8hr] HAZWOPER 8-Hour Annual Refresher
+[dwstrain_hazmat_firstresponder] First Responder Awareness / Operations Level
+[dwstrain_hazmat_hazwoper] HAZWOPER (29 CFR 1910.120) 40-Hour Technician
+[dwstrain_medical] Emergency Medical and First Aid Training :: naics_2022:5613, naics_2022:622
+[dwstrain_medical_cpr] CPR and AED Certification (AHA, Red Cross)
+[dwstrain_medical_fa] First Aid and Bloodborne Pathogen Training
+[dwstrain_osha] OSHA Standard Training Programs :: naics_2022:5613, naics_2022:622
+[dwstrain_osha_10] OSHA 10-Hour General Industry or Construction
+[dwstrain_osha_30] OSHA 30-Hour General Industry or Construction
+[dwstrain_osha_ppe] OSHA PPE Selection and Fit Training
+[dwstrain_specialized] Industry-Specific Safety Training :: naics_2022:5613, naics_2022:622
+[dwstrain_specialized_confined] Confined Space Entry and Rescue Training
+[dwstrain_specialized_mining] MSHA Mining Safety Training (New Miner, Annual Refresher)

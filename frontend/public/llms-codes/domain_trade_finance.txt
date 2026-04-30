@@ -1,0 +1,18 @@
+[tf_risk] Trade Risk Mitigation :: naics_2022:522
+[tf_risk_eca] Export credit agency guarantee
+[tf_risk_eci] Export credit insurance
+[tf_risk_forf] Forfaiting
+[tf_risk_pol] Political risk insurance
+[tf_scf] Supply Chain Finance :: naics_2022:522
+[tf_scf_dist] Distributor finance
+[tf_scf_loan] Loan against receivables
+[tf_scf_pf] Payables finance (reverse factoring)
+[tf_scf_preex] Pre-export finance
+[tf_scf_rf] Receivables financing (factoring)
+[tf_trad] Traditional Trade Finance :: naics_2022:522
+[tf_trad_accept] Bankers acceptance
+[tf_trad_bg] Bank guarantee
+[tf_trad_bill] Bill of exchange
+[tf_trad_da] Documentary collection (D/A, D/P)
+[tf_trad_lc] Letter of credit (L/C)
+[tf_trad_sblc] Standby letter of credit (SBLC)

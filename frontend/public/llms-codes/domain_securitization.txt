@@ -1,0 +1,17 @@
+[sec_asset] Underlying Assets :: naics_2022:5419
+[sec_asset_auto] Auto loans and leases
+[sec_asset_card] Credit card receivables
+[sec_asset_equip] Equipment leases
+[sec_asset_student] Student loans
+[sec_tranche] Tranche Structure :: naics_2022:5419
+[sec_tranche_eq] Equity / first-loss tranche
+[sec_tranche_io] Interest-only strip (IO)
+[sec_tranche_mezz] Mezzanine tranche (A/BBB)
+[sec_tranche_po] Principal-only strip (PO)
+[sec_tranche_sr] Senior tranche (AAA/AA)
+[sec_type] Securitization Types :: naics_2022:5419
+[sec_type_abs] Asset-backed securities (ABS)
+[sec_type_cdo] Collateralized debt obligations (CDO)
+[sec_type_clo] Collateralized loan obligations (CLO)
+[sec_type_cmbs] Commercial MBS (CMBS)
+[sec_type_mbs] Mortgage-backed securities (MBS)

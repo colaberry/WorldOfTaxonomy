@@ -1,0 +1,13 @@
+[IN] Internship Model Types :: naics_2022:483
+[IN.01] Summer Internship
+[IN.02] Co-Op Program
+[IN.03] Virtual Internship
+[IN.04] Micro-Internship
+[IN.05] Externship
+[IN.06] Rotational Internship
+[IN.07] Research Internship
+[IN.08] Government Internship
+[IN.09] Nonprofit Internship
+[IN.10] Startup Internship
+[IN.11] Returnship (Career Re-entry)
+[IN.12] Paid vs Unpaid Compliance

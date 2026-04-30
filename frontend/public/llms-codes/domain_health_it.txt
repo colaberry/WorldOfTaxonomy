@@ -1,0 +1,21 @@
+[dhlcit_cdss] Clinical Decision Support Systems (CDSS) :: naics_2022:5415, naics_2022:6215
+[dhlcit_cdss_ai] AI-powered CDSS (sepsis prediction, deterioration alerts, diagnostic AI)
+[dhlcit_cdss_alerts] Alert and reminder systems (drug-drug interaction, preventive care)
+[dhlcit_cdss_evidence] Evidence-based order sets and care pathway automation
+[dhlcit_ehr] Electronic Health Record (EHR) and Clinical Systems :: naics_2022:5415, naics_2022:6215
+[dhlcit_ehr_ambulatory] Ambulatory EHR (Epic Ambulatory, Athenahealth, eClinicalWorks)
+[dhlcit_ehr_inpatient] Inpatient EHR / CPOE (Epic Inpatient, Cerner PowerChart)
+[dhlcit_ehr_ltpac] Long-term and post-acute care EHR (PointClickCare, MatrixCare)
+[dhlcit_engagement] Patient Engagement and Consumer Health Platforms :: naics_2022:5415, naics_2022:6215
+[dhlcit_engagement_portal] Patient portal and patient-generated data (MyChart, FollowMyHealth)
+[dhlcit_engagement_rpm] Remote patient monitoring (RPM) and virtual care platforms
+[dhlcit_imaging] Medical Imaging and PACS Systems :: naics_2022:5415, naics_2022:6215
+[dhlcit_imaging_ai] AI radiology and pathology image analysis (Aidoc, Viz.ai, Paige.ai)
+[dhlcit_imaging_pacs] Picture Archiving and Communication System (PACS/VNA)
+[dhlcit_population] Population Health Management Platforms :: naics_2022:5415, naics_2022:6215
+[dhlcit_population_analytics] Claims and clinical analytics for risk stratification
+[dhlcit_population_care] Care management and chronic disease management platforms
+[dhlcit_rev] Revenue Cycle Management (RCM) and Practice Management :: naics_2022:5415, naics_2022:6215
+[dhlcit_rev_coding] Computer-assisted coding and clinical documentation improvement (CDI)
+[dhlcit_rev_pm] Practice management systems (scheduling, eligibility, patient intake)
+[dhlcit_rev_rcm] End-to-end RCM (charge capture, coding, billing, AR follow-up)

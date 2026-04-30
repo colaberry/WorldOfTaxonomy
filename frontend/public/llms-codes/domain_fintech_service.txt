@@ -1,0 +1,27 @@
+[dft_lending] Lending Platforms :: naics_2022:522, naics_2022:5223
+[dft_lending_invoice] Invoice Factoring and Supply Chain Finance
+[dft_lending_marketplace] Marketplace Lending (LendingClub, Prosper, P2P)
+[dft_lending_micro] Micro-Lending and Nano-Credit (emerging markets)
+[dft_lending_mortgage] Digital Mortgage and Home Lending (Rocket, Better)
+[dft_lending_student] Student Loan and Education Finance (SoFi, Earnest)
+[dft_neobank] Neobanking and Digital Banking :: naics_2022:522, naics_2022:5223
+[dft_neobank_baas] Banking-as-a-Service Platform (Synapse, Unit)
+[dft_neobank_business] Business Neobank (Mercury, Brex, Novo)
+[dft_neobank_consumer] Consumer Neobank (Chime, Revolut, N26)
+[dft_neobank_embedded] Embedded Finance (non-bank product, white-label)
+[dft_payments] Digital Payments :: naics_2022:522, naics_2022:5223
+[dft_payments_bnpl] Buy Now Pay Later (Klarna, Afterpay, Affirm)
+[dft_payments_cross] Cross-Border Payment (Wise, Remitly, remittance)
+[dft_payments_merchant] Merchant Acquiring and POS (Square, Stripe, Adyen)
+[dft_payments_p2p] Peer-to-Peer Transfer (Venmo, Zelle, Cash App)
+[dft_payments_wallet] Mobile Wallet and Contactless (Apple Pay, GPay)
+[dft_regtech] RegTech Services :: naics_2022:522, naics_2022:5223
+[dft_regtech_aml] AML and Transaction Monitoring (Chainalysis, Feedzai)
+[dft_regtech_compliance] Regulatory Compliance Platform (ComplyAdvantage)
+[dft_regtech_kyc] KYC and Identity Verification (Jumio, Onfido)
+[dft_regtech_risk] Risk Analytics and Scoring (credit, fraud, cyber)
+[dft_wealth] WealthTech and Investment Platforms :: naics_2022:522, naics_2022:5223
+[dft_wealth_crypto] Crypto Brokerage and Exchange (Coinbase, Kraken)
+[dft_wealth_fractional] Fractional Investing (stocks, real estate, art)
+[dft_wealth_robo] Robo-Advisor (Betterment, Wealthfront, automated)
+[dft_wealth_social] Social and Copy Trading (eToro, Public.com)

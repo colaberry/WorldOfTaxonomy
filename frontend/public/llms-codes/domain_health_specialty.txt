@@ -1,0 +1,20 @@
+[dhssl_cardiac] Cardiovascular Service Line :: naics_2022:6215
+[dhssl_cardiac_ep] Electrophysiology (ablation, device implant, heart failure)
+[dhssl_cardiac_intervention] Interventional Cardiology (cath lab, PCI, TAVR)
+[dhssl_cardiac_surgery] Cardiac Surgery (CABG, valve, LVAD, transplant)
+[dhssl_neuro] Neuroscience and Behavioral Health Service Line :: naics_2022:6215
+[dhssl_neuro_psych] Inpatient Psychiatric and Behavioral Health
+[dhssl_neuro_stroke] Comprehensive Stroke Center (IV tPA, thrombectomy)
+[dhssl_onco] Oncology Service Line :: naics_2022:6215
+[dhssl_onco_med] Medical Oncology (chemotherapy, immunotherapy, targeted)
+[dhssl_onco_rad] Radiation Oncology (EBRT, SBRT, brachytherapy)
+[dhssl_onco_surgical] Surgical Oncology (tumor resection, minimally invasive)
+[dhssl_ortho] Orthopedic and Musculoskeletal Service Line :: naics_2022:6215
+[dhssl_ortho_joint] Total Joint Replacement (hip, knee, shoulder arthroplasty)
+[dhssl_ortho_spine] Spine Surgery (lumbar, cervical, fusion, decompression)
+[dhssl_ortho_sports] Sports Medicine and Arthroscopic Surgery
+[dhssl_primary] Primary and Preventive Care :: naics_2022:6215
+[dhssl_primary_geriatric] Geriatrics and Senior Health Service Line
+[dhssl_primary_pcp] Primary Care / Family Medicine Practice
+[dhssl_primary_peds] Pediatrics and Children's Health Service Line
+[dhssl_primary_women] Women's Health and OB/GYN Service Line

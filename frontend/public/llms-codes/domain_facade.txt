@@ -1,0 +1,16 @@
+[fc_glaze] Glazing Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[fc_glaze_curtain] Curtain wall (stick, unitized)
+[fc_glaze_double] Double-skin facade
+[fc_glaze_point] Point-supported glazing
+[fc_glaze_store] Storefront glazing
+[fc_glaze_window] Window wall
+[fc_rain] Rainscreen and Cladding :: naics_2022:236, naics_2022:237, naics_2022:238
+[fc_rain_fiber] Fiber cement panel
+[fc_rain_metal] Metal panel rainscreen (ACM, zinc, copper)
+[fc_rain_stone] Natural stone cladding
+[fc_rain_terra] Terracotta rainscreen
+[fc_wall] Wall Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[fc_wall_cmu] CMU / masonry wall
+[fc_wall_icf] Insulated concrete forms (ICF)
+[fc_wall_sip] Structural insulated panels (SIPs)
+[fc_wall_tilt] Tilt-up concrete panels

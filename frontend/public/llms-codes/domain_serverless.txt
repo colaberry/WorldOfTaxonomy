@@ -1,0 +1,15 @@
+[SV] Serverless Pattern Types :: naics_2022:518, naics_2022:5415
+[SV.01] Function as a Service (FaaS)
+[SV.02] Backend as a Service (BaaS)
+[SV.03] Event-Driven Functions
+[SV.04] Serverless API Gateway
+[SV.05] Step Functions (Workflow)
+[SV.06] Serverless Database
+[SV.07] Serverless Queue Processing
+[SV.08] Serverless Stream Processing
+[SV.09] Edge Function
+[SV.10] Serverless Container
+[SV.11] Serverless Orchestration
+[SV.12] Cold Start Optimization
+[SV.13] Provisioned Concurrency
+[SV.14] Serverless Monitoring

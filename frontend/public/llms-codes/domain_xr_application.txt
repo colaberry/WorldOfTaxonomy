@@ -1,0 +1,21 @@
+[dxrapp_aec] Architecture, Engineering and Construction (AEC) :: naics_2022:5121, naics_2022:7139
+[dxrapp_aec_design] Design visualization and client walkthroughs (BIM to VR)
+[dxrapp_aec_site] On-site AR overlay for construction workers (HoloLens)
+[dxrapp_education] Education and Edtech :: naics_2022:5121, naics_2022:7139
+[dxrapp_education_higher] Higher education virtual labs and field trips
+[dxrapp_education_k12] K-12 immersive learning experiences (Labster, zSpace)
+[dxrapp_enterprise] Enterprise Training and Collaboration :: naics_2022:5121, naics_2022:7139
+[dxrapp_enterprise_collab] Virtual collaboration and remote work (spatial computing, Meta Workrooms)
+[dxrapp_enterprise_mfg] Digital twin and AR-guided assembly in manufacturing
+[dxrapp_enterprise_training] VR safety and procedure training (PTC, Talespin, Strivr)
+[dxrapp_gaming] Gaming and Interactive Entertainment :: naics_2022:5121, naics_2022:7139
+[dxrapp_gaming_ar] AR mobile gaming (Pokemon GO, Niantic, AR location experiences)
+[dxrapp_gaming_social] Social VR and virtual worlds (VRChat, Horizon Worlds, Rec Room)
+[dxrapp_gaming_vr] Immersive VR gaming (Meta Quest, PSVR, PC VR headsets)
+[dxrapp_health] Healthcare and Medical Applications :: naics_2022:5121, naics_2022:7139
+[dxrapp_health_surgery] Surgical planning, simulation and AR navigation (SurgicalAR)
+[dxrapp_health_therapy] VR therapy for PTSD, phobia, chronic pain (AppliedVR, Limbix)
+[dxrapp_health_training] Medical education and anatomy training (Immersive VR Education)
+[dxrapp_retail] Retail and Commerce Applications :: naics_2022:5121, naics_2022:7139
+[dxrapp_retail_showroom] Virtual showroom and 3D product configurators
+[dxrapp_retail_tryon] Virtual try-on (AR clothing, eyewear, makeup, furniture)

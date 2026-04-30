@@ -1,0 +1,19 @@
+[dtinfra_airport] Airport and Air Traffic Infrastructure :: naics_2022:485, naics_2022:488
+[dtinfra_airport_cargo] Cargo Airport (FedEx Memphis, UPS Louisville hub)
+[dtinfra_airport_hub] Commercial Service Hub Airport (Enplanements > 10k)
+[dtinfra_airport_regional] Regional and Non-Hub Commercial Airport
+[dtinfra_intermodal] Intermodal Logistics Center :: naics_2022:485, naics_2022:488
+[dtinfra_intermodal_dc] Inland Port and Distribution Center
+[dtinfra_intermodal_ftz] Foreign Trade Zone (FTZ) Facility
+[dtinfra_pipeline] Pipeline Infrastructure :: naics_2022:485, naics_2022:488
+[dtinfra_pipeline_crude] Crude Oil Pipeline System (gathering, trunk)
+[dtinfra_pipeline_gas] Natural Gas Transmission Pipeline and Compressor
+[dtinfra_pipeline_products] Refined Products Pipeline (Colonial, Explorer)
+[dtinfra_rail] Rail Yard and Terminal Infrastructure :: naics_2022:485, naics_2022:488
+[dtinfra_rail_class] Class I Railroad Classification Yard
+[dtinfra_rail_intermodal] Intermodal Rail Ramp (TOFC, COFC transfer)
+[dtinfra_rail_passenger] Passenger Rail Station (Amtrak, commuter)
+[dtinfra_seaport] Seaport and Marine Terminal :: naics_2022:485, naics_2022:488
+[dtinfra_seaport_bulk] Bulk Cargo Terminal (dry bulk, liquid bulk, ro-ro)
+[dtinfra_seaport_container] Container Port (TEU-based, ship-to-shore cranes)
+[dtinfra_seaport_cruise] Cruise Terminal and Passenger Marine Facility

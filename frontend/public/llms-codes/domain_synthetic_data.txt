@@ -1,0 +1,15 @@
+[SD] Synthetic Data Types :: naics_2022:5419
+[SD.01] Tabular Synthetic Data
+[SD.02] Text Synthetic Data (LLM)
+[SD.03] Image Synthetic Data (GAN)
+[SD.04] Time Series Synthetic
+[SD.05] Graph Synthetic Data
+[SD.06] Differential Privacy Synthetic
+[SD.07] Rule-Based Synthetic
+[SD.08] Statistical Synthetic
+[SD.09] Simulation-Based Synthetic
+[SD.10] Augmentation Technique
+[SD.11] Synthetic Data Quality Metric
+[SD.12] Privacy Utility Tradeoff
+[SD.13] Synthetic Test Data
+[SD.14] Digital Twin Synthetic

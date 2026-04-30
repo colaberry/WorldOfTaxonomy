@@ -1,0 +1,15 @@
+[RT] Red Team Types :: naics_2022:5415, naics_2022:5417
+[RT.01] Full-Scope Red Team
+[RT.02] Objective-Based Red Team
+[RT.03] Physical Red Team
+[RT.04] Social Engineering Red Team
+[RT.05] Adversary Simulation
+[RT.06] Assumed Breach Scenario
+[RT.07] MITRE ATT&CK Emulation
+[RT.08] Insider Threat Simulation
+[RT.09] Supply Chain Attack Simulation
+[RT.10] Cloud Red Team
+[RT.11] OT/ICS Red Team
+[RT.12] Red Team Debrief
+[RT.13] Continuous Red Team
+[RT.14] Red Team Tooling

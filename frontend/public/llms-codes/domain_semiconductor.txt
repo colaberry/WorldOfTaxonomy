@@ -1,0 +1,31 @@
+[dsc_analog] Analog and Mixed-Signal ICs :: naics_2022:3344
+[dsc_analog_adc] Data Converters (ADC, DAC, sigma-delta)
+[dsc_analog_pmic] Power Management ICs (PMIC, voltage regulators, DCDC)
+[dsc_analog_rf] RF and Microwave ICs (PA, LNA, transceivers)
+[dsc_fab] Foundry and Fabrication Process Nodes :: naics_2022:3344
+[dsc_fab_leading] Leading-Edge Nodes (under 5nm - TSMC, Samsung, Intel)
+[dsc_fab_mature] Mature Nodes (28nm and above - high-volume, mature)
+[dsc_fab_specialty] Specialty Process (BCD, SOI, SiGe, compound semi fab)
+[dsc_logic] Logic Chips :: naics_2022:3344
+[dsc_logic_asic] Custom ASICs and SoC (mobile, networking, crypto mining)
+[dsc_logic_cpu] Central Processing Units (CPU - x86, ARM, RISC-V)
+[dsc_logic_fpga] FPGAs and Programmable Logic Devices (Xilinx, Intel)
+[dsc_logic_gpu] Graphics and AI Accelerators (GPU, NPU, TPU)
+[dsc_mem] Memory Semiconductors :: naics_2022:3344
+[dsc_mem_dram] DRAM (DDR5, LPDDR5, HBM - Samsung, SK Hynix, Micron)
+[dsc_mem_emerging] Emerging Memory (MRAM, PCM, ReRAM, 3D XPoint)
+[dsc_mem_nand] NAND Flash (3D NAND, QLC - enterprise and consumer)
+[dsc_mems] MEMS and Microsensors :: naics_2022:3344
+[dsc_mems_rf] RF MEMS (filters, switches, resonators)
+[dsc_mems_sensor] MEMS Sensors (inertial, pressure, microphone, flow)
+[dsc_phot] Photonics Integrated Circuits :: naics_2022:3344
+[dsc_phot_iii_v] III-V Photonics (GaAs, InP lasers, vertical cavity)
+[dsc_phot_silicon] Silicon Photonics (optical interconnects, LiDAR)
+[dsc_pkg] Advanced Semiconductor Packaging :: naics_2022:3344
+[dsc_pkg_2d5] 2.5D Packaging (interposer, CoWoS, EMIB chiplets)
+[dsc_pkg_3d] 3D IC Stacking (HBM, die stacking, face-to-face)
+[dsc_pkg_chiplet] Chiplet and Multi-Die Module Architecture
+[dsc_power] Power Semiconductors :: naics_2022:3344
+[dsc_power_gan] Gallium Nitride (GaN) HEMTs and Power ICs
+[dsc_power_igbt] IGBTs and High-Voltage Silicon Power Devices
+[dsc_power_sic] Silicon Carbide (SiC) MOSFETs and Diodes

@@ -1,0 +1,14 @@
+[AQ] AQUASTAT Categories
+[AQ.01] Agricultural Water Withdrawal
+[AQ.02] Industrial Water Withdrawal
+[AQ.03] Municipal Water Withdrawal
+[AQ.04] Total Renewable Water Resources
+[AQ.05] Internal Renewable Water Resources
+[AQ.06] External Renewable Water Resources
+[AQ.07] Desalinated Water Produced
+[AQ.08] Treated Wastewater
+[AQ.09] Irrigation Water Use Efficiency
+[AQ.10] Area Equipped for Irrigation
+[AQ.11] Dam Capacity
+[AQ.12] Water Stress Level
+[AQ.13] Groundwater Abstraction

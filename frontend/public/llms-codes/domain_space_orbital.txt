@@ -1,0 +1,20 @@
+[dsporb_deep] Deep Space and Interplanetary Trajectories :: naics_2022:3364, naics_2022:5415
+[dsporb_deep_helio] Heliocentric and solar observation trajectories
+[dsporb_deep_l2] L2 halo orbits (JWST, Gaia, ESA missions)
+[dsporb_deep_mars] Mars transfer and orbital insertion trajectories
+[dsporb_geo] Geostationary Orbit (GEO, 35786 km) :: naics_2022:3364, naics_2022:5415
+[dsporb_geo_comsat] GEO communications satellites (broadband, broadcast)
+[dsporb_geo_eo] GEO Earth observation (weather, environmental monitoring)
+[dsporb_geo_meteo] GEO meteorological satellites (GOES, Meteosat, Himawari)
+[dsporb_heo] Highly Elliptical Orbit (HEO) and Special Regimes :: naics_2022:3364, naics_2022:5415
+[dsporb_heo_lunar] Cislunar and lunar orbit (LLO, NRHO, Gateway station)
+[dsporb_heo_molniya] Molniya orbit (high inclination, 12-hr period, polar coverage)
+[dsporb_heo_tundra] Tundra/quasi-stationary HEO orbit
+[dsporb_leo] Low Earth Orbit (LEO, 160-2000 km) :: naics_2022:3364, naics_2022:5415
+[dsporb_leo_iss] ISS altitude orbit (370-460 km) and rendezvous missions
+[dsporb_leo_mega] Mega-constellation LEO (Starlink, OneWeb, Kuiper planes)
+[dsporb_leo_sso] Sun-synchronous orbit (SSO, polar remote sensing, ~500-900 km)
+[dsporb_leo_vleo] Very Low Earth Orbit (VLEO, <450 km, drag-compensated)
+[dsporb_meo] Medium Earth Orbit (MEO, 2000-35786 km) :: naics_2022:3364, naics_2022:5415
+[dsporb_meo_gnss] GNSS constellation MEO (GPS 20200 km, Galileo 23222 km)
+[dsporb_meo_relay] Data relay and comms MEO constellations (O3b/SES mPOWER)

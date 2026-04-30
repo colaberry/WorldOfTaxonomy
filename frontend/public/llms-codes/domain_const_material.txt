@@ -1,0 +1,24 @@
+[dcmt_concrete] Concrete and Masonry :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcmt_concrete_brick] Brick and Stone Masonry (historic and new)
+[dcmt_concrete_cast] Cast-in-Place Concrete (forming, poured-in-place)
+[dcmt_concrete_cmu] Concrete Masonry Unit (CMU) and Block Construction
+[dcmt_concrete_precast] Precast Concrete (tilt-up, precast panel)
+[dcmt_concrete_pt] Post-Tensioned Concrete (PT slab, PT beam)
+[dcmt_prefab] Prefabricated and Modular Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcmt_prefab_hybrid] Hybrid Construction (on-site with prefab pods)
+[dcmt_prefab_modular] Volumetric Modular (off-site room modules)
+[dcmt_prefab_panel] Panelized Construction (wall and floor panels)
+[dcmt_specialty] Specialty and Advanced Construction Materials :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcmt_specialty_earthen] Earthen and Adobe Construction (rammed earth)
+[dcmt_specialty_fiber] Fiber-Reinforced Polymer (FRP, GFRP, CFRP)
+[dcmt_specialty_icf] Insulated Concrete Form (ICF) Wall System
+[dcmt_steel] Structural Steel :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcmt_steel_braced] Braced Frame (CBF, EBF, SCBF)
+[dcmt_steel_joist] Steel Joist and Deck (open web, composite deck)
+[dcmt_steel_light] Light Gauge Steel Framing (cold-formed, metal stud)
+[dcmt_steel_moment] Moment Frame (SMRF, OMRF - lateral resistance)
+[dcmt_wood] Structural Wood and Mass Timber :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcmt_wood_clt] Cross-Laminated Timber (CLT) and Mass Timber
+[dcmt_wood_glulam] Glulam and Structural Composite Lumber (SCL)
+[dcmt_wood_heavy] Heavy Timber and Post-and-Beam Construction
+[dcmt_wood_lightframe] Light Wood Frame (2x stud, platform frame)

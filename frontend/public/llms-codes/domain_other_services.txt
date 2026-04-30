@@ -1,0 +1,21 @@
+[dos_appt] Service Delivery and Appointment Model :: naics_2022:8131
+[dos_appt_mobile] Mobile and On-Site Service (technician dispatch)
+[dos_appt_scheduled] Scheduled Appointment (advance booking required)
+[dos_appt_sub] Subscription and Membership Service Plan
+[dos_appt_walkin] Walk-In and On-Demand Service
+[dos_cat] Other Service Category :: naics_2022:8131
+[dos_cat_funeral] Funeral, Cemetery and Death-Care Services
+[dos_cat_personal] Personal Care Services (hair, nail, spa, laundry)
+[dos_cat_pet] Pet Care and Veterinary Support Services
+[dos_cat_religious] Religious, Civic and Membership Organizations
+[dos_cat_repair] Repair and Maintenance (auto, appliance, electronics)
+[dos_cert] Certification and Compliance Status :: naics_2022:8131
+[dos_cert_bonded] Bonded and Insured (contractor surety bond)
+[dos_cert_certified] Professionally Certified (industry association)
+[dos_cert_franchise] Franchise and Licensed Brand Operator
+[dos_cert_licensed] Licensed by State or Local Regulatory Body
+[dos_segment] Customer Segment :: naics_2022:8131
+[dos_segment_biz] Small Business Client
+[dos_segment_community] Community and Membership Organization
+[dos_segment_consumer] Consumer and Household Client
+[dos_segment_inst] Institutional Client (school, govt, non-profit)

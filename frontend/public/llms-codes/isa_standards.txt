@@ -1,0 +1,12 @@
+[IA] ISA Groups
+[IA.200] ISA 200-299: General Principles
+[IA.300] ISA 300-399: Planning
+[IA.400] ISA 400-499: Internal Control
+[IA.500] ISA 500-599: Audit Evidence
+[IA.600] ISA 600-699: Using Work of Others
+[IA.700] ISA 700-799: Audit Conclusions/Reporting
+[IA.800] ISA 800-899: Specialized Areas
+[IA.ISAE] ISAE: Assurance Engagements
+[IA.ISQM] ISQM 1-2: Quality Management
+[IA.ISRE] ISRE: Review Engagements
+[IA.ISRS] ISRS: Related Services

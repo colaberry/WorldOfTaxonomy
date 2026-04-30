@@ -1,0 +1,26 @@
+[dwm_energy] Waste-to-Energy :: naics_2022:5621, naics_2022:5622
+[dwm_energy_biogas] Anaerobic Digestion and Biogas Generation
+[dwm_energy_incinerate] Waste Incineration with Energy Recovery
+[dwm_energy_plasma] Plasma Gasification and Pyrolysis
+[dwm_energy_rdf] Refuse-Derived Fuel Production
+[dwm_hazard] Hazardous Waste :: naics_2022:5621, naics_2022:5622
+[dwm_hazard_chem] Chemical Hazardous Waste Treatment
+[dwm_hazard_medical] Medical and Biomedical Waste Disposal
+[dwm_hazard_nuclear] Radioactive and Nuclear Waste Management
+[dwm_hazard_remediate] Environmental Remediation and Site Cleanup
+[dwm_recycle] Recycling and Recovery :: naics_2022:5621, naics_2022:5622
+[dwm_recycle_ewaste] Electronic Waste Recycling and Recovery
+[dwm_recycle_metal] Metal and Scrap Recycling
+[dwm_recycle_organic] Organic Waste Composting and Diversion
+[dwm_recycle_single] Single-Stream Recycling Processing
+[dwm_solid] Solid Waste Collection :: naics_2022:5621, naics_2022:5622
+[dwm_solid_comm] Commercial and Industrial Waste Collection
+[dwm_solid_landfill] Landfill Operations and Management
+[dwm_solid_resi] Residential Curbside Waste Collection
+[dwm_solid_roll] Roll-Off Container and Dumpster Services
+[dwm_solid_transfer] Transfer Station Operations
+[dwm_water] Wastewater Treatment :: naics_2022:5621, naics_2022:5622
+[dwm_water_industrial] Industrial Wastewater Processing
+[dwm_water_municipal] Municipal Wastewater Treatment Plants
+[dwm_water_reuse] Water Reclamation and Reuse Systems
+[dwm_water_sludge] Sludge and Biosolids Management

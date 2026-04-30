@@ -1,0 +1,20 @@
+[damproc_additive] Additive Manufacturing (3D Printing) :: naics_2022:325, naics_2022:3261
+[damproc_additive_dlp] Stereolithography and DLP (photopolymer resin)
+[damproc_additive_dw] Direct Ink Writing and binder jetting
+[damproc_additive_fdm] FDM/FFF filament extrusion (polymers, composite)
+[damproc_additive_slm] Selective Laser Melting/Sintering (SLM/SLS metals and ceramics)
+[damproc_composite] Composite Fabrication and Assembly :: naics_2022:325, naics_2022:3261
+[damproc_composite_layup] Manual and automated fiber layup (CFRP hand/ATL/AFP)
+[damproc_composite_rtm] Resin transfer moulding (RTM, VARTM, resin infusion)
+[damproc_forming] Thermomechanical Forming and Shaping :: naics_2022:325, naics_2022:3261
+[damproc_forming_forge] Forging and hot pressing (titanium, superalloys)
+[damproc_forming_roll] Hot/cold rolling and strip production (metals)
+[damproc_forming_sinter] Powder metallurgy sintering (HIP, CIP, SPS)
+[damproc_nano] Nanofabrication and Nano-Scale Processing :: naics_2022:325, naics_2022:3261
+[damproc_nano_etching] Dry and wet etching (RIE, ICP, KOH)
+[damproc_nano_litho] Photolithography and EUV patterning (semiconductor)
+[damproc_nano_self] Self-assembly and bottom-up synthesis (DNA origami, templated growth)
+[damproc_vapor] Chemical and Physical Vapor Deposition :: naics_2022:325, naics_2022:3261
+[damproc_vapor_ald] Atomic Layer Deposition (ALD) for conformal coatings
+[damproc_vapor_cvd] CVD (MOCVD, LPCVD, PECVD) thin film growth
+[damproc_vapor_pvd] PVD sputtering and evaporation (magnetron, e-beam)

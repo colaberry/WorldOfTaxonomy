@@ -1,0 +1,20 @@
+[drbapp_agriculture] Agricultural Robots :: naics_2022:3333, naics_2022:5415
+[drbapp_agriculture_harvest] Autonomous crop harvesting (strawberry, lettuce, apple pickers)
+[drbapp_agriculture_scout] Field scouting drones and ground robots for crop monitoring
+[drbapp_industrial] Industrial Automation Applications :: naics_2022:3333, naics_2022:5415
+[drbapp_industrial_assembly] Assembly and fastening robots (electronics, automotive)
+[drbapp_industrial_paint] Surface finishing and painting (spray, coating, polishing)
+[drbapp_industrial_pick] Pick-and-place and bin picking (e-commerce, food, pharma)
+[drbapp_industrial_weld] Arc welding and spot welding robots (automotive, heavy mfg)
+[drbapp_logistics] Logistics and Warehouse Automation :: naics_2022:3333, naics_2022:5415
+[drbapp_logistics_agv] Automated Guided Vehicles (AGV) for pallet transport
+[drbapp_logistics_amr] Autonomous Mobile Robots (AMR) for goods-to-person
+[drbapp_logistics_sortation] High-speed parcel sorting and conveyor systems
+[drbapp_medical] Medical and Surgical Robots :: naics_2022:3333, naics_2022:5415
+[drbapp_medical_pharmacy] Pharmacy dispensing and compounding automation
+[drbapp_medical_rehab] Rehabilitation and assistive exoskeletons (Ekso, ReWalk)
+[drbapp_medical_surgical] Surgical robots (da Vinci, CMR Versius, robotic laparoscopy)
+[drbapp_service] Consumer and Professional Service Robots :: naics_2022:3333, naics_2022:5415
+[drbapp_service_cleaning] Floor cleaning and disinfection robots (iRobot, Gaussian)
+[drbapp_service_delivery] Last-mile delivery robots and drones (Starship, Nuro)
+[drbapp_service_inspect] Inspection and maintenance robots (oil/gas, bridge, infrastructure)

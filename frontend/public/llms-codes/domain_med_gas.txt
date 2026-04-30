@@ -1,0 +1,14 @@
+[MG] Medical Gas Types :: naics_2022:5419
+[MG.01] Medical Oxygen
+[MG.02] Nitrous Oxide
+[MG.03] Medical Air
+[MG.04] Carbon Dioxide (Medical)
+[MG.05] Helium-Oxygen Mixture
+[MG.06] Nitrogen (Medical)
+[MG.07] Nitric Oxide (Therapeutic)
+[MG.08] Xenon (Anesthetic)
+[MG.09] Medical Vacuum
+[MG.10] Surgical Instrument Air
+[MG.11] Waste Anesthetic Gas
+[MG.12] Gas Cylinder Management
+[MG.13] Pipeline Distribution System

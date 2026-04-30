@@ -1,0 +1,15 @@
+[PC] Petrochemical Types :: naics_2022:211, naics_2022:2212, naics_2022:4861
+[PC.01] Ethylene
+[PC.02] Propylene
+[PC.03] Butadiene
+[PC.04] Benzene
+[PC.05] Toluene
+[PC.06] Xylene
+[PC.07] Methanol
+[PC.08] Polyethylene (PE)
+[PC.09] Polypropylene (PP)
+[PC.10] PVC (Polyvinyl Chloride)
+[PC.11] PET (Polyethylene Terephthalate)
+[PC.12] Styrene
+[PC.13] Ammonia
+[PC.14] Urea

@@ -1,0 +1,15 @@
+[dosprice_bundled] Bundled Service Packages :: naics_2022:8131
+[dosprice_bundled_insurance] Insurance and Warranty-Based Service Contract
+[dosprice_bundled_package] Service Bundle (multiple services at package price)
+[dosprice_hourly] Time-Based and Hourly Pricing :: naics_2022:8131
+[dosprice_hourly_emergency] Emergency and After-Hours Premium Rate
+[dosprice_hourly_standard] Standard Hourly Rate (labor + materials)
+[dosprice_membership] Club and Membership Pricing :: naics_2022:8131
+[dosprice_membership_gym] Gym and Fitness Club Membership
+[dosprice_membership_trade] Trade Association Member Pricing
+[dosprice_perservice] Per-Service and Transaction Pricing :: naics_2022:8131
+[dosprice_perservice_flat] Flat Rate Per Service (one price per visit or job)
+[dosprice_perservice_tiered] Tiered Pricing (small/medium/large job size)
+[dosprice_subscription] Subscription and Recurring Service Models :: naics_2022:8131
+[dosprice_subscription_annual] Annual Service Agreement (HVAC, appliance maintenance)
+[dosprice_subscription_monthly] Monthly Recurring Subscription (lawn, pest, cleaning)

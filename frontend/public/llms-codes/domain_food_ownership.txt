@@ -1,0 +1,16 @@
+[dfsown_corporate] Corporate and Institutional Food Service :: naics_2022:722
+[dfsown_corporate_campus] Corporate Campus and Employee Dining
+[dfsown_corporate_health] Healthcare Food Service (hospital, long-term care)
+[dfsown_franchise] Franchise and Licensed Brand Models :: naics_2022:722
+[dfsown_franchise_area] Area Developer and Multi-Unit Franchise Agreement
+[dfsown_franchise_branded] Branded Franchise (QSR - McDonald's, Subway, Hilton)
+[dfsown_franchise_soft] Soft Brand and Curio Collection (independent affiliation)
+[dfsown_independent] Independent and Owner-Operated :: naics_2022:722
+[dfsown_independent_group] Independent Multi-Concept Restaurant Group
+[dfsown_independent_single] Single-Location Independent Restaurant or Hotel
+[dfsown_institutional] Institutional and Public Sector Food Service :: naics_2022:722
+[dfsown_institutional_govt] Government and Military Food Service (AAFES, DFAC)
+[dfsown_institutional_school] K-12 School Nutrition and Cafeteria Service
+[dfsown_managed] Management Contract and Third-Party Operations :: naics_2022:722
+[dfsown_managed_food] Contract Food Service Management (Aramark, Sodexo, Compass)
+[dfsown_managed_hotel] Hotel Management Company (Aimbridge, Sage, White Lodging)

@@ -1,0 +1,13 @@
+[VF] Vertical Farming Types :: naics_2022:111
+[VF.01] Indoor Vertical Farm
+[VF.02] Container Farm (Shipping)
+[VF.03] Warehouse Farm
+[VF.04] Rooftop Farm
+[VF.05] LED Grow Light System
+[VF.06] Hydroponic Vertical Farm
+[VF.07] Aeroponic Vertical Farm
+[VF.08] Nutrient Delivery System
+[VF.09] Climate Control (HVAC)
+[VF.10] Automation and Robotics
+[VF.11] Crop Selection (Leafy Greens)
+[VF.12] Energy Efficiency Strategy

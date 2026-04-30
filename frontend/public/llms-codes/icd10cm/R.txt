@@ -1,0 +1,938 @@
+[R00] Abnormalities of heart beat -- **Excludes1:** - abnormalities originating in the perinatal period (P29.1-)  **Excludes2:** - specified arrhythmias (I47-I49)
+[R000] Tachycardia, unspecified -- **Inclusion terms:** - Rapid heart beat - Sinoauricular tachycardia NOS - Sinus [sinusal] tachycardia NOS  **Excludes1:** - inappropriate sinus tachycardia, so stated (I47.11) - neonatal tachycardia (P29.11) - paroxysmal tachycardia (I47.-)
+[R001] Bradycardia, unspecified -- **Inclusion terms:** - Sinoatrial bradycardia - Sinus bradycardia - Slow heart beat - Vagal bradycardia  **Excludes1:** - neonatal bradycardia (P29.12)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[R002] Palpitations -- **Inclusion terms:** - Awareness of heart beat
+[R008] Other abnormalities of heart beat
+[R009] Unspecified abnormalities of heart beat
+[R01] Cardiac murmurs and other cardiac sounds -- **Excludes1:** - cardiac murmurs and sounds originating in the perinatal period (P29.8)
+[R010] Benign and innocent cardiac murmurs -- **Inclusion terms:** - Functional cardiac murmur
+[R011] Cardiac murmur, unspecified -- **Inclusion terms:** - Cardiac bruit NOS - Heart murmur NOS - Systolic murmur NOS
+[R012] Other cardiac sounds -- **Inclusion terms:** - Cardiac dullness, increased or decreased - Precordial friction
+[R03] Abnormal blood-pressure reading, without diagnosis
+[R030] Elevated blood-pressure reading, without diagnosis of hypertension -- **Notes:** - This category is to be used to record an episode of elevated blood pressure in a patient in whom no formal diagnosis of hypertension has been made, or as an isolated incidental finding.
+[R031] Nonspecific low blood-pressure reading -- **Excludes1:** - hypotension (I95.-) - maternal hypotension syndrome (O26.5-) - neurogenic orthostatic hypotension (G90.3)
+[R04] Hemorrhage from respiratory passages
+[R040] Epistaxis -- **Inclusion terms:** - Hemorrhage from nose - Nosebleed
+[R041] Hemorrhage from throat -- **Excludes2:** - hemoptysis (R04.2)
+[R042] Hemoptysis -- **Inclusion terms:** - Blood-stained sputum - Cough with hemorrhage
+[R048] Hemorrhage from other sites in respiratory passages
+[R0481] Acute idiopathic pulmonary hemorrhage in infants -- **Inclusion terms:** - AIPHI - Acute idiopathic hemorrhage in infants over 28 days old  **Excludes1:** - perinatal pulmonary hemorrhage (P26.-) - von Willebrand disease (D68.0-)
+[R0489] Hemorrhage from other sites in respiratory passages -- **Inclusion terms:** - Pulmonary hemorrhage NOS
+[R049] Hemorrhage from respiratory passages, unspecified
+[R05] Cough -- **Excludes1:** - paroxysmal cough due to Bordetella pertussis (A37.0-) - smoker's cough (J41.0)  **Excludes2:** - cough with hemorrhage (R04.2)
+[R051] Acute cough
+[R052] Subacute cough
+[R053] Chronic cough -- **Inclusion terms:** - Persistent cough - Refractory cough - Unexplained cough
+[R054] Cough syncope -- **Code first:** - syncope and collapse (R55)
+[R058] Other specified cough
+[R059] Cough, unspecified
+[R06] Abnormalities of breathing -- **Excludes1:** - acute respiratory distress syndrome (J80) - respiratory arrest (R09.2) - respiratory arrest of newborn (P28.81) - respiratory distress syndrome of newborn (P22.-) - respiratory failure (J96.-) - respiratory failure of newborn (P28.5)
+[R060] Dyspnea -- **Excludes1:** - tachypnea NOS (R06.82) - transient tachypnea of newborn (P22.1)
+[R0600] Dyspnea, unspecified
+[R0601] Orthopnea
+[R0602] Shortness of breath
+[R0603] Acute respiratory distress
+[R0609] Other forms of dyspnea
+[R061] Stridor -- **Excludes1:** - congenital laryngeal stridor (P28.89) - laryngismus (stridulus) (J38.5)
+[R062] Wheezing -- **Excludes1:** - Asthma (J45.-)
+[R063] Periodic breathing -- **Inclusion terms:** - Cheyne-Stokes breathing
+[R064] Hyperventilation -- **Excludes1:** - psychogenic hyperventilation (F45.8)
+[R065] Mouth breathing -- **Excludes2:** - dry mouth NOS (R68.2)
+[R066] Hiccough -- **Excludes1:** - psychogenic hiccough (F45.8)
+[R067] Sneezing
+[R068] Other abnormalities of breathing
+[R0681] Apnea, not elsewhere classified -- **Inclusion terms:** - Apnea NOS  **Excludes1:** - apnea (of) newborn (P28.4-) - sleep apnea (G47.3-) - sleep apnea of newborn (primary) (P28.3-)
+[R0682] Tachypnea, not elsewhere classified -- **Inclusion terms:** - Tachypnea NOS  **Excludes1:** - transitory tachypnea of newborn (P22.1)
+[R0683] Snoring
+[R0689] Other abnormalities of breathing -- **Inclusion terms:** - Breath-holding (spells) - Sighing
+[R069] Unspecified abnormalities of breathing
+[R07] Pain in throat and chest -- **Excludes1:** - epidemic myalgia (B33.0)  **Excludes2:** - jaw pain R68.84 - pain in breast (N64.4)
+[R070] Pain in throat -- **Excludes1:** - chronic sore throat (J31.2) - sore throat (acute) NOS (J02.9)  **Excludes2:** - dysphagia (R13.1-) - pain in neck (M54.2)
+[R071] Chest pain on breathing -- **Inclusion terms:** - Painful respiration
+[R072] Precordial pain
+[R078] Other chest pain
+[R0781] Pleurodynia -- **Inclusion terms:** - Pleurodynia NOS  **Excludes1:** - epidemic pleurodynia (B33.0)
+[R0782] Intercostal pain
+[R0789] Other chest pain -- **Inclusion terms:** - Anterior chest-wall pain NOS
+[R079] Chest pain, unspecified
+[R09] Other symptoms and signs involving the circulatory and respiratory system -- **Excludes1:** - acute respiratory distress syndrome (J80) - respiratory arrest of newborn (P28.81) - respiratory distress syndrome of newborn (P22.0) - respiratory failure (J96.-) - respiratory failure of newborn (P28.5)
+[R090] Asphyxia and hypoxemia -- **Excludes1:** - asphyxia due to carbon monoxide (T58.-) - asphyxia due to foreign body in respiratory tract (T17.-) - birth (intrauterine) asphyxia (P84) - hyperventilation (R06.4) - traumatic asphyxia (T71.-)  **Excludes2:** - hypercapnia (R06.89)
+[R0901] Asphyxia
+[R0902] Hypoxemia
+[R091] Pleurisy -- **Excludes1:** - pleurisy with effusion (J90)
+[R092] Respiratory arrest -- **Inclusion terms:** - Cardiorespiratory failure  **Excludes1:** - cardiac arrest (I46.-) - respiratory arrest of newborn (P28.81) - respiratory distress of newborn (P22.0) - respiratory failure (J96.-) - respiratory failure of newborn (P28.5) - respiratory insufficiency (R06.89) - respiratory insufficiency of newborn (P28.5)
+[R093] Abnormal sputum -- **Inclusion terms:** - Abnormal amount of sputum - Abnormal color of sputum - Abnormal odor of sputum - Excessive sputum  **Excludes1:** - blood-stained sputum (R04.2)
+[R098] Other specified symptoms and signs involving the circulatory and respiratory systems
+[R0981] Nasal congestion
+[R0982] Postnasal drip
+[R0989] Other specified symptoms and signs involving the circulatory and respiratory systems -- **Inclusion terms:** - Abnormal chest percussion - Bruit (arterial) - Chest tympany - Choking sensation - Friction sounds in chest - Rales - Weak pulse  **Excludes2:** - foreign body in throat (T17.2-) - wheezing (R06.2)
+[R09A] Foreign body sensation of the circulatory and respiratory system
+[R09A0] Foreign body sensation, unspecified
+[R09A1] Foreign body sensation, nose
+[R09A2] Foreign body sensation, throat -- **Inclusion terms:** - Foreign body sensation globus
+[R09A9] Foreign body sensation, other site
+[R10] Abdominal and pelvic pain -- **Excludes1:** - renal colic (N23)  **Excludes2:** - dorsalgia (M54.-) - flatulence and related conditions (R14.-)
+[R100] Acute abdomen -- **Inclusion terms:** - Severe abdominal pain (generalized) (with abdominal rigidity)  **Excludes1:** - abdominal rigidity NOS (R19.3) - generalized abdominal pain NOS (R10.84) - localized abdominal pain (R10.1-R10.3-)
+[R101] Pain localized to upper abdomen
+[R1010] Upper abdominal pain, unspecified
+[R1011] Right upper quadrant pain
+[R1012] Left upper quadrant pain
+[R1013] Epigastric pain -- **Inclusion terms:** - Dyspepsia  **Excludes1:** - functional dyspepsia (K30)
+[R102] Pelvic and perineal pain -- **Excludes1:** - vulvodynia (N94.81)
+[R103] Pain localized to other parts of lower abdomen
+[R1030] Lower abdominal pain, unspecified
+[R1031] Right lower quadrant pain
+[R1032] Left lower quadrant pain
+[R1033] Periumbilical pain
+[R108] Other abdominal pain
+[R1081] Abdominal tenderness -- **Inclusion terms:** - Abdominal tenderness NOS
+[R10811] Right upper quadrant abdominal tenderness
+[R10812] Left upper quadrant abdominal tenderness
+[R10813] Right lower quadrant abdominal tenderness
+[R10814] Left lower quadrant abdominal tenderness
+[R10815] Periumbilic abdominal tenderness
+[R10816] Epigastric abdominal tenderness
+[R10817] Generalized abdominal tenderness
+[R10819] Abdominal tenderness, unspecified site
+[R1082] Rebound abdominal tenderness
+[R10821] Right upper quadrant rebound abdominal tenderness
+[R10822] Left upper quadrant rebound abdominal tenderness
+[R10823] Right lower quadrant rebound abdominal tenderness
+[R10824] Left lower quadrant rebound abdominal tenderness
+[R10825] Periumbilic rebound abdominal tenderness
+[R10826] Epigastric rebound abdominal tenderness
+[R10827] Generalized rebound abdominal tenderness
+[R10829] Rebound abdominal tenderness, unspecified site
+[R1083] Colic -- **Inclusion terms:** - Colic NOS - Infantile colic  **Excludes1:** - colic in adult and child over 12 months old (R10.84)
+[R1084] Generalized abdominal pain -- **Excludes1:** - generalized abdominal pain associated with acute abdomen (R10.0)
+[R109] Unspecified abdominal pain
+[R11] Nausea and vomiting -- **Excludes1:** - cyclical vomiting associated with migraine (G43.A-) - excessive vomiting in pregnancy (O21.-) - hematemesis (K92.0) - neonatal hematemesis (P54.0) - newborn vomiting (P92.0-) - psychogenic vomiting (F50.89) - vomiting associated with bulimia nervosa (F50.2-) - vomiting following gastrointestinal surgery (K91.0)
+[R110] Nausea -- **Inclusion terms:** - Nausea NOS - Nausea without vomiting
+[R111] Vomiting
+[R1110] Vomiting, unspecified -- **Inclusion terms:** - Vomiting NOS
+[R1111] Vomiting without nausea
+[R1112] Projectile vomiting
+[R1113] Vomiting of fecal matter
+[R1114] Bilious vomiting -- **Inclusion terms:** - Bilious emesis
+[R1115] Cyclical vomiting syndrome unrelated to migraine -- **Inclusion terms:** - Cyclic vomiting syndrome NOS - Persistent vomiting  **Excludes1:** - cyclical vomiting in migraine (G43.A-)  **Excludes2:** - bulimia nervosa (F50.20) - diabetes mellitus due to underlying condition (E08.-)
+[R112] Nausea with vomiting, unspecified -- **Inclusion terms:** - Persistent nausea with vomiting NOS
+[R12] Heartburn -- **Excludes1:** - dyspepsia NOS (R10.13) - functional dyspepsia (K30)
+[R13] Aphagia and dysphagia
+[R130] Aphagia -- **Inclusion terms:** - Inability to swallow  **Excludes1:** - psychogenic aphagia (F50.9)
+[R131] Dysphagia -- **Excludes1:** - psychogenic dysphagia (F45.8)  **Code first:** - , if applicable, dysphagia following cerebrovascular disease (I69. with final characters -91)
+[R1310] Dysphagia, unspecified -- **Inclusion terms:** - Difficulty in swallowing NOS
+[R1311] Dysphagia, oral phase
+[R1312] Dysphagia, oropharyngeal phase
+[R1313] Dysphagia, pharyngeal phase
+[R1314] Dysphagia, pharyngoesophageal phase
+[R1319] Other dysphagia -- **Inclusion terms:** - Cervical dysphagia - Neurogenic dysphagia
+[R14] Flatulence and related conditions -- **Excludes1:** - psychogenic aerophagy (F45.8)
+[R140] Abdominal distension (gaseous) -- **Inclusion terms:** - Bloating - Tympanites (abdominal) (intestinal)
+[R141] Gas pain
+[R142] Eructation
+[R143] Flatulence
+[R15] Fecal incontinence -- **Includes:** - encopresis NOS  **Excludes1:** - fecal incontinence of nonorganic origin (F98.1)
+[R150] Incomplete defecation -- **Excludes1:** - constipation (K59.0-) - fecal impaction (K56.41)
+[R151] Fecal smearing -- **Inclusion terms:** - Fecal soiling
+[R152] Fecal urgency
+[R159] Full incontinence of feces -- **Inclusion terms:** - Fecal incontinence NOS
+[R16] Hepatomegaly and splenomegaly, not elsewhere classified
+[R160] Hepatomegaly, not elsewhere classified -- **Inclusion terms:** - Hepatomegaly NOS
+[R161] Splenomegaly, not elsewhere classified -- **Inclusion terms:** - Splenomegaly NOS
+[R162] Hepatomegaly with splenomegaly, not elsewhere classified -- **Inclusion terms:** - Hepatosplenomegaly NOS
+[R17] Unspecified jaundice -- **Excludes1:** - neonatal jaundice (P55, P57-P59)
+[R18] Ascites -- **Includes:** - fluid in peritoneal cavity  **Excludes1:** - ascites in alcoholic cirrhosis (K70.31) - ascites in alcoholic hepatitis (K70.11) - ascites in toxic liver disease with chronic active hepatitis (K71.51)
+[R180] Malignant ascites -- **Code first:** - malignancy, such as: - malignant neoplasm of ovary (C56.-) - secondary malignant neoplasm of retroperitoneum and peritoneum (C78.6)
+[R188] Other ascites -- **Inclusion terms:** - Ascites NOS - Peritoneal effusion (chronic)
+[R19] Other symptoms and signs involving the digestive system and abdomen -- **Excludes1:** - acute abdomen (R10.0)
+[R190] Intra-abdominal and pelvic swelling, mass and lump -- **Excludes1:** - abdominal distension (gaseous) (R14.-) - ascites (R18.-)
+[R1900] Intra-abdominal and pelvic swelling, mass and lump, unspecified site
+[R1901] Right upper quadrant abdominal swelling, mass and lump
+[R1902] Left upper quadrant abdominal swelling, mass and lump
+[R1903] Right lower quadrant abdominal swelling, mass and lump
+[R1904] Left lower quadrant abdominal swelling, mass and lump
+[R1905] Periumbilic swelling, mass or lump -- **Inclusion terms:** - Diffuse or generalized umbilical swelling or mass
+[R1906] Epigastric swelling, mass or lump
+[R1907] Generalized intra-abdominal and pelvic swelling, mass and lump -- **Inclusion terms:** - Diffuse or generalized intra-abdominal swelling or mass NOS - Diffuse or generalized pelvic swelling or mass NOS
+[R1909] Other intra-abdominal and pelvic swelling, mass and lump
+[R191] Abnormal bowel sounds
+[R1911] Absent bowel sounds
+[R1912] Hyperactive bowel sounds
+[R1915] Other abnormal bowel sounds -- **Inclusion terms:** - Abnormal bowel sounds NOS
+[R192] Visible peristalsis -- **Inclusion terms:** - Hyperperistalsis
+[R193] Abdominal rigidity -- **Excludes1:** - abdominal rigidity with severe abdominal pain (R10.0)
+[R1930] Abdominal rigidity, unspecified site
+[R1931] Right upper quadrant abdominal rigidity
+[R1932] Left upper quadrant abdominal rigidity
+[R1933] Right lower quadrant abdominal rigidity
+[R1934] Left lower quadrant abdominal rigidity
+[R1935] Periumbilic abdominal rigidity
+[R1936] Epigastric abdominal rigidity
+[R1937] Generalized abdominal rigidity
+[R194] Change in bowel habit -- **Excludes1:** - constipation (K59.0-) - functional diarrhea (K59.1)
+[R195] Other fecal abnormalities -- **Inclusion terms:** - Abnormal stool color - Bulky stools - Mucus in stools - Occult blood in feces - Occult blood in stools  **Excludes1:** - melena (K92.1) - neonatal melena (P54.1)
+[R196] Halitosis
+[R197] Diarrhea, unspecified -- **Inclusion terms:** - Diarrhea NOS  **Excludes1:** - functional diarrhea (K59.1) - neonatal diarrhea (P78.3) - psychogenic diarrhea (F45.8)
+[R198] Other specified symptoms and signs involving the digestive system and abdomen
+[R20] Disturbances of skin sensation -- **Excludes1:** - dissociative anesthesia and sensory loss (F44.6) - psychogenic disturbances (F45.8)
+[R200] Anesthesia of skin
+[R201] Hypoesthesia of skin
+[R202] Paresthesia of skin -- **Inclusion terms:** - Formication - Pins and needles - Tingling skin  **Excludes1:** - acroparesthesia (I73.8)
+[R203] Hyperesthesia
+[R208] Other disturbances of skin sensation
+[R209] Unspecified disturbances of skin sensation
+[R21] Rash and other nonspecific skin eruption -- **Includes:** - rash NOS  **Excludes1:** - specified type of rash- code to condition - vesicular eruption (R23.8)
+[R22] Localized swelling, mass and lump of skin and subcutaneous tissue -- **Includes:** - subcutaneous nodules (localized)(superficial)  **Excludes1:** - abnormal findings on diagnostic imaging (R90-R93) - edema (R60.-) - enlarged lymph nodes (R59.-) - localized adiposity (E65) - swelling of joint (M25.4-)
+[R220] Localized swelling, mass and lump, head
+[R221] Localized swelling, mass and lump, neck
+[R222] Localized swelling, mass and lump, trunk -- **Excludes1:** - intra-abdominal or pelvic mass and lump (R19.0-) - intra-abdominal or pelvic swelling (R19.0-)  **Excludes2:** - breast mass and lump (N63)
+[R223] Localized swelling, mass and lump, upper limb
+[R2230] Localized swelling, mass and lump, unspecified upper limb
+[R2231] Localized swelling, mass and lump, right upper limb
+[R2232] Localized swelling, mass and lump, left upper limb
+[R2233] Localized swelling, mass and lump, upper limb, bilateral
+[R224] Localized swelling, mass and lump, lower limb
+[R2240] Localized swelling, mass and lump, unspecified lower limb
+[R2241] Localized swelling, mass and lump, right lower limb
+[R2242] Localized swelling, mass and lump, left lower limb
+[R2243] Localized swelling, mass and lump, lower limb, bilateral
+[R229] Localized swelling, mass and lump, unspecified
+[R23] Other skin changes
+[R230] Cyanosis -- **Excludes1:** - acrocyanosis (I73.8) - cyanotic attacks of newborn (P28.2)
+[R231] Pallor -- **Inclusion terms:** - Clammy skin
+[R232] Flushing -- **Inclusion terms:** - Excessive blushing  **Code first:** - , if applicable, menopausal and female climacteric states (N95.1)
+[R233] Spontaneous ecchymoses -- **Inclusion terms:** - Petechiae  **Excludes1:** - ecchymoses of newborn (P54.5) - purpura (D69.-)
+[R234] Changes in skin texture -- **Inclusion terms:** - Desquamation of skin - Induration of skin - Scaling of skin  **Excludes1:** - epidermal thickening NOS (L85.9)
+[R238] Other skin changes
+[R239] Unspecified skin changes
+[R25] Abnormal involuntary movements -- **Excludes1:** - specific movement disorders (G20-G26) - stereotyped movement disorders (F98.4) - tic disorders (F95.-)
+[R250] Abnormal head movements
+[R251] Tremor, unspecified -- **Excludes1:** - chorea NOS (G25.5) - essential tremor (G25.0) - hysterical tremor (F44.4) - intention tremor (G25.2)
+[R252] Cramp and spasm -- **Excludes2:** - carpopedal spasm (R29.0) - charley-horse (M62.831) - infantile spasms (G40.4-) - muscle spasm of back (M62.830) - muscle spasm of calf (M62.831)
+[R253] Fasciculation -- **Inclusion terms:** - Twitching NOS
+[R258] Other abnormal involuntary movements
+[R259] Unspecified abnormal involuntary movements
+[R26] Abnormalities of gait and mobility -- **Excludes1:** - ataxia NOS (R27.0) - hereditary ataxia (G11.-) - locomotor (syphilitic) ataxia (A52.11) - immobility syndrome (paraplegic) (M62.3)
+[R260] Ataxic gait -- **Inclusion terms:** - Staggering gait
+[R261] Paralytic gait -- **Inclusion terms:** - Spastic gait
+[R262] Difficulty in walking, not elsewhere classified -- **Excludes1:** - falling (R29.6) - unsteadiness on feet (R26.81)
+[R268] Other abnormalities of gait and mobility
+[R2681] Unsteadiness on feet
+[R2689] Other abnormalities of gait and mobility
+[R269] Unspecified abnormalities of gait and mobility
+[R27] Other lack of coordination -- **Excludes1:** - ataxic gait (R26.0) - hereditary ataxia (G11.-) - vertigo NOS (R42)
+[R270] Ataxia, unspecified -- **Excludes1:** - ataxia following cerebrovascular disease (I69. with final characters -93)
+[R278] Other lack of coordination
+[R279] Unspecified lack of coordination
+[R29] Other symptoms and signs involving the nervous and musculoskeletal systems
+[R290] Tetany -- **Inclusion terms:** - Carpopedal spasm  **Excludes1:** - hysterical tetany (F44.5) - neonatal tetany (P71.3) - parathyroid tetany (E20.9) - post-thyroidectomy tetany (E89.2)
+[R291] Meningismus
+[R292] Abnormal reflex -- **Excludes2:** - abnormal pupillary reflex (H57.0) - hyperactive gag reflex (J39.2) - vasovagal reaction or syncope (R55)
+[R293] Abnormal posture
+[R294] Clicking hip -- **Excludes1:** - congenital deformities of hip (Q65.-)
+[R295] Transient paralysis -- **Excludes1:** - transient ischemic attack (G45.9)  **Code first:** - any associated spinal cord injury (S14.0, S14.1-, S24.0, S24.1-, S34.0-, S34.1-)
+[R296] Repeated falls -- **Inclusion terms:** - Falling - Tendency to fall  **Excludes2:** - at risk for falling (Z91.81) - history of falling (Z91.81)
+[R297] National Institutes of Health Stroke Scale (NIHSS) score -- **Code first:** - the type of cerebral infarction (I63.-)
+[R2970] NIHSS score 0-9
+[R29700] NIHSS score 0
+[R29701] NIHSS score 1
+[R29702] NIHSS score 2
+[R29703] NIHSS score 3
+[R29704] NIHSS score 4
+[R29705] NIHSS score 5
+[R29706] NIHSS score 6
+[R29707] NIHSS score 7
+[R29708] NIHSS score 8
+[R29709] NIHSS score 9
+[R2971] NIHSS score 10-19
+[R29710] NIHSS score 10
+[R29711] NIHSS score 11
+[R29712] NIHSS score 12
+[R29713] NIHSS score 13
+[R29714] NIHSS score 14
+[R29715] NIHSS score 15
+[R29716] NIHSS score 16
+[R29717] NIHSS score 17
+[R29718] NIHSS score 18
+[R29719] NIHSS score 19
+[R2972] NIHSS score 20-29
+[R29720] NIHSS score 20
+[R29721] NIHSS score 21
+[R29722] NIHSS score 22
+[R29723] NIHSS score 23
+[R29724] NIHSS score 24
+[R29725] NIHSS score 25
+[R29726] NIHSS score 26
+[R29727] NIHSS score 27
+[R29728] NIHSS score 28
+[R29729] NIHSS score 29
+[R2973] NIHSS score 30-39
+[R29730] NIHSS score 30
+[R29731] NIHSS score 31
+[R29732] NIHSS score 32
+[R29733] NIHSS score 33
+[R29734] NIHSS score 34
+[R29735] NIHSS score 35
+[R29736] NIHSS score 36
+[R29737] NIHSS score 37
+[R29738] NIHSS score 38
+[R29739] NIHSS score 39
+[R2974] NIHSS score 40-42
+[R29740] NIHSS score 40
+[R29741] NIHSS score 41
+[R29742] NIHSS score 42
+[R298] Other symptoms and signs involving the nervous and musculoskeletal systems
+[R2981] Other symptoms and signs involving the nervous system
+[R29810] Facial weakness -- **Inclusion terms:** - Facial droop  **Excludes1:** - Bell's palsy (G51.0) - facial weakness following cerebrovascular disease (I69. with final characters -92)
+[R29818] Other symptoms and signs involving the nervous system
+[R2989] Other symptoms and signs involving the musculoskeletal system -- **Excludes2:** - pain in limb (M79.6-)
+[R29890] Loss of height -- **Excludes1:** - osteoporosis (M80-M81)
+[R29891] Ocular torticollis -- **Excludes1:** - congenital (sternomastoid) torticollis Q68.0 - psychogenic torticollis (F45.8) - spasmodic torticollis (G24.3) - torticollis due to birth injury (P15.8) - torticollis NOS M43.6
+[R29898] Other symptoms and signs involving the musculoskeletal system
+[R299] Unspecified symptoms and signs involving the nervous and musculoskeletal systems
+[R2990] Unspecified symptoms and signs involving the nervous system
+[R2991] Unspecified symptoms and signs involving the musculoskeletal system
+[R30] Pain associated with micturition -- **Excludes1:** - psychogenic pain associated with micturition (F45.8)
+[R300] Dysuria -- **Inclusion terms:** - Strangury
+[R301] Vesical tenesmus
+[R309] Painful micturition, unspecified -- **Inclusion terms:** - Painful urination NOS
+[R31] Hematuria -- **Excludes1:** - hematuria included with underlying conditions, such as: - acute cystitis with hematuria (N30.01) - recurrent and persistent hematuria in glomerular diseases (N02.-)
+[R310] Gross hematuria
+[R311] Benign essential microscopic hematuria
+[R312] Other microscopic hematuria
+[R3121] Asymptomatic microscopic hematuria -- **Inclusion terms:** - AMH
+[R3129] Other microscopic hematuria
+[R319] Hematuria, unspecified
+[R32] Unspecified urinary incontinence -- **Inclusion terms:** - Enuresis NOS  **Excludes1:** - functional urinary incontinence (R39.81) - nonorganic enuresis (F98.0) - stress incontinence and other specified urinary incontinence (N39.3-N39.4-) - urinary incontinence associated with cognitive impairment (R39.81)
+[R33] Retention of urine -- **Excludes1:** - psychogenic retention of urine (F45.8)
+[R330] Drug induced retention of urine -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[R338] Other retention of urine -- **Code first:** - , if applicable, any causal condition, such as: - enlarged prostate (N40.1)
+[R339] Retention of urine, unspecified
+[R34] Anuria and oliguria -- **Excludes1:** - anuria and oliguria complicating abortion or ectopic or molar pregnancy (O00-O07, O08.4) - anuria and oliguria complicating pregnancy (O26.83-) - anuria and oliguria complicating the puerperium (O90.49)
+[R35] Polyuria -- **Excludes1:** - psychogenic polyuria (F45.8)  **Code first:** - , if applicable, any causal condition, such as: - enlarged prostate (N40.1)
+[R350] Frequency of micturition
+[R351] Nocturia
+[R358] Other polyuria
+[R3581] Nocturnal polyuria -- **Excludes2:** - nocturnal enuresis (N39.44)
+[R3589] Other polyuria -- **Inclusion terms:** - Polyuria NOS
+[R36] Urethral discharge
+[R360] Urethral discharge without blood
+[R361] Hematospermia
+[R369] Urethral discharge, unspecified -- **Inclusion terms:** - Penile discharge NOS - Urethrorrhea
+[R37] Sexual dysfunction, unspecified
+[R39] Other and unspecified symptoms and signs involving the genitourinary system
+[R390] Extravasation of urine
+[R391] Other difficulties with micturition -- **Code first:** - , if applicable, any causal condition, such as: - enlarged prostate (N40.1)
+[R3911] Hesitancy of micturition
+[R3912] Poor urinary stream -- **Inclusion terms:** - Weak urinary steam
+[R3913] Splitting of urinary stream
+[R3914] Feeling of incomplete bladder emptying
+[R3915] Urgency of urination -- **Excludes1:** - urge incontinence (N39.41, N39.46)
+[R3916] Straining to void
+[R3919] Other difficulties with micturition
+[R39191] Need to immediately re-void
+[R39192] Position dependent micturition
+[R39198] Other difficulties with micturition
+[R392] Extrarenal uremia -- **Inclusion terms:** - Prerenal uremia  **Excludes1:** - uremia NOS (N19)
+[R398] Other symptoms and signs involving the genitourinary system
+[R3981] Functional urinary incontinence -- **Inclusion terms:** - Urinary incontinence due to cognitive impairment, or severe physical disability or immobility  **Excludes1:** - stress incontinence and other specified urinary incontinence (N39.3-N39.4-) - urinary incontinence NOS (R32)
+[R3982] Chronic bladder pain
+[R3983] Unilateral non-palpable testicle
+[R3984] Bilateral non-palpable testicles
+[R3989] Other symptoms and signs involving the genitourinary system
+[R399] Unspecified symptoms and signs involving the genitourinary system
+[R40] Somnolence, stupor and coma -- **Excludes1:** - neonatal coma (P91.5) - somnolence, stupor and coma in diabetes (E08-E13) - somnolence, stupor and coma in hepatic failure (K72.-) - somnolence, stupor and coma in hypoglycemia (nondiabetic) (E15)
+[R400] Somnolence -- **Inclusion terms:** - Drowsiness  **Excludes1:** - coma (R40.2-)
+[R401] Stupor -- **Inclusion terms:** - Catatonic stupor - Semicoma  **Excludes1:** - catatonic schizophrenia (F20.2) - coma (R40.2-) - depressive stupor (F31-F33) - dissociative stupor (F44.2) - manic stupor (F30.2)
+[R402] Coma -- **Notes:** - One code from each subcategory, R40.21-R40.23, is required to complete the coma scale  **Code first:** - any associated: - fracture of skull (S02.-) - intracranial injury (S06.-)
+[R4020] Unspecified coma -- **Inclusion terms:** - Coma NOS - Unconsciousness NOS
+[R4021] Coma scale, eyes open -- **7th character note:** - The following appropriate 7th character is to be added to subcategory R40.21-:  **7th character:** - 0: unspecified time - 1: in the field [EMT or ambulance] - 2: at arrival to emergency department - 3: at hospital admission - 4: 24 hours or more after hospital admission
+[R40211] Coma scale, eyes open, never -- **Inclusion terms:** - Coma scale eye opening score of 1
+[R402110] Coma scale, eyes open, never, unspecified time
+[R402111] Coma scale, eyes open, never, in the field [EMT or ambulance]
+[R402112] Coma scale, eyes open, never, at arrival to emergency department
+[R402113] Coma scale, eyes open, never, at hospital admission
+[R402114] Coma scale, eyes open, never, 24 hours or more after hospital admission
+[R40212] Coma scale, eyes open, to pain -- **Inclusion terms:** - Coma scale eye opening score of 2
+[R402120] Coma scale, eyes open, to pain, unspecified time
+[R402121] Coma scale, eyes open, to pain, in the field [EMT or ambulance]
+[R402122] Coma scale, eyes open, to pain, at arrival to emergency department
+[R402123] Coma scale, eyes open, to pain, at hospital admission
+[R402124] Coma scale, eyes open, to pain, 24 hours or more after hospital admission
+[R40213] Coma scale, eyes open, to sound -- **Inclusion terms:** - Coma scale eye opening score of 3
+[R402130] Coma scale, eyes open, to sound, unspecified time
+[R402131] Coma scale, eyes open, to sound, in the field [EMT or ambulance]
+[R402132] Coma scale, eyes open, to sound, at arrival to emergency department
+[R402133] Coma scale, eyes open, to sound, at hospital admission
+[R402134] Coma scale, eyes open, to sound, 24 hours or more after hospital admission
+[R40214] Coma scale, eyes open, spontaneous -- **Inclusion terms:** - Coma scale eye opening score of 4
+[R402140] Coma scale, eyes open, spontaneous, unspecified time
+[R402141] Coma scale, eyes open, spontaneous, in the field [EMT or ambulance]
+[R402142] Coma scale, eyes open, spontaneous, at arrival to emergency department
+[R402143] Coma scale, eyes open, spontaneous, at hospital admission
+[R402144] Coma scale, eyes open, spontaneous, 24 hours or more after hospital admission
+[R4022] Coma scale, best verbal response -- **7th character note:** - The following appropriate 7th character is to be added to subcategory R40.22-:  **7th character:** - 0: unspecified time - 1: in the field [EMT or ambulance] - 2: at arrival to emergency department - 3: at hospital admission - 4: 24 hours or more after hospital admission
+[R40221] Coma scale, best verbal response, none -- **Inclusion terms:** - Coma scale verbal score of 1
+[R402210] Coma scale, best verbal response, none, unspecified time
+[R402211] Coma scale, best verbal response, none, in the field [EMT or ambulance]
+[R402212] Coma scale, best verbal response, none, at arrival to emergency department
+[R402213] Coma scale, best verbal response, none, at hospital admission
+[R402214] Coma scale, best verbal response, none, 24 hours or more after hospital admission
+[R40222] Coma scale, best verbal response, incomprehensible words -- **Inclusion terms:** - Coma scale verbal score of 2 - Incomprehensible sounds (2-5 years of age) - Moans/grunts to pain; restless (<2 years old)
+[R402220] Coma scale, best verbal response, incomprehensible words, unspecified time
+[R402221] Coma scale, best verbal response, incomprehensible words, in the field [EMT or ambulance]
+[R402222] Coma scale, best verbal response, incomprehensible words, at arrival to emergency department
+[R402223] Coma scale, best verbal response, incomprehensible words, at hospital admission
+[R402224] Coma scale, best verbal response, incomprehensible words, 24 hours or more after hospital admission
+[R40223] Coma scale, best verbal response, inappropriate words -- **Inclusion terms:** - Coma scale verbal score of 3 - Inappropriate crying or screaming (< 2 years of age) - Screaming (2-5 years of age)
+[R402230] Coma scale, best verbal response, inappropriate words, unspecified time
+[R402231] Coma scale, best verbal response, inappropriate words, in the field [EMT or ambulance]
+[R402232] Coma scale, best verbal response, inappropriate words, at arrival to emergency department
+[R402233] Coma scale, best verbal response, inappropriate words, at hospital admission
+[R402234] Coma scale, best verbal response, inappropriate words, 24 hours or more after hospital admission
+[R40224] Coma scale, best verbal response, confused conversation -- **Inclusion terms:** - Coma scale verbal score of 4 - Inappropriate words (2-5 years of age) - Irritable cries (< 2 years of age)
+[R402240] Coma scale, best verbal response, confused conversation, unspecified time
+[R402241] Coma scale, best verbal response, confused conversation, in the field [EMT or ambulance]
+[R402242] Coma scale, best verbal response, confused conversation, at arrival to emergency department
+[R402243] Coma scale, best verbal response, confused conversation, at hospital admission
+[R402244] Coma scale, best verbal response, confused conversation, 24 hours or more after hospital admission
+[R40225] Coma scale, best verbal response, oriented -- **Inclusion terms:** - Coma scale verbal score of 5 - Cooing or babbling or crying appropriately (< 2 years of age) - Uses appropriate words (2- 5 years of age)
+[R402250] Coma scale, best verbal response, oriented, unspecified time
+[R402251] Coma scale, best verbal response, oriented, in the field [EMT or ambulance]
+[R402252] Coma scale, best verbal response, oriented, at arrival to emergency department
+[R402253] Coma scale, best verbal response, oriented, at hospital admission
+[R402254] Coma scale, best verbal response, oriented, 24 hours or more after hospital admission
+[R4023] Coma scale, best motor response -- **7th character note:** - The following appropriate 7th character is to be added to subcategory R40.23-:  **7th character:** - 0: unspecified time - 1: in the field [EMT or ambulance] - 2: at arrival to emergency department - 3: at hospital admission - 4: 24 hours or more after hospital admission
+[R40231] Coma scale, best motor response, none -- **Inclusion terms:** - Coma scale motor score of 1
+[R402310] Coma scale, best motor response, none, unspecified time
+[R402311] Coma scale, best motor response, none, in the field [EMT or ambulance]
+[R402312] Coma scale, best motor response, none, at arrival to emergency department
+[R402313] Coma scale, best motor response, none, at hospital admission
+[R402314] Coma scale, best motor response, none, 24 hours or more after hospital admission
+[R40232] Coma scale, best motor response, extension -- **Inclusion terms:** - Abnormal extensor posturing to pain or noxious stimuli (< 2 years of age) - Coma scale motor score of 2 - Extensor posturing to pain or noxious stimuli (2-5 years of age)
+[R402320] Coma scale, best motor response, extension, unspecified time
+[R402321] Coma scale, best motor response, extension, in the field [EMT or ambulance]
+[R402322] Coma scale, best motor response, extension, at arrival to emergency department
+[R402323] Coma scale, best motor response, extension, at hospital admission
+[R402324] Coma scale, best motor response, extension, 24 hours or more after hospital admission
+[R40233] Coma scale, best motor response, abnormal flexion -- **Inclusion terms:** - Abnormal flexure posturing to pain or noxious stimuli (2-5 years of age) - Coma scale motor score of 3 - Flexion/decorticate posturing (< 2 years of age)
+[R402330] Coma scale, best motor response, abnormal flexion, unspecified time
+[R402331] Coma scale, best motor response, abnormal flexion, in the field [EMT or ambulance]
+[R402332] Coma scale, best motor response, abnormal flexion, at arrival to emergency department
+[R402333] Coma scale, best motor response, abnormal flexion, at hospital admission
+[R402334] Coma scale, best motor response, abnormal flexion, 24 hours or more after hospital admission
+[R40234] Coma scale, best motor response, flexion withdrawal -- **Inclusion terms:** - Coma scale motor score of 4 - Withdraws from pain or noxious stimuli (2-5 years of age)
+[R402340] Coma scale, best motor response, flexion withdrawal, unspecified time
+[R402341] Coma scale, best motor response, flexion withdrawal, in the field [EMT or ambulance]
+[R402342] Coma scale, best motor response, flexion withdrawal, at arrival to emergency department
+[R402343] Coma scale, best motor response, flexion withdrawal, at hospital admission
+[R402344] Coma scale, best motor response, flexion withdrawal, 24 hours or more after hospital admission
+[R40235] Coma scale, best motor response, localizes pain -- **Inclusion terms:** - Coma scale motor score of 5 - Localizes pain (2-5 years of age) - Withdraws to touch (< 2 years of age)
+[R402350] Coma scale, best motor response, localizes pain, unspecified time
+[R402351] Coma scale, best motor response, localizes pain, in the field [EMT or ambulance]
+[R402352] Coma scale, best motor response, localizes pain, at arrival to emergency department
+[R402353] Coma scale, best motor response, localizes pain, at hospital admission
+[R402354] Coma scale, best motor response, localizes pain, 24 hours or more after hospital admission
+[R40236] Coma scale, best motor response, obeys commands -- **Inclusion terms:** - Coma scale motor score of 6 - Normal or spontaneous movement (< 2 years of age) - Obeys commands (2-5 years of age)
+[R402360] Coma scale, best motor response, obeys commands, unspecified time
+[R402361] Coma scale, best motor response, obeys commands, in the field [EMT or ambulance]
+[R402362] Coma scale, best motor response, obeys commands, at arrival to emergency department
+[R402363] Coma scale, best motor response, obeys commands, at hospital admission
+[R402364] Coma scale, best motor response, obeys commands, 24 hours or more after hospital admission
+[R4024] Glasgow coma scale, total score -- **Notes:** - Assign a code from subcategory R40.24, when only the total coma score is documented  **7th character note:** - The following appropriate 7th character is to be added to subcategory R40.24-:  **7th character:** - 0: unspecified time - 1: in the field [EMT or ambulance] - 2: at arrival to emergency department - 3: at hospital admission - 4: 24 hours or more after hospital admission
+[R40241] Glasgow coma scale score 13-15
+[R402410] Glasgow coma scale score 13-15, unspecified time
+[R402411] Glasgow coma scale score 13-15, in the field [EMT or ambulance]
+[R402412] Glasgow coma scale score 13-15, at arrival to emergency department
+[R402413] Glasgow coma scale score 13-15, at hospital admission
+[R402414] Glasgow coma scale score 13-15, 24 hours or more after hospital admission
+[R40242] Glasgow coma scale score 9-12
+[R402420] Glasgow coma scale score 9-12, unspecified time
+[R402421] Glasgow coma scale score 9-12, in the field [EMT or ambulance]
+[R402422] Glasgow coma scale score 9-12, at arrival to emergency department
+[R402423] Glasgow coma scale score 9-12, at hospital admission
+[R402424] Glasgow coma scale score 9-12, 24 hours or more after hospital admission
+[R40243] Glasgow coma scale score 3-8
+[R402430] Glasgow coma scale score 3-8, unspecified time
+[R402431] Glasgow coma scale score 3-8, in the field [EMT or ambulance]
+[R402432] Glasgow coma scale score 3-8, at arrival to emergency department
+[R402433] Glasgow coma scale score 3-8, at hospital admission
+[R402434] Glasgow coma scale score 3-8, 24 hours or more after hospital admission
+[R40244] Other coma, without documented Glasgow coma scale score, or with partial score reported
+[R402440] Other coma, without documented Glasgow coma scale score, or with partial score reported, unspecified time
+[R402441] Other coma, without documented Glasgow coma scale score, or with partial score reported, in the field [EMT or ambulance]
+[R402442] Other coma, without documented Glasgow coma scale score, or with partial score reported, at arrival to emergency department
+[R402443] Other coma, without documented Glasgow coma scale score, or with partial score reported, at hospital admission
+[R402444] Other coma, without documented Glasgow coma scale score, or with partial score reported, 24 hours or more after hospital admission
+[R402A] Nontraumatic coma due to underlying condition -- **Inclusion terms:** - Secondary coma  **Code first:** - underlying condition
+[R403] Persistent vegetative state
+[R404] Transient alteration of awareness
+[R41] Other symptoms and signs involving cognitive functions and awareness -- **Excludes1:** - dissociative [conversion] disorders (F44.-) - mild cognitive impairment of uncertain or unknown etiology (G31.84)
+[R410] Disorientation, unspecified -- **Inclusion terms:** - Confusion NOS - Delirium NOS  **Excludes1:** - delirium due to known physiological condition (F05)
+[R411] Anterograde amnesia
+[R412] Retrograde amnesia
+[R413] Other amnesia -- **Inclusion terms:** - Amnesia NOS - Memory loss NOS  **Excludes1:** - amnestic disorder due to known physiologic condition (F04) - amnestic syndrome due to psychoactive substance use (F10-F19 with 5th character .6) - mild memory disturbance due to known physiological condition (F06.8) - transient global amnesia (G45.4)
+[R414] Neurologic neglect syndrome -- **Inclusion terms:** - Asomatognosia - Hemi-akinesia - Hemi-inattention - Hemispatial neglect - Left-sided neglect - Sensory neglect - Visuospatial neglect  **Excludes1:** - visuospatial deficit (R41.842)
+[R418] Other symptoms and signs involving cognitive functions and awareness
+[R4181] Age-related cognitive decline -- **Inclusion terms:** - Senility NOS
+[R4182] Altered mental status, unspecified -- **Inclusion terms:** - Change in mental status NOS  **Excludes1:** - altered level of consciousness (R40.-) - altered mental status due to known condition - code to condition - delirium NOS (R41.0)
+[R4183] Borderline intellectual functioning -- **Inclusion terms:** - IQ level 71 to 84  **Excludes1:** - intellectual disabilities (F70-F79)
+[R4184] Other specified cognitive deficit -- **Excludes1:** - cognitive deficits as sequelae of cerebrovascular disease (I69.01-, I69.11-, I69.21-, I69.31-, I69.81-, I69.91-)  **Code first:** - the underlying condition, if known, such as: - schizophrenia (F20.-)
+[R41840] Attention and concentration deficit -- **Excludes1:** - attention-deficit hyperactivity disorders (F90.-)
+[R41841] Cognitive communication deficit
+[R41842] Visuospatial deficit
+[R41843] Psychomotor deficit
+[R41844] Frontal lobe and executive function deficit
+[R4185] Anosognosia
+[R4189] Other symptoms and signs involving cognitive functions and awareness
+[R419] Unspecified symptoms and signs involving cognitive functions and awareness -- **Inclusion terms:** - Unspecified neurocognitive disorder
+[R42] Dizziness and giddiness -- **Inclusion terms:** - Light-headedness - Vertigo NOS  **Excludes1:** - vertiginous syndromes (H81.-) - vertigo from infrasound (T75.23)
+[R43] Disturbances of smell and taste
+[R430] Anosmia
+[R431] Parosmia
+[R432] Parageusia
+[R438] Other disturbances of smell and taste -- **Inclusion terms:** - Mixed disturbance of smell and taste
+[R439] Unspecified disturbances of smell and taste
+[R44] Other symptoms and signs involving general sensations and perceptions -- **Excludes1:** - alcoholic hallucinations (F10.151, F10.251, F10.951) - hallucinations in drug psychosis (F11-F19 with fifth to sixth characters 51) - hallucinations in mood disorders with psychotic symptoms (F30.2, F31.5, F32.3, F33.3) - hallucinations in schizophrenia, schizotypal and delusional disorders (F20-F29)  **Excludes2:** - disturbances of skin sensation (R20.-)
+[R440] Auditory hallucinations
+[R441] Visual hallucinations
+[R442] Other hallucinations
+[R443] Hallucinations, unspecified
+[R448] Other symptoms and signs involving general sensations and perceptions
+[R449] Unspecified symptoms and signs involving general sensations and perceptions
+[R45] Symptoms and signs involving emotional state
+[R450] Nervousness -- **Inclusion terms:** - Nervous tension
+[R451] Restlessness and agitation
+[R452] Unhappiness
+[R453] Demoralization and apathy -- **Excludes1:** - anhedonia (R45.84)
+[R454] Irritability and anger
+[R455] Hostility
+[R456] Violent behavior
+[R457] State of emotional shock and stress, unspecified
+[R458] Other symptoms and signs involving emotional state
+[R4581] Low self-esteem
+[R4582] Worries
+[R4583] Excessive crying of child, adolescent or adult -- **Excludes1:** - excessive crying of infant (baby) R68.11
+[R4584] Anhedonia
+[R4585] Homicidal and suicidal ideations -- **Excludes1:** - suicide attempt (T14.91)
+[R45850] Homicidal ideations
+[R45851] Suicidal ideations
+[R4586] Emotional lability
+[R4587] Impulsiveness
+[R4588] Nonsuicidal self-harm -- **Inclusion terms:** - Nonsuicidal self-injury - Nonsuicidal self-mutilation - Self-inflicted injury without suicidal intent  **Code also:** - injury, if known
+[R4589] Other symptoms and signs involving emotional state -- **Inclusion terms:** - Flat affect - Loneliness
+[R46] Symptoms and signs involving appearance and behavior -- **Excludes1:** - appearance and behavior in schizophrenia, schizotypal and delusional disorders (F20-F29) - mental and behavioral disorders (F01-F99)
+[R460] Very low level of personal hygiene
+[R461] Bizarre personal appearance
+[R462] Strange and inexplicable behavior
+[R463] Overactivity
+[R464] Slowness and poor responsiveness -- **Excludes1:** - stupor (R40.1)
+[R465] Suspiciousness and marked evasiveness
+[R466] Undue concern and preoccupation with stressful events
+[R467] Verbosity and circumstantial detail obscuring reason for contact
+[R468] Other symptoms and signs involving appearance and behavior
+[R4681] Obsessive-compulsive behavior -- **Excludes1:** - obsessive-compulsive disorder (F42.-)
+[R4689] Other symptoms and signs involving appearance and behavior
+[R47] Speech disturbances, not elsewhere classified -- **Excludes1:** - autism (F84.0) - cluttering (F80.81) - specific developmental disorders of speech and language (F80.-) - stuttering (F80.81)
+[R470] Dysphasia and aphasia
+[R4701] Aphasia -- **Excludes1:** - aphasia following cerebrovascular disease (I69. with final characters -20) - progressive isolated aphasia (G31.01)
+[R4702] Dysphasia -- **Excludes1:** - dysphasia following cerebrovascular disease (I69. with final characters -21)
+[R471] Dysarthria and anarthria -- **Excludes1:** - dysarthria following cerebrovascular disease (I69. with final characters -22)
+[R478] Other speech disturbances -- **Excludes1:** - dysarthria following cerebrovascular disease (I69. with final characters -28)
+[R4781] Slurred speech
+[R4782] Fluency disorder in conditions classified elsewhere -- **Inclusion terms:** - Stuttering in conditions classified elsewhere  **Excludes1:** - adult onset fluency disorder (F98.5) - childhood onset fluency disorder (F80.81) - fluency disorder (stuttering) following cerebrovascular disease (I69. with final characters -23)  **Code first:** - underlying disease or condition, such as: - Parkinson's disease (G20.-)
+[R4789] Other speech disturbances
+[R479] Unspecified speech disturbances
+[R48] Dyslexia and other symbolic dysfunctions, not elsewhere classified -- **Excludes1:** - specific developmental disorders of scholastic skills (F81.-)
+[R480] Dyslexia and alexia
+[R481] Agnosia -- **Inclusion terms:** - Astereognosia (astereognosis) - Autotopagnosia  **Excludes1:** - visual object agnosia (R48.3)
+[R482] Apraxia -- **Excludes1:** - apraxia following cerebrovascular disease (I69. with final characters -90)
+[R483] Visual agnosia -- **Inclusion terms:** - Prosopagnosia - Simultanagnosia (asimultagnosia)
+[R488] Other symbolic dysfunctions -- **Inclusion terms:** - Acalculia - Agraphia
+[R489] Unspecified symbolic dysfunctions
+[R49] Voice and resonance disorders -- **Excludes1:** - psychogenic voice and resonance disorders (F44.4)
+[R490] Dysphonia -- **Inclusion terms:** - Hoarseness
+[R491] Aphonia -- **Inclusion terms:** - Loss of voice
+[R492] Hypernasality and hyponasality
+[R4921] Hypernasality
+[R4922] Hyponasality
+[R498] Other voice and resonance disorders
+[R499] Unspecified voice and resonance disorder -- **Inclusion terms:** - Change in voice NOS - Resonance disorder NOS
+[R50] Fever of other and unknown origin -- **Excludes1:** - chills without fever (R68.83) - febrile convulsions (R56.0-) - fever of unknown origin during labor (O75.2) - fever of unknown origin in newborn (P81.9) - hypothermia due to illness (R68.0) - malignant hyperthermia due to anesthesia (T88.3) - puerperal pyrexia NOS (O86.4)
+[R502] Drug induced fever -- **Excludes1:** - postvaccination (postimmunization) fever (R50.83)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[R508] Other specified fever
+[R5081] Fever presenting with conditions classified elsewhere -- **Code first:** - underlying condition when associated fever is present, such as with: - leukemia (C91-C95) - neutropenia (D70.-) - sickle-cell disease (D57.-)
+[R5082] Postprocedural fever -- **Excludes1:** - postprocedural infection (T81.4-) - posttransfusion fever (R50.84) - postvaccination (postimmunization) fever (R50.83)
+[R5083] Postvaccination fever -- **Inclusion terms:** - Postimmunization fever
+[R5084] Febrile nonhemolytic transfusion reaction -- **Inclusion terms:** - FNHTR - Posttransfusion fever
+[R509] Fever, unspecified -- **Inclusion terms:** - Fever NOS - Fever of unknown origin [FUO] - Fever with chills - Fever with rigors - Hyperpyrexia NOS - Persistent fever - Pyrexia NOS
+[R51] Headache -- **Excludes2:** - atypical face pain (G50.1) - migraine and other headache syndromes (G43-G44) - trigeminal neuralgia (G50.0)
+[R510] Headache with orthostatic component, not elsewhere classified -- **Inclusion terms:** - Headache with positional component, not elsewhere classified
+[R519] Headache, unspecified -- **Inclusion terms:** - Facial pain NOS
+[R52] Pain, unspecified -- **Inclusion terms:** - Acute pain NOS - Generalized pain NOS - Pain NOS  **Excludes1:** - acute and chronic pain, not elsewhere classified (G89.-) - localized pain, unspecified type - code to pain by site, such as: - abdomen pain (R10.-) - back pain (M54.9) - breast pain (N64.4) - chest pain (R07.1-R07.9) - ear pain (H92.0-) - eye pain (H57.1) - headache (R51.9) - joint pain (M25.5-) - limb pain (M79.6-) - lumbar region pain (M54.5-) - pelvic and perineal pain (R10.2) - shoulder pain (M25.51-) - spine pain (M54.-) - throat pain (R07.0) - tongue pain (K14.6) - tooth pain (K08.8) - renal colic (N23) - pain disorders exclusively related to psychological factors (F45.41)
+[R53] Malaise and fatigue
+[R530] Neoplastic (malignant) related fatigue -- **Code first:** - associated neoplasm
+[R531] Weakness -- **Inclusion terms:** - Asthenia NOS  **Excludes1:** - age-related weakness (R54) - muscle weakness (generalized) (M62.81) - sarcopenia (M62.84) - senile asthenia (R54)
+[R532] Functional quadriplegia -- **Inclusion terms:** - Complete immobility due to severe physical disability or frailty  **Excludes1:** - frailty NOS (R54) - hysterical paralysis (F44.4) - immobility syndrome (M62.3) - neurologic quadriplegia (G82.5-) - quadriplegia (G82.50)
+[R538] Other malaise and fatigue -- **Excludes1:** - combat exhaustion and fatigue (F43.0) - congenital debility (P96.9) - exhaustion and fatigue due to excessive exertion (T73.3) - exhaustion and fatigue due to exposure (T73.2) - exhaustion and fatigue due to heat (T67.-) - exhaustion and fatigue due to pregnancy (O26.8-) - exhaustion and fatigue due to recurrent depressive episode (F33) - exhaustion and fatigue due to senile debility (R54)
+[R5381] Other malaise -- **Inclusion terms:** - Chronic debility - Debility NOS - General physical deterioration - Malaise NOS - Nervous debility  **Excludes1:** - age-related physical debility (R54)
+[R5382] Chronic fatigue, unspecified -- **Excludes1:** - chronic fatigue syndrome (G93.32) - myalgic encephalomyelitis (G93.32) - other post infection and related fatigue syndromes (G93.39) - postviral fatigue syndrome (G93.31)
+[R5383] Other fatigue -- **Inclusion terms:** - Fatigue NOS - Lack of energy - Lethargy - Tiredness  **Excludes2:** - exhaustion and fatigue due to depressive episode (F32.-)
+[R54] Age-related physical debility -- **Inclusion terms:** - Frailty - Old age - Senescence - Senile asthenia - Senile debility  **Excludes1:** - age-related cognitive decline (R41.81) - sarcopenia (M62.84) - senile psychosis (F03.-) - senility NOS (R41.81)
+[R55] Syncope and collapse -- **Inclusion terms:** - Blackout - Fainting - Vasovagal attack  **Excludes1:** - cardiogenic shock (R57.0) - carotid sinus syncope (G90.01) - heat syncope (T67.1) - neurocirculatory asthenia (F45.8) - neurogenic orthostatic hypotension (G90.3) - orthostatic hypotension (I95.1) - postprocedural shock (T81.1-) - psychogenic syncope (F48.8) - shock NOS (R57.9) - shock complicating or following abortion or ectopic or molar pregnancy (O00-O07, O08.3) - shock complicating or following labor and delivery (O75.1) - Stokes-Adams attack (I45.9) - unconsciousness NOS (R40.2-)
+[R56] Convulsions, not elsewhere classified -- **Excludes1:** - dissociative convulsions and seizures (F44.5) - epileptic convulsions and seizures (G40.-) - newborn convulsions and seizures (P90)
+[R560] Febrile convulsions
+[R5600] Simple febrile convulsions -- **Inclusion terms:** - Febrile convulsion NOS - Febrile seizure NOS
+[R5601] Complex febrile convulsions -- **Inclusion terms:** - Atypical febrile seizure - Complex febrile seizure - Complicated febrile seizure  **Excludes1:** - status epilepticus (G40.901)
+[R561] Post traumatic seizures -- **Excludes1:** - post traumatic epilepsy (G40.-)
+[R569] Unspecified convulsions -- **Inclusion terms:** - Convulsion disorder - Fit NOS - Recurrent convulsions - Seizure(s) (convulsive) NOS
+[R57] Shock, not elsewhere classified -- **Excludes1:** - anaphylactic shock NOS (T78.2) - anaphylactic reaction or shock due to adverse food reaction (T78.0-) - anaphylactic shock due to adverse effect of correct drug or medicament properly administered (T88.6) - anaphylactic shock due to serum (T80.5-) - electric shock (T75.4) - obstetric shock (O75.1) - postprocedural shock (T81.1-) - psychic shock (F43.0) - shock complicating or following ectopic or molar pregnancy (O00-O07, O08.3) - shock due to anesthesia (T88.2) - shock due to lightning (T75.01) - traumatic shock (T79.4) - toxic shock syndrome (A48.3)
+[R570] Cardiogenic shock -- **Excludes2:** - septic shock (R65.21)
+[R571] Hypovolemic shock
+[R578] Other shock
+[R579] Shock, unspecified -- **Inclusion terms:** - Failure of peripheral circulation NOS
+[R58] Hemorrhage, not elsewhere classified -- **Inclusion terms:** - Hemorrhage NOS  **Excludes1:** - hemorrhage included with underlying conditions, such as: - acute duodenal ulcer with hemorrhage (K26.0) - acute gastritis with bleeding (K29.01) - ulcerative enterocolitis with rectal bleeding (K51.01)
+[R59] Enlarged lymph nodes -- **Includes:** - swollen glands  **Excludes1:** - lymphadenitis NOS (I88.9) - acute lymphadenitis (L04.-) - chronic lymphadenitis (I88.1) - mesenteric (acute) (chronic) lymphadenitis (I88.0)
+[R590] Localized enlarged lymph nodes
+[R591] Generalized enlarged lymph nodes -- **Inclusion terms:** - Lymphadenopathy NOS
+[R599] Enlarged lymph nodes, unspecified
+[R60] Edema, not elsewhere classified -- **Excludes1:** - angioneurotic edema (T78.3) - ascites (R18.-) - cerebral edema (G93.6) - cerebral edema due to birth injury (P11.0) - edema of larynx (J38.4) - edema of nasopharynx (J39.2) - edema of pharynx (J39.2) - gestational edema (O12.0-) - hereditary edema (Q82.0) - hydrops fetalis NOS (P83.2) - hydrothorax (J94.8) - newborn edema (P83.3) - pulmonary edema (J81.-)
+[R600] Localized edema
+[R601] Generalized edema -- **Excludes2:** - nutritional edema (E40-E46)
+[R609] Edema, unspecified -- **Inclusion terms:** - Fluid retention NOS
+[R61] Generalized hyperhidrosis -- **Inclusion terms:** - Excessive sweating - Night sweats - Secondary hyperhidrosis  **Excludes1:** - focal (primary) (secondary) hyperhidrosis (L74.5-) - Frey's syndrome (L74.52) - localized (primary) (secondary) hyperhidrosis (L74.5-)  **Code first:** - , if applicable, menopausal and female climacteric states (N95.1)
+[R62] Lack of expected normal physiological development in childhood and adults -- **Excludes1:** - delayed puberty (E30.0) - gonadal dysgenesis (Q99.1) - hypopituitarism (E23.0)
+[R620] Delayed milestone in childhood -- **Inclusion terms:** - Delayed attainment of expected physiological developmental stage - Late talker - Late walker
+[R625] Other and unspecified lack of expected normal physiological development in childhood -- **Excludes1:** - HIV disease resulting in failure to thrive (B20) - physical retardation due to malnutrition (E45)
+[R6250] Unspecified lack of expected normal physiological development in childhood -- **Inclusion terms:** - Infantilism NOS
+[R6251] Failure to thrive (child) -- **Inclusion terms:** - Failure to gain weight  **Excludes1:** - failure to thrive in child under 28 days old (P92.6)
+[R6252] Short stature (child) -- **Inclusion terms:** - Lack of growth - Physical retardation - Short stature NOS  **Excludes1:** - short stature due to endocrine disorder (E34.3-)
+[R6259] Other lack of expected normal physiological development in childhood
+[R627] Adult failure to thrive
+[R63] Symptoms and signs concerning food and fluid intake -- **Excludes1:** - bulimia NOS (F50.2-)
+[R630] Anorexia -- **Inclusion terms:** - Loss of appetite  **Excludes1:** - anorexia nervosa (F50.0-) - loss of appetite of nonorganic origin (F50.89)
+[R631] Polydipsia -- **Inclusion terms:** - Excessive thirst
+[R632] Polyphagia -- **Inclusion terms:** - Excessive eating - Hyperalimentation NOS
+[R633] Feeding difficulties -- **Excludes2:** - eating disorders (F50.-) - feeding problems of newborn (P92.-) - infant feeding disorder of nonorganic origin (F98.2-)
+[R6330] Feeding difficulties, unspecified
+[R6331] Pediatric feeding disorder, acute -- **Inclusion terms:** - Pediatric feeding dysfunction, acute  **Code also:** - , if applicable, associated conditions such as: - aspiration pneumonia (J69.0) - dysphagia (R13.1-) - gastro-esophageal reflux disease (K21.-) - malnutrition (E40-E46)
+[R6332] Pediatric feeding disorder, chronic -- **Inclusion terms:** - Pediatric feeding dysfunction, chronic  **Code also:** - , if applicable, associated conditions such as: - aspiration pneumonia (J69.0) - dysphagia (R13.1-) - gastro-esophageal reflux disease (K21.-) - malnutrition (E40-E46)
+[R6339] Other feeding difficulties -- **Inclusion terms:** - Feeding problem (elderly) (infant) NOS - Picky eater
+[R634] Abnormal weight loss
+[R635] Abnormal weight gain -- **Excludes1:** - excessive weight gain in pregnancy (O26.0-) - obesity (E66.-)
+[R636] Underweight -- **Excludes1:** - abnormal weight loss (R63.4) - anorexia nervosa (F50.0-) - malnutrition (E40-E46)  **Use additional code:** - code to identify body mass index (BMI), if known (Z68.-)
+[R638] Other symptoms and signs concerning food and fluid intake
+[R64] Cachexia -- **Excludes1:** - abnormal weight loss (R63.4) - cachexia due to underlying condition (E88.A) - nutritional marasmus (E41)
+[R65] Symptoms and signs specifically associated with systemic inflammation and infection
+[R651] Systemic inflammatory response syndrome (SIRS) of non-infectious origin -- **Excludes1:** - sepsis- code to infection - severe sepsis (R65.2)  **Code first:** - underlying condition, such as: - heatstroke (T67.0-) - injury and trauma (S00-T88)
+[R6510] Systemic inflammatory response syndrome (SIRS) of non-infectious origin without acute organ dysfunction -- **Inclusion terms:** - Systemic inflammatory response syndrome (SIRS) NOS
+[R6511] Systemic inflammatory response syndrome (SIRS) of non-infectious origin with acute organ dysfunction -- **Use additional code:** - code to identify specific acute organ dysfunction, such as: - acute kidney failure (N17.-) - acute respiratory failure (J96.0-) - critical illness myopathy (G72.81) - critical illness polyneuropathy (G62.81) - disseminated intravascular coagulopathy [DIC] (D65) - encephalopathy (metabolic) (septic) (G93.41) - hepatic failure (K72.0-)
+[R652] Severe sepsis -- **Inclusion terms:** - Infection with associated acute organ dysfunction - Sepsis with acute organ dysfunction - Sepsis with multiple organ dysfunction - Systemic inflammatory response syndrome due to infectious process with acute organ dysfunction  **Code first:** - underlying infection, such as: - infection following a procedure (T81.4-) - infections following infusion, transfusion and therapeutic injection (T80.2-) - puerperal sepsis (O85) - sepsis following complete or unspecified spontaneous abortion (O03.87) - sepsis following ectopic and molar pregnancy (O08.82) - sepsis following incomplete spontaneous abortion (O03.37) - sepsis following (induced) termination of pregnancy (O04.87) - sepsis NOS (A41.9)  **Use additional code:** - code to identify specific acute organ dysfunction, such as: - acute kidney failure (N17.-) - acute respiratory failure (J96.0-) - critical illness myopathy (G72.81) - critical illness polyneuropathy (G62.81) - disseminated intravascular coagulopathy [DIC] (D65) - encephalopathy (metabolic) (septic) (G93.41) - hepatic failure (K72.0-)
+[R6520] Severe sepsis without septic shock -- **Inclusion terms:** - Severe sepsis NOS
+[R6521] Severe sepsis with septic shock
+[R68] Other general symptoms and signs
+[R680] Hypothermia, not associated with low environmental temperature -- **Excludes1:** - hypothermia NOS (accidental) (T68) - hypothermia due to anesthesia (T88.51) - hypothermia due to low environmental temperature (T68) - newborn hypothermia (P80.-)
+[R681] Nonspecific symptoms peculiar to infancy -- **Excludes1:** - colic, infantile (R10.83) - neonatal cerebral irritability (P91.3) - teething syndrome (K00.7)
+[R6811] Excessive crying of infant (baby) -- **Excludes1:** - excessive crying of child, adolescent, or adult (R45.83)
+[R6812] Fussy infant (baby) -- **Inclusion terms:** - Irritable infant
+[R6813] Apparent life threatening event in infant (ALTE) -- **Inclusion terms:** - Apparent life threatening event in newborn - Brief resolved unexplained event (BRUE)  **Code first:** - confirmed diagnosis, if known  **Use additional code:** - code(s) for associated signs and symptoms if no confirmed diagnosis established, or if signs and symptoms are not associated routinely with confirmed diagnosis, or provide additional information for cause of ALTE
+[R6819] Other nonspecific symptoms peculiar to infancy
+[R682] Dry mouth, unspecified -- **Excludes1:** - dry mouth due to dehydration (E86.0) - dry mouth due to Sjögren syndrome (M35.0-)  **Excludes2:** - salivary gland hyposecretion (K11.7)
+[R683] Clubbing of fingers -- **Inclusion terms:** - Clubbing of nails  **Excludes1:** - congenital clubfinger (Q68.1)
+[R688] Other general symptoms and signs
+[R6881] Early satiety
+[R6882] Decreased libido -- **Inclusion terms:** - Decreased sexual desire
+[R6883] Chills (without fever) -- **Inclusion terms:** - Chills NOS  **Excludes1:** - chills with fever (R50.9)
+[R6884] Jaw pain -- **Inclusion terms:** - Mandibular pain - Maxilla pain  **Excludes1:** - temporomandibular joint arthralgia (M26.62-)
+[R6889] Other general symptoms and signs
+[R69] Illness, unspecified -- **Inclusion terms:** - Unknown and unspecified cases of morbidity
+[R70] Elevated erythrocyte sedimentation rate and abnormality of plasma viscosity
+[R700] Elevated erythrocyte sedimentation rate
+[R701] Abnormal plasma viscosity
+[R71] Abnormality of red blood cells -- **Excludes1:** - anemias (D50-D64) - anemia of premature infant (P61.2) - benign (familial) polycythemia (D75.0) - congenital anemias (P61.2-P61.4) - newborn anemia due to isoimmunization (P55.-) - polycythemia neonatorum (P61.1) - polycythemia NOS (D75.1) - polycythemia vera (D45) - secondary polycythemia (D75.1)
+[R710] Precipitous drop in hematocrit -- **Inclusion terms:** - Drop (precipitous) in hemoglobin - Drop in hematocrit
+[R718] Other abnormality of red blood cells -- **Inclusion terms:** - Abnormal red-cell morphology NOS - Abnormal red-cell volume NOS - Anisocytosis - Poikilocytosis
+[R73] Elevated blood glucose level -- **Excludes1:** - diabetes mellitus (E08-E13) - diabetes mellitus in pregnancy, childbirth and the puerperium (O24.-) - neonatal disorders (P70.0-P70.2) - postsurgical hypoinsulinemia (E89.1)
+[R730] Abnormal glucose -- **Excludes1:** - abnormal glucose in pregnancy (O99.81-) - diabetes mellitus (E08-E13) - dysmetabolic syndrome X (E88.81-) - gestational diabetes (O24.4-) - glycosuria (R81) - hypoglycemia (E16.2) - type 1 diabetes mellitus, presymptomatic (E10.A-)
+[R7301] Impaired fasting glucose -- **Inclusion terms:** - Elevated fasting glucose
+[R7302] Impaired glucose tolerance (oral) -- **Inclusion terms:** - Elevated glucose tolerance
+[R7303] Prediabetes -- **Inclusion terms:** - Latent diabetes
+[R7309] Other abnormal glucose -- **Inclusion terms:** - Abnormal glucose NOS - Abnormal non-fasting glucose tolerance
+[R739] Hyperglycemia, unspecified
+[R74] Abnormal serum enzyme levels
+[R740] Nonspecific elevation of levels of transaminase and lactic acid dehydrogenase [LDH]
+[R7401] Elevation of levels of liver transaminase levels -- **Inclusion terms:** - Elevation of levels of alanine transaminase (ALT) - Elevation of levels of aspartate transaminase (AST)
+[R7402] Elevation of levels of lactic acid dehydrogenase [LDH]
+[R748] Abnormal levels of other serum enzymes -- **Inclusion terms:** - Abnormal level of acid phosphatase - Abnormal level of alkaline phosphatase - Abnormal level of amylase - Abnormal level of lipase [triacylglycerol lipase]
+[R749] Abnormal serum enzyme level, unspecified
+[R75] Inconclusive laboratory evidence of human immunodeficiency virus [HIV] -- **Inclusion terms:** - Nonconclusive HIV-test finding in infants  **Excludes1:** - asymptomatic human immunodeficiency virus [HIV] infection status (Z21) - human immunodeficiency virus [HIV] disease (B20)
+[R76] Other abnormal immunological findings in serum
+[R760] Raised antibody titer -- **Excludes1:** - isoimmunization in pregnancy (O36.0-O36.1) - isoimmunization affecting newborn (P55.-)
+[R761] Nonspecific reaction to test for tuberculosis
+[R7611] Nonspecific reaction to tuberculin skin test without active tuberculosis -- **Inclusion terms:** - Abnormal result of Mantoux test - PPD positive - Tuberculin (skin test) positive - Tuberculin (skin test) reactor  **Excludes1:** - nonspecific reaction to cell mediated immunity measurement of gamma interferon antigen response without active tuberculosis (R76.12)
+[R7612] Nonspecific reaction to cell mediated immunity measurement of gamma interferon antigen response without active tuberculosis -- **Inclusion terms:** - Nonspecific reaction to QuantiFERON-TB test (QFT) without active tuberculosis  **Excludes1:** - nonspecific reaction to tuberculin skin test without active tuberculosis (R76.11) - positive tuberculin skin test (R76.11)
+[R768] Other specified abnormal immunological findings in serum -- **Inclusion terms:** - Raised level of immunoglobulins NOS
+[R769] Abnormal immunological finding in serum, unspecified
+[R77] Other abnormalities of plasma proteins -- **Excludes1:** - disorders of plasma-protein metabolism (E88.0-)
+[R770] Abnormality of albumin
+[R771] Abnormality of globulin -- **Inclusion terms:** - Hyperglobulinemia NOS
+[R772] Abnormality of alphafetoprotein
+[R778] Other specified abnormalities of plasma proteins
+[R779] Abnormality of plasma protein, unspecified
+[R78] Findings of drugs and other substances, not normally found in blood -- **Excludes2:** - mental or behavioral disorders due to psychoactive substance use (F10-F19)  **Use additional code:** - code to identify the any retained foreign body, if applicable (Z18.-)
+[R780] Finding of alcohol in blood -- **Use additional code:** - external cause code (Y90.-), for detail regarding alcohol level.
+[R781] Finding of opiate drug in blood
+[R782] Finding of cocaine in blood
+[R783] Finding of hallucinogen in blood
+[R784] Finding of other drugs of addictive potential in blood
+[R785] Finding of other psychotropic drug in blood
+[R786] Finding of steroid agent in blood
+[R787] Finding of abnormal level of heavy metals in blood
+[R7871] Abnormal lead level in blood -- **Excludes1:** - lead poisoning (T56.0-)
+[R7879] Finding of abnormal level of heavy metals in blood
+[R788] Finding of other specified substances, not normally found in blood
+[R7881] Bacteremia -- **Excludes1:** - sepsis-code to specified infection
+[R7889] Finding of other specified substances, not normally found in blood -- **Inclusion terms:** - Finding of abnormal level of lithium in blood
+[R789] Finding of unspecified substance, not normally found in blood
+[R79] Other abnormal findings of blood chemistry -- **Excludes1:** - asymptomatic hyperuricemia (E79.0) - hyperglycemia NOS (R73.9) - hypoglycemia NOS (E16.2) - neonatal hypoglycemia (P70.3-P70.4) - specific findings indicating disorder of amino-acid metabolism (E70-E72) - specific findings indicating disorder of carbohydrate metabolism (E73-E74) - specific findings indicating disorder of lipid metabolism (E75.-)  **Use additional code:** - code to identify any retained foreign body, if applicable (Z18.-)
+[R790] Abnormal level of blood mineral -- **Inclusion terms:** - Abnormal blood level of cobalt - Abnormal blood level of copper - Abnormal blood level of iron - Abnormal blood level of magnesium - Abnormal blood level of mineral NEC - Abnormal blood level of zinc  **Excludes1:** - abnormal level of lithium (R78.89) - disorders of mineral metabolism (E83.-) - neonatal hypomagnesemia (P71.2) - nutritional mineral deficiency (E58-E61)
+[R791] Abnormal coagulation profile -- **Inclusion terms:** - Abnormal or prolonged bleeding time - Abnormal or prolonged coagulation time - Abnormal or prolonged partial thromboplastin time [PTT] - Abnormal or prolonged prothrombin time [PT] - Low von Willebrand factor  **Excludes1:** - coagulation defects (D68.-)  **Excludes2:** - abnormality of fluid, electrolyte or acid-base balance (E86-E87)
+[R798] Other specified abnormal findings of blood chemistry
+[R7981] Abnormal blood-gas level
+[R7982] Elevated C-reactive protein (CRP)
+[R7983] Abnormal findings of blood amino-acid level -- **Inclusion terms:** - Homocysteinemia  **Excludes1:** - disorders of amino-acid metabolism (E70-E72)
+[R7989] Other specified abnormal findings of blood chemistry
+[R799] Abnormal finding of blood chemistry, unspecified
+[R80] Proteinuria -- **Excludes1:** - gestational proteinuria (O12.1-)
+[R800] Isolated proteinuria -- **Inclusion terms:** - Idiopathic proteinuria  **Excludes1:** - isolated proteinuria with specific morphological lesion (N06.-)
+[R801] Persistent proteinuria, unspecified
+[R802] Orthostatic proteinuria, unspecified -- **Inclusion terms:** - Postural proteinuria
+[R803] Bence Jones proteinuria
+[R808] Other proteinuria
+[R809] Proteinuria, unspecified -- **Inclusion terms:** - Albuminuria NOS
+[R81] Glycosuria -- **Excludes1:** - renal glycosuria (E74.818)
+[R82] Other and unspecified abnormal findings in urine -- **Includes:** - chromoabnormalities in urine  **Excludes2:** - hematuria (R31.-)  **Use additional code:** - code to identify any retained foreign body, if applicable (Z18.-)
+[R820] Chyluria -- **Excludes1:** - filarial chyluria (B74.-)
+[R821] Myoglobinuria
+[R822] Biliuria
+[R823] Hemoglobinuria -- **Excludes1:** - hemoglobinuria due to hemolysis from external causes NEC (D59.6) - hemoglobinuria due to paroxysmal nocturnal [Marchiafava-Micheli] (D59.5)
+[R824] Acetonuria -- **Inclusion terms:** - Ketonuria
+[R825] Elevated urine levels of drugs, medicaments and biological substances -- **Inclusion terms:** - Elevated urine levels of catecholamines - Elevated urine levels of indoleacetic acid - Elevated urine levels of 17-ketosteroids - Elevated urine levels of steroids
+[R826] Abnormal urine levels of substances chiefly nonmedicinal as to source -- **Inclusion terms:** - Abnormal urine level of heavy metals
+[R827] Abnormal findings on microbiological examination of urine -- **Excludes1:** - colonization status (Z22.-)
+[R8271] Bacteriuria
+[R8279] Other abnormal findings on microbiological examination of urine -- **Inclusion terms:** - Positive culture findings of urine
+[R828] Abnormal findings on cytological and histological examination of urine
+[R8281] Pyuria -- **Inclusion terms:** - Sterile pyuria
+[R8289] Other abnormal findings on cytological and histological examination of urine
+[R829] Other and unspecified abnormal findings in urine
+[R8290] Unspecified abnormal findings in urine
+[R8291] Other chromoabnormalities of urine -- **Inclusion terms:** - Chromoconversion (dipstick) - Idiopathic dipstick converts positive for blood with no cellular forms in sediment  **Excludes1:** - hemoglobinuria (R82.3) - myoglobinuria (R82.1)
+[R8299] Other abnormal findings in urine
+[R82991] Hypocitraturia
+[R82992] Hyperoxaluria -- **Excludes1:** - Primary hyperoxaluria (E72.53)
+[R82993] Hyperuricosuria
+[R82994] Hypercalciuria -- **Inclusion terms:** - Idiopathic hypercalciuria
+[R82998] Other abnormal findings in urine -- **Inclusion terms:** - Cells and casts in urine - Crystalluria - Melanuria
+[R83] Abnormal findings in cerebrospinal fluid
+[R830] Abnormal level of enzymes in cerebrospinal fluid
+[R831] Abnormal level of hormones in cerebrospinal fluid
+[R832] Abnormal level of other drugs, medicaments and biological substances in cerebrospinal fluid
+[R833] Abnormal level of substances chiefly nonmedicinal as to source in cerebrospinal fluid
+[R834] Abnormal immunological findings in cerebrospinal fluid
+[R835] Abnormal microbiological findings in cerebrospinal fluid -- **Inclusion terms:** - Positive culture findings in cerebrospinal fluid  **Excludes1:** - colonization status (Z22.-)
+[R836] Abnormal cytological findings in cerebrospinal fluid
+[R838] Other abnormal findings in cerebrospinal fluid -- **Inclusion terms:** - Abnormal chromosomal findings in cerebrospinal fluid
+[R839] Unspecified abnormal finding in cerebrospinal fluid
+[R84] Abnormal findings in specimens from respiratory organs and thorax -- **Includes:** - abnormal findings in bronchial washings - abnormal findings in nasal secretions - abnormal findings in pleural fluid - abnormal findings in sputum - abnormal findings in throat scrapings  **Excludes1:** - blood-stained sputum (R04.2)
+[R840] Abnormal level of enzymes in specimens from respiratory organs and thorax
+[R841] Abnormal level of hormones in specimens from respiratory organs and thorax
+[R842] Abnormal level of other drugs, medicaments and biological substances in specimens from respiratory organs and thorax
+[R843] Abnormal level of substances chiefly nonmedicinal as to source in specimens from respiratory organs and thorax
+[R844] Abnormal immunological findings in specimens from respiratory organs and thorax
+[R845] Abnormal microbiological findings in specimens from respiratory organs and thorax -- **Inclusion terms:** - Positive culture findings in specimens from respiratory organs and thorax  **Excludes1:** - colonization status (Z22.-)
+[R846] Abnormal cytological findings in specimens from respiratory organs and thorax
+[R847] Abnormal histological findings in specimens from respiratory organs and thorax
+[R848] Other abnormal findings in specimens from respiratory organs and thorax -- **Inclusion terms:** - Abnormal chromosomal findings in specimens from respiratory organs and thorax
+[R849] Unspecified abnormal finding in specimens from respiratory organs and thorax
+[R85] Abnormal findings in specimens from digestive organs and abdominal cavity -- **Includes:** - abnormal findings in peritoneal fluid - abnormal findings in saliva  **Excludes1:** - cloudy peritoneal dialysis effluent (R88.0) - fecal abnormalities (R19.5)
+[R850] Abnormal level of enzymes in specimens from digestive organs and abdominal cavity
+[R851] Abnormal level of hormones in specimens from digestive organs and abdominal cavity
+[R852] Abnormal level of other drugs, medicaments and biological substances in specimens from digestive organs and abdominal cavity
+[R853] Abnormal level of substances chiefly nonmedicinal as to source in specimens from digestive organs and abdominal cavity
+[R854] Abnormal immunological findings in specimens from digestive organs and abdominal cavity
+[R855] Abnormal microbiological findings in specimens from digestive organs and abdominal cavity -- **Inclusion terms:** - Positive culture findings in specimens from digestive organs and abdominal cavity  **Excludes1:** - colonization status (Z22.-)
+[R856] Abnormal cytological findings in specimens from digestive organs and abdominal cavity
+[R8561] Abnormal cytologic smear of anus -- **Excludes1:** - abnormal cytological findings in specimens from other digestive organs and abdominal cavity (R85.69) - carcinoma in situ of anus (histologically confirmed) (D01.3) - anal intraepithelial neoplasia I [AIN I] (K62.82) - anal intraepithelial neoplasia II [AIN II] (K62.82) - anal intraepithelial neoplasia III [AIN III] (D01.3) - dysplasia (mild) (moderate) of anus (histologically confirmed) (K62.82) - severe dysplasia of anus (histologically confirmed) (D01.3)  **Excludes2:** - anal high risk human papillomavirus (HPV) DNA test positive (R85.81) - anal low risk human papillomavirus (HPV) DNA test positive (R85.82)
+[R85610] Atypical squamous cells of undetermined significance on cytologic smear of anus (ASC-US)
+[R85611] Atypical squamous cells cannot exclude high grade squamous intraepithelial lesion on cytologic smear of anus (ASC-H)
+[R85612] Low grade squamous intraepithelial lesion on cytologic smear of anus (LGSIL)
+[R85613] High grade squamous intraepithelial lesion on cytologic smear of anus (HGSIL)
+[R85614] Cytologic evidence of malignancy on smear of anus
+[R85615] Unsatisfactory cytologic smear of anus -- **Inclusion terms:** - Inadequate sample of cytologic smear of anus
+[R85616] Satisfactory anal smear but lacking transformation zone
+[R85618] Other abnormal cytological findings on specimens from anus
+[R85619] Unspecified abnormal cytological findings in specimens from anus -- **Inclusion terms:** - Abnormal anal cytology NOS - Atypical glandular cells of anus NOS
+[R8569] Abnormal cytological findings in specimens from other digestive organs and abdominal cavity
+[R857] Abnormal histological findings in specimens from digestive organs and abdominal cavity
+[R858] Other abnormal findings in specimens from digestive organs and abdominal cavity
+[R8581] Anal high risk human papillomavirus (HPV) DNA test positive -- **Excludes1:** - anogenital warts due to human papillomavirus (HPV) (A63.0) - condyloma acuminatum (A63.0)
+[R8582] Anal low risk human papillomavirus (HPV) DNA test positive -- **Use additional code:** - code for associated human papillomavirus (B97.7)
+[R8589] Other abnormal findings in specimens from digestive organs and abdominal cavity -- **Inclusion terms:** - Abnormal chromosomal findings in specimens from digestive organs and abdominal cavity
+[R859] Unspecified abnormal finding in specimens from digestive organs and abdominal cavity
+[R86] Abnormal findings in specimens from male genital organs -- **Includes:** - abnormal findings in prostatic secretions - abnormal findings in semen, seminal fluid - abnormal spermatozoa  **Excludes1:** - azoospermia (N46.0-) - oligospermia (N46.1-)
+[R860] Abnormal level of enzymes in specimens from male genital organs
+[R861] Abnormal level of hormones in specimens from male genital organs
+[R862] Abnormal level of other drugs, medicaments and biological substances in specimens from male genital organs
+[R863] Abnormal level of substances chiefly nonmedicinal as to source in specimens from male genital organs
+[R864] Abnormal immunological findings in specimens from male genital organs
+[R865] Abnormal microbiological findings in specimens from male genital organs -- **Inclusion terms:** - Positive culture findings in specimens from male genital organs  **Excludes1:** - colonization status (Z22.-)
+[R866] Abnormal cytological findings in specimens from male genital organs
+[R867] Abnormal histological findings in specimens from male genital organs
+[R868] Other abnormal findings in specimens from male genital organs -- **Inclusion terms:** - Abnormal chromosomal findings in specimens from male genital organs
+[R869] Unspecified abnormal finding in specimens from male genital organs
+[R87] Abnormal findings in specimens from female genital organs -- **Includes:** - abnormal findings in secretion and smears from cervix uteri - abnormal findings in secretion and smears from vagina - abnormal findings in secretion and smears from vulva
+[R870] Abnormal level of enzymes in specimens from female genital organs
+[R871] Abnormal level of hormones in specimens from female genital organs
+[R872] Abnormal level of other drugs, medicaments and biological substances in specimens from female genital organs
+[R873] Abnormal level of substances chiefly nonmedicinal as to source in specimens from female genital organs
+[R874] Abnormal immunological findings in specimens from female genital organs
+[R875] Abnormal microbiological findings in specimens from female genital organs -- **Inclusion terms:** - Positive culture findings in specimens from female genital organs  **Excludes1:** - colonization status (Z22.-)
+[R876] Abnormal cytological findings in specimens from female genital organs
+[R8761] Abnormal cytological findings in specimens from cervix uteri -- **Excludes1:** - abnormal cytological findings in specimens from other female genital organs (R87.69) - abnormal cytological findings in specimens from vagina (R87.62-) - carcinoma in situ of cervix uteri (histologically confirmed) (D06.-) - cervical intraepithelial neoplasia I [CIN I] (N87.0) - cervical intraepithelial neoplasia II [CIN II] (N87.1) - cervical intraepithelial neoplasia III [CIN III] (D06.-) - dysplasia (mild) (moderate) of cervix uteri (histologically confirmed) (N87.-) - severe dysplasia of cervix uteri (histologically confirmed) (D06.-)  **Excludes2:** - cervical high risk human papillomavirus (HPV) DNA test positive (R87.810) - cervical low risk human papillomavirus (HPV) DNA test positive (R87.820)
+[R87610] Atypical squamous cells of undetermined significance on cytologic smear of cervix (ASC-US)
+[R87611] Atypical squamous cells cannot exclude high grade squamous intraepithelial lesion on cytologic smear of cervix (ASC-H)
+[R87612] Low grade squamous intraepithelial lesion on cytologic smear of cervix (LGSIL)
+[R87613] High grade squamous intraepithelial lesion on cytologic smear of cervix (HGSIL)
+[R87614] Cytologic evidence of malignancy on smear of cervix
+[R87615] Unsatisfactory cytologic smear of cervix -- **Inclusion terms:** - Inadequate sample of cytologic smear of cervix
+[R87616] Satisfactory cervical smear but lacking transformation zone
+[R87618] Other abnormal cytological findings on specimens from cervix uteri
+[R87619] Unspecified abnormal cytological findings in specimens from cervix uteri -- **Inclusion terms:** - Abnormal cervical cytology NOS - Abnormal Papanicolaou smear of cervix NOS - Abnormal thin preparation smear of cervix NOS - Atypical endocervial cells of cervix NOS - Atypical endometrial cells of cervix NOS - Atypical glandular cells of cervix NOS
+[R8762] Abnormal cytological findings in specimens from vagina -- **Excludes1:** - abnormal cytological findings in specimens from cervix uteri (R87.61-) - abnormal cytological findings in specimens from other female genital organs (R87.69) - carcinoma in situ of vagina (histologically confirmed) (D07.2) - vaginal intraepithelial neoplasia I [VAIN I] (N89.0) - vaginal intraepithelial neoplasia II [VAIN II] (N89.1) - vaginal intraepithelial neoplasia III [VAIN III] (D07.2) - dysplasia (mild) (moderate) of vagina (histologically confirmed) (N89.-) - severe dysplasia of vagina (histologically confirmed) (D07.2)  **Excludes2:** - vaginal high risk human papillomavirus (HPV) DNA test positive (R87.811) - vaginal low risk human papillomavirus (HPV) DNA test positive (R87.821)  **Use additional code:** - code to identify acquired absence of uterus and cervix, if applicable (Z90.71-)
+[R87620] Atypical squamous cells of undetermined significance on cytologic smear of vagina (ASC-US)
+[R87621] Atypical squamous cells cannot exclude high grade squamous intraepithelial lesion on cytologic smear of vagina (ASC-H)
+[R87622] Low grade squamous intraepithelial lesion on cytologic smear of vagina (LGSIL)
+[R87623] High grade squamous intraepithelial lesion on cytologic smear of vagina (HGSIL)
+[R87624] Cytologic evidence of malignancy on smear of vagina
+[R87625] Unsatisfactory cytologic smear of vagina -- **Inclusion terms:** - Inadequate sample of cytologic smear of vagina
+[R87628] Other abnormal cytological findings on specimens from vagina
+[R87629] Unspecified abnormal cytological findings in specimens from vagina -- **Inclusion terms:** - Abnormal Papanicolaou smear of vagina NOS - Abnormal thin preparation smear of vagina NOS - Abnormal vaginal cytology NOS - Atypical endocervical cells of vagina NOS - Atypical endometrial cells of vagina NOS - Atypical glandular cells of vagina NOS
+[R8769] Abnormal cytological findings in specimens from other female genital organs -- **Inclusion terms:** - Abnormal cytological findings in specimens from female genital organs NOS  **Excludes1:** - dysplasia of vulva (histologically confirmed) (N90.0-N90.3)
+[R877] Abnormal histological findings in specimens from female genital organs -- **Excludes1:** - carcinoma in situ (histologically confirmed) of female genital organs (D06-D07.3) - cervical intraepithelial neoplasia I [CIN I] (N87.0) - cervical intraepithelial neoplasia II [CIN II] (N87.1) - cervical intraepithelial neoplasia III [CIN III] (D06.-) - dysplasia (mild) (moderate) of cervix uteri (histologically confirmed) (N87.-) - dysplasia (mild) (moderate) of vagina (histologically confirmed) (N89.-) - vaginal intraepithelial neoplasia I [VAIN I] (N89.0) - vaginal intraepithelial neoplasia II [VAIN II] (N89.1) - vaginal intraepithelial neoplasia III [VAIN III] (D07.2) - severe dysplasia of cervix uteri (histologically confirmed) (D06.-) - severe dysplasia of vagina (histologically confirmed) (D07.2)
+[R878] Other abnormal findings in specimens from female genital organs
+[R8781] High risk human papillomavirus (HPV) DNA test positive from female genital organs -- **Excludes1:** - anogenital warts due to human papillomavirus (HPV) (A63.0) - condyloma acuminatum (A63.0)
+[R87810] Cervical high risk human papillomavirus (HPV) DNA test positive
+[R87811] Vaginal high risk human papillomavirus (HPV) DNA test positive
+[R8782] Low risk human papillomavirus (HPV) DNA test positive from female genital organs -- **Use additional code:** - code for associated human papillomavirus (B97.7)
+[R87820] Cervical low risk human papillomavirus (HPV) DNA test positive
+[R87821] Vaginal low risk human papillomavirus (HPV) DNA test positive
+[R8789] Other abnormal findings in specimens from female genital organs -- **Inclusion terms:** - Abnormal chromosomal findings in specimens from female genital organs
+[R879] Unspecified abnormal finding in specimens from female genital organs
+[R88] Abnormal findings in other body fluids and substances
+[R880] Cloudy (hemodialysis) (peritoneal) dialysis effluent
+[R888] Abnormal findings in other body fluids and substances
+[R89] Abnormal findings in specimens from other organs, systems and tissues -- **Includes:** - abnormal findings in nipple discharge - abnormal findings in synovial fluid - abnormal findings in wound secretions
+[R890] Abnormal level of enzymes in specimens from other organs, systems and tissues
+[R891] Abnormal level of hormones in specimens from other organs, systems and tissues
+[R892] Abnormal level of other drugs, medicaments and biological substances in specimens from other organs, systems and tissues
+[R893] Abnormal level of substances chiefly nonmedicinal as to source in specimens from other organs, systems and tissues
+[R894] Abnormal immunological findings in specimens from other organs, systems and tissues
+[R895] Abnormal microbiological findings in specimens from other organs, systems and tissues -- **Inclusion terms:** - Positive culture findings in specimens from other organs, systems and tissues  **Excludes1:** - colonization status (Z22.-)
+[R896] Abnormal cytological findings in specimens from other organs, systems and tissues
+[R897] Abnormal histological findings in specimens from other organs, systems and tissues
+[R898] Other abnormal findings in specimens from other organs, systems and tissues -- **Inclusion terms:** - Abnormal chromosomal findings in specimens from other organs, systems and tissues
+[R899] Unspecified abnormal finding in specimens from other organs, systems and tissues
+[R90] Abnormal findings on diagnostic imaging of central nervous system
+[R900] Intracranial space-occupying lesion found on diagnostic imaging of central nervous system
+[R908] Other abnormal findings on diagnostic imaging of central nervous system
+[R9081] Abnormal echoencephalogram
+[R9082] White matter disease, unspecified
+[R9089] Other abnormal findings on diagnostic imaging of central nervous system -- **Inclusion terms:** - Other cerebrovascular abnormality found on diagnostic imaging of central nervous system
+[R91] Abnormal findings on diagnostic imaging of lung
+[R911] Solitary pulmonary nodule -- **Inclusion terms:** - Coin lesion lung - Solitary pulmonary nodule, subsegmental branch of the bronchial tree
+[R918] Other nonspecific abnormal finding of lung field -- **Inclusion terms:** - Lung mass NOS found on diagnostic imaging of lung - Pulmonary infiltrate NOS - Shadow, lung
+[R92] Abnormal and inconclusive findings on diagnostic imaging of breast
+[R920] Mammographic microcalcification found on diagnostic imaging of breast -- **Excludes2:** - mammographic calcification (calculus) found on diagnostic imaging of breast (R92.1)
+[R921] Mammographic calcification found on diagnostic imaging of breast -- **Inclusion terms:** - Mammographic calculus found on diagnostic imaging of breast
+[R922] Inconclusive mammogram -- **Inclusion terms:** - Inconclusive mammogram NEC - Inconclusive mammography NEC
+[R923] Mammographic density found on imaging of breast -- **Code also:** - , if applicable, inconclusive mammogram (R92.2)
+[R9230] Dense breasts, unspecified -- **Inclusion terms:** - Dense breasts NOS - Low density
+[R9231] Mammographic fatty tissue density of breast -- **Inclusion terms:** - Breast Imaging Reporting and Data System (BI-RADS): A - Breast Imaging Reporting and Data System (BI-RADS): 1
+[R92311] Mammographic fatty tissue density, right breast
+[R92312] Mammographic fatty tissue density, left breast
+[R92313] Mammographic fatty tissue density, bilateral breasts
+[R9232] Mammographic fibroglandular density of breast -- **Inclusion terms:** - Breast Imaging Reporting and Data System (BI-RADS): B - Breast Imaging Reporting and Data System (BI-RADS): 2
+[R92321] Mammographic fibroglandular density, right breast
+[R92322] Mammographic fibroglandular density, left breast
+[R92323] Mammographic fibroglandular density, bilateral breasts
+[R9233] Mammographic heterogeneous density of breast -- **Inclusion terms:** - Breast Imaging Reporting and Data System (BI-RADS): C - Breast Imaging Reporting and Data System (BI-RADS): 3
+[R92331] Mammographic heterogeneous density, right breast
+[R92332] Mammographic heterogeneous density, left breast
+[R92333] Mammographic heterogeneous density, bilateral breasts
+[R9234] Mammographic extreme density of breast -- **Inclusion terms:** - Breast Imaging Reporting and Data System (BI-RADS): D - Breast Imaging Reporting and Data System (BI-RADS): 4
+[R92341] Mammographic extreme density, right breast
+[R92342] Mammographic extreme density, left breast
+[R92343] Mammographic extreme density, bilateral breasts
+[R928] Other abnormal and inconclusive findings on diagnostic imaging of breast
+[R93] Abnormal findings on diagnostic imaging of other body structures
+[R930] Abnormal findings on diagnostic imaging of skull and head, not elsewhere classified -- **Excludes1:** - intracranial space-occupying lesion found on diagnostic imaging (R90.0)
+[R931] Abnormal findings on diagnostic imaging of heart and coronary circulation -- **Inclusion terms:** - Abnormal echocardiogram NOS - Abnormal heart shadow
+[R932] Abnormal findings on diagnostic imaging of liver and biliary tract -- **Inclusion terms:** - Nonvisualization of gallbladder
+[R933] Abnormal findings on diagnostic imaging of other parts of digestive tract
+[R934] Abnormal findings on diagnostic imaging of urinary organs -- **Excludes2:** - hypertrophy of kidney (N28.81)
+[R9341] Abnormal radiologic findings on diagnostic imaging of renal pelvis, ureter, or bladder -- **Inclusion terms:** - Filling defect of bladder found on diagnostic imaging - Filling defect of renal pelvis found on diagnostic imaging - Filling defect of ureter found on diagnostic imaging
+[R9342] Abnormal radiologic findings on diagnostic imaging of kidney
+[R93421] Abnormal radiologic findings on diagnostic imaging of right kidney
+[R93422] Abnormal radiologic findings on diagnostic imaging of left kidney
+[R93429] Abnormal radiologic findings on diagnostic imaging of unspecified kidney
+[R9349] Abnormal radiologic findings on diagnostic imaging of other urinary organs
+[R935] Abnormal findings on diagnostic imaging of other abdominal regions, including retroperitoneum
+[R936] Abnormal findings on diagnostic imaging of limbs -- **Excludes2:** - abnormal finding in skin and subcutaneous tissue (R93.8-)
+[R937] Abnormal findings on diagnostic imaging of other parts of musculoskeletal system -- **Excludes2:** - abnormal findings on diagnostic imaging of skull (R93.0)
+[R938] Abnormal findings on diagnostic imaging of other specified body structures
+[R9381] Abnormal radiologic findings on diagnostic imaging of testis
+[R93811] Abnormal radiologic findings on diagnostic imaging of right testicle
+[R93812] Abnormal radiologic findings on diagnostic imaging of left testicle
+[R93813] Abnormal radiologic findings on diagnostic imaging of testicles, bilateral
+[R93819] Abnormal radiologic findings on diagnostic imaging of unspecified testicle
+[R9389] Abnormal findings on diagnostic imaging of other specified body structures -- **Inclusion terms:** - Abnormal finding by radioisotope localization of placenta - Abnormal radiological finding in skin and subcutaneous tissue - Mediastinal shift
+[R939] Diagnostic imaging inconclusive due to excess body fat of patient
+[R94] Abnormal results of function studies -- **Includes:** - abnormal results of radionuclide [radioisotope] uptake studies - abnormal results of scintigraphy
+[R940] Abnormal results of function studies of central nervous system
+[R9401] Abnormal electroencephalogram [EEG]
+[R9402] Abnormal brain scan
+[R9409] Abnormal results of other function studies of central nervous system
+[R941] Abnormal results of function studies of peripheral nervous system and special senses
+[R9411] Abnormal results of function studies of eye
+[R94110] Abnormal electro-oculogram [EOG]
+[R94111] Abnormal electroretinogram [ERG] -- **Inclusion terms:** - Abnormal retinal function study
+[R94112] Abnormal visually evoked potential [VEP]
+[R94113] Abnormal oculomotor study
+[R94118] Abnormal results of other function studies of eye
+[R9412] Abnormal results of function studies of ear and other special senses
+[R94120] Abnormal auditory function study
+[R94121] Abnormal vestibular function study
+[R94128] Abnormal results of other function studies of ear and other special senses
+[R9413] Abnormal results of function studies of peripheral nervous system
+[R94130] Abnormal response to nerve stimulation, unspecified
+[R94131] Abnormal electromyogram [EMG] -- **Excludes1:** - electromyogram of eye (R94.113)
+[R94138] Abnormal results of other function studies of peripheral nervous system
+[R942] Abnormal results of pulmonary function studies -- **Inclusion terms:** - Reduced ventilatory capacity - Reduced vital capacity
+[R943] Abnormal results of cardiovascular function studies
+[R9430] Abnormal result of cardiovascular function study, unspecified
+[R9431] Abnormal electrocardiogram [ECG] [EKG] -- **Excludes1:** - long QT syndrome (I45.81)
+[R9439] Abnormal result of other cardiovascular function study -- **Inclusion terms:** - Abnormal electrophysiological intracardiac studies - Abnormal phonocardiogram - Abnormal vectorcardiogram
+[R944] Abnormal results of kidney function studies -- **Inclusion terms:** - Abnormal renal function test
+[R945] Abnormal results of liver function studies
+[R946] Abnormal results of thyroid function studies
+[R947] Abnormal results of other endocrine function studies -- **Excludes2:** - abnormal glucose (R73.0-)
+[R948] Abnormal results of function studies of other organs and systems -- **Inclusion terms:** - Abnormal basal metabolic rate [BMR] - Abnormal bladder function test - Abnormal splenic function test
+[R97] Abnormal tumor markers -- **Inclusion terms:** - Elevated tumor associated antigens [TAA] - Elevated tumor specific antigens [TSA]
+[R970] Elevated carcinoembryonic antigen [CEA]
+[R971] Elevated cancer antigen 125 [CA 125]
+[R972] Elevated prostate specific antigen [PSA]
+[R9720] Elevated prostate specific antigen [PSA]
+[R9721] Rising PSA following treatment for malignant neoplasm of prostate
+[R978] Other abnormal tumor markers
+[R99] Ill-defined and unknown cause of mortality -- **Inclusion terms:** - Death (unexplained) NOS - Unspecified cause of mortality

@@ -1,0 +1,19 @@
+[dprofbil_contingency] Contingency and Success-Fee Models :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dprofbil_contingency_exec] Executive search contingency (% of first-year comp on placement)
+[dprofbil_contingency_legal] Legal contingency (% of recovery in litigation, no win no fee)
+[dprofbil_contingency_ma] M&A success fee (% of deal value, Lehman formula variants)
+[dprofbil_fixed] Fixed Fee and Project-Based Billing :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dprofbil_fixed_capped] Capped fee with downside protection for client
+[dprofbil_fixed_phased] Phased fixed fees (milestone payments tied to deliverables)
+[dprofbil_fixed_project] Fixed project fee (defined scope, deliverable-based)
+[dprofbil_hourly] Hourly and Time-and-Materials Billing :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dprofbil_hourly_blended] Blended hourly rate (team rate, not individual partner/associate)
+[dprofbil_hourly_standard] Standard hourly billing (law firms, accounting, consulting)
+[dprofbil_hourly_tam] Time-and-materials: hours + direct costs passed through
+[dprofbil_retainer] Retainer and Subscription Models :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dprofbil_retainer_banked] Banked hours retainer: pre-purchase hours used as needed
+[dprofbil_retainer_monthly] Monthly retainer: ongoing availability/counsel at fixed fee
+[dprofbil_retainer_saas] SaaS-style annual subscription (LegalTech, consulting platforms)
+[dprofbil_valuebased] Value-Based and Outcome-Linked Billing :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dprofbil_valuebased_hybrid] Hybrid: base fixed fee + success uplift based on outcomes
+[dprofbil_valuebased_roi] ROI-sharing: fee linked to measurable client outcome improvement

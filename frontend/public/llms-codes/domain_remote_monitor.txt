@@ -1,0 +1,15 @@
+[RM] Remote Monitoring Types :: naics_2022:5415, naics_2022:6213
+[RM.01] Cardiac Remote Monitoring
+[RM.02] Glucose Monitoring (CGM)
+[RM.03] Blood Pressure Monitoring
+[RM.04] Pulse Oximetry Monitoring
+[RM.05] Weight and BMI Monitoring
+[RM.06] Respiratory Monitoring
+[RM.07] Sleep Monitoring
+[RM.08] Activity and Mobility Tracking
+[RM.09] Fall Detection System
+[RM.10] Medication Adherence Monitor
+[RM.11] Wearable ECG Monitor
+[RM.12] Implantable Monitor
+[RM.13] Alert and Notification System
+[RM.14] Data Integration Platform

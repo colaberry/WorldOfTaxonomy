@@ -1,0 +1,13 @@
+[MN] Mangrove Types :: naics_2022:5417, naics_2022:924
+[MN.01] Red Mangrove
+[MN.02] Black Mangrove
+[MN.03] White Mangrove
+[MN.04] Buttonwood Mangrove
+[MN.05] Riverine Mangrove
+[MN.06] Fringe Mangrove
+[MN.07] Basin Mangrove
+[MN.08] Overwash Mangrove
+[MN.09] Mangrove Restoration
+[MN.10] Blue Carbon (Mangrove)
+[MN.11] Mangrove Mapping (Remote Sensing)
+[MN.12] Mangrove Ecosystem Services

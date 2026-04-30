@@ -1,0 +1,14 @@
+[HL] Health Literacy Types :: naics_2022:5415, naics_2022:6215
+[HL.01] Functional Health Literacy
+[HL.02] Interactive Health Literacy
+[HL.03] Critical Health Literacy
+[HL.04] Numeracy (Health)
+[HL.05] Digital Health Literacy
+[HL.06] Oral Health Literacy
+[HL.07] Mental Health Literacy
+[HL.08] Medication Literacy
+[HL.09] Navigation Literacy
+[HL.10] Cultural Health Literacy
+[HL.11] Plain Language Standard
+[HL.12] Health Literacy Assessment
+[HL.13] Teach-Back Method

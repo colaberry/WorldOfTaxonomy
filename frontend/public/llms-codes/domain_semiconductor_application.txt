@@ -1,0 +1,20 @@
+[dscapp_auto] Automotive End-Markets :: naics_2022:3344
+[dscapp_auto_adas] ADAS and autonomous driving chips (lidar, radar, vision SoCs)
+[dscapp_auto_body] Body electronics and ADAS MCUs (CAN, LIN controllers)
+[dscapp_auto_ev] EV power electronics (SiC MOSFET, GaN, inverter ICs)
+[dscapp_auto_infotain] Automotive infotainment and cockpit SoCs
+[dscapp_consumer] Consumer Electronics End-Markets :: naics_2022:3344
+[dscapp_consumer_av] Consumer A/V: smart TV, gaming console, set-top box
+[dscapp_consumer_mobile] Mobile: smartphone, tablet, TWS earbuds SoCs and chips
+[dscapp_consumer_pc] PC: laptop, desktop CPU, GPU and peripheral chips
+[dscapp_datacom] Data Center and Communications End-Markets :: naics_2022:3344
+[dscapp_datacom_ai] AI accelerators (GPU, TPU, custom ASICs for training/inference)
+[dscapp_datacom_memory] Data center DRAM, HBM and NAND flash storage
+[dscapp_datacom_net] Networking ASICs (switch chips, DSPs, optical transceiver ICs)
+[dscapp_defense] Defence and Aerospace End-Markets :: naics_2022:3344
+[dscapp_defense_rad] Radiation-hardened ICs for space and defence
+[dscapp_defense_rf] Defence RF/microwave chips (GaAs, GaN MMIC radar, EW)
+[dscapp_industrial] Industrial and IoT End-Markets :: naics_2022:3344
+[dscapp_industrial_factory] Factory automation (PLCs, servo drives, motor control ICs)
+[dscapp_industrial_iot] Industrial IoT sensors, edge MCUs, LPWAN transceivers
+[dscapp_industrial_medical] Medical electronics (imaging, diagnostics, implantable ICs)

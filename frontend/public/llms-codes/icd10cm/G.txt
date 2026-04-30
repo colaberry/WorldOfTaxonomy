@@ -1,0 +1,920 @@
+[G00] Bacterial meningitis, not elsewhere classified -- **Includes:** - bacterial arachnoiditis - bacterial leptomeningitis - bacterial meningitis - bacterial pachymeningitis  **Excludes1:** - bacterial meningoencephalitis (G04.2) - bacterial meningomyelitis (G04.2)
+[G000] Hemophilus meningitis -- **Inclusion terms:** - Meningitis due to Hemophilus influenzae
+[G001] Pneumococcal meningitis -- **Inclusion terms:** - Meningtitis due to Streptococcal pneumoniae
+[G002] Streptococcal meningitis -- **Use additional code:** - code to further identify organism (B95.0-B95.5)
+[G003] Staphylococcal meningitis -- **Use additional code:** - code to further identify organism (B95.61-B95.8)
+[G008] Other bacterial meningitis -- **Inclusion terms:** - Meningitis due to Escherichia coli - Meningitis due to Friedländer's bacillus - Meningitis due to Klebsiella  **Use additional code:** - code to further identify organism (B96.-)
+[G009] Bacterial meningitis, unspecified -- **Inclusion terms:** - Meningitis due to gram-negative bacteria, unspecified - Purulent meningitis NOS - Pyogenic meningitis NOS - Suppurative meningitis NOS
+[G01] Meningitis in bacterial diseases classified elsewhere -- **Excludes1:** - meningitis (in): - gonococcal (A54.81) - leptospirosis (A27.81) - listeriosis (A32.11) - Lyme disease (A69.21) - meningococcal (A39.0) - neurosyphilis (A52.13) - tuberculosis (A17.0) - meningoencephalitis and meningomyelitis in bacterial diseases classified elsewhere (G05)  **Code first:** - underlying disease
+[G02] Meningitis in other infectious and parasitic diseases classified elsewhere -- **Excludes1:** - candidal meningitis (B37.5) - coccidioidomycosis meningitis (B38.4) - cryptococcal meningitis (B45.1) - herpesviral [herpes simplex] meningitis (B00.3) - infectious mononucleosis complicated by meningitis (B27.- with fifth character 2) - measles complicated by meningitis (B05.1) - meningoencephalitis and meningomyelitis in other infectious and parasitic diseases classified elsewhere (G05) - mumps meningitis (B26.1) - rubella meningitis (B06.02) - varicella [chickenpox] meningitis (B01.0) - zoster meningitis (B02.1)  **Code first:** - underlying disease, such as: - African trypanosomiasis (B56.-) - poliovirus infection (A80.-)
+[G03] Meningitis due to other and unspecified causes -- **Includes:** - arachnoiditis NOS - leptomeningitis NOS - meningitis NOS - pachymeningitis NOS  **Excludes1:** - meningoencephalitis (G04.-) - meningomyelitis (G04.-)
+[G030] Nonpyogenic meningitis -- **Inclusion terms:** - Aseptic meningitis - Nonbacterial meningitis
+[G031] Chronic meningitis
+[G032] Benign recurrent meningitis [Mollaret]
+[G038] Meningitis due to other specified causes
+[G039] Meningitis, unspecified -- **Inclusion terms:** - Arachnoiditis (spinal) NOS
+[G04] Encephalitis, myelitis and encephalomyelitis -- **Includes:** - acute ascending myelitis - meningoencephalitis - meningomyelitis  **Excludes1:** - encephalopathy NOS (G93.40)  **Excludes2:** - acute transverse myelitis (G37.3) - alcoholic encephalopathy (G31.2) - multiple sclerosis (G35) - myalgic encephalomyelitis (G93.32) - subacute necrotizing myelitis (G37.4) - toxic encephalitis (G92.8) - toxic encephalopathy (G92.8)
+[G040] Acute disseminated encephalitis and encephalomyelitis (ADEM) -- **Excludes1:** - acute necrotizing hemorrhagic encephalopathy (G04.3-) - other noninfectious acute disseminated encephalomyelitis (noninfectious ADEM) (G04.81)
+[G0400] Acute disseminated encephalitis and encephalomyelitis, unspecified
+[G0401] Postinfectious acute disseminated encephalitis and encephalomyelitis (postinfectious ADEM) -- **Excludes1:** - post chickenpox encephalitis (B01.1) - post measles encephalitis (B05.0) - post measles myelitis (B05.1)
+[G0402] Postimmunization acute disseminated encephalitis, myelitis and encephalomyelitis -- **Inclusion terms:** - Encephalitis, post immunization - Encephalomyelitis, post immunization  **Use additional code:** - code to identify the vaccine (T50.A-, T50.B-, T50.Z-)
+[G041] Tropical spastic paraplegia
+[G042] Bacterial meningoencephalitis and meningomyelitis, not elsewhere classified
+[G043] Acute necrotizing hemorrhagic encephalopathy -- **Excludes1:** - acute disseminated encephalitis and encephalomyelitis (G04.0-)
+[G0430] Acute necrotizing hemorrhagic encephalopathy, unspecified
+[G0431] Postinfectious acute necrotizing hemorrhagic encephalopathy
+[G0432] Postimmunization acute necrotizing hemorrhagic encephalopathy -- **Use additional code:** - code to identify the vaccine (T50.A-, T50.B-, T50.Z-)
+[G0439] Other acute necrotizing hemorrhagic encephalopathy -- **Code also:** - underlying etiology, if applicable
+[G048] Other encephalitis, myelitis and encephalomyelitis -- **Code also:** - any associated seizure (G40.-, R56.9)
+[G0481] Other encephalitis and encephalomyelitis -- **Inclusion terms:** - Noninfectious acute disseminated encephalomyelitis (noninfectious ADEM)
+[G0482] Acute flaccid myelitis -- **Excludes1:** - transverse myelitis (G37.3)
+[G0489] Other myelitis
+[G049] Encephalitis, myelitis and encephalomyelitis, unspecified
+[G0490] Encephalitis and encephalomyelitis, unspecified -- **Inclusion terms:** - Ventriculitis (cerebral) NOS
+[G0491] Myelitis, unspecified
+[G05] Encephalitis, myelitis and encephalomyelitis in diseases classified elsewhere -- **Excludes1:** - adenoviral encephalitis, myelitis and encephalomyelitis (A85.1) - encephalitis, myelitis and encephalomyelitis (in) measles (B05.0) - enteroviral encephalitis, myelitis and encephalomyelitis (A85.0) - herpesviral [herpes simplex] encephalitis, myelitis and encephalomyelitis (B00.4) - listerial encephalitis, myelitis and encephalomyelitis (A32.12) - meningococcal encephalitis, myelitis and encephalomyelitis (A39.81) - mumps encephalitis, myelitis and encephalomyelitis (B26.2) - postchickenpox encephalitis, myelitis and encephalomyelitis (B01.1-) - rubella encephalitis, myelitis and encephalomyelitis (B06.01) - toxoplasmosis encephalitis, myelitis and encephalomyelitis (B58.2) - zoster encephalitis, myelitis and encephalomyelitis (B02.0)  **Code first:** - underlying disease, such as: - congenital toxoplasmosis encephalitis, myelitis and encephalomyelitis (P37.1) - cytomegaloviral encephalitis, myelitis and encephalomyelitis (B25.8) - encephalitis, myelitis and encephalomyelitis (in) systemic lupus erythematosus (M32.19) - eosinophilic meningoencephalitis (B83.2) - human immunodeficiency virus [HIV] disease (B20) - poliovirus (A80.-) - suppurative otitis media (H66.01-H66.4) - systemic lupus erythematosus (M32.19) - trichinellosis (B75)
+[G053] Encephalitis and encephalomyelitis in diseases classified elsewhere -- **Inclusion terms:** - Meningoencephalitis in diseases classified elsewhere  **Code first:** - underlying disease
+[G054] Myelitis in diseases classified elsewhere -- **Inclusion terms:** - Meningomyelitis in diseases classified elsewhere
+[G06] Intracranial and intraspinal abscess and granuloma -- **Use additional code:** - code (B95-B97) to identify infectious agent.
+[G060] Intracranial abscess and granuloma -- **Inclusion terms:** - Brain [any part] abscess (embolic) - Cerebellar abscess (embolic) - Cerebral abscess (embolic) - Intracranial epidural abscess or granuloma - Intracranial extradural abscess or granuloma - Intracranial subdural abscess or granuloma - Otogenic abscess (embolic)  **Excludes1:** - tuberculous intracranial abscess and granuloma (A17.81)
+[G061] Intraspinal abscess and granuloma -- **Inclusion terms:** - Abscess (embolic) of spinal cord [any part] - Intraspinal epidural abscess or granuloma - Intraspinal extradural abscess or granuloma - Intraspinal subdural abscess or granuloma  **Excludes1:** - tuberculous intraspinal abscess and granuloma (A17.81)
+[G062] Extradural and subdural abscess, unspecified
+[G07] Intracranial and intraspinal abscess and granuloma in diseases classified elsewhere -- **Excludes1:** - abscess of brain: - amebic (A06.6) - chromomycotic (B43.1) - gonococcal (A54.82) - tuberculous (A17.81) - tuberculoma of meninges (A17.1)  **Code first:** - underlying disease, such as: - schistosomiasis granuloma of brain (B65.-)
+[G08] Intracranial and intraspinal phlebitis and thrombophlebitis -- **Inclusion terms:** - Septic embolism of intracranial or intraspinal venous sinuses and veins - Septic endophlebitis of intracranial or intraspinal venous sinuses and veins - Septic phlebitis of intracranial or intraspinal venous sinuses and veins - Septic thrombophlebitis of intracranial or intraspinal venous sinuses and veins - Septic thrombosis of intracranial or intraspinal venous sinuses and veins  **Excludes1:** - intracranial phlebitis and thrombophlebitis complicating: - abortion, ectopic or molar pregnancy (O00-O07, O08.7) - pregnancy, childbirth and the puerperium (O22.5, O87.3) - nonpyogenic intracranial phlebitis and thrombophlebitis (I67.6)  **Excludes2:** - intracranial phlebitis and thrombophlebitis complicating nonpyogenic intraspinal phlebitis and thrombophlebitis (G95.1)
+[G09] Sequelae of inflammatory diseases of central nervous system -- **Notes:** - Category G09 is to be used to indicate conditions whose primary classification is to G00-G08 as the cause of sequelae, themselves classifiable elsewhere. The 'sequelae' include conditions specified as residuals.  **Code first:** - condition resulting from (sequela) of inflammatory diseases of central nervous system
+[G10] Huntington's disease -- **Inclusion terms:** - Huntington's chorea - Huntington's dementia  **Use additional code:** - code, if applicable, to identify: - dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4) - dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-) - dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3) - dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2) - dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0) - mild neurocognitive disorder due to known physiological condition (F06.7-)
+[G11] Hereditary ataxia -- **Excludes2:** - cerebral palsy (G80.-) - hereditary and idiopathic neuropathy (G60.-) - metabolic disorders (E70-E88)
+[G110] Congenital nonprogressive ataxia
+[G111] Early-onset cerebellar ataxia
+[G1110] Early-onset cerebellar ataxia, unspecified
+[G1111] Friedreich ataxia -- **Inclusion terms:** - Autosomal recessive Friedreich ataxia - Friedreich ataxia with retained reflexes
+[G1119] Other early-onset cerebellar ataxia -- **Inclusion terms:** - Early-onset cerebellar ataxia with essential tremor - Early-onset cerebellar ataxia with myoclonus [Hunt's ataxia] - Early-onset cerebellar ataxia with retained tendon reflexes - X-linked recessive spinocerebellar ataxia
+[G112] Late-onset cerebellar ataxia
+[G113] Cerebellar ataxia with defective DNA repair -- **Inclusion terms:** - Ataxia telangiectasia [Louis-Bar]  **Excludes2:** - Cockayne's syndrome (Q87.19) - other disorders of purine and pyrimidine metabolism (E79.-) - xeroderma pigmentosum (Q82.1)
+[G114] Hereditary spastic paraplegia
+[G115] Hypomyelination - hypogonadotropic hypogonadism - hypodontia -- **Inclusion terms:** - 4H syndrome - Pol III-related leukodystrophy
+[G116] Leukodystrophy with vanishing white matter disease
+[G118] Other hereditary ataxias
+[G119] Hereditary ataxia, unspecified -- **Inclusion terms:** - Hereditary cerebellar ataxia NOS - Hereditary cerebellar degeneration - Hereditary cerebellar disease - Hereditary cerebellar syndrome
+[G12] Spinal muscular atrophy and related syndromes
+[G120] Infantile spinal muscular atrophy, type I [Werdnig-Hoffman]
+[G121] Other inherited spinal muscular atrophy -- **Inclusion terms:** - Adult form spinal muscular atrophy - Childhood form, type II spinal muscular atrophy - Distal spinal muscular atrophy - Juvenile form, type III spinal muscular atrophy [Kugelberg-Welander] - Progressive bulbar palsy of childhood [Fazio-Londe] - Scapuloperoneal form spinal muscular atrophy
+[G122] Motor neuron disease
+[G1220] Motor neuron disease, unspecified
+[G1221] Amyotrophic lateral sclerosis
+[G1222] Progressive bulbar palsy
+[G1223] Primary lateral sclerosis
+[G1224] Familial motor neuron disease
+[G1225] Progressive spinal muscle atrophy
+[G1229] Other motor neuron disease
+[G128] Other spinal muscular atrophies and related syndromes
+[G129] Spinal muscular atrophy, unspecified
+[G13] Systemic atrophies primarily affecting central nervous system in diseases classified elsewhere
+[G130] Paraneoplastic neuromyopathy and neuropathy -- **Inclusion terms:** - Carcinomatous neuromyopathy - Sensorial paraneoplastic neuropathy [Denny Brown]  **Code first:** - underlying neoplasm (C00-D49)
+[G131] Other systemic atrophy primarily affecting central nervous system in neoplastic disease -- **Inclusion terms:** - Paraneoplastic limbic encephalopathy  **Code first:** - underlying neoplasm (C00-D49)
+[G132] Systemic atrophy primarily affecting the central nervous system in myxedema -- **Code first:** - underlying disease, such as: - hypothyroidism (E03.-) - myxedematous congenital iodine deficiency (E00.1)
+[G138] Systemic atrophy primarily affecting central nervous system in other diseases classified elsewhere -- **Code first:** - underlying disease
+[G14] Postpolio syndrome -- **Includes:** - postpolio myelitic syndrome  **Excludes1:** - sequelae of poliomyelitis (B91)
+[G20] Parkinson's disease -- **Inclusion terms:** - Hemiparkinsonism - Idiopathic Parkinsonism or Parkinson's disease - Paralysis agitans - Primary Parkinsonism or Parkinson's disease  **Use additional code:** - code, if applicable, to identify: - dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4) - dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-) - dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3) - dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2) - dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0) - mild neurocognitive disorder due to known physiological condition (F06.7-)
+[G20A] Parkinson's disease without dyskinesia
+[G20A1] Parkinson's disease without dyskinesia, without mention of fluctuations -- **Inclusion terms:** - Parkinson's disease NOS - Parkinson's disease without dyskinesia, without mention of OFF episodes
+[G20A2] Parkinson's disease without dyskinesia, with fluctuations -- **Inclusion terms:** - Parkinson's disease without dyskinesia, with OFF episodes
+[G20B] Parkinson's disease with dyskinesia -- **Excludes1:** - drug induced dystonia (G24.0-)
+[G20B1] Parkinson's disease with dyskinesia, without mention of fluctuations -- **Inclusion terms:** - Parkinson's disease with dyskinesia, without mention of OFF episodes
+[G20B2] Parkinson's disease with dyskinesia, with fluctuations -- **Inclusion terms:** - Parkinson's disease with dyskinesia, with OFF episodes
+[G20C] Parkinsonism, unspecified -- **Inclusion terms:** - Parkinsonism, NOS  **Excludes1:** - Parkinson's disease NOS (G20.A1) - Parkinson's disease with dyskinesia (G20.B-) - Parkinson's disease without dyskinesia (G20.A-) - secondary parkinsonism (G21.-)
+[G21] Secondary parkinsonism -- **Excludes1:** - Huntington's disease (G10) - neurocognitive disorder with Lewy bodies (G31.83) - Shy-Drager syndrome (G90.3) - syphilitic Parkinsonism (A52.19)
+[G210] Malignant neuroleptic syndrome -- **Excludes1:** - neuroleptic induced parkinsonism (G21.11)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T43.3X5, T43.4X5, T43.505, T43.595)
+[G211] Other drug-induced secondary parkinsonism
+[G2111] Neuroleptic induced parkinsonism -- **Excludes1:** - malignant neuroleptic syndrome (G21.0)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T43.3X5, T43.4X5, T43.505, T43.595)
+[G2119] Other drug induced secondary parkinsonism -- **Inclusion terms:** - Other medication-induced parkinsonism  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G212] Secondary parkinsonism due to other external agents -- **Code first:** - (T51-T65) to identify external agent
+[G213] Postencephalitic parkinsonism
+[G214] Vascular parkinsonism
+[G218] Other secondary parkinsonism
+[G219] Secondary parkinsonism, unspecified
+[G23] Other degenerative diseases of basal ganglia -- **Excludes2:** - multi-system degeneration of the autonomic nervous system (G90.3)
+[G230] Hallervorden-Spatz disease -- **Inclusion terms:** - Pigmentary pallidal degeneration
+[G231] Progressive supranuclear ophthalmoplegia [Steele-Richardson-Olszewski] -- **Inclusion terms:** - Progressive supranuclear palsy
+[G232] Striatonigral degeneration
+[G233] Hypomyelination with atrophy of the basal ganglia and cerebellum -- **Inclusion terms:** - H-ABC
+[G238] Other specified degenerative diseases of basal ganglia -- **Inclusion terms:** - Calcification of basal ganglia
+[G239] Degenerative disease of basal ganglia, unspecified
+[G24] Dystonia -- **Includes:** - dyskinesia  **Excludes2:** - athetoid cerebral palsy (G80.3)
+[G240] Drug induced dystonia -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G2401] Drug induced subacute dyskinesia -- **Inclusion terms:** - Drug induced blepharospasm - Drug induced orofacial dyskinesia - Neuroleptic induced tardive dyskinesia - Tardive dyskinesia
+[G2402] Drug induced acute dystonia -- **Inclusion terms:** - Acute dystonic reaction to drugs - Neuroleptic induced acute dystonia
+[G2409] Other drug induced dystonia
+[G241] Genetic torsion dystonia -- **Inclusion terms:** - Dystonia deformans progressiva - Dystonia musculorum deformans - Familial torsion dystonia - Idiopathic familial dystonia - Idiopathic (torsion) dystonia NOS - (Schwalbe-) Ziehen-Oppenheim disease
+[G242] Idiopathic nonfamilial dystonia
+[G243] Spasmodic torticollis -- **Excludes1:** - congenital torticollis (Q68.0) - hysterical torticollis (F44.4) - ocular torticollis (R29.891) - psychogenic torticollis (F45.8) - torticollis NOS (M43.6) - traumatic recurrent torticollis (S13.4)
+[G244] Idiopathic orofacial dystonia -- **Inclusion terms:** - Orofacial dyskinesia  **Excludes1:** - drug induced orofacial dyskinesia (G24.01)
+[G245] Blepharospasm -- **Excludes1:** - drug induced blepharospasm (G24.01)
+[G248] Other dystonia -- **Inclusion terms:** - Acquired torsion dystonia NOS
+[G249] Dystonia, unspecified -- **Inclusion terms:** - Dyskinesia NOS
+[G25] Other extrapyramidal and movement disorders -- **Excludes2:** - sleep related movement disorders (G47.6-)
+[G250] Essential tremor -- **Inclusion terms:** - Familial tremor  **Excludes1:** - tremor NOS (R25.1)
+[G251] Drug-induced tremor -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G252] Other specified forms of tremor -- **Inclusion terms:** - Intention tremor
+[G253] Myoclonus -- **Inclusion terms:** - Drug-induced myoclonus - Palatal myoclonus  **Excludes1:** - facial myokymia (G51.4) - myoclonic epilepsy (G40.-)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G254] Drug-induced chorea -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G255] Other chorea -- **Inclusion terms:** - Chorea NOS  **Excludes1:** - chorea NOS with heart involvement (I02.0) - Huntington's chorea (G10) - rheumatic chorea (I02.-) - Sydenham's chorea (I02.-)
+[G256] Drug induced tics and other tics of organic origin
+[G2561] Drug induced tics -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G2569] Other tics of organic origin -- **Excludes1:** - habit spasm (F95.9) - tic NOS (F95.9) - Tourette's syndrome (F95.2)
+[G257] Other and unspecified drug induced movement disorders -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G2570] Drug induced movement disorder, unspecified
+[G2571] Drug induced akathisia -- **Inclusion terms:** - Drug induced acathisia - Neuroleptic induced acute akathisia - Tardive akathisia
+[G2579] Other drug induced movement disorders
+[G258] Other specified extrapyramidal and movement disorders
+[G2581] Restless legs syndrome
+[G2582] Stiff-man syndrome
+[G2583] Benign shuddering attacks
+[G2589] Other specified extrapyramidal and movement disorders
+[G259] Extrapyramidal and movement disorder, unspecified
+[G26] Extrapyramidal and movement disorders in diseases classified elsewhere -- **Code first:** - underlying disease
+[G30] Alzheimer's disease -- **Includes:** - Alzheimer's dementia senile and presenile forms  **Excludes1:** - senile degeneration of brain NEC (G31.1) - senile dementia NOS (F03.-) - senility NOS (R41.81)  **Use additional code:** - code, if applicable, to identify: - delirium, if applicable (F05) - dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4) - dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-) - dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3) - dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2) - dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0) - mild neurocognitive disorder due to known physiological condition (F06.7-)
+[G300] Alzheimer's disease with early onset
+[G301] Alzheimer's disease with late onset
+[G308] Other Alzheimer's disease
+[G309] Alzheimer's disease, unspecified
+[G31] Other degenerative diseases of nervous system, not elsewhere classified -- **Excludes2:** - Reye's syndrome (G93.7)  **Use additional code:** - code, if applicable, for codes G31.0-G31.83, G31.85-G31.9, to identify: - dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4) - dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-) - dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3) - dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2) - dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0) - mild neurocognitive disorder due to known physiological condition (F06.7-)
+[G310] Frontotemporal dementia
+[G3101] Pick's disease -- **Inclusion terms:** - Primary progressive aphasia - Progressive isolated aphasia
+[G3109] Other frontotemporal neurocognitive disorder -- **Inclusion terms:** - Frontal dementia  **Use additional code:** - code, if applicable, to identify mild neurocognitive disorders due to known physiological condition (F06.7-)
+[G311] Senile degeneration of brain, not elsewhere classified -- **Excludes1:** - Alzheimer's disease (G30.-) - senility NOS (R41.81)
+[G312] Degeneration of nervous system due to alcohol -- **Inclusion terms:** - Alcoholic cerebellar ataxia - Alcoholic cerebellar degeneration - Alcoholic cerebral degeneration - Alcoholic encephalopathy - Dysfunction of the autonomic nervous system due to alcohol  **Code also:** - associated alcoholism (F10.-)
+[G318] Other specified degenerative diseases of nervous system
+[G3180] Leukodystrophy, unspecified
+[G3181] Alpers disease -- **Inclusion terms:** - Grey-matter degeneration
+[G3182] Leigh's disease -- **Inclusion terms:** - Subacute necrotizing encephalopathy
+[G3183] Neurocognitive disorder with Lewy bodies -- **Inclusion terms:** - Lewy body dementia - Lewy body disease  **Use additional code:** - code, if applicable, to identify mild neurocognitive disorders due to known physiological condition (F06.7-)
+[G3184] Mild cognitive impairment of uncertain or unknown etiology -- **Inclusion terms:** - Mild cognitive disorder NOS - Mild neurocognitive disorder of uncertain or unknown etiology  **Excludes1:** - age related cognitive decline (R41.81) - altered mental status (R41.82) - cerebral degeneration (G31.9) - cerebrovascular diseases (I60-I69) - change in mental status (R41.82) - cognitive deficits following (sequelae of) cerebral hemorrhage or infarction (I69.01-, I69.11-, I69.21-, I69.31-, I69.81-, I69.91-) - cognitive impairment due to intracranial or head injury (S06.-) - dementia (F01.-, F02.-, F03.-) - mild neurocognitive disorder due to a known physiological condition (F06.7-) - neurologic neglect syndrome (R41.4) - personality change, nonpsychotic (F68.8)  **Use additional code:** - code to identify presence of: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - history of tobacco dependence (Z87.891) - hypertension (I10-I1A) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[G3185] Corticobasal degeneration
+[G3186] Alexander disease
+[G3189] Other specified degenerative diseases of nervous system
+[G319] Degenerative disease of nervous system, unspecified
+[G32] Other degenerative disorders of nervous system in diseases classified elsewhere
+[G320] Subacute combined degeneration of spinal cord in diseases classified elsewhere -- **Inclusion terms:** - Dana-Putnam syndrome - Sclerosis of spinal cord (combined) (dorsolateral) (posterolateral)  **Excludes1:** - syphilitic combined degeneration of spinal cord (A52.11)  **Code first:** - underlying disease, such as: - other dietary vitamin B12 deficiency anemia (D51.3) - vitamin B12 deficiency anemia due to intrinsic factor deficiency (D51.0) - vitamin B12 deficiency anemia, unspecified (D51.8) - vitamin B12 deficiency (E53.8)
+[G328] Other specified degenerative disorders of nervous system in diseases classified elsewhere -- **Excludes1:** - superior hemorrhagic polioencephalitis [Wernicke's encephalopathy] (E51.2)  **Code first:** - underlying disease, such as: - amyloidosis cerebral degeneration (E85.-) - cerebral degeneration (due to) hypothyroidism (E00.0-E03.9) - cerebral degeneration (due to) neoplasm (C00-D49) - cerebral degeneration (due to) vitamin B deficiency, except thiamine (E52-E53.-)
+[G3281] Cerebellar ataxia in diseases classified elsewhere -- **Excludes1:** - systemic atrophy primarily affecting the central nervous system in alcoholic cerebellar ataxia (G31.2) - systemic atrophy primarily affecting the central nervous system in myxedema (G13.2)  **Code first:** - underlying disease, such as: - celiac disease (with gluten ataxia) (K90.0) - cerebellar ataxia (in) neoplastic disease (paraneoplastic cerebellar degeneration) (C00-D49) - non-celiac gluten ataxia (M35.9)
+[G3289] Other specified degenerative disorders of nervous system in diseases classified elsewhere -- **Inclusion terms:** - Degenerative encephalopathy in diseases classified elsewhere
+[G35] Multiple sclerosis -- **Inclusion terms:** - Disseminated multiple sclerosis - Generalized multiple sclerosis - Multiple sclerosis NOS - Multiple sclerosis of brain stem - Multiple sclerosis of cord
+[G36] Other acute disseminated demyelination -- **Excludes1:** - postinfectious encephalitis and encephalomyelitis NOS (G04.01)
+[G360] Neuromyelitis optica [Devic] -- **Inclusion terms:** - Demyelination in optic neuritis  **Excludes1:** - optic neuritis NOS (H46)
+[G361] Acute and subacute hemorrhagic leukoencephalitis [Hurst]
+[G368] Other specified acute disseminated demyelination
+[G369] Acute disseminated demyelination, unspecified
+[G37] Other demyelinating diseases of central nervous system
+[G370] Diffuse sclerosis of central nervous system -- **Inclusion terms:** - Periaxial encephalitis - Schilder's disease  **Excludes1:** - X linked adrenoleukodystrophy (E71.52-)
+[G371] Central demyelination of corpus callosum
+[G372] Central pontine myelinolysis
+[G373] Acute transverse myelitis in demyelinating disease of central nervous system -- **Inclusion terms:** - Acute transverse myelitis NOS - Acute transverse myelopathy  **Excludes1:** - acute flaccid myelitis (G04.82) - multiple sclerosis (G35) - neuromyelitis optica [Devic] (G36.0)
+[G374] Subacute necrotizing myelitis of central nervous system
+[G375] Concentric sclerosis [Balo] of central nervous system
+[G378] Other specified demyelinating diseases of central nervous system
+[G3781] Myelin oligodendrocyte glycoprotein antibody disease -- **Inclusion terms:** - MOG antibody disease  **Code also:** - associated manifestations, if known, such as: - noninfectious acute disseminated encephalomyelitis (G04.81) - neuromyelitis optica (G36.0)
+[G3789] Other specified demyelinating diseases of central nervous system
+[G379] Demyelinating disease of central nervous system, unspecified
+[G40] Epilepsy and recurrent seizures -- **Notes:** - the following terms are to be considered equivalent to intractable: pharmacoresistant (pharmacologically resistant), treatment resistant, refractory (medically) and poorly controlled  **Excludes1:** - conversion disorder with seizures (F44.5) - convulsions NOS (R56.9) - post traumatic seizures (R56.1) - seizure (convulsive) NOS (R56.9) - seizure of newborn (P90)  **Excludes2:** - hippocampal sclerosis (G93.81) - mesial temporal sclerosis (G93.81) - temporal sclerosis (G93.81) - Todd's paralysis (G83.84)
+[G400] Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset -- **Inclusion terms:** - Benign childhood epilepsy with centrotemporal EEG spikes - Childhood epilepsy with occipital EEG paroxysms  **Excludes1:** - adult onset localization-related epilepsy (G40.1-, G40.2-)
+[G4000] Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset, not intractable -- **Inclusion terms:** - Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset without intractability
+[G40001] Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset, not intractable, with status epilepticus
+[G40009] Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset, not intractable, without status epilepticus -- **Inclusion terms:** - Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset NOS
+[G4001] Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset, intractable
+[G40011] Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset, intractable, with status epilepticus
+[G40019] Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset, intractable, without status epilepticus
+[G401] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures -- **Inclusion terms:** - Attacks without alteration of consciousness - Epilepsia partialis continua [Kozhevnikof] - Simple partial seizures developing into secondarily generalized seizures
+[G4010] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures, not intractable -- **Inclusion terms:** - Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures without intractability
+[G40101] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures, not intractable, with status epilepticus
+[G40109] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures, not intractable, without status epilepticus -- **Inclusion terms:** - Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures NOS
+[G4011] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures, intractable
+[G40111] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures, intractable, with status epilepticus
+[G40119] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures, intractable, without status epilepticus
+[G402] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures -- **Inclusion terms:** - Attacks with alteration of consciousness, often with automatisms - Complex partial seizures developing into secondarily generalized seizures
+[G4020] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures, not intractable -- **Inclusion terms:** - Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures without intractability
+[G40201] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures, not intractable, with status epilepticus
+[G40209] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures, not intractable, without status epilepticus -- **Inclusion terms:** - Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures NOS
+[G4021] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures, intractable
+[G40211] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures, intractable, with status epilepticus
+[G40219] Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures, intractable, without status epilepticus
+[G403] Generalized idiopathic epilepsy and epileptic syndromes -- **Code also:** - MERRF syndrome, if applicable (E88.42)
+[G4030] Generalized idiopathic epilepsy and epileptic syndromes, not intractable -- **Inclusion terms:** - Generalized idiopathic epilepsy and epileptic syndromes without intractability
+[G40301] Generalized idiopathic epilepsy and epileptic syndromes, not intractable, with status epilepticus
+[G40309] Generalized idiopathic epilepsy and epileptic syndromes, not intractable, without status epilepticus -- **Inclusion terms:** - Generalized idiopathic epilepsy and epileptic syndromes NOS
+[G4031] Generalized idiopathic epilepsy and epileptic syndromes, intractable
+[G40311] Generalized idiopathic epilepsy and epileptic syndromes, intractable, with status epilepticus
+[G40319] Generalized idiopathic epilepsy and epileptic syndromes, intractable, without status epilepticus
+[G404] Other generalized epilepsy and epileptic syndromes -- **Inclusion terms:** - Epilepsy with grand mal seizures on awakening - Epilepsy with myoclonic absences - Epilepsy with myoclonic-astatic seizures - Grand mal seizure NOS - Nonspecific atonic epileptic seizures - Nonspecific clonic epileptic seizures - Nonspecific myoclonic epileptic seizures - Nonspecific tonic epileptic seizures - Nonspecific tonic-clonic epileptic seizures - Symptomatic early myoclonic encephalopathy
+[G4040] Other generalized epilepsy and epileptic syndromes, not intractable -- **Inclusion terms:** - Other generalized epilepsy and epileptic syndromes without intractability - Other generalized epilepsy and epileptic syndromes NOS
+[G40401] Other generalized epilepsy and epileptic syndromes, not intractable, with status epilepticus
+[G40409] Other generalized epilepsy and epileptic syndromes, not intractable, without status epilepticus
+[G4041] Other generalized epilepsy and epileptic syndromes, intractable
+[G40411] Other generalized epilepsy and epileptic syndromes, intractable, with status epilepticus
+[G40419] Other generalized epilepsy and epileptic syndromes, intractable, without status epilepticus
+[G4042] Cyclin-Dependent Kinase-Like 5 Deficiency Disorder -- **Inclusion terms:** - CDKL5  **Use additional code:** - code, if known, to identify associated manifestations, such as: - cortical blindness (H47.61-) - global developmental delay (F88)
+[G405] Epileptic seizures related to external causes -- **Inclusion terms:** - Epileptic seizures related to alcohol - Epileptic seizures related to drugs - Epileptic seizures related to hormonal changes - Epileptic seizures related to sleep deprivation - Epileptic seizures related to stress  **Code also:** - , if applicable, associated epilepsy and recurrent seizures (G40.-)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G4050] Epileptic seizures related to external causes, not intractable
+[G40501] Epileptic seizures related to external causes, not intractable, with status epilepticus
+[G40509] Epileptic seizures related to external causes, not intractable, without status epilepticus -- **Inclusion terms:** - Epileptic seizures related to external causes, NOS
+[G408] Other epilepsy and recurrent seizures -- **Inclusion terms:** - Epilepsies and epileptic syndromes undetermined as to whether they are focal or generalized - Landau-Kleffner syndrome
+[G4080] Other epilepsy
+[G40801] Other epilepsy, not intractable, with status epilepticus -- **Inclusion terms:** - Other epilepsy without intractability with status epilepticus
+[G40802] Other epilepsy, not intractable, without status epilepticus -- **Inclusion terms:** - Other epilepsy NOS - Other epilepsy without intractability without status epilepticus
+[G40803] Other epilepsy, intractable, with status epilepticus
+[G40804] Other epilepsy, intractable, without status epilepticus
+[G4081] Lennox-Gastaut syndrome
+[G40811] Lennox-Gastaut syndrome, not intractable, with status epilepticus
+[G40812] Lennox-Gastaut syndrome, not intractable, without status epilepticus
+[G40813] Lennox-Gastaut syndrome, intractable, with status epilepticus
+[G40814] Lennox-Gastaut syndrome, intractable, without status epilepticus
+[G4082] Epileptic spasms -- **Inclusion terms:** - Infantile spasms - Salaam attacks - West's syndrome
+[G40821] Epileptic spasms, not intractable, with status epilepticus
+[G40822] Epileptic spasms, not intractable, without status epilepticus
+[G40823] Epileptic spasms, intractable, with status epilepticus
+[G40824] Epileptic spasms, intractable, without status epilepticus
+[G4083] Dravet syndrome -- **Inclusion terms:** - Polymorphic epilepsy in infancy (PMEI) - Severe myoclonic epilepsy in infancy (SMEI)
+[G40833] Dravet syndrome, intractable, with status epilepticus
+[G40834] Dravet syndrome, intractable, without status epilepticus -- **Inclusion terms:** - Dravet syndrome NOS
+[G4084] KCNQ2-related epilepsy
+[G40841] KCNQ2-related epilepsy, not intractable, with status epilepticus
+[G40842] KCNQ2-related epilepsy, not intractable, without status epilepticus -- **Inclusion terms:** - KCNQ2-related epilepsy NOS
+[G40843] KCNQ2-related epilepsy, intractable, with status epilepticus
+[G40844] KCNQ2-related epilepsy, intractable, without status epilepticus
+[G4089] Other seizures -- **Excludes1:** - post traumatic seizures (R56.1) - recurrent seizures NOS (G40.909) - seizure NOS (R56.9)
+[G409] Epilepsy, unspecified
+[G4090] Epilepsy, unspecified, not intractable -- **Inclusion terms:** - Epilepsy, unspecified, without intractability
+[G40901] Epilepsy, unspecified, not intractable, with status epilepticus
+[G40909] Epilepsy, unspecified, not intractable, without status epilepticus -- **Inclusion terms:** - Epilepsy NOS - Epileptic convulsions NOS - Epileptic fits NOS - Epileptic seizures NOS - Recurrent seizures NOS - Seizure disorder NOS
+[G4091] Epilepsy, unspecified, intractable -- **Inclusion terms:** - Intractable seizure disorder NOS
+[G40911] Epilepsy, unspecified, intractable, with status epilepticus
+[G40919] Epilepsy, unspecified, intractable, without status epilepticus
+[G40A] Absence epileptic syndrome -- **Inclusion terms:** - Childhood absence epilepsy [pyknolepsy] - Juvenile absence epilepsy - Absence epileptic syndrome, NOS
+[G40A0] Absence epileptic syndrome, not intractable
+[G40A01] Absence epileptic syndrome, not intractable, with status epilepticus
+[G40A09] Absence epileptic syndrome, not intractable, without status epilepticus
+[G40A1] Absence epileptic syndrome, intractable
+[G40A11] Absence epileptic syndrome, intractable, with status epilepticus
+[G40A19] Absence epileptic syndrome, intractable, without status epilepticus
+[G40B] Juvenile myoclonic epilepsy [impulsive petit mal]
+[G40B0] Juvenile myoclonic epilepsy, not intractable
+[G40B01] Juvenile myoclonic epilepsy, not intractable, with status epilepticus
+[G40B09] Juvenile myoclonic epilepsy, not intractable, without status epilepticus
+[G40B1] Juvenile myoclonic epilepsy, intractable
+[G40B11] Juvenile myoclonic epilepsy, intractable, with status epilepticus
+[G40B19] Juvenile myoclonic epilepsy, intractable, without status epilepticus
+[G40C] Lafora progressive myoclonus epilepsy -- **Inclusion terms:** - Lafora body disease  **Code also:** - , if applicable, associated conditions such as dementia (F02.8-)
+[G40C0] Lafora progressive myoclonus epilepsy, not intractable
+[G40C01] Lafora progressive myoclonus epilepsy, not intractable, with status epilepticus
+[G40C09] Lafora progressive myoclonus epilepsy, not intractable, without status epilepticus -- **Inclusion terms:** - Lafora progressive myoclonus epilepsy NOS
+[G40C1] Lafora progressive myoclonus epilepsy, intractable
+[G40C11] Lafora progressive myoclonus epilepsy, intractable, with status epilepticus
+[G40C19] Lafora progressive myoclonus epilepsy, intractable, without status epilepticus
+[G43] Migraine -- **Notes:** - the following terms are to be considered equivalent to intractable: pharmacoresistant (pharmacologically resistant), treatment resistant, refractory (medically) and poorly controlled  **Excludes1:** - headache NOS (R51.9) - lower half migraine (G44.00)  **Excludes2:** - headache syndromes (G44.-)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G430] Migraine without aura -- **Inclusion terms:** - Common migraine  **Excludes1:** - chronic migraine without aura (G43.7-)
+[G4300] Migraine without aura, not intractable -- **Inclusion terms:** - Migraine without aura without mention of refractory migraine
+[G43001] Migraine without aura, not intractable, with status migrainosus
+[G43009] Migraine without aura, not intractable, without status migrainosus -- **Inclusion terms:** - Migraine without aura NOS
+[G4301] Migraine without aura, intractable -- **Inclusion terms:** - Migraine without aura with refractory migraine
+[G43011] Migraine without aura, intractable, with status migrainosus
+[G43019] Migraine without aura, intractable, without status migrainosus
+[G431] Migraine with aura -- **Inclusion terms:** - Basilar migraine - Classical migraine - Migraine equivalents - Migraine preceded or accompanied by transient focal neurological phenomena - Migraine triggered seizures - Migraine with acute-onset aura - Migraine with aura without headache (migraine equivalents) - Migraine with prolonged aura - Migraine with typical aura - Retinal migraine  **Excludes1:** - chronic migraine with aura (G43.E-) - persistent migraine aura (G43.5-, G43.6-)  **Code also:** - any associated seizure (G40.-, R56.9)
+[G4310] Migraine with aura, not intractable -- **Inclusion terms:** - Migraine with aura without mention of refractory migraine
+[G43101] Migraine with aura, not intractable, with status migrainosus
+[G43109] Migraine with aura, not intractable, without status migrainosus -- **Inclusion terms:** - Migraine with aura NOS
+[G4311] Migraine with aura, intractable -- **Inclusion terms:** - Migraine with aura with refractory migraine
+[G43111] Migraine with aura, intractable, with status migrainosus
+[G43119] Migraine with aura, intractable, without status migrainosus
+[G434] Hemiplegic migraine -- **Inclusion terms:** - Familial migraine - Sporadic migraine
+[G4340] Hemiplegic migraine, not intractable -- **Inclusion terms:** - Hemiplegic migraine without refractory migraine
+[G43401] Hemiplegic migraine, not intractable, with status migrainosus
+[G43409] Hemiplegic migraine, not intractable, without status migrainosus -- **Inclusion terms:** - Hemiplegic migraine NOS
+[G4341] Hemiplegic migraine, intractable -- **Inclusion terms:** - Hemiplegic migraine with refractory migraine
+[G43411] Hemiplegic migraine, intractable, with status migrainosus
+[G43419] Hemiplegic migraine, intractable, without status migrainosus
+[G435] Persistent migraine aura without cerebral infarction
+[G4350] Persistent migraine aura without cerebral infarction, not intractable -- **Inclusion terms:** - Persistent migraine aura without cerebral infarction, without refractory migraine
+[G43501] Persistent migraine aura without cerebral infarction, not intractable, with status migrainosus
+[G43509] Persistent migraine aura without cerebral infarction, not intractable, without status migrainosus -- **Inclusion terms:** - Persistent migraine aura NOS
+[G4351] Persistent migraine aura without cerebral infarction, intractable -- **Inclusion terms:** - Persistent migraine aura without cerebral infarction, with refractory migraine
+[G43511] Persistent migraine aura without cerebral infarction, intractable, with status migrainosus
+[G43519] Persistent migraine aura without cerebral infarction, intractable, without status migrainosus
+[G436] Persistent migraine aura with cerebral infarction -- **Code also:** - the type of cerebral infarction (I63.-)
+[G4360] Persistent migraine aura with cerebral infarction, not intractable -- **Inclusion terms:** - Persistent migraine aura with cerebral infarction, without refractory migraine
+[G43601] Persistent migraine aura with cerebral infarction, not intractable, with status migrainosus
+[G43609] Persistent migraine aura with cerebral infarction, not intractable, without status migrainosus
+[G4361] Persistent migraine aura with cerebral infarction, intractable -- **Inclusion terms:** - Persistent migraine aura with cerebral infarction, with refractory migraine
+[G43611] Persistent migraine aura with cerebral infarction, intractable, with status migrainosus
+[G43619] Persistent migraine aura with cerebral infarction, intractable, without status migrainosus
+[G437] Chronic migraine without aura -- **Inclusion terms:** - Transformed migraine  **Excludes1:** - migraine without aura (G43.0-)
+[G4370] Chronic migraine without aura, not intractable -- **Inclusion terms:** - Chronic migraine without aura, without refractory migraine
+[G43701] Chronic migraine without aura, not intractable, with status migrainosus
+[G43709] Chronic migraine without aura, not intractable, without status migrainosus -- **Inclusion terms:** - Chronic migraine without aura NOS
+[G4371] Chronic migraine without aura, intractable -- **Inclusion terms:** - Chronic migraine without aura, with refractory migraine
+[G43711] Chronic migraine without aura, intractable, with status migrainosus
+[G43719] Chronic migraine without aura, intractable, without status migrainosus
+[G438] Other migraine
+[G4380] Other migraine, not intractable -- **Inclusion terms:** - Other migraine, without refractory migraine
+[G43801] Other migraine, not intractable, with status migrainosus
+[G43809] Other migraine, not intractable, without status migrainosus
+[G4381] Other migraine, intractable -- **Inclusion terms:** - Other migraine, with refractory migraine
+[G43811] Other migraine, intractable, with status migrainosus
+[G43819] Other migraine, intractable, without status migrainosus
+[G4382] Menstrual migraine, not intractable -- **Inclusion terms:** - Menstrual headache, not intractable - Menstrual migraine, without refractory migraine - Menstrually related migraine, not intractable - Pre-menstrual headache, not intractable - Pre-menstrual migraine, not intractable - Pure menstrual migraine, not intractable  **Code also:** - associated premenstrual tension syndrome (N94.3)
+[G43821] Menstrual migraine, not intractable, with status migrainosus
+[G43829] Menstrual migraine, not intractable, without status migrainosus -- **Inclusion terms:** - Menstrual migraine NOS
+[G4383] Menstrual migraine, intractable -- **Inclusion terms:** - Menstrual headache, intractable - Menstrual migraine, with refractory migraine - Menstrually related migraine, intractable - Pre-menstrual headache, intractable - Pre-menstrual migraine, intractable - Pure menstrual migraine, intractable  **Code also:** - associated premenstrual tension syndrome (N94.3)
+[G43831] Menstrual migraine, intractable, with status migrainosus
+[G43839] Menstrual migraine, intractable, without status migrainosus
+[G439] Migraine, unspecified
+[G4390] Migraine, unspecified, not intractable -- **Inclusion terms:** - Migraine, unspecified, without refractory migraine
+[G43901] Migraine, unspecified, not intractable, with status migrainosus -- **Inclusion terms:** - Status migrainosus NOS
+[G43909] Migraine, unspecified, not intractable, without status migrainosus -- **Inclusion terms:** - Migraine NOS
+[G4391] Migraine, unspecified, intractable -- **Inclusion terms:** - Migraine, unspecified, with refractory migraine
+[G43911] Migraine, unspecified, intractable, with status migrainosus
+[G43919] Migraine, unspecified, intractable, without status migrainosus
+[G43A] Cyclical vomiting -- **Excludes1:** - cyclical vomiting syndrome unrelated to migraine (R11.15)
+[G43A0] Cyclical vomiting, in migraine, not intractable -- **Inclusion terms:** - Cyclical vomiting, without refractory migraine
+[G43A1] Cyclical vomiting, in migraine, intractable -- **Inclusion terms:** - Cyclical vomiting, with refractory migraine
+[G43B] Ophthalmoplegic migraine
+[G43B0] Ophthalmoplegic migraine, not intractable -- **Inclusion terms:** - Ophthalmoplegic migraine, without refractory migraine
+[G43B1] Ophthalmoplegic migraine, intractable -- **Inclusion terms:** - Ophthalmoplegic migraine, with refractory migraine
+[G43C] Periodic headache syndromes in child or adult
+[G43C0] Periodic headache syndromes in child or adult, not intractable -- **Inclusion terms:** - Periodic headache syndromes in child or adult, without refractory migraine
+[G43C1] Periodic headache syndromes in child or adult, intractable -- **Inclusion terms:** - Periodic headache syndromes in child or adult, with refractory migraine
+[G43D] Abdominal migraine
+[G43D0] Abdominal migraine, not intractable -- **Inclusion terms:** - Abdominal migraine, without refractory migraine
+[G43D1] Abdominal migraine, intractable -- **Inclusion terms:** - Abdominal migraine, with refractory migraine
+[G43E] Chronic migraine with aura -- **Excludes1:** - migraine with aura (G43.1-)
+[G43E0] Chronic migraine with aura, not intractable -- **Inclusion terms:** - Chronic migraine with aura, without refractory migraine
+[G43E01] Chronic migraine with aura, not intractable, with status migrainosus
+[G43E09] Chronic migraine with aura, not intractable, without status migrainosus -- **Inclusion terms:** - Chronic migraine with aura NOS
+[G43E1] Chronic migraine with aura, intractable -- **Inclusion terms:** - Chronic migraine with aura, with refractory migraine
+[G43E11] Chronic migraine with aura, intractable, with status migrainosus
+[G43E19] Chronic migraine with aura, intractable, without status migrainosus
+[G44] Other headache syndromes -- **Excludes1:** - headache NOS (R51.9)  **Excludes2:** - atypical facial pain (G50.1) - headache due to lumbar puncture (G97.1) - migraines (G43.-) - trigeminal neuralgia (G50.0)
+[G440] Cluster headaches and other trigeminal autonomic cephalgias (TAC)
+[G4400] Cluster headache syndrome, unspecified -- **Inclusion terms:** - Ciliary neuralgia - Cluster headache NOS - Histamine cephalgia - Lower half migraine - Migrainous neuralgia
+[G44001] Cluster headache syndrome, unspecified, intractable
+[G44009] Cluster headache syndrome, unspecified, not intractable -- **Inclusion terms:** - Cluster headache syndrome NOS
+[G4401] Episodic cluster headache
+[G44011] Episodic cluster headache, intractable
+[G44019] Episodic cluster headache, not intractable -- **Inclusion terms:** - Episodic cluster headache NOS
+[G4402] Chronic cluster headache
+[G44021] Chronic cluster headache, intractable
+[G44029] Chronic cluster headache, not intractable -- **Inclusion terms:** - Chronic cluster headache NOS
+[G4403] Episodic paroxysmal hemicrania -- **Inclusion terms:** - Paroxysmal hemicrania NOS
+[G44031] Episodic paroxysmal hemicrania, intractable
+[G44039] Episodic paroxysmal hemicrania, not intractable -- **Inclusion terms:** - Episodic paroxysmal hemicrania NOS
+[G4404] Chronic paroxysmal hemicrania
+[G44041] Chronic paroxysmal hemicrania, intractable
+[G44049] Chronic paroxysmal hemicrania, not intractable -- **Inclusion terms:** - Chronic paroxysmal hemicrania NOS
+[G4405] Short lasting unilateral neuralgiform headache with conjunctival injection and tearing (SUNCT)
+[G44051] Short lasting unilateral neuralgiform headache with conjunctival injection and tearing (SUNCT), intractable
+[G44059] Short lasting unilateral neuralgiform headache with conjunctival injection and tearing (SUNCT), not intractable -- **Inclusion terms:** - Short lasting unilateral neuralgiform headache with conjunctival injection and tearing (SUNCT) NOS
+[G4409] Other trigeminal autonomic cephalgias (TAC)
+[G44091] Other trigeminal autonomic cephalgias (TAC), intractable
+[G44099] Other trigeminal autonomic cephalgias (TAC), not intractable
+[G441] Vascular headache, not elsewhere classified -- **Excludes2:** - cluster headache (G44.0) - complicated headache syndromes (G44.5-) - drug-induced headache (G44.4-) - migraine (G43.-) - other specified headache syndromes (G44.8-) - post-traumatic headache (G44.3-) - tension-type headache (G44.2-)
+[G442] Tension-type headache
+[G4420] Tension-type headache, unspecified
+[G44201] Tension-type headache, unspecified, intractable
+[G44209] Tension-type headache, unspecified, not intractable -- **Inclusion terms:** - Tension headache NOS
+[G4421] Episodic tension-type headache
+[G44211] Episodic tension-type headache, intractable
+[G44219] Episodic tension-type headache, not intractable -- **Inclusion terms:** - Episodic tension-type headache NOS
+[G4422] Chronic tension-type headache
+[G44221] Chronic tension-type headache, intractable
+[G44229] Chronic tension-type headache, not intractable -- **Inclusion terms:** - Chronic tension-type headache NOS
+[G443] Post-traumatic headache
+[G4430] Post-traumatic headache, unspecified
+[G44301] Post-traumatic headache, unspecified, intractable
+[G44309] Post-traumatic headache, unspecified, not intractable -- **Inclusion terms:** - Post-traumatic headache NOS
+[G4431] Acute post-traumatic headache
+[G44311] Acute post-traumatic headache, intractable
+[G44319] Acute post-traumatic headache, not intractable -- **Inclusion terms:** - Acute post-traumatic headache NOS
+[G4432] Chronic post-traumatic headache
+[G44321] Chronic post-traumatic headache, intractable
+[G44329] Chronic post-traumatic headache, not intractable -- **Inclusion terms:** - Chronic post-traumatic headache NOS
+[G444] Drug-induced headache, not elsewhere classified -- **Inclusion terms:** - Medication overuse headache  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G4440] Drug-induced headache, not elsewhere classified, not intractable
+[G4441] Drug-induced headache, not elsewhere classified, intractable
+[G445] Complicated headache syndromes
+[G4451] Hemicrania continua
+[G4452] New daily persistent headache (NDPH)
+[G4453] Primary thunderclap headache
+[G4459] Other complicated headache syndrome
+[G448] Other specified headache syndromes -- **Excludes2:** - headache with orthostatic or positional component, not elsewhere classified (R51.0)
+[G4481] Hypnic headache
+[G4482] Headache associated with sexual activity -- **Inclusion terms:** - Orgasmic headache - Preorgasmic headache
+[G4483] Primary cough headache
+[G4484] Primary exertional headache
+[G4485] Primary stabbing headache
+[G4486] Cervicogenic headache -- **Code also:** - associated cervical spinal condition, if known
+[G4489] Other headache syndrome
+[G45] Transient cerebral ischemic attacks and related syndromes -- **Excludes1:** - neonatal cerebral ischemia (P91.0) - transient retinal artery occlusion (H34.0-)
+[G450] Vertebro-basilar artery syndrome
+[G451] Carotid artery syndrome (hemispheric)
+[G452] Multiple and bilateral precerebral artery syndromes
+[G453] Amaurosis fugax
+[G454] Transient global amnesia -- **Excludes1:** - amnesia NOS (R41.3)
+[G458] Other transient cerebral ischemic attacks and related syndromes
+[G459] Transient cerebral ischemic attack, unspecified -- **Inclusion terms:** - Spasm of cerebral artery - TIA - Transient cerebral ischemia NOS
+[G46] Vascular syndromes of brain in cerebrovascular diseases -- **Code first:** - underlying cerebrovascular disease (I60-I69)
+[G460] Middle cerebral artery syndrome
+[G461] Anterior cerebral artery syndrome
+[G462] Posterior cerebral artery syndrome
+[G463] Brain stem stroke syndrome -- **Inclusion terms:** - Benedikt syndrome - Claude syndrome - Foville syndrome - Millard-Gubler syndrome - Wallenberg syndrome - Weber syndrome
+[G464] Cerebellar stroke syndrome
+[G465] Pure motor lacunar syndrome
+[G466] Pure sensory lacunar syndrome
+[G467] Other lacunar syndromes
+[G468] Other vascular syndromes of brain in cerebrovascular diseases
+[G47] Sleep disorders -- **Excludes2:** - nightmares (F51.5) - nonorganic sleep disorders (F51.-) - sleep terrors (F51.4) - sleepwalking (F51.3)
+[G470] Insomnia -- **Excludes2:** - alcohol related insomnia (F10.182, F10.282, F10.982) - drug-related insomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982) - idiopathic insomnia (F51.01) - insomnia due to a mental disorder (F51.05) - insomnia not due to a substance or known physiological condition (F51.0-) - nonorganic insomnia (F51.0-) - primary insomnia (F51.01) - sleep apnea (G47.3-)
+[G4700] Insomnia, unspecified -- **Inclusion terms:** - Insomnia NOS
+[G4701] Insomnia due to medical condition -- **Code also:** - associated medical condition
+[G4709] Other insomnia
+[G471] Hypersomnia -- **Excludes2:** - alcohol-related hypersomnia (F10.182, F10.282, F10.982) - drug-related hypersomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982) - hypersomnia due to a mental disorder (F51.13) - hypersomnia not due to a substance or known physiological condition (F51.1-) - primary hypersomnia (F51.11) - sleep apnea (G47.3-)
+[G4710] Hypersomnia, unspecified -- **Inclusion terms:** - Hypersomnia NOS
+[G4711] Idiopathic hypersomnia with long sleep time -- **Inclusion terms:** - Idiopathic hypersomnia NOS
+[G4712] Idiopathic hypersomnia without long sleep time
+[G4713] Recurrent hypersomnia -- **Inclusion terms:** - Kleine-Levin syndrome - Menstrual related hypersomnia
+[G4714] Hypersomnia due to medical condition -- **Code also:** - associated medical condition
+[G4719] Other hypersomnia
+[G472] Circadian rhythm sleep disorders -- **Inclusion terms:** - Disorders of the sleep wake schedule - Inversion of nyctohemeral rhythm - Inversion of sleep rhythm
+[G4720] Circadian rhythm sleep disorder, unspecified type -- **Inclusion terms:** - Sleep wake schedule disorder NOS
+[G4721] Circadian rhythm sleep disorder, delayed sleep phase type -- **Inclusion terms:** - Delayed sleep phase syndrome
+[G4722] Circadian rhythm sleep disorder, advanced sleep phase type
+[G4723] Circadian rhythm sleep disorder, irregular sleep wake type -- **Inclusion terms:** - Irregular sleep-wake pattern
+[G4724] Circadian rhythm sleep disorder, free running type -- **Inclusion terms:** - Circadian rhythm sleep disorder, non-24-hour sleep-wake type
+[G4725] Circadian rhythm sleep disorder, jet lag type
+[G4726] Circadian rhythm sleep disorder, shift work type
+[G4727] Circadian rhythm sleep disorder in conditions classified elsewhere -- **Code first:** - underlying condition
+[G4729] Other circadian rhythm sleep disorder
+[G473] Sleep apnea -- **Excludes1:** - apnea NOS (R06.81) - Cheyne-Stokes breathing (R06.3) - pickwickian syndrome (E66.2) - sleep apnea of newborn (P28.3-)  **Code also:** - any associated underlying condition
+[G4730] Sleep apnea, unspecified -- **Inclusion terms:** - Sleep apnea NOS
+[G4731] Primary central sleep apnea -- **Inclusion terms:** - Idiopathic central sleep apnea
+[G4732] High altitude periodic breathing
+[G4733] Obstructive sleep apnea (adult) (pediatric) -- **Inclusion terms:** - Obstructive sleep apnea hypopnea  **Excludes1:** - obstructive sleep apnea of newborn (P28.3-)
+[G4734] Idiopathic sleep related nonobstructive alveolar hypoventilation -- **Inclusion terms:** - Sleep related hypoxia
+[G4735] Congenital central alveolar hypoventilation syndrome
+[G4736] Sleep related hypoventilation in conditions classified elsewhere -- **Inclusion terms:** - Sleep related hypoxemia in conditions classified elsewhere  **Code first:** - underlying condition
+[G4737] Central sleep apnea in conditions classified elsewhere -- **Code first:** - underlying condition
+[G4739] Other sleep apnea
+[G474] Narcolepsy and cataplexy
+[G4741] Narcolepsy
+[G47411] Narcolepsy with cataplexy
+[G47419] Narcolepsy without cataplexy -- **Inclusion terms:** - Narcolepsy NOS
+[G4742] Narcolepsy in conditions classified elsewhere -- **Code first:** - underlying condition
+[G47421] Narcolepsy in conditions classified elsewhere with cataplexy
+[G47429] Narcolepsy in conditions classified elsewhere without cataplexy
+[G475] Parasomnia -- **Excludes1:** - alcohol induced parasomnia (F10.182, F10.282, F10.982) - drug induced parasomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982) - parasomnia not due to a substance or known physiological condition (F51.8)
+[G4750] Parasomnia, unspecified -- **Inclusion terms:** - Parasomnia NOS
+[G4751] Confusional arousals
+[G4752] REM sleep behavior disorder
+[G4753] Recurrent isolated sleep paralysis
+[G4754] Parasomnia in conditions classified elsewhere -- **Code first:** - underlying condition
+[G4759] Other parasomnia
+[G476] Sleep related movement disorders -- **Excludes2:** - restless legs syndrome (G25.81)
+[G4761] Periodic limb movement disorder
+[G4762] Sleep related leg cramps
+[G4763] Sleep related bruxism -- **Excludes1:** - psychogenic bruxism (F45.8)
+[G4769] Other sleep related movement disorders
+[G478] Other sleep disorders -- **Inclusion terms:** - Other specified sleep-wake disorder
+[G479] Sleep disorder, unspecified -- **Inclusion terms:** - Sleep disorder NOS - Unspecified sleep-wake disorder
+[G50] Disorders of trigeminal nerve -- **Includes:** - disorders of 5th cranial nerve
+[G500] Trigeminal neuralgia -- **Inclusion terms:** - Syndrome of paroxysmal facial pain - Tic douloureux
+[G501] Atypical facial pain
+[G508] Other disorders of trigeminal nerve
+[G509] Disorder of trigeminal nerve, unspecified
+[G51] Facial nerve disorders -- **Includes:** - disorders of 7th cranial nerve
+[G510] Bell's palsy -- **Inclusion terms:** - Facial palsy
+[G511] Geniculate ganglionitis -- **Excludes1:** - postherpetic geniculate ganglionitis (B02.21)
+[G512] Melkersson's syndrome -- **Inclusion terms:** - Melkersson-Rosenthal syndrome
+[G513] Clonic hemifacial spasm
+[G5131] Clonic hemifacial spasm, right
+[G5132] Clonic hemifacial spasm, left
+[G5133] Clonic hemifacial spasm, bilateral
+[G5139] Clonic hemifacial spasm, unspecified
+[G514] Facial myokymia
+[G518] Other disorders of facial nerve
+[G519] Disorder of facial nerve, unspecified
+[G52] Disorders of other cranial nerves -- **Excludes2:** - disorders of acoustic [8th] nerve (H93.3) - disorders of optic [2nd] nerve (H46, H47.0) - paralytic strabismus due to nerve palsy (H49.0-H49.2)
+[G520] Disorders of olfactory nerve -- **Inclusion terms:** - Disorders of 1st cranial nerve
+[G521] Disorders of glossopharyngeal nerve -- **Inclusion terms:** - Disorder of 9th cranial nerve - Glossopharyngeal neuralgia
+[G522] Disorders of vagus nerve -- **Inclusion terms:** - Disorders of pneumogastric [10th] nerve
+[G523] Disorders of hypoglossal nerve -- **Inclusion terms:** - Disorders of 12th cranial nerve
+[G527] Disorders of multiple cranial nerves -- **Inclusion terms:** - Polyneuritis cranialis
+[G528] Disorders of other specified cranial nerves
+[G529] Cranial nerve disorder, unspecified
+[G53] Cranial nerve disorders in diseases classified elsewhere -- **Excludes1:** - multiple cranial nerve palsy in sarcoidosis (D86.82) - multiple cranial nerve palsy in syphilis (A52.15) - postherpetic geniculate ganglionitis (B02.21) - postherpetic trigeminal neuralgia (B02.22)  **Code first:** - underlying disease, such as: - neoplasm (C00-D49)
+[G54] Nerve root and plexus disorders -- **Excludes1:** - current traumatic nerve root and plexus disorders - see nerve injury by body region - intervertebral disc disorders (M50-M51) - neuralgia or neuritis NOS (M79.2) - neuritis or radiculitis brachial NOS (M54.13) - neuritis or radiculitis lumbar NOS (M54.16) - neuritis or radiculitis lumbosacral NOS (M54.17) - neuritis or radiculitis thoracic NOS (M54.14) - radiculitis NOS (M54.10) - radiculopathy NOS (M54.10) - spondylosis (M47.-)
+[G540] Brachial plexus disorders -- **Inclusion terms:** - Thoracic outlet syndrome
+[G541] Lumbosacral plexus disorders
+[G542] Cervical root disorders, not elsewhere classified
+[G543] Thoracic root disorders, not elsewhere classified
+[G544] Lumbosacral root disorders, not elsewhere classified
+[G545] Neuralgic amyotrophy -- **Inclusion terms:** - Parsonage-Aldren-Turner syndrome - Shoulder-girdle neuritis  **Excludes1:** - neuralgic amyotrophy in diabetes mellitus (E08-E13 with .44)
+[G546] Phantom limb syndrome with pain
+[G547] Phantom limb syndrome without pain -- **Inclusion terms:** - Phantom limb syndrome NOS
+[G548] Other nerve root and plexus disorders
+[G549] Nerve root and plexus disorder, unspecified
+[G55] Nerve root and plexus compressions in diseases classified elsewhere -- **Excludes1:** - nerve root compression (due to) (in) ankylosing spondylitis (M45.-) - nerve root compression (due to) (in) dorsopathies (M53.-, M54.-) - nerve root compression (due to) (in) intervertebral disc disorders (M50.1.-, M51.1.-) - nerve root compression (due to) (in) spondylopathies (M46.-, M48.-) - nerve root compression (due to) (in) spondylosis (M47.0-, M47.2.-)  **Code first:** - underlying disease, such as: - neoplasm (C00-D49)
+[G56] Mononeuropathies of upper limb -- **Excludes1:** - current traumatic nerve disorder - see nerve injury by body region
+[G560] Carpal tunnel syndrome
+[G5600] Carpal tunnel syndrome, unspecified upper limb
+[G5601] Carpal tunnel syndrome, right upper limb
+[G5602] Carpal tunnel syndrome, left upper limb
+[G5603] Carpal tunnel syndrome, bilateral upper limbs
+[G561] Other lesions of median nerve
+[G5610] Other lesions of median nerve, unspecified upper limb
+[G5611] Other lesions of median nerve, right upper limb
+[G5612] Other lesions of median nerve, left upper limb
+[G5613] Other lesions of median nerve, bilateral upper limbs
+[G562] Lesion of ulnar nerve -- **Inclusion terms:** - Tardy ulnar nerve palsy
+[G5620] Lesion of ulnar nerve, unspecified upper limb
+[G5621] Lesion of ulnar nerve, right upper limb
+[G5622] Lesion of ulnar nerve, left upper limb
+[G5623] Lesion of ulnar nerve, bilateral upper limbs
+[G563] Lesion of radial nerve
+[G5630] Lesion of radial nerve, unspecified upper limb
+[G5631] Lesion of radial nerve, right upper limb
+[G5632] Lesion of radial nerve, left upper limb
+[G5633] Lesion of radial nerve, bilateral upper limbs
+[G564] Causalgia of upper limb -- **Inclusion terms:** - Complex regional pain syndrome II of upper limb  **Excludes1:** - complex regional pain syndrome I of lower limb (G90.52-) - complex regional pain syndrome I of upper limb (G90.51-) - complex regional pain syndrome II of lower limb (G57.7-) - reflex sympathetic dystrophy of lower limb (G90.52-) - reflex sympathetic dystrophy of upper limb (G90.51-)
+[G5640] Causalgia of unspecified upper limb
+[G5641] Causalgia of right upper limb
+[G5642] Causalgia of left upper limb
+[G5643] Causalgia of bilateral upper limbs
+[G568] Other specified mononeuropathies of upper limb -- **Inclusion terms:** - Interdigital neuroma of upper limb
+[G5680] Other specified mononeuropathies of unspecified upper limb
+[G5681] Other specified mononeuropathies of right upper limb
+[G5682] Other specified mononeuropathies of left upper limb
+[G5683] Other specified mononeuropathies of bilateral upper limbs
+[G569] Unspecified mononeuropathy of upper limb
+[G5690] Unspecified mononeuropathy of unspecified upper limb
+[G5691] Unspecified mononeuropathy of right upper limb
+[G5692] Unspecified mononeuropathy of left upper limb
+[G5693] Unspecified mononeuropathy of bilateral upper limbs
+[G57] Mononeuropathies of lower limb -- **Excludes1:** - current traumatic nerve disorder - see nerve injury by body region
+[G570] Lesion of sciatic nerve -- **Excludes1:** - sciatica NOS (M54.3-)  **Excludes2:** - sciatica attributed to intervertebral disc disorder (M51.1.-)
+[G5700] Lesion of sciatic nerve, unspecified lower limb
+[G5701] Lesion of sciatic nerve, right lower limb
+[G5702] Lesion of sciatic nerve, left lower limb
+[G5703] Lesion of sciatic nerve, bilateral lower limbs
+[G571] Meralgia paresthetica -- **Inclusion terms:** - Lateral cutaneous nerve of thigh syndrome
+[G5710] Meralgia paresthetica, unspecified lower limb
+[G5711] Meralgia paresthetica, right lower limb
+[G5712] Meralgia paresthetica, left lower limb
+[G5713] Meralgia paresthetica, bilateral lower limbs
+[G572] Lesion of femoral nerve
+[G5720] Lesion of femoral nerve, unspecified lower limb
+[G5721] Lesion of femoral nerve, right lower limb
+[G5722] Lesion of femoral nerve, left lower limb
+[G5723] Lesion of femoral nerve, bilateral lower limbs
+[G573] Lesion of lateral popliteal nerve -- **Inclusion terms:** - Peroneal nerve palsy
+[G5730] Lesion of lateral popliteal nerve, unspecified lower limb
+[G5731] Lesion of lateral popliteal nerve, right lower limb
+[G5732] Lesion of lateral popliteal nerve, left lower limb
+[G5733] Lesion of lateral popliteal nerve, bilateral lower limbs
+[G574] Lesion of medial popliteal nerve
+[G5740] Lesion of medial popliteal nerve, unspecified lower limb
+[G5741] Lesion of medial popliteal nerve, right lower limb
+[G5742] Lesion of medial popliteal nerve, left lower limb
+[G5743] Lesion of medial popliteal nerve, bilateral lower limbs
+[G575] Tarsal tunnel syndrome
+[G5750] Tarsal tunnel syndrome, unspecified lower limb
+[G5751] Tarsal tunnel syndrome, right lower limb
+[G5752] Tarsal tunnel syndrome, left lower limb
+[G5753] Tarsal tunnel syndrome, bilateral lower limbs
+[G576] Lesion of plantar nerve -- **Inclusion terms:** - Morton's metatarsalgia
+[G5760] Lesion of plantar nerve, unspecified lower limb
+[G5761] Lesion of plantar nerve, right lower limb
+[G5762] Lesion of plantar nerve, left lower limb
+[G5763] Lesion of plantar nerve, bilateral lower limbs
+[G577] Causalgia of lower limb -- **Inclusion terms:** - Complex regional pain syndrome II of lower limb  **Excludes1:** - complex regional pain syndrome I of lower limb (G90.52-) - complex regional pain syndrome I of upper limb (G90.51-) - complex regional pain syndrome II of upper limb (G56.4-) - reflex sympathetic dystrophy of lower limb (G90.52-) - reflex sympathetic dystrophy of upper limb (G90.51-)
+[G5770] Causalgia of unspecified lower limb
+[G5771] Causalgia of right lower limb
+[G5772] Causalgia of left lower limb
+[G5773] Causalgia of bilateral lower limbs
+[G578] Other specified mononeuropathies of lower limb -- **Inclusion terms:** - Interdigital neuroma of lower limb
+[G5780] Other specified mononeuropathies of unspecified lower limb
+[G5781] Other specified mononeuropathies of right lower limb
+[G5782] Other specified mononeuropathies of left lower limb
+[G5783] Other specified mononeuropathies of bilateral lower limbs
+[G579] Unspecified mononeuropathy of lower limb
+[G5790] Unspecified mononeuropathy of unspecified lower limb
+[G5791] Unspecified mononeuropathy of right lower limb
+[G5792] Unspecified mononeuropathy of left lower limb
+[G5793] Unspecified mononeuropathy of bilateral lower limbs
+[G58] Other mononeuropathies
+[G580] Intercostal neuropathy
+[G587] Mononeuritis multiplex
+[G588] Other specified mononeuropathies
+[G589] Mononeuropathy, unspecified
+[G59] Mononeuropathy in diseases classified elsewhere -- **Excludes1:** - diabetic mononeuropathy (E08-E13 with .41) - syphilitic nerve paralysis (A52.19) - syphilitic neuritis (A52.15) - tuberculous mononeuropathy (A17.83)  **Code first:** - underlying disease
+[G60] Hereditary and idiopathic neuropathy
+[G600] Hereditary motor and sensory neuropathy -- **Inclusion terms:** - Charcot-Marie-Tooth disease - Déjérine-Sottas disease - Hereditary motor and sensory neuropathy, types I-IV - Hypertrophic neuropathy of infancy - Peroneal muscular atrophy (axonal type) (hypertrophic type) - Roussy-Levy syndrome
+[G601] Refsum's disease -- **Inclusion terms:** - Infantile Refsum disease
+[G602] Neuropathy in association with hereditary ataxia
+[G603] Idiopathic progressive neuropathy
+[G608] Other hereditary and idiopathic neuropathies -- **Inclusion terms:** - Dominantly inherited sensory neuropathy - Morvan's disease - Nelaton's syndrome - Recessively inherited sensory neuropathy
+[G609] Hereditary and idiopathic neuropathy, unspecified
+[G61] Inflammatory polyneuropathy
+[G610] Guillain-Barre syndrome -- **Inclusion terms:** - Acute (post-)infective polyneuritis - Miller Fisher Syndrome
+[G611] Serum neuropathy -- **Use additional code:** - code for adverse effect, if applicable, to identify serum (T50.-)
+[G618] Other inflammatory polyneuropathies
+[G6181] Chronic inflammatory demyelinating polyneuritis
+[G6182] Multifocal motor neuropathy -- **Inclusion terms:** - MMN
+[G6189] Other inflammatory polyneuropathies
+[G619] Inflammatory polyneuropathy, unspecified
+[G62] Other and unspecified polyneuropathies
+[G620] Drug-induced polyneuropathy -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G621] Alcoholic polyneuropathy
+[G622] Polyneuropathy due to other toxic agents -- **Code first:** - (T51-T65) to identify toxic agent
+[G628] Other specified polyneuropathies
+[G6281] Critical illness polyneuropathy -- **Inclusion terms:** - Acute motor neuropathy
+[G6282] Radiation-induced polyneuropathy -- **Use additional code:** - external cause code (W88-W90, X39.0-) to identify cause
+[G6289] Other specified polyneuropathies
+[G629] Polyneuropathy, unspecified -- **Inclusion terms:** - Neuropathy NOS
+[G63] Polyneuropathy in diseases classified elsewhere -- **Excludes1:** - polyneuropathy (in): - diabetes mellitus (E08-E13 with .42) - diphtheria (A36.83) - infectious mononucleosis complicated by polyneuropathy (B27.0-B27.9 with fifth character 1) - Lyme disease (A69.22) - mumps (B26.84) - postherpetic (B02.23) - rheumatoid arthritis (M05.5-) - scleroderma (M34.83) - systemic lupus erythematosus (M32.19)  **Code first:** - underlying disease, such as: - amyloidosis (E85.-) - endocrine disease, except diabetes (E00-E07, E15-E16, E20-E34) - metabolic diseases (E70-E88) - neoplasm (C00-D49) - nutritional deficiency (E40-E64)
+[G64] Other disorders of peripheral nervous system -- **Inclusion terms:** - Disorder of peripheral nervous system NOS
+[G65] Sequelae of inflammatory and toxic polyneuropathies -- **Code first:** - condition resulting from (sequela) of inflammatory and toxic polyneuropathies
+[G650] Sequelae of Guillain-Barre syndrome
+[G651] Sequelae of other inflammatory polyneuropathy
+[G652] Sequelae of toxic polyneuropathy
+[G70] Myasthenia gravis and other myoneural disorders -- **Excludes1:** - botulism (A05.1, A48.51-A48.52) - transient neonatal myasthenia gravis (P94.0)
+[G700] Myasthenia gravis
+[G7000] Myasthenia gravis without (acute) exacerbation -- **Inclusion terms:** - Myasthenia gravis NOS
+[G7001] Myasthenia gravis with (acute) exacerbation -- **Inclusion terms:** - Myasthenia gravis in crisis
+[G701] Toxic myoneural disorders -- **Code first:** - (T51-T65) to identify toxic agent
+[G702] Congenital and developmental myasthenia
+[G708] Other specified myoneural disorders
+[G7080] Lambert-Eaton syndrome, unspecified -- **Inclusion terms:** - Lambert-Eaton syndrome NOS
+[G7081] Lambert-Eaton syndrome in disease classified elsewhere -- **Excludes1:** - Lambert-Eaton syndrome in neoplastic disease (G73.1)  **Code first:** - underlying disease
+[G7089] Other specified myoneural disorders
+[G709] Myoneural disorder, unspecified
+[G71] Primary disorders of muscles -- **Excludes2:** - arthrogryposis multiplex congenita (Q74.3) - metabolic disorders (E70-E88) - myositis (M60.-)
+[G710] Muscular dystrophy
+[G7100] Muscular dystrophy, unspecified
+[G7101] Duchenne or Becker muscular dystrophy -- **Inclusion terms:** - Autosomal recessive, childhood type, muscular dystrophy resembling Duchenne or Becker muscular dystrophy - Benign [Becker] muscular dystrophy - Severe [Duchenne] muscular dystrophy
+[G7102] Facioscapulohumeral muscular dystrophy -- **Inclusion terms:** - Scapulohumeral muscular dystrophy
+[G7103] Limb girdle muscular dystrophies
+[G71031] Autosomal dominant limb girdle muscular dystrophy -- **Inclusion terms:** - LGMD D4 calpain-3-related - LGMD D5 collagen 6-related - Limb girdle muscular dystrophy type 1
+[G71032] Autosomal recessive limb girdle muscular dystrophy due to calpain-3 dysfunction -- **Inclusion terms:** - Limb girdle muscular dystrophy type 2A - LGMD R1 calpain-3-related - Primary calpainopathy
+[G71033] Limb girdle muscular dystrophy due to dysferlin dysfunction -- **Inclusion terms:** - Dysferlinopathy - LGMD R2 dysferlin-related - Limb girdle muscular dystrophy type 2B - Miyoshi Myopathy type 1
+[G71034] Limb girdle muscular dystrophy due to sarcoglycan dysfunction
+[G710340] Limb girdle muscular dystrophy due to sarcoglycan dysfunction, unspecified -- **Inclusion terms:** - Sarcoglycanopathy, NOS
+[G710341] Limb girdle muscular dystrophy due to alpha sarcoglycan dysfunction -- **Inclusion terms:** - Alpha sarcoglycanopathy - Limb-girdle muscular dystrophy due to alpha-sarcoglycan deficiency - Limb girdle muscular dystrophy type 2D
+[G710342] Limb girdle muscular dystrophy due to beta sarcoglycan dysfunction -- **Inclusion terms:** - Beta sarcoglycanopathy - Limb girdle muscular dystrophy due to beta-sarcoglycan deficiency - Limb girdle muscular dystrophy type 2E
+[G710349] Limb girdle muscular dystrophy due to other sarcoglycan dysfunction -- **Inclusion terms:** - Delta sarcoglycanopathy - Delta-sarcoglycan-related LGMD R6 - Gamma sarcoglycanopathy - Gamma-sarcoglycan-related LGMD R5 - Limb girdle muscular dystrophy type 2C - Limb girdle muscular dystrophy type 2F
+[G71035] Limb girdle muscular dystrophy due to anoctamin-5 dysfunction -- **Inclusion terms:** - Anoctamin-5-related LGMD R12 - Anoctaminopathy - Autosomal recessive limb girdle muscular dystrophy type 2L - Miyoshi myopathy type 3
+[G71038] Other limb girdle muscular dystrophy -- **Inclusion terms:** - LGMD R9 FKRP-related - LGMD R22 collagen 6-related - Limb girdle muscular dystrophy due to fukutin related protein dysfunction - Limb girdle muscular dystrophy type 2I - Other autosomal recessive limb girdle muscular dystrophy
+[G71039] Limb girdle muscular dystrophy, unspecified
+[G7109] Other specified muscular dystrophies -- **Inclusion terms:** - Benign scapuloperoneal muscular dystrophy with early contractures [Emery-Dreifuss] - Congenital muscular dystrophy NOS - Congenital muscular dystrophy with specific morphological abnormalities of the muscle fiber - Distal muscular dystrophy - Ocular muscular dystrophy - Oculopharyngeal muscular dystrophy - Scapuloperoneal muscular dystrophy
+[G711] Myotonic disorders
+[G7111] Myotonic muscular dystrophy -- **Inclusion terms:** - Dystrophia myotonica [Steinert] - Myotonia atrophica - Myotonic dystrophy - Proximal myotonic myopathy (PROMM) - Steinert disease
+[G7112] Myotonia congenita -- **Inclusion terms:** - Acetazolamide responsive myotonia congenita - Dominant myotonia congenita [Thomsen disease] - Myotonia levior - Recessive myotonia congenita [Becker disease]
+[G7113] Myotonic chondrodystrophy -- **Inclusion terms:** - Chondrodystrophic myotonia - Congenital myotonic chondrodystrophy - Schwartz-Jampel disease
+[G7114] Drug induced myotonia -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G7119] Other specified myotonic disorders -- **Inclusion terms:** - Myotonia fluctuans - Myotonia permanens - Neuromyotonia [Isaacs] - Paramyotonia congenita (of von Eulenburg) - Pseudomyotonia - Symptomatic myotonia
+[G712] Congenital myopathies -- **Excludes2:** - arthrogryposis multiplex congenita (Q74.3)
+[G7120] Congenital myopathy, unspecified
+[G7121] Nemaline myopathy
+[G7122] Centronuclear myopathy
+[G71220] X-linked myotubular myopathy -- **Inclusion terms:** - Myotubular (centronuclear) myopathy
+[G71228] Other centronuclear myopathy -- **Inclusion terms:** - Autosomal centronuclear myopathy - Autosomal dominant centronuclear myopathy - Autosomal recessive centronuclear myopathy - Centronuclear myopathy, NOS
+[G7129] Other congenital myopathy -- **Inclusion terms:** - Central core disease - Minicore disease - Multicore disease - Multiminicore disease
+[G713] Mitochondrial myopathy, not elsewhere classified -- **Excludes1:** - Kearns-Sayre syndrome (H49.81) - Leber's disease (H47.21) - Leigh's encephalopathy (G31.82) - mitochondrial metabolism disorders (E88.4.-) - Reye's syndrome (G93.7)
+[G718] Other primary disorders of muscles
+[G719] Primary disorder of muscle, unspecified -- **Inclusion terms:** - Hereditary myopathy NOS
+[G72] Other and unspecified myopathies -- **Excludes1:** - arthrogryposis multiplex congenita (Q74.3) - dermatopolymyositis (M33.-) - ischemic infarction of muscle (M62.2-) - myositis (M60.-) - polymyositis (M33.2.-)
+[G720] Drug-induced myopathy -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G721] Alcoholic myopathy -- **Use additional code:** - code to identify alcoholism (F10.-)
+[G722] Myopathy due to other toxic agents -- **Code first:** - (T51-T65) to identify toxic agent
+[G723] Periodic paralysis -- **Inclusion terms:** - Familial periodic paralysis - Hyperkalemic periodic paralysis (familial) - Hypokalemic periodic paralysis (familial) - Myotonic periodic paralysis (familial) - Normokalemic paralysis (familial) - Potassium sensitive periodic paralysis  **Excludes1:** - paramyotonia congenita (of von Eulenburg) (G71.19)
+[G724] Inflammatory and immune myopathies, not elsewhere classified
+[G7241] Inclusion body myositis [IBM]
+[G7249] Other inflammatory and immune myopathies, not elsewhere classified -- **Inclusion terms:** - Inflammatory myopathy NOS
+[G728] Other specified myopathies
+[G7281] Critical illness myopathy -- **Inclusion terms:** - Acute necrotizing myopathy - Acute quadriplegic myopathy - Intensive care (ICU) myopathy - Myopathy of critical illness
+[G7289] Other specified myopathies
+[G729] Myopathy, unspecified
+[G73] Disorders of myoneural junction and muscle in diseases classified elsewhere
+[G731] Lambert-Eaton syndrome in neoplastic disease -- **Excludes1:** - Lambert-Eaton syndrome not associated with neoplasm (G70.80-G70.81)  **Code first:** - underlying neoplasm (C00-D49)
+[G733] Myasthenic syndromes in other diseases classified elsewhere -- **Code first:** - underlying disease, such as: - neoplasm (C00-D49) - thyrotoxicosis (E05.-)
+[G737] Myopathy in diseases classified elsewhere -- **Excludes1:** - myopathy in: - rheumatoid arthritis (M05.32) - sarcoidosis (D86.87) - scleroderma (M34.82) - Sjögren syndrome (M35.03) - systemic lupus erythematosus (M32.19)  **Code first:** - underlying disease, such as: - glycogen storage disease (E74.0-) - hyperparathyroidism (E21.0, E21.3) - hypoparathyroidism (E20.-) - lipid storage disorders (E75.-)
+[G80] Cerebral palsy -- **Excludes1:** - hereditary spastic paraplegia (G11.4)
+[G800] Spastic quadriplegic cerebral palsy -- **Inclusion terms:** - Congenital spastic paralysis (cerebral)
+[G801] Spastic diplegic cerebral palsy -- **Inclusion terms:** - Spastic cerebral palsy NOS
+[G802] Spastic hemiplegic cerebral palsy
+[G803] Athetoid cerebral palsy -- **Inclusion terms:** - Double athetosis (syndrome) - Dyskinetic cerebral palsy - Dystonic cerebral palsy - Vogt disease
+[G804] Ataxic cerebral palsy
+[G808] Other cerebral palsy -- **Inclusion terms:** - Mixed cerebral palsy syndromes
+[G809] Cerebral palsy, unspecified -- **Inclusion terms:** - Cerebral palsy NOS
+[G81] Hemiplegia and hemiparesis -- **Notes:** - This category is to be used only when hemiplegia (complete)(incomplete) is reported without further specification, or is stated to be old or longstanding but of unspecified cause. The category is also for use in multiple coding to identify these types of hemiplegia resulting from any cause.  **Excludes1:** - congenital cerebral palsy (G80.-) - hemiplegia and hemiparesis due to sequela of cerebrovascular disease (I69.05-, I69.15-, I69.25-, I69.35-, I69.85-, I69.95-)
+[G810] Flaccid hemiplegia
+[G8100] Flaccid hemiplegia affecting unspecified side
+[G8101] Flaccid hemiplegia affecting right dominant side
+[G8102] Flaccid hemiplegia affecting left dominant side
+[G8103] Flaccid hemiplegia affecting right nondominant side
+[G8104] Flaccid hemiplegia affecting left nondominant side
+[G811] Spastic hemiplegia
+[G8110] Spastic hemiplegia affecting unspecified side
+[G8111] Spastic hemiplegia affecting right dominant side
+[G8112] Spastic hemiplegia affecting left dominant side
+[G8113] Spastic hemiplegia affecting right nondominant side
+[G8114] Spastic hemiplegia affecting left nondominant side
+[G819] Hemiplegia, unspecified
+[G8190] Hemiplegia, unspecified affecting unspecified side
+[G8191] Hemiplegia, unspecified affecting right dominant side
+[G8192] Hemiplegia, unspecified affecting left dominant side
+[G8193] Hemiplegia, unspecified affecting right nondominant side
+[G8194] Hemiplegia, unspecified affecting left nondominant side
+[G82] Paraplegia (paraparesis) and quadriplegia (quadriparesis) -- **Notes:** - This category is to be used only when the listed conditions are reported without further specification, or are stated to be old or longstanding but of unspecified cause. The category is also for use in multiple coding to identify these conditions resulting from any cause  **Excludes1:** - congenital cerebral palsy (G80.-) - functional quadriplegia (R53.2) - hysterical paralysis (F44.4)
+[G822] Paraplegia -- **Inclusion terms:** - Paralysis of both lower limbs NOS - Paraparesis (lower) NOS - Paraplegia (lower) NOS
+[G8220] Paraplegia, unspecified
+[G8221] Paraplegia, complete
+[G8222] Paraplegia, incomplete
+[G825] Quadriplegia
+[G8250] Quadriplegia, unspecified
+[G8251] Quadriplegia, C1-C4 complete
+[G8252] Quadriplegia, C1-C4 incomplete
+[G8253] Quadriplegia, C5-C7 complete
+[G8254] Quadriplegia, C5-C7 incomplete
+[G83] Other paralytic syndromes -- **Includes:** - paralysis (complete) (incomplete), except as in G80-G82  **Notes:** - This category is to be used only when the listed conditions are reported without further specification, or are stated to be old or longstanding but of unspecified cause. The category is also for use in multiple coding to identify these conditions resulting from any cause.
+[G830] Diplegia of upper limbs -- **Inclusion terms:** - Diplegia (upper) - Paralysis of both upper limbs
+[G831] Monoplegia of lower limb -- **Inclusion terms:** - Paralysis of lower limb  **Excludes1:** - monoplegia of lower limbs due to sequela of cerebrovascular disease (I69.04-, I69.14-, I69.24-, I69.34-, I69.84-, I69.94-)
+[G8310] Monoplegia of lower limb affecting unspecified side
+[G8311] Monoplegia of lower limb affecting right dominant side
+[G8312] Monoplegia of lower limb affecting left dominant side
+[G8313] Monoplegia of lower limb affecting right nondominant side
+[G8314] Monoplegia of lower limb affecting left nondominant side
+[G832] Monoplegia of upper limb -- **Inclusion terms:** - Paralysis of upper limb  **Excludes1:** - monoplegia of upper limbs due to sequela of cerebrovascular disease (I69.03-, I69.13-, I69.23-, I69.33-, I69.83-, I69.93-)
+[G8320] Monoplegia of upper limb affecting unspecified side
+[G8321] Monoplegia of upper limb affecting right dominant side
+[G8322] Monoplegia of upper limb affecting left dominant side
+[G8323] Monoplegia of upper limb affecting right nondominant side
+[G8324] Monoplegia of upper limb affecting left nondominant side
+[G833] Monoplegia, unspecified
+[G8330] Monoplegia, unspecified affecting unspecified side
+[G8331] Monoplegia, unspecified affecting right dominant side
+[G8332] Monoplegia, unspecified affecting left dominant side
+[G8333] Monoplegia, unspecified affecting right nondominant side
+[G8334] Monoplegia, unspecified affecting left nondominant side
+[G834] Cauda equina syndrome -- **Inclusion terms:** - Neurogenic bladder due to cauda equina syndrome  **Excludes1:** - cord bladder NOS (G95.89) - neurogenic bladder NOS (N31.9)
+[G835] Locked-in state
+[G838] Other specified paralytic syndromes -- **Excludes1:** - paralytic syndromes due to current spinal cord injury-code to spinal cord injury (S14, S24, S34)
+[G8381] Brown-Sequard syndrome
+[G8382] Anterior cord syndrome
+[G8383] Posterior cord syndrome
+[G8384] Todd's paralysis (postepileptic)
+[G8389] Other specified paralytic syndromes
+[G839] Paralytic syndrome, unspecified
+[G89] Pain, not elsewhere classified -- **Excludes1:** - generalized pain NOS (R52) - pain disorders exclusively related to psychological factors (F45.41) - pain NOS (R52)  **Excludes2:** - atypical face pain (G50.1) - headache syndromes (G44.-) - localized pain, unspecified type - code to pain by site, such as: - abdomen pain (R10.-) - back pain (M54.9) - breast pain (N64.4) - chest pain (R07.1-R07.9) - ear pain (H92.0-) - eye pain (H57.1) - headache (R51.9) - joint pain (M25.5-) - limb pain (M79.6-) - lumbar region pain (M54.5-) - painful urination (R30.9) - pelvic and perineal pain (R10.2) - shoulder pain (M25.51-) - spine pain (M54.-) - throat pain (R07.0) - tongue pain (K14.6) - tooth pain (K08.8) - renal colic (N23) - migraines (G43.-) - myalgia (M79.1-) - pain from prosthetic devices, implants, and grafts (T82.84, T83.84, T84.84, T85.84-) - phantom limb syndrome with pain (G54.6) - vulvar vestibulitis (N94.810) - vulvodynia (N94.81-)  **Code also:** - related psychological factors associated with pain (F45.42)
+[G890] Central pain syndrome -- **Inclusion terms:** - Déjérine-Roussy syndrome - Myelopathic pain syndrome - Thalamic pain syndrome (hyperesthetic)
+[G891] Acute pain, not elsewhere classified
+[G8911] Acute pain due to trauma
+[G8912] Acute post-thoracotomy pain -- **Inclusion terms:** - Post-thoracotomy pain NOS
+[G8918] Other acute postprocedural pain -- **Inclusion terms:** - Postoperative pain NOS - Postprocedural pain NOS
+[G892] Chronic pain, not elsewhere classified -- **Excludes1:** - causalgia, lower limb (G57.7-) - causalgia, upper limb (G56.4-) - central pain syndrome (G89.0) - chronic pain syndrome (G89.4) - complex regional pain syndrome II, lower limb (G57.7-) - complex regional pain syndrome II, upper limb (G56.4-) - neoplasm related chronic pain (G89.3) - reflex sympathetic dystrophy (G90.5-)
+[G8921] Chronic pain due to trauma
+[G8922] Chronic post-thoracotomy pain
+[G8928] Other chronic postprocedural pain -- **Inclusion terms:** - Other chronic postoperative pain
+[G8929] Other chronic pain
+[G893] Neoplasm related pain (acute) (chronic) -- **Inclusion terms:** - Cancer associated pain - Pain due to malignancy (primary) (secondary) - Tumor associated pain
+[G894] Chronic pain syndrome -- **Inclusion terms:** - Chronic pain associated with significant psychosocial dysfunction
+[G90] Disorders of autonomic nervous system -- **Excludes1:** - dysfunction of the autonomic nervous system due to alcohol (G31.2)
+[G900] Idiopathic peripheral autonomic neuropathy
+[G9001] Carotid sinus syncope -- **Inclusion terms:** - Carotid sinus syndrome
+[G9009] Other idiopathic peripheral autonomic neuropathy -- **Inclusion terms:** - Idiopathic peripheral autonomic neuropathy NOS
+[G901] Familial dysautonomia [Riley-Day]
+[G902] Horner's syndrome -- **Inclusion terms:** - Bernard(-Horner) syndrome - Cervical sympathetic dystrophy or paralysis
+[G903] Multi-system degeneration of the autonomic nervous system -- **Inclusion terms:** - Neurogenic orthostatic hypotension [Shy-Drager]  **Excludes1:** - orthostatic hypotension NOS (I95.1)
+[G904] Autonomic dysreflexia -- **Use additional code:** - code to identify the cause, such as: - fecal impaction (K56.41) - pressure ulcer (pressure area) (L89.-) - urinary tract infection (N39.0)
+[G905] Complex regional pain syndrome I (CRPS I) -- **Inclusion terms:** - Reflex sympathetic dystrophy  **Excludes1:** - causalgia of lower limb (G57.7-) - causalgia of upper limb (G56.4-) - complex regional pain syndrome II of lower limb (G57.7-) - complex regional pain syndrome II of upper limb (G56.4-)
+[G9050] Complex regional pain syndrome I, unspecified
+[G9051] Complex regional pain syndrome I of upper limb
+[G90511] Complex regional pain syndrome I of right upper limb
+[G90512] Complex regional pain syndrome I of left upper limb
+[G90513] Complex regional pain syndrome I of upper limb, bilateral
+[G90519] Complex regional pain syndrome I of unspecified upper limb
+[G9052] Complex regional pain syndrome I of lower limb
+[G90521] Complex regional pain syndrome I of right lower limb
+[G90522] Complex regional pain syndrome I of left lower limb
+[G90523] Complex regional pain syndrome I of lower limb, bilateral
+[G90529] Complex regional pain syndrome I of unspecified lower limb
+[G9059] Complex regional pain syndrome I of other specified site
+[G908] Other disorders of autonomic nervous system
+[G9081] Serotonin syndrome -- **Inclusion terms:** - Serotonin toxicity  **Code first:** - poisoning due to drug or toxin, such as: - linezolid (T36.8X- with sixth character 1-4) - monoamine oxidase inhibitors (T43.1X with sixth character 1-4) - selective serotonin and norepinephrine reuptake inhibitors [SSNRI] (T43.21 with sixth character 1-4) - selective serotonin reuptake inhibitors [SSRI] (T43.22 with sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug, such as: - linezolid (T36.8X5) - monoamine oxidase inhibitors (T43.1X5) - selective serotonin and norepinephrine reuptake inhibitors [SSNRI] (T43.215) - selective serotonin reuptake inhibitors [SSRI] (T43.225)
+[G9089] Other disorders of autonomic nervous system
+[G909] Disorder of the autonomic nervous system, unspecified
+[G90A] Postural orthostatic tachycardia syndrome [POTS] -- **Inclusion terms:** - Chronic orthostatic intolerance - Postural tachycardia syndrome
+[G90B] LMNB1-related autosomal dominant leukodystrophy
+[G91] Hydrocephalus -- **Includes:** - acquired hydrocephalus  **Excludes1:** - Arnold-Chiari syndrome with hydrocephalus (Q07.-) - congenital hydrocephalus (Q03.-) - spina bifida with hydrocephalus (Q05.-)
+[G910] Communicating hydrocephalus -- **Inclusion terms:** - Secondary normal pressure hydrocephalus
+[G911] Obstructive hydrocephalus
+[G912] (Idiopathic) normal pressure hydrocephalus -- **Inclusion terms:** - Normal pressure hydrocephalus NOS
+[G913] Post-traumatic hydrocephalus, unspecified
+[G914] Hydrocephalus in diseases classified elsewhere -- **Excludes1:** - hydrocephalus due to congenital toxoplasmosis (P37.1)  **Code first:** - underlying condition, such as: - congenital syphilis (A50.4-) - neoplasm (C00-D49) - plasminogen deficiency (E88.02)
+[G918] Other hydrocephalus
+[G919] Hydrocephalus, unspecified
+[G92] Toxic encephalopathy
+[G920] Immune effector cell-associated neurotoxicity syndrome -- **Code first:** - underlying cause such as: - complications of immune effector cellular therapy (T80.82)  **Code also:** - , if applicable, associated signs and symptoms, such as: - cerebral edema (G93.6) - unspecified convulsions (R56.9)
+[G9200] Immune effector cell-associated neurotoxicity syndrome, grade unspecified -- **Inclusion terms:** - ICANS, grade unspecified
+[G9201] Immune effector cell-associated neurotoxicity syndrome, grade 1 -- **Inclusion terms:** - ICANS, grade 1
+[G9202] Immune effector cell-associated neurotoxicity syndrome, grade 2 -- **Inclusion terms:** - ICANS, grade 2
+[G9203] Immune effector cell-associated neurotoxicity syndrome, grade 3 -- **Inclusion terms:** - ICANS, grade 3
+[G9204] Immune effector cell-associated neurotoxicity syndrome, grade 4 -- **Inclusion terms:** - ICANS, grade 4
+[G9205] Immune effector cell-associated neurotoxicity syndrome, grade 5 -- **Inclusion terms:** - ICANS, grade 5
+[G928] Other toxic encephalopathy -- **Inclusion terms:** - Toxic encephalitis - Toxic metabolic encephalopathy  **Code first:** - poisoning due to drug or toxin, if applicable, (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G929] Unspecified toxic encephalopathy -- **Code first:** - poisoning due to drug or toxin, if applicable, (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[G93] Other disorders of brain
+[G930] Cerebral cysts -- **Inclusion terms:** - Arachnoid cyst - Porencephalic cyst, acquired  **Excludes1:** - acquired periventricular cysts of newborn (P91.1) - congenital cerebral cysts (Q04.6)
+[G931] Anoxic brain damage, not elsewhere classified -- **Excludes1:** - cerebral anoxia due to anesthesia during labor and delivery (O74.3) - cerebral anoxia due to anesthesia during the puerperium (O89.2) - neonatal anoxia (P84)
+[G932] Benign intracranial hypertension -- **Inclusion terms:** - Pseudotumor  **Excludes1:** - hypertensive encephalopathy (I67.4) - obstructive hydrocephalus (G91.1)
+[G933] Postviral and related fatigue syndromes -- **Excludes1:** - chronic fatigue NOS (R53.82) - neurasthenia (F48.8)  **Use additional code:** - code, if applicable, for post COVID-19 condition, unspecified (U09.9)
+[G9331] Postviral fatigue syndrome
+[G9332] Myalgic encephalomyelitis/chronic fatigue syndrome -- **Inclusion terms:** - Chronic fatigue syndrome - ME/CFS - Myalgic encephalomyelitis
+[G9339] Other post infection and related fatigue syndromes
+[G934] Other and unspecified encephalopathy -- **Excludes2:** - alcoholic encephalopathy (G31.2) - encephalopathy in diseases classified elsewhere (G94) - hypertensive encephalopathy (I67.4) - toxic (metabolic) encephalopathy (G92.8)
+[G9340] Encephalopathy, unspecified
+[G9341] Metabolic encephalopathy -- **Inclusion terms:** - Septic encephalopathy
+[G9342] Megalencephalic leukoencephalopathy with subcortical cysts
+[G9343] Leukoencephalopathy with calcifications and cysts
+[G9344] Adult-onset leukodystrophy with axonal spheroids -- **Inclusion terms:** - Adult-onset leukoencephalopathy with axonal spheroids and pigmented glia
+[G9345] Developmental and epileptic encephalopathy -- **Inclusion terms:** - Early infantile epileptic encephalopathy  **Code also:** - , if applicable, associated disorders such as: - developmental disorders of scholastic skills (F81.-) - developmental disorder of speech and language (F80.-) - epilepsy, by specific type (G40.-) - intellectual disabilities (F70-F79) - other neurodevelopmental disorder (F88) - pervasive developmental disorders (F84.-)
+[G9349] Other encephalopathy -- **Inclusion terms:** - Encephalopathy NEC
+[G935] Compression of brain -- **Inclusion terms:** - Arnold-Chiari type 1 compression of brain - Compression of brain (stem) - Herniation of brain (stem)  **Excludes1:** - traumatic compression of brain (S06.A-)
+[G936] Cerebral edema -- **Excludes1:** - cerebral edema due to birth injury (P11.0) - traumatic cerebral edema (S06.1-)
+[G937] Reye's syndrome -- **Code first:** - poisoning due to salicylates, if applicable (T39.0-, with sixth character 1-4)  **Use additional code:** - code for adverse effect due to salicylates, if applicable (T39.0-, with sixth character 5)
+[G938] Other specified disorders of brain
+[G9381] Temporal sclerosis -- **Inclusion terms:** - Hippocampal sclerosis - Mesial temporal sclerosis
+[G9382] Brain death
+[G9389] Other specified disorders of brain -- **Inclusion terms:** - Postradiation encephalopathy
+[G939] Disorder of brain, unspecified
+[G94] Other disorders of brain in diseases classified elsewhere -- **Excludes1:** - encephalopathy in congenital syphilis (A50.49) - encephalopathy in influenza (J09.X9, J10.81, J11.81) - encephalopathy in syphilis (A52.19) - hydrocephalus in diseases classified elsewhere (G91.4)  **Code first:** - underlying disease
+[G95] Other and unspecified diseases of spinal cord -- **Excludes2:** - myelitis (G04.-)
+[G950] Syringomyelia and syringobulbia
+[G951] Vascular myelopathies -- **Excludes2:** - intraspinal phlebitis and thrombophlebitis, except non-pyogenic (G08)
+[G9511] Acute infarction of spinal cord (embolic) (nonembolic) -- **Inclusion terms:** - Anoxia of spinal cord - Arterial thrombosis of spinal cord
+[G9519] Other vascular myelopathies -- **Inclusion terms:** - Edema of spinal cord - Hematomyelia - Nonpyogenic intraspinal phlebitis and thrombophlebitis - Subacute necrotic myelopathy
+[G952] Other and unspecified cord compression
+[G9520] Unspecified cord compression
+[G9529] Other cord compression
+[G958] Other specified diseases of spinal cord -- **Excludes1:** - neurogenic bladder NOS (N31.9) - neurogenic bladder due to cauda equina syndrome (G83.4) - neuromuscular dysfunction of bladder without spinal cord lesion (N31.-)
+[G9581] Conus medullaris syndrome
+[G9589] Other specified diseases of spinal cord -- **Inclusion terms:** - Cord bladder NOS - Drug-induced myelopathy - Radiation-induced myelopathy  **Excludes1:** - myelopathy NOS (G95.9)
+[G959] Disease of spinal cord, unspecified -- **Inclusion terms:** - Myelopathy NOS
+[G96] Other disorders of central nervous system
+[G960] Cerebrospinal fluid leak -- **Excludes1:** - cerebrospinal fluid leak from spinal puncture (G97.0)  **Code also:** - if applicable: - intracranial hypotension (G96.81-)
+[G9600] Cerebrospinal fluid leak, unspecified -- **Code also:** - if applicable: - head injury (S00-S09)
+[G9601] Cranial cerebrospinal fluid leak, spontaneous -- **Inclusion terms:** - Otorrhea due to spontaneous cerebrospinal fluid CSF leak - Rhinorrhea due to spontaneous cerebrospinal fluid CSF leak - Spontaneous cerebrospinal fluid leak from skull base
+[G9602] Spinal cerebrospinal fluid leak, spontaneous -- **Inclusion terms:** - Spontaneous cerebrospinal fluid leak from spine
+[G9608] Other cranial cerebrospinal fluid leak -- **Inclusion terms:** - Postoperative cranial cerebrospinal fluid leak - Traumatic cranial cerebrospinal fluid leak  **Code also:** - if applicable: - head injury (S00 - S09)
+[G9609] Other spinal cerebrospinal fluid leak -- **Inclusion terms:** - Other spinal CSF leak - Postoperative spinal cerebrospinal fluid leak - Traumatic spinal cerebrospinal fluid leak  **Code also:** - if applicable: - head injury (S00 - S09)
+[G961] Disorders of meninges, not elsewhere classified
+[G9611] Dural tear -- **Excludes1:** - accidental puncture or laceration of dura during a procedure (G97.41)  **Code also:** - intracranial hypotension, if applicable (G96.81-)
+[G9612] Meningeal adhesions (cerebral) (spinal)
+[G9619] Other disorders of meninges, not elsewhere classified
+[G96191] Perineural cyst -- **Inclusion terms:** - Cervical nerve root cyst - Lumbar nerve root cyst - Sacral nerve root cyst - Tarlov cyst - Thoracic nerve root cyst
+[G96198] Other disorders of meninges, not elsewhere classified
+[G968] Other specified disorders of central nervous system
+[G9681] Intracranial hypotension -- **Code also:** - any associated diagnoses, such as: - Brachial amyotrophy (G54.5) - Cerebrospinal fluid leak from spine (G96.02) - Cranial nerve disorders in diseases classified elsewhere (G53) - Nerve root and compressions in diseases classified elsewhere (G55) - Nonpyogenic thrombosis of intracranial venous system (I67.6) - Nontraumatic intracerebral hemorrhage (I61.-) - Nontraumatic subdural hemorrhage (I62.0-) - Other and unspecified cord compression (G95.2-) - Other secondary parkinsonism (G21.8) - Reversible cerebrovascular vasoconstriction syndrome (I67.841) - Spinal cord herniation (G95.89) - Stroke (I63.-) - Syringomyelia (G95.0)
+[G96810] Intracranial hypotension, unspecified
+[G96811] Intracranial hypotension, spontaneous
+[G96819] Other intracranial hypotension
+[G9689] Other specified disorders of central nervous system
+[G969] Disorder of central nervous system, unspecified
+[G97] Intraoperative and postprocedural complications and disorders of nervous system, not elsewhere classified -- **Excludes2:** - intraoperative and postprocedural cerebrovascular infarction (I97.81-, I97.82-)
+[G970] Cerebrospinal fluid leak from spinal puncture -- **Code also:** - any associated diagnoses or complications, such as: - intracranial hypotension following a procedure (G97.83-G97.84)
+[G971] Other reaction to spinal and lumbar puncture -- **Inclusion terms:** - Headache due to lumbar puncture - Other reaction to spinal dural puncture  **Code also:** - , if applicable, any associated headache with orthostatic component (R51.0)
+[G972] Intracranial hypotension following ventricular shunting -- **Code also:** - any associated diagnoses or complications
+[G973] Intraoperative hemorrhage and hematoma of a nervous system organ or structure complicating a procedure -- **Excludes1:** - intraoperative hemorrhage and hematoma of a nervous system organ or structure due to accidental puncture and laceration during a procedure (G97.4-)
+[G9731] Intraoperative hemorrhage and hematoma of a nervous system organ or structure complicating a nervous system procedure
+[G9732] Intraoperative hemorrhage and hematoma of a nervous system organ or structure complicating other procedure
+[G974] Accidental puncture and laceration of a nervous system organ or structure during a procedure
+[G9741] Accidental puncture or laceration of dura during a procedure -- **Inclusion terms:** - Incidental (inadvertent) durotomy  **Code also:** - any associated diagnoses or complications
+[G9748] Accidental puncture and laceration of other nervous system organ or structure during a nervous system procedure
+[G9749] Accidental puncture and laceration of other nervous system organ or structure during other procedure
+[G975] Postprocedural hemorrhage of a nervous system organ or structure following a procedure
+[G9751] Postprocedural hemorrhage of a nervous system organ or structure following a nervous system procedure
+[G9752] Postprocedural hemorrhage of a nervous system organ or structure following other procedure
+[G976] Postprocedural hematoma and seroma of a nervous system organ or structure following a procedure
+[G9761] Postprocedural hematoma of a nervous system organ or structure following a nervous system procedure
+[G9762] Postprocedural hematoma of a nervous system organ or structure following other procedure
+[G9763] Postprocedural seroma of a nervous system organ or structure following a nervous system procedure
+[G9764] Postprocedural seroma of a nervous system organ or structure following other procedure
+[G978] Other intraoperative and postprocedural complications and disorders of nervous system -- **Use additional code:** - code to further specify disorder
+[G9781] Other intraoperative complications of nervous system
+[G9782] Other postprocedural complications and disorders of nervous system
+[G9783] Intracranial hypotension following lumbar cerebrospinal fluid shunting -- **Code also:** - any associated diagnoses or complications
+[G9784] Intracranial hypotension following other procedure -- **Code also:** - , if applicable: - accidental puncture or laceration of dura during a procedure (G97.41) - cerebrospinal fluid leak from spinal puncture (G97.0)
+[G98] Other disorders of nervous system not elsewhere classified -- **Includes:** - nervous system disorder NOS
+[G980] Neurogenic arthritis, not elsewhere classified -- **Inclusion terms:** - Nonsyphilitic neurogenic arthropathy NEC - Nonsyphilitic neurogenic spondylopathy NEC  **Excludes1:** - spondylopathy (in): - syringomyelia and syringobulbia (G95.0) - tabes dorsalis (A52.11)
+[G988] Other disorders of nervous system -- **Inclusion terms:** - Nervous system disorder NOS
+[G99] Other disorders of nervous system in diseases classified elsewhere
+[G990] Autonomic neuropathy in diseases classified elsewhere -- **Excludes1:** - diabetic autonomic neuropathy (E08-E13 with .43)  **Code first:** - underlying disease, such as: - amyloidosis (E85.-) - gout (M1A.-, M10.-) - hyperthyroidism (E05.-)
+[G992] Myelopathy in diseases classified elsewhere -- **Excludes1:** - myelopathy in: - intervertebral disease (M50.0-, M51.0-) - spondylosis (M47.0-, M47.1-)  **Code first:** - underlying disease, such as: - neoplasm (C00-D49)
+[G998] Other specified disorders of nervous system in diseases classified elsewhere -- **Excludes1:** - nervous system involvement in: - cysticercosis (B69.0) - rubella (B06.0-) - syphilis (A52.1-)  **Code first:** - underlying disorder, such as: - amyloidosis (E85.-) - avitaminosis (E56.-)

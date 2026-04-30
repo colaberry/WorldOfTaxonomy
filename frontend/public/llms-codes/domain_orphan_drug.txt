@@ -1,0 +1,14 @@
+[OD] Orphan Drug Types :: naics_2022:3254, naics_2022:5417
+[OD.01] Rare Disease Drug
+[OD.02] Ultra-Rare Disease Drug
+[OD.03] Orphan Biologic
+[OD.04] Orphan Gene Therapy
+[OD.05] Orphan Cell Therapy
+[OD.06] Orphan Enzyme Replacement
+[OD.07] Orphan Small Molecule
+[OD.08] Orphan Antibody
+[OD.09] Pediatric Orphan Drug
+[OD.10] Orphan Drug Designation
+[OD.11] Breakthrough Therapy Designation
+[OD.12] Accelerated Approval
+[OD.13] Priority Review Voucher

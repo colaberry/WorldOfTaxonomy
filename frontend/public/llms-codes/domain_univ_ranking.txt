@@ -1,0 +1,14 @@
+[UR] University Ranking Types :: naics_2022:611
+[UR.01] QS World University Rankings
+[UR.02] THE World University Rankings
+[UR.03] ARWU (Shanghai Ranking)
+[UR.04] US News Global Universities
+[UR.05] CWTS Leiden Ranking
+[UR.06] Webometrics Ranking
+[UR.07] Subject-Specific Ranking
+[UR.08] Regional Ranking
+[UR.09] Employer Reputation Score
+[UR.10] Research Impact Score
+[UR.11] Teaching Quality Score
+[UR.12] International Diversity Score
+[UR.13] Sustainability Ranking

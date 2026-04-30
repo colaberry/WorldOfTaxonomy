@@ -1,0 +1,13 @@
+[SO] Soil Orders
+[SO.01] Alfisols
+[SO.02] Andisols
+[SO.03] Aridisols
+[SO.04] Entisols
+[SO.05] Gelisols
+[SO.06] Histosols
+[SO.07] Inceptisols
+[SO.08] Mollisols
+[SO.09] Oxisols
+[SO.10] Spodosols
+[SO.11] Ultisols
+[SO.12] Vertisols

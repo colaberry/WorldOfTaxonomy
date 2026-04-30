@@ -1,0 +1,14 @@
+[CF] Competency Framework Types :: naics_2022:611
+[CF.01] Technical Competency
+[CF.02] Behavioral Competency
+[CF.03] Leadership Competency
+[CF.04] Core Competency
+[CF.05] Functional Competency
+[CF.06] Industry Competency Model
+[CF.07] 21st Century Skills
+[CF.08] Digital Competency (DigComp)
+[CF.09] Entrepreneurial Competency
+[CF.10] Cross-Cultural Competency
+[CF.11] Competency Proficiency Level
+[CF.12] Competency Assessment Method
+[CF.13] Competency Gap Analysis

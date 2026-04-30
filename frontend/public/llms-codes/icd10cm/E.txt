@@ -1,0 +1,1242 @@
+[E00] Congenital iodine-deficiency syndrome -- **Excludes1:** - subclinical iodine-deficiency hypothyroidism (E02)  **Use additional code:** - code (F70-F79) to identify associated intellectual disabilities.
+[E000] Congenital iodine-deficiency syndrome, neurological type -- **Inclusion terms:** - Endemic cretinism, neurological type
+[E001] Congenital iodine-deficiency syndrome, myxedematous type -- **Inclusion terms:** - Endemic hypothyroid cretinism - Endemic cretinism, myxedematous type
+[E002] Congenital iodine-deficiency syndrome, mixed type -- **Inclusion terms:** - Endemic cretinism, mixed type
+[E009] Congenital iodine-deficiency syndrome, unspecified -- **Inclusion terms:** - Congenital iodine-deficiency hypothyroidism NOS - Endemic cretinism NOS
+[E01] Iodine-deficiency related thyroid disorders and allied conditions -- **Excludes1:** - congenital iodine-deficiency syndrome (E00.-) - subclinical iodine-deficiency hypothyroidism (E02)
+[E010] Iodine-deficiency related diffuse (endemic) goiter
+[E011] Iodine-deficiency related multinodular (endemic) goiter -- **Inclusion terms:** - Iodine-deficiency related nodular goiter
+[E012] Iodine-deficiency related (endemic) goiter, unspecified -- **Inclusion terms:** - Endemic goiter NOS
+[E018] Other iodine-deficiency related thyroid disorders and allied conditions -- **Inclusion terms:** - Acquired iodine-deficiency hypothyroidism NOS
+[E02] Subclinical iodine-deficiency hypothyroidism
+[E03] Other hypothyroidism -- **Excludes1:** - iodine-deficiency related hypothyroidism (E00-E02) - postprocedural hypothyroidism (E89.0)
+[E030] Congenital hypothyroidism with diffuse goiter -- **Inclusion terms:** - Congenital parenchymatous goiter (nontoxic) - Congenital goiter (nontoxic) NOS  **Excludes1:** - transitory congenital goiter with normal function (P72.0)
+[E031] Congenital hypothyroidism without goiter -- **Inclusion terms:** - Aplasia of thyroid (with myxedema) - Congenital atrophy of thyroid - Congenital hypothyroidism NOS
+[E032] Hypothyroidism due to medicaments and other exogenous substances -- **Code first:** - poisoning due to drug or toxin, if applicable (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E033] Postinfectious hypothyroidism
+[E034] Atrophy of thyroid (acquired) -- **Excludes1:** - congenital atrophy of thyroid (E03.1)
+[E035] Myxedema coma
+[E038] Other specified hypothyroidism
+[E039] Hypothyroidism, unspecified -- **Inclusion terms:** - Myxedema NOS
+[E04] Other nontoxic goiter -- **Excludes1:** - congenital goiter (NOS) (diffuse) (parenchymatous) (E03.0) - iodine-deficiency related goiter (E00-E02)
+[E040] Nontoxic diffuse goiter -- **Inclusion terms:** - Diffuse (colloid) nontoxic goiter - Simple nontoxic goiter
+[E041] Nontoxic single thyroid nodule -- **Inclusion terms:** - Colloid nodule (cystic) (thyroid) - Nontoxic uninodular goiter - Thyroid (cystic) nodule NOS
+[E042] Nontoxic multinodular goiter -- **Inclusion terms:** - Cystic goiter NOS - Multinodular (cystic) goiter NOS
+[E048] Other specified nontoxic goiter
+[E049] Nontoxic goiter, unspecified -- **Inclusion terms:** - Goiter NOS - Nodular goiter (nontoxic) NOS
+[E05] Thyrotoxicosis [hyperthyroidism] -- **Excludes1:** - chronic thyroiditis with transient thyrotoxicosis (E06.2) - neonatal thyrotoxicosis (P72.1)
+[E050] Thyrotoxicosis with diffuse goiter -- **Inclusion terms:** - Exophthalmic or toxic goiter NOS - Graves' disease - Toxic diffuse goiter
+[E0500] Thyrotoxicosis with diffuse goiter without thyrotoxic crisis or storm
+[E0501] Thyrotoxicosis with diffuse goiter with thyrotoxic crisis or storm
+[E051] Thyrotoxicosis with toxic single thyroid nodule -- **Inclusion terms:** - Thyrotoxicosis with toxic uninodular goiter
+[E0510] Thyrotoxicosis with toxic single thyroid nodule without thyrotoxic crisis or storm
+[E0511] Thyrotoxicosis with toxic single thyroid nodule with thyrotoxic crisis or storm
+[E052] Thyrotoxicosis with toxic multinodular goiter -- **Inclusion terms:** - Toxic nodular goiter NOS
+[E0520] Thyrotoxicosis with toxic multinodular goiter without thyrotoxic crisis or storm
+[E0521] Thyrotoxicosis with toxic multinodular goiter with thyrotoxic crisis or storm
+[E053] Thyrotoxicosis from ectopic thyroid tissue
+[E0530] Thyrotoxicosis from ectopic thyroid tissue without thyrotoxic crisis or storm
+[E0531] Thyrotoxicosis from ectopic thyroid tissue with thyrotoxic crisis or storm
+[E054] Thyrotoxicosis factitia
+[E0540] Thyrotoxicosis factitia without thyrotoxic crisis or storm
+[E0541] Thyrotoxicosis factitia with thyrotoxic crisis or storm
+[E058] Other thyrotoxicosis -- **Inclusion terms:** - Overproduction of thyroid-stimulating hormone
+[E0580] Other thyrotoxicosis without thyrotoxic crisis or storm
+[E0581] Other thyrotoxicosis with thyrotoxic crisis or storm
+[E059] Thyrotoxicosis, unspecified -- **Inclusion terms:** - Hyperthyroidism NOS
+[E0590] Thyrotoxicosis, unspecified without thyrotoxic crisis or storm
+[E0591] Thyrotoxicosis, unspecified with thyrotoxic crisis or storm
+[E06] Thyroiditis -- **Excludes1:** - postpartum thyroiditis (O90.5)
+[E060] Acute thyroiditis -- **Inclusion terms:** - Abscess of thyroid - Pyogenic thyroiditis - Suppurative thyroiditis  **Use additional code:** - code (B95-B97) to identify infectious agent.
+[E061] Subacute thyroiditis -- **Inclusion terms:** - de Quervain thyroiditis - Giant-cell thyroiditis - Granulomatous thyroiditis - Nonsuppurative thyroiditis - Viral thyroiditis  **Excludes1:** - autoimmune thyroiditis (E06.3)
+[E062] Chronic thyroiditis with transient thyrotoxicosis -- **Excludes1:** - autoimmune thyroiditis (E06.3)
+[E063] Autoimmune thyroiditis -- **Inclusion terms:** - Hashimoto's thyroiditis - Hashitoxicosis (transient) - Lymphadenoid goiter - Lymphocytic thyroiditis - Struma lymphomatosa
+[E064] Drug-induced thyroiditis -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E065] Other chronic thyroiditis -- **Inclusion terms:** - Chronic fibrous thyroiditis - Chronic thyroiditis NOS - Ligneous thyroiditis - Riedel thyroiditis
+[E069] Thyroiditis, unspecified
+[E07] Other disorders of thyroid
+[E070] Hypersecretion of calcitonin -- **Inclusion terms:** - C-cell hyperplasia of thyroid - Hypersecretion of thyrocalcitonin
+[E071] Dyshormogenetic goiter -- **Inclusion terms:** - Dyshormonogenetic goiter - Familial dyshormogenetic goiter - Familial dyshormonogenetic goiter - Pendred's syndrome  **Excludes1:** - transitory congenital goiter with normal function (P72.0)
+[E078] Other specified disorders of thyroid
+[E0781] Sick-euthyroid syndrome -- **Inclusion terms:** - Euthyroid sick-syndrome
+[E0789] Other specified disorders of thyroid -- **Inclusion terms:** - Abnormality of thyroid-binding globulin - Hemorrhage of thyroid - Infarction of thyroid
+[E079] Disorder of thyroid, unspecified
+[E08] Diabetes mellitus due to underlying condition -- **Excludes1:** - drug or chemical induced diabetes mellitus (E09.-) - gestational diabetes (O24.4-) - neonatal diabetes mellitus (P70.2) - postpancreatectomy diabetes mellitus (E13.-) - postprocedural diabetes mellitus (E13.-) - secondary diabetes mellitus NEC (E13.-) - type 1 diabetes mellitus (E10.-) - type 2 diabetes mellitus (E11.-)  **Code first:** - the underlying condition, such as: - congenital rubella (P35.0) - Cushing's syndrome (E24.-) - cystic fibrosis (E84.-) - malignant neoplasm (C00-C96) - malnutrition (E40-E46) - pancreatitis and other diseases of the pancreas (K85-K86.-)  **Use additional code:** - code to identify control using: - injectable non-insulin antidiabetic drugs (Z79.85) - insulin (Z79.4) - oral antidiabetic drugs (Z79.84) - oral hypoglycemic drugs (Z79.84)
+[E080] Diabetes mellitus due to underlying condition with hyperosmolarity
+[E0800] Diabetes mellitus due to underlying condition with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)
+[E0801] Diabetes mellitus due to underlying condition with hyperosmolarity with coma
+[E081] Diabetes mellitus due to underlying condition with ketoacidosis
+[E0810] Diabetes mellitus due to underlying condition with ketoacidosis without coma
+[E0811] Diabetes mellitus due to underlying condition with ketoacidosis with coma
+[E082] Diabetes mellitus due to underlying condition with kidney complications
+[E0821] Diabetes mellitus due to underlying condition with diabetic nephropathy -- **Inclusion terms:** - Diabetes mellitus due to underlying condition with intercapillary glomerulosclerosis - Diabetes mellitus due to underlying condition with intracapillary glomerulonephrosis - Diabetes mellitus due to underlying condition with Kimmelstiel-Wilson disease
+[E0822] Diabetes mellitus due to underlying condition with diabetic chronic kidney disease -- **Use additional code:** - code to identify stage of chronic kidney disease (N18.1-N18.6)
+[E0829] Diabetes mellitus due to underlying condition with other diabetic kidney complication -- **Inclusion terms:** - Renal tubular degeneration in diabetes mellitus due to underlying condition
+[E083] Diabetes mellitus due to underlying condition with ophthalmic complications
+[E0831] Diabetes mellitus due to underlying condition with unspecified diabetic retinopathy
+[E08311] Diabetes mellitus due to underlying condition with unspecified diabetic retinopathy with macular edema
+[E08319] Diabetes mellitus due to underlying condition with unspecified diabetic retinopathy without macular edema
+[E0832] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy -- **Inclusion terms:** - Diabetes mellitus due to underlying condition with nonproliferative diabetic retinopathy NOS  **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E08.32 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E08321] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy with macular edema
+[E083211] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy with macular edema, right eye
+[E083212] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy with macular edema, left eye
+[E083213] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy with macular edema, bilateral
+[E083219] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E08329] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy without macular edema
+[E083291] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy without macular edema, right eye
+[E083292] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy without macular edema, left eye
+[E083293] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy without macular edema, bilateral
+[E083299] Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E0833] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E08.33 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E08331] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy with macular edema
+[E083311] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy with macular edema, right eye
+[E083312] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy with macular edema, left eye
+[E083313] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy with macular edema, bilateral
+[E083319] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E08339] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy without macular edema
+[E083391] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy without macular edema, right eye
+[E083392] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy without macular edema, left eye
+[E083393] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy without macular edema, bilateral
+[E083399] Diabetes mellitus due to underlying condition with moderate nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E0834] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E08.34 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E08341] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy with macular edema
+[E083411] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy with macular edema, right eye
+[E083412] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy with macular edema, left eye
+[E083413] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy with macular edema, bilateral
+[E083419] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E08349] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy without macular edema
+[E083491] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy without macular edema, right eye
+[E083492] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy without macular edema, left eye
+[E083493] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy without macular edema, bilateral
+[E083499] Diabetes mellitus due to underlying condition with severe nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E0835] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E08.35 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E08351] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with macular edema
+[E083511] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with macular edema, right eye
+[E083512] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with macular edema, left eye
+[E083513] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with macular edema, bilateral
+[E083519] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with macular edema, unspecified eye
+[E08352] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment involving the macula
+[E083521] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment involving the macula, right eye
+[E083522] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye
+[E083523] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment involving the macula, bilateral
+[E083529] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment involving the macula, unspecified eye
+[E08353] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment not involving the macula
+[E083531] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, right eye
+[E083532] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye
+[E083533] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, bilateral
+[E083539] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, unspecified eye
+[E08354] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment
+[E083541] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye
+[E083542] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye
+[E083543] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, bilateral
+[E083549] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye
+[E08355] Diabetes mellitus due to underlying condition with stable proliferative diabetic retinopathy
+[E083551] Diabetes mellitus due to underlying condition with stable proliferative diabetic retinopathy, right eye
+[E083552] Diabetes mellitus due to underlying condition with stable proliferative diabetic retinopathy, left eye
+[E083553] Diabetes mellitus due to underlying condition with stable proliferative diabetic retinopathy, bilateral
+[E083559] Diabetes mellitus due to underlying condition with stable proliferative diabetic retinopathy, unspecified eye
+[E08359] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema
+[E083591] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, right eye
+[E083592] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, left eye
+[E083593] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, bilateral
+[E083599] Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, unspecified eye
+[E0836] Diabetes mellitus due to underlying condition with diabetic cataract
+[E0837] Diabetes mellitus due to underlying condition with diabetic macular edema, resolved following treatment -- **7th character note:** - One of the following 7th characters is to be assigned to code E08.37 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E0837X1] Diabetes mellitus due to underlying condition with diabetic macular edema, resolved following treatment, right eye
+[E0837X2] Diabetes mellitus due to underlying condition with diabetic macular edema, resolved following treatment, left eye
+[E0837X3] Diabetes mellitus due to underlying condition with diabetic macular edema, resolved following treatment, bilateral
+[E0837X9] Diabetes mellitus due to underlying condition with diabetic macular edema, resolved following treatment, unspecified eye
+[E0839] Diabetes mellitus due to underlying condition with other diabetic ophthalmic complication -- **Use additional code:** - code to identify manifestation, such as: - diabetic glaucoma (H40-H42)
+[E084] Diabetes mellitus due to underlying condition with neurological complications
+[E0840] Diabetes mellitus due to underlying condition with diabetic neuropathy, unspecified
+[E0841] Diabetes mellitus due to underlying condition with diabetic mononeuropathy
+[E0842] Diabetes mellitus due to underlying condition with diabetic polyneuropathy -- **Inclusion terms:** - Diabetes mellitus due to underlying condition with diabetic neuralgia
+[E0843] Diabetes mellitus due to underlying condition with diabetic autonomic (poly)neuropathy -- **Inclusion terms:** - Diabetes mellitus due to underlying condition with diabetic gastroparesis
+[E0844] Diabetes mellitus due to underlying condition with diabetic amyotrophy
+[E0849] Diabetes mellitus due to underlying condition with other diabetic neurological complication
+[E085] Diabetes mellitus due to underlying condition with circulatory complications
+[E0851] Diabetes mellitus due to underlying condition with diabetic peripheral angiopathy without gangrene
+[E0852] Diabetes mellitus due to underlying condition with diabetic peripheral angiopathy with gangrene -- **Inclusion terms:** - Diabetes mellitus due to underlying condition with diabetic gangrene
+[E0859] Diabetes mellitus due to underlying condition with other circulatory complications
+[E086] Diabetes mellitus due to underlying condition with other specified complications
+[E0861] Diabetes mellitus due to underlying condition with diabetic arthropathy
+[E08610] Diabetes mellitus due to underlying condition with diabetic neuropathic arthropathy -- **Inclusion terms:** - Diabetes mellitus due to underlying condition with Charcôt's joints
+[E08618] Diabetes mellitus due to underlying condition with other diabetic arthropathy
+[E0862] Diabetes mellitus due to underlying condition with skin complications
+[E08620] Diabetes mellitus due to underlying condition with diabetic dermatitis -- **Inclusion terms:** - Diabetes mellitus due to underlying condition with diabetic necrobiosis lipoidica
+[E08621] Diabetes mellitus due to underlying condition with foot ulcer -- **Use additional code:** - code to identify site of ulcer (L97.4-, L97.5-)
+[E08622] Diabetes mellitus due to underlying condition with other skin ulcer -- **Use additional code:** - code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)
+[E08628] Diabetes mellitus due to underlying condition with other skin complications
+[E0863] Diabetes mellitus due to underlying condition with oral complications
+[E08630] Diabetes mellitus due to underlying condition with periodontal disease
+[E08638] Diabetes mellitus due to underlying condition with other oral complications
+[E0864] Diabetes mellitus due to underlying condition with hypoglycemia -- **Use additional code:** - code for hypoglycemia level, if applicable (E16.A-)
+[E08641] Diabetes mellitus due to underlying condition with hypoglycemia with coma
+[E08649] Diabetes mellitus due to underlying condition with hypoglycemia without coma
+[E0865] Diabetes mellitus due to underlying condition with hyperglycemia
+[E0869] Diabetes mellitus due to underlying condition with other specified complication -- **Use additional code:** - code to identify complication
+[E088] Diabetes mellitus due to underlying condition with unspecified complications
+[E089] Diabetes mellitus due to underlying condition without complications
+[E09] Drug or chemical induced diabetes mellitus -- **Excludes1:** - diabetes mellitus due to underlying condition (E08.-) - gestational diabetes (O24.4-) - neonatal diabetes mellitus (P70.2) - postpancreatectomy diabetes mellitus (E13.-) - postprocedural diabetes mellitus (E13.-) - secondary diabetes mellitus NEC (E13.-) - type 1 diabetes mellitus (E10.-) - type 2 diabetes mellitus (E11.-)  **Code first:** - poisoning due to drug or toxin, if applicable (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E090] Drug or chemical induced diabetes mellitus with hyperosmolarity
+[E0900] Drug or chemical induced diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)
+[E0901] Drug or chemical induced diabetes mellitus with hyperosmolarity with coma
+[E091] Drug or chemical induced diabetes mellitus with ketoacidosis
+[E0910] Drug or chemical induced diabetes mellitus with ketoacidosis without coma
+[E0911] Drug or chemical induced diabetes mellitus with ketoacidosis with coma
+[E092] Drug or chemical induced diabetes mellitus with kidney complications
+[E0921] Drug or chemical induced diabetes mellitus with diabetic nephropathy -- **Inclusion terms:** - Drug or chemical induced diabetes mellitus with intercapillary glomerulosclerosis - Drug or chemical induced diabetes mellitus with intracapillary glomerulonephrosis - Drug or chemical induced diabetes mellitus with Kimmelstiel-Wilson disease
+[E0922] Drug or chemical induced diabetes mellitus with diabetic chronic kidney disease -- **Use additional code:** - code to identify stage of chronic kidney disease (N18.1-N18.6)
+[E0929] Drug or chemical induced diabetes mellitus with other diabetic kidney complication -- **Inclusion terms:** - Drug or chemical induced diabetes mellitus with renal tubular degeneration
+[E093] Drug or chemical induced diabetes mellitus with ophthalmic complications
+[E0931] Drug or chemical induced diabetes mellitus with unspecified diabetic retinopathy
+[E09311] Drug or chemical induced diabetes mellitus with unspecified diabetic retinopathy with macular edema
+[E09319] Drug or chemical induced diabetes mellitus with unspecified diabetic retinopathy without macular edema
+[E0932] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy -- **Inclusion terms:** - Drug or chemical induced diabetes mellitus with nonproliferative diabetic retinopathy NOS  **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E09.32 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E09321] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema
+[E093211] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, right eye
+[E093212] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, left eye
+[E093213] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, bilateral
+[E093219] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E09329] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema
+[E093291] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, right eye
+[E093292] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, left eye
+[E093293] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, bilateral
+[E093299] Drug or chemical induced diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E0933] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E09.33 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E09331] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema
+[E093311] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, right eye
+[E093312] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, left eye
+[E093313] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, bilateral
+[E093319] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E09339] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema
+[E093391] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, right eye
+[E093392] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, left eye
+[E093393] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, bilateral
+[E093399] Drug or chemical induced diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E0934] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E09.34 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E09341] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema
+[E093411] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, right eye
+[E093412] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, left eye
+[E093413] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, bilateral
+[E093419] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E09349] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema
+[E093491] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, right eye
+[E093492] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, left eye
+[E093493] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, bilateral
+[E093499] Drug or chemical induced diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E0935] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E09.35 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E09351] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with macular edema
+[E093511] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with macular edema, right eye
+[E093512] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with macular edema, left eye
+[E093513] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with macular edema, bilateral
+[E093519] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with macular edema, unspecified eye
+[E09352] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula
+[E093521] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, right eye
+[E093522] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye
+[E093523] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, bilateral
+[E093529] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, unspecified eye
+[E09353] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula
+[E093531] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, right eye
+[E093532] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye
+[E093533] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, bilateral
+[E093539] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, unspecified eye
+[E09354] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment
+[E093541] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye
+[E093542] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye
+[E093543] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, bilateral
+[E093549] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye
+[E09355] Drug or chemical induced diabetes mellitus with stable proliferative diabetic retinopathy
+[E093551] Drug or chemical induced diabetes mellitus with stable proliferative diabetic retinopathy, right eye
+[E093552] Drug or chemical induced diabetes mellitus with stable proliferative diabetic retinopathy, left eye
+[E093553] Drug or chemical induced diabetes mellitus with stable proliferative diabetic retinopathy, bilateral
+[E093559] Drug or chemical induced diabetes mellitus with stable proliferative diabetic retinopathy, unspecified eye
+[E09359] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema
+[E093591] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye
+[E093592] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye
+[E093593] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral
+[E093599] Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye
+[E0936] Drug or chemical induced diabetes mellitus with diabetic cataract
+[E0937] Drug or chemical induced diabetes mellitus with diabetic macular edema, resolved following treatment -- **7th character note:** - One of the following 7th characters is to be assigned to code E09.37 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E0937X1] Drug or chemical induced diabetes mellitus with diabetic macular edema, resolved following treatment, right eye
+[E0937X2] Drug or chemical induced diabetes mellitus with diabetic macular edema, resolved following treatment, left eye
+[E0937X3] Drug or chemical induced diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral
+[E0937X9] Drug or chemical induced diabetes mellitus with diabetic macular edema, resolved following treatment, unspecified eye
+[E0939] Drug or chemical induced diabetes mellitus with other diabetic ophthalmic complication -- **Use additional code:** - code to identify manifestation, such as: - diabetic glaucoma (H40-H42)
+[E094] Drug or chemical induced diabetes mellitus with neurological complications
+[E0940] Drug or chemical induced diabetes mellitus with neurological complications with diabetic neuropathy, unspecified
+[E0941] Drug or chemical induced diabetes mellitus with neurological complications with diabetic mononeuropathy
+[E0942] Drug or chemical induced diabetes mellitus with neurological complications with diabetic polyneuropathy -- **Inclusion terms:** - Drug or chemical induced diabetes mellitus with diabetic neuralgia
+[E0943] Drug or chemical induced diabetes mellitus with neurological complications with diabetic autonomic (poly)neuropathy -- **Inclusion terms:** - Drug or chemical induced diabetes mellitus with diabetic gastroparesis
+[E0944] Drug or chemical induced diabetes mellitus with neurological complications with diabetic amyotrophy
+[E0949] Drug or chemical induced diabetes mellitus with neurological complications with other diabetic neurological complication
+[E095] Drug or chemical induced diabetes mellitus with circulatory complications
+[E0951] Drug or chemical induced diabetes mellitus with diabetic peripheral angiopathy without gangrene
+[E0952] Drug or chemical induced diabetes mellitus with diabetic peripheral angiopathy with gangrene -- **Inclusion terms:** - Drug or chemical induced diabetes mellitus with diabetic gangrene
+[E0959] Drug or chemical induced diabetes mellitus with other circulatory complications
+[E096] Drug or chemical induced diabetes mellitus with other specified complications
+[E0961] Drug or chemical induced diabetes mellitus with diabetic arthropathy
+[E09610] Drug or chemical induced diabetes mellitus with diabetic neuropathic arthropathy -- **Inclusion terms:** - Drug or chemical induced diabetes mellitus with Charcôt's joints
+[E09618] Drug or chemical induced diabetes mellitus with other diabetic arthropathy
+[E0962] Drug or chemical induced diabetes mellitus with skin complications
+[E09620] Drug or chemical induced diabetes mellitus with diabetic dermatitis -- **Inclusion terms:** - Drug or chemical induced diabetes mellitus with diabetic necrobiosis lipoidica
+[E09621] Drug or chemical induced diabetes mellitus with foot ulcer -- **Use additional code:** - code to identify site of ulcer (L97.4-, L97.5-)
+[E09622] Drug or chemical induced diabetes mellitus with other skin ulcer -- **Use additional code:** - code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)
+[E09628] Drug or chemical induced diabetes mellitus with other skin complications
+[E0963] Drug or chemical induced diabetes mellitus with oral complications
+[E09630] Drug or chemical induced diabetes mellitus with periodontal disease
+[E09638] Drug or chemical induced diabetes mellitus with other oral complications
+[E0964] Drug or chemical induced diabetes mellitus with hypoglycemia -- **Use additional code:** - code for hypoglycemia level, if applicable (E16.A-)
+[E09641] Drug or chemical induced diabetes mellitus with hypoglycemia with coma
+[E09649] Drug or chemical induced diabetes mellitus with hypoglycemia without coma
+[E0965] Drug or chemical induced diabetes mellitus with hyperglycemia
+[E0969] Drug or chemical induced diabetes mellitus with other specified complication -- **Use additional code:** - code to identify complication
+[E098] Drug or chemical induced diabetes mellitus with unspecified complications
+[E099] Drug or chemical induced diabetes mellitus without complications
+[E10] Type 1 diabetes mellitus -- **Includes:** - brittle diabetes (mellitus) - diabetes (mellitus) due to autoimmune process - diabetes (mellitus) due to immune mediated pancreatic islet beta-cell destruction - idiopathic diabetes (mellitus) - juvenile onset diabetes (mellitus) - ketosis-prone diabetes (mellitus)  **Excludes1:** - diabetes mellitus due to underlying condition (E08.-) - drug or chemical induced diabetes mellitus (E09.-) - gestational diabetes (O24.4-) - hyperglycemia NOS (R73.9) - neonatal diabetes mellitus (P70.2) - postpancreatectomy diabetes mellitus (E13.-) - postprocedural diabetes mellitus (E13.-) - secondary diabetes mellitus NEC (E13.-) - type 2 diabetes mellitus (E11.-)
+[E101] Type 1 diabetes mellitus with ketoacidosis
+[E1010] Type 1 diabetes mellitus with ketoacidosis without coma
+[E1011] Type 1 diabetes mellitus with ketoacidosis with coma
+[E102] Type 1 diabetes mellitus with kidney complications
+[E1021] Type 1 diabetes mellitus with diabetic nephropathy -- **Inclusion terms:** - Type 1 diabetes mellitus with intercapillary glomerulosclerosis - Type 1 diabetes mellitus with intracapillary glomerulonephrosis - Type 1 diabetes mellitus with Kimmelstiel-Wilson disease
+[E1022] Type 1 diabetes mellitus with diabetic chronic kidney disease -- **Use additional code:** - code to identify stage of chronic kidney disease (N18.1-N18.6)
+[E1029] Type 1 diabetes mellitus with other diabetic kidney complication -- **Inclusion terms:** - Type 1 diabetes mellitus with renal tubular degeneration
+[E103] Type 1 diabetes mellitus with ophthalmic complications
+[E1031] Type 1 diabetes mellitus with unspecified diabetic retinopathy
+[E10311] Type 1 diabetes mellitus with unspecified diabetic retinopathy with macular edema
+[E10319] Type 1 diabetes mellitus with unspecified diabetic retinopathy without macular edema
+[E1032] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy -- **Inclusion terms:** - Type 1 diabetes mellitus with nonproliferative diabetic retinopathy NOS  **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E10.32 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E10321] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema
+[E103211] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, right eye
+[E103212] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, left eye
+[E103213] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, bilateral
+[E103219] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E10329] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema
+[E103291] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, right eye
+[E103292] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, left eye
+[E103293] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, bilateral
+[E103299] Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1033] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E10.33 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E10331] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema
+[E103311] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, right eye
+[E103312] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, left eye
+[E103313] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, bilateral
+[E103319] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E10339] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema
+[E103391] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, right eye
+[E103392] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, left eye
+[E103393] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, bilateral
+[E103399] Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1034] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E10.34 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E10341] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema
+[E103411] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, right eye
+[E103412] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, left eye
+[E103413] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, bilateral
+[E103419] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E10349] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema
+[E103491] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, right eye
+[E103492] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, left eye
+[E103493] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, bilateral
+[E103499] Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1035] Type 1 diabetes mellitus with proliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E10.35 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E10351] Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema
+[E103511] Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema, right eye
+[E103512] Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema, left eye
+[E103513] Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema, bilateral
+[E103519] Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema, unspecified eye
+[E10352] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula
+[E103521] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, right eye
+[E103522] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye
+[E103523] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, bilateral
+[E103529] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, unspecified eye
+[E10353] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula
+[E103531] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, right eye
+[E103532] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye
+[E103533] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, bilateral
+[E103539] Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, unspecified eye
+[E10354] Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment
+[E103541] Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye
+[E103542] Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye
+[E103543] Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, bilateral
+[E103549] Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye
+[E10355] Type 1 diabetes mellitus with stable proliferative diabetic retinopathy
+[E103551] Type 1 diabetes mellitus with stable proliferative diabetic retinopathy, right eye
+[E103552] Type 1 diabetes mellitus with stable proliferative diabetic retinopathy, left eye
+[E103553] Type 1 diabetes mellitus with stable proliferative diabetic retinopathy, bilateral
+[E103559] Type 1 diabetes mellitus with stable proliferative diabetic retinopathy, unspecified eye
+[E10359] Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema
+[E103591] Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye
+[E103592] Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye
+[E103593] Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral
+[E103599] Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye
+[E1036] Type 1 diabetes mellitus with diabetic cataract
+[E1037] Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment -- **7th character note:** - One of the following 7th characters is to be assigned to code E10.37 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E1037X1] Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment, right eye
+[E1037X2] Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment, left eye
+[E1037X3] Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral
+[E1037X9] Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment, unspecified eye
+[E1039] Type 1 diabetes mellitus with other diabetic ophthalmic complication -- **Use additional code:** - code to identify manifestation, such as: - diabetic glaucoma (H40-H42)
+[E104] Type 1 diabetes mellitus with neurological complications
+[E1040] Type 1 diabetes mellitus with diabetic neuropathy, unspecified
+[E1041] Type 1 diabetes mellitus with diabetic mononeuropathy
+[E1042] Type 1 diabetes mellitus with diabetic polyneuropathy -- **Inclusion terms:** - Type 1 diabetes mellitus with diabetic neuralgia
+[E1043] Type 1 diabetes mellitus with diabetic autonomic (poly)neuropathy -- **Inclusion terms:** - Type 1 diabetes mellitus with diabetic gastroparesis
+[E1044] Type 1 diabetes mellitus with diabetic amyotrophy
+[E1049] Type 1 diabetes mellitus with other diabetic neurological complication
+[E105] Type 1 diabetes mellitus with circulatory complications
+[E1051] Type 1 diabetes mellitus with diabetic peripheral angiopathy without gangrene
+[E1052] Type 1 diabetes mellitus with diabetic peripheral angiopathy with gangrene -- **Inclusion terms:** - Type 1 diabetes mellitus with diabetic gangrene
+[E1059] Type 1 diabetes mellitus with other circulatory complications
+[E106] Type 1 diabetes mellitus with other specified complications
+[E1061] Type 1 diabetes mellitus with diabetic arthropathy
+[E10610] Type 1 diabetes mellitus with diabetic neuropathic arthropathy -- **Inclusion terms:** - Type 1 diabetes mellitus with Charcôt's joints
+[E10618] Type 1 diabetes mellitus with other diabetic arthropathy
+[E1062] Type 1 diabetes mellitus with skin complications
+[E10620] Type 1 diabetes mellitus with diabetic dermatitis -- **Inclusion terms:** - Type 1 diabetes mellitus with diabetic necrobiosis lipoidica
+[E10621] Type 1 diabetes mellitus with foot ulcer -- **Use additional code:** - code to identify site of ulcer (L97.4-, L97.5-)
+[E10622] Type 1 diabetes mellitus with other skin ulcer -- **Use additional code:** - code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)
+[E10628] Type 1 diabetes mellitus with other skin complications
+[E1063] Type 1 diabetes mellitus with oral complications
+[E10630] Type 1 diabetes mellitus with periodontal disease
+[E10638] Type 1 diabetes mellitus with other oral complications
+[E1064] Type 1 diabetes mellitus with hypoglycemia -- **Use additional code:** - code for hypoglycemia level, if applicable (E16.A-)
+[E10641] Type 1 diabetes mellitus with hypoglycemia with coma
+[E10649] Type 1 diabetes mellitus with hypoglycemia without coma
+[E1065] Type 1 diabetes mellitus with hyperglycemia
+[E1069] Type 1 diabetes mellitus with other specified complication -- **Use additional code:** - code to identify complication
+[E108] Type 1 diabetes mellitus with unspecified complications
+[E109] Type 1 diabetes mellitus without complications
+[E10A] Type 1 diabetes mellitus, presymptomatic -- **Inclusion terms:** - Early-stage type 1 diabetes mellitus
+[E10A0] Type 1 diabetes mellitus, presymptomatic, unspecified
+[E10A1] Type 1 diabetes mellitus, presymptomatic, Stage 1 -- **Inclusion terms:** - Multiple confirmed islet autoantibodies with normoglycemia
+[E10A2] Type 1 diabetes mellitus, presymptomatic, Stage 2 -- **Inclusion terms:** - Confirmed islet autoimmunity with dysglycemia
+[E11] Type 2 diabetes mellitus -- **Includes:** - diabetes (mellitus) due to insulin secretory defect - diabetes NOS - insulin resistant diabetes (mellitus)  **Excludes1:** - diabetes mellitus due to underlying condition (E08.-) - drug or chemical induced diabetes mellitus (E09.-) - gestational diabetes (O24.4-) - neonatal diabetes mellitus (P70.2) - postpancreatectomy diabetes mellitus (E13.-) - postprocedural diabetes mellitus (E13.-) - secondary diabetes mellitus NEC (E13.-) - type 1 diabetes mellitus (E10.-)  **Use additional code:** - code to identify control using: - injectable non-insulin antidiabetic drugs (Z79.85) - insulin (Z79.4) - oral antidiabetic drugs (Z79.84) - oral hypoglycemic drugs (Z79.84)
+[E110] Type 2 diabetes mellitus with hyperosmolarity
+[E1100] Type 2 diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)
+[E1101] Type 2 diabetes mellitus with hyperosmolarity with coma
+[E111] Type 2 diabetes mellitus with ketoacidosis
+[E1110] Type 2 diabetes mellitus with ketoacidosis without coma
+[E1111] Type 2 diabetes mellitus with ketoacidosis with coma
+[E112] Type 2 diabetes mellitus with kidney complications
+[E1121] Type 2 diabetes mellitus with diabetic nephropathy -- **Inclusion terms:** - Type 2 diabetes mellitus with intercapillary glomerulosclerosis - Type 2 diabetes mellitus with intracapillary glomerulonephrosis - Type 2 diabetes mellitus with Kimmelstiel-Wilson disease
+[E1122] Type 2 diabetes mellitus with diabetic chronic kidney disease -- **Use additional code:** - code to identify stage of chronic kidney disease (N18.1-N18.6)
+[E1129] Type 2 diabetes mellitus with other diabetic kidney complication -- **Inclusion terms:** - Type 2 diabetes mellitus with renal tubular degeneration
+[E113] Type 2 diabetes mellitus with ophthalmic complications
+[E1131] Type 2 diabetes mellitus with unspecified diabetic retinopathy
+[E11311] Type 2 diabetes mellitus with unspecified diabetic retinopathy with macular edema
+[E11319] Type 2 diabetes mellitus with unspecified diabetic retinopathy without macular edema
+[E1132] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy -- **Inclusion terms:** - Type 2 diabetes mellitus with nonproliferative diabetic retinopathy NOS  **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E11.32 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E11321] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema
+[E113211] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, right eye
+[E113212] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, left eye
+[E113213] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, bilateral
+[E113219] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E11329] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema
+[E113291] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, right eye
+[E113292] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, left eye
+[E113293] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, bilateral
+[E113299] Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1133] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E11.33 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E11331] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema
+[E113311] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, right eye
+[E113312] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, left eye
+[E113313] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, bilateral
+[E113319] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E11339] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema
+[E113391] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, right eye
+[E113392] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, left eye
+[E113393] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, bilateral
+[E113399] Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1134] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E11.34 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E11341] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema
+[E113411] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, right eye
+[E113412] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, left eye
+[E113413] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, bilateral
+[E113419] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E11349] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema
+[E113491] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, right eye
+[E113492] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, left eye
+[E113493] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, bilateral
+[E113499] Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1135] Type 2 diabetes mellitus with proliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E11.35 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E11351] Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema
+[E113511] Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, right eye
+[E113512] Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, left eye
+[E113513] Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, bilateral
+[E113519] Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, unspecified eye
+[E11352] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula
+[E113521] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, right eye
+[E113522] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye
+[E113523] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, bilateral
+[E113529] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, unspecified eye
+[E11353] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula
+[E113531] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, right eye
+[E113532] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye
+[E113533] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, bilateral
+[E113539] Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, unspecified eye
+[E11354] Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment
+[E113541] Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye
+[E113542] Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye
+[E113543] Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, bilateral
+[E113549] Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye
+[E11355] Type 2 diabetes mellitus with stable proliferative diabetic retinopathy
+[E113551] Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, right eye
+[E113552] Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, left eye
+[E113553] Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, bilateral
+[E113559] Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, unspecified eye
+[E11359] Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema
+[E113591] Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye
+[E113592] Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye
+[E113593] Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral
+[E113599] Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye
+[E1136] Type 2 diabetes mellitus with diabetic cataract
+[E1137] Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment -- **7th character note:** - One of the following 7th characters is to be assigned to code E11.37 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E1137X1] Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, right eye
+[E1137X2] Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, left eye
+[E1137X3] Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral
+[E1137X9] Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, unspecified eye
+[E1139] Type 2 diabetes mellitus with other diabetic ophthalmic complication -- **Use additional code:** - code to identify manifestation, such as: - diabetic glaucoma (H40-H42)
+[E114] Type 2 diabetes mellitus with neurological complications
+[E1140] Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+[E1141] Type 2 diabetes mellitus with diabetic mononeuropathy
+[E1142] Type 2 diabetes mellitus with diabetic polyneuropathy -- **Inclusion terms:** - Type 2 diabetes mellitus with diabetic neuralgia
+[E1143] Type 2 diabetes mellitus with diabetic autonomic (poly)neuropathy -- **Inclusion terms:** - Type 2 diabetes mellitus with diabetic gastroparesis
+[E1144] Type 2 diabetes mellitus with diabetic amyotrophy
+[E1149] Type 2 diabetes mellitus with other diabetic neurological complication
+[E115] Type 2 diabetes mellitus with circulatory complications
+[E1151] Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene
+[E1152] Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene -- **Inclusion terms:** - Type 2 diabetes mellitus with diabetic gangrene
+[E1159] Type 2 diabetes mellitus with other circulatory complications
+[E116] Type 2 diabetes mellitus with other specified complications
+[E1161] Type 2 diabetes mellitus with diabetic arthropathy
+[E11610] Type 2 diabetes mellitus with diabetic neuropathic arthropathy -- **Inclusion terms:** - Type 2 diabetes mellitus with Charcôt's joints
+[E11618] Type 2 diabetes mellitus with other diabetic arthropathy
+[E1162] Type 2 diabetes mellitus with skin complications
+[E11620] Type 2 diabetes mellitus with diabetic dermatitis -- **Inclusion terms:** - Type 2 diabetes mellitus with diabetic necrobiosis lipoidica
+[E11621] Type 2 diabetes mellitus with foot ulcer -- **Use additional code:** - code to identify site of ulcer (L97.4-, L97.5-)
+[E11622] Type 2 diabetes mellitus with other skin ulcer -- **Use additional code:** - code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)
+[E11628] Type 2 diabetes mellitus with other skin complications
+[E1163] Type 2 diabetes mellitus with oral complications
+[E11630] Type 2 diabetes mellitus with periodontal disease
+[E11638] Type 2 diabetes mellitus with other oral complications
+[E1164] Type 2 diabetes mellitus with hypoglycemia -- **Use additional code:** - code for hypoglycemia level, if applicable (E16.A-)
+[E11641] Type 2 diabetes mellitus with hypoglycemia with coma
+[E11649] Type 2 diabetes mellitus with hypoglycemia without coma
+[E1165] Type 2 diabetes mellitus with hyperglycemia
+[E1169] Type 2 diabetes mellitus with other specified complication -- **Use additional code:** - code to identify complication
+[E118] Type 2 diabetes mellitus with unspecified complications
+[E119] Type 2 diabetes mellitus without complications
+[E13] Other specified diabetes mellitus -- **Includes:** - diabetes mellitus due to genetic defects of beta-cell function - diabetes mellitus due to genetic defects in insulin action - postpancreatectomy diabetes mellitus - postprocedural diabetes mellitus - secondary diabetes mellitus NEC  **Excludes1:** - diabetes (mellitus) due to autoimmune process (E10.-) - diabetes (mellitus) due to immune mediated pancreatic islet beta-cell destruction (E10.-) - diabetes mellitus due to underlying condition (E08.-) - drug or chemical induced diabetes mellitus (E09.-) - gestational diabetes (O24.4-) - neonatal diabetes mellitus (P70.2) - type 1 diabetes mellitus (E10.-)  **Use additional code:** - code to identify control using: - injectable non-insulin antidiabetic drugs (Z79.85) - insulin (Z79.4) - oral antidiabetic drugs (Z79.84) - oral hypoglycemic drugs (Z79.84)
+[E130] Other specified diabetes mellitus with hyperosmolarity
+[E1300] Other specified diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)
+[E1301] Other specified diabetes mellitus with hyperosmolarity with coma
+[E131] Other specified diabetes mellitus with ketoacidosis
+[E1310] Other specified diabetes mellitus with ketoacidosis without coma
+[E1311] Other specified diabetes mellitus with ketoacidosis with coma
+[E132] Other specified diabetes mellitus with kidney complications
+[E1321] Other specified diabetes mellitus with diabetic nephropathy -- **Inclusion terms:** - Other specified diabetes mellitus with intercapillary glomerulosclerosis - Other specified diabetes mellitus with intracapillary glomerulonephrosis - Other specified diabetes mellitus with Kimmelstiel-Wilson disease
+[E1322] Other specified diabetes mellitus with diabetic chronic kidney disease -- **Use additional code:** - code to identify stage of chronic kidney disease (N18.1-N18.6)
+[E1329] Other specified diabetes mellitus with other diabetic kidney complication -- **Inclusion terms:** - Other specified diabetes mellitus with renal tubular degeneration
+[E133] Other specified diabetes mellitus with ophthalmic complications
+[E1331] Other specified diabetes mellitus with unspecified diabetic retinopathy
+[E13311] Other specified diabetes mellitus with unspecified diabetic retinopathy with macular edema
+[E13319] Other specified diabetes mellitus with unspecified diabetic retinopathy without macular edema
+[E1332] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy -- **Inclusion terms:** - Other specified diabetes mellitus with nonproliferative diabetic retinopathy NOS  **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E13.32 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E13321] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema
+[E133211] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, right eye
+[E133212] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, left eye
+[E133213] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, bilateral
+[E133219] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E13329] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema
+[E133291] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, right eye
+[E133292] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, left eye
+[E133293] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, bilateral
+[E133299] Other specified diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1333] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E13.33 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E13331] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema
+[E133311] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, right eye
+[E133312] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, left eye
+[E133313] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, bilateral
+[E133319] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E13339] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema
+[E133391] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, right eye
+[E133392] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, left eye
+[E133393] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, bilateral
+[E133399] Other specified diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1334] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E13.34 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E13341] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema
+[E133411] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, right eye
+[E133412] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, left eye
+[E133413] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, bilateral
+[E133419] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, unspecified eye
+[E13349] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema
+[E133491] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, right eye
+[E133492] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, left eye
+[E133493] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, bilateral
+[E133499] Other specified diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, unspecified eye
+[E1335] Other specified diabetes mellitus with proliferative diabetic retinopathy -- **7th character note:** - One of the following 7th characters is to be assigned to codes in subcategory E13.35 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E13351] Other specified diabetes mellitus with proliferative diabetic retinopathy with macular edema
+[E133511] Other specified diabetes mellitus with proliferative diabetic retinopathy with macular edema, right eye
+[E133512] Other specified diabetes mellitus with proliferative diabetic retinopathy with macular edema, left eye
+[E133513] Other specified diabetes mellitus with proliferative diabetic retinopathy with macular edema, bilateral
+[E133519] Other specified diabetes mellitus with proliferative diabetic retinopathy with macular edema, unspecified eye
+[E13352] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula
+[E133521] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, right eye
+[E133522] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye
+[E133523] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, bilateral
+[E133529] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, unspecified eye
+[E13353] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula
+[E133531] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, right eye
+[E133532] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye
+[E133533] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, bilateral
+[E133539] Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, unspecified eye
+[E13354] Other specified diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment
+[E133541] Other specified diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye
+[E133542] Other specified diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye
+[E133543] Other specified diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, bilateral
+[E133549] Other specified diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye
+[E13355] Other specified diabetes mellitus with stable proliferative diabetic retinopathy
+[E133551] Other specified diabetes mellitus with stable proliferative diabetic retinopathy, right eye
+[E133552] Other specified diabetes mellitus with stable proliferative diabetic retinopathy, left eye
+[E133553] Other specified diabetes mellitus with stable proliferative diabetic retinopathy, bilateral
+[E133559] Other specified diabetes mellitus with stable proliferative diabetic retinopathy, unspecified eye
+[E13359] Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema
+[E133591] Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye
+[E133592] Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye
+[E133593] Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral
+[E133599] Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye
+[E1336] Other specified diabetes mellitus with diabetic cataract
+[E1337] Other specified diabetes mellitus with diabetic macular edema, resolved following treatment -- **7th character note:** - One of the following 7th characters is to be assigned to code E13.37 to designate laterality of the disease:  **7th character:** - 1: right eye - 2: left eye - 3: bilateral - 9: unspecified eye
+[E1337X1] Other specified diabetes mellitus with diabetic macular edema, resolved following treatment, right eye
+[E1337X2] Other specified diabetes mellitus with diabetic macular edema, resolved following treatment, left eye
+[E1337X3] Other specified diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral
+[E1337X9] Other specified diabetes mellitus with diabetic macular edema, resolved following treatment, unspecified eye
+[E1339] Other specified diabetes mellitus with other diabetic ophthalmic complication -- **Use additional code:** - code to identify manifestation, such as: - diabetic glaucoma (H40-H42)
+[E134] Other specified diabetes mellitus with neurological complications
+[E1340] Other specified diabetes mellitus with diabetic neuropathy, unspecified
+[E1341] Other specified diabetes mellitus with diabetic mononeuropathy
+[E1342] Other specified diabetes mellitus with diabetic polyneuropathy -- **Inclusion terms:** - Other specified diabetes mellitus with diabetic neuralgia
+[E1343] Other specified diabetes mellitus with diabetic autonomic (poly)neuropathy -- **Inclusion terms:** - Other specified diabetes mellitus with diabetic gastroparesis
+[E1344] Other specified diabetes mellitus with diabetic amyotrophy
+[E1349] Other specified diabetes mellitus with other diabetic neurological complication
+[E135] Other specified diabetes mellitus with circulatory complications
+[E1351] Other specified diabetes mellitus with diabetic peripheral angiopathy without gangrene
+[E1352] Other specified diabetes mellitus with diabetic peripheral angiopathy with gangrene -- **Inclusion terms:** - Other specified diabetes mellitus with diabetic gangrene
+[E1359] Other specified diabetes mellitus with other circulatory complications
+[E136] Other specified diabetes mellitus with other specified complications
+[E1361] Other specified diabetes mellitus with diabetic arthropathy
+[E13610] Other specified diabetes mellitus with diabetic neuropathic arthropathy -- **Inclusion terms:** - Other specified diabetes mellitus with Charcôt's joints
+[E13618] Other specified diabetes mellitus with other diabetic arthropathy
+[E1362] Other specified diabetes mellitus with skin complications
+[E13620] Other specified diabetes mellitus with diabetic dermatitis -- **Inclusion terms:** - Other specified diabetes mellitus with diabetic necrobiosis lipoidica
+[E13621] Other specified diabetes mellitus with foot ulcer -- **Use additional code:** - code to identify site of ulcer (L97.4-, L97.5-)
+[E13622] Other specified diabetes mellitus with other skin ulcer -- **Use additional code:** - code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)
+[E13628] Other specified diabetes mellitus with other skin complications
+[E1363] Other specified diabetes mellitus with oral complications
+[E13630] Other specified diabetes mellitus with periodontal disease
+[E13638] Other specified diabetes mellitus with other oral complications
+[E1364] Other specified diabetes mellitus with hypoglycemia -- **Use additional code:** - code for hypoglycemia level, if applicable (E16.A-)
+[E13641] Other specified diabetes mellitus with hypoglycemia with coma
+[E13649] Other specified diabetes mellitus with hypoglycemia without coma
+[E1365] Other specified diabetes mellitus with hyperglycemia
+[E1369] Other specified diabetes mellitus with other specified complication -- **Use additional code:** - code to identify complication
+[E138] Other specified diabetes mellitus with unspecified complications
+[E139] Other specified diabetes mellitus without complications
+[E15] Nondiabetic hypoglycemic coma -- **Includes:** - drug-induced insulin coma in nondiabetic - hyperinsulinism with hypoglycemic coma - hypoglycemic coma NOS
+[E16] Other disorders of pancreatic internal secretion
+[E160] Drug-induced hypoglycemia without coma -- **Excludes1:** - diabetes with hypoglycemia without coma (E09.649)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E161] Other hypoglycemia -- **Inclusion terms:** - Functional hyperinsulinism - Functional nonhyperinsulinemic hypoglycemia - Hyperinsulinism NOS - Hyperplasia of pancreatic islet beta cells NOS  **Excludes1:** - diabetes with hypoglycemia (E08.649, E10.649, E11.649, E13.649) - hypoglycemia in infant of diabetic mother (P70.1) - neonatal hypoglycemia (P70.4)  **Use additional code:** - code for hypoglycemia level, if applicable (E16.A-)
+[E162] Hypoglycemia, unspecified -- **Excludes1:** - diabetes with hypoglycemia (E08.649, E10.649, E11.649, E13.649)  **Use additional code:** - code for hypoglycemia level, if applicable (E16.A-)
+[E163] Increased secretion of glucagon -- **Inclusion terms:** - Hyperplasia of pancreatic endocrine cells with glucagon excess
+[E164] Increased secretion of gastrin -- **Inclusion terms:** - Hypergastrinemia - Hyperplasia of pancreatic endocrine cells with gastrin excess - Zollinger-Ellison syndrome
+[E168] Other specified disorders of pancreatic internal secretion -- **Inclusion terms:** - Increased secretion from endocrine pancreas of growth hormone-releasing hormone - Increased secretion from endocrine pancreas of pancreatic polypeptide - Increased secretion from endocrine pancreas of somatostatin - Increased secretion from endocrine pancreas of vasoactive-intestinal polypeptide
+[E169] Disorder of pancreatic internal secretion, unspecified -- **Inclusion terms:** - Islet-cell hyperplasia NOS - Pancreatic endocrine cell hyperplasia NOS
+[E16A] Hypoglycemia level
+[E16A1] Hypoglycemia level 1 -- **Inclusion terms:** - Decreased blood glucose level 1
+[E16A2] Hypoglycemia level 2 -- **Inclusion terms:** - Decreased blood glucose level 2
+[E16A3] Hypoglycemia level 3 -- **Inclusion terms:** - Decreased blood glucose level 3
+[E20] Hypoparathyroidism -- **Excludes1:** - Di George's syndrome (D82.1) - postprocedural hypoparathyroidism (E89.2) - tetany NOS (R29.0) - transitory neonatal hypoparathyroidism (P71.4)
+[E200] Idiopathic hypoparathyroidism
+[E201] Pseudohypoparathyroidism
+[E208] Other hypoparathyroidism
+[E2081] Hypoparathyroidism due to impaired parathyroid hormone secretion
+[E20810] Autosomal dominant hypocalcemia -- **Inclusion terms:** - Autosomal dominant hypocalcemia type 1 (ADH1) - Autosomal dominant hypocalcemia type 2 (ADH2)  **Code also:** - , if applicable, any associated conditions, such as: - calculus of kidney (N20.0) - chronic kidney disease (N18.-) - respiratory distress (J80, R06.-) - seizure disorder (G40.-, R56.9)
+[E20811] Secondary hypoparathyroidism in diseases classified elsewhere -- **Code first:** - underlying condition, if known
+[E20812] Autoimmune hypoparathyroidism -- **Code first:** - , if applicable, underlying condition such as: - autoimmune polyglandular failure (E31.0) - Schmidt's syndrome (E31.0)
+[E20818] Other specified hypoparathyroidism due to impaired parathyroid hormone secretion -- **Inclusion terms:** - Familial isolated hypoparathyroidism
+[E20819] Hypoparathyroidism due to impaired parathyroid hormone secretion, unspecified
+[E2089] Other specified hypoparathyroidism -- **Inclusion terms:** - Familial hypoparathyroidism
+[E209] Hypoparathyroidism, unspecified -- **Inclusion terms:** - Parathyroid tetany
+[E21] Hyperparathyroidism and other disorders of parathyroid gland -- **Excludes1:** - adult osteomalacia (M83.-) - ectopic hyperparathyroidism (E34.2) - hungry bone syndrome (E83.81) - infantile and juvenile osteomalacia (E55.0)  **Excludes2:** - familial hypocalciuric hypercalcemia (E83.52)
+[E210] Primary hyperparathyroidism -- **Inclusion terms:** - Hyperplasia of parathyroid - Osteitis fibrosa cystica generalisata [von Recklinghausen's disease of bone]
+[E211] Secondary hyperparathyroidism, not elsewhere classified -- **Excludes1:** - secondary hyperparathyroidism of renal origin (N25.81)
+[E212] Other hyperparathyroidism -- **Inclusion terms:** - Tertiary hyperparathyroidism  **Excludes1:** - familial hypocalciuric hypercalcemia (E83.52)
+[E213] Hyperparathyroidism, unspecified
+[E214] Other specified disorders of parathyroid gland
+[E215] Disorder of parathyroid gland, unspecified
+[E22] Hyperfunction of pituitary gland -- **Excludes1:** - Cushing's syndrome (E24.-) - Nelson's syndrome (E24.1) - overproduction of ACTH not associated with Cushing's disease (E27.0) - overproduction of pituitary ACTH (E24.0) - overproduction of thyroid-stimulating hormone (E05.8-)
+[E220] Acromegaly and pituitary gigantism -- **Inclusion terms:** - Overproduction of growth hormone  **Excludes1:** - constitutional gigantism (E34.4) - constitutional tall stature (E34.4) - increased secretion from endocrine pancreas of growth hormone-releasing hormone (E16.8)
+[E221] Hyperprolactinemia -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E222] Syndrome of inappropriate secretion of antidiuretic hormone
+[E228] Other hyperfunction of pituitary gland -- **Inclusion terms:** - Central precocious puberty
+[E229] Hyperfunction of pituitary gland, unspecified
+[E23] Hypofunction and other disorders of the pituitary gland -- **Includes:** - the listed conditions whether the disorder is in the pituitary or the hypothalamus  **Excludes1:** - postprocedural hypopituitarism (E89.3) - short stature due to endocrine disorder (E34.3-)
+[E230] Hypopituitarism -- **Inclusion terms:** - Fertile eunuch syndrome - Hypogonadotropic hypogonadism - Idiopathic growth hormone deficiency - Isolated deficiency of gonadotropin - Isolated deficiency of growth hormone - Isolated deficiency of pituitary hormone - Kallmann's syndrome - Lorain-Levi short stature - Necrosis of pituitary gland (postpartum) - Panhypopituitarism - Pituitary cachexia - Pituitary insufficiency NOS - Pituitary short stature - Sheehan's syndrome - Simmonds' disease
+[E231] Drug-induced hypopituitarism -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E232] Diabetes insipidus -- **Excludes1:** - nephrogenic diabetes insipidus (N25.1)
+[E233] Hypothalamic dysfunction, not elsewhere classified -- **Excludes1:** - Prader-Willi syndrome (Q87.11) - Russell-Silver syndrome (Q87.19)
+[E236] Other disorders of pituitary gland -- **Inclusion terms:** - Abscess of pituitary - Adiposogenital dystrophy
+[E237] Disorder of pituitary gland, unspecified
+[E24] Cushing's syndrome -- **Excludes1:** - congenital adrenal hyperplasia (E25.0)
+[E240] Pituitary-dependent Cushing's disease -- **Inclusion terms:** - Overproduction of pituitary ACTH - Pituitary-dependent hypercorticalism
+[E241] Nelson's syndrome
+[E242] Drug-induced Cushing's syndrome -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E243] Ectopic ACTH syndrome
+[E244] Alcohol-induced pseudo-Cushing's syndrome
+[E248] Other Cushing's syndrome
+[E249] Cushing's syndrome, unspecified
+[E25] Adrenogenital disorders -- **Includes:** - adrenogenital syndromes, virilizing or feminizing, whether acquired or due to adrenal hyperplasia consequent on inborn enzyme defects in hormone synthesis - Female adrenal pseudohermaphroditism - Female heterosexual precocious pseudopuberty - Male isosexual precocious pseudopuberty - Male macrogenitosomia praecox - Male sexual precocity with adrenal hyperplasia - Male virilization (female)  **Excludes1:** - indeterminate sex and pseudohermaphroditism (Q56) - chromosomal abnormalities (Q90-Q99)
+[E250] Congenital adrenogenital disorders associated with enzyme deficiency -- **Inclusion terms:** - Congenital adrenal hyperplasia - 21-Hydroxylase deficiency - Salt-losing congenital adrenal hyperplasia
+[E258] Other adrenogenital disorders -- **Inclusion terms:** - Idiopathic adrenogenital disorder  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E259] Adrenogenital disorder, unspecified -- **Inclusion terms:** - Adrenogenital syndrome NOS
+[E26] Hyperaldosteronism
+[E260] Primary hyperaldosteronism
+[E2601] Conn's syndrome -- **Code also:** - adrenal adenoma (D35.0-)
+[E2602] Glucocorticoid-remediable aldosteronism -- **Inclusion terms:** - Familial aldosteronism type I
+[E2609] Other primary hyperaldosteronism -- **Inclusion terms:** - Primary aldosteronism due to adrenal hyperplasia (bilateral)
+[E261] Secondary hyperaldosteronism
+[E268] Other hyperaldosteronism
+[E2681] Bartter's syndrome
+[E2689] Other hyperaldosteronism
+[E269] Hyperaldosteronism, unspecified -- **Inclusion terms:** - Aldosteronism NOS - Hyperaldosteronism NOS
+[E27] Other disorders of adrenal gland
+[E270] Other adrenocortical overactivity -- **Inclusion terms:** - Overproduction of ACTH, not associated with Cushing's disease - Premature adrenarche  **Excludes1:** - Cushing's syndrome (E24.-)
+[E271] Primary adrenocortical insufficiency -- **Inclusion terms:** - Addison's disease - Autoimmune adrenalitis  **Excludes1:** - Addison only phenotype adrenoleukodystrophy (E71.528) - amyloidosis (E85.-) - tuberculous Addison's disease (A18.7) - Waterhouse-Friderichsen syndrome (A39.1)
+[E272] Addisonian crisis -- **Inclusion terms:** - Adrenal crisis - Adrenocortical crisis
+[E273] Drug-induced adrenocortical insufficiency -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E274] Other and unspecified adrenocortical insufficiency -- **Excludes1:** - adrenoleukodystrophy [Addison-Schilder] (E71.528) - Waterhouse-Friderichsen syndrome (A39.1)
+[E2740] Unspecified adrenocortical insufficiency -- **Inclusion terms:** - Adrenocortical insufficiency NOS - Hypoaldosteronism
+[E2749] Other adrenocortical insufficiency -- **Inclusion terms:** - Adrenal hemorrhage - Adrenal infarction
+[E275] Adrenomedullary hyperfunction -- **Inclusion terms:** - Adrenomedullary hyperplasia - Catecholamine hypersecretion
+[E278] Other specified disorders of adrenal gland -- **Inclusion terms:** - Abnormality of cortisol-binding globulin
+[E279] Disorder of adrenal gland, unspecified
+[E28] Ovarian dysfunction -- **Excludes1:** - isolated gonadotropin deficiency (E23.0) - postprocedural ovarian failure (E89.4-)
+[E280] Estrogen excess -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E281] Androgen excess -- **Inclusion terms:** - Hypersecretion of ovarian androgens  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E282] Polycystic ovarian syndrome -- **Inclusion terms:** - Sclerocystic ovary syndrome - Stein-Leventhal syndrome
+[E283] Primary ovarian failure -- **Excludes1:** - pure gonadal dysgenesis (Q99.1) - Turner's syndrome (Q96.-)
+[E2831] Premature menopause
+[E28310] Symptomatic premature menopause -- **Inclusion terms:** - Symptoms such as flushing, sleeplessness, headache, lack of concentration, associated with premature menopause
+[E28319] Asymptomatic premature menopause -- **Inclusion terms:** - Premature menopause NOS
+[E2839] Other primary ovarian failure -- **Inclusion terms:** - Decreased estrogen - Resistant ovary syndrome
+[E288] Other ovarian dysfunction -- **Inclusion terms:** - Ovarian hyperfunction NOS  **Excludes1:** - postprocedural ovarian failure (E89.4-)
+[E289] Ovarian dysfunction, unspecified
+[E29] Testicular dysfunction -- **Excludes1:** - androgen insensitivity syndrome (E34.5-) - azoospermia or oligospermia NOS (N46.0-N46.1) - isolated gonadotropin deficiency (E23.0) - Klinefelter's syndrome (Q98.0-Q98.1, Q98.4)
+[E290] Testicular hyperfunction -- **Inclusion terms:** - Hypersecretion of testicular hormones
+[E291] Testicular hypofunction -- **Inclusion terms:** - Defective biosynthesis of testicular androgen NOS - 5-delta-Reductase deficiency (with male pseudohermaphroditism) - Testicular hypogonadism NOS  **Excludes1:** - postprocedural testicular hypofunction (E89.5)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E298] Other testicular dysfunction
+[E299] Testicular dysfunction, unspecified
+[E30] Disorders of puberty, not elsewhere classified
+[E300] Delayed puberty -- **Inclusion terms:** - Constitutional delay of puberty - Delayed sexual development
+[E301] Precocious puberty -- **Inclusion terms:** - Precocious menstruation  **Excludes1:** - Albright (-McCune) (-Sternberg) syndrome (Q78.1) - central precocious puberty (E22.8) - congenital adrenal hyperplasia (E25.0) - female heterosexual precocious pseudopuberty (E25.-) - male isosexual precocious pseudopuberty (E25.-)
+[E308] Other disorders of puberty -- **Inclusion terms:** - Premature thelarche
+[E309] Disorder of puberty, unspecified
+[E31] Polyglandular dysfunction -- **Excludes1:** - ataxia telangiectasia [Louis-Bar] (G11.3) - dystrophia myotonica [Steinert] (G71.11) - pseudohypoparathyroidism (E20.1)
+[E310] Autoimmune polyglandular failure -- **Inclusion terms:** - Schmidt's syndrome
+[E311] Polyglandular hyperfunction -- **Excludes1:** - multiple endocrine adenomatosis (E31.2-) - multiple endocrine neoplasia (E31.2-)
+[E312] Multiple endocrine neoplasia [MEN] syndromes -- **Inclusion terms:** - Multiple endocrine adenomatosis  **Code also:** - any associated malignancies and other conditions associated with the syndromes
+[E3120] Multiple endocrine neoplasia [MEN] syndrome, unspecified -- **Inclusion terms:** - Multiple endocrine adenomatosis NOS - Multiple endocrine neoplasia [MEN] syndrome NOS
+[E3121] Multiple endocrine neoplasia [MEN] type I -- **Inclusion terms:** - Wermer's syndrome
+[E3122] Multiple endocrine neoplasia [MEN] type IIA -- **Inclusion terms:** - Sipple's syndrome
+[E3123] Multiple endocrine neoplasia [MEN] type IIB
+[E318] Other polyglandular dysfunction
+[E319] Polyglandular dysfunction, unspecified
+[E32] Diseases of thymus -- **Excludes1:** - aplasia or hypoplasia of thymus with immunodeficiency (D82.1) - myasthenia gravis (G70.0)
+[E320] Persistent hyperplasia of thymus -- **Inclusion terms:** - Hypertrophy of thymus
+[E321] Abscess of thymus
+[E328] Other diseases of thymus -- **Excludes1:** - aplasia or hypoplasia with immunodeficiency (D82.1) - thymoma (D15.0)
+[E329] Disease of thymus, unspecified
+[E34] Other endocrine disorders -- **Excludes1:** - pseudohypoparathyroidism (E20.1)
+[E340] Carcinoid syndrome -- **Code also:** - the underlying disorder, such as: - primary neuroendocrine tumors (C7A.-) - secondary neuroendocrine tumors (C7B.-)
+[E3400] Carcinoid syndrome, unspecified -- **Inclusion terms:** - Carcinoid disease, unspecified
+[E3401] Carcinoid heart syndrome -- **Inclusion terms:** - Carcinoid heart disease - Hedinger syndrome
+[E3409] Other carcinoid syndrome -- **Inclusion terms:** - Carcinoid disease NEC - Carcinoid syndrome NEC - Other carcinoid disease
+[E341] Other hypersecretion of intestinal hormones
+[E342] Ectopic hormone secretion, not elsewhere classified -- **Excludes1:** - ectopic ACTH syndrome (E24.3)
+[E343] Short stature due to endocrine disorder -- **Excludes1:** - achondroplastic short stature (Q77.4) - hypochondroplastic short stature (Q77.4) - nutritional short stature (E45) - pituitary short stature (E23.0) - progeria (E34.8) - renal short stature (N25.0) - Russell-Silver syndrome (Q87.19) - short-limbed stature with immunodeficiency (D82.2) - short stature (child) (R62.52) - short stature in specific dysmorphic syndromes - code to syndrome - see Alphabetical Index - short stature NOS (R62.52)
+[E3430] Short stature due to endocrine disorder, unspecified
+[E3431] Constitutional short stature -- **Inclusion terms:** - Constitutional delay of growth, puberty, or maturation
+[E3432] Genetic causes of short stature
+[E34321] Primary insulin-like growth factor-1 (IGF-1) deficiency -- **Inclusion terms:** - Acid-labile subunit gene (IGFALS) defect - Growth hormone gene 1 (GH1) defect with growth hormone neutralizing antibodies - Growth hormone insensitivity syndrome (GHIS) - Insulin-like growth factor 1 gene (IGF1) defect - Laron type short stature - Severe primary insulin-like growth factor-1 deficiency (SPIGFD) - Signal transducer and activator of transcription 5B gene (STAT5b) defect
+[E34322] Insulin-like growth factor-1 (IGF-1) resistance -- **Inclusion terms:** - Genetic syndrome with resistance to insulin-like growth factor-1 - Insulin-like growth factor-1 receptor (IGF-1R) defect - Post-insulin-like growth factor-1 receptor signaling defect
+[E34328] Other genetic causes of short stature -- **Inclusion terms:** - Short stature due to ACAN gene variant - Short stature due to aggrecan deficiency - Short stature due to NPR-2 gene variant
+[E34329] Unspecified genetic causes of short stature
+[E3439] Other short stature due to endocrine disorder
+[E344] Constitutional tall stature -- **Inclusion terms:** - Constitutional gigantism
+[E345] Androgen insensitivity syndrome
+[E3450] Androgen insensitivity syndrome, unspecified -- **Inclusion terms:** - Androgen insensitivity NOS
+[E3451] Complete androgen insensitivity syndrome -- **Inclusion terms:** - Complete androgen insensitivity - de Quervain syndrome - Goldberg-Maxwell syndrome
+[E3452] Partial androgen insensitivity syndrome -- **Inclusion terms:** - Partial androgen insensitivity - Reifenstein syndrome
+[E348] Other specified endocrine disorders -- **Inclusion terms:** - Pineal gland dysfunction - Progeria  **Excludes2:** - pseudohypoparathyroidism (E20.1)
+[E349] Endocrine disorder, unspecified -- **Inclusion terms:** - Endocrine disturbance NOS - Hormone disturbance NOS
+[E35] Disorders of endocrine glands in diseases classified elsewhere -- **Excludes1:** - Echinococcus granulosus infection of thyroid gland (B67.3) - meningococcal hemorrhagic adrenalitis (A39.1) - syphilis of endocrine gland (A52.79) - tuberculosis of adrenal gland, except calcification (A18.7) - tuberculosis of endocrine gland NEC (A18.82) - tuberculosis of thyroid gland (A18.81) - Waterhouse-Friderichsen syndrome (A39.1)  **Code first:** - underlying disease, such as: - late congenital syphilis of thymus gland [Dubois disease] (A50.59)  **Use additional code:** - code, if applicable, to identify: - sequelae of tuberculosis of other organs (B90.8)
+[E36] Intraoperative complications of endocrine system -- **Excludes2:** - postprocedural endocrine and metabolic complications and disorders, not elsewhere classified (E89.-)
+[E360] Intraoperative hemorrhage and hematoma of an endocrine system organ or structure complicating a procedure -- **Excludes1:** - intraoperative hemorrhage and hematoma of an endocrine system organ or structure due to accidental puncture or laceration during a procedure (E36.1-)
+[E3601] Intraoperative hemorrhage and hematoma of an endocrine system organ or structure complicating an endocrine system procedure
+[E3602] Intraoperative hemorrhage and hematoma of an endocrine system organ or structure complicating other procedure
+[E361] Accidental puncture and laceration of an endocrine system organ or structure during a procedure
+[E3611] Accidental puncture and laceration of an endocrine system organ or structure during an endocrine system procedure
+[E3612] Accidental puncture and laceration of an endocrine system organ or structure during other procedure
+[E368] Other intraoperative complications of endocrine system -- **Use additional code:** - code, if applicable, to further specify disorder
+[E40] Kwashiorkor -- **Inclusion terms:** - Severe malnutrition with nutritional edema with dyspigmentation of skin and hair  **Excludes1:** - marasmic kwashiorkor (E42)
+[E41] Nutritional marasmus -- **Inclusion terms:** - Severe malnutrition with marasmus  **Excludes1:** - marasmic kwashiorkor (E42)
+[E42] Marasmic kwashiorkor -- **Inclusion terms:** - Intermediate form severe protein-calorie malnutrition - Severe protein-calorie malnutrition with signs of both kwashiorkor and marasmus
+[E43] Unspecified severe protein-calorie malnutrition -- **Inclusion terms:** - Starvation edema
+[E44] Protein-calorie malnutrition of moderate and mild degree
+[E440] Moderate protein-calorie malnutrition
+[E441] Mild protein-calorie malnutrition
+[E45] Retarded development following protein-calorie malnutrition -- **Inclusion terms:** - Nutritional short stature - Nutritional stunting - Physical retardation due to malnutrition
+[E46] Unspecified protein-calorie malnutrition -- **Inclusion terms:** - Malnutrition NOS - Protein-calorie imbalance NOS  **Excludes1:** - nutritional deficiency NOS (E63.9)
+[E50] Vitamin A deficiency -- **Excludes1:** - sequelae of vitamin A deficiency (E64.1)
+[E500] Vitamin A deficiency with conjunctival xerosis
+[E501] Vitamin A deficiency with Bitot's spot and conjunctival xerosis -- **Inclusion terms:** - Bitot's spot in the young child
+[E502] Vitamin A deficiency with corneal xerosis
+[E503] Vitamin A deficiency with corneal ulceration and xerosis
+[E504] Vitamin A deficiency with keratomalacia
+[E505] Vitamin A deficiency with night blindness
+[E506] Vitamin A deficiency with xerophthalmic scars of cornea
+[E507] Other ocular manifestations of vitamin A deficiency -- **Inclusion terms:** - Xerophthalmia NOS
+[E508] Other manifestations of vitamin A deficiency -- **Inclusion terms:** - Follicular keratosis - Xeroderma
+[E509] Vitamin A deficiency, unspecified -- **Inclusion terms:** - Hypovitaminosis A NOS
+[E51] Thiamine deficiency -- **Excludes1:** - sequelae of thiamine deficiency (E64.8)
+[E511] Beriberi
+[E5111] Dry beriberi -- **Inclusion terms:** - Beriberi NOS - Beriberi with polyneuropathy
+[E5112] Wet beriberi -- **Inclusion terms:** - Beriberi with cardiovascular manifestations - Cardiovascular beriberi - Shoshin disease
+[E512] Wernicke's encephalopathy
+[E518] Other manifestations of thiamine deficiency
+[E519] Thiamine deficiency, unspecified
+[E52] Niacin deficiency [pellagra] -- **Inclusion terms:** - Niacin (-tryptophan) deficiency - Nicotinamide deficiency - Pellagra (alcoholic)  **Excludes1:** - sequelae of niacin deficiency (E64.8)
+[E53] Deficiency of other B group vitamins -- **Excludes1:** - sequelae of vitamin B deficiency (E64.8)
+[E530] Riboflavin deficiency -- **Inclusion terms:** - Ariboflavinosis - Vitamin B2 deficiency
+[E531] Pyridoxine deficiency -- **Inclusion terms:** - Vitamin B6 deficiency  **Excludes1:** - pyridoxine-responsive sideroblastic anemia (D64.3)
+[E538] Deficiency of other specified B group vitamins -- **Inclusion terms:** - Biotin deficiency - Cyanocobalamin deficiency - Folate deficiency - Folic acid deficiency - Pantothenic acid deficiency - Vitamin B12 deficiency  **Excludes1:** - folate deficiency anemia (D52.-) - vitamin B12 deficiency anemia (D51.-)
+[E539] Vitamin B deficiency, unspecified
+[E54] Ascorbic acid deficiency -- **Inclusion terms:** - Deficiency of vitamin C - Scurvy  **Excludes1:** - scorbutic anemia (D53.2) - sequelae of vitamin C deficiency (E64.2)
+[E55] Vitamin D deficiency -- **Excludes1:** - adult osteomalacia (M83.-) - osteoporosis (M80.-) - sequelae of rickets (E64.3)
+[E550] Rickets, active -- **Inclusion terms:** - Infantile osteomalacia - Juvenile osteomalacia  **Excludes1:** - celiac rickets (K90.0) - Crohn's rickets (K50.-) - hereditary vitamin D-dependent rickets (E83.32) - inactive rickets (E64.3) - renal rickets (N25.0) - sequelae of rickets (E64.3) - vitamin D-resistant rickets (E83.31)
+[E559] Vitamin D deficiency, unspecified -- **Inclusion terms:** - Avitaminosis D
+[E56] Other vitamin deficiencies -- **Excludes1:** - sequelae of other vitamin deficiencies (E64.8)
+[E560] Deficiency of vitamin E
+[E561] Deficiency of vitamin K -- **Excludes1:** - deficiency of coagulation factor due to vitamin K deficiency (D68.4) - vitamin K deficiency of newborn (P53)
+[E568] Deficiency of other vitamins
+[E569] Vitamin deficiency, unspecified
+[E58] Dietary calcium deficiency -- **Excludes1:** - disorders of calcium metabolism (E83.5-) - sequelae of calcium deficiency (E64.8)
+[E59] Dietary selenium deficiency -- **Inclusion terms:** - Keshan disease  **Excludes1:** - sequelae of selenium deficiency (E64.8)
+[E60] Dietary zinc deficiency
+[E61] Deficiency of other nutrient elements -- **Excludes1:** - disorders of mineral metabolism (E83.-) - iodine deficiency related thyroid disorders (E00-E02) - sequelae of malnutrition and other nutritional deficiencies (E64.-)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E610] Copper deficiency
+[E611] Iron deficiency -- **Excludes1:** - iron deficiency anemia (D50.-)
+[E612] Magnesium deficiency
+[E613] Manganese deficiency
+[E614] Chromium deficiency
+[E615] Molybdenum deficiency
+[E616] Vanadium deficiency
+[E617] Deficiency of multiple nutrient elements
+[E618] Deficiency of other specified nutrient elements
+[E619] Deficiency of nutrient element, unspecified
+[E63] Other nutritional deficiencies -- **Excludes2:** - dehydration (E86.0) - failure to thrive, adult (R62.7) - failure to thrive, child (R62.51) - feeding problems in newborn (P92.-) - sequelae of malnutrition and other nutritional deficiencies (E64.-)
+[E630] Essential fatty acid [EFA] deficiency
+[E631] Imbalance of constituents of food intake
+[E638] Other specified nutritional deficiencies
+[E639] Nutritional deficiency, unspecified
+[E64] Sequelae of malnutrition and other nutritional deficiencies -- **Notes:** - This category is to be used to indicate conditions in categories E43, E44, E46, E50-E63 as the cause of sequelae, which are themselves classified elsewhere. The 'sequelae' include conditions specified as such; they also include the late effects of diseases classifiable to the above categories if the disease itself is no longer present  **Code first:** - condition resulting from (sequela) of malnutrition and other nutritional deficiencies
+[E640] Sequelae of protein-calorie malnutrition -- **Excludes2:** - retarded development following protein-calorie malnutrition (E45)
+[E641] Sequelae of vitamin A deficiency
+[E642] Sequelae of vitamin C deficiency
+[E643] Sequelae of rickets
+[E648] Sequelae of other nutritional deficiencies
+[E649] Sequelae of unspecified nutritional deficiency
+[E65] Localized adiposity -- **Inclusion terms:** - Fat pad
+[E66] Overweight and obesity -- **Excludes2:** - adiposogenital dystrophy (E23.6) - lipomatosis dolorosa [Dercum] (E88.2) - lipomatosis NOS (E88.2) - Prader-Willi syndrome (Q87.11)  **Code first:** - obesity complicating pregnancy, childbirth and the puerperium, if applicable (O99.21-)  **Use additional code:** - code to identify body mass index (BMI), if known, for adults (Z68.1-Z68.45) or pediatrics (Z68.5-)
+[E660] Obesity due to excess calories
+[E6601] Morbid (severe) obesity due to excess calories -- **Excludes1:** - morbid (severe) obesity with alveolar hypoventilation (E66.2)
+[E6609] Other obesity due to excess calories
+[E661] Drug-induced obesity -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[E662] Morbid (severe) obesity with alveolar hypoventilation -- **Inclusion terms:** - Obesity hypoventilation syndrome (OHS) - Pickwickian syndrome
+[E663] Overweight
+[E668] Other obesity
+[E6681] Obesity class
+[E66811] Obesity, class 1
+[E66812] Obesity, class 2
+[E66813] Obesity, class 3
+[E6689] Other obesity not elsewhere classified
+[E669] Obesity, unspecified -- **Inclusion terms:** - Obesity NOS
+[E67] Other hyperalimentation -- **Excludes1:** - hyperalimentation NOS (R63.2) - sequelae of hyperalimentation (E68)
+[E670] Hypervitaminosis A
+[E671] Hypercarotenemia
+[E672] Megavitamin-B6 syndrome
+[E673] Hypervitaminosis D
+[E678] Other specified hyperalimentation
+[E68] Sequelae of hyperalimentation -- **Code first:** - condition resulting from (sequela) of hyperalimentation
+[E70] Disorders of aromatic amino-acid metabolism
+[E700] Classical phenylketonuria
+[E701] Other hyperphenylalaninemias
+[E702] Disorders of tyrosine metabolism -- **Excludes1:** - transitory tyrosinemia of newborn (P74.5)
+[E7020] Disorder of tyrosine metabolism, unspecified
+[E7021] Tyrosinemia -- **Inclusion terms:** - Hypertyrosinemia
+[E7029] Other disorders of tyrosine metabolism -- **Inclusion terms:** - Alkaptonuria - Ochronosis
+[E703] Albinism
+[E7030] Albinism, unspecified
+[E7031] Ocular albinism
+[E70310] X-linked ocular albinism
+[E70311] Autosomal recessive ocular albinism
+[E70318] Other ocular albinism
+[E70319] Ocular albinism, unspecified
+[E7032] Oculocutaneous albinism -- **Excludes1:** - Chediak-Higashi syndrome (E70.330) - Hermansky-Pudlak syndrome (E70.331)
+[E70320] Tyrosinase negative oculocutaneous albinism -- **Inclusion terms:** - Albinism I - Oculocutaneous albinism ty-neg
+[E70321] Tyrosinase positive oculocutaneous albinism -- **Inclusion terms:** - Albinism II - Oculocutaneous albinism ty-pos
+[E70328] Other oculocutaneous albinism -- **Inclusion terms:** - Cross syndrome
+[E70329] Oculocutaneous albinism, unspecified
+[E7033] Albinism with hematologic abnormality
+[E70330] Chediak-Higashi syndrome
+[E70331] Hermansky-Pudlak syndrome
+[E70338] Other albinism with hematologic abnormality
+[E70339] Albinism with hematologic abnormality, unspecified
+[E7039] Other specified albinism -- **Inclusion terms:** - Piebaldism
+[E704] Disorders of histidine metabolism
+[E7040] Disorders of histidine metabolism, unspecified
+[E7041] Histidinemia
+[E7049] Other disorders of histidine metabolism
+[E705] Disorders of tryptophan metabolism
+[E708] Other disorders of aromatic amino-acid metabolism
+[E7081] Aromatic L-amino acid decarboxylase deficiency -- **Inclusion terms:** - AADC deficiency
+[E7089] Other disorders of aromatic amino-acid metabolism
+[E709] Disorder of aromatic amino-acid metabolism, unspecified
+[E71] Disorders of branched-chain amino-acid metabolism and fatty-acid metabolism
+[E710] Maple-syrup-urine disease
+[E711] Other disorders of branched-chain amino-acid metabolism
+[E7111] Branched-chain organic acidurias
+[E71110] Isovaleric acidemia
+[E71111] 3-methylglutaconic aciduria
+[E71118] Other branched-chain organic acidurias
+[E7112] Disorders of propionate metabolism
+[E71120] Methylmalonic acidemia
+[E71121] Propionic acidemia
+[E71128] Other disorders of propionate metabolism
+[E7119] Other disorders of branched-chain amino-acid metabolism -- **Inclusion terms:** - Hyperleucine-isoleucinemia - Hypervalinemia
+[E712] Disorder of branched-chain amino-acid metabolism, unspecified
+[E713] Disorders of fatty-acid metabolism -- **Excludes1:** - peroxisomal disorders (E71.5) - Refsum's disease (G60.1) - Schilder's disease (G37.0)  **Excludes2:** - carnitine deficiency due to inborn error of metabolism (E71.42)
+[E7130] Disorder of fatty-acid metabolism, unspecified
+[E7131] Disorders of fatty-acid oxidation
+[E71310] Long chain/very long chain acyl CoA dehydrogenase deficiency -- **Inclusion terms:** - LCAD deficiency - VLCAD deficiency
+[E71311] Medium chain acyl CoA dehydrogenase deficiency -- **Inclusion terms:** - MCAD deficiency
+[E71312] Short chain acyl CoA dehydrogenase deficiency -- **Inclusion terms:** - SCAD deficiency
+[E71313] Glutaric aciduria type II -- **Inclusion terms:** - Glutaric aciduria type II A - Glutaric aciduria type II B - Glutaric aciduria type II C  **Excludes1:** - glutaric aciduria (type 1) NOS (E72.3)
+[E71314] Muscle carnitine palmitoyltransferase deficiency
+[E71318] Other disorders of fatty-acid oxidation
+[E7132] Disorders of ketone metabolism
+[E7139] Other disorders of fatty-acid metabolism
+[E714] Disorders of carnitine metabolism -- **Excludes1:** - Muscle carnitine palmitoyltransferase deficiency (E71.314)
+[E7140] Disorder of carnitine metabolism, unspecified
+[E7141] Primary carnitine deficiency
+[E7142] Carnitine deficiency due to inborn errors of metabolism -- **Code also:** - associated inborn error or metabolism
+[E7143] Iatrogenic carnitine deficiency -- **Inclusion terms:** - Carnitine deficiency due to hemodialysis - Carnitine deficiency due to Valproic acid therapy
+[E7144] Other secondary carnitine deficiency
+[E71440] Ruvalcaba-Myhre-Smith syndrome
+[E71448] Other secondary carnitine deficiency
+[E715] Peroxisomal disorders -- **Excludes1:** - Schilder's disease (G37.0)
+[E7150] Peroxisomal disorder, unspecified
+[E7151] Disorders of peroxisome biogenesis -- **Inclusion terms:** - Group 1 peroxisomal disorders  **Excludes1:** - Refsum's disease (G60.1)
+[E71510] Zellweger syndrome
+[E71511] Neonatal adrenoleukodystrophy -- **Excludes1:** - X-linked adrenoleukodystrophy (E71.42-)
+[E71518] Other disorders of peroxisome biogenesis
+[E7152] X-linked adrenoleukodystrophy
+[E71520] Childhood cerebral X-linked adrenoleukodystrophy
+[E71521] Adolescent X-linked adrenoleukodystrophy
+[E71522] Adrenomyeloneuropathy
+[E71528] Other X-linked adrenoleukodystrophy -- **Inclusion terms:** - Addison only phenotype adrenoleukodystrophy - Addison-Schilder adrenoleukodystrophy
+[E71529] X-linked adrenoleukodystrophy, unspecified type
+[E7153] Other group 2 peroxisomal disorders
+[E7154] Other peroxisomal disorders
+[E71540] Rhizomelic chondrodysplasia punctata -- **Excludes1:** - chondrodysplasia punctata NOS (Q77.3)
+[E71541] Zellweger-like syndrome
+[E71542] Other group 3 peroxisomal disorders
+[E71548] Other peroxisomal disorders
+[E72] Other disorders of amino-acid metabolism -- **Excludes1:** - disorders of: - aromatic amino-acid metabolism (E70.-) - branched-chain amino-acid metabolism (E71.0-E71.2) - fatty-acid metabolism (E71.3) - purine and pyrimidine metabolism (E79.-) - gout (M1A.-, M10.-)
+[E720] Disorders of amino-acid transport -- **Excludes1:** - disorders of tryptophan metabolism (E70.5)
+[E7200] Disorders of amino-acid transport, unspecified
+[E7201] Cystinuria
+[E7202] Hartnup's disease
+[E7203] Lowe's syndrome -- **Use additional code:** - code for associated glaucoma (H42)
+[E7204] Cystinosis -- **Inclusion terms:** - Fanconi (-de Toni) (-Debré) syndrome with cystinosis  **Excludes1:** - Fanconi (-de Toni) (-Debré) syndrome without cystinosis (E72.09)
+[E7209] Other disorders of amino-acid transport -- **Inclusion terms:** - Fanconi (-de Toni) (-Debré) syndrome, unspecified
+[E721] Disorders of sulfur-bearing amino-acid metabolism -- **Excludes1:** - cystinosis (E72.04) - cystinuria (E72.01) - transcobalamin II deficiency (D51.2)
+[E7210] Disorders of sulfur-bearing amino-acid metabolism, unspecified
+[E7211] Homocystinuria -- **Inclusion terms:** - Cystathionine synthase deficiency
+[E7212] Methylenetetrahydrofolate reductase deficiency
+[E7219] Other disorders of sulfur-bearing amino-acid metabolism -- **Inclusion terms:** - Cystathioninuria - Methioninemia - Sulfite oxidase deficiency
+[E722] Disorders of urea cycle metabolism -- **Excludes1:** - disorders of ornithine metabolism (E72.4)
+[E7220] Disorder of urea cycle metabolism, unspecified -- **Inclusion terms:** - Hyperammonemia  **Excludes1:** - hyperammonemia-hyperornithinemia-homocitrullinemia syndrome E72.4 - transient hyperammonemia of newborn (P74.6)
+[E7221] Argininemia
+[E7222] Arginosuccinic aciduria
+[E7223] Citrullinemia
+[E7229] Other disorders of urea cycle metabolism
+[E723] Disorders of lysine and hydroxylysine metabolism -- **Inclusion terms:** - Glutaric aciduria NOS - Glutaric aciduria (type I) - Hydroxylysinemia - Hyperlysinemia  **Excludes1:** - glutaric aciduria type II (E71.313) - Refsum's disease (G60.1) - Zellweger syndrome (E71.510)
+[E724] Disorders of ornithine metabolism -- **Inclusion terms:** - Hyperammonemia-Hyperornithinemia-Homocitrullinemia syndrome - Ornithinemia (types I, II) - Ornithine transcarbamylase deficiency  **Excludes1:** - hereditary choroidal dystrophy (H31.2-)
+[E725] Disorders of glycine metabolism
+[E7250] Disorder of glycine metabolism, unspecified
+[E7251] Non-ketotic hyperglycinemia
+[E7252] Trimethylaminuria
+[E7253] Primary hyperoxaluria -- **Inclusion terms:** - Oxalosis - Oxaluria
+[E7259] Other disorders of glycine metabolism -- **Inclusion terms:** - D-glycericacidemia - Hyperhydroxyprolinemia - Hyperprolinemia (types I, II) - Sarcosinemia
+[E728] Other specified disorders of amino-acid metabolism
+[E7281] Disorders of gamma aminobutyric acid metabolism -- **Inclusion terms:** - 4-hydroxybutyric aciduria - Disorders of GABA metabolism - GABA metabolic defect - GABA transaminase deficiency - GABA-T deficiency - Gamma-hydroxybutyric aciduria - SSADHD - Succinic semialdehyde dehydrogenase deficiency
+[E7289] Other specified disorders of amino-acid metabolism -- **Inclusion terms:** - Disorders of beta-amino-acid metabolism - Disorders of gamma-glutamyl cycle
+[E729] Disorder of amino-acid metabolism, unspecified
+[E73] Lactose intolerance
+[E730] Congenital lactase deficiency
+[E731] Secondary lactase deficiency
+[E738] Other lactose intolerance
+[E739] Lactose intolerance, unspecified
+[E74] Other disorders of carbohydrate metabolism -- **Excludes1:** - diabetes mellitus (E08-E13) - hypoglycemia NOS (E16.2) - increased secretion of glucagon (E16.3) - mucopolysaccharidosis (E76.0-E76.3)
+[E740] Glycogen storage disease
+[E7400] Glycogen storage disease, unspecified
+[E7401] von Gierke disease -- **Inclusion terms:** - Type I glycogen storage disease
+[E7402] Pompe disease -- **Inclusion terms:** - Cardiac glycogenosis - Type II glycogen storage disease
+[E7403] Cori disease -- **Inclusion terms:** - Forbes disease - Type III glycogen storage disease
+[E7404] McArdle disease -- **Inclusion terms:** - Type V glycogen storage disease
+[E7405] Lysosome-associated membrane protein 2 [LAMP2] deficiency -- **Inclusion terms:** - Danon disease  **Code also:** - , if applicable, associated manifestations such as: - dilated cardiomyopathy (I42.0) - obstructive hypertrophic cardiomyopathy (I42.1)
+[E7409] Other glycogen storage disease -- **Inclusion terms:** - Andersen disease - Glycogen storage disease, types 0, IV, VI-XI - Hers disease - Liver phosphorylase deficiency - Muscle phosphofructokinase deficiency - Tauri disease
+[E741] Disorders of fructose metabolism -- **Excludes1:** - muscle phosphofructokinase deficiency (E74.09)
+[E7410] Disorder of fructose metabolism, unspecified
+[E7411] Essential fructosuria -- **Inclusion terms:** - Fructokinase deficiency
+[E7412] Hereditary fructose intolerance -- **Inclusion terms:** - Fructosemia
+[E7419] Other disorders of fructose metabolism -- **Inclusion terms:** - Fructose-1, 6-diphosphatase deficiency
+[E742] Disorders of galactose metabolism
+[E7420] Disorders of galactose metabolism, unspecified
+[E7421] Galactosemia
+[E7429] Other disorders of galactose metabolism -- **Inclusion terms:** - Galactokinase deficiency
+[E743] Other disorders of intestinal carbohydrate absorption -- **Excludes2:** - lactose intolerance (E73.-)
+[E7431] Sucrase-isomaltase deficiency
+[E7439] Other disorders of intestinal carbohydrate absorption -- **Inclusion terms:** - Disorder of intestinal carbohydrate absorption NOS - Glucose-galactose malabsorption - Sucrase deficiency
+[E744] Disorders of pyruvate metabolism and gluconeogenesis -- **Inclusion terms:** - Deficiency of phosphoenolpyruvate carboxykinase - Deficiency of pyruvate carboxylase - Deficiency of pyruvate dehydrogenase  **Excludes1:** - disorders of pyruvate metabolism and gluconeogenesis with anemia (D55.-) - Leigh's syndrome (G31.82)
+[E748] Other specified disorders of carbohydrate metabolism
+[E7481] Disorders of glucose transport, not elsewhere classified
+[E74810] Glucose transporter protein type 1 deficiency -- **Inclusion terms:** - De Vivo syndrome - Glucose transport defect, blood-brain barrier - Glut1 deficiency - GLUT1 deficiency syndrome 1, infantile onset - GLUT1 deficiency syndrome 2, childhood onset
+[E74818] Other disorders of glucose transport -- **Inclusion terms:** - (Familial) renal glycosuria
+[E74819] Disorders of glucose transport, unspecified
+[E7482] Disorders of citrate metabolism
+[E74820] SLC13A5 Citrate Transporter Disorder
+[E74829] Other disorders of citrate metabolism
+[E7489] Other specified disorders of carbohydrate metabolism -- **Inclusion terms:** - Essential pentosuria
+[E749] Disorder of carbohydrate metabolism, unspecified
+[E75] Disorders of sphingolipid metabolism and other lipid storage disorders -- **Excludes1:** - mucolipidosis, types I-III (E77.0-E77.1) - Refsum's disease (G60.1)
+[E750] GM2 gangliosidosis
+[E7500] GM2 gangliosidosis, unspecified
+[E7501] Sandhoff disease
+[E7502] Tay-Sachs disease
+[E7509] Other GM2 gangliosidosis -- **Inclusion terms:** - Adult GM2 gangliosidosis - Juvenile GM2 gangliosidosis
+[E751] Other and unspecified gangliosidosis
+[E7510] Unspecified gangliosidosis -- **Inclusion terms:** - Gangliosidosis NOS
+[E7511] Mucolipidosis IV
+[E7519] Other gangliosidosis -- **Inclusion terms:** - GM1 gangliosidosis - GM3 gangliosidosis
+[E752] Other sphingolipidosis -- **Excludes1:** - adrenoleukodystrophy [Addison-Schilder] (E71.528)
+[E7521] Fabry (-Anderson) disease
+[E7522] Gaucher disease
+[E7523] Krabbe disease
+[E7524] Niemann-Pick disease -- **Inclusion terms:** - Acid sphingomyelinase deficiency (ASMD)
+[E75240] Niemann-Pick disease type A -- **Inclusion terms:** - Acid sphingomyelinase deficiency type A (ASMD type A) - Infantile neurovisceral acid sphingomyelinase deficiency
+[E75241] Niemann-Pick disease type B -- **Inclusion terms:** - Acid sphingomyelinase deficiency type B (ASMD type B) - Chronic visceral acid sphingomyelinase deficiency
+[E75242] Niemann-Pick disease type C
+[E75243] Niemann-Pick disease type D
+[E75244] Niemann-Pick disease type A/B -- **Inclusion terms:** - Acid sphingomyelinase deficiency type A/B (ASMD type A/B) - Chronic neurovisceral acid sphingomyelinase deficiency
+[E75248] Other Niemann-Pick disease
+[E75249] Niemann-Pick disease, unspecified -- **Inclusion terms:** - Acid sphingomyelinase deficiency (ASMD) NOS
+[E7525] Metachromatic leukodystrophy
+[E7526] Sulfatase deficiency -- **Inclusion terms:** - Multiple sulfatase deficiency (MSD)
+[E7527] Pelizaeus-Merzbacher disease
+[E7528] Canavan disease
+[E7529] Other sphingolipidosis -- **Inclusion terms:** - Farber's syndrome - Sulfatide lipidosis
+[E753] Sphingolipidosis, unspecified
+[E754] Neuronal ceroid lipofuscinosis -- **Inclusion terms:** - Batten disease - Bielschowsky-Jansky disease - Kufs disease - Spielmeyer-Vogt disease
+[E755] Other lipid storage disorders -- **Inclusion terms:** - Cerebrotendinous cholesterosis [van Bogaert-Scherer-Epstein] - Wolman's disease
+[E756] Lipid storage disorder, unspecified
+[E76] Disorders of glycosaminoglycan metabolism
+[E760] Mucopolysaccharidosis, type I
+[E7601] Hurler's syndrome
+[E7602] Hurler-Scheie syndrome
+[E7603] Scheie's syndrome
+[E761] Mucopolysaccharidosis, type II -- **Inclusion terms:** - Hunter's syndrome
+[E762] Other mucopolysaccharidoses
+[E7621] Morquio mucopolysaccharidoses
+[E76210] Morquio A mucopolysaccharidoses -- **Inclusion terms:** - Classic Morquio syndrome - Morquio syndrome A - Mucopolysaccharidosis, type IVA
+[E76211] Morquio B mucopolysaccharidoses -- **Inclusion terms:** - Morquio-like mucopolysaccharidoses - Morquio-like syndrome - Morquio syndrome B - Mucopolysaccharidosis, type IVB
+[E76219] Morquio mucopolysaccharidoses, unspecified -- **Inclusion terms:** - Morquio syndrome - Mucopolysaccharidosis, type IV
+[E7622] Sanfilippo mucopolysaccharidoses -- **Inclusion terms:** - Mucopolysaccharidosis, type III (A) (B) (C) (D) - Sanfilippo A syndrome - Sanfilippo B syndrome - Sanfilippo C syndrome - Sanfilippo D syndrome
+[E7629] Other mucopolysaccharidoses -- **Inclusion terms:** - beta-Glucuronidase deficiency - Maroteaux-Lamy (mild) (severe) syndrome - Mucopolysaccharidosis, types VI, VII
+[E763] Mucopolysaccharidosis, unspecified
+[E768] Other disorders of glucosaminoglycan metabolism
+[E769] Glucosaminoglycan metabolism disorder, unspecified
+[E77] Disorders of glycoprotein metabolism
+[E770] Defects in post-translational modification of lysosomal enzymes -- **Inclusion terms:** - Mucolipidosis II [I-cell disease] - Mucolipidosis III [pseudo-Hurler polydystrophy]
+[E771] Defects in glycoprotein degradation -- **Inclusion terms:** - Aspartylglucosaminuria - Fucosidosis - Mannosidosis - Sialidosis [mucolipidosis I]
+[E778] Other disorders of glycoprotein metabolism
+[E779] Disorder of glycoprotein metabolism, unspecified
+[E78] Disorders of lipoprotein metabolism and other lipidemias -- **Excludes1:** - sphingolipidosis (E75.0-E75.3)
+[E780] Pure hypercholesterolemia
+[E7800] Pure hypercholesterolemia, unspecified -- **Inclusion terms:** - Fredrickson's hyperlipoproteinemia, type IIa - Hyperbetalipoproteinemia - Low-density-lipoprotein-type [LDL] hyperlipoproteinemia - (Pure) hypercholesterolemia NOS
+[E7801] Familial hypercholesterolemia
+[E781] Pure hyperglyceridemia -- **Inclusion terms:** - Elevated fasting triglycerides - Endogenous hyperglyceridemia - Fredrickson's hyperlipoproteinemia, type IV - Hyperlipidemia, group B - Hyperprebetalipoproteinemia - Very-low-density-lipoprotein-type [VLDL] hyperlipoproteinemia
+[E782] Mixed hyperlipidemia -- **Inclusion terms:** - Broad- or floating-betalipoproteinemia - Combined hyperlipidemia NOS - Elevated cholesterol with elevated triglycerides NEC - Fredrickson's hyperlipoproteinemia, type IIb or III - Hyperbetalipoproteinemia with prebetalipoproteinemia - Hypercholesteremia with endogenous hyperglyceridemia - Hyperlipidemia, group C - Tubo-eruptive xanthoma - Xanthoma tuberosum  **Excludes1:** - cerebrotendinous cholesterosis [van Bogaert-Scherer- Epstein] (E75.5) - familial combined hyperlipidemia (E78.49)
+[E783] Hyperchylomicronemia -- **Inclusion terms:** - Chylomicron retention disease - Fredrickson's hyperlipoproteinemia, type I or V - Hyperlipidemia, group D - Mixed hyperglyceridemia
+[E784] Other hyperlipidemia
+[E7841] Elevated Lipoprotein(a) -- **Inclusion terms:** - Elevated Lp(a)
+[E7849] Other hyperlipidemia -- **Inclusion terms:** - Familial combined hyperlipidemia
+[E785] Hyperlipidemia, unspecified
+[E786] Lipoprotein deficiency -- **Inclusion terms:** - Abetalipoproteinemia - Depressed HDL cholesterol - High-density lipoprotein deficiency - Hypoalphalipoproteinemia - Hypobetalipoproteinemia (familial) - Lecithin cholesterol acyltransferase deficiency - Tangier disease
+[E787] Disorders of bile acid and cholesterol metabolism -- **Excludes1:** - Niemann-Pick disease type C (E75.242)
+[E7870] Disorder of bile acid and cholesterol metabolism, unspecified
+[E7871] Barth syndrome
+[E7872] Smith-Lemli-Opitz syndrome
+[E7879] Other disorders of bile acid and cholesterol metabolism
+[E788] Other disorders of lipoprotein metabolism
+[E7881] Lipoid dermatoarthritis
+[E7889] Other lipoprotein metabolism disorders
+[E789] Disorder of lipoprotein metabolism, unspecified
+[E79] Disorders of purine and pyrimidine metabolism -- **Excludes1:** - Ataxia-telangiectasia (Q87.19) - Bloom's syndrome (Q82.8) - Cockayne's syndrome (Q87.19) - calculus of kidney (N20.0) - combined immunodeficiency disorders (D81.-) - Fanconi's anemia (D61.09) - gout (M1A.-, M10.-) - orotaciduric anemia (D53.0) - progeria (E34.8) - Werner's syndrome (E34.8) - xeroderma pigmentosum (Q82.1)
+[E790] Hyperuricemia without signs of inflammatory arthritis and tophaceous disease -- **Inclusion terms:** - Asymptomatic hyperuricemia
+[E791] Lesch-Nyhan syndrome -- **Inclusion terms:** - HGPRT deficiency
+[E792] Myoadenylate deaminase deficiency
+[E798] Other disorders of purine and pyrimidine metabolism
+[E7981] Aicardi-Goutieres syndrome
+[E7982] Hereditary xanthinuria
+[E7989] Other specified disorders of purine and pyrimidine metabolism
+[E799] Disorder of purine and pyrimidine metabolism, unspecified
+[E80] Disorders of porphyrin and bilirubin metabolism -- **Includes:** - defects of catalase and peroxidase
+[E800] Hereditary erythropoietic porphyria -- **Inclusion terms:** - Congenital erythropoietic porphyria - Erythropoietic protoporphyria
+[E801] Porphyria cutanea tarda
+[E802] Other and unspecified porphyria
+[E8020] Unspecified porphyria -- **Inclusion terms:** - Porphyria NOS
+[E8021] Acute intermittent (hepatic) porphyria
+[E8029] Other porphyria -- **Inclusion terms:** - Hereditary coproporphyria
+[E803] Defects of catalase and peroxidase -- **Inclusion terms:** - Acatalasia [Takahara]
+[E804] Gilbert syndrome
+[E805] Crigler-Najjar syndrome
+[E806] Other disorders of bilirubin metabolism -- **Inclusion terms:** - Dubin-Johnson syndrome - Rotor's syndrome
+[E807] Disorder of bilirubin metabolism, unspecified
+[E83] Disorders of mineral metabolism -- **Excludes1:** - dietary mineral deficiency (E58-E61) - parathyroid disorders (E20-E21) - vitamin D deficiency (E55.-)
+[E830] Disorders of copper metabolism
+[E8300] Disorder of copper metabolism, unspecified
+[E8301] Wilson's disease -- **Code also:** - associated Kayser Fleischer ring (H18.04-)
+[E8309] Other disorders of copper metabolism -- **Inclusion terms:** - Menkes' (kinky hair) (steely hair) disease
+[E831] Disorders of iron metabolism -- **Excludes1:** - iron deficiency anemia (D50.-) - sideroblastic anemia (D64.0-D64.3)
+[E8310] Disorder of iron metabolism, unspecified
+[E8311] Hemochromatosis -- **Excludes1:** - GALD (P78.84) - Gestational alloimmune liver disease (P78.84) - Neonatal hemochromatosis (P78.84)
+[E83110] Hereditary hemochromatosis -- **Inclusion terms:** - Bronzed diabetes - Pigmentary cirrhosis (of liver) - Primary (hereditary) hemochromatosis
+[E83111] Hemochromatosis due to repeated red blood cell transfusions -- **Inclusion terms:** - Iron overload due to repeated red blood cell transfusions - Transfusion (red blood cell) associated hemochromatosis
+[E83118] Other hemochromatosis
+[E83119] Hemochromatosis, unspecified
+[E8319] Other disorders of iron metabolism -- **Use additional code:** - code, if applicable, for idiopathic pulmonary hemosiderosis (J84.03)
+[E832] Disorders of zinc metabolism -- **Inclusion terms:** - Acrodermatitis enteropathica
+[E833] Disorders of phosphorus metabolism and phosphatases -- **Excludes1:** - adult osteomalacia (M83.-) - osteoporosis (M80.-)
+[E8330] Disorder of phosphorus metabolism, unspecified
+[E8331] Familial hypophosphatemia -- **Inclusion terms:** - Vitamin D-resistant osteomalacia - Vitamin D-resistant rickets  **Excludes1:** - vitamin D-deficiency rickets (E55.0)
+[E8332] Hereditary vitamin D-dependent rickets (type 1) (type 2) -- **Inclusion terms:** - 25-hydroxyvitamin D 1-alpha-hydroxylase deficiency - Pseudovitamin D deficiency - Vitamin D receptor defect
+[E8339] Other disorders of phosphorus metabolism -- **Inclusion terms:** - Acid phosphatase deficiency - Hypophosphatasia
+[E834] Disorders of magnesium metabolism
+[E8340] Disorders of magnesium metabolism, unspecified
+[E8341] Hypermagnesemia
+[E8342] Hypomagnesemia
+[E8349] Other disorders of magnesium metabolism
+[E835] Disorders of calcium metabolism -- **Excludes1:** - autoimmune hypoparathyroidism (E20.812) - autosomal dominant hypocalcemia (E20.810) - chondrocalcinosis (M11.1-M11.2) - hungry bone syndrome (E83.81) - hyperparathyroidism (E21.0-E21.3) - secondary hypoparathyroidism in diseases classified elsewhere (E20.811)
+[E8350] Unspecified disorder of calcium metabolism
+[E8351] Hypocalcemia
+[E8352] Hypercalcemia -- **Inclusion terms:** - Familial hypocalciuric hypercalcemia
+[E8359] Other disorders of calcium metabolism
+[E838] Other disorders of mineral metabolism
+[E8381] Hungry bone syndrome
+[E8389] Other disorders of mineral metabolism
+[E839] Disorder of mineral metabolism, unspecified
+[E84] Cystic fibrosis -- **Includes:** - mucoviscidosis  **Code also:** - exocrine pancreatic insufficiency (K86.81)
+[E840] Cystic fibrosis with pulmonary manifestations -- **Use additional code:** - code to identify any infectious organism present, such as: - Pseudomonas (B96.5)
+[E841] Cystic fibrosis with intestinal manifestations
+[E8411] Meconium ileus in cystic fibrosis -- **Excludes1:** - meconium ileus not due to cystic fibrosis (P76.0)
+[E8419] Cystic fibrosis with other intestinal manifestations -- **Inclusion terms:** - Distal intestinal obstruction syndrome
+[E848] Cystic fibrosis with other manifestations
+[E849] Cystic fibrosis, unspecified
+[E85] Amyloidosis -- **Excludes2:** - Alzheimer's disease (G30.0-)
+[E850] Non-neuropathic heredofamilial amyloidosis -- **Inclusion terms:** - Hereditary amyloid nephropathy  **Excludes2:** - Transthyretin-related (ATTR) familial amyloid cardiomyopathy (E85.4)  **Code also:** - associated disorders, such as: - autoinflammatory syndromes (M04.-)
+[E851] Neuropathic heredofamilial amyloidosis -- **Inclusion terms:** - Amyloid polyneuropathy (Portuguese) - Transthyretin-related (ATTR) familial amyloid polyneuropathy
+[E852] Heredofamilial amyloidosis, unspecified
+[E853] Secondary systemic amyloidosis -- **Inclusion terms:** - Hemodialysis-associated amyloidosis
+[E854] Organ-limited amyloidosis -- **Inclusion terms:** - Localized amyloidosis - Transthyretin-related (ATTR) familial amyloid cardiomyopathy
+[E858] Other amyloidosis
+[E8581] Light chain (AL) amyloidosis
+[E8582] Wild-type transthyretin-related (ATTR) amyloidosis -- **Inclusion terms:** - Senile systemic amyloidosis (SSA)
+[E8589] Other amyloidosis
+[E859] Amyloidosis, unspecified
+[E86] Volume depletion -- **Excludes1:** - dehydration of newborn (P74.1) - postprocedural hypovolemic shock (T81.19) - traumatic hypovolemic shock (T79.4)  **Excludes2:** - hypovolemic shock NOS (R57.1)  **Use additional code:** - code(s) for any associated disorders of electrolyte and acid-base balance (E87.-)
+[E860] Dehydration
+[E861] Hypovolemia -- **Inclusion terms:** - Depletion of volume of plasma
+[E869] Volume depletion, unspecified
+[E87] Other disorders of fluid, electrolyte and acid-base balance -- **Excludes1:** - diabetes insipidus (E23.2) - electrolyte imbalance associated with hyperemesis gravidarum (O21.1) - electrolyte imbalance following ectopic or molar pregnancy (O08.5) - familial periodic paralysis (G72.3) - metabolic acidemia in newborn, unspecified (P19.9)
+[E870] Hyperosmolality and hypernatremia -- **Inclusion terms:** - Sodium [Na] excess - Sodium [Na] overload  **Excludes2:** - diabetes with hyperosmolarity (E08, E09, E11, E13 with final characters .00 or .01)
+[E871] Hypo-osmolality and hyponatremia -- **Inclusion terms:** - Sodium [Na] deficiency  **Excludes1:** - syndrome of inappropriate secretion of antidiuretic hormone (E22.2)
+[E872] Acidosis -- **Excludes1:** - diabetic acidosis - see categories E08-E10, E11, E13 with ketoacidosis
+[E8720] Acidosis, unspecified -- **Inclusion terms:** - Lactic acidosis NOS - Metabolic acidosis NOS  **Code also:** - , if applicable, respiratory failure with hypercapnia (J96. with 5th character 2)
+[E8721] Acute metabolic acidosis -- **Inclusion terms:** - Acute lactic acidosis
+[E8722] Chronic metabolic acidosis -- **Inclusion terms:** - Chronic lactic acidosis  **Code first:** - underlying etiology, if applicable
+[E8729] Other acidosis -- **Inclusion terms:** - Respiratory acidosis NOS  **Excludes2:** - acute respiratory acidosis (J96.02) - chronic respiratory acidosis (J96.12)
+[E873] Alkalosis -- **Inclusion terms:** - Alkalosis NOS - Metabolic alkalosis - Respiratory alkalosis
+[E874] Mixed disorder of acid-base balance
+[E875] Hyperkalemia -- **Inclusion terms:** - Potassium [K] excess - Potassium [K] overload
+[E876] Hypokalemia -- **Inclusion terms:** - Potassium [K] deficiency
+[E877] Fluid overload -- **Excludes1:** - edema NOS (R60.9) - fluid retention (R60.9)
+[E8770] Fluid overload, unspecified
+[E8771] Transfusion associated circulatory overload -- **Inclusion terms:** - Fluid overload due to transfusion (blood) (blood components) - TACO
+[E8779] Other fluid overload
+[E878] Other disorders of electrolyte and fluid balance, not elsewhere classified -- **Inclusion terms:** - Electrolyte imbalance NOS - Hyperchloremia - Hypochloremia
+[E88] Other and unspecified metabolic disorders -- **Excludes1:** - histiocytosis X (chronic) (C96.6)  **Use additional code:** - codes for associated conditions
+[E880] Disorders of plasma-protein metabolism, not elsewhere classified -- **Excludes1:** - monoclonal gammopathy (of undetermined significance) (D47.2) - polyclonal hypergammaglobulinemia (D89.0) - Waldenström macroglobulinemia (C88.00)  **Excludes2:** - disorder of lipoprotein metabolism (E78.-)
+[E8801] Alpha-1-antitrypsin deficiency -- **Inclusion terms:** - AAT deficiency
+[E8802] Plasminogen deficiency -- **Inclusion terms:** - Dysplasminogenemia - Hypoplasminogenemia - Type 1 plasminogen deficiency - Type 2 plasminogen deficiency  **Code also:** - , if applicable, ligneous conjunctivitis (H10.51)  **Use additional code:** - code for associated findings, such as: - hydrocephalus (G91.4) - otitis media (H67.-) - respiratory disorder related to plasminogen deficiency (J99)
+[E8809] Other disorders of plasma-protein metabolism, not elsewhere classified -- **Inclusion terms:** - Bisalbuminemia
+[E881] Lipodystrophy, not elsewhere classified -- **Inclusion terms:** - Lipodystrophy NOS  **Excludes1:** - Whipple's disease (K90.81)
+[E882] Lipomatosis, not elsewhere classified -- **Inclusion terms:** - Lipomatosis NOS - Lipomatosis (Check) dolorosa [Dercum]
+[E883] Tumor lysis syndrome -- **Inclusion terms:** - Tumor lysis syndrome (spontaneous) - Tumor lysis syndrome following antineoplastic drug chemotherapy  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T45.1X5)
+[E884] Mitochondrial metabolism disorders -- **Excludes1:** - disorders of pyruvate metabolism (E74.4) - Kearns-Sayre syndrome (H49.81) - Leber's disease (H47.22) - Leigh's encephalopathy (G31.82) - Mitochondrial myopathy, NEC (G71.3) - Reye's syndrome (G93.7)
+[E8840] Mitochondrial metabolism disorder, unspecified
+[E8841] MELAS syndrome -- **Inclusion terms:** - Mitochondrial myopathy, encephalopathy, lactic acidosis and stroke-like episodes
+[E8842] MERRF syndrome -- **Inclusion terms:** - Myoclonic epilepsy associated with ragged-red fibers  **Code also:** - progressive myoclonic epilepsy (G40.3-)
+[E8843] Disorders of mitochondrial tRNA synthetases
+[E8849] Other mitochondrial metabolism disorders
+[E888] Other specified metabolic disorders
+[E8881] Metabolic syndrome and other insulin resistance -- **Use additional code:** - codes for associated manifestations, such as: - obesity (E66.-)
+[E88810] Metabolic syndrome -- **Inclusion terms:** - Dysmetabolic syndrome
+[E88811] Insulin resistance syndrome, Type A
+[E88818] Other insulin resistance -- **Inclusion terms:** - Insulin resistance syndrome, Type B
+[E88819] Insulin resistance, unspecified
+[E8882] Obesity due to disruption of MC4R pathway -- **Use additional code:** - code, if applicable, to identify associated manifestations, such as polyphagia (R63.2)
+[E8889] Other specified metabolic disorders -- **Inclusion terms:** - Launois-Bensaude adenolipomatosis  **Excludes1:** - adult pulmonary Langerhans cell histiocytosis (J84.82)
+[E889] Metabolic disorder, unspecified
+[E88A] Wasting disease (syndrome) due to underlying condition -- **Inclusion terms:** - Cachexia due to underlying condition  **Excludes1:** - cachexia NOS (R64) - nutritional marasmus (E41)  **Excludes2:** - failure to thrive (R62.51, R62.7)  **Code first:** - underlying condition
+[E89] Postprocedural endocrine and metabolic complications and disorders, not elsewhere classified -- **Excludes2:** - intraoperative complications of endocrine system organ or structure (E36.0-, E36.1-, E36.8)
+[E890] Postprocedural hypothyroidism -- **Inclusion terms:** - Postirradiation hypothyroidism - Postsurgical hypothyroidism
+[E891] Postprocedural hypoinsulinemia -- **Inclusion terms:** - Postpancreatectomy hyperglycemia - Postsurgical hypoinsulinemia  **Excludes1:** - transient postprocedural hyperglycemia (R73.9) - transient postprocedural hypoglycemia (E16.2)  **Code first:** - , if applicable, diabetes mellitus (postpancreatectomy) (postprocedural) (E13.-)  **Use additional code:** - code, if applicable, to identify: - acquired absence of pancreas (Z90.41-) - insulin use (Z79.4)
+[E892] Postprocedural hypoparathyroidism -- **Inclusion terms:** - Parathyroprival tetany
+[E893] Postprocedural hypopituitarism -- **Inclusion terms:** - Postirradiation hypopituitarism
+[E894] Postprocedural ovarian failure
+[E8940] Asymptomatic postprocedural ovarian failure -- **Inclusion terms:** - Postprocedural ovarian failure NOS
+[E8941] Symptomatic postprocedural ovarian failure -- **Inclusion terms:** - Symptoms such as flushing, sleeplessness, headache, lack of concentration, associated with postprocedural menopause
+[E895] Postprocedural testicular hypofunction
+[E896] Postprocedural adrenocortical (-medullary) hypofunction
+[E898] Other postprocedural endocrine and metabolic complications and disorders
+[E8981] Postprocedural hemorrhage of an endocrine system organ or structure following a procedure
+[E89810] Postprocedural hemorrhage of an endocrine system organ or structure following an endocrine system procedure
+[E89811] Postprocedural hemorrhage of an endocrine system organ or structure following other procedure
+[E8982] Postprocedural hematoma and seroma of an endocrine system organ or structure
+[E89820] Postprocedural hematoma of an endocrine system organ or structure following an endocrine system procedure
+[E89821] Postprocedural hematoma of an endocrine system organ or structure following other procedure
+[E89822] Postprocedural seroma of an endocrine system organ or structure following an endocrine system procedure
+[E89823] Postprocedural seroma of an endocrine system organ or structure following other procedure
+[E8989] Other postprocedural endocrine and metabolic complications and disorders -- **Use additional code:** - code, if applicable, to further specify disorder

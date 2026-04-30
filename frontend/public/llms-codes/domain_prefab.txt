@@ -1,0 +1,14 @@
+[pf_envelope] Envelope Prefab :: naics_2022:236, naics_2022:237, naics_2022:238
+[pf_envelope_curtain] Prefabricated curtain wall units
+[pf_envelope_rain] Pre-assembled rainscreen panels
+[pf_envelope_roof] Pre-assembled roof cassettes
+[pf_mep] MEP Prefab :: naics_2022:236, naics_2022:237, naics_2022:238
+[pf_mep_head] Prefabricated headwall units
+[pf_mep_plant] Prefabricated plant rooms
+[pf_mep_rack] Multi-trade rack assemblies (M/E/P)
+[pf_mep_riser] Prefabricated riser modules
+[pf_struct] Structural Prefab :: naics_2022:236, naics_2022:237, naics_2022:238
+[pf_struct_beam] Precast beams and columns
+[pf_struct_slab] Precast floor and roof slabs
+[pf_struct_stairs] Precast stairs and landings
+[pf_struct_wall] Precast wall panels

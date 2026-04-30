@@ -1,0 +1,15 @@
+[OT] Orthotic Types :: naics_2022:3345, naics_2022:3391
+[OT.01] Ankle-Foot Orthosis (AFO)
+[OT.02] Knee-Ankle-Foot Orthosis (KAFO)
+[OT.03] Spinal Orthosis
+[OT.04] Cervical Orthosis
+[OT.05] Wrist-Hand Orthosis
+[OT.06] Elbow Orthosis
+[OT.07] Foot Orthosis (Insole)
+[OT.08] Knee Orthosis
+[OT.09] Hip Orthosis
+[OT.10] Thoracolumbosacral Orthosis
+[OT.11] Cranial Remolding Orthosis
+[OT.12] Dynamic Splint
+[OT.13] Static Splint
+[OT.14] Custom vs Prefabricated

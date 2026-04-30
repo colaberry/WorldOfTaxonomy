@@ -1,0 +1,26 @@
+[damt_commodity] Commodity Market Channels :: naics_2022:111, naics_2022:112
+[damt_commodity_basis] Basis Contract (futures price minus local basis)
+[damt_commodity_futures] Exchange-Based Futures Hedge (CBOT, CME)
+[damt_commodity_spot] Spot Cash Sale (local elevator, current price)
+[damt_contract] Contractual and Forward Sales :: naics_2022:111, naics_2022:112
+[damt_contract_forward] Forward Price Contract (fixed price before harvest)
+[damt_contract_hta] Hedge-to-Arrive Contract (locks futures, open basis)
+[damt_contract_mktg] Marketing Contract (price determined at delivery)
+[damt_contract_prodxn] Production Contract (integrator sets price and specs)
+[damt_coop] Cooperative and Pooled Marketing :: naics_2022:111, naics_2022:112
+[damt_coop_dairy] Dairy Cooperative (FMMO pool pricing)
+[damt_coop_grain] Grain Marketing Cooperative Pool
+[damt_coop_supply] Supply and Service Cooperative
+[damt_direct] Direct and Local Market Channels :: naics_2022:111, naics_2022:112
+[damt_direct_farm] Direct-to-Consumer (farmstand, CSA, u-pick)
+[damt_direct_farmers] Farmers Market Sales
+[damt_direct_online] Online Direct Sales (farm e-commerce, aggregators)
+[damt_direct_rest] Direct-to-Restaurant and Food Service
+[damt_export] Export and International Trade :: naics_2022:111, naics_2022:112
+[damt_export_bulk] Bulk Commodity Export (FOB Gulf or Pacific terminal)
+[damt_export_container] Containerized Export (specialty, organic, identity-preserved)
+[damt_export_fas] Foreign Agricultural Service (FAS) Program Sales
+[damt_govt] Government and Program Channels :: naics_2022:111, naics_2022:112
+[damt_govt_ccc] USDA Commodity Credit Corporation (CCC) Loan
+[damt_govt_school] USDA School Lunch and Nutrition Program Sales
+[damt_govt_snap] SNAP / Food Assistance Program Eligible Market

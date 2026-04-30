@@ -1,0 +1,19 @@
+[bat_app] Applications :: naics_2022:2211, naics_2022:3359
+[bat_app_ess] Grid energy storage system
+[bat_app_ev] Electric vehicle traction battery
+[bat_app_micro] Microgrid storage
+[bat_app_port] Portable electronics
+[bat_app_ups] UPS and backup power
+[bat_chem] Battery Chemistries :: naics_2022:2211, naics_2022:3359
+[bat_chem_flow] Flow batteries (vanadium, zinc-bromine)
+[bat_chem_lfp] LFP (lithium iron phosphate)
+[bat_chem_lto] LTO (lithium titanate)
+[bat_chem_na] Sodium-ion
+[bat_chem_nca] NCA (nickel cobalt aluminum)
+[bat_chem_nmc] NMC (nickel manganese cobalt)
+[bat_chem_solid] Solid-state batteries
+[bat_form] Form Factors :: naics_2022:2211, naics_2022:3359
+[bat_form_blade] Blade battery
+[bat_form_cyl] Cylindrical cells (18650, 21700, 4680)
+[bat_form_pouch] Pouch cells
+[bat_form_prism] Prismatic cells

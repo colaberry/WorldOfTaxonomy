@@ -1,0 +1,17 @@
+[DB] Database Types :: naics_2022:5415
+[DB.01] Relational (SQL)
+[DB.02] Document Store
+[DB.03] Key-Value Store
+[DB.04] Wide-Column Store
+[DB.05] Graph Database
+[DB.06] Time Series Database
+[DB.07] Vector Database
+[DB.08] In-Memory Database
+[DB.09] Object-Oriented Database
+[DB.10] NewSQL Database
+[DB.11] Multi-Model Database
+[DB.12] Spatial Database
+[DB.13] Embedded Database
+[DB.14] Ledger Database
+[DB.15] Search Engine Database
+[DB.16] Data Warehouse

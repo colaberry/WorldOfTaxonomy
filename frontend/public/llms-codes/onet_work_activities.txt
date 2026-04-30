@@ -1,0 +1,16 @@
+[WA] Work Activities
+[WA.01] Information Input -- Where and how are the information and data gained that are needed to perform this job?
+[WA.02] Mental Processes -- What processing, planning, problem-solving, decision-making, and innovating activities are performed with job-relevant information?
+[WA.03] Work Output -- What physical activities are performed, what equipment and vehicles are operated/controlled, and what complex/technical activities are accomplished as job outputs?
+[WA.04] Interacting With Others -- What interactions with other persons or supervisory activities occur while performing this job?
+[WA.05] Looking at Data
+[WA.06] Identifying Objects/Actions
+[WA.07] Estimating Characteristics
+[WA.08] Judging Quality
+[WA.09] Processing Information -- Compiling, coding, categorizing, calculating, tabulating, auditing, or verifying information or data.
+[WA.10] Evaluating Information
+[WA.11] Making Decisions
+[WA.12] Creative Thinking
+[WA.13] Updating Knowledge
+[WA.14] Scheduling Work
+[WA.15] Organizing and Planning

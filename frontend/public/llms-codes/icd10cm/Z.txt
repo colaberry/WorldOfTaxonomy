@@ -1,0 +1,1816 @@
+[Z00] Encounter for general examination without complaint, suspected or reported diagnosis -- **Excludes1:** - encounter for examination for administrative purposes (Z02.-)  **Excludes2:** - encounter for pre-procedural examinations (Z01.81-) - special screening examinations (Z11-Z13)
+[Z000] Encounter for general adult medical examination -- **Inclusion terms:** - Encounter for adult periodic examination (annual) (physical) and any associated laboratory and radiologic examinations  **Excludes1:** - encounter for examination of sign or symptom- code to sign or symptom - general health check-up of infant or child (Z00.12.-)
+[Z0000] Encounter for general adult medical examination without abnormal findings -- **Inclusion terms:** - Encounter for adult health check-up NOS
+[Z0001] Encounter for general adult medical examination with abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z001] Encounter for newborn, infant and child health examinations
+[Z0011] Newborn health examination -- **Inclusion terms:** - Health check for child under 29 days old  **Excludes1:** - health check for child over 28 days old (Z00.12-)  **Use additional code:** - code to identify any abnormal findings
+[Z00110] Health examination for newborn under 8 days old -- **Inclusion terms:** - Health check for newborn under 8 days old
+[Z00111] Health examination for newborn 8 to 28 days old -- **Inclusion terms:** - Health check for newborn 8 to 28 days old - Newborn weight check
+[Z0012] Encounter for routine child health examination -- **Inclusion terms:** - Health check (routine) for child over 28 days old - Immunizations appropriate for age - Routine developmental screening of infant or child - Routine vision and hearing testing  **Excludes1:** - health check for child under 29 days old (Z00.11-) - health supervision of foundling or other healthy infant or child (Z76.1-Z76.2) - newborn health examination (Z00.11-)
+[Z00121] Encounter for routine child health examination with abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z00129] Encounter for routine child health examination without abnormal findings -- **Inclusion terms:** - Encounter for routine child health examination NOS
+[Z002] Encounter for examination for period of rapid growth in childhood
+[Z003] Encounter for examination for adolescent development state -- **Inclusion terms:** - Encounter for puberty development state
+[Z005] Encounter for examination of potential donor of organ and tissue
+[Z006] Encounter for examination for normal comparison and control in clinical research program -- **Inclusion terms:** - Examination of participant or control in clinical research program
+[Z007] Encounter for examination for period of delayed growth in childhood
+[Z0070] Encounter for examination for period of delayed growth in childhood without abnormal findings
+[Z0071] Encounter for examination for period of delayed growth in childhood with abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z008] Encounter for other general examination -- **Inclusion terms:** - Encounter for health examination in population surveys
+[Z01] Encounter for other special examination without complaint, suspected or reported diagnosis -- **Includes:** - routine examination of specific system  **Notes:** - Codes from category Z01 represent the reason for the encounter. A separate procedure code is required to identify any examinations or procedures performed  **Excludes1:** - encounter for examination for administrative purposes (Z02.-) - encounter for examination for suspected conditions, proven not to exist (Z03.-) - encounter for laboratory and radiologic examinations as a component of general medical examinations (Z00.0-) - encounter for laboratory, radiologic and imaging examinations for sign(s) and symptom(s) - code to the sign(s) or symptom(s)  **Excludes2:** - screening examinations (Z11-Z13)
+[Z010] Encounter for examination of eyes and vision -- **Excludes1:** - examination for driving license (Z02.4)
+[Z0100] Encounter for examination of eyes and vision without abnormal findings -- **Inclusion terms:** - Encounter for examination of eyes and vision NOS
+[Z0101] Encounter for examination of eyes and vision with abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z0102] Encounter for examination of eyes and vision following failed vision screening -- **Excludes1:** - encounter for examination of eyes and vision with abnormal findings (Z01.01) - encounter for examination of eyes and vision without abnormal findings (Z01.00)
+[Z01020] Encounter for examination of eyes and vision following failed vision screening without abnormal findings
+[Z01021] Encounter for examination of eyes and vision following failed vision screening with abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z011] Encounter for examination of ears and hearing
+[Z0110] Encounter for examination of ears and hearing without abnormal findings -- **Inclusion terms:** - Encounter for examination of ears and hearing NOS
+[Z0111] Encounter for examination of ears and hearing with abnormal findings
+[Z01110] Encounter for hearing examination following failed hearing screening
+[Z01118] Encounter for examination of ears and hearing with other abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z0112] Encounter for hearing conservation and treatment
+[Z012] Encounter for dental examination and cleaning
+[Z0120] Encounter for dental examination and cleaning without abnormal findings -- **Inclusion terms:** - Encounter for dental examination and cleaning NOS
+[Z0121] Encounter for dental examination and cleaning with abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z013] Encounter for examination of blood pressure
+[Z0130] Encounter for examination of blood pressure without abnormal findings -- **Inclusion terms:** - Encounter for examination of blood pressure NOS
+[Z0131] Encounter for examination of blood pressure with abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z014] Encounter for gynecological examination -- **Excludes2:** - pregnancy examination or test (Z32.0-) - routine examination for contraceptive maintenance (Z30.4-)
+[Z0141] Encounter for routine gynecological examination -- **Inclusion terms:** - Encounter for general gynecological examination with or without cervical smear - Encounter for gynecological examination (general) (routine) NOS - Encounter for pelvic examination (annual) (periodic)  **Excludes1:** - gynecologic examination status-post hysterectomy for malignant condition (Z08) - screening cervical pap smear not a part of a routine gynecological examination (Z12.4)  **Use additional code:** - code: - for screening for human papillomavirus, if applicable, (Z11.51) - for screening vaginal pap smear, if applicable (Z12.72) - to identify acquired absence of uterus, if applicable (Z90.71-)
+[Z01411] Encounter for gynecological examination (general) (routine) with abnormal findings -- **Use additional code:** - code to identify abnormal findings
+[Z01419] Encounter for gynecological examination (general) (routine) without abnormal findings
+[Z0142] Encounter for cervical smear to confirm findings of recent normal smear following initial abnormal smear
+[Z018] Encounter for other specified special examinations
+[Z0181] Encounter for preprocedural examinations -- **Inclusion terms:** - Encounter for preoperative examinations - Encounter for radiological and imaging examinations as part of preprocedural examination
+[Z01810] Encounter for preprocedural cardiovascular examination
+[Z01811] Encounter for preprocedural respiratory examination
+[Z01812] Encounter for preprocedural laboratory examination -- **Inclusion terms:** - Blood and urine tests prior to treatment or procedure
+[Z01818] Encounter for other preprocedural examination -- **Inclusion terms:** - Encounter for preprocedural examination NOS - Encounter for examinations prior to antineoplastic chemotherapy
+[Z0182] Encounter for allergy testing -- **Excludes1:** - encounter for antibody response examination (Z01.84)
+[Z0183] Encounter for blood typing -- **Inclusion terms:** - Encounter for Rh typing
+[Z0184] Encounter for antibody response examination -- **Inclusion terms:** - Encounter for immunity status testing  **Excludes1:** - encounter for allergy testing (Z01.82)
+[Z0189] Encounter for other specified special examinations
+[Z02] Encounter for administrative examination
+[Z020] Encounter for examination for admission to educational institution -- **Inclusion terms:** - Encounter for examination for admission to preschool (education) - Encounter for examination for re-admission to school following illness or medical treatment
+[Z021] Encounter for pre-employment examination
+[Z022] Encounter for examination for admission to residential institution -- **Excludes1:** - examination for admission to prison (Z02.89)
+[Z023] Encounter for examination for recruitment to armed forces
+[Z024] Encounter for examination for driving license
+[Z025] Encounter for examination for participation in sport -- **Excludes1:** - blood-alcohol and blood-drug test (Z02.83)
+[Z026] Encounter for examination for insurance purposes
+[Z027] Encounter for issue of medical certificate -- **Excludes1:** - encounter for general medical examination (Z00-Z01, Z02.0-Z02.6, Z02.8-Z02.9)
+[Z0271] Encounter for disability determination -- **Inclusion terms:** - Encounter for issue of medical certificate of incapacity - Encounter for issue of medical certificate of invalidity
+[Z0279] Encounter for issue of other medical certificate
+[Z028] Encounter for other administrative examinations
+[Z0281] Encounter for paternity testing
+[Z0282] Encounter for adoption services
+[Z0283] Encounter for blood-alcohol and blood-drug test -- **Use additional code:** - code for findings of alcohol or drugs in blood (R78.-)
+[Z0284] Encounter for child welfare exam -- **Inclusion terms:** - Encounter for child welfare screening exam  **Excludes2:** - encounter for examination and observation for alleged child physical abuse (Z04.72) - encounter for examination and observation for alleged child rape (Z04.42)
+[Z0289] Encounter for other administrative examinations -- **Inclusion terms:** - Encounter for examination for admission to prison - Encounter for examination for admission to summer camp - Encounter for immigration examination - Encounter for naturalization examination - Encounter for premarital examination  **Excludes1:** - health supervision of foundling or other healthy infant or child (Z76.1-Z76.2)
+[Z029] Encounter for administrative examinations, unspecified
+[Z03] Encounter for medical observation for suspected diseases and conditions ruled out -- **Inclusion terms:** - This category is to be used when a person without a diagnosis is suspected of having an abnormal condition, without signs or symptoms, which requires study, but after examination and observation, is ruled out. This category is also for use for administrative and legal observation status.  **Excludes1:** - contact with and (suspected) exposures hazardous to health (Z77.-) - encounter for observation and evaluation of newborn for suspected diseases and conditions ruled out (Z05.-) - person with feared complaint in whom no diagnosis is made (Z71.1) - signs or symptoms under study- code to signs or symptoms
+[Z036] Encounter for observation for suspected toxic effect from ingested substance ruled out -- **Inclusion terms:** - Encounter for observation for suspected adverse effect from drug - Encounter for observation for suspected poisoning
+[Z037] Encounter for suspected maternal and fetal conditions ruled out -- **Inclusion terms:** - Encounter for suspected maternal and fetal conditions not found  **Excludes1:** - known or suspected fetal anomalies affecting management of mother, not ruled out (O26.-, O35.-, O36.-, O40.-, O41.-)
+[Z0371] Encounter for suspected problem with amniotic cavity and membrane ruled out -- **Inclusion terms:** - Encounter for suspected oligohydramnios ruled out - Encounter for suspected polyhydramnios ruled out
+[Z0372] Encounter for suspected placental problem ruled out
+[Z0373] Encounter for suspected fetal anomaly ruled out
+[Z0374] Encounter for suspected problem with fetal growth ruled out
+[Z0375] Encounter for suspected cervical shortening ruled out
+[Z0379] Encounter for other suspected maternal and fetal conditions ruled out
+[Z038] Encounter for observation for other suspected diseases and conditions ruled out
+[Z0381] Encounter for observation for suspected exposure to biological agents ruled out
+[Z03810] Encounter for observation for suspected exposure to anthrax ruled out
+[Z03818] Encounter for observation for suspected exposure to other biological agents ruled out
+[Z0382] Encounter for observation for suspected foreign body ruled out -- **Excludes1:** - retained foreign body (Z18.-) - retained foreign body in eyelid (H02.81) - residual foreign body in soft tissue (M79.5)  **Excludes2:** - confirmed foreign body ingestion or aspiration including: - foreign body in alimentary tract (T18) - foreign body in ear (T16) - foreign body on external eye (T15) - foreign body in respiratory tract (T17)
+[Z03821] Encounter for observation for suspected ingested foreign body ruled out
+[Z03822] Encounter for observation for suspected aspirated (inhaled) foreign body ruled out
+[Z03823] Encounter for observation for suspected inserted (injected) foreign body ruled out -- **Inclusion terms:** - Encounter for observation for suspected inserted (injected) foreign body in eye ruled out - Encounter for observation for suspected inserted (injected) foreign body in orifice ruled out - Encounter for observation for suspected inserted (injected) foreign body in skin ruled out
+[Z0383] Encounter for observation for suspected conditions related to home physiologic monitoring device ruled out -- **Inclusion terms:** - Encounter for observation for apnea alarm without findings - Encounter for observation for bradycardia alarm without findings - Encounter for observation for malfunction of home cardiorespiratory monitor - Encounter for observation for non-specific findings home physiologic monitoring device - Encounter for observation for pulse oximeter alarm without findings  **Excludes1:** - apnea NOS (R06.81) - neonatal bradycardia (P29.12) - newborn apnea (P28.4-) - primary sleep apnea of newborn (P28.3-) - sleep apnea (G47.3-)
+[Z0389] Encounter for observation for other suspected diseases and conditions ruled out
+[Z04] Encounter for examination and observation for other reasons -- **Includes:** - encounter for examination for medicolegal reasons - This category is to be used when a person without a diagnosis is suspected of having an abnormal condition, without signs or symptoms, which requires study, but after examination and observation, is ruled-out. This category is also for use for administrative and legal observation status.
+[Z041] Encounter for examination and observation following transport accident -- **Excludes1:** - encounter for examination and observation following work accident (Z04.2)
+[Z042] Encounter for examination and observation following work accident
+[Z043] Encounter for examination and observation following other accident
+[Z044] Encounter for examination and observation following alleged rape -- **Inclusion terms:** - Encounter for examination and observation of victim following alleged rape - Encounter for examination and observation of victim following alleged sexual abuse
+[Z0441] Encounter for examination and observation following alleged adult rape -- **Inclusion terms:** - Suspected adult rape, ruled out - Suspected adult sexual abuse, ruled out
+[Z0442] Encounter for examination and observation following alleged child rape -- **Inclusion terms:** - Suspected child rape, ruled out - Suspected child sexual abuse, ruled out
+[Z046] Encounter for general psychiatric examination, requested by authority
+[Z047] Encounter for examination and observation following alleged physical abuse
+[Z0471] Encounter for examination and observation following alleged adult physical abuse -- **Inclusion terms:** - Suspected adult physical abuse, ruled out  **Excludes1:** - confirmed case of adult physical abuse (T74.-) - encounter for examination and observation following alleged adult sexual abuse (Z04.41) - suspected case of adult physical abuse, not ruled out (T76.-)
+[Z0472] Encounter for examination and observation following alleged child physical abuse -- **Inclusion terms:** - Suspected child physical abuse, ruled out  **Excludes1:** - confirmed case of child physical abuse (T74.-) - encounter for examination and observation following alleged child sexual abuse (Z04.42) - suspected case of child physical abuse, not ruled out (T76.-)
+[Z048] Encounter for examination and observation for other specified reasons -- **Inclusion terms:** - Encounter for examination and observation for request for expert evidence
+[Z0481] Encounter for examination and observation of victim following forced sexual exploitation
+[Z0482] Encounter for examination and observation of victim following forced labor exploitation
+[Z0489] Encounter for examination and observation for other specified reasons
+[Z049] Encounter for examination and observation for unspecified reason -- **Inclusion terms:** - Encounter for observation NOS
+[Z05] Encounter for observation and evaluation of newborn for suspected diseases and conditions ruled out -- **Inclusion terms:** - This category is to be used for newborns, within the neonatal period (the first 28 days of life), who are suspected of having an abnormal condition, but without signs or symptoms, and which, after examination and observation, is ruled out.
+[Z050] Observation and evaluation of newborn for suspected cardiac condition ruled out
+[Z051] Observation and evaluation of newborn for suspected infectious condition ruled out
+[Z052] Observation and evaluation of newborn for suspected neurological condition ruled out
+[Z053] Observation and evaluation of newborn for suspected respiratory condition ruled out
+[Z054] Observation and evaluation of newborn for suspected genetic, metabolic or immunologic condition ruled out
+[Z0541] Observation and evaluation of newborn for suspected genetic condition ruled out
+[Z0542] Observation and evaluation of newborn for suspected metabolic condition ruled out
+[Z0543] Observation and evaluation of newborn for suspected immunologic condition ruled out
+[Z055] Observation and evaluation of newborn for suspected gastrointestinal condition ruled out
+[Z056] Observation and evaluation of newborn for suspected genitourinary condition ruled out
+[Z057] Observation and evaluation of newborn for suspected skin, subcutaneous, musculoskeletal and connective tissue condition ruled out
+[Z0571] Observation and evaluation of newborn for suspected skin and subcutaneous tissue condition ruled out
+[Z0572] Observation and evaluation of newborn for suspected musculoskeletal condition ruled out
+[Z0573] Observation and evaluation of newborn for suspected connective tissue condition ruled out
+[Z058] Observation and evaluation of newborn for other specified suspected condition ruled out
+[Z0581] Observation and evaluation of newborn for suspected condition related to home physiologic monitoring device ruled out -- **Inclusion terms:** - Encounter for observation of newborn for apnea alarm without findings - Encounter for observation of newborn for bradycardia alarm without findings - Encounter for observation of newborn for malfunction of home cardiorespiratory monitor - Encounter for observation of newborn for non-specific findings home physiologic monitoring device - Encounter for observation of newborn for pulse oximeter alarm without findings  **Excludes1:** - encounter for observation for suspected conditions related to home physiologic monitoring device ruled out (Z03.83) - neonatal bradycardia (P29.12) - other newborn apnea (P28.4-) - primary sleep apnea of newborn (P28.3-)
+[Z0589] Observation and evaluation of newborn for other specified suspected condition ruled out
+[Z059] Observation and evaluation of newborn for unspecified suspected condition ruled out
+[Z08] Encounter for follow-up examination after completed treatment for malignant neoplasm -- **Inclusion terms:** - Medical surveillance following completed treatment  **Excludes1:** - aftercare following medical care (Z43-Z49, Z51)  **Use additional code:** - code to identify any acquired absence of organs (Z90.-)
+[Z09] Encounter for follow-up examination after completed treatment for conditions other than malignant neoplasm -- **Inclusion terms:** - Medical surveillance following completed treatment  **Excludes1:** - aftercare following medical care (Z43-Z49, Z51) - surveillance of contraception (Z30.4-) - surveillance of prosthetic and other medical devices (Z44-Z46)  **Use additional code:** - code to identify any applicable history of disease code (Z86.-, Z87.-)
+[Z11] Encounter for screening for infectious and parasitic diseases -- **Inclusion terms:** - Screening is the testing for disease or disease precursors in asymptomatic individuals so that early detection and treatment can be provided for those who test positive for the disease.  **Excludes1:** - encounter for diagnostic examination-code to sign or symptom
+[Z110] Encounter for screening for intestinal infectious diseases
+[Z111] Encounter for screening for respiratory tuberculosis -- **Inclusion terms:** - Encounter for screening for active tuberculosis disease
+[Z112] Encounter for screening for other bacterial diseases
+[Z113] Encounter for screening for infections with a predominantly sexual mode of transmission -- **Excludes2:** - encounter for screening for human immunodeficiency virus [HIV] (Z11.4) - encounter for screening for human papillomavirus (Z11.51)
+[Z114] Encounter for screening for human immunodeficiency virus [HIV]
+[Z115] Encounter for screening for other viral diseases -- **Excludes2:** - encounter for screening for viral intestinal disease (Z11.0)
+[Z1151] Encounter for screening for human papillomavirus (HPV)
+[Z1152] Encounter for screening for COVID-19
+[Z1159] Encounter for screening for other viral diseases
+[Z116] Encounter for screening for other protozoal diseases and helminthiases -- **Excludes2:** - encounter for screening for protozoal intestinal disease (Z11.0)
+[Z117] Encounter for testing for latent tuberculosis infection
+[Z118] Encounter for screening for other infectious and parasitic diseases -- **Inclusion terms:** - Encounter for screening for chlamydia - Encounter for screening for rickettsial - Encounter for screening for spirochetal - Encounter for screening for mycoses
+[Z119] Encounter for screening for infectious and parasitic diseases, unspecified
+[Z12] Encounter for screening for malignant neoplasms -- **Inclusion terms:** - Screening is the testing for disease or disease precursors in asymptomatic individuals so that early detection and treatment can be provided for those who test positive for the disease.  **Excludes1:** - encounter for diagnostic examination-code to sign or symptom  **Use additional code:** - code to identify any family history of malignant neoplasm (Z80.-)
+[Z120] Encounter for screening for malignant neoplasm of stomach
+[Z121] Encounter for screening for malignant neoplasm of intestinal tract
+[Z1210] Encounter for screening for malignant neoplasm of intestinal tract, unspecified
+[Z1211] Encounter for screening for malignant neoplasm of colon -- **Inclusion terms:** - Encounter for screening colonoscopy NOS
+[Z1212] Encounter for screening for malignant neoplasm of rectum
+[Z1213] Encounter for screening for malignant neoplasm of small intestine
+[Z122] Encounter for screening for malignant neoplasm of respiratory organs
+[Z123] Encounter for screening for malignant neoplasm of breast
+[Z1231] Encounter for screening mammogram for malignant neoplasm of breast -- **Excludes1:** - inconclusive mammogram (R92.2)
+[Z1239] Encounter for other screening for malignant neoplasm of breast
+[Z124] Encounter for screening for malignant neoplasm of cervix -- **Inclusion terms:** - Encounter for screening pap smear for malignant neoplasm of cervix  **Excludes1:** - when screening is part of general gynecological examination (Z01.4-)  **Excludes2:** - encounter for screening for human papillomavirus (Z11.51)
+[Z125] Encounter for screening for malignant neoplasm of prostate
+[Z126] Encounter for screening for malignant neoplasm of bladder
+[Z127] Encounter for screening for malignant neoplasm of other genitourinary organs
+[Z1271] Encounter for screening for malignant neoplasm of testis
+[Z1272] Encounter for screening for malignant neoplasm of vagina -- **Inclusion terms:** - Vaginal pap smear status-post hysterectomy for non-malignant condition  **Excludes1:** - vaginal pap smear status-post hysterectomy for malignant conditions (Z08)  **Use additional code:** - code to identify acquired absence of uterus (Z90.71-)
+[Z1273] Encounter for screening for malignant neoplasm of ovary
+[Z1279] Encounter for screening for malignant neoplasm of other genitourinary organs
+[Z128] Encounter for screening for malignant neoplasm of other sites
+[Z1281] Encounter for screening for malignant neoplasm of oral cavity
+[Z1282] Encounter for screening for malignant neoplasm of nervous system
+[Z1283] Encounter for screening for malignant neoplasm of skin
+[Z1289] Encounter for screening for malignant neoplasm of other sites
+[Z129] Encounter for screening for malignant neoplasm, site unspecified
+[Z13] Encounter for screening for other diseases and disorders -- **Inclusion terms:** - Screening is the testing for disease or disease precursors in asymptomatic individuals so that early detection and treatment can be provided for those who test positive for the disease.  **Excludes1:** - encounter for diagnostic examination-code to sign or symptom
+[Z130] Encounter for screening for diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism
+[Z131] Encounter for screening for diabetes mellitus
+[Z132] Encounter for screening for nutritional, metabolic and other endocrine disorders
+[Z1321] Encounter for screening for nutritional disorder
+[Z1322] Encounter for screening for metabolic disorder
+[Z13220] Encounter for screening for lipoid disorders -- **Inclusion terms:** - Encounter for screening for cholesterol level - Encounter for screening for hypercholesterolemia - Encounter for screening for hyperlipidemia
+[Z13228] Encounter for screening for other metabolic disorders
+[Z1329] Encounter for screening for other suspected endocrine disorder -- **Excludes2:** - encounter for screening for diabetes mellitus (Z13.1)
+[Z133] Encounter for screening examination for mental health and behavioral disorders
+[Z1330] Encounter for screening examination for mental health and behavioral disorders, unspecified
+[Z1331] Encounter for screening for depression -- **Inclusion terms:** - Encounter for screening for depression, adult - Encounter for screening for depression for child or adolescent
+[Z1332] Encounter for screening for maternal depression -- **Inclusion terms:** - Encounter for screening for perinatal depression
+[Z1339] Encounter for screening examination for other mental health and behavioral disorders -- **Inclusion terms:** - Encounter for screening for alcoholism - Encounter for screening for intellectual disabilities
+[Z134] Encounter for screening for certain developmental disorders in childhood -- **Inclusion terms:** - Encounter for development testing of infant or child - Encounter for screening for developmental handicaps in early childhood  **Excludes2:** - encounter for routine child health examination (Z00.12-)
+[Z1340] Encounter for screening for unspecified developmental delays
+[Z1341] Encounter for autism screening
+[Z1342] Encounter for screening for global developmental delays (milestones) -- **Inclusion terms:** - Encounter for screening for developmental handicaps in early childhood
+[Z1349] Encounter for screening for other developmental delays
+[Z135] Encounter for screening for eye and ear disorders -- **Excludes2:** - encounter for general hearing examination (Z01.1-) - encounter for general vision examination (Z01.0-)
+[Z136] Encounter for screening for cardiovascular disorders
+[Z137] Encounter for screening for genetic and chromosomal anomalies -- **Excludes1:** - genetic testing for procreative management (Z31.4-)
+[Z1371] Encounter for nonprocreative screening for genetic disease carrier status
+[Z1379] Encounter for other screening for genetic and chromosomal anomalies
+[Z138] Encounter for screening for other specified diseases and disorders -- **Excludes2:** - screening for malignant neoplasms (Z12.-)
+[Z1381] Encounter for screening for digestive system disorders
+[Z13810] Encounter for screening for upper gastrointestinal disorder
+[Z13811] Encounter for screening for lower gastrointestinal disorder -- **Excludes1:** - encounter for screening for intestinal infectious disease (Z11.0)
+[Z13818] Encounter for screening for other digestive system disorders
+[Z1382] Encounter for screening for musculoskeletal disorder
+[Z13820] Encounter for screening for osteoporosis
+[Z13828] Encounter for screening for other musculoskeletal disorder
+[Z1383] Encounter for screening for respiratory disorder NEC -- **Excludes1:** - encounter for screening for respiratory tuberculosis (Z11.1)
+[Z1384] Encounter for screening for dental disorders
+[Z1385] Encounter for screening for nervous system disorders
+[Z13850] Encounter for screening for traumatic brain injury
+[Z13858] Encounter for screening for other nervous system disorders
+[Z1388] Encounter for screening for disorder due to exposure to contaminants -- **Excludes1:** - those exposed to contaminants without suspected disorders (Z57.-, Z77.-)
+[Z1389] Encounter for screening for other disorder -- **Inclusion terms:** - Encounter for screening for genitourinary disorders
+[Z139] Encounter for screening, unspecified
+[Z14] Genetic carrier
+[Z140] Hemophilia A carrier
+[Z1401] Asymptomatic hemophilia A carrier
+[Z1402] Symptomatic hemophilia A carrier
+[Z141] Cystic fibrosis carrier
+[Z148] Genetic carrier of other disease
+[Z15] Genetic susceptibility to disease -- **Includes:** - confirmed abnormal gene  **Excludes1:** - chromosomal anomalies (Q90-Q99)  **Use additional code:** - code, if applicable, for any associated family history of the disease (Z80-Z84)
+[Z150] Genetic susceptibility to malignant neoplasm -- **Code first:** - , if applicable, any current malignant neoplasm (C00-C75, C81-C96)  **Use additional code:** - code, if applicable, for any personal history of malignant neoplasm (Z85.-)
+[Z1501] Genetic susceptibility to malignant neoplasm of breast
+[Z1502] Genetic susceptibility to malignant neoplasm of ovary
+[Z1503] Genetic susceptibility to malignant neoplasm of prostate
+[Z1504] Genetic susceptibility to malignant neoplasm of endometrium
+[Z1509] Genetic susceptibility to other malignant neoplasm
+[Z151] Genetic susceptibility to epilepsy and neurodevelopmental disorders -- **Code also:** - , if applicable, related disorders such as: - developmental and epileptic encephalopathy (G93.45) - developmental disorder of speech and language (F80.-) - developmental disorders of scholastic skills (F81.-) - epilepsy, by specific type (G40.-) - intellectual disabilities (F70-F79) - other neurodevelopmental disorder (F88) - pervasive developmental disorders (F84.-)
+[Z152] Genetic susceptibility to obesity -- **Code also:** - , if applicable, any associated manifestations, such as: - other obesity (E66.8-) - polyphagia (R63.2)  **Use additional code:** - code to identify body mass index (BMI), if known (Z68.-)
+[Z158] Genetic susceptibility to other disease
+[Z1581] Genetic susceptibility to multiple endocrine neoplasia [MEN] -- **Excludes1:** - multiple endocrine neoplasia [MEN] syndromes (E31.2-)
+[Z1589] Genetic susceptibility to other disease
+[Z16] Resistance to antimicrobial drugs -- **Notes:** - The codes in this category are provided for use as additional codes to identify the resistance and non-responsiveness of a condition to antimicrobial drugs.  **Excludes1:** - Methicillin resistant Staphylococcus aureus infection (A49.02) - Methicillin resistant Staphylococcus aureus pneumonia (J15.212) - Sepsis due to Methicillin resistant Staphylococcus aureus (A41.02)  **Code first:** - the infection
+[Z161] Resistance to beta lactam antibiotics
+[Z1610] Resistance to unspecified beta lactam antibiotics
+[Z1611] Resistance to penicillins -- **Inclusion terms:** - Resistance to amoxicillin - Resistance to ampicillin
+[Z1612] Extended spectrum beta lactamase (ESBL) resistance -- **Excludes2:** - Methicillin resistant Staphylococcus aureus infection in diseases classified elsewhere (B95.62)
+[Z1613] Resistance to carbapenem
+[Z1619] Resistance to other specified beta lactam antibiotics -- **Inclusion terms:** - Resistance to cephalosporins
+[Z162] Resistance to other antibiotics
+[Z1620] Resistance to unspecified antibiotic -- **Inclusion terms:** - Resistance to antibiotics NOS
+[Z1621] Resistance to vancomycin
+[Z1622] Resistance to vancomycin related antibiotics
+[Z1623] Resistance to quinolones and fluoroquinolones
+[Z1624] Resistance to multiple antibiotics
+[Z1629] Resistance to other single specified antibiotic -- **Inclusion terms:** - Resistance to aminoglycosides - Resistance to macrolides - Resistance to sulfonamides - Resistance to tetracyclines
+[Z163] Resistance to other antimicrobial drugs -- **Excludes1:** - resistance to antibiotics (Z16.1-, Z16.2-)
+[Z1630] Resistance to unspecified antimicrobial drugs -- **Inclusion terms:** - Drug resistance NOS
+[Z1631] Resistance to antiparasitic drug(s) -- **Inclusion terms:** - Resistance to quinine and related compounds
+[Z1632] Resistance to antifungal drug(s)
+[Z1633] Resistance to antiviral drug(s)
+[Z1634] Resistance to antimycobacterial drug(s) -- **Inclusion terms:** - Resistance to tuberculostatics
+[Z16341] Resistance to single antimycobacterial drug -- **Inclusion terms:** - Resistance to antimycobacterial drug NOS
+[Z16342] Resistance to multiple antimycobacterial drugs
+[Z1635] Resistance to multiple antimicrobial drugs -- **Excludes1:** - Resistance to multiple antibiotics only (Z16.24)
+[Z1639] Resistance to other specified antimicrobial drug
+[Z17] Estrogen, and other hormones and factors receptor status -- **Notes:** - Use one code, as available, for each receptor: Z17.0, Z17.1, Z17.2-, Z17.3-  **Code first:** - malignant neoplasm, such as: - malignant neoplasm of breast (C50.-) - malignant neoplasm of ovary (C56.-)
+[Z170] Estrogen receptor positive status [ER+]
+[Z171] Estrogen receptor negative status [ER-]
+[Z172] Progesterone receptor status
+[Z1721] Progesterone receptor positive status -- **Inclusion terms:** - PR+
+[Z1722] Progesterone receptor negative status -- **Inclusion terms:** - PR-
+[Z173] Human epidermal growth factor 2 receptor
+[Z1731] Human epidermal growth factor receptor 2 positive status -- **Inclusion terms:** - HER2+
+[Z1732] Human epidermal growth factor receptor 2 negative status -- **Inclusion terms:** - HER2-
+[Z174] Combined receptor status -- **Notes:** - Assign a code from subcategory Z17.4- when only a combined receptor status is documented
+[Z1741] Hormone receptor positive -- **Inclusion terms:** - HR+
+[Z17410] Hormone receptor positive with human epidermal growth factor receptor 2 positive status -- **Inclusion terms:** - HR+ with HER2+
+[Z17411] Hormone receptor positive with human epidermal growth factor receptor 2 negative status -- **Inclusion terms:** - HR+ with HER2-
+[Z1742] Hormone receptor negative -- **Inclusion terms:** - HR-
+[Z17420] Hormone receptor negative with human epidermal growth factor receptor 2 positive status -- **Inclusion terms:** - HR- with HER2+
+[Z17421] Hormone receptor negative with human epidermal growth factor receptor 2 negative status -- **Inclusion terms:** - HR- with HER2- - TNBC - Triple negative breast cancer
+[Z18] Retained foreign body fragments -- **Includes:** - embedded fragment (status) - embedded splinter (status) - retained foreign body status  **Excludes1:** - artificial joint prosthesis status (Z96.6-) - foreign body accidentally left during a procedure (T81.5-) - foreign body entering through orifice (T15-T19) - in situ cardiac device (Z95.-) - organ or tissue replaced by means other than transplant (Z96.-, Z97.-) - organ or tissue replaced by transplant (Z94.-) - personal history of retained foreign body fully removed Z87.821 - superficial foreign body (non-embedded splinter) - code to superficial foreign body, by site
+[Z180] Retained radioactive fragments
+[Z1801] Retained depleted uranium fragments
+[Z1809] Other retained radioactive fragments -- **Inclusion terms:** - Other retained depleted isotope fragments - Retained nontherapeutic radioactive fragments
+[Z181] Retained metal fragments -- **Excludes1:** - retained radioactive metal fragments (Z18.01-Z18.09)
+[Z1810] Retained metal fragments, unspecified -- **Inclusion terms:** - Retained metal fragment NOS
+[Z1811] Retained magnetic metal fragments
+[Z1812] Retained nonmagnetic metal fragments
+[Z182] Retained plastic fragments -- **Inclusion terms:** - Acrylics fragments - Diethylhexyl phthalates fragments - Isocyanate fragments
+[Z183] Retained organic fragments
+[Z1831] Retained animal quills or spines
+[Z1832] Retained tooth
+[Z1833] Retained wood fragments
+[Z1839] Other retained organic fragments
+[Z188] Other specified retained foreign body
+[Z1881] Retained glass fragments
+[Z1883] Retained stone or crystalline fragments -- **Inclusion terms:** - Retained concrete or cement fragments
+[Z1889] Other specified retained foreign body fragments
+[Z189] Retained foreign body fragments, unspecified material
+[Z19] Hormone sensitivity malignancy status -- **Code first:** - malignant neoplasm - see Table of Neoplasms, by site, malignant
+[Z191] Hormone sensitive malignancy status
+[Z192] Hormone resistant malignancy status -- **Inclusion terms:** - Castrate resistant prostate malignancy status
+[Z20] Contact with and (suspected) exposure to communicable diseases -- **Excludes1:** - carrier of infectious disease (Z22.-) - diagnosed current infectious or parasitic disease -see Alphabetic Index  **Excludes2:** - personal history of infectious and parasitic diseases (Z86.1-)
+[Z200] Contact with and (suspected) exposure to intestinal infectious diseases
+[Z2001] Contact with and (suspected) exposure to intestinal infectious diseases due to Escherichia coli (E. coli)
+[Z2009] Contact with and (suspected) exposure to other intestinal infectious diseases
+[Z201] Contact with and (suspected) exposure to tuberculosis
+[Z202] Contact with and (suspected) exposure to infections with a predominantly sexual mode of transmission
+[Z203] Contact with and (suspected) exposure to rabies
+[Z204] Contact with and (suspected) exposure to rubella
+[Z205] Contact with and (suspected) exposure to viral hepatitis
+[Z206] Contact with and (suspected) exposure to human immunodeficiency virus [HIV] -- **Excludes1:** - asymptomatic human immunodeficiency virus [HIV] - HIV infection status (Z21)
+[Z207] Contact with and (suspected) exposure to pediculosis, acariasis and other infestations
+[Z208] Contact with and (suspected) exposure to other communicable diseases
+[Z2081] Contact with and (suspected) exposure to other bacterial communicable diseases
+[Z20810] Contact with and (suspected) exposure to anthrax
+[Z20811] Contact with and (suspected) exposure to meningococcus
+[Z20818] Contact with and (suspected) exposure to other bacterial communicable diseases
+[Z2082] Contact with and (suspected) exposure to other viral communicable diseases
+[Z20820] Contact with and (suspected) exposure to varicella
+[Z20821] Contact with and (suspected) exposure to Zika virus
+[Z20822] Contact with and (suspected) exposure to COVID-19 -- **Inclusion terms:** - Contact with and (suspected) exposure to SARS-CoV-2
+[Z20828] Contact with and (suspected) exposure to other viral communicable diseases
+[Z2089] Contact with and (suspected) exposure to other communicable diseases
+[Z209] Contact with and (suspected) exposure to unspecified communicable disease
+[Z21] Asymptomatic human immunodeficiency virus [HIV] infection status -- **Inclusion terms:** - HIV positive NOS  **Excludes1:** - acquired immunodeficiency syndrome (B20) - contact with human immunodeficiency virus [HIV] (Z20.6) - exposure to human immunodeficiency virus [HIV] (Z20.6) - human immunodeficiency virus [HIV] disease (B20) - inconclusive laboratory evidence of human immunodeficiency virus [HIV] (R75)  **Code first:** - Human immunodeficiency virus [HIV] disease complicating pregnancy, childbirth and the puerperium, if applicable (O98.7-)
+[Z22] Carrier of infectious disease -- **Includes:** - colonization status - suspected carrier  **Excludes2:** - carrier of viral hepatitis (B18.-)
+[Z220] Carrier of typhoid
+[Z221] Carrier of other intestinal infectious diseases
+[Z222] Carrier of diphtheria
+[Z223] Carrier of other specified bacterial diseases
+[Z2231] Carrier of bacterial disease due to meningococci
+[Z2232] Carrier of bacterial disease due to staphylococci
+[Z22321] Carrier or suspected carrier of Methicillin susceptible Staphylococcus aureus -- **Inclusion terms:** - MSSA colonization
+[Z22322] Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus -- **Inclusion terms:** - MRSA colonization
+[Z2233] Carrier of bacterial disease due to streptococci
+[Z22330] Carrier of Group B streptococcus -- **Excludes1:** - Carrier of streptococcus group B (GBS) complicating pregnancy, childbirth and the puerperium (O99.82-)
+[Z22338] Carrier of other streptococcus
+[Z2234] Carrier of Acinetobacter baumannii
+[Z22340] Carrier of carbapenem-resistant Acinetobacter baumannii
+[Z22341] Carrier of carbapenem-sensitive Acinetobacter baumannii
+[Z22349] Carrier of Acinetobacter baumannii, unspecified
+[Z2235] Carrier of Enterobacterales -- **Inclusion terms:** - Carrier of E. coli - Carrier of K. pneumoniae
+[Z22350] Carrier of carbapenem-resistant Enterobacterales
+[Z22358] Carrier of other Enterobacterales -- **Inclusion terms:** - Carrier of carbapenem-sensitive Enterobacterales - Carrier of ESBL-producing Enterobacterales - Carrier of extended-spectrum beta-lactamase producing Enterobacterales
+[Z22359] Carrier of Enterobacterales, unspecified
+[Z2239] Carrier of other specified bacterial diseases
+[Z224] Carrier of infections with a predominantly sexual mode of transmission
+[Z226] Carrier of human T-lymphotropic virus type-1 [HTLV-1] infection
+[Z227] Latent tuberculosis -- **Inclusion terms:** - Latent tuberculosis infection (LTBI)  **Excludes1:** - nonspecific reaction to cell mediated immunity measurement of gamma interferon antigen response without active tuberculosis (R76.12) - nonspecific reaction to tuberculin skin test without active tuberculosis (R76.11)
+[Z228] Carrier of other infectious diseases
+[Z229] Carrier of infectious disease, unspecified
+[Z23] Encounter for immunization -- **Notes:** - procedure codes are required to identify the types of immunizations given  **Code first:** - any routine childhood examination  **Code also:** - , if applicable, encounter for immunization safety counseling (Z71.85)
+[Z28] Immunization not carried out and underimmunization status -- **Includes:** - vaccination not carried out  **Code also:** - , if applicable, encounter for immunization safety counseling (Z71.85)
+[Z280] Immunization not carried out because of contraindication
+[Z2801] Immunization not carried out because of acute illness of patient
+[Z2802] Immunization not carried out because of chronic illness or condition of patient
+[Z2803] Immunization not carried out because of immune compromised state of patient
+[Z2804] Immunization not carried out because of patient allergy to vaccine or component
+[Z2809] Immunization not carried out because of other contraindication
+[Z281] Immunization not carried out because of patient decision for reasons of belief or group pressure -- **Inclusion terms:** - Immunization not carried out because of religious belief
+[Z282] Immunization not carried out because of patient decision for other and unspecified reason
+[Z2820] Immunization not carried out because of patient decision for unspecified reason
+[Z2821] Immunization not carried out because of patient refusal
+[Z2829] Immunization not carried out because of patient decision for other reason
+[Z283] Underimmunization status -- **Use additional code:** - code, if applicable, to identify: - immunization not carried out because of contraindication (Z28.0-) - immunization not carried out because of patient decision for other and unspecified reason (Z28.2-) - immunization not carried out because of patient decision for reasons of belief or group pressure (Z28.1) - immunization not carried out for other reason (Z28.8-)
+[Z2831] Underimmunization for COVID-19 status -- **Notes:** - These codes should not be used for individuals who are not eligible for the COVID-19 vaccines, as determined by the healthcare provider.
+[Z28310] Unvaccinated for COVID-19
+[Z28311] Partially vaccinated for COVID-19
+[Z2839] Other underimmunization status -- **Inclusion terms:** - Delinquent immunization status - Lapsed immunization schedule status
+[Z288] Immunization not carried out for other reason
+[Z2881] Immunization not carried out due to patient having had the disease
+[Z2882] Immunization not carried out because of caregiver refusal -- **Inclusion terms:** - Immunization not carried out because of guardian refusal - Immunization not carried out because of parent refusal  **Excludes1:** - immunization not carried out because of caregiver refusal because of religious belief (Z28.1)
+[Z2883] Immunization not carried out due to unavailability of vaccine -- **Inclusion terms:** - Delay in delivery of vaccine - Lack of availability of vaccine - Manufacturer delay of vaccine
+[Z2889] Immunization not carried out for other reason
+[Z289] Immunization not carried out for unspecified reason
+[Z29] Encounter for other prophylactic measures -- **Excludes1:** - desensitization to allergens (Z51.6) - prophylactic surgery (Z40.-)
+[Z291] Encounter for prophylactic immunotherapy -- **Inclusion terms:** - Encounter for administration of immunoglobulin
+[Z2911] Encounter for prophylactic immunotherapy for respiratory syncytial virus (RSV)
+[Z2912] Encounter for prophylactic antivenin
+[Z2913] Encounter for prophylactic Rho(D) immune globulin
+[Z2914] Encounter for prophylactic rabies immune globin
+[Z293] Encounter for prophylactic fluoride administration
+[Z298] Encounter for other specified prophylactic measures
+[Z2981] Encounter for HIV pre-exposure prophylaxis -- **Code also:** - , if applicable, risk factors for HIV, such as: - contact with and (suspected) exposure to human immunodeficiency virus [HIV] (Z20.6) - high risk sexual behavior (Z72.5-)
+[Z2989] Encounter for other specified prophylactic measures
+[Z299] Encounter for prophylactic measures, unspecified
+[Z30] Encounter for contraceptive management
+[Z300] Encounter for general counseling and advice on contraception
+[Z3001] Encounter for initial prescription of contraceptives -- **Excludes1:** - encounter for surveillance of contraceptives (Z30.4-)
+[Z30011] Encounter for initial prescription of contraceptive pills
+[Z30012] Encounter for prescription of emergency contraception -- **Inclusion terms:** - Encounter for postcoital contraception
+[Z30013] Encounter for initial prescription of injectable contraceptive
+[Z30014] Encounter for initial prescription of intrauterine contraceptive device -- **Excludes1:** - encounter for insertion of intrauterine contraceptive device (Z30.430, Z30.432)
+[Z30015] Encounter for initial prescription of vaginal ring hormonal contraceptive
+[Z30016] Encounter for initial prescription of transdermal patch hormonal contraceptive device
+[Z30017] Encounter for initial prescription of implantable subdermal contraceptive
+[Z30018] Encounter for initial prescription of other contraceptives -- **Inclusion terms:** - Encounter for initial prescription of barrier contraception - Encounter for initial prescription of diaphragm
+[Z30019] Encounter for initial prescription of contraceptives, unspecified
+[Z3002] Counseling and instruction in natural family planning to avoid pregnancy
+[Z3009] Encounter for other general counseling and advice on contraception -- **Inclusion terms:** - Encounter for family planning advice NOS
+[Z302] Encounter for sterilization
+[Z304] Encounter for surveillance of contraceptives
+[Z3040] Encounter for surveillance of contraceptives, unspecified
+[Z3041] Encounter for surveillance of contraceptive pills -- **Inclusion terms:** - Encounter for repeat prescription for contraceptive pill
+[Z3042] Encounter for surveillance of injectable contraceptive
+[Z3043] Encounter for surveillance of intrauterine contraceptive device
+[Z30430] Encounter for insertion of intrauterine contraceptive device
+[Z30431] Encounter for routine checking of intrauterine contraceptive device
+[Z30432] Encounter for removal of intrauterine contraceptive device
+[Z30433] Encounter for removal and reinsertion of intrauterine contraceptive device -- **Inclusion terms:** - Encounter for replacement of intrauterine contraceptive device
+[Z3044] Encounter for surveillance of vaginal ring hormonal contraceptive device
+[Z3045] Encounter for surveillance of transdermal patch hormonal contraceptive device
+[Z3046] Encounter for surveillance of implantable subdermal contraceptive -- **Inclusion terms:** - Encounter for checking, reinsertion or removal of implantable subdermal contraceptive
+[Z3049] Encounter for surveillance of other contraceptives -- **Inclusion terms:** - Encounter for surveillance of barrier contraception - Encounter for surveillance of diaphragm
+[Z308] Encounter for other contraceptive management -- **Inclusion terms:** - Encounter for postvasectomy sperm count - Encounter for routine examination for contraceptive maintenance  **Excludes1:** - sperm count following sterilization reversal (Z31.42) - sperm count for fertility testing (Z31.41)
+[Z309] Encounter for contraceptive management, unspecified
+[Z31] Encounter for procreative management -- **Excludes2:** - complications associated with artificial fertilization (N98.-) - female infertility (N97.-) - male infertility (N46.-)
+[Z310] Encounter for reversal of previous sterilization
+[Z314] Encounter for procreative investigation and testing -- **Excludes1:** - postvasectomy sperm count (Z30.8)
+[Z3141] Encounter for fertility testing -- **Inclusion terms:** - Encounter for fallopian tube patency testing - Encounter for sperm count for fertility testing
+[Z3142] Aftercare following sterilization reversal -- **Inclusion terms:** - Sperm count following sterilization reversal
+[Z3143] Encounter for genetic testing of female for procreative management -- **Excludes1:** - nonprocreative genetic testing (Z13.7-)  **Use additional code:** - code for recurrent pregnancy loss, if applicable (N96, O26.2-)
+[Z31430] Encounter of female for testing for genetic disease carrier status for procreative management
+[Z31438] Encounter for other genetic testing of female for procreative management
+[Z3144] Encounter for genetic testing of male for procreative management -- **Excludes1:** - nonprocreative genetic testing (Z13.7-)
+[Z31440] Encounter of male for testing for genetic disease carrier status for procreative management
+[Z31441] Encounter for testing of male partner of patient with recurrent pregnancy loss
+[Z31448] Encounter for other genetic testing of male for procreative management
+[Z3149] Encounter for other procreative investigation and testing
+[Z315] Encounter for procreative genetic counseling
+[Z316] Encounter for general counseling and advice on procreation
+[Z3161] Procreative counseling and advice using natural family planning
+[Z3162] Encounter for fertility preservation counseling -- **Inclusion terms:** - Encounter for fertility preservation counseling prior to cancer therapy - Encounter for fertility preservation counseling prior to surgical removal of gonads
+[Z3169] Encounter for other general counseling and advice on procreation
+[Z317] Encounter for procreative management and counseling for gestational carrier -- **Excludes1:** - pregnant state, gestational carrier (Z33.3)
+[Z318] Encounter for other procreative management
+[Z3181] Encounter for male factor infertility in female patient
+[Z3182] Encounter for Rh incompatibility status
+[Z3183] Encounter for assisted reproductive fertility procedure cycle -- **Inclusion terms:** - Patient undergoing in vitro fertilization cycle  **Excludes1:** - pre-cycle diagnosis and testing - code to reason for encounter  **Use additional code:** - code to identify the type of infertility
+[Z3184] Encounter for fertility preservation procedure -- **Inclusion terms:** - Encounter for fertility preservation procedure prior to cancer therapy - Encounter for fertility preservation procedure prior to surgical removal of gonads
+[Z3189] Encounter for other procreative management
+[Z319] Encounter for procreative management, unspecified
+[Z32] Encounter for pregnancy test and childbirth and childcare instruction
+[Z320] Encounter for pregnancy test
+[Z3200] Encounter for pregnancy test, result unknown -- **Inclusion terms:** - Encounter for pregnancy test NOS
+[Z3201] Encounter for pregnancy test, result positive
+[Z3202] Encounter for pregnancy test, result negative
+[Z322] Encounter for childbirth instruction
+[Z323] Encounter for childcare instruction -- **Inclusion terms:** - Encounter for prenatal or postpartum childcare instruction
+[Z33] Pregnant state
+[Z331] Pregnant state, incidental -- **Inclusion terms:** - Pregnancy NOS - Pregnant state NOS  **Excludes1:** - complications of pregnancy (O00-O9A) - pregnant state, gestational carrier (Z33.3)
+[Z332] Encounter for elective termination of pregnancy -- **Excludes1:** - early fetal death with retention of dead fetus (O02.1) - late fetal death (O36.4) - spontaneous abortion (O03)
+[Z333] Pregnant state, gestational carrier -- **Excludes1:** - encounter for procreative management and counseling for gestational carrier (Z31.7)
+[Z34] Encounter for supervision of normal pregnancy -- **Excludes1:** - any complication of pregnancy (O00-O9A) - encounter for pregnancy test (Z32.0-) - encounter for supervision of high risk pregnancy (O09.-)
+[Z340] Encounter for supervision of normal first pregnancy
+[Z3400] Encounter for supervision of normal first pregnancy, unspecified trimester
+[Z3401] Encounter for supervision of normal first pregnancy, first trimester
+[Z3402] Encounter for supervision of normal first pregnancy, second trimester
+[Z3403] Encounter for supervision of normal first pregnancy, third trimester
+[Z348] Encounter for supervision of other normal pregnancy
+[Z3480] Encounter for supervision of other normal pregnancy, unspecified trimester
+[Z3481] Encounter for supervision of other normal pregnancy, first trimester
+[Z3482] Encounter for supervision of other normal pregnancy, second trimester
+[Z3483] Encounter for supervision of other normal pregnancy, third trimester
+[Z349] Encounter for supervision of normal pregnancy, unspecified
+[Z3490] Encounter for supervision of normal pregnancy, unspecified, unspecified trimester
+[Z3491] Encounter for supervision of normal pregnancy, unspecified, first trimester
+[Z3492] Encounter for supervision of normal pregnancy, unspecified, second trimester
+[Z3493] Encounter for supervision of normal pregnancy, unspecified, third trimester
+[Z36] Encounter for antenatal screening of mother -- **Includes:** - Encounter for placental sample (taken vaginally) - Screening is the testing for disease or disease precursors in asymptomatic individuals so that early detection and treatment can be provided for those who test positive for the disease.  **Excludes1:** - diagnostic examination- code to sign or symptom - encounter for suspected maternal and fetal conditions ruled out (Z03.7-) - suspected fetal condition affecting management of pregnancy - code to condition in Chapter 15  **Excludes2:** - abnormal findings on antenatal screening of mother (O28.-) - genetic counseling and testing (Z31.43-, Z31.5) - routine prenatal care (Z34)
+[Z360] Encounter for antenatal screening for chromosomal anomalies
+[Z361] Encounter for antenatal screening for raised alphafetoprotein level -- **Inclusion terms:** - Encounter for antenatal screening for elevated maternal serum alphafetoprotein level
+[Z362] Encounter for other antenatal screening follow-up -- **Inclusion terms:** - Non-visualized anatomy on a previous scan
+[Z363] Encounter for antenatal screening for malformations -- **Inclusion terms:** - Screening for a suspected anomaly
+[Z364] Encounter for antenatal screening for fetal growth retardation -- **Inclusion terms:** - Intrauterine growth restriction (IUGR)/small-for-dates
+[Z365] Encounter for antenatal screening for isoimmunization
+[Z368] Encounter for other antenatal screening
+[Z3681] Encounter for antenatal screening for hydrops fetalis
+[Z3682] Encounter for antenatal screening for nuchal translucency
+[Z3683] Encounter for fetal screening for congenital cardiac abnormalities
+[Z3684] Encounter for antenatal screening for fetal lung maturity
+[Z3685] Encounter for antenatal screening for Streptococcus B
+[Z3686] Encounter for antenatal screening for cervical length -- **Inclusion terms:** - Screening for risk of pre-term labor
+[Z3687] Encounter for antenatal screening for uncertain dates
+[Z3688] Encounter for antenatal screening for fetal macrosomia -- **Inclusion terms:** - Screening for large-for-dates
+[Z3689] Encounter for other specified antenatal screening
+[Z368A] Encounter for antenatal screening for other genetic defects
+[Z369] Encounter for antenatal screening, unspecified
+[Z37] Outcome of delivery -- **Inclusion terms:** - This category is intended for use as an additional code to identify the outcome of delivery on the mother's record. It is not for use on the newborn record.  **Excludes1:** - stillbirth (P95)
+[Z370] Single live birth
+[Z371] Single stillbirth
+[Z372] Twins, both liveborn
+[Z373] Twins, one liveborn and one stillborn
+[Z374] Twins, both stillborn
+[Z375] Other multiple births, all liveborn
+[Z3750] Multiple births, unspecified, all liveborn
+[Z3751] Triplets, all liveborn
+[Z3752] Quadruplets, all liveborn
+[Z3753] Quintuplets, all liveborn
+[Z3754] Sextuplets, all liveborn
+[Z3759] Other multiple births, all liveborn
+[Z376] Other multiple births, some liveborn
+[Z3760] Multiple births, unspecified, some liveborn
+[Z3761] Triplets, some liveborn
+[Z3762] Quadruplets, some liveborn
+[Z3763] Quintuplets, some liveborn
+[Z3764] Sextuplets, some liveborn
+[Z3769] Other multiple births, some liveborn
+[Z377] Other multiple births, all stillborn
+[Z379] Outcome of delivery, unspecified -- **Inclusion terms:** - Multiple birth NOS - Single birth NOS
+[Z38] Liveborn infants according to place of birth and type of delivery -- **Inclusion terms:** - This category is for use as the principal code on the initial record of a newborn baby. It is to be used for the initial birth record only. It is not to be used on the mother's record.
+[Z380] Single liveborn infant, born in hospital -- **Inclusion terms:** - Single liveborn infant, born in birthing center or other health care facility
+[Z3800] Single liveborn infant, delivered vaginally
+[Z3801] Single liveborn infant, delivered by cesarean
+[Z381] Single liveborn infant, born outside hospital
+[Z382] Single liveborn infant, unspecified as to place of birth -- **Inclusion terms:** - Single liveborn infant NOS
+[Z383] Twin liveborn infant, born in hospital
+[Z3830] Twin liveborn infant, delivered vaginally
+[Z3831] Twin liveborn infant, delivered by cesarean
+[Z384] Twin liveborn infant, born outside hospital
+[Z385] Twin liveborn infant, unspecified as to place of birth
+[Z386] Other multiple liveborn infant, born in hospital
+[Z3861] Triplet liveborn infant, delivered vaginally
+[Z3862] Triplet liveborn infant, delivered by cesarean
+[Z3863] Quadruplet liveborn infant, delivered vaginally
+[Z3864] Quadruplet liveborn infant, delivered by cesarean
+[Z3865] Quintuplet liveborn infant, delivered vaginally
+[Z3866] Quintuplet liveborn infant, delivered by cesarean
+[Z3868] Other multiple liveborn infant, delivered vaginally
+[Z3869] Other multiple liveborn infant, delivered by cesarean
+[Z387] Other multiple liveborn infant, born outside hospital
+[Z388] Other multiple liveborn infant, unspecified as to place of birth
+[Z39] Encounter for maternal postpartum care and examination
+[Z390] Encounter for care and examination of mother immediately after delivery -- **Inclusion terms:** - Care and observation in uncomplicated cases when the delivery occurs outside a healthcare facility  **Excludes1:** - care for postpartum complication- see Alphabetic index
+[Z391] Encounter for care and examination of lactating mother -- **Inclusion terms:** - Encounter for supervision of lactation  **Excludes1:** - disorders of lactation (O92.-)
+[Z392] Encounter for routine postpartum follow-up
+[Z3A] Weeks of gestation -- **Notes:** - Codes from category Z3A are for use, only on the maternal record, to indicate the weeks of gestation of the pregnancy, if known.  **Code first:** - obstetric condition or encounter for delivery (O09-O60, O80-O82)
+[Z3A0] Weeks of gestation of pregnancy, unspecified or less than 10 weeks
+[Z3A00] Weeks of gestation of pregnancy not specified
+[Z3A01] Less than 8 weeks gestation of pregnancy
+[Z3A08] 8 weeks gestation of pregnancy
+[Z3A09] 9 weeks gestation of pregnancy
+[Z3A1] Weeks of gestation of pregnancy, weeks 10-19
+[Z3A10] 10 weeks gestation of pregnancy
+[Z3A11] 11 weeks gestation of pregnancy
+[Z3A12] 12 weeks gestation of pregnancy
+[Z3A13] 13 weeks gestation of pregnancy
+[Z3A14] 14 weeks gestation of pregnancy
+[Z3A15] 15 weeks gestation of pregnancy
+[Z3A16] 16 weeks gestation of pregnancy
+[Z3A17] 17 weeks gestation of pregnancy
+[Z3A18] 18 weeks gestation of pregnancy
+[Z3A19] 19 weeks gestation of pregnancy
+[Z3A2] Weeks of gestation of pregnancy, weeks 20-29
+[Z3A20] 20 weeks gestation of pregnancy
+[Z3A21] 21 weeks gestation of pregnancy
+[Z3A22] 22 weeks gestation of pregnancy
+[Z3A23] 23 weeks gestation of pregnancy
+[Z3A24] 24 weeks gestation of pregnancy
+[Z3A25] 25 weeks gestation of pregnancy
+[Z3A26] 26 weeks gestation of pregnancy
+[Z3A27] 27 weeks gestation of pregnancy
+[Z3A28] 28 weeks gestation of pregnancy
+[Z3A29] 29 weeks gestation of pregnancy
+[Z3A3] Weeks of gestation of pregnancy, weeks 30-39
+[Z3A30] 30 weeks gestation of pregnancy
+[Z3A31] 31 weeks gestation of pregnancy
+[Z3A32] 32 weeks gestation of pregnancy
+[Z3A33] 33 weeks gestation of pregnancy
+[Z3A34] 34 weeks gestation of pregnancy
+[Z3A35] 35 weeks gestation of pregnancy
+[Z3A36] 36 weeks gestation of pregnancy
+[Z3A37] 37 weeks gestation of pregnancy
+[Z3A38] 38 weeks gestation of pregnancy
+[Z3A39] 39 weeks gestation of pregnancy
+[Z3A4] Weeks of gestation of pregnancy, weeks 40 or greater
+[Z3A40] 40 weeks gestation of pregnancy
+[Z3A41] 41 weeks gestation of pregnancy
+[Z3A42] 42 weeks gestation of pregnancy
+[Z3A49] Greater than 42 weeks gestation of pregnancy
+[Z40] Encounter for prophylactic surgery -- **Excludes1:** - organ donations (Z52.-) - therapeutic organ removal-code to condition
+[Z400] Encounter for prophylactic surgery for risk factors related to malignant neoplasms -- **Inclusion terms:** - Admission for prophylactic organ removal  **Use additional code:** - code to identify risk factor
+[Z4000] Encounter for prophylactic removal of unspecified organ
+[Z4001] Encounter for prophylactic removal of breast
+[Z4002] Encounter for prophylactic removal of ovary(s) -- **Inclusion terms:** - Encounter for prophylactic removal of ovary(s) and fallopian tube(s)
+[Z4003] Encounter for prophylactic removal of fallopian tube(s)
+[Z4009] Encounter for prophylactic removal of other organ
+[Z408] Encounter for other prophylactic surgery
+[Z409] Encounter for prophylactic surgery, unspecified
+[Z41] Encounter for procedures for purposes other than remedying health state
+[Z411] Encounter for cosmetic surgery -- **Inclusion terms:** - Encounter for cosmetic breast implant - Encounter for cosmetic procedure  **Excludes1:** - encounter for plastic and reconstructive surgery following medical procedure or healed injury (Z42.-) - encounter for post-mastectomy breast implantation (Z42.1)
+[Z412] Encounter for routine and ritual male circumcision
+[Z413] Encounter for ear piercing
+[Z418] Encounter for other procedures for purposes other than remedying health state
+[Z419] Encounter for procedure for purposes other than remedying health state, unspecified
+[Z42] Encounter for plastic and reconstructive surgery following medical procedure or healed injury -- **Excludes1:** - encounter for cosmetic plastic surgery (Z41.1) - encounter for plastic surgery for treatment of current injury - code to relevent injury
+[Z421] Encounter for breast reconstruction following mastectomy -- **Excludes1:** - deformity and disproportion of reconstructed breast (N65.1-)
+[Z428] Encounter for other plastic and reconstructive surgery following medical procedure or healed injury
+[Z43] Encounter for attention to artificial openings -- **Includes:** - closure of artificial openings - passage of sounds or bougies through artificial openings - reforming artificial openings - removal of catheter from artificial openings - toilet or cleansing of artificial openings  **Excludes1:** - complications of external stoma (J95.0-, K94.-, N99.5-)  **Excludes2:** - fitting and adjustment of prosthetic and other devices (Z44-Z46)
+[Z430] Encounter for attention to tracheostomy
+[Z431] Encounter for attention to gastrostomy -- **Excludes2:** - artificial opening status only, without need for care (Z93.-)
+[Z432] Encounter for attention to ileostomy
+[Z433] Encounter for attention to colostomy
+[Z434] Encounter for attention to other artificial openings of digestive tract
+[Z435] Encounter for attention to cystostomy
+[Z436] Encounter for attention to other artificial openings of urinary tract -- **Inclusion terms:** - Encounter for attention to nephrostomy - Encounter for attention to ureterostomy - Encounter for attention to urethrostomy
+[Z437] Encounter for attention to artificial vagina
+[Z438] Encounter for attention to other artificial openings
+[Z439] Encounter for attention to unspecified artificial opening
+[Z44] Encounter for fitting and adjustment of external prosthetic device -- **Includes:** - removal or replacement of external prosthetic device  **Excludes1:** - malfunction or other complications of device - see Alphabetical Index - presence of prosthetic device (Z97.-)
+[Z440] Encounter for fitting and adjustment of artificial arm
+[Z4400] Encounter for fitting and adjustment of unspecified artificial arm
+[Z44001] Encounter for fitting and adjustment of unspecified right artificial arm
+[Z44002] Encounter for fitting and adjustment of unspecified left artificial arm
+[Z44009] Encounter for fitting and adjustment of unspecified artificial arm, unspecified arm
+[Z4401] Encounter for fitting and adjustment of complete artificial arm
+[Z44011] Encounter for fitting and adjustment of complete right artificial arm
+[Z44012] Encounter for fitting and adjustment of complete left artificial arm
+[Z44019] Encounter for fitting and adjustment of complete artificial arm, unspecified arm
+[Z4402] Encounter for fitting and adjustment of partial artificial arm
+[Z44021] Encounter for fitting and adjustment of partial artificial right arm
+[Z44022] Encounter for fitting and adjustment of partial artificial left arm
+[Z44029] Encounter for fitting and adjustment of partial artificial arm, unspecified arm
+[Z441] Encounter for fitting and adjustment of artificial leg
+[Z4410] Encounter for fitting and adjustment of unspecified artificial leg
+[Z44101] Encounter for fitting and adjustment of unspecified right artificial leg
+[Z44102] Encounter for fitting and adjustment of unspecified left artificial leg
+[Z44109] Encounter for fitting and adjustment of unspecified artificial leg, unspecified leg
+[Z4411] Encounter for fitting and adjustment of complete artificial leg
+[Z44111] Encounter for fitting and adjustment of complete right artificial leg
+[Z44112] Encounter for fitting and adjustment of complete left artificial leg
+[Z44119] Encounter for fitting and adjustment of complete artificial leg, unspecified leg
+[Z4412] Encounter for fitting and adjustment of partial artificial leg
+[Z44121] Encounter for fitting and adjustment of partial artificial right leg
+[Z44122] Encounter for fitting and adjustment of partial artificial left leg
+[Z44129] Encounter for fitting and adjustment of partial artificial leg, unspecified leg
+[Z442] Encounter for fitting and adjustment of artificial eye -- **Excludes1:** - mechanical complication of ocular prosthesis (T85.3)
+[Z4420] Encounter for fitting and adjustment of artificial eye, unspecified
+[Z4421] Encounter for fitting and adjustment of artificial right eye
+[Z4422] Encounter for fitting and adjustment of artificial left eye
+[Z443] Encounter for fitting and adjustment of external breast prosthesis -- **Excludes1:** - complications of breast implant (T85.4-) - encounter for adjustment or removal of breast implant (Z45.81-) - encounter for initial breast implant insertion for cosmetic breast augmentation (Z41.1) - encounter for breast reconstruction following mastectomy (Z42.1)
+[Z4430] Encounter for fitting and adjustment of external breast prosthesis, unspecified breast
+[Z4431] Encounter for fitting and adjustment of external right breast prosthesis
+[Z4432] Encounter for fitting and adjustment of external left breast prosthesis
+[Z448] Encounter for fitting and adjustment of other external prosthetic devices
+[Z449] Encounter for fitting and adjustment of unspecified external prosthetic device
+[Z45] Encounter for adjustment and management of implanted device -- **Includes:** - removal or replacement of implanted device  **Excludes1:** - malfunction or other complications of device - see Alphabetical Index  **Excludes2:** - encounter for fitting and adjustment of non-implanted device (Z46.-)
+[Z450] Encounter for adjustment and management of cardiac device
+[Z4501] Encounter for adjustment and management of cardiac pacemaker -- **Inclusion terms:** - Encounter for adjustment and management of cardiac resynchronization therapy pacemaker (CRT-P)  **Excludes1:** - encounter for adjustment and management of automatic implantable cardiac defibrillator with synchronous cardiac pacemaker (Z45.02)
+[Z45010] Encounter for checking and testing of cardiac pacemaker pulse generator [battery] -- **Inclusion terms:** - Encounter for replacing cardiac pacemaker pulse generator [battery]
+[Z45018] Encounter for adjustment and management of other part of cardiac pacemaker -- **Excludes1:** - presence of other part of cardiac pacemaker (Z95.0)  **Excludes2:** - presence of prosthetic and other devices (Z95.1-Z95.5, Z95.811-Z97)
+[Z4502] Encounter for adjustment and management of automatic implantable cardiac defibrillator -- **Inclusion terms:** - Encounter for adjustment and management of automatic implantable cardiac defibrillator with synchronous cardiac pacemaker - Encounter for adjustment and management of cardiac resynchronization therapy defibrillator (CRT-D)
+[Z4509] Encounter for adjustment and management of other cardiac device
+[Z451] Encounter for adjustment and management of infusion pump
+[Z452] Encounter for adjustment and management of vascular access device -- **Inclusion terms:** - Encounter for adjustment and management of vascular catheters  **Excludes1:** - encounter for adjustment and management of renal dialysis catheter (Z49.01)
+[Z453] Encounter for adjustment and management of implanted devices of the special senses
+[Z4531] Encounter for adjustment and management of implanted visual substitution device
+[Z4532] Encounter for adjustment and management of implanted hearing device -- **Excludes1:** - Encounter for fitting and adjustment of hearing aid (Z46.1)
+[Z45320] Encounter for adjustment and management of bone conduction device
+[Z45321] Encounter for adjustment and management of cochlear device
+[Z45328] Encounter for adjustment and management of other implanted hearing device
+[Z454] Encounter for adjustment and management of implanted nervous system device
+[Z4541] Encounter for adjustment and management of cerebrospinal fluid drainage device -- **Inclusion terms:** - Encounter for adjustment and management of cerebral ventricular (communicating) shunt
+[Z4542] Encounter for adjustment and management of neurostimulator -- **Inclusion terms:** - Encounter for adjustment and management of brain neurostimulator - Encounter for adjustment and management of gastric neurostimulator - Encounter for adjustment and management of peripheral nerve neurostimulator - Encounter for adjustment and management of sacral nerve neurostimulator - Encounter for adjustment and management of spinal cord neurostimulator - Encounter for adjustment and management of vagus nerve neurostimulator
+[Z4549] Encounter for adjustment and management of other implanted nervous system device
+[Z458] Encounter for adjustment and management of other implanted devices
+[Z4581] Encounter for adjustment or removal of breast implant -- **Inclusion terms:** - Encounter for elective implant exchange (different material) (different size) - Encounter for removal of tissue expander with or without synchronous insertion of permanent implant  **Excludes1:** - complications of breast implant (T85.4-) - encounter for initial breast implant insertion for cosmetic breast augmentation (Z41.1) - encounter for breast reconstruction following mastectomy (Z42.1)
+[Z45811] Encounter for adjustment or removal of right breast implant
+[Z45812] Encounter for adjustment or removal of left breast implant
+[Z45819] Encounter for adjustment or removal of unspecified breast implant
+[Z4582] Encounter for adjustment or removal of myringotomy device (stent) (tube)
+[Z4589] Encounter for adjustment and management of other implanted devices
+[Z459] Encounter for adjustment and management of unspecified implanted device
+[Z46] Encounter for fitting and adjustment of other devices -- **Includes:** - removal or replacement of other device  **Excludes1:** - malfunction or other complications of device - see Alphabetical Index  **Excludes2:** - encounter for fitting and management of implanted devices (Z45.-) - issue of repeat prescription only (Z76.0) - presence of prosthetic and other devices (Z95-Z97)
+[Z460] Encounter for fitting and adjustment of spectacles and contact lenses
+[Z461] Encounter for fitting and adjustment of hearing aid -- **Excludes1:** - encounter for adjustment and management of implanted hearing device (Z45.32-)
+[Z462] Encounter for fitting and adjustment of other devices related to nervous system and special senses -- **Excludes2:** - encounter for adjustment and management of implanted nervous system device (Z45.4-) - encounter for adjustment and management of implanted visual substitution device (Z45.31)
+[Z463] Encounter for fitting and adjustment of dental prosthetic device -- **Inclusion terms:** - Encounter for fitting and adjustment of dentures
+[Z464] Encounter for fitting and adjustment of orthodontic device
+[Z465] Encounter for fitting and adjustment of other gastrointestinal appliance and device -- **Excludes1:** - encounter for attention to artificial openings of digestive tract (Z43.1-Z43.4)
+[Z4651] Encounter for fitting and adjustment of gastric lap band
+[Z4659] Encounter for fitting and adjustment of other gastrointestinal appliance and device
+[Z466] Encounter for fitting and adjustment of urinary device -- **Excludes2:** - attention to artificial openings of urinary tract (Z43.5, Z43.6)
+[Z468] Encounter for fitting and adjustment of other specified devices
+[Z4681] Encounter for fitting and adjustment of insulin pump -- **Inclusion terms:** - Encounter for insulin pump instruction and training - Encounter for insulin pump titration
+[Z4682] Encounter for fitting and adjustment of non-vascular catheter
+[Z4689] Encounter for fitting and adjustment of other specified devices -- **Inclusion terms:** - Encounter for fitting and adjustment of wheelchair
+[Z469] Encounter for fitting and adjustment of unspecified device
+[Z47] Orthopedic aftercare -- **Excludes1:** - aftercare for healing fracture-code to fracture with 7th character D
+[Z471] Aftercare following joint replacement surgery -- **Use additional code:** - code to identify the joint (Z96.6-)
+[Z472] Encounter for removal of internal fixation device -- **Excludes1:** - encounter for adjustment of internal fixation device for fracture treatment- code to fracture with appropriate 7th character - encounter for removal of external fixation device- code to fracture with 7th character D - infection or inflammatory reaction to internal fixation device (T84.6-) - mechanical complication of internal fixation device (T84.1-)
+[Z473] Aftercare following explantation of joint prosthesis -- **Inclusion terms:** - Aftercare following explantation of joint prosthesis, staged procedure - Encounter for joint prosthesis insertion following prior explantation of joint prosthesis
+[Z4731] Aftercare following explantation of shoulder joint prosthesis -- **Excludes1:** - acquired absence of shoulder joint following prior explantation of shoulder joint prosthesis (Z89.23-) - shoulder joint prosthesis explantation status (Z89.23-)
+[Z4732] Aftercare following explantation of hip joint prosthesis -- **Excludes1:** - acquired absence of hip joint following prior explantation of hip joint prosthesis (Z89.62-) - hip joint prosthesis explantation status (Z89.62-)
+[Z4733] Aftercare following explantation of knee joint prosthesis -- **Excludes1:** - acquired absence of knee joint following prior explantation of knee prosthesis (Z89.52- - knee joint prosthesis explantation status (Z89.52-)
+[Z478] Encounter for other orthopedic aftercare
+[Z4781] Encounter for orthopedic aftercare following surgical amputation -- **Use additional code:** - code to identify the limb amputated (Z89.-)
+[Z4782] Encounter for orthopedic aftercare following scoliosis surgery
+[Z4789] Encounter for other orthopedic aftercare
+[Z48] Encounter for other postprocedural aftercare -- **Excludes1:** - encounter for follow-up examination after completed treatment (Z08-Z09) - encounter for aftercare following injury - code to Injury, by site, with appropriate 7th character for subsequent encounter  **Excludes2:** - encounter for attention to artificial openings (Z43.-) - encounter for fitting and adjustment of prosthetic and other devices (Z44-Z46)
+[Z480] Encounter for attention to dressings, sutures and drains -- **Excludes1:** - encounter for planned postprocedural wound closure (Z48.1)
+[Z4800] Encounter for change or removal of nonsurgical wound dressing -- **Inclusion terms:** - Encounter for change or removal of wound dressing NOS
+[Z4801] Encounter for change or removal of surgical wound dressing
+[Z4802] Encounter for removal of sutures -- **Inclusion terms:** - Encounter for removal of staples
+[Z4803] Encounter for change or removal of drains
+[Z481] Encounter for planned postprocedural wound closure -- **Excludes1:** - encounter for attention to dressings and sutures (Z48.0-)
+[Z482] Encounter for aftercare following organ transplant
+[Z4821] Encounter for aftercare following heart transplant
+[Z4822] Encounter for aftercare following kidney transplant
+[Z4823] Encounter for aftercare following liver transplant
+[Z4824] Encounter for aftercare following lung transplant
+[Z4828] Encounter for aftercare following multiple organ transplant
+[Z48280] Encounter for aftercare following heart-lung transplant
+[Z48288] Encounter for aftercare following multiple organ transplant
+[Z4829] Encounter for aftercare following other organ transplant
+[Z48290] Encounter for aftercare following bone marrow transplant
+[Z48298] Encounter for aftercare following other organ transplant
+[Z483] Aftercare following surgery for neoplasm -- **Use additional code:** - code to identify the neoplasm
+[Z488] Encounter for other specified postprocedural aftercare
+[Z4881] Encounter for surgical aftercare following surgery on specified body systems -- **Inclusion terms:** - These codes identify the body system requiring aftercare. They are for use in conjunction with other aftercare codes to fully explain the aftercare encounter. The condition treated should also be coded if still present.  **Excludes1:** - aftercare for injury- code the injury with 7th character D - aftercare following surgery for neoplasm (Z48.3)  **Excludes2:** - aftercare following organ transplant (Z48.2-) - orthopedic aftercare (Z47.-)
+[Z48810] Encounter for surgical aftercare following surgery on the sense organs
+[Z48811] Encounter for surgical aftercare following surgery on the nervous system -- **Excludes2:** - encounter for surgical aftercare following surgery on the sense organs (Z48.810)
+[Z48812] Encounter for surgical aftercare following surgery on the circulatory system
+[Z48813] Encounter for surgical aftercare following surgery on the respiratory system
+[Z48814] Encounter for surgical aftercare following surgery on the teeth or oral cavity
+[Z48815] Encounter for surgical aftercare following surgery on the digestive system
+[Z48816] Encounter for surgical aftercare following surgery on the genitourinary system -- **Excludes1:** - encounter for aftercare following sterilization reversal (Z31.42)
+[Z48817] Encounter for surgical aftercare following surgery on the skin and subcutaneous tissue
+[Z4889] Encounter for other specified surgical aftercare
+[Z49] Encounter for care involving renal dialysis -- **Code also:** - associated end stage renal disease (N18.6)
+[Z490] Preparatory care for renal dialysis -- **Inclusion terms:** - Encounter for dialysis instruction and training
+[Z4901] Encounter for fitting and adjustment of extracorporeal dialysis catheter -- **Inclusion terms:** - Removal or replacement of renal dialysis catheter - Toilet or cleansing of renal dialysis catheter
+[Z4902] Encounter for fitting and adjustment of peritoneal dialysis catheter
+[Z493] Encounter for adequacy testing for dialysis
+[Z4931] Encounter for adequacy testing for hemodialysis
+[Z4932] Encounter for adequacy testing for peritoneal dialysis -- **Inclusion terms:** - Encounter for peritoneal equilibration test
+[Z51] Encounter for other aftercare and medical care -- **Excludes1:** - follow-up examination after treatment (Z08-Z09)  **Code also:** - condition requiring care
+[Z510] Encounter for antineoplastic radiation therapy
+[Z511] Encounter for antineoplastic chemotherapy and immunotherapy -- **Excludes2:** - encounter for chemotherapy and immunotherapy for nonneoplastic condition - code to condition
+[Z5111] Encounter for antineoplastic chemotherapy
+[Z5112] Encounter for antineoplastic immunotherapy
+[Z515] Encounter for palliative care
+[Z516] Encounter for desensitization to allergens
+[Z518] Encounter for other specified aftercare -- **Excludes1:** - holiday relief care (Z75.5)
+[Z5181] Encounter for therapeutic drug level monitoring -- **Excludes1:** - encounter for blood-drug test for administrative or medicolegal reasons (Z02.83)  **Code also:** - any long-term (current) drug therapy (Z79.-)
+[Z5189] Encounter for other specified aftercare
+[Z51A] Encounter for sepsis aftercare
+[Z52] Donors of organs and tissues -- **Includes:** - autologous and other living donors  **Excludes1:** - cadaveric donor - omit code - examination of potential donor (Z00.5)
+[Z520] Blood donor
+[Z5200] Unspecified blood donor
+[Z52000] Unspecified donor, whole blood
+[Z52001] Unspecified donor, stem cells
+[Z52008] Unspecified donor, other blood
+[Z5201] Autologous blood donor
+[Z52010] Autologous donor, whole blood
+[Z52011] Autologous donor, stem cells
+[Z52018] Autologous donor, other blood
+[Z5209] Other blood donor -- **Inclusion terms:** - Volunteer donor
+[Z52090] Other blood donor, whole blood
+[Z52091] Other blood donor, stem cells
+[Z52098] Other blood donor, other blood
+[Z521] Skin donor
+[Z5210] Skin donor, unspecified
+[Z5211] Skin donor, autologous
+[Z5219] Skin donor, other
+[Z522] Bone donor
+[Z5220] Bone donor, unspecified
+[Z5221] Bone donor, autologous
+[Z5229] Bone donor, other
+[Z523] Bone marrow donor
+[Z524] Kidney donor
+[Z525] Cornea donor
+[Z526] Liver donor
+[Z528] Donor of other specified organs or tissues
+[Z5281] Egg (Oocyte) donor
+[Z52810] Egg (Oocyte) donor under age 35, anonymous recipient -- **Inclusion terms:** - Egg donor under age 35 NOS
+[Z52811] Egg (Oocyte) donor under age 35, designated recipient
+[Z52812] Egg (Oocyte) donor age 35 and over, anonymous recipient -- **Inclusion terms:** - Egg donor age 35 and over NOS
+[Z52813] Egg (Oocyte) donor age 35 and over, designated recipient
+[Z52819] Egg (Oocyte) donor, unspecified
+[Z5289] Donor of other specified organs or tissues
+[Z529] Donor of unspecified organ or tissue -- **Inclusion terms:** - Donor NOS
+[Z53] Persons encountering health services for specific procedures and treatment, not carried out
+[Z530] Procedure and treatment not carried out because of contraindication
+[Z5301] Procedure and treatment not carried out due to patient smoking
+[Z5309] Procedure and treatment not carried out because of other contraindication
+[Z531] Procedure and treatment not carried out because of patient's decision for reasons of belief and group pressure
+[Z532] Procedure and treatment not carried out because of patient's decision for other and unspecified reasons
+[Z5320] Procedure and treatment not carried out because of patient's decision for unspecified reasons
+[Z5321] Procedure and treatment not carried out due to patient leaving prior to being seen by health care provider
+[Z5329] Procedure and treatment not carried out because of patient's decision for other reasons
+[Z533] Procedure converted to open procedure
+[Z5331] Laparoscopic surgical procedure converted to open procedure
+[Z5332] Thoracoscopic surgical procedure converted to open procedure
+[Z5333] Arthroscopic surgical procedure converted to open procedure
+[Z5339] Other specified procedure converted to open procedure
+[Z538] Procedure and treatment not carried out for other reasons
+[Z539] Procedure and treatment not carried out, unspecified reason
+[Z55] Problems related to education and literacy -- **Excludes1:** - disorders of psychological development (F80-F89)
+[Z550] Illiteracy and low-level literacy
+[Z551] Schooling unavailable and unattainable
+[Z552] Failed school examinations
+[Z553] Underachievement in school
+[Z554] Educational maladjustment and discord with teachers and classmates
+[Z555] Less than a high school diploma -- **Inclusion terms:** - No general equivalence degree (GED)
+[Z556] Problems related to health literacy -- **Inclusion terms:** - Difficulty understanding health related information - Difficulty understanding medication instructions - Problem completing medical forms
+[Z558] Other problems related to education and literacy -- **Inclusion terms:** - Problems related to inadequate teaching
+[Z559] Problems related to education and literacy, unspecified -- **Inclusion terms:** - Academic problems NOS
+[Z56] Problems related to employment and unemployment -- **Excludes2:** - occupational exposure to risk factors (Z57.-) - problems related to housing and economic circumstances (Z59.-)
+[Z560] Unemployment, unspecified
+[Z561] Change of job
+[Z562] Threat of job loss
+[Z563] Stressful work schedule
+[Z564] Discord with boss and workmates
+[Z565] Uncongenial work environment -- **Inclusion terms:** - Difficult conditions at work
+[Z566] Other physical and mental strain related to work
+[Z568] Other problems related to employment
+[Z5681] Sexual harassment on the job
+[Z5682] Military deployment status -- **Inclusion terms:** - Individual (civilian or military) currently deployed in theater or in support of military war, peacekeeping and humanitarian operations
+[Z5689] Other problems related to employment
+[Z569] Unspecified problems related to employment -- **Inclusion terms:** - Occupational problems NOS
+[Z57] Occupational exposure to risk factors
+[Z570] Occupational exposure to noise
+[Z571] Occupational exposure to radiation
+[Z572] Occupational exposure to dust
+[Z573] Occupational exposure to other air contaminants
+[Z5731] Occupational exposure to environmental tobacco smoke -- **Excludes2:** - exposure to environmental tobacco smoke (Z77.22)
+[Z5739] Occupational exposure to other air contaminants
+[Z574] Occupational exposure to toxic agents in agriculture -- **Inclusion terms:** - Occupational exposure to solids, liquids, gases or vapors in agriculture
+[Z575] Occupational exposure to toxic agents in other industries -- **Inclusion terms:** - Occupational exposure to solids, liquids, gases or vapors in other industries
+[Z576] Occupational exposure to extreme temperature
+[Z577] Occupational exposure to vibration
+[Z578] Occupational exposure to other risk factors
+[Z579] Occupational exposure to unspecified risk factor
+[Z58] Problems related to physical environment -- **Excludes2:** - occupational exposure (Z57.-)
+[Z586] Inadequate drinking-water supply -- **Inclusion terms:** - Lack of safe drinking water  **Excludes2:** - deprivation of water (T73.1)
+[Z588] Other problems related to physical environment
+[Z5881] Basic services unavailable in physical environment -- **Inclusion terms:** - Unable to obtain internet service, due to unavailability in geographic area - Unable to obtain telephone service, due to unavailability in geographic area - Unable to obtain utilities, due to inadequate physical environment
+[Z5889] Other problems related to physical environment
+[Z59] Problems related to housing and economic circumstances -- **Excludes2:** - problems related to upbringing (Z62.-)
+[Z590] Homelessness
+[Z5900] Homelessness unspecified
+[Z5901] Sheltered homelessness -- **Inclusion terms:** - Doubled up - Living in a shelter such as: motel, scattered site housing, temporary or transitional living situation
+[Z5902] Unsheltered homelessness -- **Inclusion terms:** - Residing in place not meant for human habitation such as: abandoned buildings, cars, parks, sidewalk - Residing on the street
+[Z591] Inadequate housing -- **Excludes2:** - problems related to the natural and physical environment (Z77.1-)
+[Z5910] Inadequate housing, unspecified -- **Inclusion terms:** - Inadequate housing NOS
+[Z5911] Inadequate housing environmental temperature -- **Inclusion terms:** - Lack of air conditioning - Lack of heating
+[Z5912] Inadequate housing utilities -- **Inclusion terms:** - Lack of electricity services - Lack of gas services - Lack of oil services - Lack of water services  **Excludes2:** - basic services unavailable in physical environment (Z58.81) - lack of adequate food (Z59.4-) - other problems related to housing and economic circumstances (Z59.8-)
+[Z5919] Other inadequate housing -- **Inclusion terms:** - Pest infestation - Restriction of space - Technical defects in home preventing adequate care - Unsatisfactory surroundings
+[Z592] Discord with neighbors, lodgers and landlord
+[Z593] Problems related to living in residential institution -- **Inclusion terms:** - Boarding-school resident  **Excludes1:** - institutional upbringing (Z62.22)
+[Z594] Lack of adequate food -- **Excludes2:** - deprivation of food (T73.0) - effects of hunger (T73.0) - inappropriate diet or eating habits (Z72.4) - malnutrition (E40-E46)
+[Z5941] Food insecurity
+[Z5948] Other specified lack of adequate food -- **Inclusion terms:** - Inadequate food - Lack of food
+[Z595] Extreme poverty
+[Z596] Low income
+[Z597] Insufficient social insurance and welfare support -- **Inclusion terms:** - Insufficient social and welfare insurance
+[Z5971] Insufficient health insurance coverage -- **Inclusion terms:** - Inadequate social insurance - Insufficient social insurance - No health insurance coverage
+[Z5972] Insufficient welfare support -- **Inclusion terms:** - Inadequate welfare support
+[Z598] Other problems related to housing and economic circumstances
+[Z5981] Housing instability, housed -- **Inclusion terms:** - Foreclosure on home loan - Past due on rent or mortgage - Unwanted multiple moves in the last 12 months
+[Z59811] Housing instability, housed, with risk of homelessness -- **Inclusion terms:** - Imminent risk of homelessness
+[Z59812] Housing instability, housed, homelessness in past 12 months
+[Z59819] Housing instability, housed unspecified -- **Excludes2:** - extreme poverty (Z59.5) - financial insecurity (Z59.86) - low income (Z59.6) - material hardship due to limited financial resources, not elsewhere classified (Z59.87)
+[Z5982] Transportation insecurity -- **Inclusion terms:** - Excessive transportation time - Inaccessible transportation - Inadequate transportation - Lack of transportation - Unaffordable transportation - Unreliable transportation - Unsafe transportation  **Excludes2:** - unavailability and inaccessibility of healthcare facilities (Z75.3)
+[Z5986] Financial insecurity -- **Inclusion terms:** - Bankruptcy - Burdensome debt - Economic strain - Financial strain - Money problems - Running out of money - Unable to make ends meet  **Excludes2:** - extreme poverty (Z59.5) - low income (Z59.6) - material hardship, not elsewhere classified (Z59.87)
+[Z5987] Material hardship due to limited financial resources, not elsewhere classified -- **Inclusion terms:** - Material deprivation due to limited financial resources - Unable to obtain adequate childcare due to limited financial resources - Unable to obtain adequate clothing due to limited financial resources - Unable to obtain adequate utilities due to limited financial resources - Unable to obtain basic needs due to limited financial resources  **Excludes2:** - extreme poverty (Z59.5) - financial insecurity, not elsewhere classified (Z59.86) - low income (Z59.6)
+[Z5989] Other problems related to housing and economic circumstances -- **Inclusion terms:** - Foreclosure on loan - Isolated dwelling - Problems with creditors
+[Z599] Problem related to housing and economic circumstances, unspecified
+[Z60] Problems related to social environment
+[Z600] Problems of adjustment to life-cycle transitions -- **Inclusion terms:** - Empty nest syndrome - Phase of life problem - Problem with adjustment to retirement [pension]
+[Z602] Problems related to living alone
+[Z603] Acculturation difficulty -- **Inclusion terms:** - Problem with migration - Problem with social transplantation
+[Z604] Social exclusion and rejection -- **Inclusion terms:** - Exclusion and rejection on the basis of personal characteristics, such as unusual physical appearance, illness or behavior. - Social isolation  **Excludes1:** - target of adverse discrimination such as for racial or religious reasons (Z60.5)
+[Z605] Target of (perceived) adverse discrimination and persecution -- **Excludes1:** - social exclusion and rejection (Z60.4)
+[Z608] Other problems related to social environment -- **Inclusion terms:** - Inadequate social support - Lack of emotional support
+[Z609] Problem related to social environment, unspecified
+[Z62] Problems related to upbringing -- **Includes:** - current and past negative life events in childhood - current and past problems of a child related to upbringing  **Excludes2:** - maltreatment syndrome (T74.-) - problems related to housing and economic circumstances (Z59.-)
+[Z620] Inadequate parental supervision and control
+[Z621] Parental overprotection
+[Z622] Upbringing away from parents -- **Excludes1:** - problems with boarding school (Z59.3)
+[Z6221] Child in welfare custody -- **Inclusion terms:** - Child in foster care - Child in welfare guardianship
+[Z6222] Institutional upbringing -- **Inclusion terms:** - Child living in group home - Child living in orphanage  **Code also:** - , if applicable, child in welfare custody (Z62.21)
+[Z6223] Child in custody of non-parental relative -- **Inclusion terms:** - Child in care of non-parental family member - Child in custody of grandparent - Child in kinship care - Guardianship by non-parental relative  **Code also:** - , if applicable, child in welfare custody (Z62.21)
+[Z6224] Child in custody of non-relative guardian -- **Code also:** - , if applicable, child in welfare custody (Z62.21)
+[Z6229] Other upbringing away from parents
+[Z623] Hostility towards and scapegoating of child
+[Z626] Inappropriate (excessive) parental pressure
+[Z628] Other specified problems related to upbringing -- **Code also:** - , if applicable: - absence of family member (Z63.3-) - disappearance and death of family member (Z63.4) - disruption of family by separation and divorce (Z63.5) - other specified problems related to primary support group (Z63.8) - other stressful life events affecting family and household (Z63.7-)
+[Z6281] Personal history of abuse in childhood -- **Inclusion terms:** - Personal history of abuse in adolescence
+[Z62810] Personal history of physical and sexual abuse in childhood -- **Excludes1:** - current child physical abuse (T74.12, T76.12) - current child sexual abuse (T74.22, T76.22)
+[Z62811] Personal history of psychological abuse in childhood -- **Excludes1:** - current child psychological abuse (T74.32, T76.32)
+[Z62812] Personal history of neglect in childhood -- **Excludes1:** - current child neglect (T74.02, T76.02)
+[Z62813] Personal history of forced labor or sexual exploitation in childhood
+[Z62814] Personal history of child financial abuse -- **Excludes1:** - current child financial abuse (T74.A2)
+[Z62815] Personal history of intimate partner abuse in childhood -- **Excludes2:** - adult and child abuse, neglect and other maltreatment, confirmed (T74.-)
+[Z62819] Personal history of unspecified abuse in childhood -- **Excludes1:** - current child abuse NOS (T74.92, T76.92)
+[Z6282] Parent-child conflict
+[Z62820] Parent-biological child conflict -- **Inclusion terms:** - Parent-child problem NOS
+[Z62821] Parent-adopted child conflict
+[Z62822] Parent-foster child conflict
+[Z62823] Parent-step child conflict
+[Z6283] Non-parental relative or guardian-child conflict
+[Z62831] Non-parental relative-child conflict -- **Inclusion terms:** - Grandparent-child conflict - Kinship-care child conflict - Non-parental relative legal guardian-child conflict - Other relative-child conflict  **Excludes1:** - group home staff-child conflict (Z62.833)
+[Z62832] Non-relative guardian-child conflict -- **Excludes1:** - group home staff-child conflict (Z62.833)
+[Z62833] Group home staff-child conflict
+[Z6289] Other specified problems related to upbringing
+[Z62890] Parent-child estrangement NEC
+[Z62891] Sibling rivalry
+[Z62892] Runaway [from current living environment] -- **Inclusion terms:** - Child leaving living situation without permission
+[Z62898] Other specified problems related to upbringing
+[Z629] Problem related to upbringing, unspecified
+[Z63] Other problems related to primary support group, including family circumstances -- **Excludes2:** - maltreatment syndrome (T74.-, T76) - parent-child problems (Z62.-) - problems related to negative life events in childhood (Z62.-) - problems related to upbringing (Z62.-)
+[Z630] Problems in relationship with spouse or partner -- **Inclusion terms:** - Relationship distress with spouse or intimate partner  **Excludes1:** - counseling for spousal or partner abuse problems (Z69.1) - counseling related to sexual attitude, behavior, and orientation (Z70.-)
+[Z631] Problems in relationship with in-laws
+[Z633] Absence of family member -- **Excludes1:** - absence of family member due to disappearance and death (Z63.4) - absence of family member due to separation and divorce (Z63.5)
+[Z6331] Absence of family member due to military deployment -- **Inclusion terms:** - Individual or family affected by other family member being on military deployment  **Excludes1:** - family disruption due to return of family member from military deployment (Z63.71)
+[Z6332] Other absence of family member
+[Z634] Disappearance and death of family member -- **Inclusion terms:** - Assumed death of family member - Bereavement
+[Z635] Disruption of family by separation and divorce -- **Inclusion terms:** - Marital estrangement
+[Z636] Dependent relative needing care at home
+[Z637] Other stressful life events affecting family and household
+[Z6371] Stress on family due to return of family member from military deployment -- **Inclusion terms:** - Individual or family affected by family member having returned from military deployment (current or past conflict)
+[Z6372] Alcoholism and drug addiction in family
+[Z6379] Other stressful life events affecting family and household -- **Inclusion terms:** - Anxiety (normal) about sick person in family - Health problems within family - Ill or disturbed family member - Isolated family
+[Z638] Other specified problems related to primary support group -- **Inclusion terms:** - Family discord NOS - Family estrangement NOS - High expressed emotional level within family - Inadequate family support NOS - Inadequate or distorted communication within family
+[Z639] Problem related to primary support group, unspecified -- **Inclusion terms:** - Relationship disorder NOS
+[Z64] Problems related to certain psychosocial circumstances
+[Z640] Problems related to unwanted pregnancy
+[Z641] Problems related to multiparity
+[Z644] Discord with counselors -- **Inclusion terms:** - Discord with probation officer - Discord with social worker
+[Z65] Problems related to other psychosocial circumstances
+[Z650] Conviction in civil and criminal proceedings without imprisonment
+[Z651] Imprisonment and other incarceration
+[Z652] Problems related to release from prison
+[Z653] Problems related to other legal circumstances -- **Inclusion terms:** - Arrest - Child custody or support proceedings - Litigation - Prosecution
+[Z654] Victim of crime and terrorism -- **Inclusion terms:** - Victim of torture
+[Z655] Exposure to disaster, war and other hostilities -- **Excludes1:** - target of perceived discrimination or persecution (Z60.5)
+[Z658] Other specified problems related to psychosocial circumstances -- **Inclusion terms:** - At risk for feeling loneliness - Religious or spiritual problem
+[Z659] Problem related to unspecified psychosocial circumstances
+[Z66] Do not resuscitate -- **Inclusion terms:** - DNR status
+[Z67] Blood type
+[Z671] Type A blood
+[Z6710] Type A blood, Rh positive
+[Z6711] Type A blood, Rh negative
+[Z672] Type B blood
+[Z6720] Type B blood, Rh positive
+[Z6721] Type B blood, Rh negative
+[Z673] Type AB blood
+[Z6730] Type AB blood, Rh positive
+[Z6731] Type AB blood, Rh negative
+[Z674] Type O blood
+[Z6740] Type O blood, Rh positive
+[Z6741] Type O blood, Rh negative
+[Z679] Unspecified blood type
+[Z6790] Unspecified blood type, Rh positive
+[Z6791] Unspecified blood type, Rh negative
+[Z67A] Duffy phenotype
+[Z67A1] Duffy null -- **Inclusion terms:** - Duffy phenotype Fy(a-b-)
+[Z67A2] Duffy a positive -- **Inclusion terms:** - Duffy phenotype Fy(a+b-)
+[Z67A3] Duffy b positive -- **Inclusion terms:** - Duffy phenotype Fy(a-b+)
+[Z67A4] Duffy a and b positive -- **Inclusion terms:** - Duffy phenotype Fy(a+b+)
+[Z68] Body mass index [BMI] -- **Inclusion terms:** - Kilograms per meters squared  **Notes:** - BMI adult codes are for use for persons 20 years of age or older - BMI pediatric codes are for use for persons 2-19 years of age. - These percentiles are based on the growth charts published by the Centers for Disease Control and Prevention (CDC)
+[Z681] Body mass index [BMI] 19.9 or less, adult
+[Z682] Body mass index [BMI] 20-29, adult
+[Z6820] Body mass index [BMI] 20.0-20.9, adult
+[Z6821] Body mass index [BMI] 21.0-21.9, adult
+[Z6822] Body mass index [BMI] 22.0-22.9, adult
+[Z6823] Body mass index [BMI] 23.0-23.9, adult
+[Z6824] Body mass index [BMI] 24.0-24.9, adult
+[Z6825] Body mass index [BMI] 25.0-25.9, adult
+[Z6826] Body mass index [BMI] 26.0-26.9, adult
+[Z6827] Body mass index [BMI] 27.0-27.9, adult
+[Z6828] Body mass index [BMI] 28.0-28.9, adult
+[Z6829] Body mass index [BMI] 29.0-29.9, adult
+[Z683] Body mass index [BMI] 30-39, adult
+[Z6830] Body mass index [BMI] 30.0-30.9, adult
+[Z6831] Body mass index [BMI] 31.0-31.9, adult
+[Z6832] Body mass index [BMI] 32.0-32.9, adult
+[Z6833] Body mass index [BMI] 33.0-33.9, adult
+[Z6834] Body mass index [BMI] 34.0-34.9, adult
+[Z6835] Body mass index [BMI] 35.0-35.9, adult
+[Z6836] Body mass index [BMI] 36.0-36.9, adult
+[Z6837] Body mass index [BMI] 37.0-37.9, adult
+[Z6838] Body mass index [BMI] 38.0-38.9, adult
+[Z6839] Body mass index [BMI] 39.0-39.9, adult
+[Z684] Body mass index [BMI] 40 or greater, adult
+[Z6841] Body mass index [BMI] 40.0-44.9, adult
+[Z6842] Body mass index [BMI] 45.0-49.9, adult
+[Z6843] Body mass index [BMI] 50.0-59.9, adult
+[Z6844] Body mass index [BMI] 60.0-69.9, adult
+[Z6845] Body mass index [BMI] 70 or greater, adult
+[Z685] Body mass index [BMI] pediatric
+[Z6851] Body mass index [BMI] pediatric, less than 5th percentile for age
+[Z6852] Body mass index [BMI] pediatric, 5th percentile to less than 85th percentile for age
+[Z6853] Body mass index [BMI] pediatric, 85th percentile to less than 95th percentile for age
+[Z6854] Body mass index [BMI] pediatric, 95th percentile for age to less than 120% of the 95th percentile for age
+[Z6855] Body mass index [BMI] pediatric, 120% of the 95th percentile for age to less than 140% of the 95th percentile for age
+[Z6856] Body mass index [BMI] pediatric, greater than or equal to 140% of the 95th percentile for age
+[Z69] Encounter for mental health services for victim and perpetrator of abuse -- **Includes:** - counseling for victims and perpetrators of abuse
+[Z690] Encounter for mental health services for child abuse problems
+[Z6901] Encounter for mental health services for parental child abuse
+[Z69010] Encounter for mental health services for victim of parental child abuse -- **Inclusion terms:** - Encounter for mental health services for victim of child abuse by parent - Encounter for mental health services for victim of child neglect by parent - Encounter for mental health services for victim of child psychological abuse by parent - Encounter for mental health services for victim of child sexual abuse by parent
+[Z69011] Encounter for mental health services for perpetrator of parental child abuse -- **Inclusion terms:** - Encounter for mental health services for perpetrator of parental child neglect - Encounter for mental health services for perpetrator of parental child psychological abuse - Encounter for mental health services for perpetrator of parental child sexual abuse  **Excludes1:** - encounter for mental health services for non-parental child abuse (Z69.02-)
+[Z6902] Encounter for mental health services for non-parental child abuse
+[Z69020] Encounter for mental health services for victim of non-parental child abuse -- **Inclusion terms:** - Encounter for mental health services for victim of non-parental child neglect - Encounter for mental health services for victim of non-parental child psychological abuse - Encounter for mental health services for victim of non-parental child sexual abuse
+[Z69021] Encounter for mental health services for perpetrator of non-parental child abuse -- **Inclusion terms:** - Encounter for mental health services for perpetrator of non-parental child neglect - Encounter for mental health services for perpetrator of non-parental child psychological abuse - Encounter for mental health services for perpetrator of non-parental child sexual abuse
+[Z691] Encounter for mental health services for spousal or partner abuse problems
+[Z6911] Encounter for mental health services for victim of spousal or partner abuse -- **Inclusion terms:** - Encounter for mental health services for victim of spouse or partner neglect - Encounter for mental health services for victim of spouse or partner psychological abuse - Encounter for mental health services for victim of spouse or partner violence, physical
+[Z6912] Encounter for mental health services for perpetrator of spousal or partner abuse -- **Inclusion terms:** - Encounter for mental health services for perpetrator of spouse or partner neglect - Encounter for mental health services for perpetrator of spouse or partner psychological abuse - Encounter for mental health services for perpetrator of spouse or partner violence, physical - Encounter for mental health services for perpetrator of spouse or partner violence, sexual
+[Z698] Encounter for mental health services for victim or perpetrator of other abuse
+[Z6981] Encounter for mental health services for victim of other abuse -- **Inclusion terms:** - Encounter for mental health services for victim of non-spousal adult abuse - Encounter for mental health services for victim of spouse or partner violence, sexual - Encounter for rape victim counseling
+[Z6982] Encounter for mental health services for perpetrator of other abuse -- **Inclusion terms:** - Encounter for mental health services for perpetrator of non-spousal adult abuse
+[Z70] Counseling related to sexual attitude, behavior and orientation -- **Includes:** - encounter for mental health services for sexual attitude, behavior and orientation  **Excludes2:** - contraceptive or procreative counseling (Z30-Z31)
+[Z700] Counseling related to sexual attitude
+[Z701] Counseling related to patient's sexual behavior and orientation -- **Inclusion terms:** - Patient concerned regarding impotence - Patient concerned regarding non-responsiveness - Patient concerned regarding promiscuity - Patient concerned regarding sexual orientation
+[Z702] Counseling related to sexual behavior and orientation of third party -- **Inclusion terms:** - Advice sought regarding sexual behavior and orientation of child - Advice sought regarding sexual behavior and orientation of partner - Advice sought regarding sexual behavior and orientation of spouse
+[Z703] Counseling related to combined concerns regarding sexual attitude, behavior and orientation
+[Z708] Other sex counseling -- **Inclusion terms:** - Encounter for sex education
+[Z709] Sex counseling, unspecified
+[Z71] Persons encountering health services for other counseling and medical advice, not elsewhere classified -- **Excludes2:** - contraceptive or procreation counseling (Z30-Z31) - sex counseling (Z70.-)
+[Z710] Person encountering health services to consult on behalf of another person -- **Inclusion terms:** - Person encountering health services to seek advice or treatment for non-attending third party  **Excludes2:** - anxiety (normal) about sick person in family (Z63.7) - expectant (adoptive) parent(s) pre-birth pediatrician visit (Z76.81)
+[Z711] Person with feared health complaint in whom no diagnosis is made -- **Inclusion terms:** - Person encountering health services with feared condition which was not demonstrated - Person encountering health services in which problem was normal state - 'Worried well'  **Excludes1:** - medical observation for suspected diseases and conditions proven not to exist (Z03.-)
+[Z712] Person consulting for explanation of examination or test findings
+[Z713] Dietary counseling and surveillance -- **Use additional code:** - code for any associated underlying medical condition
+[Z714] Alcohol abuse counseling and surveillance -- **Use additional code:** - code for alcohol abuse or dependence (F10.-)
+[Z7141] Alcohol abuse counseling and surveillance of alcoholic
+[Z7142] Counseling for family member of alcoholic -- **Inclusion terms:** - Counseling for significant other, partner, or friend of alcoholic
+[Z715] Drug abuse counseling and surveillance -- **Use additional code:** - code for drug abuse or dependence (F11-F16, F18-F19)
+[Z7151] Drug abuse counseling and surveillance of drug abuser
+[Z7152] Counseling for family member of drug abuser -- **Inclusion terms:** - Counseling for significant other, partner, or friend of drug abuser
+[Z716] Tobacco abuse counseling -- **Use additional code:** - code for nicotine dependence (F17.-)
+[Z717] Human immunodeficiency virus [HIV] counseling
+[Z718] Other specified counseling -- **Excludes2:** - counseling for contraception (Z30.0-)
+[Z7181] Spiritual or religious counseling
+[Z7182] Exercise counseling
+[Z7183] Encounter for nonprocreative genetic counseling -- **Excludes1:** - counseling for procreative genetics (Z31.5) - counseling for procreative management (Z31.6)
+[Z7184] Encounter for health counseling related to travel -- **Inclusion terms:** - Encounter for health risk and safety counseling for (international) travel  **Excludes2:** - encounter for administrative examination (Z02.-) - encounter for other special examination without complaint, suspected or reported diagnosis (Z01.-)  **Code also:** - , if applicable, encounter for immunization (Z23)
+[Z7185] Encounter for immunization safety counseling -- **Inclusion terms:** - Encounter for vaccine product safety counseling  **Excludes1:** - encounter for health counseling related to travel (Z71.84)  **Code also:** - , if applicable, encounter for immunization (Z23)
+[Z7187] Encounter for pediatric-to-adult transition counseling -- **Code also:** - chronic condition, if applicable, such as: - autism spectrum disorder (F84.0) - congenital malformations of the circulatory system (Q20-Q28) - cystic fibrosis (E84.-) - sickle-cell disorder (D57.-)
+[Z7188] Encounter for counseling for socioeconomic factors
+[Z7189] Other specified counseling
+[Z719] Counseling, unspecified -- **Inclusion terms:** - Encounter for medical advice NOS
+[Z72] Problems related to lifestyle -- **Excludes2:** - problems related to life-management difficulty (Z73.-) - problems related to socioeconomic and psychosocial circumstances (Z55-Z65)
+[Z720] Tobacco use -- **Inclusion terms:** - Tobacco use NOS  **Excludes1:** - history of tobacco dependence (Z87.891) - nicotine dependence (F17.2-) - tobacco dependence (F17.2-) - tobacco use during pregnancy (O99.33-)
+[Z723] Lack of physical exercise
+[Z724] Inappropriate diet and eating habits -- **Excludes1:** - behavioral eating disorders of infancy or childhood (F98.2.-F98.3) - eating disorders (F50.-) - lack of adequate food (Z59.48) - malnutrition and other nutritional deficiencies (E40-E64)
+[Z725] High risk sexual behavior -- **Inclusion terms:** - Promiscuity  **Excludes1:** - paraphilias (F65)
+[Z7251] High risk heterosexual behavior
+[Z7252] High risk homosexual behavior
+[Z7253] High risk bisexual behavior
+[Z726] Gambling and betting -- **Excludes1:** - compulsive or pathological gambling (F63.0)
+[Z728] Other problems related to lifestyle
+[Z7281] Antisocial behavior -- **Excludes1:** - conduct disorders (F91.-)
+[Z72810] Child and adolescent antisocial behavior -- **Inclusion terms:** - Antisocial behavior (child) (adolescent) without manifest psychiatric disorder - Delinquency NOS - Group delinquency - Offenses in the context of gang membership - Stealing in company with others - Truancy from school
+[Z72811] Adult antisocial behavior -- **Inclusion terms:** - Adult antisocial behavior without manifest psychiatric disorder
+[Z7282] Problems related to sleep
+[Z72820] Sleep deprivation -- **Inclusion terms:** - Lack of adequate sleep  **Excludes1:** - insomnia (G47.0-)
+[Z72821] Inadequate sleep hygiene -- **Inclusion terms:** - Bad sleep habits - Irregular sleep habits - Unhealthy sleep wake schedule  **Excludes1:** - insomnia (F51.0-, G47.0-)
+[Z72823] Risk of suffocation (smothering) under another while sleeping -- **Inclusion terms:** - Child-caregiver co-sleeping - Infant bed-sharing
+[Z7289] Other problems related to lifestyle -- **Inclusion terms:** - Self-damaging behavior
+[Z729] Problem related to lifestyle, unspecified
+[Z73] Problems related to life management difficulty -- **Excludes2:** - problems related to socioeconomic and psychosocial circumstances (Z55-Z65)
+[Z730] Burn-out
+[Z731] Type A behavior pattern
+[Z732] Lack of relaxation and leisure
+[Z733] Stress, not elsewhere classified -- **Inclusion terms:** - Physical and mental strain NOS  **Excludes1:** - stress related to employment or unemployment (Z56.-)
+[Z734] Inadequate social skills, not elsewhere classified
+[Z735] Social role conflict, not elsewhere classified
+[Z736] Limitation of activities due to disability -- **Excludes1:** - care-provider dependency (Z74.-)
+[Z738] Other problems related to life management difficulty
+[Z7381] Behavioral insomnia of childhood
+[Z73810] Behavioral insomnia of childhood, sleep-onset association type
+[Z73811] Behavioral insomnia of childhood, limit setting type
+[Z73812] Behavioral insomnia of childhood, combined type
+[Z73819] Behavioral insomnia of childhood, unspecified type
+[Z7382] Dual sensory impairment
+[Z7389] Other problems related to life management difficulty
+[Z739] Problem related to life management difficulty, unspecified
+[Z74] Problems related to care provider dependency -- **Excludes2:** - dependence on enabling machines or devices NEC (Z99.-)
+[Z740] Reduced mobility
+[Z7401] Bed confinement status -- **Inclusion terms:** - Bedridden
+[Z7409] Other reduced mobility -- **Inclusion terms:** - Chairridden - Reduced mobility NOS  **Excludes2:** - wheelchair dependence (Z99.3)
+[Z741] Need for assistance with personal care
+[Z742] Need for assistance at home and no other household member able to render care
+[Z743] Need for continuous supervision
+[Z748] Other problems related to care provider dependency
+[Z749] Problem related to care provider dependency, unspecified
+[Z75] Problems related to medical facilities and other health care
+[Z750] Medical services not available in home -- **Excludes1:** - no other household member able to render care (Z74.2)
+[Z751] Person awaiting admission to adequate facility elsewhere
+[Z752] Other waiting period for investigation and treatment
+[Z753] Unavailability and inaccessibility of health-care facilities -- **Excludes1:** - bed unavailable (Z75.1)
+[Z754] Unavailability and inaccessibility of other helping agencies
+[Z755] Holiday relief care
+[Z758] Other problems related to medical facilities and other health care
+[Z759] Unspecified problem related to medical facilities and other health care
+[Z76] Persons encountering health services in other circumstances
+[Z760] Encounter for issue of repeat prescription -- **Inclusion terms:** - Encounter for issue of repeat prescription for appliance - Encounter for issue of repeat prescription for medicaments - Encounter for issue of repeat prescription for spectacles  **Excludes2:** - issue of medical certificate (Z02.7) - repeat prescription for contraceptive (Z30.4-)
+[Z761] Encounter for health supervision and care of foundling
+[Z762] Encounter for health supervision and care of other healthy infant and child -- **Inclusion terms:** - Encounter for medical or nursing care or supervision of healthy infant under circumstances such as adverse socioeconomic conditions at home - Encounter for medical or nursing care or supervision of healthy infant under circumstances such as awaiting foster or adoptive placement - Encounter for medical or nursing care or supervision of healthy infant under circumstances such as maternal illness - Encounter for medical or nursing care or supervision of healthy infant under circumstances such as number of children at home preventing or interfering with normal care
+[Z763] Healthy person accompanying sick person
+[Z764] Other boarder to healthcare facility -- **Excludes1:** - homelessness (Z59.0-)
+[Z765] Malingerer [conscious simulation] -- **Inclusion terms:** - Person feigning illness (with obvious motivation)  **Excludes1:** - factitious disorder (F68.1-, F68.A) - peregrinating patient (F68.1-)
+[Z768] Persons encountering health services in other specified circumstances
+[Z7681] Expectant parent(s) prebirth pediatrician visit -- **Inclusion terms:** - Pre-adoption pediatrician visit for adoptive parent(s)
+[Z7682] Awaiting organ transplant status -- **Inclusion terms:** - Patient waiting for organ availability
+[Z7689] Persons encountering health services in other specified circumstances -- **Inclusion terms:** - Persons encountering health services NOS
+[Z77] Other contact with and (suspected) exposures hazardous to health -- **Includes:** - contact with and (suspected) exposures to potential hazards to health  **Excludes2:** - contact with and (suspected) exposure to communicable diseases (Z20.-) - exposure to (parental) (environmental) tobacco smoke in the perinatal period (P96.81) - newborn affected by noxious substances transmitted via placenta or breast milk (P04.-) - occupational exposure to risk factors (Z57.-) - retained foreign body (Z18.-) - retained foreign body fully removed (Z87.821) - toxic effects of substances chiefly nonmedicinal as to source (T51-T65)
+[Z770] Contact with and (suspected) exposure to hazardous, chiefly nonmedicinal, chemicals
+[Z7701] Contact with and (suspected) exposure to hazardous metals
+[Z77010] Contact with and (suspected) exposure to arsenic
+[Z77011] Contact with and (suspected) exposure to lead
+[Z77012] Contact with and (suspected) exposure to uranium -- **Excludes1:** - retained depleted uranium fragments (Z18.01)
+[Z77018] Contact with and (suspected) exposure to other hazardous metals -- **Inclusion terms:** - Contact with and (suspected) exposure to chromium compounds - Contact with and (suspected) exposure to nickel dust
+[Z7702] Contact with and (suspected) exposure to hazardous aromatic compounds
+[Z77020] Contact with and (suspected) exposure to aromatic amines
+[Z77021] Contact with and (suspected) exposure to benzene
+[Z77028] Contact with and (suspected) exposure to other hazardous aromatic compounds -- **Inclusion terms:** - Aromatic dyes NOS - Polycyclic aromatic hydrocarbons
+[Z7709] Contact with and (suspected) exposure to other hazardous, chiefly nonmedicinal, chemicals
+[Z77090] Contact with and (suspected) exposure to asbestos
+[Z77098] Contact with and (suspected) exposure to other hazardous, chiefly nonmedicinal, chemicals -- **Inclusion terms:** - Dyes NOS
+[Z771] Contact with and (suspected) exposure to environmental pollution and hazards in the physical environment
+[Z7711] Contact with and (suspected) exposure to environmental pollution
+[Z77110] Contact with and (suspected) exposure to air pollution
+[Z77111] Contact with and (suspected) exposure to water pollution
+[Z77112] Contact with and (suspected) exposure to soil pollution
+[Z77118] Contact with and (suspected) exposure to other environmental pollution
+[Z7712] Contact with and (suspected) exposure to hazards in the physical environment
+[Z77120] Contact with and (suspected) exposure to mold (toxic)
+[Z77121] Contact with and (suspected) exposure to harmful algae and algae toxins -- **Inclusion terms:** - Contact with and (suspected) exposure to (harmful) algae bloom NOS - Contact with and (suspected) exposure to blue-green algae bloom - Contact with and (suspected) exposure to brown tide - Contact with and (suspected) exposure to cyanobacteria bloom - Contact with and (suspected) exposure to Florida red tide - Contact with and (suspected) exposure to pfiesteria piscicida - Contact with and (suspected) exposure to red tide
+[Z77122] Contact with and (suspected) exposure to noise
+[Z77123] Contact with and (suspected) exposure to radon and other naturally occurring radiation -- **Excludes2:** - radiation exposure as the cause of a confirmed condition (W88-W90, X39.0-) - radiation sickness NOS (T66)
+[Z77128] Contact with and (suspected) exposure to other hazards in the physical environment
+[Z772] Contact with and (suspected) exposure to other hazardous substances
+[Z7721] Contact with and (suspected) exposure to potentially hazardous body fluids
+[Z7722] Contact with and (suspected) exposure to environmental tobacco smoke (acute) (chronic) -- **Inclusion terms:** - Exposure to second hand tobacco smoke (acute) (chronic) - Passive smoking (acute) (chronic)  **Excludes1:** - nicotine dependence (F17.-) - tobacco use (Z72.0)  **Excludes2:** - occupational exposure to environmental tobacco smoke (Z57.31)
+[Z7729] Contact with and (suspected) exposure to other hazardous substances
+[Z779] Other contact with and (suspected) exposures hazardous to health
+[Z78] Other specified health status -- **Excludes2:** - asymptomatic human immunodeficiency virus [HIV] infection status (Z21) - postprocedural status (Z93-Z99) - sex reassignment status (Z87.890)
+[Z780] Asymptomatic menopausal state -- **Inclusion terms:** - Menopausal state NOS - Postmenopausal status NOS  **Excludes2:** - symptomatic menopausal state (N95.1)
+[Z781] Physical restraint status -- **Excludes1:** - physical restraint due to a procedure - omit code
+[Z789] Other specified health status
+[Z79] Long term (current) drug therapy -- **Includes:** - long term (current) drug use for prophylactic purposes  **Excludes2:** - drug abuse and dependence (F11-F19) - drug use complicating pregnancy, childbirth, and the puerperium (O99.32-)  **Code also:** - any therapeutic drug level monitoring (Z51.81)
+[Z790] Long term (current) use of anticoagulants and antithrombotics/antiplatelets -- **Excludes2:** - long term (current) use of aspirin (Z79.82)
+[Z7901] Long term (current) use of anticoagulants
+[Z7902] Long term (current) use of antithrombotics/antiplatelets
+[Z791] Long term (current) use of non-steroidal anti-inflammatories (NSAID) -- **Excludes2:** - long term (current) use of aspirin (Z79.82)
+[Z792] Long term (current) use of antibiotics
+[Z793] Long term (current) use of hormonal contraceptives -- **Inclusion terms:** - Long term (current) use of birth control pill or patch
+[Z794] Long term (current) use of insulin -- **Excludes2:** - long-term (current) use of injectable non-insulin antidiabetic drugs (Z79.85) - long term (current) use of oral antidiabetic drugs (Z79.84) - long term (current) use of oral hypoglycemic drugs (Z79.84)
+[Z795] Long term (current) use of steroids
+[Z7951] Long term (current) use of inhaled steroids
+[Z7952] Long term (current) use of systemic steroids
+[Z796] Long term (current) use of immunomodulators and immunosuppressants -- **Excludes2:** - long term (current) use of steroids (Z79.5-) - long term (current) use of agents affecting estrogen receptors and estrogen levels (Z79.81-)
+[Z7960] Long term (current) use of unspecified immunomodulators and immunosuppressants
+[Z7961] Long term (current) use of immunomodulator -- **Inclusion terms:** - Long term (current) use of apremilast - Long term (current) use of immunomodulatory imide drug - Long term (current) use of lenalidomide - Long term (current) use of pomalidomide
+[Z7962] Long term (current) use of immunosuppressant
+[Z79620] Long term (current) use of immunosuppressive biologic -- **Inclusion terms:** - Long term (current) use of adalimumab - Long term (current) use of etanercept - Long term (current) use of infliximab - Long term (current) use of monoclonal antibodies
+[Z79621] Long term (current) use of calcineurin inhibitor -- **Inclusion terms:** - Long term (current) use of cyclosporine - Long term (current) use of tacrolimus
+[Z79622] Long term (current) use of Janus kinase inhibitor -- **Inclusion terms:** - Long term (current) use of tofacitinib
+[Z79623] Long term (current) use of mammalian target of rapamycin (mTOR) inhibitor -- **Inclusion terms:** - Long term (current) use of sirolimus
+[Z79624] Long term (current) use of inhibitors of nucleotide synthesis -- **Inclusion terms:** - Long term (current) use of azathioprine - Long term (current) use of mycophenolate - Long term (current) use of purine synthesis (IMDH) inhibitors
+[Z7963] Long term (current) use of chemotherapeutic agent
+[Z79630] Long term (current) use of alkylating agent -- **Inclusion terms:** - Long term (current) use of chlorambucil - Long term (current) use of cisplatin - Long term (current) use of cyclophosphamide
+[Z79631] Long term (current) use of antimetabolite agent -- **Inclusion terms:** - Long term (current) use of 5-fluorouracil - Long term (current) use of 6-mercaptopurine - Long term (current) use of cytarabine - Long term (current) use of methotrexate
+[Z79632] Long term (current) use of antitumor antibiotic -- **Inclusion terms:** - Long term (current) use of bleomycin - Long term (current) use of doxorubicin - Long term (current) use of mitomycin C
+[Z79633] Long term (current) use of mitotic inhibitor -- **Inclusion terms:** - Long term (current) use of paclitaxel - Long term (current) use of plant alkaloids - Long term (current) use of vinblastine - Long term (current) use of vincristine
+[Z79634] Long term (current) use of topoisomerase inhibitor -- **Inclusion terms:** - Long term (current) use of etoposide - Long term (current) use of irinotecan - Long term (current) use of topotecan
+[Z7964] Long term (current) use of myelosuppressive agent -- **Inclusion terms:** - Long term (current) use of hydroxyurea
+[Z7969] Long term (current) use of other immunomodulators and immunosuppressants
+[Z798] Other long term (current) drug therapy
+[Z7981] Long term (current) use of agents affecting estrogen receptors and estrogen levels -- **Excludes1:** - hormone replacement therapy (Z79.890)  **Code first:** - , if applicable: - malignant neoplasm of breast (C50.-) - malignant neoplasm of prostate (C61)  **Use additional code:** - code, if applicable, to identify: - estrogen receptor positive status (Z17.0) - family history of breast cancer (Z80.3) - genetic susceptibility to malignant neoplasm (cancer) (Z15.0-) - personal history of breast cancer (Z85.3) - personal history of prostate cancer (Z85.46) - postmenopausal status (Z78.0)
+[Z79810] Long term (current) use of selective estrogen receptor modulators (SERMs) -- **Inclusion terms:** - Long term (current) use of raloxifene (Evista) - Long term (current) use of tamoxifen (Nolvadex) - Long term (current) use of toremifene (Fareston)
+[Z79811] Long term (current) use of aromatase inhibitors -- **Inclusion terms:** - Long term (current) use of anastrozole (Arimidex) - Long term (current) use of exemestane (Aromasin) - Long term (current) use of letrozole (Femara)
+[Z79818] Long term (current) use of other agents affecting estrogen receptors and estrogen levels -- **Inclusion terms:** - Long term (current) use of estrogen receptor downregulators - Long term (current) use of fulvestrant (Faslodex) - Long term (current) use of gonadotropin-releasing hormone (GnRH) agonist - Long term (current) use of goserelin acetate (Zoladex) - Long term (current) use of leuprolide acetate (leuprorelin) (Lupron) - Long term (current) use of megestrol acetate (Megace)
+[Z7982] Long term (current) use of aspirin
+[Z7983] Long term (current) use of bisphosphonates
+[Z7984] Long term (current) use of oral hypoglycemic drugs -- **Inclusion terms:** - Long term (current) use of oral antidiabetic drugs  **Excludes2:** - long-term (current) use of injectable non-insulin antidiabetic drugs (Z79.85) - long term (current) use of insulin (Z79.4)
+[Z7985] Long-term (current) use of injectable non-insulin antidiabetic drugs -- **Excludes2:** - long term (current) use of insulin (Z79.4) - long term (current) use of oral hypoglycemic drugs (Z79.84)
+[Z7989] Other long term (current) drug therapy
+[Z79890] Hormone replacement therapy
+[Z79891] Long term (current) use of opiate analgesic -- **Inclusion terms:** - Long term (current) use of methadone for pain management  **Excludes1:** - methodone use NOS (F11.9-) - use of methodone for treatment of heroin addiction (F11.2-)
+[Z79899] Other long term (current) drug therapy
+[Z80] Family history of primary malignant neoplasm
+[Z800] Family history of malignant neoplasm of digestive organs -- **Inclusion terms:** - Conditions classifiable to C15-C26
+[Z801] Family history of malignant neoplasm of trachea, bronchus and lung -- **Inclusion terms:** - Conditions classifiable to C33-C34
+[Z802] Family history of malignant neoplasm of other respiratory and intrathoracic organs -- **Inclusion terms:** - Conditions classifiable to C30-C32, C37-C39
+[Z803] Family history of malignant neoplasm of breast -- **Inclusion terms:** - Conditions classifiable to C50.-
+[Z804] Family history of malignant neoplasm of genital organs -- **Inclusion terms:** - Conditions classifiable to C51-C63
+[Z8041] Family history of malignant neoplasm of ovary
+[Z8042] Family history of malignant neoplasm of prostate
+[Z8043] Family history of malignant neoplasm of testis
+[Z8049] Family history of malignant neoplasm of other genital organs
+[Z805] Family history of malignant neoplasm of urinary tract -- **Inclusion terms:** - Conditions classifiable to C64-C68
+[Z8051] Family history of malignant neoplasm of kidney
+[Z8052] Family history of malignant neoplasm of bladder
+[Z8059] Family history of malignant neoplasm of other urinary tract organ
+[Z806] Family history of leukemia -- **Inclusion terms:** - Conditions classifiable to C91-C95
+[Z807] Family history of other malignant neoplasms of lymphoid, hematopoietic and related tissues -- **Inclusion terms:** - Conditions classifiable to C81-C90, C96.-
+[Z808] Family history of malignant neoplasm of other organs or systems -- **Inclusion terms:** - Conditions classifiable to C00-C14, C40-C49, C69-C79
+[Z809] Family history of malignant neoplasm, unspecified -- **Inclusion terms:** - Conditions classifiable to C80.1
+[Z81] Family history of mental and behavioral disorders
+[Z810] Family history of intellectual disabilities -- **Inclusion terms:** - Conditions classifiable to F70-F79
+[Z811] Family history of alcohol abuse and dependence -- **Inclusion terms:** - Conditions classifiable to F10.-
+[Z812] Family history of tobacco abuse and dependence -- **Inclusion terms:** - Conditions classifiable to F17.-
+[Z813] Family history of other psychoactive substance abuse and dependence -- **Inclusion terms:** - Conditions classifiable to F11-F16, F18-F19
+[Z814] Family history of other substance abuse and dependence -- **Inclusion terms:** - Conditions classifiable to F55
+[Z818] Family history of other mental and behavioral disorders -- **Inclusion terms:** - Conditions classifiable elsewhere in F01-F99
+[Z82] Family history of certain disabilities and chronic diseases (leading to disablement)
+[Z820] Family history of epilepsy and other diseases of the nervous system -- **Inclusion terms:** - Conditions classifiable to G00-G99
+[Z821] Family history of blindness and visual loss -- **Inclusion terms:** - Conditions classifiable to H54.-
+[Z822] Family history of deafness and hearing loss -- **Inclusion terms:** - Conditions classifiable to H90-H91
+[Z823] Family history of stroke -- **Inclusion terms:** - Conditions classifiable to I60-I64
+[Z824] Family history of ischemic heart disease and other diseases of the circulatory system -- **Inclusion terms:** - Conditions classifiable to I00-I5A, I65-I99
+[Z8241] Family history of sudden cardiac death
+[Z8249] Family history of ischemic heart disease and other diseases of the circulatory system
+[Z825] Family history of asthma and other chronic lower respiratory diseases -- **Inclusion terms:** - Conditions classifiable to J40-J47  **Excludes2:** - family history of other diseases of the respiratory system (Z83.6)
+[Z826] Family history of arthritis and other diseases of the musculoskeletal system and connective tissue -- **Inclusion terms:** - Conditions classifiable to M00-M99
+[Z8261] Family history of arthritis
+[Z8262] Family history of osteoporosis
+[Z8269] Family history of other diseases of the musculoskeletal system and connective tissue
+[Z827] Family history of congenital malformations, deformations and chromosomal abnormalities -- **Inclusion terms:** - Conditions classifiable to Q00-Q99
+[Z8271] Family history of polycystic kidney
+[Z8279] Family history of other congenital malformations, deformations and chromosomal abnormalities
+[Z828] Family history of other disabilities and chronic diseases leading to disablement, not elsewhere classified
+[Z83] Family history of other specific disorders -- **Excludes2:** - contact with and (suspected) exposure to communicable disease in the family (Z20.-)
+[Z830] Family history of human immunodeficiency virus [HIV] disease -- **Inclusion terms:** - Conditions classifiable to B20
+[Z831] Family history of other infectious and parasitic diseases -- **Inclusion terms:** - Conditions classifiable to A00-B19, B25-B94, B99
+[Z832] Family history of diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism -- **Inclusion terms:** - Conditions classifiable to D50-D89
+[Z833] Family history of diabetes mellitus -- **Inclusion terms:** - Conditions classifiable to E08-E13
+[Z834] Family history of other endocrine, nutritional and metabolic diseases -- **Inclusion terms:** - Conditions classifiable to E00-E07, E15-E88
+[Z8341] Family history of multiple endocrine neoplasia [MEN] syndrome
+[Z8342] Family history of familial hypercholesterolemia
+[Z8343] Family history of other disorder of lipoprotein metabolism and other lipidemias
+[Z83430] Family history of elevated lipoprotein(a) -- **Inclusion terms:** - Family history of elevated Lp(a)
+[Z83438] Family history of other disorder of lipoprotein metabolism and other lipidemia -- **Inclusion terms:** - Family history of familial combined hyperlipidemia
+[Z8349] Family history of other endocrine, nutritional and metabolic diseases
+[Z835] Family history of eye and ear disorders
+[Z8351] Family history of eye disorders -- **Inclusion terms:** - Conditions classifiable to H00-H53, H55-H59  **Excludes2:** - family history of blindness and visual loss (Z82.1)
+[Z83511] Family history of glaucoma
+[Z83518] Family history of other specified eye disorder
+[Z8352] Family history of ear disorders -- **Inclusion terms:** - Conditions classifiable to H60-H83, H92-H95  **Excludes2:** - family history of deafness and hearing loss (Z82.2)
+[Z836] Family history of other diseases of the respiratory system -- **Inclusion terms:** - Conditions classifiable to J00-J39, J60-J99  **Excludes2:** - family history of asthma and other chronic lower respiratory diseases (Z82.5)
+[Z837] Family history of diseases of the digestive system -- **Inclusion terms:** - Conditions classifiable to D12, K00-K93
+[Z8371] Family history of colonic polyps -- **Excludes2:** - family history of malignant neoplasm of digestive organs (Z80.0)
+[Z83710] Family history of adenomatous and serrated polyps -- **Inclusion terms:** - Conditions classifiable to D12.- - Family history of tubular adenoma polyps - Family history of tubulovillous adenoma polyps - Family history of villous adenoma polyps
+[Z83711] Family history of hyperplastic colon polyps
+[Z83718] Other family history of colon polyps -- **Inclusion terms:** - Family history of inflammatory colon polyps
+[Z83719] Family history of colon polyps, unspecified -- **Inclusion terms:** - Family history of colon polyps NOS
+[Z8372] Family history of familial adenomatous polyposis
+[Z8379] Family history of other diseases of the digestive system
+[Z84] Family history of other conditions
+[Z840] Family history of diseases of the skin and subcutaneous tissue -- **Inclusion terms:** - Conditions classifiable to L00-L99
+[Z841] Family history of disorders of kidney and ureter -- **Inclusion terms:** - Conditions classifiable to N00-N29
+[Z842] Family history of other diseases of the genitourinary system -- **Inclusion terms:** - Conditions classifiable to N30-N99
+[Z843] Family history of consanguinity
+[Z848] Family history of other specified conditions
+[Z8481] Family history of carrier of genetic disease
+[Z8482] Family history of sudden infant death syndrome -- **Inclusion terms:** - Family history of SIDS
+[Z8489] Family history of other specified conditions
+[Z85] Personal history of malignant neoplasm -- **Excludes2:** - personal history of benign neoplasm (Z86.01-) - personal history of carcinoma-in-situ (Z86.00-)  **Code first:** - any follow-up examination after treatment of malignant neoplasm (Z08)  **Use additional code:** - code to identify: - alcohol use and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[Z850] Personal history of malignant neoplasm of digestive organs
+[Z8500] Personal history of malignant neoplasm of unspecified digestive organ
+[Z8501] Personal history of malignant neoplasm of esophagus -- **Inclusion terms:** - Conditions classifiable to C15
+[Z8502] Personal history of malignant neoplasm of stomach
+[Z85020] Personal history of malignant carcinoid tumor of stomach -- **Inclusion terms:** - Conditions classifiable to C7A.092
+[Z85028] Personal history of other malignant neoplasm of stomach -- **Inclusion terms:** - Conditions classifiable to C16
+[Z8503] Personal history of malignant neoplasm of large intestine
+[Z85030] Personal history of malignant carcinoid tumor of large intestine -- **Inclusion terms:** - Conditions classifiable to C7A.022-C7A.025, C7A.029
+[Z85038] Personal history of other malignant neoplasm of large intestine -- **Inclusion terms:** - Conditions classifiable to C18
+[Z8504] Personal history of malignant neoplasm of rectum, rectosigmoid junction, and anus
+[Z85040] Personal history of malignant carcinoid tumor of rectum -- **Inclusion terms:** - Conditions classifiable to C7A.026
+[Z85048] Personal history of other malignant neoplasm of rectum, rectosigmoid junction, and anus -- **Inclusion terms:** - Conditions classifiable to C19-C21
+[Z8505] Personal history of malignant neoplasm of liver -- **Inclusion terms:** - Conditions classifiable to C22
+[Z8506] Personal history of malignant neoplasm of small intestine
+[Z85060] Personal history of malignant carcinoid tumor of small intestine -- **Inclusion terms:** - Conditions classifiable to C7A.01-
+[Z85068] Personal history of other malignant neoplasm of small intestine -- **Inclusion terms:** - Conditions classifiable to C17
+[Z8507] Personal history of malignant neoplasm of pancreas -- **Inclusion terms:** - Conditions classifiable to C25
+[Z8509] Personal history of malignant neoplasm of other digestive organs
+[Z851] Personal history of malignant neoplasm of trachea, bronchus and lung
+[Z8511] Personal history of malignant neoplasm of bronchus and lung
+[Z85110] Personal history of malignant carcinoid tumor of bronchus and lung -- **Inclusion terms:** - Conditions classifiable to C7A.090
+[Z85118] Personal history of other malignant neoplasm of bronchus and lung -- **Inclusion terms:** - Conditions classifiable to C34
+[Z8512] Personal history of malignant neoplasm of trachea -- **Inclusion terms:** - Conditions classifiable to C33
+[Z852] Personal history of malignant neoplasm of other respiratory and intrathoracic organs
+[Z8520] Personal history of malignant neoplasm of unspecified respiratory organ
+[Z8521] Personal history of malignant neoplasm of larynx -- **Inclusion terms:** - Conditions classifiable to C32
+[Z8522] Personal history of malignant neoplasm of nasal cavities, middle ear, and accessory sinuses -- **Inclusion terms:** - Conditions classifiable to C30-C31
+[Z8523] Personal history of malignant neoplasm of thymus
+[Z85230] Personal history of malignant carcinoid tumor of thymus -- **Inclusion terms:** - Conditions classifiable to C7A.091
+[Z85238] Personal history of other malignant neoplasm of thymus -- **Inclusion terms:** - Conditions classifiable to C37
+[Z8529] Personal history of malignant neoplasm of other respiratory and intrathoracic organs
+[Z853] Personal history of malignant neoplasm of breast -- **Inclusion terms:** - Conditions classifiable to C50.-
+[Z854] Personal history of malignant neoplasm of genital organs -- **Inclusion terms:** - Conditions classifiable to C51-C63
+[Z8540] Personal history of malignant neoplasm of unspecified female genital organ
+[Z8541] Personal history of malignant neoplasm of cervix uteri
+[Z8542] Personal history of malignant neoplasm of other parts of uterus
+[Z8543] Personal history of malignant neoplasm of ovary
+[Z8544] Personal history of malignant neoplasm of other female genital organs
+[Z8545] Personal history of malignant neoplasm of unspecified male genital organ
+[Z8546] Personal history of malignant neoplasm of prostate
+[Z8547] Personal history of malignant neoplasm of testis
+[Z8548] Personal history of malignant neoplasm of epididymis
+[Z8549] Personal history of malignant neoplasm of other male genital organs
+[Z855] Personal history of malignant neoplasm of urinary tract -- **Inclusion terms:** - Conditions classifiable to C64-C68
+[Z8550] Personal history of malignant neoplasm of unspecified urinary tract organ
+[Z8551] Personal history of malignant neoplasm of bladder
+[Z8552] Personal history of malignant neoplasm of kidney -- **Excludes1:** - personal history of malignant neoplasm of renal pelvis (Z85.53)
+[Z85520] Personal history of malignant carcinoid tumor of kidney -- **Inclusion terms:** - Conditions classifiable to C7A.093
+[Z85528] Personal history of other malignant neoplasm of kidney -- **Inclusion terms:** - Conditions classifiable to C64
+[Z8553] Personal history of malignant neoplasm of renal pelvis
+[Z8554] Personal history of malignant neoplasm of ureter
+[Z8559] Personal history of malignant neoplasm of other urinary tract organ
+[Z856] Personal history of leukemia -- **Inclusion terms:** - Conditions classifiable to C91-C95  **Excludes1:** - leukemia in remission C91.0-C95.9 with 5th character 1
+[Z857] Personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues
+[Z8571] Personal history of Hodgkin lymphoma -- **Inclusion terms:** - Conditions classifiable to C81
+[Z8572] Personal history of non-Hodgkin lymphomas -- **Inclusion terms:** - Conditions classifiable to C82-C85
+[Z8579] Personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues -- **Inclusion terms:** - Conditions classifiable to C88-C90, C96  **Excludes1:** - multiple myeloma in remission (C90.01) - plasma cell leukemia in remission (C90.11) - plasmacytoma in remission (C90.21)
+[Z858] Personal history of malignant neoplasms of other organs and systems -- **Inclusion terms:** - Conditions classifiable to C00-C14, C40-C49, C69-C75, C7A.098, C76-C79
+[Z8581] Personal history of malignant neoplasm of lip, oral cavity, and pharynx -- **Inclusion terms:** - Conditions classifiable to C00-C14
+[Z85810] Personal history of malignant neoplasm of tongue
+[Z85818] Personal history of malignant neoplasm of other sites of lip, oral cavity, and pharynx
+[Z85819] Personal history of malignant neoplasm of unspecified site of lip, oral cavity, and pharynx
+[Z8582] Personal history of malignant neoplasm of skin
+[Z85820] Personal history of malignant melanoma of skin -- **Inclusion terms:** - Conditions classifiable to C43
+[Z85821] Personal history of Merkel cell carcinoma -- **Inclusion terms:** - Conditions classifiable to C4A
+[Z85828] Personal history of other malignant neoplasm of skin -- **Inclusion terms:** - Conditions classifiable to C44
+[Z8583] Personal history of malignant neoplasm of bone and soft tissue -- **Inclusion terms:** - Conditions classifiable to C40-C41; C45-C49
+[Z85830] Personal history of malignant neoplasm of bone
+[Z85831] Personal history of malignant neoplasm of soft tissue -- **Excludes2:** - personal history of malignant neoplasm of skin (Z85.82-)
+[Z8584] Personal history of malignant neoplasm of eye and nervous tissue -- **Inclusion terms:** - Conditions classifiable to C69-C72
+[Z85840] Personal history of malignant neoplasm of eye
+[Z85841] Personal history of malignant neoplasm of brain
+[Z85848] Personal history of malignant neoplasm of other parts of nervous tissue
+[Z8585] Personal history of malignant neoplasm of endocrine glands -- **Inclusion terms:** - Conditions classifiable to C73-C75
+[Z85850] Personal history of malignant neoplasm of thyroid
+[Z85858] Personal history of malignant neoplasm of other endocrine glands
+[Z8589] Personal history of malignant neoplasm of other organs and systems -- **Inclusion terms:** - Conditions classifiable to C7A.098, C76, C77-C79
+[Z859] Personal history of malignant neoplasm, unspecified -- **Inclusion terms:** - Conditions classifiable to C7A.00, C80.1
+[Z86] Personal history of certain other diseases -- **Code first:** - any follow-up examination after treatment (Z09)
+[Z860] Personal history of in-situ and benign neoplasms and neoplasms of uncertain behavior -- **Excludes2:** - personal history of malignant neoplasms (Z85.-)
+[Z8600] Personal history of in-situ neoplasm -- **Inclusion terms:** - Conditions classifiable to D00-D09
+[Z86000] Personal history of in-situ neoplasm of breast -- **Inclusion terms:** - Conditions classifiable to D05
+[Z86001] Personal history of in-situ neoplasm of cervix uteri -- **Inclusion terms:** - Conditions classifiable to D06 - Personal history of cervical intraepithelial neoplasia III [CIN III]
+[Z86002] Personal history of in-situ neoplasm of other and unspecified genital organs -- **Inclusion terms:** - Conditions classifiable to D07 - Personal history of high-grade prostatic intraepithelial neoplasia III [HGPIN III] - Personal history of vaginal intraepithelial neoplasia III [VAIN III] - Personal history of vulvar intraepithelial neoplasia III [VIN III]
+[Z86003] Personal history of in-situ neoplasm of oral cavity, esophagus and stomach -- **Inclusion terms:** - Conditions classifiable to D00
+[Z86004] Personal history of in-situ neoplasm of other and unspecified digestive organs -- **Inclusion terms:** - Conditions classifiable to D01 - Personal history of anal intraepithelial neoplasia (AIN III)
+[Z86005] Personal history of in-situ neoplasm of middle ear and respiratory system -- **Inclusion terms:** - Conditions classifiable to D02
+[Z86006] Personal history of melanoma in-situ -- **Inclusion terms:** - Conditions classifiable to D03  **Excludes2:** - sites other than skin - code to personal history of in-situ neoplasm of the site
+[Z86007] Personal history of in-situ neoplasm of skin -- **Inclusion terms:** - Conditions classifiable to D04 - Personal history of carcinoma in situ of skin
+[Z86008] Personal history of in-situ neoplasm of other site -- **Inclusion terms:** - Conditions classifiable to D09
+[Z8601] Personal history of benign neoplasm
+[Z86010] Personal history of colon polyps -- **Inclusion terms:** - Personal history of colorectal polyps - Personal history of rectal polyps
+[Z860100] Personal history of colon polyps, unspecified -- **Inclusion terms:** - Personal history of colon polyps NOS
+[Z860101] Personal history of adenomatous and serrated colon polyps -- **Inclusion terms:** - Personal history of tubular adenoma polyps - Personal history of sessile adenomatous colon polyp - Personal history of sessile serrated colon polyp - Personal history of tubulovillous adenoma polyps - Personal history of villous adenoma polyps - Personal history of traditional serrated adenoma polyps
+[Z860102] Personal history of hyperplastic colon polyps
+[Z860109] Personal history of other colon polyps
+[Z86011] Personal history of benign neoplasm of the brain
+[Z86012] Personal history of benign carcinoid tumor
+[Z86018] Personal history of other benign neoplasm
+[Z8603] Personal history of neoplasm of uncertain behavior
+[Z861] Personal history of infectious and parasitic diseases -- **Inclusion terms:** - Conditions classifiable to A00-B89, B99  **Excludes1:** - personal history of infectious diseases specific to a body system - sequelae of infectious and parasitic diseases (B90-B94)
+[Z8611] Personal history of tuberculosis
+[Z8612] Personal history of poliomyelitis
+[Z8613] Personal history of malaria
+[Z8614] Personal history of Methicillin resistant Staphylococcus aureus infection -- **Inclusion terms:** - Personal history of MRSA infection
+[Z8615] Personal history of latent tuberculosis infection
+[Z8616] Personal history of COVID-19 -- **Excludes1:** - post COVID-19 condition (U09.9)
+[Z8619] Personal history of other infectious and parasitic diseases
+[Z862] Personal history of diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism -- **Inclusion terms:** - Conditions classifiable to D50-D89
+[Z863] Personal history of endocrine, nutritional and metabolic diseases -- **Inclusion terms:** - Conditions classifiable to E00-E88
+[Z8631] Personal history of diabetic foot ulcer -- **Excludes2:** - current diabetic foot ulcer (E08.621, E09.621, E10.621, E11.621, E13.621)
+[Z8632] Personal history of gestational diabetes -- **Inclusion terms:** - Personal history of conditions classifiable to O24.4-  **Excludes1:** - gestational diabetes mellitus in current pregnancy (O24.4-)
+[Z8639] Personal history of other endocrine, nutritional and metabolic disease
+[Z865] Personal history of mental and behavioral disorders -- **Inclusion terms:** - Conditions classifiable to F40-F59
+[Z8651] Personal history of combat and operational stress reaction
+[Z8659] Personal history of other mental and behavioral disorders
+[Z866] Personal history of diseases of the nervous system and sense organs -- **Inclusion terms:** - Conditions classifiable to G00-G99, H00-H95
+[Z8661] Personal history of infections of the central nervous system -- **Inclusion terms:** - Personal history of encephalitis - Personal history of meningitis
+[Z8669] Personal history of other diseases of the nervous system and sense organs
+[Z867] Personal history of diseases of the circulatory system -- **Inclusion terms:** - Conditions classifiable to I00-I99  **Excludes2:** - old myocardial infarction (I25.2) - personal history of anaphylactic shock (Z87.892) - postmyocardial infarction syndrome (I24.1)
+[Z8671] Personal history of venous thrombosis and embolism
+[Z86711] Personal history of pulmonary embolism
+[Z86718] Personal history of other venous thrombosis and embolism
+[Z8672] Personal history of thrombophlebitis
+[Z8673] Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits -- **Inclusion terms:** - Personal history of prolonged reversible ischemic neurological deficit (PRIND) - Personal history of stroke NOS without residual deficits  **Excludes1:** - personal history of traumatic brain injury (Z87.820) - sequelae of cerebrovascular disease (I69.-)
+[Z8674] Personal history of sudden cardiac arrest -- **Inclusion terms:** - Personal history of sudden cardiac death successfully resuscitated
+[Z8679] Personal history of other diseases of the circulatory system
+[Z87] Personal history of other diseases and conditions -- **Code first:** - any follow-up examination after treatment (Z09)
+[Z870] Personal history of diseases of the respiratory system -- **Inclusion terms:** - Conditions classifiable to J00-J99
+[Z8701] Personal history of pneumonia (recurrent)
+[Z8709] Personal history of other diseases of the respiratory system
+[Z871] Personal history of diseases of the digestive system -- **Inclusion terms:** - Conditions classifiable to K00-K93
+[Z8711] Personal history of peptic ulcer disease
+[Z8719] Personal history of other diseases of the digestive system
+[Z872] Personal history of diseases of the skin and subcutaneous tissue -- **Inclusion terms:** - Conditions classifiable to L00-L99  **Excludes2:** - personal history of diabetic foot ulcer (Z86.31)
+[Z873] Personal history of diseases of the musculoskeletal system and connective tissue -- **Inclusion terms:** - Conditions classifiable to M00-M99  **Excludes2:** - personal history of (healed) traumatic fracture (Z87.81)
+[Z8731] Personal history of (healed) nontraumatic fracture
+[Z87310] Personal history of (healed) osteoporosis fracture -- **Inclusion terms:** - Personal history of (healed) fragility fracture - Personal history of (healed) collapsed vertebra due to osteoporosis
+[Z87311] Personal history of (healed) other pathological fracture -- **Inclusion terms:** - Personal history of (healed) collapsed vertebra NOS  **Excludes2:** - personal history of osteoporosis fracture (Z87.310)
+[Z87312] Personal history of (healed) stress fracture -- **Inclusion terms:** - Personal history of (healed) fatigue fracture
+[Z8739] Personal history of other diseases of the musculoskeletal system and connective tissue
+[Z874] Personal history of diseases of genitourinary system -- **Inclusion terms:** - Conditions classifiable to N00-N99
+[Z8741] Personal history of dysplasia of the female genital tract -- **Excludes1:** - personal history of intraepithelial neoplasia III of female genital tract (Z86.001, Z86.008) - personal history of malignant neoplasm of female genital tract (Z85.40-Z85.44)
+[Z87410] Personal history of cervical dysplasia
+[Z87411] Personal history of vaginal dysplasia
+[Z87412] Personal history of vulvar dysplasia
+[Z8742] Personal history of other diseases of the female genital tract
+[Z8743] Personal history of diseases of male genital organs
+[Z87430] Personal history of prostatic dysplasia -- **Excludes1:** - personal history of malignant neoplasm of prostate (Z85.46)
+[Z87438] Personal history of other diseases of male genital organs
+[Z8744] Personal history of diseases of urinary system -- **Excludes1:** - personal history of malignant neoplasm of cervix uteri (Z85.41)
+[Z87440] Personal history of urinary (tract) infections
+[Z87441] Personal history of nephrotic syndrome
+[Z87442] Personal history of urinary calculi -- **Inclusion terms:** - Personal history of kidney stones
+[Z87448] Personal history of other diseases of urinary system
+[Z875] Personal history of complications of pregnancy, childbirth and the puerperium -- **Inclusion terms:** - Conditions classifiable to O00-O9A  **Excludes2:** - recurrent pregnancy loss (N96)
+[Z8751] Personal history of pre-term labor -- **Excludes1:** - current pregnancy with history of pre-term labor (O09.21-)
+[Z8759] Personal history of other complications of pregnancy, childbirth and the puerperium -- **Inclusion terms:** - Personal history of trophoblastic disease
+[Z876] Personal history of certain (corrected) conditions arising in the perinatal period -- **Inclusion terms:** - Conditions classifiable to P00-P96  **Excludes1:** - personal history of (corrected) congenital malformations (Z87.7-)
+[Z8761] Personal history of (corrected) necrotizing enterocolitis of newborn
+[Z8768] Personal history of other (corrected) conditions arising in the perinatal period
+[Z877] Personal history of (corrected) congenital malformations -- **Inclusion terms:** - Conditions classifiable to Q00-Q89 that have been repaired or corrected  **Excludes2:** - congenital malformations that have been partially corrected or repaired but which still require medical treatment - code to condition - other postprocedural states (Z98.-) - personal history of medical treatment (Z92.-) - presence of cardiac and vascular implants and grafts (Z95.-) - presence of other devices (Z97.-) - presence of other functional implants (Z96.-) - transplanted organ and tissue status (Z94.-)
+[Z8771] Personal history of (corrected) congenital malformations of genitourinary system
+[Z87710] Personal history of (corrected) hypospadias
+[Z87718] Personal history of other specified (corrected) congenital malformations of genitourinary system
+[Z8772] Personal history of (corrected) congenital malformations of nervous system and sense organs
+[Z87720] Personal history of (corrected) congenital malformations of eye
+[Z87721] Personal history of (corrected) congenital malformations of ear
+[Z87728] Personal history of other specified (corrected) congenital malformations of nervous system and sense organs
+[Z8773] Personal history of (corrected) congenital malformations of digestive system
+[Z87730] Personal history of (corrected) cleft lip and palate
+[Z87731] Personal history of (corrected) tracheoesophageal fistula or atresia
+[Z87732] Personal history of (corrected) persistent cloaca or cloacal malformations
+[Z87738] Personal history of other specified (corrected) congenital malformations of digestive system
+[Z8774] Personal history of (corrected) congenital malformations of heart and circulatory system
+[Z8775] Personal history of (corrected) congenital malformations of respiratory system
+[Z8776] Personal history of (corrected) congenital malformations of integument, limbs and musculoskeletal system
+[Z87760] Personal history of (corrected) congenital diaphragmatic hernia or other congenital diaphragm malformations
+[Z87761] Personal history of (corrected) gastroschisis
+[Z87762] Personal history of (corrected) prune belly malformation
+[Z87763] Personal history of other (corrected) congenital abdominal wall malformations
+[Z87768] Personal history of other specified (corrected) congenital malformations of integument, limbs and musculoskeletal system
+[Z8779] Personal history of other (corrected) congenital malformations
+[Z87790] Personal history of (corrected) congenital malformations of face and neck
+[Z87798] Personal history of other (corrected) congenital malformations
+[Z878] Personal history of other specified conditions -- **Excludes2:** - personal history of self harm (Z91.5-)
+[Z8781] Personal history of (healed) traumatic fracture -- **Excludes2:** - personal history of (healed) nontraumatic fracture (Z87.31-)
+[Z8782] Personal history of other (healed) physical injury and trauma -- **Inclusion terms:** - Conditions classifiable to S00-T88, except traumatic fractures
+[Z87820] Personal history of traumatic brain injury -- **Excludes1:** - personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits (Z86.73)
+[Z87821] Personal history of retained foreign body fully removed
+[Z87828] Personal history of other (healed) physical injury and trauma
+[Z8789] Personal history of other specified conditions
+[Z87890] Personal history of sex reassignment
+[Z87891] Personal history of nicotine dependence -- **Excludes1:** - current nicotine dependence (F17.2-)
+[Z87892] Personal history of anaphylaxis -- **Code also:** - allergy status such as: - allergy status to drugs, medicaments and biological substances (Z88.-) - allergy status, other than to drugs and biological substances (Z91.0-)
+[Z87898] Personal history of other specified conditions
+[Z88] Allergy status to drugs, medicaments and biological substances -- **Excludes2:** - Allergy status, other than to drugs and biological substances (Z91.0-)
+[Z880] Allergy status to penicillin
+[Z881] Allergy status to other antibiotic agents
+[Z882] Allergy status to sulfonamides
+[Z883] Allergy status to other anti-infective agents
+[Z884] Allergy status to anesthetic agent
+[Z885] Allergy status to narcotic agent
+[Z886] Allergy status to analgesic agent
+[Z887] Allergy status to serum and vaccine
+[Z888] Allergy status to other drugs, medicaments and biological substances
+[Z889] Allergy status to unspecified drugs, medicaments and biological substances
+[Z89] Acquired absence of limb -- **Includes:** - amputation status - postprocedural loss of limb - post-traumatic loss of limb  **Excludes1:** - acquired deformities of limbs (M20-M21) - congenital absence of limbs (Q71-Q73)
+[Z890] Acquired absence of thumb and other finger(s)
+[Z8901] Acquired absence of thumb
+[Z89011] Acquired absence of right thumb
+[Z89012] Acquired absence of left thumb
+[Z89019] Acquired absence of unspecified thumb
+[Z8902] Acquired absence of other finger(s) -- **Excludes2:** - acquired absence of thumb (Z89.01-)
+[Z89021] Acquired absence of right finger(s)
+[Z89022] Acquired absence of left finger(s)
+[Z89029] Acquired absence of unspecified finger(s)
+[Z891] Acquired absence of hand and wrist
+[Z8911] Acquired absence of hand
+[Z89111] Acquired absence of right hand
+[Z89112] Acquired absence of left hand
+[Z89119] Acquired absence of unspecified hand
+[Z8912] Acquired absence of wrist -- **Inclusion terms:** - Disarticulation at wrist
+[Z89121] Acquired absence of right wrist
+[Z89122] Acquired absence of left wrist
+[Z89129] Acquired absence of unspecified wrist
+[Z892] Acquired absence of upper limb above wrist
+[Z8920] Acquired absence of upper limb, unspecified level
+[Z89201] Acquired absence of right upper limb, unspecified level
+[Z89202] Acquired absence of left upper limb, unspecified level
+[Z89209] Acquired absence of unspecified upper limb, unspecified level -- **Inclusion terms:** - Acquired absence of arm NOS
+[Z8921] Acquired absence of upper limb below elbow
+[Z89211] Acquired absence of right upper limb below elbow
+[Z89212] Acquired absence of left upper limb below elbow
+[Z89219] Acquired absence of unspecified upper limb below elbow
+[Z8922] Acquired absence of upper limb above elbow -- **Inclusion terms:** - Disarticulation at elbow
+[Z89221] Acquired absence of right upper limb above elbow
+[Z89222] Acquired absence of left upper limb above elbow
+[Z89229] Acquired absence of unspecified upper limb above elbow
+[Z8923] Acquired absence of shoulder -- **Inclusion terms:** - Acquired absence of shoulder joint following explantation of shoulder joint prosthesis, with or without presence of antibiotic-impregnated cement spacer
+[Z89231] Acquired absence of right shoulder
+[Z89232] Acquired absence of left shoulder
+[Z89239] Acquired absence of unspecified shoulder
+[Z894] Acquired absence of toe(s), foot, and ankle
+[Z8941] Acquired absence of great toe
+[Z89411] Acquired absence of right great toe
+[Z89412] Acquired absence of left great toe
+[Z89419] Acquired absence of unspecified great toe
+[Z8942] Acquired absence of other toe(s) -- **Excludes2:** - acquired absence of great toe (Z89.41-)
+[Z89421] Acquired absence of other right toe(s)
+[Z89422] Acquired absence of other left toe(s)
+[Z89429] Acquired absence of other toe(s), unspecified side
+[Z8943] Acquired absence of foot
+[Z89431] Acquired absence of right foot
+[Z89432] Acquired absence of left foot
+[Z89439] Acquired absence of unspecified foot
+[Z8944] Acquired absence of ankle -- **Inclusion terms:** - Disarticulation of ankle
+[Z89441] Acquired absence of right ankle
+[Z89442] Acquired absence of left ankle
+[Z89449] Acquired absence of unspecified ankle
+[Z895] Acquired absence of leg below knee
+[Z8951] Acquired absence of leg below knee
+[Z89511] Acquired absence of right leg below knee
+[Z89512] Acquired absence of left leg below knee
+[Z89519] Acquired absence of unspecified leg below knee
+[Z8952] Acquired absence of knee -- **Inclusion terms:** - Acquired absence of knee joint following explantation of knee joint prosthesis, with or without presence of antibiotic-impregnated cement spacer
+[Z89521] Acquired absence of right knee
+[Z89522] Acquired absence of left knee
+[Z89529] Acquired absence of unspecified knee
+[Z896] Acquired absence of leg above knee
+[Z8961] Acquired absence of leg above knee -- **Inclusion terms:** - Acquired absence of leg NOS - Disarticulation at knee
+[Z89611] Acquired absence of right leg above knee
+[Z89612] Acquired absence of left leg above knee
+[Z89619] Acquired absence of unspecified leg above knee
+[Z8962] Acquired absence of hip -- **Inclusion terms:** - Acquired absence of hip joint following explantation of hip joint prosthesis, with or without presence of antibiotic-impregnated cement spacer - Disarticulation at hip
+[Z89621] Acquired absence of right hip joint
+[Z89622] Acquired absence of left hip joint
+[Z89629] Acquired absence of unspecified hip joint
+[Z899] Acquired absence of limb, unspecified
+[Z90] Acquired absence of organs, not elsewhere classified -- **Includes:** - postprocedural or post-traumatic loss of body part NEC  **Excludes1:** - congenital absence - see Alphabetical Index  **Excludes2:** - postprocedural absence of endocrine glands (E89.-)
+[Z900] Acquired absence of part of head and neck
+[Z9001] Acquired absence of eye
+[Z9002] Acquired absence of larynx
+[Z9009] Acquired absence of other part of head and neck -- **Inclusion terms:** - Acquired absence of nose  **Excludes2:** - teeth (K08.1)
+[Z901] Acquired absence of breast and nipple
+[Z9010] Acquired absence of unspecified breast and nipple
+[Z9011] Acquired absence of right breast and nipple
+[Z9012] Acquired absence of left breast and nipple
+[Z9013] Acquired absence of bilateral breasts and nipples
+[Z902] Acquired absence of lung [part of]
+[Z903] Acquired absence of stomach [part of]
+[Z904] Acquired absence of other specified parts of digestive tract
+[Z9041] Acquired absence of pancreas -- **Code also:** - exocrine pancreatic insufficiency (K86.81)  **Use additional code:** - code to identify any associated: - diabetes mellitus, postpancreatectomy (E13.-) - insulin use (Z79.4)
+[Z90410] Acquired total absence of pancreas -- **Inclusion terms:** - Acquired absence of pancreas NOS
+[Z90411] Acquired partial absence of pancreas
+[Z9049] Acquired absence of other specified parts of digestive tract
+[Z905] Acquired absence of kidney
+[Z906] Acquired absence of other parts of urinary tract -- **Inclusion terms:** - Acquired absence of bladder
+[Z907] Acquired absence of genital organ(s) -- **Excludes1:** - personal history of sex reassignment (Z87.890)  **Excludes2:** - female genital mutilation status (N90.81-)
+[Z9071] Acquired absence of cervix and uterus
+[Z90710] Acquired absence of both cervix and uterus -- **Inclusion terms:** - Acquired absence of uterus NOS - Status post total hysterectomy
+[Z90711] Acquired absence of uterus with remaining cervical stump -- **Inclusion terms:** - Status post partial hysterectomy with remaining cervical stump
+[Z90712] Acquired absence of cervix with remaining uterus
+[Z9072] Acquired absence of ovaries
+[Z90721] Acquired absence of ovaries, unilateral
+[Z90722] Acquired absence of ovaries, bilateral
+[Z9079] Acquired absence of other genital organ(s)
+[Z908] Acquired absence of other organs
+[Z9081] Acquired absence of spleen
+[Z9089] Acquired absence of other organs
+[Z91] Personal risk factors, not elsewhere classified -- **Excludes2:** - contact with and (suspected) exposures hazardous to health (Z77.-) - exposure to pollution and other problems related to physical environment (Z77.1-) - female genital mutilation status (N90.81-) - occupational exposure to risk factors (Z57.-) - personal history of physical injury and trauma (Z87.81, Z87.82-)
+[Z910] Allergy status, other than to drugs and biological substances -- **Excludes2:** - Allergy status to drugs, medicaments, and biological substances (Z88.-)
+[Z9101] Food allergy status -- **Excludes2:** - food additives allergy status (Z91.02)
+[Z91010] Allergy to peanuts
+[Z91011] Allergy to milk products -- **Excludes1:** - lactose intolerance (E73.-)
+[Z91012] Allergy to eggs
+[Z91013] Allergy to seafood -- **Inclusion terms:** - Allergy to shellfish - Allergy to octopus or squid ink
+[Z91014] Allergy to mammalian meats -- **Inclusion terms:** - Allergy to beef - Allergy to lamb - Allergy to pork - Allergy to red meats
+[Z91018] Allergy to other foods -- **Inclusion terms:** - Allergy to nuts other than peanuts
+[Z9102] Food additives allergy status
+[Z9103] Insect allergy status
+[Z91030] Bee allergy status
+[Z91038] Other insect allergy status
+[Z9104] Nonmedicinal substance allergy status
+[Z91040] Latex allergy status -- **Inclusion terms:** - Latex sensitivity status
+[Z91041] Radiographic dye allergy status -- **Inclusion terms:** - Allergy status to contrast media used for diagnostic X-ray procedure
+[Z91048] Other nonmedicinal substance allergy status
+[Z9109] Other allergy status, other than to drugs and biological substances
+[Z911] Patient's noncompliance with medical treatment and regimen -- **Excludes2:** - caregiver noncompliance with patient's medical treatment and regimen (Z91.A-)  **Code also:** - , if applicable, to identify underdosing of specific drug (T36-T50 with final character 6)
+[Z9111] Patient's noncompliance with dietary regimen -- **Code also:** - , if applicable, food insecurity (Z59.4-)
+[Z91110] Patient's noncompliance with dietary regimen due to financial hardship
+[Z91118] Patient's noncompliance with dietary regimen for other reason -- **Inclusion terms:** - Inability to comply with dietary regimen
+[Z91119] Patient's noncompliance with dietary regimen due to unspecified reason
+[Z9112] Patient's intentional underdosing of medication regimen -- **Code first:** - underdosing of medication (T36-T50) with fifth or sixth character 6
+[Z91120] Patient's intentional underdosing of medication regimen due to financial hardship
+[Z91128] Patient's intentional underdosing of medication regimen for other reason
+[Z9113] Patient's unintentional underdosing of medication regimen -- **Code first:** - underdosing of medication (T36-T50) with fifth or sixth character 6
+[Z91130] Patient's unintentional underdosing of medication regimen due to age-related debility
+[Z91138] Patient's unintentional underdosing of medication regimen for other reason
+[Z9114] Patient's other noncompliance with medication regimen -- **Inclusion terms:** - Patient's underdosing of medication NOS  **Code first:** - , if applicable, adverse effect of underdosing (T36-T50)
+[Z91141] Patient's other noncompliance with medication regimen due to financial hardship
+[Z91148] Patient's other noncompliance with medication regimen for other reason
+[Z9115] Patient's noncompliance with renal dialysis
+[Z91151] Patient's noncompliance with renal dialysis due to financial hardship
+[Z91158] Patient's noncompliance with renal dialysis for other reason
+[Z9119] Patient's noncompliance with other medical treatment and regimen -- **Inclusion terms:** - Patient's nonadherence to medical treatment
+[Z91190] Patient's noncompliance with other medical treatment and regimen due to financial hardship
+[Z91198] Patient's noncompliance with other medical treatment and regimen for other reason
+[Z91199] Patient's noncompliance with other medical treatment and regimen due to unspecified reason
+[Z914] Personal history of psychological trauma, not elsewhere classified
+[Z9141] Personal history of adult abuse -- **Excludes2:** - personal history of abuse in childhood (Z62.81-)
+[Z91410] Personal history of adult physical and sexual abuse -- **Excludes1:** - current adult physical abuse (T74.11, T76.11) - current adult sexual abuse (T74.21, T76.11)
+[Z91411] Personal history of adult psychological abuse
+[Z91412] Personal history of adult neglect -- **Excludes1:** - current adult neglect (T74.01, T76.01)
+[Z91413] Personal history of adult financial abuse
+[Z91414] Personal history of adult intimate partner abuse
+[Z91419] Personal history of unspecified adult abuse
+[Z9142] Personal history of forced labor or sexual exploitation
+[Z9149] Other personal history of psychological trauma, not elsewhere classified
+[Z915] Personal history of self-harm -- **Code also:** - mental health disorder, if known
+[Z9151] Personal history of suicidal behavior -- **Inclusion terms:** - Personal history of parasuicide - Personal history of self-poisoning - Personal history of suicide attempt
+[Z9152] Personal history of nonsuicidal self-harm -- **Inclusion terms:** - Personal history of nonsuicidal self-injury - Personal history of self-inflicted injury without suicidal intent - Personal history of self-mutilation
+[Z918] Other specified personal risk factors, not elsewhere classified
+[Z9181] History of falling -- **Inclusion terms:** - At risk for falling
+[Z9182] Personal history of military deployment -- **Inclusion terms:** - Individual (civilian or military) with past history of military war, peacekeeping and humanitarian deployment (current or past conflict) - Returned from military deployment  **Excludes2:** - personal history of military service (Z91.85)
+[Z9183] Wandering in diseases classified elsewhere -- **Code first:** - underlying disorder such as: - Alzheimer's disease (G30.-) - autism or pervasive developmental disorder (F84.-) - intellectual disabilities (F70-F79) - unspecified dementia with behavioral disturbance (F03.9-, F03.A-, F03.B-, F03.C-)
+[Z9184] Oral health risk factors
+[Z91841] Risk for dental caries, low
+[Z91842] Risk for dental caries, moderate
+[Z91843] Risk for dental caries, high
+[Z91849] Unspecified risk for dental caries
+[Z9185] Personal history of military service -- **Inclusion terms:** - Personal history of serving in the armed forces - Personal history of veteran  **Excludes2:** - personal history of military deployment (Z91.82)
+[Z9189] Other specified personal risk factors, not elsewhere classified -- **Inclusion terms:** - Increased risk for social isolation
+[Z91A] Caregiver's noncompliance with patient's medical treatment and regimen
+[Z91A1] Caregiver's noncompliance with patient's dietary regimen -- **Inclusion terms:** - Caregiver's inability to comply with patient's dietary regimen  **Code also:** - , if applicable, food insecurity (Z59.4-)
+[Z91A10] Caregiver's noncompliance with patient's dietary regimen due to financial hardship
+[Z91A18] Caregiver's noncompliance with patient's dietary regimen for other reason
+[Z91A2] Caregiver's intentional underdosing of patient's medication regimen -- **Code first:** - underdosing of medication (T36-T50) with fifth or sixth character 6
+[Z91A20] Caregiver's intentional underdosing of patient's medication regimen due to financial hardship
+[Z91A28] Caregiver's intentional underdosing of medication regimen for other reason
+[Z91A3] Caregiver's unintentional underdosing of patient's medication regimen -- **Code first:** - underdosing of medication (T36-T50) with fifth or sixth character 6
+[Z91A4] Caregiver's other noncompliance with patient's medication regimen -- **Inclusion terms:** - Caregiver's underdosing of patient's medication NOS - Caregiver's underdosing with patient's medication NOS
+[Z91A41] Caregiver's other noncompliance with patient's medication regimen due to financial hardship
+[Z91A48] Caregiver's other noncompliance with patient's medication regimen for other reason
+[Z91A5] Caregiver's noncompliance with patient's renal dialysis
+[Z91A51] Caregiver's noncompliance with patient's renal dialysis due to financial hardship
+[Z91A58] Caregiver's noncompliance with patient's renal dialysis for other reason
+[Z91A9] Caregiver's noncompliance with patient's other medical treatment and regimen -- **Inclusion terms:** - Caregiver's nonadherence to patient's medical treatment
+[Z91A91] Caregiver's noncompliance with patient's other medical treatment and regimen due to financial hardship
+[Z91A98] Caregiver's noncompliance with patient's other medical treatment and regimen for other reason
+[Z92] Personal history of medical treatment -- **Excludes2:** - postprocedural states (Z98.-)
+[Z920] Personal history of contraception -- **Excludes1:** - counseling or management of current contraceptive practices (Z30.-) - long term (current) use of contraception (Z79.3) - presence of (intrauterine) contraceptive device (Z97.5)
+[Z922] Personal history of drug therapy -- **Excludes2:** - long term (current) drug therapy (Z79.-)
+[Z9221] Personal history of antineoplastic chemotherapy
+[Z9222] Personal history of monoclonal drug therapy -- **Excludes2:** - personal history of immune checkpoint inhibitor therapy (Z92.26)
+[Z9223] Personal history of estrogen therapy
+[Z9224] Personal history of steroid therapy
+[Z92240] Personal history of inhaled steroid therapy
+[Z92241] Personal history of systemic steroid therapy -- **Inclusion terms:** - Personal history of steroid therapy NOS
+[Z9225] Personal history of immunosuppression therapy -- **Excludes2:** - personal history of steroid therapy (Z92.24)
+[Z9226] Personal history of immune checkpoint inhibitor therapy -- **Inclusion terms:** - Personal history of ICI drug therapy
+[Z9229] Personal history of other drug therapy
+[Z923] Personal history of irradiation -- **Inclusion terms:** - Personal history of exposure to therapeutic radiation  **Excludes1:** - exposure to radiation in the physical environment (Z77.12) - occupational exposure to radiation (Z57.1)
+[Z928] Personal history of other medical treatment
+[Z9281] Personal history of extracorporeal membrane oxygenation (ECMO)
+[Z9282] Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility -- **Code first:** - condition requiring tPA administration, such as: - acute cerebral infarction (I63.-) - acute myocardial infarction (I21.-, I22.-)
+[Z9283] Personal history of failed moderate sedation -- **Inclusion terms:** - Personal history of failed conscious sedation  **Excludes2:** - failed moderate sedation during procedure (T88.52)
+[Z9284] Personal history of unintended awareness under general anesthesia -- **Excludes2:** - unintended awareness under general anesthesia during procedure (T88.53)
+[Z9285] Personal history of cellular therapy -- **Excludes2:** - personal history of immune checkpoint inhibitor therapy (Z92.26)
+[Z92850] Personal history of Chimeric Antigen Receptor T-cell therapy -- **Inclusion terms:** - Personal history of CAR T-cell therapy
+[Z92858] Personal history of other cellular therapy
+[Z92859] Personal history of cellular therapy, unspecified
+[Z9286] Personal history of gene therapy
+[Z9289] Personal history of other medical treatment
+[Z93] Artificial opening status -- **Excludes1:** - artificial openings requiring attention or management (Z43.-) - complications of external stoma (J95.0-, K94.-, N99.5-)
+[Z930] Tracheostomy status
+[Z931] Gastrostomy status
+[Z932] Ileostomy status -- **Inclusion terms:** - Ileal pouch status - Kock pouch status
+[Z933] Colostomy status
+[Z934] Other artificial openings of gastrointestinal tract status
+[Z935] Cystostomy status
+[Z9350] Unspecified cystostomy status
+[Z9351] Cutaneous-vesicostomy status
+[Z9352] Appendico-vesicostomy status
+[Z9359] Other cystostomy status
+[Z936] Other artificial openings of urinary tract status -- **Inclusion terms:** - Nephrostomy status - Ureterostomy status - Urethrostomy status
+[Z938] Other artificial opening status
+[Z939] Artificial opening status, unspecified
+[Z94] Transplanted organ and tissue status -- **Includes:** - organ or tissue replaced by heterogenous or homogenous transplant  **Excludes1:** - complications of transplanted organ or tissue - see Alphabetical Index  **Excludes2:** - presence of vascular grafts (Z95.-)
+[Z940] Kidney transplant status
+[Z941] Heart transplant status -- **Excludes1:** - artificial heart status (Z95.812) - heart-valve replacement status (Z95.2-Z95.4)
+[Z942] Lung transplant status
+[Z943] Heart and lungs transplant status
+[Z944] Liver transplant status
+[Z945] Skin transplant status -- **Inclusion terms:** - Autogenous skin transplant status
+[Z946] Bone transplant status
+[Z947] Corneal transplant status
+[Z948] Other transplanted organ and tissue status
+[Z9481] Bone marrow transplant status
+[Z9482] Intestine transplant status
+[Z9483] Pancreas transplant status
+[Z9484] Stem cells transplant status
+[Z9489] Other transplanted organ and tissue status
+[Z949] Transplanted organ and tissue status, unspecified
+[Z95] Presence of cardiac and vascular implants and grafts -- **Excludes2:** - complications of cardiac and vascular devices, implants and grafts (T82.-)
+[Z950] Presence of cardiac pacemaker -- **Inclusion terms:** - Presence of cardiac resynchronization therapy (CRT-P) pacemaker  **Excludes1:** - adjustment or management of cardiac device (Z45.0-) - adjustment or management of cardiac pacemaker (Z45.0) - presence of automatic (implantable) cardiac defibrillator with synchronous cardiac pacemaker (Z95.810)
+[Z951] Presence of aortocoronary bypass graft -- **Inclusion terms:** - Presence of coronary artery bypass graft
+[Z952] Presence of prosthetic heart valve -- **Inclusion terms:** - Presence of heart valve NOS
+[Z953] Presence of xenogenic heart valve
+[Z954] Presence of other heart-valve replacement
+[Z955] Presence of coronary angioplasty implant and graft -- **Excludes1:** - coronary angioplasty status without implant and graft (Z98.61)
+[Z958] Presence of other cardiac and vascular implants and grafts
+[Z9581] Presence of other cardiac implants and grafts
+[Z95810] Presence of automatic (implantable) cardiac defibrillator -- **Inclusion terms:** - Presence of automatic (implantable) cardiac defibrillator with synchronous cardiac pacemaker - Presence of cardiac resynchronization therapy defibrillator (CRT-D) - Presence of cardioverter-defibrillator (ICD)
+[Z95811] Presence of heart assist device
+[Z95812] Presence of fully implantable artificial heart
+[Z95818] Presence of other cardiac implants and grafts
+[Z9582] Presence of other vascular implants and grafts
+[Z95820] Peripheral vascular angioplasty status with implants and grafts -- **Excludes1:** - peripheral vascular angioplasty without implant and graft (Z98.62)
+[Z95828] Presence of other vascular implants and grafts -- **Inclusion terms:** - Presence of intravascular prosthesis NEC
+[Z959] Presence of cardiac and vascular implant and graft, unspecified
+[Z96] Presence of other functional implants -- **Excludes2:** - complications of internal prosthetic devices, implants and grafts (T82-T85) - fitting and adjustment of prosthetic and other devices (Z44-Z46)
+[Z960] Presence of urogenital implants
+[Z961] Presence of intraocular lens -- **Inclusion terms:** - Presence of pseudophakia
+[Z962] Presence of otological and audiological implants
+[Z9620] Presence of otological and audiological implant, unspecified
+[Z9621] Cochlear implant status
+[Z9622] Myringotomy tube(s) status
+[Z9629] Presence of other otological and audiological implants -- **Inclusion terms:** - Presence of bone-conduction hearing device - Presence of eustachian tube stent - Stapes replacement
+[Z963] Presence of artificial larynx
+[Z964] Presence of endocrine implants
+[Z9641] Presence of insulin pump (external) (internal)
+[Z9649] Presence of other endocrine implants
+[Z965] Presence of tooth-root and mandibular implants
+[Z966] Presence of orthopedic joint implants
+[Z9660] Presence of unspecified orthopedic joint implant
+[Z9661] Presence of artificial shoulder joint
+[Z96611] Presence of right artificial shoulder joint
+[Z96612] Presence of left artificial shoulder joint
+[Z96619] Presence of unspecified artificial shoulder joint
+[Z9662] Presence of artificial elbow joint
+[Z96621] Presence of right artificial elbow joint
+[Z96622] Presence of left artificial elbow joint
+[Z96629] Presence of unspecified artificial elbow joint
+[Z9663] Presence of artificial wrist joint
+[Z96631] Presence of right artificial wrist joint
+[Z96632] Presence of left artificial wrist joint
+[Z96639] Presence of unspecified artificial wrist joint
+[Z9664] Presence of artificial hip joint -- **Inclusion terms:** - Hip-joint replacement (partial) (total)
+[Z96641] Presence of right artificial hip joint
+[Z96642] Presence of left artificial hip joint
+[Z96643] Presence of artificial hip joint, bilateral
+[Z96649] Presence of unspecified artificial hip joint
+[Z9665] Presence of artificial knee joint
+[Z96651] Presence of right artificial knee joint
+[Z96652] Presence of left artificial knee joint
+[Z96653] Presence of artificial knee joint, bilateral
+[Z96659] Presence of unspecified artificial knee joint
+[Z9666] Presence of artificial ankle joint
+[Z96661] Presence of right artificial ankle joint
+[Z96662] Presence of left artificial ankle joint
+[Z96669] Presence of unspecified artificial ankle joint
+[Z9669] Presence of other orthopedic joint implants
+[Z96691] Finger-joint replacement of right hand
+[Z96692] Finger-joint replacement of left hand
+[Z96693] Finger-joint replacement, bilateral
+[Z96698] Presence of other orthopedic joint implants
+[Z967] Presence of other bone and tendon implants -- **Inclusion terms:** - Presence of skull plate
+[Z968] Presence of other specified functional implants
+[Z9681] Presence of artificial skin
+[Z9682] Presence of neurostimulator -- **Inclusion terms:** - Presence of brain neurostimulator - Presence of gastric neurostimulator - Presence of peripheral nerve neurostimulator - Presence of sacral nerve neurostimulator - Presence of spinal cord neurostimulator - Presence of vagus nerve neurostimulator
+[Z9689] Presence of other specified functional implants
+[Z969] Presence of functional implant, unspecified
+[Z97] Presence of other devices -- **Excludes1:** - complications of internal prosthetic devices, implants and grafts (T82-T85)  **Excludes2:** - fitting and adjustment of prosthetic and other devices (Z44-Z46) - presence of cerebrospinal fluid drainage device (Z98.2)
+[Z970] Presence of artificial eye
+[Z971] Presence of artificial limb (complete) (partial)
+[Z9710] Presence of artificial limb (complete) (partial), unspecified
+[Z9711] Presence of artificial right arm (complete) (partial)
+[Z9712] Presence of artificial left arm (complete) (partial)
+[Z9713] Presence of artificial right leg (complete) (partial)
+[Z9714] Presence of artificial left leg (complete) (partial)
+[Z9715] Presence of artificial arms, bilateral (complete) (partial)
+[Z9716] Presence of artificial legs, bilateral (complete) (partial)
+[Z972] Presence of dental prosthetic device (complete) (partial) -- **Inclusion terms:** - Presence of dentures (complete) (partial)
+[Z973] Presence of spectacles and contact lenses
+[Z974] Presence of external hearing-aid
+[Z975] Presence of (intrauterine) contraceptive device -- **Excludes1:** - checking, reinsertion or removal of implantable subdermal contraceptive (Z30.46) - checking, reinsertion or removal of intrauterine contraceptive device (Z30.43-)
+[Z978] Presence of other specified devices
+[Z98] Other postprocedural states -- **Excludes2:** - aftercare (Z43-Z49, Z51) - follow-up medical care (Z08-Z09) - postprocedural complication - see Alphabetical Index
+[Z980] Intestinal bypass and anastomosis status -- **Excludes2:** - bariatric surgery status (Z98.84) - gastric bypass status (Z98.84) - obesity surgery status (Z98.84)
+[Z981] Arthrodesis status
+[Z982] Presence of cerebrospinal fluid drainage device -- **Inclusion terms:** - Presence of CSF shunt
+[Z983] Post therapeutic collapse of lung status -- **Code first:** - underlying disease
+[Z984] Cataract extraction status -- **Excludes1:** - aphakia (H27.0)  **Use additional code:** - code to identify intraocular lens implant status (Z96.1)
+[Z9841] Cataract extraction status, right eye
+[Z9842] Cataract extraction status, left eye
+[Z9849] Cataract extraction status, unspecified eye
+[Z985] Sterilization status -- **Excludes1:** - female infertility (N97.-) - male infertility (N46.-)
+[Z9851] Tubal ligation status
+[Z9852] Vasectomy status
+[Z986] Angioplasty status
+[Z9861] Coronary angioplasty status -- **Excludes1:** - coronary angioplasty status with implant and graft (Z95.5)
+[Z9862] Peripheral vascular angioplasty status -- **Excludes1:** - peripheral vascular angioplasty status with implant and graft (Z95.820)
+[Z988] Other specified postprocedural states
+[Z9881] Dental procedure status
+[Z98810] Dental sealant status
+[Z98811] Dental restoration status -- **Inclusion terms:** - Dental crown status - Dental fillings status
+[Z98818] Other dental procedure status
+[Z9882] Breast implant status -- **Excludes1:** - breast implant removal status (Z98.86)
+[Z9883] Filtering (vitreous) bleb after glaucoma surgery status -- **Excludes1:** - Inflammation (infection) of postprocedural bleb (H59.4-)
+[Z9884] Bariatric surgery status -- **Inclusion terms:** - Gastric banding status - Gastric bypass status for obesity - Obesity surgery status  **Excludes1:** - bariatric surgery status complicating pregnancy, childbirth, or the puerperium (O99.84)  **Excludes2:** - intestinal bypass and anastomosis status (Z98.0)
+[Z9885] Transplanted organ removal status -- **Inclusion terms:** - Transplanted organ previously removed due to complication, failure, rejection or infection  **Excludes1:** - encounter for removal of transplanted organ -code to complication of transplanted organ (T86.-)
+[Z9886] Personal history of breast implant removal
+[Z9887] Personal history of in utero procedure
+[Z98870] Personal history of in utero procedure during pregnancy -- **Excludes2:** - complications from in utero procedure for current pregnancy (O35.7) - supervision of current pregnancy with history of in utero procedure during previous pregnancy (O09.82-)
+[Z98871] Personal history of in utero procedure while a fetus
+[Z9889] Other specified postprocedural states
+[Z98890] Other specified postprocedural states -- **Inclusion terms:** - Personal history of surgery, not elsewhere classified
+[Z98891] History of uterine scar from previous surgery -- **Excludes1:** - Maternal care due to uterine scar from previous surgery (O34.2-)
+[Z99] Dependence on enabling machines and devices, not elsewhere classified
+[Z990] Dependence on aspirator
+[Z991] Dependence on respirator -- **Inclusion terms:** - Dependence on ventilator
+[Z9911] Dependence on respirator [ventilator] status
+[Z9912] Encounter for respirator [ventilator] dependence during power failure -- **Excludes1:** - mechanical complication of respirator [ventilator] (J95.850)
+[Z992] Dependence on renal dialysis -- **Inclusion terms:** - Hemodialysis status - Peritoneal dialysis status - Presence of arteriovenous shunt for dialysis - Renal dialysis status NOS  **Excludes1:** - encounter for fitting and adjustment of dialysis catheter (Z49.0-)  **Excludes2:** - noncompliance with renal dialysis (Z91.15-)
+[Z993] Dependence on wheelchair -- **Inclusion terms:** - Wheelchair confinement status  **Code first:** - cause of dependence, such as: - muscular dystrophy (G71.0-) - obesity (E66.-)
+[Z998] Dependence on other enabling machines and devices
+[Z9981] Dependence on supplemental oxygen -- **Inclusion terms:** - Dependence on long-term oxygen
+[Z9989] Dependence on other enabling machines and devices -- **Inclusion terms:** - Dependence on machine or device NOS

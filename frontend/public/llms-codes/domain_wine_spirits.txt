@@ -1,0 +1,26 @@
+[dws_brew] Craft Brewing :: naics_2022:3121, naics_2022:4248
+[dws_brew_ale] Ale and Lager Craft Brewing
+[dws_brew_cider] Hard Cider and Perry Production
+[dws_brew_seltzer] Hard Seltzer and Ready-to-Drink Beverages
+[dws_dist] Beverage Distribution :: naics_2022:3121, naics_2022:4248
+[dws_dist_dtc] Direct-to-Consumer and Wine Club Sales
+[dws_dist_ecomm] E-Commerce Beverage Platforms
+[dws_dist_import] Import and Export of Wines and Spirits
+[dws_dist_wholesale] Wholesale Beverage Distribution
+[dws_spirit] Distilled Spirits :: naics_2022:3121, naics_2022:4248
+[dws_spirit_brandy] Brandy and Cognac
+[dws_spirit_gin] Gin and Botanical Spirits
+[dws_spirit_rum] Rum and Cane Spirits
+[dws_spirit_tequila] Tequila, Mezcal and Agave Spirits
+[dws_spirit_vodka] Vodka and Neutral Spirits
+[dws_spirit_whiskey] Whiskey and Bourbon Distilling
+[dws_viti] Viticulture :: naics_2022:3121, naics_2022:4248
+[dws_viti_harvest] Grape Harvesting and Sorting
+[dws_viti_nursery] Grapevine Nursery and Rootstock Propagation
+[dws_viti_organic] Organic and Biodynamic Viticulture
+[dws_viti_vineyard] Vineyard Management and Grape Growing
+[dws_wine] Wine Production :: naics_2022:3121, naics_2022:4248
+[dws_wine_fortified] Fortified Wine (port, sherry, madeira)
+[dws_wine_natural] Natural and Low-Intervention Wine
+[dws_wine_sparkling] Sparkling Wine and Champagne
+[dws_wine_still] Still Wine (red, white, rose)

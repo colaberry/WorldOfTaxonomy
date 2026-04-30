@@ -1,0 +1,21 @@
+[DSM] DSM-5 Diagnostic Categories
+[DSM.01] Neurodevelopmental Disorders
+[DSM.02] Schizophrenia Spectrum
+[DSM.03] Bipolar and Related Disorders
+[DSM.04] Depressive Disorders
+[DSM.05] Anxiety Disorders
+[DSM.06] Obsessive-Compulsive
+[DSM.07] Trauma and Stressor-Related
+[DSM.08] Dissociative Disorders
+[DSM.09] Somatic Symptom Disorders
+[DSM.10] Feeding and Eating Disorders
+[DSM.11] Elimination Disorders
+[DSM.12] Sleep-Wake Disorders
+[DSM.13] Sexual Dysfunctions
+[DSM.14] Gender Dysphoria
+[DSM.15] Disruptive and Conduct Disorders
+[DSM.16] Substance-Related Disorders
+[DSM.17] Neurocognitive Disorders
+[DSM.18] Personality Disorders
+[DSM.19] Paraphilic Disorders
+[DSM.20] Other Conditions

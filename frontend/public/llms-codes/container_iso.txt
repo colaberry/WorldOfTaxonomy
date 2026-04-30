@@ -1,0 +1,14 @@
+[CI] ISO Container Types
+[CI.01] GP - General Purpose
+[CI.02] VH - Ventilated
+[CI.03] BU - Bulk
+[CI.04] RE - Reefer (Refrigerated)
+[CI.05] TN - Tank
+[CI.06] PL - Platform (Flat Rack)
+[CI.07] OT - Open Top
+[CI.08] UT - Named Cargo
+[CI.09] 20ft Standard (20GP)
+[CI.10] 40ft Standard (40GP)
+[CI.11] 40ft High Cube (40HC)
+[CI.12] 45ft High Cube (45HC)
+[CI.13] Swap Body

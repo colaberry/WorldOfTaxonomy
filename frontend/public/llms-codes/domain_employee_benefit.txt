@@ -1,0 +1,15 @@
+[EB] Employee Benefit Types :: naics_2022:5613, naics_2022:5614
+[EB.01] Health Insurance (Group)
+[EB.02] Dental and Vision
+[EB.03] 401(k) Retirement Plan
+[EB.04] Pension (Defined Benefit)
+[EB.05] Life Insurance (Group)
+[EB.06] Disability Insurance
+[EB.07] Flexible Spending Account (FSA)
+[EB.08] Health Savings Account (HSA)
+[EB.09] Paid Time Off (PTO)
+[EB.10] Parental Leave
+[EB.11] Tuition Reimbursement
+[EB.12] Employee Assistance Program
+[EB.13] Stock Options/ESPP
+[EB.14] Wellness Program

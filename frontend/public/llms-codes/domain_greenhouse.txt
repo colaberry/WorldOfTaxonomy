@@ -1,0 +1,13 @@
+[GH] Greenhouse Types :: naics_2022:111
+[GH.01] Glass Greenhouse
+[GH.02] Polycarbonate Greenhouse
+[GH.03] Polyethylene Film Greenhouse
+[GH.04] High Tunnel (Hoop House)
+[GH.05] Venlo-Type Greenhouse
+[GH.06] Gothic Arch Greenhouse
+[GH.07] Lean-To Greenhouse
+[GH.08] Shade House
+[GH.09] Climate-Controlled Greenhouse
+[GH.10] Automated Greenhouse
+[GH.11] Solar Greenhouse (Passive)
+[GH.12] Greenhouse Gas Management

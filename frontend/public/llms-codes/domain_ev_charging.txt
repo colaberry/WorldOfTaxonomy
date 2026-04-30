@@ -1,0 +1,18 @@
+[evc_level] Charging Levels :: naics_2022:2211
+[evc_level_1] Level 1 AC (120V, home outlet)
+[evc_level_2] Level 2 AC (240V, dedicated EVSE)
+[evc_level_3] DC Fast Charging (50-350kW)
+[evc_level_uf] Ultra-fast charging (350kW+)
+[evc_net] Network and Business Models :: naics_2022:2211
+[evc_net_dest] Destination charging (hotels, retail)
+[evc_net_fleet] Fleet and depot charging
+[evc_net_home] Home charging (L1/L2 EVSE)
+[evc_net_pub] Public charging network operator
+[evc_net_work] Workplace charging
+[evc_tech] Technology Types :: naics_2022:2211
+[evc_tech_ccs] CCS (Combined Charging System)
+[evc_tech_chad] CHAdeMO
+[evc_tech_nacs] NACS (Tesla/SAE J3400)
+[evc_tech_swap] Battery swapping
+[evc_tech_v2g] Vehicle-to-grid (V2G)
+[evc_tech_wire] Wireless (inductive) charging

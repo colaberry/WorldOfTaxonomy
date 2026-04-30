@@ -1,0 +1,14 @@
+[WT] Wetland Types :: naics_2022:5417, naics_2022:924
+[WT.01] Freshwater Marsh
+[WT.02] Saltwater Marsh
+[WT.03] Swamp (Forested Wetland)
+[WT.04] Bog (Peat Wetland)
+[WT.05] Fen
+[WT.06] Mangrove Wetland
+[WT.07] Tidal Flat
+[WT.08] Vernal Pool
+[WT.09] Riparian Wetland
+[WT.10] Constructed Wetland
+[WT.11] Prairie Pothole
+[WT.12] Floodplain Wetland
+[WT.13] Wetland Delineation Method

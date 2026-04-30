@@ -1,0 +1,14 @@
+[RG] Clinical Registry Types :: naics_2022:5417, naics_2022:6215
+[RG.01] Disease Registry
+[RG.02] Procedure Registry
+[RG.03] Device Registry
+[RG.04] Implant Registry
+[RG.05] Cancer Registry
+[RG.06] Trauma Registry
+[RG.07] Birth Defects Registry
+[RG.08] Transplant Registry
+[RG.09] Rare Disease Registry
+[RG.10] Quality Improvement Registry
+[RG.11] Patient-Powered Registry
+[RG.12] Pharmacovigilance Registry
+[RG.13] Post-Market Surveillance Registry

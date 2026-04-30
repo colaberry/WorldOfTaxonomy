@@ -1,0 +1,20 @@
+[drtlprc_dynamic] Dynamic and Algorithmic Pricing Strategy :: naics_2022:44-45
+[drtlprc_dynamic_competitive] Competitive price matching and algorithmic parity
+[drtlprc_dynamic_demand] Demand-based dynamic repricing (surge, markdown optimization)
+[drtlprc_dynamic_personalized] Personalized pricing using purchase history and propensity
+[drtlprc_edlp] Everyday Low Price (EDLP) Strategy :: naics_2022:44-45
+[drtlprc_edlp_private] EDLP with strong private-label focus for margin support
+[drtlprc_edlp_pure] Pure EDLP: stable low prices, minimal promotions (Walmart, Aldi)
+[drtlprc_hilo] High-Low Promotional Pricing Strategy :: naics_2022:44-45
+[drtlprc_hilo_event] Event-based pricing (Black Friday, seasonal clearance)
+[drtlprc_hilo_loyalty] Loyalty-card pricing (member vs. non-member pricing)
+[drtlprc_hilo_weekly] Weekly circular / weekly ad-driven promotions
+[drtlprc_premium] Premium and Luxury Pricing Strategy :: naics_2022:44-45
+[drtlprc_premium_prestige] Prestige pricing (luxury brands, Veblen goods)
+[drtlprc_premium_quality] Quality signaling pricing (organic, clean-label premiums)
+[drtlprc_subscription] Subscription and Membership Pricing Models :: naics_2022:44-45
+[drtlprc_subscription_auto] Auto-replenishment subscriptions (Amazon Subscribe & Save)
+[drtlprc_subscription_membership] Membership fee + low retail prices (Costco, Sam's Club)
+[drtlprc_valueadd] Value-Add and Bundle Pricing :: naics_2022:44-45
+[drtlprc_valueadd_bundle] Product bundling for higher ticket and margin
+[drtlprc_valueadd_tiered] Tiered good/better/best assortment pricing

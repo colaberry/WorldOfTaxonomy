@@ -1,0 +1,15 @@
+[SH] Social Determinant of Health Types :: naics_2022:5419
+[SH.01] Economic Stability
+[SH.02] Education Access and Quality
+[SH.03] Healthcare Access and Quality
+[SH.04] Neighborhood and Built Environment
+[SH.05] Social and Community Context
+[SH.06] Food Security
+[SH.07] Housing Stability
+[SH.08] Transportation Access
+[SH.09] Language and Literacy
+[SH.10] Digital Health Literacy
+[SH.11] Social Isolation
+[SH.12] Adverse Childhood Experiences
+[SH.13] Environmental Exposure
+[SH.14] Incarceration History

@@ -1,0 +1,18 @@
+[cc_mkt] Market Types :: naics_2022:5417, naics_2022:924
+[cc_mkt_art6] Article 6 (Paris Agreement) market
+[cc_mkt_comp] Compliance market (EU ETS, CA cap-and-trade)
+[cc_mkt_vol] Voluntary carbon market
+[cc_proj] Project Categories :: naics_2022:5417, naics_2022:924
+[cc_proj_bio] Biochar and enhanced weathering
+[cc_proj_blue] Blue carbon (mangroves, seagrass)
+[cc_proj_cook] Clean cookstoves
+[cc_proj_dac] Direct air capture (DAC)
+[cc_proj_forest] Forestry and land use (REDD+, A/R)
+[cc_proj_meth] Methane capture and avoidance
+[cc_proj_renew] Renewable energy projects
+[cc_type] Credit Types :: naics_2022:5417, naics_2022:924
+[cc_type_cer] Certified emission reductions (CER)
+[cc_type_eru] Emission reduction units (ERU)
+[cc_type_redd] REDD+ credits
+[cc_type_rem] Carbon removal credits (CDR)
+[cc_type_ver] Verified carbon units (VCU)

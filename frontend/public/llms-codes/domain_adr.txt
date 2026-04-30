@@ -1,0 +1,14 @@
+[AD] Alternative Dispute Resolution Types :: naics_2022:5411
+[AD.01] Mediation
+[AD.02] Arbitration (Binding)
+[AD.03] Arbitration (Non-Binding)
+[AD.04] Negotiation
+[AD.05] Conciliation
+[AD.06] Early Neutral Evaluation
+[AD.07] Mini-Trial
+[AD.08] Med-Arb (Hybrid)
+[AD.09] Online Dispute Resolution
+[AD.10] Investor-State Arbitration (ICSID)
+[AD.11] International Commercial (ICC)
+[AD.12] UNCITRAL Arbitration Rules
+[AD.13] Class Action Arbitration

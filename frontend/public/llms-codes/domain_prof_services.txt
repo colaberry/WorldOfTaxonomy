@@ -1,0 +1,22 @@
+[dps_bill] Billing and Fee Model :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dps_bill_contingent] Contingency Fee (success-based, percentage)
+[dps_bill_fixed] Fixed Fee (project price, lump sum)
+[dps_bill_hourly] Hourly Rate (billable hours, timesheet-based)
+[dps_bill_value] Value-Based Pricing (outcome and ROI-linked)
+[dps_cert] Professional Certification and Licensure :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dps_cert_cpa] CPA - Certified Public Accountant
+[dps_cert_jd] JD - Juris Doctor and Bar Admission
+[dps_cert_pe] PE - Professional Engineer License
+[dps_cert_pmp] PMP - Project Management Professional
+[dps_engage] Engagement Type :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dps_engage_advisory] Board Advisory and Expert Witness
+[dps_engage_project] Project-Based Engagement (fixed scope, deadline)
+[dps_engage_retainer] Retainer and Ongoing Advisory
+[dps_engage_staff] Staff Augmentation (contract, nearshore, offshore)
+[dps_line] Professional Service Line :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dps_line_acct] Accounting and Audit (CPA firm, tax advisory)
+[dps_line_consult] Management Consulting (strategy, operations, IT)
+[dps_line_eng] Engineering and Technical Services (civil, mech, EE)
+[dps_line_legal] Legal Services (law firm, corporate counsel)
+[dps_line_mktg] Marketing, Advertising and PR Agency
+[dps_line_research] Research and Development Services

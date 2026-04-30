@@ -1,0 +1,17 @@
+[SS] Surgical Specialty Types :: naics_2022:6211, naics_2022:6221
+[SS.01] General Surgery
+[SS.02] Cardiac Surgery
+[SS.03] Thoracic Surgery
+[SS.04] Neurosurgery
+[SS.05] Orthopedic Surgery
+[SS.06] Plastic and Reconstructive
+[SS.07] Vascular Surgery
+[SS.08] Urologic Surgery
+[SS.09] Pediatric Surgery
+[SS.10] Transplant Surgery
+[SS.11] Colorectal Surgery
+[SS.12] Surgical Oncology
+[SS.13] Minimally Invasive Surgery
+[SS.14] Robotic Surgery
+[SS.15] Trauma Surgery
+[SS.16] Bariatric Surgery

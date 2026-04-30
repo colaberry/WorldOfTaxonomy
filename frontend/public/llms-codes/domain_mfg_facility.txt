@@ -1,0 +1,17 @@
+[dmfgfac_batch] Batch Production :: naics_2022:31-33
+[dmfgfac_batch_large] Large batch: 500-5000 units, lower setup cost, reduced variety
+[dmfgfac_batch_small] Small batch: 10-500 units, high setup, moderate variety
+[dmfgfac_continuous] Continuous Process Production :: naics_2022:31-33
+[dmfgfac_continuous_chem] Continuous chemical and refinery process plants
+[dmfgfac_continuous_food] Continuous food and beverage processing lines
+[dmfgfac_flex] Flexible and Reconfigurable Manufacturing :: naics_2022:31-33
+[dmfgfac_flex_fmc] Flexible manufacturing cell (FMC) with machining centers and robots
+[dmfgfac_flex_fms] Flexible manufacturing system (FMS) with automated material handling
+[dmfgfac_flex_micro] Micro-factory and distributed manufacturing node
+[dmfgfac_flow] Flow and Assembly Line Production :: naics_2022:31-33
+[dmfgfac_flow_mixed] Mixed-model assembly line for variant production
+[dmfgfac_flow_straight] Straight-line assembly (automotive, appliances, electronics)
+[dmfgfac_flow_uflex] U-shaped flexible line for lean single-piece flow
+[dmfgfac_jobshop] Job Shop Production :: naics_2022:31-33
+[dmfgfac_jobshop_general] General job shop: low volume, high variety, custom orders
+[dmfgfac_jobshop_special] Specialized job shop: niche, high-complexity parts (aerospace, defense)

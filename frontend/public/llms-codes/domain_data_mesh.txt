@@ -1,0 +1,15 @@
+[DM] Data Mesh Types :: naics_2022:518, naics_2022:5415
+[DM.01] Domain-Oriented Ownership
+[DM.02] Data as a Product
+[DM.03] Self-Serve Data Platform
+[DM.04] Federated Governance
+[DM.05] Data Product Catalog
+[DM.06] Data Contract
+[DM.07] Data Product API
+[DM.08] Data Product SLA
+[DM.09] Domain Data Team
+[DM.10] Platform Data Team
+[DM.11] Interoperability Standard
+[DM.12] Data Mesh Topology
+[DM.13] Cross-Domain Query
+[DM.14] Polyglot Persistence

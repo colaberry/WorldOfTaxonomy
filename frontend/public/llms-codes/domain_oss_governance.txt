@@ -1,0 +1,16 @@
+[OG] Open Source Governance Types :: naics_2022:5419
+[OG.01] Foundation-Governed (Linux Foundation)
+[OG.02] Foundation-Governed (Apache)
+[OG.03] Foundation-Governed (CNCF)
+[OG.04] Corporate-Backed Open Source
+[OG.05] Community-Driven (BDFL)
+[OG.06] Community-Driven (Meritocratic)
+[OG.07] Consortium Model
+[OG.08] Working Group Model
+[OG.09] Technical Steering Committee
+[OG.10] SIG-Based Governance
+[OG.11] RFC Process
+[OG.12] Code of Conduct Framework
+[OG.13] CLA-Based Contribution
+[OG.14] DCO-Based Contribution
+[OG.15] Inner Source

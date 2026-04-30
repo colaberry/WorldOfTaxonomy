@@ -1,0 +1,17 @@
+[rail_freight] Freight Rail :: naics_2022:482
+[rail_freight_auto] Automotive rail transport
+[rail_freight_bulk] Bulk freight (coal, grain, ore)
+[rail_freight_inter] Intermodal container freight
+[rail_freight_ref] Refrigerated rail
+[rail_freight_tank] Tank car (chemicals, petroleum)
+[rail_infra] Rail Infrastructure :: naics_2022:482
+[rail_infra_elec] Electrification systems
+[rail_infra_signal] Signaling and train control
+[rail_infra_track] Track and right-of-way
+[rail_infra_yard] Classification yards and terminals
+[rail_pass] Passenger Rail :: naics_2022:482
+[rail_pass_hsr] High-speed rail (>250 km/h)
+[rail_pass_inter] Intercity rail
+[rail_pass_light] Light rail and tram
+[rail_pass_metro] Metro and subway
+[rail_pass_reg] Regional and commuter rail

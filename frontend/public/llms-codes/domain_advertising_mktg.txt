@@ -1,0 +1,28 @@
+[dam_brand] Brand Strategy and Communications :: naics_2022:5418
+[dam_brand_position] Brand Positioning and Identity (naming, visual)
+[dam_brand_pr] Public Relations (media relations, crisis comms)
+[dam_brand_research] Market Research and Consumer Insights (survey, focus)
+[dam_brand_sponsor] Sponsorship and Event Marketing (sports, cultural)
+[dam_content] Content Marketing :: naics_2022:5418
+[dam_content_blog] Blog and Long-Form Content (thought leadership)
+[dam_content_email] Email Marketing (newsletter, drip, lifecycle)
+[dam_content_influencer] Influencer Marketing (creator, KOL, ambassador)
+[dam_content_podcast] Podcast and Audio Content Marketing
+[dam_content_seo] SEO and Organic Search (content optimization)
+[dam_digital] Digital Advertising :: naics_2022:5418
+[dam_digital_native] Native Advertising (sponsored content, in-feed)
+[dam_digital_program] Programmatic Display (DSP, RTB, ad exchange)
+[dam_digital_search] Search Engine Marketing (SEM, PPC, Google Ads)
+[dam_digital_social] Social Media Advertising (Meta, TikTok, LinkedIn)
+[dam_digital_video] Digital Video Advertising (CTV, OTT, pre-roll)
+[dam_perf] Performance Marketing :: naics_2022:5418
+[dam_perf_affiliate] Affiliate Marketing (CPA, commission-based)
+[dam_perf_conversion] Conversion Rate Optimization (A/B test, landing page)
+[dam_perf_leadgen] Lead Generation (form fill, gated content, CPL)
+[dam_perf_retarget] Retargeting and Remarketing (pixel, CRM-based)
+[dam_trad] Traditional Media Advertising :: naics_2022:5418
+[dam_trad_direct] Direct Mail and Catalog Marketing
+[dam_trad_ooh] Out-of-Home (billboard, transit, DOOH)
+[dam_trad_print] Print Advertising (newspaper, magazine, insert)
+[dam_trad_radio] Radio Advertising (terrestrial, satellite, streaming)
+[dam_trad_tv] Television Advertising (broadcast, cable, spot)

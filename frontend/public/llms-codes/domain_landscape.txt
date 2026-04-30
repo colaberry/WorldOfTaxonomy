@@ -1,0 +1,17 @@
+[ls_hard] Hardscape Elements :: naics_2022:236, naics_2022:237, naics_2022:238
+[ls_hard_deck] Decking and boardwalks
+[ls_hard_pave] Paving (concrete, asphalt, permeable pavers)
+[ls_hard_play] Playground and recreation features
+[ls_hard_struct] Pergolas, arbors, and shade structures
+[ls_hard_wall] Retaining walls and seat walls
+[ls_soft] Softscape Elements :: naics_2022:236, naics_2022:237, naics_2022:238
+[ls_soft_native] Native and pollinator gardens
+[ls_soft_peren] Perennials and groundcovers
+[ls_soft_shrub] Shrubs and hedges
+[ls_soft_tree] Trees (shade, ornamental, evergreen)
+[ls_soft_turf] Turfgrass and lawns
+[ls_water] Water Features and Management :: naics_2022:236, naics_2022:237, naics_2022:238
+[ls_water_irrig] Irrigation systems (drip, spray, smart)
+[ls_water_pond] Ponds and water features
+[ls_water_rain] Rain gardens and bioswales
+[ls_water_storm] Stormwater management (detention, retention)

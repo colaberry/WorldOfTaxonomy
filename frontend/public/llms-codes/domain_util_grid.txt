@@ -1,0 +1,15 @@
+[dug_region] Grid Region (NERC Reliability) :: naics_2022:2211, naics_2022:2213
+[dug_region_caiso] CAISO (California Independent System Operator)
+[dug_region_ercot] ERCOT (Electric Reliability Council of Texas)
+[dug_region_isone] ISO-NE (ISO New England)
+[dug_region_miso] MISO (Midcontinent ISO - Midwest)
+[dug_region_nyiso] NYISO (New York Independent System Operator)
+[dug_region_pjm] PJM Interconnection (Mid-Atlantic, Midwest)
+[dug_region_serc] SERC Reliability (Southeast)
+[dug_region_spp] SPP (Southwest Power Pool - South-Central)
+[dug_region_wecc] WECC (Western Electricity Coordinating Council)
+[dug_voltage] Voltage Level :: naics_2022:2211, naics_2022:2213
+[dug_voltage_dist] Distribution (under 26 kV)
+[dug_voltage_low] Low Voltage / Customer Service (120V-480V)
+[dug_voltage_sub] Sub-Transmission (26-115 kV)
+[dug_voltage_trans] Transmission (115 kV and above)

@@ -1,0 +1,19 @@
+[drc_channel] Retail Channel Type :: naics_2022:44-45
+[drc_channel_bam] Brick-and-Mortar (physical stores)
+[drc_channel_dtc] Direct-to-Consumer (DTC, brand.com)
+[drc_channel_ecom] E-Commerce (online-only, marketplace)
+[drc_channel_omni] Omnichannel (buy-online-pickup-in-store, BOPIS)
+[drc_channel_social] Social Commerce (Instagram, TikTok Shop)
+[drc_cust] Customer Segment :: naics_2022:44-45
+[drc_cust_b2b] Business-to-Business (B2B retail)
+[drc_cust_mass] Mass Market Consumer
+[drc_cust_premium] Premium and Luxury Consumer
+[drc_cust_value] Value-Seeking Consumer
+[drc_format] Store Format :: naics_2022:44-45
+[drc_format_conv] Convenience Store (c-store, small format)
+[drc_format_dept] Department Store (full-line, anchor)
+[drc_format_discount] Discount and Off-Price (TJ Maxx, Ross)
+[drc_format_grocery] Grocery and Supermarket
+[drc_format_pop] Pop-Up and Temporary Retail
+[drc_format_specialty] Specialty Store (single-category focus)
+[drc_format_warehouse] Warehouse Club (Costco, Sam's Club)

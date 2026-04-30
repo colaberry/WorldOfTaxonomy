@@ -1,0 +1,14 @@
+[GT] Grant Types :: naics_2022:921, naics_2022:922, naics_2022:924
+[GT.01] Federal Research Grant (NIH)
+[GT.02] Federal Research Grant (NSF)
+[GT.03] SBIR/STTR Grant
+[GT.04] Block Grant
+[GT.05] Formula Grant
+[GT.06] Competitive Grant
+[GT.07] Foundation Grant
+[GT.08] Corporate Grant
+[GT.09] State Government Grant
+[GT.10] Community Development Grant
+[GT.11] Fellowship
+[GT.12] Capacity Building Grant
+[GT.13] Pass-Through Grant

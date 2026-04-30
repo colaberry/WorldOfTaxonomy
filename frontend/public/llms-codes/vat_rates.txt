@@ -1,0 +1,14 @@
+[VR] VAT Rate Types
+[VR.01] Standard Rate
+[VR.02] Reduced Rate
+[VR.03] Super-Reduced Rate
+[VR.04] Zero Rate (Taxable)
+[VR.05] Exempt (No Input Deduction)
+[VR.06] Out of Scope
+[VR.07] Parking Rate
+[VR.08] Reverse Charge
+[VR.09] Intra-Community Supply
+[VR.10] Margin Scheme
+[VR.11] Flat-Rate Farmer Scheme
+[VR.12] Import VAT
+[VR.13] Digital Services VAT (OSS)

@@ -1,0 +1,20 @@
+[dctpol_disclosure] Disclosure and Reporting Mandates :: naics_2022:2211, naics_2022:5417
+[dctpol_disclosure_csrd] EU CSRD and ESRS E1 sustainability reporting
+[dctpol_disclosure_sec] SEC climate disclosure rule (Scope 1/2/3 material)
+[dctpol_disclosure_tcfd] TCFD-aligned voluntary and mandatory disclosure
+[dctpol_portfolio] Renewable Portfolio and Clean Energy Standards :: naics_2022:2211, naics_2022:5417
+[dctpol_portfolio_ces] Clean Electricity Standard (carbon-free by date)
+[dctpol_portfolio_rps] Renewable Portfolio Standard / Renewable Obligation (US states, UK)
+[dctpol_pricing] Carbon and GHG Pricing Mechanisms :: naics_2022:2211, naics_2022:5417
+[dctpol_pricing_cbam] Carbon border adjustment mechanisms (EU CBAM, similar measures)
+[dctpol_pricing_ets] Emissions trading systems (ETS/cap-and-trade, EU ETS, RGGI, China ETS)
+[dctpol_pricing_tax] Carbon taxes (Sweden, Canada, UK, Singapore, Chile)
+[dctpol_standards] Performance and Technology Standards :: naics_2022:2211, naics_2022:5417
+[dctpol_standards_build] Building energy codes (EPBD, IECC, Passivhaus certification)
+[dctpol_standards_fuel] Fuel economy / CO2 standards (CAFE, EU fleet CO2, China NEV)
+[dctpol_standards_prod] Product efficiency standards (MEPS - minimum energy performance)
+[dctpol_subsidies] Subsidies, Tax Credits and Mandates :: naics_2022:2211, naics_2022:5417
+[dctpol_subsidies_ev] EV purchase incentives and ZEV mandates
+[dctpol_subsidies_ira] IRA clean energy credits (45X, 48C, 30D, AMPC US)
+[dctpol_subsidies_itc] Investment Tax Credit (ITC) and Production Tax Credit (PTC)
+[dctpol_subsidies_redd] REDD+ payments for ecosystem services

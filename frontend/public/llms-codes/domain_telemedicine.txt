@@ -1,0 +1,15 @@
+[TM] Telemedicine Modality Types :: naics_2022:5415, naics_2022:6213
+[TM.01] Synchronous Video Visit
+[TM.02] Asynchronous (Store-and-Forward)
+[TM.03] Remote Patient Monitoring
+[TM.04] Telementoring
+[TM.05] Teleconsultation
+[TM.06] Tele-ICU
+[TM.07] Telepsychiatry
+[TM.08] Teleradiology
+[TM.09] Telepathology
+[TM.10] Teledermatology
+[TM.11] Telepharmacy
+[TM.12] Telerehabilitation
+[TM.13] Mobile Health (mHealth)
+[TM.14] AI-Assisted Telehealth

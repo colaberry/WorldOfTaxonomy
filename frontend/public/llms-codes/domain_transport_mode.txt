@@ -1,0 +1,22 @@
+[dtm_air] Air Transportation :: naics_2022:485, naics_2022:488
+[dtm_air_airline] Scheduled Commercial Airline (passenger)
+[dtm_air_cargo] Air Cargo and Freight (FedEx, UPS Air, freighter)
+[dtm_air_charter] Charter and Non-Scheduled Air Service
+[dtm_air_ga] General Aviation (private, corporate aircraft)
+[dtm_other] Courier and Other Transportation :: naics_2022:485, naics_2022:488
+[dtm_other_courier] Express Courier and Messenger Services
+[dtm_other_postal] Postal Service and Delivery
+[dtm_other_scenic] Scenic and Sightseeing Transportation
+[dtm_pipe] Pipeline Transportation :: naics_2022:485, naics_2022:488
+[dtm_pipe_crude] Crude Oil Pipeline
+[dtm_pipe_gas] Natural Gas Pipeline (transmission, distribution)
+[dtm_pipe_prod] Refined Products Pipeline (gasoline, jet fuel)
+[dtm_rail] Rail Transportation :: naics_2022:485, naics_2022:488
+[dtm_rail_commuter] Commuter Rail and Light Rail (urban transit)
+[dtm_rail_freight] Freight Rail (Class I, regional, short-line)
+[dtm_rail_intercity] Intercity Passenger Rail (Amtrak)
+[dtm_water] Water Transportation :: naics_2022:485, naics_2022:488
+[dtm_water_coastal] Coastal and Short-Sea Shipping
+[dtm_water_deep] Deep Sea and Ocean Shipping (container, bulk)
+[dtm_water_ferry] Passenger Ferry and Water Taxi
+[dtm_water_inland] Inland Waterway (barge, river, lake)

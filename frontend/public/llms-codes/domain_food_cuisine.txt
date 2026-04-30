@@ -1,0 +1,22 @@
+[dfdcui_american] American and Comfort Food :: naics_2022:722
+[dfdcui_american_bbq] Barbecue and Southern comfort food (BBQ, fried chicken, soul food)
+[dfdcui_american_casual] American casual dining (burgers, sandwiches, salads, all-day menu)
+[dfdcui_asian] Asian Cuisines :: naics_2022:722
+[dfdcui_asian_chinese] Chinese: Cantonese, Sichuan, dim sum, American-Chinese
+[dfdcui_asian_japanese] Japanese: sushi, ramen, izakaya, omakase, udon
+[dfdcui_asian_korean] Korean: BBQ, bibimbap, fried chicken, Korean-fusion
+[dfdcui_asian_southeast] Southeast Asian: Thai, Vietnamese, Filipino, Indonesian
+[dfdcui_european] European Cuisines :: naics_2022:722
+[dfdcui_european_french] French: brasserie, fine dining French, bistro, crepes
+[dfdcui_european_italian] Italian: pizza, pasta, trattoria, fine dining Italian
+[dfdcui_european_mediterranean] Mediterranean: Greek, Spanish, Middle Eastern-influenced
+[dfdcui_health] Health-Focused and Dietary Menu Formats :: naics_2022:722
+[dfdcui_health_clean] Clean-label, organic, allergen-free dietary formats
+[dfdcui_health_vegan] Vegan and plant-based restaurants
+[dfdcui_latin] Latin American Cuisines :: naics_2022:722
+[dfdcui_latin_mexican] Mexican and Tex-Mex: tacos, burritos, fast-casual Mexican
+[dfdcui_latin_peruvian] Peruvian and South American (ceviche, Nikkei, modern Peruvian)
+[dfdcui_qsr] Quick Service and Fast Food Formats :: naics_2022:722
+[dfdcui_qsr_burger] QSR burger and sandwich chains
+[dfdcui_qsr_coffee] Coffee shops and beverage-forward cafes (Starbucks, Dunkin)
+[dfdcui_qsr_pizza] QSR and fast-casual pizza

@@ -1,0 +1,16 @@
+[pv_approach] Valuation Approaches :: naics_2022:531
+[pv_approach_cost] Cost approach (replacement, reproduction)
+[pv_approach_dcf] Discounted cash flow (DCF)
+[pv_approach_income] Income capitalization approach
+[pv_approach_sales] Sales comparison approach
+[pv_purpose] Valuation Purposes :: naics_2022:531
+[pv_purpose_insur] Insurance replacement value
+[pv_purpose_invest] Investment value analysis
+[pv_purpose_liqu] Liquidation value
+[pv_purpose_market] Market value appraisal
+[pv_purpose_tax] Tax assessment valuation
+[pv_tech] Valuation Technology :: naics_2022:531
+[pv_tech_avm] Automated valuation model (AVM)
+[pv_tech_bpo] Broker price opinion (BPO)
+[pv_tech_desktop] Desktop appraisal
+[pv_tech_hybrid] Hybrid appraisal (desktop + inspection)

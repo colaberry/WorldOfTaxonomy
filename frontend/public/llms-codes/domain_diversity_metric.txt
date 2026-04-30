@@ -1,0 +1,14 @@
+[DM] Diversity Metric Types :: naics_2022:5613, naics_2022:5614
+[DM.01] Gender Pay Gap
+[DM.02] Representation Rate
+[DM.03] Hiring Diversity Rate
+[DM.04] Promotion Equity Rate
+[DM.05] Retention Rate by Group
+[DM.06] Board Diversity Index
+[DM.07] Supplier Diversity Spend
+[DM.08] Inclusion Survey Score
+[DM.09] Belonging Index
+[DM.10] Intersectionality Analysis
+[DM.11] DEI Maturity Model
+[DM.12] Pay Equity Audit
+[DM.13] ERG Participation Rate

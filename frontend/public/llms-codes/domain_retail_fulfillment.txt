@@ -1,0 +1,18 @@
+[drcfulfl_bopis] Buy Online, Pick Up In Store (BOPIS) and Click-and-Collect :: naics_2022:44-45
+[drcfulfl_bopis_instore] In-Store Pickup (designated pickup counter or locker)
+[drcfulfl_bopis_locker] Smart Locker and Automated Pickup System
+[drcfulfl_direct] Direct Ship and Warehouse Fulfillment :: naics_2022:44-45
+[drcfulfl_direct_3pl] 3PL Fulfillment Center (outsourced warehouse and ship)
+[drcfulfl_direct_amazon] Amazon FBA / Marketplace Fulfillment
+[drcfulfl_direct_dropship] Vendor Drop-Ship (supplier ships direct to customer)
+[drcfulfl_returns] Returns Management and Reverse Logistics :: naics_2022:44-45
+[drcfulfl_returns_happy] Happy Returns / Returns Drop-off Hub
+[drcfulfl_returns_instore] In-Store Returns Processing
+[drcfulfl_returns_mail] Prepaid Return Label Mail-Back
+[drcfulfl_sameday] Same-Day and Rapid Delivery :: naics_2022:44-45
+[drcfulfl_sameday_grocery] Grocery Same-Day Delivery (Instacart, Shipt)
+[drcfulfl_sameday_ld] Same-Day Last Mile (DoorDash Drive, Roadie)
+[drcfulfl_sameday_q] Quick Commerce (15-30 min dark store delivery)
+[drcfulfl_store] Store-Based Fulfillment Models :: naics_2022:44-45
+[drcfulfl_store_curbside] Curbside Pickup
+[drcfulfl_store_ship] Ship-from-Store (store inventory fulfills online orders)
