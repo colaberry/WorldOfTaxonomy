@@ -58,25 +58,6 @@ def _install_capture(monkeypatch, target_module):
     return captured
 
 
-class TestAuthRegisterRateGuard:
-    def test_register_route_calls_rate_guard_with_5_per_hour(self, monkeypatch):
-        from world_of_taxonomy.api.routers import auth as auth_mod
-        captured = _install_capture(monkeypatch, auth_mod)
-
-        body = auth_mod.RegisterRequest(
-            email="x@example.com", password="pwd12345", display_name="X",
-        )
-
-        async def go():
-            with pytest.raises(HTTPException) as exc:
-                await auth_mod.register(body, _StubRequest(), conn=None)
-            assert exc.value.status_code == 429
-
-        _run(go())
-        assert captured["endpoint_name"] == "auth_register"
-        assert captured["max_per_window"] == 5
-
-
 class TestContactRateGuard:
     def test_contact_route_calls_rate_guard_with_5_per_hour(self, monkeypatch):
         from world_of_taxonomy.api.routers import contact as contact_mod

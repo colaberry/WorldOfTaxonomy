@@ -252,11 +252,13 @@ async def callback(
                 provider, str(provider_id), avatar_url, user["id"],
             )
         else:
-            # Brand new user - no password stored
+            # Brand new user. password_hash is omitted so the column
+            # picks up its default (NULL); password sign-in was removed
+            # in 2026-04-30.
             user = await conn.fetchrow(
                 """INSERT INTO app_user
-                     (email, display_name, password_hash, oauth_provider, oauth_provider_id, avatar_url)
-                   VALUES ($1, $2, NULL, $3, $4, $5)
+                     (email, display_name, oauth_provider, oauth_provider_id, avatar_url)
+                   VALUES ($1, $2, $3, $4, $5)
                    RETURNING id, email, display_name""",
                 email, name, provider, str(provider_id), avatar_url,
             )

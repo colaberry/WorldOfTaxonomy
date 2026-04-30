@@ -290,29 +290,12 @@ const GROUPS: EndpointGroup[] = [
   {
     id: 'auth',
     title: 'Authentication',
-    description: 'Register, login, and manage API keys',
+    description: 'OAuth sign-in (GitHub / Google / LinkedIn) and API-key management. Magic-link signup for the developer dashboard lives under /developers.',
     icon: <Shield className="h-5 w-5" />,
     endpoints: [
       {
-        method: 'POST', path: '/api/v1/auth/register',
-        description: 'Create a new user account.',
-        params: [
-          { name: 'email', location: 'body', type: 'string', required: true, description: 'Email address' },
-          { name: 'password', location: 'body', type: 'string', required: true, description: 'Password (min 8 characters)' },
-          { name: 'display_name', location: 'body', type: 'string', required: false, description: 'Display name' },
-        ],
-      },
-      {
-        method: 'POST', path: '/api/v1/auth/login',
-        description: 'Authenticate and receive a short-lived JWT (15 min expiry).',
-        params: [
-          { name: 'email', location: 'body', type: 'string', required: true, description: 'Email address' },
-          { name: 'password', location: 'body', type: 'string', required: true, description: 'Password' },
-        ],
-      },
-      {
         method: 'GET', path: '/api/v1/auth/me',
-        description: 'Get current user profile.',
+        description: 'Get current user profile. Requires a JWT obtained via OAuth.',
         params: [],
         tier: 'auth',
       },
@@ -543,24 +526,21 @@ export default function ApiReferencePage() {
           Authentication flow
         </p>
         <pre className="rounded-lg bg-secondary/60 px-4 py-3 text-xs font-mono overflow-x-auto text-foreground/90 leading-relaxed">
-{`# 1. Register
-curl -X POST /api/v1/auth/register \\
-  -H "Content-Type: application/json" \\
-  -d '{"email": "you@company.com", "password": "your-password"}'
+{`# 1. Sign up at /developers/signup (email-only, magic link sent
+#    to your inbox). Or sign in with GitHub / Google / LinkedIn at
+#    /login -> redirected back with a JWT.
 
-# 2. Login (get a 15-min JWT)
-curl -X POST /api/v1/auth/login \\
-  -H "Content-Type: application/json" \\
-  -d '{"email": "you@company.com", "password": "your-password"}'
-# Response: { "access_token": "eyJ...", "token_type": "bearer" }
-
-# 3. Create a long-lived API key
+# 2. (OAuth path) Use the JWT to mint a long-lived API key:
 curl -X POST /api/v1/auth/keys \\
   -H "Authorization: Bearer eyJ..." \\
   -d '{"name": "My App"}'
 # Response: { "key": "wot_abc123...", "api_key": {...} }
 
-# 4. Use the API key in all future requests
+# 2'. (Magic-link path) Visit /developers/keys in the browser and
+#     click "Generate key". Copy the value once - we never show it
+#     again.
+
+# 3. Use the API key in all future requests:
 curl /api/v1/search?q=physician \\
   -H "Authorization: Bearer wot_abc123..."`}
         </pre>

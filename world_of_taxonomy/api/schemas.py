@@ -165,19 +165,10 @@ class CrosswalkSectionsResponse(BaseModel):
 
 
 # ── Auth schemas ─────────────────────────────────────────────
-
-
-class RegisterRequest(BaseModel):
-    # Length caps defend against oversized-input DoS and malformed
-    # inputs that would otherwise travel all the way to the DB.
-    email: str = Field(..., min_length=3, max_length=254)
-    password: str = Field(..., min_length=8, max_length=128)
-    display_name: Optional[str] = Field(None, max_length=100)
-
-
-class LoginRequest(BaseModel):
-    email: str = Field(..., min_length=3, max_length=254)
-    password: str = Field(..., min_length=1, max_length=128)
+# Password-based register/login were removed: sign-in is via OAuth
+# (GitHub/Google/LinkedIn -> JWT) for users who need legacy /auth/me
+# and /auth/keys, or via magic-link cookie for the developer dashboard.
+# UserResponse / TokenResponse are still used by the OAuth callback.
 
 
 class UserResponse(BaseModel):

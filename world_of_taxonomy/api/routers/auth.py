@@ -1,9 +1,23 @@
-"""Auth router -- /api/v1/auth endpoints."""
+"""Auth router -- /api/v1/auth endpoints.
+
+Two sign-in flows ship today:
+
+  - **OAuth** (GitHub, Google, LinkedIn) lives in `oauth.py` and mints
+    a 15-minute JWT. The endpoints in this file (``/me``, ``/keys`` CRUD)
+    consume that JWT.
+  - **Magic-link** (email-only) lives in ``developers.py`` and issues a
+    cookie session for the ``/developers/keys`` dashboard.
+
+Password-based ``/register`` and ``/login`` were removed in 2026-04-30.
+The bcrypt helpers, the credential-stuffing sliding-window guard
+(``failed_auth.py``), and the ``RegisterRequest``/``LoginRequest``
+schemas went with them. The ``app_user.password_hash`` column is left
+in place (NULL for new users) so OAuth-flow inserts continue to match
+the existing schema; a follow-up migration can drop it.
+"""
 
 from __future__ import annotations
 
-import asyncio
-import os
 import secrets
 import uuid as _uuid
 from datetime import datetime, timedelta, timezone
@@ -15,15 +29,7 @@ from fastapi import APIRouter, Depends, HTTPException, Request
 
 from world_of_taxonomy.api.deps import get_conn, get_current_user, JWT_SECRET, JWT_ALGORITHM
 from world_of_taxonomy.api.rate_guard import check_per_ip_rate
-from world_of_taxonomy.api.failed_auth import (
-    check_blocked,
-    mark_lockout,
-    record_failure,
-    record_success,
-)
 from world_of_taxonomy.api.schemas import (
-    RegisterRequest,
-    LoginRequest,
     UserResponse,
     TokenResponse,
     CreateApiKeyRequest,
@@ -35,16 +41,6 @@ from world_of_taxonomy.api.schemas import (
 router = APIRouter(prefix="/api/v1/auth", tags=["auth"])
 
 ACCESS_TOKEN_EXPIRE_MINUTES = 15
-
-
-def _hash_password(password: str) -> str:
-    """Hash a password with bcrypt."""
-    return bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
-
-
-def _verify_password(password: str, password_hash: str) -> bool:
-    """Verify a password against a bcrypt hash."""
-    return bcrypt.checkpw(password.encode("utf-8"), password_hash.encode("utf-8"))
 
 
 def _create_access_token(user_id: str) -> str:
@@ -80,92 +76,6 @@ def _api_key_response(row) -> ApiKeyResponse:
         created_at=row["created_at"].isoformat(),
         expires_at=row["expires_at"].isoformat() if row["expires_at"] else None,
     )
-
-
-@router.post("/register", response_model=TokenResponse)
-async def register(body: RegisterRequest, request: Request, conn=Depends(get_conn)):
-    """Register a new user account.
-
-    Per-IP rate guard: 5/hour. Each registration mints a JWT, writes to
-    app_user, and fires a webhook - cheap to abuse, expensive to clean
-    up. The cap is the same as /developers/signup since the abuse
-    surface is identical (user enumeration + webhook spam).
-    """
-    check_per_ip_rate("auth_register", request, max_per_window=5)
-    # Check if email already exists
-    existing = await conn.fetchrow(
-        "SELECT id FROM app_user WHERE email = $1", body.email
-    )
-    if existing:
-        raise HTTPException(status_code=409, detail="Email already registered")
-
-    # Validate password length
-    if len(body.password) < 8:
-        raise HTTPException(status_code=400, detail="Password must be at least 8 characters")
-
-    password_hash = _hash_password(body.password)
-
-    row = await conn.fetchrow(
-        """INSERT INTO app_user (email, password_hash, display_name)
-           VALUES ($1, $2, $3)
-           RETURNING id""",
-        body.email,
-        password_hash,
-        body.display_name,
-    )
-
-    access_token = _create_access_token(str(row["id"]))
-
-    # Notify via webhook (fire-and-forget)
-    from world_of_taxonomy.webhook import send_webhook
-    asyncio.create_task(
-        send_webhook("new_registration", {
-            "email": body.email,
-            "display_name": body.display_name,
-        })
-    )
-
-    return TokenResponse(access_token=access_token)
-
-
-@router.post("/login", response_model=TokenResponse)
-async def login(body: LoginRequest, request: Request, conn=Depends(get_conn)):
-    """Login with email and password.
-
-    Failed attempts are tracked in a sliding window keyed by source IP
-    and target email; repeated failures return 429 to blunt credential
-    stuffing. Successful logins clear the counters for that IP+email.
-    """
-    ip = request.client.host if request.client else "unknown"
-    blocked, reason = check_blocked(ip, body.email)
-    if blocked:
-        mark_lockout(reason or "ip")
-        raise HTTPException(
-            status_code=429,
-            detail="Too many failed login attempts. Try again later.",
-        )
-
-    row = await conn.fetchrow(
-        "SELECT id, password_hash, is_active, oauth_provider FROM app_user WHERE email = $1",
-        body.email,
-    )
-    if row is None:
-        record_failure(ip, body.email)
-        raise HTTPException(status_code=401, detail="Invalid email or password")
-    if not row["is_active"]:
-        raise HTTPException(status_code=403, detail="Account is deactivated")
-    if row["password_hash"] is None:
-        raise HTTPException(
-            status_code=401,
-            detail="This account uses social login. Please sign in with GitHub, Google, or LinkedIn.",
-        )
-    if not _verify_password(body.password, row["password_hash"]):
-        record_failure(ip, body.email)
-        raise HTTPException(status_code=401, detail="Invalid email or password")
-
-    record_success(ip, body.email)
-    access_token = _create_access_token(str(row["id"]))
-    return TokenResponse(access_token=access_token)
 
 
 @router.get("/me", response_model=UserResponse)

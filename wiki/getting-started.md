@@ -117,17 +117,16 @@ The server also provides resources that AI agents can read for deeper context:
 
 ## Authentication
 
-### Registration
+### Sign in
 
-```bash
-curl -X POST https://worldoftaxonomy.com/api/v1/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{"email": "you@example.com", "password": "your-password"}'
-```
+There is no password sign-in. Two paths:
+
+- **Magic link** - visit [https://worldoftaxonomy.com/developers/signup](https://worldoftaxonomy.com/developers/signup), enter your email, click the link in the message we send. You land on the `/developers/keys` dashboard.
+- **OAuth** - visit [https://worldoftaxonomy.com/login](https://worldoftaxonomy.com/login) and choose GitHub, Google, or LinkedIn. The provider redirects you back with a 30-day JWT.
 
 ### API keys
 
-After registration, create an API key:
+After sign-in, create an API key. From the dashboard the easiest path is the "Generate key" button. From the command line, exchange your JWT for a key:
 
 ```bash
 curl -X POST https://worldoftaxonomy.com/api/v1/auth/keys \
