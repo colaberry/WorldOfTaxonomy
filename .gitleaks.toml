@@ -17,6 +17,11 @@
 #     from `wiki/*.md` by `scripts/build_llms_txt.py`. Same placeholder
 #     content as the wiki sources; allowlisted so the regenerated
 #     file does not need separate review on every wiki edit.
+#   - wiki/api-keys.md                    - API-key user guide. Same
+#     `WOT_API_KEY=wot_...` and `Authorization: Bearer wot_...`
+#     placeholders as the MCP setup guide. Path may exist in current
+#     tree or only in git history; the allowlist regex matches both
+#     because gitleaks scans full history by default.
 [extend]
 useDefault = true
 
@@ -26,5 +31,6 @@ paths = [
   '''frontend/src/app/api/page\.tsx''',
   '''\.github/workflows/release\.yml''',
   '''wiki/mcp-setup\.md''',
+  '''wiki/api-keys\.md''',
   '''frontend/public/llms-full\.txt''',
 ]

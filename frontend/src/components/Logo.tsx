@@ -63,7 +63,7 @@ export function Logo({
   }
 
   // Outer wrapper carries responsive visibility from the consumer's className.
-  // Inner images carry ONLY theme visibility — no class collision possible.
+  // Inner images carry ONLY theme visibility - no class collision possible.
   // `inline-flex items-center` keeps the wrapper sized to the visible img.
   const wrapperBase = 'inline-flex items-center shrink-0'
 
