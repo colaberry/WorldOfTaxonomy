@@ -200,7 +200,7 @@ with Ram: is it merged? In review? Stuck?
 
 If not yet merged:
 - Read [docs/handover/cicd-deployment.md](cicd-deployment.md) end to end.
-- Read [docs/runbooks/gcp-deploy.md](../runbooks/gcp-deploy.md) for the
+- Read [docs/handover/runbooks/gcp-deploy.md](runbooks/gcp-deploy.md) for the
   command-by-command setup.
 - Verify the staging Cloud Run service is healthy at the staging URL
   before touching prod.
@@ -238,7 +238,7 @@ won't know.
 - [ ] **On-call rotation**: just Ram for soft launch.
 
 Document the alert thresholds you choose in
-[docs/runbooks/](../runbooks/) and link from
+[docs/handover/runbooks/](runbooks/) and link from
 [cicd-deployment.md](cicd-deployment.md).
 
 ### 4. Ship the developer-key system (Phase 6 of auth-implementation)
@@ -359,10 +359,10 @@ If all green, you're ready for soft launch.
 | Step-by-step Phases 0-9 of auth | [auth-implementation.md](auth-implementation.md) |
 | The auth design rationale | [portfolio-auth.md](portfolio-auth.md) |
 | CI/CD pipeline details | [cicd-deployment.md](cicd-deployment.md) |
-| GCP setup commands | [docs/runbooks/gcp-deploy.md](../runbooks/gcp-deploy.md) |
-| Rollback playbook | [docs/runbooks/deploy-rollback.md](../runbooks/deploy-rollback.md) |
-| DB outage playbook | [docs/runbooks/db-down.md](../runbooks/db-down.md) |
-| Migration playbook | [docs/runbooks/migrations.md](../runbooks/migrations.md) |
+| GCP setup commands | [docs/handover/runbooks/gcp-deploy.md](runbooks/gcp-deploy.md) |
+| Rollback playbook | [docs/handover/runbooks/deploy-rollback.md](runbooks/deploy-rollback.md) |
+| DB outage playbook | [docs/handover/runbooks/db-down.md](runbooks/db-down.md) |
+| Migration playbook | [docs/handover/runbooks/migrations.md](runbooks/migrations.md) |
 | Backend internals | [backend.md](backend.md) |
 | Frontend internals | [frontend.md](frontend.md) |
 | Per-system coverage report | [coverage-report.md](coverage-report.md) |

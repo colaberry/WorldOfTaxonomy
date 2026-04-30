@@ -18,11 +18,35 @@ write down and saves an hour next time.
 
 ## Runbooks in this directory
 
+### Production alerts (page on-call)
+
 - [api-5xx.md](./api-5xx.md) - 5xx error rate is above 1%
+- [db-down.md](./db-down.md) - Postgres pool unreachable / `/healthz`
+  returning 503
+- [auth-broken.md](./auth-broken.md) - 401/403 spike, magic-link
+  callbacks failing, dev_session cookie not minting
 - [key-validation-slow.md](./key-validation-slow.md) - API-key
   authentication is slow or timing out
 - [cloud-run-cold-start-spike.md](./cloud-run-cold-start-spike.md) -
   p95 latency or instance count spiked
+- [rate-limit-abuse.md](./rate-limit-abuse.md) - legit users hitting
+  429, or a single IP/user saturating capacity
+
+### Operational playbooks (planned actions)
+
+- [deploy-rollback.md](./deploy-rollback.md) - revert a bad backend
+  or frontend deploy
+- [migrations.md](./migrations.md) - running Alembic migrations in
+  dev and production
+- [postgres-major-upgrade.md](./postgres-major-upgrade.md) -
+  Postgres major-version upgrade (PG 15 -> PG 17) SOP
+- [gcp-deploy.md](./gcp-deploy.md) - one-time GCP infra setup for
+  Cloud Run + Cloud SQL
+- [ingest-failed.md](./ingest-failed.md) - monthly ingest-refresh
+  workflow red; stale data warning
+
+### Edge + abuse defense
+
 - [cloudflare-edge.md](./cloudflare-edge.md) - one-time setup of
   Cloudflare in front of Cloud Run for edge DDoS, bot management,
   and a pre-origin rate-limit on signup
