@@ -1,3 +1,3 @@
-[C99] SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION
+[C99] SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION -- C99 is a residual class in the CPC chemistry section that captures inventions whose subject matter does not fit into any of the other more specific subclasses. It serves as a catch-all for chemical concepts, processes, or materials that are not otherwise provided for within the section.
 [C99Z] SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION -- This subclass covers subject matter that: Is not provided for, but is most closely related to, the subject matter covered by the subclasses of this section, and Is not explicitly covered by any subclass of another section.
-[C99Z 99/00] Subject matter not otherwise provided for in this section
+[C99Z 99/00] Subject matter not otherwise provided for in this section -- C99Z 99/00 is a catch-all subclass within the Chemistry section of the Cooperative Patent Classification, covering inventions whose technical features do not fit any other more specific CPC class. It is used when the subject matter cannot be allocated to any defined subclass under the chemistry hierarchy.
