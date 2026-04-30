@@ -153,7 +153,7 @@ sequenceDiagram
     C->>RL: GET /api/v1/search?q=physician
     RL->>RL: Check tier limit
     RL->>AUTH: Forward
-    AUTH->>AUTH: Validate JWT or API key
+    AUTH->>AUTH: Validate session cookie or API key
     AUTH->>Q: Authenticated request
     Q->>DB: Full-text search
     DB-->>Q: Matching nodes

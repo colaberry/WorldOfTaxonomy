@@ -21,7 +21,7 @@ graph TB
     WIKILOADER["Wiki Loader - wiki.py"]
   end
   subgraph Frontend["Next.js Frontend"]
-    NEXT["Next.js 15 App Router"]
+    NEXT["Next.js 16 App Router"]
     GUIDE["/guide/* pages"]
   end
   subgraph Consumers
@@ -129,7 +129,7 @@ sequenceDiagram
   C->>RL: GET /api/v1/search?q=physician
   RL->>RL: Check rate - 30/min anon, 1000/min auth
   RL->>AUTH: Forward request
-  AUTH->>AUTH: Validate JWT or API key
+  AUTH->>AUTH: Validate session cookie or API key
   AUTH->>R: Authenticated request
   R->>Q: search(conn, query, limit)
   Q->>DB: SELECT with ts_vector query
@@ -223,9 +223,9 @@ erDiagram
 |-------|-----------|---------|
 | Database | PostgreSQL (with pgbouncer) | 1.2M+ nodes, 321K+ edges |
 | Backend | Python 3.9+, FastAPI, asyncpg | REST API + MCP server |
-| Frontend | Next.js 15, TypeScript, Tailwind CSS v4, shadcn/ui | Web application |
+| Frontend | Next.js 16, TypeScript, Tailwind CSS v4, shadcn/ui | Web application |
 | Visualization | D3.js (Galaxy View), Cytoscape.js (Crosswalk Explorer) | Interactive graphs |
-| Auth | bcrypt + JWT + API keys (`wot_` prefix) | Tiered access |
+| Auth | Magic-link cookie session + API keys (`wot_` prefix) | Tiered access |
 | Rate Limiting | slowapi | Per-tier enforcement |
 | MCP | Custom JSON-RPC over stdio | AI agent integration |
 | Content | Markdown + remark + remarkGfm | Wiki and blog rendering |
