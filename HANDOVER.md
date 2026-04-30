@@ -188,7 +188,7 @@ The backend and frontend enforce a layered defense surface beyond auth:
 - **Request correlation** via `X-Request-ID` propagation (generated if missing) and one JSON log line per HTTP request with method/route/status/latency/request-id.
 - **Startup env validation** refuses to boot if required vars are missing or weak (e.g. short `JWT_SECRET` outside dev).
 
-Policy + disclosure contact: [SECURITY.md](SECURITY.md). Operational response: [docs/runbooks/](docs/runbooks/).
+Policy + disclosure contact: [SECURITY.md](SECURITY.md). Operational response: [docs/handover/runbooks/](docs/handover/runbooks/).
 
 ---
 
@@ -218,7 +218,7 @@ One Prometheus exposition endpoint, one uptime probe, one version probe, one str
 | `wot_rate_guard_fired_total` | endpoint | Per-IP rate-guard 429s + email-budget 503s. |
 | `wot_injection_rejections_total` | reason | `/classify` prompt-injection rejections. |
 
-Dashboards are intentionally not committed; the metric names above are the contract. Runbooks in [docs/runbooks/](docs/runbooks/) describe what an alert on each family should trigger.
+Dashboards are intentionally not committed; the metric names above are the contract. Runbooks in [docs/handover/runbooks/](docs/handover/runbooks/) describe what an alert on each family should trigger.
 
 ---
 
@@ -403,7 +403,7 @@ What's queued: [ROADMAP.md](ROADMAP.md).
 | [DATA_SOURCES.md](DATA_SOURCES.md) | Upstream authority, license, URL for every system |
 | [docs/adding-a-new-system.md](docs/adding-a-new-system.md) | Long-form walkthrough for adding an ingester |
 | [docs/diagrams/](docs/diagrams/) | Mermaid sources: system architecture, ingest, API, MCP, wiki flow |
-| [docs/runbooks/](docs/runbooks/) | On-call runbooks: DB, auth, ingest, rate limits, rollback, migrations |
+| [docs/handover/runbooks/](docs/handover/runbooks/) | On-call runbooks: DB, auth, ingest, rate limits, rollback, migrations |
 | [SECURITY.md](SECURITY.md) | Disclosure policy and contact |
 | [CITATION.cff](CITATION.cff) | "Cite this repository" metadata |
 | [CLAUDE.md](CLAUDE.md) | Full 1,000-system catalog with code counts, regions, versions |

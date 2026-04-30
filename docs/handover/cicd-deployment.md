@@ -3,11 +3,11 @@
 Starter doc for whoever owns the WorldOfTaxonomy deploy pipeline. It answers: what ships where, what triggers a deploy, where the knobs are, and what to read next.
 
 Deep dives you will need:
-- Full GCP setup commands: [docs/runbooks/gcp-deploy.md](../runbooks/gcp-deploy.md)
-- Rollback playbook: [docs/runbooks/deploy-rollback.md](../runbooks/deploy-rollback.md)
-- DB outage playbook: [docs/runbooks/db-down.md](../runbooks/db-down.md)
-- Migration playbook: [docs/runbooks/migrations.md](../runbooks/migrations.md)
-- Ingest-refresh playbook: [docs/runbooks/ingest-failed.md](../runbooks/ingest-failed.md)
+- Full GCP setup commands: [docs/handover/runbooks/gcp-deploy.md](runbooks/gcp-deploy.md)
+- Rollback playbook: [docs/handover/runbooks/deploy-rollback.md](runbooks/deploy-rollback.md)
+- DB outage playbook: [docs/handover/runbooks/db-down.md](runbooks/db-down.md)
+- Migration playbook: [docs/handover/runbooks/migrations.md](runbooks/migrations.md)
+- Ingest-refresh playbook: [docs/handover/runbooks/ingest-failed.md](runbooks/ingest-failed.md)
 - Architecture overview: [docs/handover/backend.md](backend.md), [docs/handover/frontend.md](frontend.md)
 
 ---
@@ -151,7 +151,7 @@ gcloud run revisions list --service=wot-api --region=us-east1
 gcloud run services update-traffic wot-api \
   --to-revisions=<REVISION>=100 --region=us-east1
 ```
-Repeat for `wot-web`. Full procedure in [docs/runbooks/deploy-rollback.md](../runbooks/deploy-rollback.md).
+Repeat for `wot-web`. Full procedure in [docs/handover/runbooks/deploy-rollback.md](runbooks/deploy-rollback.md).
 
 ### Secret rotation
 ```bash
@@ -165,8 +165,8 @@ Cloud Run needs a new revision for the rotated secret to take effect; the `updat
 
 ## 5. Things that are NOT automated (watch for these)
 
-1. **Data ingestion.** Ingest jobs do **not** run in Cloud Run. They are one-off scripts, executed either locally or via a Cloud Run Job pointed at the same `DATABASE_URL`. Example: `DATABASE_URL=... python3 -m world_of_taxonomy ingest <system>`. See [docs/adding-a-new-system.md](../adding-a-new-system.md) and [docs/runbooks/ingest-failed.md](../runbooks/ingest-failed.md).
-2. **Schema init vs migrations.** The backend container calls `python3 -m world_of_taxonomy init` on every cold start; it must stay idempotent. Non-idempotent schema changes go through Alembic under [migrations/](../../migrations/). See [docs/runbooks/migrations.md](../runbooks/migrations.md).
+1. **Data ingestion.** Ingest jobs do **not** run in Cloud Run. They are one-off scripts, executed either locally or via a Cloud Run Job pointed at the same `DATABASE_URL`. Example: `DATABASE_URL=... python3 -m world_of_taxonomy ingest <system>`. See [docs/adding-a-new-system.md](../adding-a-new-system.md) and [docs/handover/runbooks/ingest-failed.md](runbooks/ingest-failed.md).
+2. **Schema init vs migrations.** The backend container calls `python3 -m world_of_taxonomy init` on every cold start; it must stay idempotent. Non-idempotent schema changes go through Alembic under [migrations/](../../migrations/). See [docs/handover/runbooks/migrations.md](runbooks/migrations.md).
 3. **Frontend build context.** `cloudbuild.yaml` builds the web image from the **repo root**, not `frontend/`, because `frontend/package.json`'s `prebuild` hook copies sibling `wiki/`, `blog/`, `crosswalk-data/`, and `tree-data/` into `src/content` before `next build`. Do not "fix" the build context to `frontend/`.
 4. **`llms-full.txt` freshness.** CI rebuilds it and fails if the committed copy is stale. When wiki content changes, run `python scripts/build_llms_txt.py` locally and commit the result.
 5. **Em-dash ban.** CI greps for U+2014 across `.py`, `.md`, `.ts`, `.tsx`, `.sql`. Use a hyphen `-`.
@@ -189,7 +189,7 @@ Cloud SQL (`db-f1-micro`) is the dominant cost (~$9/mo at idle). Levers:
 - Resume: `gcloud sql instances patch wot-db --activation-policy=ALWAYS`
 - Budget alert: Billing -> Budgets & alerts -> set $15 threshold, email `dev@colaberry.com`
 
-A longer-term alternative documented in [gcp-deploy.md](../runbooks/gcp-deploy.md) is to migrate to Neon free tier and drop Cloud SQL entirely.
+A longer-term alternative documented in [gcp-deploy.md](runbooks/gcp-deploy.md) is to migrate to Neon free tier and drop Cloud SQL entirely.
 
 ---
 
@@ -201,7 +201,7 @@ A longer-term alternative documented in [gcp-deploy.md](../runbooks/gcp-deploy.m
 - [ ] Verify access: `gcloud builds list --limit=5` shows recent builds
 - [ ] Verify access: `gcloud secrets list` shows the three secrets
 - [ ] Trigger a manual no-op deploy on a branch PR to confirm CI + Cloud Build path end-to-end
-- [ ] Read the five runbooks under `docs/runbooks/`
+- [ ] Read the runbooks under `docs/handover/runbooks/`
 - [ ] Confirm you can tail logs from both services
 - [ ] Confirm rollback works on a throwaway revision
 

@@ -14,7 +14,7 @@ For fresh installs, the legacy init path still works; run
 the real state. All future DDL changes should be new alembic revisions,
 not edits to schema.sql.
 
-See docs/runbooks/migrations.md for the full workflow.
+See docs/handover/runbooks/migrations.md for the full workflow.
 """
 from __future__ import annotations
 
