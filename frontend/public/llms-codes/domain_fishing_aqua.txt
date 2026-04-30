@@ -1,0 +1,24 @@
+[dfa_aqua] Aquaculture Farm :: naics_2022:112, naics_2022:1141
+[dfa_aqua_finfish] Finfish Aquaculture (salmon, tilapia, catfish)
+[dfa_aqua_offshore] Offshore and Open-Ocean Aquaculture
+[dfa_aqua_ras] Recirculating Aquaculture Systems (RAS)
+[dfa_aqua_seaweed] Seaweed and Algae Cultivation
+[dfa_aqua_shellaq] Shellfish Aquaculture (oyster, mussel, clam)
+[dfa_feed] Fish Feed and Hatchery :: naics_2022:112, naics_2022:1141
+[dfa_feed_biotech] Aquaculture Biotechnology and Genetics
+[dfa_feed_hatch] Fish Hatchery and Fingerling Production
+[dfa_feed_pellet] Aquaculture Feed (pellets, nutritional mixes)
+[dfa_fresh] Freshwater Fishing :: naics_2022:112, naics_2022:1141
+[dfa_fresh_lake] Lake and Reservoir Fishing (bass, walleye, perch)
+[dfa_fresh_rec] Recreational and Sport Freshwater Fishing
+[dfa_fresh_river] River and Stream Fishing (trout, salmon)
+[dfa_marine] Marine Fishing :: naics_2022:112, naics_2022:1141
+[dfa_marine_artisanal] Artisanal and Small-Scale Marine Fishing
+[dfa_marine_demersal] Demersal Fishing (cod, haddock, flatfish)
+[dfa_marine_pelagic] Pelagic Fishing (tuna, mackerel, herring)
+[dfa_marine_shellfish] Shellfish Harvesting (shrimp, crab, lobster)
+[dfa_proc] Seafood Processing :: naics_2022:112, naics_2022:1141
+[dfa_proc_canned] Canned and Preserved Seafood
+[dfa_proc_fillet] Fish Filleting and Fresh Packaging
+[dfa_proc_frozen] Frozen Seafood Processing and Cold Chain
+[dfa_proc_valueadd] Value-Added Seafood Products (surimi, fish oil)

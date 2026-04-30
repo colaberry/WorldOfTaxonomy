@@ -1,0 +1,16 @@
+[PP] Programming Paradigms :: naics_2022:5419
+[PP.01] Object-Oriented Programming
+[PP.02] Functional Programming
+[PP.03] Procedural Programming
+[PP.04] Logic Programming
+[PP.05] Reactive Programming
+[PP.06] Event-Driven Programming
+[PP.07] Declarative Programming
+[PP.08] Concurrent Programming
+[PP.09] Aspect-Oriented Programming
+[PP.10] Metaprogramming
+[PP.11] Generic Programming
+[PP.12] Data-Oriented Design
+[PP.13] Constraint Programming
+[PP.14] Dataflow Programming
+[PP.15] Actor Model

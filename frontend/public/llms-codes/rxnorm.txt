@@ -1,0 +1,16 @@
+[RX] RxNorm Term Types
+[RX.BN] Brand Name (BN)
+[RX.BPCK] Branded Pack
+[RX.DF] Dose Form (DF)
+[RX.DFG] Dose Form Group (DFG)
+[RX.GPCK] Generic Pack
+[RX.IN] Ingredient (IN)
+[RX.PIN] Precise Ingredient (PIN)
+[RX.SBD] Semantic Branded Drug
+[RX.SBDC] Semantic Branded Drug Component
+[RX.SBDF] Semantic Branded Drug Form
+[RX.SBDG] Semantic Branded Drug Group
+[RX.SCD] Semantic Clinical Drug
+[RX.SCDC] Semantic Clinical Drug Component
+[RX.SCDF] Semantic Clinical Drug Form
+[RX.SCDG] Semantic Clinical Drug Group

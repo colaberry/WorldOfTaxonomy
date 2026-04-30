@@ -1,0 +1,18 @@
+[dfireg_banking] Banking and Depository Institution Regulation :: naics_2022:522, naics_2022:523
+[dfireg_banking_fdic] FDIC Insured Depository Institution Supervision
+[dfireg_banking_fed] Federal Reserve / BHC Supervision
+[dfireg_banking_occ] OCC National Bank Charter Regulation
+[dfireg_cftc] CFTC Derivatives Regulation :: naics_2022:522, naics_2022:523
+[dfireg_cftc_futures] CFTC Futures Commission Merchant (FCM) Registration
+[dfireg_cftc_swaps] CFTC Swap Dealer and Major Swap Participant
+[dfireg_insurance] Insurance Regulation :: naics_2022:522, naics_2022:523
+[dfireg_insurance_naic] NAIC Model Laws and RBC (Risk-Based Capital)
+[dfireg_insurance_state] State Insurance Department Licensing and Solvency
+[dfireg_intl] International and Cross-Border Regulation :: naics_2022:522, naics_2022:523
+[dfireg_intl_aml] AML/KYC FATF Standards and Bank Secrecy Act
+[dfireg_intl_basel] Basel III/IV Bank Capital and Liquidity Standards
+[dfireg_intl_mifid] MiFID II / EMIR European Markets Regulation
+[dfireg_sec] SEC Securities Regulation :: naics_2022:522, naics_2022:523
+[dfireg_sec_broker] SEC Broker-Dealer Registration (15 USCA, FINRA)
+[dfireg_sec_ia] SEC Investment Adviser Registration (Form ADV)
+[dfireg_sec_public] SEC Public Reporting (10-K, 10-Q, 8-K filers)

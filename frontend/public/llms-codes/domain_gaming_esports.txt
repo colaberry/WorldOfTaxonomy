@@ -1,0 +1,26 @@
+[dge_console] Console Gaming :: naics_2022:5121, naics_2022:7139
+[dge_console_action] Action and Adventure Console Games
+[dge_console_excl] Platform-Exclusive Console Titles
+[dge_console_rpg] Role-Playing Console Games (JRPGs, WRPGs)
+[dge_console_sports] Sports and Racing Console Games
+[dge_dev] Game Development :: naics_2022:5121, naics_2022:7139
+[dge_dev_engine] Game Engine and Middleware Development
+[dge_dev_indie] Independent Game Development
+[dge_dev_studio] Game Studio and Publisher Operations
+[dge_esport] Esports Competitive :: naics_2022:5121, naics_2022:7139
+[dge_esport_betting] Esports Betting and Fantasy Platforms
+[dge_esport_league] Professional Esports Leagues and Tournaments
+[dge_esport_team] Esports Team and Player Management
+[dge_mobile] Mobile Gaming :: naics_2022:5121, naics_2022:7139
+[dge_mobile_casual] Casual and Hyper-Casual Mobile Games
+[dge_mobile_midcore] Mid-Core and Strategy Mobile Games
+[dge_mobile_social] Social and Multiplayer Mobile Games
+[dge_pc] PC Gaming :: naics_2022:5121, naics_2022:7139
+[dge_pc_fps] First-Person Shooter Games (FPS)
+[dge_pc_mmo] Massively Multiplayer Online Games (MMORPGs)
+[dge_pc_sim] Simulation and Sandbox Games
+[dge_pc_strategy] Real-Time and Turn-Based Strategy Games
+[dge_stream] Streaming and Content :: naics_2022:5121, naics_2022:7139
+[dge_stream_live] Live Game Streaming Platforms
+[dge_stream_merch] Gaming Merchandise and Brand Licensing
+[dge_stream_video] Gaming Video Content and Reviews

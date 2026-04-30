@@ -1,0 +1,1109 @@
+[K00] Disorders of tooth development and eruption -- **Excludes2:** - embedded and impacted teeth (K01.-)
+[K000] Anodontia -- **Inclusion terms:** - Hypodontia - Oligodontia  **Excludes1:** - acquired absence of teeth (K08.1-)
+[K001] Supernumerary teeth -- **Inclusion terms:** - Distomolar - Fourth molar - Mesiodens - Paramolar - Supplementary teeth  **Excludes2:** - supernumerary roots (K00.2)
+[K002] Abnormalities of size and form of teeth -- **Inclusion terms:** - Concrescence of teeth - Fusion of teeth - Gemination of teeth - Dens evaginatus - Dens in dente - Dens invaginatus - Enamel pearls - Macrodontia - Microdontia - Peg-shaped [conical] teeth - Supernumerary roots - Taurodontism - Tuberculum paramolare  **Excludes1:** - abnormalities of teeth due to congenital syphilis (A50.5) - tuberculum Carabelli, which is regarded as a normal variation and should not be coded
+[K003] Mottled teeth -- **Inclusion terms:** - Dental fluorosis - Mottling of enamel - Nonfluoride enamel opacities  **Excludes2:** - deposits [accretions] on teeth (K03.6)
+[K004] Disturbances in tooth formation -- **Inclusion terms:** - Aplasia and hypoplasia of cementum - Dilaceration of tooth - Enamel hypoplasia (neonatal) (postnatal) (prenatal) - Regional odontodysplasia - Turner's tooth  **Excludes1:** - Hutchinson's teeth and mulberry molars in congenital syphilis (A50.5)  **Excludes2:** - mottled teeth (K00.3)
+[K005] Hereditary disturbances in tooth structure, not elsewhere classified -- **Inclusion terms:** - Amelogenesis imperfecta - Dentinogenesis imperfecta - Odontogenesis imperfecta - Dentinal dysplasia - Shell teeth
+[K006] Disturbances in tooth eruption -- **Inclusion terms:** - Dentia praecox - Natal tooth - Neonatal tooth - Premature eruption of tooth - Premature shedding of primary [deciduous] tooth - Prenatal teeth - Retained [persistent] primary tooth  **Excludes2:** - embedded and impacted teeth (K01.-)
+[K007] Teething syndrome
+[K008] Other disorders of tooth development -- **Inclusion terms:** - Color changes during tooth formation - Intrinsic staining of teeth NOS  **Excludes2:** - posteruptive color changes (K03.7)
+[K009] Disorder of tooth development, unspecified -- **Inclusion terms:** - Disorder of odontogenesis NOS
+[K01] Embedded and impacted teeth -- **Excludes1:** - abnormal position of fully erupted teeth (M26.3-)
+[K010] Embedded teeth
+[K011] Impacted teeth
+[K02] Dental caries -- **Includes:** - caries of dentine - dental cavities - early childhood caries - pre-eruptive caries - recurrent caries (dentino enamel junction) (enamel) (to the pulp) - tooth decay
+[K023] Arrested dental caries -- **Inclusion terms:** - Arrested coronal and root caries
+[K025] Dental caries on pit and fissure surface -- **Inclusion terms:** - Dental caries on chewing surface of tooth
+[K0251] Dental caries on pit and fissure surface limited to enamel -- **Inclusion terms:** - White spot lesions [initial caries] on pit and fissure surface of tooth
+[K0252] Dental caries on pit and fissure surface penetrating into dentin -- **Inclusion terms:** - Primary dental caries, cervical origin
+[K0253] Dental caries on pit and fissure surface penetrating into pulp
+[K026] Dental caries on smooth surface
+[K0261] Dental caries on smooth surface limited to enamel -- **Inclusion terms:** - White spot lesions [initial caries] on smooth surface of tooth
+[K0262] Dental caries on smooth surface penetrating into dentin
+[K0263] Dental caries on smooth surface penetrating into pulp
+[K027] Dental root caries
+[K029] Dental caries, unspecified
+[K03] Other diseases of hard tissues of teeth -- **Excludes2:** - bruxism (F45.8) - dental caries (K02.-) - teeth-grinding NOS (F45.8)
+[K030] Excessive attrition of teeth -- **Inclusion terms:** - Approximal wear of teeth - Occlusal wear of teeth
+[K031] Abrasion of teeth -- **Inclusion terms:** - Dentifrice abrasion of teeth - Habitual abrasion of teeth - Occupational abrasion of teeth - Ritual abrasion of teeth - Traditional abrasion of teeth - Wedge defect NOS
+[K032] Erosion of teeth -- **Inclusion terms:** - Erosion of teeth due to diet - Erosion of teeth due to drugs and medicaments - Erosion of teeth due to persistent vomiting - Erosion of teeth NOS - Idiopathic erosion of teeth - Occupational erosion of teeth
+[K033] Pathological resorption of teeth -- **Inclusion terms:** - Internal granuloma of pulp - Resorption of teeth (external)
+[K034] Hypercementosis -- **Inclusion terms:** - Cementation hyperplasia
+[K035] Ankylosis of teeth
+[K036] Deposits [accretions] on teeth -- **Inclusion terms:** - Betel deposits [accretions] on teeth - Black deposits [accretions] on teeth - Extrinsic staining of teeth NOS - Green deposits [accretions] on teeth - Materia alba deposits [accretions] on teeth - Orange deposits [accretions] on teeth - Staining of teeth NOS - Subgingival dental calculus - Supragingival dental calculus - Tobacco deposits [accretions] on teeth
+[K037] Posteruptive color changes of dental hard tissues -- **Excludes2:** - deposits [accretions] on teeth (K03.6)
+[K038] Other specified diseases of hard tissues of teeth
+[K0381] Cracked tooth -- **Excludes1:** - asymptomatic craze lines in enamel - omit code - broken or fractured tooth due to trauma (S02.5)
+[K0389] Other specified diseases of hard tissues of teeth
+[K039] Disease of hard tissues of teeth, unspecified
+[K04] Diseases of pulp and periapical tissues
+[K040] Pulpitis -- **Inclusion terms:** - Acute pulpitis - Chronic (hyperplastic) (ulcerative) pulpitis
+[K0401] Reversible pulpitis
+[K0402] Irreversible pulpitis
+[K041] Necrosis of pulp -- **Inclusion terms:** - Pulpal gangrene
+[K042] Pulp degeneration -- **Inclusion terms:** - Denticles - Pulpal calcifications - Pulpal stones
+[K043] Abnormal hard tissue formation in pulp -- **Inclusion terms:** - Secondary or irregular dentine
+[K044] Acute apical periodontitis of pulpal origin -- **Inclusion terms:** - Acute apical periodontitis NOS  **Excludes1:** - acute periodontitis (K05.2-)
+[K045] Chronic apical periodontitis -- **Inclusion terms:** - Apical or periapical granuloma - Apical periodontitis NOS  **Excludes1:** - chronic periodontitis (K05.3-)
+[K046] Periapical abscess with sinus -- **Inclusion terms:** - Dental abscess with sinus - Dentoalveolar abscess with sinus
+[K047] Periapical abscess without sinus -- **Inclusion terms:** - Dental abscess without sinus - Dentoalveolar abscess without sinus
+[K048] Radicular cyst -- **Inclusion terms:** - Apical (periodontal) cyst - Periapical cyst - Residual radicular cyst  **Excludes2:** - lateral periodontal cyst (K09.0)
+[K049] Other and unspecified diseases of pulp and periapical tissues
+[K0490] Unspecified diseases of pulp and periapical tissues
+[K0499] Other diseases of pulp and periapical tissues
+[K05] Gingivitis and periodontal diseases -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[K050] Acute gingivitis -- **Excludes1:** - acute necrotizing ulcerative gingivitis (A69.1) - herpesviral [herpes simplex] gingivostomatitis (B00.2)
+[K0500] Acute gingivitis, plaque induced -- **Inclusion terms:** - Acute gingivitis NOS - Plaque induced gingival disease
+[K0501] Acute gingivitis, non-plaque induced
+[K051] Chronic gingivitis -- **Inclusion terms:** - Desquamative gingivitis (chronic) - Gingivitis (chronic) NOS - Hyperplastic gingivitis (chronic) - Pregnancy associated gingivitis - Simple marginal gingivitis (chronic) - Ulcerative gingivitis (chronic)  **Code first:** - , if applicable, diseases of the digestive system complicating pregnancy (O99.61-)
+[K0510] Chronic gingivitis, plaque induced -- **Inclusion terms:** - Chronic gingivitis NOS - Gingivitis NOS
+[K0511] Chronic gingivitis, non-plaque induced
+[K052] Aggressive periodontitis -- **Inclusion terms:** - Acute pericoronitis  **Excludes1:** - acute apical periodontitis (K04.4) - periapical abscess (K04.7) - periapical abscess with sinus (K04.6)
+[K0520] Aggressive periodontitis, unspecified
+[K0521] Aggressive periodontitis, localized -- **Inclusion terms:** - Periodontal abscess
+[K05211] Aggressive periodontitis, localized, slight
+[K05212] Aggressive periodontitis, localized, moderate
+[K05213] Aggressive periodontitis, localized, severe
+[K05219] Aggressive periodontitis, localized, unspecified severity
+[K0522] Aggressive periodontitis, generalized
+[K05221] Aggressive periodontitis, generalized, slight
+[K05222] Aggressive periodontitis, generalized, moderate
+[K05223] Aggressive periodontitis, generalized, severe
+[K05229] Aggressive periodontitis, generalized, unspecified severity
+[K053] Chronic periodontitis -- **Inclusion terms:** - Chronic pericoronitis - Complex periodontitis - Periodontitis NOS - Simplex periodontitis  **Excludes1:** - chronic apical periodontitis (K04.5)
+[K0530] Chronic periodontitis, unspecified
+[K0531] Chronic periodontitis, localized
+[K05311] Chronic periodontitis, localized, slight
+[K05312] Chronic periodontitis, localized, moderate
+[K05313] Chronic periodontitis, localized, severe
+[K05319] Chronic periodontitis, localized, unspecified severity
+[K0532] Chronic periodontitis, generalized
+[K05321] Chronic periodontitis, generalized, slight
+[K05322] Chronic periodontitis, generalized, moderate
+[K05323] Chronic periodontitis, generalized, severe
+[K05329] Chronic periodontitis, generalized, unspecified severity
+[K054] Periodontosis -- **Inclusion terms:** - Juvenile periodontosis
+[K055] Other periodontal diseases -- **Inclusion terms:** - Combined periodontic-endodontic lesion - Narrow gingival width (of periodontal soft tissue)  **Excludes2:** - leukoplakia of gingiva (K13.21)
+[K056] Periodontal disease, unspecified
+[K06] Other disorders of gingiva and edentulous alveolar ridge -- **Excludes2:** - acute gingivitis (K05.0) - atrophy of edentulous alveolar ridge (K08.2) - chronic gingivitis (K05.1) - gingivitis NOS (K05.1)
+[K060] Gingival recession -- **Inclusion terms:** - Gingival recession (postinfective) (postprocedural)
+[K0601] Gingival recession, localized
+[K06010] Localized gingival recession, unspecified -- **Inclusion terms:** - Localized gingival recession, NOS
+[K06011] Localized gingival recession, minimal
+[K06012] Localized gingival recession, moderate
+[K06013] Localized gingival recession, severe
+[K0602] Gingival recession, generalized
+[K06020] Generalized gingival recession, unspecified -- **Inclusion terms:** - Generalized gingival recession, NOS
+[K06021] Generalized gingival recession, minimal
+[K06022] Generalized gingival recession, moderate
+[K06023] Generalized gingival recession, severe
+[K061] Gingival enlargement -- **Inclusion terms:** - Gingival fibromatosis
+[K062] Gingival and edentulous alveolar ridge lesions associated with trauma -- **Inclusion terms:** - Irritative hyperplasia of edentulous ridge [denture hyperplasia]  **Use additional code:** - code (Chapter 20) to identify external cause or denture status (Z97.2)
+[K063] Horizontal alveolar bone loss
+[K068] Other specified disorders of gingiva and edentulous alveolar ridge -- **Inclusion terms:** - Fibrous epulis - Flabby alveolar ridge - Giant cell epulis - Peripheral giant cell granuloma of gingiva - Pyogenic granuloma of gingiva - Vertical ridge deficiency  **Excludes2:** - gingival cyst (K09.0)
+[K069] Disorder of gingiva and edentulous alveolar ridge, unspecified
+[K08] Other disorders of teeth and supporting structures -- **Excludes2:** - dentofacial anomalies [including malocclusion] (M26.-) - disorders of jaw (M27.-)
+[K080] Exfoliation of teeth due to systemic causes -- **Code also:** - underlying systemic condition
+[K081] Complete loss of teeth -- **Inclusion terms:** - Acquired loss of teeth, complete  **Excludes1:** - congenital absence of teeth (K00.0) - exfoliation of teeth due to systemic causes (K08.0) - partial loss of teeth (K08.4-)
+[K0810] Complete loss of teeth, unspecified cause
+[K08101] Complete loss of teeth, unspecified cause, class I
+[K08102] Complete loss of teeth, unspecified cause, class II
+[K08103] Complete loss of teeth, unspecified cause, class III
+[K08104] Complete loss of teeth, unspecified cause, class IV
+[K08109] Complete loss of teeth, unspecified cause, unspecified class -- **Inclusion terms:** - Edentulism NOS
+[K0811] Complete loss of teeth due to trauma
+[K08111] Complete loss of teeth due to trauma, class I
+[K08112] Complete loss of teeth due to trauma, class II
+[K08113] Complete loss of teeth due to trauma, class III
+[K08114] Complete loss of teeth due to trauma, class IV
+[K08119] Complete loss of teeth due to trauma, unspecified class
+[K0812] Complete loss of teeth due to periodontal diseases
+[K08121] Complete loss of teeth due to periodontal diseases, class I
+[K08122] Complete loss of teeth due to periodontal diseases, class II
+[K08123] Complete loss of teeth due to periodontal diseases, class III
+[K08124] Complete loss of teeth due to periodontal diseases, class IV
+[K08129] Complete loss of teeth due to periodontal diseases, unspecified class
+[K0813] Complete loss of teeth due to caries
+[K08131] Complete loss of teeth due to caries, class I
+[K08132] Complete loss of teeth due to caries, class II
+[K08133] Complete loss of teeth due to caries, class III
+[K08134] Complete loss of teeth due to caries, class IV
+[K08139] Complete loss of teeth due to caries, unspecified class
+[K0819] Complete loss of teeth due to other specified cause
+[K08191] Complete loss of teeth due to other specified cause, class I
+[K08192] Complete loss of teeth due to other specified cause, class II
+[K08193] Complete loss of teeth due to other specified cause, class III
+[K08194] Complete loss of teeth due to other specified cause, class IV
+[K08199] Complete loss of teeth due to other specified cause, unspecified class
+[K082] Atrophy of edentulous alveolar ridge
+[K0820] Unspecified atrophy of edentulous alveolar ridge -- **Inclusion terms:** - Atrophy of the mandible NOS - Atrophy of the maxilla NOS
+[K0821] Minimal atrophy of the mandible -- **Inclusion terms:** - Minimal atrophy of the edentulous mandible
+[K0822] Moderate atrophy of the mandible -- **Inclusion terms:** - Moderate atrophy of the edentulous mandible
+[K0823] Severe atrophy of the mandible -- **Inclusion terms:** - Severe atrophy of the edentulous mandible
+[K0824] Minimal atrophy of maxilla -- **Inclusion terms:** - Minimal atrophy of the edentulous maxilla
+[K0825] Moderate atrophy of the maxilla -- **Inclusion terms:** - Moderate atrophy of the edentulous maxilla
+[K0826] Severe atrophy of the maxilla -- **Inclusion terms:** - Severe atrophy of the edentulous maxilla
+[K083] Retained dental root
+[K084] Partial loss of teeth -- **Inclusion terms:** - Acquired loss of teeth, partial  **Excludes1:** - complete loss of teeth (K08.1-) - congenital absence of teeth (K00.0)  **Excludes2:** - exfoliation of teeth due to systemic causes (K08.0)
+[K0840] Partial loss of teeth, unspecified cause
+[K08401] Partial loss of teeth, unspecified cause, class I
+[K08402] Partial loss of teeth, unspecified cause, class II
+[K08403] Partial loss of teeth, unspecified cause, class III
+[K08404] Partial loss of teeth, unspecified cause, class IV
+[K08409] Partial loss of teeth, unspecified cause, unspecified class -- **Inclusion terms:** - Tooth extraction status NOS
+[K0841] Partial loss of teeth due to trauma
+[K08411] Partial loss of teeth due to trauma, class I
+[K08412] Partial loss of teeth due to trauma, class II
+[K08413] Partial loss of teeth due to trauma, class III
+[K08414] Partial loss of teeth due to trauma, class IV
+[K08419] Partial loss of teeth due to trauma, unspecified class
+[K0842] Partial loss of teeth due to periodontal diseases
+[K08421] Partial loss of teeth due to periodontal diseases, class I
+[K08422] Partial loss of teeth due to periodontal diseases, class II
+[K08423] Partial loss of teeth due to periodontal diseases, class III
+[K08424] Partial loss of teeth due to periodontal diseases, class IV
+[K08429] Partial loss of teeth due to periodontal diseases, unspecified class
+[K0843] Partial loss of teeth due to caries
+[K08431] Partial loss of teeth due to caries, class I
+[K08432] Partial loss of teeth due to caries, class II
+[K08433] Partial loss of teeth due to caries, class III
+[K08434] Partial loss of teeth due to caries, class IV
+[K08439] Partial loss of teeth due to caries, unspecified class
+[K0849] Partial loss of teeth due to other specified cause
+[K08491] Partial loss of teeth due to other specified cause, class I
+[K08492] Partial loss of teeth due to other specified cause, class II
+[K08493] Partial loss of teeth due to other specified cause, class III
+[K08494] Partial loss of teeth due to other specified cause, class IV
+[K08499] Partial loss of teeth due to other specified cause, unspecified class
+[K085] Unsatisfactory restoration of tooth -- **Inclusion terms:** - Defective bridge, crown, filling - Defective dental restoration  **Excludes1:** - dental restoration status (Z98.811)  **Excludes2:** - endosseous dental implant failure (M27.6-) - unsatisfactory endodontic treatment (M27.5-)
+[K0850] Unsatisfactory restoration of tooth, unspecified -- **Inclusion terms:** - Defective dental restoration NOS
+[K0851] Open restoration margins of tooth -- **Inclusion terms:** - Dental restoration failure of marginal integrity - Open margin on tooth restoration - Poor gingival margin to tooth restoration
+[K0852] Unrepairable overhanging of dental restorative materials -- **Inclusion terms:** - Overhanging of tooth restoration
+[K0853] Fractured dental restorative material -- **Excludes1:** - cracked tooth (K03.81) - traumatic fracture of tooth (S02.5)
+[K08530] Fractured dental restorative material without loss of material
+[K08531] Fractured dental restorative material with loss of material
+[K08539] Fractured dental restorative material, unspecified
+[K0854] Contour of existing restoration of tooth biologically incompatible with oral health -- **Inclusion terms:** - Dental restoration failure of periodontal anatomical integrity - Unacceptable contours of existing restoration of tooth - Unacceptable morphology of existing restoration of tooth
+[K0855] Allergy to existing dental restorative material -- **Use additional code:** - code to identify the specific type of allergy
+[K0856] Poor aesthetic of existing restoration of tooth -- **Inclusion terms:** - Dental restoration aesthetically inadequate or displeasing
+[K0859] Other unsatisfactory restoration of tooth -- **Inclusion terms:** - Other defective dental restoration
+[K088] Other specified disorders of teeth and supporting structures
+[K0881] Primary occlusal trauma
+[K0882] Secondary occlusal trauma
+[K0889] Other specified disorders of teeth and supporting structures -- **Inclusion terms:** - Enlargement of alveolar ridge NOS - Insufficient anatomic crown height - Insufficient clinical crown length - Irregular alveolar process - Toothache NOS
+[K089] Disorder of teeth and supporting structures, unspecified
+[K09] Cysts of oral region, not elsewhere classified -- **Includes:** - lesions showing histological features both of aneurysmal cyst and of another fibro-osseous lesion  **Excludes2:** - cysts of jaw (M27.0-, M27.4-) - radicular cyst (K04.8)
+[K090] Developmental odontogenic cysts -- **Inclusion terms:** - Dentigerous cyst - Eruption cyst - Follicular cyst - Gingival cyst - Lateral periodontal cyst - Primordial cyst  **Excludes2:** - keratocysts (D16.4, D16.5) - odontogenic keratocystic tumors (D16.4, D16.5)
+[K091] Developmental (nonodontogenic) cysts of oral region -- **Inclusion terms:** - Cyst (of) incisive canal - Cyst (of) palatine of papilla - Globulomaxillary cyst - Median palatal cyst - Nasoalveolar cyst - Nasolabial cyst - Nasopalatine duct cyst
+[K098] Other cysts of oral region, not elsewhere classified -- **Inclusion terms:** - Dermoid cyst - Epidermoid cyst - Lymphoepithelial cyst - Epstein's pearl
+[K099] Cyst of oral region, unspecified
+[K11] Diseases of salivary glands -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[K110] Atrophy of salivary gland
+[K111] Hypertrophy of salivary gland
+[K112] Sialoadenitis -- **Inclusion terms:** - Parotitis  **Excludes1:** - epidemic parotitis (B26.-) - mumps (B26.-) - uveoparotid fever [Heerfordt] (D86.89)
+[K1120] Sialoadenitis, unspecified
+[K1121] Acute sialoadenitis -- **Excludes1:** - acute recurrent sialoadenitis (K11.22)
+[K1122] Acute recurrent sialoadenitis
+[K1123] Chronic sialoadenitis
+[K113] Abscess of salivary gland
+[K114] Fistula of salivary gland -- **Excludes1:** - congenital fistula of salivary gland (Q38.4)
+[K115] Sialolithiasis -- **Inclusion terms:** - Calculus of salivary gland or duct - Stone of salivary gland or duct
+[K116] Mucocele of salivary gland -- **Inclusion terms:** - Mucous extravasation cyst of salivary gland - Mucous retention cyst of salivary gland - Ranula
+[K117] Disturbances of salivary secretion -- **Inclusion terms:** - Hypoptyalism - Ptyalism - Xerostomia  **Excludes2:** - dry mouth NOS (R68.2)
+[K118] Other diseases of salivary glands -- **Inclusion terms:** - Benign lymphoepithelial lesion of salivary gland - Mikulicz' disease - Necrotizing sialometaplasia - Sialectasia - Stenosis of salivary duct - Stricture of salivary duct  **Excludes1:** - Sjögren syndrome (M35.0-)
+[K119] Disease of salivary gland, unspecified -- **Inclusion terms:** - Sialoadenopathy NOS
+[K12] Stomatitis and related lesions -- **Excludes1:** - cancrum oris (A69.0) - cheilitis (K13.0) - gangrenous stomatitis (A69.0) - herpesviral [herpes simplex] gingivostomatitis (B00.2) - noma (A69.0)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[K120] Recurrent oral aphthae -- **Inclusion terms:** - Aphthous stomatitis (major) (minor) - Bednar's aphthae - Periadenitis mucosa necrotica recurrens - Recurrent aphthous ulcer - Stomatitis herpetiformis
+[K121] Other forms of stomatitis -- **Inclusion terms:** - Stomatitis NOS - Denture stomatitis - Ulcerative stomatitis - Vesicular stomatitis  **Excludes1:** - acute necrotizing ulcerative stomatitis (A69.1) - Vincent's stomatitis (A69.1)
+[K122] Cellulitis and abscess of mouth -- **Inclusion terms:** - Cellulitis of mouth (floor) - Submandibular abscess  **Excludes2:** - abscess of salivary gland (K11.3) - abscess of tongue (K14.0) - periapical abscess (K04.6-K04.7) - periodontal abscess (K05.21) - peritonsillar abscess (J36)
+[K123] Oral mucositis (ulcerative) -- **Inclusion terms:** - Mucositis (oral) (oropharyneal)  **Excludes2:** - gastrointestinal mucositis (ulcerative) (K92.81) - mucositis (ulcerative) of vagina and vulva (N76.81) - nasal mucositis (ulcerative) (J34.81)
+[K1230] Oral mucositis (ulcerative), unspecified
+[K1231] Oral mucositis (ulcerative) due to antineoplastic therapy -- **Use additional code:** - code for adverse effect, if applicable, to identify antineoplastic and immunosuppressive drugs (T45.1X5)
+[K1232] Oral mucositis (ulcerative) due to other drugs -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[K1233] Oral mucositis (ulcerative) due to radiation -- **Use additional code:** - external cause code (W88-W90, X39.0-) to identify cause
+[K1239] Other oral mucositis (ulcerative) -- **Inclusion terms:** - Viral oral mucositis (ulcerative)
+[K13] Other diseases of lip and oral mucosa -- **Includes:** - epithelial disturbances of tongue  **Excludes2:** - certain disorders of gingiva and edentulous alveolar ridge (K05-K06) - cysts of oral region (K09.-) - diseases of tongue (K14.-) - stomatitis and related lesions (K12.-)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[K130] Diseases of lips -- **Inclusion terms:** - Abscess of lips - Angular cheilitis - Cellulitis of lips - Cheilitis NOS - Cheilodynia - Cheilosis - Exfoliative cheilitis - Fistula of lips - Glandular cheilitis - Hypertrophy of lips - Perlèche NEC  **Excludes1:** - ariboflavinosis (E53.0) - cheilitis due to radiation-related disorders (L55-L59) - congenital fistula of lips (Q38.0) - congenital hypertrophy of lips (Q18.6) - Perlèche due to candidiasis (B37.83) - Perlèche due to riboflavin deficiency (E53.0)
+[K131] Cheek and lip biting
+[K132] Leukoplakia and other disturbances of oral epithelium, including tongue -- **Excludes1:** - carcinoma in situ of oral epithelium (D00.0-) - hairy leukoplakia (K13.3)
+[K1321] Leukoplakia of oral mucosa, including tongue -- **Inclusion terms:** - Leukokeratosis of oral mucosa - Leukoplakia of gingiva, lips, tongue  **Excludes1:** - hairy leukoplakia (K13.3) - leukokeratosis nicotina palati (K13.24)
+[K1322] Minimal keratinized residual ridge mucosa -- **Inclusion terms:** - Minimal keratinization of alveolar ridge mucosa
+[K1323] Excessive keratinized residual ridge mucosa -- **Inclusion terms:** - Excessive keratinization of alveolar ridge mucosa
+[K1324] Leukokeratosis nicotina palati -- **Inclusion terms:** - Smoker's palate
+[K1329] Other disturbances of oral epithelium, including tongue -- **Inclusion terms:** - Erythroplakia of mouth or tongue - Focal epithelial hyperplasia of mouth or tongue - Leukoedema of mouth or tongue - Other oral epithelium disturbances
+[K133] Hairy leukoplakia
+[K134] Granuloma and granuloma-like lesions of oral mucosa -- **Inclusion terms:** - Eosinophilic granuloma - Granuloma pyogenicum - Verrucous xanthoma
+[K135] Oral submucous fibrosis -- **Inclusion terms:** - Submucous fibrosis of tongue
+[K136] Irritative hyperplasia of oral mucosa -- **Excludes2:** - irritative hyperplasia of edentulous ridge [denture hyperplasia] (K06.2)
+[K137] Other and unspecified lesions of oral mucosa
+[K1370] Unspecified lesions of oral mucosa
+[K1379] Other lesions of oral mucosa -- **Inclusion terms:** - Focal oral mucinosis
+[K14] Diseases of tongue -- **Excludes2:** - erythroplakia (K13.29) - focal epithelial hyperplasia (K13.29) - leukoedema of tongue (K13.29) - leukoplakia of tongue (K13.21) - hairy leukoplakia (K13.3) - macroglossia (congenital) (Q38.2) - submucous fibrosis of tongue (K13.5)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[K140] Glossitis -- **Inclusion terms:** - Abscess of tongue - Ulceration (traumatic) of tongue  **Excludes1:** - atrophic glossitis (K14.4)
+[K141] Geographic tongue -- **Inclusion terms:** - Benign migratory glossitis - Glossitis areata exfoliativa
+[K142] Median rhomboid glossitis
+[K143] Hypertrophy of tongue papillae -- **Inclusion terms:** - Black hairy tongue - Coated tongue - Hypertrophy of foliate papillae - Lingua villosa nigra
+[K144] Atrophy of tongue papillae -- **Inclusion terms:** - Atrophic glossitis
+[K145] Plicated tongue -- **Inclusion terms:** - Fissured tongue - Furrowed tongue - Scrotal tongue  **Excludes1:** - fissured tongue, congenital (Q38.3)
+[K146] Glossodynia -- **Inclusion terms:** - Glossopyrosis - Painful tongue
+[K148] Other diseases of tongue -- **Inclusion terms:** - Atrophy of tongue - Crenated tongue - Enlargement of tongue - Glossocele - Glossoptosis - Hypertrophy of tongue
+[K149] Disease of tongue, unspecified -- **Inclusion terms:** - Glossopathy NOS
+[K20] Esophagitis -- **Excludes1:** - erosion of esophagus (K22.1-) - esophagitis with gastro-esophageal reflux disease (K21.0-) - reflux esophagitis (K21.0-) - ulcerative esophagitis (K22.1-)  **Excludes2:** - eosinophilic gastritis or gastroenteritis (K52.81)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K200] Eosinophilic esophagitis
+[K208] Other esophagitis
+[K2080] Other esophagitis without bleeding -- **Inclusion terms:** - Abscess of esophagus - Other esophagitis NOS
+[K2081] Other esophagitis with bleeding
+[K209] Esophagitis, unspecified
+[K2090] Esophagitis, unspecified without bleeding -- **Inclusion terms:** - Esophagitis NOS
+[K2091] Esophagitis, unspecified with bleeding
+[K21] Gastro-esophageal reflux disease -- **Excludes1:** - newborn esophageal reflux (P78.83)
+[K210] Gastro-esophageal reflux disease with esophagitis
+[K2100] Gastro-esophageal reflux disease with esophagitis, without bleeding -- **Inclusion terms:** - Reflux esophagitis
+[K2101] Gastro-esophageal reflux disease with esophagitis, with bleeding
+[K219] Gastro-esophageal reflux disease without esophagitis -- **Inclusion terms:** - Esophageal reflux NOS
+[K22] Other diseases of esophagus -- **Excludes2:** - esophageal varices (I85.-)
+[K220] Achalasia of cardia -- **Inclusion terms:** - Achalasia NOS - Cardiospasm  **Excludes1:** - congenital cardiospasm (Q39.5)
+[K221] Ulcer of esophagus -- **Inclusion terms:** - Barrett's ulcer - Erosion of esophagus - Fungal ulcer of esophagus - Peptic ulcer of esophagus - Ulcer of esophagus due to ingestion of chemicals - Ulcer of esophagus due to ingestion of drugs and medicaments - Ulcerative esophagitis  **Excludes1:** - Barrett's esophagus (K22.7-)  **Code first:** - poisoning due to drug or toxin, if applicable (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[K2210] Ulcer of esophagus without bleeding -- **Inclusion terms:** - Ulcer of esophagus NOS
+[K2211] Ulcer of esophagus with bleeding -- **Excludes2:** - bleeding esophageal varices (I85.01, I85.11)
+[K222] Esophageal obstruction -- **Inclusion terms:** - Compression of esophagus - Constriction of esophagus - Stenosis of esophagus - Stricture of esophagus  **Excludes1:** - congenital stenosis or stricture of esophagus (Q39.3)
+[K223] Perforation of esophagus -- **Inclusion terms:** - Rupture of esophagus  **Excludes1:** - traumatic perforation of (thoracic) esophagus (S27.8-)
+[K224] Dyskinesia of esophagus -- **Inclusion terms:** - Corkscrew esophagus - Diffuse esophageal spasm - Spasm of esophagus  **Excludes1:** - cardiospasm (K22.0)
+[K225] Diverticulum of esophagus, acquired -- **Inclusion terms:** - Esophageal pouch, acquired  **Excludes1:** - diverticulum of esophagus (congenital) (Q39.6)
+[K226] Gastro-esophageal laceration-hemorrhage syndrome -- **Inclusion terms:** - Mallory-Weiss syndrome
+[K227] Barrett's esophagus -- **Inclusion terms:** - Barrett's disease - Barrett's syndrome  **Excludes1:** - Barrett's ulcer (K22.1) - malignant neoplasm of esophagus (C15.-)
+[K2270] Barrett's esophagus without dysplasia -- **Inclusion terms:** - Barrett's esophagus NOS
+[K2271] Barrett's esophagus with dysplasia
+[K22710] Barrett's esophagus with low grade dysplasia
+[K22711] Barrett's esophagus with high grade dysplasia
+[K22719] Barrett's esophagus with dysplasia, unspecified
+[K228] Other specified diseases of esophagus -- **Excludes2:** - esophageal varices (I85.-) - Paterson-Kelly syndrome (D50.1)
+[K2281] Esophageal polyp -- **Excludes1:** - benign neoplasm of esophagus (D13.0)
+[K2282] Esophagogastric junction polyp -- **Excludes1:** - benign neoplasm of stomach (D13.1)
+[K2289] Other specified disease of esophagus -- **Inclusion terms:** - Hemorrhage of esophagus NOS
+[K229] Disease of esophagus, unspecified
+[K23] Disorders of esophagus in diseases classified elsewhere -- **Excludes1:** - late syphilis (A52.79) - megaesophagus due to Chagas' disease (B57.31) - tuberculosis (A18.83)  **Code first:** - underlying disease, such as: - congenital syphilis (A50.5)
+[K25] Gastric ulcer -- **Includes:** - erosion (acute) of stomach - pylorus ulcer (peptic) - stomach ulcer (peptic)  **Excludes1:** - acute gastritis (K29.0-) - peptic ulcer NOS (K27.-)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K250] Acute gastric ulcer with hemorrhage
+[K251] Acute gastric ulcer with perforation
+[K252] Acute gastric ulcer with both hemorrhage and perforation
+[K253] Acute gastric ulcer without hemorrhage or perforation
+[K254] Chronic or unspecified gastric ulcer with hemorrhage
+[K255] Chronic or unspecified gastric ulcer with perforation
+[K256] Chronic or unspecified gastric ulcer with both hemorrhage and perforation
+[K257] Chronic gastric ulcer without hemorrhage or perforation
+[K259] Gastric ulcer, unspecified as acute or chronic, without hemorrhage or perforation
+[K26] Duodenal ulcer -- **Includes:** - erosion (acute) of duodenum - duodenum ulcer (peptic) - postpyloric ulcer (peptic)  **Excludes1:** - peptic ulcer NOS (K27.-)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K260] Acute duodenal ulcer with hemorrhage
+[K261] Acute duodenal ulcer with perforation
+[K262] Acute duodenal ulcer with both hemorrhage and perforation
+[K263] Acute duodenal ulcer without hemorrhage or perforation
+[K264] Chronic or unspecified duodenal ulcer with hemorrhage
+[K265] Chronic or unspecified duodenal ulcer with perforation
+[K266] Chronic or unspecified duodenal ulcer with both hemorrhage and perforation
+[K267] Chronic duodenal ulcer without hemorrhage or perforation
+[K269] Duodenal ulcer, unspecified as acute or chronic, without hemorrhage or perforation
+[K27] Peptic ulcer, site unspecified -- **Includes:** - gastroduodenal ulcer NOS - peptic ulcer NOS  **Excludes1:** - peptic ulcer of newborn (P78.82)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K270] Acute peptic ulcer, site unspecified, with hemorrhage
+[K271] Acute peptic ulcer, site unspecified, with perforation
+[K272] Acute peptic ulcer, site unspecified, with both hemorrhage and perforation
+[K273] Acute peptic ulcer, site unspecified, without hemorrhage or perforation
+[K274] Chronic or unspecified peptic ulcer, site unspecified, with hemorrhage
+[K275] Chronic or unspecified peptic ulcer, site unspecified, with perforation
+[K276] Chronic or unspecified peptic ulcer, site unspecified, with both hemorrhage and perforation
+[K277] Chronic peptic ulcer, site unspecified, without hemorrhage or perforation
+[K279] Peptic ulcer, site unspecified, unspecified as acute or chronic, without hemorrhage or perforation
+[K28] Gastrojejunal ulcer -- **Includes:** - anastomotic ulcer (peptic) or erosion - gastrocolic ulcer (peptic) or erosion - gastrointestinal ulcer (peptic) or erosion - gastrojejunal ulcer (peptic) or erosion - jejunal ulcer (peptic) or erosion - marginal ulcer (peptic) or erosion - stomal ulcer (peptic) or erosion  **Excludes1:** - primary ulcer of small intestine (K63.3)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K280] Acute gastrojejunal ulcer with hemorrhage
+[K281] Acute gastrojejunal ulcer with perforation
+[K282] Acute gastrojejunal ulcer with both hemorrhage and perforation
+[K283] Acute gastrojejunal ulcer without hemorrhage or perforation
+[K284] Chronic or unspecified gastrojejunal ulcer with hemorrhage
+[K285] Chronic or unspecified gastrojejunal ulcer with perforation
+[K286] Chronic or unspecified gastrojejunal ulcer with both hemorrhage and perforation
+[K287] Chronic gastrojejunal ulcer without hemorrhage or perforation
+[K289] Gastrojejunal ulcer, unspecified as acute or chronic, without hemorrhage or perforation
+[K29] Gastritis and duodenitis -- **Excludes1:** - eosinophilic gastritis or gastroenteritis (K52.81) - Zollinger-Ellison syndrome (E16.4)
+[K290] Acute gastritis -- **Excludes1:** - erosion (acute) of stomach (K25.-)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K2900] Acute gastritis without bleeding
+[K2901] Acute gastritis with bleeding
+[K292] Alcoholic gastritis -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K2920] Alcoholic gastritis without bleeding
+[K2921] Alcoholic gastritis with bleeding
+[K293] Chronic superficial gastritis
+[K2930] Chronic superficial gastritis without bleeding
+[K2931] Chronic superficial gastritis with bleeding
+[K294] Chronic atrophic gastritis -- **Inclusion terms:** - Gastric atrophy
+[K2940] Chronic atrophic gastritis without bleeding
+[K2941] Chronic atrophic gastritis with bleeding
+[K295] Unspecified chronic gastritis -- **Inclusion terms:** - Chronic antral gastritis - Chronic fundal gastritis
+[K2950] Unspecified chronic gastritis without bleeding
+[K2951] Unspecified chronic gastritis with bleeding
+[K296] Other gastritis -- **Inclusion terms:** - Giant hypertrophic gastritis - Granulomatous gastritis - Ménétrier's disease
+[K2960] Other gastritis without bleeding
+[K2961] Other gastritis with bleeding
+[K297] Gastritis, unspecified
+[K2970] Gastritis, unspecified, without bleeding
+[K2971] Gastritis, unspecified, with bleeding
+[K298] Duodenitis
+[K2980] Duodenitis without bleeding
+[K2981] Duodenitis with bleeding
+[K299] Gastroduodenitis, unspecified
+[K2990] Gastroduodenitis, unspecified, without bleeding
+[K2991] Gastroduodenitis, unspecified, with bleeding
+[K30] Functional dyspepsia -- **Inclusion terms:** - Indigestion  **Excludes1:** - dyspepsia NOS (R10.13) - heartburn (R12) - nervous dyspepsia (F45.8) - neurotic dyspepsia (F45.8) - psychogenic dyspepsia (F45.8)
+[K31] Other diseases of stomach and duodenum -- **Includes:** - functional disorders of stomach  **Excludes2:** - diabetic gastroparesis (E08.43, E09.43, E10.43, E11.43, E13.43) - diverticulum of duodenum (K57.00-K57.13)
+[K310] Acute dilatation of stomach -- **Inclusion terms:** - Acute distention of stomach
+[K311] Adult hypertrophic pyloric stenosis -- **Inclusion terms:** - Pyloric stenosis NOS  **Excludes1:** - congenital or infantile pyloric stenosis (Q40.0)
+[K312] Hourglass stricture and stenosis of stomach -- **Excludes1:** - congenital hourglass stomach (Q40.2) - hourglass contraction of stomach (K31.89)
+[K313] Pylorospasm, not elsewhere classified -- **Excludes1:** - congenital or infantile pylorospasm (Q40.0) - neurotic pylorospasm (F45.8) - psychogenic pylorospasm (F45.8)
+[K314] Gastric diverticulum -- **Excludes1:** - congenital diverticulum of stomach (Q40.2)
+[K315] Obstruction of duodenum -- **Inclusion terms:** - Constriction of duodenum - Duodenal ileus (chronic) - Stenosis of duodenum - Stricture of duodenum - Volvulus of duodenum  **Excludes1:** - congenital stenosis of duodenum (Q41.0)
+[K316] Fistula of stomach and duodenum -- **Inclusion terms:** - Gastrocolic fistula - Gastrojejunocolic fistula  **Code also:** - , if applicable, disruption of internal operation (surgical) wound (T81.32-)
+[K317] Polyp of stomach and duodenum -- **Excludes1:** - adenomatous polyp of stomach (D13.1)
+[K318] Other specified diseases of stomach and duodenum
+[K3181] Angiodysplasia of stomach and duodenum
+[K31811] Angiodysplasia of stomach and duodenum with bleeding
+[K31819] Angiodysplasia of stomach and duodenum without bleeding -- **Inclusion terms:** - Angiodysplasia of stomach and duodenum NOS
+[K3182] Dieulafoy lesion (hemorrhagic) of stomach and duodenum -- **Excludes2:** - Dieulafoy lesion of intestine (K63.81)
+[K3183] Achlorhydria
+[K3184] Gastroparesis -- **Inclusion terms:** - Gastroparalysis  **Code first:** - underlying disease, if known, such as: - anorexia nervosa (F50.0-) - diabetes mellitus (E08.43, E09.43, E10.43, E11.43, E13.43) - scleroderma (M34.-)
+[K3189] Other diseases of stomach and duodenum
+[K319] Disease of stomach and duodenum, unspecified
+[K31A] Gastric intestinal metaplasia
+[K31A0] Gastric intestinal metaplasia, unspecified -- **Inclusion terms:** - Gastric intestinal metaplasia indefinite for dysplasia - Gastric intestinal metaplasia NOS
+[K31A1] Gastric intestinal metaplasia without dysplasia
+[K31A11] Gastric intestinal metaplasia without dysplasia, involving the antrum
+[K31A12] Gastric intestinal metaplasia without dysplasia, involving the body (corpus)
+[K31A13] Gastric intestinal metaplasia without dysplasia, involving the fundus
+[K31A14] Gastric intestinal metaplasia without dysplasia, involving the cardia
+[K31A15] Gastric intestinal metaplasia without dysplasia, involving multiple sites
+[K31A19] Gastric intestinal metaplasia without dysplasia, unspecified site
+[K31A2] Gastric intestinal metaplasia with dysplasia
+[K31A21] Gastric intestinal metaplasia with low grade dysplasia
+[K31A22] Gastric intestinal metaplasia with high grade dysplasia
+[K31A29] Gastric intestinal metaplasia with dysplasia, unspecified
+[K35] Acute appendicitis
+[K352] Acute appendicitis with generalized peritonitis
+[K3520] Acute appendicitis with generalized peritonitis, without abscess
+[K35200] Acute appendicitis with generalized peritonitis, without perforation or abscess -- **Inclusion terms:** - (Acute) appendicitis with generalized peritonitis without rupture or perforation of appendix NOS
+[K35201] Acute appendicitis with generalized peritonitis, with perforation, without abscess -- **Inclusion terms:** - Appendicitis (acute) with generalized (diffuse) peritonitis following rupture or perforation of appendix NOS
+[K35209] Acute appendicitis with generalized peritonitis, without abscess, unspecified as to perforation -- **Inclusion terms:** - (Acute) appendicitis with generalized peritonitis NOS
+[K3521] Acute appendicitis with generalized peritonitis, with abscess
+[K35210] Acute appendicitis with generalized peritonitis, without perforation, with abscess -- **Inclusion terms:** - (Acute) appendicitis with generalized peritonitis without rupture or perforation of appendix, with abscess
+[K35211] Acute appendicitis with generalized peritonitis, with perforation and abscess -- **Inclusion terms:** - Appendicitis (acute) with generalized (diffuse) peritonitis following rupture or perforation of appendix, with abscess
+[K35219] Acute appendicitis with generalized peritonitis, with abscess, unspecified as to perforation -- **Inclusion terms:** - (Acute) appendicitis with generalized peritonitis and abscess NOS
+[K353] Acute appendicitis with localized peritonitis
+[K3530] Acute appendicitis with localized peritonitis, without perforation or gangrene -- **Inclusion terms:** - Acute appendicitis with localized peritonitis NOS
+[K3531] Acute appendicitis with localized peritonitis and gangrene, without perforation
+[K3532] Acute appendicitis with perforation, localized peritonitis, and gangrene, without abscess -- **Inclusion terms:** - (Acute) appendicitis with perforation NOS - Perforated appendix NOS - Ruptured appendix (with localized peritonitis) NOS
+[K3533] Acute appendicitis with perforation, localized peritonitis, and gangrene, with abscess -- **Inclusion terms:** - (Acute) appendicitis with (peritoneal) abscess NOS - Ruptured appendix with localized peritonitis and abscess
+[K358] Other and unspecified acute appendicitis
+[K3580] Unspecified acute appendicitis -- **Inclusion terms:** - Acute appendicitis NOS - Acute appendicitis without (localized) (generalized) peritonitis
+[K3589] Other acute appendicitis
+[K35890] Other acute appendicitis without perforation or gangrene
+[K35891] Other acute appendicitis without perforation, with gangrene -- **Inclusion terms:** - (Acute) appendicitis with gangrene NOS
+[K36] Other appendicitis -- **Inclusion terms:** - Chronic appendicitis - Recurrent appendicitis
+[K37] Unspecified appendicitis -- **Excludes1:** - unspecified appendicitis with peritonitis (K35.2-, K35.3-)
+[K38] Other diseases of appendix
+[K380] Hyperplasia of appendix
+[K381] Appendicular concretions -- **Inclusion terms:** - Fecalith of appendix - Stercolith of appendix
+[K382] Diverticulum of appendix
+[K383] Fistula of appendix
+[K388] Other specified diseases of appendix -- **Inclusion terms:** - Intussusception of appendix
+[K389] Disease of appendix, unspecified
+[K40] Inguinal hernia -- **Includes:** - bubonocele - direct inguinal hernia - double inguinal hernia - indirect inguinal hernia - inguinal hernia NOS - oblique inguinal hernia - scrotal hernia
+[K400] Bilateral inguinal hernia, with obstruction, without gangrene -- **Inclusion terms:** - Inguinal hernia (bilateral) causing obstruction without gangrene - Incarcerated inguinal hernia (bilateral) without gangrene - Irreducible inguinal hernia (bilateral) without gangrene - Strangulated inguinal hernia (bilateral) without gangrene
+[K4000] Bilateral inguinal hernia, with obstruction, without gangrene, not specified as recurrent -- **Inclusion terms:** - Bilateral inguinal hernia, with obstruction, without gangrene NOS
+[K4001] Bilateral inguinal hernia, with obstruction, without gangrene, recurrent
+[K401] Bilateral inguinal hernia, with gangrene
+[K4010] Bilateral inguinal hernia, with gangrene, not specified as recurrent -- **Inclusion terms:** - Bilateral inguinal hernia, with gangrene NOS
+[K4011] Bilateral inguinal hernia, with gangrene, recurrent
+[K402] Bilateral inguinal hernia, without obstruction or gangrene
+[K4020] Bilateral inguinal hernia, without obstruction or gangrene, not specified as recurrent -- **Inclusion terms:** - Bilateral inguinal hernia NOS
+[K4021] Bilateral inguinal hernia, without obstruction or gangrene, recurrent
+[K403] Unilateral inguinal hernia, with obstruction, without gangrene -- **Inclusion terms:** - Inguinal hernia (unilateral) causing obstruction without gangrene - Incarcerated inguinal hernia (unilateral) without gangrene - Irreducible inguinal hernia (unilateral) without gangrene - Strangulated inguinal hernia (unilateral) without gangrene
+[K4030] Unilateral inguinal hernia, with obstruction, without gangrene, not specified as recurrent -- **Inclusion terms:** - Inguinal hernia, with obstruction NOS - Unilateral inguinal hernia, with obstruction, without gangrene NOS
+[K4031] Unilateral inguinal hernia, with obstruction, without gangrene, recurrent
+[K404] Unilateral inguinal hernia, with gangrene
+[K4040] Unilateral inguinal hernia, with gangrene, not specified as recurrent -- **Inclusion terms:** - Inguinal hernia with gangrene NOS - Unilateral inguinal hernia with gangrene NOS
+[K4041] Unilateral inguinal hernia, with gangrene, recurrent
+[K409] Unilateral inguinal hernia, without obstruction or gangrene
+[K4090] Unilateral inguinal hernia, without obstruction or gangrene, not specified as recurrent -- **Inclusion terms:** - Inguinal hernia NOS - Unilateral inguinal hernia NOS
+[K4091] Unilateral inguinal hernia, without obstruction or gangrene, recurrent
+[K41] Femoral hernia
+[K410] Bilateral femoral hernia, with obstruction, without gangrene -- **Inclusion terms:** - Femoral hernia (bilateral) causing obstruction, without gangrene - Incarcerated femoral hernia (bilateral), without gangrene - Irreducible femoral hernia (bilateral), without gangrene - Strangulated femoral hernia (bilateral), without gangrene
+[K4100] Bilateral femoral hernia, with obstruction, without gangrene, not specified as recurrent -- **Inclusion terms:** - Bilateral femoral hernia, with obstruction, without gangrene NOS
+[K4101] Bilateral femoral hernia, with obstruction, without gangrene, recurrent
+[K411] Bilateral femoral hernia, with gangrene
+[K4110] Bilateral femoral hernia, with gangrene, not specified as recurrent -- **Inclusion terms:** - Bilateral femoral hernia, with gangrene NOS
+[K4111] Bilateral femoral hernia, with gangrene, recurrent
+[K412] Bilateral femoral hernia, without obstruction or gangrene
+[K4120] Bilateral femoral hernia, without obstruction or gangrene, not specified as recurrent -- **Inclusion terms:** - Bilateral femoral hernia NOS
+[K4121] Bilateral femoral hernia, without obstruction or gangrene, recurrent
+[K413] Unilateral femoral hernia, with obstruction, without gangrene -- **Inclusion terms:** - Femoral hernia (unilateral) causing obstruction, without gangrene - Incarcerated femoral hernia (unilateral), without gangrene - Irreducible femoral hernia (unilateral), without gangrene - Strangulated femoral hernia (unilateral), without gangrene
+[K4130] Unilateral femoral hernia, with obstruction, without gangrene, not specified as recurrent -- **Inclusion terms:** - Femoral hernia, with obstruction NOS - Unilateral femoral hernia, with obstruction NOS
+[K4131] Unilateral femoral hernia, with obstruction, without gangrene, recurrent
+[K414] Unilateral femoral hernia, with gangrene
+[K4140] Unilateral femoral hernia, with gangrene, not specified as recurrent -- **Inclusion terms:** - Femoral hernia, with gangrene NOS - Unilateral femoral hernia, with gangrene NOS
+[K4141] Unilateral femoral hernia, with gangrene, recurrent
+[K419] Unilateral femoral hernia, without obstruction or gangrene
+[K4190] Unilateral femoral hernia, without obstruction or gangrene, not specified as recurrent -- **Inclusion terms:** - Femoral hernia NOS - Unilateral femoral hernia NOS
+[K4191] Unilateral femoral hernia, without obstruction or gangrene, recurrent
+[K42] Umbilical hernia -- **Includes:** - paraumbilical hernia  **Excludes1:** - omphalocele (Q79.2)
+[K420] Umbilical hernia with obstruction, without gangrene -- **Inclusion terms:** - Umbilical hernia causing obstruction, without gangrene - Incarcerated umbilical hernia, without gangrene - Irreducible umbilical hernia, without gangrene - Strangulated umbilical hernia, without gangrene
+[K421] Umbilical hernia with gangrene -- **Inclusion terms:** - Gangrenous umbilical hernia
+[K429] Umbilical hernia without obstruction or gangrene -- **Inclusion terms:** - Umbilical hernia NOS
+[K43] Ventral hernia
+[K430] Incisional hernia with obstruction, without gangrene -- **Inclusion terms:** - Incisional hernia causing obstruction, without gangrene - Incarcerated incisional hernia, without gangrene - Irreducible incisional hernia, without gangrene - Strangulated incisional hernia, without gangrene
+[K431] Incisional hernia with gangrene -- **Inclusion terms:** - Gangrenous incisional hernia
+[K432] Incisional hernia without obstruction or gangrene -- **Inclusion terms:** - Incisional hernia NOS
+[K433] Parastomal hernia with obstruction, without gangrene -- **Inclusion terms:** - Incarcerated parastomal hernia, without gangrene - Irreducible parastomal hernia, without gangrene - Parastomal hernia causing obstruction, without gangrene - Strangulated parastomal hernia, without gangrene
+[K434] Parastomal hernia with gangrene -- **Inclusion terms:** - Gangrenous parastomal hernia
+[K435] Parastomal hernia without obstruction or gangrene -- **Inclusion terms:** - Parastomal hernia NOS
+[K436] Other and unspecified ventral hernia with obstruction, without gangrene -- **Inclusion terms:** - Epigastric hernia causing obstruction, without gangrene - Hypogastric hernia causing obstruction, without gangrene - Incarcerated epigastric hernia without gangrene - Incarcerated hypogastric hernia without gangrene - Incarcerated midline hernia without gangrene - Incarcerated spigelian hernia without gangrene - Incarcerated subxiphoid hernia without gangrene - Irreducible epigastric hernia without gangrene - Irreducible hypogastric hernia without gangrene - Irreducible midline hernia without gangrene - Irreducible spigelian hernia without gangrene - Irreducible subxiphoid hernia without gangrene - Midline hernia causing obstruction, without gangrene - Spigelian hernia causing obstruction, without gangrene - Strangulated epigastric hernia without gangrene - Strangulated hypogastric hernia without gangrene - Strangulated midline hernia without gangrene - Strangulated spigelian hernia without gangrene - Strangulated subxiphoid hernia without gangrene - Subxiphoid hernia causing obstruction, without gangrene
+[K437] Other and unspecified ventral hernia with gangrene -- **Inclusion terms:** - Any condition listed under K43.6 specified as gangrenous
+[K439] Ventral hernia without obstruction or gangrene -- **Inclusion terms:** - Epigastric hernia - Ventral hernia NOS
+[K44] Diaphragmatic hernia -- **Includes:** - hiatus hernia (esophageal) (sliding) - paraesophageal hernia  **Excludes1:** - congenital diaphragmatic hernia (Q79.0) - congenital hiatus hernia (Q40.1)
+[K440] Diaphragmatic hernia with obstruction, without gangrene -- **Inclusion terms:** - Diaphragmatic hernia causing obstruction - Incarcerated diaphragmatic hernia - Irreducible diaphragmatic hernia - Strangulated diaphragmatic hernia
+[K441] Diaphragmatic hernia with gangrene -- **Inclusion terms:** - Gangrenous diaphragmatic hernia
+[K449] Diaphragmatic hernia without obstruction or gangrene -- **Inclusion terms:** - Diaphragmatic hernia NOS
+[K45] Other abdominal hernia -- **Includes:** - abdominal hernia, specified site NEC - lumbar hernia - obturator hernia - pudendal hernia - retroperitoneal hernia - sciatic hernia
+[K450] Other specified abdominal hernia with obstruction, without gangrene -- **Inclusion terms:** - Other specified abdominal hernia causing obstruction - Other specified incarcerated abdominal hernia - Other specified irreducible abdominal hernia - Other specified strangulated abdominal hernia
+[K451] Other specified abdominal hernia with gangrene -- **Inclusion terms:** - Any condition listed under K45 specified as gangrenous
+[K458] Other specified abdominal hernia without obstruction or gangrene
+[K46] Unspecified abdominal hernia -- **Includes:** - enterocele - epiplocele - hernia NOS - interstitial hernia - intestinal hernia - intra-abdominal hernia  **Excludes1:** - vaginal enterocele (N81.5)
+[K460] Unspecified abdominal hernia with obstruction, without gangrene -- **Inclusion terms:** - Unspecified abdominal hernia causing obstruction - Unspecified incarcerated abdominal hernia - Unspecified irreducible abdominal hernia - Unspecified strangulated abdominal hernia
+[K461] Unspecified abdominal hernia with gangrene -- **Inclusion terms:** - Any condition listed under K46 specified as gangrenous
+[K469] Unspecified abdominal hernia without obstruction or gangrene -- **Inclusion terms:** - Abdominal hernia NOS
+[K50] Crohn's disease [regional enteritis] -- **Includes:** - granulomatous enteritis  **Excludes1:** - ulcerative colitis (K51.-)  **Use additional code:** - code to identify any associated fistulas, if applicable: - anal fistula (K60.3-) - anorectal fistula (K60.5-) - rectal fistula (K60.4-)
+[K500] Crohn's disease of small intestine -- **Inclusion terms:** - Crohn's disease [regional enteritis] of duodenum - Crohn's disease [regional enteritis] of ileum - Crohn's disease [regional enteritis] of jejunum - Regional ileitis - Terminal ileitis  **Excludes1:** - Crohn's disease of both small and large intestine (K50.8-)
+[K5000] Crohn's disease of small intestine without complications
+[K5001] Crohn's disease of small intestine with complications
+[K50011] Crohn's disease of small intestine with rectal bleeding
+[K50012] Crohn's disease of small intestine with intestinal obstruction
+[K50013] Crohn's disease of small intestine with fistula
+[K50014] Crohn's disease of small intestine with abscess
+[K50018] Crohn's disease of small intestine with other complication
+[K50019] Crohn's disease of small intestine with unspecified complications
+[K501] Crohn's disease of large intestine -- **Inclusion terms:** - Crohn's disease [regional enteritis] of colon - Crohn's disease [regional enteritis] of large bowel - Crohn's disease [regional enteritis] of rectum - Granulomatous colitis - Regional colitis  **Excludes1:** - Crohn's disease of both small and large intestine (K50.8)
+[K5010] Crohn's disease of large intestine without complications
+[K5011] Crohn's disease of large intestine with complications
+[K50111] Crohn's disease of large intestine with rectal bleeding
+[K50112] Crohn's disease of large intestine with intestinal obstruction
+[K50113] Crohn's disease of large intestine with fistula
+[K50114] Crohn's disease of large intestine with abscess
+[K50118] Crohn's disease of large intestine with other complication
+[K50119] Crohn's disease of large intestine with unspecified complications
+[K508] Crohn's disease of both small and large intestine
+[K5080] Crohn's disease of both small and large intestine without complications
+[K5081] Crohn's disease of both small and large intestine with complications
+[K50811] Crohn's disease of both small and large intestine with rectal bleeding
+[K50812] Crohn's disease of both small and large intestine with intestinal obstruction
+[K50813] Crohn's disease of both small and large intestine with fistula
+[K50814] Crohn's disease of both small and large intestine with abscess
+[K50818] Crohn's disease of both small and large intestine with other complication
+[K50819] Crohn's disease of both small and large intestine with unspecified complications
+[K509] Crohn's disease, unspecified
+[K5090] Crohn's disease, unspecified, without complications -- **Inclusion terms:** - Crohn's disease NOS - Regional enteritis NOS
+[K5091] Crohn's disease, unspecified, with complications
+[K50911] Crohn's disease, unspecified, with rectal bleeding
+[K50912] Crohn's disease, unspecified, with intestinal obstruction
+[K50913] Crohn's disease, unspecified, with fistula
+[K50914] Crohn's disease, unspecified, with abscess
+[K50918] Crohn's disease, unspecified, with other complication
+[K50919] Crohn's disease, unspecified, with unspecified complications
+[K51] Ulcerative colitis -- **Excludes1:** - Crohn's disease [regional enteritis] (K50.-)  **Use additional code:** - code to identify any associated fistulas, if applicable: - anal fistula (K60.3-) - anorectal fistula (K60.5-) - rectal fistula (K60.4-)
+[K510] Ulcerative (chronic) pancolitis -- **Inclusion terms:** - Backwash ileitis
+[K5100] Ulcerative (chronic) pancolitis without complications -- **Inclusion terms:** - Ulcerative (chronic) pancolitis NOS
+[K5101] Ulcerative (chronic) pancolitis with complications
+[K51011] Ulcerative (chronic) pancolitis with rectal bleeding
+[K51012] Ulcerative (chronic) pancolitis with intestinal obstruction
+[K51013] Ulcerative (chronic) pancolitis with fistula
+[K51014] Ulcerative (chronic) pancolitis with abscess
+[K51018] Ulcerative (chronic) pancolitis with other complication
+[K51019] Ulcerative (chronic) pancolitis with unspecified complications
+[K512] Ulcerative (chronic) proctitis
+[K5120] Ulcerative (chronic) proctitis without complications -- **Inclusion terms:** - Ulcerative (chronic) proctitis NOS
+[K5121] Ulcerative (chronic) proctitis with complications
+[K51211] Ulcerative (chronic) proctitis with rectal bleeding
+[K51212] Ulcerative (chronic) proctitis with intestinal obstruction
+[K51213] Ulcerative (chronic) proctitis with fistula
+[K51214] Ulcerative (chronic) proctitis with abscess
+[K51218] Ulcerative (chronic) proctitis with other complication
+[K51219] Ulcerative (chronic) proctitis with unspecified complications
+[K513] Ulcerative (chronic) rectosigmoiditis
+[K5130] Ulcerative (chronic) rectosigmoiditis without complications -- **Inclusion terms:** - Ulcerative (chronic) rectosigmoiditis NOS
+[K5131] Ulcerative (chronic) rectosigmoiditis with complications
+[K51311] Ulcerative (chronic) rectosigmoiditis with rectal bleeding
+[K51312] Ulcerative (chronic) rectosigmoiditis with intestinal obstruction
+[K51313] Ulcerative (chronic) rectosigmoiditis with fistula
+[K51314] Ulcerative (chronic) rectosigmoiditis with abscess
+[K51318] Ulcerative (chronic) rectosigmoiditis with other complication
+[K51319] Ulcerative (chronic) rectosigmoiditis with unspecified complications
+[K514] Inflammatory polyps of colon -- **Excludes2:** - adenomatous polyp of colon (D12.6) - polyposis of colon (D12.6) - polyps of colon NOS (K63.5)
+[K5140] Inflammatory polyps of colon without complications -- **Inclusion terms:** - Inflammatory polyps of colon NOS
+[K5141] Inflammatory polyps of colon with complications
+[K51411] Inflammatory polyps of colon with rectal bleeding
+[K51412] Inflammatory polyps of colon with intestinal obstruction
+[K51413] Inflammatory polyps of colon with fistula
+[K51414] Inflammatory polyps of colon with abscess
+[K51418] Inflammatory polyps of colon with other complication
+[K51419] Inflammatory polyps of colon with unspecified complications
+[K515] Left sided colitis -- **Inclusion terms:** - Left hemicolitis
+[K5150] Left sided colitis without complications -- **Inclusion terms:** - Left sided colitis NOS
+[K5151] Left sided colitis with complications
+[K51511] Left sided colitis with rectal bleeding
+[K51512] Left sided colitis with intestinal obstruction
+[K51513] Left sided colitis with fistula
+[K51514] Left sided colitis with abscess
+[K51518] Left sided colitis with other complication
+[K51519] Left sided colitis with unspecified complications
+[K518] Other ulcerative colitis
+[K5180] Other ulcerative colitis without complications
+[K5181] Other ulcerative colitis with complications
+[K51811] Other ulcerative colitis with rectal bleeding
+[K51812] Other ulcerative colitis with intestinal obstruction
+[K51813] Other ulcerative colitis with fistula
+[K51814] Other ulcerative colitis with abscess
+[K51818] Other ulcerative colitis with other complication
+[K51819] Other ulcerative colitis with unspecified complications
+[K519] Ulcerative colitis, unspecified
+[K5190] Ulcerative colitis, unspecified, without complications
+[K5191] Ulcerative colitis, unspecified, with complications
+[K51911] Ulcerative colitis, unspecified with rectal bleeding
+[K51912] Ulcerative colitis, unspecified with intestinal obstruction
+[K51913] Ulcerative colitis, unspecified with fistula
+[K51914] Ulcerative colitis, unspecified with abscess
+[K51918] Ulcerative colitis, unspecified with other complication
+[K51919] Ulcerative colitis, unspecified with unspecified complications
+[K52] Other and unspecified noninfective gastroenteritis and colitis
+[K520] Gastroenteritis and colitis due to radiation
+[K521] Toxic gastroenteritis and colitis -- **Inclusion terms:** - Drug-induced gastroenteritis and colitis  **Code first:** - (T51-T65) to identify toxic agent  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[K522] Allergic and dietetic gastroenteritis and colitis -- **Inclusion terms:** - Food hypersensitivity gastroenteritis or colitis  **Excludes2:** - allergic eosinophilic colitis (K52.82) - allergic eosinophilic esophagitis (K20.0) - allergic eosinophilic gastritis (K52.81) - allergic eosinophilic gastroenteritis (K52.81)  **Use additional code:** - code to identify type of food allergy (Z91.01-, Z91.02-)
+[K5221] Food protein-induced enterocolitis syndrome -- **Inclusion terms:** - FPIES  **Use additional code:** - code for hypovolemic shock, if present (R57.1)
+[K5222] Food protein-induced enteropathy
+[K5229] Other allergic and dietetic gastroenteritis and colitis -- **Inclusion terms:** - Allergic proctocolitis - Food hypersensitivity gastroenteritis or colitis - Food-induced eosinophilic proctocolitis - Food protein-induced proctocolitis - Immediate gastrointestinal hypersensitivity - Milk protein-induced proctocolitis
+[K523] Indeterminate colitis -- **Inclusion terms:** - Colonic inflammatory bowel disease unclassified (IBDU)  **Excludes1:** - unspecified colitis (K52.9)
+[K528] Other specified noninfective gastroenteritis and colitis
+[K5281] Eosinophilic gastritis or gastroenteritis -- **Inclusion terms:** - Eosinophilic enteritis  **Excludes2:** - eosinophilic esophagitis (K20.0)
+[K5282] Eosinophilic colitis -- **Excludes2:** - allergic proctocolitis (K52.29) - food-induced eosinophilic proctocolitis (K52.29) - food protein-induced enterocolitis syndrome (FPIES) (K52.21) - food protein-induced proctocolitis (K52.29) - milk protein-induced proctocolitis (K52.29)
+[K5283] Microscopic colitis
+[K52831] Collagenous colitis
+[K52832] Lymphocytic colitis
+[K52838] Other microscopic colitis
+[K52839] Microscopic colitis, unspecified
+[K5289] Other specified noninfective gastroenteritis and colitis
+[K529] Noninfective gastroenteritis and colitis, unspecified -- **Inclusion terms:** - Colitis NOS - Enteritis NOS - Gastroenteritis NOS - Ileitis NOS - Jejunitis NOS - Sigmoiditis NOS  **Excludes1:** - diarrhea NOS (R19.7) - functional diarrhea (K59.1) - infectious gastroenteritis and colitis NOS (A09) - neonatal diarrhea (noninfective) (P78.3) - psychogenic diarrhea (F45.8)
+[K55] Vascular disorders of intestine -- **Excludes1:** - necrotizing enterocolitis of newborn (P77.-)  **Excludes2:** - angioectasia (angiodysplasia) duodenum (K31.81-)
+[K550] Acute vascular disorders of intestine -- **Inclusion terms:** - Infarction of appendices epiploicae - Mesenteric (artery) (vein) embolism - Mesenteric (artery) (vein) infarction - Mesenteric (artery) (vein) thrombosis
+[K5501] Acute (reversible) ischemia of small intestine
+[K55011] Focal (segmental) acute (reversible) ischemia of small intestine
+[K55012] Diffuse acute (reversible) ischemia of small intestine
+[K55019] Acute (reversible) ischemia of small intestine, extent unspecified
+[K5502] Acute infarction of small intestine -- **Inclusion terms:** - Gangrene of small intestine - Necrosis of small intestine
+[K55021] Focal (segmental) acute infarction of small intestine
+[K55022] Diffuse acute infarction of small intestine
+[K55029] Acute infarction of small intestine, extent unspecified
+[K5503] Acute (reversible) ischemia of large intestine -- **Inclusion terms:** - Acute fulminant ischemic colitis - Subacute ischemic colitis
+[K55031] Focal (segmental) acute (reversible) ischemia of large intestine
+[K55032] Diffuse acute (reversible) ischemia of large intestine
+[K55039] Acute (reversible) ischemia of large intestine, extent unspecified
+[K5504] Acute infarction of large intestine -- **Inclusion terms:** - Gangrene of large intestine - Necrosis of large intestine
+[K55041] Focal (segmental) acute infarction of large intestine
+[K55042] Diffuse acute infarction of large intestine
+[K55049] Acute infarction of large intestine, extent unspecified
+[K5505] Acute (reversible) ischemia of intestine, part unspecified
+[K55051] Focal (segmental) acute (reversible) ischemia of intestine, part unspecified
+[K55052] Diffuse acute (reversible) ischemia of intestine, part unspecified
+[K55059] Acute (reversible) ischemia of intestine, part and extent unspecified
+[K5506] Acute infarction of intestine, part unspecified -- **Inclusion terms:** - Acute intestinal infarction - Gangrene of intestine - Necrosis of intestine
+[K55061] Focal (segmental) acute infarction of intestine, part unspecified
+[K55062] Diffuse acute infarction of intestine, part unspecified
+[K55069] Acute infarction of intestine, part and extent unspecified
+[K551] Chronic vascular disorders of intestine -- **Inclusion terms:** - Chronic ischemic colitis - Chronic ischemic enteritis - Chronic ischemic enterocolitis - Ischemic stricture of intestine - Mesenteric atherosclerosis - Mesenteric vascular insufficiency
+[K552] Angiodysplasia of colon
+[K5520] Angiodysplasia of colon without hemorrhage
+[K5521] Angiodysplasia of colon with hemorrhage
+[K553] Necrotizing enterocolitis -- **Excludes1:** - necrotizing enterocolitis of newborn (P77.-)  **Excludes2:** - necrotizing enterocolitis due to Clostridium difficile (A04.7-)
+[K5530] Necrotizing enterocolitis, unspecified -- **Inclusion terms:** - Necrotizing enterocolitis, NOS
+[K5531] Stage 1 necrotizing enterocolitis -- **Inclusion terms:** - Necrotizing enterocolitis without pneumatosis, without perforation
+[K5532] Stage 2 necrotizing enterocolitis -- **Inclusion terms:** - Necrotizing enterocolitis with pneumatosis, without perforation
+[K5533] Stage 3 necrotizing enterocolitis -- **Inclusion terms:** - Necrotizing enterocolitis with perforation - Necrotizing enterocolitis with pneumatosis and perforation
+[K558] Other vascular disorders of intestine
+[K559] Vascular disorder of intestine, unspecified -- **Inclusion terms:** - Ischemic colitis - Ischemic enteritis - Ischemic enterocolitis
+[K56] Paralytic ileus and intestinal obstruction without hernia -- **Excludes1:** - congenital stricture or stenosis of intestine (Q41-Q42) - cystic fibrosis with meconium ileus (E84.11) - ischemic stricture of intestine (K55.1) - meconium ileus NOS (P76.0) - neonatal intestinal obstructions classifiable to P76.- - obstruction of duodenum (K31.5) - postprocedural intestinal obstruction (K91.3-)  **Excludes2:** - stenosis of anus or rectum (K62.4)
+[K560] Paralytic ileus -- **Inclusion terms:** - Paralysis of bowel - Paralysis of colon - Paralysis of intestine  **Excludes1:** - gallstone ileus (K56.3) - ileus NOS (K56.7) - obstructive ileus NOS (K56.69-)
+[K561] Intussusception -- **Inclusion terms:** - Intussusception or invagination of bowel - Intussusception or invagination of colon - Intussusception or invagination of intestine - Intussusception or invagination of rectum  **Excludes2:** - intussusception of appendix (K38.8)
+[K562] Volvulus -- **Inclusion terms:** - Strangulation of colon or intestine - Torsion of colon or intestine - Twist of colon or intestine  **Excludes2:** - volvulus of duodenum (K31.5)
+[K563] Gallstone ileus -- **Inclusion terms:** - Obstruction of intestine by gallstone
+[K564] Other impaction of intestine
+[K5641] Fecal impaction -- **Excludes1:** - constipation (K59.0-)  **Excludes2:** - incomplete defecation (R15.0)
+[K5649] Other impaction of intestine
+[K565] Intestinal adhesions [bands] with obstruction (postinfection) -- **Inclusion terms:** - Abdominal hernia due to adhesions with obstruction - Peritoneal adhesions [bands] with intestinal obstruction (postinfection)
+[K5650] Intestinal adhesions [bands], unspecified as to partial versus complete obstruction -- **Inclusion terms:** - Intestinal adhesions with obstruction NOS
+[K5651] Intestinal adhesions [bands], with partial obstruction -- **Inclusion terms:** - Intestinal adhesions with incomplete obstruction
+[K5652] Intestinal adhesions [bands] with complete obstruction
+[K566] Other and unspecified intestinal obstruction
+[K5660] Unspecified intestinal obstruction
+[K56600] Partial intestinal obstruction, unspecified as to cause -- **Inclusion terms:** - Incomplete intestinal obstruction, NOS
+[K56601] Complete intestinal obstruction, unspecified as to cause
+[K56609] Unspecified intestinal obstruction, unspecified as to partial versus complete obstruction -- **Inclusion terms:** - Intestinal obstruction NOS
+[K5669] Other intestinal obstruction -- **Inclusion terms:** - Enterostenosis NOS - Obstructive ileus NOS - Occlusion of colon or intestine NOS - Stenosis of colon or intestine NOS - Stricture of colon or intestine NOS
+[K56690] Other partial intestinal obstruction -- **Inclusion terms:** - Other incomplete intestinal obstruction
+[K56691] Other complete intestinal obstruction
+[K56699] Other intestinal obstruction unspecified as to partial versus complete obstruction -- **Inclusion terms:** - Other intestinal obstruction, NEC
+[K567] Ileus, unspecified -- **Excludes1:** - obstructive ileus (K56.69-)  **Excludes2:** - intestinal obstruction with hernia (K40-K46)
+[K57] Diverticular disease of intestine -- **Excludes1:** - congenital diverticulum of intestine (Q43.8) - Meckel's diverticulum (Q43.0)  **Excludes2:** - diverticulum of appendix (K38.2)  **Code also:** - if applicable peritonitis K65.-
+[K570] Diverticulitis of small intestine with perforation and abscess -- **Excludes1:** - diverticulitis of both small and large intestine with perforation and abscess (K57.4-)
+[K5700] Diverticulitis of small intestine with perforation and abscess without bleeding
+[K5701] Diverticulitis of small intestine with perforation and abscess with bleeding
+[K571] Diverticular disease of small intestine without perforation or abscess -- **Excludes1:** - diverticular disease of both small and large intestine without perforation or abscess (K57.5-)
+[K5710] Diverticulosis of small intestine without perforation or abscess without bleeding -- **Inclusion terms:** - Diverticular disease of small intestine NOS
+[K5711] Diverticulosis of small intestine without perforation or abscess with bleeding
+[K5712] Diverticulitis of small intestine without perforation or abscess without bleeding
+[K5713] Diverticulitis of small intestine without perforation or abscess with bleeding
+[K572] Diverticulitis of large intestine with perforation and abscess -- **Excludes1:** - diverticulitis of both small and large intestine with perforation and abscess (K57.4-)
+[K5720] Diverticulitis of large intestine with perforation and abscess without bleeding
+[K5721] Diverticulitis of large intestine with perforation and abscess with bleeding
+[K573] Diverticular disease of large intestine without perforation or abscess -- **Excludes1:** - diverticular disease of both small and large intestine without perforation or abscess (K57.5-)
+[K5730] Diverticulosis of large intestine without perforation or abscess without bleeding -- **Inclusion terms:** - Diverticular disease of colon NOS
+[K5731] Diverticulosis of large intestine without perforation or abscess with bleeding
+[K5732] Diverticulitis of large intestine without perforation or abscess without bleeding
+[K5733] Diverticulitis of large intestine without perforation or abscess with bleeding
+[K574] Diverticulitis of both small and large intestine with perforation and abscess
+[K5740] Diverticulitis of both small and large intestine with perforation and abscess without bleeding
+[K5741] Diverticulitis of both small and large intestine with perforation and abscess with bleeding
+[K575] Diverticular disease of both small and large intestine without perforation or abscess
+[K5750] Diverticulosis of both small and large intestine without perforation or abscess without bleeding -- **Inclusion terms:** - Diverticular disease of both small and large intestine NOS
+[K5751] Diverticulosis of both small and large intestine without perforation or abscess with bleeding
+[K5752] Diverticulitis of both small and large intestine without perforation or abscess without bleeding
+[K5753] Diverticulitis of both small and large intestine without perforation or abscess with bleeding
+[K578] Diverticulitis of intestine, part unspecified, with perforation and abscess
+[K5780] Diverticulitis of intestine, part unspecified, with perforation and abscess without bleeding
+[K5781] Diverticulitis of intestine, part unspecified, with perforation and abscess with bleeding
+[K579] Diverticular disease of intestine, part unspecified, without perforation or abscess
+[K5790] Diverticulosis of intestine, part unspecified, without perforation or abscess without bleeding -- **Inclusion terms:** - Diverticular disease of intestine NOS
+[K5791] Diverticulosis of intestine, part unspecified, without perforation or abscess with bleeding
+[K5792] Diverticulitis of intestine, part unspecified, without perforation or abscess without bleeding
+[K5793] Diverticulitis of intestine, part unspecified, without perforation or abscess with bleeding
+[K58] Irritable bowel syndrome -- **Includes:** - irritable colon - spastic colon
+[K580] Irritable bowel syndrome with diarrhea
+[K581] Irritable bowel syndrome with constipation
+[K582] Mixed irritable bowel syndrome
+[K588] Other irritable bowel syndrome
+[K589] Irritable bowel syndrome, unspecified -- **Inclusion terms:** - Irritable bowel syndrome NOS
+[K59] Other functional intestinal disorders -- **Excludes1:** - change in bowel habit NOS (R19.4) - intestinal malabsorption (K90.-) - psychogenic intestinal disorders (F45.8)  **Excludes2:** - functional disorders of stomach (K31.-)
+[K590] Constipation -- **Excludes1:** - fecal impaction (K56.41)  **Excludes2:** - incomplete defecation (R15.0)
+[K5900] Constipation, unspecified
+[K5901] Slow transit constipation
+[K5902] Outlet dysfunction constipation
+[K5903] Drug induced constipation -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[K5904] Chronic idiopathic constipation -- **Inclusion terms:** - Functional constipation
+[K5909] Other constipation -- **Inclusion terms:** - Chronic constipation
+[K591] Functional diarrhea -- **Excludes1:** - diarrhea NOS (R19.7) - irritable bowel syndrome with diarrhea (K58.0)
+[K592] Neurogenic bowel, not elsewhere classified
+[K593] Megacolon, not elsewhere classified -- **Inclusion terms:** - Dilatation of colon  **Excludes1:** - congenital megacolon (aganglionic) (Q43.1) - megacolon (due to) (in) Chagas' disease (B57.32) - megacolon (due to) (in) Clostridium difficile (A04.7-) - megacolon (due to) (in) Hirschsprung's disease (Q43.1)  **Code first:** - , if applicable (T51-T65) to identify toxic agent
+[K5931] Toxic megacolon
+[K5939] Other megacolon -- **Inclusion terms:** - Megacolon NOS
+[K594] Anal spasm -- **Inclusion terms:** - Proctalgia fugax
+[K598] Other specified functional intestinal disorders
+[K5981] Ogilvie syndrome -- **Inclusion terms:** - Acute colonic pseudo-obstruction (ACPO)
+[K5989] Other specified functional intestinal disorders -- **Inclusion terms:** - Atony of colon - Pseudo-obstruction (acute) (chronic) of intestine
+[K599] Functional intestinal disorder, unspecified
+[K60] Fissure and fistula of anal and rectal regions -- **Excludes1:** - fissure and fistula of anal and rectal regions with abscess or cellulitis (K61.-)  **Excludes2:** - abscess or cellulitis of anal and rectal regions (K61.-) - anal sphincter tear (healed) (nontraumatic) (old) (K62.81)
+[K600] Acute anal fissure
+[K601] Chronic anal fissure
+[K602] Anal fissure, unspecified
+[K603] Anal fistula -- **Excludes1:** - congenital fistula (Q43.6)  **Code first:** - , if applicable: - Crohn's disease (K50.-) - ulcerative colitis (K51.-)
+[K6030] Anal fistula, unspecified -- **Inclusion terms:** - Anal fistula NOS
+[K6031] Anal fistula, simple -- **Inclusion terms:** - Low intersphincteric anal fistula - Superficial anal fistula
+[K60311] Anal fistula, simple, initial -- **Inclusion terms:** - Anal fistula, simple, new
+[K60312] Anal fistula, simple, persistent -- **Inclusion terms:** - Anal fistula, simple, chronic
+[K60313] Anal fistula, simple, recurrent -- **Inclusion terms:** - Anal fistula simple, occurring following complete healing
+[K60319] Anal fistula, simple, unspecified
+[K6032] Anal fistula, complex -- **Inclusion terms:** - Extrasphincteric anal fistula - High intersphincteric anal fistula - Suprasphincteric anal fistula - Transsphincteric anal fistula  **Code also:** - , if applicable: - perianal abscess (K61.0) - rectovaginal fistula (N82.3) - stenosis of anus and rectum (K62.4)
+[K60321] Anal fistula, complex, initial -- **Inclusion terms:** - Anal fistula, complex, new
+[K60322] Anal fistula, complex, persistent -- **Inclusion terms:** - Anal fistula, complex, chronic
+[K60323] Anal fistula, complex, recurrent -- **Inclusion terms:** - Anal fistula complex, occurring following complete healing
+[K60329] Anal fistula, complex, unspecified
+[K604] Rectal fistula -- **Inclusion terms:** - Fistula of rectum to skin  **Excludes1:** - congenital fistula (Q43.6) - rectovaginal fistula (N82.3) - vesicorectal fistual (N32.1)  **Code first:** - , if applicable: - Crohn's disease (K50.-) - ulcerative colitis (K51.-)
+[K6040] Rectal fistula, unspecified -- **Inclusion terms:** - Rectal fistula NOS
+[K6041] Rectal fistula, simple -- **Inclusion terms:** - Low intersphincteric rectal fistula - Superficial rectal fistula
+[K60411] Rectal fistula, simple, initial -- **Inclusion terms:** - Rectal, fistula, simple, new
+[K60412] Rectal fistula, simple, persistent -- **Inclusion terms:** - Rectal fistula, simple, chronic
+[K60413] Rectal fistula, simple, recurrent -- **Inclusion terms:** - Rectal fistula simple, occurring following complete healing
+[K60419] Rectal fistula, simple, unspecified
+[K6042] Rectal fistula, complex -- **Inclusion terms:** - Extrasphincteric rectal fistula - High intersphincteric rectal fistula - Suprasphincteric rectal fistula - Transsphincteric rectal fistula  **Code also:** - , if applicable: - perianal abscess (K61.0) - rectovaginal fistula (N82.3) - stenosis of anus and rectum (K62.4)
+[K60421] Rectal fistula, complex, initial -- **Inclusion terms:** - Rectal fistula, complex, new
+[K60422] Rectal fistula, complex, persistent -- **Inclusion terms:** - Rectal fistula, complex, chronic
+[K60423] Rectal fistula, complex, recurrent -- **Inclusion terms:** - Rectal fistula complex occurring following complete healing
+[K60429] Rectal fistula, complex, unspecified
+[K605] Anorectal fistula -- **Excludes1:** - congenital fistula (Q43.6)  **Code first:** - , if applicable: - Crohn's disease (K50.-) - ulcerative colitis (K51.-)
+[K6050] Anorectal fistula, unspecified -- **Inclusion terms:** - Anorectal fistula NOS
+[K6051] Anorectal fistula, simple -- **Inclusion terms:** - Low intersphincteric anorectal fistula - Superficial anorectal fistula
+[K60511] Anorectal fistula, simple, initial -- **Inclusion terms:** - Anorectal fistula, simple, new
+[K60512] Anorectal fistula, simple, persistent -- **Inclusion terms:** - Anorectal fistula, simple, chronic
+[K60513] Anorectal fistula, simple, recurrent -- **Inclusion terms:** - Anorectal fistula simple, occurring following complete healing
+[K60519] Anorectal fistula, simple, unspecified
+[K6052] Anorectal fistula, complex -- **Inclusion terms:** - Extrasphincteric anorectal fistula - High intersphincteric anorectal fistula - Suprasphincteric anorectal fistula - Transsphincteric anorectal fistula  **Code also:** - , if applicable: - perianal abscess (K61.0) - rectovaginal fistula (N82.3) - stenosis of anus and rectum (K62.4)
+[K60521] Anorectal fistula, complex, initial -- **Inclusion terms:** - Anorectal fistula, complex, new
+[K60522] Anorectal fistula, complex, persistent -- **Inclusion terms:** - Anorectal fistula, complex, chronic
+[K60523] Anorectal fistula, complex, recurrent -- **Inclusion terms:** - Anorectal fistula complex, occurring following complete healing
+[K60529] Anorectal fistula, complex, unspecified
+[K61] Abscess of anal and rectal regions -- **Includes:** - abscess of anal and rectal regions - cellulitis of anal and rectal regions
+[K610] Anal abscess -- **Inclusion terms:** - Perianal abscess  **Excludes2:** - intrasphincteric abscess (K61.4)
+[K611] Rectal abscess -- **Inclusion terms:** - Perirectal abscess  **Excludes1:** - ischiorectal abscess (K61.39)
+[K612] Anorectal abscess
+[K613] Ischiorectal abscess
+[K6131] Horseshoe abscess
+[K6139] Other ischiorectal abscess -- **Inclusion terms:** - Abscess of ischiorectal fossa - Ischiorectal abscess, NOS
+[K614] Intrasphincteric abscess -- **Inclusion terms:** - Intersphincteric abscess
+[K615] Supralevator abscess
+[K62] Other diseases of anus and rectum -- **Includes:** - anal canal  **Excludes2:** - colostomy and enterostomy malfunction (K94.0-, K94.1-) - fecal incontinence (R15.-) - hemorrhoids (K64.-)
+[K620] Anal polyp
+[K621] Rectal polyp -- **Excludes1:** - adenomatous polyp (D12.8)
+[K622] Anal prolapse -- **Inclusion terms:** - Prolapse of anal canal
+[K623] Rectal prolapse -- **Inclusion terms:** - Prolapse of rectal mucosa
+[K624] Stenosis of anus and rectum -- **Inclusion terms:** - Stricture of anus (sphincter)
+[K625] Hemorrhage of anus and rectum -- **Excludes1:** - gastrointestinal bleeding NOS (K92.2) - melena (K92.1) - neonatal rectal hemorrhage (P54.2)
+[K626] Ulcer of anus and rectum -- **Inclusion terms:** - Solitary ulcer of anus and rectum - Stercoral ulcer of anus and rectum  **Excludes1:** - fissure and fistula of anus and rectum (K60.-) - ulcerative colitis (K51.-)
+[K627] Radiation proctitis -- **Use additional code:** - code to identify the type of radiation (W88.-) - or radiation therapy (Y84.2)
+[K628] Other specified diseases of anus and rectum -- **Excludes2:** - ulcerative proctitis (K51.2)
+[K6281] Anal sphincter tear (healed) (nontraumatic) (old) -- **Inclusion terms:** - Tear of anus, nontraumatic  **Excludes2:** - anal fissure (K60.-) - anal sphincter tear (healed) (old) complicating delivery (O34.7-) - traumatic tear of anal sphincter (S31.831)  **Use additional code:** - code for any associated fecal incontinence (R15.-)
+[K6282] Dysplasia of anus -- **Inclusion terms:** - Anal intraepithelial neoplasia I and II (AIN I and II) (histologically confirmed) - Dysplasia of anus NOS - Mild and moderate dysplasia of anus (histologically confirmed)  **Excludes1:** - abnormal results from anal cytologic examination without histologic confirmation (R85.61-) - anal intraepithelial neoplasia III (D01.3) - carcinoma in situ of anus (D01.3) - HGSIL of anus (R85.613) - severe dysplasia of anus (D01.3)
+[K6289] Other specified diseases of anus and rectum -- **Inclusion terms:** - Proctitis NOS  **Use additional code:** - code for any associated fecal incontinence (R15.-)
+[K629] Disease of anus and rectum, unspecified
+[K63] Other diseases of intestine
+[K630] Abscess of intestine -- **Excludes1:** - abscess of intestine with Crohn's disease (K50.014, K50.114, K50.814, K50.914,) - abscess of intestine with diverticular disease (K57.0, K57.2, K57.4, K57.8) - abscess of intestine with ulcerative colitis (K51.014, K51.214, K51.314, K51.414, K51.514, K51.814, K51.914)  **Excludes2:** - abscess of anal and rectal regions (K61.-) - abscess of appendix (K35.3-)
+[K631] Perforation of intestine (nontraumatic) -- **Inclusion terms:** - Perforation (nontraumatic) of rectum  **Excludes1:** - perforation (nontraumatic) of duodenum (K26.-) - perforation (nontraumatic) of intestine with diverticular disease (K57.0, K57.2, K57.4, K57.8)  **Excludes2:** - perforation (nontraumatic) of appendix (K35.2-, K35.3-)
+[K632] Fistula of intestine -- **Excludes1:** - fistula of duodenum (K31.6) - fistula of intestine with Crohn's disease (K50.013, K50.113, K50.813, K50.913,) - fistula of intestine with ulcerative colitis (K51.013, K51.213, K51.313, K51.413, K51.513, K51.813, K51.913)  **Excludes2:** - fistula of anal and rectal regions (K60.-) - fistula of appendix (K38.3) - intestinal-genital fistula, female (N82.2-N82.4) - vesicointestinal fistula (N32.1)  **Code also:** - , if applicable, disruption of internal operation (surgical) wound (T81.32-)
+[K633] Ulcer of intestine -- **Inclusion terms:** - Primary ulcer of small intestine  **Excludes1:** - duodenal ulcer (K26.-) - gastrointestinal ulcer (K28.-) - gastrojejunal ulcer (K28.-) - jejunal ulcer (K28.-) - peptic ulcer, site unspecified (K27.-) - ulcer of intestine with perforation (K63.1) - ulcer of anus or rectum (K62.6) - ulcerative colitis (K51.-)
+[K634] Enteroptosis
+[K635] Polyp of colon -- **Excludes2:** - adenomatous polyp of colon (D12.-) - inflammatory polyp of colon (K51.4-) - polyposis of colon (D12.6)
+[K638] Other specified diseases of intestine
+[K6381] Dieulafoy lesion of intestine -- **Excludes2:** - Dieulafoy lesion of stomach and duodenum (K31.82)
+[K6382] Intestinal microbial overgrowth
+[K63821] Small intestinal bacterial overgrowth
+[K638211] Small intestinal bacterial overgrowth, hydrogen-subtype
+[K638212] Small intestinal bacterial overgrowth, hydrogen sulfide-subtype
+[K638219] Small intestinal bacterial overgrowth, unspecified
+[K63822] Small intestinal fungal overgrowth
+[K63829] Intestinal methanogen overgrowth, unspecified
+[K6389] Other specified diseases of intestine
+[K639] Disease of intestine, unspecified
+[K64] Hemorrhoids and perianal venous thrombosis -- **Includes:** - piles  **Excludes1:** - hemorrhoids complicating childbirth and the puerperium (O87.2) - hemorrhoids complicating pregnancy (O22.4)
+[K640] First degree hemorrhoids -- **Inclusion terms:** - Grade/stage I hemorrhoids - Hemorrhoids (bleeding) without prolapse outside of anal canal
+[K641] Second degree hemorrhoids -- **Inclusion terms:** - Grade/stage II hemorrhoids - Hemorrhoids (bleeding) that prolapse with straining, but retract spontaneously
+[K642] Third degree hemorrhoids -- **Inclusion terms:** - Grade/stage III hemorrhoids - Hemorrhoids (bleeding) that prolapse with straining and require manual replacement back inside anal canal
+[K643] Fourth degree hemorrhoids -- **Inclusion terms:** - Grade/stage IV hemorrhoids - Hemorrhoids (bleeding) with prolapsed tissue that cannot be manually replaced
+[K644] Residual hemorrhoidal skin tags -- **Inclusion terms:** - External hemorrhoids, NOS - Skin tags of anus
+[K645] Perianal venous thrombosis -- **Inclusion terms:** - External hemorrhoids with thrombosis - Perianal hematoma - Thrombosed hemorrhoids NOS
+[K648] Other hemorrhoids -- **Inclusion terms:** - Internal hemorrhoids, without mention of degree - Prolapsed hemorrhoids, degree not specified
+[K649] Unspecified hemorrhoids -- **Inclusion terms:** - Hemorrhoids (bleeding) NOS - Hemorrhoids (bleeding) without mention of degree
+[K65] Peritonitis -- **Excludes1:** - acute appendicitis with generalized peritonitis (K35.2-) - aseptic peritonitis (T81.6) - benign paroxysmal peritonitis (E85.0) - chemical peritonitis (T81.6) - gonococcal peritonitis (A54.85) - neonatal peritonitis (P78.0-P78.1) - pelvic peritonitis, female (N73.3-N73.5) - periodic familial peritonitis (E85.0) - peritonitis due to talc or other foreign substance (T81.6) - peritonitis in chlamydia (A74.81) - peritonitis in diphtheria (A36.89) - peritonitis in syphilis (late) (A52.74) - peritonitis in tuberculosis (A18.31) - peritonitis with or following abortion or ectopic or molar pregnancy (O00-O07, O08.0) - peritonitis with or following appendicitis (K35.-) - puerperal peritonitis (O85) - retroperitoneal infections (K68.-)  **Code also:** - if applicable diverticular disease of intestine (K57.-)  **Use additional code:** - code (B95-B97), to identify infectious agent, if known
+[K650] Generalized (acute) peritonitis -- **Inclusion terms:** - Pelvic peritonitis (acute), male - Subphrenic peritonitis (acute) - Suppurative peritonitis (acute)
+[K651] Peritoneal abscess -- **Inclusion terms:** - Abdominopelvic abscess - Abscess (of) omentum - Abscess (of) peritoneum - Mesenteric abscess - Retrocecal abscess - Subdiaphragmatic abscess - Subhepatic abscess - Subphrenic abscess
+[K652] Spontaneous bacterial peritonitis -- **Excludes1:** - bacterial peritonitis NOS (K65.9)
+[K653] Choleperitonitis -- **Inclusion terms:** - Peritonitis due to bile
+[K654] Sclerosing mesenteritis -- **Inclusion terms:** - Fat necrosis of peritoneum - (Idiopathic) sclerosing mesenteric fibrosis - Mesenteric lipodystrophy - Mesenteric panniculitis - Retractile mesenteritis
+[K658] Other peritonitis -- **Inclusion terms:** - Chronic proliferative peritonitis - Peritonitis due to urine
+[K659] Peritonitis, unspecified -- **Inclusion terms:** - Bacterial peritonitis NOS
+[K66] Other disorders of peritoneum -- **Excludes2:** - ascites (R18.-) - peritoneal effusion (chronic) (R18.8)
+[K660] Peritoneal adhesions (postprocedural) (postinfection) -- **Inclusion terms:** - Adhesions (of) abdominal (wall) - Adhesions (of) diaphragm - Adhesions (of) intestine - Adhesions (of) male pelvis - Adhesions (of) omentum - Adhesions (of) stomach - Adhesive bands - Mesenteric adhesions  **Excludes1:** - peritoneal adhesions with intestinal obstruction (K56.5-)  **Excludes2:** - female pelvic adhesions [bands] (N73.6) - female pelvic postprocedural adhesions (N99.4)
+[K661] Hemoperitoneum -- **Inclusion terms:** - Peritoneal hematoma - Peritoneal hemorrhage  **Excludes1:** - traumatic hemoperitoneum (S36.8-)  **Excludes2:** - retroperitoneal hematoma (K68.3) - retroperitoneal hemorrhage (K68.3)
+[K668] Other specified disorders of peritoneum
+[K669] Disorder of peritoneum, unspecified
+[K67] Disorders of peritoneum in infectious diseases classified elsewhere -- **Excludes1:** - peritonitis in chlamydia (A74.81) - peritonitis in diphtheria (A36.89) - peritonitis in gonococcal (A54.85) - peritonitis in syphilis (late) (A52.74) - peritonitis in tuberculosis (A18.31)  **Code first:** - underlying disease, such as: - congenital syphilis (A50.0) - helminthiasis (B65.0 -B83.9)
+[K68] Disorders of retroperitoneum
+[K681] Retroperitoneal abscess
+[K6811] Postprocedural retroperitoneal abscess -- **Excludes2:** - infection following procedure (T81.4-)
+[K6812] Psoas muscle abscess
+[K6819] Other retroperitoneal abscess
+[K682] Retroperitoneal fibrosis -- **Code also:** - , if applicable, associated obstruction of ureter (N13.5)
+[K683] Retroperitoneal hematoma -- **Inclusion terms:** - Retroperitoneal hemorrhage
+[K689] Other disorders of retroperitoneum
+[K70] Alcoholic liver disease -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K700] Alcoholic fatty liver
+[K701] Alcoholic hepatitis
+[K7010] Alcoholic hepatitis without ascites
+[K7011] Alcoholic hepatitis with ascites
+[K702] Alcoholic fibrosis and sclerosis of liver
+[K703] Alcoholic cirrhosis of liver -- **Inclusion terms:** - Alcoholic cirrhosis NOS
+[K7030] Alcoholic cirrhosis of liver without ascites
+[K7031] Alcoholic cirrhosis of liver with ascites
+[K704] Alcoholic hepatic failure -- **Inclusion terms:** - Acute alcoholic hepatic failure - Alcoholic hepatic failure NOS - Chronic alcoholic hepatic failure - Subacute alcoholic hepatic failure
+[K7040] Alcoholic hepatic failure without coma
+[K7041] Alcoholic hepatic failure with coma
+[K709] Alcoholic liver disease, unspecified
+[K71] Toxic liver disease -- **Includes:** - drug-induced idiosyncratic (unpredictable) liver disease - drug-induced toxic (predictable) liver disease  **Excludes2:** - alcoholic liver disease (K70.-) - Budd-Chiari syndrome (I82.0)  **Code first:** - poisoning due to drug or toxin, if applicable (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[K710] Toxic liver disease with cholestasis -- **Inclusion terms:** - Cholestasis with hepatocyte injury - 'Pure' cholestasis
+[K711] Toxic liver disease with hepatic necrosis -- **Inclusion terms:** - Hepatic failure (acute) (chronic) due to drugs
+[K7110] Toxic liver disease with hepatic necrosis, without coma
+[K7111] Toxic liver disease with hepatic necrosis, with coma
+[K712] Toxic liver disease with acute hepatitis
+[K713] Toxic liver disease with chronic persistent hepatitis
+[K714] Toxic liver disease with chronic lobular hepatitis
+[K715] Toxic liver disease with chronic active hepatitis -- **Inclusion terms:** - Toxic liver disease with lupoid hepatitis
+[K7150] Toxic liver disease with chronic active hepatitis without ascites
+[K7151] Toxic liver disease with chronic active hepatitis with ascites
+[K716] Toxic liver disease with hepatitis, not elsewhere classified
+[K717] Toxic liver disease with fibrosis and cirrhosis of liver
+[K718] Toxic liver disease with other disorders of liver -- **Inclusion terms:** - Toxic liver disease with focal nodular hyperplasia - Toxic liver disease with hepatic granulomas - Toxic liver disease with peliosis hepatis - Toxic liver disease with veno-occlusive disease of liver
+[K719] Toxic liver disease, unspecified
+[K72] Hepatic failure, not elsewhere classified -- **Includes:** - fulminant hepatitis NEC, with hepatic failure - liver (cell) necrosis with hepatic failure - malignant hepatitis NEC, with hepatic failure - yellow liver atrophy or dystrophy  **Excludes1:** - alcoholic hepatic failure (K70.4) - hepatic failure with toxic liver disease (K71.1-) - icterus of newborn (P55-P59) - postprocedural hepatic failure (K91.82)  **Excludes2:** - hepatic failure complicating abortion or ectopic or molar pregnancy (O00-O07, O08.8) - hepatic failure complicating pregnancy, childbirth and the puerperium (O26.6-) - viral hepatitis with hepatic coma (B15-B19)
+[K720] Acute and subacute hepatic failure -- **Inclusion terms:** - Acute non-viral hepatitis NOS
+[K7200] Acute and subacute hepatic failure without coma
+[K7201] Acute and subacute hepatic failure with coma
+[K721] Chronic hepatic failure -- **Inclusion terms:** - End stage liver disease
+[K7210] Chronic hepatic failure without coma
+[K7211] Chronic hepatic failure with coma
+[K729] Hepatic failure, unspecified
+[K7290] Hepatic failure, unspecified without coma
+[K7291] Hepatic failure, unspecified with coma -- **Inclusion terms:** - Hepatic coma NOS
+[K73] Chronic hepatitis, not elsewhere classified -- **Excludes1:** - alcoholic hepatitis (chronic) (K70.1-) - drug-induced hepatitis (chronic) (K71.-) - granulomatous hepatitis (chronic) NEC (K75.3) - reactive, nonspecific hepatitis (chronic) (K75.2) - viral hepatitis (chronic) (B15-B19)
+[K730] Chronic persistent hepatitis, not elsewhere classified
+[K731] Chronic lobular hepatitis, not elsewhere classified
+[K732] Chronic active hepatitis, not elsewhere classified
+[K738] Other chronic hepatitis, not elsewhere classified
+[K739] Chronic hepatitis, unspecified
+[K74] Fibrosis and cirrhosis of liver -- **Excludes1:** - alcoholic cirrhosis (of liver) (K70.3) - alcoholic fibrosis of liver (K70.2) - cardiac sclerosis of liver (K76.1) - cirrhosis (of liver) with toxic liver disease (K71.7) - congenital cirrhosis (of liver) (P78.81) - pigmentary cirrhosis (of liver) (E83.110)  **Code also:** - , if applicable, viral hepatitis (acute) (chronic) (B15-B19)
+[K740] Hepatic fibrosis -- **Code first:** - underlying liver disease, such as: - nonalcoholic steatohepatitis (NASH) (K75.81)
+[K7400] Hepatic fibrosis, unspecified
+[K7401] Hepatic fibrosis, early fibrosis -- **Inclusion terms:** - Hepatic fibrosis, stage F1 or stage F2
+[K7402] Hepatic fibrosis, advanced fibrosis -- **Inclusion terms:** - Hepatic fibrosis, stage F3  **Excludes1:** - cirrhosis of liver (K74.6-) - hepatic fibrosis, stage F4 (K74.6-)
+[K741] Hepatic sclerosis
+[K742] Hepatic fibrosis with hepatic sclerosis
+[K743] Primary biliary cirrhosis -- **Inclusion terms:** - Chronic nonsuppurative destructive cholangitis - Primary biliary cholangitis  **Excludes2:** - primary sclerosing cholangitis (K83.01)
+[K744] Secondary biliary cirrhosis
+[K745] Biliary cirrhosis, unspecified
+[K746] Other and unspecified cirrhosis of liver
+[K7460] Unspecified cirrhosis of liver -- **Inclusion terms:** - Cirrhosis (of liver) NOS
+[K7469] Other cirrhosis of liver -- **Inclusion terms:** - Cryptogenic cirrhosis (of liver) - Macronodular cirrhosis (of liver) - Micronodular cirrhosis (of liver) - Mixed type cirrhosis (of liver) - Portal cirrhosis (of liver) - Postnecrotic cirrhosis (of liver)
+[K75] Other inflammatory liver diseases -- **Excludes2:** - toxic liver disease (K71.-)
+[K750] Abscess of liver -- **Inclusion terms:** - Cholangitic hepatic abscess - Hematogenic hepatic abscess - Hepatic abscess NOS - Lymphogenic hepatic abscess - Pylephlebitic hepatic abscess  **Excludes1:** - amebic liver abscess (A06.4) - cholangitis without liver abscess (K83.09) - pylephlebitis without liver abscess (K75.1)  **Excludes2:** - acute or subacute hepatitis NOS (B17.9) - acute or subacute non-viral hepatitis (K72.0) - chronic hepatitis NEC (K73.8)
+[K751] Phlebitis of portal vein -- **Inclusion terms:** - Pylephlebitis  **Excludes1:** - pylephlebitic liver abscess (K75.0)
+[K752] Nonspecific reactive hepatitis -- **Excludes1:** - acute or subacute hepatitis (K72.0-) - chronic hepatitis NEC (K73.-) - viral hepatitis (B15-B19)
+[K753] Granulomatous hepatitis, not elsewhere classified -- **Excludes1:** - acute or subacute hepatitis (K72.0-) - chronic hepatitis NEC (K73.-) - viral hepatitis (B15-B19)
+[K754] Autoimmune hepatitis -- **Inclusion terms:** - Lupoid hepatitis NEC
+[K758] Other specified inflammatory liver diseases
+[K7581] Nonalcoholic steatohepatitis (NASH) -- **Use additional code:** - code, if applicable, hepatic fibrosis (K74.0-)
+[K7589] Other specified inflammatory liver diseases
+[K759] Inflammatory liver disease, unspecified -- **Inclusion terms:** - Hepatitis NOS  **Excludes1:** - acute or subacute hepatitis (K72.0-) - chronic hepatitis NEC (K73.-) - viral hepatitis (B15-B19)
+[K76] Other diseases of liver -- **Excludes2:** - alcoholic liver disease (K70.-) - amyloid degeneration of liver (E85.-) - cystic disease of liver (congenital) (Q44.6) - hepatic vein thrombosis (I82.0) - hepatomegaly NOS (R16.0) - pigmentary cirrhosis (of liver) (E83.110) - portal vein thrombosis (I81) - toxic liver disease (K71.-)
+[K760] Fatty (change of) liver, not elsewhere classified -- **Inclusion terms:** - Nonalcoholic fatty liver disease (NAFLD)  **Excludes1:** - nonalcoholic steatohepatitis (NASH) (K75.81)
+[K761] Chronic passive congestion of liver -- **Inclusion terms:** - Cardiac cirrhosis - Cardiac sclerosis
+[K762] Central hemorrhagic necrosis of liver -- **Excludes1:** - liver necrosis with hepatic failure (K72.-)
+[K763] Infarction of liver
+[K764] Peliosis hepatis -- **Inclusion terms:** - Hepatic angiomatosis
+[K765] Hepatic veno-occlusive disease -- **Excludes1:** - Budd-Chiari syndrome (I82.0)
+[K766] Portal hypertension -- **Use additional code:** - code for any associated complications, such as: - portal hypertensive gastropathy (K31.89)
+[K767] Hepatorenal syndrome -- **Excludes1:** - hepatorenal syndrome following labor and delivery (O90.41) - postprocedural hepatorenal syndrome (K91.83)
+[K768] Other specified diseases of liver
+[K7681] Hepatopulmonary syndrome -- **Code first:** - underlying liver disease, such as: - alcoholic cirrhosis of liver (K70.3-) - cirrhosis of liver without mention of alcohol (K74.6-)
+[K7682] Hepatic encephalopathy -- **Inclusion terms:** - Hepatic encephalopathy, NOS - Hepatic encephalopathy without coma - Hepatocerebral intoxication - Portal-systemic encephalopathy  **Excludes1:** - acute and subacute hepatic failure with coma (K72.01) - alcoholic hepatic failure with coma (K70.41) - chronic hepatic failure with coma (K72.11) - hepatic failure with coma (K72.91)  **Code also:** - underlying liver disease, such as: - acute and subacute hepatic failure without coma (K72.00) - alcoholic hepatic failure without coma (K70.40) - chronic hepatic failure without coma (K72.10) - hepatic failure with toxic liver disease without coma (K71.10) - hepatic failure without coma (K72.90) - icterus of newborn (P55-P59) - postprocedural hepatic failure (K91.82) - viral hepatitis without hepatic coma (B15.9, B16.1, B16.9, B17.10, B19.10, B19.20, B19.9)
+[K7689] Other specified diseases of liver -- **Inclusion terms:** - Cyst (simple) of liver - Focal nodular hyperplasia of liver - Hepatoptosis
+[K769] Liver disease, unspecified
+[K77] Liver disorders in diseases classified elsewhere -- **Excludes1:** - alcoholic hepatitis (K70.1-) - alcoholic liver disease (K70.-) - cytomegaloviral hepatitis (B25.1) - herpesviral [herpes simplex] hepatitis (B00.81) - mumps hepatitis (B26.81) - sarcoidosis with liver disease (D86.89) - secondary syphilis with liver disease (A51.45) - syphilis (late) with liver disease (A52.74) - toxoplasmosis (acquired) hepatitis (B58.1) - tuberculosis with liver disease (A18.83)  **Code first:** - underlying disease, such as: - amyloidosis (E85.-) - congenital syphilis (A50.0, A50.5) - congenital toxoplasmosis (P37.1) - infectious mononucleosis with liver disease (B27.0-B27.9 with fifth character 9) - schistosomiasis (B65.0-B65.9)
+[K80] Cholelithiasis -- **Excludes1:** - retained cholelithiasis following cholecystectomy (K91.86)
+[K800] Calculus of gallbladder with acute cholecystitis -- **Inclusion terms:** - Any condition listed in K80.2 with acute cholecystitis  **Use additional code:** - code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)
+[K8000] Calculus of gallbladder with acute cholecystitis without obstruction
+[K8001] Calculus of gallbladder with acute cholecystitis with obstruction
+[K801] Calculus of gallbladder with other cholecystitis -- **Use additional code:** - code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)
+[K8010] Calculus of gallbladder with chronic cholecystitis without obstruction -- **Inclusion terms:** - Cholelithiasis with cholecystitis NOS
+[K8011] Calculus of gallbladder with chronic cholecystitis with obstruction
+[K8012] Calculus of gallbladder with acute and chronic cholecystitis without obstruction
+[K8013] Calculus of gallbladder with acute and chronic cholecystitis with obstruction
+[K8018] Calculus of gallbladder with other cholecystitis without obstruction
+[K8019] Calculus of gallbladder with other cholecystitis with obstruction
+[K802] Calculus of gallbladder without cholecystitis -- **Inclusion terms:** - Cholecystolithiasis without cholecystitis - Cholelithiasis (without cholecystitis) - Colic (recurrent) of gallbladder (without cholecystitis) - Gallstone (impacted) of cystic duct (without cholecystitis) - Gallstone (impacted) of gallbladder (without cholecystitis)
+[K8020] Calculus of gallbladder without cholecystitis without obstruction
+[K8021] Calculus of gallbladder without cholecystitis with obstruction
+[K803] Calculus of bile duct with cholangitis -- **Inclusion terms:** - Any condition listed in K80.5 with cholangitis
+[K8030] Calculus of bile duct with cholangitis, unspecified, without obstruction
+[K8031] Calculus of bile duct with cholangitis, unspecified, with obstruction
+[K8032] Calculus of bile duct with acute cholangitis without obstruction
+[K8033] Calculus of bile duct with acute cholangitis with obstruction
+[K8034] Calculus of bile duct with chronic cholangitis without obstruction
+[K8035] Calculus of bile duct with chronic cholangitis with obstruction
+[K8036] Calculus of bile duct with acute and chronic cholangitis without obstruction
+[K8037] Calculus of bile duct with acute and chronic cholangitis with obstruction
+[K804] Calculus of bile duct with cholecystitis -- **Inclusion terms:** - Any condition listed in K80.5 with cholecystitis (with cholangitis)  **Code also:** - , if applicable, fistula of bile duct (K83.3)  **Use additional code:** - code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)
+[K8040] Calculus of bile duct with cholecystitis, unspecified, without obstruction
+[K8041] Calculus of bile duct with cholecystitis, unspecified, with obstruction
+[K8042] Calculus of bile duct with acute cholecystitis without obstruction
+[K8043] Calculus of bile duct with acute cholecystitis with obstruction
+[K8044] Calculus of bile duct with chronic cholecystitis without obstruction
+[K8045] Calculus of bile duct with chronic cholecystitis with obstruction
+[K8046] Calculus of bile duct with acute and chronic cholecystitis without obstruction
+[K8047] Calculus of bile duct with acute and chronic cholecystitis with obstruction
+[K805] Calculus of bile duct without cholangitis or cholecystitis -- **Inclusion terms:** - Choledocholithiasis (without cholangitis or cholecystitis) - Gallstone (impacted) of bile duct NOS (without cholangitis or cholecystitis) - Gallstone (impacted) of common duct (without cholangitis or cholecystitis) - Gallstone (impacted) of hepatic duct (without cholangitis or cholecystitis) - Hepatic cholelithiasis (without cholangitis or cholecystitis) - Hepatic colic (recurrent) (without cholangitis or cholecystitis)
+[K8050] Calculus of bile duct without cholangitis or cholecystitis without obstruction
+[K8051] Calculus of bile duct without cholangitis or cholecystitis with obstruction
+[K806] Calculus of gallbladder and bile duct with cholecystitis -- **Use additional code:** - code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)
+[K8060] Calculus of gallbladder and bile duct with cholecystitis, unspecified, without obstruction
+[K8061] Calculus of gallbladder and bile duct with cholecystitis, unspecified, with obstruction
+[K8062] Calculus of gallbladder and bile duct with acute cholecystitis without obstruction
+[K8063] Calculus of gallbladder and bile duct with acute cholecystitis with obstruction
+[K8064] Calculus of gallbladder and bile duct with chronic cholecystitis without obstruction
+[K8065] Calculus of gallbladder and bile duct with chronic cholecystitis with obstruction
+[K8066] Calculus of gallbladder and bile duct with acute and chronic cholecystitis without obstruction
+[K8067] Calculus of gallbladder and bile duct with acute and chronic cholecystitis with obstruction
+[K807] Calculus of gallbladder and bile duct without cholecystitis
+[K8070] Calculus of gallbladder and bile duct without cholecystitis without obstruction
+[K8071] Calculus of gallbladder and bile duct without cholecystitis with obstruction
+[K808] Other cholelithiasis
+[K8080] Other cholelithiasis without obstruction
+[K8081] Other cholelithiasis with obstruction
+[K81] Cholecystitis -- **Excludes1:** - cholecystitis with cholelithiasis (K80.-)  **Use additional code:** - code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)
+[K810] Acute cholecystitis -- **Inclusion terms:** - Abscess of gallbladder - Angiocholecystitis - Emphysematous (acute) cholecystitis - Empyema of gallbladder - Gangrene of gallbladder - Gangrenous cholecystitis - Suppurative cholecystitis
+[K811] Chronic cholecystitis
+[K812] Acute cholecystitis with chronic cholecystitis
+[K819] Cholecystitis, unspecified
+[K82] Other diseases of gallbladder -- **Excludes1:** - nonvisualization of gallbladder (R93.2) - postcholecystectomy syndrome (K91.5)
+[K820] Obstruction of gallbladder -- **Inclusion terms:** - Occlusion of cystic duct or gallbladder without cholelithiasis - Stenosis of cystic duct or gallbladder without cholelithiasis - Stricture of cystic duct or gallbladder without cholelithiasis  **Excludes1:** - obstruction of gallbladder with cholelithiasis (K80.-)
+[K821] Hydrops of gallbladder -- **Inclusion terms:** - Mucocele of gallbladder
+[K822] Perforation of gallbladder -- **Inclusion terms:** - Rupture of cystic duct or gallbladder  **Excludes1:** - Perforation of gallbladder in cholecystitis (K82.A2)
+[K823] Fistula of gallbladder -- **Inclusion terms:** - Cholecystocolic fistula - Cholecystoduodenal fistula  **Code also:** - , if applicable, disruption of internal operation (surgical) wound (T81.32-)
+[K824] Cholesterolosis of gallbladder -- **Inclusion terms:** - Strawberry gallbladder  **Excludes1:** - cholesterolosis of gallbladder with cholecystitis (K81.-) - cholesterolosis of gallbladder with cholelithiasis (K80.-)
+[K828] Other specified diseases of gallbladder -- **Inclusion terms:** - Adhesions of cystic duct or gallbladder - Atrophy of cystic duct or gallbladder - Cyst of cystic duct or gallbladder - Dyskinesia of cystic duct or gallbladder - Hypertrophy of cystic duct or gallbladder - Nonfunctioning of cystic duct or gallbladder - Ulcer of cystic duct or gallbladder
+[K829] Disease of gallbladder, unspecified
+[K82A] Disorders of gallbladder in diseases classified elsewhere -- **Code first:** - the type of cholecystitis (K81.-), or cholelithiasis with cholecystitis (K80.00-K80.19, K80.40-K80.47, K80.60-K80.67)
+[K82A1] Gangrene of gallbladder in cholecystitis
+[K82A2] Perforation of gallbladder in cholecystitis
+[K83] Other diseases of biliary tract -- **Excludes1:** - postcholecystectomy syndrome (K91.5)  **Excludes2:** - conditions involving the gallbladder (K81-K82) - conditions involving the cystic duct (K81-K82)
+[K830] Cholangitis -- **Excludes1:** - cholangitic liver abscess (K75.0) - cholangitis with choledocholithiasis (K80.3-, K80.4-)  **Excludes2:** - chronic nonsuppurative destructive cholangitis (K74.3) - primary biliary cholangitis (K74.3) - primary biliary cirrhosis (K74.3)
+[K8301] Primary sclerosing cholangitis
+[K8309] Other cholangitis -- **Inclusion terms:** - Ascending cholangitis - Cholangitis NOS - Primary cholangitis - Recurrent cholangitis - Sclerosing cholangitis - Secondary cholangitis - Stenosing cholangitis - Suppurative cholangitis
+[K831] Obstruction of bile duct -- **Inclusion terms:** - Occlusion of bile duct without cholelithiasis - Stenosis of bile duct without cholelithiasis - Stricture of bile duct without cholelithiasis  **Excludes1:** - congenital obstruction of bile duct (Q44.3) - obstruction of bile duct with cholelithiasis (K80.-)
+[K832] Perforation of bile duct -- **Inclusion terms:** - Rupture of bile duct
+[K833] Fistula of bile duct -- **Inclusion terms:** - Choledochoduodenal fistula
+[K834] Spasm of sphincter of Oddi
+[K835] Biliary cyst
+[K838] Other specified diseases of biliary tract -- **Inclusion terms:** - Adhesions of biliary tract - Atrophy of biliary tract - Hypertrophy of biliary tract - Ulcer of biliary tract
+[K839] Disease of biliary tract, unspecified
+[K85] Acute pancreatitis -- **Includes:** - acute (recurrent) pancreatitis - subacute pancreatitis
+[K850] Idiopathic acute pancreatitis
+[K8500] Idiopathic acute pancreatitis without necrosis or infection
+[K8501] Idiopathic acute pancreatitis with uninfected necrosis
+[K8502] Idiopathic acute pancreatitis with infected necrosis
+[K851] Biliary acute pancreatitis -- **Inclusion terms:** - Gallstone pancreatitis
+[K8510] Biliary acute pancreatitis without necrosis or infection
+[K8511] Biliary acute pancreatitis with uninfected necrosis
+[K8512] Biliary acute pancreatitis with infected necrosis
+[K852] Alcohol induced acute pancreatitis -- **Excludes2:** - alcohol induced chronic pancreatitis (K86.0)
+[K8520] Alcohol induced acute pancreatitis without necrosis or infection
+[K8521] Alcohol induced acute pancreatitis with uninfected necrosis
+[K8522] Alcohol induced acute pancreatitis with infected necrosis
+[K853] Drug induced acute pancreatitis -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[K8530] Drug induced acute pancreatitis without necrosis or infection
+[K8531] Drug induced acute pancreatitis with uninfected necrosis
+[K8532] Drug induced acute pancreatitis with infected necrosis
+[K858] Other acute pancreatitis
+[K8580] Other acute pancreatitis without necrosis or infection
+[K8581] Other acute pancreatitis with uninfected necrosis
+[K8582] Other acute pancreatitis with infected necrosis
+[K859] Acute pancreatitis, unspecified -- **Inclusion terms:** - Pancreatitis NOS
+[K8590] Acute pancreatitis without necrosis or infection, unspecified
+[K8591] Acute pancreatitis with uninfected necrosis, unspecified
+[K8592] Acute pancreatitis with infected necrosis, unspecified
+[K86] Other diseases of pancreas -- **Excludes2:** - fibrocystic disease of pancreas (E84.-) - islet cell tumor (of pancreas) (D13.7) - pancreatic steatorrhea (K90.3)
+[K860] Alcohol-induced chronic pancreatitis -- **Excludes2:** - alcohol induced acute pancreatitis (K85.2-)  **Code also:** - exocrine pancreatic insufficiency (K86.81)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[K861] Other chronic pancreatitis -- **Inclusion terms:** - Chronic pancreatitis NOS - Infectious chronic pancreatitis - Recurrent chronic pancreatitis - Relapsing chronic pancreatitis  **Code also:** - exocrine pancreatic insufficiency (K86.81)
+[K862] Cyst of pancreas
+[K863] Pseudocyst of pancreas
+[K868] Other specified diseases of pancreas
+[K8681] Exocrine pancreatic insufficiency
+[K8689] Other specified diseases of pancreas -- **Inclusion terms:** - Aseptic pancreatic necrosis, unrelated to acute pancreatitis - Atrophy of pancreas - Calculus of pancreas - Cirrhosis of pancreas - Fibrosis of pancreas - Pancreatic fat necrosis, unrelated to acute pancreatitis - Pancreatic infantilism - Pancreatic necrosis NOS, unrelated to acute pancreatitis
+[K869] Disease of pancreas, unspecified
+[K87] Disorders of gallbladder, biliary tract and pancreas in diseases classified elsewhere -- **Excludes1:** - cytomegaloviral pancreatitis (B25.2) - mumps pancreatitis (B26.3) - syphilitic gallbladder (A52.74) - syphilitic pancreas (A52.74) - tuberculosis of gallbladder (A18.83) - tuberculosis of pancreas (A18.83)  **Code first:** - underlying disease
+[K90] Intestinal malabsorption -- **Excludes1:** - intestinal malabsorption following gastrointestinal surgery (K91.2)
+[K900] Celiac disease -- **Inclusion terms:** - Celiac disease with steatorrhea - Celiac gluten-sensitive enteropathy - Nontropical sprue  **Code also:** - exocrine pancreatic insufficiency (K86.81)  **Use additional code:** - code for associated disorders including: - dermatitis herpetiformis (L13.0) - gluten ataxia (G32.81)
+[K901] Tropical sprue -- **Inclusion terms:** - Sprue NOS - Tropical steatorrhea
+[K902] Blind loop syndrome, not elsewhere classified -- **Inclusion terms:** - Blind loop syndrome NOS  **Excludes1:** - congenital blind loop syndrome (Q43.8) - postsurgical blind loop syndrome (K91.2)
+[K903] Pancreatic steatorrhea
+[K904] Other malabsorption due to intolerance -- **Excludes2:** - celiac gluten-sensitive enteropathy (K90.0) - lactose intolerance (E73.-)
+[K9041] Non-celiac gluten sensitivity -- **Inclusion terms:** - Gluten sensitivity NOS - Non-celiac gluten sensitive enteropathy
+[K9049] Malabsorption due to intolerance, not elsewhere classified -- **Inclusion terms:** - Malabsorption due to intolerance to carbohydrate - Malabsorption due to intolerance to fat - Malabsorption due to intolerance to protein - Malabsorption due to intolerance to starch
+[K908] Other intestinal malabsorption
+[K9081] Whipple's disease
+[K9082] Short bowel syndrome -- **Inclusion terms:** - Short gut syndrome
+[K90821] Short bowel syndrome with colon in continuity -- **Inclusion terms:** - Short bowel syndrome with colonic continuity
+[K90822] Short bowel syndrome without colon in continuity -- **Inclusion terms:** - Short bowel syndrome without colonic continuity
+[K90829] Short bowel syndrome, unspecified
+[K9083] Intestinal failure
+[K9089] Other intestinal malabsorption
+[K909] Intestinal malabsorption, unspecified
+[K91] Intraoperative and postprocedural complications and disorders of digestive system, not elsewhere classified -- **Excludes2:** - complications of artificial opening of digestive system (K94.-) - complications of bariatric procedures (K95.-) - gastrojejunal ulcer (K28.-) - postprocedural (radiation) retroperitoneal abscess (K68.11) - radiation colitis (K52.0) - radiation gastroenteritis (K52.0) - radiation proctitis (K62.7)
+[K910] Vomiting following gastrointestinal surgery
+[K911] Postgastric surgery syndromes -- **Inclusion terms:** - Dumping syndrome - Postgastrectomy syndrome - Postvagotomy syndrome
+[K912] Postsurgical malabsorption, not elsewhere classified -- **Inclusion terms:** - Postsurgical blind loop syndrome  **Excludes1:** - malabsorption osteomalacia in adults (M83.2) - malabsorption osteoporosis, postsurgical (M80.8-, M81.8)
+[K913] Postprocedural intestinal obstruction
+[K9130] Postprocedural intestinal obstruction, unspecified as to partial versus complete -- **Inclusion terms:** - Postprocedural intestinal obstruction NOS
+[K9131] Postprocedural partial intestinal obstruction -- **Inclusion terms:** - Postprocedural incomplete intestinal obstruction
+[K9132] Postprocedural complete intestinal obstruction
+[K915] Postcholecystectomy syndrome
+[K916] Intraoperative hemorrhage and hematoma of a digestive system organ or structure complicating a procedure -- **Excludes1:** - intraoperative hemorrhage and hematoma of a digestive system organ or structure due to accidental puncture and laceration during a procedure (K91.7-)
+[K9161] Intraoperative hemorrhage and hematoma of a digestive system organ or structure complicating a digestive system procedure
+[K9162] Intraoperative hemorrhage and hematoma of a digestive system organ or structure complicating other procedure
+[K917] Accidental puncture and laceration of a digestive system organ or structure during a procedure
+[K9171] Accidental puncture and laceration of a digestive system organ or structure during a digestive system procedure
+[K9172] Accidental puncture and laceration of a digestive system organ or structure during other procedure
+[K918] Other intraoperative and postprocedural complications and disorders of digestive system
+[K9181] Other intraoperative complications of digestive system
+[K9182] Postprocedural hepatic failure
+[K9183] Postprocedural hepatorenal syndrome
+[K9184] Postprocedural hemorrhage of a digestive system organ or structure following a procedure
+[K91840] Postprocedural hemorrhage of a digestive system organ or structure following a digestive system procedure
+[K91841] Postprocedural hemorrhage of a digestive system organ or structure following other procedure
+[K9185] Complications of intestinal pouch
+[K91850] Pouchitis -- **Inclusion terms:** - Inflammation of internal ileoanal pouch
+[K91858] Other complications of intestinal pouch
+[K9186] Retained cholelithiasis following cholecystectomy
+[K9187] Postprocedural hematoma and seroma of a digestive system organ or structure following a procedure
+[K91870] Postprocedural hematoma of a digestive system organ or structure following a digestive system procedure
+[K91871] Postprocedural hematoma of a digestive system organ or structure following other procedure
+[K91872] Postprocedural seroma of a digestive system organ or structure following a digestive system procedure
+[K91873] Postprocedural seroma of a digestive system organ or structure following other procedure
+[K9189] Other postprocedural complications and disorders of digestive system -- **Excludes2:** - postprocedural retroperitoneal abscess (K68.11)  **Use additional code:** - code, if applicable, to further specify disorder
+[K92] Other diseases of digestive system -- **Excludes1:** - neonatal gastrointestinal hemorrhage (P54.0-P54.3)
+[K920] Hematemesis
+[K921] Melena -- **Excludes1:** - occult blood in feces (R19.5)
+[K922] Gastrointestinal hemorrhage, unspecified -- **Inclusion terms:** - Gastric hemorrhage NOS - Intestinal hemorrhage NOS  **Excludes1:** - acute hemorrhagic gastritis (K29.01) - hemorrhage of anus and rectum (K62.5) - angiodysplasia of stomach with hemorrhage (K31.811) - diverticular disease with hemorrhage (K57.-) - gastritis and duodenitis with hemorrhage (K29.-) - peptic ulcer with hemorrhage (K25-K28)
+[K928] Other specified diseases of the digestive system
+[K9281] Gastrointestinal mucositis (ulcerative) -- **Excludes2:** - mucositis (ulcerative) of vagina and vulva (N76.81) - nasal mucositis (ulcerative) (J34.81) - oral mucositis (ulcerative) (K12.3-)  **Code also:** - type of associated therapy, such as: - antineoplastic and immunosuppressive drugs (T45.1X-) - radiological procedure and radiotherapy (Y84.2)
+[K9289] Other specified diseases of the digestive system
+[K929] Disease of digestive system, unspecified
+[K94] Complications of artificial openings of the digestive system
+[K940] Colostomy complications
+[K9400] Colostomy complication, unspecified
+[K9401] Colostomy hemorrhage
+[K9402] Colostomy infection -- **Use additional code:** - code to specify type of infection, such as: - cellulitis of abdominal wall (L03.311) - sepsis (A40.-, A41.-)
+[K9403] Colostomy malfunction -- **Inclusion terms:** - Mechanical complication of colostomy
+[K9409] Other complications of colostomy
+[K941] Enterostomy complications
+[K9410] Enterostomy complication, unspecified
+[K9411] Enterostomy hemorrhage
+[K9412] Enterostomy infection -- **Use additional code:** - code to specify type of infection, such as: - cellulitis of abdominal wall (L03.311) - sepsis (A40.-, A41.-)
+[K9413] Enterostomy malfunction -- **Inclusion terms:** - Mechanical complication of enterostomy
+[K9419] Other complications of enterostomy
+[K942] Gastrostomy complications
+[K9420] Gastrostomy complication, unspecified
+[K9421] Gastrostomy hemorrhage
+[K9422] Gastrostomy infection -- **Use additional code:** - code to specify type of infection, such as: - cellulitis of abdominal wall (L03.311) - sepsis (A40.-, A41.-)
+[K9423] Gastrostomy malfunction -- **Inclusion terms:** - Mechanical complication of gastrostomy
+[K9429] Other complications of gastrostomy
+[K943] Esophagostomy complications
+[K9430] Esophagostomy complications, unspecified
+[K9431] Esophagostomy hemorrhage
+[K9432] Esophagostomy infection -- **Use additional code:** - code to identify the infection
+[K9433] Esophagostomy malfunction -- **Inclusion terms:** - Mechanical complication of esophagostomy
+[K9439] Other complications of esophagostomy
+[K95] Complications of bariatric procedures
+[K950] Complications of gastric band procedure
+[K9501] Infection due to gastric band procedure -- **Use additional code:** - code to specify type of infection or organism, such as: - bacterial and viral infectious agents (B95.-, B96.-) - cellulitis of abdominal wall (L03.311) - sepsis (A40.-, A41.-)
+[K9509] Other complications of gastric band procedure -- **Use additional code:** - code, if applicable, to further specify complication
+[K958] Complications of other bariatric procedure -- **Excludes1:** - complications of gastric band surgery (K95.0-)
+[K9581] Infection due to other bariatric procedure -- **Use additional code:** - code to specify type of infection or organism, such as: - bacterial and viral infectious agents (B95.-, B96.-) - cellulitis of abdominal wall (L03.311) - sepsis (A40.-, A41.-)
+[K9589] Other complications of other bariatric procedure -- **Use additional code:** - code, if applicable, to further specify complication

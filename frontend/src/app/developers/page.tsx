@@ -1,6 +1,20 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import { ContactSalesForm } from './ContactSalesForm'
 import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network, Sparkles, Bot } from 'lucide-react'
+
+export const metadata: Metadata = {
+  title: 'Builders - WorldOfTaxonomy',
+  description:
+    'Build with the WorldOfTaxonomy classification graph: REST API, MCP server, and packaged AI skills for Claude, Cursor, and ChatGPT. 1,000+ classification systems, 1.2M+ codes, 321K+ crosswalk edges. Open source.',
+  openGraph: {
+    title: 'Builders - WorldOfTaxonomy',
+    description: 'REST API + MCP server for 1,000+ classification systems and 321K+ crosswalk edges. Open source.',
+    url: 'https://worldoftaxonomy.com/developers',
+    type: 'website',
+  },
+  alternates: { canonical: 'https://worldoftaxonomy.com/developers' },
+}
 
 async function fetchGithubStars(): Promise<number | null> {
   try {

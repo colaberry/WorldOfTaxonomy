@@ -1,0 +1,26 @@
+[dep_b2b] B2B Commerce :: naics_2022:44-45
+[dep_b2b_mro] MRO and Industrial Supply (Grainger, McMaster-Carr)
+[dep_b2b_procure] E-Procurement Platform (Ariba, Coupa, Jaggaer)
+[dep_b2b_saas] B2B SaaS Commerce (Shopify Plus, BigCommerce B2B)
+[dep_b2b_wholesale] B2B Wholesale Marketplace (Alibaba, Faire)
+[dep_b2c] B2C Marketplaces :: naics_2022:44-45
+[dep_b2c_auction] Online Auction and Bidding Platform
+[dep_b2c_flash] Flash Sale and Daily Deal (Groupon, Woot)
+[dep_b2c_general] General Marketplace (Amazon, eBay, Walmart)
+[dep_b2c_rental] Rental and Sharing Marketplace (Airbnb, Turo)
+[dep_b2c_vertical] Vertical Marketplace (Etsy, StockX, Zillow)
+[dep_cross] Cross-Border Commerce :: naics_2022:44-45
+[dep_cross_duty] Duty-Free and Tax-Exempt Commerce (IOSS, Section 321)
+[dep_cross_global] Global Marketplace (cross-border fulfillment, FBA)
+[dep_cross_local] Localized Platform (Mercado Libre, Flipkart, Coupang)
+[dep_cross_logistics] Cross-Border Logistics Platform (freight, customs)
+[dep_d2c] Direct-to-Consumer (D2C) Platforms :: naics_2022:44-45
+[dep_d2c_brand] Brand-Owned Storefront (Shopify, WooCommerce)
+[dep_d2c_custom] Custom and Made-to-Order Platform (configurator)
+[dep_d2c_dropship] Dropship and Print-on-Demand Platform
+[dep_d2c_sub] Subscription Box and Recurring Commerce
+[dep_social] Social Commerce :: naics_2022:44-45
+[dep_social_creator] Creator and Affiliate Storefront (LTK, Stan Store)
+[dep_social_group] Group Buying and Community Commerce (Pinduoduo)
+[dep_social_live] Live Stream Shopping (TikTok Shop, Amazon Live)
+[dep_social_shoppable] Shoppable Posts and Stories (Instagram, Pinterest)

@@ -1,0 +1,25 @@
+[das_airline] Commercial Airlines :: naics_2022:3364, naics_2022:481
+[das_airline_charter] Charter and On-Demand Passenger Flights
+[das_airline_full] Full-Service Network Carriers
+[das_airline_low] Low-Cost and Ultra-Low-Cost Carriers
+[das_airline_regional] Regional and Commuter Airlines
+[das_airport] Airport Operations :: naics_2022:3364, naics_2022:481
+[das_airport_atc] Air Traffic Control and Navigation Services
+[das_airport_fuel] Aviation Fuel Supply and Hydrant Systems
+[das_airport_ground] Ground Handling and Ramp Services
+[das_airport_terminal] Terminal Management and Passenger Services
+[das_cargo] Cargo Aviation :: naics_2022:3364, naics_2022:481
+[das_cargo_belly] Belly Cargo and Combi Aircraft Services
+[das_cargo_cold] Cold Chain and Perishable Air Freight
+[das_cargo_freighter] Dedicated Freighter Operations
+[das_cargo_integrator] Integrated Express and Parcel Carriers
+[das_general] General Aviation :: naics_2022:3364, naics_2022:481
+[das_general_aerial] Aerial Survey, Photography, and Mapping
+[das_general_agri] Agricultural Aviation and Crop Spraying
+[das_general_flight] Flight Training and Pilot Education
+[das_general_private] Private and Business Jet Operations
+[das_mro] Aircraft MRO :: naics_2022:3364, naics_2022:481
+[das_mro_airframe] Airframe Heavy Maintenance and Overhaul
+[das_mro_component] Component and Avionics Repair Services
+[das_mro_engine] Engine Maintenance, Repair, and Overhaul
+[das_mro_line] Line Maintenance and Transit Checks

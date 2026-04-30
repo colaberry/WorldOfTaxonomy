@@ -1,0 +1,16 @@
+[pk_mgmt] Management Models :: naics_2022:5419
+[pk_mgmt_lease] Parking lease / concession
+[pk_mgmt_self] Self-operated parking
+[pk_mgmt_third] Third-party management contract
+[pk_mgmt_valet] Valet parking service
+[pk_tech] Parking Technology :: naics_2022:5419
+[pk_tech_app] Mobile payment and reservation apps
+[pk_tech_ev] EV charging integration
+[pk_tech_lpr] License plate recognition (LPR)
+[pk_tech_sensor] Occupancy sensors and guidance
+[pk_type] Parking Types :: naics_2022:5419
+[pk_type_mech] Automated / mechanical parking
+[pk_type_on] On-street metered parking
+[pk_type_struct] Structured parking garage
+[pk_type_surface] Surface lot parking
+[pk_type_under] Underground parking

@@ -1,0 +1,22 @@
+[ct_design] Study Designs :: naics_2022:5417, naics_2022:6215
+[ct_design_adapt] Adaptive design (platform, basket, umbrella)
+[ct_design_cross] Crossover design
+[ct_design_obs] Observational study (cohort, case-control)
+[ct_design_rct] Randomized controlled trial (RCT)
+[ct_design_rwe] Real-world evidence study
+[ct_design_single] Single-arm study
+[ct_endpoint] Endpoint Types :: naics_2022:5417, naics_2022:6215
+[ct_ep_composite] Composite endpoints
+[ct_ep_primary] Primary efficacy endpoint
+[ct_ep_pro] Patient-reported outcomes (PRO)
+[ct_ep_secondary] Secondary endpoints
+[ct_ep_surrogate] Surrogate endpoints (biomarker-based)
+[ct_phase] Trial Phases :: naics_2022:5417, naics_2022:6215
+[ct_phase_0] Phase 0 (exploratory IND)
+[ct_phase_1] Phase I (safety, dose-finding)
+[ct_phase_1b] Phase Ib (expansion cohorts)
+[ct_phase_2] Phase II (efficacy, dose-ranging)
+[ct_phase_2b] Phase IIb (dose-confirming)
+[ct_phase_3] Phase III (confirmatory, pivotal)
+[ct_phase_3b] Phase IIIb (supplemental studies)
+[ct_phase_4] Phase IV (post-marketing)

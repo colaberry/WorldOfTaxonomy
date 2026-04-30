@@ -1,0 +1,14 @@
+[NG] NGSS Domains
+[NG.01] Physical Sciences (PS)
+[NG.02] Life Sciences (LS)
+[NG.03] Earth and Space Sciences (ESS)
+[NG.04] Engineering, Technology, Applications (ETS)
+[NG.05] Crosscutting Concepts
+[NG.06] Science and Engineering Practices
+[NG.07] Disciplinary Core Ideas (K-2)
+[NG.08] Disciplinary Core Ideas (3-5)
+[NG.09] Disciplinary Core Ideas (6-8)
+[NG.10] Disciplinary Core Ideas (9-12)
+[NG.11] Performance Expectations
+[NG.12] Assessment Boundaries
+[NG.13] Connections to CCSS

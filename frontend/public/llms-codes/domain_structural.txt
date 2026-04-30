@@ -1,0 +1,17 @@
+[st_lat] Lateral Force Systems :: naics_2022:5419
+[st_lat_brbf] Buckling-restrained braced frame
+[st_lat_ecbf] Eccentrically braced frame
+[st_lat_scbf] Special concentrically braced frame
+[st_lat_smrf] Special moment resisting frame (SMRF)
+[st_mat] Structural Materials :: naics_2022:5419
+[st_mat_conc] Reinforced concrete
+[st_mat_mason] Masonry (CMU, brick)
+[st_mat_pst] Pre-stressed concrete
+[st_mat_steel] Structural steel
+[st_mat_timber] Mass timber (CLT, glulam)
+[st_sys] Structural Systems :: naics_2022:5419
+[st_sys_brace] Braced frame (X, V, chevron)
+[st_sys_flat] Flat plate / flat slab
+[st_sys_frame] Moment frame
+[st_sys_shear] Shear wall system
+[st_sys_tube] Tubular structure (framed, bundled)

@@ -1,0 +1,26 @@
+[dmlc_care] Care and Maintenance Phase :: naics_2022:212, naics_2022:213
+[dmlc_care_idle] Idle / Temporarily Suspended Operations
+[dmlc_care_restart] Restart and Reactivation Assessment
+[dmlc_closure] Closure and Rehabilitation Phase :: naics_2022:212, naics_2022:213
+[dmlc_closure_decommiss] Active Decommissioning and Demolition
+[dmlc_closure_monitor] Long-Term Post-Closure Monitoring
+[dmlc_closure_plan] Mine Closure Planning and Bond Calculation
+[dmlc_closure_rehab] Land Rehabilitation and Revegetation
+[dmlc_develop] Development and Construction Phase :: naics_2022:212, naics_2022:213
+[dmlc_develop_build] Full Construction (processing plant, infrastructure)
+[dmlc_develop_commiss] Commissioning and Systems Integration
+[dmlc_develop_early] Early Works and Site Preparation
+[dmlc_explore] Exploration and Discovery Phase :: naics_2022:212, naics_2022:213
+[dmlc_explore_advanced] Advanced Exploration (drilling, resource estimation)
+[dmlc_explore_grass] Grassroots Exploration (early-stage target gen)
+[dmlc_explore_scout] Scout / Brownfield Near-Mine Exploration
+[dmlc_feasibility] Feasibility and Permitting Phase :: naics_2022:212, naics_2022:213
+[dmlc_feasibility_dfs] Definitive Feasibility Study (DFS / BFS)
+[dmlc_feasibility_pea] Preliminary Economic Assessment (PEA / Scoping)
+[dmlc_feasibility_permit] Environmental Permitting and EIA Process
+[dmlc_feasibility_pfs] Pre-Feasibility Study (PFS)
+[dmlc_produce] Operations and Production Phase :: naics_2022:212, naics_2022:213
+[dmlc_produce_expand] Mine Expansion (pushback, depth extension)
+[dmlc_produce_ramp] Ramp-Up (achieving nameplate capacity)
+[dmlc_produce_steady] Steady-State Production
+[dmlc_produce_sustaining] Sustaining Capital Phase (mature mine)

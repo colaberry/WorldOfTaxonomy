@@ -1,0 +1,15 @@
+[PT] Prosthetic Types :: naics_2022:3345, naics_2022:3391
+[PT.01] Below-Knee Prosthesis
+[PT.02] Above-Knee Prosthesis
+[PT.03] Below-Elbow Prosthesis
+[PT.04] Above-Elbow Prosthesis
+[PT.05] Myoelectric Prosthesis
+[PT.06] Body-Powered Prosthesis
+[PT.07] Cosmetic Prosthesis
+[PT.08] Sport Prosthesis
+[PT.09] Partial Foot Prosthesis
+[PT.10] Hip Disarticulation Prosthesis
+[PT.11] Bionic Prosthesis
+[PT.12] Osseointegrated Prosthesis
+[PT.13] Pediatric Prosthesis
+[PT.14] 3D-Printed Prosthesis

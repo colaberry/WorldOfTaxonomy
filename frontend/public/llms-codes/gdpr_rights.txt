@@ -1,0 +1,13 @@
+[GR] GDPR Rights
+[GR.01] Right to be Informed (Art. 13-14)
+[GR.02] Right of Access (Art. 15)
+[GR.03] Right to Rectification (Art. 16)
+[GR.04] Right to Erasure (Art. 17)
+[GR.05] Right to Restrict Processing (Art. 18)
+[GR.06] Right to Data Portability (Art. 20)
+[GR.07] Right to Object (Art. 21)
+[GR.08] Rights re: Automated Decision Making (Art. 22)
+[GR.09] Right to Withdraw Consent
+[GR.10] Right to Lodge Complaint (Art. 77)
+[GR.11] Right to Effective Remedy (Art. 79)
+[GR.12] Right to Compensation (Art. 82)

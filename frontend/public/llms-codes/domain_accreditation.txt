@@ -1,0 +1,14 @@
+[AB] Accreditation Body Types :: naics_2022:611
+[AB.01] Regional Accreditor (US)
+[AB.02] National Accreditor (US)
+[AB.03] Programmatic Accreditor
+[AB.04] AACSB (Business)
+[AB.05] ABET (Engineering)
+[AB.06] ACPE (Pharmacy)
+[AB.07] LCME (Medical)
+[AB.08] ABA (Law)
+[AB.09] NAEYC (Early Childhood)
+[AB.10] CAEP (Teacher Education)
+[AB.11] EQUIS (European Business)
+[AB.12] AMBA (MBA)
+[AB.13] International Accreditation

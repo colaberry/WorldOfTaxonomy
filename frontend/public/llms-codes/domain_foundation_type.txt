@@ -1,0 +1,15 @@
+[fd_deep] Deep Foundations :: naics_2022:236, naics_2022:237, naics_2022:238
+[fd_deep_drilled] Drilled shafts (caissons)
+[fd_deep_driven] Driven piles (steel, concrete, timber)
+[fd_deep_helical] Helical piles (screw piles)
+[fd_deep_micro] Micropiles / mini-piles
+[fd_shallow] Shallow Foundations :: naics_2022:236, naics_2022:237, naics_2022:238
+[fd_shallow_mat] Mat / raft foundation
+[fd_shallow_slab] Slab-on-grade
+[fd_shallow_spread] Spread footing (isolated, combined)
+[fd_shallow_strip] Strip footing (continuous)
+[fd_special] Special Foundations :: naics_2022:236, naics_2022:237, naics_2022:238
+[fd_special_retain] Retaining walls (gravity, cantilever, anchored)
+[fd_special_seismic] Seismic isolation / base isolation
+[fd_special_soil] Soil improvement (compaction, grouting)
+[fd_special_under] Underpinning systems

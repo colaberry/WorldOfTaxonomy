@@ -1,0 +1,13 @@
+[SW] SWIFT MT Categories
+[SW.1xx] Customer Transfers (MT1xx)
+[SW.2xx] Financial Institution Transfers (MT2xx)
+[SW.3xx] Treasury Markets (MT3xx)
+[SW.4xx] Collections and Cash Letters (MT4xx)
+[SW.5xx] Securities Markets (MT5xx)
+[SW.6xx] Treasury Markets (Precious Metals) (MT6xx)
+[SW.7xx] Documentary Credits (MT7xx)
+[SW.8xx] Travellers Cheques (MT8xx)
+[SW.9xx] Cash Management (MT9xx)
+[SW.API] API-Based Connectivity
+[SW.GPI] gpi (Global Payment Innovation)
+[SW.MX] MX (ISO 20022) Messages

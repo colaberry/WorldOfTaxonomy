@@ -1,0 +1,26 @@
+[dht_analytics] Health Data Analytics :: naics_2022:6215
+[dht_analytics_cost] Healthcare Cost and Utilization Analytics
+[dht_analytics_ehr] EHR Data Mining and Clinical Insights
+[dht_analytics_genomic] Genomic Data Analytics and Precision Medicine
+[dht_analytics_imaging] Medical Imaging AI and Diagnostics
+[dht_analytics_pop] Population Health Analytics and Risk Stratification
+[dht_dtx] Digital Therapeutics :: naics_2022:6215
+[dht_dtx_behavior] Behavioral Health Digital Interventions
+[dht_dtx_cognitive] Cognitive Training and Neurotherapy Apps
+[dht_dtx_musculo] Musculoskeletal Digital Therapy Platforms
+[dht_dtx_substance] Substance Use Disorder Digital Programs
+[dht_rpm] Remote Patient Monitoring :: naics_2022:6215
+[dht_rpm_cardiac] Remote Cardiac Monitoring and ECG Devices
+[dht_rpm_chronic] Chronic Disease Monitoring Systems
+[dht_rpm_glucose] Continuous Glucose Monitoring (CGM) Platforms
+[dht_rpm_wearable] Wearable Health Devices and Biosensors
+[dht_telemed] Telemedicine :: naics_2022:6215
+[dht_telemed_async] Asynchronous (Store-and-Forward) Telemedicine
+[dht_telemed_mental] Telepsychiatry and Mental Health Platforms
+[dht_telemed_triage] AI-Powered Symptom Triage and Routing
+[dht_telemed_video] Video Consultation Platforms
+[dht_trial] Clinical Trial Tech :: naics_2022:6215
+[dht_trial_decen] Decentralized Clinical Trial Platforms
+[dht_trial_edc] Electronic Data Capture (EDC) Systems
+[dht_trial_recruit] Patient Recruitment and Matching Platforms
+[dht_trial_safety] Pharmacovigilance and Safety Reporting Tech

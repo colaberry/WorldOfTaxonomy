@@ -1,0 +1,23 @@
+[dac_content] Arts and Entertainment Content Type :: naics_2022:711, naics_2022:713
+[dac_content_film] Film, TV and Video Production
+[dac_content_gaming] Video Games, Interactive and eSports
+[dac_content_live] Live Theater, Comedy and Performing Arts
+[dac_content_music] Music Recording, Publishing and Performance
+[dac_content_sports] Professional and Spectator Sports
+[dac_content_visual] Visual Art, Photography and Design
+[dac_format] Content Delivery Format :: naics_2022:711, naics_2022:713
+[dac_format_live] Live and In-Person Event
+[dac_format_record] Recorded and Packaged Media (DVD, Blu-ray, vinyl)
+[dac_format_stream] Digital Streaming (on-demand, subscription)
+[dac_rights] Intellectual Property and Rights Type :: naics_2022:711, naics_2022:713
+[dac_rights_broad] Broadcast License (TV, radio, streaming)
+[dac_rights_master] Master Recording Rights (sound recording owner)
+[dac_rights_perf] Performance Rights (PRO: ASCAP, BMI, SESAC)
+[dac_rights_pub] Publishing Rights (songwriter, composer)
+[dac_rights_sync] Synchronization License (music + visual media)
+[dac_venue] Entertainment Venue Type :: naics_2022:711, naics_2022:713
+[dac_venue_club] Nightclub, Music Club and Comedy Club
+[dac_venue_museum] Museum, Gallery and Cultural Institution
+[dac_venue_park] Amusement Park, Theme Park and Attraction
+[dac_venue_stadium] Stadium and Sports Arena
+[dac_venue_theater] Theater and Performing Arts Center

@@ -1,0 +1,229 @@
+[C30] CRYSTAL GROWTH
+[C30B] SINGLE-CRYSTAL GROWTH -- **Definition:** This place covers:  Single crystals or homogeneous polycrystalline material with a defined structure; production thereof.  Processes and apparatus used in obtaining these crystals and materials.  Processes and apparatus for the after-treatment of single crystals or homogeneous polycrystalline material with a defined structure.  **Limiting references (this place does not cover):** - Formation of diamonds using ultra-high pressure -> B01J3/06 - Casting of metals, casting of other substances by the same processes or devices -> B22D - Zone-refining of metals or alloys -> C22B - Changing the physical structure of non-ferrous metals or alloys by heat treatment or by hot or cold working -> C22F - Semiconductor devices; Electric solid-state devices not otherwise provided for -> H10  **Glossary:** - amorphous: description of a solid material not having long-range crystalline lattice structure. - bulk/layer: bulk crystals have dimensions which are comparable in all three dimensions whereas layers have one dimension (thickness) significantly less than the other two dimensions (surface area). Often a bulk layer is grown from a discrete "seed" whereas a layer is grown epitaxially on a substrate. - crystal: description of a solid material having long-range order of atoms or molecules arranged in a regularly-repeating lattice structure. - defined structure: the structure of a solid material with grains which are oriented in a preferential way or have larger dimensions than normally obtained. - epitaxy: the formation of a crystalline layer on a substrate in such a manner that the formed crystal bears a definite crystallographic relationship to the substrate. - eutectic: description of a mixture or solution containing two or more phases at a composition that has the lowest melting point and where the phases simultaneously crystallise from solution at this temperature. - grains: crystalline regions in a solid material, each grain generally being a single crystalline region. - homogeneous polycrystalline material: a solid material with crystal particles, all of which have the same chemical composition. - lattice: an ordered arrangement of atoms or molecules within a solid material. - nanocrystals: single crystals having at least one dimension less than 100 nm. The term includes nanowires, nanotubes, nanorods etc. - oriented crystal: a polycrystalline structure in which the grains are generally aligned in a preferential direction such as obtained in columnar growth. - seed: a material, usually itself a small single-crystal, upon which a single-crystal is grown, the seeded crystal growth proceeding by the alignment of atoms or molecules or clusters into a thermodynamically favoured arrangement determined by the nature of the seed. - single-crystal: description of a solid material having long-range order of atoms or molecules in a regularly-repeating lattice structure. Also includes twin crystals and a predominantly single crystal product. - superlattice: a single-crystal having an internal structure of more than two layers, each layer having a composition different from the next adjacent layer. - twin crystal: a crystalline material in which the adjoining crystalline lattices have a mirror-image symmetrical relationship, the interface between the adjoining crystals being termed the twin plane. - whiskers/needles: discrete solid crystalline particles of generally elongated shape. Dimensions are superior to 100 nm and are not considered as nanocrystals (nanowires, nanorods etc.) - zone melting: description of a process in which a crystallised body is formed by melting a zone of a starting material with subsequent cooling and crystallisation while either the zone or the starting product is displaced so that all or part of the starting material is converted into the crystallised body.
+[C30B 1/00] Single-crystal growth from solids or gels -- **Definition:** This place covers:  Particular attention is paid to documents where crystal growth is induced by e.g. scanning zones of a material to be crystallized with e.g. a laser beam. If the material to be crystallized becomes molten prior to cooling and crystallization then the document is not classified here but is allocated a classification under C30B13/00 .
+[C30B 1/02] by thermal treatment, e.g. strain annealing
+[C30B 1/023] from solids with amorphous structure
+[C30B 1/026] Solid phase epitaxial growth through a disordered intermediate layer -- **Definition:** This place covers:  Growth methods where for example the crystallographic structure of a substrate is transferred via e.g. an intermediate amorphous layer to an overlying layer during a heat treatment below the melting point of the different layers.
+[C30B 1/04] Isothermal recrystallisation
+[C30B 1/06] Recrystallisation under a temperature gradient
+[C30B 1/08] Zone recrystallisation
+[C30B 1/10] by solid state reactions or multi-phase diffusion
+[C30B 11/00] Single-crystal growth by normal freezing or freezing under temperature gradient, e.g. Bridgman-Stockbarger method
+[C30B 11/001] Continuous growth
+[C30B 11/002] Crucibles or containers for supporting the melt
+[C30B 11/003] Heating or cooling of the melt or the crystallised material
+[C30B 11/005] by irradiation or electric discharge
+[C30B 11/006] Controlling or regulating
+[C30B 11/007] Mechanisms for moving either the charge or the heater
+[C30B 11/008] using centrifugal force to the charge
+[C30B 11/02] without using solvents
+[C30B 11/04] adding crystallising materials or reactants forming it
+[C30B 11/06] at least one but not all components of the crystal composition being added
+[C30B 11/065] before crystallising, e.g. synthesis
+[C30B 11/08] every component of the crystal composition being added during the crystallisation
+[C30B 11/10] Solid or liquid components, e.g. Verneuil method
+[C30B 11/12] Vaporous components, e.g. vapour-liquid-solid-growth
+[C30B 11/14] characterised by the seed, e.g. its crystallographic orientation
+[C30B 1/12] by pressure treatment during the growth
+[C30B 13/00] Single-crystal growth by zone-melting
+[C30B 13/005] Continuous growth
+[C30B 13/02] Zone-melting with a solvent, e.g. travelling solvent process
+[C30B 13/04] Homogenisation by zone-levelling
+[C30B 13/06] the molten zone not extending over the whole cross-section
+[C30B 13/08] adding crystallising materials or reactants forming it
+[C30B 13/10] with addition of doping materials
+[C30B 13/12] in the gaseous or vapour state
+[C30B 13/14] Crucibles or vessels
+[C30B 13/16] Heating of the molten zone
+[C30B 13/18] the heating element being in contact with, or immersed in, the molten zone
+[C30B 13/20] by induction, e.g. hot wire technique -- **Limiting references (this place does not cover):** - The heating element being in contact with, or immersed in, the molten zone -> C30B13/18
+[C30B 13/22] by irradiation or electric discharge
+[C30B 13/24] using electromagnetic waves
+[C30B 13/26] Stirring of the molten zone
+[C30B 13/28] Controlling or regulating
+[C30B 13/285] Crystal holders, e.g. chucks
+[C30B 13/30] Stabilisation or shape controlling of the molten zone, e.g. by concentrators, by electromagnetic fields
+[C30B 13/32] Mechanisms for moving either the charge or the heater
+[C30B 13/34] characterised by the seed, e.g. by its crystallographic orientation
+[C30B 15/00] Single-crystal growth by pulling from a melt, e.g. Czochralski method
+[C30B 15/002] Continuous growth
+[C30B 15/005] Simultaneous pulling of more than one crystal
+[C30B 15/007] Pulling on a substrate
+[C30B 15/02] adding crystallising materials or reactants forming it
+[C30B 15/04] adding doping materials, e.g. for n-p-junction
+[C30B 15/06] Non-vertical pulling
+[C30B 15/08] Downward pulling
+[C30B 15/10] Crucibles or containers for supporting the melt
+[C30B 15/12] Double crucible methods
+[C30B 15/14] Heating of the melt or the crystallised materials
+[C30B 15/16] by irradiation or electric discharge
+[C30B 15/18] using direct resistance heating in addition to other methods of heating, e.g. using Peltier heat
+[C30B 15/20] Controlling or regulating
+[C30B 15/203] the relationship of pull rate (v) to axial thermal gradient (G)
+[C30B 15/206] the thermal history of growing the ingot
+[C30B 15/22] Stabilisation or shape controlling of the molten zone near the pulled crystal
+[C30B 15/24] using mechanical means, e.g. shaping guides
+[C30B 15/26] using television detectors
+[C30B 15/28] using weight changes of the crystal or the melt, e.g. flotation methods
+[C30B 15/30] Mechanisms for rotating or moving either the melt or the crystal
+[C30B 15/305] Stirring of the melt
+[C30B 15/32] Seed holders, e.g. chucks
+[C30B 15/34] Edge-defined film-fed crystal-growth using dies or slits
+[C30B 15/36] characterised by the seed, e.g. its crystallographic orientation
+[C30B 17/00] Single-crystal growth onto a seed which remains in the melt during growth, e.g. Nacken-Kyropoulos method
+[C30B 19/00] Liquid-phase epitaxial-layer growth
+[C30B 19/02] using molten solvents, e.g. flux
+[C30B 19/04] the solvent being a component of the crystal composition
+[C30B 19/06] Reaction chambers
+[C30B 19/061] Tipping system, e.g. by rotation
+[C30B 19/062] Vertical dipping system
+[C30B 19/063] Sliding boat system
+[C30B 19/064] Rotating sliding boat system
+[C30B 19/065] Multiple stacked slider system
+[C30B 19/066] Injection or centrifugal force system
+[C30B 19/067] Boots or containers
+[C30B 19/068] Substrate holders
+[C30B 19/08] Heating of the reaction chamber or the substrate
+[C30B 19/10] Controlling or regulating
+[C30B 19/103] Current controlled or induced growth
+[C30B 19/106] adding crystallising material or reactants forming it  in situ  to the liquid
+[C30B 19/12] characterised by the substrate
+[C30B 21/00] Unidirectional solidification of eutectic materials
+[C30B 21/02] by normal casting or gradient freezing
+[C30B 21/04] by zone-melting
+[C30B 21/06] by pulling from a melt
+[C30B 23/00] Single-crystal growth from vapours -- **Definition:** This place covers:  The growth of bulk crystals, as opposed to layers, from vapours produced by physical processes such as sublimation is classified here.
+[C30B 23/002] Controlling or regulating
+[C30B 23/005] Controlling or regulating flux or flow of depositing species or vapour
+[C30B 23/007] Growth of whiskers or needles
+[C30B 23/02] Epitaxial-layer growth -- **Definition:** This place covers:  Epitaxial layer growth from vapours produced by physical processes, e.g. molecular beam epitaxy (MBE), sputtering, sublimation etc.  **Limiting references (this place does not cover):** - Physical vapour deposition wherein generally unstructured polycrystalline or amorphous coatings are produced. -> C23C14/00 and sub-groups
+[C30B 23/025] characterised by the substrate
+[C30B 23/04] Pattern deposit, e.g. by using masks
+[C30B 23/06] Heating of the deposition chamber, the substrate or the materials to be evaporated
+[C30B 23/063] Heating of the substrate
+[C30B 23/066] Heating of the material to be evaporated
+[C30B 23/08] by condensing ionised vapours
+[C30B 25/00] Single-crystal growth by chemical reaction of reactive gases, e.g. chemical vapour-deposition growth -- **Definition:** This place covers:  The growth of bulk crystals by chemical vapour phase deposition (CVD, MOCVD etc) is classified here.
+[C30B 25/005] Growth of whiskers or needles
+[C30B 25/02] Epitaxial-layer growth -- **Definition:** This place covers:  Epitaxial layer growth by chemical vapour phase deposition (CVD,MOCVD,MOVPE, HVPE etc). Also classified here is gas source molecular beam epitaxy (GSMBE) wherein a hybrid process CVD-MBE is involved.  **Limiting references (this place does not cover):** - Production of polycrystalline products such as silicon and germanium by the so-called Siemen's process from the vapour phase -> C01B33/035 - Chemical vapour deposition wherein generally unstructured polycrystalline or amorphous coatings are produced -> C23C16/00 and sub-groups
+[C30B 25/025] Continuous growth
+[C30B 25/04] Pattern deposit, e.g. by using masks
+[C30B 25/06] by reactive sputtering
+[C30B 25/08] Reaction chambers
+[C30B 25/10] Heating of the reaction chamber or the substrate
+[C30B 25/105] by irradiation or electric discharge -- **Definition:** This place covers:  Heating by irradiation or electric discharge includes plasma assisted methods C30B28/00  classified here are documents in which there is a particular emphasis on a feature relating to the polycrystallinity of the product (grain size, orientation). Crystal growing methods and apparatus should receive the usual classifications irrespective of whether polycrystalline, multi-crystalline or monocrystalline products are formed.
+[C30B 25/12] Substrate holders or susceptors
+[C30B 25/14] Feed and outlet means for the gases
+[C30B 25/16] Controlling or regulating
+[C30B 25/165] the flow of the reactive gases
+[C30B 25/18] characterised by the substrate
+[C30B 25/183] being provided with a buffer layer, e.g. a lattice matching layer
+[C30B 25/186] being specially pre-treated by, e.g. chemical or physical means
+[C30B 25/20] the substrate being of the same materials as the epitaxial layer
+[C30B 25/205] the substrate being of insulating material
+[C30B 25/22] Sandwich processes
+[C30B 27/00] Single-crystal growth under a protective fluid
+[C30B 27/02] by pulling from a melt
+[C30B 28/00] Production of homogeneous polycrystalline material with defined structure
+[C30B 28/02] directly from the solid state
+[C30B 28/04] from liquids
+[C30B 28/06] by normal freezing or freezing under temperature gradient
+[C30B 28/08] by zone-melting
+[C30B 28/10] by pulling from a melt
+[C30B 28/12] directly from the gas state
+[C30B 28/14] by chemical reaction of reactive gases
+[C30B 29/00] Single crystals or homogeneous polycrystalline material with defined structure characterised by the material or by their shape -- **Definition:** This place covers:  Classified here are single crystals or homogenous polycrystalline material with defined structure according to their chemical composition or shape.
+[C30B 29/02] Elements -- **Definition:** This place covers:  In addition to other elements, non-diamond forms of carbon are classified here.  **Limiting references (this place does not cover):** - Fullerene -> C01B32/152 - Graphene -> C01B32/182
+[C30B 29/04] Diamond
+[C30B 29/06] Silicon
+[C30B 29/08] Germanium
+[C30B 29/10] Inorganic compounds or compositions
+[C30B 29/12] Halides
+[C30B 29/14] Phosphates
+[C30B 29/16] Oxides
+[C30B 29/18] Quartz
+[C30B 29/20] Aluminium oxides
+[C30B 29/22] Complex oxides
+[C30B 29/225] based on rare earth copper oxides, e.g. high T-superconductors
+[C30B 29/24] with formula AMeO
+[C30B 29/26] with formula BMe
+[C30B 29/28] with formula A
+[C30B 29/30] Niobates
+[C30B 29/32] Titanates
+[C30B 29/34] Silicates
+[C30B 29/36] Carbides
+[C30B 29/38] Nitrides -- **Limiting references (this place does not cover):** - AIII-nitrides (including born nitride) -> C30B29/403 , C30B29/406
+[C30B 29/40] A
+[C30B 29/403] A III -nitrides
+[C30B 29/406] Gallium nitride
+[C30B 29/42] Gallium arsenide
+[C30B 29/44] Gallium phosphide
+[C30B 29/46] Sulfur-, selenium- or tellurium-containing compounds
+[C30B 29/48] A
+[C30B 29/50] Cadmium sulfide
+[C30B 29/52] Alloys
+[C30B 29/54] Organic compounds
+[C30B 29/56] Tartrates
+[C30B 29/58] Macromolecular compounds -- **Definition:** This place covers:  Macromolecular compounds including biological compounds such as proteins and enzymes.
+[C30B 29/60] characterised by shape -- **Definition:** This place covers:  Classified here are discrete single crystals characterized by shape as opposed to products containing multiple oriented crystalline material ( C30B29/605 ).
+[C30B 29/602] Nanotubes -- **Limiting references (this place does not cover):** - CNT carbon nanotubes -> C01B32/158
+[C30B 29/605] Products containing multiple oriented crystallites, e.g. columnar crystallites -- **Definition:** This place covers:  Also nanomaterials, nanocrystalline materials which have a uniform i.e. homogeneous, oriented structure
+[C30B 29/62] Whiskers or needles
+[C30B 29/64] Flat crystals, e.g. plates, strips or discs
+[C30B 29/66] Crystals of complex geometrical shape, e.g. tubes, cylinders
+[C30B 29/68] Crystals with laminate structure, e.g. "superlattices"
+[C30B 3/00] Unidirectional demixing of eutectoid materials -- **Definition:** This place covers:  Method (and specific apparatus) for the growth of single crystals and homogenous polycrystalline materials from a eutectic mixture wherein on a unidrectional cooling a distinct composite structure forms. For example, aligned fibres of one phase form in a matrix of another phase when a eutectic mixture is directionally cooled. This transformation or demixing may occur when the material is cooled from the solid state. Most frequently this growth method concerns metallic eutectic alloys. This group has not been frequently used in recent years.
+[C30B 30/00] Production of single crystals or homogeneous polycrystalline material with defined structure characterised by the action of electric or magnetic fields, wave energy or other specific physical conditions
+[C30B 30/02] using electric fields, e.g. electrolysis
+[C30B 30/04] using magnetic fields
+[C30B 30/06] using mechanical vibrations
+[C30B 30/08] in conditions of zero-gravity or low gravity
+[C30B 31/00] After-treatment of single crystals or homogeneous polycrystalline material with defined structure
+[C30B 31/02] by contacting with diffusion materials in the solid state
+[C30B 31/04] by contacting with diffusion materials in the liquid state
+[C30B 31/045] by electrolysis
+[C30B 31/06] by contacting with diffusion material in the gaseous state
+[C30B 31/08] the diffusion materials being a compound of the elements to be diffused
+[C30B 31/10] Reaction chambers
+[C30B 31/103] Mechanisms for moving either the charge or heater
+[C30B 31/106] Continuous processes
+[C30B 31/12] Heating of the reaction chamber
+[C30B 31/14] Substrate holders or susceptors
+[C30B 31/16] Feed and outlet means for the gases
+[C30B 31/165] Diffusion sources
+[C30B 31/18] Controlling or regulating
+[C30B 31/185] Pattern diffusion, e.g. by using masks
+[C30B 31/20] Doping by irradiation with electromagnetic waves or by particle radiation
+[C30B 31/22] by ion-implantation
+[C30B 33/00] After-treatment of single crystals or homogeneous polycrystalline material with defined structure -- **Limiting references (this place does not cover):** - Diffusion or doping processes for single crystals or homogeneous polycrystalline material with defined structure; Apparatus therefor -> C30B31/00
+[C30B 33/005] Oxydation
+[C30B 33/02] Heat treatment
+[C30B 33/04] using electric or magnetic fields or particle radiation
+[C30B 33/06] Joining of crystals
+[C30B 33/08] Etching
+[C30B 33/10] in solutions or melts
+[C30B 33/12] in gas atmosphere or plasma
+[C30B 35/00] Apparatus not otherwise provided for, specially adapted for the growth, production or after-treatment of single crystals or of a homogeneous polycrystalline material with defined structure
+[C30B 35/002] Crucibles or containers
+[C30B 35/005] Transport systems
+[C30B 35/007] Apparatus for preparing, pre-treating the source material to be used for crystal growth -- **Definition:** This place covers:  This group also covers methods for preparing , pre-treating the source material to be used for crystal growth.
+[C30B 5/00] Single-crystal growth from gels -- **Definition:** This place covers:  Growth from colloidal systems is also classified here. Growth of larger crystals from ordering of macromolecules can be classified here. Periodic 2D and 3D structures formed by self assembly from colloidal systems of particles/nanospheres/microspheres to form photonic "crystals" have been classified here. This is subject to some discussion. In principle 2D or 3D structures called "photonic crystals" but made by the assembly of macroscale structures are not classified in C30B .  **Limiting references (this place does not cover):** - Macroscale photonic band gap crystals -> G02B6/1225
+[C30B 5/02] with addition of doping materials
+[C30B 7/00] Single-crystal growth from liquids
+[C30B 7/005] Epitaxial layer growth
+[C30B 7/02] by evaporation of the solvent
+[C30B 7/04] using aqueous solvents
+[C30B 7/06] using non-aqueous solvents
+[C30B 7/08] by cooling of the solution
+[C30B 7/10] by application of pressure, e.g. hydrothermal processes
+[C30B 7/105] using ammonia as solvent, i.e. ammonothermal processes
+[C30B 7/12] by electrolysis
+[C30B 7/14] the crystallising materials being formed by chemical reactions in the solution
+[C30B 9/00] Single-crystal growth from melt solutions using molten solvents -- **Definition:** This place covers:  The growth of bulk crystal are classified here whereas epitaxial layer growth from the melt (with and without solvents/flux) are classified in C30B19/00 . Some double classification is unavoidable.
+[C30B 9/02] by evaporation of the molten solvent
+[C30B 9/04] by cooling of the solution
+[C30B 9/06] using as solvent a component of the crystal composition
+[C30B 9/08] using other solvents
+[C30B 9/10] Metal solvents
+[C30B 9/12] Salt solvents, e.g. flux growth
+[C30B 9/14] by electrolysis

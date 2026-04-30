@@ -1,0 +1,14 @@
+[CL] Class Action Types :: naics_2022:5411
+[CL.01] Securities Class Action
+[CL.02] Antitrust Class Action
+[CL.03] Consumer Class Action
+[CL.04] Employment Class Action
+[CL.05] Product Liability Mass Tort
+[CL.06] Environmental Class Action
+[CL.07] Data Breach Class Action
+[CL.08] Civil Rights Class Action
+[CL.09] Class Certification (Rule 23)
+[CL.10] Opt-In vs Opt-Out
+[CL.11] Settlement Class
+[CL.12] MDL Consolidation
+[CL.13] Cy Pres Distribution

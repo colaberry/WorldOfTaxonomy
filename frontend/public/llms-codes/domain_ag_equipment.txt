@@ -1,0 +1,35 @@
+[dae_harvest] Harvest Equipment :: naics_2022:3331
+[dae_harvest_baler] Hay Baler (round and square bale)
+[dae_harvest_combine] Combine Harvester (grain, corn, soybean)
+[dae_harvest_cotton] Cotton Picker or Stripper
+[dae_harvest_forage] Forage Harvester and Chopper (silage, hay chop)
+[dae_harvest_grape] Grape Harvester and Orchard Platform
+[dae_harvest_veg] Vegetable and Specialty Crop Harvester
+[dae_irrig] Irrigation and Water Management Equipment :: naics_2022:3331
+[dae_irrig_drip] Drip and Micro-Irrigation (high-value crops)
+[dae_irrig_flood] Flood and Furrow Irrigation (surface water)
+[dae_irrig_pivot] Center Pivot Irrigation System
+[dae_irrig_pump] Irrigation Pump and Wellhead Equipment
+[dae_livestock] Livestock Equipment :: naics_2022:3331
+[dae_livestock_feed] Feed Mixer and Delivery Equipment (TMR wagon)
+[dae_livestock_fence] Fencing Systems (electric, high-tensile, corral)
+[dae_livestock_handle] Animal Handling and Restraint Equipment
+[dae_livestock_milk] Milking Equipment (parlor, robotic milking system)
+[dae_livestock_waste] Manure Management Equipment (spreader, lagoon pump)
+[dae_plant] Planting and Seeding Equipment :: naics_2022:3331
+[dae_plant_airseeder] Air Seeder (canola, cover crops, large-scale)
+[dae_plant_drill] Grain Drill (wheat, sorghum, small grains)
+[dae_plant_planter] Row-Crop Planter (corn, soybean, cotton, peanut)
+[dae_plant_transplant] Transplanter (tobacco, vegetable, berry)
+[dae_precision] Precision Agriculture Technology :: naics_2022:3331
+[dae_precision_drone] Agricultural Drone (scouting, spray, mapping)
+[dae_precision_gps] GPS Guidance and Auto-Steer Systems
+[dae_precision_sensor] In-Field Sensor Networks (soil moisture, weather)
+[dae_precision_telem] Machine Telematics and Fleet Management
+[dae_precision_vra] Variable Rate Application Controllers (VRA)
+[dae_tractor] Tractor and Power Units :: naics_2022:3331
+[dae_tractor_2wd] 2WD Row-Crop Tractor (under 100 hp)
+[dae_tractor_4wd] Articulated 4WD Tractor (over 300 hp, large farms)
+[dae_tractor_compact] Compact Utility Tractor (under 40 hp)
+[dae_tractor_mfwd] MFWD / 4WD Tractor (100-300 hp, standard row-crop)
+[dae_tractor_track] Track or Crawler Tractor (paddy, soft-ground ops)

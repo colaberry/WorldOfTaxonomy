@@ -1,0 +1,22 @@
+[der_exot] Exotic and Structured :: naics_2022:523
+[der_exot_bar] Barrier options
+[der_exot_bin] Binary/digital options
+[der_exot_cdo] CDOs and CLOs
+[der_exot_var] Variance and volatility swaps
+[der_fut] Futures and Forwards :: naics_2022:523
+[der_fut_comm] Commodity futures
+[der_fut_fx] Currency forwards and futures
+[der_fut_idx] Equity index futures
+[der_fut_ir] Interest rate futures
+[der_opt] Options :: naics_2022:523
+[der_opt_amer] American-style (early exercise)
+[der_opt_call] Call options
+[der_opt_euro] European-style (expiry only)
+[der_opt_fx] FX options (vanilla, barrier)
+[der_opt_put] Put options
+[der_swap] Swaps :: naics_2022:523
+[der_swap_cds] Credit default swaps
+[der_swap_cur] Currency swaps
+[der_swap_eq] Equity swaps
+[der_swap_irs] Interest rate swaps
+[der_swap_trs] Total return swaps

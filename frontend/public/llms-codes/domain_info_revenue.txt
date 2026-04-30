@@ -1,0 +1,18 @@
+[dimrev_advertising] Advertising and Sponsored Content Revenue Models :: naics_2022:51
+[dimrev_advertising_brand] Brand / Direct Advertising (sponsorships, upfront buys)
+[dimrev_advertising_programmatic] Programmatic Advertising (DSP/SSP, RTB, audience targeting)
+[dimrev_advertising_search] Search and Performance Advertising (CPC, CPA)
+[dimrev_licensing] Licensing and Syndication Revenue Models :: naics_2022:51
+[dimrev_licensing_api] API and Data Licensing (Bloomberg, Refinitiv tiers)
+[dimrev_licensing_ip] IP and Content Licensing (royalties, sync fees)
+[dimrev_patronage] Patronage, Grants, and Hybrid Models :: naics_2022:51
+[dimrev_patronage_creator] Creator Economy (Patreon, Substack, crowdfunding)
+[dimrev_patronage_npo] Non-Profit Media and Grant-Funded (PBS, NPR, local news)
+[dimrev_patronage_philanthropy] Philanthropic and Foundation-Funded Media
+[dimrev_subscription] Subscription and Membership Revenue Models :: naics_2022:51
+[dimrev_subscription_news] Digital News and Content Subscription (paywall)
+[dimrev_subscription_saas] SaaS Subscription (cloud software, monthly/annual)
+[dimrev_subscription_svod] SVOD (Subscription Video On Demand - Netflix, Disney+)
+[dimrev_transactional] Transactional and Pay-Per-Use Revenue Models :: naics_2022:51
+[dimrev_transactional_marketplace] Marketplace Commission and Take Rate
+[dimrev_transactional_pvod] PVOD / TVOD (Transactional Video - digital rental/purchase)

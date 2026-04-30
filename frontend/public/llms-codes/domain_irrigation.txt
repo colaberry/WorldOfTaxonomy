@@ -1,0 +1,14 @@
+[IG] Irrigation Method Types :: naics_2022:111
+[IG.01] Surface Irrigation (Flood)
+[IG.02] Furrow Irrigation
+[IG.03] Drip Irrigation
+[IG.04] Sprinkler Irrigation
+[IG.05] Center Pivot Irrigation
+[IG.06] Subsurface Drip
+[IG.07] Micro-Sprinkler
+[IG.08] Deficit Irrigation
+[IG.09] Supplemental Irrigation
+[IG.10] Precision Irrigation (Sensor)
+[IG.11] Rainwater Harvesting
+[IG.12] Recycled Water Irrigation
+[IG.13] Aquifer Recharge

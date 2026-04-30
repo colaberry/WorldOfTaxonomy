@@ -1,0 +1,14 @@
+[RF] Refinery Process Types :: naics_2022:211, naics_2022:2212, naics_2022:4861
+[RF.01] Atmospheric Distillation
+[RF.02] Vacuum Distillation
+[RF.03] Fluid Catalytic Cracking (FCC)
+[RF.04] Hydrocracking
+[RF.05] Catalytic Reforming
+[RF.06] Alkylation
+[RF.07] Isomerization
+[RF.08] Coking (Delayed)
+[RF.09] Hydrotreating
+[RF.10] Desulfurization
+[RF.11] Blending and Finishing
+[RF.12] Gas Processing
+[RF.13] Visbreaking

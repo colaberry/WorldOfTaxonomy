@@ -1,0 +1,27 @@
+[dlp_corp] Corporate Law :: naics_2022:5411
+[dlp_corp_banking] Banking and Finance Law (loan agreements, syndication)
+[dlp_corp_govern] Corporate Governance (board advisory, proxy fights)
+[dlp_corp_manda] Mergers and Acquisitions (buy-side, sell-side, SPAC)
+[dlp_corp_securities] Securities Law (IPO, SEC compliance, private placement)
+[dlp_corp_venture] Venture Capital and Startup Law (term sheets, SAFE)
+[dlp_family] Family Law :: naics_2022:5411
+[dlp_family_adoption] Adoption Law (domestic, international, stepparent)
+[dlp_family_custody] Child Custody and Support (modification, enforcement)
+[dlp_family_divorce] Divorce and Separation (contested, collaborative)
+[dlp_family_estate] Estate Planning and Probate (trusts, wills, guardianship)
+[dlp_ip] Intellectual Property Law :: naics_2022:5411
+[dlp_ip_copyright] Copyright Law (registration, fair use, DMCA)
+[dlp_ip_patent] Patent Law (prosecution, litigation, licensing)
+[dlp_ip_trade] Trade Secret Law (NDA, misappropriation, DTSA)
+[dlp_ip_trademark] Trademark Law (registration, enforcement, dilution)
+[dlp_lit] Litigation :: naics_2022:5411
+[dlp_lit_appellate] Appellate Litigation (federal, state appeals courts)
+[dlp_lit_arbitration] Arbitration and Alternative Dispute Resolution
+[dlp_lit_civil] Civil Litigation (breach of contract, tort claims)
+[dlp_lit_class] Class Action and Mass Tort Litigation
+[dlp_reg] Regulatory and Compliance Law :: naics_2022:5411
+[dlp_reg_antitrust] Antitrust and Competition Law (FTC, DOJ, merger review)
+[dlp_reg_environ] Environmental Law (EPA compliance, CERCLA, permitting)
+[dlp_reg_health] Healthcare Regulatory Law (HIPAA, Stark, Anti-Kickback)
+[dlp_reg_privacy] Privacy and Data Protection Law (CCPA, GDPR, COPPA)
+[dlp_reg_tax] Tax Law (federal, state, international tax planning)

@@ -1,0 +1,15 @@
+[SO] SOAR Platform Types :: naics_2022:5415, naics_2022:5417
+[SO.01] Security Orchestration
+[SO.02] Security Automation
+[SO.03] Incident Response Playbook
+[SO.04] Threat Intelligence Integration
+[SO.05] Case Management
+[SO.06] Alert Enrichment
+[SO.07] Automated Remediation
+[SO.08] Workflow Builder
+[SO.09] Collaboration and War Room
+[SO.10] SLA Tracking
+[SO.11] Metrics and KPI Dashboard
+[SO.12] Playbook Library
+[SO.13] API Integration Hub
+[SO.14] SOAR Analytics

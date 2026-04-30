@@ -1,0 +1,17 @@
+[ddainf_custody] Custody and Key Management Infrastructure :: naics_2022:518, naics_2022:5415
+[ddainf_custody_inst] Institutional custody (Coinbase Custody, BitGo, Anchorage, Fireblocks)
+[ddainf_custody_mpc] MPC-based custody (multi-party computation key sharding)
+[ddainf_custody_selfcust] Self-custody wallets (hardware wallets - Ledger, Trezor; smart contract wallets)
+[ddainf_data] On-Chain Data and Analytics Infrastructure :: naics_2022:518, naics_2022:5415
+[ddainf_data_compliance] Blockchain analytics and compliance (Chainalysis, TRM, Elliptic)
+[ddainf_data_index] Blockchain indexing and query (The Graph, Dune, Goldsky)
+[ddainf_data_oracle] Oracle networks (Chainlink, Pyth, API3 price feeds)
+[ddainf_exchange] Exchange and Liquidity Infrastructure :: naics_2022:518, naics_2022:5415
+[ddainf_exchange_cex] Centralized exchanges (CEX: Coinbase, Binance, Kraken order books)
+[ddainf_exchange_dex] Decentralized exchanges (DEX: Uniswap, Curve, dYdX AMM/CLOB)
+[ddainf_exchange_otc] OTC desks and RFQ protocols (institutional block trading)
+[ddainf_exchange_prime] Prime brokerage (lending, financing, clearing for institutions)
+[ddainf_settlement] Settlement and Clearing Infrastructure :: naics_2022:518, naics_2022:5415
+[ddainf_settlement_bridge] Cross-chain bridges and messaging protocols
+[ddainf_settlement_l1] Layer-1 blockchain settlement (Bitcoin, Ethereum, Solana finality)
+[ddainf_settlement_l2] Layer-2 scaling solutions (rollups, state channels, sidechains)

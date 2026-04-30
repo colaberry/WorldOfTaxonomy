@@ -1,0 +1,19 @@
+[dwreg_eu] European Union Water Regulations :: naics_2022:2213, naics_2022:5629
+[dwreg_eu_drinkingwater] EU Drinking Water Directive (2020/2184/EU)
+[dwreg_eu_floods] EU Floods Directive (2007/60/EC)
+[dwreg_eu_marine] EU Marine Strategy Framework Directive (2008/56/EC)
+[dwreg_eu_wfd] EU Water Framework Directive (2000/60/EC) - river basin mgmt
+[dwreg_intl] International Water and Environmental Frameworks :: naics_2022:2213, naics_2022:5629
+[dwreg_intl_marpol] MARPOL Convention (marine pollution from ships)
+[dwreg_intl_ramsar] Ramsar Convention on Wetlands of International Importance
+[dwreg_intl_un2030] UN SDG 6 (Clean Water and Sanitation) country commitments
+[dwreg_sector] Sector-Specific Environmental Permits :: naics_2022:2213, naics_2022:5629
+[dwreg_sector_agri] Agricultural runoff, nutrient management plans
+[dwreg_sector_mining] Mining wastewater and tailings discharge permits
+[dwreg_sector_munic] Municipal combined/separate stormwater permits
+[dwreg_sector_oil] Oil and gas produced water disposal and reuse permits
+[dwreg_us] United States Water Regulations :: naics_2022:2213, naics_2022:5629
+[dwreg_us_cercla] CERCLA/Superfund - hazardous substance cleanup
+[dwreg_us_cwa] Clean Water Act (CWA) - NPDES permits, Section 404
+[dwreg_us_czma] Coastal Zone Management Act (CZMA) federal-state
+[dwreg_us_sdwa] Safe Drinking Water Act (SDWA) - MCL standards

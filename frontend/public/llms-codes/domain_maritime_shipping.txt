@@ -1,0 +1,25 @@
+[dms_bulk] Bulk Cargo :: naics_2022:483
+[dms_bulk_break] Breakbulk and Project Cargo Shipping
+[dms_bulk_dry] Dry Bulk Shipping (grain, ore, coal)
+[dms_bulk_heavy] Heavy-Lift and Oversize Cargo Shipping
+[dms_bulk_roro] Roll-On/Roll-Off (RoRo) Vehicle Shipping
+[dms_container] Container Shipping :: naics_2022:483
+[dms_container_feeder] Feeder and Short-Sea Container Services
+[dms_container_intermod] Intermodal Container Logistics
+[dms_container_liner] Liner Shipping and Scheduled Container Services
+[dms_container_reefer] Refrigerated Container (Reefer) Shipping
+[dms_port] Port Services :: naics_2022:483
+[dms_port_freight] Port Freight Forwarding and Customs Brokerage
+[dms_port_pilot] Pilotage, Towing, and Harbor Services
+[dms_port_stevedore] Stevedoring and Cargo Handling
+[dms_port_terminal] Container Terminal Operations
+[dms_shipbuild] Shipbuilding :: naics_2022:483
+[dms_shipbuild_comm] Commercial Vessel Construction
+[dms_shipbuild_naval] Naval and Defense Shipbuilding
+[dms_shipbuild_offshore] Offshore Platform and Marine Structure Fabrication
+[dms_shipbuild_repair] Ship Repair and Dry Dock Services
+[dms_tanker] Tanker Operations :: naics_2022:483
+[dms_tanker_bunker] Bunkering and Marine Fuel Supply
+[dms_tanker_crude] Crude Oil Tanker Operations (VLCC, Suezmax)
+[dms_tanker_lng] LNG and LPG Carrier Operations
+[dms_tanker_product] Product and Chemical Tanker Operations

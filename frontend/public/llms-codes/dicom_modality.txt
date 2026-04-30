@@ -1,0 +1,16 @@
+[DM] DICOM Modalities
+[DM.01] CR - Computed Radiography
+[DM.02] CT - Computed Tomography
+[DM.03] MR - Magnetic Resonance
+[DM.04] US - Ultrasound
+[DM.05] NM - Nuclear Medicine
+[DM.06] PT - PET
+[DM.07] XA - X-Ray Angiography
+[DM.08] MG - Mammography
+[DM.09] DX - Digital Radiography
+[DM.10] RF - Fluoroscopy
+[DM.11] OT - Other
+[DM.12] SC - Secondary Capture
+[DM.13] SR - Structured Reporting
+[DM.14] SEG - Segmentation
+[DM.15] DOC - Document

@@ -1,0 +1,16 @@
+[am_price] Pricing Methods :: naics_2022:524
+[am_price_burn] Burning cost method
+[am_price_exp] Experience rating
+[am_price_glm] Generalized linear models (GLM)
+[am_price_ml] Machine learning pricing models
+[am_reserve] Reserving Methods :: naics_2022:524
+[am_reserve_bf] Bornhuetter-Ferguson method
+[am_reserve_cc] Cape Cod method
+[am_reserve_cl] Chain ladder (development triangle)
+[am_reserve_freq] Frequency-severity method
+[am_reserve_mcmc] Bayesian / MCMC reserving
+[am_risk] Risk Models :: naics_2022:524
+[am_risk_cat] Catastrophe models (RMS, AIR, CoreLogic)
+[am_risk_dfa] Dynamic financial analysis (DFA)
+[am_risk_erm] Enterprise risk management models
+[am_risk_solvency] Solvency capital models (SCR)

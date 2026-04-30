@@ -1,0 +1,16 @@
+[IG] Identity Governance Types :: naics_2022:5415, naics_2022:5417
+[IG.01] Identity Lifecycle Management
+[IG.02] Access Certification
+[IG.03] Role-Based Access Control (RBAC)
+[IG.04] Attribute-Based Access (ABAC)
+[IG.05] Privileged Access Management
+[IG.06] Single Sign-On (SSO)
+[IG.07] Multi-Factor Authentication
+[IG.08] Passwordless Authentication
+[IG.09] Identity Federation
+[IG.10] Directory Services
+[IG.11] Decentralized Identity
+[IG.12] Machine Identity Management
+[IG.13] API Identity and Access
+[IG.14] Identity Analytics
+[IG.15] Entitlement Management

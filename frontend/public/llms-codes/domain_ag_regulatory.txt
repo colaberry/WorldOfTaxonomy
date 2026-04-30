@@ -1,0 +1,30 @@
+[dagr_env] Environmental Compliance :: naics_2022:111, naics_2022:112
+[dagr_env_cafo] CAFO NPDES Permit (concentrated animal feeding ops)
+[dagr_env_carbon] Carbon Credit Program Registration (VCS, ACR, Gold)
+[dagr_env_pest] EPA FIFRA Pesticide Applicator License
+[dagr_env_wetland] Wetland Conservation and Swampbuster Compliance
+[dagr_export] Export and Phytosanitary Compliance :: naics_2022:111, naics_2022:112
+[dagr_export_china] China GACC (General Administration of Customs) Reg
+[dagr_export_eu] EU Third-Country Establishment Listing
+[dagr_export_fsis] USDA FSIS Export Meat and Poultry Certificate
+[dagr_export_pq] USDA APHIS PPQ Phytosanitary Certificate
+[dagr_fsma] FDA Food Safety (FSMA) Compliance :: naics_2022:111, naics_2022:112
+[dagr_fsma_204] FSMA Section 204 Traceability Rule (HFT foods)
+[dagr_fsma_fsvp] FSMA Foreign Supplier Verification Program (FSVP)
+[dagr_fsma_pchf] FSMA PCHF Rule (human food preventive controls)
+[dagr_fsma_produce] FSMA Produce Safety Rule (PSR) - 21 CFR Part 112
+[dagr_labor] Labor and Worker Protection Standards :: naics_2022:111, naics_2022:112
+[dagr_labor_h2a] H-2A Agricultural Worker Visa Program Compliance
+[dagr_labor_osha] OSHA Agricultural Safety Standards
+[dagr_labor_wps] EPA Worker Protection Standard (WPS) for Pesticides
+[dagr_organic] Organic and Sustainability Certification :: naics_2022:111, naics_2022:112
+[dagr_organic_gap] GlobalGAP and Good Agricultural Practices (GAP)
+[dagr_organic_global] International Organic Equivalency (EU, JAS, CAAQ)
+[dagr_organic_nop] USDA National Organic Program (NOP) Certification
+[dagr_organic_regener] Regenerative Agriculture Certification (ROC, REOC)
+[dagr_organic_trans] Transitional Organic (3-year NOP transition period)
+[dagr_usda] USDA Commodity Program Compliance :: naics_2022:111, naics_2022:112
+[dagr_usda_crop_ins] USDA Crop Insurance (FCIC/RMA policy requirements)
+[dagr_usda_fsa] FSA Farm Program (ARC, PLC, CRP enrollment)
+[dagr_usda_grade] USDA Agricultural Marketing and Grading Standards
+[dagr_usda_nrcs] NRCS Conservation Program (EQIP, CSP compliance)

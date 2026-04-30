@@ -1,0 +1,21 @@
+[cr_lt] Long-Term Ratings :: naics_2022:523
+[cr_lt_a] A (upper medium grade)
+[cr_lt_aa] AA/Aa (high quality)
+[cr_lt_aaa] AAA/Aaa (highest quality)
+[cr_lt_b] B (highly speculative)
+[cr_lt_bb] BB/Ba (speculative, non-investment)
+[cr_lt_bbb] BBB/Baa (medium grade, investment)
+[cr_lt_ccc] CCC/Caa (substantial risk)
+[cr_lt_d] D/C (default)
+[cr_st] Short-Term Ratings :: naics_2022:523
+[cr_st_a1] A-1/P-1 (superior short-term)
+[cr_st_a2] A-2/P-2 (satisfactory short-term)
+[cr_st_a3] A-3/P-3 (adequate short-term)
+[cr_st_np] NP/B or below (non-prime short-term)
+[cr_type] Rating Categories :: naics_2022:523
+[cr_type_bank] Bank financial strength ratings
+[cr_type_corp] Corporate credit ratings
+[cr_type_insur] Insurance financial strength ratings
+[cr_type_muni] Municipal bond ratings
+[cr_type_sov] Sovereign credit ratings
+[cr_type_struct] Structured finance ratings

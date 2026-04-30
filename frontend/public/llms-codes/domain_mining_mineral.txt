@@ -1,0 +1,25 @@
+[dmm_constr] Construction Minerals :: naics_2022:212, naics_2022:213
+[dmm_constr_agg] Aggregates (crushed stone, sand, gravel)
+[dmm_constr_clay] Clay and Shale
+[dmm_constr_gypsum] Gypsum and Plaster Minerals
+[dmm_energy] Energy Minerals :: naics_2022:212, naics_2022:213
+[dmm_energy_coal] Coal (thermal, metallurgical, lignite)
+[dmm_energy_gas] Natural Gas (conventional and unconventional)
+[dmm_energy_oil] Crude Oil and Condensate
+[dmm_energy_uranium] Uranium and Nuclear Fuels
+[dmm_gem] Gemstones :: naics_2022:212, naics_2022:213
+[dmm_gem_color] Colored Gemstones (ruby, emerald, sapphire, opal)
+[dmm_gem_diamond] Diamonds
+[dmm_indmin] Industrial Minerals :: naics_2022:212, naics_2022:213
+[dmm_indmin_lime] Limestone and Industrial Carbonates
+[dmm_indmin_potash] Potash and Fertilizer Minerals
+[dmm_indmin_salt] Salt and Evaporites
+[dmm_indmin_silica] Silica and Industrial Sands
+[dmm_indmin_talc] Talc, Asbestos Alternatives, and Specialty Clay
+[dmm_metal] Metal Minerals :: naics_2022:212, naics_2022:213
+[dmm_metal_ag] Silver
+[dmm_metal_al] Aluminum (Bauxite)
+[dmm_metal_au] Gold
+[dmm_metal_cu] Copper
+[dmm_metal_fe] Iron Ore and Steel Minerals
+[dmm_metal_other] Other Metals (zinc, lead, nickel, tin, manganese)

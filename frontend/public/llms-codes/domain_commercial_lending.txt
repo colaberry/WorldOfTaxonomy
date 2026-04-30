@@ -1,0 +1,16 @@
+[cl_revolve] Revolving Facilities :: naics_2022:531
+[cl_revolve_abl] Asset-based lending (ABL) revolver
+[cl_revolve_cf] Cash flow revolver
+[cl_revolve_swingline] Swingline facility
+[cl_spec] Specialized Lending :: naics_2022:531
+[cl_spec_club] Club deal
+[cl_spec_constr] Construction lending
+[cl_spec_cre] Commercial real estate (CRE) lending
+[cl_spec_direct] Direct lending (private credit)
+[cl_spec_lever] Leveraged lending
+[cl_spec_syndic] Syndicated loan
+[cl_term] Term Loans :: naics_2022:531
+[cl_term_delay] Delayed draw term loan
+[cl_term_senior] Senior secured term loan
+[cl_term_sub] Subordinated / mezzanine debt
+[cl_term_uni] Unitranche facility

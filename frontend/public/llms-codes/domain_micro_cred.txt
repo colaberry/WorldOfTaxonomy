@@ -1,0 +1,14 @@
+[MC] Micro-Credential Types :: naics_2022:611
+[MC.01] Digital Badge
+[MC.02] Nano-Degree
+[MC.03] Professional Certificate
+[MC.04] Industry Certification
+[MC.05] Stackable Credential
+[MC.06] MOOC Certificate
+[MC.07] Bootcamp Certificate
+[MC.08] Skills-Based Certificate
+[MC.09] Verified Certificate
+[MC.10] Continuing Education Unit (CEU)
+[MC.11] Prior Learning Assessment
+[MC.12] Credential Transparency
+[MC.13] Credential Registry (CTDL)

@@ -1,0 +1,14 @@
+[LI] Data Lineage Types :: naics_2022:518, naics_2022:5415
+[LI.01] Column-Level Lineage
+[LI.02] Table-Level Lineage
+[LI.03] Pipeline-Level Lineage
+[LI.04] Business Lineage
+[LI.05] Technical Lineage
+[LI.06] Operational Lineage
+[LI.07] Impact Analysis
+[LI.08] Root Cause Tracing
+[LI.09] Automated Lineage Capture
+[LI.10] OpenLineage Standard
+[LI.11] Lineage Visualization
+[LI.12] Cross-Platform Lineage
+[LI.13] Lineage for Compliance

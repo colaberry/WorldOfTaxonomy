@@ -1,0 +1,25 @@
+[dureg_env] Environmental Regulatory Framework :: naics_2022:2211, naics_2022:2213
+[dureg_env_caa] Clean Air Act Permitting (Title IV, Title V)
+[dureg_env_ccr] Coal Combustion Residuals (CCR) Rule Compliance
+[dureg_env_effluent] Clean Water Act Effluent Limitations (316(b))
+[dureg_env_ghg] GHG Reporting and Carbon Market Compliance
+[dureg_federal] Federal Regulatory Jurisdiction :: naics_2022:2211, naics_2022:2213
+[dureg_federal_ferc] FERC Electric (FPA Section 205/206 tariff review)
+[dureg_federal_ferc_gas] FERC Natural Gas (NGA Section 4/5 rate regulation)
+[dureg_federal_nerc] NERC Reliability Standards (CIP, FAC, PRC, TPL)
+[dureg_federal_rto] ISO/RTO Market Rules (PJM, MISO, CAISO, ISO-NE)
+[dureg_market] Market Structure and Competition Framework :: naics_2022:2211, naics_2022:2213
+[dureg_market_deregulated] Deregulated / Restructured Market (retail choice)
+[dureg_market_hybrid] Hybrid Market (regulated wires, competitive supply)
+[dureg_market_vertint] Vertically Integrated Utility (regulated monopoly)
+[dureg_own] Ownership and Utility Type :: naics_2022:2211, naics_2022:2213
+[dureg_own_coop] Rural Electric Cooperative (REC - member-owned)
+[dureg_own_fed] Federal Power Marketing Administration (Bonneville, TVA)
+[dureg_own_iou] Investor-Owned Utility (IOU) - state-regulated
+[dureg_own_muni] Municipal Utility (publicly owned, home rule)
+[dureg_own_nonutility] Non-Utility Generator / Independent Power Producer
+[dureg_state] State and Provincial Regulation :: naics_2022:2211, naics_2022:2213
+[dureg_state_exempt] Exempt Wholesale Generator (EWG) Status
+[dureg_state_iou_gas] State Gas Distribution Regulation
+[dureg_state_puc] State Public Utility Commission (PUC/PSC) Rate Case
+[dureg_state_rps] Renewable Portfolio Standard (RPS) Compliance

@@ -1,0 +1,17 @@
+[er_phase] Project Phases :: naics_2022:5629
+[er_phase_1] Phase I Environmental Site Assessment (ESA)
+[er_phase_2] Phase II ESA (sampling and analysis)
+[er_phase_3] Phase III remedial action
+[er_site] Site Types :: naics_2022:5629
+[er_site_brown] Brownfield sites
+[er_site_mine] Mine site remediation
+[er_site_super] Superfund / CERCLA sites
+[er_site_ust] Underground storage tank (UST) sites
+[er_tech] Remediation Technologies :: naics_2022:5629
+[er_tech_bio] Bioremediation (in situ, ex situ)
+[er_tech_chem] Chemical oxidation / reduction
+[er_tech_excav] Excavation and disposal
+[er_tech_phyto] Phytoremediation
+[er_tech_pump] Pump and treat (groundwater)
+[er_tech_svs] Soil vapor extraction (SVE)
+[er_tech_thermal] Thermal treatment (desorption, incineration)

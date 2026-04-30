@@ -1,0 +1,18 @@
+[dnt_prev] Preventive Dentistry :: naics_2022:6212
+[dnt_prev_clean] Prophylaxis and cleaning
+[dnt_prev_screen] Oral cancer screening
+[dnt_prev_seal] Sealants and fluoride treatment
+[dnt_prev_xray] Diagnostic imaging (X-ray, CBCT)
+[dnt_rest] Restorative Dentistry :: naics_2022:6212
+[dnt_rest_crown] Crowns and bridges
+[dnt_rest_denture] Dentures and partials
+[dnt_rest_fill] Fillings (amalgam, composite, ceramic)
+[dnt_rest_impl] Dental implants
+[dnt_rest_root] Root canal therapy (endodontics)
+[dnt_rest_veneer] Veneers and cosmetic bonding
+[dnt_spec] Dental Specialties :: naics_2022:6212
+[dnt_spec_oral] Oral and maxillofacial surgery
+[dnt_spec_ortho] Orthodontics (braces, aligners)
+[dnt_spec_pedo] Pediatric dentistry
+[dnt_spec_perio] Periodontics (gum disease treatment)
+[dnt_spec_prosth] Prosthodontics

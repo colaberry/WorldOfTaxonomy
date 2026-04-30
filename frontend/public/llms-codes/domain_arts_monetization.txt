@@ -1,0 +1,18 @@
+[dacmon_advertising] Advertising and Sponsored Content :: naics_2022:711, naics_2022:713
+[dacmon_advertising_avod] AVOD and FAST Channels (Tubi, Pluto TV, Peacock Free)
+[dacmon_advertising_brand] Brand Sponsorship and Naming Rights
+[dacmon_licensing] IP Licensing and Sync Revenue :: naics_2022:711, naics_2022:713
+[dacmon_licensing_merch] Merchandise and Branded Product Licensing
+[dacmon_licensing_sync] Sync Licensing (music in film, TV, advertising)
+[dacmon_licensing_theme] Theme Park and Character Licensing
+[dacmon_patronage] Patronage, Grants, and Public Funding :: naics_2022:711, naics_2022:713
+[dacmon_patronage_foundation] Private Foundation and Endowment Support
+[dacmon_patronage_nea] NEA and State Arts Council Grants
+[dacmon_subscription] Subscription and Membership Revenue :: naics_2022:711, naics_2022:713
+[dacmon_subscription_fan] Fan Club and Creator Subscription (Patreon, Substack)
+[dacmon_subscription_music] Music Streaming Subscription (Spotify, Apple Music)
+[dacmon_subscription_svod] SVOD Subscription (Netflix, HBO Max, Disney+)
+[dacmon_ticket] Ticket and Admission-Based Revenue :: naics_2022:711, naics_2022:713
+[dacmon_ticket_dynamic] Dynamic and Secondary Market Ticketing (StubHub, Tixr)
+[dacmon_ticket_live] Live Event Ticketing (concert, theater, sports)
+[dacmon_ticket_vip] VIP and Premium Experience Packages

@@ -1,0 +1,16 @@
+[bf_contam] Contamination Types :: naics_2022:5629
+[bf_contam_chlor] Chlorinated solvents (TCE, PCE)
+[bf_contam_metal] Heavy metals (lead, arsenic, chromium)
+[bf_contam_petro] Petroleum hydrocarbons (BTEX, TPH)
+[bf_contam_pfas] PFAS (per- and polyfluoroalkyl)
+[bf_redev] Redevelopment Approaches :: naics_2022:5629
+[bf_redev_cap] Engineered cap and barrier
+[bf_redev_inst] Institutional controls (deed restrictions)
+[bf_redev_mna] Monitored natural attenuation
+[bf_redev_risk] Risk-based corrective action (RBCA)
+[bf_type] Site Types :: naics_2022:5629
+[bf_type_dry] Former dry cleaners (solvents)
+[bf_type_gas] Former gas stations (petroleum)
+[bf_type_ind] Former industrial sites
+[bf_type_military] Former military installations
+[bf_type_rail] Rail yard and rail siding sites

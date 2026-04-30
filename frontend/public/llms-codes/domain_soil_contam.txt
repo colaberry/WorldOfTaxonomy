@@ -1,0 +1,14 @@
+[SC] Soil Contamination Types :: naics_2022:211, naics_2022:2212, naics_2022:4861
+[SC.01] Heavy Metal Contamination
+[SC.02] Petroleum Hydrocarbon
+[SC.03] Pesticide Residue
+[SC.04] PCB Contamination
+[SC.05] Asbestos Contamination
+[SC.06] PFAS Contamination
+[SC.07] Radioactive Contamination
+[SC.08] Acid Mine Drainage
+[SC.09] Salinity and Sodicity
+[SC.10] Nitrate Leaching
+[SC.11] Microplastic in Soil
+[SC.12] Brownfield Classification
+[SC.13] Remediation Technology

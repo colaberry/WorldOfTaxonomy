@@ -1,0 +1,34 @@
+[dtp_acc] Accessorial Charges :: naics_2022:484
+[dtp_acc_appt] Appointment Scheduling Fee
+[dtp_acc_det] Detention / Driver Wait Time (beyond free time)
+[dtp_acc_hazmat] Hazmat Handling Fee (DOT regulated)
+[dtp_acc_inside] Inside Delivery (beyond threshold)
+[dtp_acc_lift] Liftgate Pickup or Delivery
+[dtp_acc_overlength] Overlength / Oversize Surcharge
+[dtp_acc_overweight] Overweight Permit / Superload Fee
+[dtp_acc_redeliver] Redelivery Fee (first attempt failed)
+[dtp_acc_res] Residential Delivery Surcharge
+[dtp_acc_sort] Sort and Segregate / Piece-Count Service
+[dtp_acc_storage] Storage / Demurrage (facility hold charge)
+[dtp_acc_temp] Temperature Protection / Freeze Protection Fee
+[dtp_fsc] Fuel Surcharge Type :: naics_2022:484
+[dtp_fsc_allin] All-In Rate (fuel included, no separate FSC)
+[dtp_fsc_doe] DOE Index-Based Fuel Surcharge (weekly DOE table)
+[dtp_fsc_dynamic] Dynamic / Real-Time Fuel Pricing
+[dtp_fsc_flat] Flat Per-Mile Fuel Surcharge
+[dtp_fsc_pct] Percentage Fuel Surcharge (% of base line-haul)
+[dtp_rate] Rate Structure Type :: naics_2022:484
+[dtp_rate_bid] Bid / RFP Rate (procurement tender award)
+[dtp_rate_contract] Contract Rate (annual / multi-year negotiated)
+[dtp_rate_index] Index-Linked Rate (DAT / Truckstop spot index)
+[dtp_rate_quote] Quoted Rate (shipper-requested price quote)
+[dtp_rate_spot] Spot Rate (market rate, single load)
+[dtp_rate_tariff] Published Tariff Rate (NMFC / carrier tariff)
+[dtp_unit] Rating Basis / Unit of Measure :: naics_2022:484
+[dtp_unit_cube] Per-Cubic-Foot / Density-Based Pricing
+[dtp_unit_cwt] Per-Hundredweight / CWT (LTL standard)
+[dtp_unit_lane] Lane-Based All-In Rate (origin-destination pair)
+[dtp_unit_load] Per-Load (FTL flat load rate)
+[dtp_unit_mile] Per-Mile (line-haul rate per loaded mile)
+[dtp_unit_pallet] Per-Pallet Pricing
+[dtp_unit_ship] Per-Shipment Flat Rate

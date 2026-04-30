@@ -1,0 +1,18 @@
+[HD] Hospital Department Types :: naics_2022:6221, naics_2022:6222
+[HD.01] Emergency Department
+[HD.02] Intensive Care Unit (ICU)
+[HD.03] Surgery Department
+[HD.04] Radiology Department
+[HD.05] Laboratory Department
+[HD.06] Pharmacy Department
+[HD.07] Maternity and Obstetrics
+[HD.08] Pediatrics Department
+[HD.09] Cardiology Department
+[HD.10] Oncology Department
+[HD.11] Orthopedics Department
+[HD.12] Neurology Department
+[HD.13] Rehabilitation Department
+[HD.14] Outpatient Clinic
+[HD.15] Administration and Support
+[HD.16] Pathology Department
+[HD.17] Respiratory Therapy

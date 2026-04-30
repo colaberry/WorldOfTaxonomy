@@ -1,0 +1,17 @@
+[MS] Microservices Patterns :: naics_2022:5415
+[MS.01] API Gateway Pattern
+[MS.02] Service Discovery
+[MS.03] Circuit Breaker Pattern
+[MS.04] Saga Pattern
+[MS.05] CQRS Pattern
+[MS.06] Event Sourcing
+[MS.07] Strangler Fig Pattern
+[MS.08] Sidecar Pattern
+[MS.09] Ambassador Pattern
+[MS.10] Bulkhead Pattern
+[MS.11] Outbox Pattern
+[MS.12] Database per Service
+[MS.13] Shared Database (Anti-Pattern)
+[MS.14] Choreography vs Orchestration
+[MS.15] Backends for Frontends
+[MS.16] Service Mesh Integration

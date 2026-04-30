@@ -1,0 +1,16 @@
+[sg_digital] Digital Signage :: naics_2022:236, naics_2022:237, naics_2022:238
+[sg_digital_inter] Interactive kiosks and touchscreens
+[sg_digital_lcd] LCD and video wall displays
+[sg_digital_led] LED displays (outdoor, indoor)
+[sg_digital_menu] Digital menu boards
+[sg_ext] Exterior Signage :: naics_2022:236, naics_2022:237, naics_2022:238
+[sg_ext_awning] Awning and canopy signs
+[sg_ext_banner] Banners and flag signs
+[sg_ext_channel] Channel letters (front-lit, back-lit, halo)
+[sg_ext_monument] Monument signs (ground, pylon)
+[sg_ext_wall] Wall-mounted signs (flat, projecting)
+[sg_int] Interior Signage :: naics_2022:236, naics_2022:237, naics_2022:238
+[sg_int_ada] ADA-compliant signs (tactile, braille)
+[sg_int_lobby] Lobby and tenant directory
+[sg_int_safety] Safety and regulatory signs
+[sg_int_wayfind] Wayfinding and directional signs

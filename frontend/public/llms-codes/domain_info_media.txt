@@ -1,0 +1,21 @@
+[dim_data] Data and Information Types :: naics_2022:51
+[dim_data_geo] Geospatial and Location Data (GIS, maps)
+[dim_data_rt] Real-Time and Streaming Data (events, IoT)
+[dim_data_struct] Structured Data (SQL, relational, tabular)
+[dim_data_unstruct] Unstructured Data (text, images, video)
+[dim_media] Media and Publishing Types :: naics_2022:51
+[dim_media_broadcast] Broadcast Media (TV, radio, OTA)
+[dim_media_digital] Digital and Social Media (web, social, blog)
+[dim_media_film] Film and Motion Picture
+[dim_media_print] Print Media (newspaper, magazine, book)
+[dim_media_stream] Streaming and OTT (Netflix, Spotify, podcast)
+[dim_soft] Software and Technology Categories :: naics_2022:51
+[dim_soft_consumer] Consumer Software (gaming, productivity, mobile)
+[dim_soft_embed] Embedded and Systems Software (OS, firmware)
+[dim_soft_ent] Enterprise Software (ERP, CRM, HR, finance)
+[dim_soft_saas] Software-as-a-Service (SaaS, cloud-native)
+[dim_tele] Telecommunications :: naics_2022:51
+[dim_tele_isp] Broadband and Internet Service Provider (ISP)
+[dim_tele_sat] Satellite Communications (Starlink, Viasat)
+[dim_tele_wire] Wireline and Landline (PSTN, fiber, DSL)
+[dim_tele_wireless] Wireless and Cellular (4G LTE, 5G, Wi-Fi)

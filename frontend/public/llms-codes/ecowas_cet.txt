@@ -1,0 +1,14 @@
+[EC] ECOWAS CET Bands
+[EC.01] Band 0 (0%) - Essential Social Goods
+[EC.02] Band 1 (5%) - Essential Goods
+[EC.03] Band 2 (10%) - Intermediate Goods
+[EC.04] Band 3 (20%) - Final Consumption Goods
+[EC.05] Band 4 (35%) - Specific Goods
+[EC.06] Agricultural Products
+[EC.07] Industrial Raw Materials
+[EC.08] Capital Goods
+[EC.09] Consumer Electronics
+[EC.10] Textiles and Apparel
+[EC.11] Automotive
+[EC.12] Pharmaceuticals
+[EC.13] Processed Foods

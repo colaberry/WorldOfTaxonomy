@@ -1,0 +1,16 @@
+[VM] Vulnerability Management Types :: naics_2022:5415, naics_2022:5417
+[VM.01] Network Vulnerability Scan
+[VM.02] Web Application Scan
+[VM.03] Cloud Security Posture
+[VM.04] Container Security Scan
+[VM.05] Software Composition Analysis
+[VM.06] Static Code Analysis (SAST)
+[VM.07] Dynamic Analysis (DAST)
+[VM.08] Interactive Analysis (IAST)
+[VM.09] Attack Surface Management
+[VM.10] Risk-Based Prioritization
+[VM.11] Patch Management
+[VM.12] Virtual Patching
+[VM.13] CVE Tracking
+[VM.14] Exploit Prediction
+[VM.15] Compliance-Driven Scanning

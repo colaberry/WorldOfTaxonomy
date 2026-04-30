@@ -1,0 +1,14 @@
+[CL] Coral Reef Types :: naics_2022:5417, naics_2022:924
+[CL.01] Fringing Reef
+[CL.02] Barrier Reef
+[CL.03] Atoll
+[CL.04] Patch Reef
+[CL.05] Platform Reef
+[CL.06] Deep-Sea Coral
+[CL.07] Mesophotic Reef
+[CL.08] Artificial Reef
+[CL.09] Coral Bleaching Assessment
+[CL.10] Reef Restoration Method
+[CL.11] Reef Health Index
+[CL.12] Marine Protected Area (Reef)
+[CL.13] Reef Monitoring Technology

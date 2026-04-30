@@ -1,0 +1,20 @@
+[damapp_aero] Aerospace and Defence Applications :: naics_2022:325, naics_2022:3261
+[damapp_aero_engine] Turbine and engine materials (CMC, TBC, Ni superalloys)
+[damapp_aero_radar] Radar-absorbing and stealth materials
+[damapp_aero_struct] Structural airframe materials (CFRP, Ti alloys, Al-Li)
+[damapp_auto] Automotive and Mobility Applications :: naics_2022:325, naics_2022:3261
+[damapp_auto_body] Lightweight body-in-white materials (AHSS, CFRP panels)
+[damapp_auto_sensor] Sensor substrates and ADAS sensing materials
+[damapp_auto_therm] Thermal management materials (heat spreaders, TIMs)
+[damapp_elec] Electronics and Semiconductor Applications :: naics_2022:325, naics_2022:3261
+[damapp_elec_dielectric] Dielectric and gate oxide materials (HfO2, low-k)
+[damapp_elec_pcb] PCB and packaging laminates (Rogers, Taconic RF)
+[damapp_elec_substrate] Substrate materials (sapphire, SiC, GaN-on-Si)
+[damapp_energy] Energy Generation and Storage Applications :: naics_2022:325, naics_2022:3261
+[damapp_energy_battery] Battery electrode and electrolyte materials
+[damapp_energy_h2] Hydrogen fuel cell and electrolyzer materials
+[damapp_energy_solar] Solar cell materials (perovskite, CIGS, III-V multijunction)
+[damapp_medical] Medical Device and Implant Applications :: naics_2022:325, naics_2022:3261
+[damapp_medical_drug] Drug delivery biomaterials (PLGA, hydrogels, liposomes)
+[damapp_medical_implant] Implant and prosthetics materials (Ti6Al4V, cobalt-chrome, PEEK)
+[damapp_medical_tissue] Tissue engineering scaffolds and regenerative biomaterials

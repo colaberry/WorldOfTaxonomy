@@ -1,0 +1,18 @@
+[dhspay_commercial] Commercial Insurance Reimbursement :: naics_2022:6215
+[dhspay_commercial_hdhp] High-Deductible Health Plan (HDHP) with HSA
+[dhspay_commercial_hmo] Commercial HMO (capitation, gated referral)
+[dhspay_commercial_ppo] Commercial PPO (negotiated fee schedule)
+[dhspay_medicaid] Medicaid and CHIP Reimbursement :: naics_2022:6215
+[dhspay_medicaid_ffs] Medicaid Fee-for-Service (state-administered)
+[dhspay_medicaid_mco] Medicaid Managed Care Organization (MCO)
+[dhspay_medicare] Medicare Program Reimbursement :: naics_2022:6215
+[dhspay_medicare_apm] Medicare APM (MSSP ACO, BPCI, direct contracting)
+[dhspay_medicare_ffs] Medicare Fee-for-Service (FFS) Part A/B/D
+[dhspay_medicare_ma] Medicare Advantage (MA / Part C - managed care)
+[dhspay_selfpay] Self-Pay and Uninsured :: naics_2022:6215
+[dhspay_selfpay_cash] Cash Pay and Direct Pay Primary Care (DPC)
+[dhspay_selfpay_charity] Charity Care and Uncompensated Care
+[dhspay_vbc] Value-Based Care and Risk Arrangements :: naics_2022:6215
+[dhspay_vbc_bundle] Episode-Based / Bundled Payment (CJR, BPCI)
+[dhspay_vbc_cap] Global Capitation (PMPM - full risk, prepaid)
+[dhspay_vbc_shared] Shared Savings (ACO, upside-only, two-sided risk)

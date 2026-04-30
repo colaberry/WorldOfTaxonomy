@@ -1,0 +1,15 @@
+[CR] Clean Room Classification Types :: naics_2022:5419
+[CR.01] ISO Class 1
+[CR.02] ISO Class 2
+[CR.03] ISO Class 3
+[CR.04] ISO Class 4
+[CR.05] ISO Class 5 (Class 100)
+[CR.06] ISO Class 6 (Class 1000)
+[CR.07] ISO Class 7 (Class 10000)
+[CR.08] ISO Class 8 (Class 100000)
+[CR.09] ISO Class 9
+[CR.10] GMP Grade A
+[CR.11] GMP Grade B
+[CR.12] GMP Grade C
+[CR.13] GMP Grade D
+[CR.14] Cleanroom Monitoring

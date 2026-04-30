@@ -1,0 +1,1055 @@
+[Q00] Anencephaly and similar malformations
+[Q000] Anencephaly -- **Inclusion terms:** - Acephaly - Acrania - Amyelencephaly - Hemianencephaly - Hemicephaly
+[Q001] Craniorachischisis
+[Q002] Iniencephaly
+[Q01] Encephalocele -- **Includes:** - Arnold-Chiari syndrome, type III - encephalocystocele - encephalomyelocele - hydroencephalocele - hydromeningocele, cranial - meningocele, cerebral - meningoencephalocele  **Excludes1:** - Meckel-Gruber syndrome (Q61.9)
+[Q010] Frontal encephalocele
+[Q011] Nasofrontal encephalocele
+[Q012] Occipital encephalocele
+[Q018] Encephalocele of other sites
+[Q019] Encephalocele, unspecified
+[Q02] Microcephaly -- **Includes:** - hydromicrocephaly - micrencephalon  **Excludes1:** - Meckel-Gruber syndrome (Q61.9)  **Code first:** - , if applicable, congenital Zika virus disease
+[Q03] Congenital hydrocephalus -- **Includes:** - hydrocephalus in newborn  **Excludes1:** - Arnold-Chiari syndrome, type II (Q07.0-) - acquired hydrocephalus (G91.-) - hydrocephalus due to congenital toxoplasmosis (P37.1) - hydrocephalus with spina bifida (Q05.0-Q05.4)
+[Q030] Malformations of aqueduct of Sylvius -- **Inclusion terms:** - Anomaly of aqueduct of Sylvius - Obstruction of aqueduct of Sylvius, congenital - Stenosis of aqueduct of Sylvius
+[Q031] Atresia of foramina of Magendie and Luschka -- **Inclusion terms:** - Dandy-Walker syndrome
+[Q038] Other congenital hydrocephalus
+[Q039] Congenital hydrocephalus, unspecified
+[Q04] Other congenital malformations of brain -- **Excludes1:** - cyclopia (Q87.0) - macrocephaly (Q75.3)
+[Q040] Congenital malformations of corpus callosum -- **Inclusion terms:** - Agenesis of corpus callosum
+[Q041] Arhinencephaly
+[Q042] Holoprosencephaly
+[Q043] Other reduction deformities of brain -- **Inclusion terms:** - Absence of part of brain - Agenesis of part of brain - Agyria - Aplasia of part of brain - Hydranencephaly - Hypoplasia of part of brain - Lissencephaly - Microgyria - Pachygyria  **Excludes1:** - congenital malformations of corpus callosum (Q04.0)
+[Q044] Septo-optic dysplasia of brain
+[Q045] Megalencephaly
+[Q046] Congenital cerebral cysts -- **Inclusion terms:** - Porencephaly - Schizencephaly  **Excludes1:** - acquired porencephalic cyst (G93.0)
+[Q048] Other specified congenital malformations of brain -- **Inclusion terms:** - Arnold-Chiari syndrome, type IV - Macrogyria
+[Q049] Congenital malformation of brain, unspecified -- **Inclusion terms:** - Congenital anomaly NOS of brain - Congenital deformity NOS of brain - Congenital disease or lesion NOS of brain - Multiple anomalies NOS of brain, congenital
+[Q05] Spina bifida -- **Includes:** - hydromeningocele (spinal) - meningocele (spinal) - meningomyelocele - myelocele - myelomeningocele - rachischisis - spina bifida (aperta)(cystica) - syringomyelocele  **Excludes1:** - Arnold-Chiari syndrome, type II (Q07.0-) - spina bifida occulta (Q76.0)  **Use additional code:** - code for any associated paraplegia (paraparesis) (G82.2-)
+[Q050] Cervical spina bifida with hydrocephalus
+[Q051] Thoracic spina bifida with hydrocephalus -- **Inclusion terms:** - Dorsal spina bifida with hydrocephalus - Thoracolumbar spina bifida with hydrocephalus
+[Q052] Lumbar spina bifida with hydrocephalus -- **Inclusion terms:** - Lumbosacral spina bifida with hydrocephalus
+[Q053] Sacral spina bifida with hydrocephalus
+[Q054] Unspecified spina bifida with hydrocephalus
+[Q055] Cervical spina bifida without hydrocephalus
+[Q056] Thoracic spina bifida without hydrocephalus -- **Inclusion terms:** - Dorsal spina bifida NOS - Thoracolumbar spina bifida NOS
+[Q057] Lumbar spina bifida without hydrocephalus -- **Inclusion terms:** - Lumbosacral spina bifida NOS
+[Q058] Sacral spina bifida without hydrocephalus
+[Q059] Spina bifida, unspecified
+[Q06] Other congenital malformations of spinal cord
+[Q060] Amyelia
+[Q061] Hypoplasia and dysplasia of spinal cord -- **Inclusion terms:** - Atelomyelia - Myelatelia - Myelodysplasia of spinal cord
+[Q062] Diastematomyelia
+[Q063] Other congenital cauda equina malformations
+[Q064] Hydromyelia -- **Inclusion terms:** - Hydrorachis
+[Q068] Other specified congenital malformations of spinal cord
+[Q069] Congenital malformation of spinal cord, unspecified -- **Inclusion terms:** - Congenital anomaly NOS of spinal cord - Congenital deformity NOS of spinal cord - Congenital disease or lesion NOS of spinal cord
+[Q07] Other congenital malformations of nervous system -- **Excludes2:** - congenital central alveolar hypoventilation syndrome (G47.35) - familial dysautonomia [Riley-Day] (G90.1) - neurofibromatosis (nonmalignant) (Q85.0-)
+[Q070] Arnold-Chiari syndrome -- **Inclusion terms:** - Arnold-Chiari syndrome, type II  **Excludes1:** - Arnold-Chiari syndrome, type III (Q01.-) - Arnold-Chiari syndrome, type IV (Q04.8)
+[Q0700] Arnold-Chiari syndrome without spina bifida or hydrocephalus
+[Q0701] Arnold-Chiari syndrome with spina bifida
+[Q0702] Arnold-Chiari syndrome with hydrocephalus
+[Q0703] Arnold-Chiari syndrome with spina bifida and hydrocephalus
+[Q078] Other specified congenital malformations of nervous system -- **Inclusion terms:** - Agenesis of nerve - Displacement of brachial plexus - Jaw-winking syndrome - Marcus Gunn's syndrome
+[Q079] Congenital malformation of nervous system, unspecified -- **Inclusion terms:** - Congenital anomaly NOS of nervous system - Congenital deformity NOS of nervous system - Congenital disease or lesion NOS of nervous system
+[Q10] Congenital malformations of eyelid, lacrimal apparatus and orbit -- **Excludes1:** - cryptophthalmos NOS (Q11.2) - cryptophthalmos syndrome (Q87.0)
+[Q100] Congenital ptosis
+[Q101] Congenital ectropion
+[Q102] Congenital entropion
+[Q103] Other congenital malformations of eyelid -- **Inclusion terms:** - Ablepharon - Blepharophimosis, congenital - Coloboma of eyelid - Congenital absence or agenesis of cilia - Congenital absence or agenesis of eyelid - Congenital accessory eyelid - Congenital accessory eye muscle - Congenital malformation of eyelid NOS
+[Q104] Absence and agenesis of lacrimal apparatus -- **Inclusion terms:** - Congenital absence of punctum lacrimale
+[Q105] Congenital stenosis and stricture of lacrimal duct
+[Q106] Other congenital malformations of lacrimal apparatus -- **Inclusion terms:** - Congenital malformation of lacrimal apparatus NOS
+[Q107] Congenital malformation of orbit
+[Q11] Anophthalmos, microphthalmos and macrophthalmos
+[Q110] Cystic eyeball
+[Q111] Other anophthalmos -- **Inclusion terms:** - Anophthalmos NOS - Agenesis of eye - Aplasia of eye
+[Q112] Microphthalmos -- **Inclusion terms:** - Cryptophthalmos NOS - Dysplasia of eye - Hypoplasia of eye - Rudimentary eye  **Excludes1:** - cryptophthalmos syndrome (Q87.0)
+[Q113] Macrophthalmos -- **Excludes1:** - macrophthalmos in congenital glaucoma (Q15.0)
+[Q12] Congenital lens malformations
+[Q120] Congenital cataract
+[Q121] Congenital displaced lens
+[Q122] Coloboma of lens
+[Q123] Congenital aphakia
+[Q124] Spherophakia
+[Q128] Other congenital lens malformations -- **Inclusion terms:** - Microphakia
+[Q129] Congenital lens malformation, unspecified
+[Q13] Congenital malformations of anterior segment of eye
+[Q130] Coloboma of iris -- **Inclusion terms:** - Coloboma NOS
+[Q131] Absence of iris -- **Inclusion terms:** - Aniridia  **Use additional code:** - code for associated glaucoma (H42)
+[Q132] Other congenital malformations of iris -- **Inclusion terms:** - Anisocoria, congenital - Atresia of pupil - Congenital malformation of iris NOS - Corectopia
+[Q133] Congenital corneal opacity
+[Q134] Other congenital corneal malformations -- **Inclusion terms:** - Congenital malformation of cornea NOS - Microcornea - Peter's anomaly
+[Q135] Blue sclera
+[Q138] Other congenital malformations of anterior segment of eye
+[Q1381] Rieger anomaly -- **Inclusion terms:** - Axenfeld-Rieger syndrome  **Code also:** - any other associated congenital malformations such as cardiac defects  **Use additional code:** - code for associated glaucoma (H42)
+[Q1389] Other congenital malformations of anterior segment of eye
+[Q139] Congenital malformation of anterior segment of eye, unspecified
+[Q14] Congenital malformations of posterior segment of eye -- **Excludes2:** - optic nerve hypoplasia (H47.03-)
+[Q140] Congenital malformation of vitreous humor -- **Inclusion terms:** - Congenital vitreous opacity
+[Q141] Congenital malformation of retina -- **Inclusion terms:** - Congenital retinal aneurysm
+[Q142] Congenital malformation of optic disc -- **Inclusion terms:** - Coloboma of optic disc
+[Q143] Congenital malformation of choroid
+[Q148] Other congenital malformations of posterior segment of eye -- **Inclusion terms:** - Coloboma of the fundus
+[Q149] Congenital malformation of posterior segment of eye, unspecified
+[Q15] Other congenital malformations of eye -- **Excludes1:** - congenital nystagmus (H55.01) - ocular albinism (E70.31-) - optic nerve hypoplasia (H47.03-) - retinitis pigmentosa (H35.52)
+[Q150] Congenital glaucoma -- **Inclusion terms:** - Axenfeld's anomaly - Buphthalmos - Glaucoma of childhood - Glaucoma of newborn - Hydrophthalmos - Keratoglobus, congenital, with glaucoma - Macrocornea with glaucoma - Macrophthalmos in congenital glaucoma - Megalocornea with glaucoma
+[Q158] Other specified congenital malformations of eye
+[Q159] Congenital malformation of eye, unspecified -- **Inclusion terms:** - Congenital anomaly of eye - Congenital deformity of eye
+[Q16] Congenital malformations of ear causing impairment of hearing -- **Excludes1:** - congenital deafness (H90.-)
+[Q160] Congenital absence of (ear) auricle
+[Q161] Congenital absence, atresia and stricture of auditory canal (external) -- **Inclusion terms:** - Congenital atresia or stricture of osseous meatus
+[Q162] Absence of eustachian tube
+[Q163] Congenital malformation of ear ossicles -- **Inclusion terms:** - Congenital fusion of ear ossicles
+[Q164] Other congenital malformations of middle ear -- **Inclusion terms:** - Congenital malformation of middle ear NOS
+[Q165] Congenital malformation of inner ear -- **Inclusion terms:** - Congenital anomaly of membranous labyrinth - Congenital anomaly of organ of Corti
+[Q169] Congenital malformation of ear causing impairment of hearing, unspecified -- **Inclusion terms:** - Congenital absence of ear NOS
+[Q17] Other congenital malformations of ear -- **Excludes1:** - congenital malformations of ear with impairment of hearing (Q16.0-Q16.9) - preauricular sinus (Q18.1)
+[Q170] Accessory auricle -- **Inclusion terms:** - Accessory tragus - Polyotia - Preauricular appendage or tag - Supernumerary ear - Supernumerary lobule
+[Q171] Macrotia
+[Q172] Microtia
+[Q173] Other misshapen ear -- **Inclusion terms:** - Pointed ear
+[Q174] Misplaced ear -- **Inclusion terms:** - Low-set ears  **Excludes1:** - cervical auricle (Q18.2)
+[Q175] Prominent ear -- **Inclusion terms:** - Bat ear
+[Q178] Other specified congenital malformations of ear -- **Inclusion terms:** - Congenital absence of lobe of ear
+[Q179] Congenital malformation of ear, unspecified -- **Inclusion terms:** - Congenital anomaly of ear NOS
+[Q18] Other congenital malformations of face and neck -- **Excludes1:** - cleft lip and cleft palate (Q35-Q37) - conditions classified to Q67.0-Q67.4 - congenital malformations of skull and face bones (Q75.-) - cyclopia (Q87.0) - dentofacial anomalies [including malocclusion] (M26.-) - malformation syndromes affecting facial appearance (Q87.0) - persistent thyroglossal duct (Q89.2)
+[Q180] Sinus, fistula and cyst of branchial cleft -- **Inclusion terms:** - Branchial vestige
+[Q181] Preauricular sinus and cyst -- **Inclusion terms:** - Fistula of auricle, congenital - Cervicoaural fistula
+[Q182] Other branchial cleft malformations -- **Inclusion terms:** - Branchial cleft malformation NOS - Cervical auricle - Otocephaly
+[Q183] Webbing of neck -- **Inclusion terms:** - Pterygium colli
+[Q184] Macrostomia
+[Q185] Microstomia
+[Q186] Macrocheilia -- **Inclusion terms:** - Hypertrophy of lip, congenital
+[Q187] Microcheilia
+[Q188] Other specified congenital malformations of face and neck -- **Inclusion terms:** - Medial cyst of face and neck - Medial fistula of face and neck - Medial sinus of face and neck
+[Q189] Congenital malformation of face and neck, unspecified -- **Inclusion terms:** - Congenital anomaly NOS of face and neck
+[Q20] Congenital malformations of cardiac chambers and connections -- **Excludes1:** - dextrocardia with situs inversus (Q89.3) - mirror-image atrial arrangement with situs inversus (Q89.3)
+[Q200] Common arterial trunk -- **Inclusion terms:** - Persistent truncus arteriosus  **Excludes1:** - aortic septal defect (Q21.4)
+[Q201] Double outlet right ventricle -- **Inclusion terms:** - Taussig-Bing syndrome
+[Q202] Double outlet left ventricle
+[Q203] Discordant ventriculoarterial connection -- **Inclusion terms:** - Dextrotransposition of aorta - Transposition of great vessels (complete)
+[Q204] Double inlet ventricle -- **Inclusion terms:** - Common ventricle - Cor triloculare biatriatum - Single ventricle
+[Q205] Discordant atrioventricular connection -- **Inclusion terms:** - Corrected transposition - Levotransposition - Ventricular inversion
+[Q206] Isomerism of atrial appendages -- **Inclusion terms:** - Isomerism of atrial appendages with asplenia or polysplenia
+[Q208] Other congenital malformations of cardiac chambers and connections -- **Inclusion terms:** - Cor binoculare
+[Q209] Congenital malformation of cardiac chambers and connections, unspecified
+[Q21] Congenital malformations of cardiac septa -- **Excludes1:** - acquired cardiac septal defect (I51.0)
+[Q210] Ventricular septal defect -- **Inclusion terms:** - Roger's disease
+[Q211] Atrial septal defect -- **Excludes2:** - ostium primum atrial septal defect (type I) (Q21.20)
+[Q2110] Atrial septal defect, unspecified
+[Q2111] Secundum atrial septal defect -- **Inclusion terms:** - Fenestrated atrial septum - Patent or persistent ostium secundum defect (type II)
+[Q2112] Patent foramen ovale -- **Inclusion terms:** - Persistent foramen ovale
+[Q2113] Coronary sinus atrial septal defect -- **Inclusion terms:** - Coronary sinus defect - Unroofed coronary sinus
+[Q2114] Superior sinus venosus atrial septal defect -- **Inclusion terms:** - Superior vena cava type atrial septal defect
+[Q2115] Inferior sinus venosus atrial septal defect -- **Inclusion terms:** - Inferior vena cava type atrial septal defect
+[Q2116] Sinus venosus atrial septal defect, unspecified -- **Inclusion terms:** - Sinus venosus defect, NOS
+[Q2119] Other specified atrial septal defect -- **Inclusion terms:** - Common atrium - Other specified atrial septal abnormality
+[Q212] Atrioventricular septal defect -- **Inclusion terms:** - Atrioventricular canal defect - Endocardial cushion defect - Ostium primum atrial septal defect (type I)
+[Q2120] Atrioventricular septal defect, unspecified as to partial or complete -- **Inclusion terms:** - Atrioventricular canal, NOS - Endocardial cushion defect NOS - Ostium primum atrial septal defect (type I) NOS
+[Q2121] Partial atrioventricular septal defect -- **Inclusion terms:** - Incomplete atrioventricular canal - Incomplete atrioventricular septal defect - Incomplete endocardial cushion defect - Ostium primum atrial septal defect (type I) with separate atrioventricular valves - Partial atrioventricular canal - Partial endocardial cushion defect
+[Q2122] Transitional atrioventricular septal defect -- **Inclusion terms:** - Intermediate atrioventricular canal - Intermediate atrioventricular septal defect - Intermediate endocardial cushion defect - Ostium primum atrial septal defect (type I) with separate atrioventricular valves and a small or restrictive inlet VSD - Transitional atrioventricular canal - Transitional endocardial cushion defect
+[Q2123] Complete atrioventricular septal defect -- **Inclusion terms:** - Common atrioventricular canal - Common atrioventricular septal defect - Common endocardial cushion defect - Ostium primum atrial septal defect (type I) with common atrioventricular valve and a moderate or larger inlet VSD
+[Q213] Tetralogy of Fallot -- **Inclusion terms:** - Ventricular septal defect with pulmonary stenosis or atresia, dextroposition of aorta and hypertrophy of right ventricle.
+[Q214] Aortopulmonary septal defect -- **Inclusion terms:** - Aortic septal defect - Aortopulmonary window
+[Q218] Other congenital malformations of cardiac septa -- **Inclusion terms:** - Eisenmenger's defect - Pentalogy of Fallot  **Code also:** - , if applicable: - Eisenmenger's complex (I27.83) - Eisenmenger's syndrome (I27.83)
+[Q219] Congenital malformation of cardiac septum, unspecified -- **Inclusion terms:** - Septal (heart) defect NOS
+[Q22] Congenital malformations of pulmonary and tricuspid valves
+[Q220] Pulmonary valve atresia
+[Q221] Congenital pulmonary valve stenosis
+[Q222] Congenital pulmonary valve insufficiency -- **Inclusion terms:** - Congenital pulmonary valve regurgitation
+[Q223] Other congenital malformations of pulmonary valve -- **Inclusion terms:** - Congenital malformation of pulmonary valve NOS - Supernumerary cusps of pulmonary valve
+[Q224] Congenital tricuspid stenosis -- **Inclusion terms:** - Congenital tricuspid atresia
+[Q225] Ebstein's anomaly
+[Q226] Hypoplastic right heart syndrome
+[Q228] Other congenital malformations of tricuspid valve
+[Q229] Congenital malformation of tricuspid valve, unspecified
+[Q23] Congenital malformations of aortic and mitral valves
+[Q230] Congenital stenosis of aortic valve -- **Inclusion terms:** - Congenital aortic atresia - Congenital aortic stenosis NOS  **Excludes1:** - congenital stenosis of aortic valve in hypoplastic left heart syndrome (Q23.4) - congenital subaortic stenosis (Q24.4) - supravalvular aortic stenosis (congenital) (Q25.3)
+[Q231] Congenital insufficiency of aortic valve -- **Inclusion terms:** - Congenital aortic insufficiency
+[Q232] Congenital mitral stenosis -- **Inclusion terms:** - Congenital mitral atresia
+[Q233] Congenital mitral insufficiency
+[Q234] Hypoplastic left heart syndrome
+[Q238] Other congenital malformations of aortic and mitral valves
+[Q2381] Bicuspid aortic valve -- **Inclusion terms:** - Congenital bicuspid aortic valve - Unicuspid (congenital) aortic valve (at birth)  **Code also:** - , if applicable, acquired aortic valve disorders, such as: - aortic (valve) insufficiency (nonrheumatic) (I35.1) - aortic (valve) stenosis (nonrheumatic) (I35.0) - aortic (valve) stenosis with insufficiency (nonrheumatic) (I35.2)
+[Q2382] Congenital mitral valve cleft leaflet -- **Inclusion terms:** - Cleft mitral valve leaflet at birth
+[Q2388] Other congenital malformations of aortic and mitral valves
+[Q239] Congenital malformation of aortic and mitral valves, unspecified
+[Q24] Other congenital malformations of heart -- **Excludes1:** - endocardial fibroelastosis (I42.4)
+[Q240] Dextrocardia -- **Excludes1:** - dextrocardia with situs inversus (Q89.3) - isomerism of atrial appendages (with asplenia or polysplenia) (Q20.6) - mirror-image atrial arrangement with situs inversus (Q89.3)
+[Q241] Levocardia
+[Q242] Cor triatriatum
+[Q243] Pulmonary infundibular stenosis -- **Inclusion terms:** - Subvalvular pulmonic stenosis
+[Q244] Congenital subaortic stenosis
+[Q245] Malformation of coronary vessels -- **Inclusion terms:** - Congenital coronary (artery) aneurysm
+[Q246] Congenital heart block
+[Q248] Other specified congenital malformations of heart -- **Inclusion terms:** - Congenital diverticulum of left ventricle - Congenital malformation of myocardium - Congenital malformation of pericardium - Malposition of heart - Uhl's disease
+[Q249] Congenital malformation of heart, unspecified -- **Inclusion terms:** - Congenital anomaly of heart - Congenital disease of heart
+[Q25] Congenital malformations of great arteries
+[Q250] Patent ductus arteriosus -- **Inclusion terms:** - Patent ductus Botallo - Persistent ductus arteriosus
+[Q251] Coarctation of aorta -- **Inclusion terms:** - Coarctation of aorta (preductal) (postductal) - Stenosis of aorta
+[Q252] Atresia of aorta
+[Q2521] Interruption of aortic arch -- **Inclusion terms:** - Atresia of aortic arch
+[Q2529] Other atresia of aorta -- **Inclusion terms:** - Atresia of aorta
+[Q253] Supravalvular aortic stenosis -- **Excludes1:** - congenital aortic stenosis NOS (Q23.0) - congenital stenosis of aortic valve (Q23.0)
+[Q254] Other congenital malformations of aorta -- **Excludes1:** - hypoplasia of aorta in hypoplastic left heart syndrome (Q23.4)
+[Q2540] Congenital malformation of aorta unspecified
+[Q2541] Absence and aplasia of aorta
+[Q2542] Hypoplasia of aorta
+[Q2543] Congenital aneurysm of aorta -- **Inclusion terms:** - Congenital aneurysm of aortic root - Congenital aneurysm of aortic sinus
+[Q2544] Congenital dilation of aorta
+[Q2545] Double aortic arch -- **Inclusion terms:** - Vascular ring of aorta
+[Q2546] Tortuous aortic arch -- **Inclusion terms:** - Persistent convolutions of aortic arch
+[Q2547] Right aortic arch -- **Inclusion terms:** - Persistent right aortic arch
+[Q2548] Anomalous origin of subclavian artery
+[Q2549] Other congenital malformations of aorta -- **Inclusion terms:** - Aortic arch - Bovine arch
+[Q255] Atresia of pulmonary artery
+[Q256] Stenosis of pulmonary artery -- **Inclusion terms:** - Supravalvular pulmonary stenosis
+[Q257] Other congenital malformations of pulmonary artery
+[Q2571] Coarctation of pulmonary artery
+[Q2572] Congenital pulmonary arteriovenous malformation -- **Inclusion terms:** - Congenital pulmonary arteriovenous aneurysm
+[Q2579] Other congenital malformations of pulmonary artery -- **Inclusion terms:** - Aberrant pulmonary artery - Agenesis of pulmonary artery - Congenital aneurysm of pulmonary artery - Congenital anomaly of pulmonary artery - Hypoplasia of pulmonary artery
+[Q258] Other congenital malformations of other great arteries
+[Q259] Congenital malformation of great arteries, unspecified
+[Q26] Congenital malformations of great veins
+[Q260] Congenital stenosis of vena cava -- **Inclusion terms:** - Congenital stenosis of vena cava (inferior)(superior)
+[Q261] Persistent left superior vena cava
+[Q262] Total anomalous pulmonary venous connection -- **Inclusion terms:** - Total anomalous pulmonary venous return [TAPVR], subdiaphragmatic - Total anomalous pulmonary venous return [TAPVR], supradiaphragmatic
+[Q263] Partial anomalous pulmonary venous connection -- **Inclusion terms:** - Partial anomalous pulmonary venous return
+[Q264] Anomalous pulmonary venous connection, unspecified
+[Q265] Anomalous portal venous connection
+[Q266] Portal vein-hepatic artery fistula
+[Q268] Other congenital malformations of great veins -- **Inclusion terms:** - Absence of vena cava (inferior) (superior) - Azygos continuation of inferior vena cava - Persistent left posterior cardinal vein - Scimitar syndrome
+[Q269] Congenital malformation of great vein, unspecified -- **Inclusion terms:** - Congenital anomaly of vena cava (inferior) (superior) NOS
+[Q27] Other congenital malformations of peripheral vascular system -- **Excludes2:** - anomalies of cerebral and precerebral vessels (Q28.0-Q28.3) - anomalies of coronary vessels (Q24.5) - anomalies of pulmonary artery (Q25.5-Q25.7) - congenital retinal aneurysm (Q14.1) - hemangioma and lymphangioma (D18.-)
+[Q270] Congenital absence and hypoplasia of umbilical artery -- **Inclusion terms:** - Single umbilical artery
+[Q271] Congenital renal artery stenosis
+[Q272] Other congenital malformations of renal artery -- **Inclusion terms:** - Congenital malformation of renal artery NOS - Multiple renal arteries
+[Q273] Arteriovenous malformation (peripheral) -- **Inclusion terms:** - Arteriovenous aneurysm  **Excludes1:** - acquired arteriovenous aneurysm (I77.0)  **Excludes2:** - arteriovenous malformation of cerebral vessels (Q28.2) - arteriovenous malformation of precerebral vessels (Q28.0)
+[Q2730] Arteriovenous malformation, site unspecified
+[Q2731] Arteriovenous malformation of vessel of upper limb
+[Q2732] Arteriovenous malformation of vessel of lower limb
+[Q2733] Arteriovenous malformation of digestive system vessel
+[Q2734] Arteriovenous malformation of renal vessel
+[Q2739] Arteriovenous malformation, other site
+[Q274] Congenital phlebectasia
+[Q278] Other specified congenital malformations of peripheral vascular system -- **Inclusion terms:** - Absence of peripheral vascular system - Atresia of peripheral vascular system - Congenital aneurysm (peripheral) - Congenital stricture, artery - Congenital varix  **Excludes1:** - arteriovenous malformation (Q27.3-)
+[Q279] Congenital malformation of peripheral vascular system, unspecified -- **Inclusion terms:** - Anomaly of artery or vein NOS
+[Q28] Other congenital malformations of circulatory system -- **Excludes1:** - congenital aneurysm NOS (Q27.8) - congenital coronary aneurysm (Q24.5) - ruptured cerebral arteriovenous malformation (I60.8) - ruptured malformation of precerebral vessels (I72.0)  **Excludes2:** - congenital peripheral aneurysm (Q27.8) - congenital pulmonary aneurysm (Q25.79) - congenital retinal aneurysm (Q14.1)
+[Q280] Arteriovenous malformation of precerebral vessels -- **Inclusion terms:** - Congenital arteriovenous precerebral aneurysm (nonruptured)
+[Q281] Other malformations of precerebral vessels -- **Inclusion terms:** - Congenital malformation of precerebral vessels NOS - Congenital precerebral aneurysm (nonruptured)
+[Q282] Arteriovenous malformation of cerebral vessels -- **Inclusion terms:** - Arteriovenous malformation of brain NOS - Congenital arteriovenous cerebral aneurysm (nonruptured)
+[Q283] Other malformations of cerebral vessels -- **Inclusion terms:** - Congenital cerebral aneurysm (nonruptured) - Congenital malformation of cerebral vessels NOS - Developmental venous anomaly
+[Q288] Other specified congenital malformations of circulatory system -- **Inclusion terms:** - Congenital aneurysm, specified site NEC - Spinal vessel anomaly
+[Q289] Congenital malformation of circulatory system, unspecified
+[Q30] Congenital malformations of nose -- **Excludes1:** - congenital deviation of nasal septum (Q67.4)
+[Q300] Choanal atresia -- **Inclusion terms:** - Atresia of nares (anterior) (posterior) - Congenital stenosis of nares (anterior) (posterior)
+[Q301] Agenesis and underdevelopment of nose -- **Inclusion terms:** - Congenital absent of nose
+[Q302] Fissured, notched and cleft nose
+[Q303] Congenital perforated nasal septum
+[Q308] Other congenital malformations of nose -- **Inclusion terms:** - Accessory nose - Congenital anomaly of nasal sinus wall
+[Q309] Congenital malformation of nose, unspecified
+[Q31] Congenital malformations of larynx -- **Excludes1:** - congenital laryngeal stridor NOS (P28.89)
+[Q310] Web of larynx -- **Inclusion terms:** - Glottic web of larynx - Subglottic web of larynx - Web of larynx NOS
+[Q311] Congenital subglottic stenosis
+[Q312] Laryngeal hypoplasia
+[Q313] Laryngocele
+[Q315] Congenital laryngomalacia
+[Q318] Other congenital malformations of larynx -- **Inclusion terms:** - Absence of larynx - Agenesis of larynx - Atresia of larynx - Congenital cleft thyroid cartilage - Congenital fissure of epiglottis - Congenital stenosis of larynx NEC - Posterior cleft of cricoid cartilage
+[Q319] Congenital malformation of larynx, unspecified
+[Q32] Congenital malformations of trachea and bronchus -- **Excludes1:** - congenital bronchiectasis (Q33.4)
+[Q320] Congenital tracheomalacia
+[Q321] Other congenital malformations of trachea -- **Inclusion terms:** - Atresia of trachea - Congenital anomaly of tracheal cartilage - Congenital dilatation of trachea - Congenital malformation of trachea - Congenital stenosis of trachea - Congenital tracheocele
+[Q322] Congenital bronchomalacia
+[Q323] Congenital stenosis of bronchus
+[Q324] Other congenital malformations of bronchus -- **Inclusion terms:** - Absence of bronchus - Agenesis of bronchus - Atresia of bronchus - Congenital diverticulum of bronchus - Congenital malformation of bronchus NOS
+[Q33] Congenital malformations of lung
+[Q330] Congenital cystic lung -- **Inclusion terms:** - Congenital cystic lung disease - Congenital honeycomb lung - Congenital polycystic lung disease  **Excludes1:** - cystic fibrosis (E84.0) - cystic lung disease, acquired or unspecified (J98.4)
+[Q331] Accessory lobe of lung -- **Inclusion terms:** - Azygos lobe (fissured), lung
+[Q332] Sequestration of lung
+[Q333] Agenesis of lung -- **Inclusion terms:** - Congenital absence of lung (lobe)
+[Q334] Congenital bronchiectasis
+[Q335] Ectopic tissue in lung
+[Q336] Congenital hypoplasia and dysplasia of lung -- **Excludes1:** - pulmonary hypoplasia associated with short gestation (P28.0)
+[Q338] Other congenital malformations of lung
+[Q339] Congenital malformation of lung, unspecified
+[Q34] Other congenital malformations of respiratory system -- **Excludes2:** - congenital central alveolar hypoventilation syndrome (G47.35)
+[Q340] Anomaly of pleura
+[Q341] Congenital cyst of mediastinum
+[Q348] Other specified congenital malformations of respiratory system -- **Inclusion terms:** - Atresia of nasopharynx
+[Q349] Congenital malformation of respiratory system, unspecified -- **Inclusion terms:** - Congenital absence of respiratory system - Congenital anomaly of respiratory system NOS
+[Q35] Cleft palate -- **Includes:** - fissure of palate - palatoschisis  **Excludes1:** - cleft palate with cleft lip (Q37.-)
+[Q351] Cleft hard palate
+[Q353] Cleft soft palate
+[Q355] Cleft hard palate with cleft soft palate
+[Q357] Cleft uvula
+[Q359] Cleft palate, unspecified -- **Inclusion terms:** - Cleft palate NOS
+[Q36] Cleft lip -- **Includes:** - cheiloschisis - congenital fissure of lip - harelip - labium leporinum  **Excludes1:** - cleft lip with cleft palate (Q37.-)
+[Q360] Cleft lip, bilateral
+[Q361] Cleft lip, median
+[Q369] Cleft lip, unilateral -- **Inclusion terms:** - Cleft lip NOS
+[Q37] Cleft palate with cleft lip -- **Includes:** - cheilopalatoschisis
+[Q370] Cleft hard palate with bilateral cleft lip
+[Q371] Cleft hard palate with unilateral cleft lip -- **Inclusion terms:** - Cleft hard palate with cleft lip NOS
+[Q372] Cleft soft palate with bilateral cleft lip
+[Q373] Cleft soft palate with unilateral cleft lip -- **Inclusion terms:** - Cleft soft palate with cleft lip NOS
+[Q374] Cleft hard and soft palate with bilateral cleft lip
+[Q375] Cleft hard and soft palate with unilateral cleft lip -- **Inclusion terms:** - Cleft hard and soft palate with cleft lip NOS
+[Q378] Unspecified cleft palate with bilateral cleft lip
+[Q379] Unspecified cleft palate with unilateral cleft lip -- **Inclusion terms:** - Cleft palate with cleft lip NOS
+[Q38] Other congenital malformations of tongue, mouth and pharynx -- **Excludes1:** - dentofacial anomalies (M26.-) - macrostomia (Q18.4) - microstomia (Q18.5)
+[Q380] Congenital malformations of lips, not elsewhere classified -- **Inclusion terms:** - Congenital fistula of lip - Congenital malformation of lip NOS - Van der Woude's syndrome  **Excludes1:** - cleft lip (Q36.-) - cleft lip with cleft palate (Q37.-) - macrocheilia (Q18.6) - microcheilia (Q18.7)
+[Q381] Ankyloglossia -- **Inclusion terms:** - Tongue tie
+[Q382] Macroglossia -- **Inclusion terms:** - Congenital hypertrophy of tongue
+[Q383] Other congenital malformations of tongue -- **Inclusion terms:** - Aglossia - Bifid tongue - Congenital adhesion of tongue - Congenital fissure of tongue - Congenital malformation of tongue NOS - Double tongue - Hypoglossia - Hypoplasia of tongue - Microglossia
+[Q384] Congenital malformations of salivary glands and ducts -- **Inclusion terms:** - Atresia of salivary glands and ducts - Congenital absence of salivary glands and ducts - Congenital accessory salivary glands and ducts - Congenital fistula of salivary gland
+[Q385] Congenital malformations of palate, not elsewhere classified -- **Inclusion terms:** - Congenital absence of uvula - Congenital malformation of palate NOS - Congenital high arched palate  **Excludes1:** - cleft palate (Q35.-) - cleft palate with cleft lip (Q37.-)
+[Q386] Other congenital malformations of mouth -- **Inclusion terms:** - Congenital malformation of mouth NOS
+[Q387] Congenital pharyngeal pouch -- **Inclusion terms:** - Congenital diverticulum of pharynx  **Excludes1:** - pharyngeal pouch syndrome (D82.1)
+[Q388] Other congenital malformations of pharynx -- **Inclusion terms:** - Congenital malformation of pharynx NOS - Imperforate pharynx
+[Q39] Congenital malformations of esophagus
+[Q390] Atresia of esophagus without fistula -- **Inclusion terms:** - Atresia of esophagus NOS
+[Q391] Atresia of esophagus with tracheo-esophageal fistula -- **Inclusion terms:** - Atresia of esophagus with broncho-esophageal fistula
+[Q392] Congenital tracheo-esophageal fistula without atresia -- **Inclusion terms:** - Congenital tracheo-esophageal fistula NOS
+[Q393] Congenital stenosis and stricture of esophagus
+[Q394] Esophageal web
+[Q395] Congenital dilatation of esophagus -- **Inclusion terms:** - Congenital cardiospasm
+[Q396] Congenital diverticulum of esophagus -- **Inclusion terms:** - Congenital esophageal pouch
+[Q398] Other congenital malformations of esophagus -- **Inclusion terms:** - Congenital absence of esophagus - Congenital displacement of esophagus - Congenital duplication of esophagus
+[Q399] Congenital malformation of esophagus, unspecified
+[Q40] Other congenital malformations of upper alimentary tract
+[Q400] Congenital hypertrophic pyloric stenosis -- **Inclusion terms:** - Congenital or infantile constriction - Congenital or infantile hypertrophy - Congenital or infantile spasm - Congenital or infantile stenosis - Congenital or infantile stricture
+[Q401] Congenital hiatus hernia -- **Inclusion terms:** - Congenital displacement of cardia through esophageal hiatus  **Excludes1:** - congenital diaphragmatic hernia (Q79.0)
+[Q402] Other specified congenital malformations of stomach -- **Inclusion terms:** - Congenital displacement of stomach - Congenital diverticulum of stomach - Congenital hourglass stomach - Congenital duplication of stomach - Megalogastria - Microgastria
+[Q403] Congenital malformation of stomach, unspecified
+[Q408] Other specified congenital malformations of upper alimentary tract
+[Q409] Congenital malformation of upper alimentary tract, unspecified -- **Inclusion terms:** - Congenital anomaly of upper alimentary tract - Congenital deformity of upper alimentary tract
+[Q41] Congenital absence, atresia and stenosis of small intestine -- **Includes:** - congenital obstruction, occlusion or stricture of small intestine or intestine NOS  **Excludes1:** - cystic fibrosis with intestinal manifestation (E84.11) - meconium ileus NOS (without cystic fibrosis) (P76.0)
+[Q410] Congenital absence, atresia and stenosis of duodenum
+[Q411] Congenital absence, atresia and stenosis of jejunum -- **Inclusion terms:** - Apple peel syndrome - Imperforate jejunum
+[Q412] Congenital absence, atresia and stenosis of ileum
+[Q418] Congenital absence, atresia and stenosis of other specified parts of small intestine
+[Q419] Congenital absence, atresia and stenosis of small intestine, part unspecified -- **Inclusion terms:** - Congenital absence, atresia and stenosis of intestine NOS
+[Q42] Congenital absence, atresia and stenosis of large intestine -- **Includes:** - congenital obstruction, occlusion and stricture of large intestine
+[Q420] Congenital absence, atresia and stenosis of rectum with fistula
+[Q421] Congenital absence, atresia and stenosis of rectum without fistula -- **Inclusion terms:** - Imperforate rectum
+[Q422] Congenital absence, atresia and stenosis of anus with fistula
+[Q423] Congenital absence, atresia and stenosis of anus without fistula -- **Inclusion terms:** - Imperforate anus
+[Q428] Congenital absence, atresia and stenosis of other parts of large intestine
+[Q429] Congenital absence, atresia and stenosis of large intestine, part unspecified
+[Q43] Other congenital malformations of intestine
+[Q430] Meckel's diverticulum (displaced) (hypertrophic) -- **Inclusion terms:** - Persistent omphalomesenteric duct - Persistent vitelline duct
+[Q431] Hirschsprung's disease -- **Inclusion terms:** - Aganglionosis - Congenital (aganglionic) megacolon
+[Q432] Other congenital functional disorders of colon -- **Inclusion terms:** - Congenital dilatation of colon
+[Q433] Congenital malformations of intestinal fixation -- **Inclusion terms:** - Congenital omental, anomalous adhesions [bands] - Congenital peritoneal adhesions [bands] - Incomplete rotation of cecum and colon - Insufficient rotation of cecum and colon - Jackson's membrane - Malrotation of colon - Rotation failure of cecum and colon - Universal mesentery
+[Q434] Duplication of intestine
+[Q435] Ectopic anus
+[Q436] Congenital fistula of rectum and anus -- **Excludes1:** - congenital fistula of anus with absence, atresia and stenosis (Q42.2) - congenital fistula of rectum with absence, atresia and stenosis (Q42.0) - congenital rectovaginal fistula (Q52.2) - congenital urethrorectal fistula (Q64.73) - pilonidal fistula or sinus (L05.-)
+[Q437] Persistent cloaca -- **Inclusion terms:** - Cloaca NOS
+[Q438] Other specified congenital malformations of intestine -- **Inclusion terms:** - Congenital blind loop syndrome - Congenital diverticulitis, colon - Congenital diverticulum, intestine - Dolichocolon - Megaloappendix - Megaloduodenum - Microcolon - Transposition of appendix - Transposition of colon - Transposition of intestine
+[Q439] Congenital malformation of intestine, unspecified
+[Q44] Congenital malformations of gallbladder, bile ducts and liver
+[Q440] Agenesis, aplasia and hypoplasia of gallbladder -- **Inclusion terms:** - Congenital absence of gallbladder
+[Q441] Other congenital malformations of gallbladder -- **Inclusion terms:** - Congenital malformation of gallbladder NOS - Intrahepatic gallbladder
+[Q442] Atresia of bile ducts
+[Q443] Congenital stenosis and stricture of bile ducts
+[Q444] Choledochal cyst
+[Q445] Other congenital malformations of bile ducts -- **Inclusion terms:** - Accessory hepatic duct - Biliary duct duplication - Congenital malformation of bile duct NOS - Cystic duct duplication
+[Q446] Cystic disease of liver -- **Inclusion terms:** - Fibrocystic disease of liver
+[Q447] Other congenital malformations of liver -- **Code also:** - , if applicable, associated malformations affecting other systems
+[Q4470] Other congenital malformation of liver, unspecified -- **Inclusion terms:** - Congenital malformation of liver, NOS
+[Q4471] Alagille syndrome -- **Inclusion terms:** - Alagille-Watson syndrome
+[Q4479] Other congenital malformations of liver -- **Inclusion terms:** - Accessory liver - Congenital absence of liver - Congenital hepatomegaly
+[Q45] Other congenital malformations of digestive system -- **Excludes2:** - congenital diaphragmatic hernia (Q79.0) - congenital hiatus hernia (Q40.1)
+[Q450] Agenesis, aplasia and hypoplasia of pancreas -- **Inclusion terms:** - Congenital absence of pancreas
+[Q451] Annular pancreas
+[Q452] Congenital pancreatic cyst
+[Q453] Other congenital malformations of pancreas and pancreatic duct -- **Inclusion terms:** - Accessory pancreas - Congenital malformation of pancreas or pancreatic duct NOS  **Excludes1:** - congenital diabetes mellitus (E10.-) - cystic fibrosis (E84.0-E84.9) - fibrocystic disease of pancreas (E84.-) - neonatal diabetes mellitus (P70.2)
+[Q458] Other specified congenital malformations of digestive system -- **Inclusion terms:** - Absence (complete) (partial) of alimentary tract NOS - Duplication of digestive system - Malposition, congenital of digestive system
+[Q459] Congenital malformation of digestive system, unspecified -- **Inclusion terms:** - Congenital anomaly of digestive system - Congenital deformity of digestive system
+[Q50] Congenital malformations of ovaries, fallopian tubes and broad ligaments
+[Q500] Congenital absence of ovary -- **Excludes1:** - Turner's syndrome (Q96.-)
+[Q5001] Congenital absence of ovary, unilateral
+[Q5002] Congenital absence of ovary, bilateral
+[Q501] Developmental ovarian cyst
+[Q502] Congenital torsion of ovary
+[Q503] Other congenital malformations of ovary
+[Q5031] Accessory ovary
+[Q5032] Ovarian streak -- **Inclusion terms:** - 46, XX with streak gonads
+[Q5039] Other congenital malformation of ovary -- **Inclusion terms:** - Congenital malformation of ovary NOS
+[Q504] Embryonic cyst of fallopian tube -- **Inclusion terms:** - Fimbrial cyst
+[Q505] Embryonic cyst of broad ligament -- **Inclusion terms:** - Epoophoron cyst - Parovarian cyst
+[Q506] Other congenital malformations of fallopian tube and broad ligament -- **Inclusion terms:** - Absence of fallopian tube and broad ligament - Accessory fallopian tube and broad ligament - Atresia of fallopian tube and broad ligament - Congenital malformation of fallopian tube or broad ligament NOS
+[Q51] Congenital malformations of uterus and cervix
+[Q510] Agenesis and aplasia of uterus -- **Inclusion terms:** - Congenital absence of uterus
+[Q511] Doubling of uterus with doubling of cervix and vagina
+[Q5110] Doubling of uterus with doubling of cervix and vagina without obstruction -- **Inclusion terms:** - Doubling of uterus with doubling of cervix and vagina NOS
+[Q5111] Doubling of uterus with doubling of cervix and vagina with obstruction
+[Q512] Other doubling of uterus -- **Inclusion terms:** - Doubling of uterus NOS - Septate uterus
+[Q5121] Complete doubling of uterus -- **Inclusion terms:** - Complete septate uterus
+[Q5122] Partial doubling of uterus -- **Inclusion terms:** - Partial septate uterus
+[Q5128] Other and unspecified doubling of uterus -- **Inclusion terms:** - Septate uterus NOS
+[Q513] Bicornate uterus -- **Inclusion terms:** - Bicornate uterus, complete or partial
+[Q514] Unicornate uterus -- **Inclusion terms:** - Unicornate uterus with or without a separate uterine horn - Uterus with only one functioning horn
+[Q515] Agenesis and aplasia of cervix -- **Inclusion terms:** - Congenital absence of cervix
+[Q516] Embryonic cyst of cervix
+[Q517] Congenital fistulae between uterus and digestive and urinary tracts
+[Q518] Other congenital malformations of uterus and cervix
+[Q5181] Other congenital malformations of uterus
+[Q51810] Arcuate uterus -- **Inclusion terms:** - Arcuatus uterus
+[Q51811] Hypoplasia of uterus
+[Q51818] Other congenital malformations of uterus -- **Inclusion terms:** - Müllerian anomaly of uterus NEC
+[Q5182] Other congenital malformations of cervix
+[Q51820] Cervical duplication
+[Q51821] Hypoplasia of cervix
+[Q51828] Other congenital malformations of cervix
+[Q519] Congenital malformation of uterus and cervix, unspecified
+[Q52] Other congenital malformations of female genitalia
+[Q520] Congenital absence of vagina -- **Inclusion terms:** - Vaginal agenesis, total or partial
+[Q521] Doubling of vagina -- **Excludes1:** - doubling of vagina with doubling of uterus and cervix (Q51.1-)
+[Q5210] Doubling of vagina, unspecified -- **Inclusion terms:** - Septate vagina NOS
+[Q5211] Transverse vaginal septum
+[Q5212] Longitudinal vaginal septum
+[Q52120] Longitudinal vaginal septum, nonobstructing
+[Q52121] Longitudinal vaginal septum, obstructing, right side
+[Q52122] Longitudinal vaginal septum, obstructing, left side
+[Q52123] Longitudinal vaginal septum, microperforate, right side
+[Q52124] Longitudinal vaginal septum, microperforate, left side
+[Q52129] Other and unspecified longitudinal vaginal septum
+[Q522] Congenital rectovaginal fistula -- **Excludes1:** - cloaca (Q43.7)
+[Q523] Imperforate hymen
+[Q524] Other congenital malformations of vagina -- **Inclusion terms:** - Canal of Nuck cyst, congenital - Congenital malformation of vagina NOS - Embryonic vaginal cyst - Gartner's duct cyst
+[Q525] Fusion of labia
+[Q526] Congenital malformation of clitoris
+[Q527] Other and unspecified congenital malformations of vulva
+[Q5270] Unspecified congenital malformations of vulva -- **Inclusion terms:** - Congenital malformation of vulva NOS
+[Q5271] Congenital absence of vulva
+[Q5279] Other congenital malformations of vulva -- **Inclusion terms:** - Congenital cyst of vulva
+[Q528] Other specified congenital malformations of female genitalia
+[Q529] Congenital malformation of female genitalia, unspecified
+[Q53] Undescended and ectopic testicle
+[Q530] Ectopic testis
+[Q5300] Ectopic testis, unspecified
+[Q5301] Ectopic testis, unilateral
+[Q5302] Ectopic testes, bilateral
+[Q531] Undescended testicle, unilateral
+[Q5310] Unspecified undescended testicle, unilateral
+[Q5311] Abdominal testis, unilateral
+[Q53111] Unilateral intraabdominal testis
+[Q53112] Unilateral inguinal testis
+[Q5312] Ectopic perineal testis, unilateral
+[Q5313] Unilateral high scrotal testis
+[Q532] Undescended testicle, bilateral
+[Q5320] Undescended testicle, unspecified, bilateral
+[Q5321] Abdominal testis, bilateral
+[Q53211] Bilateral intraabdominal testes
+[Q53212] Bilateral inguinal testes
+[Q5322] Ectopic perineal testis, bilateral
+[Q5323] Bilateral high scrotal testes
+[Q539] Undescended testicle, unspecified -- **Inclusion terms:** - Cryptorchism NOS
+[Q54] Hypospadias -- **Excludes1:** - epispadias (Q64.0)
+[Q540] Hypospadias, balanic -- **Inclusion terms:** - Hypospadias, coronal - Hypospadias, glandular
+[Q541] Hypospadias, penile
+[Q542] Hypospadias, penoscrotal
+[Q543] Hypospadias, perineal
+[Q544] Congenital chordee -- **Inclusion terms:** - Chordee without hypospadias
+[Q548] Other hypospadias -- **Inclusion terms:** - Hypospadias with intersex state
+[Q549] Hypospadias, unspecified
+[Q55] Other congenital malformations of male genital organs -- **Excludes1:** - congenital hydrocele (P83.5) - hypospadias (Q54.-)
+[Q550] Absence and aplasia of testis -- **Inclusion terms:** - Monorchism
+[Q551] Hypoplasia of testis and scrotum -- **Inclusion terms:** - Fusion of testes
+[Q552] Other and unspecified congenital malformations of testis and scrotum
+[Q5520] Unspecified congenital malformations of testis and scrotum -- **Inclusion terms:** - Congenital malformation of testis or scrotum NOS
+[Q5521] Polyorchism
+[Q5522] Retractile testis
+[Q5523] Scrotal transposition
+[Q5529] Other congenital malformations of testis and scrotum
+[Q553] Atresia of vas deferens -- **Code first:** - any associated cystic fibrosis (E84.-)
+[Q554] Other congenital malformations of vas deferens, epididymis, seminal vesicles and prostate -- **Inclusion terms:** - Absence or aplasia of prostate - Absence or aplasia of spermatic cord - Congenital malformation of vas deferens, epididymis, seminal vesicles or prostate NOS
+[Q555] Congenital absence and aplasia of penis
+[Q556] Other congenital malformations of penis
+[Q5561] Curvature of penis (lateral)
+[Q5562] Hypoplasia of penis -- **Inclusion terms:** - Micropenis
+[Q5563] Congenital torsion of penis -- **Excludes1:** - acquired torsion of penis (N48.82)
+[Q5564] Hidden penis -- **Inclusion terms:** - Buried penis - Concealed penis  **Excludes1:** - acquired buried penis (N48.83)
+[Q5569] Other congenital malformation of penis -- **Inclusion terms:** - Congenital malformation of penis NOS
+[Q557] Congenital vasocutaneous fistula
+[Q558] Other specified congenital malformations of male genital organs
+[Q559] Congenital malformation of male genital organ, unspecified -- **Inclusion terms:** - Congenital anomaly of male genital organ - Congenital deformity of male genital organ
+[Q56] Indeterminate sex and pseudohermaphroditism -- **Excludes1:** - 46,XX true hermaphrodite (Q99.1) - androgen insensitivity syndrome (E34.5-) - chimera 46,XX/46,XY true hermaphrodite (Q99.0) - female pseudohermaphroditism with adrenocortical disorder (E25.-) - pseudohermaphroditism with specified chromosomal anomaly (Q96-Q99) - pure gonadal dysgenesis (Q99.1)
+[Q560] Hermaphroditism, not elsewhere classified -- **Inclusion terms:** - Ovotestis
+[Q561] Male pseudohermaphroditism, not elsewhere classified -- **Inclusion terms:** - 46, XY with streak gonads - Male pseudohermaphroditism NOS
+[Q562] Female pseudohermaphroditism, not elsewhere classified -- **Inclusion terms:** - Female pseudohermaphroditism NOS
+[Q563] Pseudohermaphroditism, unspecified
+[Q564] Indeterminate sex, unspecified -- **Inclusion terms:** - Ambiguous genitalia
+[Q60] Renal agenesis and other reduction defects of kidney -- **Includes:** - congenital absence of kidney - congenital atrophy of kidney - infantile atrophy of kidney
+[Q600] Renal agenesis, unilateral
+[Q601] Renal agenesis, bilateral
+[Q602] Renal agenesis, unspecified
+[Q603] Renal hypoplasia, unilateral
+[Q604] Renal hypoplasia, bilateral
+[Q605] Renal hypoplasia, unspecified
+[Q606] Potter's syndrome
+[Q61] Cystic kidney disease -- **Excludes1:** - acquired cyst of kidney (N28.1) - Potter's syndrome (Q60.6)
+[Q610] Congenital renal cyst
+[Q6100] Congenital renal cyst, unspecified -- **Inclusion terms:** - Cyst of kidney NOS (congenital)
+[Q6101] Congenital single renal cyst
+[Q6102] Congenital multiple renal cysts
+[Q611] Polycystic kidney, infantile type -- **Inclusion terms:** - Polycystic kidney, autosomal recessive
+[Q6111] Cystic dilatation of collecting ducts
+[Q6119] Other polycystic kidney, infantile type
+[Q612] Polycystic kidney, adult type -- **Inclusion terms:** - Polycystic kidney, autosomal dominant
+[Q613] Polycystic kidney, unspecified
+[Q614] Renal dysplasia -- **Inclusion terms:** - Multicystic dysplastic kidney - Multicystic kidney (development) - Multicystic kidney disease - Multicystic renal dysplasia  **Excludes1:** - polycystic kidney disease (Q61.11-Q61.3)
+[Q615] Medullary cystic kidney -- **Inclusion terms:** - Nephronophthisis - Sponge kidney NOS
+[Q618] Other cystic kidney diseases -- **Inclusion terms:** - Fibrocystic kidney - Fibrocystic renal degeneration or disease
+[Q619] Cystic kidney disease, unspecified -- **Inclusion terms:** - Meckel-Gruber syndrome
+[Q62] Congenital obstructive defects of renal pelvis and congenital malformations of ureter
+[Q620] Congenital hydronephrosis
+[Q621] Congenital occlusion of ureter -- **Inclusion terms:** - Atresia and stenosis of ureter
+[Q6210] Congenital occlusion of ureter, unspecified
+[Q6211] Congenital occlusion of ureteropelvic junction
+[Q6212] Congenital occlusion of ureterovesical orifice
+[Q622] Congenital megaureter -- **Inclusion terms:** - Congenital dilatation of ureter
+[Q623] Other obstructive defects of renal pelvis and ureter
+[Q6231] Congenital ureterocele, orthotopic
+[Q6232] Cecoureterocele -- **Inclusion terms:** - Ectopic ureterocele
+[Q6239] Other obstructive defects of renal pelvis and ureter -- **Inclusion terms:** - Ureteropelvic junction obstruction NOS
+[Q624] Agenesis of ureter -- **Inclusion terms:** - Congenital absence ureter
+[Q625] Duplication of ureter -- **Inclusion terms:** - Accessory ureter - Double ureter
+[Q626] Malposition of ureter
+[Q6260] Malposition of ureter, unspecified
+[Q6261] Deviation of ureter
+[Q6262] Displacement of ureter
+[Q6263] Anomalous implantation of ureter -- **Inclusion terms:** - Ectopia of ureter - Ectopic ureter
+[Q6269] Other malposition of ureter
+[Q627] Congenital vesico-uretero-renal reflux
+[Q628] Other congenital malformations of ureter -- **Inclusion terms:** - Anomaly of ureter NOS
+[Q63] Other congenital malformations of kidney -- **Excludes1:** - congenital nephrotic syndrome (N04.-)
+[Q630] Accessory kidney
+[Q631] Lobulated, fused and horseshoe kidney
+[Q632] Ectopic kidney -- **Inclusion terms:** - Congenital displaced kidney - Malrotation of kidney
+[Q633] Hyperplastic and giant kidney -- **Inclusion terms:** - Compensatory hypertrophy of kidney
+[Q638] Other specified congenital malformations of kidney -- **Inclusion terms:** - Congenital renal calculi
+[Q639] Congenital malformation of kidney, unspecified
+[Q64] Other congenital malformations of urinary system
+[Q640] Epispadias -- **Excludes1:** - hypospadias (Q54.-)
+[Q641] Exstrophy of urinary bladder
+[Q6410] Exstrophy of urinary bladder, unspecified -- **Inclusion terms:** - Ectopia vesicae
+[Q6411] Supravesical fissure of urinary bladder
+[Q6412] Cloacal exstrophy of urinary bladder
+[Q6419] Other exstrophy of urinary bladder -- **Inclusion terms:** - Extroversion of bladder
+[Q642] Congenital posterior urethral valves
+[Q643] Other atresia and stenosis of urethra and bladder neck
+[Q6431] Congenital bladder neck obstruction -- **Inclusion terms:** - Congenital obstruction of vesicourethral orifice
+[Q6432] Congenital stricture of urethra
+[Q6433] Congenital stricture of urinary meatus
+[Q6439] Other atresia and stenosis of urethra and bladder neck -- **Inclusion terms:** - Atresia and stenosis of urethra and bladder neck NOS
+[Q644] Malformation of urachus -- **Inclusion terms:** - Cyst of urachus - Patent urachus - Prolapse of urachus
+[Q645] Congenital absence of bladder and urethra
+[Q646] Congenital diverticulum of bladder
+[Q647] Other and unspecified congenital malformations of bladder and urethra -- **Excludes1:** - congenital prolapse of bladder (mucosa) (Q79.4)
+[Q6470] Unspecified congenital malformation of bladder and urethra -- **Inclusion terms:** - Malformation of bladder or urethra NOS
+[Q6471] Congenital prolapse of urethra
+[Q6472] Congenital prolapse of urinary meatus
+[Q6473] Congenital urethrorectal fistula
+[Q6474] Double urethra
+[Q6475] Double urinary meatus
+[Q6479] Other congenital malformations of bladder and urethra
+[Q648] Other specified congenital malformations of urinary system
+[Q649] Congenital malformation of urinary system, unspecified -- **Inclusion terms:** - Congenital anomaly NOS of urinary system - Congenital deformity NOS of urinary system
+[Q65] Congenital deformities of hip -- **Excludes1:** - clicking hip (R29.4)
+[Q650] Congenital dislocation of hip, unilateral
+[Q6500] Congenital dislocation of unspecified hip, unilateral
+[Q6501] Congenital dislocation of right hip, unilateral
+[Q6502] Congenital dislocation of left hip, unilateral
+[Q651] Congenital dislocation of hip, bilateral
+[Q652] Congenital dislocation of hip, unspecified
+[Q653] Congenital partial dislocation of hip, unilateral
+[Q6530] Congenital partial dislocation of unspecified hip, unilateral
+[Q6531] Congenital partial dislocation of right hip, unilateral
+[Q6532] Congenital partial dislocation of left hip, unilateral
+[Q654] Congenital partial dislocation of hip, bilateral
+[Q655] Congenital partial dislocation of hip, unspecified
+[Q656] Congenital unstable hip -- **Inclusion terms:** - Congenital dislocatable hip
+[Q658] Other congenital deformities of hip
+[Q6581] Congenital coxa valga
+[Q6582] Congenital coxa vara
+[Q6589] Other specified congenital deformities of hip -- **Inclusion terms:** - Anteversion of femoral neck - Congenital acetabular dysplasia
+[Q659] Congenital deformity of hip, unspecified
+[Q66] Congenital deformities of feet -- **Excludes1:** - reduction defects of feet (Q72.-) - valgus deformities (acquired) (M21.0-) - varus deformities (acquired) (M21.1-)
+[Q660] Congenital talipes equinovarus
+[Q6600] Congenital talipes equinovarus, unspecified foot
+[Q6601] Congenital talipes equinovarus, right foot
+[Q6602] Congenital talipes equinovarus, left foot
+[Q661] Congenital talipes calcaneovarus
+[Q6610] Congenital talipes calcaneovarus, unspecified foot
+[Q6611] Congenital talipes calcaneovarus, right foot
+[Q6612] Congenital talipes calcaneovarus, left foot
+[Q662] Congenital metatarsus (primus) varus
+[Q6621] Congenital metatarsus primus varus
+[Q66211] Congenital metatarsus primus varus, right foot
+[Q66212] Congenital metatarsus primus varus, left foot
+[Q66219] Congenital metatarsus primus varus, unspecified foot
+[Q6622] Congenital metatarsus adductus -- **Inclusion terms:** - Congenital metatarsus varus
+[Q66221] Congenital metatarsus adductus, right foot
+[Q66222] Congenital metatarsus adductus, left foot
+[Q66229] Congenital metatarsus adductus, unspecified foot
+[Q663] Other congenital varus deformities of feet -- **Inclusion terms:** - Hallux varus, congenital
+[Q6630] Other congenital varus deformities of feet, unspecified foot
+[Q6631] Other congenital varus deformities of feet, right foot
+[Q6632] Other congenital varus deformities of feet, left foot
+[Q664] Congenital talipes calcaneovalgus
+[Q6640] Congenital talipes calcaneovalgus, unspecified foot
+[Q6641] Congenital talipes calcaneovalgus, right foot
+[Q6642] Congenital talipes calcaneovalgus, left foot
+[Q665] Congenital pes planus -- **Inclusion terms:** - Congenital flat foot - Congenital rigid flat foot - Congenital spastic (everted) flat foot  **Excludes1:** - pes planus, acquired (M21.4)
+[Q6650] Congenital pes planus, unspecified foot
+[Q6651] Congenital pes planus, right foot
+[Q6652] Congenital pes planus, left foot
+[Q666] Other congenital valgus deformities of feet -- **Inclusion terms:** - Congenital metatarsus valgus
+[Q667] Congenital pes cavus
+[Q6670] Congenital pes cavus, unspecified foot
+[Q6671] Congenital pes cavus, right foot
+[Q6672] Congenital pes cavus, left foot
+[Q668] Other congenital deformities of feet
+[Q6680] Congenital vertical talus deformity, unspecified foot
+[Q6681] Congenital vertical talus deformity, right foot
+[Q6682] Congenital vertical talus deformity, left foot
+[Q6689] Other specified congenital deformities of feet -- **Inclusion terms:** - Congenital asymmetric talipes - Congenital clubfoot NOS - Congenital talipes NOS - Congenital tarsal coalition - Hammer toe, congenital
+[Q669] Congenital deformity of feet, unspecified
+[Q6690] Congenital deformity of feet, unspecified, unspecified foot
+[Q6691] Congenital deformity of feet, unspecified, right foot
+[Q6692] Congenital deformity of feet, unspecified, left foot
+[Q67] Congenital musculoskeletal deformities of head, face, spine and chest -- **Excludes1:** - congenital malformation syndromes classified to Q87.- - Potter's syndrome (Q60.6)
+[Q670] Congenital facial asymmetry
+[Q671] Congenital compression facies
+[Q672] Dolichocephaly -- **Excludes1:** - sagittal craniosynostosis (Q75.01)
+[Q673] Plagiocephaly -- **Excludes1:** - coronal craniosynostosis (Q75.02-) - lambdoid craniosynostosis (Q75.04-)
+[Q674] Other congenital deformities of skull, face and jaw -- **Inclusion terms:** - Congenital depressions in skull - Congenital hemifacial atrophy or hypertrophy - Deviation of nasal septum, congenital - Squashed or bent nose, congenital  **Excludes1:** - dentofacial anomalies [including malocclusion] (M26.-) - syphilitic saddle nose (A50.5)
+[Q675] Congenital deformity of spine -- **Inclusion terms:** - Congenital postural scoliosis - Congenital scoliosis NOS  **Excludes1:** - infantile idiopathic scoliosis (M41.0) - scoliosis due to congenital bony malformation (Q76.3)
+[Q676] Pectus excavatum -- **Inclusion terms:** - Congenital funnel chest
+[Q677] Pectus carinatum -- **Inclusion terms:** - Congenital pigeon chest
+[Q678] Other congenital deformities of chest -- **Inclusion terms:** - Congenital deformity of chest wall NOS
+[Q68] Other congenital musculoskeletal deformities -- **Excludes1:** - reduction defects of limb(s) (Q71-Q73)  **Excludes2:** - congenital myotonic chondrodystrophy (G71.13)
+[Q680] Congenital deformity of sternocleidomastoid muscle -- **Inclusion terms:** - Congenital contracture of sternocleidomastoid (muscle) - Congenital (sternomastoid) torticollis - Sternomastoid tumor (congenital)
+[Q681] Congenital deformity of finger(s) and hand -- **Inclusion terms:** - Congenital clubfinger - Spade-like hand (congenital)
+[Q682] Congenital deformity of knee -- **Inclusion terms:** - Congenital dislocation of knee - Congenital genu recurvatum
+[Q683] Congenital bowing of femur -- **Excludes1:** - anteversion of femur (neck) (Q65.89)
+[Q684] Congenital bowing of tibia and fibula
+[Q685] Congenital bowing of long bones of leg, unspecified
+[Q686] Discoid meniscus
+[Q688] Other specified congenital musculoskeletal deformities -- **Inclusion terms:** - Congenital deformity of clavicle - Congenital deformity of elbow - Congenital deformity of forearm - Congenital deformity of scapula - Congenital deformity of wrist - Congenital dislocation of elbow - Congenital dislocation of shoulder - Congenital dislocation of wrist
+[Q69] Polydactyly
+[Q690] Accessory finger(s)
+[Q691] Accessory thumb(s)
+[Q692] Accessory toe(s) -- **Inclusion terms:** - Accessory hallux
+[Q699] Polydactyly, unspecified -- **Inclusion terms:** - Supernumerary digit(s) NOS
+[Q70] Syndactyly
+[Q700] Fused fingers -- **Inclusion terms:** - Complex syndactyly of fingers with synostosis
+[Q7000] Fused fingers, unspecified hand
+[Q7001] Fused fingers, right hand
+[Q7002] Fused fingers, left hand
+[Q7003] Fused fingers, bilateral
+[Q701] Webbed fingers -- **Inclusion terms:** - Simple syndactyly of fingers without synostosis
+[Q7010] Webbed fingers, unspecified hand
+[Q7011] Webbed fingers, right hand
+[Q7012] Webbed fingers, left hand
+[Q7013] Webbed fingers, bilateral
+[Q702] Fused toes -- **Inclusion terms:** - Complex syndactyly of toes with synostosis
+[Q7020] Fused toes, unspecified foot
+[Q7021] Fused toes, right foot
+[Q7022] Fused toes, left foot
+[Q7023] Fused toes, bilateral
+[Q703] Webbed toes -- **Inclusion terms:** - Simple syndactyly of toes without synostosis
+[Q7030] Webbed toes, unspecified foot
+[Q7031] Webbed toes, right foot
+[Q7032] Webbed toes, left foot
+[Q7033] Webbed toes, bilateral
+[Q704] Polysyndactyly, unspecified -- **Excludes1:** - specified syndactyly of hand and feet - code to specified conditions (Q70.0- -Q70.3-)
+[Q709] Syndactyly, unspecified -- **Inclusion terms:** - Symphalangy NOS
+[Q71] Reduction defects of upper limb
+[Q710] Congenital complete absence of upper limb
+[Q7100] Congenital complete absence of unspecified upper limb
+[Q7101] Congenital complete absence of right upper limb
+[Q7102] Congenital complete absence of left upper limb
+[Q7103] Congenital complete absence of upper limb, bilateral
+[Q711] Congenital absence of upper arm and forearm with hand present
+[Q7110] Congenital absence of unspecified upper arm and forearm with hand present
+[Q7111] Congenital absence of right upper arm and forearm with hand present
+[Q7112] Congenital absence of left upper arm and forearm with hand present
+[Q7113] Congenital absence of upper arm and forearm with hand present, bilateral
+[Q712] Congenital absence of both forearm and hand
+[Q7120] Congenital absence of both forearm and hand, unspecified upper limb
+[Q7121] Congenital absence of both forearm and hand, right upper limb
+[Q7122] Congenital absence of both forearm and hand, left upper limb
+[Q7123] Congenital absence of both forearm and hand, bilateral
+[Q713] Congenital absence of hand and finger
+[Q7130] Congenital absence of unspecified hand and finger
+[Q7131] Congenital absence of right hand and finger
+[Q7132] Congenital absence of left hand and finger
+[Q7133] Congenital absence of hand and finger, bilateral
+[Q714] Longitudinal reduction defect of radius -- **Inclusion terms:** - Clubhand (congenital) - Radial clubhand
+[Q7140] Longitudinal reduction defect of unspecified radius
+[Q7141] Longitudinal reduction defect of right radius
+[Q7142] Longitudinal reduction defect of left radius
+[Q7143] Longitudinal reduction defect of radius, bilateral
+[Q715] Longitudinal reduction defect of ulna
+[Q7150] Longitudinal reduction defect of unspecified ulna
+[Q7151] Longitudinal reduction defect of right ulna
+[Q7152] Longitudinal reduction defect of left ulna
+[Q7153] Longitudinal reduction defect of ulna, bilateral
+[Q716] Lobster-claw hand
+[Q7160] Lobster-claw hand, unspecified hand
+[Q7161] Lobster-claw right hand
+[Q7162] Lobster-claw left hand
+[Q7163] Lobster-claw hand, bilateral
+[Q718] Other reduction defects of upper limb
+[Q7181] Congenital shortening of upper limb
+[Q71811] Congenital shortening of right upper limb
+[Q71812] Congenital shortening of left upper limb
+[Q71813] Congenital shortening of upper limb, bilateral
+[Q71819] Congenital shortening of unspecified upper limb
+[Q7189] Other reduction defects of upper limb
+[Q71891] Other reduction defects of right upper limb
+[Q71892] Other reduction defects of left upper limb
+[Q71893] Other reduction defects of upper limb, bilateral
+[Q71899] Other reduction defects of unspecified upper limb
+[Q719] Unspecified reduction defect of upper limb
+[Q7190] Unspecified reduction defect of unspecified upper limb
+[Q7191] Unspecified reduction defect of right upper limb
+[Q7192] Unspecified reduction defect of left upper limb
+[Q7193] Unspecified reduction defect of upper limb, bilateral
+[Q72] Reduction defects of lower limb
+[Q720] Congenital complete absence of lower limb
+[Q7200] Congenital complete absence of unspecified lower limb
+[Q7201] Congenital complete absence of right lower limb
+[Q7202] Congenital complete absence of left lower limb
+[Q7203] Congenital complete absence of lower limb, bilateral
+[Q721] Congenital absence of thigh and lower leg with foot present
+[Q7210] Congenital absence of unspecified thigh and lower leg with foot present
+[Q7211] Congenital absence of right thigh and lower leg with foot present
+[Q7212] Congenital absence of left thigh and lower leg with foot present
+[Q7213] Congenital absence of thigh and lower leg with foot present, bilateral
+[Q722] Congenital absence of both lower leg and foot
+[Q7220] Congenital absence of both lower leg and foot, unspecified lower limb
+[Q7221] Congenital absence of both lower leg and foot, right lower limb
+[Q7222] Congenital absence of both lower leg and foot, left lower limb
+[Q7223] Congenital absence of both lower leg and foot, bilateral
+[Q723] Congenital absence of foot and toe(s)
+[Q7230] Congenital absence of unspecified foot and toe(s)
+[Q7231] Congenital absence of right foot and toe(s)
+[Q7232] Congenital absence of left foot and toe(s)
+[Q7233] Congenital absence of foot and toe(s), bilateral
+[Q724] Longitudinal reduction defect of femur -- **Inclusion terms:** - Proximal femoral focal deficiency
+[Q7240] Longitudinal reduction defect of unspecified femur
+[Q7241] Longitudinal reduction defect of right femur
+[Q7242] Longitudinal reduction defect of left femur
+[Q7243] Longitudinal reduction defect of femur, bilateral
+[Q725] Longitudinal reduction defect of tibia
+[Q7250] Longitudinal reduction defect of unspecified tibia
+[Q7251] Longitudinal reduction defect of right tibia
+[Q7252] Longitudinal reduction defect of left tibia
+[Q7253] Longitudinal reduction defect of tibia, bilateral
+[Q726] Longitudinal reduction defect of fibula
+[Q7260] Longitudinal reduction defect of unspecified fibula
+[Q7261] Longitudinal reduction defect of right fibula
+[Q7262] Longitudinal reduction defect of left fibula
+[Q7263] Longitudinal reduction defect of fibula, bilateral
+[Q727] Split foot
+[Q7270] Split foot, unspecified lower limb
+[Q7271] Split foot, right lower limb
+[Q7272] Split foot, left lower limb
+[Q7273] Split foot, bilateral
+[Q728] Other reduction defects of lower limb
+[Q7281] Congenital shortening of lower limb
+[Q72811] Congenital shortening of right lower limb
+[Q72812] Congenital shortening of left lower limb
+[Q72813] Congenital shortening of lower limb, bilateral
+[Q72819] Congenital shortening of unspecified lower limb
+[Q7289] Other reduction defects of lower limb
+[Q72891] Other reduction defects of right lower limb
+[Q72892] Other reduction defects of left lower limb
+[Q72893] Other reduction defects of lower limb, bilateral
+[Q72899] Other reduction defects of unspecified lower limb
+[Q729] Unspecified reduction defect of lower limb
+[Q7290] Unspecified reduction defect of unspecified lower limb
+[Q7291] Unspecified reduction defect of right lower limb
+[Q7292] Unspecified reduction defect of left lower limb
+[Q7293] Unspecified reduction defect of lower limb, bilateral
+[Q73] Reduction defects of unspecified limb
+[Q730] Congenital absence of unspecified limb(s) -- **Inclusion terms:** - Amelia NOS
+[Q731] Phocomelia, unspecified limb(s) -- **Inclusion terms:** - Phocomelia NOS
+[Q738] Other reduction defects of unspecified limb(s) -- **Inclusion terms:** - Longitudinal reduction deformity of unspecified limb(s) - Ectromelia of limb NOS - Hemimelia of limb NOS - Reduction defect of limb NOS
+[Q74] Other congenital malformations of limb(s) -- **Excludes1:** - polydactyly (Q69.-) - reduction defect of limb (Q71-Q73) - syndactyly (Q70.-)
+[Q740] Other congenital malformations of upper limb(s), including shoulder girdle -- **Inclusion terms:** - Accessory carpal bones - Cleidocranial dysostosis - Congenital pseudarthrosis of clavicle - Macrodactylia (fingers) - Madelung's deformity - Radioulnar synostosis - Sprengel's deformity - Triphalangeal thumb
+[Q741] Congenital malformation of knee -- **Inclusion terms:** - Congenital absence of patella - Congenital dislocation of patella - Congenital genu valgum - Congenital genu varum - Rudimentary patella  **Excludes1:** - congenital dislocation of knee (Q68.2) - congenital genu recurvatum (Q68.2) - nail patella syndrome (Q87.2)
+[Q742] Other congenital malformations of lower limb(s), including pelvic girdle -- **Inclusion terms:** - Congenital fusion of sacroiliac joint - Congenital malformation of ankle joint - Congenital malformation of sacroiliac joint  **Excludes1:** - anteversion of femur (neck) (Q65.89)
+[Q743] Arthrogryposis multiplex congenita
+[Q748] Other specified congenital malformations of limb(s)
+[Q749] Unspecified congenital malformation of limb(s) -- **Inclusion terms:** - Congenital anomaly of limb(s) NOS
+[Q75] Other congenital malformations of skull and face bones -- **Excludes1:** - congenital malformation of face NOS (Q18.-) - congenital malformation syndromes classified to Q87.- - dentofacial anomalies [including malocclusion] (M26.-) - musculoskeletal deformities of head and face (Q67.0-Q67.4) - skull defects associated with congenital anomalies of brain such as: - anencephaly (Q00.0) - encephalocele (Q01.-) - hydrocephalus (Q03.-) - microcephaly (Q02)
+[Q750] Craniosynostosis
+[Q7500] Craniosynostosis unspecified -- **Inclusion terms:** - Craniosynostosis NOS
+[Q75001] Craniosynostosis unspecified, unilateral
+[Q75002] Craniosynostosis unspecified, bilateral
+[Q75009] Craniosynostosis unspecified -- **Inclusion terms:** - Imperfect fusion of skull
+[Q7501] Sagittal craniosynostosis -- **Inclusion terms:** - Non-deformational dolichocephaly - Non-deformational scaphocephaly  **Excludes1:** - plagiocephaly (Q67.3)
+[Q7502] Coronal craniosynostosis -- **Inclusion terms:** - Non-deformational anterior plagiocephaly  **Excludes1:** - dolichocephaly (Q67.2)
+[Q75021] Coronal craniosynostosis unilateral -- **Inclusion terms:** - Non-deformational anterior plagiocephaly
+[Q75022] Coronal craniosynostosis bilateral -- **Inclusion terms:** - Non-deformational brachycephaly
+[Q75029] Coronal craniosynostosis unspecified
+[Q7503] Metopic craniosynostosis -- **Inclusion terms:** - Trigonocephaly
+[Q7504] Lambdoid craniosynostosis -- **Inclusion terms:** - Non-deformational posterior plagiocephaly  **Excludes1:** - dolichocephaly (Q67.2)
+[Q75041] Lambdoid craniosynostosis, unilateral
+[Q75042] Lambdoid craniosynostosis, bilateral
+[Q75049] Lambdoid craniosynostosis, unspecified
+[Q7505] Multi-suture craniosynostosis
+[Q75051] Cloverleaf skull -- **Inclusion terms:** - Kleeblattschaedel skull
+[Q75052] Pansynostosis
+[Q75058] Other multi-suture craniosynostosis -- **Excludes1:** - coronal craniosynostosis, bilateral (Q75.022) - lambdoid craniosynostosis, bilateral (Q75.042)
+[Q7508] Other single-suture craniosynostosis
+[Q751] Craniofacial dysostosis -- **Inclusion terms:** - Crouzon's disease
+[Q752] Hypertelorism
+[Q753] Macrocephaly
+[Q754] Mandibulofacial dysostosis -- **Inclusion terms:** - Franceschetti syndrome - Treacher Collins syndrome
+[Q755] Oculomandibular dysostosis
+[Q758] Other specified congenital malformations of skull and face bones -- **Inclusion terms:** - Absence of skull bone, congenital - Congenital deformity of forehead - Platybasia
+[Q759] Congenital malformation of skull and face bones, unspecified -- **Inclusion terms:** - Congenital anomaly of face bones NOS - Congenital anomaly of skull NOS
+[Q76] Congenital malformations of spine and bony thorax -- **Excludes1:** - congenital musculoskeletal deformities of spine and chest (Q67.5-Q67.8)
+[Q760] Spina bifida occulta -- **Excludes1:** - meningocele (spinal) (Q05.-) - spina bifida (aperta) (cystica) (Q05.-)
+[Q761] Klippel-Feil syndrome -- **Inclusion terms:** - Cervical fusion syndrome
+[Q762] Congenital spondylolisthesis -- **Inclusion terms:** - Congenital spondylolysis  **Excludes1:** - spondylolisthesis (acquired) (M43.1-) - spondylolysis (acquired) (M43.0-)
+[Q763] Congenital scoliosis due to congenital bony malformation -- **Inclusion terms:** - Hemivertebra fusion or failure of segmentation with scoliosis
+[Q764] Other congenital malformations of spine, not associated with scoliosis
+[Q7641] Congenital kyphosis
+[Q76411] Congenital kyphosis, occipito-atlanto-axial region
+[Q76412] Congenital kyphosis, cervical region
+[Q76413] Congenital kyphosis, cervicothoracic region
+[Q76414] Congenital kyphosis, thoracic region
+[Q76415] Congenital kyphosis, thoracolumbar region
+[Q76419] Congenital kyphosis, unspecified region
+[Q7642] Congenital lordosis
+[Q76425] Congenital lordosis, thoracolumbar region
+[Q76426] Congenital lordosis, lumbar region
+[Q76427] Congenital lordosis, lumbosacral region
+[Q76428] Congenital lordosis, sacral and sacrococcygeal region
+[Q76429] Congenital lordosis, unspecified region
+[Q7649] Other congenital malformations of spine, not associated with scoliosis -- **Inclusion terms:** - Congenital absence of vertebra NOS - Congenital fusion of spine NOS - Congenital malformation of lumbosacral (joint) (region) NOS - Congenital malformation of spine NOS - Hemivertebra NOS - Malformation of spine NOS - Platyspondylisis NOS - Supernumerary vertebra NOS
+[Q765] Cervical rib -- **Inclusion terms:** - Supernumerary rib in cervical region
+[Q766] Other congenital malformations of ribs -- **Inclusion terms:** - Accessory rib - Congenital absence of rib - Congenital fusion of ribs - Congenital malformation of ribs NOS  **Excludes1:** - short rib syndrome (Q77.2)
+[Q767] Congenital malformation of sternum -- **Inclusion terms:** - Congenital absence of sternum - Sternum bifidum
+[Q768] Other congenital malformations of bony thorax
+[Q769] Congenital malformation of bony thorax, unspecified
+[Q77] Osteochondrodysplasia with defects of growth of tubular bones and spine -- **Excludes1:** - mucopolysaccharidosis (E76.0-E76.3)  **Excludes2:** - congenital myotonic chondrodystrophy (G71.13)
+[Q770] Achondrogenesis -- **Inclusion terms:** - Hypochondrogenesis
+[Q771] Thanatophoric short stature
+[Q772] Short rib syndrome -- **Inclusion terms:** - Asphyxiating thoracic dysplasia [Jeune]
+[Q773] Chondrodysplasia punctata -- **Excludes1:** - Rhizomelic chondrodysplasia punctata (E71.43)
+[Q774] Achondroplasia -- **Inclusion terms:** - Hypochondroplasia - Osteosclerosis congenita
+[Q775] Diastrophic dysplasia
+[Q776] Chondroectodermal dysplasia -- **Inclusion terms:** - Ellis-van Creveld syndrome
+[Q777] Spondyloepiphyseal dysplasia
+[Q778] Other osteochondrodysplasia with defects of growth of tubular bones and spine
+[Q779] Osteochondrodysplasia with defects of growth of tubular bones and spine, unspecified
+[Q78] Other osteochondrodysplasias -- **Excludes2:** - congenital myotonic chondrodystrophy (G71.13)
+[Q780] Osteogenesis imperfecta -- **Inclusion terms:** - Fragilitas ossium - Osteopsathyrosis
+[Q781] Polyostotic fibrous dysplasia -- **Inclusion terms:** - Albright(-McCune)(-Sternberg) syndrome
+[Q782] Osteopetrosis -- **Inclusion terms:** - Albers-Schönberg syndrome - Osteosclerosis NOS
+[Q783] Progressive diaphyseal dysplasia -- **Inclusion terms:** - Camurati-Engelmann syndrome
+[Q784] Enchondromatosis -- **Inclusion terms:** - Maffucci's syndrome - Ollier's disease
+[Q785] Metaphyseal dysplasia -- **Inclusion terms:** - Pyle's syndrome
+[Q786] Multiple congenital exostoses -- **Inclusion terms:** - Diaphyseal aclasis
+[Q788] Other specified osteochondrodysplasias -- **Inclusion terms:** - Osteopoikilosis
+[Q789] Osteochondrodysplasia, unspecified -- **Inclusion terms:** - Chondrodystrophy NOS - Osteodystrophy NOS
+[Q79] Congenital malformations of musculoskeletal system, not elsewhere classified -- **Excludes2:** - congenital (sternomastoid) torticollis (Q68.0)
+[Q790] Congenital diaphragmatic hernia -- **Excludes1:** - congenital hiatus hernia (Q40.1)
+[Q791] Other congenital malformations of diaphragm -- **Inclusion terms:** - Absence of diaphragm - Congenital malformation of diaphragm NOS - Eventration of diaphragm
+[Q792] Exomphalos -- **Inclusion terms:** - Omphalocele  **Excludes1:** - umbilical hernia (K42.-)
+[Q793] Gastroschisis
+[Q794] Prune belly syndrome -- **Inclusion terms:** - Congenital prolapse of bladder mucosa - Eagle-Barrett syndrome
+[Q795] Other congenital malformations of abdominal wall -- **Excludes1:** - umbilical hernia (K42.-)
+[Q7951] Congenital hernia of bladder
+[Q7959] Other congenital malformations of abdominal wall
+[Q796] Ehlers-Danlos syndromes
+[Q7960] Ehlers-Danlos syndrome, unspecified
+[Q7961] Classical Ehlers-Danlos syndrome -- **Inclusion terms:** - Classical EDS (cEDS)
+[Q7962] Hypermobile Ehlers-Danlos syndrome -- **Inclusion terms:** - Hypermobile EDS (hEDS)
+[Q7963] Vascular Ehlers-Danlos syndrome -- **Inclusion terms:** - Vascular EDS (vEDS)
+[Q7969] Other Ehlers-Danlos syndromes
+[Q798] Other congenital malformations of musculoskeletal system -- **Inclusion terms:** - Absence of muscle - Absence of tendon - Accessory muscle - Amyotrophia congenita - Congenital constricting bands - Congenital shortening of tendon - Poland syndrome
+[Q799] Congenital malformation of musculoskeletal system, unspecified -- **Inclusion terms:** - Congenital anomaly of musculoskeletal system NOS - Congenital deformity of musculoskeletal system NOS
+[Q80] Congenital ichthyosis -- **Excludes1:** - Refsum's disease (G60.1)
+[Q800] Ichthyosis vulgaris
+[Q801] X-linked ichthyosis
+[Q802] Lamellar ichthyosis -- **Inclusion terms:** - Collodion baby
+[Q803] Congenital bullous ichthyosiform erythroderma
+[Q804] Harlequin fetus
+[Q808] Other congenital ichthyosis
+[Q809] Congenital ichthyosis, unspecified
+[Q81] Epidermolysis bullosa
+[Q810] Epidermolysis bullosa simplex -- **Excludes1:** - Cockayne's syndrome (Q87.19)
+[Q811] Epidermolysis bullosa letalis -- **Inclusion terms:** - Herlitz' syndrome
+[Q812] Epidermolysis bullosa dystrophica
+[Q818] Other epidermolysis bullosa
+[Q819] Epidermolysis bullosa, unspecified
+[Q82] Other congenital malformations of skin -- **Excludes1:** - acrodermatitis enteropathica (E83.2) - congenital erythropoietic porphyria (E80.0) - pilonidal cyst or sinus (L05.-) - Sturge-Weber (-Dimitri) syndrome (Q85.89)
+[Q820] Hereditary lymphedema
+[Q821] Xeroderma pigmentosum
+[Q822] Congenital cutaneous mastocytosis -- **Inclusion terms:** - Congenital diffuse cutaneous mastocytosis - Congenital maculopapular cutaneous mastocytosis - Congenital urticaria pigmentosa  **Excludes1:** - cutaneous mastocytosis NOS (D47.01) - diffuse cutaneous mastocytosis (with onset after newborn period) (D47.01) - malignant mastocytosis (C96.2-) - systemic mastocytosis (D47.02) - urticaria pigmentosa (non-congenital) (with onset after newborn period) (D47.01)
+[Q823] Incontinentia pigmenti
+[Q824] Ectodermal dysplasia (anhidrotic) -- **Excludes1:** - Ellis-van Creveld syndrome (Q77.6)
+[Q825] Congenital non-neoplastic nevus -- **Inclusion terms:** - Birthmark NOS - Flammeus Nevus - Portwine Nevus - Sanguineous Nevus - Strawberry Nevus - Vascular Nevus NOS - Verrucous Nevus  **Excludes2:** - Café au lait spots (L81.3) - lentigo (L81.4) - nevus NOS (D22.-) - araneus nevus (I78.1) - melanocytic nevus (D22.-) - pigmented nevus (D22.-) - spider nevus (I78.1) - stellar nevus (I78.1)
+[Q826] Congenital sacral dimple -- **Inclusion terms:** - Parasacral dimple  **Excludes2:** - pilonidal cyst with abscess (L05.01) - pilonidal cyst without abscess (L05.91)
+[Q828] Other specified congenital malformations of skin -- **Inclusion terms:** - Abnormal palmar creases - Accessory skin tags - Benign familial pemphigus [Hailey-Hailey] - Congenital poikiloderma - Cutis laxa (hyperelastica) - Dermatoglyphic anomalies - Inherited keratosis palmaris et plantaris - Keratosis follicularis [Darier-White]  **Excludes1:** - Ehlers-Danlos syndromes (Q79.6-)
+[Q829] Congenital malformation of skin, unspecified
+[Q83] Congenital malformations of breast -- **Excludes2:** - absence of pectoral muscle (Q79.8) - hypoplasia of breast (N64.82) - micromastia (N64.82)
+[Q830] Congenital absence of breast with absent nipple
+[Q831] Accessory breast -- **Inclusion terms:** - Supernumerary breast
+[Q832] Absent nipple
+[Q833] Accessory nipple -- **Inclusion terms:** - Supernumerary nipple
+[Q838] Other congenital malformations of breast
+[Q839] Congenital malformation of breast, unspecified
+[Q84] Other congenital malformations of integument
+[Q840] Congenital alopecia -- **Inclusion terms:** - Congenital atrichosis
+[Q841] Congenital morphological disturbances of hair, not elsewhere classified -- **Inclusion terms:** - Beaded hair - Monilethrix - Pili annulati  **Excludes1:** - Menkes' kinky hair syndrome (E83.09)
+[Q842] Other congenital malformations of hair -- **Inclusion terms:** - Congenital hypertrichosis - Congenital malformation of hair NOS - Persistent lanugo
+[Q843] Anonychia -- **Excludes1:** - nail patella syndrome (Q87.2)
+[Q844] Congenital leukonychia
+[Q845] Enlarged and hypertrophic nails -- **Inclusion terms:** - Congenital onychauxis - Pachyonychia
+[Q846] Other congenital malformations of nails -- **Inclusion terms:** - Congenital clubnail - Congenital koilonychia - Congenital malformation of nail NOS
+[Q848] Other specified congenital malformations of integument -- **Inclusion terms:** - Aplasia cutis congenita
+[Q849] Congenital malformation of integument, unspecified -- **Inclusion terms:** - Congenital anomaly of integument NOS - Congenital deformity of integument NOS
+[Q85] Phakomatoses, not elsewhere classified -- **Excludes1:** - ataxia telangiectasia [Louis-Bar] (G11.3) - familial dysautonomia [Riley-Day] (G90.1)
+[Q850] Neurofibromatosis (nonmalignant)
+[Q8500] Neurofibromatosis, unspecified
+[Q8501] Neurofibromatosis, type 1 -- **Inclusion terms:** - Von Recklinghausen disease
+[Q8502] Neurofibromatosis, type 2 -- **Inclusion terms:** - Acoustic neurofibromatosis
+[Q8503] Schwannomatosis
+[Q8509] Other neurofibromatosis
+[Q851] Tuberous sclerosis -- **Inclusion terms:** - Bourneville's disease - Epiloia
+[Q858] Other phakomatoses, not elsewhere classified -- **Excludes1:** - Meckel-Gruber syndrome (Q61.9)
+[Q8581] PTEN hamartoma tumor syndrome -- **Inclusion terms:** - PHTS - PTEN related Cowden syndrome  **Code also:** - , if applicable, genetic susceptibility to malignant neoplasm (Z15.0-)
+[Q8582] Other Cowden syndrome
+[Q8583] Von Hippel-Lindau syndrome -- **Code also:** - manifestations
+[Q8589] Other phakomatoses, not elsewhere classified -- **Inclusion terms:** - Peutz-Jeghers syndrome - Sturge-Weber(-Dimitri) syndrome
+[Q859] Phakomatosis, unspecified -- **Inclusion terms:** - Hamartosis NOS
+[Q86] Congenital malformation syndromes due to known exogenous causes, not elsewhere classified -- **Excludes2:** - iodine-deficiency-related hypothyroidism (E00-E02) - nonteratogenic effects of substances transmitted via placenta or breast milk (P04.-)
+[Q860] Fetal alcohol syndrome (dysmorphic)
+[Q861] Fetal hydantoin syndrome -- **Inclusion terms:** - Meadow's syndrome
+[Q862] Dysmorphism due to warfarin
+[Q868] Other congenital malformation syndromes due to known exogenous causes
+[Q87] Other specified congenital malformation syndromes affecting multiple systems -- **Use additional code:** - code(s) to identify all associated manifestations
+[Q870] Congenital malformation syndromes predominantly affecting facial appearance -- **Inclusion terms:** - Acrocephalopolysyndactyly - Acrocephalosyndactyly [Apert] - Cryptophthalmos syndrome - Cyclopia - Goldenhar syndrome - Moebius syndrome - Oro-facial-digital syndrome - Robin syndrome - Whistling face
+[Q871] Congenital malformation syndromes predominantly associated with short stature -- **Excludes1:** - Ellis-van Creveld syndrome (Q77.6) - Smith-Lemli-Opitz syndrome (E78.72)
+[Q8711] Prader-Willi syndrome
+[Q8719] Other congenital malformation syndromes predominantly associated with short stature -- **Inclusion terms:** - Aarskog syndrome - Cockayne syndrome - De Lange syndrome - Dubowitz syndrome - Noonan syndrome - Robinow-Silverman-Smith syndrome - Russell-Silver syndrome - Seckel syndrome
+[Q872] Congenital malformation syndromes predominantly involving limbs -- **Inclusion terms:** - Holt-Oram syndrome - Klippel-Trenaunay-Weber syndrome - Nail patella syndrome - Rubinstein-Taybi syndrome - Sirenomelia syndrome - Thrombocytopenia with absent radius [TAR] syndrome - VATER syndrome
+[Q873] Congenital malformation syndromes involving early overgrowth -- **Inclusion terms:** - Beckwith-Wiedemann syndrome - Sotos syndrome - Weaver syndrome
+[Q874] Marfan syndrome
+[Q8740] Marfan syndrome, unspecified
+[Q8741] Marfan syndrome with cardiovascular manifestations
+[Q87410] Marfan syndrome with aortic dilation
+[Q87418] Marfan syndrome with other cardiovascular manifestations
+[Q8742] Marfan syndrome with ocular manifestations
+[Q8743] Marfan syndrome with skeletal manifestation
+[Q875] Other congenital malformation syndromes with other skeletal changes
+[Q878] Other specified congenital malformation syndromes, not elsewhere classified -- **Excludes1:** - Zellweger syndrome (E71.510)
+[Q8781] Alport syndrome -- **Use additional code:** - code to identify stage of chronic kidney disease (N18.1-N18.6)
+[Q8782] Arterial tortuosity syndrome
+[Q8783] Bardet-Biedl syndrome
+[Q8784] Laurence-Moon syndrome
+[Q8785] MED13L syndrome -- **Inclusion terms:** - Asadollahi-Rauch syndrome - Mediator complex subunit 13L syndrome  **Code also:** - , if applicable, any associated manifestations such as: - autism spectrum disorder (F84.0-) - congenital malformations of cardiac septa (Q21.-) - epilepsy and recurrent seizures (G40.-) - intellectual disability (F70-F79)
+[Q8786] Kleefstra syndrome
+[Q8789] Other specified congenital malformation syndromes, not elsewhere classified
+[Q89] Other congenital malformations, not elsewhere classified
+[Q890] Congenital absence and malformations of spleen -- **Excludes1:** - isomerism of atrial appendages (with asplenia or polysplenia) (Q20.6)
+[Q8901] Asplenia (congenital)
+[Q8909] Congenital malformations of spleen -- **Inclusion terms:** - Congenital splenomegaly
+[Q891] Congenital malformations of adrenal gland -- **Excludes1:** - adrenogenital disorders (E25.-) - congenital adrenal hyperplasia (E25.0)
+[Q892] Congenital malformations of other endocrine glands -- **Inclusion terms:** - Congenital malformation of parathyroid or thyroid gland - Persistent thyroglossal duct - Thyroglossal cyst  **Excludes1:** - congenital goiter (E03.0) - congenital hypothyroidism (E03.1)
+[Q893] Situs inversus -- **Inclusion terms:** - Dextrocardia with situs inversus - Mirror-image atrial arrangement with situs inversus - Situs inversus or transversus abdominalis - Situs inversus or transversus thoracis - Transposition of abdominal viscera - Transposition of thoracic viscera  **Excludes1:** - dextrocardia NOS (Q24.0)
+[Q894] Conjoined twins -- **Inclusion terms:** - Craniopagus - Dicephaly - Pygopagus - Thoracopagus
+[Q897] Multiple congenital malformations, not elsewhere classified -- **Inclusion terms:** - Multiple congenital anomalies NOS - Multiple congenital deformities NOS  **Excludes1:** - congenital malformation syndromes affecting multiple systems (Q87.-)
+[Q898] Other specified congenital malformations -- **Use additional code:** - code(s) to identify all associated manifestations
+[Q899] Congenital malformation, unspecified -- **Inclusion terms:** - Congenital anomaly NOS - Congenital deformity NOS
+[Q90] Down syndrome -- **Code also:** - associated physical condition(s), such as atrioventricular septal defect (Q21.2-)  **Use additional code:** - code(s) to identify any associated degree of intellectual disabilities (F70-F79)
+[Q900] Trisomy 21, nonmosaicism (meiotic nondisjunction)
+[Q901] Trisomy 21, mosaicism (mitotic nondisjunction)
+[Q902] Trisomy 21, translocation
+[Q909] Down syndrome, unspecified -- **Inclusion terms:** - Trisomy 21 NOS
+[Q91] Trisomy 18 and Trisomy 13
+[Q910] Trisomy 18, nonmosaicism (meiotic nondisjunction)
+[Q911] Trisomy 18, mosaicism (mitotic nondisjunction)
+[Q912] Trisomy 18, translocation
+[Q913] Trisomy 18, unspecified
+[Q914] Trisomy 13, nonmosaicism (meiotic nondisjunction)
+[Q915] Trisomy 13, mosaicism (mitotic nondisjunction)
+[Q916] Trisomy 13, translocation
+[Q917] Trisomy 13, unspecified
+[Q92] Other trisomies and partial trisomies of the autosomes, not elsewhere classified -- **Includes:** - unbalanced translocations and insertions  **Excludes1:** - trisomies of chromosomes 13, 18, 21 (Q90-Q91)
+[Q920] Whole chromosome trisomy, nonmosaicism (meiotic nondisjunction)
+[Q921] Whole chromosome trisomy, mosaicism (mitotic nondisjunction)
+[Q922] Partial trisomy -- **Inclusion terms:** - Less than whole arm duplicated - Whole arm or more duplicated  **Excludes1:** - partial trisomy due to unbalanced translocation (Q92.5)
+[Q925] Duplications with other complex rearrangements -- **Inclusion terms:** - Partial trisomy due to unbalanced translocations  **Code also:** - any associated deletions due to unbalanced translocations, inversions and insertions (Q93.7)
+[Q926] Marker chromosomes -- **Inclusion terms:** - Trisomies due to dicentrics - Trisomies due to extra rings - Trisomies due to isochromosomes - Individual with marker heterochromatin
+[Q9261] Marker chromosomes in normal individual
+[Q9262] Marker chromosomes in abnormal individual
+[Q927] Triploidy and polyploidy
+[Q928] Other specified trisomies and partial trisomies of autosomes -- **Inclusion terms:** - Duplications identified by fluorescence in situ hybridization (FISH) - Duplications identified by in situ hybridization (ISH) - Duplications seen only at prometaphase
+[Q929] Trisomy and partial trisomy of autosomes, unspecified
+[Q93] Monosomies and deletions from the autosomes, not elsewhere classified
+[Q930] Whole chromosome monosomy, nonmosaicism (meiotic nondisjunction)
+[Q931] Whole chromosome monosomy, mosaicism (mitotic nondisjunction)
+[Q932] Chromosome replaced with ring, dicentric or isochromosome
+[Q933] Deletion of short arm of chromosome 4 -- **Inclusion terms:** - Wolff-Hirschorn syndrome
+[Q934] Deletion of short arm of chromosome 5 -- **Inclusion terms:** - Cri-du-chat syndrome
+[Q935] Other deletions of part of a chromosome
+[Q9351] Angelman syndrome
+[Q9352] Phelan-McDermid syndrome -- **Inclusion terms:** - 22q13.3 deletion syndrome  **Use additional code:** - code(s) to identify any associated conditions, such as: - autism spectrum disorder (F84.0) - degree of intellectual disabilities (F70-F79) - epilepsy and recurrent seizures (G40.-) - lymphedema (I89.0)
+[Q9359] Other deletions of part of a chromosome
+[Q937] Deletions with other complex rearrangements -- **Inclusion terms:** - Deletions due to unbalanced translocations, inversions and insertions  **Code also:** - any associated duplications due to unbalanced translocations, inversions and insertions (Q92.5)
+[Q938] Other deletions from the autosomes
+[Q9381] Velo-cardio-facial syndrome -- **Inclusion terms:** - Deletion 22q11.2
+[Q9382] Williams syndrome
+[Q9388] Other microdeletions -- **Inclusion terms:** - Miller-Dieker syndrome - Smith-Magenis syndrome
+[Q9389] Other deletions from the autosomes -- **Inclusion terms:** - Deletions identified by fluorescence in situ hybridization (FISH) - Deletions identified by in situ hybridization (ISH) - Deletions seen only at prometaphase
+[Q939] Deletion from autosomes, unspecified
+[Q95] Balanced rearrangements and structural markers, not elsewhere classified -- **Includes:** - Robertsonian and balanced reciprocal translocations and insertions
+[Q950] Balanced translocation and insertion in normal individual
+[Q951] Chromosome inversion in normal individual
+[Q952] Balanced autosomal rearrangement in abnormal individual
+[Q953] Balanced sex/autosomal rearrangement in abnormal individual
+[Q955] Individual with autosomal fragile site
+[Q958] Other balanced rearrangements and structural markers
+[Q959] Balanced rearrangement and structural marker, unspecified
+[Q96] Turner's syndrome -- **Excludes1:** - Noonan syndrome (Q87.19)
+[Q960] Karyotype 45, X
+[Q961] Karyotype 46, X iso (Xq) -- **Inclusion terms:** - Karyotype 46, isochromosome Xq
+[Q962] Karyotype 46, X with abnormal sex chromosome, except iso (Xq) -- **Inclusion terms:** - Karyotype 46, X with abnormal sex chromosome, except isochromosome Xq
+[Q963] Mosaicism, 45, X/46, XX or XY
+[Q964] Mosaicism, 45, X/other cell line(s) with abnormal sex chromosome
+[Q968] Other variants of Turner's syndrome
+[Q969] Turner's syndrome, unspecified
+[Q97] Other sex chromosome abnormalities, female phenotype, not elsewhere classified -- **Excludes1:** - Turner's syndrome (Q96.-)
+[Q970] Karyotype 47, XXX
+[Q971] Female with more than three X chromosomes
+[Q972] Mosaicism, lines with various numbers of X chromosomes
+[Q973] Female with 46, XY karyotype
+[Q978] Other specified sex chromosome abnormalities, female phenotype
+[Q979] Sex chromosome abnormality, female phenotype, unspecified
+[Q98] Other sex chromosome abnormalities, male phenotype, not elsewhere classified
+[Q980] Klinefelter syndrome karyotype 47, XXY
+[Q981] Klinefelter syndrome, male with more than two X chromosomes
+[Q983] Other male with 46, XX karyotype
+[Q984] Klinefelter syndrome, unspecified
+[Q985] Karyotype 47, XYY
+[Q986] Male with structurally abnormal sex chromosome
+[Q987] Male with sex chromosome mosaicism
+[Q988] Other specified sex chromosome abnormalities, male phenotype
+[Q989] Sex chromosome abnormality, male phenotype, unspecified
+[Q99] Other chromosome abnormalities, not elsewhere classified
+[Q990] Chimera 46, XX/46, XY -- **Inclusion terms:** - Chimera 46, XX/46, XY true hermaphrodite
+[Q991] 46, XX true hermaphrodite -- **Inclusion terms:** - 46, XX with streak gonads - 46, XY with streak gonads - Pure gonadal dysgenesis
+[Q992] Fragile X chromosome -- **Inclusion terms:** - Fragile X syndrome
+[Q998] Other specified chromosome abnormalities
+[Q999] Chromosomal abnormality, unspecified

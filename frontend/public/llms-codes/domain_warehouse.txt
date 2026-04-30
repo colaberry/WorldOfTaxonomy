@@ -1,0 +1,14 @@
+[WH] Warehouse Types :: naics_2022:5419
+[WH.01] Distribution Center
+[WH.02] Fulfillment Center
+[WH.03] Cross-Dock Facility
+[WH.04] Cold Storage Warehouse
+[WH.05] Bonded Warehouse
+[WH.06] Public Warehouse (3PL)
+[WH.07] Private Warehouse
+[WH.08] Automated/Robotic Warehouse
+[WH.09] Dark Store
+[WH.10] Micro-Fulfillment Center
+[WH.11] Hazmat Warehouse
+[WH.12] Bulk Storage Facility
+[WH.13] Sortation Center

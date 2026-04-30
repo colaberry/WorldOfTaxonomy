@@ -1,0 +1,18 @@
+[dedudlv_competency] Competency-Based and Self-Paced Formats :: naics_2022:611
+[dedudlv_competency_cbe] Competency-based education (CBE): advance by demonstrating mastery
+[dedudlv_competency_selfpaced] Self-paced with mentor check-ins (WGU model, direct assessment)
+[dedudlv_hybrid] Hybrid and Blended Learning :: naics_2022:611
+[dedudlv_hybrid_blended] Blended: combines online modules with in-person class meetings
+[dedudlv_hybrid_hyflex] HyFlex: students choose in-person or online each session
+[dedudlv_inperson] In-Person and Residential Delivery :: naics_2022:611
+[dedudlv_inperson_commuter] Commuter campus: local day students, no on-campus residency
+[dedudlv_inperson_lab] Lab and clinical in-person components (medicine, engineering, art)
+[dedudlv_inperson_residential] Residential campus: students live and learn on-site
+[dedudlv_intensive] Intensive and Accelerated Formats :: naics_2022:611
+[dedudlv_intensive_bootcamp] Bootcamp / immersive intensive (coding, data science, UX - 12-24 weeks)
+[dedudlv_intensive_cohort] Cohort-based learning with fixed start/end and peer cohort
+[dedudlv_intensive_weekend] Weekend / executive weekend format (MBA, professional programs)
+[dedudlv_online] Online and Distance Education Delivery :: naics_2022:611
+[dedudlv_online_async] Fully asynchronous online (self-paced, no live sessions)
+[dedudlv_online_mooc] MOOC and open online courseware (Coursera, edX, FutureLearn)
+[dedudlv_online_sync] Synchronous online (live virtual classroom, scheduled sessions)

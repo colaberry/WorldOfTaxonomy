@@ -1,0 +1,18 @@
+[dfimkt_ats] Alternative Trading Systems (ATS) and Dark Pools :: naics_2022:522, naics_2022:523
+[dfimkt_ats_crypto] Crypto Exchange and Digital Asset Market (CEX, DEX)
+[dfimkt_ats_dark] Dark Pool ATS (block trading, anonymized)
+[dfimkt_ats_ecn] Electronic Communication Network (ECN - ARCA, BATS)
+[dfimkt_ats_sip] SIP and Consolidated Tape (NBBO, TRF reporting)
+[dfimkt_exchange] Registered Exchange Markets :: naics_2022:522, naics_2022:523
+[dfimkt_exchange_cboe] CBOE Options Exchange (equity, index options)
+[dfimkt_exchange_cme] CME Group Derivatives (futures, options on futures)
+[dfimkt_exchange_nasdaq] NASDAQ Global Markets and Global Select Market
+[dfimkt_exchange_nyse] NYSE and NYSE American (equity, ETFs, options)
+[dfimkt_otc] Over-the-Counter (OTC) Markets :: naics_2022:522, naics_2022:523
+[dfimkt_otc_bb] OTC Bulletin Board and Pink Sheets (small caps)
+[dfimkt_otc_dealer] OTC Dealer Market (FOREX, UST, corporate bonds)
+[dfimkt_otc_swap] Bilateral Swap and Derivatives Market (ISDA)
+[dfimkt_private] Private Markets and Alternative Trading :: naics_2022:522, naics_2022:523
+[dfimkt_private_credit] Private Credit and Direct Lending Market
+[dfimkt_private_pe] Private Equity and Venture Capital Market
+[dfimkt_private_re] Private Real Estate Market

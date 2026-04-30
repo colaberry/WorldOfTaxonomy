@@ -1,0 +1,17 @@
+[ic_proc] Claims Process :: naics_2022:524
+[ic_proc_adj] Claims adjustment and evaluation
+[ic_proc_fnol] First notice of loss (FNOL)
+[ic_proc_invest] Claims investigation
+[ic_proc_lit] Claims litigation management
+[ic_proc_settle] Settlement and payment
+[ic_tech] Claims Technology :: naics_2022:524
+[ic_tech_ai] AI-assisted claims triage
+[ic_tech_photo] Photo and video damage assessment
+[ic_tech_str] Straight-through processing
+[ic_tech_telem] Telematics-based claims (auto)
+[ic_type] Claim Types :: naics_2022:524
+[ic_type_cat] Catastrophe claims
+[ic_type_first] First-party claims (policyholder)
+[ic_type_fraud] Fraudulent claims
+[ic_type_sub] Subrogation claims
+[ic_type_third] Third-party claims (liability)

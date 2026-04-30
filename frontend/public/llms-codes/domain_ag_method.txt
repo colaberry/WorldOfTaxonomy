@@ -1,0 +1,29 @@
+[dam_cert] Certification and Standards :: naics_2022:111, naics_2022:112, naics_2022:115
+[dam_cert_fairtrade] Fair Trade Certified
+[dam_cert_gap] Good Agricultural Practices (GAP/GHP)
+[dam_cert_nongmo] Non-GMO Project Verified
+[dam_cert_rainforest] Rainforest Alliance Certified
+[dam_cert_usda_organic] USDA Organic Certified
+[dam_irr] Irrigation Method :: naics_2022:111, naics_2022:112, naics_2022:115
+[dam_irr_drip] Drip Irrigation (micro-irrigation, trickle)
+[dam_irr_dryland] Dryland (rain-fed, no irrigation)
+[dam_irr_flood] Flood Irrigation (surface, furrow)
+[dam_irr_sprinkler] Sprinkler Irrigation (center pivot, lateral)
+[dam_irr_subsurface] Subsurface Drip Irrigation (SDI)
+[dam_scale] Farm Scale :: naics_2022:111, naics_2022:112, naics_2022:115
+[dam_scale_commercial] Commercial (500-4,999 acres)
+[dam_scale_corporate] Corporate and Industrial (5,000+ acres)
+[dam_scale_family] Family Farm (50-499 acres)
+[dam_scale_small] Smallholder (under 50 acres)
+[dam_sys] Production System :: naics_2022:111, naics_2022:112, naics_2022:115
+[dam_sys_biodynamic] Biodynamic (Demeter certified)
+[dam_sys_conventional] Conventional (synthetic inputs, standard)
+[dam_sys_hydroponic] Hydroponic and Aquaponic
+[dam_sys_integrated] Integrated Pest Management (IPM)
+[dam_sys_organic] Organic (USDA NOP certified)
+[dam_sys_regenerative] Regenerative Agriculture
+[dam_till] Tillage Practice :: naics_2022:111, naics_2022:112, naics_2022:115
+[dam_till_conventional] Conventional Tillage (full inversion)
+[dam_till_notill] No-Till (direct seeding)
+[dam_till_reduced] Reduced Tillage (minimum till)
+[dam_till_strip] Strip-Till

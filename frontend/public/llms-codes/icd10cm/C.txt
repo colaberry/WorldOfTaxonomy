@@ -1,0 +1,1557 @@
+[C00] Malignant neoplasm of lip -- **Excludes1:** - malignant melanoma of lip (C43.0) - Merkel cell carcinoma of lip (C4A.0) - other and unspecified malignant neoplasm of skin of lip (C44.0-)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - history of tobacco dependence (Z87.891) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C000] Malignant neoplasm of external upper lip -- **Inclusion terms:** - Malignant neoplasm of lipstick area of upper lip - Malignant neoplasm of upper lip NOS - Malignant neoplasm of vermilion border of upper lip
+[C001] Malignant neoplasm of external lower lip -- **Inclusion terms:** - Malignant neoplasm of lower lip NOS - Malignant neoplasm of lipstick area of lower lip - Malignant neoplasm of vermilion border of lower lip
+[C002] Malignant neoplasm of external lip, unspecified -- **Inclusion terms:** - Malignant neoplasm of vermilion border of lip NOS
+[C003] Malignant neoplasm of upper lip, inner aspect -- **Inclusion terms:** - Malignant neoplasm of buccal aspect of upper lip - Malignant neoplasm of frenulum of upper lip - Malignant neoplasm of mucosa of upper lip - Malignant neoplasm of oral aspect of upper lip
+[C004] Malignant neoplasm of lower lip, inner aspect -- **Inclusion terms:** - Malignant neoplasm of buccal aspect of lower lip - Malignant neoplasm of frenulum of lower lip - Malignant neoplasm of mucosa of lower lip - Malignant neoplasm of oral aspect of lower lip
+[C005] Malignant neoplasm of lip, unspecified, inner aspect -- **Inclusion terms:** - Malignant neoplasm of buccal aspect of lip, unspecified - Malignant neoplasm of frenulum of lip, unspecified - Malignant neoplasm of mucosa of lip, unspecified - Malignant neoplasm of oral aspect of lip, unspecified
+[C006] Malignant neoplasm of commissure of lip, unspecified
+[C008] Malignant neoplasm of overlapping sites of lip
+[C009] Malignant neoplasm of lip, unspecified
+[C01] Malignant neoplasm of base of tongue -- **Inclusion terms:** - Malignant neoplasm of dorsal surface of base of tongue - Malignant neoplasm of fixed part of tongue NOS - Malignant neoplasm of posterior third of tongue  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - history of tobacco dependence (Z87.891) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C02] Malignant neoplasm of other and unspecified parts of tongue -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - history of tobacco dependence (Z87.891) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C020] Malignant neoplasm of dorsal surface of tongue -- **Inclusion terms:** - Malignant neoplasm of anterior two-thirds of tongue, dorsal surface  **Excludes2:** - malignant neoplasm of dorsal surface of base of tongue (C01)
+[C021] Malignant neoplasm of border of tongue -- **Inclusion terms:** - Malignant neoplasm of tip of tongue
+[C022] Malignant neoplasm of ventral surface of tongue -- **Inclusion terms:** - Malignant neoplasm of anterior two-thirds of tongue, ventral surface - Malignant neoplasm of frenulum linguae
+[C023] Malignant neoplasm of anterior two-thirds of tongue, part unspecified -- **Inclusion terms:** - Malignant neoplasm of middle third of tongue NOS - Malignant neoplasm of mobile part of tongue NOS
+[C024] Malignant neoplasm of lingual tonsil -- **Excludes2:** - malignant neoplasm of tonsil NOS (C09.9)
+[C028] Malignant neoplasm of overlapping sites of tongue -- **Inclusion terms:** - Malignant neoplasm of two or more contiguous sites of tongue
+[C029] Malignant neoplasm of tongue, unspecified
+[C03] Malignant neoplasm of gum -- **Includes:** - malignant neoplasm of alveolar (ridge) mucosa - malignant neoplasm of gingiva  **Excludes2:** - malignant odontogenic neoplasms (C41.0-C41.1)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - history of tobacco dependence (Z87.891) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C030] Malignant neoplasm of upper gum
+[C031] Malignant neoplasm of lower gum
+[C039] Malignant neoplasm of gum, unspecified
+[C04] Malignant neoplasm of floor of mouth -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - history of tobacco dependence (Z87.891) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C040] Malignant neoplasm of anterior floor of mouth -- **Inclusion terms:** - Malignant neoplasm of anterior to the premolar-canine junction
+[C041] Malignant neoplasm of lateral floor of mouth
+[C048] Malignant neoplasm of overlapping sites of floor of mouth
+[C049] Malignant neoplasm of floor of mouth, unspecified
+[C05] Malignant neoplasm of palate -- **Excludes1:** - Kaposi's sarcoma of palate (C46.2)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - history of tobacco dependence (Z87.891) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C050] Malignant neoplasm of hard palate
+[C051] Malignant neoplasm of soft palate -- **Excludes2:** - malignant neoplasm of nasopharyngeal surface of soft palate (C11.3)
+[C052] Malignant neoplasm of uvula
+[C058] Malignant neoplasm of overlapping sites of palate
+[C059] Malignant neoplasm of palate, unspecified -- **Inclusion terms:** - Malignant neoplasm of roof of mouth
+[C06] Malignant neoplasm of other and unspecified parts of mouth -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - history of tobacco dependence (Z87.891) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C060] Malignant neoplasm of cheek mucosa -- **Inclusion terms:** - Malignant neoplasm of buccal mucosa NOS - Malignant neoplasm of internal cheek
+[C061] Malignant neoplasm of vestibule of mouth -- **Inclusion terms:** - Malignant neoplasm of buccal sulcus (upper) (lower) - Malignant neoplasm of labial sulcus (upper) (lower)
+[C062] Malignant neoplasm of retromolar area
+[C068] Malignant neoplasm of overlapping sites of other and unspecified parts of mouth
+[C0680] Malignant neoplasm of overlapping sites of unspecified parts of mouth
+[C0689] Malignant neoplasm of overlapping sites of other parts of mouth -- **Inclusion terms:** - 'book leaf' neoplasm [ventral surface of tongue and floor of mouth]
+[C069] Malignant neoplasm of mouth, unspecified -- **Inclusion terms:** - Malignant neoplasm of minor salivary gland, unspecified site - Malignant neoplasm of oral cavity NOS
+[C07] Malignant neoplasm of parotid gland -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C08] Malignant neoplasm of other and unspecified major salivary glands -- **Includes:** - malignant neoplasm of salivary ducts  **Excludes1:** - malignant neoplasms of specified minor salivary glands which are classified according to their anatomical location  **Excludes2:** - malignant neoplasms of minor salivary glands NOS (C06.9) - malignant neoplasm of parotid gland (C07)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C080] Malignant neoplasm of submandibular gland -- **Inclusion terms:** - Malignant neoplasm of submaxillary gland
+[C081] Malignant neoplasm of sublingual gland
+[C089] Malignant neoplasm of major salivary gland, unspecified -- **Inclusion terms:** - Malignant neoplasm of salivary gland (major) NOS
+[C09] Malignant neoplasm of tonsil -- **Excludes2:** - malignant neoplasm of lingual tonsil (C02.4) - malignant neoplasm of pharyngeal tonsil (C11.1)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C090] Malignant neoplasm of tonsillar fossa
+[C091] Malignant neoplasm of tonsillar pillar (anterior) (posterior)
+[C098] Malignant neoplasm of overlapping sites of tonsil
+[C099] Malignant neoplasm of tonsil, unspecified -- **Inclusion terms:** - Malignant neoplasm of tonsil NOS - Malignant neoplasm of faucial tonsils - Malignant neoplasm of palatine tonsils
+[C10] Malignant neoplasm of oropharynx -- **Excludes2:** - malignant neoplasm of tonsil (C09.-)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C100] Malignant neoplasm of vallecula
+[C101] Malignant neoplasm of anterior surface of epiglottis -- **Inclusion terms:** - Malignant neoplasm of epiglottis, free border [margin] - Malignant neoplasm of glossoepiglottic fold(s)  **Excludes2:** - malignant neoplasm of epiglottis (suprahyoid portion) NOS (C32.1)
+[C102] Malignant neoplasm of lateral wall of oropharynx
+[C103] Malignant neoplasm of posterior wall of oropharynx
+[C104] Malignant neoplasm of branchial cleft -- **Inclusion terms:** - Malignant neoplasm of branchial cyst [site of neoplasm]
+[C108] Malignant neoplasm of overlapping sites of oropharynx -- **Inclusion terms:** - Malignant neoplasm of junctional region of oropharynx
+[C109] Malignant neoplasm of oropharynx, unspecified
+[C11] Malignant neoplasm of nasopharynx -- **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C110] Malignant neoplasm of superior wall of nasopharynx -- **Inclusion terms:** - Malignant neoplasm of roof of nasopharynx
+[C111] Malignant neoplasm of posterior wall of nasopharynx -- **Inclusion terms:** - Malignant neoplasm of adenoid - Malignant neoplasm of pharyngeal tonsil
+[C112] Malignant neoplasm of lateral wall of nasopharynx -- **Inclusion terms:** - Malignant neoplasm of fossa of Rosenmüller - Malignant neoplasm of opening of auditory tube - Malignant neoplasm of pharyngeal recess
+[C113] Malignant neoplasm of anterior wall of nasopharynx -- **Inclusion terms:** - Malignant neoplasm of floor of nasopharynx - Malignant neoplasm of nasopharyngeal (anterior) (posterior) surface of soft palate - Malignant neoplasm of posterior margin of nasal choana - Malignant neoplasm of posterior margin of nasal septum
+[C118] Malignant neoplasm of overlapping sites of nasopharynx
+[C119] Malignant neoplasm of nasopharynx, unspecified -- **Inclusion terms:** - Malignant neoplasm of nasopharyngeal wall NOS
+[C12] Malignant neoplasm of pyriform sinus -- **Inclusion terms:** - Malignant neoplasm of pyriform fossa  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C13] Malignant neoplasm of hypopharynx -- **Excludes2:** - malignant neoplasm of pyriform sinus (C12)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C130] Malignant neoplasm of postcricoid region
+[C131] Malignant neoplasm of aryepiglottic fold, hypopharyngeal aspect -- **Inclusion terms:** - Malignant neoplasm of aryepiglottic fold, marginal zone - Malignant neoplasm of aryepiglottic fold NOS - Malignant neoplasm of interarytenoid fold, marginal zone - Malignant neoplasm of interarytenoid fold NOS  **Excludes2:** - malignant neoplasm of aryepiglottic fold or interarytenoid fold, laryngeal aspect (C32.1)
+[C132] Malignant neoplasm of posterior wall of hypopharynx
+[C138] Malignant neoplasm of overlapping sites of hypopharynx
+[C139] Malignant neoplasm of hypopharynx, unspecified -- **Inclusion terms:** - Malignant neoplasm of hypopharyngeal wall NOS
+[C14] Malignant neoplasm of other and ill-defined sites in the lip, oral cavity and pharynx -- **Excludes1:** - malignant neoplasm of oral cavity NOS (C06.9)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C140] Malignant neoplasm of pharynx, unspecified
+[C142] Malignant neoplasm of Waldeyer's ring
+[C148] Malignant neoplasm of overlapping sites of lip, oral cavity and pharynx -- **Inclusion terms:** - Primary malignant neoplasm of two or more contiguous sites of lip, oral cavity and pharynx  **Excludes1:** - 'book leaf' neoplasm [ventral surface of tongue and floor of mouth] (C06.89)
+[C15] Malignant neoplasm of esophagus -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[C153] Malignant neoplasm of upper third of esophagus
+[C154] Malignant neoplasm of middle third of esophagus
+[C155] Malignant neoplasm of lower third of esophagus -- **Excludes1:** - malignant neoplasm of cardio-esophageal junction (C16.0)
+[C158] Malignant neoplasm of overlapping sites of esophagus
+[C159] Malignant neoplasm of esophagus, unspecified
+[C16] Malignant neoplasm of stomach -- **Excludes2:** - malignant carcinoid tumor of the stomach (C7A.092)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[C160] Malignant neoplasm of cardia -- **Inclusion terms:** - Malignant neoplasm of cardiac orifice - Malignant neoplasm of cardio-esophageal junction - Malignant neoplasm of esophagus and stomach - Malignant neoplasm of gastro-esophageal junction
+[C161] Malignant neoplasm of fundus of stomach
+[C162] Malignant neoplasm of body of stomach
+[C163] Malignant neoplasm of pyloric antrum -- **Inclusion terms:** - Malignant neoplasm of gastric antrum
+[C164] Malignant neoplasm of pylorus -- **Inclusion terms:** - Malignant neoplasm of prepylorus - Malignant neoplasm of pyloric canal
+[C165] Malignant neoplasm of lesser curvature of stomach, unspecified -- **Inclusion terms:** - Malignant neoplasm of lesser curvature of stomach, not classifiable to C16.1-C16.4
+[C166] Malignant neoplasm of greater curvature of stomach, unspecified -- **Inclusion terms:** - Malignant neoplasm of greater curvature of stomach, not classifiable to C16.0-C16.4
+[C168] Malignant neoplasm of overlapping sites of stomach
+[C169] Malignant neoplasm of stomach, unspecified -- **Inclusion terms:** - Gastric cancer NOS
+[C17] Malignant neoplasm of small intestine -- **Excludes1:** - malignant carcinoid tumors of the small intestine (C7A.01)
+[C170] Malignant neoplasm of duodenum
+[C171] Malignant neoplasm of jejunum
+[C172] Malignant neoplasm of ileum -- **Excludes1:** - malignant neoplasm of ileocecal valve (C18.0)
+[C173] Meckel's diverticulum, malignant -- **Excludes1:** - Meckel's diverticulum, congenital (Q43.0)
+[C178] Malignant neoplasm of overlapping sites of small intestine
+[C179] Malignant neoplasm of small intestine, unspecified
+[C18] Malignant neoplasm of colon -- **Excludes1:** - malignant carcinoid tumors of the colon (C7A.02-)
+[C180] Malignant neoplasm of cecum -- **Inclusion terms:** - Malignant neoplasm of ileocecal valve
+[C181] Malignant neoplasm of appendix
+[C182] Malignant neoplasm of ascending colon
+[C183] Malignant neoplasm of hepatic flexure
+[C184] Malignant neoplasm of transverse colon
+[C185] Malignant neoplasm of splenic flexure
+[C186] Malignant neoplasm of descending colon
+[C187] Malignant neoplasm of sigmoid colon -- **Inclusion terms:** - Malignant neoplasm of sigmoid (flexure)  **Excludes1:** - malignant neoplasm of rectosigmoid junction (C19)
+[C188] Malignant neoplasm of overlapping sites of colon
+[C189] Malignant neoplasm of colon, unspecified -- **Inclusion terms:** - Malignant neoplasm of large intestine NOS
+[C19] Malignant neoplasm of rectosigmoid junction -- **Inclusion terms:** - Malignant neoplasm of colon with rectum - Malignant neoplasm of rectosigmoid (colon)  **Excludes1:** - malignant carcinoid tumors of the colon (C7A.02-)
+[C20] Malignant neoplasm of rectum -- **Inclusion terms:** - Malignant neoplasm of rectal ampulla  **Excludes1:** - malignant carcinoid tumor of the rectum (C7A.026)
+[C21] Malignant neoplasm of anus and anal canal -- **Excludes2:** - malignant carcinoid tumors of the colon (C7A.02-) - malignant melanoma of anal margin (C43.51) - malignant melanoma of anal skin (C43.51) - malignant melanoma of perianal skin (C43.51) - other and unspecified malignant neoplasm of anal margin (C44.500, C44.510, C44.520, C44.590) - other and unspecified malignant neoplasm of anal skin (C44.500, C44.510, C44.520, C44.590) - other and unspecified malignant neoplasm of perianal skin (C44.500, C44.510, C44.520, C44.590)
+[C210] Malignant neoplasm of anus, unspecified
+[C211] Malignant neoplasm of anal canal -- **Inclusion terms:** - Malignant neoplasm of anal sphincter
+[C212] Malignant neoplasm of cloacogenic zone
+[C218] Malignant neoplasm of overlapping sites of rectum, anus and anal canal -- **Inclusion terms:** - Malignant neoplasm of anorectal junction - Malignant neoplasm of anorectum - Primary malignant neoplasm of two or more contiguous sites of rectum, anus and anal canal
+[C22] Malignant neoplasm of liver and intrahepatic bile ducts -- **Excludes1:** - malignant neoplasm of biliary tract NOS (C24.9) - secondary malignant neoplasm of liver and intrahepatic bile duct (C78.7)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - hepatitis B (B16.-, B18.0-B18.1) - hepatitis C (B17.1-, B18.2)
+[C220] Liver cell carcinoma -- **Inclusion terms:** - Hepatocellular carcinoma - Hepatoma
+[C221] Intrahepatic bile duct carcinoma -- **Inclusion terms:** - Cholangiocarcinoma  **Excludes1:** - malignant neoplasm of hepatic duct (C24.0)
+[C222] Hepatoblastoma
+[C223] Angiosarcoma of liver -- **Inclusion terms:** - Kupffer cell sarcoma
+[C224] Other sarcomas of liver
+[C227] Other specified carcinomas of liver
+[C228] Malignant neoplasm of liver, primary, unspecified as to type
+[C229] Malignant neoplasm of liver, not specified as primary or secondary
+[C23] Malignant neoplasm of gallbladder
+[C24] Malignant neoplasm of other and unspecified parts of biliary tract -- **Excludes1:** - malignant neoplasm of intrahepatic bile duct (C22.1)
+[C240] Malignant neoplasm of extrahepatic bile duct -- **Inclusion terms:** - Malignant neoplasm of biliary duct or passage NOS - Malignant neoplasm of common bile duct - Malignant neoplasm of cystic duct - Malignant neoplasm of hepatic duct
+[C241] Malignant neoplasm of ampulla of Vater
+[C248] Malignant neoplasm of overlapping sites of biliary tract -- **Inclusion terms:** - Malignant neoplasm involving both intrahepatic and extrahepatic bile ducts - Primary malignant neoplasm of two or more contiguous sites of biliary tract
+[C249] Malignant neoplasm of biliary tract, unspecified
+[C25] Malignant neoplasm of pancreas -- **Code also:** - if applicable exocrine pancreatic insufficiency (K86.81)  **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-)
+[C250] Malignant neoplasm of head of pancreas
+[C251] Malignant neoplasm of body of pancreas
+[C252] Malignant neoplasm of tail of pancreas
+[C253] Malignant neoplasm of pancreatic duct
+[C254] Malignant neoplasm of endocrine pancreas -- **Inclusion terms:** - Malignant neoplasm of islets of Langerhans  **Use additional code:** - code to identify any functional activity.
+[C257] Malignant neoplasm of other parts of pancreas -- **Inclusion terms:** - Malignant neoplasm of neck of pancreas
+[C258] Malignant neoplasm of overlapping sites of pancreas
+[C259] Malignant neoplasm of pancreas, unspecified
+[C26] Malignant neoplasm of other and ill-defined digestive organs -- **Excludes1:** - malignant neoplasm of peritoneum and retroperitoneum (C48.-)
+[C260] Malignant neoplasm of intestinal tract, part unspecified -- **Inclusion terms:** - Malignant neoplasm of intestine NOS
+[C261] Malignant neoplasm of spleen -- **Excludes1:** - Hodgkin lymphoma (C81.-) - non-Hodgkin lymphoma (C82-C85)
+[C269] Malignant neoplasm of ill-defined sites within the digestive system -- **Inclusion terms:** - Malignant neoplasm of alimentary canal or tract NOS - Malignant neoplasm of gastrointestinal tract NOS  **Excludes1:** - malignant neoplasm of abdominal NOS (C76.2) - malignant neoplasm of intra-abdominal NOS (C76.2)
+[C30] Malignant neoplasm of nasal cavity and middle ear
+[C300] Malignant neoplasm of nasal cavity -- **Inclusion terms:** - Malignant neoplasm of cartilage of nose - Malignant neoplasm of nasal concha - Malignant neoplasm of internal nose - Malignant neoplasm of septum of nose - Malignant neoplasm of vestibule of nose  **Excludes1:** - malignant neoplasm of nasal bone (C41.0) - malignant neoplasm of nose NOS (C76.0) - malignant neoplasm of olfactory bulb (C72.2-) - malignant neoplasm of posterior margin of nasal septum and choana (C11.3) - malignant melanoma of skin of nose (C43.31) - malignant neoplasm of turbinates (C41.0) - other and unspecified malignant neoplasm of skin of nose (C44.301, C44.311, C44.321, C44.391)
+[C301] Malignant neoplasm of middle ear -- **Inclusion terms:** - Malignant neoplasm of antrum tympanicum - Malignant neoplasm of auditory tube - Malignant neoplasm of eustachian tube - Malignant neoplasm of inner ear - Malignant neoplasm of mastoid air cells - Malignant neoplasm of tympanic cavity  **Excludes1:** - malignant neoplasm of auricular canal (external) (C43.2-,C44.2-) - malignant neoplasm of bone of ear (meatus) (C41.0) - malignant neoplasm of cartilage of ear (C49.0) - malignant melanoma of skin of (external) ear (C43.2-) - other and unspecified malignant neoplasm of skin of (external) ear (C44.2-)
+[C31] Malignant neoplasm of accessory sinuses
+[C310] Malignant neoplasm of maxillary sinus -- **Inclusion terms:** - Malignant neoplasm of antrum (Highmore) (maxillary)
+[C311] Malignant neoplasm of ethmoidal sinus
+[C312] Malignant neoplasm of frontal sinus
+[C313] Malignant neoplasm of sphenoid sinus
+[C318] Malignant neoplasm of overlapping sites of accessory sinuses
+[C319] Malignant neoplasm of accessory sinus, unspecified
+[C32] Malignant neoplasm of larynx -- **Use additional code:** - code to identify: - alcohol abuse and dependence (F10.-) - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C320] Malignant neoplasm of glottis -- **Inclusion terms:** - Malignant neoplasm of intrinsic larynx - Malignant neoplasm of laryngeal commissure (anterior)(posterior) - Malignant neoplasm of vocal cord (true) NOS
+[C321] Malignant neoplasm of supraglottis -- **Inclusion terms:** - Malignant neoplasm of aryepiglottic fold or interarytenoid fold, laryngeal aspect - Malignant neoplasm of epiglottis (suprahyoid portion) NOS - Malignant neoplasm of extrinsic larynx - Malignant neoplasm of false vocal cord - Malignant neoplasm of posterior (laryngeal) surface of epiglottis - Malignant neoplasm of ventricular bands  **Excludes2:** - malignant neoplasm of anterior surface of epiglottis (C10.1) - malignant neoplasm of aryepiglottic fold or interarytenoid fold, hypopharyngeal aspect (C13.1) - malignant neoplasm of aryepiglottic fold or interarytenoid fold, marginal zone (C13.1) - malignant neoplasm of aryepiglottic fold or interarytenoid fold NOS (C13.1)
+[C322] Malignant neoplasm of subglottis
+[C323] Malignant neoplasm of laryngeal cartilage
+[C328] Malignant neoplasm of overlapping sites of larynx
+[C329] Malignant neoplasm of larynx, unspecified
+[C33] Malignant neoplasm of trachea -- **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C34] Malignant neoplasm of bronchus and lung -- **Excludes1:** - Kaposi's sarcoma of lung (C46.5-) - malignant carcinoid tumor of the bronchus and lung (C7A.090)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C340] Malignant neoplasm of main bronchus -- **Inclusion terms:** - Malignant neoplasm of carina - Malignant neoplasm of hilus (of lung)
+[C3400] Malignant neoplasm of unspecified main bronchus
+[C3401] Malignant neoplasm of right main bronchus
+[C3402] Malignant neoplasm of left main bronchus
+[C341] Malignant neoplasm of upper lobe, bronchus or lung
+[C3410] Malignant neoplasm of upper lobe, unspecified bronchus or lung
+[C3411] Malignant neoplasm of upper lobe, right bronchus or lung
+[C3412] Malignant neoplasm of upper lobe, left bronchus or lung
+[C342] Malignant neoplasm of middle lobe, bronchus or lung
+[C343] Malignant neoplasm of lower lobe, bronchus or lung
+[C3430] Malignant neoplasm of lower lobe, unspecified bronchus or lung
+[C3431] Malignant neoplasm of lower lobe, right bronchus or lung
+[C3432] Malignant neoplasm of lower lobe, left bronchus or lung
+[C348] Malignant neoplasm of overlapping sites of bronchus and lung
+[C3480] Malignant neoplasm of overlapping sites of unspecified bronchus and lung
+[C3481] Malignant neoplasm of overlapping sites of right bronchus and lung
+[C3482] Malignant neoplasm of overlapping sites of left bronchus and lung
+[C349] Malignant neoplasm of unspecified part of bronchus or lung
+[C3490] Malignant neoplasm of unspecified part of unspecified bronchus or lung -- **Inclusion terms:** - Lung cancer NOS
+[C3491] Malignant neoplasm of unspecified part of right bronchus or lung
+[C3492] Malignant neoplasm of unspecified part of left bronchus or lung
+[C37] Malignant neoplasm of thymus -- **Excludes1:** - malignant carcinoid tumor of the thymus (C7A.091)
+[C38] Malignant neoplasm of heart, mediastinum and pleura -- **Excludes1:** - mesothelioma (C45.-)
+[C380] Malignant neoplasm of heart -- **Inclusion terms:** - Malignant neoplasm of pericardium  **Excludes1:** - malignant neoplasm of great vessels (C49.3)
+[C381] Malignant neoplasm of anterior mediastinum
+[C382] Malignant neoplasm of posterior mediastinum
+[C383] Malignant neoplasm of mediastinum, part unspecified
+[C384] Malignant neoplasm of pleura
+[C388] Malignant neoplasm of overlapping sites of heart, mediastinum and pleura
+[C39] Malignant neoplasm of other and ill-defined sites in the respiratory system and intrathoracic organs -- **Excludes1:** - intrathoracic malignant neoplasm NOS (C76.1) - thoracic malignant neoplasm NOS (C76.1)  **Use additional code:** - code to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[C390] Malignant neoplasm of upper respiratory tract, part unspecified
+[C399] Malignant neoplasm of lower respiratory tract, part unspecified -- **Inclusion terms:** - Malignant neoplasm of respiratory tract NOS
+[C40] Malignant neoplasm of bone and articular cartilage of limbs -- **Use additional code:** - code to identify major osseous defect, if applicable (M89.7-)
+[C400] Malignant neoplasm of scapula and long bones of upper limb
+[C4000] Malignant neoplasm of scapula and long bones of unspecified upper limb
+[C4001] Malignant neoplasm of scapula and long bones of right upper limb
+[C4002] Malignant neoplasm of scapula and long bones of left upper limb
+[C401] Malignant neoplasm of short bones of upper limb
+[C4010] Malignant neoplasm of short bones of unspecified upper limb
+[C4011] Malignant neoplasm of short bones of right upper limb
+[C4012] Malignant neoplasm of short bones of left upper limb
+[C402] Malignant neoplasm of long bones of lower limb
+[C4020] Malignant neoplasm of long bones of unspecified lower limb
+[C4021] Malignant neoplasm of long bones of right lower limb
+[C4022] Malignant neoplasm of long bones of left lower limb
+[C403] Malignant neoplasm of short bones of lower limb
+[C4030] Malignant neoplasm of short bones of unspecified lower limb
+[C4031] Malignant neoplasm of short bones of right lower limb
+[C4032] Malignant neoplasm of short bones of left lower limb
+[C408] Malignant neoplasm of overlapping sites of bone and articular cartilage of limb
+[C4080] Malignant neoplasm of overlapping sites of bone and articular cartilage of unspecified limb
+[C4081] Malignant neoplasm of overlapping sites of bone and articular cartilage of right limb
+[C4082] Malignant neoplasm of overlapping sites of bone and articular cartilage of left limb
+[C409] Malignant neoplasm of unspecified bones and articular cartilage of limb
+[C4090] Malignant neoplasm of unspecified bones and articular cartilage of unspecified limb
+[C4091] Malignant neoplasm of unspecified bones and articular cartilage of right limb
+[C4092] Malignant neoplasm of unspecified bones and articular cartilage of left limb
+[C41] Malignant neoplasm of bone and articular cartilage of other and unspecified sites -- **Excludes1:** - malignant neoplasm of bones of limbs (C40.-) - malignant neoplasm of cartilage of ear (C49.0) - malignant neoplasm of cartilage of eyelid (C49.0) - malignant neoplasm of cartilage of larynx (C32.3) - malignant neoplasm of cartilage of limbs (C40.-) - malignant neoplasm of cartilage of nose (C30.0)
+[C410] Malignant neoplasm of bones of skull and face -- **Inclusion terms:** - Malignant neoplasm of maxilla (superior) - Malignant neoplasm of orbital bone  **Excludes2:** - carcinoma, any type except intraosseous or odontogenic of: - maxillary sinus (C31.0) - upper jaw (C03.0) - malignant neoplasm of jaw bone (lower) (C41.1)
+[C411] Malignant neoplasm of mandible -- **Inclusion terms:** - Malignant neoplasm of inferior maxilla - Malignant neoplasm of lower jaw bone  **Excludes2:** - carcinoma, any type except intraosseous or odontogenic of: - jaw NOS (C03.9) - lower (C03.1) - malignant neoplasm of upper jaw bone (C41.0)
+[C412] Malignant neoplasm of vertebral column -- **Excludes1:** - malignant neoplasm of sacrum and coccyx (C41.4)
+[C413] Malignant neoplasm of ribs, sternum and clavicle
+[C414] Malignant neoplasm of pelvic bones, sacrum and coccyx
+[C419] Malignant neoplasm of bone and articular cartilage, unspecified
+[C43] Malignant melanoma of skin -- **Excludes1:** - melanoma in situ (D03.-)  **Excludes2:** - malignant melanoma of skin of genital organs (C51-C52, C60.-, C63.-) - Merkel cell carcinoma (C4A.-) - sites other than skin-code to malignant neoplasm of the site
+[C430] Malignant melanoma of lip -- **Excludes1:** - malignant neoplasm of vermilion border of lip (C00.0-C00.2)
+[C431] Malignant melanoma of eyelid, including canthus
+[C4310] Malignant melanoma of unspecified eyelid, including canthus
+[C4311] Malignant melanoma of right eyelid, including canthus
+[C43111] Malignant melanoma of right upper eyelid, including canthus
+[C43112] Malignant melanoma of right lower eyelid, including canthus
+[C4312] Malignant melanoma of left eyelid, including canthus
+[C43121] Malignant melanoma of left upper eyelid, including canthus
+[C43122] Malignant melanoma of left lower eyelid, including canthus
+[C432] Malignant melanoma of ear and external auricular canal
+[C4320] Malignant melanoma of unspecified ear and external auricular canal
+[C4321] Malignant melanoma of right ear and external auricular canal
+[C4322] Malignant melanoma of left ear and external auricular canal
+[C433] Malignant melanoma of other and unspecified parts of face
+[C4330] Malignant melanoma of unspecified part of face
+[C4331] Malignant melanoma of nose
+[C4339] Malignant melanoma of other parts of face
+[C434] Malignant melanoma of scalp and neck
+[C435] Malignant melanoma of trunk -- **Excludes2:** - malignant neoplasm of anus NOS (C21.0) - malignant neoplasm of scrotum (C63.2)
+[C4351] Malignant melanoma of anal skin -- **Inclusion terms:** - Malignant melanoma of anal margin - Malignant melanoma of perianal skin
+[C4352] Malignant melanoma of skin of breast
+[C4359] Malignant melanoma of other part of trunk
+[C436] Malignant melanoma of upper limb, including shoulder
+[C4360] Malignant melanoma of unspecified upper limb, including shoulder
+[C4361] Malignant melanoma of right upper limb, including shoulder
+[C4362] Malignant melanoma of left upper limb, including shoulder
+[C437] Malignant melanoma of lower limb, including hip
+[C4370] Malignant melanoma of unspecified lower limb, including hip
+[C4371] Malignant melanoma of right lower limb, including hip
+[C4372] Malignant melanoma of left lower limb, including hip
+[C438] Malignant melanoma of overlapping sites of skin
+[C439] Malignant melanoma of skin, unspecified -- **Inclusion terms:** - Malignant melanoma of unspecified site of skin - Melanoma (malignant) NOS
+[C44] Other and unspecified malignant neoplasm of skin -- **Includes:** - malignant neoplasm of sebaceous glands - malignant neoplasm of sweat glands  **Excludes1:** - Kaposi's sarcoma of skin (C46.0) - malignant melanoma of skin (C43.-) - malignant neoplasm of skin of genital organs (C51-C52, C60.-, C63.2) - Merkel cell carcinoma (C4A.-)
+[C440] Other and unspecified malignant neoplasm of skin of lip -- **Excludes1:** - malignant neoplasm of lip (C00.-)
+[C4400] Unspecified malignant neoplasm of skin of lip
+[C4401] Basal cell carcinoma of skin of lip
+[C4402] Squamous cell carcinoma of skin of lip
+[C4409] Other specified malignant neoplasm of skin of lip
+[C441] Other and unspecified malignant neoplasm of skin of eyelid, including canthus -- **Excludes1:** - connective tissue of eyelid (C49.0)
+[C4410] Unspecified malignant neoplasm of skin of eyelid, including canthus
+[C44101] Unspecified malignant neoplasm of skin of unspecified eyelid, including canthus
+[C44102] Unspecified malignant neoplasm of skin of right eyelid, including canthus
+[C441021] Unspecified malignant neoplasm of skin of right upper eyelid, including canthus
+[C441022] Unspecified malignant neoplasm of skin of right lower eyelid, including canthus
+[C44109] Unspecified malignant neoplasm of skin of left eyelid, including canthus
+[C441091] Unspecified malignant neoplasm of skin of left upper eyelid, including canthus
+[C441092] Unspecified malignant neoplasm of skin of left lower eyelid, including canthus
+[C4411] Basal cell carcinoma of skin of eyelid, including canthus
+[C44111] Basal cell carcinoma of skin of unspecified eyelid, including canthus
+[C44112] Basal cell carcinoma of skin of right eyelid, including canthus
+[C441121] Basal cell carcinoma of skin of right upper eyelid, including canthus
+[C441122] Basal cell carcinoma of skin of right lower eyelid, including canthus
+[C44119] Basal cell carcinoma of skin of left eyelid, including canthus
+[C441191] Basal cell carcinoma of skin of left upper eyelid, including canthus
+[C441192] Basal cell carcinoma of skin of left lower eyelid, including canthus
+[C4412] Squamous cell carcinoma of skin of eyelid, including canthus
+[C44121] Squamous cell carcinoma of skin of unspecified eyelid, including canthus
+[C44122] Squamous cell carcinoma of skin of right eyelid, including canthus
+[C441221] Squamous cell carcinoma of skin of right upper eyelid, including canthus
+[C441222] Squamous cell carcinoma of skin of right lower eyelid, including canthus
+[C44129] Squamous cell carcinoma of skin of left eyelid, including canthus
+[C441291] Squamous cell carcinoma of skin of left upper eyelid, including canthus
+[C441292] Squamous cell carcinoma of skin of left lower eyelid, including canthus
+[C4413] Sebaceous cell carcinoma of skin of eyelid, including canthus
+[C44131] Sebaceous cell carcinoma of skin of unspecified eyelid, including canthus
+[C44132] Sebaceous cell carcinoma of skin of right eyelid, including canthus
+[C441321] Sebaceous cell carcinoma of skin of right upper eyelid, including canthus
+[C441322] Sebaceous cell carcinoma of skin of right lower eyelid, including canthus
+[C44139] Sebaceous cell carcinoma of skin of left eyelid, including canthus
+[C441391] Sebaceous cell carcinoma of skin of left upper eyelid, including canthus
+[C441392] Sebaceous cell carcinoma of skin of left lower eyelid, including canthus
+[C4419] Other specified malignant neoplasm of skin of eyelid, including canthus
+[C44191] Other specified malignant neoplasm of skin of unspecified eyelid, including canthus
+[C44192] Other specified malignant neoplasm of skin of right eyelid, including canthus
+[C441921] Other specified malignant neoplasm of skin of right upper eyelid, including canthus
+[C441922] Other specified malignant neoplasm of skin of right lower eyelid, including canthus
+[C44199] Other specified malignant neoplasm of skin of left eyelid, including canthus
+[C441991] Other specified malignant neoplasm of skin of left upper eyelid, including canthus
+[C441992] Other specified malignant neoplasm of skin of left lower eyelid, including canthus
+[C442] Other and unspecified malignant neoplasm of skin of ear and external auricular canal -- **Excludes1:** - connective tissue of ear (C49.0)
+[C4420] Unspecified malignant neoplasm of skin of ear and external auricular canal
+[C44201] Unspecified malignant neoplasm of skin of unspecified ear and external auricular canal
+[C44202] Unspecified malignant neoplasm of skin of right ear and external auricular canal
+[C44209] Unspecified malignant neoplasm of skin of left ear and external auricular canal
+[C4421] Basal cell carcinoma of skin of ear and external auricular canal
+[C44211] Basal cell carcinoma of skin of unspecified ear and external auricular canal
+[C44212] Basal cell carcinoma of skin of right ear and external auricular canal
+[C44219] Basal cell carcinoma of skin of left ear and external auricular canal
+[C4422] Squamous cell carcinoma of skin of ear and external auricular canal
+[C44221] Squamous cell carcinoma of skin of unspecified ear and external auricular canal
+[C44222] Squamous cell carcinoma of skin of right ear and external auricular canal
+[C44229] Squamous cell carcinoma of skin of left ear and external auricular canal
+[C4429] Other specified malignant neoplasm of skin of ear and external auricular canal
+[C44291] Other specified malignant neoplasm of skin of unspecified ear and external auricular canal
+[C44292] Other specified malignant neoplasm of skin of right ear and external auricular canal
+[C44299] Other specified malignant neoplasm of skin of left ear and external auricular canal
+[C443] Other and unspecified malignant neoplasm of skin of other and unspecified parts of face
+[C4430] Unspecified malignant neoplasm of skin of other and unspecified parts of face
+[C44300] Unspecified malignant neoplasm of skin of unspecified part of face
+[C44301] Unspecified malignant neoplasm of skin of nose
+[C44309] Unspecified malignant neoplasm of skin of other parts of face
+[C4431] Basal cell carcinoma of skin of other and unspecified parts of face
+[C44310] Basal cell carcinoma of skin of unspecified parts of face
+[C44311] Basal cell carcinoma of skin of nose
+[C44319] Basal cell carcinoma of skin of other parts of face
+[C4432] Squamous cell carcinoma of skin of other and unspecified parts of face
+[C44320] Squamous cell carcinoma of skin of unspecified parts of face
+[C44321] Squamous cell carcinoma of skin of nose
+[C44329] Squamous cell carcinoma of skin of other parts of face
+[C4439] Other specified malignant neoplasm of skin of other and unspecified parts of face
+[C44390] Other specified malignant neoplasm of skin of unspecified parts of face
+[C44391] Other specified malignant neoplasm of skin of nose
+[C44399] Other specified malignant neoplasm of skin of other parts of face
+[C444] Other and unspecified malignant neoplasm of skin of scalp and neck
+[C4440] Unspecified malignant neoplasm of skin of scalp and neck
+[C4441] Basal cell carcinoma of skin of scalp and neck
+[C4442] Squamous cell carcinoma of skin of scalp and neck
+[C4449] Other specified malignant neoplasm of skin of scalp and neck
+[C445] Other and unspecified malignant neoplasm of skin of trunk -- **Excludes1:** - anus NOS (C21.0) - scrotum (C63.2)
+[C4450] Unspecified malignant neoplasm of skin of trunk
+[C44500] Unspecified malignant neoplasm of anal skin -- **Inclusion terms:** - Unspecified malignant neoplasm of anal margin - Unspecified malignant neoplasm of perianal skin
+[C44501] Unspecified malignant neoplasm of skin of breast
+[C44509] Unspecified malignant neoplasm of skin of other part of trunk
+[C4451] Basal cell carcinoma of skin of trunk
+[C44510] Basal cell carcinoma of anal skin -- **Inclusion terms:** - Basal cell carcinoma of anal margin - Basal cell carcinoma of perianal skin
+[C44511] Basal cell carcinoma of skin of breast
+[C44519] Basal cell carcinoma of skin of other part of trunk
+[C4452] Squamous cell carcinoma of skin of trunk
+[C44520] Squamous cell carcinoma of anal skin -- **Inclusion terms:** - Squamous cell carcinoma of anal margin - Squamous cell carcinoma of perianal skin
+[C44521] Squamous cell carcinoma of skin of breast
+[C44529] Squamous cell carcinoma of skin of other part of trunk
+[C4459] Other specified malignant neoplasm of skin of trunk
+[C44590] Other specified malignant neoplasm of anal skin -- **Inclusion terms:** - Other specified malignant neoplasm of anal margin - Other specified malignant neoplasm of perianal skin
+[C44591] Other specified malignant neoplasm of skin of breast
+[C44599] Other specified malignant neoplasm of skin of other part of trunk
+[C446] Other and unspecified malignant neoplasm of skin of upper limb, including shoulder
+[C4460] Unspecified malignant neoplasm of skin of upper limb, including shoulder
+[C44601] Unspecified malignant neoplasm of skin of unspecified upper limb, including shoulder
+[C44602] Unspecified malignant neoplasm of skin of right upper limb, including shoulder
+[C44609] Unspecified malignant neoplasm of skin of left upper limb, including shoulder
+[C4461] Basal cell carcinoma of skin of upper limb, including shoulder
+[C44611] Basal cell carcinoma of skin of unspecified upper limb, including shoulder
+[C44612] Basal cell carcinoma of skin of right upper limb, including shoulder
+[C44619] Basal cell carcinoma of skin of left upper limb, including shoulder
+[C4462] Squamous cell carcinoma of skin of upper limb, including shoulder
+[C44621] Squamous cell carcinoma of skin of unspecified upper limb, including shoulder
+[C44622] Squamous cell carcinoma of skin of right upper limb, including shoulder
+[C44629] Squamous cell carcinoma of skin of left upper limb, including shoulder
+[C4469] Other specified malignant neoplasm of skin of upper limb, including shoulder
+[C44691] Other specified malignant neoplasm of skin of unspecified upper limb, including shoulder
+[C44692] Other specified malignant neoplasm of skin of right upper limb, including shoulder
+[C44699] Other specified malignant neoplasm of skin of left upper limb, including shoulder
+[C447] Other and unspecified malignant neoplasm of skin of lower limb, including hip
+[C4470] Unspecified malignant neoplasm of skin of lower limb, including hip
+[C44701] Unspecified malignant neoplasm of skin of unspecified lower limb, including hip
+[C44702] Unspecified malignant neoplasm of skin of right lower limb, including hip
+[C44709] Unspecified malignant neoplasm of skin of left lower limb, including hip
+[C4471] Basal cell carcinoma of skin of lower limb, including hip
+[C44711] Basal cell carcinoma of skin of unspecified lower limb, including hip
+[C44712] Basal cell carcinoma of skin of right lower limb, including hip
+[C44719] Basal cell carcinoma of skin of left lower limb, including hip
+[C4472] Squamous cell carcinoma of skin of lower limb, including hip
+[C44721] Squamous cell carcinoma of skin of unspecified lower limb, including hip
+[C44722] Squamous cell carcinoma of skin of right lower limb, including hip
+[C44729] Squamous cell carcinoma of skin of left lower limb, including hip
+[C4479] Other specified malignant neoplasm of skin of lower limb, including hip
+[C44791] Other specified malignant neoplasm of skin of unspecified lower limb, including hip
+[C44792] Other specified malignant neoplasm of skin of right lower limb, including hip
+[C44799] Other specified malignant neoplasm of skin of left lower limb, including hip
+[C448] Other and unspecified malignant neoplasm of overlapping sites of skin
+[C4480] Unspecified malignant neoplasm of overlapping sites of skin
+[C4481] Basal cell carcinoma of overlapping sites of skin
+[C4482] Squamous cell carcinoma of overlapping sites of skin
+[C4489] Other specified malignant neoplasm of overlapping sites of skin
+[C449] Other and unspecified malignant neoplasm of skin, unspecified
+[C4490] Unspecified malignant neoplasm of skin, unspecified -- **Inclusion terms:** - Malignant neoplasm of unspecified site of skin
+[C4491] Basal cell carcinoma of skin, unspecified
+[C4492] Squamous cell carcinoma of skin, unspecified
+[C4499] Other specified malignant neoplasm of skin, unspecified
+[C45] Mesothelioma
+[C450] Mesothelioma of pleura -- **Excludes1:** - other malignant neoplasm of pleura (C38.4)
+[C451] Mesothelioma of peritoneum -- **Inclusion terms:** - Mesothelioma of cul-de-sac - Mesothelioma of mesentery - Mesothelioma of mesocolon - Mesothelioma of omentum - Mesothelioma of peritoneum (parietal) (pelvic)  **Excludes1:** - other malignant neoplasm of soft tissue of peritoneum (C48.-)
+[C452] Mesothelioma of pericardium -- **Excludes1:** - other malignant neoplasm of pericardium (C38.0)
+[C457] Mesothelioma of other sites
+[C459] Mesothelioma, unspecified
+[C46] Kaposi's sarcoma -- **Code first:** - any human immunodeficiency virus [HIV] disease (B20)
+[C460] Kaposi's sarcoma of skin
+[C461] Kaposi's sarcoma of soft tissue -- **Inclusion terms:** - Kaposi's sarcoma of blood vessel - Kaposi's sarcoma of connective tissue - Kaposi's sarcoma of fascia - Kaposi's sarcoma of ligament - Kaposi's sarcoma of lymphatic(s) NEC - Kaposi's sarcoma of muscle  **Excludes2:** - Kaposi's sarcoma of lymph glands and nodes (C46.3)
+[C462] Kaposi's sarcoma of palate
+[C463] Kaposi's sarcoma of lymph nodes
+[C464] Kaposi's sarcoma of gastrointestinal sites
+[C465] Kaposi's sarcoma of lung
+[C4650] Kaposi's sarcoma of unspecified lung
+[C4651] Kaposi's sarcoma of right lung
+[C4652] Kaposi's sarcoma of left lung
+[C467] Kaposi's sarcoma of other sites
+[C469] Kaposi's sarcoma, unspecified -- **Inclusion terms:** - Kaposi's sarcoma of unspecified site
+[C47] Malignant neoplasm of peripheral nerves and autonomic nervous system -- **Includes:** - malignant neoplasm of sympathetic and parasympathetic nerves and ganglia  **Excludes1:** - Kaposi's sarcoma of soft tissue (C46.1)
+[C470] Malignant neoplasm of peripheral nerves of head, face and neck -- **Excludes1:** - malignant neoplasm of peripheral nerves of orbit (C69.6-)
+[C471] Malignant neoplasm of peripheral nerves of upper limb, including shoulder
+[C4710] Malignant neoplasm of peripheral nerves of unspecified upper limb, including shoulder
+[C4711] Malignant neoplasm of peripheral nerves of right upper limb, including shoulder
+[C4712] Malignant neoplasm of peripheral nerves of left upper limb, including shoulder
+[C472] Malignant neoplasm of peripheral nerves of lower limb, including hip
+[C4720] Malignant neoplasm of peripheral nerves of unspecified lower limb, including hip
+[C4721] Malignant neoplasm of peripheral nerves of right lower limb, including hip
+[C4722] Malignant neoplasm of peripheral nerves of left lower limb, including hip
+[C473] Malignant neoplasm of peripheral nerves of thorax
+[C474] Malignant neoplasm of peripheral nerves of abdomen
+[C475] Malignant neoplasm of peripheral nerves of pelvis
+[C476] Malignant neoplasm of peripheral nerves of trunk, unspecified -- **Inclusion terms:** - Malignant neoplasm of peripheral nerves of unspecified part of trunk
+[C478] Malignant neoplasm of overlapping sites of peripheral nerves and autonomic nervous system
+[C479] Malignant neoplasm of peripheral nerves and autonomic nervous system, unspecified -- **Inclusion terms:** - Malignant neoplasm of unspecified site of peripheral nerves and autonomic nervous system
+[C48] Malignant neoplasm of retroperitoneum and peritoneum -- **Excludes1:** - Kaposi's sarcoma of connective tissue (C46.1) - mesothelioma (C45.-)
+[C480] Malignant neoplasm of retroperitoneum
+[C481] Malignant neoplasm of specified parts of peritoneum -- **Inclusion terms:** - Malignant neoplasm of cul-de-sac - Malignant neoplasm of mesentery - Malignant neoplasm of mesocolon - Malignant neoplasm of omentum - Malignant neoplasm of parietal peritoneum - Malignant neoplasm of pelvic peritoneum
+[C482] Malignant neoplasm of peritoneum, unspecified
+[C488] Malignant neoplasm of overlapping sites of retroperitoneum and peritoneum
+[C49] Malignant neoplasm of other connective and soft tissue -- **Includes:** - malignant neoplasm of blood vessel - malignant neoplasm of bursa - malignant neoplasm of cartilage - malignant neoplasm of fascia - malignant neoplasm of fat - malignant neoplasm of ligament, except uterine - malignant neoplasm of lymphatic vessel - malignant neoplasm of muscle - malignant neoplasm of synovia - malignant neoplasm of tendon (sheath)  **Excludes1:** - malignant neoplasm of cartilage (of): - articular (C40-C41) - larynx (C32.3) - nose (C30.0) - malignant neoplasm of connective tissue of breast (C50.-)  **Excludes2:** - Kaposi's sarcoma of soft tissue (C46.1) - malignant neoplasm of heart (C38.0) - malignant neoplasm of peripheral nerves and autonomic nervous system (C47.-) - malignant neoplasm of peritoneum (C48.2) - malignant neoplasm of retroperitoneum (C48.0) - malignant neoplasm of uterine ligament (C57.3) - mesothelioma (C45.-)
+[C490] Malignant neoplasm of connective and soft tissue of head, face and neck -- **Inclusion terms:** - Malignant neoplasm of connective tissue of ear - Malignant neoplasm of connective tissue of eyelid  **Excludes1:** - connective tissue of orbit (C69.6-)
+[C491] Malignant neoplasm of connective and soft tissue of upper limb, including shoulder
+[C4910] Malignant neoplasm of connective and soft tissue of unspecified upper limb, including shoulder
+[C4911] Malignant neoplasm of connective and soft tissue of right upper limb, including shoulder
+[C4912] Malignant neoplasm of connective and soft tissue of left upper limb, including shoulder
+[C492] Malignant neoplasm of connective and soft tissue of lower limb, including hip
+[C4920] Malignant neoplasm of connective and soft tissue of unspecified lower limb, including hip
+[C4921] Malignant neoplasm of connective and soft tissue of right lower limb, including hip
+[C4922] Malignant neoplasm of connective and soft tissue of left lower limb, including hip
+[C493] Malignant neoplasm of connective and soft tissue of thorax -- **Inclusion terms:** - Malignant neoplasm of axilla - Malignant neoplasm of diaphragm - Malignant neoplasm of great vessels  **Excludes1:** - malignant neoplasm of breast (C50.-) - malignant neoplasm of heart (C38.0) - malignant neoplasm of mediastinum (C38.1-C38.3) - malignant neoplasm of thymus (C37)
+[C494] Malignant neoplasm of connective and soft tissue of abdomen -- **Inclusion terms:** - Malignant neoplasm of abdominal wall - Malignant neoplasm of hypochondrium
+[C495] Malignant neoplasm of connective and soft tissue of pelvis -- **Inclusion terms:** - Malignant neoplasm of buttock - Malignant neoplasm of groin - Malignant neoplasm of perineum
+[C496] Malignant neoplasm of connective and soft tissue of trunk, unspecified -- **Inclusion terms:** - Malignant neoplasm of back NOS
+[C498] Malignant neoplasm of overlapping sites of connective and soft tissue -- **Inclusion terms:** - Primary malignant neoplasm of two or more contiguous sites of connective and soft tissue
+[C499] Malignant neoplasm of connective and soft tissue, unspecified
+[C49A] Gastrointestinal stromal tumor
+[C49A0] Gastrointestinal stromal tumor, unspecified site
+[C49A1] Gastrointestinal stromal tumor of esophagus
+[C49A2] Gastrointestinal stromal tumor of stomach
+[C49A3] Gastrointestinal stromal tumor of small intestine
+[C49A4] Gastrointestinal stromal tumor of large intestine
+[C49A5] Gastrointestinal stromal tumor of rectum
+[C49A9] Gastrointestinal stromal tumor of other sites
+[C4A] Merkel cell carcinoma
+[C4A0] Merkel cell carcinoma of lip -- **Excludes1:** - malignant neoplasm of vermilion border of lip (C00.0-C00.2)
+[C4A1] Merkel cell carcinoma of eyelid, including canthus
+[C4A10] Merkel cell carcinoma of unspecified eyelid, including canthus
+[C4A11] Merkel cell carcinoma of right eyelid, including canthus
+[C4A111] Merkel cell carcinoma of right upper eyelid, including canthus
+[C4A112] Merkel cell carcinoma of right lower eyelid, including canthus
+[C4A12] Merkel cell carcinoma of left eyelid, including canthus
+[C4A121] Merkel cell carcinoma of left upper eyelid, including canthus
+[C4A122] Merkel cell carcinoma of left lower eyelid, including canthus
+[C4A2] Merkel cell carcinoma of ear and external auricular canal
+[C4A20] Merkel cell carcinoma of unspecified ear and external auricular canal
+[C4A21] Merkel cell carcinoma of right ear and external auricular canal
+[C4A22] Merkel cell carcinoma of left ear and external auricular canal
+[C4A3] Merkel cell carcinoma of other and unspecified parts of face
+[C4A30] Merkel cell carcinoma of unspecified part of face
+[C4A31] Merkel cell carcinoma of nose
+[C4A39] Merkel cell carcinoma of other parts of face
+[C4A4] Merkel cell carcinoma of scalp and neck
+[C4A5] Merkel cell carcinoma of trunk -- **Excludes2:** - malignant neoplasm of anus NOS (C21.0) - malignant neoplasm of scrotum (C63.2)
+[C4A51] Merkel cell carcinoma of anal skin -- **Inclusion terms:** - Merkel cell carcinoma of anal margin - Merkel cell carcinoma of perianal skin
+[C4A52] Merkel cell carcinoma of skin of breast
+[C4A59] Merkel cell carcinoma of other part of trunk
+[C4A6] Merkel cell carcinoma of upper limb, including shoulder
+[C4A60] Merkel cell carcinoma of unspecified upper limb, including shoulder
+[C4A61] Merkel cell carcinoma of right upper limb, including shoulder
+[C4A62] Merkel cell carcinoma of left upper limb, including shoulder
+[C4A7] Merkel cell carcinoma of lower limb, including hip
+[C4A70] Merkel cell carcinoma of unspecified lower limb, including hip
+[C4A71] Merkel cell carcinoma of right lower limb, including hip
+[C4A72] Merkel cell carcinoma of left lower limb, including hip
+[C4A8] Merkel cell carcinoma of overlapping sites
+[C4A9] Merkel cell carcinoma, unspecified -- **Inclusion terms:** - Merkel cell carcinoma of unspecified site - Merkel cell carcinoma NOS
+[C50] Malignant neoplasm of breast -- **Includes:** - connective tissue of breast - Paget's disease of breast - Paget's disease of nipple  **Excludes1:** - skin of breast (C44.501, C44.511, C44.521, C44.591)  **Use additional code:** - code to identify estrogen, and other hormones and factors receptor status (Z17.-)
+[C500] Malignant neoplasm of nipple and areola
+[C5001] Malignant neoplasm of nipple and areola, female
+[C50011] Malignant neoplasm of nipple and areola, right female breast
+[C50012] Malignant neoplasm of nipple and areola, left female breast
+[C50019] Malignant neoplasm of nipple and areola, unspecified female breast
+[C5002] Malignant neoplasm of nipple and areola, male
+[C50021] Malignant neoplasm of nipple and areola, right male breast
+[C50022] Malignant neoplasm of nipple and areola, left male breast
+[C50029] Malignant neoplasm of nipple and areola, unspecified male breast
+[C501] Malignant neoplasm of central portion of breast
+[C5011] Malignant neoplasm of central portion of breast, female
+[C50111] Malignant neoplasm of central portion of right female breast
+[C50112] Malignant neoplasm of central portion of left female breast
+[C50119] Malignant neoplasm of central portion of unspecified female breast
+[C5012] Malignant neoplasm of central portion of breast, male
+[C50121] Malignant neoplasm of central portion of right male breast
+[C50122] Malignant neoplasm of central portion of left male breast
+[C50129] Malignant neoplasm of central portion of unspecified male breast
+[C502] Malignant neoplasm of upper-inner quadrant of breast
+[C5021] Malignant neoplasm of upper-inner quadrant of breast, female
+[C50211] Malignant neoplasm of upper-inner quadrant of right female breast
+[C50212] Malignant neoplasm of upper-inner quadrant of left female breast
+[C50219] Malignant neoplasm of upper-inner quadrant of unspecified female breast
+[C5022] Malignant neoplasm of upper-inner quadrant of breast, male
+[C50221] Malignant neoplasm of upper-inner quadrant of right male breast
+[C50222] Malignant neoplasm of upper-inner quadrant of left male breast
+[C50229] Malignant neoplasm of upper-inner quadrant of unspecified male breast
+[C503] Malignant neoplasm of lower-inner quadrant of breast
+[C5031] Malignant neoplasm of lower-inner quadrant of breast, female
+[C50311] Malignant neoplasm of lower-inner quadrant of right female breast
+[C50312] Malignant neoplasm of lower-inner quadrant of left female breast
+[C50319] Malignant neoplasm of lower-inner quadrant of unspecified female breast
+[C5032] Malignant neoplasm of lower-inner quadrant of breast, male
+[C50321] Malignant neoplasm of lower-inner quadrant of right male breast
+[C50322] Malignant neoplasm of lower-inner quadrant of left male breast
+[C50329] Malignant neoplasm of lower-inner quadrant of unspecified male breast
+[C504] Malignant neoplasm of upper-outer quadrant of breast
+[C5041] Malignant neoplasm of upper-outer quadrant of breast, female
+[C50411] Malignant neoplasm of upper-outer quadrant of right female breast
+[C50412] Malignant neoplasm of upper-outer quadrant of left female breast
+[C50419] Malignant neoplasm of upper-outer quadrant of unspecified female breast
+[C5042] Malignant neoplasm of upper-outer quadrant of breast, male
+[C50421] Malignant neoplasm of upper-outer quadrant of right male breast
+[C50422] Malignant neoplasm of upper-outer quadrant of left male breast
+[C50429] Malignant neoplasm of upper-outer quadrant of unspecified male breast
+[C505] Malignant neoplasm of lower-outer quadrant of breast
+[C5051] Malignant neoplasm of lower-outer quadrant of breast, female
+[C50511] Malignant neoplasm of lower-outer quadrant of right female breast
+[C50512] Malignant neoplasm of lower-outer quadrant of left female breast
+[C50519] Malignant neoplasm of lower-outer quadrant of unspecified female breast
+[C5052] Malignant neoplasm of lower-outer quadrant of breast, male
+[C50521] Malignant neoplasm of lower-outer quadrant of right male breast
+[C50522] Malignant neoplasm of lower-outer quadrant of left male breast
+[C50529] Malignant neoplasm of lower-outer quadrant of unspecified male breast
+[C506] Malignant neoplasm of axillary tail of breast
+[C5061] Malignant neoplasm of axillary tail of breast, female
+[C50611] Malignant neoplasm of axillary tail of right female breast
+[C50612] Malignant neoplasm of axillary tail of left female breast
+[C50619] Malignant neoplasm of axillary tail of unspecified female breast
+[C5062] Malignant neoplasm of axillary tail of breast, male
+[C50621] Malignant neoplasm of axillary tail of right male breast
+[C50622] Malignant neoplasm of axillary tail of left male breast
+[C50629] Malignant neoplasm of axillary tail of unspecified male breast
+[C508] Malignant neoplasm of overlapping sites of breast
+[C5081] Malignant neoplasm of overlapping sites of breast, female
+[C50811] Malignant neoplasm of overlapping sites of right female breast
+[C50812] Malignant neoplasm of overlapping sites of left female breast
+[C50819] Malignant neoplasm of overlapping sites of unspecified female breast
+[C5082] Malignant neoplasm of overlapping sites of breast, male
+[C50821] Malignant neoplasm of overlapping sites of right male breast
+[C50822] Malignant neoplasm of overlapping sites of left male breast
+[C50829] Malignant neoplasm of overlapping sites of unspecified male breast
+[C509] Malignant neoplasm of breast of unspecified site
+[C5091] Malignant neoplasm of breast of unspecified site, female
+[C50911] Malignant neoplasm of unspecified site of right female breast
+[C50912] Malignant neoplasm of unspecified site of left female breast
+[C50919] Malignant neoplasm of unspecified site of unspecified female breast
+[C5092] Malignant neoplasm of breast of unspecified site, male
+[C50921] Malignant neoplasm of unspecified site of right male breast
+[C50922] Malignant neoplasm of unspecified site of left male breast
+[C50929] Malignant neoplasm of unspecified site of unspecified male breast
+[C51] Malignant neoplasm of vulva -- **Excludes1:** - carcinoma in situ of vulva (D07.1)
+[C510] Malignant neoplasm of labium majus -- **Inclusion terms:** - Malignant neoplasm of Bartholin's [greater vestibular] gland
+[C511] Malignant neoplasm of labium minus
+[C512] Malignant neoplasm of clitoris
+[C518] Malignant neoplasm of overlapping sites of vulva
+[C519] Malignant neoplasm of vulva, unspecified -- **Inclusion terms:** - Malignant neoplasm of external female genitalia NOS - Malignant neoplasm of pudendum
+[C52] Malignant neoplasm of vagina -- **Excludes1:** - carcinoma in situ of vagina (D07.2)
+[C53] Malignant neoplasm of cervix uteri -- **Excludes1:** - carcinoma in situ of cervix uteri (D06.-)
+[C530] Malignant neoplasm of endocervix
+[C531] Malignant neoplasm of exocervix
+[C538] Malignant neoplasm of overlapping sites of cervix uteri
+[C539] Malignant neoplasm of cervix uteri, unspecified
+[C54] Malignant neoplasm of corpus uteri
+[C540] Malignant neoplasm of isthmus uteri -- **Inclusion terms:** - Malignant neoplasm of lower uterine segment
+[C541] Malignant neoplasm of endometrium
+[C542] Malignant neoplasm of myometrium
+[C543] Malignant neoplasm of fundus uteri
+[C548] Malignant neoplasm of overlapping sites of corpus uteri
+[C549] Malignant neoplasm of corpus uteri, unspecified
+[C55] Malignant neoplasm of uterus, part unspecified
+[C56] Malignant neoplasm of ovary -- **Use additional code:** - code to identify any functional activity
+[C561] Malignant neoplasm of right ovary
+[C562] Malignant neoplasm of left ovary
+[C563] Malignant neoplasm of bilateral ovaries
+[C569] Malignant neoplasm of unspecified ovary
+[C57] Malignant neoplasm of other and unspecified female genital organs
+[C570] Malignant neoplasm of fallopian tube -- **Inclusion terms:** - Malignant neoplasm of oviduct - Malignant neoplasm of uterine tube
+[C5700] Malignant neoplasm of unspecified fallopian tube
+[C5701] Malignant neoplasm of right fallopian tube
+[C5702] Malignant neoplasm of left fallopian tube
+[C571] Malignant neoplasm of broad ligament
+[C5710] Malignant neoplasm of unspecified broad ligament
+[C5711] Malignant neoplasm of right broad ligament
+[C5712] Malignant neoplasm of left broad ligament
+[C572] Malignant neoplasm of round ligament
+[C5720] Malignant neoplasm of unspecified round ligament
+[C5721] Malignant neoplasm of right round ligament
+[C5722] Malignant neoplasm of left round ligament
+[C573] Malignant neoplasm of parametrium -- **Inclusion terms:** - Malignant neoplasm of uterine ligament NOS
+[C574] Malignant neoplasm of uterine adnexa, unspecified
+[C577] Malignant neoplasm of other specified female genital organs -- **Inclusion terms:** - Malignant neoplasm of wolffian body or duct
+[C578] Malignant neoplasm of overlapping sites of female genital organs -- **Inclusion terms:** - Primary malignant neoplasm of two or more contiguous sites of the female genital organs whose point of origin cannot be determined - Primary tubo-ovarian malignant neoplasm whose point of origin cannot be determined - Primary utero-ovarian malignant neoplasm whose point of origin cannot be determined
+[C579] Malignant neoplasm of female genital organ, unspecified -- **Inclusion terms:** - Malignant neoplasm of female genitourinary tract NOS
+[C58] Malignant neoplasm of placenta -- **Includes:** - choriocarcinoma NOS - chorionepithelioma NOS  **Excludes1:** - chorioadenoma (destruens) (D39.2) - hydatidiform mole NOS (O01.9) - invasive hydatidiform mole (D39.2) - male choriocarcinoma NOS (C62.9-) - malignant hydatidiform mole (D39.2)
+[C60] Malignant neoplasm of penis
+[C600] Malignant neoplasm of prepuce -- **Inclusion terms:** - Malignant neoplasm of foreskin
+[C601] Malignant neoplasm of glans penis
+[C602] Malignant neoplasm of body of penis -- **Inclusion terms:** - Malignant neoplasm of corpus cavernosum
+[C608] Malignant neoplasm of overlapping sites of penis
+[C609] Malignant neoplasm of penis, unspecified -- **Inclusion terms:** - Malignant neoplasm of skin of penis NOS
+[C61] Malignant neoplasm of prostate -- **Excludes1:** - malignant neoplasm of seminal vesicle (C63.7)  **Use additional code:** - code, if applicable, to identify: - hormone sensitivity status (Z19.1-Z19.2) - rising PSA following treatment for malignant neoplasm of prostate (R97.21)
+[C62] Malignant neoplasm of testis -- **Use additional code:** - code to identify any functional activity
+[C620] Malignant neoplasm of undescended testis -- **Inclusion terms:** - Malignant neoplasm of ectopic testis - Malignant neoplasm of retained testis
+[C6200] Malignant neoplasm of unspecified undescended testis
+[C6201] Malignant neoplasm of undescended right testis
+[C6202] Malignant neoplasm of undescended left testis
+[C621] Malignant neoplasm of descended testis -- **Inclusion terms:** - Malignant neoplasm of scrotal testis
+[C6210] Malignant neoplasm of unspecified descended testis
+[C6211] Malignant neoplasm of descended right testis
+[C6212] Malignant neoplasm of descended left testis
+[C629] Malignant neoplasm of testis, unspecified whether descended or undescended
+[C6290] Malignant neoplasm of unspecified testis, unspecified whether descended or undescended -- **Inclusion terms:** - Malignant neoplasm of testis NOS
+[C6291] Malignant neoplasm of right testis, unspecified whether descended or undescended
+[C6292] Malignant neoplasm of left testis, unspecified whether descended or undescended
+[C63] Malignant neoplasm of other and unspecified male genital organs
+[C630] Malignant neoplasm of epididymis
+[C6300] Malignant neoplasm of unspecified epididymis
+[C6301] Malignant neoplasm of right epididymis
+[C6302] Malignant neoplasm of left epididymis
+[C631] Malignant neoplasm of spermatic cord
+[C6310] Malignant neoplasm of unspecified spermatic cord
+[C6311] Malignant neoplasm of right spermatic cord
+[C6312] Malignant neoplasm of left spermatic cord
+[C632] Malignant neoplasm of scrotum -- **Inclusion terms:** - Malignant neoplasm of skin of scrotum
+[C637] Malignant neoplasm of other specified male genital organs -- **Inclusion terms:** - Malignant neoplasm of seminal vesicle - Malignant neoplasm of tunica vaginalis
+[C638] Malignant neoplasm of overlapping sites of male genital organs -- **Inclusion terms:** - Primary malignant neoplasm of two or more contiguous sites of male genital organs whose point of origin cannot be determined
+[C639] Malignant neoplasm of male genital organ, unspecified -- **Inclusion terms:** - Malignant neoplasm of male genitourinary tract NOS
+[C64] Malignant neoplasm of kidney, except renal pelvis -- **Excludes1:** - malignant carcinoid tumor of the kidney (C7A.093) - malignant neoplasm of renal calyces (C65.-) - malignant neoplasm of renal pelvis (C65.-)
+[C641] Malignant neoplasm of right kidney, except renal pelvis
+[C642] Malignant neoplasm of left kidney, except renal pelvis
+[C649] Malignant neoplasm of unspecified kidney, except renal pelvis
+[C65] Malignant neoplasm of renal pelvis -- **Includes:** - malignant neoplasm of pelviureteric junction - malignant neoplasm of renal calyces
+[C651] Malignant neoplasm of right renal pelvis
+[C652] Malignant neoplasm of left renal pelvis
+[C659] Malignant neoplasm of unspecified renal pelvis
+[C66] Malignant neoplasm of ureter -- **Excludes1:** - malignant neoplasm of ureteric orifice of bladder (C67.6)
+[C661] Malignant neoplasm of right ureter
+[C662] Malignant neoplasm of left ureter
+[C669] Malignant neoplasm of unspecified ureter
+[C67] Malignant neoplasm of bladder
+[C670] Malignant neoplasm of trigone of bladder
+[C671] Malignant neoplasm of dome of bladder
+[C672] Malignant neoplasm of lateral wall of bladder
+[C673] Malignant neoplasm of anterior wall of bladder
+[C674] Malignant neoplasm of posterior wall of bladder
+[C675] Malignant neoplasm of bladder neck -- **Inclusion terms:** - Malignant neoplasm of internal urethral orifice
+[C676] Malignant neoplasm of ureteric orifice
+[C677] Malignant neoplasm of urachus
+[C678] Malignant neoplasm of overlapping sites of bladder
+[C679] Malignant neoplasm of bladder, unspecified
+[C68] Malignant neoplasm of other and unspecified urinary organs -- **Excludes1:** - malignant neoplasm of female genitourinary tract NOS (C57.9) - malignant neoplasm of male genitourinary tract NOS (C63.9)
+[C680] Malignant neoplasm of urethra -- **Excludes1:** - malignant neoplasm of urethral orifice of bladder (C67.5)
+[C681] Malignant neoplasm of paraurethral glands
+[C688] Malignant neoplasm of overlapping sites of urinary organs -- **Inclusion terms:** - Primary malignant neoplasm of two or more contiguous sites of urinary organs whose point of origin cannot be determined
+[C689] Malignant neoplasm of urinary organ, unspecified -- **Inclusion terms:** - Malignant neoplasm of urinary system NOS
+[C69] Malignant neoplasm of eye and adnexa -- **Excludes1:** - malignant neoplasm of connective tissue of eyelid (C49.0) - malignant neoplasm of eyelid (skin) (C43.1-, C44.1-) - malignant neoplasm of optic nerve (C72.3-)
+[C690] Malignant neoplasm of conjunctiva
+[C6900] Malignant neoplasm of unspecified conjunctiva
+[C6901] Malignant neoplasm of right conjunctiva
+[C6902] Malignant neoplasm of left conjunctiva
+[C691] Malignant neoplasm of cornea
+[C6910] Malignant neoplasm of unspecified cornea
+[C6911] Malignant neoplasm of right cornea
+[C6912] Malignant neoplasm of left cornea
+[C692] Malignant neoplasm of retina -- **Excludes1:** - dark area on retina (D49.81) - neoplasm of unspecified behavior of retina and choroid (D49.81) - retinal freckle (D49.81)
+[C6920] Malignant neoplasm of unspecified retina
+[C6921] Malignant neoplasm of right retina
+[C6922] Malignant neoplasm of left retina
+[C693] Malignant neoplasm of choroid
+[C6930] Malignant neoplasm of unspecified choroid
+[C6931] Malignant neoplasm of right choroid
+[C6932] Malignant neoplasm of left choroid
+[C694] Malignant neoplasm of ciliary body
+[C6940] Malignant neoplasm of unspecified ciliary body
+[C6941] Malignant neoplasm of right ciliary body
+[C6942] Malignant neoplasm of left ciliary body
+[C695] Malignant neoplasm of lacrimal gland and duct -- **Inclusion terms:** - Malignant neoplasm of lacrimal sac - Malignant neoplasm of nasolacrimal duct
+[C6950] Malignant neoplasm of unspecified lacrimal gland and duct
+[C6951] Malignant neoplasm of right lacrimal gland and duct
+[C6952] Malignant neoplasm of left lacrimal gland and duct
+[C696] Malignant neoplasm of orbit -- **Inclusion terms:** - Malignant neoplasm of connective tissue of orbit - Malignant neoplasm of extraocular muscle - Malignant neoplasm of peripheral nerves of orbit - Malignant neoplasm of retrobulbar tissue - Malignant neoplasm of retro-ocular tissue  **Excludes1:** - malignant neoplasm of orbital bone (C41.0)
+[C6960] Malignant neoplasm of unspecified orbit
+[C6961] Malignant neoplasm of right orbit
+[C6962] Malignant neoplasm of left orbit
+[C698] Malignant neoplasm of overlapping sites of eye and adnexa
+[C6980] Malignant neoplasm of overlapping sites of unspecified eye and adnexa
+[C6981] Malignant neoplasm of overlapping sites of right eye and adnexa
+[C6982] Malignant neoplasm of overlapping sites of left eye and adnexa
+[C699] Malignant neoplasm of unspecified site of eye -- **Inclusion terms:** - Malignant neoplasm of eyeball
+[C6990] Malignant neoplasm of unspecified site of unspecified eye
+[C6991] Malignant neoplasm of unspecified site of right eye
+[C6992] Malignant neoplasm of unspecified site of left eye
+[C70] Malignant neoplasm of meninges
+[C700] Malignant neoplasm of cerebral meninges
+[C701] Malignant neoplasm of spinal meninges
+[C709] Malignant neoplasm of meninges, unspecified
+[C71] Malignant neoplasm of brain -- **Excludes1:** - malignant neoplasm of cranial nerves (C72.2-C72.5) - retrobulbar malignant neoplasm (C69.6-)
+[C710] Malignant neoplasm of cerebrum, except lobes and ventricles -- **Inclusion terms:** - Malignant neoplasm of supratentorial NOS
+[C711] Malignant neoplasm of frontal lobe
+[C712] Malignant neoplasm of temporal lobe
+[C713] Malignant neoplasm of parietal lobe
+[C714] Malignant neoplasm of occipital lobe
+[C715] Malignant neoplasm of cerebral ventricle -- **Excludes1:** - malignant neoplasm of fourth cerebral ventricle (C71.7)
+[C716] Malignant neoplasm of cerebellum
+[C717] Malignant neoplasm of brain stem -- **Inclusion terms:** - Malignant neoplasm of fourth cerebral ventricle - Infratentorial malignant neoplasm NOS
+[C718] Malignant neoplasm of overlapping sites of brain
+[C719] Malignant neoplasm of brain, unspecified
+[C72] Malignant neoplasm of spinal cord, cranial nerves and other parts of central nervous system -- **Excludes1:** - malignant neoplasm of meninges (C70.-) - malignant neoplasm of peripheral nerves and autonomic nervous system (C47.-)
+[C720] Malignant neoplasm of spinal cord
+[C721] Malignant neoplasm of cauda equina
+[C722] Malignant neoplasm of olfactory nerve -- **Inclusion terms:** - Malignant neoplasm of olfactory bulb
+[C7220] Malignant neoplasm of unspecified olfactory nerve
+[C7221] Malignant neoplasm of right olfactory nerve
+[C7222] Malignant neoplasm of left olfactory nerve
+[C723] Malignant neoplasm of optic nerve
+[C7230] Malignant neoplasm of unspecified optic nerve
+[C7231] Malignant neoplasm of right optic nerve
+[C7232] Malignant neoplasm of left optic nerve
+[C724] Malignant neoplasm of acoustic nerve
+[C7240] Malignant neoplasm of unspecified acoustic nerve
+[C7241] Malignant neoplasm of right acoustic nerve
+[C7242] Malignant neoplasm of left acoustic nerve
+[C725] Malignant neoplasm of other and unspecified cranial nerves
+[C7250] Malignant neoplasm of unspecified cranial nerve -- **Inclusion terms:** - Malignant neoplasm of cranial nerve NOS
+[C7259] Malignant neoplasm of other cranial nerves
+[C729] Malignant neoplasm of central nervous system, unspecified -- **Inclusion terms:** - Malignant neoplasm of unspecified site of central nervous system - Malignant neoplasm of nervous system NOS
+[C73] Malignant neoplasm of thyroid gland -- **Use additional code:** - code to identify any functional activity
+[C74] Malignant neoplasm of adrenal gland
+[C740] Malignant neoplasm of cortex of adrenal gland
+[C7400] Malignant neoplasm of cortex of unspecified adrenal gland
+[C7401] Malignant neoplasm of cortex of right adrenal gland
+[C7402] Malignant neoplasm of cortex of left adrenal gland
+[C741] Malignant neoplasm of medulla of adrenal gland
+[C7410] Malignant neoplasm of medulla of unspecified adrenal gland
+[C7411] Malignant neoplasm of medulla of right adrenal gland
+[C7412] Malignant neoplasm of medulla of left adrenal gland
+[C749] Malignant neoplasm of unspecified part of adrenal gland
+[C7490] Malignant neoplasm of unspecified part of unspecified adrenal gland
+[C7491] Malignant neoplasm of unspecified part of right adrenal gland
+[C7492] Malignant neoplasm of unspecified part of left adrenal gland
+[C75] Malignant neoplasm of other endocrine glands and related structures -- **Excludes1:** - malignant carcinoid tumors (C7A.0-) - malignant neoplasm of adrenal gland (C74.-) - malignant neoplasm of endocrine pancreas (C25.4) - malignant neoplasm of islets of Langerhans (C25.4) - malignant neoplasm of ovary (C56.-) - malignant neoplasm of testis (C62.-) - malignant neoplasm of thymus (C37) - malignant neoplasm of thyroid gland (C73) - malignant neuroendocrine tumors (C7A.-)
+[C750] Malignant neoplasm of parathyroid gland
+[C751] Malignant neoplasm of pituitary gland
+[C752] Malignant neoplasm of craniopharyngeal duct
+[C753] Malignant neoplasm of pineal gland
+[C754] Malignant neoplasm of carotid body
+[C755] Malignant neoplasm of aortic body and other paraganglia
+[C758] Malignant neoplasm with pluriglandular involvement, unspecified
+[C759] Malignant neoplasm of endocrine gland, unspecified
+[C76] Malignant neoplasm of other and ill-defined sites -- **Excludes1:** - malignant neoplasm of female genitourinary tract NOS (C57.9) - malignant neoplasm of male genitourinary tract NOS (C63.9) - malignant neoplasm of lymphoid, hematopoietic and related tissue (C81-C96) - malignant neoplasm of skin (C44.-) - malignant neoplasm of unspecified site NOS (C80.1)
+[C760] Malignant neoplasm of head, face and neck -- **Inclusion terms:** - Malignant neoplasm of cheek NOS - Malignant neoplasm of nose NOS
+[C761] Malignant neoplasm of thorax -- **Inclusion terms:** - Intrathoracic malignant neoplasm NOS - Malignant neoplasm of axilla NOS - Thoracic malignant neoplasm NOS
+[C762] Malignant neoplasm of abdomen
+[C763] Malignant neoplasm of pelvis -- **Inclusion terms:** - Malignant neoplasm of groin NOS - Malignant neoplasm of sites overlapping systems within the pelvis - Rectovaginal (septum) malignant neoplasm - Rectovesical (septum) malignant neoplasm
+[C764] Malignant neoplasm of upper limb
+[C7640] Malignant neoplasm of unspecified upper limb
+[C7641] Malignant neoplasm of right upper limb
+[C7642] Malignant neoplasm of left upper limb
+[C765] Malignant neoplasm of lower limb
+[C7650] Malignant neoplasm of unspecified lower limb
+[C7651] Malignant neoplasm of right lower limb
+[C7652] Malignant neoplasm of left lower limb
+[C768] Malignant neoplasm of other specified ill-defined sites -- **Inclusion terms:** - Malignant neoplasm of overlapping ill-defined sites
+[C77] Secondary and unspecified malignant neoplasm of lymph nodes -- **Excludes1:** - malignant neoplasm of lymph nodes, specified as primary (C81-C86, C88, C96.-) - mesentary metastasis of carcinoid tumor (C7B.04) - secondary carcinoid tumors of distant lymph nodes (C7B.01)
+[C770] Secondary and unspecified malignant neoplasm of lymph nodes of head, face and neck -- **Inclusion terms:** - Secondary and unspecified malignant neoplasm of supraclavicular lymph nodes
+[C771] Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes
+[C772] Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes
+[C773] Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes -- **Inclusion terms:** - Secondary and unspecified malignant neoplasm of pectoral lymph nodes
+[C774] Secondary and unspecified malignant neoplasm of inguinal and lower limb lymph nodes
+[C775] Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes
+[C778] Secondary and unspecified malignant neoplasm of lymph nodes of multiple regions
+[C779] Secondary and unspecified malignant neoplasm of lymph node, unspecified
+[C78] Secondary malignant neoplasm of respiratory and digestive organs -- **Excludes1:** - secondary carcinoid tumors of liver (C7B.02) - secondary carcinoid tumors of peritoneum (C7B.04)  **Excludes2:** - lymph node metastases (C77.0)
+[C780] Secondary malignant neoplasm of lung
+[C7800] Secondary malignant neoplasm of unspecified lung
+[C7801] Secondary malignant neoplasm of right lung
+[C7802] Secondary malignant neoplasm of left lung
+[C781] Secondary malignant neoplasm of mediastinum
+[C782] Secondary malignant neoplasm of pleura
+[C783] Secondary malignant neoplasm of other and unspecified respiratory organs
+[C7830] Secondary malignant neoplasm of unspecified respiratory organ
+[C7839] Secondary malignant neoplasm of other respiratory organs
+[C784] Secondary malignant neoplasm of small intestine
+[C785] Secondary malignant neoplasm of large intestine and rectum
+[C786] Secondary malignant neoplasm of retroperitoneum and peritoneum
+[C787] Secondary malignant neoplasm of liver and intrahepatic bile duct
+[C788] Secondary malignant neoplasm of other and unspecified digestive organs
+[C7880] Secondary malignant neoplasm of unspecified digestive organ
+[C7889] Secondary malignant neoplasm of other digestive organs -- **Code also:** - exocrine pancreatic insufficiency (K86.81)
+[C79] Secondary malignant neoplasm of other and unspecified sites -- **Excludes1:** - secondary carcinoid tumors (C7B.-) - secondary neuroendocrine tumors (C7B.-)
+[C790] Secondary malignant neoplasm of kidney and renal pelvis
+[C7900] Secondary malignant neoplasm of unspecified kidney and renal pelvis
+[C7901] Secondary malignant neoplasm of right kidney and renal pelvis
+[C7902] Secondary malignant neoplasm of left kidney and renal pelvis
+[C791] Secondary malignant neoplasm of bladder and other and unspecified urinary organs
+[C7910] Secondary malignant neoplasm of unspecified urinary organs
+[C7911] Secondary malignant neoplasm of bladder -- **Excludes2:** - lymph node metastases (C77.0)
+[C7919] Secondary malignant neoplasm of other urinary organs
+[C792] Secondary malignant neoplasm of skin -- **Excludes1:** - secondary Merkel cell carcinoma (C7B.1)
+[C793] Secondary malignant neoplasm of brain and cerebral meninges
+[C7931] Secondary malignant neoplasm of brain
+[C7932] Secondary malignant neoplasm of cerebral meninges
+[C794] Secondary malignant neoplasm of other and unspecified parts of nervous system
+[C7940] Secondary malignant neoplasm of unspecified part of nervous system
+[C7949] Secondary malignant neoplasm of other parts of nervous system
+[C795] Secondary malignant neoplasm of bone and bone marrow -- **Excludes1:** - secondary carcinoid tumors of bone (C7B.03)
+[C7951] Secondary malignant neoplasm of bone
+[C7952] Secondary malignant neoplasm of bone marrow
+[C796] Secondary malignant neoplasm of ovary
+[C7960] Secondary malignant neoplasm of unspecified ovary
+[C7961] Secondary malignant neoplasm of right ovary
+[C7962] Secondary malignant neoplasm of left ovary
+[C7963] Secondary malignant neoplasm of bilateral ovaries
+[C797] Secondary malignant neoplasm of adrenal gland
+[C7970] Secondary malignant neoplasm of unspecified adrenal gland
+[C7971] Secondary malignant neoplasm of right adrenal gland
+[C7972] Secondary malignant neoplasm of left adrenal gland
+[C798] Secondary malignant neoplasm of other specified sites
+[C7981] Secondary malignant neoplasm of breast
+[C7982] Secondary malignant neoplasm of genital organs
+[C7989] Secondary malignant neoplasm of other specified sites
+[C799] Secondary malignant neoplasm of unspecified site -- **Inclusion terms:** - Metastatic cancer NOS - Metastatic disease NOS  **Excludes1:** - carcinomatosis NOS (C80.0) - generalized cancer NOS (C80.0) - malignant (primary) neoplasm of unspecified site (C80.1)
+[C7A] Malignant neuroendocrine tumors -- **Excludes2:** - malignant pancreatic islet cell tumors (C25.4) - Merkel cell carcinoma (C4A.-)  **Code also:** - any associated multiple endocrine neoplasia [MEN] syndromes (E31.2-)  **Use additional code:** - code to identify any associated endocrine syndrome, such as: - carcinoid syndrome (E34.00)
+[C7A0] Malignant carcinoid tumors
+[C7A00] Malignant carcinoid tumor of unspecified site
+[C7A01] Malignant carcinoid tumors of the small intestine
+[C7A010] Malignant carcinoid tumor of the duodenum
+[C7A011] Malignant carcinoid tumor of the jejunum
+[C7A012] Malignant carcinoid tumor of the ileum
+[C7A019] Malignant carcinoid tumor of the small intestine, unspecified portion
+[C7A02] Malignant carcinoid tumors of the appendix, large intestine, and rectum
+[C7A020] Malignant carcinoid tumor of the appendix
+[C7A021] Malignant carcinoid tumor of the cecum
+[C7A022] Malignant carcinoid tumor of the ascending colon
+[C7A023] Malignant carcinoid tumor of the transverse colon
+[C7A024] Malignant carcinoid tumor of the descending colon
+[C7A025] Malignant carcinoid tumor of the sigmoid colon
+[C7A026] Malignant carcinoid tumor of the rectum
+[C7A029] Malignant carcinoid tumor of the large intestine, unspecified portion -- **Inclusion terms:** - Malignant carcinoid tumor of the colon NOS
+[C7A09] Malignant carcinoid tumors of other sites
+[C7A090] Malignant carcinoid tumor of the bronchus and lung
+[C7A091] Malignant carcinoid tumor of the thymus
+[C7A092] Malignant carcinoid tumor of the stomach
+[C7A093] Malignant carcinoid tumor of the kidney
+[C7A094] Malignant carcinoid tumor of the foregut, unspecified
+[C7A095] Malignant carcinoid tumor of the midgut, unspecified
+[C7A096] Malignant carcinoid tumor of the hindgut, unspecified
+[C7A098] Malignant carcinoid tumors of other sites
+[C7A1] Malignant poorly differentiated neuroendocrine tumors -- **Inclusion terms:** - Malignant poorly differentiated neuroendocrine tumor NOS - Malignant poorly differentiated neuroendocrine carcinoma, any site - High grade neuroendocrine carcinoma, any site
+[C7A8] Other malignant neuroendocrine tumors
+[C7B] Secondary neuroendocrine tumors -- **Use additional code:** - code to identify any functional activity
+[C7B0] Secondary carcinoid tumors
+[C7B00] Secondary carcinoid tumors, unspecified site
+[C7B01] Secondary carcinoid tumors of distant lymph nodes
+[C7B02] Secondary carcinoid tumors of liver
+[C7B03] Secondary carcinoid tumors of bone
+[C7B04] Secondary carcinoid tumors of peritoneum -- **Inclusion terms:** - Mesentary metastasis of carcinoid tumor
+[C7B09] Secondary carcinoid tumors of other sites
+[C7B1] Secondary Merkel cell carcinoma -- **Inclusion terms:** - Merkel cell carcinoma nodal presentation - Merkel cell carcinoma visceral metastatic presentation
+[C7B8] Other secondary neuroendocrine tumors
+[C80] Malignant neoplasm without specification of site -- **Excludes1:** - malignant carcinoid tumor of unspecified site (C7A.00) - malignant neoplasm of specified multiple sites- code to each site
+[C800] Disseminated malignant neoplasm, unspecified -- **Inclusion terms:** - Carcinomatosis NOS - Generalized cancer, unspecified site (primary) (secondary) - Generalized malignancy, unspecified site (primary) (secondary)
+[C801] Malignant (primary) neoplasm, unspecified -- **Inclusion terms:** - Cancer NOS - Cancer unspecified site (primary) - Carcinoma unspecified site (primary) - Malignancy unspecified site (primary)  **Excludes1:** - secondary malignant neoplasm of unspecified site (C79.9)
+[C802] Malignant neoplasm associated with transplanted organ -- **Code first:** - complication of transplanted organ (T86.-)  **Use additional code:** - code to identify the specific malignancy
+[C81] Hodgkin lymphoma -- **Excludes1:** - personal history of Hodgkin lymphoma (Z85.71)
+[C810] Nodular lymphocyte predominant Hodgkin lymphoma
+[C8100] Nodular lymphocyte predominant Hodgkin lymphoma, unspecified site
+[C8101] Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of head, face, and neck
+[C8102] Nodular lymphocyte predominant Hodgkin lymphoma, intrathoracic lymph nodes
+[C8103] Nodular lymphocyte predominant Hodgkin lymphoma, intra-abdominal lymph nodes
+[C8104] Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of axilla and upper limb
+[C8105] Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of inguinal region and lower limb
+[C8106] Nodular lymphocyte predominant Hodgkin lymphoma, intrapelvic lymph nodes
+[C8107] Nodular lymphocyte predominant Hodgkin lymphoma, spleen
+[C8108] Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of multiple sites
+[C8109] Nodular lymphocyte predominant Hodgkin lymphoma, extranodal and solid organ sites
+[C810A] Nodular lymphocyte predominant Hodgkin lymphoma, in remission
+[C811] Nodular sclerosis Hodgkin lymphoma -- **Inclusion terms:** - Nodular sclerosis classical Hodgkin lymphoma
+[C8110] Nodular sclerosis Hodgkin lymphoma, unspecified site
+[C8111] Nodular sclerosis Hodgkin lymphoma, lymph nodes of head, face, and neck
+[C8112] Nodular sclerosis Hodgkin lymphoma, intrathoracic lymph nodes
+[C8113] Nodular sclerosis Hodgkin lymphoma, intra-abdominal lymph nodes
+[C8114] Nodular sclerosis Hodgkin lymphoma, lymph nodes of axilla and upper limb
+[C8115] Nodular sclerosis Hodgkin lymphoma, lymph nodes of inguinal region and lower limb
+[C8116] Nodular sclerosis Hodgkin lymphoma, intrapelvic lymph nodes
+[C8117] Nodular sclerosis Hodgkin lymphoma, spleen
+[C8118] Nodular sclerosis Hodgkin lymphoma, lymph nodes of multiple sites
+[C8119] Nodular sclerosis Hodgkin lymphoma, extranodal and solid organ sites
+[C811A] Nodular sclerosis Hodgkin lymphoma, in remission
+[C812] Mixed cellularity Hodgkin lymphoma -- **Inclusion terms:** - Mixed cellularity classical Hodgkin lymphoma
+[C8120] Mixed cellularity Hodgkin lymphoma, unspecified site
+[C8121] Mixed cellularity Hodgkin lymphoma, lymph nodes of head, face, and neck
+[C8122] Mixed cellularity Hodgkin lymphoma, intrathoracic lymph nodes
+[C8123] Mixed cellularity Hodgkin lymphoma, intra-abdominal lymph nodes
+[C8124] Mixed cellularity Hodgkin lymphoma, lymph nodes of axilla and upper limb
+[C8125] Mixed cellularity Hodgkin lymphoma, lymph nodes of inguinal region and lower limb
+[C8126] Mixed cellularity Hodgkin lymphoma, intrapelvic lymph nodes
+[C8127] Mixed cellularity Hodgkin lymphoma, spleen
+[C8128] Mixed cellularity Hodgkin lymphoma, lymph nodes of multiple sites
+[C8129] Mixed cellularity Hodgkin lymphoma, extranodal and solid organ sites
+[C812A] Mixed cellularity Hodgkin lymphoma, in remission
+[C813] Lymphocyte depleted Hodgkin lymphoma -- **Inclusion terms:** - Lymphocyte depleted classical Hodgkin lymphoma
+[C8130] Lymphocyte depleted Hodgkin lymphoma, unspecified site
+[C8131] Lymphocyte depleted Hodgkin lymphoma, lymph nodes of head, face, and neck
+[C8132] Lymphocyte depleted Hodgkin lymphoma, intrathoracic lymph nodes
+[C8133] Lymphocyte depleted Hodgkin lymphoma, intra-abdominal lymph nodes
+[C8134] Lymphocyte depleted Hodgkin lymphoma, lymph nodes of axilla and upper limb
+[C8135] Lymphocyte depleted Hodgkin lymphoma, lymph nodes of inguinal region and lower limb
+[C8136] Lymphocyte depleted Hodgkin lymphoma, intrapelvic lymph nodes
+[C8137] Lymphocyte depleted Hodgkin lymphoma, spleen
+[C8138] Lymphocyte depleted Hodgkin lymphoma, lymph nodes of multiple sites
+[C8139] Lymphocyte depleted Hodgkin lymphoma, extranodal and solid organ sites
+[C813A] Lymphocyte depleted Hodgkin lymphoma, in remission
+[C814] Lymphocyte-rich Hodgkin lymphoma -- **Inclusion terms:** - Lymphocyte-rich classical Hodgkin lymphoma  **Excludes1:** - nodular lymphocyte predominant Hodgkin lymphoma (C81.0-)
+[C8140] Lymphocyte-rich Hodgkin lymphoma, unspecified site
+[C8141] Lymphocyte-rich Hodgkin lymphoma, lymph nodes of head, face, and neck
+[C8142] Lymphocyte-rich Hodgkin lymphoma, intrathoracic lymph nodes
+[C8143] Lymphocyte-rich Hodgkin lymphoma, intra-abdominal lymph nodes
+[C8144] Lymphocyte-rich Hodgkin lymphoma, lymph nodes of axilla and upper limb
+[C8145] Lymphocyte-rich Hodgkin lymphoma, lymph nodes of inguinal region and lower limb
+[C8146] Lymphocyte-rich Hodgkin lymphoma, intrapelvic lymph nodes
+[C8147] Lymphocyte-rich Hodgkin lymphoma, spleen
+[C8148] Lymphocyte-rich Hodgkin lymphoma, lymph nodes of multiple sites
+[C8149] Lymphocyte-rich Hodgkin lymphoma, extranodal and solid organ sites
+[C814A] Lymphocyte-rich Hodgkin lymphoma, in remission
+[C817] Other Hodgkin lymphoma -- **Inclusion terms:** - Classical Hodgkin lymphoma NOS - Other classical Hodgkin lymphoma
+[C8170] Other Hodgkin lymphoma, unspecified site
+[C8171] Other Hodgkin lymphoma, lymph nodes of head, face, and neck
+[C8172] Other Hodgkin lymphoma, intrathoracic lymph nodes
+[C8173] Other Hodgkin lymphoma, intra-abdominal lymph nodes
+[C8174] Other Hodgkin lymphoma, lymph nodes of axilla and upper limb
+[C8175] Other Hodgkin lymphoma, lymph nodes of inguinal region and lower limb
+[C8176] Other Hodgkin lymphoma, intrapelvic lymph nodes
+[C8177] Other Hodgkin lymphoma, spleen
+[C8178] Other Hodgkin lymphoma, lymph nodes of multiple sites
+[C8179] Other Hodgkin lymphoma, extranodal and solid organ sites
+[C817A] Other Hodgkin lymphoma, in remission
+[C819] Hodgkin lymphoma, unspecified
+[C8190] Hodgkin lymphoma, unspecified, unspecified site
+[C8191] Hodgkin lymphoma, unspecified, lymph nodes of head, face, and neck
+[C8192] Hodgkin lymphoma, unspecified, intrathoracic lymph nodes
+[C8193] Hodgkin lymphoma, unspecified, intra-abdominal lymph nodes
+[C8194] Hodgkin lymphoma, unspecified, lymph nodes of axilla and upper limb
+[C8195] Hodgkin lymphoma, unspecified, lymph nodes of inguinal region and lower limb
+[C8196] Hodgkin lymphoma, unspecified, intrapelvic lymph nodes
+[C8197] Hodgkin lymphoma, unspecified, spleen
+[C8198] Hodgkin lymphoma, unspecified, lymph nodes of multiple sites
+[C8199] Hodgkin lymphoma, unspecified, extranodal and solid organ sites
+[C819A] Hodgkin lymphoma, unspecified, in remission
+[C82] Follicular lymphoma -- **Includes:** - follicular lymphoma with or without diffuse areas  **Excludes1:** - mature T/NK-cell lymphomas (C84.-) - personal history of non-Hodgkin lymphoma (Z85.72)
+[C820] Follicular lymphoma grade I
+[C8200] Follicular lymphoma grade I, unspecified site
+[C8201] Follicular lymphoma grade I, lymph nodes of head, face, and neck
+[C8202] Follicular lymphoma grade I, intrathoracic lymph nodes
+[C8203] Follicular lymphoma grade I, intra-abdominal lymph nodes
+[C8204] Follicular lymphoma grade I, lymph nodes of axilla and upper limb
+[C8205] Follicular lymphoma grade I, lymph nodes of inguinal region and lower limb
+[C8206] Follicular lymphoma grade I, intrapelvic lymph nodes
+[C8207] Follicular lymphoma grade I, spleen
+[C8208] Follicular lymphoma grade I, lymph nodes of multiple sites
+[C8209] Follicular lymphoma grade I, extranodal and solid organ sites
+[C820A] Follicular lymphoma grade I, in remission
+[C821] Follicular lymphoma grade II
+[C8210] Follicular lymphoma grade II, unspecified site
+[C8211] Follicular lymphoma grade II, lymph nodes of head, face, and neck
+[C8212] Follicular lymphoma grade II, intrathoracic lymph nodes
+[C8213] Follicular lymphoma grade II, intra-abdominal lymph nodes
+[C8214] Follicular lymphoma grade II, lymph nodes of axilla and upper limb
+[C8215] Follicular lymphoma grade II, lymph nodes of inguinal region and lower limb
+[C8216] Follicular lymphoma grade II, intrapelvic lymph nodes
+[C8217] Follicular lymphoma grade II, spleen
+[C8218] Follicular lymphoma grade II, lymph nodes of multiple sites
+[C8219] Follicular lymphoma grade II, extranodal and solid organ sites
+[C821A] Follicular lymphoma grade II, in remission
+[C822] Follicular lymphoma grade III, unspecified
+[C8220] Follicular lymphoma grade III, unspecified, unspecified site
+[C8221] Follicular lymphoma grade III, unspecified, lymph nodes of head, face, and neck
+[C8222] Follicular lymphoma grade III, unspecified, intrathoracic lymph nodes
+[C8223] Follicular lymphoma grade III, unspecified, intra-abdominal lymph nodes
+[C8224] Follicular lymphoma grade III, unspecified, lymph nodes of axilla and upper limb
+[C8225] Follicular lymphoma grade III, unspecified, lymph nodes of inguinal region and lower limb
+[C8226] Follicular lymphoma grade III, unspecified, intrapelvic lymph nodes
+[C8227] Follicular lymphoma grade III, unspecified, spleen
+[C8228] Follicular lymphoma grade III, unspecified, lymph nodes of multiple sites
+[C8229] Follicular lymphoma grade III, unspecified, extranodal and solid organ sites
+[C822A] Follicular lymphoma grade III, unspecified, in remission
+[C823] Follicular lymphoma grade IIIa
+[C8230] Follicular lymphoma grade IIIa, unspecified site
+[C8231] Follicular lymphoma grade IIIa, lymph nodes of head, face, and neck
+[C8232] Follicular lymphoma grade IIIa, intrathoracic lymph nodes
+[C8233] Follicular lymphoma grade IIIa, intra-abdominal lymph nodes
+[C8234] Follicular lymphoma grade IIIa, lymph nodes of axilla and upper limb
+[C8235] Follicular lymphoma grade IIIa, lymph nodes of inguinal region and lower limb
+[C8236] Follicular lymphoma grade IIIa, intrapelvic lymph nodes
+[C8237] Follicular lymphoma grade IIIa, spleen
+[C8238] Follicular lymphoma grade IIIa, lymph nodes of multiple sites
+[C8239] Follicular lymphoma grade IIIa, extranodal and solid organ sites
+[C823A] Follicular lymphoma grade IIIa, in remission
+[C824] Follicular lymphoma grade IIIb
+[C8240] Follicular lymphoma grade IIIb, unspecified site
+[C8241] Follicular lymphoma grade IIIb, lymph nodes of head, face, and neck
+[C8242] Follicular lymphoma grade IIIb, intrathoracic lymph nodes
+[C8243] Follicular lymphoma grade IIIb, intra-abdominal lymph nodes
+[C8244] Follicular lymphoma grade IIIb, lymph nodes of axilla and upper limb
+[C8245] Follicular lymphoma grade IIIb, lymph nodes of inguinal region and lower limb
+[C8246] Follicular lymphoma grade IIIb, intrapelvic lymph nodes
+[C8247] Follicular lymphoma grade IIIb, spleen
+[C8248] Follicular lymphoma grade IIIb, lymph nodes of multiple sites
+[C8249] Follicular lymphoma grade IIIb, extranodal and solid organ sites
+[C824A] Follicular lymphoma grade IIIb, in remission
+[C825] Diffuse follicle center lymphoma
+[C8250] Diffuse follicle center lymphoma, unspecified site
+[C8251] Diffuse follicle center lymphoma, lymph nodes of head, face, and neck
+[C8252] Diffuse follicle center lymphoma, intrathoracic lymph nodes
+[C8253] Diffuse follicle center lymphoma, intra-abdominal lymph nodes
+[C8254] Diffuse follicle center lymphoma, lymph nodes of axilla and upper limb
+[C8255] Diffuse follicle center lymphoma, lymph nodes of inguinal region and lower limb
+[C8256] Diffuse follicle center lymphoma, intrapelvic lymph nodes
+[C8257] Diffuse follicle center lymphoma, spleen
+[C8258] Diffuse follicle center lymphoma, lymph nodes of multiple sites
+[C8259] Diffuse follicle center lymphoma, extranodal and solid organ sites
+[C825A] Diffuse follicle center lymphoma, in remission
+[C826] Cutaneous follicle center lymphoma
+[C8260] Cutaneous follicle center lymphoma, unspecified site
+[C8261] Cutaneous follicle center lymphoma, lymph nodes of head, face, and neck
+[C8262] Cutaneous follicle center lymphoma, intrathoracic lymph nodes
+[C8263] Cutaneous follicle center lymphoma, intra-abdominal lymph nodes
+[C8264] Cutaneous follicle center lymphoma, lymph nodes of axilla and upper limb
+[C8265] Cutaneous follicle center lymphoma, lymph nodes of inguinal region and lower limb
+[C8266] Cutaneous follicle center lymphoma, intrapelvic lymph nodes
+[C8267] Cutaneous follicle center lymphoma, spleen
+[C8268] Cutaneous follicle center lymphoma, lymph nodes of multiple sites
+[C8269] Cutaneous follicle center lymphoma, extranodal and solid organ sites
+[C826A] Cutaneous follicle center lymphoma, in remission
+[C828] Other types of follicular lymphoma
+[C8280] Other types of follicular lymphoma, unspecified site
+[C8281] Other types of follicular lymphoma, lymph nodes of head, face, and neck
+[C8282] Other types of follicular lymphoma, intrathoracic lymph nodes
+[C8283] Other types of follicular lymphoma, intra-abdominal lymph nodes
+[C8284] Other types of follicular lymphoma, lymph nodes of axilla and upper limb
+[C8285] Other types of follicular lymphoma, lymph nodes of inguinal region and lower limb
+[C8286] Other types of follicular lymphoma, intrapelvic lymph nodes
+[C8287] Other types of follicular lymphoma, spleen
+[C8288] Other types of follicular lymphoma, lymph nodes of multiple sites
+[C8289] Other types of follicular lymphoma, extranodal and solid organ sites
+[C828A] Other types of follicular lymphoma, in remission
+[C829] Follicular lymphoma, unspecified
+[C8290] Follicular lymphoma, unspecified, unspecified site
+[C8291] Follicular lymphoma, unspecified, lymph nodes of head, face, and neck
+[C8292] Follicular lymphoma, unspecified, intrathoracic lymph nodes
+[C8293] Follicular lymphoma, unspecified, intra-abdominal lymph nodes
+[C8294] Follicular lymphoma, unspecified, lymph nodes of axilla and upper limb
+[C8295] Follicular lymphoma, unspecified, lymph nodes of inguinal region and lower limb
+[C8296] Follicular lymphoma, unspecified, intrapelvic lymph nodes
+[C8297] Follicular lymphoma, unspecified, spleen
+[C8298] Follicular lymphoma, unspecified, lymph nodes of multiple sites
+[C8299] Follicular lymphoma, unspecified, extranodal and solid organ sites
+[C829A] Follicular lymphoma, unspecified, in remission
+[C83] Non-follicular lymphoma -- **Excludes1:** - personal history of non-Hodgkin lymphoma (Z85.72)
+[C830] Small cell B-cell lymphoma -- **Inclusion terms:** - Lymphoplasmacytic lymphoma - Nodal marginal zone lymphoma - Non-leukemic variant of B-CLL - Splenic marginal zone lymphoma  **Excludes1:** - chronic lymphocytic leukemia (C91.1) - mature T/NK-cell lymphomas (C84.-) - Waldenström macroglobulinemia (C88.00)
+[C8300] Small cell B-cell lymphoma, unspecified site
+[C8301] Small cell B-cell lymphoma, lymph nodes of head, face, and neck
+[C8302] Small cell B-cell lymphoma, intrathoracic lymph nodes
+[C8303] Small cell B-cell lymphoma, intra-abdominal lymph nodes
+[C8304] Small cell B-cell lymphoma, lymph nodes of axilla and upper limb
+[C8305] Small cell B-cell lymphoma, lymph nodes of inguinal region and lower limb
+[C8306] Small cell B-cell lymphoma, intrapelvic lymph nodes
+[C8307] Small cell B-cell lymphoma, spleen
+[C8308] Small cell B-cell lymphoma, lymph nodes of multiple sites
+[C8309] Small cell B-cell lymphoma, extranodal and solid organ sites
+[C830A] Small cell B-cell lymphoma, in remission
+[C831] Mantle cell lymphoma -- **Inclusion terms:** - Centrocytic lymphoma - Malignant lymphomatous polyposis
+[C8310] Mantle cell lymphoma, unspecified site
+[C8311] Mantle cell lymphoma, lymph nodes of head, face, and neck
+[C8312] Mantle cell lymphoma, intrathoracic lymph nodes
+[C8313] Mantle cell lymphoma, intra-abdominal lymph nodes
+[C8314] Mantle cell lymphoma, lymph nodes of axilla and upper limb
+[C8315] Mantle cell lymphoma, lymph nodes of inguinal region and lower limb
+[C8316] Mantle cell lymphoma, intrapelvic lymph nodes
+[C8317] Mantle cell lymphoma, spleen
+[C8318] Mantle cell lymphoma, lymph nodes of multiple sites
+[C8319] Mantle cell lymphoma, extranodal and solid organ sites
+[C831A] Mantle cell lymphoma, in remission -- **Inclusion terms:** - Centrocytic lymphoma, in remission
+[C833] Diffuse large B-cell lymphoma -- **Inclusion terms:** - Anaplastic diffuse large B-cell lymphoma - CD30-positive diffuse large B-cell lymphoma - Centroblastic diffuse large B-cell lymphoma - Diffuse large B-cell lymphoma, subtype not specified - Immunoblastic diffuse large B-cell lymphoma - Plasmablastic diffuse large B-cell lymphoma - T-cell rich diffuse large B-cell lymphoma  **Excludes1:** - mediastinal (thymic) large B-cell lymphoma (C85.2-) - mature T/NK-cell lymphomas (C84.-)
+[C8330] Diffuse large B-cell lymphoma, unspecified site
+[C8331] Diffuse large B-cell lymphoma, lymph nodes of head, face, and neck
+[C8332] Diffuse large B-cell lymphoma, intrathoracic lymph nodes
+[C8333] Diffuse large B-cell lymphoma, intra-abdominal lymph nodes
+[C8334] Diffuse large B-cell lymphoma, lymph nodes of axilla and upper limb
+[C8335] Diffuse large B-cell lymphoma, lymph nodes of inguinal region and lower limb
+[C8336] Diffuse large B-cell lymphoma, intrapelvic lymph nodes
+[C8337] Diffuse large B-cell lymphoma, spleen
+[C8338] Diffuse large B-cell lymphoma, lymph nodes of multiple sites
+[C8339] Diffuse large B-cell lymphoma, extranodal and solid organ sites
+[C83390] Primary central nervous system lymphoma -- **Inclusion terms:** - PCNSL of brain - PCNSL of meninges - PCNSL of spinal cord - PCNSL NOS  **Excludes1:** - Primary central nervous system lymphoma, Burkitt (C83.79) - Primary central nervous system lymphoma, lymphoblastic (C83.59) - Primary central nervous system lymphoma, other (C83.89) - Primary central nervous system lymphoma, peripheral T-cell (C84.49)
+[C83398] Diffuse large B-cell lymphoma of other extranodal and solid organ sites
+[C833A] Diffuse large B-cell lymphoma, in remission
+[C835] Lymphoblastic (diffuse) lymphoma -- **Inclusion terms:** - B-precursor lymphoma - Lymphoblastic B-cell lymphoma - Lymphoblastic lymphoma NOS - Lymphoblastic T-cell lymphoma - T-precursor lymphoma
+[C8350] Lymphoblastic (diffuse) lymphoma, unspecified site
+[C8351] Lymphoblastic (diffuse) lymphoma, lymph nodes of head, face, and neck
+[C8352] Lymphoblastic (diffuse) lymphoma, intrathoracic lymph nodes
+[C8353] Lymphoblastic (diffuse) lymphoma, intra-abdominal lymph nodes
+[C8354] Lymphoblastic (diffuse) lymphoma, lymph nodes of axilla and upper limb
+[C8355] Lymphoblastic (diffuse) lymphoma, lymph nodes of inguinal region and lower limb
+[C8356] Lymphoblastic (diffuse) lymphoma, intrapelvic lymph nodes
+[C8357] Lymphoblastic (diffuse) lymphoma, spleen
+[C8358] Lymphoblastic (diffuse) lymphoma, lymph nodes of multiple sites
+[C8359] Lymphoblastic (diffuse) lymphoma, extranodal and solid organ sites
+[C835A] Lymphoblastic (diffuse) lymphoma, in remission
+[C837] Burkitt lymphoma -- **Inclusion terms:** - Atypical Burkitt lymphoma - Burkitt-like lymphoma  **Excludes1:** - mature B-cell leukemia Burkitt type (C91.A-)
+[C8370] Burkitt lymphoma, unspecified site
+[C8371] Burkitt lymphoma, lymph nodes of head, face, and neck
+[C8372] Burkitt lymphoma, intrathoracic lymph nodes
+[C8373] Burkitt lymphoma, intra-abdominal lymph nodes
+[C8374] Burkitt lymphoma, lymph nodes of axilla and upper limb
+[C8375] Burkitt lymphoma, lymph nodes of inguinal region and lower limb
+[C8376] Burkitt lymphoma, intrapelvic lymph nodes
+[C8377] Burkitt lymphoma, spleen
+[C8378] Burkitt lymphoma, lymph nodes of multiple sites
+[C8379] Burkitt lymphoma, extranodal and solid organ sites
+[C837A] Burkitt lymphoma, in remission
+[C838] Other non-follicular lymphoma -- **Inclusion terms:** - Intravascular large B-cell lymphoma - Lymphoid granulomatosis - Primary effusion B-cell lymphoma  **Excludes1:** - mediastinal (thymic) large B-cell lymphoma (C85.2-) - T-cell rich B-cell lymphoma (C83.3-)
+[C8380] Other non-follicular lymphoma, unspecified site
+[C8381] Other non-follicular lymphoma, lymph nodes of head, face, and neck
+[C8382] Other non-follicular lymphoma, intrathoracic lymph nodes
+[C8383] Other non-follicular lymphoma, intra-abdominal lymph nodes
+[C8384] Other non-follicular lymphoma, lymph nodes of axilla and upper limb
+[C8385] Other non-follicular lymphoma, lymph nodes of inguinal region and lower limb
+[C8386] Other non-follicular lymphoma, intrapelvic lymph nodes
+[C8387] Other non-follicular lymphoma, spleen
+[C8388] Other non-follicular lymphoma, lymph nodes of multiple sites
+[C8389] Other non-follicular lymphoma, extranodal and solid organ sites
+[C838A] Other non-follicular lymphoma, in remission
+[C839] Non-follicular (diffuse) lymphoma, unspecified
+[C8390] Non-follicular (diffuse) lymphoma, unspecified, unspecified site
+[C8391] Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of head, face, and neck
+[C8392] Non-follicular (diffuse) lymphoma, unspecified, intrathoracic lymph nodes
+[C8393] Non-follicular (diffuse) lymphoma, unspecified, intra-abdominal lymph nodes
+[C8394] Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of axilla and upper limb
+[C8395] Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of inguinal region and lower limb
+[C8396] Non-follicular (diffuse) lymphoma, unspecified, intrapelvic lymph nodes
+[C8397] Non-follicular (diffuse) lymphoma, unspecified, spleen
+[C8398] Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of multiple sites
+[C8399] Non-follicular (diffuse) lymphoma, unspecified, extranodal and solid organ sites
+[C839A] Non-follicular (diffuse) lymphoma, unspecified, in remission
+[C84] Mature T/NK-cell lymphomas -- **Excludes1:** - personal history of non-Hodgkin lymphoma (Z85.72)
+[C840] Mycosis fungoides -- **Excludes1:** - peripheral T-cell lymphoma, not elsewhere classified (C84.4-)
+[C8400] Mycosis fungoides, unspecified site
+[C8401] Mycosis fungoides, lymph nodes of head, face, and neck
+[C8402] Mycosis fungoides, intrathoracic lymph nodes
+[C8403] Mycosis fungoides, intra-abdominal lymph nodes
+[C8404] Mycosis fungoides, lymph nodes of axilla and upper limb
+[C8405] Mycosis fungoides, lymph nodes of inguinal region and lower limb
+[C8406] Mycosis fungoides, intrapelvic lymph nodes
+[C8407] Mycosis fungoides, spleen
+[C8408] Mycosis fungoides, lymph nodes of multiple sites
+[C8409] Mycosis fungoides, extranodal and solid organ sites
+[C840A] Mycosis fungoides, in remission
+[C841] Sezary disease
+[C8410] Sezary disease, unspecified site
+[C8411] Sezary disease, lymph nodes of head, face, and neck
+[C8412] Sezary disease, intrathoracic lymph nodes
+[C8413] Sezary disease, intra-abdominal lymph nodes
+[C8414] Sezary disease, lymph nodes of axilla and upper limb
+[C8415] Sezary disease, lymph nodes of inguinal region and lower limb
+[C8416] Sezary disease, intrapelvic lymph nodes
+[C8417] Sezary disease, spleen
+[C8418] Sezary disease, lymph nodes of multiple sites
+[C8419] Sezary disease, extranodal and solid organ sites
+[C841A] Sezary disease, in remission
+[C844] Peripheral T-cell lymphoma, not elsewhere classified -- **Inclusion terms:** - Lennert's lymphoma - Lymphoepithelioid lymphoma - Mature T-cell lymphoma, not elsewhere classified
+[C8440] Peripheral T-cell lymphoma, not elsewhere classified, unspecified site
+[C8441] Peripheral T-cell lymphoma, not elsewhere classified, lymph nodes of head, face, and neck
+[C8442] Peripheral T-cell lymphoma, not elsewhere classified, intrathoracic lymph nodes
+[C8443] Peripheral T-cell lymphoma, not elsewhere classified, intra-abdominal lymph nodes
+[C8444] Peripheral T-cell lymphoma, not elsewhere classified, lymph nodes of axilla and upper limb
+[C8445] Peripheral T-cell lymphoma, not elsewhere classified, lymph nodes of inguinal region and lower limb
+[C8446] Peripheral T-cell lymphoma, not elsewhere classified, intrapelvic lymph nodes
+[C8447] Peripheral T-cell lymphoma, not elsewhere classified, spleen
+[C8448] Peripheral T-cell lymphoma, not elsewhere classified, lymph nodes of multiple sites
+[C8449] Peripheral T-cell lymphoma, not elsewhere classified, extranodal and solid organ sites
+[C844A] Peripheral T-cell lymphoma, not elsewhere classified, in remission
+[C846] Anaplastic large cell lymphoma, ALK-positive -- **Inclusion terms:** - Anaplastic large cell lymphoma, CD30-positive
+[C8460] Anaplastic large cell lymphoma, ALK-positive, unspecified site
+[C8461] Anaplastic large cell lymphoma, ALK-positive, lymph nodes of head, face, and neck
+[C8462] Anaplastic large cell lymphoma, ALK-positive, intrathoracic lymph nodes
+[C8463] Anaplastic large cell lymphoma, ALK-positive, intra-abdominal lymph nodes
+[C8464] Anaplastic large cell lymphoma, ALK-positive, lymph nodes of axilla and upper limb
+[C8465] Anaplastic large cell lymphoma, ALK-positive, lymph nodes of inguinal region and lower limb
+[C8466] Anaplastic large cell lymphoma, ALK-positive, intrapelvic lymph nodes
+[C8467] Anaplastic large cell lymphoma, ALK-positive, spleen
+[C8468] Anaplastic large cell lymphoma, ALK-positive, lymph nodes of multiple sites
+[C8469] Anaplastic large cell lymphoma, ALK-positive, extranodal and solid organ sites
+[C846A] Anaplastic large cell lymphoma, ALK-positive, in remission
+[C847] Anaplastic large cell lymphoma, ALK-negative -- **Excludes1:** - primary cutaneous CD30-positive T-cell proliferations (C86.6-)
+[C8470] Anaplastic large cell lymphoma, ALK-negative, unspecified site
+[C8471] Anaplastic large cell lymphoma, ALK-negative, lymph nodes of head, face, and neck
+[C8472] Anaplastic large cell lymphoma, ALK-negative, intrathoracic lymph nodes
+[C8473] Anaplastic large cell lymphoma, ALK-negative, intra-abdominal lymph nodes
+[C8474] Anaplastic large cell lymphoma, ALK-negative, lymph nodes of axilla and upper limb
+[C8475] Anaplastic large cell lymphoma, ALK-negative, lymph nodes of inguinal region and lower limb
+[C8476] Anaplastic large cell lymphoma, ALK-negative, intrapelvic lymph nodes
+[C8477] Anaplastic large cell lymphoma, ALK-negative, spleen
+[C8478] Anaplastic large cell lymphoma, ALK-negative, lymph nodes of multiple sites
+[C8479] Anaplastic large cell lymphoma, ALK-negative, extranodal and solid organ sites
+[C847A] Anaplastic large cell lymphoma, ALK-negative, breast -- **Inclusion terms:** - Breast implant associated anaplastic large cell lymphoma (BIA-ALCL)  **Use additional code:** - code to identify: - breast implant status (Z98.82) - personal history of breast implant removal (Z98.86)
+[C847B] Anaplastic large cell lymphoma, ALK-negative, in remission
+[C849] Mature T/NK-cell lymphomas, unspecified -- **Inclusion terms:** - NK/T cell lymphoma NOS  **Excludes1:** - mature T-cell lymphoma, not elsewhere classified (C84.4-)
+[C8490] Mature T/NK-cell lymphomas, unspecified, unspecified site
+[C8491] Mature T/NK-cell lymphomas, unspecified, lymph nodes of head, face, and neck
+[C8492] Mature T/NK-cell lymphomas, unspecified, intrathoracic lymph nodes
+[C8493] Mature T/NK-cell lymphomas, unspecified, intra-abdominal lymph nodes
+[C8494] Mature T/NK-cell lymphomas, unspecified, lymph nodes of axilla and upper limb
+[C8495] Mature T/NK-cell lymphomas, unspecified, lymph nodes of inguinal region and lower limb
+[C8496] Mature T/NK-cell lymphomas, unspecified, intrapelvic lymph nodes
+[C8497] Mature T/NK-cell lymphomas, unspecified, spleen
+[C8498] Mature T/NK-cell lymphomas, unspecified, lymph nodes of multiple sites
+[C8499] Mature T/NK-cell lymphomas, unspecified, extranodal and solid organ sites
+[C849A] Mature T/NK-cell lymphomas, unspecified, in remission
+[C84A] Cutaneous T-cell lymphoma, unspecified
+[C84A0] Cutaneous T-cell lymphoma, unspecified, unspecified site
+[C84A1] Cutaneous T-cell lymphoma, unspecified lymph nodes of head, face, and neck
+[C84A2] Cutaneous T-cell lymphoma, unspecified, intrathoracic lymph nodes
+[C84A3] Cutaneous T-cell lymphoma, unspecified, intra-abdominal lymph nodes
+[C84A4] Cutaneous T-cell lymphoma, unspecified, lymph nodes of axilla and upper limb
+[C84A5] Cutaneous T-cell lymphoma, unspecified, lymph nodes of inguinal region and lower limb
+[C84A6] Cutaneous T-cell lymphoma, unspecified, intrapelvic lymph nodes
+[C84A7] Cutaneous T-cell lymphoma, unspecified, spleen
+[C84A8] Cutaneous T-cell lymphoma, unspecified, lymph nodes of multiple sites
+[C84A9] Cutaneous T-cell lymphoma, unspecified, extranodal and solid organ sites
+[C84AA] Cutaneous T-cell lymphoma, unspecified, in remission
+[C84Z] Other mature T/NK-cell lymphomas -- **Notes:** - If T-cell lineage or involvement is mentioned in conjunction with a specific lymphoma, code to the more specific description.  **Excludes1:** - angioimmunoblastic T-cell lymphoma (C86.50) - blastic NK-cell lymphoma (C86.40) - enteropathy-type T-cell lymphoma (C86.20) - extranodal NK-cell lymphoma, nasal type (C86.00) - hepatosplenic T-cell lymphoma (C86.10) - primary cutaneous CD30-positive T-cell proliferations (C86.60) - subcutaneous panniculitis-like T-cell lymphoma (C86.30) - T-cell leukemia (C91.1-)
+[C84Z0] Other mature T/NK-cell lymphomas, unspecified site
+[C84Z1] Other mature T/NK-cell lymphomas, lymph nodes of head, face, and neck
+[C84Z2] Other mature T/NK-cell lymphomas, intrathoracic lymph nodes
+[C84Z3] Other mature T/NK-cell lymphomas, intra-abdominal lymph nodes
+[C84Z4] Other mature T/NK-cell lymphomas, lymph nodes of axilla and upper limb
+[C84Z5] Other mature T/NK-cell lymphomas, lymph nodes of inguinal region and lower limb
+[C84Z6] Other mature T/NK-cell lymphomas, intrapelvic lymph nodes
+[C84Z7] Other mature T/NK-cell lymphomas, spleen
+[C84Z8] Other mature T/NK-cell lymphomas, lymph nodes of multiple sites
+[C84Z9] Other mature T/NK-cell lymphomas, extranodal and solid organ sites
+[C84ZA] Other mature T/NK-cell lymphomas, in remission
+[C85] Other specified and unspecified types of non-Hodgkin lymphoma -- **Excludes1:** - other specified types of T/NK-cell lymphoma (C86.-) - personal history of non-Hodgkin lymphoma (Z85.72)
+[C851] Unspecified B-cell lymphoma -- **Notes:** - If B-cell lineage or involvement is mentioned in conjunction with a specific lymphoma, code to the more specific description.
+[C8510] Unspecified B-cell lymphoma, unspecified site
+[C8511] Unspecified B-cell lymphoma, lymph nodes of head, face, and neck
+[C8512] Unspecified B-cell lymphoma, intrathoracic lymph nodes
+[C8513] Unspecified B-cell lymphoma, intra-abdominal lymph nodes
+[C8514] Unspecified B-cell lymphoma, lymph nodes of axilla and upper limb
+[C8515] Unspecified B-cell lymphoma, lymph nodes of inguinal region and lower limb
+[C8516] Unspecified B-cell lymphoma, intrapelvic lymph nodes
+[C8517] Unspecified B-cell lymphoma, spleen
+[C8518] Unspecified B-cell lymphoma, lymph nodes of multiple sites
+[C8519] Unspecified B-cell lymphoma, extranodal and solid organ sites
+[C851A] Unspecified B-cell lymphoma, in remission
+[C852] Mediastinal (thymic) large B-cell lymphoma
+[C8520] Mediastinal (thymic) large B-cell lymphoma, unspecified site
+[C8521] Mediastinal (thymic) large B-cell lymphoma, lymph nodes of head, face, and neck
+[C8522] Mediastinal (thymic) large B-cell lymphoma, intrathoracic lymph nodes
+[C8523] Mediastinal (thymic) large B-cell lymphoma, intra-abdominal lymph nodes
+[C8524] Mediastinal (thymic) large B-cell lymphoma, lymph nodes of axilla and upper limb
+[C8525] Mediastinal (thymic) large B-cell lymphoma, lymph nodes of inguinal region and lower limb
+[C8526] Mediastinal (thymic) large B-cell lymphoma, intrapelvic lymph nodes
+[C8527] Mediastinal (thymic) large B-cell lymphoma, spleen
+[C8528] Mediastinal (thymic) large B-cell lymphoma, lymph nodes of multiple sites
+[C8529] Mediastinal (thymic) large B-cell lymphoma, extranodal and solid organ sites
+[C852A] Mediastinal (thymic) large B-cell lymphoma, in remission
+[C858] Other specified types of non-Hodgkin lymphoma
+[C8580] Other specified types of non-Hodgkin lymphoma, unspecified site
+[C8581] Other specified types of non-Hodgkin lymphoma, lymph nodes of head, face, and neck
+[C8582] Other specified types of non-Hodgkin lymphoma, intrathoracic lymph nodes
+[C8583] Other specified types of non-Hodgkin lymphoma, intra-abdominal lymph nodes
+[C8584] Other specified types of non-Hodgkin lymphoma, lymph nodes of axilla and upper limb
+[C8585] Other specified types of non-Hodgkin lymphoma, lymph nodes of inguinal region and lower limb
+[C8586] Other specified types of non-Hodgkin lymphoma, intrapelvic lymph nodes
+[C8587] Other specified types of non-Hodgkin lymphoma, spleen
+[C8588] Other specified types of non-Hodgkin lymphoma, lymph nodes of multiple sites
+[C8589] Other specified types of non-Hodgkin lymphoma, extranodal and solid organ sites
+[C858A] Other specified types of non-Hodgkin lymphoma, in remission
+[C859] Non-Hodgkin lymphoma, unspecified -- **Inclusion terms:** - Lymphoma NOS - Malignant lymphoma NOS - Non-Hodgkin lymphoma NOS
+[C8590] Non-Hodgkin lymphoma, unspecified, unspecified site
+[C8591] Non-Hodgkin lymphoma, unspecified, lymph nodes of head, face, and neck
+[C8592] Non-Hodgkin lymphoma, unspecified, intrathoracic lymph nodes
+[C8593] Non-Hodgkin lymphoma, unspecified, intra-abdominal lymph nodes
+[C8594] Non-Hodgkin lymphoma, unspecified, lymph nodes of axilla and upper limb
+[C8595] Non-Hodgkin lymphoma, unspecified, lymph nodes of inguinal region and lower limb
+[C8596] Non-Hodgkin lymphoma, unspecified, intrapelvic lymph nodes
+[C8597] Non-Hodgkin lymphoma, unspecified, spleen
+[C8598] Non-Hodgkin lymphoma, unspecified, lymph nodes of multiple sites
+[C8599] Non-Hodgkin lymphoma, unspecified, extranodal and solid organ sites
+[C859A] Non-Hodgkin lymphoma, unspecified, in remission
+[C86] Other specified types of T/NK-cell lymphoma -- **Excludes1:** - anaplastic large cell lymphoma, ALK negative (C84.7-) - anaplastic large cell lymphoma, ALK positive (C84.6-) - mature T/NK-cell lymphomas (C84.-) - other specified types of non-Hodgkin lymphoma (C85.8-)
+[C860] Extranodal NK/T-cell lymphoma, nasal type
+[C8600] Extranodal NK/T-cell lymphoma, nasal type not having achieved remission -- **Inclusion terms:** - Extranodal NK/T-cell lymphoma, nasal type NOS - Extranodal NK/T-cell lymphoma, nasal type with failed remission
+[C8601] Extranodal NK/T-cell lymphoma, nasal type, in remission
+[C861] Hepatosplenic T-cell lymphoma -- **Inclusion terms:** - Alpha-beta and gamma delta types
+[C8610] Hepatosplenic T-cell lymphoma not having achieved remission -- **Inclusion terms:** - Hepatosplenic T-cell lymphoma NOS - Hepatosplenic T-cell lymphoma with failed remission
+[C8611] Hepatosplenic T-cell lymphoma, in remission
+[C862] Enteropathy-type (intestinal) T-cell lymphoma -- **Inclusion terms:** - Enteropathy associated T-cell lymphoma
+[C8620] Enteropathy-type (intestinal) T-cell lymphoma not having achieved remission -- **Inclusion terms:** - Enteropathy associated T-cell lymphoma NOS - Enteropathy associated T-cell lymphoma not having achieved remission - Enteropathy associated T-cell lymphoma with failed remission - Enteropathy-type (intestinal) T-cell lymphoma NOS - Enteropathy-type (intestinal) T-cell lymphoma with failed remission
+[C8621] Enteropathy-type (intestinal) T-cell lymphoma, in remission -- **Inclusion terms:** - Enteropathy associated T-cell lymphoma, in remission
+[C863] Subcutaneous panniculitis-like T-cell lymphoma
+[C8630] Subcutaneous panniculitis-like T-cell lymphoma not having achieved remission -- **Inclusion terms:** - Subcutaneous panniculitis-like T-cell lymphoma NOS - Subcutaneous panniculitis-like T-cell lymphoma with failed remission
+[C8631] Subcutaneous panniculitis-like T-cell lymphoma, in remission
+[C864] Blastic NK-cell lymphoma -- **Inclusion terms:** - Blastic plasmacytoid dendritic cell neoplasm (BPDCN)
+[C8640] Blastic NK-cell lymphoma not having achieved remission -- **Inclusion terms:** - Blastic NK-cell lymphoma NOS - Blastic NK-cell lymphoma with failed remission - Blastic plasmacytoid dendritic cell neoplasm (BPDCN) NOS - Blastic plasmacytoid dendritic cell neoplasm (BPDCN) not having achieved remission - Blastic plasmacytoid dendritic cell neoplasm (BPDCN) with failed remission
+[C8641] Blastic NK-cell lymphoma, in remission -- **Inclusion terms:** - Blastic plasmacytoid dendritic cell neoplasm (BPDCN), in remission
+[C865] Angioimmunoblastic T-cell lymphoma -- **Inclusion terms:** - Angioimmunoblastic lymphadenopathy with dysproteinemia (AILD)
+[C8650] Angioimmunoblastic T-cell lymphoma not having achieved remission -- **Inclusion terms:** - Angioimmunoblastic lymphadenopathy with dysproteinemia (AILD) NOS - Angioimmunoblastic lymphadenopathy with dysproteinemia (AILD) not having achieved remission - Angioimmunoblastic lymphadenopathy with dysproteinemia (AILD) with failed remission - Angioimmunoblastic T-cell lymphoma NOS - Angioimmunoblastic T-cell lymphoma with failed remission
+[C8651] Angioimmunoblastic T-cell lymphoma, in remission -- **Inclusion terms:** - Angioimmunoblastic lymphadenopathy with dysproteinemia (AILD), in remission
+[C866] Primary cutaneous CD30-positive T-cell proliferations -- **Inclusion terms:** - Lymphomatoid papulosis - Primary cutaneous anaplastic large cell lymphoma - Primary cutaneous CD30-positive large T-cell lymphoma
+[C8660] Primary cutaneous CD30-positive T-cell proliferations not having achieved remission -- **Inclusion terms:** - Lymphomatoid papulosis NOS - Lymphomatoid papulosis not having achieved remission - Lymphomatoid papulosis with failed remission - Primary cutaneous anaplastic large cell lymphoma NOS - Primary cutaneous anaplastic large cell lymphoma not having achieved remission - Primary cutaneous anaplastic large cell lymphoma with failed remission - Primary cutaneous CD30-positive large T-cell lymphoma NOS - Primary cutaneous CD30-positive large T-cell lymphoma not having achieved remission - Primary cutaneous CD30-positive large T-cell lymphoma with failed remission - Primary cutaneous CD30-positive T-cell proliferations NOS - Primary cutaneous CD30-positive T-cell proliferations with failed remission
+[C8661] Primary cutaneous CD30-positive T-cell proliferations, in remission
+[C88] Malignant immunoproliferative diseases and certain other B-cell lymphomas -- **Excludes1:** - B-cell lymphoma, unspecified (C85.1-) - personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues (Z85.79)
+[C880] Waldenstrom macroglobulinemia -- **Inclusion terms:** - Lymphoplasmacytic lymphoma with IgM-production - Macroglobulinemia (idiopathic) (primary)  **Excludes1:** - small cell B-cell lymphoma (C83.0)
+[C8800] Waldenstrom macroglobulinemia not having achieved remission -- **Inclusion terms:** - Lymphoplasmacytic lymphoma with IgM-production, NOS - Lymphoplasmacytic lymphoma with IgM-production not having achieved remission - Lymphoplasmacytic lymphoma with IgM-production with failed remission - Macroglobulinemia (idiopathic) (primary) NOS - Macroglobulinemia (idiopathic) (primary) not having achieved remission - Macroglobulinemia (idiopathic) (primary) with failed remission - Waldenström macroglobulinemia NOS - Waldenström macroglobulinemia with failed remission
+[C8801] Waldenstrom macroglobulinemia, in remission
+[C882] Heavy chain disease -- **Inclusion terms:** - Franklin disease - Gamma heavy chain disease - Mu heavy chain disease
+[C8820] Heavy chain disease not having achieved remission -- **Inclusion terms:** - Franklin disease NOS - Franklin disease not having achieved remission - Franklin disease with failed remission - Gamma heavy chain disease NOS - Gamma heavy chain disease not having achieved remission - Gamma heavy chain disease with failed remission - Heavy chain disease NOS - Heavy chain disease with failed remissionMu heavy chain disease not having achieved remission - Mu heavy chain disease NOS - Mu heavy chain disease not having achieved remission - Mu heavy chain disease with failed remission
+[C8821] Heavy chain disease, in remission
+[C883] Immunoproliferative small intestinal disease -- **Inclusion terms:** - Alpha heavy chain disease - Mediterranean lymphoma
+[C8830] Immunoproliferative small intestinal disease not having achieved remission -- **Inclusion terms:** - Alpha heavy chain disease NOS - Alpha heavy chain disease not having achieved remission - Alpha heavy chain disease with failed remission - Immunoproliferative small intestinal disease NOS - Immunoproliferative small intestinal disease with failed remission - Mediterranean lymphoma NOS - Mediterranean lymphoma not having achieved remission - Mediterranean lymphoma with failed remission
+[C8831] Immunoproliferative small intestinal disease, in remission
+[C884] Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma] -- **Inclusion terms:** - Lymphoma of skin-associated lymphoid tissue [SALT-lymphoma] - Lymphoma of bronchial-associated lymphoid tissue [BALT-lymphoma]  **Excludes1:** - high malignant (diffuse large B-cell) lymphoma (C83.3-)
+[C8840] Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma] not having achieved remission -- **Inclusion terms:** - Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma] NOS - Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma] with failed remission - Lymphoma of bronchial-associated lymphoid tissue [BALT-lymphoma] NOS - Lymphoma of bronchial-associated lymphoid tissue [BALT-lymphoma] not having achieved remission - Lymphoma of bronchial-associated lymphoid tissue [BALT-lymphoma] with failed remission - Lymphoma of skin-associated lymphoid tissue [SALT-lymphoma] NOS - Lymphoma of skin-associated lymphoid tissue [SALT-lymphoma] not having achieved remission - Lymphoma of skin-associated lymphoid tissue [SALT-lymphoma] with failed remission
+[C8841] Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma], in remission
+[C888] Other malignant immunoproliferative diseases
+[C8880] Other malignant immunoproliferative diseases not having achieved remission -- **Inclusion terms:** - Other malignant immunoproliferative diseases NOS - Other malignant immunoproliferative diseases with failed remission
+[C8881] Other malignant immunoproliferative diseases, in remission
+[C889] Malignant immunoproliferative disease, unspecified -- **Inclusion terms:** - Immunoproliferative disease NOS
+[C8890] Malignant immunoproliferative disease, unspecified not having achieved remission -- **Inclusion terms:** - Immunoproliferative disease NOS - Immunoproliferative disease NOS not having achieved remission - Immunoproliferative disease NOS with failed remission - Malignant immunoproliferative disease, unspecified NOS - Malignant immunoproliferative disease, unspecified with failed remission
+[C8891] Malignant immunoproliferative disease, unspecified, in remission
+[C90] Multiple myeloma and malignant plasma cell neoplasms -- **Excludes1:** - personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues (Z85.79)
+[C900] Multiple myeloma -- **Inclusion terms:** - Kahler's disease - Medullary plasmacytoma - Myelomatosis - Plasma cell myeloma  **Excludes1:** - solitary myeloma (C90.3-) - solitary plasmactyoma (C90.3-)
+[C9000] Multiple myeloma not having achieved remission -- **Inclusion terms:** - Multiple myeloma with failed remission - Multiple myeloma NOS
+[C9001] Multiple myeloma in remission
+[C9002] Multiple myeloma in relapse
+[C901] Plasma cell leukemia -- **Inclusion terms:** - Plasmacytic leukemia
+[C9010] Plasma cell leukemia not having achieved remission -- **Inclusion terms:** - Plasma cell leukemia with failed remission - Plasma cell leukemia NOS
+[C9011] Plasma cell leukemia in remission
+[C9012] Plasma cell leukemia in relapse
+[C902] Extramedullary plasmacytoma
+[C9020] Extramedullary plasmacytoma not having achieved remission -- **Inclusion terms:** - Extramedullary plasmacytoma with failed remission - Extramedullary plasmacytoma NOS
+[C9021] Extramedullary plasmacytoma in remission
+[C9022] Extramedullary plasmacytoma in relapse
+[C903] Solitary plasmacytoma -- **Inclusion terms:** - Localized malignant plasma cell tumor NOS - Plasmacytoma NOS - Solitary myeloma
+[C9030] Solitary plasmacytoma not having achieved remission -- **Inclusion terms:** - Solitary plasmacytoma with failed remission - Solitary plasmacytoma NOS
+[C9031] Solitary plasmacytoma in remission
+[C9032] Solitary plasmacytoma in relapse
+[C91] Lymphoid leukemia -- **Excludes1:** - personal history of leukemia (Z85.6)
+[C910] Acute lymphoblastic leukemia [ALL] -- **Notes:** - Codes in subcategory C91.0- should only be used for T-cell and B-cell precursor leukemia
+[C9100] Acute lymphoblastic leukemia not having achieved remission -- **Inclusion terms:** - Acute lymphoblastic leukemia with failed remission - Acute lymphoblastic leukemia NOS
+[C9101] Acute lymphoblastic leukemia, in remission
+[C9102] Acute lymphoblastic leukemia, in relapse
+[C911] Chronic lymphocytic leukemia of B-cell type -- **Inclusion terms:** - Lymphoplasmacytic leukemia - Richter syndrome  **Excludes1:** - lymphoplasmacytic lymphoma (C83.0-)
+[C9110] Chronic lymphocytic leukemia of B-cell type not having achieved remission -- **Inclusion terms:** - Chronic lymphocytic leukemia of B-cell type with failed remission - Chronic lymphocytic leukemia of B-cell type NOS
+[C9111] Chronic lymphocytic leukemia of B-cell type in remission
+[C9112] Chronic lymphocytic leukemia of B-cell type in relapse
+[C913] Prolymphocytic leukemia of B-cell type
+[C9130] Prolymphocytic leukemia of B-cell type not having achieved remission -- **Inclusion terms:** - Prolymphocytic leukemia of B-cell type with failed remission - Prolymphocytic leukemia of B-cell type NOS
+[C9131] Prolymphocytic leukemia of B-cell type, in remission
+[C9132] Prolymphocytic leukemia of B-cell type, in relapse
+[C914] Hairy cell leukemia -- **Inclusion terms:** - Leukemic reticuloendotheliosis
+[C9140] Hairy cell leukemia not having achieved remission -- **Inclusion terms:** - Hairy cell leukemia with failed remission - Hairy cell leukemia NOS
+[C9141] Hairy cell leukemia, in remission
+[C9142] Hairy cell leukemia, in relapse
+[C915] Adult T-cell lymphoma/leukemia (HTLV-1-associated) -- **Inclusion terms:** - Acute variant of adult T-cell lymphoma/leukemia (HTLV-1-associated) - Chronic variant of adult T-cell lymphoma/leukemia (HTLV-1-associated) - Lymphomatoid variant of adult T-cell lymphoma/leukemia (HTLV-1-associated) - Smouldering variant of adult T-cell lymphoma/leukemia (HTLV-1-associated)
+[C9150] Adult T-cell lymphoma/leukemia (HTLV-1-associated) not having achieved remission -- **Inclusion terms:** - Adult T-cell lymphoma/leukemia (HTLV-1-associated) with failed remission - Adult T-cell lymphoma/leukemia (HTLV-1-associated) NOS
+[C9151] Adult T-cell lymphoma/leukemia (HTLV-1-associated), in remission
+[C9152] Adult T-cell lymphoma/leukemia (HTLV-1-associated), in relapse
+[C916] Prolymphocytic leukemia of T-cell type
+[C9160] Prolymphocytic leukemia of T-cell type not having achieved remission -- **Inclusion terms:** - Prolymphocytic leukemia of T-cell type with failed remission - Prolymphocytic leukemia of T-cell type NOS
+[C9161] Prolymphocytic leukemia of T-cell type, in remission
+[C9162] Prolymphocytic leukemia of T-cell type, in relapse
+[C919] Lymphoid leukemia, unspecified
+[C9190] Lymphoid leukemia, unspecified not having achieved remission -- **Inclusion terms:** - Lymphoid leukemia with failed remission - Lymphoid leukemia NOS
+[C9191] Lymphoid leukemia, unspecified, in remission
+[C9192] Lymphoid leukemia, unspecified, in relapse
+[C91A] Mature B-cell leukemia Burkitt-type -- **Excludes1:** - Burkitt lymphoma (C83.7-)
+[C91A0] Mature B-cell leukemia Burkitt-type not having achieved remission -- **Inclusion terms:** - Mature B-cell leukemia Burkitt-type with failed remission - Mature B-cell leukemia Burkitt-type NOS
+[C91A1] Mature B-cell leukemia Burkitt-type, in remission
+[C91A2] Mature B-cell leukemia Burkitt-type, in relapse
+[C91Z] Other lymphoid leukemia -- **Inclusion terms:** - T-cell large granular lymphocytic leukemia (associated with rheumatoid arthritis)
+[C91Z0] Other lymphoid leukemia not having achieved remission -- **Inclusion terms:** - Other lymphoid leukemia with failed remission - Other lymphoid leukemia NOS
+[C91Z1] Other lymphoid leukemia, in remission
+[C91Z2] Other lymphoid leukemia, in relapse
+[C92] Myeloid leukemia -- **Includes:** - granulocytic leukemia - myelogenous leukemia  **Excludes1:** - personal history of leukemia (Z85.6)  **Code also:** - , if applicable, pancytopenia (acquired) (D61.818)
+[C920] Acute myeloblastic leukemia -- **Inclusion terms:** - Acute myeloblastic leukemia, minimal differentiation - Acute myeloblastic leukemia (with maturation) - Acute myeloblastic leukemia 1/ETO - Acute myeloblastic leukemia M0 - Acute myeloblastic leukemia M1 - Acute myeloblastic leukemia M2 - Acute myeloblastic leukemia with t(8;21) - Acute myeloblastic leukemia (without a FAB classification) NOS - Refractory anemia with excess blasts in transformation [RAEB T]  **Excludes1:** - acute exacerbation of chronic myeloid leukemia (C92.10) - refractory anemia with excess of blasts not in transformation (D46.2-)
+[C9200] Acute myeloblastic leukemia, not having achieved remission -- **Inclusion terms:** - Acute myeloblastic leukemia with failed remission - Acute myeloblastic leukemia NOS
+[C9201] Acute myeloblastic leukemia, in remission
+[C9202] Acute myeloblastic leukemia, in relapse
+[C921] Chronic myeloid leukemia, BCR/ABL-positive -- **Inclusion terms:** - Chronic myelogenous leukemia, Philadelphia chromosome (Ph1) positive - Chronic myelogenous leukemia, t(9;22) (q34;q11) - Chronic myelogenous leukemia with crisis of blast cells  **Excludes1:** - atypical chronic myeloid leukemia BCR/ABL-negative (C92.2-) - chronic myelomonocytic leukemia (C93.1-) - chronic myeloproliferative disease (D47.1)
+[C9210] Chronic myeloid leukemia, BCR/ABL-positive, not having achieved remission -- **Inclusion terms:** - Chronic myeloid leukemia, BCR/ABL-positive with failed remission - Chronic myeloid leukemia, BCR/ABL-positive NOS
+[C9211] Chronic myeloid leukemia, BCR/ABL-positive, in remission
+[C9212] Chronic myeloid leukemia, BCR/ABL-positive, in relapse
+[C922] Atypical chronic myeloid leukemia, BCR/ABL-negative
+[C9220] Atypical chronic myeloid leukemia, BCR/ABL-negative, not having achieved remission -- **Inclusion terms:** - Atypical chronic myeloid leukemia, BCR/ABL-negative with failed remission - Atypical chronic myeloid leukemia, BCR/ABL-negative NOS
+[C9221] Atypical chronic myeloid leukemia, BCR/ABL-negative, in remission
+[C9222] Atypical chronic myeloid leukemia, BCR/ABL-negative, in relapse
+[C923] Myeloid sarcoma -- **Inclusion terms:** - A malignant tumor of immature myeloid cells - Chloroma - Granulocytic sarcoma
+[C9230] Myeloid sarcoma, not having achieved remission -- **Inclusion terms:** - Myeloid sarcoma with failed remission - Myeloid sarcoma NOS
+[C9231] Myeloid sarcoma, in remission
+[C9232] Myeloid sarcoma, in relapse
+[C924] Acute promyelocytic leukemia -- **Inclusion terms:** - AML M3 - AML Me with t(15;17) and variants
+[C9240] Acute promyelocytic leukemia, not having achieved remission -- **Inclusion terms:** - Acute promyelocytic leukemia with failed remission - Acute promyelocytic leukemia NOS
+[C9241] Acute promyelocytic leukemia, in remission
+[C9242] Acute promyelocytic leukemia, in relapse
+[C925] Acute myelomonocytic leukemia -- **Inclusion terms:** - AML M4 - AML M4 Eo with inv(16) or t(16;16)
+[C9250] Acute myelomonocytic leukemia, not having achieved remission -- **Inclusion terms:** - Acute myelomonocytic leukemia with failed remission - Acute myelomonocytic leukemia NOS
+[C9251] Acute myelomonocytic leukemia, in remission
+[C9252] Acute myelomonocytic leukemia, in relapse
+[C926] Acute myeloid leukemia with 11q23-abnormality -- **Inclusion terms:** - Acute myeloid leukemia with variation of MLL-gene
+[C9260] Acute myeloid leukemia with 11q23-abnormality not having achieved remission -- **Inclusion terms:** - Acute myeloid leukemia with 11q23-abnormality with failed remission - Acute myeloid leukemia with 11q23-abnormality NOS
+[C9261] Acute myeloid leukemia with 11q23-abnormality in remission
+[C9262] Acute myeloid leukemia with 11q23-abnormality in relapse
+[C929] Myeloid leukemia, unspecified
+[C9290] Myeloid leukemia, unspecified, not having achieved remission -- **Inclusion terms:** - Myeloid leukemia, unspecified with failed remission - Myeloid leukemia, unspecified NOS
+[C9291] Myeloid leukemia, unspecified in remission
+[C9292] Myeloid leukemia, unspecified in relapse
+[C92A] Acute myeloid leukemia with multilineage dysplasia -- **Inclusion terms:** - Acute myeloid leukemia with dysplasia of remaining hematopoesis and/or myelodysplastic disease in its history
+[C92A0] Acute myeloid leukemia with multilineage dysplasia, not having achieved remission -- **Inclusion terms:** - Acute myeloid leukemia with multilineage dysplasia with failed remission - Acute myeloid leukemia with multilineage dysplasia NOS
+[C92A1] Acute myeloid leukemia with multilineage dysplasia, in remission
+[C92A2] Acute myeloid leukemia with multilineage dysplasia, in relapse
+[C92Z] Other myeloid leukemia
+[C92Z0] Other myeloid leukemia not having achieved remission -- **Inclusion terms:** - Myeloid leukemia NEC with failed remission - Myeloid leukemia NEC
+[C92Z1] Other myeloid leukemia, in remission
+[C92Z2] Other myeloid leukemia, in relapse
+[C93] Monocytic leukemia -- **Includes:** - monocytoid leukemia  **Excludes1:** - personal history of leukemia (Z85.6)
+[C930] Acute monoblastic/monocytic leukemia -- **Inclusion terms:** - AML M5 - AML M5a - AML M5b
+[C9300] Acute monoblastic/monocytic leukemia, not having achieved remission -- **Inclusion terms:** - Acute monoblastic/monocytic leukemia with failed remission - Acute monoblastic/monocytic leukemia NOS
+[C9301] Acute monoblastic/monocytic leukemia, in remission
+[C9302] Acute monoblastic/monocytic leukemia, in relapse
+[C931] Chronic myelomonocytic leukemia -- **Inclusion terms:** - Chronic monocytic leukemia - CMML-1 - CMML-2 - CMML with eosinophilia  **Code also:** - , if applicable, eosinophilia (D72.18)
+[C9310] Chronic myelomonocytic leukemia not having achieved remission -- **Inclusion terms:** - Chronic myelomonocytic leukemia with failed remission - Chronic myelomonocytic leukemia NOS
+[C9311] Chronic myelomonocytic leukemia, in remission
+[C9312] Chronic myelomonocytic leukemia, in relapse
+[C933] Juvenile myelomonocytic leukemia
+[C9330] Juvenile myelomonocytic leukemia, not having achieved remission -- **Inclusion terms:** - Juvenile myelomonocytic leukemia with failed remission - Juvenile myelomonocytic leukemia NOS
+[C9331] Juvenile myelomonocytic leukemia, in remission
+[C9332] Juvenile myelomonocytic leukemia, in relapse
+[C939] Monocytic leukemia, unspecified
+[C9390] Monocytic leukemia, unspecified, not having achieved remission -- **Inclusion terms:** - Monocytic leukemia, unspecified with failed remission - Monocytic leukemia, unspecified NOS
+[C9391] Monocytic leukemia, unspecified in remission
+[C9392] Monocytic leukemia, unspecified in relapse
+[C93Z] Other monocytic leukemia
+[C93Z0] Other monocytic leukemia, not having achieved remission -- **Inclusion terms:** - Other monocytic leukemia NOS
+[C93Z1] Other monocytic leukemia, in remission
+[C93Z2] Other monocytic leukemia, in relapse
+[C94] Other leukemias of specified cell type -- **Excludes1:** - leukemic reticuloendotheliosis (C91.4-) - myelodysplastic syndromes (D46.-) - personal history of leukemia (Z85.6) - plasma cell leukemia (C90.1-)
+[C940] Acute erythroid leukemia -- **Inclusion terms:** - Acute myeloid leukemia M6(a)(b) - Erythroleukemia
+[C9400] Acute erythroid leukemia, not having achieved remission -- **Inclusion terms:** - Acute erythroid leukemia with failed remission - Acute erythroid leukemia NOS
+[C9401] Acute erythroid leukemia, in remission
+[C9402] Acute erythroid leukemia, in relapse
+[C942] Acute megakaryoblastic leukemia -- **Inclusion terms:** - Acute myeloid leukemia M7 - Acute megakaryocytic leukemia
+[C9420] Acute megakaryoblastic leukemia not having achieved remission -- **Inclusion terms:** - Acute megakaryoblastic leukemia with failed remission - Acute megakaryoblastic leukemia NOS
+[C9421] Acute megakaryoblastic leukemia, in remission
+[C9422] Acute megakaryoblastic leukemia, in relapse
+[C943] Mast cell leukemia
+[C9430] Mast cell leukemia not having achieved remission -- **Inclusion terms:** - Mast cell leukemia with failed remission - Mast cell leukemia NOS
+[C9431] Mast cell leukemia, in remission
+[C9432] Mast cell leukemia, in relapse
+[C944] Acute panmyelosis with myelofibrosis -- **Inclusion terms:** - Acute myelofibrosis  **Excludes1:** - myelofibrosis NOS (D75.81) - secondary myelofibrosis NOS (D75.81)
+[C9440] Acute panmyelosis with myelofibrosis not having achieved remission -- **Inclusion terms:** - Acute myelofibrosis NOS - Acute panmyelosis with myelofibrosis with failed remission - Acute panmyelosis NOS
+[C9441] Acute panmyelosis with myelofibrosis, in remission
+[C9442] Acute panmyelosis with myelofibrosis, in relapse
+[C946] Myelodysplastic disease, not elsewhere classified -- **Inclusion terms:** - Myelodysplastic/myeloproliferative neoplasm, unclassifiable - Myeloproliferative disease, not elsewhere classified
+[C948] Other specified leukemias -- **Inclusion terms:** - Aggressive NK-cell leukemia - Acute basophilic leukemia  **Code also:** - , if applicable, eosinophilia (D72.18)
+[C9480] Other specified leukemias not having achieved remission -- **Inclusion terms:** - Other specified leukemia with failed remission - Other specified leukemias NOS
+[C9481] Other specified leukemias, in remission
+[C9482] Other specified leukemias, in relapse
+[C95] Leukemia of unspecified cell type -- **Excludes1:** - personal history of leukemia (Z85.6)
+[C950] Acute leukemia of unspecified cell type -- **Inclusion terms:** - Acute bilineal leukemia - Acute mixed lineage leukemia - Biphenotypic acute leukemia - Stem cell leukemia of unclear lineage  **Excludes1:** - acute exacerbation of unspecified chronic leukemia (C95.10)
+[C9500] Acute leukemia of unspecified cell type not having achieved remission -- **Inclusion terms:** - Acute leukemia of unspecified cell type with failed remission - Acute leukemia NOS
+[C9501] Acute leukemia of unspecified cell type, in remission
+[C9502] Acute leukemia of unspecified cell type, in relapse
+[C951] Chronic leukemia of unspecified cell type
+[C9510] Chronic leukemia of unspecified cell type not having achieved remission -- **Inclusion terms:** - Chronic leukemia of unspecified cell type with failed remission - Chronic leukemia NOS
+[C9511] Chronic leukemia of unspecified cell type, in remission
+[C9512] Chronic leukemia of unspecified cell type, in relapse
+[C959] Leukemia, unspecified
+[C9590] Leukemia, unspecified not having achieved remission -- **Inclusion terms:** - Leukemia, unspecified with failed remission - Leukemia NOS
+[C9591] Leukemia, unspecified, in remission
+[C9592] Leukemia, unspecified, in relapse
+[C96] Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue -- **Excludes1:** - personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues (Z85.79)
+[C960] Multifocal and multisystemic (disseminated) Langerhans-cell histiocytosis -- **Inclusion terms:** - Histiocytosis X, multisystemic - Letterer-Siwe disease  **Excludes1:** - adult pulmonary Langerhans cell histiocytosis (J84.82) - multifocal and unisystemic Langerhans-cell histiocytosis (C96.5) - unifocal Langerhans-cell histiocytosis (C96.6)
+[C962] Malignant mast cell neoplasm -- **Excludes1:** - indolent mastocytosis (D47.02) - mast cell leukemia (C94.30) - mastocytosis (congenital) (cutaneous) (Q82.2)
+[C9620] Malignant mast cell neoplasm, unspecified
+[C9621] Aggressive systemic mastocytosis
+[C9622] Mast cell sarcoma
+[C9629] Other malignant mast cell neoplasm
+[C964] Sarcoma of dendritic cells (accessory cells) -- **Inclusion terms:** - Follicular dendritic cell sarcoma - Interdigitating dendritic cell sarcoma - Langerhans cell sarcoma
+[C965] Multifocal and unisystemic Langerhans-cell histiocytosis -- **Inclusion terms:** - Hand-Schüller-Christian disease - Histiocytosis X, multifocal  **Excludes1:** - multifocal and multisystemic (disseminated) Langerhans-cell histiocytosis (C96.0) - unifocal Langerhans-cell histiocytosis (C96.6)
+[C966] Unifocal Langerhans-cell histiocytosis -- **Inclusion terms:** - Eosinophilic granuloma - Histiocytosis X, unifocal - Histiocytosis X NOS - Langerhans-cell histiocytosis NOS  **Excludes1:** - multifocal and multisysemic (disseminated) Langerhans-cell histiocytosis (C96.0) - multifocal and unisystemic Langerhans-cell histiocytosis (C96.5)
+[C969] Malignant neoplasm of lymphoid, hematopoietic and related tissue, unspecified
+[C96A] Histiocytic sarcoma -- **Inclusion terms:** - Malignant histiocytosis
+[C96Z] Other specified malignant neoplasms of lymphoid, hematopoietic and related tissue
+[CH01] Certain Infectious and Parasitic Diseases -- **Includes:** - diseases generally recognized as communicable or transmissible  **Excludes1:** - certain localized infections - see body system-related chapters  **Excludes2:** - carrier or suspected carrier of infectious disease (Z22.-) - infectious and parasitic diseases complicating pregnancy, childbirth and the puerperium (O98.-) - infectious and parasitic diseases specific to the perinatal period (P35-P39) - influenza and other acute respiratory infections (J00-J22)  **Use additional code:** - code to identify resistance to antimicrobial drugs (Z16.-)
+[CH02] Neoplasms -- **Notes:** - Functional activity - All neoplasms are classified in this chapter, whether they are functionally active or not. An additional code from Chapter 4 may be used, to identify functional activity associated with any neoplasm. - Morphology [Histology] - Chapter 2 classifies neoplasms primarily by site (topography), with broad groupings for behavior, malignant, in situ, benign, etc. The Table of Neoplasms should be used to identify the correct topography code. In a few cases, such as for malignant melanoma and certain neuroendocrine tumors, the morphology (histologic type) is included in the category and codes. - Primary malignant neoplasms overlapping site boundaries - A primary malignant neoplasm that overlaps two or more contiguous (next to each other) sites should be classified to the subcategory/code .8 ('overlapping lesion'), unless the combination is specifically indexed elsewhere. For multiple neoplasms of the same site that are not contiguous, such as tumors in different quadrants of the same breast, codes for each site should be assigned. - Malignant neoplasm of ectopic tissue - Malignant neoplasms of ectopic tissue are to be coded to the site mentioned, e.g., ectopic pancreatic malignant neoplasms are coded to pancreas, unspecified (C25.9).
+[CH03] Diseases of the Blood and Blood-Forming Organs -- **Excludes2:** - autoimmune disease (systemic) NOS (M35.9) - certain conditions originating in the perinatal period (P00-P96) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - human immunodeficiency virus [HIV] disease (B20) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)
+[CH04] Endocrine, Nutritional and Metabolic Diseases -- **Notes:** - All neoplasms, whether functionally active or not, are classified in Chapter 2. Appropriate codes in this chapter (i.e. E05.8, E07.0, E16-E31, E34.-) may be used as additional codes to indicate either functional activity by neoplasms and ectopic endocrine tissue or hyperfunction and hypofunction of endocrine glands associated with neoplasms and other conditions classified elsewhere.  **Excludes1:** - transitory endocrine and metabolic disorders specific to newborn (P70-P74)
+[CH05] Mental, Behavioral and Neurodevelopmental Disorders -- **Includes:** - disorders of psychological development  **Excludes2:** - symptoms, signs and abnormal clinical laboratory findings, not elsewhere classified (R00-R99)
+[CH06] Diseases of the Nervous System -- **Excludes2:** - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)
+[CH07] Diseases of the Eye and Adnexa -- **Notes:** - Use an external cause code following the code for the eye condition, if applicable, to identify the cause of the eye condition  **Excludes2:** - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99) - diabetes mellitus related eye conditions (E09.3-, E10.3-, E11.3-, E13.3-) - endocrine, nutritional and metabolic diseases (E00-E88) - injury (trauma) of eye and orbit (S05.-) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94) - syphilis related eye disorders (A50.01, A50.3-, A51.43, A52.71)
+[CH08] Diseases of the Ear and Mastoid Process -- **Notes:** - Use an external cause code following the code for the ear condition, if applicable, to identify the cause of the ear condition  **Excludes2:** - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)
+[CH09] Diseases of the Circulatory System -- **Excludes2:** - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94) - systemic connective tissue disorders (M30-M36) - transient cerebral ischemic attacks and related syndromes (G45.-)
+[CH10] Diseases of the Respiratory System -- **Notes:** - When a respiratory condition is described as occurring in more than one site and is not specifically indexed, it should be classified to the lower anatomic site (e.g. tracheobronchitis to bronchitis in J40).  **Excludes2:** - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - smoke inhalation (T59.81-) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)  **Use additional code:** - code, where applicable, to identify: - exposure to environmental tobacco smoke (Z77.22) - exposure to tobacco smoke in the perinatal period (P96.81) - history of tobacco dependence (Z87.891) - occupational exposure to environmental tobacco smoke (Z57.31) - tobacco dependence (F17.-) - tobacco use (Z72.0)
+[CH11] Diseases of the Digestive System -- **Excludes2:** - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)
+[CH12] Diseases of the Skin and Subcutaneous Tissue -- **Excludes2:** - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - lipomelanotic reticulosis (I89.8) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94) - systemic connective tissue disorders (M30-M36) - viral warts (B07.-)
+[CH13] Diseases of the Musculoskeletal System and Connective Tissue -- **Notes:** - Use an external cause code following the code for the musculoskeletal condition, if applicable, to identify the cause of the musculoskeletal condition  **Excludes2:** - arthropathic psoriasis (L40.5-) - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - compartment syndrome (traumatic) (T79.A-) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)
+[CH14] Diseases of the Genitourinary System -- **Excludes2:** - certain conditions originating in the perinatal period (P04-P96) - certain infectious and parasitic diseases (A00-B99) - complications of pregnancy, childbirth and the puerperium (O00-O9A) - congenital malformations, deformations and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)
+[CH15] Pregnancy, Childbirth and the Puerperium -- **Notes:** - CODES FROM THIS CHAPTER ARE FOR USE ONLY ON MATERNAL RECORDS, NEVER ON NEWBORN RECORDS - Codes from this chapter are for use for conditions related to or aggravated by the pregnancy, childbirth, or by the puerperium (maternal causes or obstetric causes) - Trimesters are counted from the first day of the last menstrual period. They are defined as follows: - 1st trimester- less than 14 weeks 0 days - 2nd trimester- 14 weeks 0 days to less than 28 weeks 0 days - 3rd trimester- 28 weeks 0 days until delivery  **Excludes1:** - supervision of normal pregnancy (Z34.-)  **Excludes2:** - mental and behavioral disorders associated with the puerperium (F53.-) - obstetrical tetanus (A34) - postpartum necrosis of pituitary gland (E23.0) - puerperal osteomalacia (M83.0)  **Use additional code:** - code, if applicable, from category Z3A, Weeks of gestation, to identify the specific week of the pregnancy, if known.
+[CH16] Certain Conditions Originating in the Perinatal Period -- **Includes:** - conditions that have their origin in the fetal or perinatal period (before birth through the first 28 days after birth) even if morbidity occurs later  **Notes:** - Codes from this chapter are for use on newborn records only, never on maternal records  **Excludes2:** - congenital malformations, deformations and chromosomal abnormalities (Q00-Q99) - endocrine, nutritional and metabolic diseases (E00-E88) - injury, poisoning and certain other consequences of external causes (S00-T88) - neoplasms (C00-D49) - tetanus neonatorum (A33)
+[CH17] Congenital Malformations, Deformations and Chromosomal Abnormalities -- **Notes:** - Codes from this chapter are not for use on maternal records  **Excludes2:** - inborn errors of metabolism (E70-E88)
+[CH18] Symptoms, Signs and Abnormal Clinical and Laboratory Findings -- **Notes:** - This chapter includes symptoms, signs, abnormal results of clinical or other investigative procedures, and ill-defined conditions regarding which no diagnosis classifiable elsewhere is recorded. - Signs and symptoms that point rather definitely to a given diagnosis have been assigned to a category in other chapters of the classification. In general, categories in this chapter include the less well-defined conditions and symptoms that, without the necessary study of the case to establish a final diagnosis, point perhaps equally to two or more diseases or to two or more systems of the body. Practically all categories in the chapter could be designated 'not otherwise specified', 'unknown etiology' or 'transient'. The Alphabetical Index should be consulted to determine which symptoms and signs are to be allocated here and which to other chapters. The residual subcategories, numbered .8, are generally provided for other relevant symptoms that cannot be allocated elsewhere in the classification. - The conditions and signs or symptoms included in categories R00-R94 consist of: - (a) cases for which no more specific diagnosis can be made even after all the facts bearing on the case have been investigated; - (b) signs or symptoms existing at the time of initial encounter that proved to be transient and whose causes could not be determined; - (c) provisional diagnosis in a patient who failed to return for further investigation or care; - (d) cases referred elsewhere for investigation or treatment before the diagnosis was made; - (e) cases in which a more precise diagnosis was not available for any other reason; - (f) certain symptoms, for which supplementary information is provided, that represent important problems in medical care in their own right.  **Excludes2:** - abnormal findings on antenatal screening of mother (O28.-) - certain conditions originating in the perinatal period (P04-P96) - signs and symptoms classified in the body system chapters - signs and symptoms of breast (N63, N64.5)
+[CH19] Injury, Poisoning and Certain Other Consequences of External Causes -- **Notes:** - Use secondary code(s) from Chapter 20, External causes of morbidity, to indicate cause of injury. Codes within the T section that include the external cause do not require an additional external cause code  **Excludes1:** - birth trauma (P10-P15) - obstetric trauma (O70-O71)  **Use additional code:** - code to identify any retained foreign body, if applicable (Z18.-)
+[CH20] External Causes of Morbidity -- **Notes:** - This chapter permits the classification of environmental events and circumstances as the cause of injury, and other adverse effects. Where a code from this section is applicable, it is intended that it shall be used secondary to a code from another chapter of the Classification indicating the nature of the condition. Most often, the condition will be classifiable to Chapter 19, Injury, poisoning and certain other consequences of external causes (S00-T88). Other conditions that may be stated to be due to external causes are classified in Chapters I to XVIII. For these conditions, codes from Chapter 20 should be used to provide additional information as to the cause of the condition.
+[CH21] Factors Influencing Health Status and Contact with Health Services -- **Notes:** - Z codes represent reasons for encounters. A corresponding procedure code must accompany a Z code if a procedure is performed. Categories Z00-Z99 are provided for occasions when circumstances other than a disease, injury or external cause classifiable to categories A00-Y89 are recorded as 'diagnoses' or 'problems'. This can arise in two main ways: - (a) When a person who may or may not be sick encounters the health services for some specific purpose, such as to receive limited care or service for a current condition, to donate an organ or tissue, to receive prophylactic vaccination (immunization), or to discuss a problem which is in itself not a disease or injury. - (b) When some circumstance or problem is present which influences the person's health status but is not in itself a current illness or injury.
+[CH22] Codes for Special Purposes

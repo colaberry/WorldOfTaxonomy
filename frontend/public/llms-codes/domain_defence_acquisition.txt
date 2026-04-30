@@ -1,0 +1,21 @@
+[ddfacq_acat] US DoD ACAT Programme Categories :: naics_2022:3364, naics_2022:5415
+[ddfacq_acat_i] ACAT I - Major Defence Acquisition Programs (MDAP)
+[ddfacq_acat_ii] ACAT II - Major Automated Information Systems (MAIS)
+[ddfacq_acat_iii] ACAT III - Less than ACAT II or MDAP thresholds
+[ddfacq_acat_iv] ACAT IV - Component or lower command acquisitions
+[ddfacq_contract] Contract Instrument Types :: naics_2022:3364, naics_2022:5415
+[ddfacq_contract_cpaf] Cost-Plus-Award-Fee (CPAF) contracts
+[ddfacq_contract_cpff] Cost-Plus-Fixed-Fee (CPFF) contracts
+[ddfacq_contract_ffp] Firm-Fixed-Price (FFP) contracts
+[ddfacq_contract_fpif] Fixed-Price Incentive Firm (FPIF) contracts
+[ddfacq_contract_idiq] Indefinite Delivery / Indefinite Quantity (IDIQ)
+[ddfacq_intl] International and Non-US Acquisition Frameworks :: naics_2022:3364, naics_2022:5415
+[ddfacq_intl_dcs] Direct Commercial Sales (DCS) and export licensing
+[ddfacq_intl_fms] US Foreign Military Sales (FMS) programme
+[ddfacq_intl_nato] NATO Capability Development (NDPP, NCI Agency)
+[ddfacq_phase] Acquisition Lifecycle Phases :: naics_2022:3364, naics_2022:5415
+[ddfacq_phase_frr] Full-Rate Production Decision Review
+[ddfacq_phase_matdev] Material Development Decision (MDD) / Concept
+[ddfacq_phase_msb] Milestone B - Engineering and Manufacturing Development
+[ddfacq_phase_msc] Milestone C - Production and Deployment
+[ddfacq_phase_ops] Operations and Support (sustainment phase)

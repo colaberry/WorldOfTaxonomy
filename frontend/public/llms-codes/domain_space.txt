@@ -1,0 +1,24 @@
+[dsp_down] Downstream Applications :: naics_2022:5419
+[dsp_down_connect] Satellite Connectivity Services (broadband, IoT)
+[dsp_down_imagery] Satellite Imagery Analytics and Geospatial AI
+[dsp_down_pos] Position and Navigation Services (precision GNSS)
+[dsp_ground] Ground Segment :: naics_2022:5419
+[dsp_ground_gateway] Ground Station Gateways and Teleport Services
+[dsp_ground_sim] Mission Simulation and Ground Support Equipment
+[dsp_ground_ttc] Telemetry, Tracking and Command (TT&C) Networks
+[dsp_launch] Launch Vehicles :: naics_2022:5419
+[dsp_launch_heavy] Heavy and Super-Heavy Launch (>20t - Starship, SLS)
+[dsp_launch_medium] Medium Lift Launch (2-20t to LEO - Falcon 9 class)
+[dsp_launch_small] Small Lift Launch (under 2t to LEO - Rocket Lab, ISRO)
+[dsp_orbit] In-Orbit Services :: naics_2022:5419
+[dsp_orbit_debris] Active Debris Removal and Space Sustainability
+[dsp_orbit_mfg] In-Space Manufacturing and Assembly
+[dsp_orbit_service] Satellite Servicing and Life Extension
+[dsp_sat] Satellite Types :: naics_2022:5419
+[dsp_sat_comms] Communications Satellites (GEO/LEO broadband, relay)
+[dsp_sat_eo] Earth Observation Satellites (optical, SAR, hyperspectral)
+[dsp_sat_nav] Navigation and Positioning Satellites (GPS, Galileo)
+[dsp_sat_science] Science and Weather Satellites (climate, space weather)
+[dsp_tour] Space Tourism and Commercial Spaceflight :: naics_2022:5419
+[dsp_tour_orbital] Orbital and Station Stays (Axiom, commercial ISS)
+[dsp_tour_sub] Suborbital Tourism (Blue Origin, Virgin Galactic)

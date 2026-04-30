@@ -1,0 +1,14 @@
+[EF] Emission Factor Types :: naics_2022:5417, naics_2022:924
+[EF.01] Scope 1 Direct Emission
+[EF.02] Scope 2 Location-Based
+[EF.03] Scope 2 Market-Based
+[EF.04] Scope 3 Category Factor
+[EF.05] Grid Emission Factor
+[EF.06] Fuel Combustion Factor
+[EF.07] Process Emission Factor
+[EF.08] Fugitive Emission Factor
+[EF.09] Life Cycle Emission Factor
+[EF.10] GWP-Weighted Factor
+[EF.11] Methane Emission Factor
+[EF.12] N2O Emission Factor
+[EF.13] Country-Specific Factor

@@ -1,0 +1,17 @@
+[cp_bio] Biological Crop Protection :: naics_2022:111
+[cp_bio_botan] Botanical pesticides (neem, pyrethrin)
+[cp_bio_macro] Macrobial agents (predatory insects)
+[cp_bio_micro] Microbial biocontrol agents
+[cp_bio_phero] Pheromone traps and mating disruption
+[cp_bio_rna] RNA interference (RNAi) biopesticides
+[cp_chem] Chemical Crop Protection :: naics_2022:111
+[cp_chem_fung] Fungicides (protectant, systemic)
+[cp_chem_herb] Herbicides (pre-emergent, post-emergent)
+[cp_chem_insect] Insecticides (contact, systemic)
+[cp_chem_nem] Nematicides
+[cp_chem_pgr] Plant growth regulators
+[cp_int] Integrated Pest Management :: naics_2022:111
+[cp_int_cover] Cover crops and cultural controls
+[cp_int_resist] Resistance management
+[cp_int_scout] Scouting and monitoring
+[cp_int_thresh] Economic threshold decision-making

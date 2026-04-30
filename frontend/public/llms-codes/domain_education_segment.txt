@@ -1,0 +1,18 @@
+[detseg_adult] Adult and Non-Traditional Learners :: naics_2022:611
+[detseg_adult_parttimer] Part-Time Adult Learner (evening, weekend, online)
+[detseg_adult_returning] Returning Learner (stop-out, career transition)
+[detseg_adult_workforce] Working Adult and Upskilling Learner (25+)
+[detseg_international] International and ESL/EFL Learners :: naics_2022:611
+[detseg_international_esl] ESL/ELL English Language Learners (domestic)
+[detseg_international_f1] F-1 Visa International Students (higher ed)
+[detseg_international_remote] Remote and Online International Learners (cross-border enrollment)
+[detseg_k12] K-12 Student Population :: naics_2022:611
+[detseg_k12_elementary] Elementary School (K-5)
+[detseg_k12_high] High School (9-12) including dual enrollment
+[detseg_k12_middle] Middle School (6-8)
+[detseg_professional] Professional and Executive Development :: naics_2022:611
+[detseg_professional_cert] Professional Certification and CE (CPE, CLE, CME)
+[detseg_professional_exec] Executive Education and MBA Programs
+[detseg_trad] Traditional College-Age Students (18-24) :: naics_2022:611
+[detseg_trad_commuter] Traditional Commuter Students (non-residential)
+[detseg_trad_fulltime] Full-Time Traditional Residential Students

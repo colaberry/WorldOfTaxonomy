@@ -1,0 +1,14 @@
+[NI] NIC Domains
+[NI.01] Physiological: Basic
+[NI.02] Physiological: Complex
+[NI.03] Behavioral
+[NI.04] Safety
+[NI.05] Family
+[NI.06] Health System
+[NI.07] Community
+[NI.08] Activity and Exercise Mgmt
+[NI.09] Elimination Mgmt
+[NI.10] Immobility Mgmt
+[NI.11] Nutrition Support
+[NI.12] Physical Comfort Promotion
+[NI.13] Self-Care Facilitation

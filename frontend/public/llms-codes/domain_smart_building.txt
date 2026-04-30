@@ -1,0 +1,17 @@
+[sb_iot] IoT and Sensors :: naics_2022:236, naics_2022:237, naics_2022:238
+[sb_iot_energy] Energy sub-metering
+[sb_iot_iaq] Indoor air quality (IAQ) sensors
+[sb_iot_occ] Occupancy and people counting sensors
+[sb_iot_struct] Structural health monitoring
+[sb_iot_water] Water leak detection
+[sb_plat] Platforms and Analytics :: naics_2022:236, naics_2022:237, naics_2022:238
+[sb_plat_cyber] Building cybersecurity
+[sb_plat_digital] Digital twin platform
+[sb_plat_energy] Energy management and optimization
+[sb_plat_exp] Tenant experience platform
+[sb_plat_fault] Fault detection and diagnostics (FDD)
+[sb_sys] Building Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[sb_sys_access] Access control (biometric, mobile, card)
+[sb_sys_bas] Building automation system (BAS/BMS)
+[sb_sys_elev] Smart elevator dispatch
+[sb_sys_light] Smart lighting (DALI, PoE, occupancy)

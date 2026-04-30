@@ -1,0 +1,14 @@
+[GB] Global Budget Types :: naics_2022:5415, naics_2022:6215
+[GB.01] Hospital Global Budget
+[GB.02] System-Level Global Budget
+[GB.03] Population-Based Budget
+[GB.04] Maryland All-Payer Model
+[GB.05] Pennsylvania Rural Health Model
+[GB.06] Vermont All-Payer ACO
+[GB.07] Fixed Annual Revenue
+[GB.08] Revenue Growth Limit
+[GB.09] Quality Adjustment
+[GB.10] Volume Adjustment
+[GB.11] Outlier Protection
+[GB.12] Performance Corridor
+[GB.13] Budget Reconciliation

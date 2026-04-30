@@ -1,0 +1,14 @@
+[AR] Arbitration Types :: naics_2022:5419
+[AR.01] Commercial Arbitration
+[AR.02] Investment Arbitration
+[AR.03] Consumer Arbitration
+[AR.04] Labor Arbitration
+[AR.05] Sports Arbitration (CAS)
+[AR.06] Maritime Arbitration
+[AR.07] Construction Arbitration
+[AR.08] IP Arbitration (WIPO)
+[AR.09] Emergency Arbitrator
+[AR.10] Expedited Arbitration
+[AR.11] Institutional Arbitration (ICC)
+[AR.12] Ad Hoc Arbitration
+[AR.13] Arbitration Award Enforcement

@@ -1,0 +1,13 @@
+[WE] Wave Energy Types :: naics_2022:2211
+[WE.01] Point Absorber
+[WE.02] Attenuator Device
+[WE.03] Oscillating Water Column
+[WE.04] Overtopping Device
+[WE.05] Submerged Pressure Differential
+[WE.06] Oscillating Wave Surge
+[WE.07] Rotating Mass Device
+[WE.08] Bulge Wave Device
+[WE.09] Near-Shore Wave Device
+[WE.10] Offshore Wave Device
+[WE.11] Wave Energy Converter Array
+[WE.12] Wave Resource Assessment

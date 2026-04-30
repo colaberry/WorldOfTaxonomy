@@ -1,0 +1,20 @@
+[desapp_backup] Backup Power, UPS and Off-Grid Storage :: naics_2022:2211, naics_2022:3359
+[desapp_backup_offgrid] Off-grid and rural electrification storage systems
+[desapp_backup_ups] UPS (uninterruptible power supply) for data centers and hospitals
+[desapp_btm] Behind-the-Meter Commercial and Industrial (C&I) :: naics_2022:2211, naics_2022:3359
+[desapp_btm_demcharge] Demand charge reduction (C&I utility bill management)
+[desapp_btm_microgrid] Microgrid and islanding (campus, industrial park, data center)
+[desapp_btm_solar] Solar self-consumption optimization (solar + storage pairing)
+[desapp_consumer] Consumer and Portable Electronics Storage :: naics_2022:2211, naics_2022:3359
+[desapp_consumer_homres] Residential home energy storage (Tesla Powerwall, Enphase)
+[desapp_consumer_mobile] Smartphone, laptop and wearable batteries
+[desapp_ev] Electric Vehicle and Mobility Storage :: naics_2022:2211, naics_2022:3359
+[desapp_ev_bev] Battery EV traction packs (BEV passenger cars, trucks)
+[desapp_ev_phev] Plug-in hybrid EV (PHEV) traction and range extender packs
+[desapp_ev_v2g] Vehicle-to-grid (V2G) bidirectional charging
+[desapp_grid] Grid-Scale (Front-of-Meter) Storage Applications :: naics_2022:2211, naics_2022:3359
+[desapp_grid_arb] Energy arbitrage (buy low off-peak, sell high on-peak)
+[desapp_grid_black] Black start and grid restoration (post-outage repower)
+[desapp_grid_freq] Frequency regulation and spinning reserve (fast-response BESS)
+[desapp_grid_peak] Peak shaving and capacity firming (daily charge/discharge)
+[desapp_grid_txdefer] Transmission and distribution deferral (congestion relief)

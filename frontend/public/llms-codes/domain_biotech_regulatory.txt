@@ -1,0 +1,19 @@
+[dbtreg_advanced] Advanced Therapy Regulatory Frameworks :: naics_2022:3254, naics_2022:5417
+[dbtreg_advanced_ctx] Cell therapy (CAR-T, stem cell) regulatory pathway
+[dbtreg_advanced_gtx] Gene therapy RMAT designation and accelerated approval
+[dbtreg_advanced_rna] RNA therapeutics (siRNA, mRNA, ASO) regulatory status
+[dbtreg_agbio] Agricultural Biotechnology Regulatory Pathways :: naics_2022:3254, naics_2022:5417
+[dbtreg_agbio_epa] EPA Biopesticides and PIPS (plant-incorporated protectants)
+[dbtreg_agbio_fda] FDA voluntary consultation for biotech food crops
+[dbtreg_agbio_usda] USDA APHIS biotech crop review (7 CFR 340 deregulation)
+[dbtreg_ema] European Medicines Agency (EMA) Pathways :: naics_2022:3254, naics_2022:5417
+[dbtreg_ema_atmp] EMA ATMP classification (gene therapy, somatic cell, TE)
+[dbtreg_ema_central] EMA Centralized Procedure (MAA, pan-EU approval)
+[dbtreg_ema_orphan] EMA Orphan Medicinal Product designation
+[dbtreg_fda] US FDA Regulatory Pathways :: naics_2022:3254, naics_2022:5417
+[dbtreg_fda_510k] 510(k) Premarket Notification for medical devices
+[dbtreg_fda_bla] BLA (Biologics License Application) for biologics
+[dbtreg_fda_bpci] Biosimilar pathway (BPCI Act, 351(k) applications)
+[dbtreg_fda_eua] EUA (Emergency Use Authorization) pathway
+[dbtreg_fda_nda] NDA (New Drug Application) for small-molecule drugs
+[dbtreg_fda_pma] PMA (Premarket Approval) for high-risk devices

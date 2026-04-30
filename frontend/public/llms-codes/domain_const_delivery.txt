@@ -1,0 +1,22 @@
+[dcpd_alt] Specialty and Alternative Delivery Methods :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcpd_alt_idiq] IDIQ / MATOC (indefinite delivery, multiple award)
+[dcpd_alt_joc] Job Order Contracting (JOC - indefinite delivery)
+[dcpd_alt_modular] Modular and Prefabricated Off-Site Construction
+[dcpd_cm] Construction Management Models :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcpd_cm_agency] CM as Agent (owner's rep, no financial risk)
+[dcpd_cm_atrisk] CM at Risk (CMR - GMP with open book)
+[dcpd_cm_gmp] Guaranteed Maximum Price (GMP) Contract
+[dcpd_cm_multiPrime] Multiple Prime Contracts (owner holds all subs)
+[dcpd_db] Design-Build (DB) and Integrated Delivery :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcpd_dbb] Traditional Design-Bid-Build (DBB) :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcpd_dbb_bestvalue] Best-Value Selection (price and qualifications)
+[dcpd_dbb_lowbid] Low-Bid (public sector price-only selection)
+[dcpd_dbb_qbs] Qualifications-Based Selection (QBS - Brooks Act)
+[dcpd_db_bridging] Bridging Design-Build (owner design criteria doc)
+[dcpd_db_epcm] EPC/EPCM (Engineering, Procurement, Construction)
+[dcpd_db_ipd] Integrated Project Delivery (IPD - shared risk/reward)
+[dcpd_db_lumpsum] Lump Sum Design-Build (fixed price, owner risk)
+[dcpd_p3] Public-Private Partnership (P3) :: naics_2022:236, naics_2022:237, naics_2022:238
+[dcpd_p3_availability] Availability Payment P3 (service payment model)
+[dcpd_p3_dbf] DBF (Design-Build-Finance - public operations)
+[dcpd_p3_dbfom] DBFOM (Design-Build-Finance-Operate-Maintain)

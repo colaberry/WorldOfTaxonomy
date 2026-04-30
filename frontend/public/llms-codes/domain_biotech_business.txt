@@ -1,0 +1,20 @@
+[dbtbiz_contract] Contract Research and Manufacturing (CRO/CDO/CMO) :: naics_2022:3254, naics_2022:5417
+[dbtbiz_contract_cdmo] CDMO (contract dev/mfg org): process dev and manufacturing
+[dbtbiz_contract_cmo] CMO (contract manufacturing org): commercial scale production
+[dbtbiz_contract_cro] CRO (contract research org): preclinical and clinical services
+[dbtbiz_integrated] Fully Integrated Biopharma (FIBCO) Model :: naics_2022:3254, naics_2022:5417
+[dbtbiz_integrated_disc] Integrated: discovery through commercial launch
+[dbtbiz_integrated_spin] Corporate spinout with product + platform retained
+[dbtbiz_invest] Biotech Investment and Financing Models :: naics_2022:3254, naics_2022:5417
+[dbtbiz_invest_foundry] Biotech foundry / incubator model (Flagship, a16z Bio)
+[dbtbiz_invest_public] Publicly-traded biotech (NYSE, NASDAQ biotechs)
+[dbtbiz_invest_vc] Venture-backed private biotech (Series A-D)
+[dbtbiz_license] Licensing and Royalty Models :: naics_2022:3254, naics_2022:5417
+[dbtbiz_license_milestone] Milestone-based payments from pharma partnerships
+[dbtbiz_license_outext] Out-licensing: granting rights to programs/IP
+[dbtbiz_license_outin] In-licensing: acquiring rights to external programs
+[dbtbiz_license_royalty] Royalty stream from commercialized discoveries
+[dbtbiz_platprod] Platform vs. Product Model :: naics_2022:3254, naics_2022:5417
+[dbtbiz_platprod_hybrid] Hybrid: platform + proprietary pipeline
+[dbtbiz_platprod_platform] Technology platform licensing (tools, reagents, enabling tech)
+[dbtbiz_platprod_product] Direct product development to regulatory approval

@@ -1,0 +1,14 @@
+[SV] Seed Variety Types :: naics_2022:111
+[SV.01] Open-Pollinated Variety
+[SV.02] Hybrid Variety (F1)
+[SV.03] Genetically Modified (GM)
+[SV.04] Gene-Edited (CRISPR)
+[SV.05] Heirloom/Heritage Variety
+[SV.06] Certified Seed
+[SV.07] Foundation Seed
+[SV.08] Breeder Seed
+[SV.09] Registered Seed
+[SV.10] Treated Seed
+[SV.11] Pelleted Seed
+[SV.12] Plant Variety Protection (PVP)
+[SV.13] Seed Bank Collection

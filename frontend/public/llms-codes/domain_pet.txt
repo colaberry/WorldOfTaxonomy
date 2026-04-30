@@ -1,0 +1,16 @@
+[PT] Privacy Enhancing Technology Types :: naics_2022:5419
+[PT.01] Differential Privacy
+[PT.02] Homomorphic Encryption
+[PT.03] Secure Multi-Party Computation
+[PT.04] Federated Learning
+[PT.05] Trusted Execution Environment
+[PT.06] Data Anonymization
+[PT.07] Data Pseudonymization
+[PT.08] K-Anonymity
+[PT.09] Zero-Knowledge Proof
+[PT.10] Private Information Retrieval
+[PT.11] Data Clean Room
+[PT.12] Synthetic Data for Privacy
+[PT.13] Privacy Budget Management
+[PT.14] Confidential Computing
+[PT.15] Data Masking

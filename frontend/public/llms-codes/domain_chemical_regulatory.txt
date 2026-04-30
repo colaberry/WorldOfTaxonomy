@@ -1,0 +1,20 @@
+[dchreg_eu] European Union Chemical Regulations :: naics_2022:325
+[dchreg_eu_biocides] EU Biocidal Products Regulation (BPR)
+[dchreg_eu_clp] CLP Regulation (EU GHS implementation)
+[dchreg_eu_pppr] Plant Protection Products Regulation (PPPR)
+[dchreg_eu_reach] REACH (Registration, Evaluation, Authorisation, Restriction)
+[dchreg_global] Global and Multilateral Chemical Frameworks :: naics_2022:325
+[dchreg_global_cwc] Chemical Weapons Convention (CWC) schedule chemicals
+[dchreg_global_ghs] UN GHS (Globally Harmonized System) compliance tier
+[dchreg_global_montreal] Montreal Protocol ODS (ozone-depleting substances)
+[dchreg_global_pops] Stockholm POPs Convention (persistent organic pollutants)
+[dchreg_transport] Transport Regulations (Dangerous Goods) :: naics_2022:325
+[dchreg_transport_adr] ADR/RID/ADN (European road/rail/inland waterway)
+[dchreg_transport_dot] US DOT HMR (Hazardous Materials Regulations)
+[dchreg_transport_iata] IATA DGR (air transport dangerous goods)
+[dchreg_transport_imdg] IMDG Code (maritime transport dangerous goods)
+[dchreg_us] United States Chemical Regulations :: naics_2022:325
+[dchreg_us_epcra] EPCRA (Emergency Planning and Community Right-to-Know Act)
+[dchreg_us_fifra] FIFRA (Federal Insecticide, Fungicide, Rodenticide Act)
+[dchreg_us_rcra] RCRA (Resource Conservation and Recovery Act) hazardous waste
+[dchreg_us_tsca] TSCA (Toxic Substances Control Act) inventory

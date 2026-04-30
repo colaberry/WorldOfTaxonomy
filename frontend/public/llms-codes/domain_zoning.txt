@@ -1,0 +1,19 @@
+[zn_comm] Commercial Zoning :: naics_2022:236, naics_2022:237, naics_2022:238
+[zn_comm_cbd] Central business district
+[zn_comm_gen] General commercial
+[zn_comm_highway] Highway commercial
+[zn_comm_nb] Neighborhood commercial
+[zn_ind] Industrial Zoning :: naics_2022:236, naics_2022:237, naics_2022:238
+[zn_ind_bp] Business park / flex space
+[zn_ind_heavy] Heavy industrial
+[zn_ind_light] Light industrial
+[zn_res] Residential Zoning :: naics_2022:236, naics_2022:237, naics_2022:238
+[zn_res_mf] Multi-family residential (R-3, R-4)
+[zn_res_mix] Mixed-use residential
+[zn_res_mob] Mobile home / manufactured housing
+[zn_res_sf] Single-family residential (R-1, R-2)
+[zn_spec] Special Purpose Zoning :: naics_2022:236, naics_2022:237, naics_2022:238
+[zn_spec_ag] Agricultural zoning
+[zn_spec_flood] Flood zone overlay
+[zn_spec_hist] Historic preservation overlay
+[zn_spec_pud] Planned unit development (PUD)

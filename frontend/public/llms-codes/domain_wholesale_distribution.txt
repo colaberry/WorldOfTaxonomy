@@ -1,0 +1,19 @@
+[dwsldist_direct] Direct Distribution Strategies :: naics_2022:42
+[dwsldist_direct_ecomm] Direct e-commerce B2B (manufacturer direct via digital platform)
+[dwsldist_direct_manufacturer] Direct: manufacturer sells directly to end retailer or user
+[dwsldist_dropship] Drop-Ship and Fulfillment Models :: naics_2022:42
+[dwsldist_dropship_marketplace] Marketplace fulfillment (3P seller on Amazon/Walmart marketplace)
+[dwsldist_dropship_traditional] Traditional drop-ship: distributor ships from own stock on retailer order
+[dwsldist_exclusive] Exclusive Distribution Strategies :: naics_2022:42
+[dwsldist_exclusive_authorized] Authorized dealer network (auto, industrial equipment)
+[dwsldist_exclusive_single] Single exclusive distributor per territory (luxury goods, specialty)
+[dwsldist_intensive] Intensive and Mass Distribution Strategies :: naics_2022:42
+[dwsldist_intensive_broadline] Broadline distributor carries full category for all customer types
+[dwsldist_intensive_mass] Mass distribution: maximum availability through all channel types
+[dwsldist_selective] Selective Distribution Strategies :: naics_2022:42
+[dwsldist_selective_limited] Limited distribution to qualified channel partners
+[dwsldist_selective_specialty] Specialty channel focus (hardware stores only, pharma only)
+[dwsldist_value] Value-Added Distribution Models :: naics_2022:42
+[dwsldist_value_kitting] Kitting and light assembly at distribution center
+[dwsldist_value_private] Private-label and co-branding distribution
+[dwsldist_value_vmi] Vendor-managed inventory (distributor manages end-customer stock)

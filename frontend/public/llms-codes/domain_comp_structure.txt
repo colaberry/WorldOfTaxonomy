@@ -1,0 +1,14 @@
+[CS] Compensation Structure Types :: naics_2022:5419
+[CS.01] Base Salary
+[CS.02] Hourly Wage
+[CS.03] Commission-Based Pay
+[CS.04] Performance Bonus
+[CS.05] Signing Bonus
+[CS.06] Profit Sharing
+[CS.07] Equity Compensation (RSU)
+[CS.08] Deferred Compensation
+[CS.09] Pay Grade/Band System
+[CS.10] Broadband Pay Structure
+[CS.11] Market-Based Pay
+[CS.12] Skill-Based Pay
+[CS.13] Total Rewards Package

@@ -1,0 +1,28 @@
+[dwe_desal] Desalination :: naics_2022:2213, naics_2022:5629
+[dwe_desal_ro] Reverse Osmosis Desalination (seawater, brackish)
+[dwe_desal_therm] Thermal Desalination (MSF, MED, vapor compression)
+[dwe_dist] Water Distribution Infrastructure :: naics_2022:2213, naics_2022:5629
+[dwe_dist_pipe] Pipe Networks and Mains (pressurized distribution)
+[dwe_dist_pump] Pumping Stations and Pressure Management
+[dwe_dist_storage] Water Storage (tanks, reservoirs, towers)
+[dwe_env] Environmental Services :: naics_2022:2213, naics_2022:5629
+[dwe_env_assess] Environmental Impact Assessment and Consulting
+[dwe_env_remed] Environmental Remediation (soil, groundwater cleanup)
+[dwe_env_waste] Hazardous Waste Treatment and Disposal
+[dwe_gw] Groundwater Management :: naics_2022:2213, naics_2022:5629
+[dwe_gw_aquifer] Aquifer Management and Recharge
+[dwe_gw_well] Well Drilling and Monitoring
+[dwe_qual] Water Quality and Monitoring :: naics_2022:2213, naics_2022:5629
+[dwe_qual_comply] Regulatory Compliance and Reporting (EPA, WHO standards)
+[dwe_qual_test] Water Quality Testing and Analysis
+[dwe_storm] Stormwater and Flood Management :: naics_2022:2213, naics_2022:5629
+[dwe_storm_flood] Flood Control Systems (levees, gates, pumps)
+[dwe_storm_infra] Stormwater Infrastructure (retention ponds, bioswales)
+[dwe_treat] Water Treatment :: naics_2022:2213, naics_2022:5629
+[dwe_treat_disinfect] Disinfection Systems (chlorination, ozonation, UV)
+[dwe_treat_drink] Drinking Water Treatment (coagulation, filtration, UV)
+[dwe_treat_softening] Water Softening and Ion Exchange
+[dwe_ww] Wastewater Management :: naics_2022:2213, naics_2022:5629
+[dwe_ww_collect] Wastewater Collection (sewers, lift stations)
+[dwe_ww_reuse] Water Reclamation and Reuse (recycled water, NEWater)
+[dwe_ww_treat] Wastewater Treatment (primary, secondary, tertiary)

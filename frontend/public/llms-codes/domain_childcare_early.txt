@@ -1,0 +1,26 @@
+[dce_after] After-School and Out-of-School Programs :: naics_2022:6244
+[dce_after_enrich] Enrichment Program (STEM, arts, sports, tutoring)
+[dce_after_school] Before and After-School Care (school-age, K-5)
+[dce_after_summer] Summer Camp and Seasonal Program
+[dce_after_youth] Youth Development Program (Boys and Girls Club, 4-H)
+[dce_center] Center-Based Child Care :: naics_2022:6244
+[dce_center_corporate] Employer-Sponsored Child Care (on-site, backup)
+[dce_center_daycare] Licensed Daycare Center (full-day, year-round)
+[dce_center_faith] Faith-Based Child Care Center (church, synagogue)
+[dce_center_montessori] Montessori Program (mixed-age, child-directed)
+[dce_center_waldorf] Waldorf and Reggio Emilia Program
+[dce_family] Family Child Care :: naics_2022:6244
+[dce_family_group] Group Family Child Care Home (assistant, 10-14 kids)
+[dce_family_home] Family Child Care Home (single provider, 6-8 kids)
+[dce_family_nanny] Nanny and Au Pair Care (in-home, one-on-one)
+[dce_family_share] Nanny Share and Cooperative Care Arrangement
+[dce_headstart] Head Start Programs :: naics_2022:6244
+[dce_headstart_classic] Head Start (3-5 year-olds, center or home-based)
+[dce_headstart_early] Early Head Start (birth to 3, pregnant women)
+[dce_headstart_migrant] Migrant and Seasonal Head Start (MSHS)
+[dce_headstart_tribal] American Indian/Alaska Native Head Start (AIAN)
+[dce_presch] Preschool Education :: naics_2022:6244
+[dce_presch_coop] Cooperative Preschool (parent-participation model)
+[dce_presch_private] Private Preschool (tuition-based, independent)
+[dce_presch_public] State-Funded Pre-Kindergarten (universal pre-K)
+[dce_presch_special] Early Intervention and Special Needs Preschool

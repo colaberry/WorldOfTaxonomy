@@ -1,0 +1,15 @@
+[CT] Court Types :: naics_2022:5411
+[CT.01] US Supreme Court
+[CT.02] US Circuit Court of Appeals
+[CT.03] US District Court
+[CT.04] State Supreme Court
+[CT.05] State Appellate Court
+[CT.06] State Trial Court
+[CT.07] Bankruptcy Court
+[CT.08] Tax Court
+[CT.09] Family Court
+[CT.10] Juvenile Court
+[CT.11] Probate Court
+[CT.12] Small Claims Court
+[CT.13] Military Court (UCMJ)
+[CT.14] Tribal Court

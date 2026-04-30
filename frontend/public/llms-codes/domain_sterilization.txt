@@ -1,0 +1,15 @@
+[SM] Sterilization Method Types :: naics_2022:5419
+[SM.01] Steam Sterilization (Autoclave)
+[SM.02] Ethylene Oxide (EtO)
+[SM.03] Hydrogen Peroxide Plasma
+[SM.04] Gamma Irradiation
+[SM.05] E-Beam Irradiation
+[SM.06] Dry Heat Sterilization
+[SM.07] Chemical Sterilization
+[SM.08] Filtration Sterilization
+[SM.09] UV Sterilization
+[SM.10] Ozone Sterilization
+[SM.11] High-Level Disinfection
+[SM.12] Biological Indicator
+[SM.13] Chemical Indicator
+[SM.14] Sterile Processing Workflow

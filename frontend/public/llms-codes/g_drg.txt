@@ -1,0 +1,26 @@
+[GDRG] G-DRG Major Diagnostic Categories
+[MDC01] Nervous System
+[MDC02] Eye
+[MDC03] Ear, Nose, Mouth, Throat
+[MDC04] Respiratory System
+[MDC05] Circulatory System
+[MDC06] Digestive System
+[MDC07] Hepatobiliary and Pancreas
+[MDC08] Musculoskeletal System
+[MDC09] Skin, Subcutaneous Tissue, Breast
+[MDC10] Endocrine and Metabolic
+[MDC11] Kidney and Urinary Tract
+[MDC12] Male Reproductive System
+[MDC13] Female Reproductive System
+[MDC14] Pregnancy and Childbirth
+[MDC15] Newborns and Neonates
+[MDC16] Blood and Immunological
+[MDC17] Neoplastic Disorders
+[MDC18] Infectious and Parasitic
+[MDC19] Mental Diseases
+[MDC20] Alcohol/Drug Abuse
+[MDC21] Injuries and Poisoning
+[MDC22] Burns
+[MDC23] Factors Influencing Health
+[MDC24] Multiple Trauma
+[PRE] Pre-MDC DRGs

@@ -1,0 +1,17 @@
+[GMDN] GMDN Categories
+[GMDN.01] Active implantable devices
+[GMDN.02] Anaesthetic/respiratory devices
+[GMDN.03] Dental devices
+[GMDN.04] Electromechanical medical devices
+[GMDN.05] Hospital hardware
+[GMDN.06] In vitro diagnostic devices
+[GMDN.07] Non-active implantable devices
+[GMDN.08] Ophthalmic/optical devices
+[GMDN.09] Reusable instruments
+[GMDN.10] Single-use devices
+[GMDN.11] Assistive products for persons with disability
+[GMDN.12] Diagnostic and therapeutic radiation devices
+[GMDN.13] Complementary therapy devices
+[GMDN.14] Biologically-derived devices
+[GMDN.15] Healthcare facility products/technologies
+[GMDN.16] Laboratory equipment

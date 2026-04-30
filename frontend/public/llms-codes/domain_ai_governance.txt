@@ -1,0 +1,21 @@
+[daigov_fairness] Fairness, Bias and Non-Discrimination :: naics_2022:518, naics_2022:5415
+[daigov_fairness_audit] Algorithmic auditing and bias testing
+[daigov_fairness_metrics] Fairness metrics (demographic parity, equalized odds)
+[daigov_fairness_remediation] Bias mitigation and remediation techniques
+[daigov_privacy] Privacy and Data Protection in AI :: naics_2022:518, naics_2022:5415
+[daigov_privacy_gdpr] GDPR/CCPA compliance for automated decision-making
+[daigov_privacy_inference] Inference-time privacy (differential privacy, federated)
+[daigov_privacy_training] Training data privacy (consent, PII scrubbing, synthetic)
+[daigov_riskclass] AI System Risk Classification :: naics_2022:518, naics_2022:5415
+[daigov_riskclass_high] EU AI Act - High risk (critical infrastructure, employment, credit)
+[daigov_riskclass_limited] EU AI Act - Limited risk (chatbots, emotion recognition)
+[daigov_riskclass_minimal] EU AI Act - Minimal risk (spam filters, AI-enabled video games)
+[daigov_riskclass_unacceptable] EU AI Act - Unacceptable risk (prohibited AI applications)
+[daigov_safety] AI Safety and Robustness :: naics_2022:518, naics_2022:5415
+[daigov_safety_adversarial] Adversarial robustness and red-teaming
+[daigov_safety_alignment] AI alignment and value alignment techniques
+[daigov_safety_hallucination] Hallucination detection and factuality controls
+[daigov_transparency] Transparency and Explainability :: naics_2022:518, naics_2022:5415
+[daigov_transparency_datasheet] Model cards, datasheets and system cards
+[daigov_transparency_disclosure] AI disclosure and labeling requirements
+[daigov_transparency_xai] Explainable AI methods (SHAP, LIME, attention viz)

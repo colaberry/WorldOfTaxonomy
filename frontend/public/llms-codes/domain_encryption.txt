@@ -1,0 +1,16 @@
+[EN] Encryption Standard Types :: naics_2022:5415, naics_2022:5417
+[EN.01] AES (Symmetric)
+[EN.02] RSA (Asymmetric)
+[EN.03] Elliptic Curve (ECC)
+[EN.04] ChaCha20-Poly1305
+[EN.05] TLS 1.3
+[EN.06] Post-Quantum Cryptography
+[EN.07] Format-Preserving Encryption
+[EN.08] Tokenization
+[EN.09] Envelope Encryption
+[EN.10] Database Encryption (TDE)
+[EN.11] File-Level Encryption
+[EN.12] Full Disk Encryption
+[EN.13] End-to-End Encryption
+[EN.14] Searchable Encryption
+[EN.15] Attribute-Based Encryption

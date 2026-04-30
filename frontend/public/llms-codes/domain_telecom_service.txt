@@ -1,0 +1,25 @@
+[dts_enterprise] Enterprise Telecommunications Services :: naics_2022:517
+[dts_enterprise_colo] Colocation and Data Center Services (interconnection)
+[dts_enterprise_dedi] Dedicated Internet and Ethernet Services (DIA, EVPL)
+[dts_enterprise_mpls] MPLS and SD-WAN Services (managed WAN, hybrid overlay)
+[dts_enterprise_ucaas] UCaaS and CPaaS Platforms (cloud PBX, video, messaging)
+[dts_fixed] Fixed-Line Telecommunications Services :: naics_2022:517
+[dts_fixed_fwa] Fixed Wireless Access (mmWave, CBRS, point-to-point)
+[dts_fixed_pstn] PSTN and Landline Voice (copper, ISDN, VoIP migration)
+[dts_fixed_trunk] SIP Trunking and Wholesale Voice (carrier interconnect)
+[dts_fixed_voip] Business VoIP and Unified Communications (SIP, PBX)
+[dts_internet] Internet and Broadband Services :: naics_2022:517
+[dts_internet_cable] Cable Broadband (DOCSIS 3.1, HFC networks)
+[dts_internet_cdn] Content Delivery Networks (edge caching, streaming)
+[dts_internet_dsl] DSL and Copper Broadband (VDSL2, G.fast, bonding)
+[dts_internet_fiber] Fiber Broadband (FTTH, FTTP, GPON, XGS-PON)
+[dts_internet_isp] Internet Service Provider Operations (peering, transit)
+[dts_mobile] Mobile Telecommunications Services :: naics_2022:517
+[dts_mobile_data] Mobile Data Services (4G LTE, 5G NR, mobile broadband)
+[dts_mobile_iot] Mobile IoT and M2M Services (NB-IoT, LTE-M, eSIM)
+[dts_mobile_mvno] Mobile Virtual Network Operators (MVNO, MVNE)
+[dts_mobile_voice] Mobile Voice Services (VoLTE, VoNR, roaming)
+[dts_satellite] Satellite Telecommunications Services :: naics_2022:517
+[dts_satellite_geo] Geostationary Satellite Services (DTH, VSAT, maritime)
+[dts_satellite_leo] Low-Earth Orbit Broadband (LEO constellations, D2D)
+[dts_satellite_meo] Medium-Earth Orbit Services (MEO relay, navigation)

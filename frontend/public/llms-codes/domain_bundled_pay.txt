@@ -1,0 +1,15 @@
+[BP] Bundled Payment Types :: naics_2022:5415, naics_2022:6215
+[BP.01] Retrospective Bundled Payment
+[BP.02] Prospective Bundled Payment
+[BP.03] BPCI Advanced
+[BP.04] CJR (Joint Replacement)
+[BP.05] Acute Care Episode
+[BP.06] Post-Acute Care Episode
+[BP.07] Full Episode of Care
+[BP.08] Surgical Episode
+[BP.09] Maternity Bundle
+[BP.10] Cardiac Bundle
+[BP.11] Oncology Bundle
+[BP.12] Gainsharing Arrangement
+[BP.13] Risk Corridor
+[BP.14] Stop-Loss Protection

@@ -1,0 +1,17 @@
+[la_fin] Financial Terms :: naics_2022:236, naics_2022:237, naics_2022:238
+[la_fin_cam] CAM charges and reconciliation
+[la_fin_free] Free rent and concessions
+[la_fin_opex] Operating expense pass-throughs (NNN, modified gross)
+[la_fin_rent] Base rent and escalation schedule
+[la_fin_security] Security deposit and letter of credit
+[la_fin_ti] Tenant improvement allowance
+[la_key] Key Lease Terms :: naics_2022:236, naics_2022:237, naics_2022:238
+[la_key_options] Options (renewal, expansion, termination)
+[la_key_parties] Parties (landlord, tenant, guarantor)
+[la_key_premises] Premises description and measurements
+[la_key_term] Lease term (commencement, expiration)
+[la_ops] Operational Terms :: naics_2022:236, naics_2022:237, naics_2022:238
+[la_ops_assign] Assignment and subletting rights
+[la_ops_excl] Exclusive use and radius restrictions
+[la_ops_maint] Maintenance and repair responsibilities
+[la_ops_use] Permitted use clause

@@ -60,6 +60,16 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://worldoftaxonomy.com",
+    // Discoverable plain-text mirrors for AI crawlers. /llms.txt is a
+    // short index of guide pages; /llms-full.txt is the concatenated
+    // full reference (~95 KB) regenerated from wiki/*.md by
+    // scripts/build_llms_txt.py. See the Karpathy "LLM Wiki" pattern.
+    types: {
+      "text/plain": [
+        { url: "/llms.txt",      title: "WorldOfTaxonomy guide index (plain text)" },
+        { url: "/llms-full.txt", title: "WorldOfTaxonomy full reference (plain text)" },
+      ],
+    },
   },
   // Branding rolled out with Aleem's WoT design system v1.0.
   // Next.js auto-detects /src/app/{favicon.ico, icon.png, apple-icon.png} -

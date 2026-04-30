@@ -1,0 +1,15 @@
+[DC] Data Catalog Types :: naics_2022:518, naics_2022:5415
+[DC.01] Metadata Catalog
+[DC.02] Business Glossary
+[DC.03] Data Dictionary
+[DC.04] Schema Registry
+[DC.05] Data Classification Tag
+[DC.06] Data Owner Assignment
+[DC.07] Data Usage Metric
+[DC.08] Data Freshness Indicator
+[DC.09] Data Profiling
+[DC.10] Data Search and Discovery
+[DC.11] Data Collaboration
+[DC.12] Data Lineage Visualization
+[DC.13] Automated Metadata Ingestion
+[DC.14] Data Trust Score

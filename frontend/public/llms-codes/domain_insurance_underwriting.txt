@@ -1,0 +1,15 @@
+[iu_life] Life Underwriting :: naics_2022:524
+[iu_life_accel] Accelerated underwriting (algorithmic)
+[iu_life_fin] Financial underwriting
+[iu_life_med] Medical underwriting (paramedical, APS)
+[iu_life_simpl] Simplified issue (guaranteed, simplified)
+[iu_meth] Underwriting Methods :: naics_2022:524
+[iu_meth_auto] Automated/algorithmic underwriting
+[iu_meth_manual] Manual underwriting
+[iu_meth_port] Portfolio underwriting
+[iu_meth_pred] Predictive model-based underwriting
+[iu_pc] Property and Casualty Underwriting :: naics_2022:524
+[iu_pc_cat] Catastrophe underwriting
+[iu_pc_comm] Commercial lines underwriting
+[iu_pc_pers] Personal lines underwriting
+[iu_pc_spec] Specialty and surplus lines underwriting

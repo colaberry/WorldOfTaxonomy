@@ -1,0 +1,17 @@
+[avl_app] Application Domains :: naics_2022:5419
+[avl_app_agri] Agricultural autonomous vehicles
+[avl_app_deliv] Delivery robots and drones
+[avl_app_mari] Autonomous maritime vessels
+[avl_app_mine] Mining autonomous vehicles
+[avl_app_pass] Passenger vehicles (robotaxi, private)
+[avl_app_port] Port and terminal autonomous vehicles
+[avl_app_shut] Autonomous shuttles
+[avl_app_truck] Autonomous trucking (hub-to-hub, last mile)
+[avl_sae] SAE Automation Levels :: naics_2022:5419
+[avl_sae_0] Level 0 - No automation
+[avl_sae_1] Level 1 - Driver assistance
+[avl_sae_2] Level 2 - Partial automation
+[avl_sae_2p] Level 2+ - Advanced driver assistance
+[avl_sae_3] Level 3 - Conditional automation
+[avl_sae_4] Level 4 - High automation
+[avl_sae_5] Level 5 - Full automation

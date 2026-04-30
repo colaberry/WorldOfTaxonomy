@@ -1,0 +1,25 @@
+[duia_dist] Distribution Infrastructure :: naics_2022:2211, naics_2022:2213
+[duia_dist_line] Distribution Line (overhead and underground)
+[duia_dist_scada] Distribution SCADA and Automation (DMS, ADMS)
+[duia_dist_switch] Distribution Switching Equipment (recloser, switch)
+[duia_dist_xfmr] Distribution Transformer (pad-mount, pole-mount)
+[duia_gen] Generation Assets :: naics_2022:2211, naics_2022:2213
+[duia_gen_dist] Distributed Generation Unit (DG - behind meter)
+[duia_gen_peaker] Peaker and Combustion Turbine Plant
+[duia_gen_plant] Central Station Power Plant (thermal, nuclear, hydro)
+[duia_gen_vre] Variable Renewable Generation Plant (solar, wind)
+[duia_meter] Customer Metering and Interface Equipment :: naics_2022:2211, naics_2022:2213
+[duia_meter_ami] Advanced Metering Infrastructure (AMI / Smart Meter)
+[duia_meter_comm] Meter Communication Network (RF mesh, PLC, LTE)
+[duia_meter_legacy] Legacy Electromechanical Meter
+[duia_meter_mdms] Meter Data Management System (MDMS)
+[duia_storage] Storage and Flexibility Assets :: naics_2022:2211, naics_2022:2213
+[duia_storage_bess] Battery Energy Storage System (BESS) - utility
+[duia_storage_caes] Compressed Air Energy Storage (CAES)
+[duia_storage_dr] Demand Response and Virtual Power Plant (VPP)
+[duia_storage_pumped] Pumped Hydro Storage Facility
+[duia_trans] Transmission Infrastructure :: naics_2022:2211, naics_2022:2213
+[duia_trans_control] Energy Management System and Control Center
+[duia_trans_hvdc] HVDC (High Voltage DC) Transmission System
+[duia_trans_line] Transmission Line (overhead and underground)
+[duia_trans_sub] Transmission Substation (step-up/step-down)

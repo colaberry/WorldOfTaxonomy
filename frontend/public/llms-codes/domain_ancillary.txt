@@ -1,0 +1,14 @@
+[AS] Ancillary Service Types :: naics_2022:5419
+[AS.01] Frequency Regulation
+[AS.02] Spinning Reserve
+[AS.03] Non-Spinning Reserve
+[AS.04] Voltage Support
+[AS.05] Black Start Capability
+[AS.06] Ramping Service
+[AS.07] Reactive Power Support
+[AS.08] Load Following
+[AS.09] Operating Reserve
+[AS.10] Inertia Service
+[AS.11] Fast Frequency Response
+[AS.12] Primary Frequency Response
+[AS.13] Secondary Frequency Response

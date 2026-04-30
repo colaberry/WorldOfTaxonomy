@@ -1,0 +1,44 @@
+[dtf_cargo] Cargo Handling Type :: isic_rev4:4923, naics_2022:484
+[dtf_cargo_auto] Finished Vehicles (automobiles)
+[dtf_cargo_bulk] Bulk Commodity (grain, sand, coal)
+[dtf_cargo_flatbed_gen] Machinery / Steel / Construction Material
+[dtf_cargo_general] General Freight (mixed commodity)
+[dtf_cargo_hazmat] Hazardous Materials (DOT Classes 1-9)
+[dtf_cargo_highvalue] High-value / Security Cargo
+[dtf_cargo_od] Overdimensional / Oversize / Overweight
+[dtf_cargo_perishable] Perishables (temperature-controlled)
+[dtf_cargo_pharma] Pharmaceuticals / Life Sciences
+[dtf_cargo_retail] Retail / Consumer Goods
+[dtf_equip] Equipment Type :: isic_rev4:4923, naics_2022:484
+[dtf_equip_auto] Auto Carrier / Car Hauler
+[dtf_equip_conestoga] Conestoga / Rolling Tarp System
+[dtf_equip_container] Container Chassis (ISO 20/40/45 ft)
+[dtf_equip_curtain] Curtain-side (Curtainsider)
+[dtf_equip_dryvan] Dry Van (enclosed 53-foot trailer)
+[dtf_equip_flatbed] Flatbed
+[dtf_equip_livestock] Livestock Trailer
+[dtf_equip_lowboy] Lowboy / Double-drop
+[dtf_equip_maxtube] Max Cube / Turnpike Double
+[dtf_equip_reefer] Refrigerated (Reefer)
+[dtf_equip_rgn] Removable Gooseneck (RGN / RGN extendable)
+[dtf_equip_sprinter] Sprinter Van / Cargo Van
+[dtf_equip_stepdeck] Step-deck / Drop-deck
+[dtf_equip_straight] Straight Truck / Box Truck
+[dtf_equip_tanker] Tanker (liquid or dry bulk)
+[dtf_mode] Freight Mode :: isic_rev4:4923, naics_2022:484
+[dtf_mode_drayage] Drayage (port/rail terminal moves)
+[dtf_mode_expedited] Expedited / Hot Shot
+[dtf_mode_ftl] FTL - Full Truckload
+[dtf_mode_intermodal] Intermodal (container-on-flatcar / COFC)
+[dtf_mode_ltl] LTL - Less-Than-Truckload
+[dtf_mode_partial] Partial Truckload (PTL)
+[dtf_mode_vol] Volume LTL (VLTL - 6+ pallets, not FTL)
+[dtf_svc] Service Level and Geography :: isic_rev4:4923, naics_2022:484
+[dtf_svc_crossborder] Cross-border (US-Mexico, US-Canada)
+[dtf_svc_dedicated] Dedicated Contract Carriage (DCC)
+[dtf_svc_local] Local / Pickup and Delivery (P&D, <100 mi)
+[dtf_svc_longhaul] Long-haul (>500 mi, 2+ days)
+[dtf_svc_otr] Over-the-Road (OTR, cross-country)
+[dtf_svc_owner_op] Owner-Operator / Independent Contractor
+[dtf_svc_private] Private Fleet Operations
+[dtf_svc_regional] Regional (100-500 mi, same-day or next-day)

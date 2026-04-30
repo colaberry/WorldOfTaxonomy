@@ -1,0 +1,21 @@
+[dfp_add] Additive Manufacturing (3D Printing) :: naics_2022:31-33
+[dfp_add_dmls] DMLS/EBM (Metal Additive - direct metal laser)
+[dfp_add_fdm] FDM/FFF (Fused Deposition Modeling - plastics)
+[dfp_add_sla] SLA/DLP (Stereolithography - photopolymers)
+[dfp_add_sls] SLS/MJF (Selective Laser Sintering - powders)
+[dfp_discrete] Discrete Manufacturing :: naics_2022:31-33
+[dfp_discrete_assem] Assembly (manual, robotic, SMT)
+[dfp_discrete_fab] Fabrication (welding, cutting, joining)
+[dfp_discrete_form] Metal Forming (stamping, rolling, bending)
+[dfp_discrete_machine] Machining (CNC, turning, milling, grinding)
+[dfp_form] Casting, Molding, and Forming :: naics_2022:31-33
+[dfp_form_cast] Casting (sand, die, investment, centrifugal)
+[dfp_form_extrude] Extrusion and Pultrusion
+[dfp_form_forge] Forging (open-die, closed-die, ring rolling)
+[dfp_form_mold] Injection Molding and Compression Molding
+[dfp_process] Process Manufacturing :: naics_2022:31-33
+[dfp_process_batch] Batch Processing
+[dfp_process_chem] Chemical Processing (reaction, synthesis)
+[dfp_process_cont] Continuous Flow Processing
+[dfp_process_mix] Mixing, Blending, and Compounding
+[dfp_process_ref] Refining and Distillation

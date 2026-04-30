@@ -1,0 +1,21 @@
+[drt_comm] Commercial Real Estate :: naics_2022:531
+[drt_comm_hotel] Hospitality (hotel, motel, resort, extended-stay)
+[drt_comm_indust] Industrial (warehouse, distribution, flex, R&D)
+[drt_comm_office] Office (Class A, B, C; suburban, CBD, flex)
+[drt_comm_retail] Retail (mall, strip center, power center, NNN)
+[drt_land] Land :: naics_2022:531
+[drt_land_dev] Development Land (entitled, infill, greenfield)
+[drt_land_farm] Farmland and Agricultural Land
+[drt_land_mineral] Mineral Rights and Subsurface Interests
+[drt_land_timber] Timberland and Forestland
+[drt_resid] Residential Real Estate :: naics_2022:531
+[drt_resid_condo] Condominium and Cooperative
+[drt_resid_manuf] Manufactured Housing (mobile home park)
+[drt_resid_mf] Multifamily (apartment complex, garden-style)
+[drt_resid_sfr] Single-Family Residential (SFR, detached)
+[drt_spec] Special Purpose Real Estate :: naics_2022:531
+[drt_spec_data] Data Center and Life Science Lab
+[drt_spec_edu] Education and Student Housing
+[drt_spec_health] Healthcare Real Estate (MOB, hospital, clinic)
+[drt_spec_senior] Senior Housing (independent living, AL, memory)
+[drt_spec_storage] Self-Storage Facility

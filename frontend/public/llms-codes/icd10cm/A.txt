@@ -1,0 +1,695 @@
+[A00] Cholera
+[A000] Cholera due to Vibrio cholerae 01, biovar cholerae -- **Inclusion terms:** - Classical cholera
+[A001] Cholera due to Vibrio cholerae 01, biovar eltor -- **Inclusion terms:** - Cholera eltor
+[A009] Cholera, unspecified
+[A01] Typhoid and paratyphoid fevers
+[A010] Typhoid fever -- **Inclusion terms:** - Infection due to Salmonella typhi
+[A0100] Typhoid fever, unspecified
+[A0101] Typhoid meningitis
+[A0102] Typhoid fever with heart involvement -- **Inclusion terms:** - Typhoid endocarditis - Typhoid myocarditis
+[A0103] Typhoid pneumonia
+[A0104] Typhoid arthritis
+[A0105] Typhoid osteomyelitis
+[A0109] Typhoid fever with other complications
+[A011] Paratyphoid fever A
+[A012] Paratyphoid fever B
+[A013] Paratyphoid fever C
+[A014] Paratyphoid fever, unspecified -- **Inclusion terms:** - Infection due to Salmonella paratyphi NOS
+[A02] Other salmonella infections -- **Includes:** - infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi
+[A020] Salmonella enteritis -- **Inclusion terms:** - Salmonellosis
+[A021] Salmonella sepsis
+[A022] Localized salmonella infections
+[A0220] Localized salmonella infection, unspecified
+[A0221] Salmonella meningitis
+[A0222] Salmonella pneumonia
+[A0223] Salmonella arthritis
+[A0224] Salmonella osteomyelitis
+[A0225] Salmonella pyelonephritis -- **Inclusion terms:** - Salmonella tubulo-interstitial nephropathy
+[A0229] Salmonella with other localized infection
+[A028] Other specified salmonella infections
+[A029] Salmonella infection, unspecified
+[A03] Shigellosis
+[A030] Shigellosis due to Shigella dysenteriae -- **Inclusion terms:** - Group A shigellosis [Shiga-Kruse dysentery]
+[A031] Shigellosis due to Shigella flexneri -- **Inclusion terms:** - Group B shigellosis
+[A032] Shigellosis due to Shigella boydii -- **Inclusion terms:** - Group C shigellosis
+[A033] Shigellosis due to Shigella sonnei -- **Inclusion terms:** - Group D shigellosis
+[A038] Other shigellosis
+[A039] Shigellosis, unspecified -- **Inclusion terms:** - Bacillary dysentery NOS
+[A04] Other bacterial intestinal infections -- **Excludes1:** - bacterial foodborne intoxications, NEC (A05.-) - tuberculous enteritis (A18.32)
+[A040] Enteropathogenic Escherichia coli infection
+[A041] Enterotoxigenic Escherichia coli infection
+[A042] Enteroinvasive Escherichia coli infection
+[A043] Enterohemorrhagic Escherichia coli infection
+[A044] Other intestinal Escherichia coli infections -- **Inclusion terms:** - Escherichia coli enteritis NOS
+[A045] Campylobacter enteritis
+[A046] Enteritis due to Yersinia enterocolitica -- **Excludes1:** - extraintestinal yersiniosis (A28.2)
+[A047] Enterocolitis due to Clostridium difficile -- **Inclusion terms:** - Clostridioides difficile colitis - Foodborne intoxication by Clostridium difficile - Pseudomembraneous colitis
+[A0471] Enterocolitis due to Clostridium difficile, recurrent
+[A0472] Enterocolitis due to Clostridium difficile, not specified as recurrent
+[A048] Other specified bacterial intestinal infections
+[A049] Bacterial intestinal infection, unspecified -- **Inclusion terms:** - Bacterial enteritis NOS
+[A05] Other bacterial foodborne intoxications, not elsewhere classified -- **Excludes1:** - Clostridium difficile foodborne intoxication and infection (A04.7-) - Escherichia coli infection (A04.0-A04.4) - listeriosis (A32.-) - salmonella foodborne intoxication and infection (A02.-) - toxic effect of noxious foodstuffs (T61-T62)
+[A050] Foodborne staphylococcal intoxication
+[A051] Botulism food poisoning -- **Inclusion terms:** - Botulism NOS - Classical foodborne intoxication due to Clostridium botulinum  **Excludes1:** - infant botulism (A48.51) - wound botulism (A48.52)
+[A052] Foodborne Clostridium perfringens [Clostridium welchii] intoxication -- **Inclusion terms:** - Enteritis necroticans - Pig-bel
+[A053] Foodborne Vibrio parahaemolyticus intoxication
+[A054] Foodborne Bacillus cereus intoxication
+[A055] Foodborne Vibrio vulnificus intoxication
+[A058] Other specified bacterial foodborne intoxications
+[A059] Bacterial foodborne intoxication, unspecified
+[A06] Amebiasis -- **Includes:** - infection due to Entamoeba histolytica  **Excludes1:** - other protozoal intestinal diseases (A07.-)  **Excludes2:** - acanthamebiasis (B60.1-) - Naegleriasis (B60.2)
+[A060] Acute amebic dysentery -- **Inclusion terms:** - Acute amebiasis - Intestinal amebiasis NOS
+[A061] Chronic intestinal amebiasis
+[A062] Amebic nondysenteric colitis
+[A063] Ameboma of intestine -- **Inclusion terms:** - Ameboma NOS
+[A064] Amebic liver abscess -- **Inclusion terms:** - Hepatic amebiasis
+[A065] Amebic lung abscess -- **Inclusion terms:** - Amebic abscess of lung (and liver)
+[A066] Amebic brain abscess -- **Inclusion terms:** - Amebic abscess of brain (and liver) (and lung)
+[A067] Cutaneous amebiasis
+[A068] Amebic infection of other sites
+[A0681] Amebic cystitis
+[A0682] Other amebic genitourinary infections -- **Inclusion terms:** - Amebic balanitis - Amebic vesiculitis - Amebic vulvovaginitis
+[A0689] Other amebic infections -- **Inclusion terms:** - Amebic appendicitis - Amebic splenic abscess
+[A069] Amebiasis, unspecified
+[A07] Other protozoal intestinal diseases
+[A070] Balantidiasis -- **Inclusion terms:** - Balantidial dysentery
+[A071] Giardiasis [lambliasis]
+[A072] Cryptosporidiosis
+[A073] Isosporiasis -- **Inclusion terms:** - Infection due to Isospora belli and Isospora hominis - Intestinal coccidiosis - Isosporosis
+[A074] Cyclosporiasis
+[A078] Other specified protozoal intestinal diseases -- **Inclusion terms:** - Intestinal microsporidiosis - Intestinal trichomoniasis - Sarcocystosis - Sarcosporidiosis
+[A079] Protozoal intestinal disease, unspecified -- **Inclusion terms:** - Flagellate diarrhea - Protozoal colitis - Protozoal diarrhea - Protozoal dysentery
+[A08] Viral and other specified intestinal infections -- **Excludes1:** - influenza with involvement of gastrointestinal tract (J09.X3, J10.2, J11.2)
+[A080] Rotaviral enteritis
+[A081] Acute gastroenteropathy due to Norwalk agent and other small round viruses
+[A0811] Acute gastroenteropathy due to Norwalk agent -- **Inclusion terms:** - Acute gastroenteropathy due to Norovirus - Acute gastroenteropathy due to Norwalk-like agent
+[A0819] Acute gastroenteropathy due to other small round viruses -- **Inclusion terms:** - Acute gastroenteropathy due to small round virus [SRV] NOS
+[A082] Adenoviral enteritis
+[A083] Other viral enteritis
+[A0831] Calicivirus enteritis
+[A0832] Astrovirus enteritis
+[A0839] Other viral enteritis -- **Inclusion terms:** - Coxsackie virus enteritis - Echovirus enteritis - Enterovirus enteritis NEC - Torovirus enteritis
+[A084] Viral intestinal infection, unspecified -- **Inclusion terms:** - Viral enteritis NOS - Viral gastroenteritis NOS - Viral gastroenteropathy NOS
+[A088] Other specified intestinal infections
+[A09] Infectious gastroenteritis and colitis, unspecified -- **Inclusion terms:** - Infectious colitis NOS - Infectious enteritis NOS - Infectious gastroenteritis NOS  **Excludes1:** - colitis NOS (K52.9) - diarrhea NOS (R19.7) - enteritis NOS (K52.9) - gastroenteritis NOS (K52.9) - noninfective gastroenteritis and colitis, unspecified (K52.9)
+[A15] Respiratory tuberculosis
+[A150] Tuberculosis of lung -- **Inclusion terms:** - Tuberculous bronchiectasis - Tuberculous fibrosis of lung - Tuberculous pneumonia - Tuberculous pneumothorax
+[A154] Tuberculosis of intrathoracic lymph nodes -- **Inclusion terms:** - Tuberculosis of hilar lymph nodes - Tuberculosis of mediastinal lymph nodes - Tuberculosis of tracheobronchial lymph nodes  **Excludes1:** - tuberculosis specified as primary (A15.7)
+[A155] Tuberculosis of larynx, trachea and bronchus -- **Inclusion terms:** - Tuberculosis of bronchus - Tuberculosis of glottis - Tuberculosis of larynx - Tuberculosis of trachea
+[A156] Tuberculous pleurisy -- **Inclusion terms:** - Tuberculosis of pleura Tuberculous empyema  **Excludes1:** - primary respiratory tuberculosis (A15.7)
+[A157] Primary respiratory tuberculosis
+[A158] Other respiratory tuberculosis -- **Inclusion terms:** - Mediastinal tuberculosis - Nasopharyngeal tuberculosis - Tuberculosis of nose - Tuberculosis of sinus [any nasal]
+[A159] Respiratory tuberculosis unspecified
+[A17] Tuberculosis of nervous system
+[A170] Tuberculous meningitis -- **Inclusion terms:** - Tuberculosis of meninges (cerebral)(spinal) - Tuberculous leptomeningitis  **Excludes1:** - tuberculous meningoencephalitis (A17.82)
+[A171] Meningeal tuberculoma -- **Inclusion terms:** - Tuberculoma of meninges (cerebral) (spinal)  **Excludes2:** - tuberculoma of brain and spinal cord (A17.81)
+[A178] Other tuberculosis of nervous system
+[A1781] Tuberculoma of brain and spinal cord -- **Inclusion terms:** - Tuberculous abscess of brain and spinal cord
+[A1782] Tuberculous meningoencephalitis -- **Inclusion terms:** - Tuberculous myelitis
+[A1783] Tuberculous neuritis -- **Inclusion terms:** - Tuberculous mononeuropathy
+[A1789] Other tuberculosis of nervous system -- **Inclusion terms:** - Tuberculous polyneuropathy
+[A179] Tuberculosis of nervous system, unspecified
+[A18] Tuberculosis of other organs
+[A180] Tuberculosis of bones and joints
+[A1801] Tuberculosis of spine -- **Inclusion terms:** - Pott's disease or curvature of spine - Tuberculous arthritis - Tuberculous osteomyelitis of spine - Tuberculous spondylitis
+[A1802] Tuberculous arthritis of other joints -- **Inclusion terms:** - Tuberculosis of hip (joint) - Tuberculosis of knee (joint)
+[A1803] Tuberculosis of other bones -- **Inclusion terms:** - Tuberculous mastoiditis - Tuberculous osteomyelitis
+[A1809] Other musculoskeletal tuberculosis -- **Inclusion terms:** - Tuberculous myositis - Tuberculous synovitis - Tuberculous tenosynovitis
+[A181] Tuberculosis of genitourinary system
+[A1810] Tuberculosis of genitourinary system, unspecified
+[A1811] Tuberculosis of kidney and ureter
+[A1812] Tuberculosis of bladder
+[A1813] Tuberculosis of other urinary organs -- **Inclusion terms:** - Tuberculous urethritis
+[A1814] Tuberculosis of prostate
+[A1815] Tuberculosis of other male genital organs
+[A1816] Tuberculosis of cervix
+[A1817] Tuberculous female pelvic inflammatory disease -- **Inclusion terms:** - Tuberculous endometritis - Tuberculous oophoritis and salpingitis
+[A1818] Tuberculosis of other female genital organs -- **Inclusion terms:** - Tuberculous ulceration of vulva
+[A182] Tuberculous peripheral lymphadenopathy -- **Inclusion terms:** - Tuberculous adenitis  **Excludes2:** - tuberculosis of bronchial and mediastinal lymph nodes (A15.4) - tuberculosis of mesenteric and retroperitoneal lymph nodes (A18.39) - tuberculous tracheobronchial adenopathy (A15.4)
+[A183] Tuberculosis of intestines, peritoneum and mesenteric glands
+[A1831] Tuberculous peritonitis -- **Inclusion terms:** - Tuberculous ascites
+[A1832] Tuberculous enteritis -- **Inclusion terms:** - Tuberculosis of anus and rectum - Tuberculosis of intestine (large) (small)
+[A1839] Retroperitoneal tuberculosis -- **Inclusion terms:** - Tuberculosis of mesenteric glands - Tuberculosis of retroperitoneal (lymph glands)
+[A184] Tuberculosis of skin and subcutaneous tissue -- **Inclusion terms:** - Erythema induratum, tuberculous - Lupus exedens - Lupus vulgaris NOS - Lupus vulgaris of eyelid - Scrofuloderma - Tuberculosis of external ear  **Excludes2:** - lupus erythematosus (L93.-) - systemic lupus erythematosus (M32.-)
+[A185] Tuberculosis of eye -- **Excludes2:** - lupus vulgaris of eyelid (A18.4)
+[A1850] Tuberculosis of eye, unspecified
+[A1851] Tuberculous episcleritis
+[A1852] Tuberculous keratitis -- **Inclusion terms:** - Tuberculous interstitial keratitis - Tuberculous keratoconjunctivitis (interstitial) (phlyctenular)
+[A1853] Tuberculous chorioretinitis
+[A1854] Tuberculous iridocyclitis
+[A1859] Other tuberculosis of eye -- **Inclusion terms:** - Tuberculous conjunctivitis
+[A186] Tuberculosis of (inner) (middle) ear -- **Inclusion terms:** - Tuberculous otitis media  **Excludes2:** - tuberculosis of external ear (A18.4) - tuberculous mastoiditis (A18.03)
+[A187] Tuberculosis of adrenal glands -- **Inclusion terms:** - Tuberculous Addison's disease
+[A188] Tuberculosis of other specified organs
+[A1881] Tuberculosis of thyroid gland
+[A1882] Tuberculosis of other endocrine glands -- **Inclusion terms:** - Tuberculosis of pituitary gland - Tuberculosis of thymus gland
+[A1883] Tuberculosis of digestive tract organs, not elsewhere classified -- **Excludes1:** - tuberculosis of intestine (A18.32)
+[A1884] Tuberculosis of heart -- **Inclusion terms:** - Tuberculous cardiomyopathy - Tuberculous endocarditis - Tuberculous myocarditis - Tuberculous pericarditis
+[A1885] Tuberculosis of spleen
+[A1889] Tuberculosis of other sites -- **Inclusion terms:** - Tuberculosis of muscle - Tuberculous cerebral arteritis
+[A19] Miliary tuberculosis -- **Includes:** - disseminated tuberculosis - generalized tuberculosis - tuberculous polyserositis
+[A190] Acute miliary tuberculosis of a single specified site
+[A191] Acute miliary tuberculosis of multiple sites
+[A192] Acute miliary tuberculosis, unspecified
+[A198] Other miliary tuberculosis
+[A199] Miliary tuberculosis, unspecified
+[A20] Plague -- **Includes:** - infection due to Yersinia pestis
+[A200] Bubonic plague
+[A201] Cellulocutaneous plague
+[A202] Pneumonic plague
+[A203] Plague meningitis
+[A207] Septicemic plague
+[A208] Other forms of plague -- **Inclusion terms:** - Abortive plague - Asymptomatic plague - Pestis minor
+[A209] Plague, unspecified
+[A21] Tularemia -- **Includes:** - deer-fly fever - infection due to Francisella tularensis - rabbit fever
+[A210] Ulceroglandular tularemia
+[A211] Oculoglandular tularemia -- **Inclusion terms:** - Ophthalmic tularemia
+[A212] Pulmonary tularemia
+[A213] Gastrointestinal tularemia -- **Inclusion terms:** - Abdominal tularemia
+[A217] Generalized tularemia
+[A218] Other forms of tularemia
+[A219] Tularemia, unspecified
+[A22] Anthrax -- **Includes:** - infection due to Bacillus anthracis
+[A220] Cutaneous anthrax -- **Inclusion terms:** - Malignant carbuncle - Malignant pustule
+[A221] Pulmonary anthrax -- **Inclusion terms:** - Inhalation anthrax - Ragpicker's disease - Woolsorter's disease
+[A222] Gastrointestinal anthrax
+[A227] Anthrax sepsis
+[A228] Other forms of anthrax -- **Inclusion terms:** - Anthrax meningitis
+[A229] Anthrax, unspecified
+[A23] Brucellosis -- **Includes:** - Malta fever - Mediterranean fever - undulant fever
+[A230] Brucellosis due to Brucella melitensis
+[A231] Brucellosis due to Brucella abortus
+[A232] Brucellosis due to Brucella suis
+[A233] Brucellosis due to Brucella canis
+[A238] Other brucellosis
+[A239] Brucellosis, unspecified
+[A24] Glanders and melioidosis
+[A240] Glanders -- **Inclusion terms:** - Infection due to Pseudomonas mallei - Malleus
+[A241] Acute and fulminating melioidosis -- **Inclusion terms:** - Melioidosis pneumonia - Melioidosis sepsis
+[A242] Subacute and chronic melioidosis
+[A243] Other melioidosis
+[A249] Melioidosis, unspecified -- **Inclusion terms:** - Infection due to Pseudomonas pseudomallei NOS - Whitmore's disease
+[A25] Rat-bite fevers
+[A250] Spirillosis -- **Inclusion terms:** - Sodoku
+[A251] Streptobacillosis -- **Inclusion terms:** - Epidemic arthritic erythema - Haverhill fever - Streptobacillary rat-bite fever
+[A259] Rat-bite fever, unspecified
+[A26] Erysipeloid
+[A260] Cutaneous erysipeloid -- **Inclusion terms:** - Erythema migrans
+[A267] Erysipelothrix sepsis
+[A268] Other forms of erysipeloid
+[A269] Erysipeloid, unspecified
+[A27] Leptospirosis
+[A270] Leptospirosis icterohemorrhagica -- **Inclusion terms:** - Leptospiral or spirochetal jaundice (hemorrhagic) - Weil's disease
+[A278] Other forms of leptospirosis
+[A2781] Aseptic meningitis in leptospirosis
+[A2789] Other forms of leptospirosis
+[A279] Leptospirosis, unspecified
+[A28] Other zoonotic bacterial diseases, not elsewhere classified
+[A280] Pasteurellosis
+[A281] Cat-scratch disease -- **Inclusion terms:** - Cat-scratch fever
+[A282] Extraintestinal yersiniosis -- **Excludes1:** - enteritis due to Yersinia enterocolitica (A04.6) - plague (A20.-)
+[A288] Other specified zoonotic bacterial diseases, not elsewhere classified
+[A289] Zoonotic bacterial disease, unspecified
+[A30] Leprosy [Hansen's disease] -- **Includes:** - infection due to Mycobacterium leprae  **Excludes1:** - sequelae of leprosy (B92)
+[A300] Indeterminate leprosy -- **Inclusion terms:** - I leprosy
+[A301] Tuberculoid leprosy -- **Inclusion terms:** - TT leprosy
+[A302] Borderline tuberculoid leprosy -- **Inclusion terms:** - BT leprosy
+[A303] Borderline leprosy -- **Inclusion terms:** - BB leprosy
+[A304] Borderline lepromatous leprosy -- **Inclusion terms:** - BL leprosy
+[A305] Lepromatous leprosy -- **Inclusion terms:** - LL leprosy
+[A308] Other forms of leprosy
+[A309] Leprosy, unspecified
+[A31] Infection due to other mycobacteria -- **Excludes2:** - leprosy (A30.-) - tuberculosis (A15-A19)
+[A310] Pulmonary mycobacterial infection -- **Inclusion terms:** - Infection due to Mycobacterium avium - Infection due to Mycobacterium intracellulare [Battey bacillus] - Infection due to Mycobacterium kansasii
+[A311] Cutaneous mycobacterial infection -- **Inclusion terms:** - Buruli ulcer - Infection due to Mycobacterium marinum - Infection due to Mycobacterium ulcerans
+[A312] Disseminated mycobacterium avium-intracellulare complex (DMAC) -- **Inclusion terms:** - MAC sepsis
+[A318] Other mycobacterial infections
+[A319] Mycobacterial infection, unspecified -- **Inclusion terms:** - Atypical mycobacterial infection NOS - Mycobacteriosis NOS
+[A32] Listeriosis -- **Includes:** - listerial foodborne infection  **Excludes1:** - neonatal (disseminated) listeriosis (P37.2)
+[A320] Cutaneous listeriosis
+[A321] Listerial meningitis and meningoencephalitis
+[A3211] Listerial meningitis
+[A3212] Listerial meningoencephalitis
+[A327] Listerial sepsis
+[A328] Other forms of listeriosis
+[A3281] Oculoglandular listeriosis
+[A3282] Listerial endocarditis
+[A3289] Other forms of listeriosis -- **Inclusion terms:** - Listerial cerebral arteritis
+[A329] Listeriosis, unspecified
+[A33] Tetanus neonatorum
+[A34] Obstetrical tetanus
+[A35] Other tetanus -- **Inclusion terms:** - Tetanus NOS  **Excludes1:** - obstetrical tetanus (A34) - tetanus neonatorum (A33)
+[A36] Diphtheria
+[A360] Pharyngeal diphtheria -- **Inclusion terms:** - Diphtheritic membranous angina - Tonsillar diphtheria
+[A361] Nasopharyngeal diphtheria
+[A362] Laryngeal diphtheria -- **Inclusion terms:** - Diphtheritic laryngotracheitis
+[A363] Cutaneous diphtheria -- **Excludes2:** - erythrasma (L08.1)
+[A368] Other diphtheria
+[A3681] Diphtheritic cardiomyopathy -- **Inclusion terms:** - Diphtheritic myocarditis
+[A3682] Diphtheritic radiculomyelitis
+[A3683] Diphtheritic polyneuritis
+[A3684] Diphtheritic tubulo-interstitial nephropathy
+[A3685] Diphtheritic cystitis
+[A3686] Diphtheritic conjunctivitis
+[A3689] Other diphtheritic complications -- **Inclusion terms:** - Diphtheritic peritonitis
+[A369] Diphtheria, unspecified
+[A37] Whooping cough
+[A370] Whooping cough due to Bordetella pertussis
+[A3700] Whooping cough due to Bordetella pertussis without pneumonia -- **Inclusion terms:** - Paroxysmal cough due to Bordetella pertussis without pneumonia
+[A3701] Whooping cough due to Bordetella pertussis with pneumonia -- **Inclusion terms:** - Paroxysmal cough due to Bordetella pertussis with pneumonia
+[A371] Whooping cough due to Bordetella parapertussis
+[A3710] Whooping cough due to Bordetella parapertussis without pneumonia
+[A3711] Whooping cough due to Bordetella parapertussis with pneumonia
+[A378] Whooping cough due to other Bordetella species
+[A3780] Whooping cough due to other Bordetella species without pneumonia
+[A3781] Whooping cough due to other Bordetella species with pneumonia
+[A379] Whooping cough, unspecified species
+[A3790] Whooping cough, unspecified species without pneumonia
+[A3791] Whooping cough, unspecified species with pneumonia
+[A38] Scarlet fever -- **Includes:** - scarlatina  **Excludes2:** - streptococcal sore throat (J02.0)
+[A380] Scarlet fever with otitis media
+[A381] Scarlet fever with myocarditis
+[A388] Scarlet fever with other complications
+[A389] Scarlet fever, uncomplicated -- **Inclusion terms:** - Scarlet fever, NOS
+[A39] Meningococcal infection
+[A390] Meningococcal meningitis
+[A391] Waterhouse-Friderichsen syndrome -- **Inclusion terms:** - Meningococcal hemorrhagic adrenalitis - Meningococcic adrenal syndrome
+[A392] Acute meningococcemia
+[A393] Chronic meningococcemia
+[A394] Meningococcemia, unspecified
+[A395] Meningococcal heart disease
+[A3950] Meningococcal carditis, unspecified
+[A3951] Meningococcal endocarditis
+[A3952] Meningococcal myocarditis
+[A3953] Meningococcal pericarditis
+[A398] Other meningococcal infections
+[A3981] Meningococcal encephalitis
+[A3982] Meningococcal retrobulbar neuritis
+[A3983] Meningococcal arthritis
+[A3984] Postmeningococcal arthritis
+[A3989] Other meningococcal infections -- **Inclusion terms:** - Meningococcal conjunctivitis
+[A399] Meningococcal infection, unspecified -- **Inclusion terms:** - Meningococcal disease NOS
+[A40] Streptococcal sepsis -- **Excludes1:** - neonatal (P36.0-P36.1) - puerperal sepsis (O85) - sepsis due to Streptococcus, group D (A41.81)  **Code first:** - , if applicable, postprocedural sepsis (T81.44-) - sepsis due to central venous catheter (T80.211-) - streptococcal sepsis during labor (O75.3) - streptococcal sepsis following abortion or ectopic or molar pregnancy (O03.37, O03.87, O04.87, O07.37, O08.82) - streptococcal sepsis following immunization (T88.0-) - streptococcal sepsis following infusion, transfusion or therapeutic injection (T80.22-, T80.29-)
+[A400] Sepsis due to streptococcus, group A
+[A401] Sepsis due to streptococcus, group B
+[A403] Sepsis due to Streptococcus pneumoniae -- **Inclusion terms:** - Pneumococcal sepsis
+[A408] Other streptococcal sepsis
+[A409] Streptococcal sepsis, unspecified
+[A41] Other sepsis -- **Excludes1:** - bacteremia NOS (R78.81) - neonatal (P36.-) - puerperal sepsis (O85) - streptococcal sepsis (A40.-)  **Excludes2:** - sepsis (due to) (in) actinomycotic (A42.7) - sepsis (due to) (in) anthrax (A22.7) - sepsis (due to) (in) candidal (B37.7) - sepsis (due to) (in) Erysipelothrix (A26.7) - sepsis (due to) (in) extraintestinal yersiniosis (A28.2) - sepsis (due to) (in) gonococcal (A54.86) - sepsis (due to) (in) herpesviral (B00.7) - sepsis (due to) (in) listerial (A32.7) - sepsis (due to) (in) melioidosis (A24.1) - sepsis (due to) (in) meningococcal (A39.2-A39.4) - sepsis (due to) (in) plague (A20.7) - sepsis (due to) (in) tularemia (A21.7) - toxic shock syndrome (A48.3)  **Code first:** - , if applicable, postprocedural sepsis (T81.44-) - sepsis due to central venous catheter (T80.211-) - sepsis during labor (O75.3) - sepsis following abortion, ectopic or molar pregnancy (O03.37, O03.87, O04.87, O07.37, O08.82) - sepsis following immunization (T88.0-) - sepsis following infusion, transfusion or therapeutic injection (T80.22-, T80.29-)
+[A410] Sepsis due to Staphylococcus aureus
+[A4101] Sepsis due to Methicillin susceptible Staphylococcus aureus -- **Inclusion terms:** - MSSA sepsis - Staphylococcus aureus sepsis NOS
+[A4102] Sepsis due to Methicillin resistant Staphylococcus aureus
+[A411] Sepsis due to other specified staphylococcus -- **Inclusion terms:** - Coagulase negative staphylococcus sepsis
+[A412] Sepsis due to unspecified staphylococcus
+[A413] Sepsis due to Hemophilus influenzae
+[A414] Sepsis due to anaerobes -- **Excludes1:** - gas gangrene (A48.0)
+[A415] Sepsis due to other Gram-negative organisms
+[A4150] Gram-negative sepsis, unspecified -- **Inclusion terms:** - Gram-negative sepsis NOS
+[A4151] Sepsis due to Escherichia coli [E. coli]
+[A4152] Sepsis due to Pseudomonas -- **Inclusion terms:** - Pseudomonas aeruginosa
+[A4153] Sepsis due to Serratia
+[A4154] Sepsis due to Acinetobacter baumannii
+[A4159] Other Gram-negative sepsis
+[A418] Other specified sepsis
+[A4181] Sepsis due to Enterococcus
+[A4189] Other specified sepsis
+[A419] Sepsis, unspecified organism -- **Inclusion terms:** - Septicemia NOS
+[A42] Actinomycosis -- **Excludes1:** - actinomycetoma (B47.1)
+[A420] Pulmonary actinomycosis
+[A421] Abdominal actinomycosis
+[A422] Cervicofacial actinomycosis
+[A427] Actinomycotic sepsis
+[A428] Other forms of actinomycosis
+[A4281] Actinomycotic meningitis
+[A4282] Actinomycotic encephalitis
+[A4289] Other forms of actinomycosis
+[A429] Actinomycosis, unspecified
+[A43] Nocardiosis
+[A430] Pulmonary nocardiosis
+[A431] Cutaneous nocardiosis
+[A438] Other forms of nocardiosis
+[A439] Nocardiosis, unspecified
+[A44] Bartonellosis
+[A440] Systemic bartonellosis -- **Inclusion terms:** - Oroya fever
+[A441] Cutaneous and mucocutaneous bartonellosis -- **Inclusion terms:** - Verruga peruana
+[A448] Other forms of bartonellosis
+[A449] Bartonellosis, unspecified
+[A46] Erysipelas -- **Excludes1:** - postpartum or puerperal erysipelas (O86.89)
+[A48] Other bacterial diseases, not elsewhere classified -- **Excludes1:** - actinomycetoma (B47.1)
+[A480] Gas gangrene -- **Inclusion terms:** - Clostridial cellulitis - Clostridial myonecrosis
+[A481] Legionnaires' disease
+[A482] Nonpneumonic Legionnaires' disease [Pontiac fever]
+[A483] Toxic shock syndrome -- **Excludes1:** - endotoxic shock NOS (R57.8) - sepsis NOS (A41.9)  **Use additional code:** - code to identify the organism (B95, B96)
+[A484] Brazilian purpuric fever -- **Inclusion terms:** - Systemic Hemophilus aegyptius infection
+[A485] Other specified botulism -- **Inclusion terms:** - Non-foodborne intoxication due to toxins of Clostridium botulinum [C. botulinum]  **Excludes1:** - food poisoning due to toxins of Clostridium botulinum (A05.1)
+[A4851] Infant botulism
+[A4852] Wound botulism -- **Inclusion terms:** - Non-foodborne botulism NOS  **Use additional code:** - code for associated wound
+[A488] Other specified bacterial diseases
+[A49] Bacterial infection of unspecified site -- **Excludes1:** - bacterial agents as the cause of diseases classified elsewhere (B95-B96) - chlamydial infection NOS (A74.9) - meningococcal infection NOS (A39.9) - rickettsial infection NOS (A79.9) - spirochetal infection NOS (A69.9)
+[A490] Staphylococcal infection, unspecified site
+[A4901] Methicillin susceptible Staphylococcus aureus infection, unspecified site -- **Inclusion terms:** - Methicillin susceptible Staphylococcus aureus (MSSA) infection - Staphylococcus aureus infection NOS
+[A4902] Methicillin resistant Staphylococcus aureus infection, unspecified site -- **Inclusion terms:** - Methicillin resistant Staphylococcus aureus (MRSA) infection
+[A491] Streptococcal infection, unspecified site
+[A492] Hemophilus influenzae infection, unspecified site
+[A493] Mycoplasma infection, unspecified site
+[A498] Other bacterial infections of unspecified site
+[A499] Bacterial infection, unspecified -- **Excludes1:** - bacteremia NOS (R78.81)
+[A50] Congenital syphilis
+[A500] Early congenital syphilis, symptomatic -- **Inclusion terms:** - Any congenital syphilitic condition specified as early or manifest less than two years after birth.
+[A5001] Early congenital syphilitic oculopathy
+[A5002] Early congenital syphilitic osteochondropathy
+[A5003] Early congenital syphilitic pharyngitis -- **Inclusion terms:** - Early congenital syphilitic laryngitis
+[A5004] Early congenital syphilitic pneumonia
+[A5005] Early congenital syphilitic rhinitis
+[A5006] Early cutaneous congenital syphilis
+[A5007] Early mucocutaneous congenital syphilis
+[A5008] Early visceral congenital syphilis
+[A5009] Other early congenital syphilis, symptomatic
+[A501] Early congenital syphilis, latent -- **Inclusion terms:** - Congenital syphilis without clinical manifestations, with positive serological reaction and negative spinal fluid test, less than two years after birth.
+[A502] Early congenital syphilis, unspecified -- **Inclusion terms:** - Congenital syphilis NOS less than two years after birth.
+[A503] Late congenital syphilitic oculopathy -- **Excludes1:** - Hutchinson's triad (A50.53)
+[A5030] Late congenital syphilitic oculopathy, unspecified
+[A5031] Late congenital syphilitic interstitial keratitis
+[A5032] Late congenital syphilitic chorioretinitis
+[A5039] Other late congenital syphilitic oculopathy
+[A504] Late congenital neurosyphilis [juvenile neurosyphilis] -- **Excludes1:** - Hutchinson's triad (A50.53)  **Use additional code:** - code to identify any associated mental disorder
+[A5040] Late congenital neurosyphilis, unspecified -- **Inclusion terms:** - Juvenile neurosyphilis NOS
+[A5041] Late congenital syphilitic meningitis
+[A5042] Late congenital syphilitic encephalitis
+[A5043] Late congenital syphilitic polyneuropathy
+[A5044] Late congenital syphilitic optic nerve atrophy
+[A5045] Juvenile general paresis -- **Inclusion terms:** - Dementia paralytica juvenilis - Juvenile taboparetic neurosyphilis
+[A5049] Other late congenital neurosyphilis -- **Inclusion terms:** - Juvenile tabes dorsalis
+[A505] Other late congenital syphilis, symptomatic -- **Inclusion terms:** - Any congenital syphilitic condition specified as late or manifest two years or more after birth.
+[A5051] Clutton's joints
+[A5052] Hutchinson's teeth
+[A5053] Hutchinson's triad
+[A5054] Late congenital cardiovascular syphilis
+[A5055] Late congenital syphilitic arthropathy
+[A5056] Late congenital syphilitic osteochondropathy
+[A5057] Syphilitic saddle nose
+[A5059] Other late congenital syphilis, symptomatic
+[A506] Late congenital syphilis, latent -- **Inclusion terms:** - Congenital syphilis without clinical manifestations, with positive serological reaction and negative spinal fluid test, two years or more after birth.
+[A507] Late congenital syphilis, unspecified -- **Inclusion terms:** - Congenital syphilis NOS two years or more after birth.
+[A509] Congenital syphilis, unspecified
+[A51] Early syphilis
+[A510] Primary genital syphilis -- **Inclusion terms:** - Syphilitic chancre NOS
+[A511] Primary anal syphilis
+[A512] Primary syphilis of other sites
+[A513] Secondary syphilis of skin and mucous membranes
+[A5131] Condyloma latum
+[A5132] Syphilitic alopecia
+[A5139] Other secondary syphilis of skin -- **Inclusion terms:** - Syphilitic leukoderma - Syphilitic mucous patch  **Excludes1:** - late syphilitic leukoderma (A52.79)
+[A514] Other secondary syphilis
+[A5141] Secondary syphilitic meningitis
+[A5142] Secondary syphilitic female pelvic disease
+[A5143] Secondary syphilitic oculopathy -- **Inclusion terms:** - Secondary syphilitic chorioretinitis - Secondary syphilitic iridocyclitis, iritis - Secondary syphilitic uveitis
+[A5144] Secondary syphilitic nephritis
+[A5145] Secondary syphilitic hepatitis
+[A5146] Secondary syphilitic osteopathy
+[A5149] Other secondary syphilitic conditions -- **Inclusion terms:** - Secondary syphilitic lymphadenopathy - Secondary syphilitic myositis
+[A515] Early syphilis, latent -- **Inclusion terms:** - Syphilis (acquired) without clinical manifestations, with positive serological reaction and negative spinal fluid test, less than two years after infection.
+[A519] Early syphilis, unspecified
+[A52] Late syphilis
+[A520] Cardiovascular and cerebrovascular syphilis
+[A5200] Cardiovascular syphilis, unspecified
+[A5201] Syphilitic aneurysm of aorta
+[A5202] Syphilitic aortitis
+[A5203] Syphilitic endocarditis -- **Inclusion terms:** - Syphilitic aortic valve incompetence or stenosis - Syphilitic mitral valve stenosis - Syphilitic pulmonary valve regurgitation
+[A5204] Syphilitic cerebral arteritis
+[A5205] Other cerebrovascular syphilis -- **Inclusion terms:** - Syphilitic cerebral aneurysm (ruptured) (non-ruptured) - Syphilitic cerebral thrombosis
+[A5206] Other syphilitic heart involvement -- **Inclusion terms:** - Syphilitic coronary artery disease - Syphilitic myocarditis - Syphilitic pericarditis
+[A5209] Other cardiovascular syphilis
+[A521] Symptomatic neurosyphilis
+[A5210] Symptomatic neurosyphilis, unspecified
+[A5211] Tabes dorsalis -- **Inclusion terms:** - Locomotor ataxia (progressive) - Tabetic neurosyphilis
+[A5212] Other cerebrospinal syphilis
+[A5213] Late syphilitic meningitis
+[A5214] Late syphilitic encephalitis
+[A5215] Late syphilitic neuropathy -- **Inclusion terms:** - Late syphilitic acoustic neuritis - Late syphilitic optic (nerve) atrophy - Late syphilitic polyneuropathy - Late syphilitic retrobulbar neuritis
+[A5216] Charcot's arthropathy (tabetic)
+[A5217] General paresis -- **Inclusion terms:** - Dementia paralytica
+[A5219] Other symptomatic neurosyphilis -- **Inclusion terms:** - Syphilitic parkinsonism
+[A522] Asymptomatic neurosyphilis
+[A523] Neurosyphilis, unspecified -- **Inclusion terms:** - Gumma (syphilitic) - Syphilis (late) - Syphiloma
+[A527] Other symptomatic late syphilis
+[A5271] Late syphilitic oculopathy -- **Inclusion terms:** - Late syphilitic chorioretinitis - Late syphilitic episcleritis
+[A5272] Syphilis of lung and bronchus
+[A5273] Symptomatic late syphilis of other respiratory organs
+[A5274] Syphilis of liver and other viscera -- **Inclusion terms:** - Late syphilitic peritonitis
+[A5275] Syphilis of kidney and ureter -- **Inclusion terms:** - Syphilitic glomerular disease
+[A5276] Other genitourinary symptomatic late syphilis -- **Inclusion terms:** - Late syphilitic female pelvic inflammatory disease
+[A5277] Syphilis of bone and joint
+[A5278] Syphilis of other musculoskeletal tissue -- **Inclusion terms:** - Late syphilitic bursitis - Syphilis [stage unspecified] of bursa - Syphilis [stage unspecified] of muscle - Syphilis [stage unspecified] of synovium - Syphilis [stage unspecified] of tendon
+[A5279] Other symptomatic late syphilis -- **Inclusion terms:** - Late syphilitic leukoderma - Syphilis of adrenal gland - Syphilis of pituitary gland - Syphilis of thyroid gland - Syphilitic splenomegaly  **Excludes1:** - syphilitic leukoderma (secondary) (A51.39)
+[A528] Late syphilis, latent -- **Inclusion terms:** - Syphilis (acquired) without clinical manifestations, with positive serological reaction and negative spinal fluid test, two years or more after infection
+[A529] Late syphilis, unspecified
+[A53] Other and unspecified syphilis
+[A530] Latent syphilis, unspecified as early or late -- **Inclusion terms:** - Latent syphilis NOS - Positive serological reaction for syphilis
+[A539] Syphilis, unspecified -- **Inclusion terms:** - Infection due to Treponema pallidum NOS - Syphilis (acquired) NOS  **Excludes1:** - syphilis NOS under two years of age (A50.2)
+[A54] Gonococcal infection
+[A540] Gonococcal infection of lower genitourinary tract without periurethral or accessory gland abscess -- **Excludes1:** - gonococcal infection with genitourinary gland abscess (A54.1) - gonococcal infection with periurethral abscess (A54.1)
+[A5400] Gonococcal infection of lower genitourinary tract, unspecified
+[A5401] Gonococcal cystitis and urethritis, unspecified
+[A5402] Gonococcal vulvovaginitis, unspecified
+[A5403] Gonococcal cervicitis, unspecified
+[A5409] Other gonococcal infection of lower genitourinary tract
+[A541] Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess -- **Inclusion terms:** - Gonococcal Bartholin's gland abscess
+[A542] Gonococcal pelviperitonitis and other gonococcal genitourinary infection
+[A5421] Gonococcal infection of kidney and ureter
+[A5422] Gonococcal prostatitis
+[A5423] Gonococcal infection of other male genital organs -- **Inclusion terms:** - Gonococcal epididymitis - Gonococcal orchitis
+[A5424] Gonococcal female pelvic inflammatory disease -- **Inclusion terms:** - Gonococcal pelviperitonitis  **Excludes1:** - gonococcal peritonitis (A54.85)
+[A5429] Other gonococcal genitourinary infections
+[A543] Gonococcal infection of eye
+[A5430] Gonococcal infection of eye, unspecified
+[A5431] Gonococcal conjunctivitis -- **Inclusion terms:** - Ophthalmia neonatorum due to gonococcus
+[A5432] Gonococcal iridocyclitis
+[A5433] Gonococcal keratitis
+[A5439] Other gonococcal eye infection -- **Inclusion terms:** - Gonococcal endophthalmia
+[A544] Gonococcal infection of musculoskeletal system
+[A5440] Gonococcal infection of musculoskeletal system, unspecified
+[A5441] Gonococcal spondylopathy
+[A5442] Gonococcal arthritis -- **Excludes2:** - gonococcal infection of spine (A54.41)
+[A5443] Gonococcal osteomyelitis -- **Excludes2:** - gonococcal infection of spine (A54.41)
+[A5449] Gonococcal infection of other musculoskeletal tissue -- **Inclusion terms:** - Gonococcal bursitis - Gonococcal myositis - Gonococcal synovitis - Gonococcal tenosynovitis
+[A545] Gonococcal pharyngitis
+[A546] Gonococcal infection of anus and rectum
+[A548] Other gonococcal infections
+[A5481] Gonococcal meningitis
+[A5482] Gonococcal brain abscess
+[A5483] Gonococcal heart infection -- **Inclusion terms:** - Gonococcal endocarditis - Gonococcal myocarditis - Gonococcal pericarditis
+[A5484] Gonococcal pneumonia
+[A5485] Gonococcal peritonitis -- **Excludes1:** - gonococcal pelviperitonitis (A54.24)
+[A5486] Gonococcal sepsis
+[A5489] Other gonococcal infections -- **Inclusion terms:** - Gonococcal keratoderma - Gonococcal lymphadenitis
+[A549] Gonococcal infection, unspecified
+[A55] Chlamydial lymphogranuloma (venereum) -- **Inclusion terms:** - Climatic or tropical bubo - Durand-Nicolas-Favre disease - Esthiomene - Lymphogranuloma inguinale
+[A56] Other sexually transmitted chlamydial diseases -- **Includes:** - sexually transmitted diseases due to Chlamydia - trachomatis  **Excludes1:** - neonatal chlamydial conjunctivitis (P39.1) - neonatal chlamydial pneumonia (P23.1)  **Excludes2:** - chlamydial lymphogranuloma (A55) - conditions classified to A74.-
+[A560] Chlamydial infection of lower genitourinary tract
+[A5600] Chlamydial infection of lower genitourinary tract, unspecified
+[A5601] Chlamydial cystitis and urethritis
+[A5602] Chlamydial vulvovaginitis
+[A5609] Other chlamydial infection of lower genitourinary tract -- **Inclusion terms:** - Chlamydial cervicitis
+[A561] Chlamydial infection of pelviperitoneum and other genitourinary organs
+[A5611] Chlamydial female pelvic inflammatory disease
+[A5619] Other chlamydial genitourinary infection -- **Inclusion terms:** - Chlamydial epididymitis - Chlamydial orchitis
+[A562] Chlamydial infection of genitourinary tract, unspecified
+[A563] Chlamydial infection of anus and rectum
+[A564] Chlamydial infection of pharynx
+[A568] Sexually transmitted chlamydial infection of other sites
+[A57] Chancroid -- **Inclusion terms:** - Ulcus molle
+[A58] Granuloma inguinale -- **Inclusion terms:** - Donovanosis
+[A59] Trichomoniasis -- **Excludes2:** - intestinal trichomoniasis (A07.8)
+[A590] Urogenital trichomoniasis
+[A5900] Urogenital trichomoniasis, unspecified -- **Inclusion terms:** - Fluor (vaginalis) due to Trichomonas - Leukorrhea (vaginalis) due to Trichomonas
+[A5901] Trichomonal vulvovaginitis
+[A5902] Trichomonal prostatitis
+[A5903] Trichomonal cystitis and urethritis
+[A5909] Other urogenital trichomoniasis -- **Inclusion terms:** - Trichomonas cervicitis
+[A598] Trichomoniasis of other sites
+[A599] Trichomoniasis, unspecified
+[A60] Anogenital herpesviral [herpes simplex] infections
+[A600] Herpesviral infection of genitalia and urogenital tract
+[A6000] Herpesviral infection of urogenital system, unspecified
+[A6001] Herpesviral infection of penis
+[A6002] Herpesviral infection of other male genital organs
+[A6003] Herpesviral cervicitis
+[A6004] Herpesviral vulvovaginitis -- **Inclusion terms:** - Herpesviral [herpes simplex] ulceration - Herpesviral [herpes simplex] vaginitis - Herpesviral [herpes simplex] vulvitis
+[A6009] Herpesviral infection of other urogenital tract
+[A601] Herpesviral infection of perianal skin and rectum
+[A609] Anogenital herpesviral infection, unspecified
+[A63] Other predominantly sexually transmitted diseases, not elsewhere classified -- **Excludes2:** - molluscum contagiosum (B08.1) - papilloma of cervix (D26.0)
+[A630] Anogenital (venereal) warts -- **Inclusion terms:** - Anogenital warts due to (human) papillomavirus [HPV] - Condyloma acuminatum
+[A638] Other specified predominantly sexually transmitted diseases
+[A64] Unspecified sexually transmitted disease
+[A65] Nonvenereal syphilis -- **Inclusion terms:** - Bejel - Endemic syphilis - Njovera
+[A66] Yaws -- **Includes:** - bouba - frambesia (tropica) - pian
+[A660] Initial lesions of yaws -- **Inclusion terms:** - Chancre of yaws - Frambesia, initial or primary - Initial frambesial ulcer - Mother yaw
+[A661] Multiple papillomata and wet crab yaws -- **Inclusion terms:** - Frambesioma - Pianoma - Plantar or palmar papilloma of yaws
+[A662] Other early skin lesions of yaws -- **Inclusion terms:** - Cutaneous yaws, less than five years after infection - Early yaws (cutaneous)(macular)(maculopapular)(micropapular)(papular) - Frambeside of early yaws
+[A663] Hyperkeratosis of yaws -- **Inclusion terms:** - Ghoul hand - Hyperkeratosis, palmar or plantar (early) (late) due to yaws - Worm-eaten soles
+[A664] Gummata and ulcers of yaws -- **Inclusion terms:** - Gummatous frambeside - Nodular late yaws (ulcerated)
+[A665] Gangosa -- **Inclusion terms:** - Rhinopharyngitis mutilans
+[A666] Bone and joint lesions of yaws -- **Inclusion terms:** - Yaws ganglion - Yaws goundou - Yaws gumma, bone - Yaws gummatous osteitis or periostitis - Yaws hydrarthrosis - Yaws osteitis - Yaws periostitis (hypertrophic)
+[A667] Other manifestations of yaws -- **Inclusion terms:** - Juxta-articular nodules of yaws - Mucosal yaws
+[A668] Latent yaws -- **Inclusion terms:** - Yaws without clinical manifestations, with positive serology
+[A669] Yaws, unspecified
+[A67] Pinta [carate]
+[A670] Primary lesions of pinta -- **Inclusion terms:** - Chancre (primary) of pinta - Papule (primary) of pinta
+[A671] Intermediate lesions of pinta -- **Inclusion terms:** - Erythematous plaques of pinta - Hyperchromic lesions of pinta - Hyperkeratosis of pinta - Pintids
+[A672] Late lesions of pinta -- **Inclusion terms:** - Achromic skin lesions of pinta - Cicatricial skin lesions of pinta - Dyschromic skin lesions of pinta
+[A673] Mixed lesions of pinta -- **Inclusion terms:** - Achromic with hyperchromic skin lesions of pinta [carate]
+[A679] Pinta, unspecified
+[A68] Relapsing fevers -- **Includes:** - recurrent fever  **Excludes2:** - Lyme disease (A69.2-)
+[A680] Louse-borne relapsing fever -- **Inclusion terms:** - Relapsing fever due to Borrelia recurrentis
+[A681] Tick-borne relapsing fever -- **Inclusion terms:** - Relapsing fever due to any Borrelia species other than Borrelia recurrentis
+[A689] Relapsing fever, unspecified
+[A69] Other spirochetal infections
+[A690] Necrotizing ulcerative stomatitis -- **Inclusion terms:** - Cancrum oris - Fusospirochetal gangrene - Noma - Stomatitis gangrenosa
+[A691] Other Vincent's infections -- **Inclusion terms:** - Fusospirochetal pharyngitis - Necrotizing ulcerative (acute) gingivitis - Necrotizing ulcerative (acute) gingivostomatitis - Spirochetal stomatitis - Trench mouth - Vincent's angina - Vincent's gingivitis
+[A692] Lyme disease -- **Inclusion terms:** - Erythema chronicum migrans due to Borrelia burgdorferi
+[A6920] Lyme disease, unspecified
+[A6921] Meningitis due to Lyme disease
+[A6922] Other neurologic disorders in Lyme disease -- **Inclusion terms:** - Cranial neuritis - Meningoencephalitis - Polyneuropathy
+[A6923] Arthritis due to Lyme disease
+[A6929] Other conditions associated with Lyme disease -- **Inclusion terms:** - Myopericarditis due to Lyme disease
+[A698] Other specified spirochetal infections
+[A699] Spirochetal infection, unspecified
+[A70] Chlamydia psittaci infections -- **Inclusion terms:** - Ornithosis - Parrot fever - Psittacosis
+[A71] Trachoma -- **Excludes1:** - sequelae of trachoma (B94.0)
+[A710] Initial stage of trachoma -- **Inclusion terms:** - Trachoma dubium
+[A711] Active stage of trachoma -- **Inclusion terms:** - Granular conjunctivitis (trachomatous) - Trachomatous follicular conjunctivitis - Trachomatous pannus
+[A719] Trachoma, unspecified
+[A74] Other diseases caused by chlamydiae -- **Excludes1:** - neonatal chlamydial conjunctivitis (P39.1) - neonatal chlamydial pneumonia (P23.1) - Reiter's disease (M02.3-) - sexually transmitted chlamydial diseases (A55-A56)  **Excludes2:** - chlamydial pneumonia (J16.0)
+[A740] Chlamydial conjunctivitis -- **Inclusion terms:** - Paratrachoma
+[A748] Other chlamydial diseases
+[A7481] Chlamydial peritonitis
+[A7489] Other chlamydial diseases
+[A749] Chlamydial infection, unspecified -- **Inclusion terms:** - Chlamydiosis NOS
+[A75] Typhus fever -- **Excludes1:** - rickettsiosis due to Ehrlichia sennetsu (A79.81)
+[A750] Epidemic louse-borne typhus fever due to Rickettsia prowazekii -- **Inclusion terms:** - Classical typhus (fever) - Epidemic (louse-borne) typhus
+[A751] Recrudescent typhus [Brill's disease] -- **Inclusion terms:** - Brill-Zinsser disease
+[A752] Typhus fever due to Rickettsia typhi -- **Inclusion terms:** - Murine (flea-borne) typhus
+[A753] Typhus fever due to Rickettsia tsutsugamushi -- **Inclusion terms:** - Scrub (mite-borne) typhus - Tsutsugamushi fever - Typhus fever due to Orientia Tsutsugamushi (scrub typhus)
+[A759] Typhus fever, unspecified -- **Inclusion terms:** - Typhus (fever) NOS
+[A77] Spotted fever [tick-borne rickettsioses]
+[A770] Spotted fever due to Rickettsia rickettsii -- **Inclusion terms:** - Rocky Mountain spotted fever - Sao Paulo fever
+[A771] Spotted fever due to Rickettsia conorii -- **Inclusion terms:** - African tick typhus - Boutonneuse fever - India tick typhus - Kenya tick typhus - Marseilles fever - Mediterranean tick fever
+[A772] Spotted fever due to Rickettsia siberica -- **Inclusion terms:** - North Asian tick fever - Siberian tick typhus
+[A773] Spotted fever due to Rickettsia australis -- **Inclusion terms:** - Queensland tick typhus
+[A774] Ehrlichiosis -- **Excludes1:** - anaplasmosis [A. phagocytophilum] (A79.82) - rickettsiosis due to Ehrlichia sennetsu (A79.81)
+[A7740] Ehrlichiosis, unspecified
+[A7741] Ehrlichiosis chaffeensis [E. chaffeensis]
+[A7749] Other ehrlichiosis -- **Inclusion terms:** - Ehrlichiosis due to E. ewingii - Ehrlichiosis due to E. muris euclairensis
+[A778] Other spotted fevers -- **Inclusion terms:** - Rickettsia 364D/R. philipii (Pacific Coast tick fever) - Spotted fever due to Rickettsia africae (African tick bite fever) - Spotted fever due to Rickettsia parkeri
+[A779] Spotted fever, unspecified -- **Inclusion terms:** - Tick-borne typhus NOS
+[A78] Q fever -- **Inclusion terms:** - Infection due to Coxiella burnetii - Nine Mile fever - Quadrilateral fever
+[A79] Other rickettsioses
+[A790] Trench fever -- **Inclusion terms:** - Quintan fever - Wolhynian fever
+[A791] Rickettsialpox due to Rickettsia akari -- **Inclusion terms:** - Kew Garden fever - Vesicular rickettsiosis
+[A798] Other specified rickettsioses
+[A7981] Rickettsiosis due to Ehrlichia sennetsu -- **Inclusion terms:** - Rickettsiosis due to Neorickettsia sennetsu
+[A7982] Anaplasmosis [A. phagocytophilum] -- **Inclusion terms:** - Transfusion transmitted A. phagocytophilum
+[A7989] Other specified rickettsioses
+[A799] Rickettsiosis, unspecified -- **Inclusion terms:** - Rickettsial infection NOS
+[A80] Acute poliomyelitis -- **Excludes1:** - acute flaccid myelitis (G04.82)
+[A800] Acute paralytic poliomyelitis, vaccine-associated
+[A801] Acute paralytic poliomyelitis, wild virus, imported
+[A802] Acute paralytic poliomyelitis, wild virus, indigenous
+[A803] Acute paralytic poliomyelitis, other and unspecified
+[A8030] Acute paralytic poliomyelitis, unspecified
+[A8039] Other acute paralytic poliomyelitis
+[A804] Acute nonparalytic poliomyelitis
+[A809] Acute poliomyelitis, unspecified
+[A81] Atypical virus infections of central nervous system -- **Includes:** - diseases of the central nervous system caused by prions  **Use additional code:** - code, if applicable, to identify: - dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4) - dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-) - dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3) - dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2) - dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0) - mild neurocognitive disorder due to known physiological condition (F06.7-)
+[A810] Creutzfeldt-Jakob disease
+[A8100] Creutzfeldt-Jakob disease, unspecified -- **Inclusion terms:** - Jakob-Creutzfeldt disease, unspecified
+[A8101] Variant Creutzfeldt-Jakob disease -- **Inclusion terms:** - vCJD
+[A8109] Other Creutzfeldt-Jakob disease -- **Inclusion terms:** - CJD - Familial Creutzfeldt-Jakob disease - Iatrogenic Creutzfeldt-Jakob disease - Sporadic Creutzfeldt-Jakob disease - Subacute spongiform encephalopathy (with dementia)
+[A811] Subacute sclerosing panencephalitis -- **Inclusion terms:** - Dawson's inclusion body encephalitis - Van Bogaert's sclerosing leukoencephalopathy
+[A812] Progressive multifocal leukoencephalopathy -- **Inclusion terms:** - Multifocal leukoencephalopathy NOS
+[A818] Other atypical virus infections of central nervous system
+[A8181] Kuru
+[A8182] Gerstmann-Straussler-Scheinker syndrome -- **Inclusion terms:** - GSS syndrome
+[A8183] Fatal familial insomnia -- **Inclusion terms:** - FFI
+[A8189] Other atypical virus infections of central nervous system
+[A819] Atypical virus infection of central nervous system, unspecified -- **Inclusion terms:** - Prion diseases of the central nervous system NOS
+[A82] Rabies
+[A820] Sylvatic rabies
+[A821] Urban rabies
+[A829] Rabies, unspecified
+[A83] Mosquito-borne viral encephalitis -- **Includes:** - mosquito-borne viral meningoencephalitis  **Excludes2:** - Venezuelan equine encephalitis (A92.2) - West Nile fever (A92.3-) - West Nile virus (A92.3-)
+[A830] Japanese encephalitis
+[A831] Western equine encephalitis
+[A832] Eastern equine encephalitis
+[A833] St Louis encephalitis
+[A834] Australian encephalitis -- **Inclusion terms:** - Kunjin virus disease
+[A835] California encephalitis -- **Inclusion terms:** - California meningoencephalitis - La Crosse encephalitis
+[A836] Rocio virus disease
+[A838] Other mosquito-borne viral encephalitis
+[A839] Mosquito-borne viral encephalitis, unspecified
+[A84] Tick-borne viral encephalitis -- **Includes:** - tick-borne viral meningoencephalitis
+[A840] Far Eastern tick-borne encephalitis [Russian spring-summer encephalitis]
+[A841] Central European tick-borne encephalitis
+[A848] Other tick-borne viral encephalitis
+[A8481] Powassan virus disease
+[A8489] Other tick-borne viral encephalitis -- **Inclusion terms:** - Louping ill  **Code first:** - , if applicable, transfusion related infection (T80.22-)
+[A849] Tick-borne viral encephalitis, unspecified
+[A85] Other viral encephalitis, not elsewhere classified -- **Includes:** - specified viral encephalomyelitis NEC - specified viral meningoencephalitis NEC  **Excludes1:** - encephalitis due to cytomegalovirus (B25.8) - encephalitis due to herpesvirus NEC (B10.0-) - encephalitis due to herpesvirus [herpes simplex] (B00.4) - encephalitis due to measles virus (B05.0) - encephalitis due to mumps virus (B26.2) - encephalitis due to poliomyelitis virus (A80.-) - encephalitis due to zoster (B02.0) - lymphocytic choriomeningitis (A87.2) - myalgic encephalomyelitis (G93.32)
+[A850] Enteroviral encephalitis -- **Inclusion terms:** - Enteroviral encephalomyelitis
+[A851] Adenoviral encephalitis -- **Inclusion terms:** - Adenoviral meningoencephalitis
+[A852] Arthropod-borne viral encephalitis, unspecified -- **Excludes1:** - West nile virus with encephalitis (A92.31)
+[A858] Other specified viral encephalitis -- **Inclusion terms:** - Encephalitis lethargica - Von Economo-Cruchet disease
+[A86] Unspecified viral encephalitis -- **Inclusion terms:** - Viral encephalomyelitis NOS - Viral meningoencephalitis NOS
+[A87] Viral meningitis -- **Excludes1:** - meningitis due to herpesvirus [herpes simplex] (B00.3) - meningitis due to herpesvirus [herpes simplex] (B00.3) - meningitis due to measles virus (B05.1) - meningitis due to mumps virus (B26.1) - meningitis due to poliomyelitis virus (A80.-) - meningitis due to zoster (B02.1)
+[A870] Enteroviral meningitis -- **Inclusion terms:** - Coxsackievirus meningitis - Echovirus meningitis
+[A871] Adenoviral meningitis
+[A872] Lymphocytic choriomeningitis -- **Inclusion terms:** - Lymphocytic meningoencephalitis
+[A878] Other viral meningitis
+[A879] Viral meningitis, unspecified
+[A88] Other viral infections of central nervous system, not elsewhere classified -- **Excludes1:** - viral encephalitis NOS (A86) - viral meningitis NOS (A87.9)
+[A880] Enteroviral exanthematous fever [Boston exanthem]
+[A881] Epidemic vertigo
+[A888] Other specified viral infections of central nervous system
+[A89] Unspecified viral infection of central nervous system
+[A90] Dengue fever [classical dengue] -- **Excludes1:** - dengue hemorrhagic fever (A91)
+[A91] Dengue hemorrhagic fever
+[A92] Other mosquito-borne viral fevers -- **Excludes1:** - Ross River disease (B33.1)
+[A920] Chikungunya virus disease -- **Inclusion terms:** - Chikungunya (hemorrhagic) fever
+[A921] O'nyong-nyong fever
+[A922] Venezuelan equine fever -- **Inclusion terms:** - Venezuelan equine encephalitis - Venezuelan equine encephalomyelitis virus disease
+[A923] West Nile virus infection -- **Inclusion terms:** - West Nile fever
+[A9230] West Nile virus infection, unspecified -- **Inclusion terms:** - West Nile fever NOS - West Nile fever without complications - West Nile virus NOS
+[A9231] West Nile virus infection with encephalitis -- **Inclusion terms:** - West Nile encephalitis - West Nile encephalomyelitis
+[A9232] West Nile virus infection with other neurologic manifestation -- **Use additional code:** - code to specify the neurologic manifestation
+[A9239] West Nile virus infection with other complications -- **Use additional code:** - code to specify the other conditions
+[A924] Rift Valley fever
+[A925] Zika virus disease -- **Inclusion terms:** - Zika virus fever - Zika virus infection - Zika NOS  **Excludes1:** - congenital Zika virus disease (P35.4)
+[A928] Other specified mosquito-borne viral fevers
+[A929] Mosquito-borne viral fever, unspecified
+[A93] Other arthropod-borne viral fevers, not elsewhere classified
+[A930] Oropouche virus disease -- **Inclusion terms:** - Oropouche fever
+[A931] Sandfly fever -- **Inclusion terms:** - Pappataci fever - Phlebotomus fever
+[A932] Colorado tick fever
+[A938] Other specified arthropod-borne viral fevers -- **Inclusion terms:** - Piry virus disease - Vesicular stomatitis virus disease [Indiana fever]
+[A94] Unspecified arthropod-borne viral fever -- **Inclusion terms:** - Arboviral fever NOS - Arbovirus infection NOS
+[A95] Yellow fever
+[A950] Sylvatic yellow fever -- **Inclusion terms:** - Jungle yellow fever
+[A951] Urban yellow fever
+[A959] Yellow fever, unspecified
+[A96] Arenaviral hemorrhagic fever
+[A960] Junin hemorrhagic fever -- **Inclusion terms:** - Argentinian hemorrhagic fever
+[A961] Machupo hemorrhagic fever -- **Inclusion terms:** - Bolivian hemorrhagic fever
+[A962] Lassa fever
+[A968] Other arenaviral hemorrhagic fevers
+[A969] Arenaviral hemorrhagic fever, unspecified
+[A98] Other viral hemorrhagic fevers, not elsewhere classified -- **Excludes1:** - chikungunya hemorrhagic fever (A92.0) - dengue hemorrhagic fever (A91)
+[A980] Crimean-Congo hemorrhagic fever -- **Inclusion terms:** - Central Asian hemorrhagic fever
+[A981] Omsk hemorrhagic fever
+[A982] Kyasanur Forest disease
+[A983] Marburg virus disease
+[A984] Ebola virus disease
+[A985] Hemorrhagic fever with renal syndrome -- **Inclusion terms:** - Epidemic hemorrhagic fever - Korean hemorrhagic fever - Russian hemorrhagic fever - Hantaan virus disease - Hantavirus disease with renal manifestations - Nephropathia epidemica - Songo fever  **Excludes1:** - hantavirus (cardio)-pulmonary syndrome (B33.4)
+[A988] Other specified viral hemorrhagic fevers
+[A99] Unspecified viral hemorrhagic fever

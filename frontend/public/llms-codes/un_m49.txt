@@ -1,0 +1,279 @@
+[001] World -- World is the UN M.49 aggregate covering all 249 recognized countries and territories. Members include: Afghanistan, Albania, Algeria, American Samoa, Andorra, ....
+[002] Africa -- Africa is a UN M.49 geographic region grouping 60 countries. Members include: Algeria, Angola, Benin, Botswana, British Indian Ocean Territory, ....
+[004] Afghanistan -- Afghanistan is a country in Southern Asia, Asia. ISO alpha-3 code: AFG. :: iso_3166_1:AF
+[005] South America -- South America is a UN M.49 sub-region of Latin America and the Caribbean, grouping 16 countries. Members include: Argentina, Bolivia, Plurinational State of, Bouvet Island, Brazil, Chile, ....
+[008] Albania -- Albania is a country in Southern Europe, Europe. ISO alpha-3 code: ALB. :: iso_3166_1:AL
+[009] Oceania -- Oceania is a UN M.49 geographic region grouping 29 countries. Members include: American Samoa, Australia, Christmas Island, Cocos (Keeling) Islands, Cook Islands, ....
+[010] Antarctica -- Antarctica. ISO alpha-3 code: ATA. :: iso_3166_1:AQ
+[011] Western Africa -- Western Africa is a UN M.49 sub-region of Sub-Saharan Africa, grouping 17 countries. Members include: Benin, Burkina Faso, Cabo Verde, Côte d'Ivoire, Gambia, ....
+[012] Algeria -- Algeria is a country in Northern Africa, Africa. ISO alpha-3 code: DZA. :: iso_3166_1:DZ
+[013] Central America -- Central America is a UN M.49 sub-region of Latin America and the Caribbean, grouping 8 countries. Members include: Belize, Costa Rica, El Salvador, Guatemala, Honduras, ....
+[014] Eastern Africa -- Eastern Africa is a UN M.49 sub-region of Sub-Saharan Africa, grouping 22 countries. Members include: British Indian Ocean Territory, Burundi, Comoros, Djibouti, Eritrea, ....
+[015] Northern Africa -- Northern Africa is a UN M.49 sub-region of Africa, grouping 7 countries. Members include: Algeria, Egypt, Libya, Morocco, Sudan, ....
+[016] American Samoa -- American Samoa is a country in Polynesia, Oceania. ISO alpha-3 code: ASM. :: iso_3166_1:AS
+[017] Middle Africa -- Middle Africa is a UN M.49 sub-region of Sub-Saharan Africa, grouping 9 countries. Members include: Angola, Cameroon, Central African Republic, Chad, Congo, ....
+[018] Southern Africa -- Southern Africa is a UN M.49 sub-region of Sub-Saharan Africa, grouping 5 countries. Members include: Botswana, Eswatini, Lesotho, Namibia, South Africa.
+[019] Americas -- Americas is a UN M.49 geographic region grouping 57 countries. Members include: Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, ....
+[020] Andorra -- Andorra is a country in Southern Europe, Europe. ISO alpha-3 code: AND. :: iso_3166_1:AD
+[021] Northern America -- Northern America is a UN M.49 sub-region of Americas, grouping 5 countries. Members include: Bermuda, Canada, Greenland, Saint Pierre and Miquelon, United States of America.
+[024] Angola -- Angola is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: AGO. :: iso_3166_1:AO
+[028] Antigua and Barbuda -- Antigua and Barbuda is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: ATG. :: iso_3166_1:AG
+[029] Caribbean -- Caribbean is a UN M.49 sub-region of Latin America and the Caribbean, grouping 28 countries. Members include: Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, ....
+[030] Eastern Asia -- Eastern Asia is a UN M.49 sub-region of Asia, grouping 7 countries. Members include: China, Hong Kong, Japan, Korea, Democratic People's Republic of, Korea, Republic of, ....
+[031] Azerbaijan -- Azerbaijan is a country in Western Asia, Asia. ISO alpha-3 code: AZE. :: iso_3166_1:AZ
+[032] Argentina -- Argentina is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: ARG. :: iso_3166_1:AR
+[034] Southern Asia -- Southern Asia is a UN M.49 sub-region of Asia, grouping 9 countries. Members include: Afghanistan, Bangladesh, Bhutan, India, Iran, Islamic Republic of, ....
+[035] South-eastern Asia -- South-eastern Asia is a UN M.49 sub-region of Asia, grouping 11 countries. Members include: Brunei Darussalam, Cambodia, Indonesia, Lao People's Democratic Republic, Malaysia, ....
+[036] Australia -- Australia is a country in Australia and New Zealand, Oceania. ISO alpha-3 code: AUS. :: iso_3166_1:AU
+[039] Southern Europe -- Southern Europe is a UN M.49 sub-region of Europe, grouping 16 countries. Members include: Albania, Andorra, Bosnia and Herzegovina, Croatia, Gibraltar, ....
+[040] Austria -- Austria is a country in Western Europe, Europe. ISO alpha-3 code: AUT. :: iso_3166_1:AT
+[044] Bahamas -- Bahamas is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: BHS. :: iso_3166_1:BS
+[048] Bahrain -- Bahrain is a country in Western Asia, Asia. ISO alpha-3 code: BHR. :: iso_3166_1:BH
+[050] Bangladesh -- Bangladesh is a country in Southern Asia, Asia. ISO alpha-3 code: BGD. :: iso_3166_1:BD
+[051] Armenia -- Armenia is a country in Western Asia, Asia. ISO alpha-3 code: ARM. :: iso_3166_1:AM
+[052] Barbados -- Barbados is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: BRB. :: iso_3166_1:BB
+[053] Australia and New Zealand -- Australia and New Zealand is a UN M.49 sub-region of Oceania, grouping 6 countries. Members include: Australia, Christmas Island, Cocos (Keeling) Islands, Heard Island and McDonald Islands, New Zealand, ....
+[054] Melanesia -- Melanesia is a UN M.49 sub-region of Oceania, grouping 5 countries. Members include: Fiji, New Caledonia, Papua New Guinea, Solomon Islands, Vanuatu.
+[056] Belgium -- Belgium is a country in Western Europe, Europe. ISO alpha-3 code: BEL. :: iso_3166_1:BE
+[057] Micronesia -- Micronesia is a UN M.49 sub-region of Oceania, grouping 8 countries. Members include: Guam, Kiribati, Marshall Islands, Micronesia, Federated States of, Nauru, ....
+[060] Bermuda -- Bermuda is a country in Northern America, Americas. ISO alpha-3 code: BMU. :: iso_3166_1:BM
+[061] Polynesia -- Polynesia is a UN M.49 sub-region of Oceania, grouping 10 countries. Members include: American Samoa, Cook Islands, French Polynesia, Niue, Pitcairn, ....
+[064] Bhutan -- Bhutan is a country in Southern Asia, Asia. ISO alpha-3 code: BTN. :: iso_3166_1:BT
+[068] Bolivia, Plurinational State of -- Bolivia, Plurinational State of is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: BOL. :: iso_3166_1:BO
+[070] Bosnia and Herzegovina -- Bosnia and Herzegovina is a country in Southern Europe, Europe. ISO alpha-3 code: BIH. :: iso_3166_1:BA
+[072] Botswana -- Botswana is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: BWA. :: iso_3166_1:BW
+[074] Bouvet Island -- Bouvet Island is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: BVT. :: iso_3166_1:BV
+[076] Brazil -- Brazil is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: BRA. :: iso_3166_1:BR
+[084] Belize -- Belize is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: BLZ. :: iso_3166_1:BZ
+[086] British Indian Ocean Territory -- British Indian Ocean Territory is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: IOT. :: iso_3166_1:IO
+[090] Solomon Islands -- Solomon Islands is a country in Melanesia, Oceania. ISO alpha-3 code: SLB. :: iso_3166_1:SB
+[092] Virgin Islands (British) -- Virgin Islands (British) is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: VGB. :: iso_3166_1:VG
+[096] Brunei Darussalam -- Brunei Darussalam is a country in South-eastern Asia, Asia. ISO alpha-3 code: BRN. :: iso_3166_1:BN
+[100] Bulgaria -- Bulgaria is a country in Eastern Europe, Europe. ISO alpha-3 code: BGR. :: iso_3166_1:BG
+[104] Myanmar -- Myanmar is a country in South-eastern Asia, Asia. ISO alpha-3 code: MMR. :: iso_3166_1:MM
+[108] Burundi -- Burundi is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: BDI. :: iso_3166_1:BI
+[112] Belarus -- Belarus is a country in Eastern Europe, Europe. ISO alpha-3 code: BLR. :: iso_3166_1:BY
+[116] Cambodia -- Cambodia is a country in South-eastern Asia, Asia. ISO alpha-3 code: KHM. :: iso_3166_1:KH
+[120] Cameroon -- Cameroon is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: CMR. :: iso_3166_1:CM
+[124] Canada -- Canada is a country in Northern America, Americas. ISO alpha-3 code: CAN. :: iso_3166_1:CA
+[132] Cabo Verde -- Cabo Verde is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: CPV. :: iso_3166_1:CV
+[136] Cayman Islands -- Cayman Islands is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: CYM. :: iso_3166_1:KY
+[140] Central African Republic -- Central African Republic is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: CAF. :: iso_3166_1:CF
+[142] Asia -- Asia is a UN M.49 geographic region grouping 50 countries. Members include: Afghanistan, Armenia, Azerbaijan, Bahrain, Bangladesh, ....
+[143] Central Asia -- Central Asia is a UN M.49 sub-region of Asia, grouping 5 countries. Members include: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan.
+[144] Sri Lanka -- Sri Lanka is a country in Southern Asia, Asia. ISO alpha-3 code: LKA. :: iso_3166_1:LK
+[145] Western Asia -- Western Asia is a UN M.49 sub-region of Asia, grouping 18 countries. Members include: Armenia, Azerbaijan, Bahrain, Cyprus, Georgia, ....
+[148] Chad -- Chad is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: TCD. :: iso_3166_1:TD
+[150] Europe -- Europe is a UN M.49 geographic region grouping 51 countries. Members include: Albania, Andorra, Austria, Belarus, Belgium, ....
+[151] Eastern Europe -- Eastern Europe is a UN M.49 sub-region of Europe, grouping 10 countries. Members include: Belarus, Bulgaria, Czechia, Hungary, Moldova, Republic of, ....
+[152] Chile -- Chile is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: CHL. :: iso_3166_1:CL
+[154] Northern Europe -- Northern Europe is a UN M.49 sub-region of Europe, grouping 16 countries. Members include: Denmark, Estonia, Faroe Islands, Finland, Guernsey, ....
+[155] Western Europe -- Western Europe is a UN M.49 sub-region of Europe, grouping 9 countries. Members include: Austria, Belgium, France, Germany, Liechtenstein, ....
+[156] China -- China is a country in Eastern Asia, Asia. ISO alpha-3 code: CHN. :: iso_3166_1:CN
+[158] Taiwan, Province of China -- Taiwan, Province of China. ISO alpha-3 code: TWN. :: iso_3166_1:TW
+[162] Christmas Island -- Christmas Island is a country in Australia and New Zealand, Oceania. ISO alpha-3 code: CXR. :: iso_3166_1:CX
+[166] Cocos (Keeling) Islands -- Cocos (Keeling) Islands is a country in Australia and New Zealand, Oceania. ISO alpha-3 code: CCK. :: iso_3166_1:CC
+[170] Colombia -- Colombia is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: COL. :: iso_3166_1:CO
+[174] Comoros -- Comoros is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: COM. :: iso_3166_1:KM
+[175] Mayotte -- Mayotte is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: MYT. :: iso_3166_1:YT
+[178] Congo -- Congo is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: COG. :: iso_3166_1:CG
+[180] Congo, Democratic Republic of the -- Congo, Democratic Republic of the is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: COD. :: iso_3166_1:CD
+[184] Cook Islands -- Cook Islands is a country in Polynesia, Oceania. ISO alpha-3 code: COK. :: iso_3166_1:CK
+[188] Costa Rica -- Costa Rica is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: CRI. :: iso_3166_1:CR
+[191] Croatia -- Croatia is a country in Southern Europe, Europe. ISO alpha-3 code: HRV. :: iso_3166_1:HR
+[192] Cuba -- Cuba is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: CUB. :: iso_3166_1:CU
+[196] Cyprus -- Cyprus is a country in Western Asia, Asia. ISO alpha-3 code: CYP. :: iso_3166_1:CY
+[202] Sub-Saharan Africa -- Sub-Saharan Africa is a UN M.49 sub-region of Africa, grouping 53 countries. Members include: Angola, Benin, Botswana, British Indian Ocean Territory, Burkina Faso, ....
+[203] Czechia -- Czechia is a country in Eastern Europe, Europe. ISO alpha-3 code: CZE. :: iso_3166_1:CZ
+[204] Benin -- Benin is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: BEN. :: iso_3166_1:BJ
+[208] Denmark -- Denmark is a country in Northern Europe, Europe. ISO alpha-3 code: DNK. :: iso_3166_1:DK
+[212] Dominica -- Dominica is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: DMA. :: iso_3166_1:DM
+[214] Dominican Republic -- Dominican Republic is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: DOM. :: iso_3166_1:DO
+[218] Ecuador -- Ecuador is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: ECU. :: iso_3166_1:EC
+[222] El Salvador -- El Salvador is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: SLV. :: iso_3166_1:SV
+[226] Equatorial Guinea -- Equatorial Guinea is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: GNQ. :: iso_3166_1:GQ
+[231] Ethiopia -- Ethiopia is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: ETH. :: iso_3166_1:ET
+[232] Eritrea -- Eritrea is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: ERI. :: iso_3166_1:ER
+[233] Estonia -- Estonia is a country in Northern Europe, Europe. ISO alpha-3 code: EST. :: iso_3166_1:EE
+[234] Faroe Islands -- Faroe Islands is a country in Northern Europe, Europe. ISO alpha-3 code: FRO. :: iso_3166_1:FO
+[238] Falkland Islands (Malvinas) -- Falkland Islands (Malvinas) is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: FLK. :: iso_3166_1:FK
+[239] South Georgia and the South Sandwich Islands -- South Georgia and the South Sandwich Islands is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: SGS. :: iso_3166_1:GS
+[242] Fiji -- Fiji is a country in Melanesia, Oceania. ISO alpha-3 code: FJI. :: iso_3166_1:FJ
+[246] Finland -- Finland is a country in Northern Europe, Europe. ISO alpha-3 code: FIN. :: iso_3166_1:FI
+[248] Åland Islands -- Åland Islands is a country in Northern Europe, Europe. ISO alpha-3 code: ALA. :: iso_3166_1:AX
+[250] France -- France is a country in Western Europe, Europe. ISO alpha-3 code: FRA. :: iso_3166_1:FR
+[254] French Guiana -- French Guiana is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: GUF. :: iso_3166_1:GF
+[258] French Polynesia -- French Polynesia is a country in Polynesia, Oceania. ISO alpha-3 code: PYF. :: iso_3166_1:PF
+[260] French Southern Territories -- French Southern Territories is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: ATF. :: iso_3166_1:TF
+[262] Djibouti -- Djibouti is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: DJI. :: iso_3166_1:DJ
+[266] Gabon -- Gabon is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: GAB. :: iso_3166_1:GA
+[268] Georgia -- Georgia is a country in Western Asia, Asia. ISO alpha-3 code: GEO. :: iso_3166_1:GE
+[270] Gambia -- Gambia is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: GMB. :: iso_3166_1:GM
+[275] Palestine, State of -- Palestine, State of is a country in Western Asia, Asia. ISO alpha-3 code: PSE. :: iso_3166_1:PS
+[276] Germany -- Germany is a country in Western Europe, Europe. ISO alpha-3 code: DEU. :: iso_3166_1:DE
+[288] Ghana -- Ghana is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: GHA. :: iso_3166_1:GH
+[292] Gibraltar -- Gibraltar is a country in Southern Europe, Europe. ISO alpha-3 code: GIB. :: iso_3166_1:GI
+[296] Kiribati -- Kiribati is a country in Micronesia, Oceania. ISO alpha-3 code: KIR. :: iso_3166_1:KI
+[300] Greece -- Greece is a country in Southern Europe, Europe. ISO alpha-3 code: GRC. :: iso_3166_1:GR
+[304] Greenland -- Greenland is a country in Northern America, Americas. ISO alpha-3 code: GRL. :: iso_3166_1:GL
+[308] Grenada -- Grenada is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: GRD. :: iso_3166_1:GD
+[312] Guadeloupe -- Guadeloupe is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: GLP. :: iso_3166_1:GP
+[316] Guam -- Guam is a country in Micronesia, Oceania. ISO alpha-3 code: GUM. :: iso_3166_1:GU
+[320] Guatemala -- Guatemala is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: GTM. :: iso_3166_1:GT
+[324] Guinea -- Guinea is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: GIN. :: iso_3166_1:GN
+[328] Guyana -- Guyana is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: GUY. :: iso_3166_1:GY
+[332] Haiti -- Haiti is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: HTI. :: iso_3166_1:HT
+[334] Heard Island and McDonald Islands -- Heard Island and McDonald Islands is a country in Australia and New Zealand, Oceania. ISO alpha-3 code: HMD. :: iso_3166_1:HM
+[336] Holy See -- Holy See is a country in Southern Europe, Europe. ISO alpha-3 code: VAT. :: iso_3166_1:VA
+[340] Honduras -- Honduras is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: HND. :: iso_3166_1:HN
+[344] Hong Kong -- Hong Kong is a country in Eastern Asia, Asia. ISO alpha-3 code: HKG. :: iso_3166_1:HK
+[348] Hungary -- Hungary is a country in Eastern Europe, Europe. ISO alpha-3 code: HUN. :: iso_3166_1:HU
+[352] Iceland -- Iceland is a country in Northern Europe, Europe. ISO alpha-3 code: ISL. :: iso_3166_1:IS
+[356] India -- India is a country in Southern Asia, Asia. ISO alpha-3 code: IND. :: iso_3166_1:IN
+[360] Indonesia -- Indonesia is a country in South-eastern Asia, Asia. ISO alpha-3 code: IDN. :: iso_3166_1:ID
+[364] Iran, Islamic Republic of -- Iran, Islamic Republic of is a country in Southern Asia, Asia. ISO alpha-3 code: IRN. :: iso_3166_1:IR
+[368] Iraq -- Iraq is a country in Western Asia, Asia. ISO alpha-3 code: IRQ. :: iso_3166_1:IQ
+[372] Ireland -- Ireland is a country in Northern Europe, Europe. ISO alpha-3 code: IRL. :: iso_3166_1:IE
+[376] Israel -- Israel is a country in Western Asia, Asia. ISO alpha-3 code: ISR. :: iso_3166_1:IL
+[380] Italy -- Italy is a country in Southern Europe, Europe. ISO alpha-3 code: ITA. :: iso_3166_1:IT
+[384] Côte d'Ivoire -- Côte d'Ivoire is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: CIV. :: iso_3166_1:CI
+[388] Jamaica -- Jamaica is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: JAM. :: iso_3166_1:JM
+[392] Japan -- Japan is a country in Eastern Asia, Asia. ISO alpha-3 code: JPN. :: iso_3166_1:JP
+[398] Kazakhstan -- Kazakhstan is a country in Central Asia, Asia. ISO alpha-3 code: KAZ. :: iso_3166_1:KZ
+[400] Jordan -- Jordan is a country in Western Asia, Asia. ISO alpha-3 code: JOR. :: iso_3166_1:JO
+[404] Kenya -- Kenya is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: KEN. :: iso_3166_1:KE
+[408] Korea, Democratic People's Republic of -- Korea, Democratic People's Republic of is a country in Eastern Asia, Asia. ISO alpha-3 code: PRK. :: iso_3166_1:KP
+[410] Korea, Republic of -- Korea, Republic of is a country in Eastern Asia, Asia. ISO alpha-3 code: KOR. :: iso_3166_1:KR
+[414] Kuwait -- Kuwait is a country in Western Asia, Asia. ISO alpha-3 code: KWT. :: iso_3166_1:KW
+[417] Kyrgyzstan -- Kyrgyzstan is a country in Central Asia, Asia. ISO alpha-3 code: KGZ. :: iso_3166_1:KG
+[418] Lao People's Democratic Republic -- Lao People's Democratic Republic is a country in South-eastern Asia, Asia. ISO alpha-3 code: LAO. :: iso_3166_1:LA
+[419] Latin America and the Caribbean -- Latin America and the Caribbean is a UN M.49 sub-region of Americas, grouping 52 countries. Members include: Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas, ....
+[422] Lebanon -- Lebanon is a country in Western Asia, Asia. ISO alpha-3 code: LBN. :: iso_3166_1:LB
+[426] Lesotho -- Lesotho is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: LSO. :: iso_3166_1:LS
+[428] Latvia -- Latvia is a country in Northern Europe, Europe. ISO alpha-3 code: LVA. :: iso_3166_1:LV
+[430] Liberia -- Liberia is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: LBR. :: iso_3166_1:LR
+[434] Libya -- Libya is a country in Northern Africa, Africa. ISO alpha-3 code: LBY. :: iso_3166_1:LY
+[438] Liechtenstein -- Liechtenstein is a country in Western Europe, Europe. ISO alpha-3 code: LIE. :: iso_3166_1:LI
+[440] Lithuania -- Lithuania is a country in Northern Europe, Europe. ISO alpha-3 code: LTU. :: iso_3166_1:LT
+[442] Luxembourg -- Luxembourg is a country in Western Europe, Europe. ISO alpha-3 code: LUX. :: iso_3166_1:LU
+[446] Macao -- Macao is a country in Eastern Asia, Asia. ISO alpha-3 code: MAC. :: iso_3166_1:MO
+[450] Madagascar -- Madagascar is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: MDG. :: iso_3166_1:MG
+[454] Malawi -- Malawi is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: MWI. :: iso_3166_1:MW
+[458] Malaysia -- Malaysia is a country in South-eastern Asia, Asia. ISO alpha-3 code: MYS. :: iso_3166_1:MY
+[462] Maldives -- Maldives is a country in Southern Asia, Asia. ISO alpha-3 code: MDV. :: iso_3166_1:MV
+[466] Mali -- Mali is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: MLI. :: iso_3166_1:ML
+[470] Malta -- Malta is a country in Southern Europe, Europe. ISO alpha-3 code: MLT. :: iso_3166_1:MT
+[474] Martinique -- Martinique is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: MTQ. :: iso_3166_1:MQ
+[478] Mauritania -- Mauritania is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: MRT. :: iso_3166_1:MR
+[480] Mauritius -- Mauritius is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: MUS. :: iso_3166_1:MU
+[484] Mexico -- Mexico is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: MEX. :: iso_3166_1:MX
+[492] Monaco -- Monaco is a country in Western Europe, Europe. ISO alpha-3 code: MCO. :: iso_3166_1:MC
+[496] Mongolia -- Mongolia is a country in Eastern Asia, Asia. ISO alpha-3 code: MNG. :: iso_3166_1:MN
+[498] Moldova, Republic of -- Moldova, Republic of is a country in Eastern Europe, Europe. ISO alpha-3 code: MDA. :: iso_3166_1:MD
+[499] Montenegro -- Montenegro is a country in Southern Europe, Europe. ISO alpha-3 code: MNE. :: iso_3166_1:ME
+[500] Montserrat -- Montserrat is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: MSR. :: iso_3166_1:MS
+[504] Morocco -- Morocco is a country in Northern Africa, Africa. ISO alpha-3 code: MAR. :: iso_3166_1:MA
+[508] Mozambique -- Mozambique is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: MOZ. :: iso_3166_1:MZ
+[512] Oman -- Oman is a country in Western Asia, Asia. ISO alpha-3 code: OMN. :: iso_3166_1:OM
+[516] Namibia -- Namibia is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: NAM. :: iso_3166_1:NA
+[520] Nauru -- Nauru is a country in Micronesia, Oceania. ISO alpha-3 code: NRU. :: iso_3166_1:NR
+[524] Nepal -- Nepal is a country in Southern Asia, Asia. ISO alpha-3 code: NPL. :: iso_3166_1:NP
+[528] Netherlands, Kingdom of the -- Netherlands, Kingdom of the is a country in Western Europe, Europe. ISO alpha-3 code: NLD. :: iso_3166_1:NL
+[531] Curaçao -- Curaçao is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: CUW. :: iso_3166_1:CW
+[533] Aruba -- Aruba is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: ABW. :: iso_3166_1:AW
+[534] Sint Maarten (Dutch part) -- Sint Maarten (Dutch part) is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: SXM. :: iso_3166_1:SX
+[535] Bonaire, Sint Eustatius and Saba -- Bonaire, Sint Eustatius and Saba is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: BES. :: iso_3166_1:BQ
+[540] New Caledonia -- New Caledonia is a country in Melanesia, Oceania. ISO alpha-3 code: NCL. :: iso_3166_1:NC
+[548] Vanuatu -- Vanuatu is a country in Melanesia, Oceania. ISO alpha-3 code: VUT. :: iso_3166_1:VU
+[554] New Zealand -- New Zealand is a country in Australia and New Zealand, Oceania. ISO alpha-3 code: NZL. :: iso_3166_1:NZ
+[558] Nicaragua -- Nicaragua is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: NIC. :: iso_3166_1:NI
+[562] Niger -- Niger is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: NER. :: iso_3166_1:NE
+[566] Nigeria -- Nigeria is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: NGA. :: iso_3166_1:NG
+[570] Niue -- Niue is a country in Polynesia, Oceania. ISO alpha-3 code: NIU. :: iso_3166_1:NU
+[574] Norfolk Island -- Norfolk Island is a country in Australia and New Zealand, Oceania. ISO alpha-3 code: NFK. :: iso_3166_1:NF
+[578] Norway -- Norway is a country in Northern Europe, Europe. ISO alpha-3 code: NOR. :: iso_3166_1:NO
+[580] Northern Mariana Islands -- Northern Mariana Islands is a country in Micronesia, Oceania. ISO alpha-3 code: MNP. :: iso_3166_1:MP
+[581] United States Minor Outlying Islands -- United States Minor Outlying Islands is a country in Micronesia, Oceania. ISO alpha-3 code: UMI. :: iso_3166_1:UM
+[583] Micronesia, Federated States of -- Micronesia, Federated States of is a country in Micronesia, Oceania. ISO alpha-3 code: FSM. :: iso_3166_1:FM
+[584] Marshall Islands -- Marshall Islands is a country in Micronesia, Oceania. ISO alpha-3 code: MHL. :: iso_3166_1:MH
+[585] Palau -- Palau is a country in Micronesia, Oceania. ISO alpha-3 code: PLW. :: iso_3166_1:PW
+[586] Pakistan -- Pakistan is a country in Southern Asia, Asia. ISO alpha-3 code: PAK. :: iso_3166_1:PK
+[591] Panama -- Panama is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: PAN. :: iso_3166_1:PA
+[598] Papua New Guinea -- Papua New Guinea is a country in Melanesia, Oceania. ISO alpha-3 code: PNG. :: iso_3166_1:PG
+[600] Paraguay -- Paraguay is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: PRY. :: iso_3166_1:PY
+[604] Peru -- Peru is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: PER. :: iso_3166_1:PE
+[608] Philippines -- Philippines is a country in South-eastern Asia, Asia. ISO alpha-3 code: PHL. :: iso_3166_1:PH
+[612] Pitcairn -- Pitcairn is a country in Polynesia, Oceania. ISO alpha-3 code: PCN. :: iso_3166_1:PN
+[616] Poland -- Poland is a country in Eastern Europe, Europe. ISO alpha-3 code: POL. :: iso_3166_1:PL
+[620] Portugal -- Portugal is a country in Southern Europe, Europe. ISO alpha-3 code: PRT. :: iso_3166_1:PT
+[624] Guinea-Bissau -- Guinea-Bissau is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: GNB. :: iso_3166_1:GW
+[626] Timor-Leste -- Timor-Leste is a country in South-eastern Asia, Asia. ISO alpha-3 code: TLS. :: iso_3166_1:TL
+[630] Puerto Rico -- Puerto Rico is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: PRI. :: iso_3166_1:PR
+[634] Qatar -- Qatar is a country in Western Asia, Asia. ISO alpha-3 code: QAT. :: iso_3166_1:QA
+[638] Réunion -- Réunion is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: REU. :: iso_3166_1:RE
+[642] Romania -- Romania is a country in Eastern Europe, Europe. ISO alpha-3 code: ROU. :: iso_3166_1:RO
+[643] Russian Federation -- Russian Federation is a country in Eastern Europe, Europe. ISO alpha-3 code: RUS. :: iso_3166_1:RU
+[646] Rwanda -- Rwanda is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: RWA. :: iso_3166_1:RW
+[652] Saint Barthélemy -- Saint Barthélemy is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: BLM. :: iso_3166_1:BL
+[654] Saint Helena, Ascension and Tristan da Cunha -- Saint Helena, Ascension and Tristan da Cunha is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: SHN. :: iso_3166_1:SH
+[659] Saint Kitts and Nevis -- Saint Kitts and Nevis is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: KNA. :: iso_3166_1:KN
+[660] Anguilla -- Anguilla is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: AIA. :: iso_3166_1:AI
+[662] Saint Lucia -- Saint Lucia is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: LCA. :: iso_3166_1:LC
+[663] Saint Martin (French part) -- Saint Martin (French part) is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: MAF. :: iso_3166_1:MF
+[666] Saint Pierre and Miquelon -- Saint Pierre and Miquelon is a country in Northern America, Americas. ISO alpha-3 code: SPM. :: iso_3166_1:PM
+[670] Saint Vincent and the Grenadines -- Saint Vincent and the Grenadines is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: VCT. :: iso_3166_1:VC
+[674] San Marino -- San Marino is a country in Southern Europe, Europe. ISO alpha-3 code: SMR. :: iso_3166_1:SM
+[678] Sao Tome and Principe -- Sao Tome and Principe is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: STP. :: iso_3166_1:ST
+[682] Saudi Arabia -- Saudi Arabia is a country in Western Asia, Asia. ISO alpha-3 code: SAU. :: iso_3166_1:SA
+[686] Senegal -- Senegal is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: SEN. :: iso_3166_1:SN
+[688] Serbia -- Serbia is a country in Southern Europe, Europe. ISO alpha-3 code: SRB. :: iso_3166_1:RS
+[690] Seychelles -- Seychelles is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: SYC. :: iso_3166_1:SC
+[694] Sierra Leone -- Sierra Leone is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: SLE. :: iso_3166_1:SL
+[702] Singapore -- Singapore is a country in South-eastern Asia, Asia. ISO alpha-3 code: SGP. :: iso_3166_1:SG
+[703] Slovakia -- Slovakia is a country in Eastern Europe, Europe. ISO alpha-3 code: SVK. :: iso_3166_1:SK
+[704] Viet Nam -- Viet Nam is a country in South-eastern Asia, Asia. ISO alpha-3 code: VNM. :: iso_3166_1:VN
+[705] Slovenia -- Slovenia is a country in Southern Europe, Europe. ISO alpha-3 code: SVN. :: iso_3166_1:SI
+[706] Somalia -- Somalia is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: SOM. :: iso_3166_1:SO
+[710] South Africa -- South Africa is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: ZAF. :: iso_3166_1:ZA
+[716] Zimbabwe -- Zimbabwe is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: ZWE. :: iso_3166_1:ZW
+[724] Spain -- Spain is a country in Southern Europe, Europe. ISO alpha-3 code: ESP. :: iso_3166_1:ES
+[728] South Sudan -- South Sudan is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: SSD. :: iso_3166_1:SS
+[729] Sudan -- Sudan is a country in Northern Africa, Africa. ISO alpha-3 code: SDN. :: iso_3166_1:SD
+[732] Western Sahara -- Western Sahara is a country in Northern Africa, Africa. ISO alpha-3 code: ESH. :: iso_3166_1:EH
+[740] Suriname -- Suriname is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: SUR. :: iso_3166_1:SR
+[744] Svalbard and Jan Mayen -- Svalbard and Jan Mayen is a country in Northern Europe, Europe. ISO alpha-3 code: SJM. :: iso_3166_1:SJ
+[748] Eswatini -- Eswatini is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: SWZ. :: iso_3166_1:SZ
+[752] Sweden -- Sweden is a country in Northern Europe, Europe. ISO alpha-3 code: SWE. :: iso_3166_1:SE
+[756] Switzerland -- Switzerland is a country in Western Europe, Europe. ISO alpha-3 code: CHE. :: iso_3166_1:CH
+[760] Syrian Arab Republic -- Syrian Arab Republic is a country in Western Asia, Asia. ISO alpha-3 code: SYR. :: iso_3166_1:SY
+[762] Tajikistan -- Tajikistan is a country in Central Asia, Asia. ISO alpha-3 code: TJK. :: iso_3166_1:TJ
+[764] Thailand -- Thailand is a country in South-eastern Asia, Asia. ISO alpha-3 code: THA. :: iso_3166_1:TH
+[768] Togo -- Togo is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: TGO. :: iso_3166_1:TG
+[772] Tokelau -- Tokelau is a country in Polynesia, Oceania. ISO alpha-3 code: TKL. :: iso_3166_1:TK
+[776] Tonga -- Tonga is a country in Polynesia, Oceania. ISO alpha-3 code: TON. :: iso_3166_1:TO
+[780] Trinidad and Tobago -- Trinidad and Tobago is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: TTO. :: iso_3166_1:TT
+[784] United Arab Emirates -- United Arab Emirates is a country in Western Asia, Asia. ISO alpha-3 code: ARE. :: iso_3166_1:AE
+[788] Tunisia -- Tunisia is a country in Northern Africa, Africa. ISO alpha-3 code: TUN. :: iso_3166_1:TN
+[792] Türkiye -- Türkiye is a country in Western Asia, Asia. ISO alpha-3 code: TUR. :: iso_3166_1:TR
+[795] Turkmenistan -- Turkmenistan is a country in Central Asia, Asia. ISO alpha-3 code: TKM. :: iso_3166_1:TM
+[796] Turks and Caicos Islands -- Turks and Caicos Islands is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: TCA. :: iso_3166_1:TC
+[798] Tuvalu -- Tuvalu is a country in Polynesia, Oceania. ISO alpha-3 code: TUV. :: iso_3166_1:TV
+[800] Uganda -- Uganda is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: UGA. :: iso_3166_1:UG
+[804] Ukraine -- Ukraine is a country in Eastern Europe, Europe. ISO alpha-3 code: UKR. :: iso_3166_1:UA
+[807] North Macedonia -- North Macedonia is a country in Southern Europe, Europe. ISO alpha-3 code: MKD. :: iso_3166_1:MK
+[818] Egypt -- Egypt is a country in Northern Africa, Africa. ISO alpha-3 code: EGY. :: iso_3166_1:EG
+[826] United Kingdom of Great Britain and Northern Ireland -- United Kingdom of Great Britain and Northern Ireland is a country in Northern Europe, Europe. ISO alpha-3 code: GBR. :: iso_3166_1:GB
+[831] Guernsey -- Guernsey is a country in Northern Europe, Europe. ISO alpha-3 code: GGY. :: iso_3166_1:GG
+[832] Jersey -- Jersey is a country in Northern Europe, Europe. ISO alpha-3 code: JEY. :: iso_3166_1:JE
+[833] Isle of Man -- Isle of Man is a country in Northern Europe, Europe. ISO alpha-3 code: IMN. :: iso_3166_1:IM
+[834] Tanzania, United Republic of -- Tanzania, United Republic of is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: TZA. :: iso_3166_1:TZ
+[840] United States of America -- United States of America is a country in Northern America, Americas. ISO alpha-3 code: USA. :: iso_3166_1:US
+[850] Virgin Islands (U.S.) -- Virgin Islands (U.S.) is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: VIR. :: iso_3166_1:VI
+[854] Burkina Faso -- Burkina Faso is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: BFA. :: iso_3166_1:BF
+[858] Uruguay -- Uruguay is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: URY. :: iso_3166_1:UY
+[860] Uzbekistan -- Uzbekistan is a country in Central Asia, Asia. ISO alpha-3 code: UZB. :: iso_3166_1:UZ
+[862] Venezuela, Bolivarian Republic of -- Venezuela, Bolivarian Republic of is a country in Latin America and the Caribbean, Americas. ISO alpha-3 code: VEN. :: iso_3166_1:VE
+[876] Wallis and Futuna -- Wallis and Futuna is a country in Polynesia, Oceania. ISO alpha-3 code: WLF. :: iso_3166_1:WF
+[882] Samoa -- Samoa is a country in Polynesia, Oceania. ISO alpha-3 code: WSM. :: iso_3166_1:WS
+[887] Yemen -- Yemen is a country in Western Asia, Asia. ISO alpha-3 code: YEM. :: iso_3166_1:YE
+[894] Zambia -- Zambia is a country in Sub-Saharan Africa, Africa. ISO alpha-3 code: ZMB. :: iso_3166_1:ZM

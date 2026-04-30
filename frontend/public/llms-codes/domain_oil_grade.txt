@@ -1,0 +1,14 @@
+[OI] Oil Grade Types :: naics_2022:211, naics_2022:2212, naics_2022:4861
+[OI.01] WTI (West Texas Intermediate)
+[OI.02] Brent Crude
+[OI.03] Dubai/Oman Crude
+[OI.04] Louisiana Light Sweet
+[OI.05] OPEC Basket
+[OI.06] Urals Crude
+[OI.07] Bonny Light (Nigeria)
+[OI.08] Tapis (Malaysia)
+[OI.09] Canadian Heavy (WCS)
+[OI.10] API Gravity Classification
+[OI.11] Sweet vs Sour Crude
+[OI.12] Condensate
+[OI.13] Synthetic Crude

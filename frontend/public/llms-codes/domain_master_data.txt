@@ -1,0 +1,16 @@
+[MD] Master Data Management Types :: naics_2022:5419
+[MD.01] Customer Master Data
+[MD.02] Product Master Data
+[MD.03] Supplier Master Data
+[MD.04] Employee Master Data
+[MD.05] Location Master Data
+[MD.06] Asset Master Data
+[MD.07] Chart of Accounts Master
+[MD.08] Material Master Data
+[MD.09] Golden Record
+[MD.10] Match and Merge
+[MD.11] Survivorship Rules
+[MD.12] MDM Hub Architecture
+[MD.13] MDM Registry Style
+[MD.14] Data Steward Workflow
+[MD.15] Cross-Domain MDM

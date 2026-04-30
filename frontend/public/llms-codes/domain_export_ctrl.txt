@@ -1,0 +1,14 @@
+[EC] Export Control Types :: naics_2022:5411
+[EC.01] Dual-Use Item Control
+[EC.02] Military Item Control
+[EC.03] Wassenaar Arrangement
+[EC.04] Nuclear Suppliers Group
+[EC.05] Missile Technology Control Regime
+[EC.06] Australia Group (Chemical/Bio)
+[EC.07] Entity List Restriction
+[EC.08] End-Use/End-User Certificate
+[EC.09] Export License Application
+[EC.10] License Exception
+[EC.11] Deemed Export
+[EC.12] Technology Transfer Control
+[EC.13] De Minimis Rule

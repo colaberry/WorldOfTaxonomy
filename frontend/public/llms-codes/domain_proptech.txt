@@ -1,0 +1,26 @@
+[dpt_const] Construction Tech :: naics_2022:531, naics_2022:5415
+[dpt_const_bim] Building Information Modeling (BIM) Software
+[dpt_const_drone] Drone and Aerial Site Surveying
+[dpt_const_modular] Modular and Prefabricated Construction Tech
+[dpt_const_project] Construction Project Management Platforms
+[dpt_const_safety] Construction Site Safety Monitoring
+[dpt_market] Real Estate Marketplaces :: naics_2022:531, naics_2022:5415
+[dpt_market_auction] Real Estate Auction and Bidding Platforms
+[dpt_market_comm] Commercial Real Estate Marketplaces
+[dpt_market_data] Property Data and Valuation Analytics
+[dpt_market_resid] Residential Listing and Search Platforms
+[dpt_mgmt] Property Management Tech :: naics_2022:531, naics_2022:5415
+[dpt_mgmt_account] Property Accounting and Financial Reporting
+[dpt_mgmt_lease] Lease Administration and Tracking Software
+[dpt_mgmt_maint] Maintenance Request and Work Order Automation
+[dpt_mgmt_tenant] Tenant Management and Communication Platforms
+[dpt_mortgage] Mortgage Tech :: naics_2022:531, naics_2022:5415
+[dpt_mortgage_close] Digital Closing and E-Signature Solutions
+[dpt_mortgage_orig] Digital Mortgage Origination Platforms
+[dpt_mortgage_serv] Mortgage Servicing and Payment Platforms
+[dpt_mortgage_under] Automated Underwriting and Risk Assessment
+[dpt_smart] Smart Building :: naics_2022:531, naics_2022:5415
+[dpt_smart_access] Access Control and Security Systems
+[dpt_smart_energy] Energy Management and Optimization
+[dpt_smart_iot] IoT Sensors and Building Automation Systems
+[dpt_smart_twin] Digital Twin and Building Simulation

@@ -1,0 +1,1 @@
+[1-8] Acyclovir [Susceptibility] -- **Component:** Acyclovir **Property:** Susc **Time aspect:** Pt **System:** Isolate **Scale:** OrdQn  **Short name:** Acyclovir Susc Islt

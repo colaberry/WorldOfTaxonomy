@@ -1,0 +1,20 @@
+[dinfcnt_audio] Audio and Podcast Content Formats :: naics_2022:51
+[dinfcnt_audio_audiobook] Audiobooks and spoken word content (Audible, Libro.fm)
+[dinfcnt_audio_music] Recorded music (albums, singles, playlists on Spotify, Apple)
+[dinfcnt_audio_podcast] Podcast (episodic audio storytelling and discussion)
+[dinfcnt_audio_radio] Broadcast and internet radio (terrestrial, satellite, streaming)
+[dinfcnt_interactive] Interactive and Game-Based Content :: naics_2022:51
+[dinfcnt_interactive_game] Video games as content and entertainment medium
+[dinfcnt_interactive_quiz] Quizzes, polls and interactive explainer journalism
+[dinfcnt_text] Text and Written Content Formats :: naics_2022:51
+[dinfcnt_text_longread] Long-form editorial and investigative journalism
+[dinfcnt_text_news] News articles and breaking news (AP, Reuters, newspaper sites)
+[dinfcnt_text_newsletter] Email newsletters and content subscriptions (Substack, Beehiiv)
+[dinfcnt_video] Video and Film Content Formats :: naics_2022:51
+[dinfcnt_video_live] Live video streaming (sports, news, events, gaming streams)
+[dinfcnt_video_longform] Long-form video (streaming series, documentaries, films)
+[dinfcnt_video_shortform] Short-form video (under 10 min: TikTok, YouTube Shorts, Reels)
+[dinfcnt_video_ugc] User-generated video (YouTube, Twitch creator content)
+[dinfcnt_visual] Visual and Social Content Formats :: naics_2022:51
+[dinfcnt_visual_infographic] Infographics, data visualization and explainer graphics
+[dinfcnt_visual_photo] Photography and photojournalism editorial content

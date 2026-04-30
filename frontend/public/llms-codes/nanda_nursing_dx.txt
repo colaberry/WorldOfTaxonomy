@@ -1,0 +1,14 @@
+[ND] NANDA-I Domains
+[ND.01] Health Promotion
+[ND.02] Nutrition
+[ND.03] Elimination and Exchange
+[ND.04] Activity/Rest
+[ND.05] Perception/Cognition
+[ND.06] Self-Perception
+[ND.07] Role Relationships
+[ND.08] Sexuality
+[ND.09] Coping/Stress Tolerance
+[ND.10] Life Principles
+[ND.11] Safety/Protection
+[ND.12] Comfort
+[ND.13] Growth/Development

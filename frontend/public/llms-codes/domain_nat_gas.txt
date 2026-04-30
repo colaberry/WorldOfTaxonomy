@@ -1,0 +1,14 @@
+[NG] Natural Gas Types :: naics_2022:5419
+[NG.01] Conventional Natural Gas
+[NG.02] Shale Gas
+[NG.03] Tight Gas
+[NG.04] Coalbed Methane
+[NG.05] Associated Gas
+[NG.06] Non-Associated Gas
+[NG.07] Sour Gas (H2S)
+[NG.08] Sweet Gas
+[NG.09] Wet Gas (NGL-Rich)
+[NG.10] Dry Gas (Methane)
+[NG.11] Liquefied Natural Gas (LNG)
+[NG.12] Compressed Natural Gas (CNG)
+[NG.13] Renewable Natural Gas (RNG)

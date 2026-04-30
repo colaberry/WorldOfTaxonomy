@@ -1,0 +1,18 @@
+[dscrisk_cyber] Cybersecurity and Digital Supply Chain Risk :: naics_2022:488, naics_2022:493
+[dscrisk_cyber_ransomware] Ransomware Attack on Logistics or Manufacturing System
+[dscrisk_cyber_software] Software Supply Chain Attack (SolarWinds, Log4j type)
+[dscrisk_demand] Demand Volatility and Inventory Risk :: naics_2022:488, naics_2022:493
+[dscrisk_demand_bullwhip] Bullwhip Effect and Forecast Error Risk
+[dscrisk_demand_shortage] Product Shortage and Allocation Risk
+[dscrisk_geo] Geopolitical and Trade Policy Risk :: naics_2022:488, naics_2022:493
+[dscrisk_geo_conflict] Regional Conflict and Political Instability Risk
+[dscrisk_geo_sanction] Sanctions and Export Control Risk (OFAC, BIS EAR)
+[dscrisk_geo_trade] Trade War and Tariff Risk (Section 301, 232, AD/CVD)
+[dscrisk_supplier] Supplier and Sourcing Risk :: naics_2022:488, naics_2022:493
+[dscrisk_supplier_financial] Supplier Financial Distress and Insolvency Risk
+[dscrisk_supplier_quality] Supplier Quality and Specification Compliance Risk
+[dscrisk_supplier_single] Single-Source Concentration Risk (sole-source dependency)
+[dscrisk_weather] Weather, Climate, and Natural Disaster Risk :: naics_2022:488, naics_2022:493
+[dscrisk_weather_climate] Long-Term Climate Risk to Infrastructure and Routes
+[dscrisk_weather_drought] Drought and Water Scarcity Risk (agriculture, energy)
+[dscrisk_weather_hurricane] Hurricane and Extreme Weather Event Disruption

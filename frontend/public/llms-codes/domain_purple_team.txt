@@ -1,0 +1,14 @@
+[PU] Purple Team Types :: naics_2022:5415, naics_2022:5417
+[PU.01] Collaborative Exercise
+[PU.02] Detection Gap Analysis
+[PU.03] ATT&CK Coverage Assessment
+[PU.04] Control Validation
+[PU.05] Attack Simulation with Detection
+[PU.06] Playbook Development
+[PU.07] Continuous Improvement Cycle
+[PU.08] Metrics-Driven Testing
+[PU.09] Automated Purple Team
+[PU.10] Threat-Informed Defense
+[PU.11] Security Control Matrix
+[PU.12] Purple Team Reporting
+[PU.13] Executive Briefing

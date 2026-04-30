@@ -1,0 +1,18 @@
+[dfpq_industry] Industry-Specific Quality Standards :: naics_2022:31-33
+[dfpq_industry_as9100] AS9100 Aerospace Quality Management
+[dfpq_industry_gmp] FDA cGMP (21 CFR 210/211/820 Good Manufacturing Practice)
+[dfpq_industry_iatf] IATF 16949 Automotive Quality Standard
+[dfpq_industry_iso13485] ISO 13485 Medical Device Quality System
+[dfpq_qms] General Quality Management Systems :: naics_2022:31-33
+[dfpq_qms_iso9001] ISO 9001 Quality Management System
+[dfpq_qms_lean] Lean Manufacturing and Six Sigma (DMAIC)
+[dfpq_qms_tpm] Total Productive Maintenance (TPM)
+[dfpq_regulatory] Regulatory and Product Safety Compliance :: naics_2022:31-33
+[dfpq_regulatory_fda510k] FDA 510(k) Premarket Notification or PMA
+[dfpq_regulatory_rohs] RoHS and REACH Substance Restriction Compliance
+[dfpq_regulatory_ul] UL and Safety Certification (ETL, CSA, CE)
+[dfpq_spc] Statistical Process Control and Metrology :: naics_2022:31-33
+[dfpq_spc_fmea] FMEA and APQP Advanced Product Quality Planning
+[dfpq_spc_msa] Measurement System Analysis (MSA, GR&R)
+[dfpq_spc_ppap] PPAP Production Part Approval Process
+[dfpq_spc_spc] Statistical Process Control (SPC, control charts, Cpk)

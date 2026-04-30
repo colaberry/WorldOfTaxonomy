@@ -1,0 +1,25 @@
+[dtn_access] Access Network Infrastructure :: naics_2022:517
+[dtn_access_fttx] FTTx Variants (FTTH, FTTB, FTTC, last-mile fiber)
+[dtn_access_hfc] Hybrid Fiber Coax (CMTS, DOCSIS, node splitting)
+[dtn_access_pon] Passive Optical Network (GPON, XGS-PON, splitters)
+[dtn_access_ran] Radio Access Network (macro cell, small cell, DAS)
+[dtn_core] Core Network Infrastructure :: naics_2022:517
+[dtn_core_5gc] 5G Core Network (AMF, SMF, UPF, service-based arch)
+[dtn_core_epc] Evolved Packet Core (MME, SGW, PGW, 4G LTE core)
+[dtn_core_ims] IP Multimedia Subsystem (VoLTE, RCS, IMS core)
+[dtn_core_sdn] SDN and NFV Infrastructure (controllers, VNF, MANO)
+[dtn_core_signal] Signaling and Control Plane (Diameter, SBI, SIP)
+[dtn_edge] Edge Computing Infrastructure :: naics_2022:517
+[dtn_edge_cdn] Edge CDN and Caching (content distribution, streaming)
+[dtn_edge_central] Central Office Re-architected (CORD, edge data center)
+[dtn_edge_iot] IoT Edge Gateway (protocol translation, local compute)
+[dtn_edge_mec] Multi-Access Edge Computing (MEC servers, API gateway)
+[dtn_spectrum] Spectrum and Radio Frequency Management :: naics_2022:517
+[dtn_spectrum_licensed] Licensed Spectrum (sub-6 GHz, mmWave, C-band)
+[dtn_spectrum_shared] Shared Spectrum (CBRS, LSA, dynamic access)
+[dtn_spectrum_unlicensed] Unlicensed Spectrum (Wi-Fi 6E, 7, ISM bands)
+[dtn_transport] Transport Network Infrastructure :: naics_2022:517
+[dtn_transport_dwdm] DWDM Optical Transport (long-haul, metro ring, ROADM)
+[dtn_transport_mpls] MPLS Transport (label switching, traffic engineering)
+[dtn_transport_otn] OTN and SONET/SDH (optical switching, grooming)
+[dtn_transport_sub] Submarine Cable Systems (transoceanic, landing stations)

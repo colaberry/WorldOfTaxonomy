@@ -1,0 +1,16 @@
+[AH] Allied Health Profession Types :: naics_2022:6211, naics_2022:6221
+[AH.01] Physical Therapy
+[AH.02] Occupational Therapy
+[AH.03] Speech-Language Pathology
+[AH.04] Respiratory Therapy
+[AH.05] Medical Laboratory Science
+[AH.06] Radiologic Technology
+[AH.07] Dietetics and Nutrition
+[AH.08] Audiology
+[AH.09] Optometry
+[AH.10] Physician Assistant
+[AH.11] Athletic Training
+[AH.12] Genetic Counseling
+[AH.13] Orthotics and Prosthetics
+[AH.14] Health Information Management
+[AH.15] Perfusion Technology

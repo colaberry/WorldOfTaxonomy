@@ -1,0 +1,14 @@
+[RV] RICS Categories
+[RV.01] Market Value
+[RV.02] Market Rent
+[RV.03] Investment Value
+[RV.04] Fair Value (IFRS 13)
+[RV.05] Equitable Value
+[RV.06] Liquidation Value
+[RV.07] Reinstatement Cost
+[RV.08] Depreciated Replacement Cost
+[RV.09] Existing Use Value
+[RV.10] Marriage Value
+[RV.11] Hope Value
+[RV.12] Compulsory Purchase Compensation
+[RV.13] Discounted Cash Flow (DCF)

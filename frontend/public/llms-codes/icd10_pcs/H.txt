@@ -1,0 +1,68 @@
+[H] Substance Abuse Treatment -- ICD-10-PCS section (Substance Abuse Treatment). Top-level grouping of procedure codes; sub-nodes break down by body system, operation, and detailed code.
+[HZ] Substance Abuse Treatment -- Body system (Substance Abuse Treatment) within ICD-10-PCS section 'Substance Abuse Treatment'. Aggregator of root-operation tables for this body system.
+[HZ2] Substance Abuse Treatment, Detoxification Services -- Detoxification from alcohol and/or drugs
+[HZ2ZZZZ] Detoxification Services for Substance Abuse Treatment -- Detoxification from alcohol and/or drugs
+[HZ3] Substance Abuse Treatment, Individual Counseling -- The application of psychological methods to treat an individual with addictive behavior
+[HZ30ZZZ] Individual Counseling for Substance Abuse Treatment, Cognitive -- The application of psychological methods to treat an individual with addictive behavior
+[HZ31ZZZ] Individual Counseling for Substance Abuse Treatment, Behavioral -- The application of psychological methods to treat an individual with addictive behavior
+[HZ32ZZZ] Individual Counseling for Substance Abuse Treatment, Cognitive-Behavioral -- The application of psychological methods to treat an individual with addictive behavior
+[HZ33ZZZ] Individual Counseling for Substance Abuse Treatment, 12-Step -- The application of psychological methods to treat an individual with addictive behavior
+[HZ34ZZZ] Individual Counseling for Substance Abuse Treatment, Interpersonal -- The application of psychological methods to treat an individual with addictive behavior
+[HZ35ZZZ] Individual Counseling for Substance Abuse Treatment, Vocational -- The application of psychological methods to treat an individual with addictive behavior
+[HZ36ZZZ] Individual Counseling for Substance Abuse Treatment, Psychoeducation -- The application of psychological methods to treat an individual with addictive behavior
+[HZ37ZZZ] Individual Counseling for Substance Abuse Treatment, Motivational Enhancement -- The application of psychological methods to treat an individual with addictive behavior
+[HZ38ZZZ] Individual Counseling for Substance Abuse Treatment, Confrontational -- The application of psychological methods to treat an individual with addictive behavior
+[HZ39ZZZ] Individual Counseling for Substance Abuse Treatment, Continuing Care -- The application of psychological methods to treat an individual with addictive behavior
+[HZ3BZZZ] Individual Counseling for Substance Abuse Treatment, Spiritual -- The application of psychological methods to treat an individual with addictive behavior
+[HZ3CZZZ] Individual Counseling for Substance Abuse Treatment, Pre/Post-Test Infectious Disease -- The application of psychological methods to treat an individual with addictive behavior
+[HZ4] Substance Abuse Treatment, Group Counseling -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ40ZZZ] Group Counseling for Substance Abuse Treatment, Cognitive -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ41ZZZ] Group Counseling for Substance Abuse Treatment, Behavioral -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ42ZZZ] Group Counseling for Substance Abuse Treatment, Cognitive-Behavioral -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ43ZZZ] Group Counseling for Substance Abuse Treatment, 12-Step -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ44ZZZ] Group Counseling for Substance Abuse Treatment, Interpersonal -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ45ZZZ] Group Counseling for Substance Abuse Treatment, Vocational -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ46ZZZ] Group Counseling for Substance Abuse Treatment, Psychoeducation -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ47ZZZ] Group Counseling for Substance Abuse Treatment, Motivational Enhancement -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ48ZZZ] Group Counseling for Substance Abuse Treatment, Confrontational -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ49ZZZ] Group Counseling for Substance Abuse Treatment, Continuing Care -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ4BZZZ] Group Counseling for Substance Abuse Treatment, Spiritual -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ4CZZZ] Group Counseling for Substance Abuse Treatment, Pre/Post-Test Infectious Disease -- The application of psychological methods to treat two or more individuals with addictive behavior
+[HZ5] Substance Abuse Treatment, Individual Psychotherapy -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ50ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Cognitive -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ51ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Behavioral -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ52ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Cognitive-Behavioral -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ53ZZZ] Individual Psychotherapy for Substance Abuse Treatment, 12-Step -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ54ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Interpersonal -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ55ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Interactive -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ56ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Psychoeducation -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ57ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Motivational Enhancement -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ58ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Confrontational -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ59ZZZ] Individual Psychotherapy for Substance Abuse Treatment, Supportive -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ5BZZZ] Individual Psychotherapy for Substance Abuse Treatment, Psychoanalysis -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ5CZZZ] Individual Psychotherapy for Substance Abuse Treatment, Psychodynamic -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ5DZZZ] Individual Psychotherapy for Substance Abuse Treatment, Psychophysiological -- Treatment of an individual with addictive behavior by behavioral, cognitive, psychoanalytic, psychodynamic or psychophysiological means
+[HZ6] Substance Abuse Treatment, Family Counseling -- The application of psychological methods that includes one or more family members to treat an individual with addictive behavior
+[HZ63ZZZ] Family Counseling for Substance Abuse Treatment -- The application of psychological methods that includes one or more family members to treat an individual with addictive behavior
+[HZ8] Substance Abuse Treatment, Medication Management -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ80ZZZ] Medication Management for Substance Abuse Treatment, Nicotine Replacement -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ81ZZZ] Medication Management for Substance Abuse Treatment, Methadone Maintenance -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ82ZZZ] Medication Management for Substance Abuse Treatment, Levo-alpha-acetyl-methadol (LAAM) -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ83ZZZ] Medication Management for Substance Abuse Treatment, Antabuse -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ84ZZZ] Medication Management for Substance Abuse Treatment, Naltrexone -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ85ZZZ] Medication Management for Substance Abuse Treatment, Naloxone -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ86ZZZ] Medication Management for Substance Abuse Treatment, Clonidine -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ87ZZZ] Medication Management for Substance Abuse Treatment, Bupropion -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ88ZZZ] Medication Management for Substance Abuse Treatment, Psychiatric Medication -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ89ZZZ] Medication Management for Substance Abuse Treatment, Other Replacement Medication -- Monitoring and adjusting the use of replacement medications for the treatment of addiction
+[HZ9] Substance Abuse Treatment, Pharmacotherapy -- The use of replacement medications for the treatment of addiction
+[HZ90ZZZ] Pharmacotherapy for Substance Abuse Treatment, Nicotine Replacement -- The use of replacement medications for the treatment of addiction
+[HZ91ZZZ] Pharmacotherapy for Substance Abuse Treatment, Methadone Maintenance -- The use of replacement medications for the treatment of addiction
+[HZ92ZZZ] Pharmacotherapy for Substance Abuse Treatment, Levo-alpha-acetyl-methadol (LAAM) -- The use of replacement medications for the treatment of addiction
+[HZ93ZZZ] Pharmacotherapy for Substance Abuse Treatment, Antabuse -- The use of replacement medications for the treatment of addiction
+[HZ94ZZZ] Pharmacotherapy for Substance Abuse Treatment, Naltrexone -- The use of replacement medications for the treatment of addiction
+[HZ95ZZZ] Pharmacotherapy for Substance Abuse Treatment, Naloxone -- The use of replacement medications for the treatment of addiction
+[HZ96ZZZ] Pharmacotherapy for Substance Abuse Treatment, Clonidine -- The use of replacement medications for the treatment of addiction
+[HZ97ZZZ] Pharmacotherapy for Substance Abuse Treatment, Bupropion -- The use of replacement medications for the treatment of addiction
+[HZ98ZZZ] Pharmacotherapy for Substance Abuse Treatment, Psychiatric Medication -- The use of replacement medications for the treatment of addiction
+[HZ99ZZZ] Pharmacotherapy for Substance Abuse Treatment, Other Replacement Medication -- The use of replacement medications for the treatment of addiction

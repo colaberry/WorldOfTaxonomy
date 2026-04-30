@@ -1,0 +1,16 @@
+[bc_energy] Energy Codes :: naics_2022:236, naics_2022:237, naics_2022:238
+[bc_energy_ashrae90] ASHRAE 90.1 (commercial energy)
+[bc_energy_iecc] International Energy Conservation Code (IECC)
+[bc_energy_passive] Passive House (Passivhaus) standard
+[bc_energy_title24] California Title 24
+[bc_energy_zerob] Zero Energy Building standard
+[bc_model] Model Building Codes :: naics_2022:236, naics_2022:237, naics_2022:238
+[bc_model_ibc] International Building Code (IBC)
+[bc_model_iebc] International Existing Building Code (IEBC)
+[bc_model_irc] International Residential Code (IRC)
+[bc_spec] Specialized Codes :: naics_2022:236, naics_2022:237, naics_2022:238
+[bc_spec_ifc] International Fire Code (IFC)
+[bc_spec_imc] International Mechanical Code (IMC)
+[bc_spec_ipc] International Plumbing Code (IPC)
+[bc_spec_nec] National Electrical Code (NEC / NFPA 70)
+[bc_spec_nfpa] NFPA fire and life safety codes

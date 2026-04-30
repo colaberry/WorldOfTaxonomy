@@ -1,0 +1,16 @@
+[BT] Blue Team Types :: naics_2022:5415, naics_2022:5417
+[BT.01] Security Operations Center (SOC)
+[BT.02] Threat Hunting
+[BT.03] Log Analysis and Monitoring
+[BT.04] Endpoint Detection (EDR)
+[BT.05] Network Detection (NDR)
+[BT.06] Email Security
+[BT.07] DNS Security
+[BT.08] Web Application Firewall
+[BT.09] Intrusion Prevention (IPS)
+[BT.10] Data Loss Prevention
+[BT.11] Security Awareness Training
+[BT.12] Vulnerability Remediation
+[BT.13] Threat Intelligence Consumption
+[BT.14] Blue Team Automation
+[BT.15] Deception Technology

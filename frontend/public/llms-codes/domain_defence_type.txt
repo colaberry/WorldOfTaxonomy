@@ -1,0 +1,23 @@
+[ddf_air] Air and Space Systems :: naics_2022:3364, naics_2022:5415
+[ddf_air_combat] Combat Aircraft (fighters, bombers, attack)
+[ddf_air_isr] ISR Aircraft (surveillance, reconnaissance, AWACS)
+[ddf_air_uav] Military UAV / RPAS (strike, reconnaissance, MALE)
+[ddf_cyber] Cyber and Electronic Warfare :: naics_2022:3364, naics_2022:5415
+[ddf_cyber_c4isr] C4ISR Systems (command, control, comms, computers)
+[ddf_cyber_ew] Electronic Warfare (jamming, SIGINT, ELINT)
+[ddf_cyber_ops] Cyberspace Operations (offensive, defensive, CNO)
+[ddf_land] Land Systems :: naics_2022:3364, naics_2022:5415
+[ddf_land_armor] Armored Fighting Vehicles (tanks, IFV, APC)
+[ddf_land_arty] Artillery and Indirect Fire Systems
+[ddf_land_eng] Combat Engineering Systems (bridging, obstacle breach)
+[ddf_naval] Naval Systems :: naics_2022:3364, naics_2022:5415
+[ddf_naval_amphi] Amphibious and Littoral Systems
+[ddf_naval_sub] Submarines (attack, ballistic missile, conventional)
+[ddf_naval_surface] Surface Combatants (destroyers, frigates, corvettes)
+[ddf_prot] Force Protection :: naics_2022:3364, naics_2022:5415
+[ddf_prot_armor] Personal Armor and Ballistic Protection
+[ddf_prot_cbrn] CBRN Protection and Detection Systems
+[ddf_wpn] Missiles and Munitions :: naics_2022:3364, naics_2022:5415
+[ddf_wpn_ammo] Conventional Ammunition and Explosives
+[ddf_wpn_missile] Guided Missiles (cruise, ballistic, air-to-air, SAM)
+[ddf_wpn_precision] Precision-Guided Munitions (JDAM, laser-guided, GPS)

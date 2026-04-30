@@ -1,0 +1,18 @@
+[ce_mat] Material Flows :: naics_2022:5615, naics_2022:5621
+[ce_mat_bio] Biological cycle (compost, anaerobic digestion)
+[ce_mat_constr] Construction and demolition waste recovery
+[ce_mat_ewaste] E-waste recycling
+[ce_mat_tech] Technical cycle (metals, plastics recovery)
+[ce_mat_textile] Textile recycling
+[ce_model] Business Models :: naics_2022:5615, naics_2022:5621
+[ce_model_c2c] Cradle-to-cradle design
+[ce_model_ind] Industrial symbiosis
+[ce_model_paas] Product-as-a-Service (PaaS)
+[ce_model_share] Sharing platforms
+[ce_model_take] Take-back programs
+[ce_strat] Circular Strategies :: naics_2022:5615, naics_2022:5621
+[ce_strat_recycle] Recycle (mechanical, chemical)
+[ce_strat_reduce] Reduce (design for longevity, dematerialization)
+[ce_strat_remfg] Remanufacture
+[ce_strat_repair] Repair and maintenance services
+[ce_strat_reuse] Reuse (second-hand, refurbishment)

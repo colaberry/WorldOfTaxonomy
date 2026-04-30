@@ -1,0 +1,17 @@
+[dregls_gross] Gross Lease Structures (Landlord Pays Expenses) :: naics_2022:531
+[dregls_gross_full] Full-service gross lease: all operating expenses included in rent
+[dregls_gross_modified] Modified gross: base rent covers most but not all expense categories
+[dregls_ground] Ground Lease and Land Lease Structures :: naics_2022:531
+[dregls_ground_subordinated] Subordinated ground lease (lender can foreclose on land)
+[dregls_ground_unsubordinated] Unsubordinated ground lease (landlord retains senior position)
+[dregls_net] Net Lease Structures (Tenant Pays Expenses) :: naics_2022:531
+[dregls_net_absolute] Absolute NNN / bond lease: tenant responsible for all costs including roof/structure
+[dregls_net_double] Double-net (NN): tenant pays property taxes + insurance
+[dregls_net_single] Single-net (N): tenant pays property taxes only
+[dregls_net_triple] Triple-net (NNN): tenant pays taxes, insurance, and maintenance
+[dregls_percentage] Percentage and Turnover Lease Structures :: naics_2022:531
+[dregls_percentage_hybrid] Hybrid percentage: low base + high overage (pop-up, outlet retail)
+[dregls_percentage_retail] Retail percentage lease: base rent + % of gross sales above breakpoint
+[dregls_special] Special Lease Structure Types :: naics_2022:531
+[dregls_special_cowork] Co-working and flex space membership agreements
+[dregls_special_popup] Short-term / pop-up lease (days to months, flexible term)

@@ -1,0 +1,14 @@
+[GE] Geothermal System Types :: naics_2022:2211
+[GE.01] Dry Steam Plant
+[GE.02] Flash Steam Plant
+[GE.03] Binary Cycle Plant
+[GE.04] Enhanced Geothermal System (EGS)
+[GE.05] Ground Source Heat Pump
+[GE.06] Direct Use Application
+[GE.07] Geothermal District Heating
+[GE.08] Sedimentary Basin Geothermal
+[GE.09] Volcanic Geothermal
+[GE.10] Hot Dry Rock
+[GE.11] Geopressured Geothermal
+[GE.12] Supercritical Geothermal
+[GE.13] Closed-Loop Geothermal

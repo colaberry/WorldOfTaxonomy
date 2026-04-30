@@ -1,0 +1,17 @@
+[due_fossil] Fossil Fuel Generation :: naics_2022:2211, naics_2022:2213
+[due_fossil_coal] Coal Power (thermal coal, lignite)
+[due_fossil_gas] Natural Gas (CCGT, peaker, CHP)
+[due_fossil_oil] Oil and Petroleum Power
+[due_nuclear] Nuclear Energy :: naics_2022:2211, naics_2022:2213
+[due_nuclear_fission] Nuclear Fission (LWR, PWR, BWR)
+[due_nuclear_smr] Small Modular Reactors (SMR, advanced reactor)
+[due_renew] Renewable Energy :: naics_2022:2211, naics_2022:2213
+[due_renew_bio] Biomass and Bioenergy (wood, waste-to-energy)
+[due_renew_geo] Geothermal Power
+[due_renew_hydro] Hydropower (run-of-river, reservoir, tidal)
+[due_renew_solar] Solar Power (PV, concentrated solar, thermal)
+[due_renew_wind] Wind Power (onshore, offshore)
+[due_storage] Energy Storage :: naics_2022:2211, naics_2022:2213
+[due_storage_battery] Battery Storage (lithium-ion, flow battery)
+[due_storage_hydrogen] Hydrogen Energy Storage (electrolysis, FCEV)
+[due_storage_pumped] Pumped Hydro Storage

@@ -1,0 +1,13 @@
+[VS] VESA Standards
+[VS.01] DisplayPort 2.1
+[VS.02] DisplayPort 2.0
+[VS.03] DisplayPort 1.4
+[VS.04] DisplayPort Alt Mode (USB-C)
+[VS.05] DisplayHDR Certification
+[VS.06] Adaptive-Sync
+[VS.07] DSC (Display Stream Compression)
+[VS.08] EDID/DisplayID
+[VS.09] VESA Mounting Standards (FDMI)
+[VS.10] Embedded DisplayPort (eDP)
+[VS.11] ClearMR Certification
+[VS.12] MediaSync

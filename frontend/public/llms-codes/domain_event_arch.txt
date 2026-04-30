@@ -1,0 +1,16 @@
+[EA] Event-Driven Architecture Types :: naics_2022:711, naics_2022:713
+[EA.01] Message Queue (Point-to-Point)
+[EA.02] Publish-Subscribe
+[EA.03] Event Streaming (Kafka)
+[EA.04] Event Bus
+[EA.05] Event Sourcing
+[EA.06] Complex Event Processing
+[EA.07] Event Notification
+[EA.08] Event-Carried State Transfer
+[EA.09] Dead Letter Queue
+[EA.10] Event Schema Registry
+[EA.11] Event Replay
+[EA.12] Exactly-Once Delivery
+[EA.13] Fan-Out Pattern
+[EA.14] Event Bridge
+[EA.15] Change Data Capture

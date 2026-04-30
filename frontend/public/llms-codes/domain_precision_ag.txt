@@ -1,0 +1,17 @@
+[pa_act] Precision Application :: naics_2022:111
+[pa_act_auto] Auto-steer and guidance systems
+[pa_act_robot] Agricultural robotics (weeding, harvesting)
+[pa_act_vrf] Variable rate fertilization
+[pa_act_vri] Variable rate irrigation
+[pa_act_vrs] Variable rate seeding
+[pa_anal] Analytics and Decision Support :: naics_2022:111
+[pa_anal_ai] AI and machine learning for agriculture
+[pa_anal_crop] Crop health modeling
+[pa_anal_pred] Predictive analytics (disease, pest, yield)
+[pa_anal_vra] Variable rate application maps
+[pa_sense] Sensing and Data Collection :: naics_2022:111
+[pa_sense_drone] Drone and UAV sensing
+[pa_sense_sat] Satellite imagery (multispectral, NDVI)
+[pa_sense_soil] In-field soil sensors
+[pa_sense_weather] Weather stations and microclimate
+[pa_sense_yield] Yield monitoring

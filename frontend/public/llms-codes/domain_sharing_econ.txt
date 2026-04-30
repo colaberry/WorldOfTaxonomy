@@ -1,0 +1,17 @@
+[se_asset] Shared Asset Categories :: naics_2022:5615, naics_2022:5621
+[se_asset_accom] Accommodation sharing (short-term rental)
+[se_asset_equip] Equipment and tool sharing
+[se_asset_ride] Ride-sharing and ride-hailing
+[se_asset_skill] Skill and labor sharing (freelance, task)
+[se_asset_space] Space sharing (office, parking, storage)
+[se_asset_vehicle] Vehicle sharing (car, bike, scooter)
+[se_model] Revenue Models :: naics_2022:5615, naics_2022:5621
+[se_model_comm] Commission-based
+[se_model_free] Freemium with premium features
+[se_model_lead] Lead generation
+[se_model_sub] Subscription-based
+[se_type] Platform Types :: naics_2022:5615, naics_2022:5621
+[se_type_b2b] B2B sharing and collaboration
+[se_type_b2c] B2C sharing platform
+[se_type_coop] Cooperative platform (platform co-op)
+[se_type_p2p] Peer-to-peer marketplace

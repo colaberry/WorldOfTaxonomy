@@ -1,0 +1,14 @@
+[MG] Microgrid Types :: naics_2022:2211, naics_2022:3359
+[MG.01] Campus Microgrid
+[MG.02] Military Microgrid
+[MG.03] Community Microgrid
+[MG.04] Commercial Microgrid
+[MG.05] Remote/Island Microgrid
+[MG.06] Industrial Microgrid
+[MG.07] Grid-Connected Microgrid
+[MG.08] Islanded Microgrid
+[MG.09] DC Microgrid
+[MG.10] Hybrid AC/DC Microgrid
+[MG.11] Microgrid Controller
+[MG.12] Microgrid-as-a-Service
+[MG.13] Networked Microgrids

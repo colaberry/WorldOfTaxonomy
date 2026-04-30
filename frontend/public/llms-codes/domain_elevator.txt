@@ -1,0 +1,14 @@
+[el_code] Code Requirements :: naics_2022:236, naics_2022:237, naics_2022:238
+[el_code_a17] ASME A17.1 / CSA B44 (Safety Code)
+[el_code_a17_3] ASME A17.3 (Existing Elevators)
+[el_code_en81] EN 81 (European elevator standard)
+[el_inspect] Inspection Categories :: naics_2022:236, naics_2022:237, naics_2022:238
+[el_inspect_accept] Acceptance inspection (new installation)
+[el_inspect_period] Periodic inspection (annual)
+[el_inspect_witness] Witnessed test (Category 1, 3, 5)
+[el_type] Elevator Types :: naics_2022:236, naics_2022:237, naics_2022:238
+[el_type_escal] Escalators and moving walkways
+[el_type_freight] Freight elevators
+[el_type_hydr] Hydraulic elevators
+[el_type_mrl] Machine-room-less (MRL) elevators
+[el_type_trac] Traction elevators (geared, gearless)

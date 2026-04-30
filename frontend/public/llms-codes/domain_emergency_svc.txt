@@ -1,0 +1,14 @@
+[ES] Emergency Service Types :: naics_2022:921, naics_2022:922, naics_2022:924
+[ES.01] Fire Department
+[ES.02] Emergency Medical Services
+[ES.03] Search and Rescue
+[ES.04] Hazmat Response
+[ES.05] Disaster Relief (FEMA)
+[ES.06] Emergency Management Agency
+[ES.07] 911 Dispatch Center
+[ES.08] Emergency Operations Center
+[ES.09] Community Emergency Response (CERT)
+[ES.10] Mutual Aid Agreement
+[ES.11] National Guard Activation
+[ES.12] Emergency Alert System
+[ES.13] Crisis Communication

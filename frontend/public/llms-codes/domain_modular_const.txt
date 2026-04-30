@@ -1,0 +1,16 @@
+[mc_app] Application Types :: naics_2022:236, naics_2022:237, naics_2022:238
+[mc_app_data] Data center modules
+[mc_app_health] Healthcare (patient rooms, operating theaters)
+[mc_app_hotel] Hospitality (hotel rooms, student housing)
+[mc_app_res] Residential (single-family, multi-family)
+[mc_app_retail] Retail and pop-up structures
+[mc_method] Construction Methods :: naics_2022:236, naics_2022:237, naics_2022:238
+[mc_method_3d] 3D printed construction
+[mc_method_conc] Precast concrete modules
+[mc_method_steel] Steel-framed modules
+[mc_method_timber] Timber-framed modules
+[mc_type] Module Types :: naics_2022:236, naics_2022:237, naics_2022:238
+[mc_type_hybrid] Hybrid modular (volumetric + panelized)
+[mc_type_panel] Panelized construction (2D panels)
+[mc_type_pod] Bathroom and kitchen pods
+[mc_type_vol] Volumetric modules (3D pods, rooms)

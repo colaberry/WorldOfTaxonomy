@@ -1,0 +1,16 @@
+[CO] Container Orchestration Types :: naics_2022:518, naics_2022:5415
+[CO.01] Kubernetes (K8s)
+[CO.02] Docker Swarm
+[CO.03] Amazon ECS
+[CO.04] Azure Container Instances
+[CO.05] Google Cloud Run
+[CO.06] Nomad (HashiCorp)
+[CO.07] OpenShift (Red Hat)
+[CO.08] Rancher
+[CO.09] Helm Charts
+[CO.10] Service Mesh (Istio)
+[CO.11] Service Mesh (Linkerd)
+[CO.12] Sidecar Pattern
+[CO.13] Pod Security
+[CO.14] Container Registry
+[CO.15] Container Runtime (containerd)

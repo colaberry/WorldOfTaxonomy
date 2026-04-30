@@ -1,0 +1,15 @@
+[HS] Hardware Security Module Types :: naics_2022:5415, naics_2022:5417
+[HS.01] General Purpose HSM
+[HS.02] Payment HSM
+[HS.03] Cloud HSM (as a Service)
+[HS.04] Network-Attached HSM
+[HS.05] PCIe HSM
+[HS.06] USB Token HSM
+[HS.07] FIPS 140-2 Level 3
+[HS.08] FIPS 140-3
+[HS.09] Common Criteria (EAL4+)
+[HS.10] Key Ceremony
+[HS.11] Multi-Tenant HSM
+[HS.12] HSM Cluster (HA)
+[HS.13] HSM Audit Logging
+[HS.14] Quantum-Safe HSM

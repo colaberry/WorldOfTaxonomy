@@ -1,0 +1,13 @@
+[FZ] Free Trade Zone Types :: naics_2022:5419
+[FZ.01] Foreign Trade Zone (US FTZ)
+[FZ.02] Special Economic Zone (SEZ)
+[FZ.03] Export Processing Zone (EPZ)
+[FZ.04] Free Port
+[FZ.05] Free Zone (Customs)
+[FZ.06] Industrial Free Zone
+[FZ.07] Technology Park Zone
+[FZ.08] Financial Free Zone
+[FZ.09] Bonded Logistics Park
+[FZ.10] Cross-Border E-Commerce Zone
+[FZ.11] FTZ Compliance Framework
+[FZ.12] FTZ Benefit Analysis

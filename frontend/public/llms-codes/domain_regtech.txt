@@ -1,0 +1,27 @@
+[drt_kyc] KYC/AML Automation :: naics_2022:5415
+[drt_kyc_beneficial] Beneficial Ownership Identification
+[drt_kyc_identity] Digital Identity Verification and eKYC
+[drt_kyc_onboarding] Customer Onboarding Automation
+[drt_kyc_pep] PEP and Adverse Media Screening
+[drt_kyc_transaction] Transaction Monitoring and Suspicious Activity
+[drt_reporting] Regulatory Reporting :: naics_2022:5415
+[drt_reporting_auto] Automated Regulatory Filing and Submission
+[drt_reporting_dash] Compliance Dashboard and Visualization
+[drt_reporting_data] Regulatory Data Aggregation and Validation
+[drt_reporting_xbrl] XBRL and Structured Reporting Standards
+[drt_risk] Risk Monitoring :: naics_2022:5415
+[drt_risk_climate] Climate and ESG Risk Monitoring
+[drt_risk_credit] Credit Risk Monitoring and Early Warning Systems
+[drt_risk_cyber] Cyber Risk Assessment and Monitoring
+[drt_risk_market] Market Risk and Volatility Monitoring
+[drt_risk_operational] Operational Risk Event Detection
+[drt_sanctions] Sanctions Screening :: naics_2022:5415
+[drt_sanctions_crypto] Cryptocurrency and Blockchain Sanctions Monitoring
+[drt_sanctions_list] Sanctions List Screening and Matching
+[drt_sanctions_payment] Payment and Trade Finance Screening
+[drt_sanctions_vessel] Vessel and Maritime Sanctions Tracking
+[drt_training] Compliance Training :: naics_2022:5415
+[drt_training_assess] Knowledge Assessment and Attestation Tools
+[drt_training_cert] Certification Tracking and Renewal Management
+[drt_training_elearn] E-Learning and Compliance Course Platforms
+[drt_training_sim] Compliance Simulation and Scenario Testing

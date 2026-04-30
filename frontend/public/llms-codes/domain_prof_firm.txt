@@ -1,0 +1,18 @@
+[dpsfirm_big] Global and Top-Tier Professional Services Firms :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsfirm_big_biglaw] AmLaw 100 Big Law Firms
+[dpsfirm_big_four] Big 4 Accounting Firms (Deloitte, PwC, EY, KPMG)
+[dpsfirm_big_mbb] MBB Strategy Consulting (McKinsey, BCG, Bain)
+[dpsfirm_boutique] Specialist and Boutique Advisory Firms :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsfirm_boutique_pe] PE-Backed Consulting Roll-Up (Vista, TA Associates)
+[dpsfirm_boutique_specialist] Deep-Specialty Boutique (single industry/function)
+[dpsfirm_gov] Government and Public Sector Services :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsfirm_inhouse] In-House and Captive Services Center :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsfirm_inhouse_coe] Center of Excellence (CoE) for Specialized Capability
+[dpsfirm_inhouse_corp] Corporate Legal, Finance, or HR Function
+[dpsfirm_inhouse_gbs] Global Business Services (GBS) and Shared Services Center
+[dpsfirm_regional] Regional and Mid-Market Professional Firms :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsfirm_regional_acct] Regional Accounting Firm (Grant Thornton, RSM tier)
+[dpsfirm_regional_consult] Regional Management Consulting Firm
+[dpsfirm_solo] Solo Practitioners and Small Practices :: naics_2022:5411, naics_2022:5412, naics_2022:5416
+[dpsfirm_solo_gig] Freelance and Gig Economy Consultant
+[dpsfirm_solo_partner] Partner-Track Small Practice (2-20 professionals)

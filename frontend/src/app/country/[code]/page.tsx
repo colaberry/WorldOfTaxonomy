@@ -22,6 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         url: `https://worldoftaxonomy.com/country/${upper}`,
         type: 'website',
       },
+      alternates: { canonical: `https://worldoftaxonomy.com/country/${upper}` },
     }
   } catch {
     return { title: `${upper} - WorldOfTaxonomy` }

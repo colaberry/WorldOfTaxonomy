@@ -1,0 +1,27 @@
+[dal_aqua] Aquaculture :: naics_2022:112, naics_2022:1141
+[dal_aqua_algae] Aquatic Plants and Algae
+[dal_aqua_fish] Finfish (catfish, tilapia, salmon, trout)
+[dal_aqua_shell] Shellfish (oysters, shrimp, clams, crab)
+[dal_cattle] Cattle :: naics_2022:112, naics_2022:1141
+[dal_cattle_beef] Beef Cattle (cow-calf, stocker, feedlot)
+[dal_cattle_dairy] Dairy Cattle (Holstein, Jersey, Brown Swiss)
+[dal_equine] Equine :: naics_2022:112, naics_2022:1141
+[dal_equine_horse] Horses (work, sport, pleasure)
+[dal_equine_mule] Mules and Donkeys
+[dal_other] Other Livestock and Specialty Animals :: naics_2022:112, naics_2022:1141
+[dal_other_bee] Honeybees and Apiculture
+[dal_other_bison] Bison and Buffalo
+[dal_other_deer] Deer and Elk (captive cervids)
+[dal_other_emu] Emus, Ostriches, and Ratites
+[dal_other_rabbit] Rabbits
+[dal_poultry] Poultry :: naics_2022:112, naics_2022:1141
+[dal_poultry_broiler] Broilers (meat chickens)
+[dal_poultry_duck] Ducks and Geese
+[dal_poultry_layer] Layers (egg-laying hens)
+[dal_poultry_turkey] Turkeys
+[dal_small] Sheep and Goats :: naics_2022:112, naics_2022:1141
+[dal_small_goat] Goats (dairy, meat, fiber)
+[dal_small_sheep] Sheep (wool, lamb, meat)
+[dal_swine] Swine :: naics_2022:112, naics_2022:1141
+[dal_swine_breed] Breeding Stock (sows, boars, gilts)
+[dal_swine_market] Market Hogs (feeder pigs, finishing)

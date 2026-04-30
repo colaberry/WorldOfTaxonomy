@@ -1,0 +1,15 @@
+[drtcap_direct] Direct and Owner-Operator Structures :: naics_2022:5415, naics_2022:6215
+[drtcap_direct_jv] Joint Venture (JV - developer plus capital partner)
+[drtcap_direct_llc] Single-Purpose LLC or LP (direct ownership entity)
+[drtcap_fund] Private Real Estate Fund Structure :: naics_2022:5415, naics_2022:6215
+[drtcap_fund_closedend] Closed-End Commingled Real Estate Fund
+[drtcap_fund_openend] Open-End Core Fund (evergreen, quarterly redemption)
+[drtcap_fund_sep] Separate Account (institutional, pension, SWF)
+[drtcap_reit] Real Estate Investment Trust (REIT) :: naics_2022:5415, naics_2022:6215
+[drtcap_reit_equity] Equity REIT (owns income-producing properties)
+[drtcap_reit_mortgage] Mortgage REIT (mREIT - holds real estate debt)
+[drtcap_reit_public] Publicly Traded REIT (NYSE, NASDAQ listed)
+[drtcap_syndication] Syndication and Fractional Ownership :: naics_2022:5415, naics_2022:6215
+[drtcap_syndication_506b] Reg D 506(b) Syndication (accredited investors)
+[drtcap_syndication_cf] Regulation Crowdfunding (Reg CF, retail investors)
+[drtcap_syndication_dst] Delaware Statutory Trust (DST - 1031 exchange vehicle)

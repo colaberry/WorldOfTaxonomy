@@ -1,0 +1,19 @@
+[dwcprod_building] Building Materials and Construction Supplies :: naics_2022:42
+[dwcprod_building_hvac] HVAC, Plumbing, and Electrical Wholesale
+[dwcprod_building_lumber] Lumber and Wood Products Distribution
+[dwcprod_farm] Farm Supply and Agricultural Inputs :: naics_2022:42
+[dwcprod_farm_equip] Farm Equipment and Parts Distribution
+[dwcprod_farm_seed] Seed, Fertilizer, and Agrochemical Distribution
+[dwcprod_food] Food and Beverage Wholesale :: naics_2022:42
+[dwcprod_food_bev] Beverage Distribution (beer, wine, spirits, soft drinks)
+[dwcprod_food_dry] Dry Grocery and Packaged Foods Distribution
+[dwcprod_food_fresh] Fresh Produce and Perishables Distribution
+[dwcprod_industrial] Industrial and Commercial Supplies :: naics_2022:42
+[dwcprod_industrial_mro] MRO Supplies (Grainger, Fastenal, W.W. Grainger)
+[dwcprod_industrial_safety] Safety Products and Workplace Equipment
+[dwcprod_pharma] Pharmaceutical and Health Products Wholesale :: naics_2022:42
+[dwcprod_pharma_otc] OTC and Health Beauty Aid Distribution
+[dwcprod_pharma_rx] Prescription Drug Distribution (AmerisourceBergen, McKesson)
+[dwcprod_tech] Technology and Electronics Distribution :: naics_2022:42
+[dwcprod_tech_av] Audio/Visual and Security Equipment Distribution
+[dwcprod_tech_it] IT Hardware and Components Distribution (Ingram, TD SYNNEX)

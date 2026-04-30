@@ -1,0 +1,15 @@
+[VB] Value-Based Care Model Types :: naics_2022:5419
+[VB.01] Accountable Care Organization (ACO)
+[VB.02] Patient-Centered Medical Home
+[VB.03] Pay-for-Performance
+[VB.04] Shared Savings Program
+[VB.05] Bundled Payment
+[VB.06] Capitation
+[VB.07] Global Budget
+[VB.08] Episode-Based Payment
+[VB.09] Quality Bonus Payment
+[VB.10] Risk-Adjusted Payment
+[VB.11] Primary Care First
+[VB.12] Direct Contracting
+[VB.13] Oncology Care Model
+[VB.14] MIPS Reporting

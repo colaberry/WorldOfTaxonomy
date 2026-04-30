@@ -1,0 +1,19 @@
+[cld_cat] Service Categories :: naics_2022:518, naics_2022:5415
+[cld_cat_ai] AI/ML services (training, inference)
+[cld_cat_comp] Compute services (VMs, containers, serverless)
+[cld_cat_db] Database services (managed, serverless)
+[cld_cat_net] Networking services (CDN, DNS, VPC)
+[cld_cat_sec] Security services (IAM, KMS, WAF)
+[cld_cat_stor] Storage services (object, block, file)
+[cld_deploy] Deployment Models :: naics_2022:518, naics_2022:5415
+[cld_deploy_edge] Edge cloud
+[cld_deploy_hyb] Hybrid cloud
+[cld_deploy_multi] Multi-cloud
+[cld_deploy_priv] Private cloud (on-premises, hosted)
+[cld_deploy_pub] Public cloud
+[cld_model] Service Models :: naics_2022:518, naics_2022:5415
+[cld_model_caas] CaaS (Container as a Service)
+[cld_model_faas] FaaS (Function as a Service / Serverless)
+[cld_model_iaas] IaaS (Infrastructure as a Service)
+[cld_model_paas] PaaS (Platform as a Service)
+[cld_model_saas] SaaS (Software as a Service)

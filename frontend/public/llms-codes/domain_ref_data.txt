@@ -1,0 +1,15 @@
+[RD] Reference Data Types :: naics_2022:5419
+[RD.01] Code List Management
+[RD.02] Classification Scheme
+[RD.03] Controlled Vocabulary
+[RD.04] Taxonomy Management
+[RD.05] Ontology Management
+[RD.06] Geographic Reference
+[RD.07] Currency Reference
+[RD.08] Industry Standard Code
+[RD.09] Regulatory Code Set
+[RD.10] Cross-Reference Mapping
+[RD.11] Hierarchical Reference
+[RD.12] Temporal Reference
+[RD.13] Reference Data Versioning
+[RD.14] Reference Data Distribution

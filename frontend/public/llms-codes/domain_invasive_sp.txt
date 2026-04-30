@@ -1,0 +1,14 @@
+[IS] Invasive Species Types :: naics_2022:5417, naics_2022:924
+[IS.01] Invasive Plant Species
+[IS.02] Invasive Animal Species
+[IS.03] Invasive Insect Species
+[IS.04] Invasive Marine Species
+[IS.05] Invasive Freshwater Species
+[IS.06] Invasive Pathogen/Disease
+[IS.07] Ballast Water Pathway
+[IS.08] Horticultural Pathway
+[IS.09] Agricultural Pathway
+[IS.10] Biocontrol Agent
+[IS.11] Eradication Program
+[IS.12] Early Detection System
+[IS.13] Risk Assessment Framework

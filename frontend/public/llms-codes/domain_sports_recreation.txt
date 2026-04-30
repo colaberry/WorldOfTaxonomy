@@ -1,0 +1,27 @@
+[dsr_equip] Sports Equipment :: naics_2022:7113, naics_2022:7139
+[dsr_equip_apparel] Athletic Apparel and Footwear
+[dsr_equip_facility] Sports Facility and Turf Equipment
+[dsr_equip_gear] Sports Gear and Protective Equipment
+[dsr_equip_tech] Sports Technology and Wearable Devices
+[dsr_fitness] Fitness and Gym :: naics_2022:7113, naics_2022:7139
+[dsr_fitness_boutique] Boutique Fitness Studios (yoga, Pilates, cycling)
+[dsr_fitness_club] Health Club and Gym Membership Facilities
+[dsr_fitness_digital] Digital Fitness Platforms and Connected Equipment
+[dsr_fitness_personal] Personal Training and Coaching Services
+[dsr_media] Sports Media :: naics_2022:7113, naics_2022:7139
+[dsr_media_betting] Sports Betting and Fantasy Sports Platforms
+[dsr_media_broadcast] Sports Broadcasting and Streaming Rights
+[dsr_media_data] Sports Data Analytics and Performance Tracking
+[dsr_media_sponsor] Sports Sponsorship and Endorsement Management
+[dsr_outdoor] Outdoor Recreation :: naics_2022:7113, naics_2022:7139
+[dsr_outdoor_camp] Camping, Hiking and Trail Activities
+[dsr_outdoor_climb] Rock Climbing and Adventure Sports
+[dsr_outdoor_fish] Recreational Fishing and Hunting Outfitters
+[dsr_outdoor_snow] Snow Sports (skiing, snowboarding, ice skating)
+[dsr_outdoor_water] Water Sports (kayaking, surfing, diving)
+[dsr_pro] Professional Sports :: naics_2022:7113, naics_2022:7139
+[dsr_pro_college] College Athletics and NCAA Programs
+[dsr_pro_esport] Esports and Competitive Gaming
+[dsr_pro_individual] Individual Professional Sports (tennis, golf, MMA)
+[dsr_pro_racing] Motorsport and Racing Events
+[dsr_pro_team] Professional Team Sports (leagues, franchises)

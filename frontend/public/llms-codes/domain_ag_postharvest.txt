@@ -1,0 +1,37 @@
+[daph_cold] Cold Chain and Perishable Handling :: naics_2022:1151, naics_2022:4931
+[daph_cold_blast] Blast Freezing and Quick Freeze Processing
+[daph_cold_ca] Controlled Atmosphere (CA) Storage (apples, pears)
+[daph_cold_fresh] Fresh-Cut and Minimally Processed Produce
+[daph_cold_reefer] Refrigerated Transport (reefer truck, rail car)
+[daph_commercial] Commercial Storage and Handling :: naics_2022:1151, naics_2022:4931
+[daph_commercial_cold] Public Refrigerated Warehouse (PRW)
+[daph_commercial_elev] Commercial Grain Elevator and Terminal
+[daph_commercial_pack] Packing House and Fresh Market Prep Facility
+[daph_commercial_silo] Commercial Silo and Flat Storage Facility
+[daph_pack] Packaging and Labeling :: naics_2022:1151, naics_2022:4931
+[daph_pack_bulk] Bulk Commodity Packaging (railcar, hopper, flexi-bag)
+[daph_pack_consumer] Consumer Unit Packaging (retail bags, clamshells)
+[daph_pack_organic] Certified Organic Label and Handling Protocol
+[daph_pack_trace] GS1 / Barcode and RFID Traceability Labeling
+[daph_primary] Primary Processing :: naics_2022:1151, naics_2022:4931
+[daph_primary_crush] Oilseed Crush (soybean, canola, sunflower)
+[daph_primary_ethanol] Dry-Mill Ethanol Plant (corn starch to ethanol)
+[daph_primary_ginning] Cotton Ginning (lint separation, bale press)
+[daph_primary_mill] Grain Milling (flour, cornmeal, semolina)
+[daph_primary_slaughter] Livestock Slaughter and Harvest (USDA FSIS inspected)
+[daph_primary_wetmill] Wet Milling (corn syrup, starch, gluten feed)
+[daph_storage] On-Farm Storage :: naics_2022:1151, naics_2022:4931
+[daph_storage_bag] Grain Bag Storage (temporary field storage)
+[daph_storage_bin] On-Farm Grain Bin (steel, hopper-bottom, flat-bottom)
+[daph_storage_hay] Hay and Forage Storage (stack, shed, wrapped bale)
+[daph_storage_root] Root Cellar and Controlled Atmosphere Storage
+[daph_trace] Traceability and Certification Systems :: naics_2022:1151, naics_2022:4931
+[daph_trace_carbon] Scope 3 Carbon and Sustainability Audit Trail
+[daph_trace_fsma204] FSMA Section 204 Food Traceability Record Keeping
+[daph_trace_gs1] GS1 Global Traceability Standard (GTSv2)
+[daph_valueadd] Secondary and Value-Added Processing :: naics_2022:1151, naics_2022:4931
+[daph_valueadd_beverage] Beverage Processing (juice, beer, spirits)
+[daph_valueadd_biorefine] Biorefinery and Industrial Use (plastics, chemicals)
+[daph_valueadd_feed] Animal Feed Manufacturing (premix, pelleting)
+[daph_valueadd_food] Human Food Manufacturing (canning, freezing, baking)
+[daph_valueadd_render] Rendering and By-Product Processing

@@ -1,0 +1,26 @@
+[dat_drone] Agricultural Drones :: naics_2022:111, naics_2022:5415
+[dat_drone_mapping] Aerial Mapping and Photogrammetry
+[dat_drone_scout] Scouting and Field Inspection Drones
+[dat_drone_seed] Drone-Based Seeding and Reforestation
+[dat_drone_spray] Crop Spraying and Aerial Application Drones
+[dat_fms] Farm Management Software :: naics_2022:111, naics_2022:5415
+[dat_fms_compliance] Regulatory Compliance and Record Keeping
+[dat_fms_crop] Crop Planning and Rotation Software
+[dat_fms_erp] Farm ERP and Financial Management
+[dat_fms_livestock] Livestock Tracking and Herd Management
+[dat_fms_market] Market Price Tracking and Sales Platforms
+[dat_precision] Precision Agriculture :: naics_2022:111, naics_2022:5415
+[dat_precision_gps] GPS-Guided Machinery and Auto-Steering
+[dat_precision_remote] Remote Sensing and Satellite Imagery
+[dat_precision_vra] Variable Rate Application Technology
+[dat_precision_yield] Yield Mapping and Harvest Monitoring
+[dat_soil] Soil Analytics :: naics_2022:111, naics_2022:5415
+[dat_soil_carbon] Soil Carbon Measurement and Sequestration
+[dat_soil_moisture] Soil Moisture Monitoring and Irrigation Scheduling
+[dat_soil_sensor] In-Field Soil Sensor Networks
+[dat_soil_testing] Lab and Portable Soil Testing Services
+[dat_vertical] Vertical Farming :: naics_2022:111, naics_2022:5415
+[dat_vertical_aero] Aeroponic Growing Systems
+[dat_vertical_climate] Climate Control and Environment Automation
+[dat_vertical_hydro] Hydroponic Growing Systems
+[dat_vertical_light] LED Grow Lighting and Spectrum Optimization

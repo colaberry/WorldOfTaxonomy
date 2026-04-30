@@ -1,0 +1,22 @@
+[det_accred] Accreditation Type :: naics_2022:611
+[det_accred_national] National Accreditation (DEAC, ACICS)
+[det_accred_prog] Programmatic Accreditation (ABET, ABA, LCME)
+[det_accred_regional] Regional Accreditation (HLC, SACSCOC, WASC)
+[det_cred] Credential and Degree Level :: naics_2022:611
+[det_cred_assoc] Associate Degree (2-year)
+[det_cred_cert] Certificate and Diploma (non-degree, short-term)
+[det_cred_degree] Bachelor Degree (4-year undergraduate)
+[det_cred_doctoral] Doctoral Degree (PhD, EdD, professional doctorate)
+[det_cred_grad] Graduate Degree (master, professional)
+[det_delivery] Instructional Delivery Mode :: naics_2022:611
+[det_delivery_hybrid] Hybrid and Blended Learning
+[det_delivery_inperson] In-Person and Campus-Based Instruction
+[det_delivery_online] Online and Distance Learning (asynchronous)
+[det_delivery_selfpace] Self-Paced and Competency-Based Education
+[det_prog] Education Program Type :: naics_2022:611
+[det_prog_cont] Continuing Education and Professional Development
+[det_prog_early] Early Childhood Education (pre-K, daycare, Head Start)
+[det_prog_higher] Higher Education (college and university)
+[det_prog_k12] K-12 Primary and Secondary Education
+[det_prog_special] Special Education and Remedial Programs
+[det_prog_voc] Vocational and Technical Training (CTE, trade)

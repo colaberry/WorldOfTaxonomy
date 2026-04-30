@@ -1,0 +1,20 @@
+[dctfin_blended] Blended and Development Finance :: naics_2022:522, naics_2022:523
+[dctfin_blended_dfi] Development finance institution (DFI) concessional loans
+[dctfin_blended_firstloss] First-loss guarantees and credit enhancements for private mobilization
+[dctfin_blended_gcf] Green Climate Fund (GCF) accredited entity grants
+[dctfin_bonds] Green and Climate-Linked Debt Instruments :: naics_2022:522, naics_2022:523
+[dctfin_bonds_climate] Climate Bonds Initiative certified bonds
+[dctfin_bonds_green] Green bonds (ICMA GBP-aligned use-of-proceeds)
+[dctfin_bonds_slb] Sustainability-linked bonds (SLB, KPI-linked coupon step-up)
+[dctfin_bonds_transition] Transition finance instruments (fossil fuel phase-out financing)
+[dctfin_carbon] Carbon Markets and Credits :: naics_2022:522, naics_2022:523
+[dctfin_carbon_art6] Paris Agreement Article 6 internationally transferred mitigation outcomes
+[dctfin_carbon_ets] Compliance carbon allowances (EU ETS, RGGI, CA-QC cap-and-trade)
+[dctfin_carbon_vcs] Voluntary carbon credits (VCM, Verra VCS, Gold Standard)
+[dctfin_equity] Climate-Focused Equity and Venture :: naics_2022:522, naics_2022:523
+[dctfin_equity_growth] Growth equity for scaling climate solutions
+[dctfin_equity_infra] Listed climate infrastructure equity (yieldcos, clean energy REITs)
+[dctfin_equity_vc] Climate tech venture capital (Breakthrough Energy, 2150, Clean Energy Ventures)
+[dctfin_insurance] Climate Risk Insurance and Risk Transfer :: naics_2022:522, naics_2022:523
+[dctfin_insurance_cat] Catastrophe bonds (cat bonds) for climate perils
+[dctfin_insurance_para] Parametric climate insurance (rainfall index, hurricane index)

@@ -1,0 +1,17 @@
+[lm_mode] Delivery Modes :: naics_2022:485, naics_2022:488
+[lm_mode_bike] Bicycle and e-bike courier
+[lm_mode_crowd] Crowdsourced delivery (gig)
+[lm_model] Business Models :: naics_2022:485, naics_2022:488
+[lm_model_next] Next-day delivery
+[lm_mode_locker] Parcel lockers and pickup points
+[lm_model_same] Same-day delivery
+[lm_model_sched] Scheduled delivery windows
+[lm_model_sub] Subscription delivery
+[lm_model_white] White glove and installation
+[lm_mode_van] Van and truck delivery
+[lm_tech] Delivery Technology :: naics_2022:485, naics_2022:488
+[lm_tech_auto] Autonomous delivery vehicle
+[lm_tech_dark] Dark store
+[lm_tech_drone] Drone delivery
+[lm_tech_micro] Micro-fulfillment center
+[lm_tech_robot] Sidewalk delivery robot

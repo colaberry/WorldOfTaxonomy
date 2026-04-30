@@ -1,0 +1,15 @@
+[ddftrl_applied] Applied Research and Proof of Concept (TRL 3-4) :: naics_2022:3364, naics_2022:5415
+[ddftrl_applied_trl3] TRL 3 - Analytical and experimental critical function
+[ddftrl_applied_trl4] TRL 4 - Component validation in laboratory environment
+[ddftrl_basic] Basic Research (TRL 1-2) :: naics_2022:3364, naics_2022:5415
+[ddftrl_basic_trl1] TRL 1 - Basic principles observed and reported
+[ddftrl_basic_trl2] TRL 2 - Technology concept and/or application formulated
+[ddftrl_demo] System Demonstration and Test (TRL 7-8) :: naics_2022:3364, naics_2022:5415
+[ddftrl_demo_trl7] TRL 7 - System prototype demo in operational environment
+[ddftrl_demo_trl8] TRL 8 - System complete and qualified through test/demo
+[ddftrl_deploy] Full Deployment and Operations (TRL 9) :: naics_2022:3364, naics_2022:5415
+[ddftrl_deploy_sus] Sustainment and upgrade of deployed operational system
+[ddftrl_deploy_trl9] TRL 9 - Actual system proven through successful mission operations
+[ddftrl_develop] Technology Development and Validation (TRL 5-6) :: naics_2022:3364, naics_2022:5415
+[ddftrl_develop_trl5] TRL 5 - Component validation in relevant environment
+[ddftrl_develop_trl6] TRL 6 - System/subsystem prototype demo in relevant environment

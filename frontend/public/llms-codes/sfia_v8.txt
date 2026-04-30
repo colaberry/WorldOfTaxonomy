@@ -1,0 +1,14 @@
+[SFIA] SFIA Categories
+[SFIA.CH] Change and transformation
+[SFIA.DL] Delivery and operation
+[SFIA.DV] Development and implementation
+[SFIA.L1] Level 1 - Follow
+[SFIA.L2] Level 2 - Assist
+[SFIA.L3] Level 3 - Apply
+[SFIA.L4] Level 4 - Enable
+[SFIA.L5] Level 5 - Ensure, advise
+[SFIA.L6] Level 6 - Initiate, influence
+[SFIA.L7] Level 7 - Set strategy, inspire
+[SFIA.RM] Relationships and engagement
+[SFIA.SK] Skills and quality
+[SFIA.ST] Strategy and architecture

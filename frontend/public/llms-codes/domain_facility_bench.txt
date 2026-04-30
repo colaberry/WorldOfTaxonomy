@@ -1,0 +1,16 @@
+[fb_metric] Benchmarking Metrics :: naics_2022:5419
+[fb_metric_carbon] Carbon intensity (kgCO2e/sf)
+[fb_metric_eui] Energy use intensity (EUI, kBtu/sf)
+[fb_metric_maint] Maintenance cost per sq ft
+[fb_metric_occ] Occupant satisfaction scores
+[fb_metric_wui] Water use intensity (WUI, gal/sf)
+[fb_std] Standards and Programs :: naics_2022:5419
+[fb_std_ashrae] ASHRAE building EQ program
+[fb_std_boma] BOMA Experience Exchange
+[fb_std_disclosure] Mandatory disclosure laws
+[fb_std_LL84] NYC Local Law 84/97 benchmarking
+[fb_tool] Benchmarking Tools :: naics_2022:5419
+[fb_tool_arc] ARC (LEED performance platform)
+[fb_tool_crrem] CRREM (carbon risk assessment)
+[fb_tool_gresb] GRESB (real estate ESG benchmark)
+[fb_tool_star] ENERGY STAR Portfolio Manager

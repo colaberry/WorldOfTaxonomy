@@ -1,0 +1,14 @@
+[BT] Blood Type Groups
+[BT.01] A+ (A Positive)
+[BT.02] A- (A Negative)
+[BT.03] B+ (B Positive)
+[BT.04] B- (B Negative)
+[BT.05] AB+ (AB Positive)
+[BT.06] AB- (AB Negative)
+[BT.07] O+ (O Positive)
+[BT.08] O- (O Negative, Universal Donor)
+[BT.09] Rh Factor System
+[BT.10] Kell Blood Group
+[BT.11] Duffy Blood Group
+[BT.12] Kidd Blood Group
+[BT.13] MNS Blood Group

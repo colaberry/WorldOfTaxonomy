@@ -1,0 +1,13 @@
+[AP] Aquaponics Types :: naics_2022:111
+[AP.01] Media-Based Aquaponics
+[AP.02] Deep Water Culture (DWC)
+[AP.03] Nutrient Film Technique (NFT)
+[AP.04] Hybrid Aquaponics System
+[AP.05] Commercial-Scale Aquaponics
+[AP.06] Backyard Aquaponics
+[AP.07] Decoupled Aquaponics
+[AP.08] Biofloc System
+[AP.09] Vertical Aquaponics
+[AP.10] Fish Species Selection
+[AP.11] Plant Species Selection
+[AP.12] Water Quality Management

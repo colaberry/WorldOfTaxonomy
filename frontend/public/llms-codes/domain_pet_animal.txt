@@ -1,0 +1,24 @@
+[dpa_care] Pet Grooming and Boarding :: naics_2022:1152, naics_2022:8129
+[dpa_care_board] Pet Boarding and Kennel Facilities
+[dpa_care_daycare] Pet Daycare and Socialization Centers
+[dpa_care_groom] Pet Grooming and Spa Services
+[dpa_care_walk] Dog Walking and Pet Sitting Services
+[dpa_feed] Animal Feed :: naics_2022:1152, naics_2022:8129
+[dpa_feed_premium] Premium and Specialty Pet Food Manufacturing
+[dpa_feed_raw] Raw and Fresh Pet Food Production
+[dpa_feed_supplement] Pet Nutritional Supplements and Vitamins
+[dpa_retail] Pet Retail :: naics_2022:1152, naics_2022:8129
+[dpa_retail_ecomm] Online Pet Retail and Subscription Boxes
+[dpa_retail_food] Pet Food and Treats Retail
+[dpa_retail_pharmacy] Pet Pharmacy and Health Products
+[dpa_retail_supply] Pet Supplies and Accessories
+[dpa_tech] Pet Tech :: naics_2022:1152, naics_2022:8129
+[dpa_tech_insure] Pet Insurance Platforms and Services
+[dpa_tech_smart] Smart Pet Feeders and Automated Care Devices
+[dpa_tech_televet] Telehealth and Virtual Veterinary Platforms
+[dpa_tech_wearable] Pet Wearables and GPS Trackers
+[dpa_vet] Veterinary Services :: naics_2022:1152, naics_2022:8129
+[dpa_vet_companion] Companion Animal Veterinary Care (dogs, cats)
+[dpa_vet_emergency] Emergency and Specialty Veterinary Clinics
+[dpa_vet_equine] Equine Veterinary Services
+[dpa_vet_exotic] Exotic and Avian Veterinary Care

@@ -1,0 +1,30 @@
+[dmq_drill] Drilling and Blasting Equipment :: naics_2022:3331
+[dmq_drill_blast] Blasting Accessories and Explosives Delivery
+[dmq_drill_dth] Down-the-Hole (DTH) Drill
+[dmq_drill_raise] Raise Bore and Shaft Sinking Equipment
+[dmq_drill_rotary] Rotary Blast Hole Drill (surface, large diameter)
+[dmq_drill_top] Top Hammer Drill Rig
+[dmq_load] Loading and Hauling Equipment :: naics_2022:3331
+[dmq_load_conveyor] Overland and In-Pit Conveyor System
+[dmq_load_dozer] Mining Bulldozer (push, rip, reclaim)
+[dmq_load_excavator] Hydraulic Mining Excavator
+[dmq_load_haul] Ultra-Class Haul Truck (150-400 ton payload)
+[dmq_load_loader] Wheel Loader (surface ore and waste loading)
+[dmq_load_shovel] Electric Rope Shovel (surface, large capacity)
+[dmq_process] Processing and Beneficiation Equipment :: naics_2022:3331
+[dmq_process_crush] Primary Crusher (jaw, gyratory, cone)
+[dmq_process_flotation] Flotation Cell (sulfide mineral recovery)
+[dmq_process_heap] Heap Leach Pad and Solution Recovery System
+[dmq_process_mill] Grinding Mill (SAG, ball mill, rod mill)
+[dmq_process_smelt] Smelter and Roasting Furnace
+[dmq_safety] Safety and Support Equipment :: naics_2022:3331
+[dmq_safety_cap] Personnel Carrier and Light Vehicle (LV)
+[dmq_safety_gas] Gas Detection and Monitoring System
+[dmq_safety_refuge] Refuge Chamber (underground emergency shelter)
+[dmq_safety_water] Mine Dewatering Pump System
+[dmq_underground] Underground Mining Equipment :: naics_2022:3331
+[dmq_underground_bolter] Rock Bolt Drilling and Bolting Equipment
+[dmq_underground_jumbo] Drill Jumbo (face development drilling)
+[dmq_underground_lhd] LHD (Load Haul Dump) Loader
+[dmq_underground_truck] Underground Articulated Haul Truck
+[dmq_underground_vent] Ventilation Fan and Duct System

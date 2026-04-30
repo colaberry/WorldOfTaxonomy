@@ -1,0 +1,14 @@
+[IATA] IATA Aircraft Categories
+[IATA.AM] Amphibious Aircraft
+[IATA.BJ] Business Jet
+[IATA.CG] Cargo Aircraft
+[IATA.EV] Electric/eVTOL
+[IATA.GA] General Aviation
+[IATA.HE] Helicopter
+[IATA.NB] Narrowbody (Single-Aisle)
+[IATA.RJ] Regional Jet
+[IATA.SS] Supersonic
+[IATA.TP] Turboprop
+[IATA.UA] Unmanned Aerial Vehicle
+[IATA.UL] Ultra-Large (A380, 747)
+[IATA.WB] Widebody (Twin-Aisle)

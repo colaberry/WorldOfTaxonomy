@@ -1,0 +1,17 @@
+[SL] Software License Types :: naics_2022:5419
+[SL.01] MIT License
+[SL.02] Apache License 2.0
+[SL.03] GNU GPL v3
+[SL.04] GNU LGPL v3
+[SL.05] BSD 2-Clause
+[SL.06] BSD 3-Clause
+[SL.07] Mozilla Public License 2.0
+[SL.08] ISC License
+[SL.09] Creative Commons (CC BY)
+[SL.10] Unlicense (Public Domain)
+[SL.11] Eclipse Public License 2.0
+[SL.12] Proprietary (EULA)
+[SL.13] Dual Licensing
+[SL.14] AGPL v3
+[SL.15] SSPL (Server Side Public)
+[SL.16] BSL (Business Source)

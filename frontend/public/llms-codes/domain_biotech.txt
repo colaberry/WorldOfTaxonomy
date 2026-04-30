@@ -1,0 +1,26 @@
+[dbt_ag] Agricultural Biotechnology :: naics_2022:3254, naics_2022:5417
+[dbt_ag_biopest] Biopesticides and Biocontrol Agents
+[dbt_ag_gm] Genetically Modified Crops and Trait Stacking
+[dbt_cgt] Cell and Gene Therapy :: naics_2022:3254, naics_2022:5417
+[dbt_cgt_cart] CAR-T and TCR-T Cell Therapy
+[dbt_cgt_edit] Gene Editing (CRISPR, ZFN, TALEN)
+[dbt_cgt_vector] Viral Vectors (AAV, lentiviral, adenoviral)
+[dbt_diag] Diagnostics :: naics_2022:3254, naics_2022:5417
+[dbt_diag_immuno] Immunoassay Diagnostics (ELISA, lateral flow, LFA)
+[dbt_diag_mol] Molecular Diagnostics (PCR, NGS-based, digital PCR)
+[dbt_diag_poc] Point-of-Care Diagnostics (rapid tests, wearables)
+[dbt_drug] Drug Discovery :: naics_2022:3254, naics_2022:5417
+[dbt_drug_opt] Lead Optimization and Medicinal Chemistry
+[dbt_drug_screen] High-Throughput Screening (HTS) and Hit-to-Lead
+[dbt_drug_target] Target Identification and Validation
+[dbt_gen] Genomics and Sequencing :: naics_2022:3254, naics_2022:5417
+[dbt_gen_assemble] Genome Assembly and Annotation
+[dbt_gen_inform] Bioinformatics and Computational Biology
+[dbt_gen_seq] DNA/RNA Sequencing (NGS, long-read, single-cell)
+[dbt_ind] Industrial Biotechnology :: naics_2022:3254, naics_2022:5417
+[dbt_ind_bioplastic] Bioplastics and Bio-based Chemicals
+[dbt_ind_enzyme] Industrial Enzymes and Biocatalysis
+[dbt_mfg] Biomanufacturing :: naics_2022:3254, naics_2022:5417
+[dbt_mfg_downstream] Downstream Processing (purification, filtration)
+[dbt_mfg_fill] Fill-Finish and Packaging (aseptic fill, lyophilization)
+[dbt_mfg_upstream] Upstream Processing (cell culture, fermentation)

@@ -1,0 +1,17 @@
+[hv_cool] Cooling Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[hv_cool_chiller] Chiller (air-cooled, water-cooled)
+[hv_cool_evap] Evaporative cooling
+[hv_cool_pkg] Packaged rooftop unit (RTU)
+[hv_cool_split] Split system (central AC)
+[hv_cool_vrf] Variable refrigerant flow (VRF/VRV)
+[hv_heat] Heating Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[hv_heat_boiler] Boiler systems (hot water, steam)
+[hv_heat_furnace] Forced-air furnace (gas, electric, oil)
+[hv_heat_pump] Heat pump (air-source, ground-source)
+[hv_heat_radiant] Radiant heating (floor, panel)
+[hv_vent] Ventilation Systems :: naics_2022:236, naics_2022:237, naics_2022:238
+[hv_vent_doas] Dedicated outdoor air system (DOAS)
+[hv_vent_filt] Air filtration (MERV, HEPA)
+[hv_vent_mech] Mechanical ventilation (ERV, HRV)
+[hv_vent_nat] Natural ventilation
+[hv_vent_uvgi] UV germicidal irradiation (UVGI)

@@ -1,0 +1,17 @@
+[fran_ops] Operational Models :: naics_2022:44-45
+[fran_ops_area] Area developer
+[fran_ops_master] Master franchisee (sub-franchisor)
+[fran_ops_multi] Multi-unit franchisee
+[fran_ops_single] Single-unit franchisee
+[fran_sector] Sector Categories :: naics_2022:44-45
+[fran_sector_auto] Automotive service franchises
+[fran_sector_edu] Education and tutoring franchises
+[fran_sector_food] Food and restaurant franchises
+[fran_sector_health] Health and fitness franchises
+[fran_sector_retail] Retail franchises
+[fran_sector_svc] Service franchises (cleaning, repair)
+[fran_type] Franchise Types :: naics_2022:44-45
+[fran_type_biz] Business format franchise
+[fran_type_conv] Conversion franchise
+[fran_type_mfg] Manufacturing franchise
+[fran_type_prod] Product distribution franchise

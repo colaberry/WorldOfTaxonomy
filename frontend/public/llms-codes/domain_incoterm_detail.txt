@@ -1,0 +1,14 @@
+[IT] Incoterm Types :: naics_2022:488, naics_2022:493
+[IT.01] EXW (Ex Works)
+[IT.02] FCA (Free Carrier)
+[IT.03] CPT (Carriage Paid To)
+[IT.04] CIP (Carriage Insurance Paid)
+[IT.05] DAP (Delivered at Place)
+[IT.06] DPU (Delivered at Place Unloaded)
+[IT.07] DDP (Delivered Duty Paid)
+[IT.08] FAS (Free Alongside Ship)
+[IT.09] FOB (Free on Board)
+[IT.10] CFR (Cost and Freight)
+[IT.11] CIF (Cost Insurance Freight)
+[IT.12] Risk Transfer Point
+[IT.13] Cost Transfer Point

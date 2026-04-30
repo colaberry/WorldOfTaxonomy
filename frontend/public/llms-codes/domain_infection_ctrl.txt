@@ -1,0 +1,15 @@
+[IF] Infection Control Types :: naics_2022:5419
+[IF.01] Standard Precautions
+[IF.02] Contact Precautions
+[IF.03] Droplet Precautions
+[IF.04] Airborne Precautions
+[IF.05] Hand Hygiene Protocol
+[IF.06] Environmental Cleaning
+[IF.07] Antimicrobial Stewardship
+[IF.08] Surgical Site Infection Bundle
+[IF.09] Central Line Bundle (CLABSI)
+[IF.10] CAUTI Prevention Bundle
+[IF.11] VAP Prevention Bundle
+[IF.12] Outbreak Investigation
+[IF.13] Healthcare Worker Surveillance
+[IF.14] Antibiogram

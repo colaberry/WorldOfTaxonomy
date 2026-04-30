@@ -1,0 +1,15 @@
+[DL] Data Lakehouse Types :: naics_2022:518, naics_2022:5415
+[DL.01] Delta Lake
+[DL.02] Apache Iceberg
+[DL.03] Apache Hudi
+[DL.04] Medallion Architecture (Bronze)
+[DL.05] Medallion Architecture (Silver)
+[DL.06] Medallion Architecture (Gold)
+[DL.07] Schema Evolution
+[DL.08] Time Travel (Data Versioning)
+[DL.09] Data Compaction
+[DL.10] Partition Pruning
+[DL.11] Zero-Copy Clone
+[DL.12] Unity Catalog
+[DL.13] Open Table Format
+[DL.14] Lakehouse Federation

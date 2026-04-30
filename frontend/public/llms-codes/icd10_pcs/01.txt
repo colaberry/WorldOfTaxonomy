@@ -1,0 +1,1148 @@
+[01] Peripheral Nervous System -- Body system (Peripheral Nervous System) within ICD-10-PCS section 'Medical and Surgical'. Aggregator of root-operation tables for this body system.
+[012] Peripheral Nervous System, Change -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[012YX0Z] Change Drainage Device in Peripheral Nerve, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[012YXYZ] Change Other Device in Peripheral Nerve, External Approach -- Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane
+[015] Peripheral Nervous System, Destruction -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01500ZZ] Destruction of Cervical Plexus, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01503ZZ] Destruction of Cervical Plexus, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01504ZZ] Destruction of Cervical Plexus, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01510ZZ] Destruction of Cervical Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01513ZZ] Destruction of Cervical Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01514ZZ] Destruction of Cervical Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01520ZZ] Destruction of Phrenic Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01523ZZ] Destruction of Phrenic Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01524ZZ] Destruction of Phrenic Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01530ZZ] Destruction of Brachial Plexus, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01533ZZ] Destruction of Brachial Plexus, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01534ZZ] Destruction of Brachial Plexus, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01540ZZ] Destruction of Ulnar Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01543ZZ] Destruction of Ulnar Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01544ZZ] Destruction of Ulnar Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01550ZZ] Destruction of Median Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01553ZZ] Destruction of Median Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01554ZZ] Destruction of Median Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01560ZZ] Destruction of Radial Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01563ZZ] Destruction of Radial Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01564ZZ] Destruction of Radial Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01580ZZ] Destruction of Thoracic Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01583ZZ] Destruction of Thoracic Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01584ZZ] Destruction of Thoracic Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01590ZZ] Destruction of Lumbar Plexus, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01593ZZ] Destruction of Lumbar Plexus, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[01594ZZ] Destruction of Lumbar Plexus, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015A0ZZ] Destruction of Lumbosacral Plexus, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015A3ZZ] Destruction of Lumbosacral Plexus, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015A4ZZ] Destruction of Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015B0ZZ] Destruction of Lumbar Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015B3ZZ] Destruction of Lumbar Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015B4ZZ] Destruction of Lumbar Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015C0ZZ] Destruction of Pudendal Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015C3ZZ] Destruction of Pudendal Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015C4ZZ] Destruction of Pudendal Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015D0ZZ] Destruction of Femoral Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015D3ZZ] Destruction of Femoral Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015D4ZZ] Destruction of Femoral Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015F0ZZ] Destruction of Sciatic Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015F3ZZ] Destruction of Sciatic Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015F4ZZ] Destruction of Sciatic Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015G0ZZ] Destruction of Tibial Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015G3ZZ] Destruction of Tibial Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015G4ZZ] Destruction of Tibial Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015H0ZZ] Destruction of Peroneal Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015H3ZZ] Destruction of Peroneal Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015H4ZZ] Destruction of Peroneal Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015K0ZZ] Destruction of Head and Neck Sympathetic Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015K3ZZ] Destruction of Head and Neck Sympathetic Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015K4ZZ] Destruction of Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015L0ZZ] Destruction of Thoracic Sympathetic Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015L3ZZ] Destruction of Thoracic Sympathetic Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015L4ZZ] Destruction of Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015M0ZZ] Destruction of Abdominal Sympathetic Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015M3ZZ] Destruction of Abdominal Sympathetic Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015M4ZZ] Destruction of Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015N0ZZ] Destruction of Lumbar Sympathetic Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015N3ZZ] Destruction of Lumbar Sympathetic Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015N4ZZ] Destruction of Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015P0ZZ] Destruction of Sacral Sympathetic Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015P3ZZ] Destruction of Sacral Sympathetic Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015P4ZZ] Destruction of Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015Q0ZZ] Destruction of Sacral Plexus, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015Q3ZZ] Destruction of Sacral Plexus, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015Q4ZZ] Destruction of Sacral Plexus, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015R0ZZ] Destruction of Sacral Nerve, Open Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015R3ZZ] Destruction of Sacral Nerve, Percutaneous Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[015R4ZZ] Destruction of Sacral Nerve, Percutaneous Endoscopic Approach -- Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent
+[018] Peripheral Nervous System, Division -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01800ZZ] Division of Cervical Plexus, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01803ZZ] Division of Cervical Plexus, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01804ZZ] Division of Cervical Plexus, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01810ZZ] Division of Cervical Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01813ZZ] Division of Cervical Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01814ZZ] Division of Cervical Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01820ZZ] Division of Phrenic Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01823ZZ] Division of Phrenic Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01824ZZ] Division of Phrenic Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01830ZZ] Division of Brachial Plexus, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01833ZZ] Division of Brachial Plexus, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01834ZZ] Division of Brachial Plexus, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01840ZZ] Division of Ulnar Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01843ZZ] Division of Ulnar Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01844ZZ] Division of Ulnar Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01850ZZ] Division of Median Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01853ZZ] Division of Median Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01854ZZ] Division of Median Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01860ZZ] Division of Radial Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01863ZZ] Division of Radial Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01864ZZ] Division of Radial Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01880ZZ] Division of Thoracic Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01883ZZ] Division of Thoracic Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01884ZZ] Division of Thoracic Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01890ZZ] Division of Lumbar Plexus, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01893ZZ] Division of Lumbar Plexus, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[01894ZZ] Division of Lumbar Plexus, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018A0ZZ] Division of Lumbosacral Plexus, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018A3ZZ] Division of Lumbosacral Plexus, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018A4ZZ] Division of Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018B0ZZ] Division of Lumbar Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018B3ZZ] Division of Lumbar Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018B4ZZ] Division of Lumbar Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018C0ZZ] Division of Pudendal Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018C3ZZ] Division of Pudendal Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018C4ZZ] Division of Pudendal Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018D0ZZ] Division of Femoral Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018D3ZZ] Division of Femoral Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018D4ZZ] Division of Femoral Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018F0ZZ] Division of Sciatic Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018F3ZZ] Division of Sciatic Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018F4ZZ] Division of Sciatic Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018G0ZZ] Division of Tibial Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018G3ZZ] Division of Tibial Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018G4ZZ] Division of Tibial Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018H0ZZ] Division of Peroneal Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018H3ZZ] Division of Peroneal Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018H4ZZ] Division of Peroneal Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018K0ZZ] Division of Head and Neck Sympathetic Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018K3ZZ] Division of Head and Neck Sympathetic Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018K4ZZ] Division of Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018L0ZZ] Division of Thoracic Sympathetic Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018L3ZZ] Division of Thoracic Sympathetic Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018L4ZZ] Division of Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018M0ZZ] Division of Abdominal Sympathetic Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018M3ZZ] Division of Abdominal Sympathetic Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018M4ZZ] Division of Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018N0ZZ] Division of Lumbar Sympathetic Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018N3ZZ] Division of Lumbar Sympathetic Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018N4ZZ] Division of Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018P0ZZ] Division of Sacral Sympathetic Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018P3ZZ] Division of Sacral Sympathetic Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018P4ZZ] Division of Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018Q0ZZ] Division of Sacral Plexus, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018Q3ZZ] Division of Sacral Plexus, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018Q4ZZ] Division of Sacral Plexus, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018R0ZZ] Division of Sacral Nerve, Open Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018R3ZZ] Division of Sacral Nerve, Percutaneous Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[018R4ZZ] Division of Sacral Nerve, Percutaneous Endoscopic Approach -- Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part
+[019] Peripheral Nervous System, Drainage -- Taking or letting out fluids and/or gases from a body part
+[019000Z] Drainage of Cervical Plexus with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01900ZX] Drainage of Cervical Plexus, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01900ZZ] Drainage of Cervical Plexus, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019030Z] Drainage of Cervical Plexus with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01903ZX] Drainage of Cervical Plexus, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01903ZZ] Drainage of Cervical Plexus, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019040Z] Drainage of Cervical Plexus with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01904ZX] Drainage of Cervical Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01904ZZ] Drainage of Cervical Plexus, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019100Z] Drainage of Cervical Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01910ZX] Drainage of Cervical Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01910ZZ] Drainage of Cervical Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019130Z] Drainage of Cervical Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01913ZX] Drainage of Cervical Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01913ZZ] Drainage of Cervical Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019140Z] Drainage of Cervical Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01914ZX] Drainage of Cervical Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01914ZZ] Drainage of Cervical Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019200Z] Drainage of Phrenic Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01920ZX] Drainage of Phrenic Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01920ZZ] Drainage of Phrenic Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019230Z] Drainage of Phrenic Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01923ZX] Drainage of Phrenic Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01923ZZ] Drainage of Phrenic Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019240Z] Drainage of Phrenic Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01924ZX] Drainage of Phrenic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01924ZZ] Drainage of Phrenic Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019300Z] Drainage of Brachial Plexus with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01930ZX] Drainage of Brachial Plexus, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01930ZZ] Drainage of Brachial Plexus, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019330Z] Drainage of Brachial Plexus with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01933ZX] Drainage of Brachial Plexus, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01933ZZ] Drainage of Brachial Plexus, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019340Z] Drainage of Brachial Plexus with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01934ZX] Drainage of Brachial Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01934ZZ] Drainage of Brachial Plexus, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019400Z] Drainage of Ulnar Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01940ZX] Drainage of Ulnar Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01940ZZ] Drainage of Ulnar Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019430Z] Drainage of Ulnar Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01943ZX] Drainage of Ulnar Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01943ZZ] Drainage of Ulnar Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019440Z] Drainage of Ulnar Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01944ZX] Drainage of Ulnar Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01944ZZ] Drainage of Ulnar Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019500Z] Drainage of Median Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01950ZX] Drainage of Median Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01950ZZ] Drainage of Median Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019530Z] Drainage of Median Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01953ZX] Drainage of Median Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01953ZZ] Drainage of Median Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019540Z] Drainage of Median Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01954ZX] Drainage of Median Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01954ZZ] Drainage of Median Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019600Z] Drainage of Radial Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01960ZX] Drainage of Radial Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01960ZZ] Drainage of Radial Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019630Z] Drainage of Radial Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01963ZX] Drainage of Radial Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01963ZZ] Drainage of Radial Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019640Z] Drainage of Radial Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01964ZX] Drainage of Radial Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01964ZZ] Drainage of Radial Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019800Z] Drainage of Thoracic Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01980ZX] Drainage of Thoracic Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01980ZZ] Drainage of Thoracic Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019830Z] Drainage of Thoracic Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01983ZX] Drainage of Thoracic Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01983ZZ] Drainage of Thoracic Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019840Z] Drainage of Thoracic Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01984ZX] Drainage of Thoracic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01984ZZ] Drainage of Thoracic Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019900Z] Drainage of Lumbar Plexus with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[01990ZX] Drainage of Lumbar Plexus, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01990ZZ] Drainage of Lumbar Plexus, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019930Z] Drainage of Lumbar Plexus with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[01993ZX] Drainage of Lumbar Plexus, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01993ZZ] Drainage of Lumbar Plexus, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019940Z] Drainage of Lumbar Plexus with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01994ZX] Drainage of Lumbar Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[01994ZZ] Drainage of Lumbar Plexus, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019A00Z] Drainage of Lumbosacral Plexus with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019A0ZX] Drainage of Lumbosacral Plexus, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019A0ZZ] Drainage of Lumbosacral Plexus, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019A30Z] Drainage of Lumbosacral Plexus with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019A3ZX] Drainage of Lumbosacral Plexus, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019A3ZZ] Drainage of Lumbosacral Plexus, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019A40Z] Drainage of Lumbosacral Plexus with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019A4ZX] Drainage of Lumbosacral Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019A4ZZ] Drainage of Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019B00Z] Drainage of Lumbar Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019B0ZX] Drainage of Lumbar Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019B0ZZ] Drainage of Lumbar Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019B30Z] Drainage of Lumbar Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019B3ZX] Drainage of Lumbar Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019B3ZZ] Drainage of Lumbar Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019B40Z] Drainage of Lumbar Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019B4ZX] Drainage of Lumbar Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019B4ZZ] Drainage of Lumbar Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019C00Z] Drainage of Pudendal Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019C0ZX] Drainage of Pudendal Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019C0ZZ] Drainage of Pudendal Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019C30Z] Drainage of Pudendal Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019C3ZX] Drainage of Pudendal Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019C3ZZ] Drainage of Pudendal Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019C40Z] Drainage of Pudendal Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019C4ZX] Drainage of Pudendal Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019C4ZZ] Drainage of Pudendal Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019D00Z] Drainage of Femoral Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019D0ZX] Drainage of Femoral Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019D0ZZ] Drainage of Femoral Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019D30Z] Drainage of Femoral Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019D3ZX] Drainage of Femoral Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019D3ZZ] Drainage of Femoral Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019D40Z] Drainage of Femoral Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019D4ZX] Drainage of Femoral Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019D4ZZ] Drainage of Femoral Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019F00Z] Drainage of Sciatic Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019F0ZX] Drainage of Sciatic Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019F0ZZ] Drainage of Sciatic Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019F30Z] Drainage of Sciatic Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019F3ZX] Drainage of Sciatic Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019F3ZZ] Drainage of Sciatic Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019F40Z] Drainage of Sciatic Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019F4ZX] Drainage of Sciatic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019F4ZZ] Drainage of Sciatic Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019G00Z] Drainage of Tibial Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019G0ZX] Drainage of Tibial Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019G0ZZ] Drainage of Tibial Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019G30Z] Drainage of Tibial Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019G3ZX] Drainage of Tibial Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019G3ZZ] Drainage of Tibial Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019G40Z] Drainage of Tibial Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019G4ZX] Drainage of Tibial Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019G4ZZ] Drainage of Tibial Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019H00Z] Drainage of Peroneal Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019H0ZX] Drainage of Peroneal Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019H0ZZ] Drainage of Peroneal Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019H30Z] Drainage of Peroneal Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019H3ZX] Drainage of Peroneal Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019H3ZZ] Drainage of Peroneal Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019H40Z] Drainage of Peroneal Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019H4ZX] Drainage of Peroneal Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019H4ZZ] Drainage of Peroneal Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019K00Z] Drainage of Head and Neck Sympathetic Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019K0ZX] Drainage of Head and Neck Sympathetic Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019K0ZZ] Drainage of Head and Neck Sympathetic Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019K30Z] Drainage of Head and Neck Sympathetic Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019K3ZX] Drainage of Head and Neck Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019K3ZZ] Drainage of Head and Neck Sympathetic Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019K40Z] Drainage of Head and Neck Sympathetic Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019K4ZX] Drainage of Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019K4ZZ] Drainage of Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019L00Z] Drainage of Thoracic Sympathetic Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019L0ZX] Drainage of Thoracic Sympathetic Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019L0ZZ] Drainage of Thoracic Sympathetic Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019L30Z] Drainage of Thoracic Sympathetic Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019L3ZX] Drainage of Thoracic Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019L3ZZ] Drainage of Thoracic Sympathetic Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019L40Z] Drainage of Thoracic Sympathetic Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019L4ZX] Drainage of Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019L4ZZ] Drainage of Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019M00Z] Drainage of Abdominal Sympathetic Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019M0ZX] Drainage of Abdominal Sympathetic Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019M0ZZ] Drainage of Abdominal Sympathetic Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019M30Z] Drainage of Abdominal Sympathetic Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019M3ZX] Drainage of Abdominal Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019M3ZZ] Drainage of Abdominal Sympathetic Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019M40Z] Drainage of Abdominal Sympathetic Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019M4ZX] Drainage of Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019M4ZZ] Drainage of Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019N00Z] Drainage of Lumbar Sympathetic Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019N0ZX] Drainage of Lumbar Sympathetic Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019N0ZZ] Drainage of Lumbar Sympathetic Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019N30Z] Drainage of Lumbar Sympathetic Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019N3ZX] Drainage of Lumbar Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019N3ZZ] Drainage of Lumbar Sympathetic Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019N40Z] Drainage of Lumbar Sympathetic Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019N4ZX] Drainage of Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019N4ZZ] Drainage of Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019P00Z] Drainage of Sacral Sympathetic Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019P0ZX] Drainage of Sacral Sympathetic Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019P0ZZ] Drainage of Sacral Sympathetic Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019P30Z] Drainage of Sacral Sympathetic Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019P3ZX] Drainage of Sacral Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019P3ZZ] Drainage of Sacral Sympathetic Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019P40Z] Drainage of Sacral Sympathetic Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019P4ZX] Drainage of Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019P4ZZ] Drainage of Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019Q00Z] Drainage of Sacral Plexus with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019Q0ZX] Drainage of Sacral Plexus, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019Q0ZZ] Drainage of Sacral Plexus, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019Q30Z] Drainage of Sacral Plexus with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019Q3ZX] Drainage of Sacral Plexus, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019Q3ZZ] Drainage of Sacral Plexus, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019Q40Z] Drainage of Sacral Plexus with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019Q4ZX] Drainage of Sacral Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019Q4ZZ] Drainage of Sacral Plexus, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019R00Z] Drainage of Sacral Nerve with Drainage Device, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019R0ZX] Drainage of Sacral Nerve, Open Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019R0ZZ] Drainage of Sacral Nerve, Open Approach -- Taking or letting out fluids and/or gases from a body part
+[019R30Z] Drainage of Sacral Nerve with Drainage Device, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019R3ZX] Drainage of Sacral Nerve, Percutaneous Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019R3ZZ] Drainage of Sacral Nerve, Percutaneous Approach -- Taking or letting out fluids and/or gases from a body part
+[019R40Z] Drainage of Sacral Nerve with Drainage Device, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[019R4ZX] Drainage of Sacral Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Taking or letting out fluids and/or gases from a body part
+[019R4ZZ] Drainage of Sacral Nerve, Percutaneous Endoscopic Approach -- Taking or letting out fluids and/or gases from a body part
+[01B] Peripheral Nervous System, Excision -- Cutting out or off, without replacement, a portion of a body part
+[01B00ZX] Excision of Cervical Plexus, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B00ZZ] Excision of Cervical Plexus, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B03ZX] Excision of Cervical Plexus, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B03ZZ] Excision of Cervical Plexus, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B04ZX] Excision of Cervical Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B04ZZ] Excision of Cervical Plexus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B10ZX] Excision of Cervical Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B10ZZ] Excision of Cervical Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B13ZX] Excision of Cervical Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B13ZZ] Excision of Cervical Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B14ZX] Excision of Cervical Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B14ZZ] Excision of Cervical Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B20ZX] Excision of Phrenic Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B20ZZ] Excision of Phrenic Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B23ZX] Excision of Phrenic Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B23ZZ] Excision of Phrenic Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B24ZX] Excision of Phrenic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B24ZZ] Excision of Phrenic Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B30ZX] Excision of Brachial Plexus, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B30ZZ] Excision of Brachial Plexus, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B33ZX] Excision of Brachial Plexus, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B33ZZ] Excision of Brachial Plexus, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B34ZX] Excision of Brachial Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B34ZZ] Excision of Brachial Plexus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B40ZX] Excision of Ulnar Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B40ZZ] Excision of Ulnar Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B43ZX] Excision of Ulnar Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B43ZZ] Excision of Ulnar Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B44ZX] Excision of Ulnar Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B44ZZ] Excision of Ulnar Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B50ZX] Excision of Median Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B50ZZ] Excision of Median Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B53ZX] Excision of Median Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B53ZZ] Excision of Median Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B54ZX] Excision of Median Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B54ZZ] Excision of Median Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B60ZX] Excision of Radial Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B60ZZ] Excision of Radial Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B63ZX] Excision of Radial Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B63ZZ] Excision of Radial Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B64ZX] Excision of Radial Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B64ZZ] Excision of Radial Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B80ZX] Excision of Thoracic Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B80ZZ] Excision of Thoracic Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B83ZX] Excision of Thoracic Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B83ZZ] Excision of Thoracic Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B84ZX] Excision of Thoracic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B84ZZ] Excision of Thoracic Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B90ZX] Excision of Lumbar Plexus, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B90ZZ] Excision of Lumbar Plexus, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B93ZX] Excision of Lumbar Plexus, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B93ZZ] Excision of Lumbar Plexus, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01B94ZX] Excision of Lumbar Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01B94ZZ] Excision of Lumbar Plexus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BA0ZX] Excision of Lumbosacral Plexus, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BA0ZZ] Excision of Lumbosacral Plexus, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BA3ZX] Excision of Lumbosacral Plexus, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BA3ZZ] Excision of Lumbosacral Plexus, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BA4ZX] Excision of Lumbosacral Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BA4ZZ] Excision of Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BB0ZX] Excision of Lumbar Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BB0ZZ] Excision of Lumbar Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BB3ZX] Excision of Lumbar Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BB3ZZ] Excision of Lumbar Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BB4ZX] Excision of Lumbar Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BB4ZZ] Excision of Lumbar Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BC0ZX] Excision of Pudendal Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BC0ZZ] Excision of Pudendal Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BC3ZX] Excision of Pudendal Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BC3ZZ] Excision of Pudendal Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BC4ZX] Excision of Pudendal Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BC4ZZ] Excision of Pudendal Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BD0ZX] Excision of Femoral Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BD0ZZ] Excision of Femoral Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BD3ZX] Excision of Femoral Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BD3ZZ] Excision of Femoral Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BD4ZX] Excision of Femoral Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BD4ZZ] Excision of Femoral Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BF0ZX] Excision of Sciatic Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BF0ZZ] Excision of Sciatic Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BF3ZX] Excision of Sciatic Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BF3ZZ] Excision of Sciatic Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BF4ZX] Excision of Sciatic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BF4ZZ] Excision of Sciatic Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BG0ZX] Excision of Tibial Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BG0ZZ] Excision of Tibial Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BG3ZX] Excision of Tibial Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BG3ZZ] Excision of Tibial Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BG4ZX] Excision of Tibial Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BG4ZZ] Excision of Tibial Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BH0ZX] Excision of Peroneal Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BH0ZZ] Excision of Peroneal Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BH3ZX] Excision of Peroneal Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BH3ZZ] Excision of Peroneal Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BH4ZX] Excision of Peroneal Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BH4ZZ] Excision of Peroneal Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BK0ZX] Excision of Head and Neck Sympathetic Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BK0ZZ] Excision of Head and Neck Sympathetic Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BK3ZX] Excision of Head and Neck Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BK3ZZ] Excision of Head and Neck Sympathetic Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BK4ZX] Excision of Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BK4ZZ] Excision of Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BL0ZX] Excision of Thoracic Sympathetic Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BL0ZZ] Excision of Thoracic Sympathetic Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BL3ZX] Excision of Thoracic Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BL3ZZ] Excision of Thoracic Sympathetic Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BL4ZX] Excision of Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BL4ZZ] Excision of Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BM0ZX] Excision of Abdominal Sympathetic Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BM0ZZ] Excision of Abdominal Sympathetic Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BM3ZX] Excision of Abdominal Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BM3ZZ] Excision of Abdominal Sympathetic Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BM4ZX] Excision of Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BM4ZZ] Excision of Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BN0ZX] Excision of Lumbar Sympathetic Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BN0ZZ] Excision of Lumbar Sympathetic Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BN3ZX] Excision of Lumbar Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BN3ZZ] Excision of Lumbar Sympathetic Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BN4ZX] Excision of Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BN4ZZ] Excision of Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BP0ZX] Excision of Sacral Sympathetic Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BP0ZZ] Excision of Sacral Sympathetic Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BP3ZX] Excision of Sacral Sympathetic Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BP3ZZ] Excision of Sacral Sympathetic Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BP4ZX] Excision of Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BP4ZZ] Excision of Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BQ0ZX] Excision of Sacral Plexus, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BQ0ZZ] Excision of Sacral Plexus, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BQ3ZX] Excision of Sacral Plexus, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BQ3ZZ] Excision of Sacral Plexus, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BQ4ZX] Excision of Sacral Plexus, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BQ4ZZ] Excision of Sacral Plexus, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BR0ZX] Excision of Sacral Nerve, Open Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BR0ZZ] Excision of Sacral Nerve, Open Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BR3ZX] Excision of Sacral Nerve, Percutaneous Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BR3ZZ] Excision of Sacral Nerve, Percutaneous Approach -- Cutting out or off, without replacement, a portion of a body part
+[01BR4ZX] Excision of Sacral Nerve, Percutaneous Endoscopic Approach, Diagnostic -- Cutting out or off, without replacement, a portion of a body part
+[01BR4ZZ] Excision of Sacral Nerve, Percutaneous Endoscopic Approach -- Cutting out or off, without replacement, a portion of a body part
+[01C] Peripheral Nervous System, Extirpation -- Taking or cutting out solid matter from a body part
+[01C00ZZ] Extirpation of Matter from Cervical Plexus, Open Approach -- Taking or cutting out solid matter from a body part
+[01C03ZZ] Extirpation of Matter from Cervical Plexus, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C04ZZ] Extirpation of Matter from Cervical Plexus, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01C10ZZ] Extirpation of Matter from Cervical Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01C13ZZ] Extirpation of Matter from Cervical Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C14ZZ] Extirpation of Matter from Cervical Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01C20ZZ] Extirpation of Matter from Phrenic Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01C23ZZ] Extirpation of Matter from Phrenic Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C24ZZ] Extirpation of Matter from Phrenic Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01C30ZZ] Extirpation of Matter from Brachial Plexus, Open Approach -- Taking or cutting out solid matter from a body part
+[01C33ZZ] Extirpation of Matter from Brachial Plexus, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C34ZZ] Extirpation of Matter from Brachial Plexus, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01C40ZZ] Extirpation of Matter from Ulnar Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01C43ZZ] Extirpation of Matter from Ulnar Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C44ZZ] Extirpation of Matter from Ulnar Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01C50ZZ] Extirpation of Matter from Median Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01C53ZZ] Extirpation of Matter from Median Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C54ZZ] Extirpation of Matter from Median Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01C60ZZ] Extirpation of Matter from Radial Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01C63ZZ] Extirpation of Matter from Radial Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C64ZZ] Extirpation of Matter from Radial Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01C80ZZ] Extirpation of Matter from Thoracic Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01C83ZZ] Extirpation of Matter from Thoracic Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C84ZZ] Extirpation of Matter from Thoracic Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01C90ZZ] Extirpation of Matter from Lumbar Plexus, Open Approach -- Taking or cutting out solid matter from a body part
+[01C93ZZ] Extirpation of Matter from Lumbar Plexus, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01C94ZZ] Extirpation of Matter from Lumbar Plexus, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CA0ZZ] Extirpation of Matter from Lumbosacral Plexus, Open Approach -- Taking or cutting out solid matter from a body part
+[01CA3ZZ] Extirpation of Matter from Lumbosacral Plexus, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CA4ZZ] Extirpation of Matter from Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CB0ZZ] Extirpation of Matter from Lumbar Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CB3ZZ] Extirpation of Matter from Lumbar Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CB4ZZ] Extirpation of Matter from Lumbar Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CC0ZZ] Extirpation of Matter from Pudendal Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CC3ZZ] Extirpation of Matter from Pudendal Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CC4ZZ] Extirpation of Matter from Pudendal Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CD0ZZ] Extirpation of Matter from Femoral Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CD3ZZ] Extirpation of Matter from Femoral Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CD4ZZ] Extirpation of Matter from Femoral Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CF0ZZ] Extirpation of Matter from Sciatic Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CF3ZZ] Extirpation of Matter from Sciatic Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CF4ZZ] Extirpation of Matter from Sciatic Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CG0ZZ] Extirpation of Matter from Tibial Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CG3ZZ] Extirpation of Matter from Tibial Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CG4ZZ] Extirpation of Matter from Tibial Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CH0ZZ] Extirpation of Matter from Peroneal Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CH3ZZ] Extirpation of Matter from Peroneal Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CH4ZZ] Extirpation of Matter from Peroneal Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CK0ZZ] Extirpation of Matter from Head and Neck Sympathetic Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CK3ZZ] Extirpation of Matter from Head and Neck Sympathetic Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CK4ZZ] Extirpation of Matter from Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CL0ZZ] Extirpation of Matter from Thoracic Sympathetic Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CL3ZZ] Extirpation of Matter from Thoracic Sympathetic Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CL4ZZ] Extirpation of Matter from Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CM0ZZ] Extirpation of Matter from Abdominal Sympathetic Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CM3ZZ] Extirpation of Matter from Abdominal Sympathetic Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CM4ZZ] Extirpation of Matter from Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CN0ZZ] Extirpation of Matter from Lumbar Sympathetic Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CN3ZZ] Extirpation of Matter from Lumbar Sympathetic Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CN4ZZ] Extirpation of Matter from Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CP0ZZ] Extirpation of Matter from Sacral Sympathetic Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CP3ZZ] Extirpation of Matter from Sacral Sympathetic Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CP4ZZ] Extirpation of Matter from Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CQ0ZZ] Extirpation of Matter from Sacral Plexus, Open Approach -- Taking or cutting out solid matter from a body part
+[01CQ3ZZ] Extirpation of Matter from Sacral Plexus, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CQ4ZZ] Extirpation of Matter from Sacral Plexus, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01CR0ZZ] Extirpation of Matter from Sacral Nerve, Open Approach -- Taking or cutting out solid matter from a body part
+[01CR3ZZ] Extirpation of Matter from Sacral Nerve, Percutaneous Approach -- Taking or cutting out solid matter from a body part
+[01CR4ZZ] Extirpation of Matter from Sacral Nerve, Percutaneous Endoscopic Approach -- Taking or cutting out solid matter from a body part
+[01D] Peripheral Nervous System, Extraction -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D00ZZ] Extraction of Cervical Plexus, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D03ZZ] Extraction of Cervical Plexus, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D04ZZ] Extraction of Cervical Plexus, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D10ZZ] Extraction of Cervical Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D13ZZ] Extraction of Cervical Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D14ZZ] Extraction of Cervical Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D20ZZ] Extraction of Phrenic Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D23ZZ] Extraction of Phrenic Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D24ZZ] Extraction of Phrenic Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D30ZZ] Extraction of Brachial Plexus, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D33ZZ] Extraction of Brachial Plexus, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D34ZZ] Extraction of Brachial Plexus, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D40ZZ] Extraction of Ulnar Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D43ZZ] Extraction of Ulnar Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D44ZZ] Extraction of Ulnar Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D50ZZ] Extraction of Median Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D53ZZ] Extraction of Median Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D54ZZ] Extraction of Median Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D60ZZ] Extraction of Radial Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D63ZZ] Extraction of Radial Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D64ZZ] Extraction of Radial Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D80ZZ] Extraction of Thoracic Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D83ZZ] Extraction of Thoracic Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D84ZZ] Extraction of Thoracic Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D90ZZ] Extraction of Lumbar Plexus, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D93ZZ] Extraction of Lumbar Plexus, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01D94ZZ] Extraction of Lumbar Plexus, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DA0ZZ] Extraction of Lumbosacral Plexus, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DA3ZZ] Extraction of Lumbosacral Plexus, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DA4ZZ] Extraction of Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DB0ZZ] Extraction of Lumbar Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DB3ZZ] Extraction of Lumbar Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DB4ZZ] Extraction of Lumbar Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DC0ZZ] Extraction of Pudendal Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DC3ZZ] Extraction of Pudendal Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DC4ZZ] Extraction of Pudendal Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DD0ZZ] Extraction of Femoral Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DD3ZZ] Extraction of Femoral Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DD4ZZ] Extraction of Femoral Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DF0ZZ] Extraction of Sciatic Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DF3ZZ] Extraction of Sciatic Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DF4ZZ] Extraction of Sciatic Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DG0ZZ] Extraction of Tibial Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DG3ZZ] Extraction of Tibial Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DG4ZZ] Extraction of Tibial Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DH0ZZ] Extraction of Peroneal Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DH3ZZ] Extraction of Peroneal Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DH4ZZ] Extraction of Peroneal Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DK0ZZ] Extraction of Head and Neck Sympathetic Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DK3ZZ] Extraction of Head and Neck Sympathetic Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DK4ZZ] Extraction of Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DL0ZZ] Extraction of Thoracic Sympathetic Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DL3ZZ] Extraction of Thoracic Sympathetic Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DL4ZZ] Extraction of Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DM0ZZ] Extraction of Abdominal Sympathetic Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DM3ZZ] Extraction of Abdominal Sympathetic Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DM4ZZ] Extraction of Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DN0ZZ] Extraction of Lumbar Sympathetic Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DN3ZZ] Extraction of Lumbar Sympathetic Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DN4ZZ] Extraction of Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DP0ZZ] Extraction of Sacral Sympathetic Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DP3ZZ] Extraction of Sacral Sympathetic Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DP4ZZ] Extraction of Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DQ0ZZ] Extraction of Sacral Plexus, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DQ3ZZ] Extraction of Sacral Plexus, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DQ4ZZ] Extraction of Sacral Plexus, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DR0ZZ] Extraction of Sacral Nerve, Open Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DR3ZZ] Extraction of Sacral Nerve, Percutaneous Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01DR4ZZ] Extraction of Sacral Nerve, Percutaneous Endoscopic Approach -- Pulling or stripping out or off all or a portion of a body part by the use of force
+[01H] Peripheral Nervous System, Insertion -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY01Z] Insertion of Radioactive Element into Peripheral Nerve, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY02Z] Insertion of Monitoring Device into Peripheral Nerve, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY0MZ] Insertion of Neurostimulator Lead into Peripheral Nerve, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY0YZ] Insertion of Other Device into Peripheral Nerve, Open Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY31Z] Insertion of Radioactive Element into Peripheral Nerve, Percutaneous Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY32Z] Insertion of Monitoring Device into Peripheral Nerve, Percutaneous Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY3MZ] Insertion of Neurostimulator Lead into Peripheral Nerve, Percutaneous Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY3YZ] Insertion of Other Device into Peripheral Nerve, Percutaneous Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY41Z] Insertion of Radioactive Element into Peripheral Nerve, Percutaneous Endoscopic Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY42Z] Insertion of Monitoring Device into Peripheral Nerve, Percutaneous Endoscopic Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY4MZ] Insertion of Neurostimulator Lead into Peripheral Nerve, Percutaneous Endoscopic Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01HY4YZ] Insertion of Other Device into Peripheral Nerve, Percutaneous Endoscopic Approach -- Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part
+[01J] Peripheral Nervous System, Inspection -- Visually and/or manually exploring a body part
+[01JY0ZZ] Inspection of Peripheral Nerve, Open Approach -- Visually and/or manually exploring a body part
+[01JY3ZZ] Inspection of Peripheral Nerve, Percutaneous Approach -- Visually and/or manually exploring a body part
+[01JY4ZZ] Inspection of Peripheral Nerve, Percutaneous Endoscopic Approach -- Visually and/or manually exploring a body part
+[01N] Peripheral Nervous System, Release -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N00ZZ] Release Cervical Plexus, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N03ZZ] Release Cervical Plexus, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N04ZZ] Release Cervical Plexus, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N10ZZ] Release Cervical Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N13ZZ] Release Cervical Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N14ZZ] Release Cervical Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N20ZZ] Release Phrenic Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N23ZZ] Release Phrenic Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N24ZZ] Release Phrenic Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N30ZZ] Release Brachial Plexus, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N33ZZ] Release Brachial Plexus, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N34ZZ] Release Brachial Plexus, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N40ZZ] Release Ulnar Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N43ZZ] Release Ulnar Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N44ZZ] Release Ulnar Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N50ZZ] Release Median Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N53ZZ] Release Median Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N54ZZ] Release Median Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N60ZZ] Release Radial Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N63ZZ] Release Radial Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N64ZZ] Release Radial Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N80ZZ] Release Thoracic Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N83ZZ] Release Thoracic Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N84ZZ] Release Thoracic Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N90ZZ] Release Lumbar Plexus, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N93ZZ] Release Lumbar Plexus, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01N94ZZ] Release Lumbar Plexus, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NA0ZZ] Release Lumbosacral Plexus, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NA3ZZ] Release Lumbosacral Plexus, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NA4ZZ] Release Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NB0ZZ] Release Lumbar Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NB3ZZ] Release Lumbar Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NB4ZZ] Release Lumbar Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NC0ZZ] Release Pudendal Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NC3ZZ] Release Pudendal Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NC4ZZ] Release Pudendal Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01ND0ZZ] Release Femoral Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01ND3ZZ] Release Femoral Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01ND4ZZ] Release Femoral Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NF0ZZ] Release Sciatic Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NF3ZZ] Release Sciatic Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NF4ZZ] Release Sciatic Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NG0ZZ] Release Tibial Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NG3ZZ] Release Tibial Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NG4ZZ] Release Tibial Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NH0ZZ] Release Peroneal Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NH3ZZ] Release Peroneal Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NH4ZZ] Release Peroneal Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NK0ZZ] Release Head and Neck Sympathetic Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NK3ZZ] Release Head and Neck Sympathetic Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NK4ZZ] Release Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NL0ZZ] Release Thoracic Sympathetic Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NL3ZZ] Release Thoracic Sympathetic Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NL4ZZ] Release Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NM0ZZ] Release Abdominal Sympathetic Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NM3ZZ] Release Abdominal Sympathetic Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NM4ZZ] Release Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NN0ZZ] Release Lumbar Sympathetic Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NN3ZZ] Release Lumbar Sympathetic Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NN4ZZ] Release Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NP0ZZ] Release Sacral Sympathetic Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NP3ZZ] Release Sacral Sympathetic Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NP4ZZ] Release Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NQ0ZZ] Release Sacral Plexus, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NQ3ZZ] Release Sacral Plexus, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NQ4ZZ] Release Sacral Plexus, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NR0ZZ] Release Sacral Nerve, Open Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NR3ZZ] Release Sacral Nerve, Percutaneous Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01NR4ZZ] Release Sacral Nerve, Percutaneous Endoscopic Approach -- Freeing a body part from an abnormal physical constraint by cutting or by the use of force
+[01P] Peripheral Nervous System, Removal -- Taking out or off a device from a body part
+[01PY00Z] Removal of Drainage Device from Peripheral Nerve, Open Approach -- Taking out or off a device from a body part
+[01PY02Z] Removal of Monitoring Device from Peripheral Nerve, Open Approach -- Taking out or off a device from a body part
+[01PY07Z] Removal of Autologous Tissue Substitute from Peripheral Nerve, Open Approach -- Taking out or off a device from a body part
+[01PY0MZ] Removal of Neurostimulator Lead from Peripheral Nerve, Open Approach -- Taking out or off a device from a body part
+[01PY0YZ] Removal of Other Device from Peripheral Nerve, Open Approach -- Taking out or off a device from a body part
+[01PY30Z] Removal of Drainage Device from Peripheral Nerve, Percutaneous Approach -- Taking out or off a device from a body part
+[01PY32Z] Removal of Monitoring Device from Peripheral Nerve, Percutaneous Approach -- Taking out or off a device from a body part
+[01PY37Z] Removal of Autologous Tissue Substitute from Peripheral Nerve, Percutaneous Approach -- Taking out or off a device from a body part
+[01PY3MZ] Removal of Neurostimulator Lead from Peripheral Nerve, Percutaneous Approach -- Taking out or off a device from a body part
+[01PY3YZ] Removal of Other Device from Peripheral Nerve, Percutaneous Approach -- Taking out or off a device from a body part
+[01PY40Z] Removal of Drainage Device from Peripheral Nerve, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[01PY42Z] Removal of Monitoring Device from Peripheral Nerve, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[01PY47Z] Removal of Autologous Tissue Substitute from Peripheral Nerve, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[01PY4MZ] Removal of Neurostimulator Lead from Peripheral Nerve, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[01PY4YZ] Removal of Other Device from Peripheral Nerve, Percutaneous Endoscopic Approach -- Taking out or off a device from a body part
+[01PYX0Z] Removal of Drainage Device from Peripheral Nerve, External Approach -- Taking out or off a device from a body part
+[01PYX2Z] Removal of Monitoring Device from Peripheral Nerve, External Approach -- Taking out or off a device from a body part
+[01PYXMZ] Removal of Neurostimulator Lead from Peripheral Nerve, External Approach -- Taking out or off a device from a body part
+[01Q] Peripheral Nervous System, Repair -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q00ZZ] Repair Cervical Plexus, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q03ZZ] Repair Cervical Plexus, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q04ZZ] Repair Cervical Plexus, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q10ZZ] Repair Cervical Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q13ZZ] Repair Cervical Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q14ZZ] Repair Cervical Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q20ZZ] Repair Phrenic Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q23ZZ] Repair Phrenic Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q24ZZ] Repair Phrenic Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q30ZZ] Repair Brachial Plexus, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q33ZZ] Repair Brachial Plexus, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q34ZZ] Repair Brachial Plexus, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q40ZZ] Repair Ulnar Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q43ZZ] Repair Ulnar Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q44ZZ] Repair Ulnar Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q50ZZ] Repair Median Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q53ZZ] Repair Median Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q54ZZ] Repair Median Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q60ZZ] Repair Radial Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q63ZZ] Repair Radial Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q64ZZ] Repair Radial Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q80ZZ] Repair Thoracic Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q83ZZ] Repair Thoracic Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q84ZZ] Repair Thoracic Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q90ZZ] Repair Lumbar Plexus, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q93ZZ] Repair Lumbar Plexus, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01Q94ZZ] Repair Lumbar Plexus, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QA0ZZ] Repair Lumbosacral Plexus, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QA3ZZ] Repair Lumbosacral Plexus, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QA4ZZ] Repair Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QB0ZZ] Repair Lumbar Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QB3ZZ] Repair Lumbar Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QB4ZZ] Repair Lumbar Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QC0ZZ] Repair Pudendal Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QC3ZZ] Repair Pudendal Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QC4ZZ] Repair Pudendal Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QD0ZZ] Repair Femoral Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QD3ZZ] Repair Femoral Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QD4ZZ] Repair Femoral Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QF0ZZ] Repair Sciatic Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QF3ZZ] Repair Sciatic Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QF4ZZ] Repair Sciatic Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QG0ZZ] Repair Tibial Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QG3ZZ] Repair Tibial Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QG4ZZ] Repair Tibial Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QH0ZZ] Repair Peroneal Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QH3ZZ] Repair Peroneal Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QH4ZZ] Repair Peroneal Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QK0ZZ] Repair Head and Neck Sympathetic Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QK3ZZ] Repair Head and Neck Sympathetic Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QK4ZZ] Repair Head and Neck Sympathetic Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QL0ZZ] Repair Thoracic Sympathetic Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QL3ZZ] Repair Thoracic Sympathetic Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QL4ZZ] Repair Thoracic Sympathetic Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QM0ZZ] Repair Abdominal Sympathetic Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QM3ZZ] Repair Abdominal Sympathetic Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QM4ZZ] Repair Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QN0ZZ] Repair Lumbar Sympathetic Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QN3ZZ] Repair Lumbar Sympathetic Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QN4ZZ] Repair Lumbar Sympathetic Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QP0ZZ] Repair Sacral Sympathetic Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QP3ZZ] Repair Sacral Sympathetic Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QP4ZZ] Repair Sacral Sympathetic Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QQ0ZZ] Repair Sacral Plexus, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QQ3ZZ] Repair Sacral Plexus, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QQ4ZZ] Repair Sacral Plexus, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QR0ZZ] Repair Sacral Nerve, Open Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QR3ZZ] Repair Sacral Nerve, Percutaneous Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01QR4ZZ] Repair Sacral Nerve, Percutaneous Endoscopic Approach -- Restoring, to the extent possible, a body part to its normal anatomic structure and function
+[01R] Peripheral Nervous System, Replacement -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R107Z] Replacement of Cervical Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R10JZ] Replacement of Cervical Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R10KZ] Replacement of Cervical Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R147Z] Replacement of Cervical Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R14JZ] Replacement of Cervical Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R14KZ] Replacement of Cervical Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R207Z] Replacement of Phrenic Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R20JZ] Replacement of Phrenic Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R20KZ] Replacement of Phrenic Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R247Z] Replacement of Phrenic Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R24JZ] Replacement of Phrenic Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R24KZ] Replacement of Phrenic Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R407Z] Replacement of Ulnar Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R40JZ] Replacement of Ulnar Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R40KZ] Replacement of Ulnar Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R447Z] Replacement of Ulnar Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R44JZ] Replacement of Ulnar Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R44KZ] Replacement of Ulnar Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R507Z] Replacement of Median Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R50JZ] Replacement of Median Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R50KZ] Replacement of Median Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R547Z] Replacement of Median Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R54JZ] Replacement of Median Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R54KZ] Replacement of Median Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R607Z] Replacement of Radial Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R60JZ] Replacement of Radial Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R60KZ] Replacement of Radial Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R647Z] Replacement of Radial Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R64JZ] Replacement of Radial Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R64KZ] Replacement of Radial Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R807Z] Replacement of Thoracic Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R80JZ] Replacement of Thoracic Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R80KZ] Replacement of Thoracic Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R847Z] Replacement of Thoracic Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R84JZ] Replacement of Thoracic Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01R84KZ] Replacement of Thoracic Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RB07Z] Replacement of Lumbar Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RB0JZ] Replacement of Lumbar Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RB0KZ] Replacement of Lumbar Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RB47Z] Replacement of Lumbar Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RB4JZ] Replacement of Lumbar Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RB4KZ] Replacement of Lumbar Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RC07Z] Replacement of Pudendal Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RC0JZ] Replacement of Pudendal Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RC0KZ] Replacement of Pudendal Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RC47Z] Replacement of Pudendal Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RC4JZ] Replacement of Pudendal Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RC4KZ] Replacement of Pudendal Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RD07Z] Replacement of Femoral Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RD0JZ] Replacement of Femoral Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RD0KZ] Replacement of Femoral Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RD47Z] Replacement of Femoral Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RD4JZ] Replacement of Femoral Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RD4KZ] Replacement of Femoral Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RF07Z] Replacement of Sciatic Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RF0JZ] Replacement of Sciatic Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RF0KZ] Replacement of Sciatic Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RF47Z] Replacement of Sciatic Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RF4JZ] Replacement of Sciatic Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RF4KZ] Replacement of Sciatic Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RG07Z] Replacement of Tibial Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RG0JZ] Replacement of Tibial Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RG0KZ] Replacement of Tibial Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RG47Z] Replacement of Tibial Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RG4JZ] Replacement of Tibial Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RG4KZ] Replacement of Tibial Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RH07Z] Replacement of Peroneal Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RH0JZ] Replacement of Peroneal Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RH0KZ] Replacement of Peroneal Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RH47Z] Replacement of Peroneal Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RH4JZ] Replacement of Peroneal Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RH4KZ] Replacement of Peroneal Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RR07Z] Replacement of Sacral Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RR0JZ] Replacement of Sacral Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RR0KZ] Replacement of Sacral Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RR47Z] Replacement of Sacral Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RR4JZ] Replacement of Sacral Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01RR4KZ] Replacement of Sacral Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part
+[01S] Peripheral Nervous System, Reposition -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S00ZZ] Reposition Cervical Plexus, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S03ZZ] Reposition Cervical Plexus, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S04ZZ] Reposition Cervical Plexus, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S10ZZ] Reposition Cervical Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S13ZZ] Reposition Cervical Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S14ZZ] Reposition Cervical Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S20ZZ] Reposition Phrenic Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S23ZZ] Reposition Phrenic Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S24ZZ] Reposition Phrenic Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S30ZZ] Reposition Brachial Plexus, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S33ZZ] Reposition Brachial Plexus, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S34ZZ] Reposition Brachial Plexus, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S40ZZ] Reposition Ulnar Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S43ZZ] Reposition Ulnar Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S44ZZ] Reposition Ulnar Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S50ZZ] Reposition Median Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S53ZZ] Reposition Median Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S54ZZ] Reposition Median Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S60ZZ] Reposition Radial Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S63ZZ] Reposition Radial Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S64ZZ] Reposition Radial Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S80ZZ] Reposition Thoracic Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S83ZZ] Reposition Thoracic Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S84ZZ] Reposition Thoracic Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S90ZZ] Reposition Lumbar Plexus, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S93ZZ] Reposition Lumbar Plexus, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01S94ZZ] Reposition Lumbar Plexus, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SA0ZZ] Reposition Lumbosacral Plexus, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SA3ZZ] Reposition Lumbosacral Plexus, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SA4ZZ] Reposition Lumbosacral Plexus, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SB0ZZ] Reposition Lumbar Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SB3ZZ] Reposition Lumbar Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SB4ZZ] Reposition Lumbar Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SC0ZZ] Reposition Pudendal Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SC3ZZ] Reposition Pudendal Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SC4ZZ] Reposition Pudendal Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SD0ZZ] Reposition Femoral Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SD3ZZ] Reposition Femoral Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SD4ZZ] Reposition Femoral Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SF0ZZ] Reposition Sciatic Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SF3ZZ] Reposition Sciatic Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SF4ZZ] Reposition Sciatic Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SG0ZZ] Reposition Tibial Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SG3ZZ] Reposition Tibial Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SG4ZZ] Reposition Tibial Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SH0ZZ] Reposition Peroneal Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SH3ZZ] Reposition Peroneal Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SH4ZZ] Reposition Peroneal Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SQ0ZZ] Reposition Sacral Plexus, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SQ3ZZ] Reposition Sacral Plexus, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SQ4ZZ] Reposition Sacral Plexus, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SR0ZZ] Reposition Sacral Nerve, Open Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SR3ZZ] Reposition Sacral Nerve, Percutaneous Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01SR4ZZ] Reposition Sacral Nerve, Percutaneous Endoscopic Approach -- Moving to its normal location, or other suitable location, all or a portion of a body part
+[01U] Peripheral Nervous System, Supplement -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U107Z] Supplement Cervical Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U10JZ] Supplement Cervical Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U10KZ] Supplement Cervical Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U137Z] Supplement Cervical Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U13JZ] Supplement Cervical Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U13KZ] Supplement Cervical Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U147Z] Supplement Cervical Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U14JZ] Supplement Cervical Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U14KZ] Supplement Cervical Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U207Z] Supplement Phrenic Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U20JZ] Supplement Phrenic Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U20KZ] Supplement Phrenic Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U237Z] Supplement Phrenic Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U23JZ] Supplement Phrenic Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U23KZ] Supplement Phrenic Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U247Z] Supplement Phrenic Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U24JZ] Supplement Phrenic Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U24KZ] Supplement Phrenic Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U407Z] Supplement Ulnar Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U40JZ] Supplement Ulnar Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U40KZ] Supplement Ulnar Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U437Z] Supplement Ulnar Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U43JZ] Supplement Ulnar Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U43KZ] Supplement Ulnar Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U447Z] Supplement Ulnar Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U44JZ] Supplement Ulnar Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U44KZ] Supplement Ulnar Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U507Z] Supplement Median Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U50JZ] Supplement Median Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U50KZ] Supplement Median Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U537Z] Supplement Median Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U53JZ] Supplement Median Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U53KZ] Supplement Median Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U547Z] Supplement Median Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U54JZ] Supplement Median Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U54KZ] Supplement Median Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U607Z] Supplement Radial Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U60JZ] Supplement Radial Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U60KZ] Supplement Radial Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U637Z] Supplement Radial Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U63JZ] Supplement Radial Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U63KZ] Supplement Radial Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U647Z] Supplement Radial Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U64JZ] Supplement Radial Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U64KZ] Supplement Radial Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U807Z] Supplement Thoracic Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U80JZ] Supplement Thoracic Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U80KZ] Supplement Thoracic Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U837Z] Supplement Thoracic Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U83JZ] Supplement Thoracic Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U83KZ] Supplement Thoracic Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U847Z] Supplement Thoracic Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U84JZ] Supplement Thoracic Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01U84KZ] Supplement Thoracic Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB07Z] Supplement Lumbar Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB0JZ] Supplement Lumbar Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB0KZ] Supplement Lumbar Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB37Z] Supplement Lumbar Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB3JZ] Supplement Lumbar Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB3KZ] Supplement Lumbar Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB47Z] Supplement Lumbar Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB4JZ] Supplement Lumbar Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UB4KZ] Supplement Lumbar Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC07Z] Supplement Pudendal Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC0JZ] Supplement Pudendal Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC0KZ] Supplement Pudendal Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC37Z] Supplement Pudendal Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC3JZ] Supplement Pudendal Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC3KZ] Supplement Pudendal Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC47Z] Supplement Pudendal Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC4JZ] Supplement Pudendal Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UC4KZ] Supplement Pudendal Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD07Z] Supplement Femoral Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD0JZ] Supplement Femoral Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD0KZ] Supplement Femoral Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD37Z] Supplement Femoral Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD3JZ] Supplement Femoral Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD3KZ] Supplement Femoral Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD47Z] Supplement Femoral Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD4JZ] Supplement Femoral Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UD4KZ] Supplement Femoral Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF07Z] Supplement Sciatic Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF0JZ] Supplement Sciatic Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF0KZ] Supplement Sciatic Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF37Z] Supplement Sciatic Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF3JZ] Supplement Sciatic Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF3KZ] Supplement Sciatic Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF47Z] Supplement Sciatic Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF4JZ] Supplement Sciatic Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UF4KZ] Supplement Sciatic Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG07Z] Supplement Tibial Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG0JZ] Supplement Tibial Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG0KZ] Supplement Tibial Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG37Z] Supplement Tibial Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG3JZ] Supplement Tibial Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG3KZ] Supplement Tibial Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG47Z] Supplement Tibial Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG4JZ] Supplement Tibial Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UG4KZ] Supplement Tibial Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH07Z] Supplement Peroneal Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH0JZ] Supplement Peroneal Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH0KZ] Supplement Peroneal Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH37Z] Supplement Peroneal Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH3JZ] Supplement Peroneal Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH3KZ] Supplement Peroneal Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH47Z] Supplement Peroneal Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH4JZ] Supplement Peroneal Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UH4KZ] Supplement Peroneal Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR07Z] Supplement Sacral Nerve with Autologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR0JZ] Supplement Sacral Nerve with Synthetic Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR0KZ] Supplement Sacral Nerve with Nonautologous Tissue Substitute, Open Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR37Z] Supplement Sacral Nerve with Autologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR3JZ] Supplement Sacral Nerve with Synthetic Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR3KZ] Supplement Sacral Nerve with Nonautologous Tissue Substitute, Percutaneous Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR47Z] Supplement Sacral Nerve with Autologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR4JZ] Supplement Sacral Nerve with Synthetic Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01UR4KZ] Supplement Sacral Nerve with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach -- Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part
+[01W] Peripheral Nervous System, Revision -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY00Z] Revision of Drainage Device in Peripheral Nerve, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY02Z] Revision of Monitoring Device in Peripheral Nerve, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY07Z] Revision of Autologous Tissue Substitute in Peripheral Nerve, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY0MZ] Revision of Neurostimulator Lead in Peripheral Nerve, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY0YZ] Revision of Other Device in Peripheral Nerve, Open Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY30Z] Revision of Drainage Device in Peripheral Nerve, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY32Z] Revision of Monitoring Device in Peripheral Nerve, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY37Z] Revision of Autologous Tissue Substitute in Peripheral Nerve, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY3MZ] Revision of Neurostimulator Lead in Peripheral Nerve, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY3YZ] Revision of Other Device in Peripheral Nerve, Percutaneous Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY40Z] Revision of Drainage Device in Peripheral Nerve, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY42Z] Revision of Monitoring Device in Peripheral Nerve, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY47Z] Revision of Autologous Tissue Substitute in Peripheral Nerve, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY4MZ] Revision of Neurostimulator Lead in Peripheral Nerve, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WY4YZ] Revision of Other Device in Peripheral Nerve, Percutaneous Endoscopic Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WYX0Z] Revision of Drainage Device in Peripheral Nerve, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WYX2Z] Revision of Monitoring Device in Peripheral Nerve, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WYX7Z] Revision of Autologous Tissue Substitute in Peripheral Nerve, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01WYXMZ] Revision of Neurostimulator Lead in Peripheral Nerve, External Approach -- Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device
+[01X] Peripheral Nervous System, Transfer -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X10Z1] Transfer Cervical Nerve to Cervical Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X10Z2] Transfer Cervical Nerve to Phrenic Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X14Z1] Transfer Cervical Nerve to Cervical Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X14Z2] Transfer Cervical Nerve to Phrenic Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X20Z1] Transfer Phrenic Nerve to Cervical Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X20Z2] Transfer Phrenic Nerve to Phrenic Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X24Z1] Transfer Phrenic Nerve to Cervical Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X24Z2] Transfer Phrenic Nerve to Phrenic Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X40Z4] Transfer Ulnar Nerve to Ulnar Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X40Z5] Transfer Ulnar Nerve to Median Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X40Z6] Transfer Ulnar Nerve to Radial Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X44Z4] Transfer Ulnar Nerve to Ulnar Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X44Z5] Transfer Ulnar Nerve to Median Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X44Z6] Transfer Ulnar Nerve to Radial Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X50Z4] Transfer Median Nerve to Ulnar Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X50Z5] Transfer Median Nerve to Median Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X50Z6] Transfer Median Nerve to Radial Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X54Z4] Transfer Median Nerve to Ulnar Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X54Z5] Transfer Median Nerve to Median Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X54Z6] Transfer Median Nerve to Radial Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X60Z4] Transfer Radial Nerve to Ulnar Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X60Z5] Transfer Radial Nerve to Median Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X60Z6] Transfer Radial Nerve to Radial Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X64Z4] Transfer Radial Nerve to Ulnar Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X64Z5] Transfer Radial Nerve to Median Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X64Z6] Transfer Radial Nerve to Radial Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X80Z8] Transfer Thoracic Nerve to Thoracic Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01X84Z8] Transfer Thoracic Nerve to Thoracic Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XB0ZB] Transfer Lumbar Nerve to Lumbar Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XB0ZC] Transfer Lumbar Nerve to Perineal Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XB4ZB] Transfer Lumbar Nerve to Lumbar Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XB4ZC] Transfer Lumbar Nerve to Perineal Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XC0ZB] Transfer Pudendal Nerve to Lumbar Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XC0ZC] Transfer Pudendal Nerve to Perineal Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XC4ZB] Transfer Pudendal Nerve to Lumbar Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XC4ZC] Transfer Pudendal Nerve to Perineal Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XD0ZD] Transfer Femoral Nerve to Femoral Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XD0ZF] Transfer Femoral Nerve to Sciatic Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XD0ZG] Transfer Femoral Nerve to Tibial Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XD0ZH] Transfer Femoral Nerve to Peroneal Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XD4ZD] Transfer Femoral Nerve to Femoral Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XD4ZF] Transfer Femoral Nerve to Sciatic Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XD4ZG] Transfer Femoral Nerve to Tibial Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XD4ZH] Transfer Femoral Nerve to Peroneal Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XF0ZD] Transfer Sciatic Nerve to Femoral Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XF0ZF] Transfer Sciatic Nerve to Sciatic Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XF0ZG] Transfer Sciatic Nerve to Tibial Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XF0ZH] Transfer Sciatic Nerve to Peroneal Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XF4ZD] Transfer Sciatic Nerve to Femoral Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XF4ZF] Transfer Sciatic Nerve to Sciatic Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XF4ZG] Transfer Sciatic Nerve to Tibial Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XF4ZH] Transfer Sciatic Nerve to Peroneal Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XG0ZD] Transfer Tibial Nerve to Femoral Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XG0ZF] Transfer Tibial Nerve to Sciatic Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XG0ZG] Transfer Tibial Nerve to Tibial Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XG0ZH] Transfer Tibial Nerve to Peroneal Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XG4ZD] Transfer Tibial Nerve to Femoral Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XG4ZF] Transfer Tibial Nerve to Sciatic Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XG4ZG] Transfer Tibial Nerve to Tibial Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XG4ZH] Transfer Tibial Nerve to Peroneal Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XH0ZD] Transfer Peroneal Nerve to Femoral Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XH0ZF] Transfer Peroneal Nerve to Sciatic Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XH0ZG] Transfer Peroneal Nerve to Tibial Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XH0ZH] Transfer Peroneal Nerve to Peroneal Nerve, Open Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XH4ZD] Transfer Peroneal Nerve to Femoral Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XH4ZF] Transfer Peroneal Nerve to Sciatic Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XH4ZG] Transfer Peroneal Nerve to Tibial Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part
+[01XH4ZH] Transfer Peroneal Nerve to Peroneal Nerve, Percutaneous Endoscopic Approach -- Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part

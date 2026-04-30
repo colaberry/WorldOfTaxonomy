@@ -1,0 +1,27 @@
+[dab_capital] Capital and Financing Type :: naics_2022:111, naics_2022:112
+[dab_capital_bank] Commercial Bank Agricultural Loan
+[dab_capital_equity] Private Equity or Venture Capital Backed
+[dab_capital_fcs] Farm Credit System (FCS) Borrower
+[dab_capital_usda] USDA FSA / RBCS Loan Program Participant
+[dab_contract] Integration and Contracting Model :: naics_2022:111, naics_2022:112
+[dab_contract_custom] Custom Farming Service (hired operator, owns land)
+[dab_contract_grower] Contract Grower (production contract with integrator)
+[dab_contract_tenant] Tenant Farmer (cash rent or crop share lease)
+[dab_contract_vertical] Vertically Integrated Operation (owns feed to meat)
+[dab_own] Farm Ownership Type :: naics_2022:111, naics_2022:112
+[dab_own_coop] Agricultural Cooperative (member-owned)
+[dab_own_corporate] Corporate or Investor-Owned Farm (non-family)
+[dab_own_family] Family Farm (operator household owns and manages)
+[dab_own_govt] Government or Tribal Land Farm
+[dab_own_reit] Farmland REIT or Investment Fund
+[dab_size] Farm Size and Scale :: naics_2022:111, naics_2022:112
+[dab_size_large] Large Farm (1,000-4,999 acres / $1M-$5M sales)
+[dab_size_mid] Mid-Size Farm (180-999 acres / $350k-$1M sales)
+[dab_size_small] Small Farm (under 180 acres / under $350k sales)
+[dab_size_verylarge] Very Large Farm (5,000+ acres / over $5M sales)
+[dab_structure] Business and Legal Structure :: naics_2022:111, naics_2022:112
+[dab_structure_corp] C-Corp or S-Corp
+[dab_structure_llc] LLC or LLP (limited liability company)
+[dab_structure_partner] Partnership (family or non-family general partner)
+[dab_structure_sole] Sole Proprietorship (individual farmer)
+[dab_structure_trust] Family Trust or Estate Operation

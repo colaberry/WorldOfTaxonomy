@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     url: 'https://worldoftaxonomy.com/blog',
     type: 'website',
   },
+  alternates: { canonical: 'https://worldoftaxonomy.com/blog' },
 }
 
 export default function BlogPage() {

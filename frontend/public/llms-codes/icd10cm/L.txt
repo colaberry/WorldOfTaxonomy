@@ -1,0 +1,1072 @@
+[L00] Staphylococcal scalded skin syndrome -- **Inclusion terms:** - Ritter's disease  **Excludes1:** - bullous impetigo (L01.03) - pemphigus neonatorum (L01.03) - toxic epidermal necrolysis [Lyell] (L51.2)  **Use additional code:** - code to identify percentage of skin exfoliation (L49.-)
+[L01] Impetigo -- **Excludes1:** - impetigo herpetiformis (L40.1)
+[L010] Impetigo -- **Inclusion terms:** - Impetigo contagiosa - Impetigo vulgaris
+[L0100] Impetigo, unspecified -- **Inclusion terms:** - Impetigo NOS
+[L0101] Non-bullous impetigo
+[L0102] Bockhart's impetigo -- **Inclusion terms:** - Impetigo follicularis - Perifolliculitis NOS - Superficial pustular perifolliculitis
+[L0103] Bullous impetigo -- **Inclusion terms:** - Impetigo neonatorum - Pemphigus neonatorum
+[L0109] Other impetigo -- **Inclusion terms:** - Ulcerative impetigo
+[L011] Impetiginization of other dermatoses
+[L02] Cutaneous abscess, furuncle and carbuncle -- **Excludes2:** - abscess of anus and rectal regions (K61.-) - abscess of female genital organs (external) (N76.4) - abscess of male genital organs (external) (N48.2, N49.-)  **Use additional code:** - code to identify organism (B95-B96)
+[L020] Cutaneous abscess, furuncle and carbuncle of face -- **Excludes2:** - abscess of ear, external (H60.0) - abscess of eyelid (H00.0) - abscess of head [any part, except face] (L02.8) - abscess of lacrimal gland (H04.0) - abscess of lacrimal passages (H04.3) - abscess of mouth (K12.2) - abscess of nose (J34.0) - abscess of orbit (H05.0) - submandibular abscess (K12.2)
+[L0201] Cutaneous abscess of face
+[L0202] Furuncle of face -- **Inclusion terms:** - Boil of face - Folliculitis of face
+[L0203] Carbuncle of face
+[L021] Cutaneous abscess, furuncle and carbuncle of neck
+[L0211] Cutaneous abscess of neck
+[L0212] Furuncle of neck -- **Inclusion terms:** - Boil of neck - Folliculitis of neck
+[L0213] Carbuncle of neck
+[L022] Cutaneous abscess, furuncle and carbuncle of trunk -- **Excludes1:** - non-newborn omphalitis (L08.82) - omphalitis of newborn (P38.-)  **Excludes2:** - abscess of breast (N61.1) - abscess of buttocks (L02.3) - abscess of female external genital organs (N76.4) - abscess of male external genital organs (N48.2, N49.-) - abscess of hip (L02.4)
+[L0221] Cutaneous abscess of trunk
+[L02211] Cutaneous abscess of abdominal wall
+[L02212] Cutaneous abscess of back [any part, except buttock]
+[L02213] Cutaneous abscess of chest wall
+[L02214] Cutaneous abscess of groin
+[L02215] Cutaneous abscess of perineum
+[L02216] Cutaneous abscess of umbilicus
+[L02219] Cutaneous abscess of trunk, unspecified
+[L0222] Furuncle of trunk -- **Inclusion terms:** - Boil of trunk - Folliculitis of trunk
+[L02221] Furuncle of abdominal wall
+[L02222] Furuncle of back [any part, except buttock]
+[L02223] Furuncle of chest wall
+[L02224] Furuncle of groin
+[L02225] Furuncle of perineum
+[L02226] Furuncle of umbilicus
+[L02229] Furuncle of trunk, unspecified
+[L0223] Carbuncle of trunk
+[L02231] Carbuncle of abdominal wall
+[L02232] Carbuncle of back [any part, except buttock]
+[L02233] Carbuncle of chest wall
+[L02234] Carbuncle of groin
+[L02235] Carbuncle of perineum
+[L02236] Carbuncle of umbilicus
+[L02239] Carbuncle of trunk, unspecified
+[L023] Cutaneous abscess, furuncle and carbuncle of buttock -- **Excludes1:** - pilonidal cyst with abscess (L05.01)
+[L0231] Cutaneous abscess of buttock -- **Inclusion terms:** - Cutaneous abscess of gluteal region
+[L0232] Furuncle of buttock -- **Inclusion terms:** - Boil of buttock - Folliculitis of buttock - Furuncle of gluteal region
+[L0233] Carbuncle of buttock -- **Inclusion terms:** - Carbuncle of gluteal region
+[L024] Cutaneous abscess, furuncle and carbuncle of limb -- **Excludes2:** - Cutaneous abscess, furuncle and carbuncle of groin (L02.214, L02.224, L02.234) - Cutaneous abscess, furuncle and carbuncle of hand (L02.5-) - Cutaneous abscess, furuncle and carbuncle of foot (L02.6-)
+[L0241] Cutaneous abscess of limb
+[L02411] Cutaneous abscess of right axilla
+[L02412] Cutaneous abscess of left axilla
+[L02413] Cutaneous abscess of right upper limb
+[L02414] Cutaneous abscess of left upper limb
+[L02415] Cutaneous abscess of right lower limb
+[L02416] Cutaneous abscess of left lower limb
+[L02419] Cutaneous abscess of limb, unspecified
+[L0242] Furuncle of limb -- **Inclusion terms:** - Boil of limb - Folliculitis of limb
+[L02421] Furuncle of right axilla
+[L02422] Furuncle of left axilla
+[L02423] Furuncle of right upper limb
+[L02424] Furuncle of left upper limb
+[L02425] Furuncle of right lower limb
+[L02426] Furuncle of left lower limb
+[L02429] Furuncle of limb, unspecified
+[L0243] Carbuncle of limb
+[L02431] Carbuncle of right axilla
+[L02432] Carbuncle of left axilla
+[L02433] Carbuncle of right upper limb
+[L02434] Carbuncle of left upper limb
+[L02435] Carbuncle of right lower limb
+[L02436] Carbuncle of left lower limb
+[L02439] Carbuncle of limb, unspecified
+[L025] Cutaneous abscess, furuncle and carbuncle of hand
+[L0251] Cutaneous abscess of hand
+[L02511] Cutaneous abscess of right hand
+[L02512] Cutaneous abscess of left hand
+[L02519] Cutaneous abscess of unspecified hand
+[L0252] Furuncle hand -- **Inclusion terms:** - Boil of hand - Folliculitis of hand
+[L02521] Furuncle right hand
+[L02522] Furuncle left hand
+[L02529] Furuncle unspecified hand
+[L0253] Carbuncle of hand
+[L02531] Carbuncle of right hand
+[L02532] Carbuncle of left hand
+[L02539] Carbuncle of unspecified hand
+[L026] Cutaneous abscess, furuncle and carbuncle of foot
+[L0261] Cutaneous abscess of foot
+[L02611] Cutaneous abscess of right foot
+[L02612] Cutaneous abscess of left foot
+[L02619] Cutaneous abscess of unspecified foot
+[L0262] Furuncle of foot -- **Inclusion terms:** - Boil of foot - Folliculitis of foot
+[L02621] Furuncle of right foot
+[L02622] Furuncle of left foot
+[L02629] Furuncle of unspecified foot
+[L0263] Carbuncle of foot
+[L02631] Carbuncle of right foot
+[L02632] Carbuncle of left foot
+[L02639] Carbuncle of unspecified foot
+[L028] Cutaneous abscess, furuncle and carbuncle of other sites
+[L0281] Cutaneous abscess of other sites
+[L02811] Cutaneous abscess of head [any part, except face]
+[L02818] Cutaneous abscess of other sites
+[L0282] Furuncle of other sites -- **Inclusion terms:** - Boil of other sites - Folliculitis of other sites
+[L02821] Furuncle of head [any part, except face]
+[L02828] Furuncle of other sites
+[L0283] Carbuncle of other sites
+[L02831] Carbuncle of head [any part, except face]
+[L02838] Carbuncle of other sites
+[L029] Cutaneous abscess, furuncle and carbuncle, unspecified
+[L0291] Cutaneous abscess, unspecified
+[L0292] Furuncle, unspecified -- **Inclusion terms:** - Boil NOS - Furunculosis NOS
+[L0293] Carbuncle, unspecified
+[L03] Cellulitis and acute lymphangitis -- **Excludes2:** - cellulitis of anal and rectal region (K61.-) - cellulitis of external auditory canal (H60.1) - cellulitis of eyelid (H00.0) - cellulitis of female external genital organs (N76.4) - cellulitis of lacrimal apparatus (H04.3) - cellulitis of male external genital organs (N48.2, N49.-) - cellulitis of mouth (K12.2) - cellulitis of nose (J34.0) - eosinophilic cellulitis [Wells] (L98.3) - febrile neutrophilic dermatosis [Sweet] (L98.2) - lymphangitis (chronic) (subacute) (I89.1)
+[L030] Cellulitis and acute lymphangitis of finger and toe -- **Inclusion terms:** - Infection of nail - Onychia - Paronychia - Perionychia
+[L0301] Cellulitis of finger -- **Inclusion terms:** - Felon - Whitlow  **Excludes1:** - herpetic whitlow (B00.89)
+[L03011] Cellulitis of right finger
+[L03012] Cellulitis of left finger
+[L03019] Cellulitis of unspecified finger
+[L0302] Acute lymphangitis of finger -- **Inclusion terms:** - Hangnail with lymphangitis of finger
+[L03021] Acute lymphangitis of right finger
+[L03022] Acute lymphangitis of left finger
+[L03029] Acute lymphangitis of unspecified finger
+[L0303] Cellulitis of toe
+[L03031] Cellulitis of right toe
+[L03032] Cellulitis of left toe
+[L03039] Cellulitis of unspecified toe
+[L0304] Acute lymphangitis of toe -- **Inclusion terms:** - Hangnail with lymphangitis of toe
+[L03041] Acute lymphangitis of right toe
+[L03042] Acute lymphangitis of left toe
+[L03049] Acute lymphangitis of unspecified toe
+[L031] Cellulitis and acute lymphangitis of other parts of limb
+[L0311] Cellulitis of other parts of limb -- **Excludes2:** - cellulitis of fingers (L03.01-) - cellulitis of toes (L03.03-) - groin (L03.314)
+[L03111] Cellulitis of right axilla
+[L03112] Cellulitis of left axilla
+[L03113] Cellulitis of right upper limb
+[L03114] Cellulitis of left upper limb
+[L03115] Cellulitis of right lower limb
+[L03116] Cellulitis of left lower limb
+[L03119] Cellulitis of unspecified part of limb
+[L0312] Acute lymphangitis of other parts of limb -- **Excludes2:** - acute lymphangitis of fingers (L03.2-) - acute lymphangitis of toes (L03.04-) - acute lymphangitis of groin (L03.324)
+[L03121] Acute lymphangitis of right axilla
+[L03122] Acute lymphangitis of left axilla
+[L03123] Acute lymphangitis of right upper limb
+[L03124] Acute lymphangitis of left upper limb
+[L03125] Acute lymphangitis of right lower limb
+[L03126] Acute lymphangitis of left lower limb
+[L03129] Acute lymphangitis of unspecified part of limb
+[L032] Cellulitis and acute lymphangitis of face and neck
+[L0321] Cellulitis and acute lymphangitis of face
+[L03211] Cellulitis of face -- **Excludes2:** - abscess of orbit (H05.01-) - cellulitis of ear (H60.1-) - cellulitis of eyelid (H00.0-) - cellulitis of head (L03.81) - cellulitis of lacrimal apparatus (H04.3) - cellulitis of lip (K13.0) - cellulitis of mouth (K12.2) - cellulitis of nose (internal) (J34.0) - cellulitis of orbit (H05.01-) - cellulitis of scalp (L03.81)
+[L03212] Acute lymphangitis of face
+[L03213] Periorbital cellulitis -- **Inclusion terms:** - Preseptal cellulitis
+[L0322] Cellulitis and acute lymphangitis of neck
+[L03221] Cellulitis of neck
+[L03222] Acute lymphangitis of neck
+[L033] Cellulitis and acute lymphangitis of trunk
+[L0331] Cellulitis of trunk -- **Excludes2:** - cellulitis of anal and rectal regions (K61.-) - cellulitis of breast NOS (N61.0) - cellulitis of female external genital organs (N76.4) - cellulitis of male external genital organs (N48.2, N49.-) - omphalitis of newborn (P38.-) - puerperal cellulitis of breast (O91.2)
+[L03311] Cellulitis of abdominal wall -- **Excludes2:** - cellulitis of umbilicus (L03.316) - cellulitis of groin (L03.314)
+[L03312] Cellulitis of back [any part except buttock]
+[L03313] Cellulitis of chest wall
+[L03314] Cellulitis of groin
+[L03315] Cellulitis of perineum
+[L03316] Cellulitis of umbilicus
+[L03317] Cellulitis of buttock
+[L03319] Cellulitis of trunk, unspecified
+[L0332] Acute lymphangitis of trunk
+[L03321] Acute lymphangitis of abdominal wall
+[L03322] Acute lymphangitis of back [any part except buttock]
+[L03323] Acute lymphangitis of chest wall
+[L03324] Acute lymphangitis of groin
+[L03325] Acute lymphangitis of perineum
+[L03326] Acute lymphangitis of umbilicus
+[L03327] Acute lymphangitis of buttock
+[L03329] Acute lymphangitis of trunk, unspecified
+[L038] Cellulitis and acute lymphangitis of other sites
+[L0381] Cellulitis of other sites
+[L03811] Cellulitis of head [any part, except face] -- **Inclusion terms:** - Cellulitis of scalp  **Excludes2:** - cellulitis of face (L03.211)
+[L03818] Cellulitis of other sites
+[L0389] Acute lymphangitis of other sites
+[L03891] Acute lymphangitis of head [any part, except face]
+[L03898] Acute lymphangitis of other sites
+[L039] Cellulitis and acute lymphangitis, unspecified
+[L0390] Cellulitis, unspecified
+[L0391] Acute lymphangitis, unspecified -- **Excludes1:** - lymphangitis NOS (I89.1)
+[L04] Acute lymphadenitis -- **Includes:** - abscess (acute) of lymph nodes, except mesenteric - acute lymphadenitis, except mesenteric  **Excludes1:** - chronic or subacute lymphadenitis, except mesenteric (I88.1) - enlarged lymph nodes (R59.-) - human immunodeficiency virus [HIV] disease resulting in generalized lymphadenopathy (B20) - lymphadenitis NOS (I88.9) - nonspecific mesenteric lymphadenitis (I88.0)
+[L040] Acute lymphadenitis of face, head and neck
+[L041] Acute lymphadenitis of trunk
+[L042] Acute lymphadenitis of upper limb -- **Inclusion terms:** - Acute lymphadenitis of axilla - Acute lymphadenitis of shoulder
+[L043] Acute lymphadenitis of lower limb -- **Inclusion terms:** - Acute lymphadenitis of hip  **Excludes2:** - acute lymphadenitis of groin (L04.1)
+[L048] Acute lymphadenitis of other sites
+[L049] Acute lymphadenitis, unspecified
+[L05] Pilonidal cyst and sinus
+[L050] Pilonidal cyst and sinus with abscess
+[L0501] Pilonidal cyst with abscess -- **Inclusion terms:** - Pilonidal abscess - Pilonidal dimple with abscess - Postanal dimple with abscess  **Excludes2:** - congenital sacral dimple (Q82.6) - parasacral dimple (Q82.6)
+[L0502] Pilonidal sinus with abscess -- **Inclusion terms:** - Coccygeal fistula with abscess - Coccygeal sinus with abscess - Pilonidal fistula with abscess
+[L059] Pilonidal cyst and sinus without abscess
+[L0591] Pilonidal cyst without abscess -- **Inclusion terms:** - Pilonidal dimple - Postanal dimple - Pilonidal cyst NOS  **Excludes2:** - congenital sacral dimple (Q82.6) - parasacral dimple (Q82.6)
+[L0592] Pilonidal sinus without abscess -- **Inclusion terms:** - Coccygeal fistula - Coccygeal sinus without abscess - Pilonidal fistula
+[L08] Other local infections of skin and subcutaneous tissue
+[L080] Pyoderma -- **Inclusion terms:** - Dermatitis gangrenosa - Purulent dermatitis - Septic dermatitis - Suppurative dermatitis  **Excludes1:** - pyoderma gangrenosum (L88) - pyoderma vegetans (L08.81)
+[L081] Erythrasma
+[L088] Other specified local infections of the skin and subcutaneous tissue
+[L0881] Pyoderma vegetans -- **Excludes1:** - pyoderma gangrenosum (L88) - pyoderma NOS (L08.0)
+[L0882] Omphalitis not of newborn -- **Excludes1:** - omphalitis of newborn (P38.-)
+[L0889] Other specified local infections of the skin and subcutaneous tissue
+[L089] Local infection of the skin and subcutaneous tissue, unspecified
+[L10] Pemphigus -- **Excludes1:** - pemphigus neonatorum (L01.03)
+[L100] Pemphigus vulgaris
+[L101] Pemphigus vegetans
+[L102] Pemphigus foliaceous
+[L103] Brazilian pemphigus [fogo selvagem]
+[L104] Pemphigus erythematosus -- **Inclusion terms:** - Senear-Usher syndrome
+[L105] Drug-induced pemphigus -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L108] Other pemphigus
+[L1081] Paraneoplastic pemphigus
+[L1089] Other pemphigus
+[L109] Pemphigus, unspecified
+[L11] Other acantholytic disorders
+[L110] Acquired keratosis follicularis -- **Excludes1:** - keratosis follicularis (congenital) [Darier-White] (Q82.8)
+[L111] Transient acantholytic dermatosis [Grover]
+[L118] Other specified acantholytic disorders
+[L119] Acantholytic disorder, unspecified
+[L12] Pemphigoid -- **Excludes1:** - herpes gestationis (O26.4-) - impetigo herpetiformis (L40.1)
+[L120] Bullous pemphigoid
+[L121] Cicatricial pemphigoid -- **Inclusion terms:** - Benign mucous membrane pemphigoid
+[L122] Chronic bullous disease of childhood -- **Inclusion terms:** - Juvenile dermatitis herpetiformis
+[L123] Acquired epidermolysis bullosa -- **Excludes1:** - epidermolysis bullosa (congenital) (Q81.-)
+[L1230] Acquired epidermolysis bullosa, unspecified
+[L1231] Epidermolysis bullosa due to drug -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L1235] Other acquired epidermolysis bullosa
+[L128] Other pemphigoid
+[L129] Pemphigoid, unspecified
+[L13] Other bullous disorders
+[L130] Dermatitis herpetiformis -- **Inclusion terms:** - Duhring's disease - Hydroa herpetiformis  **Excludes1:** - juvenile dermatitis herpetiformis (L12.2) - senile dermatitis herpetiformis (L12.0)
+[L131] Subcorneal pustular dermatitis -- **Inclusion terms:** - Sneddon-Wilkinson disease
+[L138] Other specified bullous disorders
+[L139] Bullous disorder, unspecified
+[L14] Bullous disorders in diseases classified elsewhere -- **Code first:** - underlying disease
+[L20] Atopic dermatitis
+[L200] Besnier's prurigo
+[L208] Other atopic dermatitis -- **Excludes2:** - circumscribed neurodermatitis (L28.0)
+[L2081] Atopic neurodermatitis -- **Inclusion terms:** - Diffuse neurodermatitis
+[L2082] Flexural eczema
+[L2083] Infantile (acute) (chronic) eczema
+[L2084] Intrinsic (allergic) eczema
+[L2089] Other atopic dermatitis
+[L209] Atopic dermatitis, unspecified
+[L21] Seborrheic dermatitis -- **Excludes2:** - infective dermatitis (L30.3) - seborrheic keratosis (L82.-)
+[L210] Seborrhea capitis -- **Inclusion terms:** - Cradle cap
+[L211] Seborrheic infantile dermatitis
+[L218] Other seborrheic dermatitis
+[L219] Seborrheic dermatitis, unspecified -- **Inclusion terms:** - Seborrhea NOS
+[L22] Diaper dermatitis -- **Inclusion terms:** - Diaper erythema - Diaper rash - Psoriasiform diaper rash
+[L23] Allergic contact dermatitis -- **Excludes1:** - allergy NOS (T78.40) - contact dermatitis NOS (L25.9) - dermatitis NOS (L30.9)  **Excludes2:** - dermatitis due to substances taken internally (L27.-) - dermatitis of eyelid (H01.1-) - diaper dermatitis (L22) - eczema of external ear (H60.5-) - irritant contact dermatitis (L24.-) - perioral dermatitis (L71.0) - radiation-related disorders of the skin and subcutaneous tissue (L55-L59)
+[L230] Allergic contact dermatitis due to metals -- **Inclusion terms:** - Allergic contact dermatitis due to chromium - Allergic contact dermatitis due to nickel
+[L231] Allergic contact dermatitis due to adhesives
+[L232] Allergic contact dermatitis due to cosmetics
+[L233] Allergic contact dermatitis due to drugs in contact with skin -- **Excludes2:** - dermatitis due to ingested drugs and medicaments (L27.0-L27.1)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L234] Allergic contact dermatitis due to dyes
+[L235] Allergic contact dermatitis due to other chemical products -- **Inclusion terms:** - Allergic contact dermatitis due to cement - Allergic contact dermatitis due to insecticide - Allergic contact dermatitis due to plastic - Allergic contact dermatitis due to rubber
+[L236] Allergic contact dermatitis due to food in contact with the skin -- **Excludes2:** - dermatitis due to ingested food (L27.2)
+[L237] Allergic contact dermatitis due to plants, except food -- **Excludes2:** - allergy NOS due to pollen (J30.1)
+[L238] Allergic contact dermatitis due to other agents
+[L2381] Allergic contact dermatitis due to animal (cat) (dog) dander -- **Inclusion terms:** - Allergic contact dermatitis due to animal (cat) (dog) hair
+[L2389] Allergic contact dermatitis due to other agents
+[L239] Allergic contact dermatitis, unspecified cause -- **Inclusion terms:** - Allergic contact eczema NOS
+[L24] Irritant contact dermatitis -- **Excludes1:** - allergy NOS (T78.40) - contact dermatitis NOS (L25.9) - dermatitis NOS (L30.9)  **Excludes2:** - allergic contact dermatitis (L23.-) - dermatitis due to substances taken internally (L27.-) - dermatitis of eyelid (H01.1-) - diaper dermatitis (L22) - eczema of external ear (H60.5-) - perioral dermatitis (L71.0) - radiation-related disorders of the skin and subcutaneous tissue (L55-L59)
+[L240] Irritant contact dermatitis due to detergents
+[L241] Irritant contact dermatitis due to oils and greases
+[L242] Irritant contact dermatitis due to solvents -- **Inclusion terms:** - Irritant contact dermatitis due to chlorocompound - Irritant contact dermatitis due to cyclohexane - Irritant contact dermatitis due to ester - Irritant contact dermatitis due to glycol - Irritant contact dermatitis due to hydrocarbon - Irritant contact dermatitis due to ketone
+[L243] Irritant contact dermatitis due to cosmetics
+[L244] Irritant contact dermatitis due to drugs in contact with skin -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L245] Irritant contact dermatitis due to other chemical products -- **Inclusion terms:** - Irritant contact dermatitis due to cement - Irritant contact dermatitis due to insecticide - Irritant contact dermatitis due to plastic - Irritant contact dermatitis due to rubber
+[L246] Irritant contact dermatitis due to food in contact with skin -- **Excludes2:** - dermatitis due to ingested food (L27.2)
+[L247] Irritant contact dermatitis due to plants, except food -- **Excludes2:** - allergy NOS to pollen (J30.1)
+[L248] Irritant contact dermatitis due to other agents
+[L2481] Irritant contact dermatitis due to metals -- **Inclusion terms:** - Irritant contact dermatitis due to chromium - Irritant contact dermatitis due to nickel
+[L2489] Irritant contact dermatitis due to other agents -- **Inclusion terms:** - Irritant contact dermatitis due to dyes
+[L249] Irritant contact dermatitis, unspecified cause -- **Inclusion terms:** - Irritant contact eczema NOS
+[L24A] Irritant contact dermatitis due to friction or contact with body fluids -- **Excludes1:** - irritant contact dermatitis related to stoma or fistula (L24.B-)  **Excludes2:** - erythema intertrigo (L30.4)
+[L24A0] Irritant contact dermatitis due to friction or contact with body fluids, unspecified
+[L24A1] Irritant contact dermatitis due to saliva
+[L24A2] Irritant contact dermatitis due to fecal, urinary or dual incontinence -- **Excludes1:** - diaper dermatitis (L22)
+[L24A9] Irritant contact dermatitis due friction or contact with other specified body fluids -- **Inclusion terms:** - Irritant contact dermatitis related to endotracheal tube - Wound fluids, exudate
+[L24B] Irritant contact dermatitis related to stoma or fistula -- **Use additional code:** - code to identify any artificial opening status (Z93.-), if applicable, for contact dermatitis related to stoma secretions
+[L24B0] Irritant contact dermatitis related to unspecified stoma or fistula -- **Inclusion terms:** - Irritant contact dermatitis related to fistula NOS - Irritant contact dermatitis related to stoma NOS
+[L24B1] Irritant contact dermatitis related to digestive stoma or fistula -- **Inclusion terms:** - Irritant contact dermatitis related to gastrostomy - Irritant contact dermatitis related to jejunostomy - Irritant contact dermatitis related to saliva or spit fistula
+[L24B2] Irritant contact dermatitis related to respiratory stoma or fistula -- **Inclusion terms:** - Irritant contact dermatitis related to tracheostomy
+[L24B3] Irritant contact dermatitis related to fecal or urinary stoma or fistula -- **Inclusion terms:** - Irritant contact dermatitis related to colostomy - Irritant contact dermatitis related to enterocutaneous fistula - Irritant contact dermatitis related to ileostomy
+[L25] Unspecified contact dermatitis -- **Excludes1:** - allergic contact dermatitis (L23.-) - allergy NOS (T78.40) - dermatitis NOS (L30.9) - irritant contact dermatitis (L24.-)  **Excludes2:** - dermatitis due to ingested substances (L27.-) - dermatitis of eyelid (H01.1-) - eczema of external ear (H60.5-) - perioral dermatitis (L71.0) - radiation-related disorders of the skin and subcutaneous tissue (L55-L59)
+[L250] Unspecified contact dermatitis due to cosmetics
+[L251] Unspecified contact dermatitis due to drugs in contact with skin -- **Excludes2:** - dermatitis due to ingested drugs and medicaments (L27.0-L27.1)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L252] Unspecified contact dermatitis due to dyes
+[L253] Unspecified contact dermatitis due to other chemical products -- **Inclusion terms:** - Unspecified contact dermatitis due to cement - Unspecified contact dermatitis due to insecticide
+[L254] Unspecified contact dermatitis due to food in contact with skin -- **Excludes2:** - dermatitis due to ingested food (L27.2)
+[L255] Unspecified contact dermatitis due to plants, except food -- **Excludes1:** - nettle rash (L50.9)  **Excludes2:** - allergy NOS due to pollen (J30.1)
+[L258] Unspecified contact dermatitis due to other agents
+[L259] Unspecified contact dermatitis, unspecified cause -- **Inclusion terms:** - Contact dermatitis (occupational) NOS - Contact eczema (occupational) NOS
+[L26] Exfoliative dermatitis -- **Inclusion terms:** - Hebra's pityriasis  **Excludes1:** - Ritter's disease (L00)
+[L27] Dermatitis due to substances taken internally -- **Excludes1:** - allergy NOS (T78.40)  **Excludes2:** - adverse food reaction, except dermatitis (T78.0-T78.1) - contact dermatitis (L23-L25) - drug photoallergic response (L56.1) - drug phototoxic response (L56.0) - urticaria (L50.-)
+[L270] Generalized skin eruption due to drugs and medicaments taken internally -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L271] Localized skin eruption due to drugs and medicaments taken internally -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L272] Dermatitis due to ingested food -- **Excludes2:** - dermatitis due to food in contact with skin (L23.6, L24.6, L25.4)
+[L278] Dermatitis due to other substances taken internally
+[L279] Dermatitis due to unspecified substance taken internally
+[L28] Lichen simplex chronicus and prurigo
+[L280] Lichen simplex chronicus -- **Inclusion terms:** - Circumscribed neurodermatitis - Lichen NOS
+[L281] Prurigo nodularis
+[L282] Other prurigo -- **Inclusion terms:** - Prurigo NOS - Prurigo Hebra - Prurigo mitis - Urticaria papulosa
+[L29] Pruritus -- **Excludes1:** - neurotic excoriation (L98.1) - psychogenic pruritus (F45.8)
+[L290] Pruritus ani
+[L291] Pruritus scroti
+[L292] Pruritus vulvae
+[L293] Anogenital pruritus, unspecified
+[L298] Other pruritus
+[L2981] Cholestatic pruritus -- **Code also:** - , if applicable, type of liver disease  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L2989] Other pruritus
+[L299] Pruritus, unspecified -- **Inclusion terms:** - Itch NOS
+[L30] Other and unspecified dermatitis -- **Excludes2:** - contact dermatitis (L23-L25) - dry skin dermatitis (L85.3) - small plaque parapsoriasis (L41.3) - stasis dermatitis (I87.2)
+[L300] Nummular dermatitis
+[L301] Dyshidrosis [pompholyx]
+[L302] Cutaneous autosensitization -- **Inclusion terms:** - Candidid [levurid] - Dermatophytid - Eczematid
+[L303] Infective dermatitis -- **Inclusion terms:** - Infectious eczematoid dermatitis
+[L304] Erythema intertrigo
+[L305] Pityriasis alba
+[L308] Other specified dermatitis
+[L309] Dermatitis, unspecified -- **Inclusion terms:** - Eczema NOS
+[L40] Psoriasis
+[L400] Psoriasis vulgaris -- **Inclusion terms:** - Nummular psoriasis - Plaque psoriasis
+[L401] Generalized pustular psoriasis -- **Inclusion terms:** - Impetigo herpetiformis - Von Zumbusch's disease
+[L402] Acrodermatitis continua
+[L403] Pustulosis palmaris et plantaris
+[L404] Guttate psoriasis
+[L405] Arthropathic psoriasis
+[L4050] Arthropathic psoriasis, unspecified
+[L4051] Distal interphalangeal psoriatic arthropathy
+[L4052] Psoriatic arthritis mutilans
+[L4053] Psoriatic spondylitis
+[L4054] Psoriatic juvenile arthropathy
+[L4059] Other psoriatic arthropathy
+[L408] Other psoriasis -- **Inclusion terms:** - Flexural psoriasis
+[L409] Psoriasis, unspecified
+[L41] Parapsoriasis -- **Excludes1:** - poikiloderma vasculare atrophicans (L94.5)
+[L410] Pityriasis lichenoides et varioliformis acuta -- **Inclusion terms:** - Mucha-Habermann disease
+[L411] Pityriasis lichenoides chronica
+[L413] Small plaque parapsoriasis
+[L414] Large plaque parapsoriasis
+[L415] Retiform parapsoriasis
+[L418] Other parapsoriasis
+[L419] Parapsoriasis, unspecified
+[L42] Pityriasis rosea
+[L43] Lichen planus -- **Excludes1:** - lichen planopilaris (L66.1-)
+[L430] Hypertrophic lichen planus
+[L431] Bullous lichen planus
+[L432] Lichenoid drug reaction -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L433] Subacute (active) lichen planus -- **Inclusion terms:** - Lichen planus tropicus
+[L438] Other lichen planus
+[L439] Lichen planus, unspecified
+[L44] Other papulosquamous disorders
+[L440] Pityriasis rubra pilaris
+[L441] Lichen nitidus
+[L442] Lichen striatus
+[L443] Lichen ruber moniliformis
+[L444] Infantile papular acrodermatitis [Gianotti-Crosti]
+[L448] Other specified papulosquamous disorders
+[L449] Papulosquamous disorder, unspecified
+[L45] Papulosquamous disorders in diseases classified elsewhere -- **Code first:** - underlying disease.
+[L49] Exfoliation due to erythematous conditions according to extent of body surface involved -- **Code first:** - erythematous condition causing exfoliation, such as: - Ritter's disease (L00) - (Staphylococcal) scalded skin syndrome (L00) - Stevens-Johnson syndrome (L51.1) - Stevens-Johnson syndrome-toxic epidermal necrolysis overlap syndrome (L51.3) - Toxic epidermal necrolysis (L51.2)
+[L490] Exfoliation due to erythematous condition involving less than 10 percent of body surface -- **Inclusion terms:** - Exfoliation due to erythematous condition NOS
+[L491] Exfoliation due to erythematous condition involving 10-19 percent of body surface
+[L492] Exfoliation due to erythematous condition involving 20-29 percent of body surface
+[L493] Exfoliation due to erythematous condition involving 30-39 percent of body surface
+[L494] Exfoliation due to erythematous condition involving 40-49 percent of body surface
+[L495] Exfoliation due to erythematous condition involving 50-59 percent of body surface
+[L496] Exfoliation due to erythematous condition involving 60-69 percent of body surface
+[L497] Exfoliation due to erythematous condition involving 70-79 percent of body surface
+[L498] Exfoliation due to erythematous condition involving 80-89 percent of body surface
+[L499] Exfoliation due to erythematous condition involving 90 or more percent of body surface
+[L50] Urticaria -- **Excludes1:** - allergic contact dermatitis (L23.-) - angioneurotic edema (T78.3) - giant urticaria (T78.3) - hereditary angio-edema (D84.1) - Quincke's edema (T78.3) - serum urticaria (T80.6-) - solar urticaria (L56.3) - urticaria neonatorum (P83.8) - urticaria papulosa (L28.2) - urticaria pigmentosa (D47.01)
+[L500] Allergic urticaria
+[L501] Idiopathic urticaria
+[L502] Urticaria due to cold and heat -- **Excludes2:** - familial cold urticaria (M04.2)
+[L503] Dermatographic urticaria
+[L504] Vibratory urticaria
+[L505] Cholinergic urticaria
+[L506] Contact urticaria
+[L508] Other urticaria -- **Inclusion terms:** - Chronic urticaria - Recurrent periodic urticaria
+[L509] Urticaria, unspecified
+[L51] Erythema multiforme -- **Excludes1:** - staphylococcal scalded skin syndrome (L00) - Ritter's disease (L00)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L510] Nonbullous erythema multiforme
+[L511] Stevens-Johnson syndrome
+[L512] Toxic epidermal necrolysis [Lyell]
+[L513] Stevens-Johnson syndrome-toxic epidermal necrolysis overlap syndrome -- **Inclusion terms:** - SJS-TEN overlap syndrome
+[L518] Other erythema multiforme
+[L519] Erythema multiforme, unspecified -- **Inclusion terms:** - Erythema iris - Erythema multiforme major NOS - Erythema multiforme minor NOS - Herpes iris
+[L52] Erythema nodosum -- **Excludes1:** - tuberculous erythema nodosum (A18.4)
+[L53] Other erythematous conditions -- **Excludes1:** - erythema ab igne (L59.0) - erythema due to external agents in contact with skin (L23-L25) - erythema intertrigo (L30.4)
+[L530] Toxic erythema -- **Excludes1:** - neonatal erythema toxicum (P83.1)  **Code first:** - poisoning due to drug or toxin, if applicable (T36-T65 with fifth or sixth character 1-4)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L531] Erythema annulare centrifugum
+[L532] Erythema marginatum
+[L533] Other chronic figurate erythema
+[L538] Other specified erythematous conditions
+[L539] Erythematous condition, unspecified -- **Inclusion terms:** - Erythema NOS - Erythroderma NOS
+[L54] Erythema in diseases classified elsewhere -- **Code first:** - underlying disease.
+[L55] Sunburn
+[L550] Sunburn of first degree
+[L551] Sunburn of second degree
+[L552] Sunburn of third degree
+[L559] Sunburn, unspecified
+[L56] Other acute skin changes due to ultraviolet radiation -- **Use additional code:** - code to identify the source of the ultraviolet radiation (W89, X32)
+[L560] Drug phototoxic response -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L561] Drug photoallergic response -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L562] Photocontact dermatitis [berloque dermatitis]
+[L563] Solar urticaria
+[L564] Polymorphous light eruption
+[L565] Disseminated superficial actinic porokeratosis (DSAP)
+[L568] Other specified acute skin changes due to ultraviolet radiation
+[L569] Acute skin change due to ultraviolet radiation, unspecified
+[L57] Skin changes due to chronic exposure to nonionizing radiation -- **Use additional code:** - code to identify the source of the ultraviolet radiation (W89), or other nonionizing radiation (W90)
+[L570] Actinic keratosis -- **Inclusion terms:** - Keratosis NOS - Senile keratosis - Solar keratosis
+[L571] Actinic reticuloid
+[L572] Cutis rhomboidalis nuchae
+[L573] Poikiloderma of Civatte
+[L574] Cutis laxa senilis -- **Inclusion terms:** - Elastosis senilis
+[L575] Actinic granuloma
+[L578] Other skin changes due to chronic exposure to nonionizing radiation -- **Inclusion terms:** - Farmer's skin - Sailor's skin - Solar dermatitis
+[L579] Skin changes due to chronic exposure to nonionizing radiation, unspecified
+[L58] Radiodermatitis -- **Use additional code:** - code to identify the source of the radiation (W88, W90)
+[L580] Acute radiodermatitis
+[L581] Chronic radiodermatitis
+[L589] Radiodermatitis, unspecified
+[L59] Other disorders of skin and subcutaneous tissue related to radiation
+[L590] Erythema ab igne [dermatitis ab igne]
+[L598] Other specified disorders of the skin and subcutaneous tissue related to radiation
+[L599] Disorder of the skin and subcutaneous tissue related to radiation, unspecified
+[L60] Nail disorders -- **Excludes2:** - clubbing of nails (R68.3) - onychia and paronychia (L03.0-)
+[L600] Ingrowing nail
+[L601] Onycholysis
+[L602] Onychogryphosis
+[L603] Nail dystrophy
+[L604] Beau's lines
+[L605] Yellow nail syndrome
+[L608] Other nail disorders
+[L609] Nail disorder, unspecified
+[L62] Nail disorders in diseases classified elsewhere -- **Code first:** - underlying disease, such as: - pachydermoperiostosis (M89.4-)
+[L63] Alopecia areata
+[L630] Alopecia (capitis) totalis
+[L631] Alopecia universalis
+[L632] Ophiasis
+[L638] Other alopecia areata
+[L639] Alopecia areata, unspecified
+[L64] Androgenic alopecia -- **Includes:** - male-pattern baldness
+[L640] Drug-induced androgenic alopecia -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L648] Other androgenic alopecia
+[L649] Androgenic alopecia, unspecified
+[L65] Other nonscarring hair loss -- **Excludes1:** - trichotillomania (F63.3)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L650] Telogen effluvium
+[L651] Anagen effluvium
+[L652] Alopecia mucinosa
+[L658] Other specified nonscarring hair loss
+[L659] Nonscarring hair loss, unspecified -- **Inclusion terms:** - Alopecia NOS
+[L66] Cicatricial alopecia [scarring hair loss]
+[L660] Pseudopelade
+[L661] Lichen planopilaris
+[L6610] Lichen planopilaris, unspecified
+[L6611] Classic lichen planopilaris -- **Inclusion terms:** - Follicular lichen planus
+[L6612] Frontal fibrosing alopecia -- **Inclusion terms:** - FFA
+[L6619] Other lichen planopilaris -- **Inclusion terms:** - Lassueur Graham-Little Piccardi syndrome
+[L662] Folliculitis decalvans
+[L663] Perifolliculitis capitis abscedens
+[L664] Folliculitis ulerythematosa reticulata
+[L668] Other cicatricial alopecia
+[L6681] Central centrifugal cicatricial alopecia -- **Inclusion terms:** - CCCA
+[L6689] Other cicatricial alopecia
+[L669] Cicatricial alopecia, unspecified
+[L67] Hair color and hair shaft abnormalities -- **Excludes1:** - monilethrix (Q84.1) - pili annulati (Q84.1) - telogen effluvium (L65.0)
+[L670] Trichorrhexis nodosa
+[L671] Variations in hair color -- **Inclusion terms:** - Canities - Greyness, hair (premature) - Heterochromia of hair - Poliosis circumscripta, acquired - Poliosis NOS
+[L678] Other hair color and hair shaft abnormalities -- **Inclusion terms:** - Fragilitas crinium
+[L679] Hair color and hair shaft abnormality, unspecified
+[L68] Hypertrichosis -- **Includes:** - excess hair  **Excludes1:** - congenital hypertrichosis (Q84.2) - persistent lanugo (Q84.2)
+[L680] Hirsutism
+[L681] Acquired hypertrichosis lanuginosa
+[L682] Localized hypertrichosis
+[L683] Polytrichia
+[L688] Other hypertrichosis
+[L689] Hypertrichosis, unspecified
+[L70] Acne -- **Excludes2:** - acne keloid (L73.0)
+[L700] Acne vulgaris
+[L701] Acne conglobata
+[L702] Acne varioliformis -- **Inclusion terms:** - Acne necrotica miliaris
+[L703] Acne tropica
+[L704] Infantile acne
+[L705] Acne excoriee -- **Inclusion terms:** - Acné excoriée des jeunes filles - Picker's acne
+[L708] Other acne
+[L709] Acne, unspecified
+[L71] Rosacea -- **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L710] Perioral dermatitis
+[L711] Rhinophyma
+[L718] Other rosacea
+[L719] Rosacea, unspecified
+[L72] Follicular cysts of skin and subcutaneous tissue
+[L720] Epidermal cyst
+[L721] Pilar and trichodermal cyst
+[L7211] Pilar cyst
+[L7212] Trichodermal cyst -- **Inclusion terms:** - Trichilemmal (proliferating) cyst
+[L722] Steatocystoma multiplex
+[L723] Sebaceous cyst -- **Excludes2:** - pilar cyst (L72.11) - trichilemmal (proliferating) cyst (L72.12)
+[L728] Other follicular cysts of the skin and subcutaneous tissue
+[L729] Follicular cyst of the skin and subcutaneous tissue, unspecified
+[L73] Other follicular disorders
+[L730] Acne keloid
+[L731] Pseudofolliculitis barbae
+[L732] Hidradenitis suppurativa
+[L738] Other specified follicular disorders -- **Inclusion terms:** - Sycosis barbae
+[L739] Follicular disorder, unspecified
+[L74] Eccrine sweat disorders -- **Excludes2:** - generalized hyperhidrosis (R61)
+[L740] Miliaria rubra
+[L741] Miliaria crystallina
+[L742] Miliaria profunda -- **Inclusion terms:** - Miliaria tropicalis
+[L743] Miliaria, unspecified
+[L744] Anhidrosis -- **Inclusion terms:** - Hypohidrosis
+[L745] Focal hyperhidrosis
+[L7451] Primary focal hyperhidrosis
+[L74510] Primary focal hyperhidrosis, axilla
+[L74511] Primary focal hyperhidrosis, face
+[L74512] Primary focal hyperhidrosis, palms
+[L74513] Primary focal hyperhidrosis, soles
+[L74519] Primary focal hyperhidrosis, unspecified
+[L7452] Secondary focal hyperhidrosis -- **Inclusion terms:** - Frey's syndrome
+[L748] Other eccrine sweat disorders
+[L749] Eccrine sweat disorder, unspecified -- **Inclusion terms:** - Sweat gland disorder NOS
+[L75] Apocrine sweat disorders -- **Excludes1:** - dyshidrosis (L30.1) - hidradenitis suppurativa (L73.2)
+[L750] Bromhidrosis
+[L751] Chromhidrosis
+[L752] Apocrine miliaria -- **Inclusion terms:** - Fox-Fordyce disease
+[L758] Other apocrine sweat disorders
+[L759] Apocrine sweat disorder, unspecified
+[L76] Intraoperative and postprocedural complications of skin and subcutaneous tissue
+[L760] Intraoperative hemorrhage and hematoma of skin and subcutaneous tissue complicating a procedure -- **Excludes1:** - intraoperative hemorrhage and hematoma of skin and subcutaneous tissue due to accidental puncture and laceration during a procedure (L76.1-)
+[L7601] Intraoperative hemorrhage and hematoma of skin and subcutaneous tissue complicating a dermatologic procedure
+[L7602] Intraoperative hemorrhage and hematoma of skin and subcutaneous tissue complicating other procedure
+[L761] Accidental puncture and laceration of skin and subcutaneous tissue during a procedure
+[L7611] Accidental puncture and laceration of skin and subcutaneous tissue during a dermatologic procedure
+[L7612] Accidental puncture and laceration of skin and subcutaneous tissue during other procedure
+[L762] Postprocedural hemorrhage of skin and subcutaneous tissue following a procedure
+[L7621] Postprocedural hemorrhage of skin and subcutaneous tissue following a dermatologic procedure
+[L7622] Postprocedural hemorrhage of skin and subcutaneous tissue following other procedure
+[L763] Postprocedural hematoma and seroma of skin and subcutaneous tissue following a procedure
+[L7631] Postprocedural hematoma of skin and subcutaneous tissue following a dermatologic procedure
+[L7632] Postprocedural hematoma of skin and subcutaneous tissue following other procedure
+[L7633] Postprocedural seroma of skin and subcutaneous tissue following a dermatologic procedure
+[L7634] Postprocedural seroma of skin and subcutaneous tissue following other procedure
+[L768] Other intraoperative and postprocedural complications of skin and subcutaneous tissue -- **Use additional code:** - code, if applicable, to further specify disorder
+[L7681] Other intraoperative complications of skin and subcutaneous tissue
+[L7682] Other postprocedural complications of skin and subcutaneous tissue
+[L80] Vitiligo -- **Excludes2:** - vitiligo of eyelids (H02.73-) - vitiligo of vulva (N90.89)
+[L81] Other disorders of pigmentation -- **Excludes1:** - birthmark NOS (Q82.5) - Peutz-Jeghers syndrome (Q85.89)  **Excludes2:** - nevus - see Alphabetical Index
+[L810] Postinflammatory hyperpigmentation
+[L811] Chloasma
+[L812] Freckles
+[L813] Cafe au lait spots
+[L814] Other melanin hyperpigmentation -- **Inclusion terms:** - Lentigo
+[L815] Leukoderma, not elsewhere classified
+[L816] Other disorders of diminished melanin formation
+[L817] Pigmented purpuric dermatosis -- **Inclusion terms:** - Angioma serpiginosum
+[L818] Other specified disorders of pigmentation -- **Inclusion terms:** - Iron pigmentation - Tattoo pigmentation
+[L819] Disorder of pigmentation, unspecified
+[L82] Seborrheic keratosis -- **Includes:** - basal cell papilloma - dermatosis papulosa nigra - Leser-Trélat disease  **Excludes2:** - seborrheic dermatitis (L21.-)
+[L820] Inflamed seborrheic keratosis
+[L821] Other seborrheic keratosis -- **Inclusion terms:** - Seborrheic keratosis NOS
+[L83] Acanthosis nigricans -- **Inclusion terms:** - Confluent and reticulated papillomatosis
+[L84] Corns and callosities -- **Inclusion terms:** - Callus - Clavus
+[L85] Other epidermal thickening -- **Excludes2:** - hypertrophic disorders of the skin (L91.-)
+[L850] Acquired ichthyosis -- **Excludes1:** - congenital ichthyosis (Q80.-)
+[L851] Acquired keratosis [keratoderma] palmaris et plantaris -- **Excludes1:** - inherited keratosis palmaris et plantaris (Q82.8)
+[L852] Keratosis punctata (palmaris et plantaris)
+[L853] Xerosis cutis -- **Inclusion terms:** - Dry skin dermatitis
+[L858] Other specified epidermal thickening -- **Inclusion terms:** - Cutaneous horn
+[L859] Epidermal thickening, unspecified
+[L86] Keratoderma in diseases classified elsewhere -- **Excludes1:** - gonococcal keratoderma (A54.89) - gonococcal keratosis (A54.89) - keratoderma due to vitamin A deficiency (E50.8) - keratosis due to vitamin A deficiency (E50.8) - xeroderma due to vitamin A deficiency (E50.8)  **Code first:** - underlying disease, such as: - Reiter's disease (M02.3-)
+[L87] Transepidermal elimination disorders -- **Excludes1:** - granuloma annulare (perforating) (L92.0)
+[L870] Keratosis follicularis et parafollicularis in cutem penetrans -- **Inclusion terms:** - Kyrle disease - Hyperkeratosis follicularis penetrans
+[L871] Reactive perforating collagenosis
+[L872] Elastosis perforans serpiginosa
+[L878] Other transepidermal elimination disorders
+[L879] Transepidermal elimination disorder, unspecified
+[L88] Pyoderma gangrenosum -- **Inclusion terms:** - Phagedenic pyoderma  **Excludes1:** - dermatitis gangrenosa (L08.0)
+[L89] Pressure ulcer -- **Includes:** - bed sore - decubitus ulcer - plaster ulcer - pressure area - pressure sore  **Excludes2:** - decubitus (trophic) ulcer of cervix (uteri) (N86) - diabetic ulcers (E08.621, E08.622, E09.621, E09.622, E10.621, E10.622, E11.621, E11.622, E13.621, E13.622) - non-pressure chronic ulcer of skin (L97.-) - skin infections (L00-L08) - varicose ulcer (I83.0, I83.2)  **Code first:** - any associated gangrene (I96)
+[L890] Pressure ulcer of elbow
+[L8900] Pressure ulcer of unspecified elbow
+[L89000] Pressure ulcer of unspecified elbow, unstageable
+[L89001] Pressure ulcer of unspecified elbow, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of unspecified elbow, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, unspecified elbow
+[L89002] Pressure ulcer of unspecified elbow, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of unspecified elbow, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, unspecified elbow
+[L89003] Pressure ulcer of unspecified elbow, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of unspecified elbow, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, unspecified elbow
+[L89004] Pressure ulcer of unspecified elbow, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of unspecified elbow, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, unspecified elbow
+[L89006] Pressure-induced deep tissue damage of unspecified elbow
+[L89009] Pressure ulcer of unspecified elbow, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of elbow NOS - Healing pressure ulcer of unspecified elbow, unspecified stage
+[L8901] Pressure ulcer of right elbow
+[L89010] Pressure ulcer of right elbow, unstageable
+[L89011] Pressure ulcer of right elbow, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of right elbow, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, right elbow
+[L89012] Pressure ulcer of right elbow, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of right elbow, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, right elbow
+[L89013] Pressure ulcer of right elbow, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of right elbow, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, right elbow
+[L89014] Pressure ulcer of right elbow, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of right elbow, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, right elbow
+[L89016] Pressure-induced deep tissue damage of right elbow
+[L89019] Pressure ulcer of right elbow, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of right elbow NOS
+[L8902] Pressure ulcer of left elbow
+[L89020] Pressure ulcer of left elbow, unstageable
+[L89021] Pressure ulcer of left elbow, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of left elbow, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, left elbow
+[L89022] Pressure ulcer of left elbow, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of left elbow, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, left elbow
+[L89023] Pressure ulcer of left elbow, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of left elbow, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, left elbow
+[L89024] Pressure ulcer of left elbow, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of left elbow, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, left elbow
+[L89026] Pressure-induced deep tissue damage of left elbow
+[L89029] Pressure ulcer of left elbow, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of left elbow NOS
+[L891] Pressure ulcer of back
+[L8910] Pressure ulcer of unspecified part of back
+[L89100] Pressure ulcer of unspecified part of back, unstageable
+[L89101] Pressure ulcer of unspecified part of back, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of unspecified part of back, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, unspecified part of back
+[L89102] Pressure ulcer of unspecified part of back, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of unspecified part of back, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, unspecified part of back
+[L89103] Pressure ulcer of unspecified part of back, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of unspecified part of back, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, unspecified part of back
+[L89104] Pressure ulcer of unspecified part of back, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of unspecified part of back, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, unspecified part of back
+[L89106] Pressure-induced deep tissue damage of unspecified part of back
+[L89109] Pressure ulcer of unspecified part of back, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of unspecified part of back NOS - Healing pressure ulcer of unspecified part of back, unspecified stage
+[L8911] Pressure ulcer of right upper back -- **Inclusion terms:** - Pressure ulcer of right shoulder blade
+[L89110] Pressure ulcer of right upper back, unstageable
+[L89111] Pressure ulcer of right upper back, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of right upper back, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, right upper back
+[L89112] Pressure ulcer of right upper back, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of right upper back, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, right upper back
+[L89113] Pressure ulcer of right upper back, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of right upper back, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, right upper back
+[L89114] Pressure ulcer of right upper back, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of right upper back, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, right upper back
+[L89116] Pressure-induced deep tissue damage of right upper back
+[L89119] Pressure ulcer of right upper back, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of right upper back NOS - Healing pressure ulcer of right upper back, unspecified stage
+[L8912] Pressure ulcer of left upper back -- **Inclusion terms:** - Pressure ulcer of left shoulder blade
+[L89120] Pressure ulcer of left upper back, unstageable
+[L89121] Pressure ulcer of left upper back, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of left upper back, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, left upper back
+[L89122] Pressure ulcer of left upper back, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of left upper back, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, left upper back
+[L89123] Pressure ulcer of left upper back, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of left upper back, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, left upper back
+[L89124] Pressure ulcer of left upper back, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of left upper back, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, left upper back
+[L89126] Pressure-induced deep tissue damage of left upper back
+[L89129] Pressure ulcer of left upper back, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of left upper back NOS - Healing pressure ulcer of left upper back, unspecified stage
+[L8913] Pressure ulcer of right lower back
+[L89130] Pressure ulcer of right lower back, unstageable
+[L89131] Pressure ulcer of right lower back, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of right lower back, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, right lower back
+[L89132] Pressure ulcer of right lower back, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of right lower back, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, right lower back
+[L89133] Pressure ulcer of right lower back, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of right lower back, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, right lower back
+[L89134] Pressure ulcer of right lower back, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of right lower back, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, right lower back
+[L89136] Pressure-induced deep tissue damage of right lower back
+[L89139] Pressure ulcer of right lower back, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of right lower back NOS - Healing pressure ulcer of right lower back, unspecified stage
+[L8914] Pressure ulcer of left lower back
+[L89140] Pressure ulcer of left lower back, unstageable
+[L89141] Pressure ulcer of left lower back, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of left lower back, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, left lower back
+[L89142] Pressure ulcer of left lower back, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of left lower back, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, left lower back
+[L89143] Pressure ulcer of left lower back, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of left lower back, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, left lower back
+[L89144] Pressure ulcer of left lower back, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of left lower back, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, left lower back
+[L89146] Pressure-induced deep tissue damage of left lower back
+[L89149] Pressure ulcer of left lower back, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of left lower back NOS - Healing pressure ulcer of left lower back, unspecified stage
+[L8915] Pressure ulcer of sacral region -- **Inclusion terms:** - Pressure ulcer of coccyx - Pressure ulcer of tailbone
+[L89150] Pressure ulcer of sacral region, unstageable
+[L89151] Pressure ulcer of sacral region, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of sacral region, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, sacral region
+[L89152] Pressure ulcer of sacral region, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of sacral region, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, sacral region
+[L89153] Pressure ulcer of sacral region, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of sacral region, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, sacral region
+[L89154] Pressure ulcer of sacral region, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of sacral region, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, sacral region
+[L89156] Pressure-induced deep tissue damage of sacral region
+[L89159] Pressure ulcer of sacral region, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of sacral region NOS - Healing pressure ulcer of sacral region, unspecified stage
+[L892] Pressure ulcer of hip
+[L8920] Pressure ulcer of unspecified hip
+[L89200] Pressure ulcer of unspecified hip, unstageable
+[L89201] Pressure ulcer of unspecified hip, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of unspecified hip back, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, unspecified hip
+[L89202] Pressure ulcer of unspecified hip, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of unspecified hip, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, unspecified hip
+[L89203] Pressure ulcer of unspecified hip, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of unspecified hip, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, unspecified hip
+[L89204] Pressure ulcer of unspecified hip, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of unspecified hip, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, unspecified hip
+[L89206] Pressure-induced deep tissue damage of unspecified hip
+[L89209] Pressure ulcer of unspecified hip, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of unspecified hip NOS - Healing pressure ulcer of unspecified hip, unspecified stage
+[L8921] Pressure ulcer of right hip
+[L89210] Pressure ulcer of right hip, unstageable
+[L89211] Pressure ulcer of right hip, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of right hip back, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, right hip
+[L89212] Pressure ulcer of right hip, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of right hip, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, right hip
+[L89213] Pressure ulcer of right hip, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of right hip, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, right hip
+[L89214] Pressure ulcer of right hip, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of right hip, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, right hip
+[L89216] Pressure-induced deep tissue damage of right hip
+[L89219] Pressure ulcer of right hip, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of right hip NOS - Healing pressure ulcer of right hip, unspecified stage
+[L8922] Pressure ulcer of left hip
+[L89220] Pressure ulcer of left hip, unstageable
+[L89221] Pressure ulcer of left hip, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of left hip back, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, left hip
+[L89222] Pressure ulcer of left hip, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of left hip, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, left hip
+[L89223] Pressure ulcer of left hip, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of left hip, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, left hip
+[L89224] Pressure ulcer of left hip, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of left hip, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, left hip
+[L89226] Pressure-induced deep tissue damage of left hip
+[L89229] Pressure ulcer of left hip, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of left hip NOS - Healing pressure ulcer of left hip, unspecified stage
+[L893] Pressure ulcer of buttock
+[L8930] Pressure ulcer of unspecified buttock
+[L89300] Pressure ulcer of unspecified buttock, unstageable
+[L89301] Pressure ulcer of unspecified buttock, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of unspecified buttock, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, unspecified buttock
+[L89302] Pressure ulcer of unspecified buttock, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of unspecified buttock, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, unspecified buttock
+[L89303] Pressure ulcer of unspecified buttock, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of unspecified buttock, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, unspecified buttock
+[L89304] Pressure ulcer of unspecified buttock, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of unspecified buttock, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, unspecified buttock
+[L89306] Pressure-induced deep tissue damage of unspecified buttock
+[L89309] Pressure ulcer of unspecified buttock, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of unspecified buttock NOS - Healing pressure ulcer of unspecified buttock, unspecified stage
+[L8931] Pressure ulcer of right buttock
+[L89310] Pressure ulcer of right buttock, unstageable
+[L89311] Pressure ulcer of right buttock, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of right buttock, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, right buttock
+[L89312] Pressure ulcer of right buttock, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of right buttock, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, right buttock
+[L89313] Pressure ulcer of right buttock, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of right buttock, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, right buttock
+[L89314] Pressure ulcer of right buttock, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of right buttock, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, right buttock
+[L89316] Pressure-induced deep tissue damage of right buttock
+[L89319] Pressure ulcer of right buttock, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of right buttock NOS - Healing pressure ulcer of right buttock, unspecified stage
+[L8932] Pressure ulcer of left buttock
+[L89320] Pressure ulcer of left buttock, unstageable
+[L89321] Pressure ulcer of left buttock, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of left buttock, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, left buttock
+[L89322] Pressure ulcer of left buttock, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of left buttock, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, left buttock
+[L89323] Pressure ulcer of left buttock, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of left buttock, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, left buttock
+[L89324] Pressure ulcer of left buttock, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of left buttock, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, left buttock
+[L89326] Pressure-induced deep tissue damage of left buttock
+[L89329] Pressure ulcer of left buttock, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of left buttock NOS - Healing pressure ulcer of left buttock, unspecified stage
+[L894] Pressure ulcer of contiguous site of back, buttock and hip
+[L8940] Pressure ulcer of contiguous site of back, buttock and hip, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of contiguous site of back, buttock and hip NOS - Healing pressure ulcer of contiguous site of back, buttock and hip, unspecified stage
+[L8941] Pressure ulcer of contiguous site of back, buttock and hip, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of contiguous site of back, buttock and hip, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, contiguous site of back, buttock and hip
+[L8942] Pressure ulcer of contiguous site of back, buttock and hip, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of contiguous site of back, buttock and hip, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, contiguous site of back, buttock and hip
+[L8943] Pressure ulcer of contiguous site of back, buttock and hip, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of contiguous site of back, buttock and hip, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, contiguous site of back, buttock and hip
+[L8944] Pressure ulcer of contiguous site of back, buttock and hip, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of contiguous site of back, buttock and hip, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, contiguous site of back, buttock and hip
+[L8945] Pressure ulcer of contiguous site of back, buttock and hip, unstageable
+[L8946] Pressure-induced deep tissue damage of contiguous site of back, buttock and hip
+[L895] Pressure ulcer of ankle
+[L8950] Pressure ulcer of unspecified ankle
+[L89500] Pressure ulcer of unspecified ankle, unstageable
+[L89501] Pressure ulcer of unspecified ankle, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of unspecified ankle, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, unspecified ankle
+[L89502] Pressure ulcer of unspecified ankle, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of unspecified ankle, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, unspecified ankle
+[L89503] Pressure ulcer of unspecified ankle, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of unspecified ankle, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, unspecified ankle
+[L89504] Pressure ulcer of unspecified ankle, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of unspecified ankle, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, unspecified ankle
+[L89506] Pressure-induced deep tissue damage of unspecified ankle
+[L89509] Pressure ulcer of unspecified ankle, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of unspecified ankle NOS - Healing pressure ulcer of unspecified ankle, unspecified stage
+[L8951] Pressure ulcer of right ankle
+[L89510] Pressure ulcer of right ankle, unstageable
+[L89511] Pressure ulcer of right ankle, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of right ankle, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, right ankle
+[L89512] Pressure ulcer of right ankle, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of right ankle, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, right ankle
+[L89513] Pressure ulcer of right ankle, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of right ankle, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, right ankle
+[L89514] Pressure ulcer of right ankle, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of right ankle, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, right ankle
+[L89516] Pressure-induced deep tissue damage of right ankle
+[L89519] Pressure ulcer of right ankle, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of right ankle NOS - Healing pressure ulcer of right ankle, unspecified stage
+[L8952] Pressure ulcer of left ankle
+[L89520] Pressure ulcer of left ankle, unstageable
+[L89521] Pressure ulcer of left ankle, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of left ankle, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, left ankle
+[L89522] Pressure ulcer of left ankle, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of left ankle, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, left ankle
+[L89523] Pressure ulcer of left ankle, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of left ankle, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, left ankle
+[L89524] Pressure ulcer of left ankle, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of left ankle, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, left ankle
+[L89526] Pressure-induced deep tissue damage of left ankle
+[L89529] Pressure ulcer of left ankle, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of left ankle NOS - Healing pressure ulcer of left ankle, unspecified stage
+[L896] Pressure ulcer of heel
+[L8960] Pressure ulcer of unspecified heel
+[L89600] Pressure ulcer of unspecified heel, unstageable
+[L89601] Pressure ulcer of unspecified heel, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of unspecified heel, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, unspecified heel
+[L89602] Pressure ulcer of unspecified heel, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of unspecified heel, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, unspecified heel
+[L89603] Pressure ulcer of unspecified heel, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of unspecified heel, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, unspecified heel
+[L89604] Pressure ulcer of unspecified heel, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of unspecified heel, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, unspecified heel
+[L89606] Pressure-induced deep tissue damage of unspecified heel
+[L89609] Pressure ulcer of unspecified heel, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of unspecified heel NOS - Healing pressure ulcer of unspecified heel, unspecified stage
+[L8961] Pressure ulcer of right heel
+[L89610] Pressure ulcer of right heel, unstageable
+[L89611] Pressure ulcer of right heel, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of right heel, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, right heel
+[L89612] Pressure ulcer of right heel, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of right heel, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, right heel
+[L89613] Pressure ulcer of right heel, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of right heel, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, right heel
+[L89614] Pressure ulcer of right heel, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of right heel, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, right heel
+[L89616] Pressure-induced deep tissue damage of right heel
+[L89619] Pressure ulcer of right heel, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of right heel NOS - Healing pressure ulcer of right heel, unspecified stage
+[L8962] Pressure ulcer of left heel
+[L89620] Pressure ulcer of left heel, unstageable
+[L89621] Pressure ulcer of left heel, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of left heel, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, left heel
+[L89622] Pressure ulcer of left heel, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of left heel, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, left heel
+[L89623] Pressure ulcer of left heel, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of left heel, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, left heel
+[L89624] Pressure ulcer of left heel, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of left heel, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, left heel
+[L89626] Pressure-induced deep tissue damage of left heel
+[L89629] Pressure ulcer of left heel, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of left heel NOS - Healing pressure ulcer of left heel, unspecified stage
+[L898] Pressure ulcer of other site
+[L8981] Pressure ulcer of head -- **Inclusion terms:** - Pressure ulcer of face
+[L89810] Pressure ulcer of head, unstageable
+[L89811] Pressure ulcer of head, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of head, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, head
+[L89812] Pressure ulcer of head, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of head, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, head
+[L89813] Pressure ulcer of head, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of head, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, head
+[L89814] Pressure ulcer of head, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of head, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, head
+[L89816] Pressure-induced deep tissue damage of head
+[L89819] Pressure ulcer of head, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of head NOS - Healing pressure ulcer of head, unspecified stage
+[L8989] Pressure ulcer of other site
+[L89890] Pressure ulcer of other site, unstageable
+[L89891] Pressure ulcer of other site, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of other site, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, other site
+[L89892] Pressure ulcer of other site, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of other site, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, other site
+[L89893] Pressure ulcer of other site, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of other site, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, other site
+[L89894] Pressure ulcer of other site, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of other site, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, other site
+[L89896] Pressure-induced deep tissue damage of other site
+[L89899] Pressure ulcer of other site, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of other site NOS - Healing pressure ulcer of other site, unspecified stage
+[L899] Pressure ulcer of unspecified site
+[L8990] Pressure ulcer of unspecified site, unspecified stage -- **Inclusion terms:** - Healing pressure ulcer of unspecified site NOS - Healing pressure ulcer of unspecified site, unspecified stage
+[L8991] Pressure ulcer of unspecified site, stage 1 -- **Inclusion terms:** - Healing pressure ulcer of unspecified site, stage 1 - Pressure pre-ulcer skin changes limited to persistent focal edema, unspecified site
+[L8992] Pressure ulcer of unspecified site, stage 2 -- **Inclusion terms:** - Healing pressure ulcer of unspecified site, stage 2 - Pressure ulcer with abrasion, blister, partial thickness skin loss involving epidermis and/or dermis, unspecified site
+[L8993] Pressure ulcer of unspecified site, stage 3 -- **Inclusion terms:** - Healing pressure ulcer of unspecified site, stage 3 - Pressure ulcer with full thickness skin loss involving damage or necrosis of subcutaneous tissue, unspecified site
+[L8994] Pressure ulcer of unspecified site, stage 4 -- **Inclusion terms:** - Healing pressure ulcer of unspecified site, stage 4 - Pressure ulcer with necrosis of soft tissues through to underlying muscle, tendon, or bone, unspecified site
+[L8995] Pressure ulcer of unspecified site, unstageable
+[L8996] Pressure-induced deep tissue damage of unspecified site
+[L90] Atrophic disorders of skin
+[L900] Lichen sclerosus et atrophicus -- **Excludes2:** - lichen sclerosus of external female genital organs (N90.4) - lichen sclerosus of external male genital organs (N48.0)
+[L901] Anetoderma of Schweninger-Buzzi
+[L902] Anetoderma of Jadassohn-Pellizzari
+[L903] Atrophoderma of Pasini and Pierini
+[L904] Acrodermatitis chronica atrophicans
+[L905] Scar conditions and fibrosis of skin -- **Inclusion terms:** - Adherent scar (skin) - Cicatrix - Disfigurement of skin due to scar - Fibrosis of skin NOS - Scar NOS  **Excludes2:** - hypertrophic scar (L91.0) - keloid scar (L91.0)
+[L906] Striae atrophicae
+[L908] Other atrophic disorders of skin
+[L909] Atrophic disorder of skin, unspecified
+[L91] Hypertrophic disorders of skin
+[L910] Hypertrophic scar -- **Inclusion terms:** - Keloid - Keloid scar  **Excludes2:** - acne keloid (L73.0) - scar NOS (L90.5)
+[L918] Other hypertrophic disorders of the skin
+[L919] Hypertrophic disorder of the skin, unspecified
+[L92] Granulomatous disorders of skin and subcutaneous tissue -- **Excludes2:** - actinic granuloma (L57.5)
+[L920] Granuloma annulare -- **Inclusion terms:** - Perforating granuloma annulare
+[L921] Necrobiosis lipoidica, not elsewhere classified -- **Excludes1:** - necrobiosis lipoidica associated with diabetes mellitus (E08-E13 with .620)
+[L922] Granuloma faciale [eosinophilic granuloma of skin]
+[L923] Foreign body granuloma of the skin and subcutaneous tissue -- **Use additional code:** - code to identify the type of retained foreign body (Z18.-)
+[L928] Other granulomatous disorders of the skin and subcutaneous tissue
+[L929] Granulomatous disorder of the skin and subcutaneous tissue, unspecified -- **Excludes2:** - umbilical granuloma (P83.81)
+[L93] Lupus erythematosus -- **Excludes1:** - lupus exedens (A18.4) - lupus vulgaris (A18.4) - scleroderma (M34.-) - systemic lupus erythematosus (M32.-)  **Use additional code:** - code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)
+[L930] Discoid lupus erythematosus -- **Inclusion terms:** - Lupus erythematosus NOS
+[L931] Subacute cutaneous lupus erythematosus
+[L932] Other local lupus erythematosus -- **Inclusion terms:** - Lupus erythematosus profundus - Lupus panniculitis
+[L94] Other localized connective tissue disorders -- **Excludes1:** - systemic connective tissue disorders (M30-M36)
+[L940] Localized scleroderma [morphea] -- **Inclusion terms:** - Circumscribed scleroderma
+[L941] Linear scleroderma -- **Inclusion terms:** - En coup de sabre lesion
+[L942] Calcinosis cutis
+[L943] Sclerodactyly
+[L944] Gottron's papules
+[L945] Poikiloderma vasculare atrophicans
+[L946] Ainhum
+[L948] Other specified localized connective tissue disorders
+[L949] Localized connective tissue disorder, unspecified
+[L95] Vasculitis limited to skin, not elsewhere classified -- **Excludes1:** - angioma serpiginosum (L81.7) - Henoch(-Schönlein) purpura (D69.0) - hypersensitivity angiitis (M31.0) - lupus panniculitis (L93.2) - panniculitis NOS (M79.3) - panniculitis of neck and back (M54.0-) - polyarteritis nodosa (M30.0) - relapsing panniculitis (M35.6) - rheumatoid vasculitis (M05.2) - serum sickness (T80.6-) - urticaria (L50.-) - Wegener's granulomatosis (M31.3-)
+[L950] Livedoid vasculitis -- **Inclusion terms:** - Atrophie blanche (en plaque)
+[L951] Erythema elevatum diutinum
+[L958] Other vasculitis limited to the skin
+[L959] Vasculitis limited to the skin, unspecified
+[L97] Non-pressure chronic ulcer of lower limb, not elsewhere classified -- **Includes:** - chronic ulcer of skin of lower limb NOS - non-healing ulcer of skin - non-infected sinus of skin - trophic ulcer NOS - tropical ulcer NOS - ulcer of skin of lower limb NOS  **Excludes2:** - pressure ulcer (pressure area) (L89.-) - skin infections (L00-L08) - specific infections classified to A00-B99  **Code first:** - any associated underlying condition, such as: - any associated gangrene (I96) - atherosclerosis of the lower extremities (I70.23-, I70.24-, I70.33-, I70.34-, I70.43-, I70.44-, I70.53-, I70.54-, I70.63-, I70.64-, I70.73-, I70.74-) - chronic venous hypertension (I87.31-, I87.33-) - diabetic ulcers (E08.621, E08.622, E09.621, E09.622, E10.621, E10.622, E11.621, E11.622, E13.621, E13.622) - postphlebitic syndrome (I87.01-, I87.03-) - postthrombotic syndrome (I87.01-, I87.03-) - varicose ulcer (I83.0-, I83.2-)
+[L971] Non-pressure chronic ulcer of thigh
+[L9710] Non-pressure chronic ulcer of unspecified thigh
+[L97101] Non-pressure chronic ulcer of unspecified thigh limited to breakdown of skin
+[L97102] Non-pressure chronic ulcer of unspecified thigh with fat layer exposed
+[L97103] Non-pressure chronic ulcer of unspecified thigh with necrosis of muscle
+[L97104] Non-pressure chronic ulcer of unspecified thigh with necrosis of bone
+[L97105] Non-pressure chronic ulcer of unspecified thigh with muscle involvement without evidence of necrosis
+[L97106] Non-pressure chronic ulcer of unspecified thigh with bone involvement without evidence of necrosis
+[L97108] Non-pressure chronic ulcer of unspecified thigh with other specified severity
+[L97109] Non-pressure chronic ulcer of unspecified thigh with unspecified severity
+[L9711] Non-pressure chronic ulcer of right thigh
+[L97111] Non-pressure chronic ulcer of right thigh limited to breakdown of skin
+[L97112] Non-pressure chronic ulcer of right thigh with fat layer exposed
+[L97113] Non-pressure chronic ulcer of right thigh with necrosis of muscle
+[L97114] Non-pressure chronic ulcer of right thigh with necrosis of bone
+[L97115] Non-pressure chronic ulcer of right thigh with muscle involvement without evidence of necrosis
+[L97116] Non-pressure chronic ulcer of right thigh with bone involvement without evidence of necrosis
+[L97118] Non-pressure chronic ulcer of right thigh with other specified severity
+[L97119] Non-pressure chronic ulcer of right thigh with unspecified severity
+[L9712] Non-pressure chronic ulcer of left thigh
+[L97121] Non-pressure chronic ulcer of left thigh limited to breakdown of skin
+[L97122] Non-pressure chronic ulcer of left thigh with fat layer exposed
+[L97123] Non-pressure chronic ulcer of left thigh with necrosis of muscle
+[L97124] Non-pressure chronic ulcer of left thigh with necrosis of bone
+[L97125] Non-pressure chronic ulcer of left thigh with muscle involvement without evidence of necrosis
+[L97126] Non-pressure chronic ulcer of left thigh with bone involvement without evidence of necrosis
+[L97128] Non-pressure chronic ulcer of left thigh with other specified severity
+[L97129] Non-pressure chronic ulcer of left thigh with unspecified severity
+[L972] Non-pressure chronic ulcer of calf
+[L9720] Non-pressure chronic ulcer of unspecified calf
+[L97201] Non-pressure chronic ulcer of unspecified calf limited to breakdown of skin
+[L97202] Non-pressure chronic ulcer of unspecified calf with fat layer exposed
+[L97203] Non-pressure chronic ulcer of unspecified calf with necrosis of muscle
+[L97204] Non-pressure chronic ulcer of unspecified calf with necrosis of bone
+[L97205] Non-pressure chronic ulcer of unspecified calf with muscle involvement without evidence of necrosis
+[L97206] Non-pressure chronic ulcer of unspecified calf with bone involvement without evidence of necrosis
+[L97208] Non-pressure chronic ulcer of unspecified calf with other specified severity
+[L97209] Non-pressure chronic ulcer of unspecified calf with unspecified severity
+[L9721] Non-pressure chronic ulcer of right calf
+[L97211] Non-pressure chronic ulcer of right calf limited to breakdown of skin
+[L97212] Non-pressure chronic ulcer of right calf with fat layer exposed
+[L97213] Non-pressure chronic ulcer of right calf with necrosis of muscle
+[L97214] Non-pressure chronic ulcer of right calf with necrosis of bone
+[L97215] Non-pressure chronic ulcer of right calf with muscle involvement without evidence of necrosis
+[L97216] Non-pressure chronic ulcer of right calf with bone involvement without evidence of necrosis
+[L97218] Non-pressure chronic ulcer of right calf with other specified severity
+[L97219] Non-pressure chronic ulcer of right calf with unspecified severity
+[L9722] Non-pressure chronic ulcer of left calf
+[L97221] Non-pressure chronic ulcer of left calf limited to breakdown of skin
+[L97222] Non-pressure chronic ulcer of left calf with fat layer exposed
+[L97223] Non-pressure chronic ulcer of left calf with necrosis of muscle
+[L97224] Non-pressure chronic ulcer of left calf with necrosis of bone
+[L97225] Non-pressure chronic ulcer of left calf with muscle involvement without evidence of necrosis
+[L97226] Non-pressure chronic ulcer of left calf with bone involvement without evidence of necrosis
+[L97228] Non-pressure chronic ulcer of left calf with other specified severity
+[L97229] Non-pressure chronic ulcer of left calf with unspecified severity
+[L973] Non-pressure chronic ulcer of ankle
+[L9730] Non-pressure chronic ulcer of unspecified ankle
+[L97301] Non-pressure chronic ulcer of unspecified ankle limited to breakdown of skin
+[L97302] Non-pressure chronic ulcer of unspecified ankle with fat layer exposed
+[L97303] Non-pressure chronic ulcer of unspecified ankle with necrosis of muscle
+[L97304] Non-pressure chronic ulcer of unspecified ankle with necrosis of bone
+[L97305] Non-pressure chronic ulcer of unspecified ankle with muscle involvement without evidence of necrosis
+[L97306] Non-pressure chronic ulcer of unspecified ankle with bone involvement without evidence of necrosis
+[L97308] Non-pressure chronic ulcer of unspecified ankle with other specified severity
+[L97309] Non-pressure chronic ulcer of unspecified ankle with unspecified severity
+[L9731] Non-pressure chronic ulcer of right ankle
+[L97311] Non-pressure chronic ulcer of right ankle limited to breakdown of skin
+[L97312] Non-pressure chronic ulcer of right ankle with fat layer exposed
+[L97313] Non-pressure chronic ulcer of right ankle with necrosis of muscle
+[L97314] Non-pressure chronic ulcer of right ankle with necrosis of bone
+[L97315] Non-pressure chronic ulcer of right ankle with muscle involvement without evidence of necrosis
+[L97316] Non-pressure chronic ulcer of right ankle with bone involvement without evidence of necrosis
+[L97318] Non-pressure chronic ulcer of right ankle with other specified severity
+[L97319] Non-pressure chronic ulcer of right ankle with unspecified severity
+[L9732] Non-pressure chronic ulcer of left ankle
+[L97321] Non-pressure chronic ulcer of left ankle limited to breakdown of skin
+[L97322] Non-pressure chronic ulcer of left ankle with fat layer exposed
+[L97323] Non-pressure chronic ulcer of left ankle with necrosis of muscle
+[L97324] Non-pressure chronic ulcer of left ankle with necrosis of bone
+[L97325] Non-pressure chronic ulcer of left ankle with muscle involvement without evidence of necrosis
+[L97326] Non-pressure chronic ulcer of left ankle with bone involvement without evidence of necrosis
+[L97328] Non-pressure chronic ulcer of left ankle with other specified severity
+[L97329] Non-pressure chronic ulcer of left ankle with unspecified severity
+[L974] Non-pressure chronic ulcer of heel and midfoot -- **Inclusion terms:** - Non-pressure chronic ulcer of plantar surface of midfoot
+[L9740] Non-pressure chronic ulcer of unspecified heel and midfoot
+[L97401] Non-pressure chronic ulcer of unspecified heel and midfoot limited to breakdown of skin
+[L97402] Non-pressure chronic ulcer of unspecified heel and midfoot with fat layer exposed
+[L97403] Non-pressure chronic ulcer of unspecified heel and midfoot with necrosis of muscle
+[L97404] Non-pressure chronic ulcer of unspecified heel and midfoot with necrosis of bone
+[L97405] Non-pressure chronic ulcer of unspecified heel and midfoot with muscle involvement without evidence of necrosis
+[L97406] Non-pressure chronic ulcer of unspecified heel and midfoot with bone involvement without evidence of necrosis
+[L97408] Non-pressure chronic ulcer of unspecified heel and midfoot with other specified severity
+[L97409] Non-pressure chronic ulcer of unspecified heel and midfoot with unspecified severity
+[L9741] Non-pressure chronic ulcer of right heel and midfoot
+[L97411] Non-pressure chronic ulcer of right heel and midfoot limited to breakdown of skin
+[L97412] Non-pressure chronic ulcer of right heel and midfoot with fat layer exposed
+[L97413] Non-pressure chronic ulcer of right heel and midfoot with necrosis of muscle
+[L97414] Non-pressure chronic ulcer of right heel and midfoot with necrosis of bone
+[L97415] Non-pressure chronic ulcer of right heel and midfoot with muscle involvement without evidence of necrosis
+[L97416] Non-pressure chronic ulcer of right heel and midfoot with bone involvement without evidence of necrosis
+[L97418] Non-pressure chronic ulcer of right heel and midfoot with other specified severity
+[L97419] Non-pressure chronic ulcer of right heel and midfoot with unspecified severity
+[L9742] Non-pressure chronic ulcer of left heel and midfoot
+[L97421] Non-pressure chronic ulcer of left heel and midfoot limited to breakdown of skin
+[L97422] Non-pressure chronic ulcer of left heel and midfoot with fat layer exposed
+[L97423] Non-pressure chronic ulcer of left heel and midfoot with necrosis of muscle
+[L97424] Non-pressure chronic ulcer of left heel and midfoot with necrosis of bone
+[L97425] Non-pressure chronic ulcer of left heel and midfoot with muscle involvement without evidence of necrosis
+[L97426] Non-pressure chronic ulcer of left heel and midfoot with bone involvement without evidence of necrosis
+[L97428] Non-pressure chronic ulcer of left heel and midfoot with other specified severity
+[L97429] Non-pressure chronic ulcer of left heel and midfoot with unspecified severity
+[L975] Non-pressure chronic ulcer of other part of foot -- **Inclusion terms:** - Non-pressure chronic ulcer of toe
+[L9750] Non-pressure chronic ulcer of other part of unspecified foot
+[L97501] Non-pressure chronic ulcer of other part of unspecified foot limited to breakdown of skin
+[L97502] Non-pressure chronic ulcer of other part of unspecified foot with fat layer exposed
+[L97503] Non-pressure chronic ulcer of other part of unspecified foot with necrosis of muscle
+[L97504] Non-pressure chronic ulcer of other part of unspecified foot with necrosis of bone
+[L97505] Non-pressure chronic ulcer of other part of unspecified foot with muscle involvement without evidence of necrosis
+[L97506] Non-pressure chronic ulcer of other part of unspecified foot with bone involvement without evidence of necrosis
+[L97508] Non-pressure chronic ulcer of other part of unspecified foot with other specified severity
+[L97509] Non-pressure chronic ulcer of other part of unspecified foot with unspecified severity
+[L9751] Non-pressure chronic ulcer of other part of right foot
+[L97511] Non-pressure chronic ulcer of other part of right foot limited to breakdown of skin
+[L97512] Non-pressure chronic ulcer of other part of right foot with fat layer exposed
+[L97513] Non-pressure chronic ulcer of other part of right foot with necrosis of muscle
+[L97514] Non-pressure chronic ulcer of other part of right foot with necrosis of bone
+[L97515] Non-pressure chronic ulcer of other part of right foot with muscle involvement without evidence of necrosis
+[L97516] Non-pressure chronic ulcer of other part of right foot with bone involvement without evidence of necrosis
+[L97518] Non-pressure chronic ulcer of other part of right foot with other specified severity
+[L97519] Non-pressure chronic ulcer of other part of right foot with unspecified severity
+[L9752] Non-pressure chronic ulcer of other part of left foot
+[L97521] Non-pressure chronic ulcer of other part of left foot limited to breakdown of skin
+[L97522] Non-pressure chronic ulcer of other part of left foot with fat layer exposed
+[L97523] Non-pressure chronic ulcer of other part of left foot with necrosis of muscle
+[L97524] Non-pressure chronic ulcer of other part of left foot with necrosis of bone
+[L97525] Non-pressure chronic ulcer of other part of left foot with muscle involvement without evidence of necrosis
+[L97526] Non-pressure chronic ulcer of other part of left foot with bone involvement without evidence of necrosis
+[L97528] Non-pressure chronic ulcer of other part of left foot with other specified severity
+[L97529] Non-pressure chronic ulcer of other part of left foot with unspecified severity
+[L978] Non-pressure chronic ulcer of other part of lower leg
+[L9780] Non-pressure chronic ulcer of other part of unspecified lower leg
+[L97801] Non-pressure chronic ulcer of other part of unspecified lower leg limited to breakdown of skin
+[L97802] Non-pressure chronic ulcer of other part of unspecified lower leg with fat layer exposed
+[L97803] Non-pressure chronic ulcer of other part of unspecified lower leg with necrosis of muscle
+[L97804] Non-pressure chronic ulcer of other part of unspecified lower leg with necrosis of bone
+[L97805] Non-pressure chronic ulcer of other part of unspecified lower leg with muscle involvement without evidence of necrosis
+[L97806] Non-pressure chronic ulcer of other part of unspecified lower leg with bone involvement without evidence of necrosis
+[L97808] Non-pressure chronic ulcer of other part of unspecified lower leg with other specified severity
+[L97809] Non-pressure chronic ulcer of other part of unspecified lower leg with unspecified severity
+[L9781] Non-pressure chronic ulcer of other part of right lower leg
+[L97811] Non-pressure chronic ulcer of other part of right lower leg limited to breakdown of skin
+[L97812] Non-pressure chronic ulcer of other part of right lower leg with fat layer exposed
+[L97813] Non-pressure chronic ulcer of other part of right lower leg with necrosis of muscle
+[L97814] Non-pressure chronic ulcer of other part of right lower leg with necrosis of bone
+[L97815] Non-pressure chronic ulcer of other part of right lower leg with muscle involvement without evidence of necrosis
+[L97816] Non-pressure chronic ulcer of other part of right lower leg with bone involvement without evidence of necrosis
+[L97818] Non-pressure chronic ulcer of other part of right lower leg with other specified severity
+[L97819] Non-pressure chronic ulcer of other part of right lower leg with unspecified severity
+[L9782] Non-pressure chronic ulcer of other part of left lower leg
+[L97821] Non-pressure chronic ulcer of other part of left lower leg limited to breakdown of skin
+[L97822] Non-pressure chronic ulcer of other part of left lower leg with fat layer exposed
+[L97823] Non-pressure chronic ulcer of other part of left lower leg with necrosis of muscle
+[L97824] Non-pressure chronic ulcer of other part of left lower leg with necrosis of bone
+[L97825] Non-pressure chronic ulcer of other part of left lower leg with muscle involvement without evidence of necrosis
+[L97826] Non-pressure chronic ulcer of other part of left lower leg with bone involvement without evidence of necrosis
+[L97828] Non-pressure chronic ulcer of other part of left lower leg with other specified severity
+[L97829] Non-pressure chronic ulcer of other part of left lower leg with unspecified severity
+[L979] Non-pressure chronic ulcer of unspecified part of lower leg
+[L9790] Non-pressure chronic ulcer of unspecified part of unspecified lower leg
+[L97901] Non-pressure chronic ulcer of unspecified part of unspecified lower leg limited to breakdown of skin
+[L97902] Non-pressure chronic ulcer of unspecified part of unspecified lower leg with fat layer exposed
+[L97903] Non-pressure chronic ulcer of unspecified part of unspecified lower leg with necrosis of muscle
+[L97904] Non-pressure chronic ulcer of unspecified part of unspecified lower leg with necrosis of bone
+[L97905] Non-pressure chronic ulcer of unspecified part of unspecified lower leg with muscle involvement without evidence of necrosis
+[L97906] Non-pressure chronic ulcer of unspecified part of unspecified lower leg with bone involvement without evidence of necrosis
+[L97908] Non-pressure chronic ulcer of unspecified part of unspecified lower leg with other specified severity
+[L97909] Non-pressure chronic ulcer of unspecified part of unspecified lower leg with unspecified severity
+[L9791] Non-pressure chronic ulcer of unspecified part of right lower leg
+[L97911] Non-pressure chronic ulcer of unspecified part of right lower leg limited to breakdown of skin
+[L97912] Non-pressure chronic ulcer of unspecified part of right lower leg with fat layer exposed
+[L97913] Non-pressure chronic ulcer of unspecified part of right lower leg with necrosis of muscle
+[L97914] Non-pressure chronic ulcer of unspecified part of right lower leg with necrosis of bone
+[L97915] Non-pressure chronic ulcer of unspecified part of right lower leg with muscle involvement without evidence of necrosis
+[L97916] Non-pressure chronic ulcer of unspecified part of right lower leg with bone involvement without evidence of necrosis
+[L97918] Non-pressure chronic ulcer of unspecified part of right lower leg with other specified severity
+[L97919] Non-pressure chronic ulcer of unspecified part of right lower leg with unspecified severity
+[L9792] Non-pressure chronic ulcer of unspecified part of left lower leg
+[L97921] Non-pressure chronic ulcer of unspecified part of left lower leg limited to breakdown of skin
+[L97922] Non-pressure chronic ulcer of unspecified part of left lower leg with fat layer exposed
+[L97923] Non-pressure chronic ulcer of unspecified part of left lower leg with necrosis of muscle
+[L97924] Non-pressure chronic ulcer of unspecified part of left lower leg with necrosis of bone
+[L97925] Non-pressure chronic ulcer of unspecified part of left lower leg with muscle involvement without evidence of necrosis
+[L97926] Non-pressure chronic ulcer of unspecified part of left lower leg with bone involvement without evidence of necrosis
+[L97928] Non-pressure chronic ulcer of unspecified part of left lower leg with other specified severity
+[L97929] Non-pressure chronic ulcer of unspecified part of left lower leg with unspecified severity
+[L98] Other disorders of skin and subcutaneous tissue, not elsewhere classified
+[L980] Pyogenic granuloma -- **Excludes2:** - pyogenic granuloma of gingiva (K06.8) - pyogenic granuloma of maxillary alveolar ridge (K04.5) - pyogenic granuloma of oral mucosa (K13.4)
+[L981] Factitial dermatitis -- **Inclusion terms:** - Neurotic excoriation  **Excludes1:** - Excoriation (skin-picking) disorder (F42.4)
+[L982] Febrile neutrophilic dermatosis [Sweet]
+[L983] Eosinophilic cellulitis [Wells]
+[L984] Non-pressure chronic ulcer of skin, not elsewhere classified -- **Inclusion terms:** - Chronic ulcer of skin NOS - Tropical ulcer NOS - Ulcer of skin NOS  **Excludes2:** - pressure ulcer (pressure area) (L89.-) - gangrene (I96) - skin infections (L00-L08) - specific infections classified to A00-B99 - ulcer of lower limb NEC (L97.-) - varicose ulcer (I83.0-I83.93)
+[L9841] Non-pressure chronic ulcer of buttock
+[L98411] Non-pressure chronic ulcer of buttock limited to breakdown of skin
+[L98412] Non-pressure chronic ulcer of buttock with fat layer exposed
+[L98413] Non-pressure chronic ulcer of buttock with necrosis of muscle
+[L98414] Non-pressure chronic ulcer of buttock with necrosis of bone
+[L98415] Non-pressure chronic ulcer of buttock with muscle involvement without evidence of necrosis
+[L98416] Non-pressure chronic ulcer of buttock with bone involvement without evidence of necrosis
+[L98418] Non-pressure chronic ulcer of buttock with other specified severity
+[L98419] Non-pressure chronic ulcer of buttock with unspecified severity
+[L9842] Non-pressure chronic ulcer of back
+[L98421] Non-pressure chronic ulcer of back limited to breakdown of skin
+[L98422] Non-pressure chronic ulcer of back with fat layer exposed
+[L98423] Non-pressure chronic ulcer of back with necrosis of muscle
+[L98424] Non-pressure chronic ulcer of back with necrosis of bone
+[L98425] Non-pressure chronic ulcer of back with muscle involvement without evidence of necrosis
+[L98426] Non-pressure chronic ulcer of back with bone involvement without evidence of necrosis
+[L98428] Non-pressure chronic ulcer of back with other specified severity
+[L98429] Non-pressure chronic ulcer of back with unspecified severity
+[L9849] Non-pressure chronic ulcer of skin of other sites -- **Inclusion terms:** - Non-pressure chronic ulcer of skin NOS
+[L98491] Non-pressure chronic ulcer of skin of other sites limited to breakdown of skin
+[L98492] Non-pressure chronic ulcer of skin of other sites with fat layer exposed
+[L98493] Non-pressure chronic ulcer of skin of other sites with necrosis of muscle
+[L98494] Non-pressure chronic ulcer of skin of other sites with necrosis of bone
+[L98495] Non-pressure chronic ulcer of skin of other sites with muscle involvement without evidence of necrosis
+[L98496] Non-pressure chronic ulcer of skin of other sites with bone involvement without evidence of necrosis
+[L98498] Non-pressure chronic ulcer of skin of other sites with other specified severity
+[L98499] Non-pressure chronic ulcer of skin of other sites with unspecified severity
+[L985] Mucinosis of the skin -- **Inclusion terms:** - Focal mucinosis - Lichen myxedematosus - Reticular erythematous mucinosis  **Excludes1:** - focal oral mucinosis (K13.79) - myxedema (E03.9)
+[L986] Other infiltrative disorders of the skin and subcutaneous tissue -- **Excludes1:** - hyalinosis cutis et mucosae (E78.89)
+[L987] Excessive and redundant skin and subcutaneous tissue -- **Inclusion terms:** - Loose or sagging skin following bariatric surgery weight loss - Loose or sagging skin following dietary weight loss - Loose or sagging skin, NOS  **Excludes2:** - acquired excess or redundant skin of eyelid (H02.3-) - congenital excess or redundant skin of eyelid (Q10.3) - skin changes due to chronic exposure to nonionizing radiation (L57.-)
+[L988] Other specified disorders of the skin and subcutaneous tissue
+[L989] Disorder of the skin and subcutaneous tissue, unspecified
+[L99] Other disorders of skin and subcutaneous tissue in diseases classified elsewhere -- **Excludes1:** - skin disorders in diabetes (E08-E13 with .62-) - skin disorders in gonorrhea (A54.89) - skin disorders in syphilis (A51.31, A52.79)  **Code first:** - underlying disease, such as: - amyloidosis (E85.-)

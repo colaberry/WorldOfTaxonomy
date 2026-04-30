@@ -1,0 +1,25 @@
+[dda_chain] Blockchain Infrastructure :: naics_2022:518, naics_2022:5415
+[dda_chain_bridge] Cross-Chain Bridges and Interoperability Protocols
+[dda_chain_l1] Layer 1 Blockchains (Ethereum, Bitcoin, Solana, etc)
+[dda_chain_l2] Layer 2 and Rollup Solutions (Arbitrum, Optimism, zk)
+[dda_defi] Decentralized Finance (DeFi) Protocols :: naics_2022:518, naics_2022:5415
+[dda_defi_deriv] On-Chain Derivatives and Structured Products
+[dda_defi_dex] Decentralized Exchanges (Uniswap, Curve, dYdX)
+[dda_defi_lend] DeFi Lending and Borrowing (Aave, Compound, MakerDAO)
+[dda_defi_yield] Yield Farming and Liquidity Mining
+[dda_stable] Stablecoins and Central Bank Digital Currencies :: naics_2022:518, naics_2022:5415
+[dda_stable_algo] Algorithmic and Overcollateralized Stablecoins
+[dda_stable_cbdc] Central Bank Digital Currencies (CBDC) - retail/wholesale
+[dda_stable_fiat] Fiat-Backed Stablecoins (USDC, USDT, BUSD)
+[dda_svc] Crypto Services and Infrastructure :: naics_2022:518, naics_2022:5415
+[dda_svc_custody] Digital Asset Custody and Prime Brokerage
+[dda_svc_exchange] Centralized Crypto Exchanges (Coinbase, Binance)
+[dda_svc_wallet] Wallets and Payment Solutions
+[dda_token] Digital Tokens and NFTs :: naics_2022:518, naics_2022:5415
+[dda_token_nft] Non-Fungible Tokens (art, gaming, real-world assets)
+[dda_token_rwa] Tokenized Real-World Assets (bonds, equities, real estate)
+[dda_token_utility] Utility and Governance Tokens
+[dda_web3] Web3 Infrastructure :: naics_2022:518, naics_2022:5415
+[dda_web3_identity] Decentralized Identity (DID, verifiable credentials)
+[dda_web3_oracle] Oracles and Off-Chain Data Feeds (Chainlink)
+[dda_web3_storage] Decentralized Storage (IPFS, Filecoin, Arweave)

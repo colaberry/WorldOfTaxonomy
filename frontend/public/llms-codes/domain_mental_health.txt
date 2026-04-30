@@ -1,0 +1,22 @@
+[mh_pop] Population Focus :: naics_2022:6214
+[mh_pop_adult] Adult mental health services
+[mh_pop_child] Child and adolescent services
+[mh_pop_forens] Forensic mental health
+[mh_pop_geri] Geriatric psychiatry
+[mh_pop_sud] Substance use disorder treatment
+[mh_pop_vet] Veteran and military mental health
+[mh_set] Service Settings :: naics_2022:6214
+[mh_set_comm] Community mental health center
+[mh_set_crisis] Crisis intervention and stabilization
+[mh_set_inpat] Inpatient psychiatric facility
+[mh_set_outpat] Outpatient mental health clinic
+[mh_set_resid] Residential treatment facility
+[mh_set_tele] Telepsychiatry and digital mental health
+[mh_ther] Therapy Modalities :: naics_2022:6214
+[mh_ther_art] Art and music therapy
+[mh_ther_cbt] Cognitive behavioral therapy (CBT)
+[mh_ther_dbt] Dialectical behavior therapy (DBT)
+[mh_ther_emdr] EMDR (eye movement desensitization)
+[mh_ther_fam] Family and couples therapy
+[mh_ther_group] Group therapy
+[mh_ther_med] Psychopharmacology

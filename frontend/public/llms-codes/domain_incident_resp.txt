@@ -1,0 +1,16 @@
+[IR] Incident Response Types :: naics_2022:5415, naics_2022:5417
+[IR.01] Preparation Phase
+[IR.02] Detection and Analysis
+[IR.03] Containment Strategy
+[IR.04] Eradication
+[IR.05] Recovery
+[IR.06] Post-Incident Review
+[IR.07] Incident Classification
+[IR.08] Escalation Procedure
+[IR.09] Communication Plan
+[IR.10] Evidence Preservation
+[IR.11] Digital Forensics
+[IR.12] Tabletop Exercise
+[IR.13] Incident Metrics (MTTD/MTTR)
+[IR.14] Ransomware Response
+[IR.15] Regulatory Notification
