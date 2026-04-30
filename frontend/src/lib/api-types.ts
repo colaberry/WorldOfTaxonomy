@@ -537,6 +537,12 @@ export interface paths {
          *     interactive use (a user trying ~5 prompts in a session) but tight
          *     enough to deter farming, since each call is LLM-backed and each
          *     INSERT into classify_lead is downstream lead-pipeline noise.
+         *
+         *     Global classify-lead budget: 500/hour, env-tunable via
+         *     CLASSIFY_LEAD_BUDGET_PER_HOUR. The per-IP cap above bounds a
+         *     single source; this DB-backed counter catches distributed botnets
+         *     rotating IPs (each making 1-2 calls, slipping under the per-IP
+         *     cap) and acts as a hard ceiling on LLM cost.
          */
         post: operations["classify_demo_api_v1_classify_demo_post"];
         delete?: never;
