@@ -164,58 +164,13 @@ class CrosswalkSectionsResponse(BaseModel):
     total_edges: int
 
 
-# ── Auth schemas ─────────────────────────────────────────────
-
-
-class RegisterRequest(BaseModel):
-    # Length caps defend against oversized-input DoS and malformed
-    # inputs that would otherwise travel all the way to the DB.
-    email: str = Field(..., min_length=3, max_length=254)
-    password: str = Field(..., min_length=8, max_length=128)
-    display_name: Optional[str] = Field(None, max_length=100)
-
-
-class LoginRequest(BaseModel):
-    email: str = Field(..., min_length=3, max_length=254)
-    password: str = Field(..., min_length=1, max_length=128)
-
-
-class UserResponse(BaseModel):
-    id: str
-    email: str
-    display_name: Optional[str]
-    tier: str
-    created_at: str
-
-
-class TokenResponse(BaseModel):
-    access_token: str
-    token_type: str = "bearer"
-
-
-class CreateApiKeyRequest(BaseModel):
-    name: str = Field("Default", min_length=1, max_length=100)
-
-
-class ApiKeyResponse(BaseModel):
-    id: str
-    key_prefix: str
-    name: str
-    is_active: bool
-    last_used_at: Optional[str]
-    created_at: str
-    expires_at: Optional[str]
-
-
-class ApiKeyCreatedResponse(BaseModel):
-    key: str  # Full key, shown once
-    api_key: ApiKeyResponse
-
-
-class UsageStatsResponse(BaseModel):
-    total_requests: int
-    requests_today: int
-    requests_this_hour: int
+# Auth schemas (RegisterRequest, LoginRequest, UserResponse,
+# TokenResponse, CreateApiKeyRequest, ApiKeyResponse,
+# ApiKeyCreatedResponse, UsageStatsResponse) were removed in 2026-04-30
+# along with the /api/v1/auth/* router and oauth.py. Sign-in is now
+# exclusively the magic-link flow in developers.py, which uses its own
+# inline Pydantic models (SignupRequest, CreateKeyRequest,
+# KeyMetadata, KeyCreatedResponse).
 
 
 class SubtreeSummaryResponse(BaseModel):
