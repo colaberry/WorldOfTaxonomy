@@ -972,6 +972,11 @@ patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/C9.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/D.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/E.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F0.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F1.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F2.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F4.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F9.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/G.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/H.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/Y.txt
