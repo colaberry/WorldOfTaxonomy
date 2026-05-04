@@ -1,4 +1,4 @@
-# WorldOfTaxonomy
+# World Of Taxonomy
 
 <p align="center">
   <strong>1,000 classification systems. 1,212,000+ codes. 326,000+ crosswalk edges.</strong><br>
@@ -31,7 +31,7 @@ Every country, industry body, and standards organization has its own classificat
 
 A truck driver in the US is `NAICS 484`, `SOC 53-3032`, `ISCO-08 8332`, `NACE 49.4`, and `ISIC 4923` - five different codes in five different systems that all mean the same thing. Figuring that out manually costs hours. Doing it at scale costs entire teams.
 
-**WorldOfTaxonomy solves this.** One queryable graph connects all 1,000 systems. One API call translates any code to any other system. One MCP server gives AI agents access to the entire taxonomy universe.
+**World Of Taxonomy solves this.** One queryable graph connects all 1,000 systems. One API call translates any code to any other system. One MCP server gives AI agents access to the entire taxonomy universe.
 
 ---
 
@@ -165,7 +165,7 @@ sequenceDiagram
 ### Directory Structure
 
 ```
-WorldOfTaxonomy/
+World Of Taxonomy/
 ├── world_of_taxonomy/
 │   ├── api/              # FastAPI REST API (lifespan pool, rate limiting)
 │   │   ├── routers/      # systems, nodes, search, equivalences, countries, auth, crosswalk_graph
@@ -203,7 +203,7 @@ country_system_link        -- 27K rows: country_code, system_id, relevance ('off
 
 ```bash
 git clone https://github.com/colaberry/WorldOfTaxonomy.git
-cd WorldOfTaxonomy
+cd World Of Taxonomy
 docker compose up
 ```
 
@@ -274,7 +274,7 @@ translations = json.loads(r[1])
 
 ## Use With Claude / AI Agents (MCP)
 
-WorldOfTaxonomy ships with a Model Context Protocol server. Add it to Claude Desktop and your AI gets instant access to all 1,000 systems as structured tools.
+World Of Taxonomy ships with a Model Context Protocol server. Add it to Claude Desktop and your AI gets instant access to all 1,000 systems as structured tools.
 
 **`~/Library/Application Support/Claude/claude_desktop_config.json`:**
 
@@ -416,7 +416,7 @@ See [ROADMAP.md](ROADMAP.md) for the full list. Key near-term items:
 
 Code is MIT licensed. Classification data is sourced from public domain and openly licensed sources (UN, Eurostat, US Census Bureau, WHO, ILO, etc.).
 
-**WorldOfTaxonomy does not redistribute raw data files.** Each ingester downloads data directly from its authoritative source at ingest time. See [DATA_SOURCES.md](DATA_SOURCES.md) for per-system attribution and license information.
+**World Of Taxonomy does not redistribute raw data files.** Each ingester downloads data directly from its authoritative source at ingest time. See [DATA_SOURCES.md](DATA_SOURCES.md) for per-system attribution and license information.
 
 ---
 

@@ -9,7 +9,7 @@ type LogoProps = {
   height?: number
   /** Applied to the outer <span> wrapper (use this for responsive `hidden sm:flex` etc.). */
   className?: string
-  /** Override aria-label. Defaults to "WorldOfTaxonomy". */
+  /** Override aria-label. Defaults to "World Of Taxonomy". */
   alt?: string
   /** Force a specific theme variant; by default we render both and let CSS pick the right one. */
   forceTheme?: 'light' | 'dark'
@@ -24,7 +24,7 @@ const ASPECT: Record<Variant, number> = {
 }
 
 /**
- * WorldOfTaxonomy logo component.
+ * World Of Taxonomy logo component.
  *
  * Aleem ships two monochrome variants per shape:
  *   /logo-{variant}-mono-black.svg  (W/T strokes are #141414, cyan globe stays cyan)  → light theme
@@ -40,7 +40,7 @@ export function Logo({
   variant = 'mark',
   height = 24,
   className = '',
-  alt = 'WorldOfTaxonomy',
+  alt = 'World Of Taxonomy',
   forceTheme,
 }: LogoProps) {
   const width = Math.round(height * ASPECT[variant])

@@ -171,7 +171,7 @@ export function ClassifyTool() {
             className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm outline-none focus:border-ring focus:ring-2 focus:ring-ring/30 disabled:opacity-60"
           />
           <p className="text-xs text-muted-foreground">
-            We use your email only to send occasional updates about WorldOfTaxonomy.
+            We use your email only to send occasional updates about World Of Taxonomy.
             No spam, unsubscribe anytime.
           </p>
         </div>
@@ -482,7 +482,7 @@ function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
         <div className="grid sm:grid-cols-2 gap-3">
           <a
             href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-              `Just classified "${data.query}" with WorldOfTaxonomy - codes across NAICS, ISIC, SIC, NACE, SOC in seconds. Free and open source:`
+              `Just classified "${data.query}" with World Of Taxonomy - codes across NAICS, ISIC, SIC, NACE, SOC in seconds. Free and open source:`
             )}&url=${encodeURIComponent('https://worldoftaxonomy.com/classify')}&via=ramdhanyk`}
             target="_blank"
             rel="noopener noreferrer"
@@ -648,7 +648,7 @@ function PartitionedMatches({
       domain={{
         items: domainMatches,
         heading: 'Start here: Domain taxonomies',
-        caption: 'Plain-language categories curated by WorldOfTaxonomy',
+        caption: 'Plain-language categories curated by World Of Taxonomy',
       }}
       standard={{
         items: standardMatches,

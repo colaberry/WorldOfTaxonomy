@@ -140,7 +140,7 @@ For systems without direct crosswalks, follow the translation path through hub s
 
 ## Domain-specific extensions
 
-When a standard industry code is too broad for your use case, WorldOfTaxonomy provides domain-specific vocabularies:
+When a standard industry code is too broad for your use case, World Of Taxonomy provides domain-specific vocabularies:
 
 | NAICS Sector | Domain Vocabularies | Example Codes |
 |-------------|---------------------|---------------|

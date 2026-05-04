@@ -89,13 +89,13 @@ Sitemap: https://worldoftaxonomy.com/sitemap.xml
 """
 
 LLMS_TXT = """\
-# WorldOfTaxonomy
+# World Of Taxonomy
 
 > Unified Global Classification Knowledge Graph
 > 1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges.
 > Open source (MIT). Data is informational only - use at your own risk.
 
-WorldOfTaxonomy is a knowledge graph connecting 1,000+ classification systems across industry, geography, product/trade, occupational, education, health, financial, regulatory, and domain-specific vocabularies. It provides a REST API and MCP server for looking up, searching, translating, and classifying codes.
+World Of Taxonomy is a knowledge graph connecting 1,000+ classification systems across industry, geography, product/trade, occupational, education, health, financial, regulatory, and domain-specific vocabularies. It provides a REST API and MCP server for looking up, searching, translating, and classifying codes.
 
 For the full reference, see: https://worldoftaxonomy.com/llms-full.txt
 
@@ -340,7 +340,7 @@ def create_app() -> FastAPI:
         ]
 
     app = FastAPI(
-        title="WorldOfTaxonomy",
+        title="World Of Taxonomy",
         description=(
             "Unified global industry classification knowledge graph. "
             "Federation model connecting NAICS, ISIC, NACE, and more."

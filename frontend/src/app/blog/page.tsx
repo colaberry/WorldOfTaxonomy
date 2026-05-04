@@ -4,11 +4,11 @@ import { getBlogMeta } from '@/lib/blog'
 import { Newspaper, Rss } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Blog - WorldOfTaxonomy',
+  title: 'Blog - World Of Taxonomy',
   description:
-    'News, insights, and updates from the WorldOfTaxonomy team on classification systems, crosswalks, and the global taxonomy knowledge graph.',
+    'News, insights, and updates from the World Of Taxonomy team on classification systems, crosswalks, and the global taxonomy knowledge graph.',
   openGraph: {
-    title: 'Blog - WorldOfTaxonomy',
+    title: 'Blog - World Of Taxonomy',
     description: 'News and insights on classification systems and crosswalks.',
     url: 'https://worldoftaxonomy.com/blog',
     type: 'website',

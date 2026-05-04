@@ -13,7 +13,7 @@ The classification mismatch problem costs data teams days every month:
 US suppliers report in NAICS. EU partners use NACE. ILO standards use ISCO.
 WHO uses ICD. None of them officially map to each other.
 
-I spent two years hitting this wall, so I built WorldOfTaxonomy - an open-source
+I spent two years hitting this wall, so I built World Of Taxonomy - an open-source
 knowledge graph that connects 279 global classification systems.
 
 What it does:

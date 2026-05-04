@@ -1,6 +1,6 @@
 ## Mapping Occupations Across Borders
 
-> **TL;DR:** A "Software Developer" has five different codes in five countries: SOC 15-1252 (US), ESCO 2511.2 (EU), ISCO-08 2512 (global), ANZSCO 261312 (Australia), NOC 21232 (Canada). WorldOfTaxonomy connects 9 occupation systems with crosswalk edges so you can translate, compare, and analyze jobs across borders.
+> **TL;DR:** A "Software Developer" has five different codes in five countries: SOC 15-1252 (US), ESCO 2511.2 (EU), ISCO-08 2512 (global), ANZSCO 261312 (Australia), NOC 21232 (Canada). World Of Taxonomy connects 9 occupation systems with crosswalk edges so you can translate, compare, and analyze jobs across borders.
 
 ---
 
@@ -104,7 +104,7 @@ graph LR
 
 ## O*NET dimensions
 
-O*NET goes beyond occupation titles. WorldOfTaxonomy includes each dimension as a separate system:
+O*NET goes beyond occupation titles. World Of Taxonomy includes each dimension as a separate system:
 
 | O*NET System | What It Captures |
 |-------------|-----------------|

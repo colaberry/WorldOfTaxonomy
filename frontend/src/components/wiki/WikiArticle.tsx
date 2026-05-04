@@ -72,7 +72,7 @@ export function WikiArticle({ title, html, slug }: WikiArticleProps) {
           Back to all guides
         </Link>
         <a
-          href={`https://github.com/ramdhanyk/WorldOfTaxonomy/edit/main/wiki/${slug}.md`}
+          href={`https://github.com/ramdhanyk/World Of Taxonomy/edit/main/wiki/${slug}.md`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"

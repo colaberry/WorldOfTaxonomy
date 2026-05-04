@@ -108,7 +108,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ],
     }
   } catch {
-    return { title: 'Classification Crosswalk - WorldOfTaxonomy' }
+    return { title: 'Classification Crosswalk - World Of Taxonomy' }
   }
 }
 

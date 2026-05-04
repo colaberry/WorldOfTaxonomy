@@ -1,6 +1,6 @@
 ## Life Sciences Classification: Navigating Pharma, Clinical, and Biotech Taxonomies
 
-> **TL;DR:** Life sciences is the most classification-intensive industry in the world. A single drug touches ATC, NDC, ICD, LOINC, NCI Thesaurus, and FDA regulatory codes before it reaches a patient. WorldOfTaxonomy connects 50+ life sciences systems so clinical, pharmaceutical, and research teams can search and translate across all of them.
+> **TL;DR:** Life sciences is the most classification-intensive industry in the world. A single drug touches ATC, NDC, ICD, LOINC, NCI Thesaurus, and FDA regulatory codes before it reaches a patient. World Of Taxonomy connects 50+ life sciences systems so clinical, pharmaceutical, and research teams can search and translate across all of them.
 
 ---
 
@@ -96,7 +96,7 @@ Every patient encounter, every claim, every quality metric starts with a diagnos
 | CTCAE | 27 | Adverse event grading in clinical trials |
 | GBD Cause List | 23 | Global Burden of Disease causes |
 
-NCI Thesaurus is the **largest single system** in WorldOfTaxonomy at 211,072 codes - the reference ontology for cancer research, clinical trials, and FDA/EMA regulatory submissions.
+NCI Thesaurus is the **largest single system** in World Of Taxonomy at 211,072 codes - the reference ontology for cancer research, clinical trials, and FDA/EMA regulatory submissions.
 
 ## Medical devices
 
@@ -191,4 +191,4 @@ curl "https://wot.aixcelerator.ai/api/v1/diff?a=icd10cm&b=icd11_mms"
 
 The MCP server gives AI agents structured access to all life sciences systems. Clinical decision support, coding assistance, drug interaction checking, research tools - all backed by verified data from authoritative sources rather than LLM hallucination.
 
-The life sciences classification landscape is complex. WorldOfTaxonomy does not simplify it - it connects it.
+The life sciences classification landscape is complex. World Of Taxonomy does not simplify it - it connects it.
