@@ -978,8 +978,17 @@ patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F2.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F4.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/F9.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/G.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/G0.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/G1.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/G2.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/G9.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/H.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/H0.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/H1.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/H9.txt
 patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/Y.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/Y0.txt
+patent_cpc: https://worldoftaxonomy.com/llms-codes/patent_cpc/Y1.txt
 pci_sig: https://worldoftaxonomy.com/llms-codes/pci_sig.txt
 periodic_table: https://worldoftaxonomy.com/llms-codes/periodic_table.txt
 pkd_2007: https://worldoftaxonomy.com/llms-codes/pkd_2007.txt

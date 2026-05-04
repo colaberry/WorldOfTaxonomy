@@ -1,3 +1,3 @@
-[F99] SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION
+[F99] SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION -- F99 is a residual subclass in the mechanical-engineering section of the CPC used for inventions whose subject matter does not fall under any other defined subclass in the F group, serving as a catch-all category for miscellaneous or unclassifiable mechanical engineering features.
 [F99Z] SUBJECT MATTER NOT OTHERWISE PROVIDED FOR IN THIS SECTION -- This subclass covers subject matter that: Is not provided for, but is most closely related to, the subject matter covered by the subclasses of this section, and Is not explicitly covered by any subclass of another section.
-[F99Z 99/00] Subject matter not otherwise provided for in this section
+[F99Z 99/00] Subject matter not otherwise provided for in this section -- F99Z 99/00 covers any mechanical engineering topics that do not fit into any other specific subclass within the section, serving as a residual category for inventions that lack a more precise classification. It is used when a patent's subject matter cannot be assigned to any existing subclass, ensuring comprehensive coverage.

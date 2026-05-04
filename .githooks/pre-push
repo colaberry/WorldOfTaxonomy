@@ -1,0 +1,83 @@
+#!/usr/bin/env bash
+# Pre-push hook: regenerate static AEO/RAG content from the dev DB and
+# block the push if the repo contains uncommitted drift.
+#
+# Skips silently when DATABASE_URL is unset (e.g. CI runners, contributors
+# without a local DB). Skip explicitly with `git push --no-verify`.
+#
+# Install once per clone:
+#   git config core.hooksPath .githooks
+#
+# What it does:
+#   1. Run `python3 scripts/build_static_content.py` against the local DB.
+#   2. If the run produced any change in frontend/public/llms-codes/, abort
+#      the push and tell the user to commit the diff first.
+
+set -uo pipefail
+
+if [ -n "${SKIP_STATIC_DRIFT_CHECK:-}" ]; then
+  echo "[pre-push] SKIP_STATIC_DRIFT_CHECK set; skipping static content drift check."
+  exit 0
+fi
+
+# Load .env if present so DATABASE_URL is visible.
+if [ -f .env ]; then
+  set -a
+  # shellcheck disable=SC1091
+  . ./.env
+  set +a
+fi
+
+if [ -z "${DATABASE_URL:-}" ]; then
+  echo "[pre-push] DATABASE_URL not set; skipping static content drift check."
+  exit 0
+fi
+
+# Default to system Python (3.9 on macOS) which has the project deps.
+# Override via PYTHON_BIN if your repo deps live elsewhere.
+PYTHON_BIN="${PYTHON_BIN:-/usr/bin/python3}"
+
+if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
+  echo "[pre-push] $PYTHON_BIN not found; skipping static content drift check."
+  exit 0
+fi
+
+if ! "$PYTHON_BIN" -c "import asyncpg, dotenv" >/dev/null 2>&1; then
+  echo "[pre-push] $PYTHON_BIN missing asyncpg/dotenv; skipping (set PYTHON_BIN to fix)."
+  exit 0
+fi
+
+echo "[pre-push] regenerating static content (build_static_content.py)..."
+"$PYTHON_BIN" scripts/build_static_content.py
+build_status=$?
+if [ "$build_status" -ne 0 ]; then
+  echo "[pre-push] build_static_content.py failed (exit $build_status); aborting push."
+  exit "$build_status"
+fi
+
+# Detect any change under frontend/public/llms-codes/ relative to HEAD,
+# including untracked files (first-time generation, new chunk files).
+untracked="$(git ls-files --others --exclude-standard -- frontend/public/llms-codes/ 2>/dev/null)"
+if ! git diff --quiet -- frontend/public/llms-codes/ \
+   || ! git diff --cached --quiet -- frontend/public/llms-codes/ \
+   || [ -n "$untracked" ]; then
+  cat <<'EOF'
+
+[pre-push] Static AEO/RAG content drifted from your local DB.
+[pre-push] frontend/public/llms-codes/ changed during regeneration.
+
+Review the diff, commit, and push again:
+
+    git status frontend/public/llms-codes/
+    git add frontend/public/llms-codes/
+    git commit -m "regen(static): refresh llms-codes from DB"
+    git push
+
+To bypass once (not recommended):
+    git push --no-verify
+EOF
+  exit 1
+fi
+
+echo "[pre-push] static content already in sync with DB; ok."
+exit 0
