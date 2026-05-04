@@ -16,7 +16,7 @@
 #   _REPO           wot-repo
 #   _INSTANCE_CONN  PROJECT:REGION:INSTANCE   (e.g. colaberry-wot:us-east1:wot-db)
 #
-# See docs/runbooks/gcp-deploy.md for one-time infra setup.
+# See docs/handover/runbooks/gcp-deploy.md for one-time infra setup.
 
 steps:
   # --- Backend ---

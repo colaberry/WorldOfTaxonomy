@@ -4,11 +4,11 @@ import { ContactSalesForm } from './ContactSalesForm'
 import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Star, PlusCircle, Network, Sparkles, Bot, Key } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Builders - WorldOfTaxonomy',
+  title: 'Builders - World Of Taxonomy',
   description:
-    'Build with the WorldOfTaxonomy classification graph: REST API, MCP server, and packaged AI skills for Claude, Cursor, and ChatGPT. 1,000+ classification systems, 1.2M+ codes, 321K+ crosswalk edges. Open source.',
+    'Build with the World Of Taxonomy classification graph: REST API, MCP server, and packaged AI skills for Claude, Cursor, and ChatGPT. 1,000+ classification systems, 1.2M+ codes, 321K+ crosswalk edges. Open source.',
   openGraph: {
-    title: 'Builders - WorldOfTaxonomy',
+    title: 'Builders - World Of Taxonomy',
     description: 'REST API + MCP server for 1,000+ classification systems and 321K+ crosswalk edges. Open source.',
     url: 'https://worldoftaxonomy.com/developers',
     type: 'website',
@@ -247,7 +247,7 @@ export default async function BuildersPage() {
             <p className="text-sm font-medium">Quick start</p>
             <pre className="rounded-lg bg-secondary/60 px-4 py-3 text-xs font-mono overflow-x-auto text-foreground/90 leading-relaxed">
 {`git clone https://github.com/colaberry/WorldOfTaxonomy.git
-cd WorldOfTaxonomy
+cd World Of Taxonomy
 
 # Install backend dependencies
 pip install -r requirements.txt

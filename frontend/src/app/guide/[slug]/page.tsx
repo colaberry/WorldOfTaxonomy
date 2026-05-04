@@ -17,11 +17,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const entry = meta.find((e) => e.slug === slug)
 
   if (!entry) {
-    return { title: 'Guide Not Found - WorldOfTaxonomy' }
+    return { title: 'Guide Not Found - World Of Taxonomy' }
   }
 
   return {
-    title: `${entry.title} - WorldOfTaxonomy`,
+    title: `${entry.title} - World Of Taxonomy`,
     description: entry.description,
     openGraph: {
       title: entry.title,
@@ -53,7 +53,7 @@ export default async function GuideSlugPage({ params }: Props) {
     url: `https://worldoftaxonomy.com/guide/${slug}`,
     publisher: {
       '@type': 'Organization',
-      name: 'WorldOfTaxonomy',
+      name: 'World Of Taxonomy',
       url: 'https://worldoftaxonomy.com',
     },
   }

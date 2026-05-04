@@ -69,6 +69,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Wire the project git hooks (idempotent; one-time per clone):
+
+```bash
+bash scripts/install_git_hooks.sh
+```
+
+This points `core.hooksPath` at `.githooks/`, enabling the pre-push static-content drift check that keeps `frontend/public/llms-codes/` in sync with the DB.
+
 ---
 
 ## 3. Initialize the database

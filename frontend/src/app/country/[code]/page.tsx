@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const profile = await serverGetCountryProfile(upper)
     const title = profile.country?.title ?? upper
     return {
-      title: `${title} - Taxonomy Profile - WorldOfTaxonomy`,
+      title: `${title} - Taxonomy Profile - World Of Taxonomy`,
       description: `${profile.classification_systems?.length ?? 0} classification systems applicable to ${title}. Browse official, regional, and recommended standards.`,
       openGraph: {
         title: `${title} - Taxonomy Profile`,
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       alternates: { canonical: `https://worldoftaxonomy.com/country/${upper}` },
     }
   } catch {
-    return { title: `${upper} - WorldOfTaxonomy` }
+    return { title: `${upper} - World Of Taxonomy` }
   }
 }
 

@@ -31,7 +31,7 @@ ${post.tags.map((tag) => `      <category>${escapeXml(tag)}</category>`).join('\
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WorldOfTaxonomy Blog</title>
+    <title>World Of Taxonomy Blog</title>
     <link>${SITE_URL}/blog</link>
     <description>News, insights, and updates on classification systems and the global taxonomy knowledge graph.</description>
     <language>en-us</language>

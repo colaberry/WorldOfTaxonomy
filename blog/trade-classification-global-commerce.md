@@ -1,6 +1,6 @@
 ## Trade Classification for Global Commerce
 
-> **TL;DR:** Every product crossing a border needs a code. HS, UNSPSC, ECCN, HTS, CN, TARIC - six systems for one shipment. WorldOfTaxonomy connects all trade classification systems so you can search, translate, and find gaps in one place.
+> **TL;DR:** Every product crossing a border needs a code. HS, UNSPSC, ECCN, HTS, CN, TARIC - six systems for one shipment. World Of Taxonomy connects all trade classification systems so you can search, translate, and find gaps in one place.
 
 ---
 

@@ -1,6 +1,6 @@
 ## Contributing a New Classification System
 
-> **TL;DR:** Adding a classification system to WorldOfTaxonomy takes about 2 hours. Three paths (NACE-derived, ISIC-derived, or standalone), strict TDD, and idempotent ingestion. This guide walks through every step.
+> **TL;DR:** Adding a classification system to World Of Taxonomy takes about 2 hours. Three paths (NACE-derived, ISIC-derived, or standalone), strict TDD, and idempotent ingestion. This guide walks through every step.
 
 ---
 

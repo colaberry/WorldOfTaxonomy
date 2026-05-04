@@ -667,7 +667,7 @@ async def handle_jsonrpc_request(
                     "resources": {"subscribe": False, "listChanged": False},
                 },
                 "serverInfo": {
-                    "name": "WorldOfTaxonomy",
+                    "name": "World Of Taxonomy",
                     "version": "0.1.0",
                 },
                 "instructions": build_wiki_context(),

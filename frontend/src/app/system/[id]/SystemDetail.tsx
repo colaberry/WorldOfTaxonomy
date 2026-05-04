@@ -111,7 +111,7 @@ export function SystemDetail({ id, initialSystem, initialStats, initialSystems, 
             }`}
             title={
               system.category === 'domain'
-                ? 'Domain taxonomy: a plain-language on-ramp curated by WorldOfTaxonomy.'
+                ? 'Domain taxonomy: a plain-language on-ramp curated by World Of Taxonomy.'
                 : 'Official standard: published by a government, intergovernmental body, or standards authority.'
             }
           >

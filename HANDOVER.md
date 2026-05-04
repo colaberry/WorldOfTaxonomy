@@ -188,7 +188,7 @@ The backend and frontend enforce a layered defense surface beyond auth:
 - **Request correlation** via `X-Request-ID` propagation (generated if missing) and one JSON log line per HTTP request with method/route/status/latency/request-id.
 - **Startup env validation** refuses to boot if required vars are missing or weak (e.g. short `JWT_SECRET` outside dev).
 
-Policy + disclosure contact: [SECURITY.md](SECURITY.md). Operational response: [docs/runbooks/](docs/runbooks/).
+Policy + disclosure contact: [SECURITY.md](SECURITY.md). Operational response: [docs/handover/runbooks/](docs/handover/runbooks/).
 
 ---
 
@@ -218,7 +218,7 @@ One Prometheus exposition endpoint, one uptime probe, one version probe, one str
 | `wot_rate_guard_fired_total` | endpoint | Per-IP rate-guard 429s + email-budget 503s. |
 | `wot_injection_rejections_total` | reason | `/classify` prompt-injection rejections. |
 
-Dashboards are intentionally not committed; the metric names above are the contract. Runbooks in [docs/runbooks/](docs/runbooks/) describe what an alert on each family should trigger.
+Dashboards are intentionally not committed; the metric names above are the contract. Runbooks in [docs/handover/runbooks/](docs/handover/runbooks/) describe what an alert on each family should trigger.
 
 ---
 
@@ -395,6 +395,7 @@ What's queued: [ROADMAP.md](ROADMAP.md).
 | [docs/handover/auth-implementation.md](docs/handover/auth-implementation.md) | Step-by-step execution checklist for portfolio auth: Phase 0 provisioning, Phases 1-5 Zitadel migration, Phase 6 developer-key system, Phase 6.5 SSO option, Phase 7 extraction to developer.aixcelerator.ai, Phase 8 team UI, Phase 9 Stripe billing. Includes rollback playbook for every phase. |
 | [docs/handover/launch-checklist.md](docs/handover/launch-checklist.md) | Master view of soft / public / pro launch tiers. Critical-path items, open dependencies on third parties, risk register, and recommended sequencing. |
 | [docs/handover/launch-handover.md](docs/handover/launch-handover.md) | Onboarding doc for the deployment developer Ram delegates soft-launch to: required access, 7 steps in order, what's already done vs to-do, decisions for Ram vs decisions for the developer, comms protocol, definition of done. |
+| [docs/handover/stripe-integration.md](docs/handover/stripe-integration.md) | Onboarding doc for the developer wiring Stripe (Pro $49/mo or $490/yr, /classify metered overage at $0.05/call, sales-led Enterprise). 3-day plan: Day 1 Stripe setup, Day 2 schema + webhook handler, Day 3 frontend + secrets. Includes idempotent webhook dispatch, metered usage push cron, and 8-step end-to-end smoke test. |
 | [docs/handover/description-backfill.md](docs/handover/description-backfill.md) | Description-backfill series narrative: Track 1 (skeleton-LLM) and Track 2 (verified-synthesis) pipelines, source-by-source coverage, audit findings, and follow-on plans. |
 | [docs/handover/coverage-report.md](docs/handover/coverage-report.md) | Auto-generated per-system description coverage table (regenerate via `python -m scripts.generate_coverage_report`). |
 | [docs/handover/domain-crosswalk-integration.md](docs/handover/domain-crosswalk-integration.md) | Sector-anchor generator that bridged 434 domain taxonomies to NAICS/ISIC/NACE + `edge_kind` labeling |
@@ -403,7 +404,7 @@ What's queued: [ROADMAP.md](ROADMAP.md).
 | [DATA_SOURCES.md](DATA_SOURCES.md) | Upstream authority, license, URL for every system |
 | [docs/adding-a-new-system.md](docs/adding-a-new-system.md) | Long-form walkthrough for adding an ingester |
 | [docs/diagrams/](docs/diagrams/) | Mermaid sources: system architecture, ingest, API, MCP, wiki flow |
-| [docs/runbooks/](docs/runbooks/) | On-call runbooks: DB, auth, ingest, rate limits, rollback, migrations |
+| [docs/handover/runbooks/](docs/handover/runbooks/) | On-call runbooks: DB, auth, ingest, rate limits, rollback, migrations |
 | [SECURITY.md](SECURITY.md) | Disclosure policy and contact |
 | [CITATION.cff](CITATION.cff) | "Cite this repository" metadata |
 | [CLAUDE.md](CLAUDE.md) | Full 1,000-system catalog with code counts, regions, versions |

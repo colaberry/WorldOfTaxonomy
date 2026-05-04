@@ -4,7 +4,7 @@
 > paste it into your AI client's MCP config, and ask the assistant
 > taxonomy questions in plain English. Five minutes start to finish.
 
-The WorldOfTaxonomy MCP server gives AI assistants (Claude Desktop,
+The World Of Taxonomy MCP server gives AI assistants (Claude Desktop,
 Cursor, Zed, VS Code Continue, and any other MCP client) direct
 access to 1,000+ classification systems, 1.2M+ codes, and 321K+
 crosswalk edges. Once installed, you can ask things like

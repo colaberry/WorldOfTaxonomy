@@ -93,7 +93,7 @@ graph TB
 
 All five systems struggle with technology. Software development, cloud services, AI, and digital platforms are classified differently because these industries did not exist when most frameworks were designed.
 
-> This is one reason WorldOfTaxonomy includes 400+ domain-specific taxonomy systems - they fill the gaps where the major systems lack granularity.
+> This is one reason World Of Taxonomy includes 400+ domain-specific taxonomy systems - they fill the gaps where the major systems lack granularity.
 
 ## The crosswalk challenge
 

@@ -3,11 +3,11 @@ import { Braces, ArrowLeft, Key, ExternalLink, Zap, Shield, Globe, Search, GitFo
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'API Reference - WorldOfTaxonomy',
-  description: 'Complete REST API reference for WorldOfTaxonomy. 50+ endpoints for searching, browsing, translating, and exporting classification codes across 1,000+ systems.',
+  title: 'API Reference - World Of Taxonomy',
+  description: 'Complete REST API reference for World Of Taxonomy. 50+ endpoints for searching, browsing, translating, and exporting classification codes across 1,000+ systems.',
   openGraph: {
-    title: 'API Reference - WorldOfTaxonomy',
-    description: 'Complete REST API reference for WorldOfTaxonomy. 50+ endpoints for classification systems, crosswalks, search, and export.',
+    title: 'API Reference - World Of Taxonomy',
+    description: 'Complete REST API reference for World Of Taxonomy. 50+ endpoints for classification systems, crosswalks, search, and export.',
     type: 'website',
     url: 'https://worldoftaxonomy.com/api',
   },

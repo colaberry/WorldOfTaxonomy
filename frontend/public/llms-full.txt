@@ -1,4 +1,4 @@
-# WorldOfTaxonomy - Full Reference Guide
+# World Of Taxonomy - Full Reference Guide
 
 > Unified Global Classification Knowledge Graph
 > 1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges.
@@ -6,10 +6,10 @@
 
 
 ========================================================================
-# Getting Started with WorldOfTaxonomy
+# Getting Started with World Of Taxonomy
 ========================================================================
 
-## Getting Started with WorldOfTaxonomy
+## Getting Started with World Of Taxonomy
 
 > **TL;DR:** Three ways to query 1,000+ classification systems, 1.2M+ codes, and 321K+ crosswalk edges - REST API, MCP server for AI agents, and a web app. All open source, all free to start.
 
@@ -226,7 +226,7 @@ sequenceDiagram
 
 ## Data disclaimer
 
-All classification data in WorldOfTaxonomy is provided for informational purposes only. It should not be used as a substitute for official government or standards body publications. Always verify codes against the authoritative source for regulatory, legal, or compliance purposes.
+All classification data in World Of Taxonomy is provided for informational purposes only. It should not be used as a substitute for official government or standards body publications. Always verify codes against the authoritative source for regulatory, legal, or compliance purposes.
 
 
 ========================================================================
@@ -239,7 +239,7 @@ All classification data in WorldOfTaxonomy is provided for informational purpose
 > paste it into your AI client's MCP config, and ask the assistant
 > taxonomy questions in plain English. Five minutes start to finish.
 
-The WorldOfTaxonomy MCP server gives AI assistants (Claude Desktop,
+The World Of Taxonomy MCP server gives AI assistants (Claude Desktop,
 Cursor, Zed, VS Code Continue, and any other MCP client) direct
 access to 1,000+ classification systems, 1.2M+ codes, and 321K+
 crosswalk edges. Once installed, you can ask things like
@@ -553,7 +553,7 @@ graph LR
   end
 ```
 
-WorldOfTaxonomy connects over 1,000 classification systems as equal peers in a unified knowledge graph. Systems span industry classification, product and trade codes, occupation standards, health and clinical coding, education frameworks, financial and environmental standards, regulatory compliance, and hundreds of domain-specific vocabularies.
+World Of Taxonomy connects over 1,000 classification systems as equal peers in a unified knowledge graph. Systems span industry classification, product and trade codes, occupation standards, health and clinical coding, education frameworks, financial and environmental standards, regulatory compliance, and hundreds of domain-specific vocabularies.
 
 ## Industry classification standards
 
@@ -1125,7 +1125,7 @@ For systems without direct crosswalks, follow the translation path through hub s
 
 ## Domain-specific extensions
 
-When a standard industry code is too broad for your use case, WorldOfTaxonomy provides domain-specific vocabularies:
+When a standard industry code is too broad for your use case, World Of Taxonomy provides domain-specific vocabularies:
 
 | NAICS Sector | Domain Vocabularies | Example Codes |
 |-------------|---------------------|---------------|
@@ -1144,7 +1144,7 @@ These domain taxonomies are crosswalked back to their parent NAICS/ISIC sector c
 
 ## Medical and Health Classification Systems Compared
 
-> **TL;DR:** ICD-10-CM for US billing, ICD-11 for global reporting, LOINC for lab tests, ATC for drugs, MeSH for research. WorldOfTaxonomy connects all of these (and more) - 568K+ health codes across 100+ systems with crosswalk edges between them.
+> **TL;DR:** ICD-10-CM for US billing, ICD-11 for global reporting, LOINC for lab tests, ATC for drugs, MeSH for research. World Of Taxonomy connects all of these (and more) - 568K+ health codes across 100+ systems with crosswalk edges between them.
 
 ---
 
@@ -1267,7 +1267,7 @@ graph TD
 
 ## Domain-specific health vocabularies
 
-WorldOfTaxonomy includes domain taxonomies for healthcare specialization:
+World Of Taxonomy includes domain taxonomies for healthcare specialization:
 
 | Domain | Codes | Coverage |
 |--------|-------|----------|
@@ -1675,7 +1675,7 @@ Occupations connect to industries through two paths:
 
 ```mermaid
 graph TD
-  WOT["WorldOfTaxonomy\n1,000+ systems"] --> IND["Industry\n~150 systems"]
+  WOT["World Of Taxonomy\n1,000+ systems"] --> IND["Industry\n~150 systems"]
   WOT --> TRADE["Product/Trade\n~20 systems"]
   WOT --> OCC["Occupation\n~15 systems"]
   WOT --> EDU["Education\n~10 systems"]
@@ -1840,13 +1840,13 @@ curl https://worldoftaxonomy.com/api/v1/equivalences/stats
 
 # Domain Taxonomies vs Official Standards
 
-WorldOfTaxonomy ships two complementary kinds of classification system, and every public surface (web app, REST API, MCP server) now labels them explicitly so downstream consumers can treat them differently.
+World Of Taxonomy ships two complementary kinds of classification system, and every public surface (web app, REST API, MCP server) now labels them explicitly so downstream consumers can treat them differently.
 
 ## The two categories
 
 | Category | `category` value | System ID pattern | Examples | Role |
 |----------|------------------|-------------------|----------|------|
-| Domain taxonomy | `domain` | IDs start with `domain_` | `domain_truck_freight`, `domain_ai_deployment`, `domain_fintech_service` | Plain-language on-ramps curated by WorldOfTaxonomy. Shorter (15-50 nodes), written in working-industry vocabulary, and crosswalked into the relevant official standard. |
+| Domain taxonomy | `domain` | IDs start with `domain_` | `domain_truck_freight`, `domain_ai_deployment`, `domain_fintech_service` | Plain-language on-ramps curated by World Of Taxonomy. Shorter (15-50 nodes), written in working-industry vocabulary, and crosswalked into the relevant official standard. |
 | Official standard | `standard` | Everything else | `naics_2022`, `isic_rev4`, `nace_rev2`, `soc_2018`, `icd10_cm`, `hs_2022` | Published by a government, intergovernmental body, or standards authority. These are the codes auditors, statistical agencies, and regulators require. |
 
 The split is a pure function of `system_id`: if the ID starts with `domain_`, it is a domain taxonomy; otherwise it is an official standard. The Python helper `world_of_taxonomy.category.get_category()` and the TypeScript helper `frontend/src/lib/category.ts` are the two sources of truth and stay in sync.
@@ -1879,7 +1879,7 @@ Domain taxonomies are therefore the front door: surface them first, let the user
 
 ## Consuming the split
 
-If you are building on top of WorldOfTaxonomy:
+If you are building on top of World Of Taxonomy:
 
 1. **Route users through domain taxonomies first** when the input is free text. They are written for humans.
 2. **Fall back to official standards** when the user asks for a statistical code, needs to report to a government agency, or wants cross-country comparability.
@@ -2048,12 +2048,12 @@ For official download systems, the `source_file_hash` lets you verify data integ
 1. Download the original file from `source_url`
 2. Compute its SHA-256 hash
 3. Compare against the stored `source_file_hash`
-4. If they match, the data in WorldOfTaxonomy matches the original file
+4. If they match, the data in World Of Taxonomy matches the original file
 
 ```mermaid
 sequenceDiagram
     participant You
-    participant WOT as WorldOfTaxonomy API
+    participant WOT as World Of Taxonomy API
     participant Source as Standards Body
 
     You->>WOT: GET /systems/naics_2022
@@ -2093,7 +2093,7 @@ If you find incorrect data, missing codes, or wrong crosswalk mappings:
 1. **GitHub**: File an issue on the project repository with system ID, code, expected vs actual value, and a link to the authoritative source
 2. **API**: Include the `report_issue_url` from any API response for direct reporting
 
-> All classification data in WorldOfTaxonomy is provided for informational purposes only. It should not be used as a substitute for official government or standards body publications. For regulatory, legal, or compliance purposes, always verify codes against the authoritative source.
+> All classification data in World Of Taxonomy is provided for informational purposes only. It should not be used as a substitute for official government or standards body publications. For regulatory, legal, or compliance purposes, always verify codes against the authoritative source.
 
 
 ========================================================================
@@ -2338,7 +2338,7 @@ Two commands to run everything locally:
 
 ```bash
 git clone https://github.com/colaberry/WorldOfTaxonomy.git
-cd WorldOfTaxonomy && docker compose up
+cd World Of Taxonomy && docker compose up
 ```
 
 Web app at `localhost:3000`. API at `localhost:8000`. MCP server via `python -m world_of_taxonomy mcp`.
@@ -2346,7 +2346,7 @@ Web app at `localhost:3000`. API at `localhost:8000`. MCP server via `python -m 
 
 ## Provenance Markers
 
-The following identifiers are unique to the WorldOfTaxonomy project 
+The following identifiers are unique to the World Of Taxonomy project 
 and are used for provenance verification. They are not classification 
 codes and have no meaning outside this file:
 

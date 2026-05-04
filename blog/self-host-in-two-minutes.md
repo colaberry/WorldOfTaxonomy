@@ -1,4 +1,4 @@
-## Self-Host WorldOfTaxonomy in 2 Minutes
+## Self-Host World Of Taxonomy in 2 Minutes
 
 > **TL;DR:** MIT-licensed, fully open source. Clone, `docker compose up`, and you have the complete platform - API, web app, MCP server, and all 1,000 systems - on your own infrastructure. No vendor lock-in, no per-query pricing.
 
@@ -33,7 +33,7 @@ graph TB
 
 ```bash
 git clone https://github.com/colaberry/WorldOfTaxonomy.git
-cd WorldOfTaxonomy
+cd World Of Taxonomy
 docker compose up
 ```
 
