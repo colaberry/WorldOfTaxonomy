@@ -8,6 +8,7 @@ Deep dives you will need:
 - DB outage playbook: [docs/handover/runbooks/db-down.md](runbooks/db-down.md)
 - Migration playbook: [docs/handover/runbooks/migrations.md](runbooks/migrations.md)
 - Ingest-refresh playbook: [docs/handover/runbooks/ingest-failed.md](runbooks/ingest-failed.md)
+- Inject data into prod (one-command runbook for backfill PRs): [docs/handover/runbooks/ingest-prod.md](runbooks/ingest-prod.md)
 - Architecture overview: [docs/handover/backend.md](backend.md), [docs/handover/frontend.md](frontend.md)
 
 ---
