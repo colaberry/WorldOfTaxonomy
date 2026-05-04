@@ -1,0 +1,135 @@
+{
+  "_doc": [
+    "Declarative task list for prod data injection. Each key is a task ID;",
+    "each value is an ORDERED list of shell commands to run inside the",
+    "wot-ingest Cloud Run Job (i.e. inside the wot-api container against",
+    "prod Cloud SQL via DATABASE_URL secret).",
+    "",
+    "Invariants enforced by scripts/check_manifest_integrity.py (CI):",
+    "  1. Every command is a non-empty string.",
+    "  2. Every 'python scripts/X.py' references a file that exists in repo.",
+    "  3. Tasks must be idempotent. Re-running must not duplicate or",
+    "     overwrite existing data. apply_descriptions() is NULL-only;",
+    "     structural ingesters use INSERT ... ON CONFLICT DO NOTHING.",
+    "",
+    "Usage from a developer laptop after a backfill PR merges:",
+    "  ./scripts/ingest-prod.sh anzsic_2006 soc_2018 mesh",
+    "",
+    "Add a new task: append a key here, run the integrity check, ship.",
+    "See docs/handover/runbooks/ingest-prod.md for full runbook."
+  ],
+
+  "anzsic_2006": [
+    "python scripts/backfill_anzsic_2006_descriptions.py",
+    "python scripts/backfill_anzsic2006_descriptions.py"
+  ],
+
+  "anzsco_2022": [
+    "python scripts/backfill_anzsco_descriptions.py"
+  ],
+
+  "atc_who": [
+    "python scripts/backfill_atc_who_descriptions.py"
+  ],
+
+  "cip_2020": [
+    "python scripts/backfill_cip_2020_descriptions.py"
+  ],
+
+  "cofog": [
+    "python scripts/backfill_cofog_descriptions.py"
+  ],
+
+  "cpc_v21": [
+    "python scripts/backfill_cpc_v21_descriptions.py",
+    "python scripts/backfill_cpc_v21_aggregator_descriptions.py"
+  ],
+
+  "esco": [
+    "python scripts/backfill_esco_descriptions.py"
+  ],
+
+  "icd10cm": [
+    "python scripts/backfill_icd10cm_descriptions.py"
+  ],
+
+  "icd10_pcs": [
+    "python scripts/backfill_icd10_pcs_descriptions.py",
+    "python scripts/backfill_icd10_pcs_aggregator_descriptions.py"
+  ],
+
+  "icd_11": [
+    "python scripts/backfill_icd11_descriptions.py",
+    "python scripts/backfill_icd11_chapters_blocks.py",
+    "python scripts/backfill_icd11_api_descriptions.py"
+  ],
+
+  "iscedf_2013": [
+    "python scripts/backfill_iscedf2013_descriptions.py"
+  ],
+
+  "isco_08": [
+    "python scripts/backfill_isco08_descriptions.py"
+  ],
+
+  "iso_3166_1": [
+    "python scripts/backfill_iso3166_1_descriptions.py"
+  ],
+
+  "iso_3166_2": [
+    "python scripts/backfill_iso3166_2_descriptions.py"
+  ],
+
+  "loinc": [
+    "python scripts/backfill_loinc_descriptions.py"
+  ],
+
+  "mesh": [
+    "python scripts/backfill_mesh_descriptions.py"
+  ],
+
+  "naics_2022": [
+    "python scripts/backfill_naics_descriptions.py",
+    "python scripts/backfill_naics2022_group_descriptions.py",
+    "python scripts/backfill_naics_revisions_descriptions.py"
+  ],
+
+  "nace_rev2": [
+    "python scripts/backfill_nace_descriptions.py"
+  ],
+
+  "nci_thesaurus": [
+    "python scripts/backfill_nci_thesaurus_descriptions.py"
+  ],
+
+  "ndc_fda": [
+    "python scripts/backfill_ndc_fda_descriptions.py",
+    "python scripts/backfill_ndc_aggregator_descriptions.py"
+  ],
+
+  "nic_2008": [
+    "python scripts/backfill_nic2008_pdf_descriptions.py"
+  ],
+
+  "onet_soc": [
+    "python scripts/backfill_onet_descriptions.py"
+  ],
+
+  "patent_cpc": [
+    "python scripts/backfill_cpc_patent_descriptions.py"
+  ],
+
+  "sic_1987": [
+    "python scripts/backfill_sic1987_descriptions.py"
+  ],
+
+  "soc_2018": [
+    "python scripts/backfill_soc_2018_descriptions.py",
+    "python scripts/backfill_soc_2018_aggregator_descriptions.py",
+    "python scripts/backfill_soc2018_broad_descriptions.py"
+  ],
+
+  "un_m49": [
+    "python scripts/backfill_un_m49_descriptions.py"
+  ]
+}
