@@ -158,6 +158,45 @@ Or via Cloud SQL Auth Proxy + psql for bulk spot-checks (see
 
 ---
 
+## Data file dependencies
+
+Backfill scripts split into two flavours:
+
+- **Auto-downloading**: the script fetches its source XML/CSV/JSON from
+  a public URL (NACE, ISCO-08, ANZSIC SDMX, ICD-11 API, etc.). Works in a
+  fresh container with no extra setup.
+- **File-based**: the script expects the source file to already exist
+  under `data/<file>` (O*NET, MeSH, ICD-10-CM, NIC PDF, etc.). The
+  `data/` directory is currently in `.gitignore` so these files are NOT
+  shipped in the wot-api Docker image.
+
+For tasks that have BOTH variants (e.g. `anzsic_2006`, `icd_11`), the
+manifest orders the auto-downloading variant FIRST; the file-based
+variant then reuses the downloaded file.
+
+**For tasks that only have file-based variants** (`soc_2018`, `mesh`,
+`icd10cm`, `icd10_pcs`, `loinc`, `naics_2022`, etc.), one of these is
+required for the task to succeed in the Cloud Run Job:
+
+1. **Bake the data file into the image** (recommended). Carve the
+   relevant filename out of `.gitignore`'s `data/*` rule and commit the
+   file. Pre-existing example: `data/anzsco_2022.xml` (whitelisted at
+   line `!data/anzsco_2022.xml`).
+2. **Refactor the script to auto-download** from a known URL inside
+   `_ensure_downloaded()`-style helpers (see
+   `scripts/backfill_anzsic2006_descriptions.py` for the canonical
+   pattern). Many landing pages don't expose direct download URLs, so
+   this isn't always feasible.
+3. **Mount the data file via a Cloud Run volume** (Cloud Storage FUSE
+   or pre-staged secret). Heavier setup; defer.
+
+When you add a NEW system whose data file isn't auto-downloadable,
+**also commit the source file to `data/` in the same PR** so the task
+works end-to-end in CI/Cloud Run. Document the source URL in a comment
+near the script's `_DEFAULT_PATH` constant for traceability.
+
+---
+
 ## Troubleshooting
 
 ### `unknown task ID(s)`
@@ -165,6 +204,12 @@ Or via Cloud SQL Auth Proxy + psql for bulk spot-checks (see
 The wrapper validates the task IDs against the manifest **before** firing
 the job. Run `./scripts/ingest-prod.sh --list` to see all available IDs;
 they're case-sensitive.
+
+### `data/<file>.xml not found` / `Download from <URL>`
+
+The container is missing the source data file. See "Data file
+dependencies" above. Quick fix: commit the file under `data/` in a
+follow-up PR, after carving its filename out of `.gitignore`.
 
 ### Job runs but `description` columns still NULL
 

@@ -11,6 +11,11 @@
     "  3. Tasks must be idempotent. Re-running must not duplicate or",
     "     overwrite existing data. apply_descriptions() is NULL-only;",
     "     structural ingesters use INSERT ... ON CONFLICT DO NOTHING.",
+    "  4. Within a task, ORDER scripts so any auto-downloading variant runs",
+    "     FIRST (it populates data/<file>); file-based variants run AFTER",
+    "     and reuse the downloaded file. Some systems still need data files",
+    "     baked into the Docker image (data/* is .gitignored today). See",
+    "     docs/handover/runbooks/ingest-prod.md 'Data file dependencies'.",
     "",
     "Usage from a developer laptop after a backfill PR merges:",
     "  ./scripts/ingest-prod.sh anzsic_2006 soc_2018 mesh",
@@ -20,8 +25,8 @@
   ],
 
   "anzsic_2006": [
-    "python scripts/backfill_anzsic_2006_descriptions.py",
-    "python scripts/backfill_anzsic2006_descriptions.py"
+    "python scripts/backfill_anzsic2006_descriptions.py",
+    "python scripts/backfill_anzsic_2006_descriptions.py"
   ],
 
   "anzsco_2022": [
@@ -59,9 +64,9 @@
   ],
 
   "icd_11": [
-    "python scripts/backfill_icd11_descriptions.py",
     "python scripts/backfill_icd11_chapters_blocks.py",
-    "python scripts/backfill_icd11_api_descriptions.py"
+    "python scripts/backfill_icd11_api_descriptions.py",
+    "python scripts/backfill_icd11_descriptions.py"
   ],
 
   "iscedf_2013": [
