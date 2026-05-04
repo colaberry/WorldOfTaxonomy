@@ -34,7 +34,7 @@ def main():
     # Build llms.txt (short summary with link to full version)
     meta = load_wiki_meta()
     lines = [
-        "# WorldOfTaxonomy",
+        "# World Of Taxonomy",
         "",
         "> Unified Global Classification Knowledge Graph",
         "> 1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges.",

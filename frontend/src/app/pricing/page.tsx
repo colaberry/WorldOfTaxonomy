@@ -5,13 +5,13 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Pricing - WorldOfTaxonomy',
+  title: 'Pricing - World Of Taxonomy',
   description:
-    'Free, Pro, and Enterprise plans for the WorldOfTaxonomy classification API and MCP server.',
+    'Free, Pro, and Enterprise plans for the World Of Taxonomy classification API and MCP server.',
   openGraph: {
-    title: 'Pricing - WorldOfTaxonomy',
+    title: 'Pricing - World Of Taxonomy',
     description:
-      'Free, Pro, and Enterprise plans for the WorldOfTaxonomy classification API and MCP server.',
+      'Free, Pro, and Enterprise plans for the World Of Taxonomy classification API and MCP server.',
     url: 'https://worldoftaxonomy.com/pricing',
     type: 'website',
   },

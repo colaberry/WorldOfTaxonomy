@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://worldoftaxonomy.com"),
   title: {
-    default: "WorldOfTaxonomy - Global Classification Knowledge Graph",
-    template: "%s | WorldOfTaxonomy",
+    default: "World Of Taxonomy - Global Classification Knowledge Graph",
+    template: "%s | World Of Taxonomy",
   },
   description:
     "Explore 1,000+ global classification systems with 1.2M+ codes. Search NAICS, ISIC, HS, ICD, SOC codes and discover cross-system mappings.",
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://worldoftaxonomy.com",
-    siteName: "WorldOfTaxonomy",
-    title: "WorldOfTaxonomy - Global Classification Knowledge Graph",
+    siteName: "World Of Taxonomy",
+    title: "World Of Taxonomy - Global Classification Knowledge Graph",
     description:
       "1,000+ systems, 1.2M+ codes, 321K+ crosswalks. Search, browse, and translate classification codes across NAICS, ISIC, HS, ICD, and more.",
   },
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@ramdhanyk",
     creator: "@ramdhanyk",
-    title: "WorldOfTaxonomy - Global Classification Knowledge Graph",
+    title: "World Of Taxonomy - Global Classification Knowledge Graph",
     description:
       "1,000+ systems, 1.2M+ codes, 321K+ crosswalks. Search, browse, and translate classification codes across NAICS, ISIC, HS, ICD, and more.",
   },
@@ -66,8 +66,8 @@ export const metadata: Metadata = {
     // scripts/build_llms_txt.py. See the Karpathy "LLM Wiki" pattern.
     types: {
       "text/plain": [
-        { url: "/llms.txt",      title: "WorldOfTaxonomy guide index (plain text)" },
-        { url: "/llms-full.txt", title: "WorldOfTaxonomy full reference (plain text)" },
+        { url: "/llms.txt",      title: "World Of Taxonomy guide index (plain text)" },
+        { url: "/llms-full.txt", title: "World Of Taxonomy full reference (plain text)" },
       ],
     },
   },
@@ -93,7 +93,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "DataCatalog",
-    name: "WorldOfTaxonomy",
+    name: "World Of Taxonomy",
     description:
       "Unified global classification knowledge graph with 1,000+ systems, 1.2M+ codes, and 321K+ crosswalk edges.",
     url: "https://worldoftaxonomy.com",
@@ -108,7 +108,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "WorldOfTaxonomy",
+    name: "World Of Taxonomy",
     url: "https://worldoftaxonomy.com",
     potentialAction: {
       "@type": "SearchAction",
@@ -122,7 +122,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "WorldOfTaxonomy",
+    name: "World Of Taxonomy",
     url: "https://worldoftaxonomy.com",
     logo: "https://worldoftaxonomy.com/opengraph-image",
     sameAs: [
@@ -155,7 +155,7 @@ export default function RootLayout({
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="WorldOfTaxonomy Blog"
+          title="World Of Taxonomy Blog"
           href="/feed.xml"
         />
       </head>

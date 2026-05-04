@@ -62,7 +62,7 @@ for code in NAICS_CODES:
 ```mermaid
 sequenceDiagram
     participant Client
-    participant API as WorldOfTaxonomy API
+    participant API as World Of Taxonomy API
     participant DB as PostgreSQL
 
     Client->>API: GET /systems/naics_2022/nodes/5415/translations

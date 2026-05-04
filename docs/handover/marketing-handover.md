@@ -1,7 +1,7 @@
 # Marketing Handover
 
 > **Hi - if you're reading this, you've been asked to run the multi-channel
-> launch for WorldOfTaxonomy. This doc is your onboarding in one read.
+> launch for World Of Taxonomy. This doc is your onboarding in one read.
 > It tells you what the product is, what's true today (so you don't
 > overclaim), what assets exist, where to publish, in what order, and
 > what decisions block you from Ram.**
@@ -23,7 +23,7 @@
 
 ## 1. What you're launching, in 30 seconds
 
-WorldOfTaxonomy is a unified knowledge graph of **1,000 global
+World Of Taxonomy is a unified knowledge graph of **1,000 global
 classification systems** - NAICS, ISIC, NACE, HS, ICD-11, LOINC,
 ESCO, ISCO, GICS, SOC, plus 990 more across industry, trade,
 occupation, health, education, finance, and regulation. They all
@@ -48,7 +48,7 @@ Three product surfaces, one knowledge graph behind them:
 "Every dataset uses a different classification system. US data uses
 NAICS. EU data uses NACE. Health data uses ICD. Trade data uses HS
 codes. They all describe the same world but none of them speak to
-each other. WorldOfTaxonomy connects 1,000 of them in a single
+each other. World Of Taxonomy connects 1,000 of them in a single
 queryable graph, so you can translate any code into any other system
 with one API call. We also ship a Model Context Protocol server, so
 AI agents can use the whole graph as structured tools."
@@ -271,7 +271,7 @@ yourself. The script:
 | Time | Visual | Voiceover |
 |---|---|---|
 | 0-15s | Show 5 windows, each with a different code for "truck driver" (NAICS 4841, NACE H494, ISCO 8332, SOC 53-3032, ANZSCO 7331). Zoom out, all 5 collide in confusion. | "Every dataset uses a different classification system. None of them talk to each other." |
-| 15-30s | Cursor on `worldoftaxonomy.com` home page. Click `/explore`. Type "truck driver". | "WorldOfTaxonomy connects all 1,000 of them in one queryable graph." |
+| 15-30s | Cursor on `worldoftaxonomy.com` home page. Click `/explore`. Type "truck driver". | "World Of Taxonomy connects all 1,000 of them in one queryable graph." |
 | 30-50s | Click into NAICS 4841. Show the crosswalk panel - all 5 systems' equivalents lit up. Click ISCO 8332, smooth transition to its detail page. | "Translate any code to any other system with one click - or one API call." |
 | 50-70s | Switch to a terminal. `curl https://wot.aixcelerator.ai/api/v1/systems/naics_2022/nodes/4841/translations`. JSON streams in. | "Free for 30 requests per minute. Open source. MIT licensed." |
 | 70-90s | Switch to Claude Desktop. Type "What's the ISCO equivalent of NAICS 4841?". Watch it call `translate_code` via MCP. | "And shipped as a Model Context Protocol server, so your AI agents speak the language of every classification system in the world." |
@@ -315,7 +315,7 @@ panels or any signed-in state with real email addresses.
   for "auditor satisfaction" - if a customer's compliance team
   asks where a number came from, the answer should already be in
   the prose, not in a follow-up email.
-- **Tense:** present, declarative. ("WorldOfTaxonomy connects
+- **Tense:** present, declarative. ("World Of Taxonomy connects
   1,000 systems.") Not future ("will connect"), not aspirational
   ("aims to connect").
 - **No em-dashes.** Project-wide style: use a hyphen `-`. CI

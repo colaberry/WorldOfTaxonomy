@@ -1,6 +1,6 @@
 ## Wiki - Curated Classification Guides
 
-This directory contains curated markdown files that serve as the single source of truth for WorldOfTaxonomy's guide content. Each file is distributed through four channels automatically:
+This directory contains curated markdown files that serve as the single source of truth for World Of Taxonomy's guide content. Each file is distributed through four channels automatically:
 
 1. **Web pages** at `/guide/[slug]` (server-rendered HTML for SEO)
 2. **MCP instructions** (injected into the AI agent context at session start)

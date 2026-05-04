@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og'
 
-export const alt = 'WorldOfTaxonomy - Global Classification Knowledge Graph'
+export const alt = 'World Of Taxonomy - Global Classification Knowledge Graph'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -30,7 +30,7 @@ export default async function Image() {
             }}
           />
           <div style={{ fontSize: '26px', fontWeight: 700 }}>
-            WorldOfTaxonomy
+            World Of Taxonomy
           </div>
         </div>
 

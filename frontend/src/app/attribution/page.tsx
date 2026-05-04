@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { ScrollText } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Attribution - WorldOfTaxonomy',
+  title: 'Attribution - World Of Taxonomy',
   description:
-    'Source attribution for the 1,000+ classification systems aggregated by WorldOfTaxonomy, an open-source project by Colaberry Inc and Colaberry Research Labs.',
+    'Source attribution for the 1,000+ classification systems aggregated by World Of Taxonomy, an open-source project by Colaberry Inc and Colaberry Research Labs.',
   openGraph: {
-    title: 'Attribution - WorldOfTaxonomy',
+    title: 'Attribution - World Of Taxonomy',
     description:
-      'Source attribution for the 1,000+ classification systems aggregated by WorldOfTaxonomy.',
+      'Source attribution for the 1,000+ classification systems aggregated by World Of Taxonomy.',
     url: 'https://worldoftaxonomy.com/attribution',
     type: 'website',
   },
@@ -52,7 +52,7 @@ export default function AttributionPage() {
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Attribution</h1>
         <p className="text-sm text-muted-foreground leading-relaxed">
-          WorldOfTaxonomy is an open-source project by{' '}
+          World Of Taxonomy is an open-source project by{' '}
           <strong>Colaberry Inc</strong> and{' '}
           <strong>Colaberry Research Labs</strong>, released under the MIT License at{' '}
           <a
@@ -113,7 +113,7 @@ export default function AttributionPage() {
       <section className="space-y-3">
         <h2 className="text-xl font-semibold">Project license</h2>
         <p className="text-sm leading-relaxed text-muted-foreground">
-          The WorldOfTaxonomy software (this website, REST API, MCP server, ingest pipeline) is released under the
+          The World Of Taxonomy software (this website, REST API, MCP server, ingest pipeline) is released under the
           <strong> MIT License</strong>. The aggregated <em>data</em> is provided under each underlying authority&apos;s
           terms; users are responsible for honoring those terms when redistributing or using the data downstream.
         </p>

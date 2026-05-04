@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ],
     }
   } catch {
-    return { title: 'Classification Code - WorldOfTaxonomy' }
+    return { title: 'Classification Code - World Of Taxonomy' }
   }
 }
 

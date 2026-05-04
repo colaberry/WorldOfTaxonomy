@@ -1,4 +1,4 @@
-## Getting Started with WorldOfTaxonomy
+## Getting Started with World Of Taxonomy
 
 > **TL;DR:** Three ways to query 1,000+ classification systems, 1.2M+ codes, and 321K+ crosswalk edges - REST API, MCP server for AI agents, and a web app. All open source, all free to start.
 
@@ -215,4 +215,4 @@ sequenceDiagram
 
 ## Data disclaimer
 
-All classification data in WorldOfTaxonomy is provided for informational purposes only. It should not be used as a substitute for official government or standards body publications. Always verify codes against the authoritative source for regulatory, legal, or compliance purposes.
+All classification data in World Of Taxonomy is provided for informational purposes only. It should not be used as a substitute for official government or standards body publications. Always verify codes against the authoritative source for regulatory, legal, or compliance purposes.

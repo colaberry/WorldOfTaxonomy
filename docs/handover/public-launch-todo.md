@@ -7,8 +7,8 @@ detail location and lists the rough effort + the unblock condition.
 
 | # | Item | Effort | Unblocked by |
 |---|---|---:|---|
-| 1 | [Pricing page with real numbers](#1-pricing-page-with-real-numbers) | 1d | Stripe SKU decisions |
-| 2 | [Stripe integration](#2-stripe-integration) | 2-3d | Pricing decisions |
+| 1 | [Pricing page with real numbers](#1-pricing-page-with-real-numbers) | 1d | Stripe Price IDs created in dashboard (pricing decisions LOCKED 2026-05-04) |
+| 2 | [Stripe integration](#2-stripe-integration) | 2-3d | None (pricing LOCKED, see [stripe-integration.md](stripe-integration.md)) |
 | 3 | [Press kit](#3-press-kit) | 0.5d | None |
 | 4 | [Status page](#4-status-page) | 0.5d | Cloud Run alerts wired |
 | 5 | [Demo video (~2 min)](#5-demo-video-2-min) | 1d | Pricing copy locked |
@@ -19,23 +19,40 @@ detail location and lists the rough effort + the unblock condition.
 
 ## 1. Pricing page with real numbers
 
-A `/pricing` page exists with placeholder content. Public-launch needs
-the actual number triple (free / pro / enterprise) wired against
-Stripe SKUs. See
-[launch-checklist.md L316](./launch-checklist.md) and the broader
-monetization context in `.claude/.../memory/project_monetization_strategy.md`.
+A `/pricing` page exists with placeholder content. Pricing decisions
+were locked 2026-05-04; the page now needs the actual numbers wired
+plus "Subscribe" buttons that POST to `/api/v1/billing/checkout`.
 
-**Decision needed first:** the per-tier rate-limit caps + Pro/Enterprise
-price points. Until those exist as Stripe SKUs, the page can't
-faithfully describe what the user gets.
+**Locked tiers** (verbatim from
+`.claude/.../memory/project_pricing_tiers.md`):
+
+- **Free** ($0): 30/min anonymous, 200/min authenticated, 50K/day
+  cap; 20 /classify calls/day; MCP stdio mode only.
+- **Pro** ($49/month or $490/year, ~17% annual discount): 5,000/min
+  unlimited daily; 200 /classify calls/day included with metered
+  overage at **$0.05/call** above the bucket; MCP HTTP-mode included;
+  bulk JSON export; webhook notifications; per-key analytics; 14-day
+  free trial card-required.
+- **Enterprise** (starts $499/month, sales-led, "Contact us"):
+  50,000+/min; unlimited /classify; 99.9% SLA; private classification
+  systems; dedicated support channel; annual contract.
+
+The /pricing page should render two pricing cards (Pro, Enterprise)
+plus a Free panel. Enterprise card says "Contact us", not a price.
+See [stripe-integration.md](stripe-integration.md) Day 3 for the
+frontend wiring.
 
 ## 2. Stripe integration
 
 Provision a Stripe account, define products (free, pro, enterprise) +
 price points, wire customer-portal handoff, write the webhook handler
 that bumps `org.tier` + `org.stripe_customer_id` when the subscription
-state changes. Architecture is sketched in
-[launch-checklist.md L317](./launch-checklist.md).
+state changes.
+
+Pricing was locked 2026-05-04 (see item 1 above). The full developer
+handover is in [stripe-integration.md](stripe-integration.md): three-day
+sequencing, migration SQL, endpoint contracts, webhook event handling,
+and frontend changes. Read that doc first.
 
 Org-tier is already in the schema (Phase 6); the gap is the Stripe
 half. Hosted Stripe pages take care of the PCI surface; we never

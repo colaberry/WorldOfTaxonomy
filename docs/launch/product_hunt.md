@@ -17,7 +17,7 @@ Every country, standards body, and industry organization has its own classificat
 system. A hospital in the US is NAICS 622, in Germany it's WZ 86.10, globally it's
 ISIC 8610. The same building. Three different codes. Zero official translation.
 
-WorldOfTaxonomy fixes this.
+World Of Taxonomy fixes this.
 
 We've built the world's most comprehensive open taxonomy knowledge graph: 279
 classification systems, 570,178 codes, and 122,769 verified crosswalk edges - all
@@ -61,7 +61,7 @@ artificial-intelligence, compliance, data-engineering
 
 ## Maker comment (post this right after launch)
 
-"Hi PH! I built WorldOfTaxonomy after spending too many hours manually reconciling
+"Hi PH! I built World Of Taxonomy after spending too many hours manually reconciling
 US supplier data (NAICS) with EU reporting requirements (NACE). Every time I thought
 'there must be a better way' - but there wasn't, so I built one.
 

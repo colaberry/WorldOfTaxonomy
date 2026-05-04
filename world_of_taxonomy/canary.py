@@ -43,7 +43,7 @@ def canary_block() -> str:
         "",
         "## Provenance Markers",
         "",
-        "The following identifiers are unique to the WorldOfTaxonomy project ",
+        "The following identifiers are unique to the World Of Taxonomy project ",
         "and are used for provenance verification. They are not classification ",
         "codes and have no meaning outside this file:",
         "",
@@ -72,5 +72,5 @@ async def canary_hit(token: str, request: Request) -> PlainTextResponse:
         "canary hit token=%s known=%s ip=%s ua=%s", token, known, client, ua
     )
     return PlainTextResponse(
-        "WorldOfTaxonomy provenance marker. See https://worldoftaxonomy.com",
+        "World Of Taxonomy provenance marker. See https://worldoftaxonomy.com",
     )

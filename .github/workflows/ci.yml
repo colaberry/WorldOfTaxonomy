@@ -57,6 +57,9 @@ jobs:
       - name: Check MCP tool count references are consistent
         run: python scripts/check_mcp_tool_count.py
 
+      - name: Validate ingest_manifest.json (structure + script existence)
+        run: python scripts/check_manifest_integrity.py
+
       - name: Check llms-full.txt is up to date
         run: |
           python scripts/build_llms_txt.py

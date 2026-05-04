@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { FileText } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service - WorldOfTaxonomy',
+  title: 'Terms of Service - World Of Taxonomy',
   description:
-    'Terms governing use of WorldOfTaxonomy, an open-source classification knowledge graph published by Colaberry Inc and Colaberry Research Labs.',
+    'Terms governing use of World Of Taxonomy, an open-source classification knowledge graph published by Colaberry Inc and Colaberry Research Labs.',
   openGraph: {
-    title: 'Terms of Service - WorldOfTaxonomy',
+    title: 'Terms of Service - World Of Taxonomy',
     description:
-      'Terms governing use of WorldOfTaxonomy, an open-source classification knowledge graph.',
+      'Terms governing use of World Of Taxonomy, an open-source classification knowledge graph.',
     url: 'https://worldoftaxonomy.com/terms',
     type: 'website',
   },
@@ -28,14 +28,14 @@ export default function TermsPage() {
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Terms of Service</h1>
         <p className="text-sm text-muted-foreground">
-          Last updated: {LAST_UPDATED}. Please read these Terms before using WorldOfTaxonomy.
+          Last updated: {LAST_UPDATED}. Please read these Terms before using World Of Taxonomy.
         </p>
       </header>
 
       <section className="space-y-3">
         <h2 className="text-xl font-semibold">1. Who we are</h2>
         <p className="text-sm leading-relaxed text-muted-foreground">
-          WorldOfTaxonomy (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;the Service&rdquo;) is an open-source
+          World Of Taxonomy (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;the Service&rdquo;) is an open-source
           classification knowledge graph published by{' '}
           <strong>Colaberry Inc</strong> and{' '}
           <strong>Colaberry Research Labs</strong> (collectively, &ldquo;Colaberry&rdquo;). The source code
@@ -104,7 +104,7 @@ export default function TermsPage() {
       <section className="space-y-3">
         <h2 className="text-xl font-semibold">6. Source-data attribution</h2>
         <p className="text-sm leading-relaxed text-muted-foreground">
-          The classification systems aggregated by WorldOfTaxonomy are produced by national governments,
+          The classification systems aggregated by World Of Taxonomy are produced by national governments,
           intergovernmental bodies, and standards organizations (Census Bureau, UN, WHO, ILO, WCO, ISO, and
           others). They retain their original licenses, which we honor. See the{' '}
           <Link href="/attribution" className="text-primary hover:underline">
@@ -184,7 +184,7 @@ export default function TermsPage() {
       </section>
 
       <footer className="text-xs text-muted-foreground/70 pt-6 border-t border-border/40">
-        WorldOfTaxonomy is an open-source project by Colaberry Inc and Colaberry Research Labs. See the{' '}
+        World Of Taxonomy is an open-source project by Colaberry Inc and Colaberry Research Labs. See the{' '}
         <Link href="/privacy" className="text-primary hover:underline">
           Privacy Policy
         </Link>{' '}

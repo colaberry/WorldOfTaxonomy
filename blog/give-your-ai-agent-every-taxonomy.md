@@ -1,6 +1,6 @@
 ## Give Your AI Agent Access to Every Taxonomy
 
-> **TL;DR:** The WorldOfTaxonomy MCP server gives AI agents structured tool access to 1,000+ classification systems. 25 tools. Works with Claude, Cursor, VS Code, Windsurf, and any MCP client. Setup takes under 5 minutes.
+> **TL;DR:** The World Of Taxonomy MCP server gives AI agents structured tool access to 1,000+ classification systems. 25 tools. Works with Claude, Cursor, VS Code, Windsurf, and any MCP client. Setup takes under 5 minutes.
 
 ---
 

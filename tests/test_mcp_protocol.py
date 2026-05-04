@@ -107,7 +107,7 @@ def test_handle_initialize():
         response = await handle_jsonrpc_request(request, conn=None)
         assert response["id"] == 1
         assert "result" in response
-        assert response["result"]["serverInfo"]["name"] == "WorldOfTaxonomy"
+        assert response["result"]["serverInfo"]["name"] == "World Of Taxonomy"
         assert "tools" in response["result"]["capabilities"]
         assert "resources" in response["result"]["capabilities"]
     _run(_test())

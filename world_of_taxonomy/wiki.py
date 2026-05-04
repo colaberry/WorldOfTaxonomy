@@ -60,7 +60,7 @@ def build_wiki_context() -> str:
         "domain-vs-standard",
     ]
     parts = []
-    parts.append("# WorldOfTaxonomy - AI Agent Context\n")
+    parts.append("# World Of Taxonomy - AI Agent Context\n")
     parts.append(
         "This knowledge graph connects 1,000+ classification systems "
         "with 1.2M+ nodes and 321K+ crosswalk edges.\n"
@@ -93,7 +93,7 @@ def build_llms_full_txt() -> str:
 
     meta = load_wiki_meta()
     parts = []
-    parts.append("# WorldOfTaxonomy - Full Reference Guide\n")
+    parts.append("# World Of Taxonomy - Full Reference Guide\n")
     parts.append(
         "> Unified Global Classification Knowledge Graph\n"
         "> 1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges.\n"

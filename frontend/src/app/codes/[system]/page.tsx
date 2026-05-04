@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const detail = await serverGetSystem(system)
     const canonical = `https://worldoftaxonomy.com/codes/${system}`
     return {
-      title: `${detail.name} Codes - Sectors, Definitions, Crosswalks | WorldOfTaxonomy`,
+      title: `${detail.name} Codes - Sectors, Definitions, Crosswalks | World Of Taxonomy`,
       description: `Browse all ${detail.node_count.toLocaleString()} codes in ${detail.full_name ?? detail.name}. Every sector, with full definitions and cross-system mappings.`,
       openGraph: {
         title: `${detail.name} Classification Codes`,
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       alternates: { canonical },
     }
   } catch {
-    return { title: 'Classification System - WorldOfTaxonomy' }
+    return { title: 'Classification System - World Of Taxonomy' }
   }
 }
 
