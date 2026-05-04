@@ -6511,7 +6511,7 @@
     "nodes": 12
   },
   "patent_cpc": {
-    "bytes": 66475153,
+    "bytes": 94619745,
     "files": [
       "patent_cpc/A.txt",
       "patent_cpc/A0.txt",
@@ -6543,10 +6543,19 @@
       "patent_cpc/F4.txt",
       "patent_cpc/F9.txt",
       "patent_cpc/G.txt",
+      "patent_cpc/G0.txt",
+      "patent_cpc/G1.txt",
+      "patent_cpc/G2.txt",
+      "patent_cpc/G9.txt",
       "patent_cpc/H.txt",
-      "patent_cpc/Y.txt"
+      "patent_cpc/H0.txt",
+      "patent_cpc/H1.txt",
+      "patent_cpc/H9.txt",
+      "patent_cpc/Y.txt",
+      "patent_cpc/Y0.txt",
+      "patent_cpc/Y1.txt"
     ],
-    "hash": "03880701a61c070c2aebd0ec668847ddaf81e10ff480e759e6403dccb70ad5e8",
+    "hash": "8491b6be407cc9fe5000fcb6b0ef828879beecd4f9d1b51874a33d79e8f297e5",
     "nodes": 254249
   },
   "pci_sig": {
