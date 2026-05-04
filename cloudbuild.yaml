@@ -1,4 +1,4 @@
-# Cloud Build pipeline — build + push + deploy both services to Cloud Run.
+# Cloud Build pipeline - build + push + deploy both services to Cloud Run.
 #
 # Trigger: push to `main` branch of colaberry/WorldOfTaxonomy
 # Services:
@@ -45,7 +45,7 @@ steps:
   # SQL via Unix socket and mount DATABASE_URL from Secret Manager.
   #
   # If this step fails (broken migration, DB unreachable, etc.), the deploy-api step
-  # will NOT run — protecting prod from schema/code skew like the one that hit us on
+  # will NOT run - protecting prod from schema/code skew like the one that hit us on
   # the first auto-deploy (0001_baseline -> 0002_node_url_template was never applied).
   - id: migrate-db
     name: gcr.io/google.com/cloudsdktool/cloud-sdk
@@ -91,7 +91,7 @@ steps:
         echo "Migration complete."
     waitFor: ['push-api']
 
-  # Deploy backend — attach Cloud SQL via Unix socket, mount secrets.
+  # Deploy backend - attach Cloud SQL via Unix socket, mount secrets.
   # waits for migrate-db so schema is always current before new code takes traffic.
   - id: deploy-api
     name: gcr.io/google.com/cloudsdktool/cloud-sdk
@@ -156,7 +156,7 @@ steps:
       - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/wot-web
     waitFor: ['build-web']
 
-  # Deploy frontend — BACKEND_URL set as runtime env too (belt + suspenders)
+  # Deploy frontend - BACKEND_URL set as runtime env too (belt + suspenders)
   - id: deploy-web
     name: gcr.io/google.com/cloudsdktool/cloud-sdk
     entrypoint: bash
