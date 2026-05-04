@@ -1,6 +1,6 @@
-## Introducing WorldOfTaxonomy
+## Introducing World Of Taxonomy
 
-> **TL;DR:** WorldOfTaxonomy connects 1,000+ classification systems, 1.2M+ codes, and 321K+ crosswalk edges into one queryable knowledge graph. REST API, MCP server, and web app - all open source.
+> **TL;DR:** World Of Taxonomy connects 1,000+ classification systems, 1.2M+ codes, and 321K+ crosswalk edges into one queryable knowledge graph. REST API, MCP server, and web app - all open source.
 
 ---
 
@@ -75,7 +75,7 @@ The entire project is MIT-licensed. Two commands to run it locally:
 
 ```bash
 git clone https://github.com/colaberry/WorldOfTaxonomy.git
-cd WorldOfTaxonomy && docker compose up
+cd World Of Taxonomy && docker compose up
 ```
 
 Web app at `localhost:3000`. API at `localhost:8000`. No restrictions.

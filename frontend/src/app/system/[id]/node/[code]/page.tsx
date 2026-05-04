@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ])
     const systemName = systems.find((s) => s.id === id)?.name ?? id
     return {
-      title: `${nodeCode} - ${node.title} - ${systemName} - WorldOfTaxonomy`,
+      title: `${nodeCode} - ${node.title} - ${systemName} - World Of Taxonomy`,
       description: `${systemName} code ${nodeCode}: ${node.title}. Level ${node.level}${node.description ? `. ${node.description}` : ''}. Browse hierarchy and cross-system equivalences.`,
       openGraph: {
         title: `${systemName} ${nodeCode} - ${node.title}`,
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     }
   } catch {
-    return { title: 'Node - WorldOfTaxonomy' }
+    return { title: 'Node - World Of Taxonomy' }
   }
 }
 

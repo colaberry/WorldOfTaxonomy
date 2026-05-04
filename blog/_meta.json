@@ -2,7 +2,7 @@
   {
     "slug": "introducing-worldoftaxonomy",
     "file": "introducing-worldoftaxonomy.md",
-    "title": "Introducing WorldOfTaxonomy",
+    "title": "Introducing World Of Taxonomy",
     "description": "A unified knowledge graph connecting 1,000+ classification systems, 1.2M+ codes, and 321K+ crosswalk edges. The open-source Rosetta Stone for global taxonomies.",
     "date": "2026-04-16",
     "author": "Ram Katamaraja",
@@ -21,7 +21,7 @@
     "slug": "1000-systems-1m-nodes-321k-edges",
     "file": "1000-systems-1m-nodes-321k-edges.md",
     "title": "1,000 Systems, 1.2M+ Nodes, 321K Crosswalk Edges: How We Built the Knowledge Graph",
-    "description": "The architecture and ingestion pipeline behind WorldOfTaxonomy - from authoritative source files to a unified queryable graph of global classification systems.",
+    "description": "The architecture and ingestion pipeline behind World Of Taxonomy - from authoritative source files to a unified queryable graph of global classification systems.",
     "date": "2026-04-14",
     "author": "Ram Katamaraja",
     "tags": ["architecture", "engineering", "knowledge-graph"]
@@ -30,7 +30,7 @@
     "slug": "translating-naics-to-nace-one-api-call",
     "file": "translating-naics-to-nace-one-api-call.md",
     "title": "Translating NAICS to NACE in One API Call",
-    "description": "A practical walkthrough for data engineers who need to reconcile North American industry codes with EU classification systems using the WorldOfTaxonomy API.",
+    "description": "A practical walkthrough for data engineers who need to reconcile North American industry codes with EU classification systems using the World Of Taxonomy API.",
     "date": "2026-04-13",
     "author": "Ram Katamaraja",
     "tags": ["tutorial", "api", "data-engineering", "industry"]
@@ -39,7 +39,7 @@
     "slug": "give-your-ai-agent-every-taxonomy",
     "file": "give-your-ai-agent-every-taxonomy.md",
     "title": "Give Your AI Agent Access to Every Taxonomy",
-    "description": "Set up the WorldOfTaxonomy MCP server with Claude, Cursor, VS Code, Windsurf, or any MCP-compatible client in under 5 minutes.",
+    "description": "Set up the World Of Taxonomy MCP server with Claude, Cursor, VS Code, Windsurf, or any MCP-compatible client in under 5 minutes.",
     "date": "2026-04-12",
     "author": "Ram Katamaraja",
     "tags": ["mcp", "ai", "tutorial", "claude", "cursor"]
@@ -48,7 +48,7 @@
     "slug": "medical-coding-made-navigable",
     "file": "medical-coding-made-navigable.md",
     "title": "Medical Coding Made Navigable",
-    "description": "ICD-10-CM, ICD-11, LOINC, SNOMED CT, and NCI Thesaurus in one searchable graph. How WorldOfTaxonomy helps health IT teams navigate clinical classification systems.",
+    "description": "ICD-10-CM, ICD-11, LOINC, SNOMED CT, and NCI Thesaurus in one searchable graph. How World Of Taxonomy helps health IT teams navigate clinical classification systems.",
     "date": "2026-04-11",
     "author": "Ram Katamaraja",
     "tags": ["healthcare", "medical-coding", "use-case"]
@@ -57,7 +57,7 @@
     "slug": "trade-classification-global-commerce",
     "file": "trade-classification-global-commerce.md",
     "title": "Trade Classification for Global Commerce",
-    "description": "HS, UNSPSC, CPC, SITC, HTS, and Schedule B - how WorldOfTaxonomy connects the trade classification systems that power global customs and compliance.",
+    "description": "HS, UNSPSC, CPC, SITC, HTS, and Schedule B - how World Of Taxonomy connects the trade classification systems that power global customs and compliance.",
     "date": "2026-04-10",
     "author": "Ram Katamaraja",
     "tags": ["trade", "compliance", "use-case"]
@@ -74,8 +74,8 @@
   {
     "slug": "self-host-in-two-minutes",
     "file": "self-host-in-two-minutes.md",
-    "title": "Self-Host WorldOfTaxonomy in 2 Minutes",
-    "description": "Clone the repo, run docker compose up, and you have the full knowledge graph running locally. A step-by-step guide to self-hosting WorldOfTaxonomy.",
+    "title": "Self-Host World Of Taxonomy in 2 Minutes",
+    "description": "Clone the repo, run docker compose up, and you have the full knowledge graph running locally. A step-by-step guide to self-hosting World Of Taxonomy.",
     "date": "2026-04-08",
     "author": "Ram Katamaraja",
     "tags": ["tutorial", "self-hosting", "docker"]
@@ -84,7 +84,7 @@
     "slug": "contributing-a-new-system",
     "file": "contributing-a-new-system.md",
     "title": "Contributing a New Classification System",
-    "description": "A TDD-enforced guide to adding a classification system to WorldOfTaxonomy. Three paths: NACE-derived, ISIC-derived, or standalone ingester.",
+    "description": "A TDD-enforced guide to adding a classification system to World Of Taxonomy. Three paths: NACE-derived, ISIC-derived, or standalone ingester.",
     "date": "2026-04-07",
     "author": "Ram Katamaraja",
     "tags": ["contributing", "open-source", "tutorial"]
@@ -102,7 +102,7 @@
     "slug": "249-countries-one-taxonomy-profile",
     "file": "249-countries-one-taxonomy-profile.md",
     "title": "249 Countries, One Taxonomy Profile Each",
-    "description": "Every country has official, regional, and recommended classification systems. WorldOfTaxonomy profiles all 249 so you always know which codes apply where.",
+    "description": "Every country has official, regional, and recommended classification systems. World Of Taxonomy profiles all 249 so you always know which codes apply where.",
     "date": "2026-04-05",
     "author": "Ram Katamaraja",
     "tags": ["countries", "coverage", "feature"]
@@ -129,7 +129,7 @@
     "slug": "life-sciences-classification",
     "file": "life-sciences-classification.md",
     "title": "Life Sciences Classification: Navigating Pharma, Clinical, and Biotech Taxonomies",
-    "description": "ATC, NDC, ICD, LOINC, NCI Thesaurus, GMDN, FDA regulations - how WorldOfTaxonomy connects the fragmented classification landscape across pharmaceuticals, clinical coding, biotech, and medical devices.",
+    "description": "ATC, NDC, ICD, LOINC, NCI Thesaurus, GMDN, FDA regulations - how World Of Taxonomy connects the fragmented classification landscape across pharmaceuticals, clinical coding, biotech, and medical devices.",
     "date": "2026-04-02",
     "author": "Ram Katamaraja",
     "tags": ["life-sciences", "pharma", "biotech", "deep-dive"]

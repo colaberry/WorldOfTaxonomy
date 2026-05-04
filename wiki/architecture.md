@@ -236,7 +236,7 @@ Two commands to run everything locally:
 
 ```bash
 git clone https://github.com/colaberry/WorldOfTaxonomy.git
-cd WorldOfTaxonomy && docker compose up
+cd World Of Taxonomy && docker compose up
 ```
 
 Web app at `localhost:3000`. API at `localhost:8000`. MCP server via `python -m world_of_taxonomy mcp`.

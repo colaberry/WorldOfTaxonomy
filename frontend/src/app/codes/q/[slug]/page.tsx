@@ -26,9 +26,9 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const q = getQuery(slug)
-  if (!q) return { title: 'Business Classification - WorldOfTaxonomy' }
+  if (!q) return { title: 'Business Classification - World Of Taxonomy' }
   const canonical = `https://worldoftaxonomy.com/codes/q/${slug}`
-  const title = `NAICS, ISIC, SIC, NACE codes for a ${q.query} | WorldOfTaxonomy`
+  const title = `NAICS, ISIC, SIC, NACE codes for a ${q.query} | World Of Taxonomy`
   const description = `Industry and occupation codes that apply to a ${q.query}. ${q.hint}. Cross-mapped across NAICS, ISIC, SIC, NACE, SOC, and HS classifications.`
   return {
     title,

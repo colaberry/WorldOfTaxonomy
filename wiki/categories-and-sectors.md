@@ -8,7 +8,7 @@
 
 ```mermaid
 graph TD
-  WOT["WorldOfTaxonomy\n1,000+ systems"] --> IND["Industry\n~150 systems"]
+  WOT["World Of Taxonomy\n1,000+ systems"] --> IND["Industry\n~150 systems"]
   WOT --> TRADE["Product/Trade\n~20 systems"]
   WOT --> OCC["Occupation\n~15 systems"]
   WOT --> EDU["Education\n~10 systems"]

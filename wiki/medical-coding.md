@@ -1,6 +1,6 @@
 ## Medical and Health Classification Systems Compared
 
-> **TL;DR:** ICD-10-CM for US billing, ICD-11 for global reporting, LOINC for lab tests, ATC for drugs, MeSH for research. WorldOfTaxonomy connects all of these (and more) - 568K+ health codes across 100+ systems with crosswalk edges between them.
+> **TL;DR:** ICD-10-CM for US billing, ICD-11 for global reporting, LOINC for lab tests, ATC for drugs, MeSH for research. World Of Taxonomy connects all of these (and more) - 568K+ health codes across 100+ systems with crosswalk edges between them.
 
 ---
 
@@ -123,7 +123,7 @@ graph TD
 
 ## Domain-specific health vocabularies
 
-WorldOfTaxonomy includes domain taxonomies for healthcare specialization:
+World Of Taxonomy includes domain taxonomies for healthcare specialization:
 
 | Domain | Codes | Coverage |
 |--------|-------|----------|

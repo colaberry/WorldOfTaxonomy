@@ -3,12 +3,12 @@ import { ExploreWrapper } from './ExploreContent'
 import { serverGetSystems, serverGetStats } from '@/lib/server-api'
 
 export const metadata: Metadata = {
-  title: 'Explore - WorldOfTaxonomy',
+  title: 'Explore - World Of Taxonomy',
   description:
     'Search 1.2M+ classification codes across 1,000+ systems, or browse by category. ' +
     'Industry, health, trade, occupations, regulatory, and more.',
   openGraph: {
-    title: 'Explore - WorldOfTaxonomy',
+    title: 'Explore - World Of Taxonomy',
     description: 'Search 1.2M+ codes across 1,000+ classification systems.',
     url: 'https://worldoftaxonomy.com/explore',
     type: 'website',

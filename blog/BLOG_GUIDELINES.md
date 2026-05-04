@@ -1,6 +1,6 @@
 # Blog Writing Guidelines
 
-Quality checklist for every WorldOfTaxonomy blog post. Follow these standards before publishing.
+Quality checklist for every World Of Taxonomy blog post. Follow these standards before publishing.
 
 ## Structure
 

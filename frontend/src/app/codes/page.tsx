@@ -12,7 +12,7 @@ import { CountryFilterShell } from './CountryFilterShell'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Classification Codes - NAICS, ISIC, SIC, NACE, SOC, HS | WorldOfTaxonomy',
+  title: 'Classification Codes - NAICS, ISIC, SIC, NACE, SOC, HS | World Of Taxonomy',
   description:
     'Global directory of 1,000+ classification systems. Browse every sector of NAICS, ISIC, NACE, HS, SOC, and national derivatives with inline crosswalks.',
   openGraph: {

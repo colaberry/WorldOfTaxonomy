@@ -3,10 +3,10 @@ import { Terminal, ArrowLeft, ArrowRight, ChevronRight, Globe, Search, GitFork, 
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'MCP Tools - WorldOfTaxonomy',
-  description: 'Connect Claude, Cursor, VS Code, or any MCP client to the WorldOfTaxonomy knowledge graph for search, translation, hierarchy navigation, and classification.',
+  title: 'MCP Tools - World Of Taxonomy',
+  description: 'Connect Claude, Cursor, VS Code, or any MCP client to the World Of Taxonomy knowledge graph for search, translation, hierarchy navigation, and classification.',
   openGraph: {
-    title: 'MCP Tools - WorldOfTaxonomy',
+    title: 'MCP Tools - World Of Taxonomy',
     description: 'MCP tools for AI assistants to search, translate, and navigate 1,000+ classification systems.',
     type: 'website',
     url: 'https://worldoftaxonomy.com/mcp',
@@ -347,7 +347,7 @@ export default function McpToolsPage() {
       "command": "/usr/bin/python3",
       "args": ["-m", "world_of_taxonomy", "mcp"],
       "env": {
-        "PYTHONPATH": "/path/to/WorldOfTaxonomy",
+        "PYTHONPATH": "/path/to/World Of Taxonomy",
         "DATABASE_URL": "postgresql://user:pass@host/db?sslmode=require"
       }
     }
@@ -355,7 +355,7 @@ export default function McpToolsPage() {
 }`}
           </pre>
           <p className="text-xs text-muted-foreground">
-            Replace <code className="font-mono">/path/to/WorldOfTaxonomy</code> with your clone path
+            Replace <code className="font-mono">/path/to/World Of Taxonomy</code> with your clone path
             and supply your <code className="font-mono">DATABASE_URL</code>.
             Restart Claude Desktop after saving.
           </p>

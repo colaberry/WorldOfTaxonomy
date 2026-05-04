@@ -43,7 +43,7 @@ from world_of_taxonomy.mcp.protocol import handle_jsonrpc_request
 
 
 _MISSING_KEY_MESSAGE = (
-    "WorldOfTaxonomy MCP server: no credentials.\n\n"
+    "World Of Taxonomy MCP server: no credentials.\n\n"
     "Set WOT_API_KEY (preferred for end users; get one at\n"
     "https://worldoftaxonomy.com/developers) or DATABASE_URL\n"
     "(local development with direct DB access).\n"

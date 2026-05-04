@@ -15,7 +15,7 @@ graph LR
   end
 ```
 
-WorldOfTaxonomy connects over 1,000 classification systems as equal peers in a unified knowledge graph. Systems span industry classification, product and trade codes, occupation standards, health and clinical coding, education frameworks, financial and environmental standards, regulatory compliance, and hundreds of domain-specific vocabularies.
+World Of Taxonomy connects over 1,000 classification systems as equal peers in a unified knowledge graph. Systems span industry classification, product and trade codes, occupation standards, health and clinical coding, education frameworks, financial and environmental standards, regulatory compliance, and hundreds of domain-specific vocabularies.
 
 ## Industry classification standards
 

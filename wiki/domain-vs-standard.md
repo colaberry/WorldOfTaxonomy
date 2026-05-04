@@ -1,12 +1,12 @@
 # Domain Taxonomies vs Official Standards
 
-WorldOfTaxonomy ships two complementary kinds of classification system, and every public surface (web app, REST API, MCP server) now labels them explicitly so downstream consumers can treat them differently.
+World Of Taxonomy ships two complementary kinds of classification system, and every public surface (web app, REST API, MCP server) now labels them explicitly so downstream consumers can treat them differently.
 
 ## The two categories
 
 | Category | `category` value | System ID pattern | Examples | Role |
 |----------|------------------|-------------------|----------|------|
-| Domain taxonomy | `domain` | IDs start with `domain_` | `domain_truck_freight`, `domain_ai_deployment`, `domain_fintech_service` | Plain-language on-ramps curated by WorldOfTaxonomy. Shorter (15-50 nodes), written in working-industry vocabulary, and crosswalked into the relevant official standard. |
+| Domain taxonomy | `domain` | IDs start with `domain_` | `domain_truck_freight`, `domain_ai_deployment`, `domain_fintech_service` | Plain-language on-ramps curated by World Of Taxonomy. Shorter (15-50 nodes), written in working-industry vocabulary, and crosswalked into the relevant official standard. |
 | Official standard | `standard` | Everything else | `naics_2022`, `isic_rev4`, `nace_rev2`, `soc_2018`, `icd10_cm`, `hs_2022` | Published by a government, intergovernmental body, or standards authority. These are the codes auditors, statistical agencies, and regulators require. |
 
 The split is a pure function of `system_id`: if the ID starts with `domain_`, it is a domain taxonomy; otherwise it is an official standard. The Python helper `world_of_taxonomy.category.get_category()` and the TypeScript helper `frontend/src/lib/category.ts` are the two sources of truth and stay in sync.
@@ -39,7 +39,7 @@ Domain taxonomies are therefore the front door: surface them first, let the user
 
 ## Consuming the split
 
-If you are building on top of WorldOfTaxonomy:
+If you are building on top of World Of Taxonomy:
 
 1. **Route users through domain taxonomies first** when the input is free text. They are written for humans.
 2. **Fall back to official standards** when the user asks for a statistical code, needs to report to a government agency, or wants cross-country comparability.

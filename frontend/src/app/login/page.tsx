@@ -73,7 +73,7 @@ export default function LoginPage() {
           <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-secondary border border-border/50">
             <Globe className="h-7 w-7 text-muted-foreground" />
           </div>
-          <h1 className="text-2xl font-semibold">Sign in to WorldOfTaxonomy</h1>
+          <h1 className="text-2xl font-semibold">Sign in to World Of Taxonomy</h1>
           <p className="text-sm text-muted-foreground">
             Enter your email. We send a one-time sign-in link to your inbox - no password.
           </p>
