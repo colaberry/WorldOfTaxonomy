@@ -82,6 +82,6 @@ graph LR
 
 Every classification system is a tree. Crosswalks are edges between trees. Collect enough trees and edges, and any code can be translated to any other system by traversing the graph.
 
-That is WorldOfTaxonomy: **1,000 trees connected by 321,000 edges.**
+That is World Of Taxonomy: **1,000 trees connected by 321,000 edges.**
 
 The systems will continue to exist independently. We connect them anyway.

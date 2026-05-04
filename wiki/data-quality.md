@@ -109,12 +109,12 @@ For official download systems, the `source_file_hash` lets you verify data integ
 1. Download the original file from `source_url`
 2. Compute its SHA-256 hash
 3. Compare against the stored `source_file_hash`
-4. If they match, the data in WorldOfTaxonomy matches the original file
+4. If they match, the data in World Of Taxonomy matches the original file
 
 ```mermaid
 sequenceDiagram
     participant You
-    participant WOT as WorldOfTaxonomy API
+    participant WOT as World Of Taxonomy API
     participant Source as Standards Body
 
     You->>WOT: GET /systems/naics_2022
@@ -154,4 +154,4 @@ If you find incorrect data, missing codes, or wrong crosswalk mappings:
 1. **GitHub**: File an issue on the project repository with system ID, code, expected vs actual value, and a link to the authoritative source
 2. **API**: Include the `report_issue_url` from any API response for direct reporting
 
-> All classification data in WorldOfTaxonomy is provided for informational purposes only. It should not be used as a substitute for official government or standards body publications. For regulatory, legal, or compliance purposes, always verify codes against the authoritative source.
+> All classification data in World Of Taxonomy is provided for informational purposes only. It should not be used as a substitute for official government or standards body publications. For regulatory, legal, or compliance purposes, always verify codes against the authoritative source.

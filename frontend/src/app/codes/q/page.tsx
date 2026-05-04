@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react'
 import { QUERIES } from './queries'
 
 export const metadata: Metadata = {
-  title: 'Find Codes by Business Type - NAICS, ISIC, SIC, NACE | WorldOfTaxonomy',
+  title: 'Find Codes by Business Type - NAICS, ISIC, SIC, NACE | World Of Taxonomy',
   description:
     'Pre-matched classification codes for common business types: telemedicine platforms, bakeries, SaaS startups, trucking companies, and more. Every answer across every major system.',
   openGraph: {

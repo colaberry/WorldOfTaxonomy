@@ -4,11 +4,11 @@ import { getWikiMeta } from '@/lib/wiki'
 import { BookOpen } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Classification Guides - WorldOfTaxonomy',
+  title: 'Classification Guides - World Of Taxonomy',
   description:
     'Curated guides for navigating 1,000+ classification systems. Industry classification, medical coding, trade codes, occupation systems, crosswalk maps, and more.',
   openGraph: {
-    title: 'Classification Guides - WorldOfTaxonomy',
+    title: 'Classification Guides - World Of Taxonomy',
     description: 'Curated guides for 1,000+ classification systems',
     url: 'https://worldoftaxonomy.com/guide',
     type: 'website',

@@ -7,11 +7,11 @@ import {
 import { CrosswalkRingPreview } from '@/components/visualizations/CrosswalkRingPreview'
 
 export const metadata: Metadata = {
-  title: 'About - WorldOfTaxonomy',
+  title: 'About - World Of Taxonomy',
   description:
-    'The story behind WorldOfTaxonomy - a fascination with global standards turned into a unified classification knowledge graph for humans and AI.',
+    'The story behind World Of Taxonomy - a fascination with global standards turned into a unified classification knowledge graph for humans and AI.',
   openGraph: {
-    title: 'About WorldOfTaxonomy',
+    title: 'About World Of Taxonomy',
     description:
       'A fascination with global standards turned into a unified classification knowledge graph for humans and AI.',
     url: 'https://worldoftaxonomy.com/about',
@@ -36,7 +36,7 @@ export default function AboutPage() {
           A fascination with how the world organizes itself
         </h1>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          WorldOfTaxonomy started with a simple observation: every country,
+          World Of Taxonomy started with a simple observation: every country,
           every industry, and every international body has its own way of
           classifying the same things - jobs, products, diseases, trades,
           education, risk. And anyone working across borders has to navigate
@@ -92,7 +92,7 @@ export default function AboutPage() {
 
         <div className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
-            WorldOfTaxonomy is an attempt to bring these systems together.
+            World Of Taxonomy is an attempt to bring these systems together.
             Not to replace them - each one exists for a reason - but to
             connect them as peers in a single knowledge graph. One place
             where you can look up an NAICS code and see its equivalent in
@@ -125,7 +125,7 @@ export default function AboutPage() {
             maze that humans do.
           </p>
           <p>
-            A global standards connection system like WorldOfTaxonomy can
+            A global standards connection system like World Of Taxonomy can
             be genuinely useful here - not just for humans browsing a
             website, but for AI systems that need structured crosswalk data
             through APIs and MCP servers. The goal is to make these
@@ -169,7 +169,7 @@ export default function AboutPage() {
         </div>
         <div className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
-            WorldOfTaxonomy is an experimental effort, open source and
+            World Of Taxonomy is an experimental effort, open source and
             evolving. The APIs and MCP servers are being published to
             empower anyone - researchers, developers, policy analysts, AI
             builders - who works across classification boundaries.
@@ -224,7 +224,7 @@ export default function AboutPage() {
           {' '}team.
         </p>
         <p className="text-sm leading-relaxed text-muted-foreground pt-3">
-          WorldOfTaxonomy is an open-source project published by{' '}
+          World Of Taxonomy is an open-source project published by{' '}
           <strong>Colaberry Inc</strong> and{' '}
           <strong>Colaberry Research Labs</strong>, released under the MIT License at{' '}
           <a

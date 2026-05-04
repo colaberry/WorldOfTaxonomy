@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 import { ClassifyTool } from './ClassifyTool'
 
 export const metadata: Metadata = {
-  title: 'Classify My Business - WorldOfTaxonomy',
+  title: 'Classify My Business - World Of Taxonomy',
   description:
     'Find NAICS, ISIC, SIC, NACE, and SOC codes for any business, product, ' +
     'or occupation. Free cross-system classification across 1,000+ taxonomy systems.',
   openGraph: {
-    title: 'Classify My Business - WorldOfTaxonomy',
+    title: 'Classify My Business - World Of Taxonomy',
     description:
       'Find the right industry and occupation codes for your business ' +
       'across NAICS, ISIC, SIC, NACE, and SOC.',

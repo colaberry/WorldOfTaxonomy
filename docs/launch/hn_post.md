@@ -2,7 +2,7 @@
 
 ## Title
 
-Show HN: WorldOfTaxonomy - 279 global classification systems in one open-source API
+Show HN: World Of Taxonomy - 279 global classification systems in one open-source API
 
 ---
 
@@ -12,12 +12,12 @@ Show HN: WorldOfTaxonomy - 279 global classification systems in one open-source 
 
 ---
 
-I built WorldOfTaxonomy because I kept running into the same problem: every dataset uses
+I built World Of Taxonomy because I kept running into the same problem: every dataset uses
 a different classification system. US data uses NAICS. EU data uses NACE. ILO uses ISCO.
 WHO uses ICD. They all describe the same economic reality but none of them talk to each
 other. Reconciling them manually was costing me days.
 
-WorldOfTaxonomy connects 279 classification systems - industry, trade, occupation, health,
+World Of Taxonomy connects 279 classification systems - industry, trade, occupation, health,
 education, finance, regulatory - into a single queryable knowledge graph with 570,178 codes
 and 122,769 crosswalk edges.
 

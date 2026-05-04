@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { ShieldCheck } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - WorldOfTaxonomy',
+  title: 'Privacy Policy - World Of Taxonomy',
   description:
-    'How WorldOfTaxonomy collects, uses, and protects personal data. GDPR and CCPA compliant. Published by Colaberry Inc and Colaberry Research Labs.',
+    'How World Of Taxonomy collects, uses, and protects personal data. GDPR and CCPA compliant. Published by Colaberry Inc and Colaberry Research Labs.',
   openGraph: {
-    title: 'Privacy Policy - WorldOfTaxonomy',
+    title: 'Privacy Policy - World Of Taxonomy',
     description:
-      'How WorldOfTaxonomy collects, uses, and protects personal data. GDPR and CCPA compliant.',
+      'How World Of Taxonomy collects, uses, and protects personal data. GDPR and CCPA compliant.',
     url: 'https://worldoftaxonomy.com/privacy',
     type: 'website',
   },
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Privacy Policy</h1>
         <p className="text-sm text-muted-foreground">
-          Last updated: {LAST_UPDATED}. This policy describes how WorldOfTaxonomy collects, uses, and
+          Last updated: {LAST_UPDATED}. This policy describes how World Of Taxonomy collects, uses, and
           protects your personal data, and explains your rights under GDPR, UK GDPR, and CCPA/CPRA.
         </p>
       </header>
@@ -205,7 +205,7 @@ export default function PrivacyPage() {
       </section>
 
       <footer className="text-xs text-muted-foreground/70 pt-6 border-t border-border/40">
-        WorldOfTaxonomy is an open-source project by Colaberry Inc and Colaberry Research Labs. See the{' '}
+        World Of Taxonomy is an open-source project by Colaberry Inc and Colaberry Research Labs. See the{' '}
         <Link href="/terms" className="text-primary hover:underline">
           Terms of Service
         </Link>{' '}

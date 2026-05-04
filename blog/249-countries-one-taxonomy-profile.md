@@ -1,6 +1,6 @@
 ## 249 Countries, One Taxonomy Profile Each
 
-> **TL;DR:** Expanding into a new market? Every country has a different combination of official, regional, and recommended classification systems. WorldOfTaxonomy profiles all 249 countries so you can see which systems apply where - before you file the wrong code.
+> **TL;DR:** Expanding into a new market? Every country has a different combination of official, regional, and recommended classification systems. World Of Taxonomy profiles all 249 countries so you can see which systems apply where - before you file the wrong code.
 
 ---
 

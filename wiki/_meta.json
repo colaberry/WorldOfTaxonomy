@@ -2,7 +2,7 @@
   {
     "slug": "getting-started",
     "file": "getting-started.md",
-    "title": "Getting Started with WorldOfTaxonomy",
+    "title": "Getting Started with World Of Taxonomy",
     "description": "API quickstart, MCP setup, authentication, and rate limits for the unified classification knowledge graph.",
     "order": 1
   },
@@ -10,7 +10,7 @@
     "slug": "mcp-setup",
     "file": "mcp-setup.md",
     "title": "MCP Setup Guide for Claude Desktop, Cursor, Zed, and other AI clients",
-    "description": "Step-by-step setup of the WorldOfTaxonomy MCP server in Claude Desktop, Cursor, Zed, VS Code Continue, Windsurf, and generic MCP clients. Covers API key generation, per-client config, verification, and troubleshooting.",
+    "description": "Step-by-step setup of the World Of Taxonomy MCP server in Claude Desktop, Cursor, Zed, VS Code Continue, Windsurf, and generic MCP clients. Covers API key generation, per-client config, verification, and troubleshooting.",
     "order": 2
   },
   {
@@ -59,14 +59,14 @@
     "slug": "categories-and-sectors",
     "file": "categories-and-sectors.md",
     "title": "Categories and Sectors - How Systems Are Organized",
-    "description": "The 16 categories and domain sectors that organize 1,000+ classification systems in WorldOfTaxonomy. Category definitions, system counts, and navigation.",
+    "description": "The 16 categories and domain sectors that organize 1,000+ classification systems in World Of Taxonomy. Category definitions, system counts, and navigation.",
     "order": 9
   },
   {
     "slug": "domain-vs-standard",
     "file": "domain-vs-standard.md",
     "title": "Domain Taxonomies vs Official Standards",
-    "description": "How WorldOfTaxonomy splits classification systems into domain taxonomies (plain-language on-ramps) and official standards (NAICS, ISIC, etc), and how every surface exposes the split.",
+    "description": "How World Of Taxonomy splits classification systems into domain taxonomies (plain-language on-ramps) and official standards (NAICS, ISIC, etc), and how every surface exposes the split.",
     "order": 10
   },
   {

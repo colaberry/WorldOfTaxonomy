@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
     const system = await serverGetSystem(id)
     return {
-      title: `${system.name} - WorldOfTaxonomy`,
+      title: `${system.name} - World Of Taxonomy`,
       description: `Explore ${system.node_count.toLocaleString()} codes in ${system.full_name ?? system.name}. Browse the hierarchy, search codes, and find cross-system equivalences.`,
       openGraph: {
         title: `${system.name} Classification System`,
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     }
   } catch {
-    return { title: 'System - WorldOfTaxonomy' }
+    return { title: 'System - World Of Taxonomy' }
   }
 }
 
