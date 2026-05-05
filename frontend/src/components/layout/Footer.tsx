@@ -32,7 +32,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-3">
             <Link href="/" className="flex items-center w-fit" aria-label="World Of Taxonomy home">
-              <Logo variant="lockup" height={28} className="inline-flex" />
+              <Logo variant="lockup" height={24} className="inline-flex" />
             </Link>
             <p className="text-xs text-muted-foreground leading-relaxed max-w-xs">
               A unified knowledge graph connecting 1,000+ classification systems across
