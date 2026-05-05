@@ -15,12 +15,18 @@ type LogoProps = {
   forceTheme?: 'light' | 'dark'
 }
 
-// Native viewBox aspect ratios baked at export time:
-//   mark   = 1086 × 545
-//   lockup = 2400 × 545
+// Native viewBox aspect ratios baked at export time.
+//   mark   = 1086 × 545   (~1.99 : 1, square-ish glyph)
+//   lockup = 1038 × 95    (~10.93 : 1, mark + WORLD OF TAXONOMY wordmark on one row)
+// Aleem re-exported the lockup with text outlined to paths in PR #184; the
+// viewBox went from the original 2400 × 545 (~4.4 : 1) to the current 1038 × 95
+// because the wordmark now uses a fitted, single-row composition. Components
+// that set `height` on a Logo with `variant="lockup"` must keep the height
+// modest (~20-28 px in a typical header) — the computed width will be
+// height × 10.93, which can crowd the navbar at larger heights.
 const ASPECT: Record<Variant, number> = {
   mark: 1086 / 545,
-  lockup: 2400 / 545,
+  lockup: 1038 / 95,
 }
 
 /**
