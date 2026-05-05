@@ -12,6 +12,7 @@
   </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+[![SafeSkill 76/100](https://img.shields.io/badge/SafeSkill-76%2F100_Passes%20with%20Notes-yellow)](https://safeskill.dev/scan/colaberry-worldoftaxonomy)
   </a>
   <img src="https://img.shields.io/badge/python-3.9%2B-blue.svg" alt="Python 3.9+" />
   <img src="https://img.shields.io/badge/next.js-16-black.svg" alt="Next.js 16" />
