@@ -51,9 +51,8 @@ export function Header() {
           href="/"
           className="flex items-center gap-2 text-foreground font-semibold tracking-tight"
         >
-          <Logo variant="mark" height={32} className="inline-flex" />
-          <span className="hidden sm:inline text-base">World Of Taxonomy</span>
-          <span className="sm:hidden text-base">WoT</span>
+          <Logo variant="lockup" height={36} className="hidden sm:inline-flex" aria-label="World Of Taxonomy" />
+          <Logo variant="mark" height={32} className="inline-flex sm:hidden" aria-label="WoT" />
         </Link>
 
         <nav className="flex items-center gap-1">
