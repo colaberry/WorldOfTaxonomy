@@ -72,7 +72,7 @@ export function Header() {
 
           <Link
             href="/classify"
-            className={`ml-1 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all shadow-sm ${
+            className={`ml-1 flex items-center gap-1.5 shrink-0 whitespace-nowrap px-3 py-1.5 rounded-full text-sm font-medium transition-all shadow-sm ${
               pathname.startsWith('/classify')
                 ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white ring-2 ring-amber-300/60 dark:ring-amber-400/40'
                 : 'bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-400 hover:to-orange-400 hover:shadow-md'
@@ -111,7 +111,7 @@ export function Header() {
           ) : (
             <Link
               href="/login"
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+              className="flex items-center gap-1.5 shrink-0 whitespace-nowrap px-3 py-1.5 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
             >
               <LogIn className="h-3.5 w-3.5" />
               <span className="hidden sm:inline">Sign in</span>
