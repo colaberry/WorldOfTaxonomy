@@ -21,7 +21,7 @@
 # is the path for incremental DDL from now on.
 PyJWT>=2.8.0
 SQLAlchemy>=2.0.0
-alembic>=1.13.0
+alembic>=1.16.5
 asyncpg>=0.29.0
 bcrypt>=4.0.0
 fastapi>=0.110.0
