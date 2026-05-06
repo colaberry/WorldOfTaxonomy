@@ -44,6 +44,12 @@ write down and saves an hour next time.
   Cloud Run + Cloud SQL
 - [ingest-failed.md](./ingest-failed.md) - monthly ingest-refresh
   workflow red; stale data warning
+- [stripe-overage-cron.md](./stripe-overage-cron.md) - one-time Cloud
+  Run Job + Cloud Scheduler setup for the daily /classify overage
+  push; replay/backfill SOP
+- [stripe-smoke-test.md](./stripe-smoke-test.md) - 8-step end-to-end
+  smoke against Stripe test mode (signup -> upgrade -> classify ->
+  overage push -> cancel -> dunning); pass before flipping to live
 
 ### Edge + abuse defense
 

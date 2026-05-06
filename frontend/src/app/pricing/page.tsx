@@ -1,17 +1,16 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import {
-  Check, Zap, ArrowRight, Building2, Users, Rocket,
-} from 'lucide-react'
+import { Zap, ArrowRight } from 'lucide-react'
+import { PricingTiers } from './PricingTiers'
 
 export const metadata: Metadata = {
   title: 'Pricing - World Of Taxonomy',
   description:
-    'Free, Pro, and Enterprise plans for the World Of Taxonomy classification API and MCP server.',
+    'Free, Pro ($49/mo), and Enterprise plans for the World Of Taxonomy classification API and MCP server. /classify metered overage at $0.05/call above the 200/day Pro bucket.',
   openGraph: {
     title: 'Pricing - World Of Taxonomy',
     description:
-      'Free, Pro, and Enterprise plans for the World Of Taxonomy classification API and MCP server.',
+      'Free, Pro ($49/mo), and Enterprise plans for the World Of Taxonomy classification API and MCP server.',
     url: 'https://worldoftaxonomy.com/pricing',
     type: 'website',
   },
@@ -19,58 +18,6 @@ export const metadata: Metadata = {
     canonical: 'https://worldoftaxonomy.com/pricing',
   },
 }
-
-const TIERS = [
-  {
-    name: 'Free',
-    icon: Users,
-    tagline: 'For exploration and prototyping',
-    features: [
-      'Full search and browse',
-      'All 1,000+ systems',
-      'Crosswalk translations',
-      'MCP server access',
-      'Community support',
-    ],
-    cta: 'Get started free',
-    ctaHref: '/login',
-    highlighted: false,
-  },
-  {
-    name: 'Pro',
-    icon: Rocket,
-    tagline: 'For production applications',
-    features: [
-      'Everything in Free',
-      'Higher rate limits',
-      'Classify API (free-text to codes)',
-      'JSONL bulk export',
-      'Unlimited MCP usage',
-      'Email support',
-      'SLA guarantee',
-    ],
-    cta: 'Join the waitlist',
-    ctaHref: '#waitlist',
-    highlighted: true,
-  },
-  {
-    name: 'Enterprise',
-    icon: Building2,
-    tagline: 'For teams and organizations',
-    features: [
-      'Everything in Pro',
-      'Unlimited requests',
-      'Custom export formats',
-      'Dedicated support',
-      'Custom SLA',
-      'On-premise deployment option',
-      'Priority feature requests',
-    ],
-    cta: 'Contact us',
-    ctaHref: '/developers#contact',
-    highlighted: false,
-  },
-]
 
 export default function PricingPage() {
   return (
@@ -86,82 +33,43 @@ export default function PricingPage() {
           Start free, scale as you grow
         </h1>
         <p className="text-muted-foreground text-base max-w-xl mx-auto leading-relaxed">
-          The full knowledge graph is available on every plan. Paid tiers add higher
-          limits, bulk export, classification API, and dedicated support.
+          The full knowledge graph is available on every plan. Pro adds higher
+          limits, the /classify API, MCP HTTP-mode, bulk export, and email
+          support. Cancel anytime.
         </p>
       </div>
 
-      {/* Tier cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-        {TIERS.map((tier) => {
-          const Icon = tier.icon
-          return (
-            <div
-              key={tier.name}
-              className={`rounded-xl border p-6 flex flex-col gap-5 ${
-                tier.highlighted
-                  ? 'border-primary bg-primary/5 ring-1 ring-primary/20'
-                  : 'border-border/50 bg-card'
-              }`}
-            >
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <Icon className="h-5 w-5 text-primary" />
-                  <h2 className="text-lg font-semibold">{tier.name}</h2>
-                </div>
-                <p className="text-sm text-muted-foreground">{tier.tagline}</p>
-              </div>
+      {/* Tier cards (interactive) */}
+      <PricingTiers />
 
-              <div className="flex items-baseline gap-1">
-                <span className="text-2xl font-bold text-muted-foreground/60">
-                  Coming soon
-                </span>
-              </div>
-
-              <ul className="space-y-2.5 flex-1">
-                {tier.features.map((feature) => (
-                  <li key={feature} className="flex items-start gap-2.5 text-sm">
-                    <Check className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <Link
-                href={tier.ctaHref}
-                className={`block text-center px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
-                  tier.highlighted
-                    ? 'bg-primary text-primary-foreground hover:bg-primary/90'
-                    : 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
-                }`}
-              >
-                {tier.cta}
-              </Link>
-            </div>
-          )
-        })}
-      </div>
-
-      {/* FAQ / clarifications */}
+      {/* FAQ */}
       <div className="space-y-6">
         <h2 className="text-lg font-semibold tracking-tight text-center">Frequently asked questions</h2>
         <div className="grid sm:grid-cols-2 gap-4">
           {[
             {
               q: 'Is the free tier actually free?',
-              a: 'Yes. Search, browse, translate, and use the MCP server at no cost. Rate limits apply to keep the service reliable for everyone.',
+              a: 'Yes. Search, browse, translate, MCP stdio mode, and 20 /classify calls per day at no cost. Rate limits apply (200 req/min authenticated, 50,000 per day) to keep the service reliable.',
+            },
+            {
+              q: 'What is /classify overage?',
+              a: 'Pro includes 200 /classify calls per day. If you exceed that on a given day, additional calls succeed (no hard cap) and we add $0.05 per overage call to your next monthly invoice via Stripe metered billing.',
+            },
+            {
+              q: 'Can I cancel anytime?',
+              a: 'Yes. Cancel from the Stripe Customer Portal (linked from /developers/keys after you sign up). You keep Pro until the end of your current billing period; no future charges. No refunds for partial periods.',
             },
             {
               q: 'Can I self-host instead?',
-              a: 'Absolutely. The entire project is MIT-licensed open source. Clone the repo, bring your own PostgreSQL, and you have full control with no limits.',
+              a: 'Absolutely. The entire project is MIT-licensed open source. Clone the repo, bring your own PostgreSQL, run the ingesters, and you have full control with no rate limits.',
             },
             {
               q: 'What MCP clients are supported?',
-              a: 'Any MCP-compatible client works - Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and more. The protocol is an open standard.',
+              a: 'Any MCP-compatible client - Claude Desktop, Claude Code, Cursor, VS Code, Windsurf, and more. Pro includes hosted MCP HTTP mode so you can connect from clients that do not run a local stdio server.',
             },
             {
-              q: 'When will pricing be announced?',
-              a: 'We are finalizing pricing based on infrastructure costs. Join the waitlist or follow us on GitHub to be notified when paid plans go live.',
+              q: 'How are payments processed?',
+              a: 'Stripe handles all card processing. We never see your card number. Cards are stored by Stripe; we store only a customer ID. PCI compliance is Stripe’s problem, not yours.',
             },
           ].map(({ q, a }) => (
             <div key={q} className="p-4 rounded-xl border border-border/50 bg-card space-y-2">
@@ -177,11 +85,11 @@ export default function PricingPage() {
         <div>
           <p className="font-semibold">Need something custom?</p>
           <p className="text-sm text-muted-foreground mt-0.5">
-            Tell us about your use case and we&apos;ll put together a plan that fits.
+            Tell us about your use case and we&apos;ll put together an Enterprise plan that fits.
           </p>
         </div>
         <Link
-          href="/developers#contact"
+          href="/contact?subject=enterprise"
           className="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors shrink-0"
         >
           Contact us <ArrowRight className="h-4 w-4" />
