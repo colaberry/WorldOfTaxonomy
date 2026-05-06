@@ -774,6 +774,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/billing/state": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * State Endpoint
+         * @description Return the org's current billing state for the dashboard panel.
+         */
+        get: operations["state_endpoint_api_v1_billing_state_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/wiki": {
         parameters: {
             query?: never;
@@ -971,6 +991,20 @@ export interface components {
             structural_derivation_nodes: number;
             /** Skeleton Systems */
             skeleton_systems: components["schemas"]["SystemResponse"][];
+        };
+        /** BillingStateResponse */
+        BillingStateResponse: {
+            /**
+             * Tier
+             * @enum {string}
+             */
+            tier: "free" | "pro" | "enterprise";
+            /** Tier Active Until */
+            tier_active_until?: string | null;
+            /** Classify Today Count */
+            classify_today_count: number;
+            /** Has Stripe Customer */
+            has_stripe_customer: boolean;
         };
         /** CheckoutRequest */
         CheckoutRequest: {
@@ -2747,6 +2781,26 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["PortalResponse"];
+                };
+            };
+        };
+    };
+    state_endpoint_api_v1_billing_state_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BillingStateResponse"];
                 };
             };
         };
