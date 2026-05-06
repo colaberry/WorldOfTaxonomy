@@ -62,6 +62,13 @@ class PortalResponse(BaseModel):
     portal_url: str
 
 
+class BillingStateResponse(BaseModel):
+    tier: Literal["free", "pro", "enterprise"]
+    tier_active_until: Optional[str] = None  # ISO 8601 if set
+    classify_today_count: int
+    has_stripe_customer: bool
+
+
 # ---------------------------------------------------------------------------
 # Webhook signature verification + idempotency
 # ---------------------------------------------------------------------------
@@ -425,3 +432,41 @@ async def webhook_endpoint(request: Request, conn=Depends(get_conn)):
         raise
 
     return {"ok": True}
+
+
+# ---------------------------------------------------------------------------
+# Endpoint: GET /api/v1/billing/state (cookie-gated)
+# ---------------------------------------------------------------------------
+
+
+@router.get("/state", response_model=BillingStateResponse)
+async def state_endpoint(
+    user: dict = Depends(get_current_user),
+    conn=Depends(get_conn),
+):
+    """Return the org's current billing state for the dashboard panel."""
+    org_id = user.get("org_id")
+    if not org_id:
+        raise HTTPException(status_code=400, detail="User has no org.")
+
+    row = await conn.fetchrow(
+        "SELECT tier, tier_active_until, stripe_customer_id "
+        "  FROM org WHERE id = $1",
+        org_id,
+    )
+    if not row:
+        raise HTTPException(status_code=404, detail="Org not found.")
+
+    classify_today = await conn.fetchval(
+        "SELECT count FROM org_classify_usage "
+        " WHERE org_id = $1 AND usage_date = CURRENT_DATE",
+        org_id,
+    )
+
+    until = row["tier_active_until"]
+    return {
+        "tier": row["tier"],
+        "tier_active_until": until.isoformat() if until else None,
+        "classify_today_count": int(classify_today or 0),
+        "has_stripe_customer": bool(row["stripe_customer_id"]),
+    }

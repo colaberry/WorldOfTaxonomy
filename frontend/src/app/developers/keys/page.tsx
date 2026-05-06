@@ -5,6 +5,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { BillingPanel } from './BillingPanel'
 
 type KeyMetadata = {
   id: string
@@ -134,6 +135,8 @@ export default function KeysDashboardPage() {
           {error}
         </div>
       )}
+
+      <BillingPanel />
 
       {justCreated && (
         <div className="border border-amber-300 bg-amber-50 rounded p-4 space-y-2">
