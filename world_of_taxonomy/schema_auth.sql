@@ -43,3 +43,25 @@ CREATE TABLE IF NOT EXISTS classify_lead (
 );
 CREATE INDEX IF NOT EXISTS idx_classify_lead_email ON classify_lead(email);
 CREATE INDEX IF NOT EXISTS idx_classify_lead_created ON classify_lead(created_at);
+
+-- Per-org per-day classify call counter. Source of truth for the daily
+-- Stripe Meter Event push (scripts/push_classify_overage.py). Keyed by
+-- org because the subscription lives on the org, not the individual user.
+CREATE TABLE IF NOT EXISTS org_classify_usage (
+    org_id     UUID NOT NULL REFERENCES org(id) ON DELETE CASCADE,
+    usage_date DATE NOT NULL DEFAULT CURRENT_DATE,
+    count      INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY (org_id, usage_date)
+);
+CREATE INDEX IF NOT EXISTS idx_org_classify_usage_date ON org_classify_usage(usage_date);
+
+-- Webhook event idempotency. Stripe delivers at-least-once; this table
+-- prevents the same event being processed twice (which could double-bump
+-- tier or push duplicate meter events).
+CREATE TABLE IF NOT EXISTS processed_stripe_events (
+    event_id     TEXT PRIMARY KEY,
+    event_type   TEXT NOT NULL,
+    processed_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_processed_stripe_events_processed_at
+    ON processed_stripe_events(processed_at);

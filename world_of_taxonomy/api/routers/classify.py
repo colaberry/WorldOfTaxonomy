@@ -8,6 +8,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 
 from world_of_taxonomy.api.deps import get_conn, get_current_user
+from world_of_taxonomy.api.routers.billing import increment_classify_count
 from world_of_taxonomy.api.text_guard import TextGuardError, guard
 from world_of_taxonomy.category import get_category
 from world_of_taxonomy.classify import DEFAULT_SYSTEMS, classify_text
@@ -179,6 +180,20 @@ async def classify_business(
         limit=body.limit,
     )
     domain, standard = partition_matches(result.get("matches", []))
+
+    # Bump the per-org counter so the daily Stripe Meter Event push
+    # bills any overage above the included Pro bucket. Failure here
+    # must NOT fail the user's response - log and continue.
+    if user.get("org_id"):
+        try:
+            await increment_classify_count(conn=conn, org_id=user["org_id"])
+        except Exception:
+            import logging
+            logging.getLogger(__name__).exception(
+                "failed to increment classify usage counter for org %s",
+                user["org_id"],
+            )
+
     return {
         "query": result["query"],
         "domain_matches": domain,

@@ -15,9 +15,15 @@ CREATE TABLE IF NOT EXISTS org (
                                 CHECK (tier IN ('free', 'pro', 'enterprise')),
     rate_limit_pool_per_minute  INT NOT NULL DEFAULT 1000,
     stripe_customer_id          TEXT UNIQUE,
+    stripe_subscription_id      TEXT UNIQUE,
+    tier_active_until           TIMESTAMPTZ,
     zitadel_org_id              TEXT UNIQUE,
     created_at                  TIMESTAMPTZ DEFAULT NOW()
 );
+CREATE INDEX IF NOT EXISTS idx_org_stripe_subscription
+    ON org(stripe_subscription_id) WHERE stripe_subscription_id IS NOT NULL;
+CREATE INDEX IF NOT EXISTS idx_org_tier_active_until
+    ON org(tier_active_until) WHERE tier_active_until IS NOT NULL;
 
 CREATE TABLE IF NOT EXISTS app_user (
     id                  UUID PRIMARY KEY DEFAULT gen_random_uuid(),

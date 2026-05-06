@@ -112,7 +112,7 @@ steps:
       - --concurrency=80
       - --timeout=300s
       - --add-cloudsql-instances=${_INSTANCE_CONN}
-      - --set-secrets=DATABASE_URL=DATABASE_URL:latest,JWT_SECRET=JWT_SECRET:latest,REPORT_EMAIL=REPORT_EMAIL:latest
+      - --set-secrets=DATABASE_URL=DATABASE_URL:latest,JWT_SECRET=JWT_SECRET:latest,REPORT_EMAIL=REPORT_EMAIL:latest,STRIPE_SECRET_KEY=STRIPE_SECRET_KEY:latest,STRIPE_WEBHOOK_SECRET=STRIPE_WEBHOOK_SECRET:latest,STRIPE_PRICE_ID_PRO_MONTHLY=STRIPE_PRICE_ID_PRO_MONTHLY:latest,STRIPE_PRICE_ID_PRO_ANNUAL=STRIPE_PRICE_ID_PRO_ANNUAL:latest,STRIPE_PRICE_ID_PRO_OVERAGE=STRIPE_PRICE_ID_PRO_OVERAGE:latest
     waitFor: ['migrate-db']
 
   # --- Frontend (built AFTER backend URL is known) ---
