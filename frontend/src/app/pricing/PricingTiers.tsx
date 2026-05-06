@@ -21,7 +21,6 @@ function getCsrfToken(): string {
 }
 
 export function PricingTiers() {
-  const [billingCycle, setBillingCycle] = useState<'monthly' | 'annual'>('annual')
   const [subscribing, setSubscribing] = useState<Plan | null>(null)
   const [error, setError] = useState<string | null>(null)
 
@@ -63,41 +62,8 @@ export function PricingTiers() {
     }
   }
 
-  const proPrice = billingCycle === 'monthly' ? '$49' : '$490'
-  const proCadence = billingCycle === 'monthly' ? '/ month' : '/ year'
-  const proNote = billingCycle === 'annual'
-    ? 'Save 17% vs monthly'
-    : 'Switch to annual to save 17%'
-  const proPlan: Plan = billingCycle === 'monthly' ? 'pro_monthly' : 'pro_annual'
-
   return (
     <div className="space-y-6">
-      {/* Billing-cycle toggle */}
-      <div className="flex items-center justify-center gap-2 text-sm">
-        <button
-          type="button"
-          onClick={() => setBillingCycle('monthly')}
-          className={`px-3 py-1.5 rounded-md transition-colors ${
-            billingCycle === 'monthly'
-              ? 'bg-secondary text-secondary-foreground'
-              : 'text-muted-foreground hover:text-foreground'
-          }`}
-        >
-          Monthly
-        </button>
-        <button
-          type="button"
-          onClick={() => setBillingCycle('annual')}
-          className={`px-3 py-1.5 rounded-md transition-colors ${
-            billingCycle === 'annual'
-              ? 'bg-secondary text-secondary-foreground'
-              : 'text-muted-foreground hover:text-foreground'
-          }`}
-        >
-          Annual <span className="text-primary text-xs ml-1">(-17%)</span>
-        </button>
-      </div>
-
       {error && (
         <div className="rounded-md border border-destructive/40 bg-destructive/10 p-3 text-sm text-destructive">
           {error}
@@ -148,10 +114,13 @@ export function PricingTiers() {
           </div>
           <div className="space-y-1">
             <div className="flex items-baseline gap-1">
-              <span className="text-3xl font-bold">{proPrice}</span>
-              <span className="text-sm text-muted-foreground">{proCadence}</span>
+              <span className="text-3xl font-bold">$49</span>
+              <span className="text-sm text-muted-foreground">/ month</span>
             </div>
-            <p className="text-xs text-muted-foreground">{proNote}</p>
+            <p className="text-xs text-muted-foreground">
+              or <span className="font-medium text-foreground">$490 / year</span>
+              <span className="text-primary ml-1">(save 17%)</span>
+            </p>
           </div>
           <ul className="space-y-2.5 flex-1 text-sm">
             <li className="flex items-start gap-2.5"><Check className="h-4 w-4 text-primary shrink-0 mt-0.5" /><span className="text-muted-foreground">5,000 req/min, unlimited daily</span></li>
@@ -163,16 +132,28 @@ export function PricingTiers() {
             <li className="flex items-start gap-2.5"><Check className="h-4 w-4 text-primary shrink-0 mt-0.5" /><span className="text-muted-foreground">Per-key analytics dashboard</span></li>
             <li className="flex items-start gap-2.5"><Check className="h-4 w-4 text-primary shrink-0 mt-0.5" /><span className="text-muted-foreground">Email support, 14-day trial</span></li>
           </ul>
-          <button
-            type="button"
-            onClick={() => startCheckout(proPlan)}
-            disabled={subscribing !== null}
-            className="block text-center px-4 py-2.5 rounded-lg text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            {subscribing === proPlan
-              ? 'Redirecting to Stripe...'
-              : `Subscribe ${billingCycle === 'monthly' ? 'monthly' : 'annually'}`}
-          </button>
+          <div className="space-y-2">
+            <button
+              type="button"
+              onClick={() => startCheckout('pro_monthly')}
+              disabled={subscribing !== null}
+              className="block w-full text-center px-4 py-2.5 rounded-lg text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {subscribing === 'pro_monthly'
+                ? 'Redirecting to Stripe...'
+                : 'Subscribe monthly - $49/mo'}
+            </button>
+            <button
+              type="button"
+              onClick={() => startCheckout('pro_annual')}
+              disabled={subscribing !== null}
+              className="block w-full text-center px-4 py-2.5 rounded-lg text-sm font-medium border border-primary text-primary bg-transparent hover:bg-primary/10 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {subscribing === 'pro_annual'
+                ? 'Redirecting to Stripe...'
+                : 'Subscribe annually - $490/yr'}
+            </button>
+          </div>
         </div>
 
         {/* Enterprise */}
