@@ -740,6 +740,40 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/billing/checkout": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Checkout Endpoint */
+        post: operations["checkout_endpoint_api_v1_billing_checkout_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/billing/portal": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Portal Endpoint */
+        post: operations["portal_endpoint_api_v1_billing_portal_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/wiki": {
         parameters: {
             query?: never;
@@ -937,6 +971,19 @@ export interface components {
             structural_derivation_nodes: number;
             /** Skeleton Systems */
             skeleton_systems: components["schemas"]["SystemResponse"][];
+        };
+        /** CheckoutRequest */
+        CheckoutRequest: {
+            /**
+             * Plan
+             * @enum {string}
+             */
+            plan: "pro_monthly" | "pro_annual";
+        };
+        /** CheckoutResponse */
+        CheckoutResponse: {
+            /** Checkout Url */
+            checkout_url: string;
         };
         /** ClassifyDemoRequest */
         ClassifyDemoRequest: {
@@ -1398,6 +1445,11 @@ export interface components {
             source_file_hash?: string | null;
             /** Source Url For Code */
             source_url_for_code?: string | null;
+        };
+        /** PortalResponse */
+        PortalResponse: {
+            /** Portal Url */
+            portal_url: string;
         };
         /** ProvenanceTierSummary */
         ProvenanceTierSummary: {
@@ -2642,6 +2694,59 @@ export interface operations {
                     "application/json": {
                         [key: string]: unknown;
                     };
+                };
+            };
+        };
+    };
+    checkout_endpoint_api_v1_billing_checkout_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CheckoutRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CheckoutResponse"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    portal_endpoint_api_v1_billing_portal_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PortalResponse"];
                 };
             };
         };
