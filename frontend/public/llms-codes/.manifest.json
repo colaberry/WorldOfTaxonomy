@@ -4415,6 +4415,14 @@
     "hash": "9008bf587381d3d75b0374c6571d3dbac640a195717671a97052929e178121a7",
     "nodes": 20
   },
+  "geonames_features": {
+    "bytes": 67552,
+    "files": [
+      "geonames_features.txt"
+    ],
+    "hash": "2d9f6f58737de5b650e11a9f63b4bc658c9d277a3e9e82671d62c0f52081cb2a",
+    "nodes": 693
+  },
   "getty_aat": {
     "bytes": 352,
     "files": [
@@ -7685,6 +7693,14 @@
     ],
     "hash": "729d40653ff3f7def46f3150cfa43573cc17ee384103f4a9319518e3bf6d8dfb",
     "nodes": 119
+  },
+  "schema_org": {
+    "bytes": 166595,
+    "files": [
+      "schema_org.txt"
+    ],
+    "hash": "0786f42bac2ee56f2653a3b6bc9a56b5a539b718b42e61dc250a2a18a5ece060",
+    "nodes": 926
   },
   "scian_2018": {
     "bytes": 10104,
