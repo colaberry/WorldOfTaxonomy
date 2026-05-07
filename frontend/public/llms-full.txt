@@ -716,6 +716,12 @@ These vocabularies define types and concepts used by AI assistants, search engin
 |--------|--------|-------|-----------|---------|
 | WordNet (Nouns) | Global | 82,115 | Princeton University | Lexical semantic database; noun hypernym tree rooted at entity.n.01. Anchors common-sense concept relationships for NLP and AI reasoning. |
 
+## Process / Activity Frameworks
+
+| System | Region | Codes | Authority | Purpose |
+|--------|--------|-------|-----------|---------|
+| APQC PCF (Skeleton) | Global | 13 | APQC | Cross-Industry Process Classification Framework, top-level categories. The 13 process categories (operating processes 1.0-6.0; management and support 7.0-13.0) are the canonical pan-industry process anchor. Levels 2-5 (~1,500 detailed elements) require the official APQC spreadsheet. |
+
 ## Patent Classification
 
 | System | Region | Codes | Purpose |

@@ -169,6 +169,7 @@ WorldOfTaxonomy is a unified global industry classification knowledge graph. It 
 | schema.org | Global (consortium) | 926 |
 | FIBO | Global (EDM Council) | 2,521 |
 | GS1 GPC | Global (GS1) | 6,450 |
+| APQC PCF (Skeleton) | Global (APQC) | 13 |
 | PRODCOM | European Union | 38 |
 | CPV 2008 | European Union | 96 |
 | ACM CCS 2012 | Global | 67 |
