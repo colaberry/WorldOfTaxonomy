@@ -4311,6 +4311,14 @@
     "hash": "3543deb3c1ffd8a2a3f712dfe78ec137215e61c268abdd66416869aca5f4b93c",
     "nodes": 15
   },
+  "fibo": {
+    "bytes": 529705,
+    "files": [
+      "fibo.txt"
+    ],
+    "hash": "3889462a917460c9ddbad15841343cbce813fd1cb8ba87c596a57a3d5a803d03",
+    "nodes": 2521
+  },
   "fifa_confederations": {
     "bytes": 4904,
     "files": [
@@ -4414,6 +4422,14 @@
     ],
     "hash": "9008bf587381d3d75b0374c6571d3dbac640a195717671a97052929e178121a7",
     "nodes": 20
+  },
+  "geonames_features": {
+    "bytes": 67552,
+    "files": [
+      "geonames_features.txt"
+    ],
+    "hash": "2d9f6f58737de5b650e11a9f63b4bc658c9d277a3e9e82671d62c0f52081cb2a",
+    "nodes": 693
   },
   "getty_aat": {
     "bytes": 352,
@@ -7686,6 +7702,14 @@
     "hash": "729d40653ff3f7def46f3150cfa43573cc17ee384103f4a9319518e3bf6d8dfb",
     "nodes": 119
   },
+  "schema_org": {
+    "bytes": 166595,
+    "files": [
+      "schema_org.txt"
+    ],
+    "hash": "0786f42bac2ee56f2653a3b6bc9a56b5a539b718b42e61dc250a2a18a5ece060",
+    "nodes": 926
+  },
   "scian_2018": {
     "bytes": 10104,
     "files": [
@@ -8157,6 +8181,44 @@
     ],
     "hash": "16d12a9c50662e1fd356a25cb72a9991870773e511094395e4191b1bf6dbf5cd",
     "nodes": 27
+  },
+  "wordnet_nouns": {
+    "bytes": 8463496,
+    "files": [
+      "wordnet_nouns/_.txt",
+      "wordnet_nouns/1.txt",
+      "wordnet_nouns/2.txt",
+      "wordnet_nouns/4.txt",
+      "wordnet_nouns/9.txt",
+      "wordnet_nouns/A.txt",
+      "wordnet_nouns/B.txt",
+      "wordnet_nouns/C.txt",
+      "wordnet_nouns/D.txt",
+      "wordnet_nouns/E.txt",
+      "wordnet_nouns/F.txt",
+      "wordnet_nouns/G.txt",
+      "wordnet_nouns/H.txt",
+      "wordnet_nouns/I.txt",
+      "wordnet_nouns/J.txt",
+      "wordnet_nouns/K.txt",
+      "wordnet_nouns/L.txt",
+      "wordnet_nouns/M.txt",
+      "wordnet_nouns/N.txt",
+      "wordnet_nouns/O.txt",
+      "wordnet_nouns/P.txt",
+      "wordnet_nouns/Q.txt",
+      "wordnet_nouns/R.txt",
+      "wordnet_nouns/S.txt",
+      "wordnet_nouns/T.txt",
+      "wordnet_nouns/U.txt",
+      "wordnet_nouns/V.txt",
+      "wordnet_nouns/W.txt",
+      "wordnet_nouns/X.txt",
+      "wordnet_nouns/Y.txt",
+      "wordnet_nouns/Z.txt"
+    ],
+    "hash": "884ac55ce1abb402687bba0742acdf58aaa244f140f6b97428790b139bdf90d4",
+    "nodes": 82115
   },
   "worldskills": {
     "bytes": 496,

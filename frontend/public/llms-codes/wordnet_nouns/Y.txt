@@ -1,0 +1,333 @@
+[y2k.n.01] Y2K -- the year 2000 in the Gregorian calendar
+[yacca.n.01] yacca -- West Indian evergreen with medium to long leaves
+[yacht_chair.n.01] yacht chair -- a light folding armchair for outdoor use
+[yacht_club.n.01] yacht club -- club that promotes and supports yachting and boating
+[yacht.n.01] yacht -- an expensive vessel propelled by sail or power and used for cruising or racing
+[yachtsman.n.01] yachtsman -- a person who owns or sails a yacht
+[yagi.n.01] yagi -- a sharply directional antenna
+[yahi.n.01] Yahi -- a member of an extinct North American Indian people who lived in northern California
+[yahi.n.02] Yahi -- the Yanan language spoken by the Yahi
+[yahoo.n.02] Yahoo -- one of a race of brutes resembling men but subject to the Houyhnhnms in a novel by Jonathan Swift
+[yahoo.n.03] Yahoo -- a widely used search engine for the web that finds information, news, images, products, finance
+[yahweh.n.01] Yahweh -- a name for the God of the Old Testament as transliterated from the Hebrew consonants YHVH
+[yajur-veda.n.01] Yajur-Veda -- a collection of sacrificial formulas and prayers
+[yak_butter.n.01] yak butter -- butter made from yaks' milk
+[yakima.n.01] Yakima -- a town in south central Washington
+[yak.n.01] yak -- noisy talk
+[yak.n.02] yak -- large long-haired wild ox of Tibet often domesticated
+[yak's_milk.n.01] yak's milk -- the milk of a yak
+[yakut.n.01] Yakut -- a member of a Turkic people of northeastern Siberia (mainly in the Lena river basin)
+[yakut.n.02] Yakut -- the Turkic language spoken by the Yakut
+[yakuza.n.01] yakuza -- a Japanese gangster
+[yakuza.n.02] yakuza -- organized crime in Japan; an alliance of criminal organizations and illegal enterprises
+[yale.n.02] Yale -- English philanthropist who made contributions to a college in Connecticut that was renamed in his honor (1649-1721)
+[yale_university.n.01] Yale University -- a university in Connecticut
+[yalta_conference.n.01] Yalta Conference -- a conference held in Yalta in February 1945 where Roosevelt, Stalin, and Churchill planned the final stages of World War II and agreed to the territorial division of Europe
+[yalta.n.01] Yalta -- a resort city in Crimea in the southern Ukraine on the Black Sea; site of the Allied conference between Roosevelt, Stalin, and Churchill in February 1945
+[yalu.n.01] Yalu -- river in eastern Asia; rises in North Korea and flows southwest to Korea Bay (forming part of the border between North Korea and China)
+[yalu_river.n.02] Yalu River -- a battle in the Korean War (November 1950); when UN troops advanced north to the Yalu River 200,000 Chinese troops crossed the river and drove them back
+[yamamoto.n.01] Yamamoto -- Japanese admiral who planned the attack on Pearl Harbor in 1941 (1884-1943)
+[yama.n.01] Yama -- Hindu god of death and lord of the underworld
+[yamani.n.01] Yamani -- Saudi Arabian minister of petroleum who was a central figure in the creation of OPEC (born in 1930)
+[yam_bean.n.01] yam bean -- twining plant of Amazon basin having large edible roots
+[yam_bean.n.02] yam bean -- Central American twining plant with edible roots and pods; large tubers are eaten raw or cooked especially when young and young pods must be thoroughly cooked; pods and seeds also yield rotenone and oils
+[yam.n.01] yam -- edible tuber of any of several yams
+[yam.n.02] yam -- any of a number of tropical vines of the genus Dioscorea many having edible tuberous roots
+[yam.n.03] yam -- sweet potato with deep orange flesh that remains moist when baked
+[yam.n.04] yam -- edible tuberous root of various yam plants of the genus Dioscorea grown in the tropics world-wide for food
+[yamoussukro.n.01] Yamoussukro -- capital of the Ivory Coast
+[yana.n.01] Yana -- a member of an extinct North American Indian people who lived in northern California
+[yana.n.02] Yana -- the Yanan language spoken by the Yana
+[yanan.n.01] Yanan -- a language group of the Hokan family
+[yang_chen_ning.n.01] Yang Chen Ning -- United States physicist (born in China) who collaborated with Tsung Dao Lee in disproving the principle of conservation of parity (born in 1922)
+[yang.n.01] yang -- the bright positive masculine principle in Chinese dualistic cosmology
+[yangon.n.01] Yangon -- the capital and largest city of Myanmar; located in the south near the Irrawaddy river delta
+[yankee.n.01] Yankee -- an American who lives in the North (especially during the American Civil War)
+[yankee.n.03] Yankee -- an American (especially to non-Americans)
+[yanker.n.01] yanker -- someone who gives a strong sudden pull
+[yaounde.n.01] Yaounde -- the capital of Cameroon
+[yardage.n.01] yardage -- distance measured in the aggregate number of yards
+[yardarm.n.01] yardarm -- either end of the yard of a square-rigged ship
+[yard_bird.n.01] yard bird -- a military recruit who is assigned menial tasks
+[yarder.n.01] yarder -- (used only in combinations) the height or length of something in yards
+[yarder.n.02] yarder -- a winch (or system of winches) powered by an engine and used to haul logs from a stump to a landing or to a skid road
+[yard_goods.n.01] yard goods -- merchandise in the form of fabrics sold by the yard
+[yardgrass.n.01] yardgrass -- coarse annual grass having fingerlike spikes of flowers; native to Old World tropics; a naturalized weed elsewhere
+[yardie.n.01] yardie -- member of an international gang of Jamaican criminals who sell drugs and violence
+[yard_line.n.01] yard line -- in football; line parallel to the goal lines indicating position on the field
+[yardman.n.01] yardman -- worker in a railway yard
+[yardman.n.02] yardman -- a laborer hired to do outdoor work (such as mowing lawns)
+[yard_marker.n.01] yard marker -- (football) a marker indicating the yard line
+[yardmaster.n.01] yardmaster -- a railroad employer who is in charge of a railway yard Also a hyponym of: trainman.n.01.
+[yard.n.01] yard -- a unit of length equal to 3 feet; defined as 91.44 centimeters; originally taken to be the average length of a stride
+[yard.n.02] yard -- the enclosed land around a house or other building
+[yard.n.03] yard -- a tract of land enclosed for particular activities (sometimes paved and usually associated with buildings)
+[yard.n.06] yard -- a tract of land where logs are accumulated
+[yard.n.07] yard -- an area having a network of railway tracks and sidings for storage and maintenance of cars and engines
+[yard.n.08] yard -- a long horizontal spar tapered at the end and used to support and spread a square sail or lateen
+[yard.n.09] yard -- an enclosure for animals (as chicken or livestock)
+[yardstick.n.01] yardstick -- a measure or standard used for comparison
+[yardstick.n.02] yardstick -- a ruler or tape that is three feet long
+[yarmulke.n.01] yarmulke -- a skullcap worn by religious Jews (especially at prayer)
+[yarrow.n.01] yarrow -- ubiquitous strong-scented mat-forming Eurasian herb of wasteland, hedgerow or pasture having narrow serrate leaves and small usually white florets; widely naturalized in North America
+[yashmak.n.01] yashmak -- the face veil worn by Muslim women
+[yastrzemski.n.01] Yastrzemski -- United States baseball player (born in 1939)
+[yataghan.n.01] yataghan -- a long Turkish knife with a curved blade having a single edge
+[yaupon_holly.n.01] yaupon holly -- an evergreen shrub
+[yautia.n.01] yautia -- tropical American aroid having edible tubers that are cooked and eaten like yams or potatoes
+[yavapai.n.01] Yavapai -- a member of a North American Indian people of central Arizona
+[yavapai.n.02] Yavapai -- the Yuman language spoken by the Yavapai
+[yawl.n.01] yawl -- a ship's small boat (usually rowed by 4 or 6 oars)
+[yawl.n.02] yawl -- a sailing vessel with two masts; a small mizzen is aft of the rudderpost
+[yaw.n.01] yaw -- an erratic deflection from an intended course
+[yawner.n.01] yawner -- a person who yawns
+[yawn.n.01] yawn -- an involuntary intake of breath through a wide open mouth; usually triggered by fatigue or boredom
+[yaws.n.01] yaws -- an infectious tropical disease resembling syphilis in its early stages; marked by red skin eruptions and ulcerating lesions
+[y-axis.n.01] y-axis -- the vertical axis in a plane coordinate system
+[yay.n.01] Yay -- a branch of the Tai languages
+[yazoo.n.01] Yazoo -- a river that rises in west central Mississippi and flows southwest to empty into the Mississippi River above Vicksburg
+[y_chromosome.n.01] Y chromosome -- the sex chromosome that is carried by men
+[yea.n.01] yea -- an affirmative
+[yearbook.n.01] yearbook -- a book published annually by the graduating class of a high school or college usually containing photographs of faculty and graduating students
+[year_dot.n.01] year dot -- as long ago as anyone can remember
+[year-end.n.01] year-end -- the end of a calendar year
+[yearling.n.02] yearling -- a racehorse considered one year old until the second Jan. 1 following its birth
+[yearling.n.03] yearling -- an animal in its second year
+[year.n.01] year -- a period of time containing 365 (or 366) days
+[year.n.02] year -- a period of time occupying a regular part of a calendar year that is used for some particular activity
+[year.n.03] year -- the period of time that it takes for a planet (as, e.g., Earth or Mars) to make a complete revolution around the sun
+[year_of_grace.n.01] year of grace -- any year of the Christian era
+[yeast_cake.n.01] yeast cake -- small cake of compressed moist yeast
+[yeast.n.01] yeast -- a commercial leavening agent containing yeast cells; used to raise the dough in making bread and for fermenting beer or whiskey
+[yeast.n.02] yeast -- any of various single-celled fungi that reproduce asexually by budding or division
+[yeats.n.01] Yeats -- Irish poet and dramatist (1865-1939) Also a hyponym of: poet.n.01.
+[yelling.n.01] yelling -- uttering a loud inarticulate cry as of pain or excitement
+[yellow_adder's_tongue.n.01] yellow adder's tongue -- eastern North American dogtooth having solitary yellow flowers marked with brown or purple and spotted interiors
+[yellow_avens.n.01] yellow avens -- hairy yellow-flowered plant of eastern Asia and North America
+[yellow_avens.n.02] yellow avens -- erect subshrub with deep yellow flowers; Europe and Asia and North America
+[yellow_bass.n.01] yellow bass -- North American freshwater bass resembling the larger marine striped bass
+[yellow_bedstraw.n.01] yellow bedstraw -- common yellow-flowered perennial bedstraw; North America and Europe and Asia
+[yellow-bellied_sapsucker.n.01] yellow-bellied sapsucker -- eastern North American sapsucker having a pale yellow abdomen
+[yellow_bells.n.01] yellow bells -- viscid herb of arid or desert habitats of southwestern United States having pendulous yellow flowers
+[yellowbelly_marmot.n.01] yellowbelly marmot -- heavy-bodied yellowish-brown marmot of rocky areas of western North America
+[yellow_bile.n.01] yellow bile -- a humor that was once believed to be secreted by the liver and to cause irritability and anger
+[yellow_birch.n.01] yellow birch -- tree of eastern North America with thin lustrous yellow or grey bark
+[yellow-blue_dichromacy.n.01] yellow-blue dichromacy -- confusion of yellow and blue
+[yellow-breasted_bunting.n.01] yellow-breasted bunting -- common in Russia and Siberia
+[yellow-breasted_chat.n.01] yellow-breasted chat -- American warbler noted for imitating songs of other birds
+[yellow_bristlegrass.n.01] yellow bristlegrass -- common weedy and bristly grass found in nearly all temperate areas
+[yellowcake.n.01] yellowcake -- an impure mixture of uranium oxides obtained during the processing of uranium ore
+[yellow_chamomile.n.01] yellow chamomile -- Eurasian perennial herb with hairy divided leaves and yellow flowers; naturalized in North America
+[yellow_clintonia.n.01] yellow clintonia -- common woodland herb of temperate North America having yellow nodding flowers and small round blue fruits
+[yellow_colicroot.n.01] yellow colicroot -- colicroot with yellow-bracted racemose flowers; smaller than Aletris farinosa; southeastern United States
+[yellow-crowned_night_heron.n.01] yellow-crowned night heron -- North American night heron
+[yellow_cypress.n.01] yellow cypress -- tall evergreen of the Pacific coast of North America often cultivated for ornament
+[yellow-dog_contract.n.01] yellow-dog contract -- a labor contract (now illegal) whereby the employee agrees not to join a trade union
+[yellow_dwarf.n.01] yellow dwarf -- any of several virus diseases of plants characterized by stunting and yellowing of the leaves
+[yellow_dwarf_of_potato.n.01] yellow dwarf of potato -- the yellow dwarf disease of potato plants
+[yellow-eyed_grass.n.01] yellow-eyed grass -- any of several rushlike plants, especially of the pine barrens of southern United States
+[yellow-fever_mosquito.n.01] yellow-fever mosquito -- mosquito that transmits yellow fever and dengue
+[yellowfin_croaker.n.01] yellowfin croaker -- a fish of the Pacific coast of North America
+[yellowfin_mojarra.n.01] yellowfin mojarra -- popular panfish from Bermuda and Gulf of Mexico to Brazil
+[yellowfin.n.01] yellowfin -- may reach 400 pounds; worldwide in tropics
+[yellow_foxglove.n.01] yellow foxglove -- European yellow-flowered foxglove
+[yellow_giant_hyssop.n.01] yellow giant hyssop -- erect perennial with stout stems and yellow-green flowers; southern Canada and southeastern United States
+[yellow_globe_lily.n.01] yellow globe lily -- globe lily having open branched clusters of clear yellow egg-shaped flowers; northern California
+[yellow_goatfish.n.01] yellow goatfish -- schooling goatfish; greyish with yellow stripe
+[yellow-green_algae.n.01] yellow-green algae -- any alga of the division Chrysophyta with its chlorophyll masked by yellow pigment
+[yellow_green.n.01] yellow green -- a shade of green tinged with yellow
+[yellowhammer.n.02] yellowhammer -- European bunting the male being bright yellow
+[yellow_henbane.n.01] yellow henbane -- found on sea beaches from Virginia to South America having greenish-yellow flowers and orange or yellow berries
+[yellow_honeysuckle.n.01] yellow honeysuckle -- climbing deciduous shrub with fragrant yellow (later orange) flowers in terminal whorls; southeastern United States
+[yellow_honeysuckle.n.02] yellow honeysuckle -- twining deciduous shrub with clusters of purple-tinged yellow-green flowers; northeastern America
+[yellow_iris.n.01] yellow iris -- common yellow-flowered iris of Europe and North Africa, naturalized in United States and often cultivated
+[yellowish_brown.n.01] yellowish brown -- a medium to dark tan color
+[yellowish_pink.n.01] yellowish pink -- a shade of pink tinged with yellow
+[yellow_jacket.n.02] yellow jacket -- small yellow-marked social wasp commonly nesting in the ground
+[yellow_jack.n.01] yellow jack -- caused by a flavivirus transmitted by a mosquito
+[yellow_jack.n.02] yellow jack -- yellow flag hoist on a ship in quarantine
+[yellow_jack.n.03] yellow jack -- fish of western Atlantic and Gulf of Mexico
+[yellow_jasmine.n.01] yellow jasmine -- poisonous woody evergreen vine of southeastern United States having fragrant yellow funnel-shaped flowers
+[yellow_journalism.n.01] yellow journalism -- sensationalist journalism
+[yellowknife.n.01] Yellowknife -- a town in the Northwest Territories in northern Canada on the Great Slave Lake
+[yellow_lady's_slipper.n.01] yellow lady's slipper -- maroon to purple-brown orchid with yellow lip; Europe, North America and Japan
+[yellow-leaf_sickle_pine.n.01] yellow-leaf sickle pine -- a rain forest tree or shrub of New Caledonia having a conic crown and pale green sickle-shaped leaves; host species for the rare parasite yew
+[yellowlegs.n.01] yellowlegs -- either of two North American shorebird with yellow legs
+[yellow_light.n.01] yellow light -- the signal to proceed with caution
+[yellow_loosestrife.n.01] yellow loosestrife -- frequently considered a weed; Europe and Asia
+[yellow_lupine.n.01] yellow lupine -- yellow-flowered European lupine cultivated for forage
+[yellow_man.n.01] yellow man -- offensive term for an Asian man Also a hyponym of: oriental.n.01.
+[yellow_mariposa_tulip.n.01] yellow mariposa tulip -- mariposa having clusters of a few large deep yellow bell-shaped flowers atop slender stems; California coastal ranges
+[yellow_marrow.n.01] yellow marrow -- bone marrow that is yellow with fat; found at the ends of long bones in adults
+[yellow_mountain_saxifrage.n.01] yellow mountain saxifrage -- tufted evergreen perennial having ciliate leaves and yellow corymbose flowers often spotted orange
+[yellow.n.01] yellow -- yellow color or pigment; the chromatic color resembling the hue of sunflowers or ripe lemons
+[yellow_ocher.n.01] yellow ocher -- pigment consisting of a limonite mixed with clay and silica
+[yellow_oleander.n.01] yellow oleander -- tropical American shrub or small tree having glossy dark green leaves and fragrant saffron yellow to orange or peach- colored flowers; all parts highly poisonous
+[yellow_pages.n.01] yellow pages -- a telephone directory or section of a directory (usually printed on yellow paper) where business products and services are listed alphabetically by field along with classified advertising
+[yellow_perch.n.01] yellow perch -- North American perch
+[yellow_peril.n.01] yellow peril -- the threat to Western civilization said to arise from the power of Asiatic peoples
+[yellow_pimpernel.n.01] yellow pimpernel -- trailing European evergreen with yellow flowers
+[yellow_pine.n.01] yellow pine -- any of various pines having yellow wood
+[yellow_pine.n.02] yellow pine -- hard yellowish wood of a yellow pine
+[yellow_race.n.01] Yellow race -- an Asian race
+[yellow_rocket.n.01] yellow rocket -- noxious cress with yellow flowers; sometimes placed in genus Sisymbrium
+[yellow_salsify.n.01] yellow salsify -- European perennial naturalized throughout United States having hollow stems with a few long narrow tapered leaves and each bearing a solitary pale yellow flower
+[yellow_sand_verbena.n.01] yellow sand verbena -- plant having hemispherical heads of yellow trumpet-shaped flowers; found in coastal dunes from California to British Columbia
+[yellow_sea.n.01] Yellow Sea -- part of the Pacific off the east coast of Asia
+[yellow-shafted_flicker.n.01] yellow-shafted flicker -- large flicker of eastern North America with a red neck and yellow undersurface to wings and tail
+[yellow_spiny_daisy.n.01] yellow spiny daisy -- slender perennial of western North America having weakly bristly leaves and yellow flower heads
+[yellow_spot_fungus.n.01] yellow spot fungus -- fungus causing yellow spot (a sugarcane disease in Australia)
+[yellow_spot.n.01] yellow spot -- any of several fungous or viral diseases characterized by yellow spotting on the leaves
+[yellow_squash.n.01] yellow squash -- any of various squash plants grown for their yellow fruits with somewhat elongated necks
+[yellow_squash.n.02] yellow squash -- squash having yellow skin and yellowish flesh and usually elongated neck
+[yellowstone.n.01] Yellowstone -- a tributary of the Missouri River that flows through the Yellowstone National Park
+[yellowstone_national_park.n.01] Yellowstone National Park -- the first national park in the United States; located in the border area between Wyoming and Montana and Idaho; spectacular wilderness; famous for Old Faithful geyser and for buffalo and bears
+[yellow_sweet_clover.n.01] yellow sweet clover -- biennial yellow-flowered Eurasian plant having aromatic leaves used as carminative or flavoring agent; widely cultivated especially as green manure or cover crop
+[yellowtail_flounder.n.01] yellowtail flounder -- flesh of American flounder having a yellowish tail
+[yellowtail_flounder.n.02] yellowtail flounder -- American flounder having a yellowish tail
+[yellowtail.n.01] yellowtail -- superior food fish of the tropical Atlantic and Caribbean with broad yellow stripe along the sides and on the tail
+[yellowtail.n.02] yellowtail -- game fish of southern California and Mexico having a yellow tail fin
+[yellow-throated_marten.n.01] yellow-throated marten -- large yellow and black marten of southern China and Burma
+[yellowthroat.n.01] yellowthroat -- small olive-colored American warblers with yellow breast and throat
+[yellow_twining_snapdragon.n.01] yellow twining snapdragon -- southwestern United States plant with yellow flowers on stems that twist and twine through other vegetation
+[yellow_warbler.n.01] yellow warbler -- yellow-throated American wood warbler
+[yellow_water_lily.n.01] yellow water lily -- a water lily with yellow flowers
+[yellow_woman.n.01] yellow woman -- offensive term for an Asian woman Also a hyponym of: oriental.n.01.
+[yellowwood.n.01] yellowwood -- the yellow wood of any of various yellowwood trees
+[yellowwood.n.02] yellowwood -- any of various trees having yellowish wood or yielding a yellow extract
+[yemeni_fils.n.01] Yemeni fils -- 100 Yemeni fils are worth one Yemeni rial
+[yemeni_monetary_unit.n.01] Yemeni monetary unit -- monetary unit in Yemen
+[yemeni.n.01] Yemeni -- a native or inhabitant of Yemen
+[yemeni_rial.n.01] Yemeni rial -- the basic unit of money in Yemen; equal to 100 fils
+[yemen.n.01] Yemen -- a republic on the southwestern shores of the Arabian Peninsula on the Indian Ocean; formed in 1990
+[yeniseian.n.01] Yeniseian -- a member of one of the groups living in the Yenisei river valley in western Siberia
+[yenisei.n.01] Yenisei -- a Russian river in Siberia; rises in mountains near the Mongolian border and flows generally northward into the Kara Sea
+[yen.n.02] yen -- the basic unit of money in Japan; equal to 100 sen
+[yenta.n.01] yenta -- (Yiddish) a vulgar shrew; a shallow coarse termagant
+[yenta.n.02] yenta -- (Yiddish) a woman who talks too much; a gossip unable to keep a secret; a woman who spreads rumors and scandal
+[yeoman.n.01] yeoman -- officer in the (ceremonial) bodyguard of the British monarch
+[yeoman.n.02] yeoman -- in former times was free and cultivated his own land
+[yeomanry.n.01] yeomanry -- class of small freeholders who cultivated their own land
+[yeomanry.n.02] yeomanry -- a British volunteer cavalry force organized in 1761 for home defense later incorporated into the Territorial Army
+[yerba_buena.n.01] yerba buena -- trailing perennial evergreen herb of northwestern United States with small white flowers; used medicinally
+[yerba_mansa.n.01] yerba mansa -- stoloniferous herb of southwestern United States and Mexico having a pungent rootstock and small spicate flowers with white bracts suggesting an anemone
+[yerba_santa.n.01] yerba santa -- viscid evergreen shrub of western United States with white to deep lilac flowers; the sticky aromatic leaves are used in treating bronchial and pulmonary illnesses
+[yerevan.n.01] Yerevan -- capital of Armenia
+[yerkes.n.01] Yerkes -- United States psychologist who studied the intelligence of primates (1876-1956)
+[yersinia_pestis.n.01] Yersinia pestis -- a bacillus bacterium that causes the plague; aerosolized bacteria can be used as a bioweapon
+[yersin.n.01] Yersin -- French bacteriologist born in Switzerland; was a student of Pasteur; discovered the plague bacillus (1863-1943)
+[yerupaja.n.01] Yerupaja -- a mountain peak in the Andes in Peru (21,709 feet high)
+[yeshiva.n.01] yeshiva -- an academy for the advanced study of Jewish texts (primarily the Talmud)
+[yes.n.01] yes -- an affirmative
+[yes-no_question.n.01] yes-no question -- a question that can be answered by yes or no
+[yesterday.n.01] yesterday -- the day immediately before today
+[yesterday.n.02] yesterday -- the recent past
+[yevtushenko.n.01] Yevtushenko -- Russian poet who expressed the feelings of the post-Stalinist generation (born in 1933)
+[yew.n.01] yew -- wood of a yew; especially the durable fine-grained light brown or red wood of the English yew valued for cabinetwork and archery bows
+[yew.n.02] yew -- any of numerous evergreen trees or shrubs having red cup-shaped berries and flattened needlelike leaves
+[yggdrasil.n.01] Yggdrasil -- (Norse mythology) a huge ash tree whose roots and branches hold the earth and Heaven and Hell together Also a hyponym of: ash.n.02.
+[yiddish.n.01] Yiddish -- a dialect of High German including some Hebrew and other words; spoken in Europe as a vernacular by many Jews; written in the Hebrew script
+[yield.n.03] yield -- an amount of a product
+[yin.n.01] yin -- the dark negative feminine principle in Chinese dualistic cosmology
+[yip.n.01] yip -- a sharp high-pitched cry (especially by a dog)
+[yips.n.01] yips -- nervous tension that causes an athlete to fail (especially causes golfers to miss short putts)
+[ylem.n.01] ylem -- (cosmology) the original matter that (according to the big bang theory) existed before the formation of the chemical elements
+[y-linked_gene.n.01] Y-linked gene -- a gene located on a Y chromosome
+[ymir.n.01] Ymir -- (Norse mythology) the primeval giant slain by Odin and his brothers and from whose body they created the world: the sea from his blood; the earth from his flesh; the mountains from his bones; the sky from his skull
+[y.n.02] Y -- the 25th letter of the Roman alphabet
+[yobibit.n.01] yobibit -- a unit of information equal to 1024 zebibits or 2^80 bits
+[yodeling.n.01] yodeling -- singing by changing back and forth between the chest voice and a falsetto
+[yodeller.n.01] yodeller -- a singer who changes register rapidly (popular is Swiss folk songs)
+[yodel.n.01] yodel -- a songlike cry in which the voice fluctuates rapidly between the normal voice and falsetto
+[yodh.n.01] yodh -- the 10th letter of the Hebrew alphabet
+[yogacara.n.01] Yogacara -- one of the main traditions of Mahayana Buddhism; holds that the mind is real but that objects are just ideas or states of consciousness
+[yoga.n.01] yoga -- Hindu discipline aimed at training the consciousness for a state of perfect spiritual insight and tranquility that is achieved through the three paths of actions and knowledge and devotion
+[yoga.n.02] yoga -- a system of exercises practiced as part of the Hindu discipline to promote control of the body and mind
+[yogi.n.02] yogi -- one who practices yoga and has achieved a high level of spiritual insight
+[yogurt.n.01] yogurt -- a custard-like food made from curdled milk Also a hyponym of: food.n.02.
+[yokel.n.01] yokel -- a person who is not very intelligent or interested in culture
+[yoke.n.01] yoke -- fabric comprising a fitted part at the top of a garment
+[yoke.n.02] yoke -- an oppressive power
+[yoke.n.04] yoke -- a pair of draft animals joined by a yoke
+[yoke.n.05] yoke -- support consisting of a wooden frame across the shoulders that enables a person to carry buckets hanging from each end
+[yoke.n.06] yoke -- a connection (like a clamp or vise) between two things so they move together
+[yoke.n.07] yoke -- stable gear that joins two draft animals at the neck so they can work together as a team
+[yokohama.n.01] Yokohama -- port city on southeastern Honshu in central Japan Also a hyponym of: city.n.01.
+[yokuts.n.02] Yokuts -- a member of the North American Indian people of the San Joaquin Valley
+[yolk.n.02] yolk -- nutritive material of an ovum stored for the nutrition of an embryo (especially the yellow mass of a bird or reptile egg)
+[yolk_sac.n.01] yolk sac -- membranous structure that functions as the circulatory system in mammalian embryos until the heart becomes functional
+[yolk_sac.n.02] yolk sac -- membranous structure enclosing the yolk of eggs in birds, reptiles, marsupials, and some fishes; circulates nutrients to the developing embryo
+[yom_kippur.n.01] Yom Kippur -- (Judaism) a solemn and major fast day on the Jewish calendar; 10th of Tishri; its observance is one of the requirements of the Mosaic law Also a hyponym of: major_fast_day.n.01.
+[yore.n.01] yore -- time long past
+[york.n.01] York -- the English royal house (a branch of the Plantagenet line) that reigned from 1461 to 1485; its emblem was a white rose Also a hyponym of: dynasty.n.01.
+[yorkshire.n.01] Yorkshire -- a former large county in northern England; in 1974 it was divided into three smaller counties
+[yorkshire_pudding.n.01] Yorkshire pudding -- light puffy bread made of a puff batter and traditionally baked in the pan with roast beef
+[yorkshire_terrier.n.01] Yorkshire terrier -- very small breed having a long glossy coat of bluish-grey and tan
+[yorktown.n.01] Yorktown -- a historic village in southeastern Virginia to the north of Newport News; site of the last battle of the American Revolution
+[yorktown.n.02] Yorktown -- in 1781 the British under Cornwallis surrendered after a siege of three weeks by American and French troops; the surrender ended the American Revolution
+[yoruba.n.01] Yoruba -- a member of a West African people living chiefly in southwestern Nigeria
+[yoruba.n.02] Yoruba -- a Kwa language spoken by the Yoruba in southwestern Nigeria
+[yosemite.n.01] Yosemite -- a series of waterfalls in Yosemite National Park in California; is reduced to a trickle for part of each year
+[yosemite_national_park.n.01] Yosemite National Park -- a national park in California famous for its waterfalls and rock formations
+[yosemite_toad.n.01] Yosemite toad -- of high Sierra Nevada meadows and forest borders
+[yottabit.n.01] yottabit -- a unit of information equal to 1000 zettabits or 10^24 bits
+[yottabyte.n.01] yottabyte -- a unit of information equal to 1000 zettabytes or 10^24 bytes
+[yottabyte.n.02] yottabyte -- a unit of information equal to 1024 zebibytes or 2^80 bytes
+[young_bird.n.01] young bird -- a bird that is still young
+[young_buck.n.01] young buck -- a teenager or a young adult male Also a hyponym of: man.n.01.
+[young_fish.n.01] young fish -- a fish that is young Also a hyponym of: young.n.01.
+[young_mammal.n.01] young mammal -- any immature mammal
+[young.n.01] young -- any immature animal
+[young.n.02] Young -- United States film and television actress (1913-2000)
+[young.n.03] Young -- United States civil rights leader (1921-1971)
+[young.n.04] Young -- British physicist and Egyptologist; he revived the wave theory of light and proposed a three-component theory of color vision; he also played an important role in deciphering the hieroglyphics on the Rosetta Stone (1773-1829) Also a hyponym of: physicist.n.01.
+[young.n.05] Young -- United States jazz tenor saxophonist (1909-1959)
+[young.n.06] Young -- English poet (1683-1765)
+[young.n.07] Young -- United States baseball player and famous pitcher (1867-1955)
+[young.n.08] Young -- United States religious leader of the Mormon Church after the assassination of Joseph Smith; he led the Mormon exodus from Illinois to Salt Lake City, Utah (1801-1877)
+[young.n.09] young -- young people collectively
+[youngness.n.01] youngness -- the opposite of oldness
+[young_person.n.01] young person -- a young person (especially a young man or boy)
+[young's_modulus.n.01] Young's modulus -- a coefficient of elasticity applicable to the stretching of a wire
+[youngstown.n.01] Youngstown -- a city in northeast Ohio
+[young_turk.n.01] Young Turk -- a member of one or more of the insurgent groups in Turkey in the late 19th century who rebelled against the absolutism of Ottoman rule
+[young_turk.n.02] young Turk -- a young radical who agitates for reform
+[youth_culture.n.01] youth culture -- young adults (a generational unit) considered as a cultural class or subculture Also a hyponym of: coevals.n.01.
+[youth_gang.n.01] youth gang -- a gang whose members are teenagers
+[youth_movement.n.01] youth movement -- political or religious or social reform movement or agitation consisting chiefly of young people
+[youth.n.03] youth -- the time of life between childhood and maturity
+[youth.n.04] youth -- early maturity; the state of being young or immature or inexperienced
+[youth.n.05] youth -- an early period of development
+[youth.n.06] youth -- the freshness and vitality characteristic of a young person
+[youth_subculture.n.01] youth subculture -- a minority youth culture whose distinctiveness depended largely on the social class and ethnic background of its members; often characterized by its adoption of a particular music genre
+[yo-yo.n.01] yo-yo -- a toy consisting of a spool that is reeled up and down on a string by motions of the hand
+[ypres.n.01] Ypres -- battle in World War I (1917); an Allied offensive which eventually failed because tanks bogged down in the waterlogged soil of Flanders; Germans introduced mustard gas which interfered with the Allied artillery
+[ypres.n.02] Ypres -- battle in World War I (1915); Germans wanted to try chlorine (a toxic yellow gas) as a weapon and succeeded in taking considerable territory from the Allied salient
+[ypres.n.03] Ypres -- battle in World War I (1914); heavy but indecisive fighting as the Allies and the Germans both tried to break through the lines of the others
+[yquem.n.01] Yquem -- a sweet white French wine
+[ytterbium.n.01] ytterbium -- a soft silvery metallic element; a rare earth of the lanthanide series; it occurs in gadolinite and monazite and xenotime
+[yttrium.n.01] yttrium -- a silvery metallic element that is common in rare-earth minerals; used in magnesium and aluminum alloys
+[yuan.n.01] yuan -- the basic unit of money in China
+[yuan.n.02] Yuan -- the imperial dynasty of China from 1279 to 1368
+[yucatan.n.01] Yucatan -- a state of Mexico on the northern part of the Yucatan Peninsula
+[yucatan.n.02] Yucatan -- a peninsula in Central America extending into the Gulf of Mexico between the Bay of Campeche and the Caribbean Sea
+[yucatec.n.01] Yucatec -- a member of the Mayan people of the Yucatan peninsula in Mexico
+[yucatec.n.02] Yucatec -- a Mayan language spoken by the Yucatec
+[yucca.n.01] yucca -- any of several evergreen plants of the genus Yucca having usually tall stout stems and a terminal cluster of white flowers; warmer regions of North America
+[yue.n.01] Yue -- the dialect of Chinese spoken in Canton and neighboring provinces and in Hong Kong and elsewhere outside China
+[yugoslavia.n.02] Yugoslavia -- a former country of southeastern Europe bordering the Adriatic Sea; formed in 1918 and named Yugoslavia in 1929; controlled by Marshal Tito as a communist state until his death in 1980
+[yugoslavian_dinar.n.01] Yugoslavian dinar -- the basic unit of money in Yugoslavia
+[yugoslavian_monetary_unit.n.01] Yugoslavian monetary unit -- monetary unit in Yugoslavia
+[yugoslav.n.01] Yugoslav -- a native or inhabitant of Yugoslavia
+[yukawa.n.01] Yukawa -- Japanese mathematical physicist who proposed that nuclear forces are mediated by massive particles called mesons which are analogous to the photon in mediating electromagnetic forces (1907-1981)
+[yukon.n.01] Yukon -- a North American river that flows westward from the Yukon Territory through central Alaska to the Bering Sea
+[yukon.n.02] Yukon -- a territory in northwestern Canada; site of the Klondike gold rush in the 1890s
+[yukon_white_birch.n.01] Yukon white birch -- Alaskan birch with white to pale brown bark
+[yule_log.n.01] Yule log -- large log traditionally burned at Christmas
+[yuma.n.01] Yuma -- a member of the North American Indian people of Arizona and adjacent Mexico and California
+[yuma.n.02] Yuma -- a town in southwestern Arizona on the Colorado River and the California border
+[yuma.n.03] Yuma -- the Yuman language spoken by the Yuma
+[yuman.n.01] Yuman -- a group of language of the Hokan family in Arizona and California and Mexico
+[yunnan.n.01] Yunnan -- a province of southern China
+[yuppie.n.01] yuppie -- a young upwardly mobile professional individual; a well-paid middle-class professional who works in a city and has a luxurious life style
+[yurt.n.01] yurt -- a circular domed dwelling that is portable and self-supporting; originally used by nomadic Mongol and Turkic people of central Asia but now used as inexpensive alternative or temporary housing

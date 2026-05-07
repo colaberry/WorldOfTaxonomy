@@ -1,0 +1,1822 @@
+[oahu.n.01] Oahu -- an island of central Hawaii (between Molokai and Kauai); the chief island of the state
+[oak_apple.n.01] oak apple -- oak gall caused by larvae of a cynipid wasp
+[oak_blight.n.01] oak blight -- a black plant louse that lives on oaks and dogwoods
+[oak_chestnut.n.01] oak chestnut -- a tree of the genus Castanopsis
+[oak_fern.n.01] oak fern -- bright blue-green fern widely distributed especially in damp acid woodlands of temperate northern hemisphere
+[oakland.n.01] Oakland -- a city in western California on San Francisco Bay opposite San Francisco; primarily and industrial urban center Also a hyponym of: city.n.01.
+[oak_leaf_cluster.n.01] Oak Leaf Cluster -- a United States military decoration consisting of bronze or silver oak leaves and acorns awarded to anyone who has won a given medal before
+[oak-leaved_goosefoot.n.01] oak-leaved goosefoot -- annual European plant with spikes of greenish flowers and leaves that are white and hairy on the underside; common as a weed in North America
+[oakley.n.01] Oakley -- United States sharpshooter who was featured in Buffalo Bill's Wild West Show (1860-1926)
+[oak.n.01] oak -- the hard durable wood of any oak; used especially for furniture and flooring
+[oak.n.02] oak -- a deciduous tree of the genus Quercus; has acorns and lobed leaves
+[oakum.n.01] oakum -- loose hemp or jute fiber obtained by unravelling old ropes; when impregnated with tar it was used to caulk seams and pack joints in wooden ships
+[oarfish.n.01] oarfish -- thin deep-water tropical fish 20 to 30 feet long having a red dorsal fin
+[oar.n.01] oar -- an implement used to propel or steer a boat
+[oarsman.n.01] oarsman -- someone who rows a boat
+[oarsmanship.n.01] oarsmanship -- skill as an oarsman
+[oarswoman.n.01] oarswoman -- a woman oarsman
+[oasis.n.01] oasis -- a fertile tract in a desert (where the water table approaches the surface)
+[oast_house.n.01] oast house -- a building containing an oast (a kiln for drying hops); usually has a conical or pyramidal roof
+[oast.n.01] oast -- a kiln for drying hops
+[oatcake.n.01] oatcake -- thin flat unleavened cake of baked oatmeal
+[oat_cell_carcinoma.n.01] oat cell carcinoma -- highly malignant carcinoma composed of small round or egg-shaped cells with little cytoplasm; lung cancers are frequently oat cell carcinomas
+[oates.n.01] Oates -- English conspirator who claimed that there was a Jesuit plot to assassinate Charles II (1649-1705)
+[oates.n.02] Oates -- United States writer (born in 1938)
+[oath.n.02] oath -- a commitment to tell the truth (especially in a court of law); to lie under oath is to become subject to prosecution for perjury
+[oath.n.03] oath -- a solemn promise, usually invoking a divine witness, regarding your future acts or behavior
+[oatmeal_cookie.n.01] oatmeal cookie -- cookies containing rolled oats
+[oatmeal.n.01] oatmeal -- porridge made of rolled oats
+[oatmeal.n.02] oatmeal -- meal made from rolled or ground oats
+[oat.n.01] oat -- annual grass of Europe and North Africa; grains used as food and fodder (referred to primarily in the plural: `oats')
+[oat.n.02] oat -- seed of the annual grass Avena sativa (spoken of primarily in the plural as `oats')
+[oaxaca.n.01] Oaxaca -- a city of southeastern Mexico
+[obadiah.n.01] Obadiah -- a Hebrew minor prophet
+[obadiah.n.02] Obadiah -- an Old Testament book telling Obadiah's prophecies; the shortest book in the Christian Bible
+[obbligato.n.01] obbligato -- a persistent but subordinate motif
+[obbligato.n.02] obbligato -- a part of the score that must be performed without change or omission
+[obeah.n.01] obeah -- (West Indies) followers of a religious system involving witchcraft and sorcery
+[obeah.n.02] obeah -- a religious belief of African origin involving witchcraft and sorcery; practiced in parts of the West Indies and tropical Americas
+[obeche.n.01] obeche -- the wood of an African obeche tree; used especially for veneering
+[obeche.n.02] obeche -- large west African tree having large palmately lobed leaves and axillary cymose panicles of small white flowers and one-winged seeds; yields soft white to pale yellow wood
+[obedience.n.01] obedience -- the act of obeying; dutiful or submissive behavior with respect to another person
+[obedience.n.02] obedience -- the trait of being willing to obey
+[obedience.n.03] obedience -- behavior intended to please your parents
+[obelion.n.01] obelion -- the craniometric point on the sagittal suture near the lamboid suture
+[obelisk.n.01] obelisk -- a stone pillar having a rectangular cross section tapering towards a pyramidal top
+[oberson.n.01] Oberson -- (Middle Ages) the king of the fairies and husband of Titania in medieval folklore
+[obfuscation.n.03] obfuscation -- darkening or obscuring the sight of something
+[obidoxime_chloride.n.01] obidoxime chloride -- a chloride used as an antidote for nerve gases such as sarin or VX Also a hyponym of: chloride.n.01.
+[obiism.n.01] obiism -- belief in a kind of sorcery that originated in Africa and is practiced in the West Indies
+[obiter_dictum.n.01] obiter dictum -- an incidental remark
+[obiter_dictum.n.02] obiter dictum -- an opinion voiced by a judge on a point of law not directly bearing on the case in question and therefore not binding
+[obituary.n.01] obituary -- a notice of someone's death; usually includes a short biography
+[object_ball.n.01] object ball -- the billiard ball that is intended to be the first ball struck by the cue ball
+[object_code.n.01] object code -- the machine-language output of a compiler that is ready for execution on a particular computer
+[objectification.n.01] objectification -- the act of representing an abstraction as a physical thing
+[objectification.n.02] objectification -- a concrete representation of an abstract idea or principle
+[objection.n.02] objection -- the speech act of objecting
+[objection.n.04] objection -- (law) a procedure whereby a party to a suit says that a particular line of questioning or a particular witness or a piece of evidence or other matter is improper and should not be continued and asks the court to rule on its impropriety or illegality
+[objective.n.02] objective -- the lens or system of lenses in a telescope or microscope that is nearest the object being viewed
+[objectivity.n.01] objectivity -- judgment based on observable phenomena and uninfluenced by emotions or personal prejudices
+[object_language.n.01] object language -- a computer language into which something written in another computer language is to be translated
+[object_language.n.02] object language -- the language into which a text written in another language is to be translated
+[object.n.01] object -- a tangible and visible entity; an entity that can cast a shadow
+[object.n.03] object -- (grammar) a constituent that is acted upon
+[object.n.04] object -- the focus of cognitions or feelings
+[object.n.05] object -- (computing) a discrete item that provides a description of virtually anything known to a computer
+[object-oriented_database_management_system.n.01] object-oriented database management system -- a database management system designed to manage an object-oriented database
+[object-oriented_database.n.01] object-oriented database -- a database in which the operations carried out on information items (data objects) are considered part of their definition
+[object-oriented_programming_language.n.01] object-oriented programming language -- (computer science) a programming language that enables the programmer to associate a set of procedures with each type of data structure
+[object-oriented_programming.n.01] object-oriented programming -- creating a program that can use and support objects
+[object_program.n.01] object program -- a fully compiled or assembled program ready to be loaded into the computer
+[object_recognition.n.01] object recognition -- the visual perception of familiar objects
+[objet_d'art.n.01] objet d'art -- a work of art of some artistic value
+[oblanceolate_leaf.n.01] oblanceolate leaf -- a leaf having a rounded apex and tapering base
+[oblate.n.01] oblate -- a lay person dedicated to religious work or the religious life
+[oblateness.n.01] oblateness -- the property possessed by a round shape that is flattened at the poles
+[oblation.n.01] oblation -- the act of contributing to the funds of a church or charity
+[oblation.n.02] Oblation -- the act of offering the bread and wine of the Eucharist
+[obligate_anaerobe.n.01] obligate anaerobe -- an organism that cannot grow in the presence of oxygen
+[obligation.n.02] obligation -- the state of being obligated to do or pay something
+[obligation.n.03] obligation -- a personal relation in which one is indebted for a service or favor
+[obligation.n.05] obligation -- a legal agreement specifying a payment or action and the penalty for failure to comply
+[obliger.n.01] obliger -- someone who performs a service or does a favor
+[oblique_angle.n.01] oblique angle -- an angle that is not a right angle or a multiple of a right angle
+[oblique_bandage.n.01] oblique bandage -- a bandage in which successive turns proceed obliquely up or down a limb
+[oblique.n.01] oblique -- any grammatical case other than the nominative
+[obliqueness.n.01] obliqueness -- the property of being neither parallel nor perpendicular, but at a slanting angle
+[oblique_triangle.n.01] oblique triangle -- a triangle that contains no right angle
+[oblique_vein_of_the_left_atrium.n.01] oblique vein of the left atrium -- a tributary of the coronary sinus; on the posterior wall of the left atrium
+[obliterator.n.01] obliterator -- an eliminator that does away with all traces
+[oblivion.n.01] oblivion -- the state of being disregarded or forgotten
+[obliviousness.n.01] obliviousness -- total forgetfulness
+[oblong_leaf.n.01] oblong leaf -- a simple leaf that is rounded at each end with parallel sides
+[oblong.n.01] oblong -- a plane figure that deviates from a square or circle due to elongation
+[obloquy.n.01] obloquy -- state of disgrace resulting from public abuse
+[ob.n.01] Ob -- a major river of western Siberia; flows generally northward and westward to the Gulf of Ob and the Kara Sea
+[oboe_da_caccia.n.01] oboe da caccia -- an alto oboe; precursor of the English horn
+[oboe_d'amore.n.01] oboe d'amore -- an oboe pitched a minor third lower than the ordinary oboe; used to perform baroque music
+[oboe.n.01] oboe -- a slender double-reed instrument; a woodwind with a conical bore and a double-reed mouthpiece
+[oboist.n.01] oboist -- a musician who plays the oboe
+[obolus.n.01] obolus -- a Greek unit of weight equal to one tenth of a gram
+[obovate_leaf.n.01] obovate leaf -- an egg-shaped leaf with the narrower end at the base
+[o'brien.n.01] O'Brien -- Irish writer (born in 1932)
+[obscenity.n.01] obscenity -- the trait of behaving in an obscene manner
+[obscenity.n.02] obscenity -- an offensive or indecent word or phrase
+[obscenity.n.03] obscenity -- an obscene act
+[obscurantism.n.01] obscurantism -- a policy of opposition to enlightenment or the spread of knowledge
+[obscurantism.n.02] obscurantism -- a deliberate act intended to make something obscure
+[obscurantist.n.01] obscurantist -- a person who is deliberately vague
+[obscureness.n.03] obscureness -- the quality of being unclear or abstruse and hard to understand
+[obscurity.n.02] obscurity -- an obscure and unimportant standing; not well known
+[obscurity.n.03] obscurity -- the state of being indistinct or indefinite for lack of adequate illumination
+[obsequiousness.n.01] obsequiousness -- abject or cringing submissiveness
+[observation_dome.n.01] observation dome -- lookout consisting of a dome-shaped observatory
+[observation.n.01] observation -- the act of making and recording a measurement
+[observation.n.02] observation -- the act of observing; taking a patient look
+[observation.n.03] observation -- a remark expressing careful consideration
+[observation.n.04] observation -- facts learned by observing
+[observation_station.n.01] observation station -- a station set up for making observations of something
+[observatory.n.01] observatory -- a building designed and equipped to observe astronomical phenomena
+[observed_fire.n.01] observed fire -- fire for which the point of impact (the burst) can be seen by an observer; fire can be adjusted on the basis of the observations
+[observer.n.02] observer -- an expert who observes and comments on something
+[observer's_meridian.n.01] observer's meridian -- a meridian that passes through the observer's zenith
+[obsession.n.02] obsession -- an unhealthy and compulsive preoccupation with something or someone
+[obsessive-compulsive_disorder.n.01] obsessive-compulsive disorder -- an anxiety disorder characterized by recurrent and persistent thoughts and feelings and repetitive, ritualized behaviors
+[obsessive-compulsive.n.01] obsessive-compulsive -- a person with obsessive-compulsive characteristics
+[obsessive-compulsive_personality.n.01] obsessive-compulsive personality -- personality characterized by a strong need to repeat certain acts or rituals
+[obsessive.n.01] obsessive -- a person who has obsessions
+[obsessiveness.n.01] obsessiveness -- extreme compulsiveness
+[obsidian.n.01] obsidian -- acid or granitic glass formed by the rapid cooling of lava without crystallization; usually dark, but transparent in thin pieces
+[obsolescence.n.01] obsolescence -- the process of becoming obsolete; falling into disuse or becoming out of date
+[obsoleteness.n.01] obsoleteness -- the property of being out of date and not current
+[obstacle.n.01] obstacle -- something immaterial that stands in the way and must be circumvented or surmounted
+[obstacle.n.02] obstacle -- an obstruction that stands in the way (and must be removed or surmounted or circumvented)
+[obstacle_race.n.01] obstacle race -- a race in which competitors must negotiate obstacles
+[obstetrical_toad.n.01] obstetrical toad -- European toad whose male carries the fertilized eggs wrapped around its hind legs until they hatch
+[obstetrician.n.01] obstetrician -- a physician specializing in obstetrics
+[obstetrics.n.01] obstetrics -- the branch of medicine dealing with childbirth and care of the mother
+[obstipation.n.01] obstipation -- severe constipation resulting from an obstruction in the intestines
+[obstreperousness.n.01] obstreperousness -- noisy defiance
+[obstructionism.n.01] obstructionism -- deliberate interference
+[obstructionist.n.01] obstructionist -- someone who systematically obstructs some action that others want to take
+[obstruction.n.01] obstruction -- any structure that makes progress difficult
+[obstruction.n.02] obstruction -- the physical condition of blocking or filling a passage with an obstruction
+[obstruction.n.04] obstruction -- the act of obstructing
+[obstruction.n.05] obstruction -- getting in someone's way
+[obstruction_of_justice.n.01] obstruction of justice -- impeding those who seek justice in a court (as by trying to influence or intimidate any juror or witness or officer of the court); can result in a finding of contempt of court
+[obstructive_shock.n.01] obstructive shock -- shock caused by obstruction of blood flow
+[obstruent.n.01] obstruent -- a consonant that is produced with a partial or complete blockage of the airflow from the lungs through the nose or mouth
+[obtainment.n.01] obtainment -- the act of obtaining
+[obtrusiveness.n.01] obtrusiveness -- an unwelcome conspicuousness
+[obturator.n.01] obturator -- a prosthesis used to close an opening (as to close an opening of the hard palate in cases of cleft palate)
+[obturator_vein.n.01] obturator vein -- a vein formed by the union of tributaries that drain the hip joints and thigh muscles; empties into the internal iliac vein
+[obtuse_angle.n.01] obtuse angle -- an angle between 90 and 180 degrees
+[obtuse_leaf.n.01] obtuse leaf -- a simple leaf having a rounded or blunt tip
+[obtuseness.n.02] obtuseness -- the quality of lacking a sharp edge or point
+[obtuse_triangle.n.01] obtuse triangle -- a triangle that contains an obtuse interior angle
+[obverse.n.01] obverse -- the more conspicuous of two alternatives or cases or sides
+[obverse.n.02] obverse -- the side of a coin or medal bearing the principal stamp or design
+[obviation.n.01] obviation -- the act of preventing something by anticipating and disposing of it effectively
+[obviousness.n.01] obviousness -- the property of being easy to see and understand
+[oca.n.01] oca -- South American wood sorrel cultivated for its edible tubers
+[ocarina.n.01] ocarina -- egg-shaped terra cotta wind instrument with a mouthpiece and finger holes
+[o'casey.n.01] O'Casey -- Irish playwright (1880-1964)
+[occam.n.01] Occam -- English scholastic philosopher and assumed author of Occam's Razor (1285-1349)
+[occam's_razor.n.01] Occam's Razor -- the principle that entities should not be multiplied needlessly; the simplest of two competing theories is to be preferred
+[occasion.n.03] occasion -- reason
+[occasion.n.04] occasion -- the time of a particular event
+[occasion.n.05] occasion -- an opportunity to do something
+[occasions.n.01] occasions -- something you have to do
+[occidentalism.n.01] Occidentalism -- the scholarly knowledge of western cultures and languages and people
+[occidentalism.n.02] occidentalism -- the quality or customs or mannerisms characteristic of Western civilizations
+[occidental.n.01] Occidental -- a native inhabitant of the Occident
+[occidental.n.02] Occidental -- an artificial language
+[occipital_bone.n.01] occipital bone -- a saucer-shaped membrane bone that forms the back of the skull
+[occipital_gyrus.n.01] occipital gyrus -- any of the convolutions of the outer surface of the occipital lobe of the cerebrum
+[occipital_lobe.n.01] occipital lobe -- that part of the cerebral cortex in either hemisphere of the brain lying in the back of the head
+[occipital_protuberance.n.01] occipital protuberance -- prominence on the outer surface of the occipital bone
+[occipital_vein.n.01] occipital vein -- a vein that drains the occipital region
+[occipitomastoid_suture.n.01] occipitomastoid suture -- the suture between the occipital and the temporal bones; a continuation of the lamboid suture
+[occiput.n.01] occiput -- back part of the head or skull
+[occluded_front.n.01] occluded front -- (meteorology) a composite front when colder air surrounds a mass of warm air and forces it aloft
+[occlusion.n.01] occlusion -- closure or blockage (as of a blood vessel)
+[occlusion.n.03] occlusion -- (dentistry) the normal spatial relation of the teeth when the jaws are closed
+[occultism.n.01] occultism -- the study of the supernatural
+[occultism.n.02] occultism -- a belief in supernatural powers and the possibility of bringing them under human control
+[occultist.n.01] occultist -- a believer in occultism; someone versed in the occult arts
+[occult.n.02] occult -- supernatural practices and techniques
+[occupancy.n.01] occupancy -- an act of being a tenant or occupant
+[occupancy_rate.n.01] occupancy rate -- the percentage of all rental units (as in hotels) are occupied or rented at a given time
+[occupational_disease.n.01] occupational disease -- disease or disability resulting from conditions of employment (usually from long exposure to a noxious substance or from continuous repetition of certain acts)
+[occupational_group.n.01] occupational group -- a body of people doing the same kind of work
+[occupational_hazard.n.01] occupational hazard -- any condition of a job that can result in illness or injury
+[occupational_safety_and_health_act.n.01] occupational safety and health act -- a law passed by the United States Congress that created the Occupational Safety and Health Administration to prevent employees from being injured or contracting diseases in the course of their employment
+[occupational_safety_and_health_administration.n.01] Occupational Safety and Health Administration -- a government agency in the Department of Labor to maintain a safe and healthy work environment
+[occupational_therapy.n.01] occupational therapy -- therapy based on engagement in meaningful activities of daily life, especially to enable or encourage participation in such activities in spite of impairments or limitations in physical or mental functions
+[occupation_license.n.01] occupation license -- a license to pursue a particular occupation
+[occupation.n.01] occupation -- the principal activity in your life that you do to earn money
+[occupation.n.02] occupation -- the control of a country by military forces of a foreign power
+[occupation.n.03] occupation -- any activity that occupies a person's attention
+[occupation.n.04] occupation -- the act of occupying or taking possession of a building
+[occupation.n.05] occupation -- the period of time during which a place or position or nation is occupied
+[occupier.n.02] occupier -- a member of a military force who is residing in a conquered foreign country
+[occurrence.n.02] occurrence -- an instance of something occurring
+[ocean_current.n.01] ocean current -- the steady flow of surface ocean water in a prevailing direction
+[ocean_floor.n.01] ocean floor -- the bottom of a sea or ocean
+[oceanfront.n.01] oceanfront -- land bordering an ocean
+[oceania.n.01] Oceania -- a large group of islands in the south Pacific including Melanesia and Micronesia and Polynesia (and sometimes Australasia and the Malay Archipelago)
+[oceanic.n.01] Oceanic -- an eastern subfamily of Malayo-Polynesian languages
+[oceanid.n.01] Oceanid -- (Greek mythology) sea nymph who was a daughter of Oceanus and Tethys
+[oceanites.n.01] Oceanites -- a genus of Hydrobatidae
+[ocean.n.01] ocean -- a large body of water constituting a principal part of the hydrosphere
+[ocean.n.02] ocean -- anything apparently limitless in quantity or volume
+[oceanographer.n.01] oceanographer -- a scientist who studies physical and biological aspects of the seas
+[oceanography.n.01] oceanography -- the branch of science dealing with physical and biological aspects of the oceans
+[ocean_pout.n.01] ocean pout -- common along northeastern coast of North America
+[ocean_sunfish.n.01] ocean sunfish -- among the largest bony fish; pelagic fish having an oval compressed body with high dorsal and anal fins and caudal fin reduced to a rudder-like lobe; worldwide in warm waters
+[ocean_trip.n.01] ocean trip -- an act of traveling by water
+[oceanus.n.01] Oceanus -- (Greek mythology) god of the stream that flowed around the earth in ancient mythology
+[ocellated_turkey.n.01] ocellated turkey -- wild turkey of Central America and northern South America
+[ocelot.n.01] ocelot -- nocturnal wildcat of Central America and South America having a dark-spotted buff-brown coat
+[ocher.n.01] ocher -- a moderate yellow-orange to orange color
+[ocher.n.02] ocher -- any of various earths containing silica and alumina and ferric oxide; used as a pigment
+[ochnaceae.n.01] Ochnaceae -- family of tropical evergreen trees and shrubs with thick shining parallel-veined leaves
+[ochna.n.01] Ochna -- type genus of Ochnaceae; evergreen trees and shrubs of Old World tropics
+[ochoa.n.01] Ochoa -- United States biochemist (born in Spain) who studied the biological synthesis of nucleic acids (1905-1993)
+[ochotona.n.01] Ochotona -- type genus of the Ochotonidae
+[ochotonidae.n.01] Ochotonidae -- pikas and extinct forms
+[ochroma.n.01] Ochroma -- one species: balsa
+[ochronosis.n.01] ochronosis -- an accumulation of dark pigment in cartilage and other connective tissue; usually a symptom of alkaptonuria or phenol poisoning
+[ochs.n.01] Ochs -- United States newspaper publisher (1858-1935)
+[ocimum.n.01] Ocimum -- basil
+[oconee_bells.n.01] oconee bells -- plant of southeastern United States having solitary white funnel-shaped flowers flushed with pink and large glossy green leaves that turn bronze-red in fall
+[o'connor.n.01] O'Connor -- United States writer (1925-1964)
+[ocotillo.n.01] ocotillo -- desert shrub of southwestern United States and Mexico having slender naked spiny branches that after the rainy season put forth foliage and clusters of red flowers
+[octagon.n.01] octagon -- an eight-sided polygon
+[octahedron.n.01] octahedron -- any polyhedron having eight plane faces
+[octal_digit.n.01] octal digit -- a digit from 0 to 7 in octal notation
+[octal_notation.n.01] octal notation -- any mathematical notation that uses 8 different characters (usually the digits 0 to 7)
+[octal_numeration_system.n.01] octal numeration system -- a positional system of numeration that uses octal digits and a radix of eight
+[octameter.n.01] octameter -- a verse line having eight metrical feet
+[octane.n.01] octane -- any isomeric saturated hydrocarbon found in petroleum and used as a fuel and solvent
+[octane_number.n.01] octane number -- a measure of the antiknock properties of gasoline
+[octans.n.01] Octans -- the constellation that includes the southern celestial pole
+[octant.n.01] octant -- a measuring instrument for measuring angles to a celestial body; similar to a sextant but with 45 degree calibration
+[octave.n.01] octave -- a feast day and the seven days following it
+[octave.n.02] octave -- a musical interval of eight tones
+[octave.n.03] octave -- a rhythmic group of eight lines of verse
+[octavo.n.01] octavo -- the size of a book whose pages are made by folding a sheet of paper three times to form eight leaves
+[octet.n.02] octet -- eight performers or singers who perform together
+[octet.n.03] octet -- a set of eight similar things considered as a unit
+[octet.n.04] octet -- eight people considered as a unit
+[octet.n.05] octet -- a musical composition written for eight performers
+[octillion.n.01] octillion -- the number that is represented as a one followed by 27 zeros
+[october.n.01] October -- the month following September and preceding November
+[octogenarian.n.01] octogenarian -- someone whose age is in the eighties
+[octopoda.n.01] Octopoda -- octopuses and paper nautilus
+[octopodidae.n.01] Octopodidae -- a family of Octopoda
+[octopod.n.01] octopod -- a cephalopod with eight arms but lacking an internal shell
+[octopus.n.01] octopus -- tentacles of octopus prepared as food
+[octopus.n.02] octopus -- bottom-living cephalopod having a soft oval body with eight long tentacles
+[octoroon.n.01] octoroon -- an offspring of a quadroon and a white parent; a person who is one-eighth black
+[octosyllable.n.01] octosyllable -- a verse line having eight syllables or a poem of octosyllabic lines
+[octroi.n.01] octroi -- a tax on various goods brought into a town
+[ocular_muscle.n.01] ocular muscle -- one of the small muscles of the eye that serve to rotate the eyeball
+[oculism.n.01] oculism -- the craft of an oculist
+[oculomotor.n.01] oculomotor -- supplies extrinsic muscles of the eye
+[oculopharyngeal_muscular_dystrophy.n.01] oculopharyngeal muscular dystrophy -- a form of muscular dystrophy that usually begins between early adulthood and middle age and first affects muscles of the eyelid and throat; progresses slowly with swallowing problems common as the disease progresses; inheritance is autosomal dominant
+[oculus_dexter.n.01] oculus dexter -- the right eye
+[oculus_sinister.n.01] oculus sinister -- the left eye
+[ocyurus.n.01] Ocyurus -- snappers
+[odalisque.n.01] odalisque -- a woman slave in a harem
+[oddity.n.01] oddity -- eccentricity that is not easily explained
+[oddity.n.02] oddity -- a strange attitude or habit
+[odd-leg_caliper.n.01] odd-leg caliper -- caliper having the points on its legs both curve in the same direction
+[oddness.n.01] oddness -- the parity of odd numbers (not divisible by two)
+[odd-pinnate_leaf.n.01] odd-pinnate leaf -- a pinnate leaf with a single leaflet at the apex
+[odds_and_ends.n.01] odds and ends -- a motley assortment of things
+[odds-maker.n.01] odds-maker -- someone who sets the betting odds based on calculations of the outcome of a contest (especially a horse race)
+[odds.n.01] odds -- the likelihood of a thing occurring rather than not occurring
+[odds.n.02] odds -- the ratio by which one better's wager is greater than that of another
+[odd-toed_ungulate.n.01] odd-toed ungulate -- placental mammals having hooves with an odd number of toes on each foot
+[ode.n.01] ode -- a lyric poem with complex stanza forms
+[oder.n.01] Oder -- a European river; flows into the Baltic Sea
+[odessa.n.01] Odessa -- a port city of south central Ukraine on an arm of the Black Sea Also a hyponym of: city.n.01.
+[odessa.n.02] Odessa -- a city in western Texas
+[odets.n.01] Odets -- United States playwright (1906-1963)
+[odin.n.01] Odin -- (Norse mythology) ruler of the Aesir; supreme god of war and poetry and knowledge and wisdom (for which he gave an eye) and husband of Frigg; identified with the Teutonic Wotan
+[odist.n.01] odist -- a poet who writes odes
+[odium.n.01] odium -- state of disgrace resulting from detestable behavior
+[odoacer.n.01] Odoacer -- Germanic barbarian leader who ended the Western Roman Empire in 476 and became the first barbarian ruler of Italy (434-493)
+[odobenidae.n.01] Odobenidae -- walruses and extinct forms
+[odobenus.n.01] Odobenus -- type genus of the Odobenidae: walruses
+[odocoileus.n.01] Odocoileus -- North American deer
+[odometer.n.01] odometer -- a meter that shows mileage traversed
+[odonata.n.01] Odonata -- dragonflies and damselflies
+[odonate.n.01] odonate -- large primitive predatory aquatic insect having two pairs of membranous wings
+[odontoceti.n.01] Odontoceti -- toothed whales: dolphins; porpoises; sperm whales; beaked whales
+[odontoglossum.n.01] odontoglossum -- any of numerous and diverse orchids of the genus Odontoglossum having racemes of few to many showy usually large flowers in many colors
+[odontoid_process.n.01] odontoid process -- a toothlike process at the back of 2nd vertebra of the neck
+[odontophorus.n.01] Odontophorus -- genus of Central and South American crested partridges resembling quails; sometimes placed in a distinct subfamily or isolated in a distinct family
+[odynophagia.n.01] odynophagia -- severe pain on swallowing due to a disorder of the esophagus
+[odysseus.n.01] Odysseus -- (Greek mythology) a famous mythical Greek hero; his return to Ithaca after the siege of Troy was described in the Odyssey
+[odyssey.n.01] odyssey -- a long wandering and eventful journey
+[odyssey.n.02] Odyssey -- a Greek epic poem (attributed to Homer) describing the journey of Odysseus after the fall of Troy
+[oecanthus.n.01] Oecanthus -- tree crickets
+[oedipus_complex.n.01] Oedipus complex -- a complex of males; desire to possess the mother sexually and to exclude the father; said to be a source of personality disorders if unresolved
+[oedipus.n.01] Oedipus -- (Greek mythology) a tragic king of Thebes who unknowingly killed his father Laius and married his mother Jocasta; the subject of the drama `Oedipus Rex' by Sophocles
+[oedogoniaceae.n.01] Oedogoniaceae -- filamentous green algae
+[oedogoniales.n.01] Oedogoniales -- simple or branched filamentous freshwater green algae
+[oedogonium.n.01] Oedogonium -- type genus of Oedogoniaceae; freshwater green algae having long unbranched filaments; usually free-floating when mature
+[oeil_de_boeuf.n.01] oeil de boeuf -- a circular or oval window; 17th or 18th century French architecture
+[oenanthe.n.01] Oenanthe -- poisonous herbs: water dropworts
+[oenanthe.n.02] Oenanthe -- wheatears
+[oenomel.n.01] oenomel -- wine mixed with honey
+[oenothera.n.01] Oenothera -- chiefly North American herbs with usually nocturnal flowers
+[oersted.n.01] oersted -- the magnetic field strength 1 cm from a unit magnetic pole
+[oersted.n.02] Oersted -- Danish physicist (1777-1851)
+[oestridae.n.01] Oestridae -- warble flies
+[oestrus.n.02] Oestrus -- type genus of the Oestridae: sheep botflies
+[oeuvre.n.01] oeuvre -- the total output of a writer or artist (or a substantial part of it)
+[offal.n.01] offal -- viscera and trimmings of a butchered animal often considered inedible by humans
+[off-broadway.n.01] off-Broadway -- low-budget theaters located outside the Broadway area in Manhattan
+[off-day.n.01] off-day -- a day when things go poorly
+[offenbach.n.01] Offenbach -- French composer of many operettas and an opera (1819-1880)
+[offense.n.04] offense -- the team that has the ball (or puck) and is trying to score
+[offense.n.05] offense -- the action of attacking an enemy
+[offensiveness.n.01] offensiveness -- the quality of being offensive
+[offerer.n.01] offerer -- someone who presents something to another for acceptance or rejection
+[offering.n.02] offering -- money contributed to a religious organization
+[offer.n.01] offer -- the verbal act of offering
+[offer.n.02] offer -- something offered (as a proposal or bid)
+[offer_price.n.01] offer price -- (stock market) the price at which a broker is willing to sell a certain security
+[offertory.n.01] offertory -- the offerings of the congregation at a religious service
+[offertory.n.02] Offertory -- the part of the Eucharist when bread and wine are offered to God
+[office-bearer.n.01] office-bearer -- the person who holds an office
+[office_boy.n.01] office boy -- a young man who is employed to do odd jobs in a business office
+[office_building.n.01] office building -- a building containing offices where work is done
+[office_furniture.n.01] office furniture -- furniture intended for use in an office
+[officeholder.n.01] officeholder -- someone who is appointed or elected to an office and who holds a position of trust Also a hyponym of: official.n.01.
+[office.n.01] office -- place of business where professional or clerical duties are performed
+[office.n.04] office -- (of a government or government official) holding an office means being in power
+[office.n.05] office -- professional or clerical workers in an office
+[office.n.06] office -- a religious rite or service prescribed by ecclesiastical authorities
+[office_of_inspector_general.n.01] Office of Inspector General -- the investigative arm of the Federal Trade Commission
+[office_of_intelligence_support.n.01] Office of Intelligence Support -- agency that oversees the intelligence relationships of the Treasury's offices and bureaus and provides a link between the Intelligence Community and officials responsible for international economic policy
+[office_of_management_and_budget.n.01] Office of Management and Budget -- the executive agency that advises the President on the federal budget
+[office_of_naval_intelligence.n.01] Office of Naval Intelligence -- the military intelligence agency that provides for the intelligence and counterintelligence and investigative and security requirements of the United States Navy
+[office_of_the_dead.n.01] Office of the Dead -- an office read or sung before a burial mass in the Roman Catholic Church
+[officer.n.04] officer -- a person authorized to serve in a position of authority on a vessel
+[officer's_mess.n.01] officer's mess -- a mess for the exclusive use of officers
+[officialese.n.01] officialese -- the style of writing characteristic of some government officials: formal and obscure
+[official_immunity.n.01] official immunity -- personal immunity accorded to a public official from liability to anyone injured by actions that are the consequence of exerting official authority
+[official.n.01] official -- a worker who holds or is invested with an office
+[official.n.02] official -- someone who administers the rules of a game or sport
+[officiant.n.01] officiant -- a clergyman who officiates at a religious ceremony or service
+[officiation.n.02] officiation -- the performance of a religious or ceremonial or public duty
+[offing.n.01] offing -- the near or foreseeable future
+[offing.n.02] offing -- the part of the sea that can be seen from the shore and is beyond the anchoring area
+[off-line_equipment.n.01] off-line equipment -- electronic equipment not in direct communication (or under the control of) the central processing unit
+[offprint.n.01] offprint -- a separately printed article that originally appeared in a larger publication
+[off-season.n.01] off-season -- the season when travel is least active and rates are lowest
+[offset_lithography.n.01] offset lithography -- offset printing by lithography
+[offset.n.05] offset -- a plate makes an inked impression on a rubber-blanketed cylinder, which in turn transfers it to the paper
+[offside.n.01] offside -- (sport) the mistake of occupying an illegal position on the playing field (in football, soccer, ice hockey, field hockey, etc.)
+[offspring.n.01] offspring -- the immediate descendants of a person
+[offspring.n.02] offspring -- something that comes into existence as a result
+[off_year.n.01] off year -- a year in which productivity is low or inferior
+[off_year.n.02] off year -- a year in which no major political elections are held
+[o'flaherty.n.01] O'Flaherty -- Irish writer of short stories (1896-1984)
+[ofo.n.01] Ofo -- a member of the Siouan people living in the Yazoo river valley in Mississippi
+[ofo.n.02] Ofo -- a Siouan language spoken by the Ofo
+[ogcocephalidae.n.01] Ogcocephalidae -- batfishes: sluggish bottom-dwelling spiny fishes
+[ogden.n.01] Ogden -- English psychologist who collaborated with I. A. Richards in designing Basic English (1889-1957) Also a hyponym of: semanticist.n.01.
+[ogden.n.02] Ogden -- a town in northern Utah settled by Mormons
+[ogee_arch.n.01] ogee arch -- a pointed arch having an S-shape on both sides
+[ogee.n.01] ogee -- a molding that (in section) has the shape of an S with the convex part above and the concave part below
+[oglala.n.01] Oglala -- a member of the Siouan people who constituted a division of the Teton Sioux and who formerly inhabited the Black Hills of western South Dakota
+[oglala.n.02] Oglala -- a Siouan language spoken by the Oglala
+[ogler.n.01] ogler -- a viewer who gives a flirtatious or lewd look at another person
+[ogre.n.02] ogre -- (folklore) a giant who likes to eat human beings
+[ogress.n.01] ogress -- (folklore) a female ogre
+[o'hara.n.01] O'Hara -- United States writer (1905-1970)
+[ohioan.n.01] Ohioan -- a native or resident of Ohio
+[ohio_buckeye.n.01] Ohio buckeye -- a buckeye with scaly grey bark that is found in the central United States
+[ohio_goldenrod.n.01] Ohio goldenrod -- a variety of goldenrod
+[ohio.n.01] Ohio -- a midwestern state in north central United States in the Great Lakes region
+[ohio.n.02] Ohio -- a river that is formed in western Pennsylvania and flows westward to become a tributary of the Mississippi River
+[ohio_state_university.n.01] Ohio State University -- a university in Columbus, Ohio
+[ohmage.n.01] ohmage -- the ohmic resistance of a conductor
+[ohmmeter.n.01] ohmmeter -- a meter for measuring electrical resistance in ohms
+[ohm.n.01] ohm -- a unit of electrical resistance equal to the resistance between two points on a conductor when a potential difference of one volt between them produces a current of one ampere
+[ohm.n.02] Ohm -- German physicist who formulated Ohm's law (1787-1854)
+[ohm's_law.n.01] Ohm's law -- electric current is directly proportional to voltage and inversely proportional to resistance; I = E/R
+[oil_beetle.n.01] oil beetle -- any of various beetles that exude an oily substance from the leg joints that deters enemies
+[oilbird.n.01] oilbird -- nocturnal fruit-eating bird of South America that has fatty young yielding an oil that is used instead of butter
+[oil_burner.n.01] oil burner -- a furnace that burns oil
+[oil_cake.n.01] oil cake -- mass of e.g. linseed or cottonseed or soybean from which the oil has been pressed; used as food for livestock
+[oilcan.n.01] oilcan -- a can with a long nozzle to apply oil to machinery
+[oil_cartel.n.01] oil cartel -- a cartel of companies or nations formed to control the production and distribution of oil
+[oil_change.n.01] oil change -- replacing dirty oil with clean
+[oilcloth.n.01] oilcloth -- cloth treated on one side with a drying oil or synthetic resin
+[oil_company.n.01] oil company -- a company that sells oil
+[oil_conservation.n.01] oil conservation -- the conservation of petroleum resources
+[oiler.n.01] oiler -- a worker who oils engines or machinery
+[oilfield.n.01] oilfield -- a region rich in petroleum deposits (especially one with producing oil wells)
+[oil_filter.n.01] oil filter -- a filter that removes impurities from the oil used to lubricate an internal-combustion engine
+[oilfish.n.01] oilfish -- very large deep-water snake mackerel
+[oil_future.n.01] oil future -- petroleum bought or sold at an agreed price for delivery at a specified future date
+[oil_gland.n.01] oil gland -- a gland that secretes oil
+[oil-hardened_steel.n.01] oil-hardened steel -- steel that is quenched in oil
+[oil_heater.n.01] oil heater -- heater that burns oil (as kerosine) for heating or cooking
+[oil-industry_analyst.n.01] oil-industry analyst -- an analyst of the oil industry
+[oil_industry.n.01] oil industry -- an industry that produces and delivers oil and oil products
+[oil_lamp.n.01] oil lamp -- a lamp that burns oil (as kerosine) for light
+[oilman.n.01] oilman -- a person who owns or operates oil wells
+[oilman.n.02] oilman -- a worker who produces or sells petroleum
+[oil_meal.n.01] oil meal -- ground oil cake
+[oil.n.01] oil -- a slippery or viscous liquid or liquefiable substance not miscible with water
+[oil.n.02] oil -- oil paint containing pigment that is used by an artist
+[oil_painter.n.01] oil painter -- a painter who uses oil paints
+[oil_painting.n.01] oil painting -- a picture painted with oil paints
+[oil_painting.n.02] oil painting -- the art or method of painting with oil paints
+[oil_paint.n.01] oil paint -- paint in which a drying oil is the vehicle
+[oil_palm.n.01] oil palm -- pinnate-leaved palms of the genus Elaeis having dense clusters of crowded flowers and bright red fruit and yielding high quality palm oils
+[oilpaper.n.01] oilpaper -- paper that has been made translucent and waterproof by soaking in oil
+[oil_pipeline.n.01] oil pipeline -- a pipeline used to transport oil
+[oil_pressure.n.01] oil pressure -- pressure that keeps oil on the moving parts of an internal-combustion engine
+[oil_pump.n.01] oil pump -- a pump that keeps a supply of oil on moving parts
+[oil_refinery.n.01] oil refinery -- a refinery for petroleum
+[oilseed.n.01] oilseed -- any of several seeds that yield oil
+[oil_shale.n.01] oil shale -- shale from which oil can be obtained by heating
+[oilskin.n.01] oilskin -- a macintosh made from cotton fabric treated with oil and pigment to make it waterproof
+[oil_slick.n.01] oil slick -- a thin film of oil floating on top of water (especially crude oil spilled from a ship)
+[oil_stain.n.01] oil stain -- a stain produced by oil
+[oilstone.n.01] oilstone -- a whetstone for use with oil
+[oil_tanker.n.01] oil tanker -- a cargo ship designed to carry crude oil in bulk
+[oil_tycoon.n.01] oil tycoon -- a powerful person in the oil business
+[oil-water_interface.n.01] oil-water interface -- an interface forming the boundary between the non-miscible liquids oil and water
+[oil_well.n.01] oil well -- a well that yields or has yielded oil
+[ointment.n.01] ointment -- semisolid preparation (usually containing a medicine) applied externally as a remedy or for soothing an irritation
+[oireachtas.n.01] Oireachtas -- the parliament of the Irish Republic
+[ojibwa.n.01] Ojibwa -- a member of an Algonquian people who lived west of Lake Superior Also a hyponym of: algonquian.n.01.
+[ojibwa.n.02] Ojibwa -- the Algonquian language spoken by the Ojibwa
+[ojos_del_salado.n.01] Ojos del Salado -- a mountain in the Andes on the border between Argentina and Chile (22,572 feet high)
+[oka.n.01] oka -- a Turkish unit of weight equal to about 2.75 pounds
+[oka.n.02] oka -- a Turkish liquid unit equal to 1.3 pints
+[okapia.n.01] Okapia -- okapis
+[okapi.n.01] okapi -- similar to the giraffe but smaller with much shorter neck and stripe on the legs
+[okeechobee.n.01] Okeechobee -- a lake in southeast Florida to the north of the Everglades
+[o'keeffe.n.01] O'Keeffe -- United States painter (1887-1986)
+[okefenokee_swamp.n.01] Okefenokee Swamp -- a large swampy area of northeast Florida and southeast Georgia
+[oken.n.01] Oken -- German naturalist whose speculations that plants and animals are made up of tiny living `infusoria' led to the cell theory (1779-1851)
+[okinawa.n.01] Okinawa -- the largest island of the central Ryukyu Islands
+[okinawa.n.02] Okinawa -- a campaign in the closing days of World War II in the Pacific (April to June 1945); in savage close-quarter fighting United States marines and regular army troops took the island from the Japanese; considered the greatest victory of the Pacific campaign for the Americans
+[oklahoma_city.n.01] Oklahoma City -- capital and largest city of Oklahoma; the economy is based on oil and livestock
+[oklahoma.n.01] Oklahoma -- a state in south central United States
+[oklahoman.n.01] Oklahoman -- a native or resident of Oklahoma
+[o.k..n.01] O.K. -- an endorsement
+[okra.n.01] okra -- long green edible beaked pods of the okra plant
+[okra.n.02] okra -- tall coarse annual of Old World tropics widely cultivated in southern United States and West Indies for its long mucilaginous green pods used as basis for soups and stews; sometimes placed in genus Hibiscus
+[oktoberfest.n.01] Oktoberfest -- a strong lager made originally in Germany for the Oktoberfest celebration; sweet and copper-colored
+[oktoberfest.n.02] Oktoberfest -- an autumn festival that involves merrymaking and drinking beer
+[olaf_ii.n.01] Olaf II -- King and patron saint of Norway (995-1030) Also a hyponym of: saint.n.01.
+[ola.n.01] ola -- leaf or strip from a leaf of the talipot palm used in India for writing paper
+[old-age_insurance.n.01] old-age insurance -- insurance paid to the elderly
+[old_age.n.01] old age -- a late time of life
+[old-age_pensioner.n.01] old-age pensioner -- an old person who receives an old-age pension
+[old-age_pension.n.01] old-age pension -- a monthly payment made to someone who is retired from work
+[old_bailey.n.01] Old Bailey -- the central criminal court in London
+[old_boy.n.01] old boy -- a familiar term of address for a man
+[old_boy.n.02] old boy -- a vivacious elderly man
+[old_boy.n.03] old boy -- a former male pupil of a school
+[old_boy_network.n.01] old boy network -- an exclusive informal network linking members of a social class or profession or organization in order to provide connections and information and favors (especially in business or politics)
+[old_catholic_church.n.01] Old Catholic Church -- Catholic churches that broke away from the Roman Catholic Church in the 18th century
+[old_catholic.n.01] Old Catholic -- a member of the church formed in the 19th century by German Catholics who refused to accept the infallibility of the Pope
+[old_church_slavonic.n.01] Old Church Slavonic -- the Slavic language into which the Bible was translated in the 9th century
+[old_country.n.01] old country -- the country of origin of an immigrant
+[oldenburg.n.01] Oldenburg -- United States sculptor (born in Sweden); a leader of the pop art movement who was noted for giant sculptures of common objects (born in 1929)
+[old_english.n.01] Old English -- English prior to about 1100
+[old_english_sheepdog.n.01] Old English sheepdog -- large sheepdog with a profuse shaggy bluish-grey-and-white coat and short tail; believed to trace back to the Roman occupation of Britain
+[old_faithful.n.01] Old Faithful -- a geyser in Yellowstone National Park that erupts for about 4 minutes about every 65 minutes
+[old_fashioned.n.01] old fashioned -- a cocktail made of whiskey and bitters and sugar with fruit slices
+[old-fashionedness.n.01] old-fashionedness -- the property of being no longer fashionable
+[oldfield.n.01] Oldfield -- United States race driver who was the first to drive faster than a mile a minute (1878-1946)
+[old_french.n.01] Old French -- the earliest form of the French language; 9th to 15th century
+[old_frisian.n.01] Old Frisian -- the Frisian language until the 16th century; the Germanic language of ancient Frisia
+[old_gold.n.01] old gold -- a dark yellow
+[old_growth.n.01] old growth -- forest or woodland having a mature or overly mature ecosystem more or less uninfluenced by human activity
+[old_guard.n.01] old guard -- a faction that is unwilling to accept new ideas
+[old_high_german.n.01] Old High German -- High German prior to 1200
+[old_icelandic.n.01] Old Icelandic -- the extinct dialect of Old Norse that was spoken in Iceland up until about 1600
+[oldie.n.01] oldie -- a song that was formerly popular
+[old_irish.n.01] Old Irish -- Irish Gaelic up to about 1100
+[old_italian.n.01] Old Italian -- the Italian language up to the middle of the 16th century
+[old_lady.n.01] old lady -- your own wife
+[old_latin.n.01] Old Latin -- the oldest recorded Latin (dating back at early as the 6th century B.C.)
+[old_maid.n.04] old maid -- the loser in a game of old maid
+[old_maid.n.05] old maid -- a card game using a pack of cards from which one queen has been removed; players match cards and the player holding the unmatched queen at the end of the game is the loser (or `old maid')
+[old_man.n.01] old man -- a man who is very old Also a hyponym of: oldster.n.01.
+[old_man.n.03] old man -- an informal term for your father Also a hyponym of: dysphemism.n.01.
+[old_man.n.05] old man -- (slang) boss
+[old_man_of_the_mountain.n.01] old man of the mountain -- whitish hairy plant with featherlike leaves and a few stout stems each bearing an especially handsome solitary large yellow flower head; mountainous regions north central United States
+[old-man-of-the-woods.n.01] old-man-of-the-woods -- edible mild-tasting mushroom found in coniferous woodlands of eastern North America
+[old_master.n.01] old master -- a great European painter prior to 19th century Also a hyponym of: maestro.n.01.
+[old.n.01] old -- past times (especially in the phrase `in days of old')
+[oldness.n.01] oldness -- the opposite of youngness
+[oldness.n.02] oldness -- the quality of being old; the opposite of newness
+[old_norse.n.01] Old Norse -- the extinct Germanic language of medieval Scandinavia and Iceland from about to 700 to 1350
+[old_prussian.n.01] Old Prussian -- a dead language of the (non-German) Prussians (extinct after 1700); thought to belong to the Baltic branch of Indo-European
+[old_rose.n.01] old rose -- a greyish-pink color
+[old_saxon.n.01] Old Saxon -- Low German prior to 1200
+[old_school.n.01] old school -- a class of people favoring traditional ideas
+[old_school_tie.n.01] old school tie -- necktie indicating the school the wearer attended
+[old_south.n.01] Old South -- the South of the United States before the American Civil War
+[old_squaw.n.01] old squaw -- a common long-tailed sea duck of the northern parts of the United States
+[oldster.n.01] oldster -- an elderly person
+[old_style.n.01] old style -- a typeface (based on an 18th century design) distinguished by irregularity and slanted ascender serifs and little contrast between light and heavy strokes
+[old_testament.n.01] Old Testament -- the collection of books comprising the sacred scripture of the Hebrews and recording their history as the chosen people; the first half of the Christian Bible
+[old-timer.n.02] old-timer -- an elderly man
+[olduvai_gorge.n.01] Olduvai Gorge -- a gorge in northeastern Tanzania where anthropologists have found some of the earliest human remains
+[old_wives'_tale.n.01] old wives' tale -- a bit of lore passed on by word of mouth
+[old_woman.n.01] old woman -- a woman who is old Also a hyponym of: woman.n.01.
+[old_world_beaver.n.01] Old World beaver -- a European variety of beaver
+[old_world_buffalo.n.01] Old World buffalo -- any of several Old World animals resembling oxen including, e.g., water buffalo; Cape buffalo
+[old_world_chat.n.01] Old World chat -- songbirds having a chattering call
+[old_world_coot.n.01] Old World coot -- a coot found in Eurasia
+[old_world_crayfish.n.01] Old World crayfish -- small crayfish of Europe and Asia and western North America
+[old_world_flycatcher.n.01] Old World flycatcher -- any of a large group of small songbirds that feed on insects taken on the wing
+[old_world_hop_hornbeam.n.01] Old World hop hornbeam -- medium-sized hop hornbeam of southern Europe and Asia Minor
+[old_world_jay.n.01] Old World jay -- a European jay
+[old_world_least_weasel.n.01] Old World least weasel -- of Europe
+[old_world_monkey.n.01] Old World monkey -- of Africa or Arabia or Asia; having nonprehensile tails and nostrils close together
+[old_world.n.01] Old World -- the regions of the world that were known to Europeans before the discovery of the Americas
+[old_world_oriole.n.01] Old World oriole -- mostly tropical songbird; the male is usually bright orange and black
+[old_world_porcupine.n.01] Old World porcupine -- terrestrial porcupine
+[old_world_quail.n.01] Old World quail -- small game bird with a rounded body and small tail
+[old_world_scops_owl.n.01] Old World scops owl -- European scops owl
+[old_world_vulture.n.01] Old World vulture -- any of several large vultures of Africa and Eurasia
+[old_world_warbler.n.01] Old World warbler -- small active brownish or greyish Old World birds
+[old_world_white_pelican.n.01] Old world white pelican -- similar to American white pelican
+[old_world_yew.n.01] Old World yew -- predominant yew in Europe; extraordinarily long-lived and slow growing; one of the oldest species in the world
+[oleaceae.n.01] Oleaceae -- trees and shrubs having berries or drupes or capsules as fruits; sometimes placed in the order Oleales: olive; ash; jasmine; privet; lilac
+[oleales.n.01] Oleales -- coextensive with the family Oleaceae; in some classifications included in the order Gentianales
+[olea.n.01] Olea -- evergreen trees and shrubs having oily one-seeded fruits
+[oleander_fern.n.01] oleander fern -- tropical fern having leathery fronds resembling oleander; found from Asia to Polynesia
+[oleander.n.01] oleander -- an ornamental but poisonous flowering shrub having narrow evergreen leaves and clusters of fragrant white to pink or red flowers: native to East Indies but widely cultivated in warm regions
+[oleandraceae.n.01] Oleandraceae -- one of a number of families into which Polypodiaceae has been subdivided in some classification systems
+[oleandra.n.01] Oleandra -- or family Polypodiaceae: tropical epiphytic or terrestrial ferns
+[olearia.n.01] Olearia -- large genus of Australian evergreen shrubs or small trees with large daisylike flowers
+[oleaster.n.01] oleaster -- any of several shrubs of the genus Elaeagnus having silver-white twigs and yellow flowers followed by olivelike fruits
+[olecranon.n.01] olecranon -- process of the ulna that forms the outer bump of the elbow and fits into the fossa of the humerus when the arm is extended
+[oleic_acid.n.01] oleic acid -- a colorless oily liquid occurring as a glyceride; it is the major fatty acid in olive oil and canola oil; used in making soap and cosmetics and ointments and lubricating oils
+[oleo_oil.n.01] oleo oil -- obtained from beef fat; used in making margarine and soap and in lubrication
+[oleoresin_capiscum.n.01] oleoresin capiscum -- an oleoresin extracted from the capsicum pepper plant
+[oleoresin.n.01] oleoresin -- a naturally occurring mixture of a resin and an essential oil; obtained from certain plants
+[olfactory_bulb.n.01] olfactory bulb -- one of two enlargements at the terminus of the olfactory nerve at the base of the brain just above the nasal cavities
+[olfactory_nerve.n.01] olfactory nerve -- a collective term for numerous olfactory filaments in the nasal mucosa
+[olfactory_property.n.01] olfactory property -- any property detected by the olfactory system
+[olfersia.n.01] Olfersia -- genus of fern having only one species
+[oligarch.n.01] oligarch -- one of the rulers in an oligarchy
+[oligarchy.n.01] oligarchy -- a political system governed by a few people
+[oligocene.n.01] Oligocene -- from 40 million to 25 million years ago; appearance of sabertoothed cats
+[oligochaeta.n.01] Oligochaeta -- earthworms
+[oligochaete.n.01] oligochaete -- hermaphroditic terrestrial and aquatic annelids having bristles borne singly along the length of the body
+[oligodactyly.n.01] oligodactyly -- congenital condition in which some fingers or toes are missing
+[oligodendrocyte.n.01] oligodendrocyte -- a cell of the oligodendroglia
+[oligodendroglia.n.01] oligodendroglia -- tissue consisting of glial cells with sheetlike processes that form the myelin sheath of nerve fibers
+[oligodontia.n.01] oligodontia -- congenital condition in which some of the teeth are missing
+[oligomenorrhea.n.01] oligomenorrhea -- abnormally light or infrequent menstruation
+[oligoplites.n.01] Oligoplites -- leatherjackets
+[oligopoly.n.01] oligopoly -- (economics) a market in which control over the supply of a commodity is in the hands of a small number of producers and each one can influence prices and affect competitors
+[oligoporus_leucospongia.n.01] Oligoporus leucospongia -- a pore fungus with a whitish cottony soft cap found on conifer logs in forests at high elevation in the western United States and adjacent Canada
+[oligoporus.n.01] Oligoporus -- a genus of fungi belonging to the family Polyporaceae
+[oligosaccharide.n.01] oligosaccharide -- any of the carbohydrates that yield only a few monosaccharide molecules on complete hydrolysis
+[oligospermia.n.01] oligospermia -- insufficient spermatozoa in the semen
+[oliguria.n.01] oliguria -- abnormally small production of urine; can be a symptom of kidney disease or obstruction of the urinary tract or edema or an imbalance of fluids and electrolytes in the body
+[oliguria.n.02] oliguria -- production of an abnormally small amount of urine
+[olive_brown.n.01] olive brown -- a shade of brown tinged with green
+[olive_drab.n.01] olive drab -- a dull greyish to yellowish or light olive brown
+[olive_drab.n.02] olive drab -- military uniform of the United States Army; made from cloth of a dull olive color
+[olive_drab.n.03] olive drab -- a cloth of an olive-brown color used for military uniforms
+[olive_green.n.01] olive green -- a color that is lighter and greener than olive
+[olive.n.01] olive -- small ovoid fruit of the European olive tree; important food and source of oil
+[olive.n.02] olive -- evergreen tree cultivated in the Mediterranean region since antiquity and now elsewhere; has edible shiny black fruits
+[olive.n.03] olive -- hard yellow often variegated wood of an olive tree; used in cabinetwork
+[olive.n.04] olive -- one-seeded fruit of the European olive tree usually pickled and used as a relish Also a hyponym of: relish.n.02.
+[olive.n.05] olive -- a yellow-green color of low brightness and saturation
+[olivenite.n.01] olivenite -- rare green to black mineral consisting of hydrated copper arsenate that is found in copper deposits
+[olive_oil.n.01] olive oil -- oil from olives
+[oliver.n.01] Oliver -- United States jazz musician who influenced the style of Louis Armstrong (1885-1938)
+[olive-tree_agaric.n.01] olive-tree agaric -- red luminescent mushroom of Europe
+[olive_tree.n.01] olive tree -- a tree of the genus Olea cultivated for its fruit
+[olivier.n.01] Olivier -- English actor best know for his Shakespearean roles (1907-1989)
+[olivine.n.01] olivine -- a mineral consisting of magnesium iron silicate; a source of magnesium
+[olla_podrida.n.01] olla podrida -- Spanish version of burgoo
+[ollari.n.01] Ollari -- a Dravidian language spoken in south central India
+[olmec.n.01] Olmec -- a member of an early Mesoamerican civilization centered around Veracruz that flourished between 1300 and 400 BC
+[olm.n.01] olm -- European aquatic salamander with permanent external gills that lives in caves
+[olmsted.n.01] Olmsted -- United States landscape architect primarily responsible for the design of Central Park in New York City (1822-1903)
+[ology.n.01] ology -- an informal word (abstracted from words with this ending) for some unidentified branch of knowledge
+[olympiad.n.01] Olympiad -- one of the four-year intervals between Olympic Games; used to reckon time in ancient Greece for twelve centuries beginning in 776 BC
+[olympia.n.01] Olympia -- capital of the state of Washington; located in western Washington on Puget Sound
+[olympia.n.02] Olympia -- a plain in Greece in the northwestern Peloponnese; the chief sanctuary of Zeus and the site of the original Olympian Games
+[olympian_games.n.01] Olympian Games -- the ancient Panhellenic celebration at Olympia in honor of Zeus; held every 4 years beginning in 776 BC
+[olympian.n.01] Olympian -- an athlete who participates in the Olympic games
+[olympian.n.02] Olympian -- a classical Greek god after the overthrow of the Titans
+[olympian_zeus.n.01] Olympian Zeus -- a seated statue of the supreme god of ancient Greek mythology created for the temple at Olympia; the statue was 40 feet tall and rested on a base that was 12 feet high
+[olympic_games.n.01] Olympic Games -- the modern revival of the ancient games held once every 4 years in a selected country
+[olympic_national_park.n.01] Olympic National Park -- a national park in Washington having rain forests of giant evergreens
+[olympic_salamander.n.01] olympic salamander -- small large-eyed semiaquatic salamander of the United States Northwest
+[olympus.n.01] Olympus -- a mountain peak in northeast Greece near the Aegean coast; believed by ancient Greeks to be the dwelling place of the gods (9,570 feet high)
+[omaha.n.01] Omaha -- a member of the Siouan people formerly living in the Missouri river valley in northeastern Nebraska
+[omaha.n.02] Omaha -- largest city in Nebraska; located in eastern Nebraska on the Missouri river; a major transportation center of the Midwest
+[omaha.n.03] Omaha -- the Dhegiha dialect spoken by the Omaha
+[omaha.n.04] Omaha -- thoroughbred that won the triple crown in 1935
+[omani_monetary_unit.n.01] Omani monetary unit -- monetary unit in Oman
+[omani.n.01] Omani -- a native or inhabitant of Oman
+[oman.n.01] Oman -- a strategically located monarchy on the southern and eastern coasts of the Arabian Peninsula; the economy is dominated by oil
+[omar_khayyam.n.01] Omar Khayyam -- Persian poet and mathematician and astronomer whose poetry was popularized by Edward Fitzgerald's translation (1050-1123) Also a hyponym of: poet.n.01, mathematician.n.01.
+[ombudsman.n.01] ombudsman -- a government appointee who investigates complaints by private persons against the government
+[ombu.n.01] ombu -- fast-growing herbaceous evergreen tree of South America having a broad trunk with high water content and dark green oval leaves
+[omdurman.n.01] Omdurman -- a city of Sudan; located in the central Sudan on the White Nile opposite Khartoum
+[omdurman.n.02] Omdurman -- a battle (1898) in which an English and Egyptian army under Kitchener defeated the Sudanese
+[omega-3_fatty_acid.n.01] omega-3 fatty acid -- a polyunsaturated fatty acid whose carbon chain has its first double valence bond three carbons from the beginning
+[omega-6_fatty_acid.n.01] omega-6 fatty acid -- a polyunsaturated fatty acid whose carbon chain has its first double valence bond six carbons from the beginning
+[omega_centauri.n.01] Omega Centauri -- a global cluster in the constellation Centaurus
+[omega.n.01] omega -- the ending of a series or sequence; --Revelation
+[omega.n.02] omega -- the last (24th) letter of the Greek alphabet
+[omelet.n.01] omelet -- beaten eggs or an egg mixture cooked until just set; may be folded around e.g. ham or cheese or jelly
+[omelet_pan.n.01] omelet pan -- pan for cooking omelets
+[omen.n.01] omen -- a sign of something about to happen
+[omentum.n.01] omentum -- a fold of peritoneum supporting the viscera
+[omeprazole.n.01] omeprazole -- antacid (trade name Prilosec) that suppresses acid secretion in the stomach
+[omerta.n.01] omerta -- a code of silence practiced by the Mafia; a refusal to give evidence to the police about criminal activities
+[omicron.n.01] omicron -- the 15th letter of the Greek alphabet
+[omission.n.01] omission -- a mistake resulting from neglect
+[omission.n.02] omission -- something that has been omitted
+[omission.n.03] omission -- any process whereby sounds or words are left out of spoken words or phrases
+[omission.n.04] omission -- neglecting to do something; leaving out or passing over something
+[omiya.n.01] Omiya -- a city of east central Honshu; a suburb of Tokyo
+[ommastrephes.n.01] ommastrephes -- extremely active cylindrical squid with short strong arms and large rhombic terminal fins
+[ommatidium.n.01] ommatidium -- any of the numerous small cone-shaped eyes that make up the compound eyes of some arthropods
+[omnibus.n.01] omnibus -- an anthology of articles on a related subject or an anthology of the works of a single author
+[omnidirectional_antenna.n.01] omnidirectional antenna -- an antenna that sends or receives signals equally in all directions
+[omnipotence.n.01] omnipotence -- the state of being omnipotent; having unlimited power
+[omnirange.n.01] omnirange -- a navigational system consisting of a network of radio beacons that provide aircraft with information about exact position and bearing
+[omniscience.n.01] omniscience -- the state of being omniscient; having infinite knowledge
+[omnivore.n.01] omnivore -- a person who eats all kinds of foods
+[omnivore.n.02] omnivore -- an animal that feeds on both animal and vegetable substances
+[omomyid.n.01] Omomyid -- extinct tiny nocturnal lower primates that fed on fruit and insects; abundant in North America and Europe 30 to 50 million years ago; probably gave rise to the tarsiers; some authorities consider them ancestral to anthropoids but others consider them only cousins
+[omophagia.n.01] omophagia -- the eating of raw food
+[omotic.n.01] Omotic -- a group of related languages spoken in a valley of southern Ethiopia; closely related to Cushitic languages
+[omphaloskepsis.n.01] omphaloskepsis -- literally, the contemplation of one's navel, which is an idiom usually meaning complacent self-absorption
+[omphalotus.n.01] Omphalotus -- a genus of fungi with a depressed disc in the cap
+[omsk.n.01] Omsk -- a city in the Asian part of Russia
+[o.n.02] O -- the 15th letter of the Roman alphabet
+[o.n.03] O -- the blood group whose red cells carry neither the A nor B antigens
+[onager.n.02] onager -- Asiatic wild ass
+[onagraceae.n.01] Onagraceae -- a large and widely distributed family of plants of the order Myrtales
+[once-over.n.01] once-over -- a swift cursory examination or inspection
+[onchocerciasis.n.01] onchocerciasis -- infestation with slender threadlike roundworms (filaria) deposited under the skin by the bite of black fleas; when the eyes are involved it can result in blindness; common in Africa and tropical America
+[oncidium.n.01] oncidium -- any orchid of the genus Oncidium: characterized by slender branching sprays of small yellow and brown flowers; often grown as houseplants
+[oncogene.n.01] oncogene -- a gene that disposes normal cells to change into cancerous tumor cells
+[oncologist.n.01] oncologist -- a specialist in oncology
+[oncology.n.01] oncology -- the branch of medicine concerned with the study and treatment of tumors
+[oncorhynchus.n.01] Oncorhynchus -- Pacific salmon including sockeye salmon; chinook salmon; chum salmon; coho salmon
+[ondaatje.n.01] Ondaatje -- Canadian writer (born in Sri Lanka in 1943)
+[ondatra.n.01] Ondatra -- muskrats
+[one-and-one.n.01] one-and-one -- a foul shot that must be made in order to earn the right to a second foul shot
+[one-billionth.n.01] one-billionth -- one part in a billion equal parts
+[one-dimensionality.n.01] one-dimensionality -- the property of having one dimension
+[one-dimensional_language.n.01] one-dimensional language -- a programming language whose expressions are represented by strings of characters
+[one-eighth.n.01] one-eighth -- one part in eight equal parts
+[one-fifth.n.01] one-fifth -- one part in five equal parts
+[one-flowered_wintergreen.n.01] one-flowered wintergreen -- delicate evergreen dwarf herb of north temperate regions having a solitary white terminal flower; sometimes placed in genus Pyrola
+[one-fourth.n.01] one-fourth -- one of four equal parts
+[one-half.n.01] one-half -- one of two equal parts of a divisible whole
+[one-hitter.n.01] one-hitter -- a game in which a pitcher allows the opposing team only one hit
+[one-hundred-millionth.n.01] one-hundred-millionth -- one part in a hundred million equal parts
+[one-hundredth.n.01] one-hundredth -- one part in a hundred equal parts
+[one-hundred-thousandth.n.01] one-hundred-thousandth -- one part in a hundred thousand equal parts
+[oneida.n.01] Oneida -- a member of the Iroquoian people formerly living east of Lake Ontario
+[oneida.n.02] Oneida -- the Iroquoian language spoken by the Oneida
+[o'neill.n.01] O'Neill -- United States playwright (1888-1953)
+[oneiromancer.n.01] oneiromancer -- someone who divines through the interpretation of dreams
+[oneiromancy.n.01] oneiromancy -- divination through the interpretation of dreams
+[one-liner.n.01] one-liner -- a one-line joke
+[one-millionth.n.01] one-millionth -- one part in a million equal parts
+[one.n.01] one -- the smallest whole number or a numeral representing this number
+[one.n.02] one -- a single person or thing
+[oneness.n.01] oneness -- the quality of being united into one
+[one-night_stand.n.01] one-night stand -- a brief sexual encounter lasting only for a single night
+[one-night_stand.n.02] one-night stand -- a performance in one place on one night only
+[one-ninth.n.01] one-ninth -- one part in nine equal parts
+[one-off.n.01] one-off -- a happening that occurs only once and is not repeated
+[one_of_the_boys.n.01] one of the boys -- a man who has been socially accepted into a group of other men
+[one-quadrillionth.n.01] one-quadrillionth -- one part in a quadrillion equal parts
+[one-quintillionth.n.01] one-quintillionth -- one part in a quintillion equal parts
+[one-seventh.n.01] one-seventh -- one part in seven equal parts
+[one-sixteenth.n.01] one-sixteenth -- one part in sixteen equal parts
+[one-sixth.n.01] one-sixth -- one part in six equal parts
+[one-sixtieth.n.01] one-sixtieth -- one part in sixty equal parts
+[one-sixty-fourth.n.01] one-sixty-fourth -- one part in sixty-four equal parts
+[one-spot.n.01] one-spot -- a domino or die whose upward face shows one pip Also a hyponym of: die.n.01.
+[one-step.n.01] one-step -- an early ballroom dance; precursor to the fox-trot
+[one-tenth.n.01] one-tenth -- a tenth part; one part in ten equal parts
+[one-ten-thousandth.n.01] one-ten-thousandth -- one part in ten thousand equal parts
+[one-third.n.01] one-third -- one of three equal parts of a divisible whole
+[one-thirty-second.n.01] one-thirty-second -- one part in thirty-two equal parts
+[one-thousandth.n.01] one-thousandth -- one part in a thousand equal parts
+[one-trillionth.n.01] one-trillionth -- one part in a trillion equal parts
+[one-twelfth.n.01] one-twelfth -- one part in twelve equal parts
+[one-upmanship.n.01] one-upmanship -- the practice of keeping one jump ahead of a friend or competitor
+[one-way_light_time.n.01] one-way light time -- the elapsed time it takes for light (or radio signals) to travel between the Earth and a celestial object
+[one-way_street.n.01] one-way street -- unilateral interaction
+[one-way_street.n.02] one-way street -- a street on which vehicular traffic is allowed to move in only one direction
+[onion_bagel.n.01] onion bagel -- bagel flavored with onion
+[onion_bread.n.01] onion bread -- bread containing finely minced onions
+[onion_butter.n.01] onion butter -- butter blended with minced onion
+[onion_dome.n.01] onion dome -- a dome that is shaped like a bulb; characteristic of Russian and Byzantine church architecture
+[onion_mildew.n.01] onion mildew -- fungus causing a downy mildew on onions
+[onion.n.01] onion -- the bulb of an onion plant
+[onion.n.02] onion -- bulbous plant having hollow leaves cultivated worldwide for its rounded edible bulb
+[onion.n.03] onion -- an aromatic flavorful vegetable
+[onion_roll.n.01] onion roll -- yeast-raised roll flavored with onion
+[onion_salt.n.01] onion salt -- ground dried onion and salt
+[onionskin.n.01] onionskin -- a thin strong lightweight translucent paper used especially for making carbon copies
+[onion_smut.n.01] onion smut -- smut fungus causing blackish blisters on scales and leaves of onions; especially destructive to seedlings
+[onion_stem.n.01] onion stem -- a white agaric that tends to cluster and has a club-shaped base
+[onion_thrips.n.01] onion thrips -- injurious to onion plants and sometimes tobacco
+[onion_yellow_dwarf.n.01] onion yellow dwarf -- the yellow dwarf disease of onion plants
+[onion_yellow-dwarf_virus.n.01] onion yellow-dwarf virus -- the virus that produces stunting and yellowing of the leaves of onion plants
+[oniscidae.n.01] Oniscidae -- a family of Isopoda
+[oniscus.n.01] Oniscus -- type genus of the Oniscidae; woodlice that cannot roll into a ball
+[on-license.n.01] on-license -- a license to sell liquor for consumption on the premises
+[onlooker.n.01] onlooker -- someone who looks on
+[onobrychis.n.01] Onobrychis -- genus of Old World herbs having pinnate leaves and pink or whites racemose flowers followed by flat unjointed pods
+[onoclea.n.01] Onoclea -- one species: sensitive fern; in some classifications included in Polypodiaceae
+[onomancer.n.01] onomancer -- one who practices onomancy
+[onomancy.n.01] onomancy -- divination by the letters of a name
+[onomasticon.n.01] onomasticon -- a list of proper nouns naming persons or places
+[onomastics.n.01] onomastics -- the branch of lexicology that studies the forms and origins of proper names
+[onomatomania.n.01] onomatomania -- obsession with a particular word which the person uses repeatedly or which intrudes into consciousness
+[onomatopoeia.n.01] onomatopoeia -- using words that imitate the sound they denote
+[ono.n.01] Ono -- United States musician (born in Japan) who married John Lennon and collaborated with him on recordings (born in 1933)
+[onondaga.n.01] Onondaga -- a member of the Iroquoian people formerly living between Lake Champlain and the Saint Lawrence River
+[onondaga.n.02] Onondaga -- the Iroquoian language spoken by the Onondaga
+[ononis.n.01] Ononis -- genus of European subshrubs or herbs having pink or purple or yellow solitary or clustered flowers: restharrow
+[onopordum.n.01] Onopordum -- a genus of Eurasian herbs of the family Compositae with prickly foliage and large purplish flowers
+[onosmodium.n.01] Onosmodium -- a genus of North American perennial herbs of the family Boraginaceae
+[onrush.n.02] onrush -- a forceful forward rush or flow
+[onsager.n.01] Onsager -- United States chemist (born in Norway) noted for his work in thermodynamics (1903-1976)
+[onset.n.01] onset -- the beginning or early stages
+[onslaught.n.01] onslaught -- a sudden and severe onset of trouble
+[ontario.n.02] Ontario -- a prosperous and industrialized province in central Canada
+[on_the_road.n.01] on the road -- travelling about
+[ontology.n.01] ontology -- (computer science) a rigorous and exhaustive organization of some knowledge domain that is usually hierarchical and contains all the relevant entities and their relations
+[ontology.n.02] ontology -- the metaphysical study of the nature of being and existence
+[onychium.n.01] Onychium -- small terrestrial ferns of Old World tropics and subtropics: clawed ferns; sometimes placed in family Cryptogrammataceae
+[onychogalea.n.01] Onychogalea -- a genus of Macropodidae
+[onycholysis.n.01] onycholysis -- separation of a nail from its normal attachment to the nail bed
+[onychomys.n.01] Onychomys -- grasshopper mice
+[onychophora.n.01] Onychophora -- enigmatic small elongated wormlike terrestrial invertebrates of damp dark habitats in warm regions; distinct from the phylum Annelida; resemble slugs with legs and are sometimes described as the missing link between arthropods and annelids
+[onychophoran.n.01] onychophoran -- any of numerous velvety-skinned wormlike carnivorous animals common in tropical forests having characteristics of both arthropods and annelid worms
+[onychosis.n.01] onychosis -- any disease or disorder of the nails
+[onyx.n.01] onyx -- a chalcedony with alternating black and white bands; used in making cameos
+[oocyte.n.01] oocyte -- a female gametocyte that develops into an ovum after two meiotic divisions
+[oogenesis.n.01] oogenesis -- development of ova
+[oology.n.01] oology -- the branch of zoology that studies eggs (especially birds' eggs and their size, shape, coloration, and number)
+[oolong.n.01] oolong -- Chinese tea leaves that have been partially fermented before being dried
+[oomycetes.n.01] Oomycetes -- nonphotosynthetic fungi that resemble algae and that reproduce by forming oospores; sometimes classified as protoctists
+[oophorectomy.n.01] oophorectomy -- surgical removal of one of both ovaries
+[oophoritis.n.01] oophoritis -- inflammation of one or both ovaries
+[oophorosalpingectomy.n.01] oophorosalpingectomy -- surgical removal of one or both ovaries and the corresponding Fallopian tubes
+[oort_cloud.n.01] Oort cloud -- (astronomy) a hypothetical huge collection of comets orbiting the sun far beyond the orbit of Pluto; perturbations (as by other stars) can upset a comet's orbit and may send it tumbling toward the sun
+[oort.n.01] Oort -- Dutch astronomer who proved that the galaxy is rotating and proposed the existence of the Oort cloud (1900-1992)
+[oosphere.n.01] oosphere -- a gamete; used especially of lower plants
+[oospore.n.01] oospore -- a thick-walled sexual spore that develops from a fertilized oosphere in some algae and fungi
+[ootid.n.01] ootid -- mature ovum after penetration by sperm but before the formation of a zygote
+[ooze_leather.n.01] ooze leather -- a very soft leather made from the skins of calves and having a suede finish on the flesh side
+[opacification.n.01] opacification -- the process of becoming cloudy or opaque
+[opacity.n.01] opacity -- the phenomenon of not permitting the passage of electromagnetic radiation
+[opacity.n.02] opacity -- incomprehensibility resulting from obscurity of meaning
+[opacity.n.03] opacity -- the quality of being opaque to a degree; the degree to which something reduces the passage of light
+[opah.n.01] opah -- large elliptical brightly colored deep-sea fish of Atlantic and Pacific and Mediterranean
+[opalescence.n.01] opalescence -- the visual property of something having a milky brightness and a play of colors from the surface
+[opal_glass.n.01] opal glass -- a milky white translucent or opaque glass
+[opal.n.01] opal -- a translucent mineral consisting of hydrated silica of variable color; some varieties are used as gemstones Also a hyponym of: opaque_gem.n.01.
+[opaque_gem.n.01] opaque gem -- a gemstone that is opaque
+[op_art.n.01] op art -- a style of abstractionism popular in the 1960s; produces dramatic visual effects with colors and contrasts that are difficult for the eye to resolve
+[opel.n.01] Opel -- German industrialist who was the first in Germany to use an assembly line in manufacturing automobiles (1871-1948)
+[open_account.n.02] open account -- an unpaid credit order
+[open-air_market.n.01] open-air market -- a public marketplace where food and merchandise is sold
+[openbill.n.01] openbill -- stork with a grooved bill whose upper and lower parts touch only at the base and tip
+[open_chain.n.01] open chain -- a chain of atoms in a molecule whose ends are not joined to form a ring
+[open_circuit.n.01] open circuit -- an incomplete electrical circuit in which no current flows
+[open_door.n.02] open door -- freedom of access
+[open-door_policy.n.01] open-door policy -- the policy of granting equal trade opportunities to all countries
+[open-end_credit.n.01] open-end credit -- a consumer credit line that can be used up to a certain limit or paid down at any time
+[open-end_wrench.n.01] open-end wrench -- a wrench having parallel jaws at fixed separation (often on both ends of the handle)
+[opener.n.01] opener -- the first event in a series
+[opener.n.03] opener -- a hand tool used for opening sealed containers (bottles or cans)
+[open-face_sandwich.n.01] open-face sandwich -- sandwich without a covering slice of bread
+[open_frame.n.01] open frame -- any frame in which a bowler fails to make a strike or spare
+[open-hearth_furnace.n.01] open-hearth furnace -- a furnace for making steel in which the steel is placed on a shallow hearth and flames of burning gas and hot air play over it
+[open-hearth_process.n.01] open-hearth process -- a process for making steel using an open-hearth furnace
+[open-heart_surgery.n.01] open-heart surgery -- heart surgery in which the rib cage is spread open, the heart is stopped and blood is detoured through a heart-lung machine while a heart valve or coronary artery is surgically repaired
+[open_house.n.01] open house -- an informal party of people with hospitality for all comers
+[opening_line.n.01] opening line -- the first line of a piece of writing (as a newspaper story)
+[opening.n.01] opening -- an open or empty space in or between things
+[opening.n.02] opening -- a ceremony accompanying the start of some enterprise
+[opening.n.03] opening -- becoming open or being made open
+[opening.n.04] opening -- the first performance (as of a theatrical production)
+[opening.n.05] opening -- the act of opening something
+[opening.n.06] opening -- opportunity especially for employment or promotion
+[opening.n.07] opening -- the initial part of the introduction
+[opening.n.10] opening -- a vacant or unobstructed space that is man-made
+[opening.n.12] opening -- a recognized sequence of moves at the beginning of a game of chess
+[open_interval.n.01] open interval -- an interval that does not include its endpoints
+[open_letter.n.01] open letter -- a letter of protest; addressed to one person but intended for the general public
+[open_marriage.n.01] open marriage -- a marriage in which each partner is free to enter into extraneous sexual relationships without guilt or jealousy from the other
+[open.n.01] open -- a clear or unobstructed space or expanse of land or water
+[open.n.03] open -- a tournament in which both professionals and amateurs may play
+[open.n.04] open -- information that has become public
+[openness.n.01] openness -- without obstructions to passage or view
+[openness.n.02] openness -- characterized by an attitude of ready accessibility (especially about one's actions or purposes); without concealment; not secretive
+[open_order.n.01] open order -- a military formation leaving enough space between ranks to allow an inspecting officer to pass
+[open_primary.n.01] open primary -- a primary in which any registered voter can vote (but must vote for candidates of only one party)
+[open_secret.n.01] open secret -- something that is supposed to be secret but is generally known
+[open_sesame.n.01] open sesame -- any very successful means of achieving a result
+[open_sesame.n.02] open sesame -- a magical command; used by Ali Baba
+[open_shop.n.01] open shop -- a company whose workers are hired without regard to their membership in a labor union
+[openside_plane.n.01] openside plane -- a woodworking plane designed to cut rabbets
+[open_sight.n.01] open sight -- rear gunsight having an open notch instead of a peephole or telescope
+[open_society.n.01] open society -- a society that allows its members considerable freedom (as in a democracy)
+[open_university.n.01] Open University -- a British university that is open to people without formal academic qualifications and where teaching is by correspondence or broadcasting or summer school
+[open_weave.n.01] open weave -- a weave in which warp threads never come together, leaving interstices in the fabric
+[openwork.n.01] openwork -- ornamental work (such as embroidery or latticework) having a pattern of openings
+[opepe.n.01] opepe -- large African forest tree yielding a strong hard yellow to golden brown lumber; sometimes placed in genus Sarcocephalus
+[opera_cloak.n.01] opera cloak -- a large cloak worn over evening clothes
+[opera_company.n.01] opera company -- a company that produces operas
+[operagoer.n.01] operagoer -- a patron of the opera
+[opera.n.01] opera -- a drama set to music; consists of singing with orchestral accompaniment and an orchestral overture and interludes
+[opera.n.02] Opera -- a commercial browser
+[opera.n.03] opera -- a building where musical dramas are performed
+[operand.n.01] operand -- a quantity upon which a mathematical operation is performed
+[operant_conditioning.n.01] operant conditioning -- conditioning in which an operant response is brought under stimulus control by virtue of presenting reinforcement contingent upon the occurrence of the operant response
+[opera_star.n.01] opera star -- singer of lead role in an opera
+[operating_budget.n.01] operating budget -- a budget for current expenses as distinct from financial transactions or permanent improvements
+[operating_capability.n.01] operating capability -- the capability of a technological system to perform as intended
+[operating_capital.n.01] operating capital -- capital available for the operations of a firm (e.g. manufacturing or transportation) as distinct from financial transactions and long-term improvements
+[operating_expense.n.01] operating expense -- the expense of maintaining property (e.g., paying property taxes and utilities and insurance); it does not include depreciation or the cost of financing or income taxes
+[operating_microscope.n.01] operating microscope -- binocular microscope used in surgery to provide a clear view of small and inaccessible parts of the body (as in microsurgery)
+[operating_procedure.n.01] operating procedure -- a procedure for operating something or for dealing with a given situation
+[operating_room.n.01] operating room -- a room in a hospital equipped for the performance of surgical operations
+[operating_system.n.01] operating system -- (computer science) software that controls the execution of computer programs and may provide various services
+[operating_table.n.01] operating table -- table on which the patient lies during a surgical operation
+[operational_cell.n.01] operational cell -- a terrorist cell that performs clandestine activities
+[operational_damage.n.01] operational damage -- loss of military equipment in field operations
+[operationalism.n.01] operationalism -- (philosophy) the doctrine that the meaning of a proposition consists of the operations involved in proving or applying it
+[operation_code.n.01] operation code -- the portion of a set of operation descriptions that specifies the operation to be performed; the set of operations in a computer
+[operation_desert_storm.n.01] Operation Desert Storm -- the United States and its allies defeated Iraq in a ground war that lasted 100 hours (1991)
+[operation.n.01] operation -- the state of being in effect or being operative
+[operation.n.02] operation -- a business especially one run on a large scale
+[operation.n.03] operation -- a planned activity involving many people performing various actions
+[operation.n.04] operation -- (computer science) data processing in which the result is completely specified by a rule (especially the processing that results from a single instruction)
+[operation.n.05] operation -- activity by a military or naval force (as a maneuver or campaign)
+[operation.n.06] operation -- a medical procedure involving an incision with instruments; performed to repair damage or arrest disease in a living body
+[operation.n.07] operation -- a process or series of acts especially of a practical or mechanical nature involved in a particular form of work
+[operation.n.08] operation -- process or manner of functioning or operating
+[operation.n.11] operation -- the activity of operating something (a machine or business etc.)
+[operations.n.01] operations -- financial transactions at a brokerage; having to do with the execution of trades and keeping customer records
+[operations_research.n.01] operations research -- research designed to determine most efficient way to do something
+[operative_field.n.01] operative field -- the area that is open during surgery
+[operator_gene.n.01] operator gene -- a gene that activates the production of messenger RNA by adjacent structural genes
+[operator.n.01] operator -- (mathematics) a symbol or function representing a mathematical operation
+[operator.n.02] operator -- an agent that operates some apparatus or machine
+[operator.n.03] operator -- someone who owns or operates a business
+[operator.n.05] operator -- a speculator who trades aggressively on stock or commodity markets
+[operculum.n.01] operculum -- a hard flap serving as a cover for (a) the gill slits in fishes or (b) the opening of the shell in certain gastropods when the body is retracted
+[operetta.n.01] operetta -- a short amusing opera
+[operon.n.01] operon -- a segment of DNA containing adjacent genes including structural genes and an operator gene and a regulatory gene
+[opheodrys.n.01] Opheodrys -- North American green snakes
+[ophidiidae.n.01] Ophidiidae -- eellike marine fishes
+[ophidism.n.01] ophidism -- poisoning by snake venom
+[ophiodon.n.01] Ophiodon -- a genus of Ophiodontidae
+[ophiodontidae.n.01] Ophiodontidae -- fishes closely related to greenlings
+[ophioglossaceae.n.01] Ophioglossaceae -- a family of succulent ferns of order Ophioglossales; cosmopolitan in distribution
+[ophioglossales.n.01] Ophioglossales -- coextensive with the family Ophioglossaceae
+[ophioglossum.n.01] Ophioglossum -- the type genus of the fern family Ophioglossaceae
+[ophiolatry.n.01] ophiolatry -- the worship of snakes
+[ophiophagus.n.01] Ophiophagus -- king cobra
+[ophisaurus.n.01] Ophisaurus -- glass lizards
+[ophiuchus.n.01] Ophiuchus -- a large constellation in the equatorial region between Hercules and Scorpius
+[ophiurida.n.01] Ophiurida -- brittle stars
+[ophiuroidea.n.01] Ophiuroidea -- brittle stars and basket stars
+[ophryon.n.01] ophryon -- the craniometric point in the midline of the forehead immediately above the orbits
+[ophrys.n.01] Ophrys -- a hardy genus of terrestrial orchids of Europe and northern Africa and western Asia
+[ophthalmectomy.n.01] ophthalmectomy -- surgical removal of an eye
+[ophthalmia.n.01] ophthalmia -- severe conjunctivitis
+[ophthalmia_neonatorum.n.01] ophthalmia neonatorum -- ophthalmia in newborns; contracted while passing through the birth canal; usually prevented with silver nitrate drops
+[ophthalmic_artery.n.01] ophthalmic artery -- a branch of the internal carotid artery that supplies the eye and neighboring structures
+[ophthalmic_vein.n.01] ophthalmic vein -- either of two veins that serve the eye; empties into the cavernous sinus
+[ophthalmologist.n.01] ophthalmologist -- a medical doctor specializing in the diagnosis and treatment of diseases of the eye
+[ophthalmology.n.01] ophthalmology -- the branch of medicine concerned with the eye and its diseases
+[ophthalmoplegia.n.01] ophthalmoplegia -- paralysis of the motor nerves of the eye
+[ophthalmoscope.n.01] ophthalmoscope -- medical instrument for examining the retina of the eye
+[ophthalmoscopy.n.01] ophthalmoscopy -- examination of the interior of an eye using an ophthalmoscope
+[opiate.n.01] opiate -- a narcotic drug that contains opium or an opium derivative
+[opinion.n.01] opinion -- a personal belief or judgment that is not founded on proof or certainty
+[opinion.n.02] opinion -- a message expressing a belief about something; the expression of a belief that is held with confidence but not substantiated by positive knowledge or proof
+[opinion.n.04] opinion -- the legal document stating the reasons for a judicial decision
+[opinion.n.05] opinion -- the reason for a court's judgment (as opposed to the decision itself)
+[opisthobranchia.n.01] Opisthobranchia -- gastropods having the gills when present posterior to the heart and having no operculum: includes sea slugs; sea butterflies; sea hares
+[opisthocomidae.n.01] Opisthocomidae -- comprising the hoatzins
+[opisthocomus.n.01] Opisthocomus -- type genus of the Opisthocomidae: hoatzins
+[opisthognathidae.n.01] Opisthognathidae -- jawfishes
+[opisthorchiasis.n.01] opisthorchiasis -- infestation with flukes obtained from eating raw fish; common in eastern Asia
+[opisthotonos.n.01] opisthotonos -- severe spasm in which the back arches and the head bends back and heels flex toward the back
+[opium_addict.n.01] opium addict -- someone addicted to opium
+[opium_den.n.01] opium den -- a building where opium is sold and used
+[opium.n.01] opium -- an addictive narcotic extracted from seed capsules of the opium poppy Also a hyponym of: narcotic.n.01.
+[opium_poppy.n.01] opium poppy -- southwestern Asian herb with greyish leaves and white or reddish flowers; source of opium
+[opopanax.n.01] opopanax -- an odorous gum resin formerly used in medicines
+[opossum.n.02] opossum -- nocturnal arboreal marsupial having a naked prehensile tail found from southern North America to northern South America
+[opossum_rat.n.01] opossum rat -- terrestrial marsupials of southern South America that resemble shrews
+[opossum_shrimp.n.01] opossum shrimp -- shrimp-like crustaceans whose females carry eggs and young in a pouch between the legs
+[oppenheimer.n.01] Oppenheimer -- United States physicist who directed the project at Los Alamos that developed the first atomic bomb (1904-1967)
+[opportuneness.n.01] opportuneness -- timely convenience
+[opportunism.n.01] opportunism -- taking advantage of opportunities without regard for the consequences for others
+[opportunistic_infection.n.01] opportunistic infection -- any infection caused by a microorganism that does not normally cause disease in humans; occurs in persons with abnormally functioning immune systems (as AIDS patients or transplant patients receiving immunosuppressive drugs)
+[opportunist.n.01] opportunist -- a person who places expediency above principle
+[opportunity_cost.n.01] opportunity cost -- cost in terms of foregoing alternatives
+[opportunity.n.01] opportunity -- a possibility due to a favorable combination of circumstances
+[opposition.n.02] opposition -- the relation between opposed entities
+[opposition.n.04] opposition -- a contestant that you are matched against
+[opposition.n.05] opposition -- a body of people united in opposing something
+[opposition.n.06] opposition -- a direction opposite to another
+[opposition.n.08] Opposition -- the major political party opposed to the party in office and prepared to replace it if elected
+[oppression.n.01] oppression -- the act of subjugating by cruelty
+[oppression.n.02] oppression -- the state of being kept down by unjust use of force or authority:
+[oppression.n.03] oppression -- a feeling of being oppressed
+[oppressor.n.01] oppressor -- a person of authority who subjects others to undue pressures
+[opsin.n.01] opsin -- retinal protein formed by the action of light on rhodopsin
+[ops.n.01] Ops -- (Roman mythology) goddess of abundance and fertility; wife of Saturn; counterpart of Greek Rhea and Cybele of ancient Asia Minor
+[opsonin.n.01] opsonin -- an antibody in blood serum that attaches to invading microorganisms and other antigens to make them more susceptible to the action of phagocytes
+[opsonization.n.01] opsonization -- process whereby opsonins make an invading microorganism more susceptible to phagocytosis
+[optative_mood.n.01] optative mood -- a mood (as in Greek or Sanskrit) that expresses a wish or hope; expressed in English by modal verbs
+[optez.n.01] Optez -- an artificial language
+[optical_bench.n.01] optical bench -- apparatus for observation and measurement of optical phenomena
+[optical_crown.n.01] optical crown -- optical glass of low dispersion and low refractive index
+[optical_density.n.01] optical density -- (physics) a measure of the extent to which a substance transmits light or other electromagnetic radiation
+[optical_device.n.01] optical device -- a device for producing or controlling light
+[optical_disk.n.01] optical disk -- a disk coated with plastic that can store digital data as tiny pits etched in the surface; is read with a laser that scans the surface
+[optical_fiber.n.01] optical fiber -- a very thin fiber made of glass that functions as a waveguide for light; used in bundles to transmit images
+[optical_flint.n.01] optical flint -- optical glass of high dispersion and high refractive index
+[optical_glass.n.01] optical glass -- clear homogeneous glass of known refractive index; used to make lenses
+[optical_illusion.n.01] optical illusion -- an optical phenomenon that results in a false or deceptive visual impression
+[optical_instrument.n.01] optical instrument -- an instrument designed to aid vision
+[optical_opacity.n.01] optical opacity -- opacity to light
+[optical_phenomenon.n.01] optical phenomenon -- a physical phenomenon related to or involving light
+[optical_pyrometer.n.01] optical pyrometer -- a pyrometer that uses the color of the light emitted by a hot object
+[optical_telescope.n.01] optical telescope -- an astronomical telescope designed to collect and record light from cosmic sources
+[optic_axis.n.01] optic axis -- in a doubly refracting crystal, the line in the direction of which no double refraction occurs
+[optic_chiasma.n.01] optic chiasma -- the crossing of the optic nerves from the two eyes at the base of the brain
+[optic_cup.n.01] optic cup -- (embryology) a two-walled cuplike depression that develops into the pigmented and sensory layers of the retina
+[optician.n.01] optician -- a worker who makes glasses for remedying defects of vision
+[optic_nerve.n.01] optic nerve -- the cranial nerve that serves the retina
+[optic_radiation.n.01] optic radiation -- a nerve pathway from the lateral geniculate body to the visual cortex
+[optics.n.01] optics -- the branch of physics that studies the physical properties of light
+[optics.n.02] optics -- optical properties
+[optimism.n.01] optimism -- the optimistic feeling that all is going to turn out well
+[optimism.n.02] optimism -- a general disposition to expect the best in all things
+[optimist.n.01] optimist -- a person disposed to take a favorable view of things
+[optimization.n.01] optimization -- the act of rendering optimal
+[optimum.n.01] optimum -- most favorable conditions or greatest degree or amount possible under given circumstances
+[option.n.01] option -- the right to buy or sell property at an agreed price; the right is purchased and if it is not exercised by a stated date the money is forfeited
+[option.n.02] option -- one of a number of things from which only one can be chosen
+[optometrist.n.01] optometrist -- a person skilled in testing for defects of vision in order to prescribe corrective glasses
+[optometry.n.01] optometry -- the practice of an optometrist
+[opuntiales.n.01] Opuntiales -- coextensive with the family Cactaceae: cactuses
+[opuntia.n.01] Opuntia -- large genus of cactuses native to America: prickly pears
+[orach.n.01] orach -- any of various herbaceous plants of the genus Atriplex that thrive in deserts and salt marshes
+[oracle.n.02] oracle -- a prophecy (usually obscure or allegorical) revealed by a priest or priestess; believed to be infallible
+[oracle.n.03] oracle -- a shrine where an oracular god is consulted
+[oral_cancer.n.01] oral cancer -- malignant neoplasm of the lips of mouth; most common in men over the age of 60
+[oral_contraception.n.01] oral contraception -- contraception achieved by taking oral contraceptive pills
+[oral_contract.n.01] oral contract -- an agreement that is not in writing and is not signed by the parties but is a real existing contract that lacks only the formal requirement of a memorandum to render it enforceable in litigation
+[oral_herpes.n.01] oral herpes -- caused by herpes simplex virus type 1 (HSV-1)
+[oral.n.01] oral -- an examination conducted by spoken communication
+[oral_personality.n.01] oral personality -- (psychoanalysis) a personality characterized either by generous optimism or aggressive and ambitious selfishness; formed in early childhood by fixation during the oral stage of development
+[oral_sex.n.01] oral sex -- oral stimulation of the genitals
+[oral_smear.n.01] oral smear -- alimentary tract smear of material obtained from the mouth
+[oral_stage.n.01] oral stage -- (psychoanalysis) the first sexual and social stage of an infant's development; the mouth is the focus of the libido and satisfaction comes from suckling and chewing and biting
+[orangeade.n.01] orangeade -- sweetened beverage of diluted orange juice
+[orange_bat.n.01] orange bat -- a common bat of northwestern Australia having orange or yellow fur
+[orange-blossom_orchid.n.01] orange-blossom orchid -- diminutive Australian orchid with loose racemes of fragrant white flowers with purple and orange markings on the lip
+[orange_daisy.n.01] orange daisy -- mat-forming herb of Turkestan with nearly double orange-yellow flowers
+[orange_grass.n.01] orange grass -- annual wiry-stemmed North American weed with minute scalelike leaves and small yellow flowers
+[orange_group.n.01] Orange Group -- a terrorist group of Protestants who oppose any political settlement with Irish nationalists; a paramilitary group that attacks Catholic interests in Northern Ireland
+[orange_grove.n.01] orange grove -- grove of orange trees
+[orange_hawkweed.n.01] orange hawkweed -- European hawkweed having flower heads with bright orange-red rays; a troublesome weed especially as naturalized in northeastern North America; sometimes placed in genus Hieracium
+[orange_juice.n.01] orange juice -- bottled or freshly squeezed juice of oranges
+[orange_liqueur.n.01] orange liqueur -- liqueur flavored with orange
+[orangeman.n.01] Orangeman -- a member of a society founded in Ireland in 1795 to uphold Protestantism and the British sovereign
+[orange_marmalade.n.01] orange marmalade -- marmalade made from oranges
+[orange_milkwort.n.01] orange milkwort -- bog plant of pine barrens of southeastern United States having spikes of irregular yellow-orange flowers
+[orange_mushroom_pimple.n.01] orange mushroom pimple -- a variety of mushroom pimple
+[orange.n.01] orange -- round yellow to orange fruit of any of several citrus trees
+[orange.n.02] orange -- orange color or pigment; any of a range of colors between red and yellow
+[orange.n.03] orange -- any citrus tree bearing oranges
+[orange.n.04] orange -- any pigment producing the orange color
+[orange.n.05] Orange -- a river in South Africa that flows generally westward to the Atlantic Ocean
+[orange_order.n.01] Orange Order -- a Protestant political organization in Northern Ireland
+[orange_peel.n.01] orange peel -- the rind of an orange
+[orange_peel.n.02] orange peel -- strips of orange peel cooked in sugar and coated with sugar
+[orange_pekoe.n.01] orange pekoe -- a superior grade of black tea; grown in India and Sri Lanka and Java
+[orangery.n.01] orangery -- a place where oranges are grown; a plantation of orange trees in warm climes or a greenhouse in cooler areas Also a hyponym of: plantation.n.01.
+[orange_sneezeweed.n.01] orange sneezeweed -- stout perennial herb of western United States having flower heads with drooping orange-yellow rays; causes spewing sickness in sheep
+[orange_soda.n.01] orange soda -- orange-flavored carbonated drink
+[orange_toast.n.01] orange toast -- buttered toast with sugar and grated orange rind and a little orange juice
+[orange_tortrix.n.01] orange tortrix -- California moth whose larvae live in especially oranges
+[orangewood.n.01] orangewood -- fine-grained wood of an orange tree; used in fine woodwork
+[orange_yellow.n.01] orange yellow -- a shade of yellow tinged with orange
+[orange_zest.n.01] orange zest -- tiny bits of orange peel
+[orangutan.n.01] orangutan -- large long-armed ape of Borneo and Sumatra having arboreal habits
+[oran.n.01] Oran -- a port city in northwestern Algeria and the country's 2nd largest city Also a hyponym of: city.n.01.
+[oration.n.01] oration -- an instance of oratory
+[orator.n.01] orator -- a person who delivers a speech or oration
+[oratory.n.01] oratory -- addressing an audience formally (usually a long and rhetorical address and often pompous)
+[orbiculate_leaf.n.01] orbiculate leaf -- circular or nearly circular leaf
+[orbignya.n.01] Orbignya -- palms of southern Mexico to northern South America: babassu palm
+[orbison.n.01] Orbison -- United States composer and rockabilly tenor popular in the 1950s (1936-1988) Also a hyponym of: singer.n.01.
+[orbitale.n.01] orbitale -- the craniometric point at the lowest point on the lower edge of the orbit
+[orbital_plane.n.01] orbital plane -- (astronomy) the plane on which a body is orbiting
+[orbital_rotation.n.01] orbital rotation -- motion of an object in an orbit around a fixed point
+[orbit.n.01] orbit -- the (usually elliptical) path described by one celestial body in its revolution about another
+[orbit.n.04] orbit -- the path of an electron around the nucleus of an atom
+[orbit_period.n.01] orbit period -- the time it takes to complete one full orbit around a celestial body
+[orb-weaving_spider.n.01] orb-weaving spider -- a spider that spins a circular (or near circular) web
+[orb_web.n.01] orb web -- a circular spider web
+[orchard_grass.n.01] orchard grass -- widely grown stout Old World hay and pasture grass
+[orchard_oriole.n.01] orchard oriole -- the male is chestnut-and-black
+[orchestia.n.01] Orchestia -- type genus of the family Orchestiidae
+[orchestiidae.n.01] Orchestiidae -- beach fleas
+[orchestra.n.01] orchestra -- a musical organization consisting of a group of instrumentalists including string players
+[orchestra.n.02] orchestra -- seating on the main floor in a theater
+[orchestra_pit.n.01] orchestra pit -- lowered area in front of a stage where an orchestra accompanies the performers
+[orchestration.n.01] orchestration -- an arrangement of a piece of music for performance by an orchestra or band
+[orchestration.n.02] orchestration -- the act of arranging a piece of music for an orchestra and assigning parts to the different musical instruments
+[orchestration.n.03] orchestration -- an arrangement of events that attempts to achieve a maximum effect
+[orchestrator.n.01] orchestrator -- an arranger who writes for orchestras
+[orchidaceae.n.01] Orchidaceae -- enormous cosmopolitan family of perennial terrestrial or epiphytic plants with fleshy tubers or rootstocks and unusual flowers
+[orchidales.n.01] Orchidales -- order of plants with irregular flowers having minute seeds: Orchidaceae; Burmanniaceae
+[orchidalgia.n.01] orchidalgia -- pain in the testes
+[orchidectomy.n.01] orchidectomy -- surgical removal of one or both testicles
+[orchid.n.01] orchid -- any of numerous plants of the orchid family usually having flowers of unusual shapes and beautiful colors
+[orchil.n.01] orchil -- a purplish dye obtained from orchil lichens
+[orchiopexy.n.01] orchiopexy -- operation to bring an undescended testicle into the scrotum
+[orchis.n.01] orchis -- any of various deciduous terrestrial orchids having fleshy tubers and flowers in erect terminal racemes
+[orchitis.n.01] orchitis -- inflammation of one or both testes; characterized by pain and swelling
+[orchotomy.n.01] orchotomy -- surgical incision into the testis to obtain material for analysis (as in cases of abnormally low sperm count)
+[orcinus.n.01] Orcinus -- killer whales
+[or_circuit.n.01] OR circuit -- a gate circuit in a computer that fires when any of its inputs fire
+[orczy.n.01] Orczy -- British writer (born in Hungary) (1865-1947)
+[ordainer.n.01] ordainer -- a cleric who ordains; a cleric who admits someone to holy orders
+[ordeal.n.01] ordeal -- a severe or trying experience
+[ordeal.n.02] ordeal -- a primitive method of determining a person's guilt or innocence by subjecting the accused person to dangerous or painful tests believed to be under divine control; escape was usually taken as a sign of innocence
+[order_arms.n.01] order arms -- a position in the manual of arms; the rifle is held vertically on the right side with the butt on the ground; often used as a command
+[order_book.n.02] order book -- a book in which customers' orders are entered; usually makes multiple copies of the order
+[orderer.n.01] orderer -- someone who places an order to buy
+[orderer.n.02] orderer -- an organizer who puts things in order
+[order_form.n.01] order form -- a form to use when placing an order
+[ordering.n.01] ordering -- logical or comprehensible arrangement of separate elements
+[orderliness.n.01] orderliness -- the quality of appreciating method and system
+[orderliness.n.02] orderliness -- a condition of regular or proper arrangement
+[orderly.n.01] orderly -- a soldier who serves as an attendant to a superior officer Also a hyponym of: attendant.n.01.
+[orderly.n.02] orderly -- a male hospital attendant who has general duties that do not involve the medical treatment of patients
+[orderly_sergeant.n.01] orderly sergeant -- the first sergeant of a company; duties formerly included the conveyance of orders
+[order_myxobacteria.n.01] order Myxobacteria -- an order of higher bacteria
+[order.n.01] order -- (often plural) a command given by a superior (e.g., a military or law enforcement officer) that must be obeyed
+[order.n.02] order -- a degree in a continuum of size or quantity
+[order.n.03] order -- established customary state (especially of society)
+[order.n.07] order -- a commercial document used to request someone to supply something in return for payment and providing specifications and quantities
+[order.n.09] order -- a body of rules followed by an assembly
+[order.n.11] order -- a group of person living under a religious rule
+[order.n.12] order -- (biology) taxonomic group containing one or more families
+[order.n.13] order -- a request for something to be made, supplied, or served
+[order.n.14] order -- (architecture) one of original three styles of Greek architecture distinguished by the type of column and entablature used or a style developed from the original three by the Romans
+[order.n.15] order -- the act of putting things in a sequential arrangement
+[order_of_magnitude.n.02] order of magnitude -- a number assigned to the ratio of two quantities; two quantities are of the same order of magnitude if one is less than 10 times as large as the other; the number of magnitudes that the quantities differ is specified to within a power of 10
+[order_of_the_day.n.01] order of the day -- the order of business for an assembly on a given day
+[order_of_the_purple_heart.n.01] Order of the Purple Heart -- a United States military decoration awarded to any member of the armed forces who is wounded in action
+[order_paper.n.01] order paper -- a printed copy of the order of the day
+[ordinal_number.n.01] ordinal number -- the number designating place in an ordered sequence
+[ordinance.n.02] ordinance -- a statute enacted by a city government
+[ordinand.n.01] ordinand -- a person being ordained
+[ordinariness.n.01] ordinariness -- the quality of being commonplace and ordinary
+[ordinary_annuity.n.01] ordinary annuity -- an annuity paid in a series of more or less equal payments at the end of equally spaced periods
+[ordinary.n.01] ordinary -- a judge of a probate court
+[ordinary.n.02] ordinary -- the expected or commonplace condition or situation
+[ordinary.n.03] ordinary -- a clergyman appointed to prepare condemned prisoners for death
+[ordinary.n.04] ordinary -- an early bicycle with a very large front wheel and small back wheel
+[ordinary.n.05] ordinary -- (heraldry) any of several conventional figures used on shields
+[ordinate.n.01] ordinate -- the value of a coordinate on the vertical axis
+[ordination.n.01] ordination -- the status of being ordained to a sacred office
+[ordination.n.03] ordination -- the act of ordaining; the act of conferring (or receiving) holy orders
+[ord_kangaroo_rat.n.01] Ord kangaroo rat -- most widely distributed kangaroo rat: plains and mountain areas of central and western United States
+[ordnance_survey.n.01] Ordnance Survey -- the official cartography agency of the British government
+[ordovician.n.01] Ordovician -- from 500 million to 425 million years ago; conodonts and ostracods and algae and seaweeds
+[oread.n.01] Oread -- (Greek mythology) one of the mountain nymphs
+[oreamnos.n.01] Oreamnos -- mountain goats
+[ore_bed.n.01] ore bed -- a stratum of ore
+[orectolobidae.n.01] Orectolobidae -- nurse sharks and carpet sharks
+[orectolobus.n.01] Orectolobus -- carpet sharks
+[oregano.n.01] oregano -- aromatic Eurasian perennial
+[oregon_ash.n.01] Oregon ash -- timber tree of western North America yielding hard light wood; closely related to the red ash
+[oregon_cedar.n.01] Oregon cedar -- large timber tree of western North America with trunk diameter to 12 feet and height to 200 feet
+[oregon_crab_apple.n.01] Oregon crab apple -- small tree or shrub of western United States having white blossoms and tiny yellow or red fruit
+[oregon_grape.n.01] Oregon grape -- small shrub with grey-green leaves and yellow flowers followed by glaucous blue berries
+[oregon_grape.n.02] Oregon grape -- ornamental evergreen shrub of Pacific coast of North America having dark green pinnate leaves and racemes of yellow flowers followed by blue-black berries
+[oregonian.n.01] Oregonian -- a native or resident of Oregon
+[oregon_maple.n.01] Oregon maple -- maple of western North America having large 5-lobed leaves orange in autumn
+[oregon.n.01] Oregon -- a state in northwestern United States on the Pacific
+[oregon_white_oak.n.01] Oregon white oak -- small deciduous tree of western North America with crooked branches and pale grey bark
+[ore.n.01] ore -- a mineral that contains metal that is valuable enough to be mined
+[ore.n.02] ore -- a monetary subunit in Denmark and Norway and Sweden; 100 ore equal 1 krona
+[oreo.n.01] oreo -- chocolate cookie with white cream filling
+[oreopteris.n.01] Oreopteris -- 3 species of ferns formerly included in genus Dryopteris or Thelypteris
+[oreortyx.n.01] Oreortyx -- mountain quail of western United States
+[orestes.n.01] Orestes -- (Greek mythology) the son of Agamemnon and Clytemnestra; his sister Electra persuaded him to avenge Agamemnon's death by killing Clytemnestra and Aegisthus
+[orff.n.01] Orff -- German musician who developed a widely used system for teaching music to children (1895-1982) Also a hyponym of: musician.n.02.
+[organ_donor.n.01] organ donor -- someone from whom an organ is taken for transplantation
+[organdy.n.01] organdy -- a sheer stiff muslin
+[organelle.n.01] organelle -- a specialized part of a cell; analogous to an organ
+[organ-grinder.n.01] organ-grinder -- a street musician who plays a hand organ or hurdy-gurdy
+[organic_brain_syndrome.n.01] organic brain syndrome -- mental abnormality resulting from disturbance of the structure or function of the brain
+[organic_chemistry.n.01] organic chemistry -- the chemistry of compounds containing carbon (originally defined as the chemistry of substances produced by living organisms but now extended to substances synthesized artificially)
+[organic_compound.n.01] organic compound -- any compound of carbon and another element or a radical
+[organic_disorder.n.01] organic disorder -- disorder caused by a detectable physiological or structural change in an organ
+[organicism.n.01] organicism -- theory that the total organization of an organism rather than the functioning of individual organs is the determinant of life processes
+[organic_light-emitting_diode.n.01] organic light-emitting diode -- a self-luminous diode (it glows when an electrical field is applied to the electrodes) that does not require backlighting or diffusers
+[organic.n.01] organic -- a fertilizer that is derived from animal or vegetable matter
+[organic_phenomenon.n.01] organic phenomenon -- (biology) a natural phenomenon involving living plants and animals
+[organic_process.n.01] organic process -- a process occurring in living organisms
+[organification.n.01] organification -- the process of organ formation
+[organism.n.01] organism -- a living thing that has (or can develop) the ability to act or function independently
+[organism.n.02] organism -- a system considered analogous in structure or function to a living body
+[organist.n.01] organist -- a person who plays an organ
+[organization_chart.n.01] organization chart -- a chart showing the lines of responsibility between departments of a large organization
+[organization_expense.n.01] organization expense -- the cost (over a period of five years) of organizing a new corporation or partnership
+[organization_for_the_prohibition_of_chemical_weapons.n.01] Organization for the Prohibition of Chemical Weapons -- international organization for chemical disarmament; administers the Chemical Weapons Convention
+[organization_man.n.01] organization man -- an employee who sacrifices his own individuality for the good of an organization
+[organization.n.01] organization -- a group of people who work together
+[organization.n.04] organization -- the act of organizing a business or an activity related to a business
+[organization.n.05] organization -- an ordered manner; orderliness by virtue of being methodical and well organized
+[organization.n.06] organization -- the activity or result of distributing or disposing persons or things properly or methodically
+[organization_of_american_states.n.01] Organization of American States -- an association including most countries in the western hemisphere; created in 1948 to promote military and economic and social and cultural cooperation
+[organization_of_petroleum-exporting_countries.n.01] Organization of Petroleum-Exporting Countries -- an organization of countries formed in 1961 to agree on a common policy for the production and sale of petroleum Also a hyponym of: world_organization.n.01.
+[organized_crime.n.01] organized crime -- underworld organizations
+[organized_labor.n.01] organized labor -- employees who are represented by a labor union
+[organizer.n.01] organizer -- a person who brings order and organization to an enterprise
+[organizer.n.02] organizer -- someone who enlists workers to join a union
+[organ_loft.n.01] organ loft -- a gallery occupied by a church organ
+[organ.n.01] organ -- a fully differentiated structural and functional unit in an animal that is specialized for some particular function
+[organ.n.02] organ -- a government agency or instrument devoted to the performance of some specific function
+[organ.n.04] organ -- a periodical that is published by a special interest group
+[organ.n.05] organ -- wind instrument whose sound is produced by means of pipes arranged in sets supplied with air from a bellows and controlled from a large complex musical keyboard Also a hyponym of: keyboard_instrument.n.01.
+[organ_of_corti.n.01] organ of Corti -- the hearing organ of the inner ear; contains receptors that respond to sound waves
+[organ_of_hearing.n.01] organ of hearing -- the part of the ear that is responsible for sensations of sound
+[organon.n.01] organon -- a system of principles for philosophic or scientific investigations; an instrument for acquiring knowledge
+[organophosphate.n.01] organophosphate -- an insecticide that interferes with an insect's nervous system
+[organophosphate_nerve_agent.n.01] organophosphate nerve agent -- any of a series of nerve agents containing organophosphate compounds first synthesized by German chemists in 1936; in World War II the Germans tested them in concentration camps but not on the battlefield; Iraq is alleged to have used them against Iran and against the Kurds
+[organ_pipe.n.01] organ pipe -- the flues and stops on a pipe organ
+[organ_stop.n.01] organ stop -- a graduated set of organ pipes of like tone quality
+[organza.n.01] organza -- a fabric made of silk or a silklike fabric that resembles organdy
+[orgasm.n.01] orgasm -- the moment of most intense pleasure in sexual intercourse
+[orgy.n.01] orgy -- any act of immoderate indulgence
+[orgy.n.02] orgy -- secret rite in the cults of ancient Greek or Roman deities involving singing and dancing and drinking and sexual activity
+[orgy.n.03] orgy -- a wild gathering involving excessive drinking and promiscuity
+[oriel.n.01] oriel -- a projecting bay window corbeled or cantilevered out from a wall
+[oriental_arborvitae.n.01] Oriental arborvitae -- Asiatic shrub or small tree widely planted in United States and Europe; in some classifications assigned to its own genus
+[oriental_beetle.n.01] Oriental beetle -- introduced into United States from the Orient; larvae feed on roots of sugarcane and other grasses
+[oriental_cherry.n.01] oriental cherry -- ornamental tree with inedible fruits widely cultivated in many varieties for its white blossoms
+[oriental_cockroach.n.01] oriental cockroach -- dark brown cockroach originally from orient now nearly cosmopolitan in distribution
+[orientalism.n.01] Orientalism -- the scholarly knowledge of Asian cultures and languages and people
+[orientalism.n.02] orientalism -- the quality or customs or mannerisms characteristic of Asian civilizations
+[orientalist.n.01] orientalist -- a specialist in oriental subjects
+[oriental.n.01] Oriental -- a member of an Oriental race; the term is regarded as offensive by Asians (especially by Asian Americans)
+[oriental_plane.n.01] oriental plane -- large tree of southeastern Europe to Asia Minor
+[oriental_poppy.n.01] oriental poppy -- commonly cultivated Asiatic perennial poppy having stiff heavily haired leaves and bright scarlet or pink to orange flowers
+[oriental_scops_owl.n.01] Oriental scops owl -- Asian scops owl
+[oriental_spruce.n.01] oriental spruce -- evergreen tree of the Caucasus and Asia Minor used as an ornamental having pendulous branchlets
+[orientation_course.n.01] orientation course -- a course introducing a new situation or environment
+[orientation.n.01] orientation -- the act of orienting
+[orientation.n.02] orientation -- an integrated set of attitudes and beliefs
+[orientation.n.03] orientation -- position or alignment relative to points of the compass or other specific directions
+[orientation.n.05] orientation -- a person's awareness of self with regard to position and time and place and personal relationships
+[orifice.n.01] orifice -- an aperture or hole that opens into a bodily cavity
+[oriflamme.n.01] oriflamme -- an inspiring symbol or ideal that serves as a rallying point in a struggle
+[oriflamme.n.02] oriflamme -- a red or orange-red flag used as a standard by early French kings
+[origami.n.01] origami -- the Japanese art of folding paper into shapes representing objects (e.g., flowers or birds)
+[origanum.n.01] origanum -- any of various fragrant aromatic herbs of the genus Origanum used as seasonings
+[origen.n.01] Origen -- Greek philosopher and theologian who reinterpreted Christian doctrine through the philosophy of Neoplatonism; his work was later condemned as unorthodox (185-254) Also a hyponym of: theologian.n.01.
+[originalism.n.01] originalism -- the belief that the United States Constitution should be interpreted in the way the authors originally intended it
+[originality.n.01] originality -- the ability to think and act independently
+[originality.n.02] originality -- the quality of being new and original (not derived from something else)
+[original.n.02] original -- something that serves as a model or a basis for making copies
+[original_sin.n.01] original sin -- a sin said to be inherited by all descendants of Adam Also a hyponym of: religious_doctrine.n.01.
+[origination_fee.n.01] origination fee -- a fee charged to a borrower (especially for a mortgage loan) to cover the costs of initiating the loan
+[originator.n.01] originator -- someone who creates new things
+[origin.n.02] origin -- properties attributable to your ancestry
+[origin.n.03] origin -- an event that is a beginning; a first part or stage of subsequent events
+[origin.n.04] origin -- the point of intersection of coordinate axes; where the values of the coordinates are all zero
+[origin.n.05] origin -- the source of something's existence or from which it derives or is derived
+[orinasal_phone.n.01] orinasal phone -- a speech sound produced with both the oral and nasal passages open (as French nasal vowels)
+[o_ring.n.01] O ring -- a gasket consisting of a flat ring of rubber or plastic; used to seal a joint against high pressure
+[orinoco.n.01] Orinoco -- a South American river 1,500 miles long; flows into the South Atlantic
+[oriolidae.n.01] Oriolidae -- Old World orioles
+[oriolus.n.01] Oriolus -- type genus of the Oriolidae
+[orion.n.01] Orion -- (Greek mythology) a giant Boeotian hunter who pursued the Pleiades and was eventually slain by Artemis; was then placed in the sky as a constellation
+[orion.n.02] Orion -- a constellation on the equator to the east of Taurus; contains Betelgeuse and Rigel Also a hyponym of: constellation.n.02.
+[orissa.n.01] Orissa -- state in eastern India on the Bay of Bengal
+[orites.n.01] Orites -- small genus of Australian shrubs or trees
+[oriya.n.01] Oriya -- a member of a people in India living in Orissa and neighboring areas
+[oriya.n.02] Oriya -- a Magadhan language that is spoken by the Oriya and is the official language of the Indian state of Orissa
+[orizaba.n.01] Orizaba -- a city of east central Mexico (west of Veracruz); a popular resort
+[orkney_islands.n.01] Orkney Islands -- an archipelago of about 70 islands in the North Atlantic and North Sea off the northeastern coast of Scotland
+[orlando.n.01] Orlando -- a city in central Florida; site of Walt Disney World
+[orleanais.n.01] Orleanais -- a former province of north central France; centered around Orleans
+[orleanism.n.01] Orleanism -- the political philosophy of the Orleanists
+[orleanist.n.01] Orleanist -- a supporter of the Orleans branch of the Bourbons that was descended from a younger brother of Louis XIV
+[orleans.n.01] Orleans -- a city on the Loire river in north central France; site of the siege of Orleans by the English (1428-1429)
+[orleans.n.02] Orleans -- a long siege of Orleans by the English was relieved by Joan of Arc in 1429
+[orlon.n.01] Orlon -- an acrylic fiber or the lightweight crease-resistant fabric made with Orlon yarns
+[orlop_deck.n.01] orlop deck -- the fourth or lowest deck
+[orly.n.01] Orly -- a southeastern suburb of Paris; site of an international airport serving Paris
+[ormandy.n.01] Ormandy -- United States conductor (born in Hungary) (1899-1985)
+[ormazd.n.01] Ormazd -- chief deity of Zoroastrianism; source of light and embodiment of good
+[ormer.n.01] ormer -- an abalone found near the Channel Islands
+[ormolu.n.01] ormolu -- brass that looks like gold; used to decorate furniture
+[ormosia.n.01] Ormosia -- genus of tropical shrubs and trees having usually odd-pinnate leaves with large leaflets and pink to reddish wood
+[ornamentalism.n.01] ornamentalism -- the practice of ornamental display
+[ornamental.n.01] ornamental -- any plant grown for its beauty or ornamental value
+[ornamentation.n.01] ornamentation -- the state of being ornamented
+[ornamentation.n.03] ornamentation -- the act of adding extraneous decorations to something
+[ornateness.n.02] ornateness -- an ornate appearance; being elaborately (even excessively) decorated
+[ornithine.n.01] ornithine -- an amino acid that does not occur in proteins but is important in the formation of urea
+[ornithischia.n.01] Ornithischia -- extinct terrestrial reptiles having bird-like pelvises: armored dinosaurs (thyreophorans); boneheaded and horned dinosaurs (marginocephalians); duck-billed dinosaurs (euronithopods)
+[ornithischian.n.01] ornithischian -- herbivorous dinosaur with a pelvis like that of a bird
+[ornithogalum.n.01] Ornithogalum -- sometimes placed in family Hyacinthaceae
+[ornithologist.n.01] ornithologist -- a zoologist who studies birds
+[ornithology.n.01] ornithology -- the branch of zoology that studies birds
+[ornithomimida.n.01] Ornithomimida -- lightly built medium-size theropods
+[ornithomimid.n.01] ornithomimid -- lightly built medium-sized dinosaur having extremely long limbs and necks with small heads and big brains and large eyes
+[ornithopod.n.01] ornithopod -- bipedal herbivorous dinosaur
+[ornithorhynchidae.n.01] Ornithorhynchidae -- platypus
+[ornithorhynchus.n.01] Ornithorhynchus -- type genus of the family Ornithorhynchidae
+[orobanchaceae.n.01] Orobanchaceae -- brown or yellow leafless herbs; sometimes placed in the order Scrophulariales
+[orogeny.n.01] orogeny -- the process of mountain formation (especially by the upward displacement of the earth's crust)
+[oroide.n.01] oroide -- alloy of copper and tin and zinc; used in imitation gold jewelry
+[orology.n.01] orology -- the science of mountains
+[orono.n.01] Orono -- a university town in east central Maine on the Penobscot River to the north of Bangor
+[orontium.n.01] Orontium -- one species of aquatic plant: golden club
+[oropharynx.n.01] oropharynx -- cavity formed by the pharynx at the back of the mouth
+[orozco.n.01] Orozco -- Mexican painter noted for his monumental murals (1883-1949)
+[orphanage.n.01] orphanage -- the condition of being a child without living parents
+[orphanage.n.02] orphanage -- a public institution for the care of orphans
+[orphan.n.01] orphan -- a child who has lost both parents
+[orphan.n.02] orphan -- someone or something who lacks support or care or supervision
+[orphan.n.03] orphan -- the first line of a paragraph that is set as the last line of a page or column
+[orphan.n.04] orphan -- a young animal without a mother
+[orphan_site.n.01] orphan site -- a toxic waste area where the polluter could not be identified or the polluter refused to take action or pay for the cleanup
+[orphenadrine.n.01] orphenadrine -- a skeletal muscle relaxant (trade name Norflex) used to treat severe muscle strain and Parkinsonism
+[orpheus.n.01] Orpheus -- (Greek mythology) a great musician; when his wife Eurydice died he went to Hades to get her back but failed
+[orphrey.n.01] orphrey -- a richly embroidered edging on an ecclesiastical vestment
+[orpiment.n.01] orpiment -- a yellow mineral occurring in conjunction with realgar; an ore of arsenic
+[orpine.n.01] orpine -- perennial northern temperate plant with toothed leaves and heads of small purplish-white flowers
+[orpington.n.01] Orpington -- English breed of large chickens with white skin
+[orrery.n.01] orrery -- planetarium consisting of an apparatus that illustrates the relative positions and motions of bodies in the solar system by rotation and revolution of balls moved by wheelwork; sometimes incorporated in a clock
+[orrisroot.n.01] orrisroot -- fragrant rootstock of various irises especially Florentine iris; used in perfumes and medicines
+[orr.n.01] Orr -- Canadian hockey player (born 1948)
+[ortalis.n.01] Ortalis -- chachalacas
+[ortega.n.01] Ortega -- Nicaraguan statesman (born in 1945)
+[ortega_y_gasset.n.01] Ortega y Gasset -- Spanish philosopher who advocated leadership by an intellectual elite (1883-1955)
+[orthicon.n.01] orthicon -- a now obsolete picture pickup tube in a television camera; electrons emitted from a photoemissive surface in proportion to the intensity of the incident light are focused onto the target causing secondary emission of electrons
+[orthilia.n.01] Orthilia -- a shrubby perennial rhizomatous evergreen herb; grows in damp coniferous woodlands in northern temperate regions
+[orthochorea.n.01] orthochorea -- a form of chorea in which spasms occur mainly when the patient is erect
+[orthochromatic_film.n.01] orthochromatic film -- a photographic film sensitive to green and blue and violet light
+[orthoclase.n.01] orthoclase -- a white or colored monoclinic feldspar
+[orthodontics.n.01] orthodontics -- the branch of dentistry dealing with the prevention or correction of irregularities of the teeth
+[orthodontic_treatment.n.01] orthodontic treatment -- dental treatment that corrects irregularities of the teeth or of the relation of the teeth to surrounding anatomy; treatment is usually by braces or mechanical aids
+[orthodontist.n.01] orthodontist -- a dentist specializing in the prevention or correction of irregularities of the teeth
+[orthodox_church.n.01] Orthodox Church -- derived from the Byzantine Church and adhering to Byzantine rites
+[orthodox_jew.n.01] Orthodox Jew -- Jew who practices strict observance of Mosaic law
+[orthodox_judaism.n.01] Orthodox Judaism -- Jews who strictly observe the Mosaic law as interpreted in the Talmud
+[orthodox_judaism.n.02] Orthodox Judaism -- beliefs and practices of a Judaic sect that strictly observes Mosaic law
+[orthodox_sleep.n.01] orthodox sleep -- a recurring sleep state during which rapid eye movements do not occur and dreaming does not occur; accounts for about 75% of normal sleep time
+[orthodoxy.n.01] orthodoxy -- the quality of being orthodox (especially in religion)
+[orthodoxy.n.02] orthodoxy -- a belief or orientation agreeing with conventional standards
+[orthoepist.n.01] orthoepist -- a practitioner of orthoepy (especially one of the 17th or 18th century scholars who proposed to reform English spelling so it would reflect pronunciation more closely)
+[orthoepy.n.02] orthoepy -- a term formerly used for the part of phonology that dealt with the `correct' pronunciation of words and its relation to `correct' orthography
+[orthogonality.n.01] orthogonality -- the relation of opposition between things at right angles
+[orthogonality.n.02] orthogonality -- the quality of lying or intersecting at right angles
+[orthography.n.01] orthography -- a method of representing the sounds of a language by written or printed symbols
+[orthomyxovirus.n.01] orthomyxovirus -- a group of viruses including those causing influenza
+[orthopedics.n.01] orthopedics -- the branch of medical science concerned with disorders or deformities of the spine and joints
+[orthopedist.n.01] orthopedist -- a specialist in correcting deformities of the skeletal system (especially in children)
+[orthopnea.n.01] orthopnea -- form of dyspnea in which the person can breathe comfortably only when standing or sitting erect; associated with asthma and emphysema and angina pectoris
+[orthopristis.n.01] Orthopristis -- a genus of Haemulidae
+[orthoptera.n.01] Orthoptera -- grasshoppers and locusts; crickets
+[orthopter.n.01] orthopter -- heavier-than-air craft that is propelled by the flapping of wings
+[orthopterous_insect.n.01] orthopterous insect -- any of various insects having leathery forewings and membranous hind wings and chewing mouthparts
+[orthoptics.n.01] orthoptics -- treatment of defects of binocular vision (such as strabismus and amblyopia) by nonsurgical measures (especially by exercises to strengthen the eye muscles)
+[orthoptist.n.01] orthoptist -- a specialist in orthoptics
+[orthoscope.n.01] orthoscope -- an ophthalmoscope with a layer of water to neutralize the refraction of the cornea
+[orthostatic_hypotension.n.01] orthostatic hypotension -- low blood pressure occurring in some people when they stand up
+[orthotomus.n.01] Orthotomus -- tailorbirds
+[orthotropous_ovule.n.01] orthotropous ovule -- a completely straight ovule with the micropyle at the apex
+[ortolan.n.01] ortolan -- brownish Old World bunting often eaten as a delicacy
+[ortygan.n.01] ortygan -- any of several East Indian birds
+[orwell.n.01] Orwell -- imaginative British writer concerned with social justice (1903-1950)
+[orycteropodidae.n.01] Orycteropodidae -- aardvarks
+[orycteropus.n.01] Orycteropus -- coextensive with the family Orycteropodidae
+[oryctolagus.n.01] Oryctolagus -- Old World rabbits
+[oryx.n.01] oryx -- large African antelope with long straight nearly upright horns
+[oryza.n.01] Oryza -- rice
+[oryzomys.n.01] Oryzomys -- rice rats
+[oryzopsis.n.01] Oryzopsis -- rice grass
+[orzo.n.01] orzo -- pasta shaped like pearls of barley; frequently prepared with lamb in Greek cuisine
+[osage.n.01] Osage -- a member of the Siouan people formerly living in Missouri in the valleys of the Missouri and Osage rivers; oil was found on Osage lands early in the 20th century
+[osage.n.02] Osage -- a river in Missouri that is a tributary of the Missouri River
+[osage.n.03] Osage -- the Dhegiha dialect spoken by the Osage
+[osage_orange.n.01] osage orange -- small shrubby deciduous yellowwood tree of south central United States having spines, glossy dark green leaves and an inedible fruit that resembles an orange; its hard orange-colored wood used for bows by Native Americans; frequently planted as boundary hedge
+[osaka_bay.n.01] Osaka Bay -- a bay of the western Pacific in southern Honshu
+[osaka.n.01] Osaka -- port city on southern Honshu on Osaka Bay; a commercial and industrial center of Japan Also a hyponym of: city.n.01.
+[osasco.n.01] Osasco -- a city in southeastern Brazil; suburb of Sao Paulo
+[osborne.n.01] Osborne -- English playwright (1929-1994)
+[oscan.n.01] Oscan -- an Oscan-speaking member of an ancient people of Campania
+[oscan.n.02] Oscan -- an extinct Italic language of ancient southern Italy
+[oscheocele.n.01] oscheocele -- swelling of the scrotum
+[oscillation.n.01] oscillation -- the process of oscillating between states
+[oscillation.n.02] oscillation -- (physics) a regular periodic variation in value about a mean
+[oscillatoriaceae.n.01] Oscillatoriaceae -- blue green algae
+[oscillator.n.01] oscillator -- generator that produces sonic oscillations or alternating current
+[oscillogram.n.01] oscillogram -- the recording produced by an oscillograph
+[oscillograph.n.01] oscillograph -- a device for making a record of the wave forms of fluctuating voltages or currents
+[oscilloscope.n.01] oscilloscope -- electronic equipment that provides visual images of varying electrical quantities
+[oscine.n.01] oscine -- passerine bird having specialized vocal apparatus
+[oscines.n.01] Oscines -- two names for the suborder of typical songbirds
+[oscitancy.n.01] oscitancy -- drowsiness and dullness manifested by yawning Also a hyponym of: dullness.n.01.
+[osco-umbrian.n.01] Osco-Umbrian -- a group of dead languages of ancient Italy; they were displace by Latin
+[osculation.n.01] osculation -- (mathematics) a contact of two curves (or two surfaces) at which they have a common tangent
+[osier.n.01] osier -- flexible twig of a willow tree
+[osier.n.02] osier -- any of various willows having pliable twigs used in basketry and furniture
+[osiris.n.01] Osiris -- Egyptian god of the underworld and judge of the dead; husband and brother of Isis; father of Horus
+[oslo.n.01] Oslo -- the capital and largest city of Norway; the country's main port; located at the head of a fjord on Norway's southern coast Also a hyponym of: port.n.01.
+[osman_i.n.01] Osman I -- the conqueror of Turkey who founded the Ottoman Empire and the Ottoman dynasty that ruled Turkey after the 13th century; conquered most of Asia Minor and assumed the title of emir in 1299 (1259-1326)
+[osmanthus.n.01] Osmanthus -- widely distributed genus of evergreen shrubs or trees of southern United States and Middle East and China and Japan
+[osmeridae.n.01] Osmeridae -- smelts
+[osmerus.n.01] Osmerus -- type genus of the Osmeridae
+[osmiridium.n.01] osmiridium -- a hard and corrosion resistant mineral that is a natural alloy of osmium and iridium (usually containing small amounts of rhodium and platinum); used in needles and pen nibs etc.
+[osmium.n.01] osmium -- a hard brittle blue-grey or blue-black metallic element that is one of the platinum metals; the heaviest metal known
+[osmoreceptor.n.01] osmoreceptor -- sensory end organ that responds to changes in osmotic pressure
+[osmosis.n.01] osmosis -- (biology, chemistry) diffusion of molecules through a semipermeable membrane from a place of higher concentration to a place of lower concentration until the concentration on both sides is equal
+[osmotic_pressure.n.01] osmotic pressure -- (physical chemistry) the pressure exerted by a solution necessary to prevent osmosis into that solution when it is separated from the pure solvent by a semipermeable membrane
+[osmundaceae.n.01] Osmundaceae -- large family of ferns widely distributed in temperate and tropical areas
+[os.n.01] os -- a mouth or mouthlike opening
+[osprey.n.01] osprey -- large harmless hawk found worldwide that feeds on fish and builds a bulky nest often occupied for years
+[ossete.n.01] Ossete -- a northeastern Iranian language spoken in Russia
+[ossicle.n.01] ossicle -- a small bone; especially one in the middle ear
+[ossification.n.01] ossification -- the developmental process of bone formation
+[ossification.n.02] ossification -- the calcification of soft tissue into a bonelike material
+[ossification.n.03] ossification -- the process of becoming rigidly fixed in a conventional pattern of thought or behavior
+[ossification.n.04] ossification -- hardened conventionality
+[osso_buco.n.01] osso buco -- sliced veal knuckle or shin bone cooked with olive oil and wine and tomatoes and served with rice or vegetables
+[ossuary.n.01] ossuary -- any receptacle for the burial of human bones
+[ostariophysi.n.01] Ostariophysi -- in some classifications considered a superorder comprising the Cypriniformes and the Siluriformes
+[osteichthyes.n.01] Osteichthyes -- a class of fish having a skeleton composed of bone in addition to cartilage
+[osteitis.n.01] osteitis -- inflammation of a bone as a consequence of infection or trauma or degeneration
+[ostensive_definition.n.01] ostensive definition -- a definition that points out or exhibits instances of the term defined
+[ostentation.n.01] ostentation -- a gaudy outward display
+[ostentation.n.02] ostentation -- lack of elegance as a consequence of being pompous and puffed up with vanity
+[ostentation.n.03] ostentation -- pretentious or showy or vulgar display
+[osteoarthritis.n.01] osteoarthritis -- chronic breakdown of cartilage in the joints; the most common form of arthritis occurring usually after middle age
+[osteoblast.n.01] osteoblast -- a cell from which bone develops
+[osteoblastoma.n.01] osteoblastoma -- benign tumor of bone and fibrous tissue; occurs in the vertebrae or femur or tibia or arm bones (especially in young adults)
+[osteochondroma.n.01] osteochondroma -- benign tumor containing both bone and cartilage; usually occurs near the end of a long bone
+[osteoclasis.n.01] osteoclasis -- treatment of a skeletal deformity by intentionally fracturing a bone
+[osteoclast.n.01] osteoclast -- cell that functions in the breakdown and resorption of bone tissue
+[osteocyte.n.01] osteocyte -- mature bone cell
+[osteodystrophy.n.01] osteodystrophy -- defective bone development; usually attributable to renal disease or to disturbances in calcium and phosphorus metabolism
+[osteogenesis_imperfecta.n.01] osteogenesis imperfecta -- autosomal dominant disorder of connective tissue characterized by brittle bones that fracture easily
+[osteoglossidae.n.01] Osteoglossidae -- a family of large fishes that live in freshwater; includes bandfish and bonytongues
+[osteoglossiformes.n.01] Osteoglossiformes -- teleost fish with bony tongues
+[osteologist.n.01] osteologist -- an anatomist who is skilled is osteology
+[osteology.n.01] osteology -- the branch of anatomy that studies the bones of the vertebrate skeleton
+[osteolysis.n.01] osteolysis -- lysis of bone caused by disease or infection or inadequate blood supply
+[osteomalacia.n.01] osteomalacia -- abnormal softening of bones caused by deficiencies of phosphorus or calcium or vitamin D
+[osteoma.n.01] osteoma -- a slow growing benign tumor of consisting of bone tissue; usually on the skull or mandible
+[osteomyelitis.n.01] osteomyelitis -- an inflammation of bone and bone marrow (usually caused by bacterial infection)
+[osteopath.n.01] osteopath -- a therapist who manipulates the skeleton and muscles
+[osteopathy.n.01] osteopathy -- therapy based on the assumption that restoring health is best accomplished by manipulating the skeleton and muscles
+[osteopetrosis.n.01] osteopetrosis -- an inherited disorder characterized by an increase in bone density; in severe forms the bone marrow cavity may be obliterated
+[osteophyte.n.01] osteophyte -- small abnormal bony outgrowth
+[osteoporosis.n.01] osteoporosis -- abnormal loss of bony tissue resulting in fragile porous bones attributable to a lack of calcium; most common in postmenopausal women
+[osteosarcoma.n.01] osteosarcoma -- malignant bone tumor; most common in children and young adults where it tends to affect the femur
+[osteosclerosis.n.01] osteosclerosis -- abnormal hardening or eburnation of bone
+[osteostracan.n.01] osteostracan -- extinct jawless fish of the Devonian with armored head
+[osteostraci.n.01] Osteostraci -- extinct group of armored fish-like vertebrates; taxonomy is not clear
+[osteotomy.n.01] osteotomy -- surgical sectioning of bone
+[ostinato.n.01] ostinato -- a musical phrase repeated over and over during a composition
+[ostiole.n.01] ostiole -- a small pore especially one in the reproductive bodies of certain algae and fungi through which spores pass
+[ostomy.n.01] ostomy -- surgical procedure that creates an artificial opening for the elimination of bodily wastes
+[ostraciidae.n.01] Ostraciidae -- boxfishes
+[ostracism.n.02] ostracism -- the act of excluding someone from society by general consent
+[ostracoda.n.01] Ostracoda -- seed shrimps
+[ostracodermi.n.01] Ostracodermi -- extinct group of armored jawless vertebrates; taxonomy is not clear
+[ostracoderm.n.01] ostracoderm -- extinct fish-like jawless vertebrate having a heavily armored body; of the Paleozoic
+[ostrava.n.01] Ostrava -- an industrial city in northwestern Czech Republic in the Moravian lowlands; located in the coal mining area of Silesia
+[ostrea.n.01] Ostrea -- type genus of the family Ostreidae
+[ostreidae.n.01] Ostreidae -- oysters
+[ostrich_fern.n.01] ostrich fern -- tall fern of northern temperate regions having graceful arched fronds and sporophylls resembling ostrich plumes
+[ostrich.n.01] ostrich -- a person who refuses to face reality or recognize the truth (a reference to the popular notion that the ostrich hides from danger by burying its head in the sand)
+[ostrich.n.02] ostrich -- fast-running African flightless bird with two-toed feet; largest living bird
+[ostrogoth.n.01] Ostrogoth -- a member of the eastern group of Goths who created a kingdom in northern Italy around 500 AD
+[ostrya.n.01] Ostrya -- deciduous monoecious trees of Europe and Asia and America; sometimes placed in subfamily or family Carpinaceae
+[ostryopsis.n.01] Ostryopsis -- deciduous monoecious shrubs of China and Mongolia resembling trees of the genus Ostrya; sometimes placed in subfamily or family Carpinaceae
+[ostwald.n.01] Ostwald -- German chemist (1853-1932)
+[ostyak.n.01] Ostyak -- a member of the nomadic Ugrian people living in northwestern Siberia (east of the Urals)
+[oswald.n.01] Oswald -- United States assassin of President John F. Kennedy (1939-1963)
+[otaheite_arrowroot.n.01] Otaheite arrowroot -- a starch obtained from the root of the pia
+[otaria.n.01] Otaria -- type genus of the Otariidae
+[otariidae.n.01] Otariidae -- eared seals: sea lions and fur seals
+[othello.n.01] Othello -- the hero of William Shakespeare's tragedy who would not trust his wife
+[otherness.n.01] otherness -- the quality of being not alike; being distinct or different from that otherwise experienced or known
+[otherworld.n.01] otherworld -- an abstract spiritual world beyond earthly reality
+[othonna.n.01] othonna -- a South African plant of the genus Othonna having smooth often fleshy leaves and heads of yellow flowers
+[otic_ganglion.n.01] otic ganglion -- an autonomic ganglion whose postganglionic fibers are distributed to the parotid gland
+[otides.n.01] Otides -- terrestrial game birds of the Old World and Australia: bustards
+[otididae.n.01] Otididae -- bustards
+[otis.n.01] Otis -- United States inventor who manufactured the first elevator with a safety device (1811-1861) Also a hyponym of: industrialist.n.01.
+[otis.n.02] Otis -- type genus of the Otididae: European bustard
+[otitis_externa.n.01] otitis externa -- inflammation of the external ear (including auricle and ear canal)
+[otitis_media.n.01] otitis media -- inflammation of the middle ear; common in children
+[otitis.n.01] otitis -- inflammation of the ear
+[otology.n.01] otology -- the branch of medicine concerned with the ear
+[oto.n.01] Oto -- a member of the Siouan people inhabiting the valleys of the Platte and Missouri rivers in Nebraska
+[oto.n.02] Oto -- a dialect of the Chiwere language spoken by the Oto
+[o'toole.n.01] O'Toole -- British actor (born in Ireland in 1932)
+[otoplasty.n.01] otoplasty -- reconstructive surgery of the auricle of the external ear
+[otorrhea.n.01] otorrhea -- discharge from the external ear
+[otosclerosis.n.01] otosclerosis -- hereditary disorder in which ossification of the labyrinth of the inner ear causes tinnitus and eventual deafness
+[otoscope.n.01] otoscope -- medical instrument consisting of a magnifying lens and light; used for examining the external ear (the auditory meatus and especially the tympanic membrane)
+[ottava_rima.n.01] ottava rima -- a stanza of eight lines of heroic verse with the rhyme scheme abababcc
+[ottawa.n.01] Ottawa -- a member of the Algonquian people of southern Ontario
+[ottawa.n.03] Ottawa -- the capital of Canada (located in southeastern Ontario across the Ottawa river from Quebec)
+[otterhound.n.01] otterhound -- hardy British hound having long pendulous ears and a thick coarse shaggy coat with an oily undercoat; bred for hunting otters
+[otter.n.01] otter -- the fur of an otter
+[otter.n.02] otter -- freshwater carnivorous mammal having webbed and clawed feet and dark brown fur
+[otter_shrew.n.01] otter shrew -- amphibious African insectivorous mammal that resembles an otter
+[otto_i.n.01] Otto I -- King of the Germans and Holy Roman Emperor (912-973) Also a hyponym of: holy_roman_emperor.n.01.
+[ottoman_empire.n.01] Ottoman Empire -- a Turkish sultanate of southwestern Asia and northeastern Africa and southeastern Europe; created by the Ottoman Turks in the 13th century and lasted until the end of World War I; although initially small it expanded until it superseded the Byzantine Empire
+[ottoman.n.01] Ottoman -- a Turk (especially a Turk who is a member of the tribe of Osman I)
+[ottoman.n.02] Ottoman -- the Turkish dynasty that ruled the Ottoman Empire from the 13th century to its dissolution after World War I
+[ottoman.n.03] ottoman -- thick cushion used as a seat
+[ottumwa.n.01] Ottumwa -- a town in southeast Iowa
+[otus.n.01] Otus -- a genus of Strigidae
+[ouachita.n.01] Ouachita -- a river that rises in western Arkansas and flows southeast into eastern Louisiana to become a tributary of the Red River
+[oubliette.n.01] oubliette -- a dungeon with the only entrance or exit being a trap door in the ceiling
+[ouguiya.n.01] ouguiya -- the basic unit of money in Mauritania
+[ouija.n.01] Ouija -- a board with the alphabet on it; used with a planchette to spell out supernatural messages
+[oujda.n.01] Oujda -- a city in northeastern Morocco near the Algerian border
+[ounce.n.01] ounce -- a unit of apothecary weight equal to 480 grains or one twelfth of a pound Also a hyponym of: apothecaries'_unit.n.01.
+[ounce.n.02] ounce -- a unit of weight equal to one sixteenth of a pound or 16 drams or 28.349 grams
+[ouranopithecus.n.01] Ouranopithecus -- a genus of Hominidae
+[ouranos.n.01] Ouranos -- (Greek mythology) god of the heavens; son and husband of Gaea and father of the Titans in ancient mythology
+[our_lord's_candle.n.01] Our Lord's candle -- yucca of southwestern United States and Mexico with a tall spike of creamy white flowers
+[ouse.n.01] Ouse -- a river in northeastern England that flows generally southeastward to join the Trent River and form the Humber
+[ouster.n.01] ouster -- a person who ousts or supplants someone else
+[ouster.n.02] ouster -- a wrongful dispossession
+[ouster.n.03] ouster -- the act of ejecting someone or forcing them out
+[outage.n.01] outage -- the amount of something (as whiskey or oil) lost in storage or transportation
+[outage.n.02] outage -- a temporary suspension of operation (as of computers)
+[out-and-outer.n.01] out-and-outer -- someone who is excellent at something
+[outaouais.n.01] Outaouais -- a river in southeastern Canada that flows along the boundary between Quebec and Ontario to the Saint Lawrence River near Montreal
+[outback.n.01] outback -- the bush country of the interior of Australia
+[out-basket.n.01] out-basket -- a wood or metal receptacle placed on your desk to hold your outgoing material
+[outboard_motorboat.n.01] outboard motorboat -- a motorboat with an outboard motor
+[outboard_motor.n.01] outboard motor -- internal-combustion engine that mounts at stern of small boat
+[outbreak.n.01] outbreak -- a sudden violent spontaneous occurrence (usually of some undesirable condition)
+[outbuilding.n.01] outbuilding -- a building that is subordinate to and separate from a main building
+[outburst.n.02] outburst -- a sudden intense happening
+[outburst.n.03] outburst -- a sudden violent disturbance
+[outcaste.n.01] outcaste -- a person belonging to no caste
+[outcast.n.01] outcast -- a person who is rejected (from society or home)
+[outcrop.n.01] outcrop -- the part of a rock formation that appears above the surface of the surrounding land
+[outdoor_game.n.01] outdoor game -- an athletic game that is played outdoors
+[outdoorsman.n.01] outdoorsman -- a person who spends time outdoors (e.g., hunting or fishing)
+[outdoors.n.01] outdoors -- where the air is unconfined
+[outdoor_sport.n.01] outdoor sport -- a sport that is played outdoors
+[outdoorswoman.n.01] outdoorswoman -- a woman who spends time outdoors (e.g., hunting and fishing)
+[outercourse.n.01] outercourse -- sexual stimulation without vaginal penetration
+[outer_hebrides.n.01] Outer Hebrides -- a 130-mile long archipelago to the northwest of Scotland
+[outer_planet.n.01] outer planet -- (astronomy) a major planet whose orbit is outside the asteroid belt (Jupiter, Saturn, Uranus, Neptune, Pluto)
+[outer_space.n.01] outer space -- any location outside the Earth's atmosphere Also a hyponym of: location.n.01.
+[outerwear.n.01] outerwear -- clothing for use outdoors
+[outfall.n.01] outfall -- the outlet of a river or drain or other source of water
+[outfielder.n.01] outfielder -- (baseball) a person who plays in the outfield
+[outfielder.n.02] outfielder -- a fielder in cricket who is stationed in the outfield
+[outfield.n.01] outfield -- the area of a baseball playing field beyond the lines connecting the bases
+[outfit.n.01] outfit -- any cohesive unit such as a military company
+[outfit.n.02] outfit -- a set of clothing (with accessories)
+[outfitter.n.01] outfitter -- someone who sells men's clothes
+[outfitter.n.02] outfitter -- a shop that provides equipment for some specific purpose
+[outfitting.n.01] outfitting -- the act of renovating and fitting out a ship
+[outflow.n.02] outflow -- the process of flowing out
+[outgo.n.01] outgo -- money paid out; an amount spent
+[outgrowth.n.01] outgrowth -- a natural consequence of development
+[outhouse.n.01] outhouse -- a small outbuilding with a bench having holes through which a user can defecate
+[outlandishness.n.01] outlandishness -- strikingly out of the ordinary
+[outlet_box.n.01] outlet box -- (electricity) receptacle consisting of the metal box designed for connections to a wiring system
+[outlier.n.01] outlier -- a person who lives away from his place of work
+[outlier.n.02] outlier -- an extreme deviation from the mean
+[outline.n.01] outline -- the line that appears to bound an object
+[outline.n.02] outline -- a sketchy summary of the main points of an argument or theory
+[outline.n.03] outline -- a schematic or preliminary plan
+[out.n.01] out -- (baseball) a failure by a batter or runner to reach a base safely in baseball
+[out-of-body_experience.n.01] out-of-body experience -- the dissociative experience of observing yourself from an external perspective as though your mind or soul had left and was observing your body
+[out-of-court_settlement.n.01] out-of-court settlement -- resolution of a dispute prior to the rendering of a final decision by the trial court
+[outpatient.n.01] outpatient -- a patient who does not reside in the hospital where he is being treated
+[outport.n.01] outport -- a subsidiary port built in deeper water than the original port (but usually farther from the center of trade)
+[outpost.n.03] outpost -- a military post stationed at a distance from the main body of troops
+[output_contract.n.01] output contract -- a contract in which you promise to deliver your entire output to the other party who promises to accept it
+[output_device.n.01] output device -- electronic or electromechanical equipment connected to a computer and used to transfer data out of the computer in the form of text, images, sounds, or other media
+[output_file.n.01] output file -- (computer science) a computer file that contains data that are the output of a device or program
+[output.n.02] output -- production of a certain amount
+[output.n.04] output -- the quantity of something (as a commodity) that is created (usually within a given period of time)
+[output.n.05] output -- what is produced in a given time period
+[output_program.n.01] output program -- a utility program that organizes the output of a computer
+[output_routine.n.01] output routine -- a routine that controls an output device
+[output_signal.n.01] output signal -- signal that comes out of an electronic system
+[output-to-input_ratio.n.01] output-to-input ratio -- the output power of a transducer divided by the input power
+[outrage.n.02] outrage -- a wantonly cruel act
+[outrageousness.n.02] outrageousness -- the quality of being outrageous
+[outreach.n.01] outreach -- the act of reaching out
+[outrider.n.01] outrider -- an escort who rides ahead (as a member of the vanguard)
+[outrigger_canoe.n.01] outrigger canoe -- a seagoing canoe (as in South Pacific) with an outrigger to prevent it from upsetting
+[outrigger.n.01] outrigger -- a stabilizer for a canoe; spars attach to a shaped log or float parallel to the hull
+[outside_caliper.n.01] outside caliper -- caliper for measuring outside dimensions; points on its legs curve inward
+[outside_clinch.n.01] outside clinch -- a clinch with the end of the line outside the loop
+[outside_loop.n.01] outside loop -- a loop consisting of a dive followed by inverted flight followed by a climb that returns to horizontal flight
+[outside_mirror.n.01] outside mirror -- car mirror that reflects the view at side and behind car
+[outside.n.01] outside -- the region that is outside of something
+[outside.n.02] outside -- the outer side or surface of something
+[outsider_art.n.01] outsider art -- a genre of art and outdoor constructions made by untrained artists who do not recognize themselves as artists
+[outsider.n.02] outsider -- a contestant (human or animal) not considered to have a good chance to win
+[outsize.n.01] outsize -- an unusual garment size (especially one that is very large)
+[outskirt.n.01] outskirt -- a part of the city far removed from the center
+[outskirts.n.01] outskirts -- outlying areas (as of a city or town)
+[outsole.n.01] outsole -- the outer sole of a shoe or boot that is the bottom of the shoe and makes contact with the ground
+[outstation.n.01] outstation -- a station in a remote or sparsely populated location
+[outstroke.n.01] outstroke -- the stroke of an engine piston moving toward the crankshaft
+[outtake.n.01] outtake -- a scene that is filmed but is not used in the final editing of the film
+[outthrust.n.01] outthrust -- an outcropping of rock that extends outward
+[outwardness.n.01] outwardness -- concern with outward things or material objects as opposed to the mind and spirit
+[outwardness.n.02] outwardness -- the quality or state of being outside or directed toward or relating to the outside or exterior
+[outwardness.n.03] outwardness -- a concern with or responsiveness to outward things (especially material objects as opposed to ideal concepts)
+[outwork.n.01] outwork -- subsidiary defensive structure lying outside the main fortified area
+[ouzo.n.01] ouzo -- a Greek liquor flavored with anise
+[ovalipes.n.01] Ovalipes -- a genus of Portunidae
+[oval_office.n.01] Oval Office -- the office of the President of the United States in the White House
+[ovarian_artery.n.01] ovarian artery -- the artery that branches from the aorta and supplies blood to the ovaries
+[ovarian_cyst.n.01] ovarian cyst -- a cystic tumor (usually benign) of the ovary
+[ovarian_pregnancy.n.01] ovarian pregnancy -- ectopic pregnancy in the ovary
+[ovarian_vein.n.01] ovarian vein -- one of the veins that drain the ovaries; the right opens into the inferior vena cava; the left opens into the left renal vein
+[ovaritis.n.01] ovaritis -- inflammation of the ovaries
+[ovary.n.01] ovary -- the organ that bears the ovules of a flower
+[ovary.n.02] ovary -- (vertebrates) one of usually two organs that produce ova and secrete estrogen and progesterone Also a hyponym of: female_internal_reproductive_organ.n.01.
+[ovate_leaf.n.01] ovate leaf -- an egg-shaped leaf with the broader end at the base
+[ovation.n.01] ovation -- enthusiastic recognition (especially one accompanied by loud applause)
+[ovenbird.n.01] ovenbird -- American warbler; builds a dome-shaped nest on the ground
+[ovenbird.n.02] ovenbird -- small brownish South American birds that build oven-shaped clay nests
+[oven.n.01] oven -- kitchen appliance used for baking or roasting
+[oven_stuffer.n.01] Oven Stuffer -- a brand name for a roasting chicken
+[oven_thermometer.n.01] oven thermometer -- a thermometer that registers the temperature inside an oven
+[ovenware.n.01] ovenware -- heat-resistant dishware in which food can be cooked as well as served
+[overabundance.n.02] overabundance -- a quantity that is more than what is appropriate
+[overachievement.n.01] overachievement -- better than expected performance (better than might have been predicted from intelligence tests)
+[overachiever.n.01] overachiever -- a student who attains higher standards than the IQ indicated
+[overactivity.n.01] overactivity -- excessive activity
+[overage.n.01] overage -- a surplus or excess of money or merchandise that is actually on hand and that exceeds expectations
+[overall.n.01] overall -- (usually plural) work clothing consisting of denim trousers (usually with a bib and shoulder straps)
+[overall.n.02] overall -- a loose protective coverall or smock worn over ordinary clothing for dirty work
+[overanxiety.n.01] overanxiety -- excessive anxiety
+[overbid.n.01] overbid -- a bid that is higher than preceding bids
+[overbid.n.02] overbid -- (bridge) a bid that is higher than your opponent's bid (especially when your partner has not bid at all and your bid exceeds the value of your hand)
+[overbite.n.01] overbite -- (dentistry) malocclusion in which the upper teeth extend abnormally far over the lower teeth
+[overburden.n.01] overburden -- the surface soil that must be moved away to get at coal seams and mineral deposits
+[overcapitalization.n.01] overcapitalization -- (business) too much capitalization (the sale of more stock than the business warrants)
+[overcast.n.03] overcast -- a long whipstitch or overhand stitch overlying an edge to prevent raveling
+[overcast.n.04] overcast -- a cast that falls beyond the intended spot
+[overcharge.n.01] overcharge -- a price that is too high
+[overcoat.n.02] overcoat -- an additional protective coating (as of paint or varnish)
+[overcompensation.n.01] overcompensation -- (psychiatry) an attempt to overcome a real or imagined defect or unwanted trait by overly exaggerating its opposite
+[overcompensation.n.02] overcompensation -- excessive compensation
+[overcredulity.n.01] overcredulity -- too much credulity
+[overcup_oak.n.01] overcup oak -- medium-large deciduous timber tree of central and southern United States; acorns deeply immersed in the cup and mature in first year
+[overdraft_credit.n.01] overdraft credit -- credit provided by a bank in honoring a customer's overdrafts
+[overdraft.n.01] overdraft -- a draft in excess of the credit balance
+[overdrive.n.01] overdrive -- the state of high or excessive activity or productivity or concentration
+[overdrive.n.02] overdrive -- a high gear used at high speeds to maintain the driving speed with less output power
+[overemphasis.n.01] overemphasis -- too much emphasis
+[overestimate.n.01] overestimate -- an appraisal that is too high
+[overestimate.n.02] overestimate -- a calculation that results in an estimate that is too high
+[overexertion.n.01] overexertion -- excessive exertion; so much exertion that discomfort or injury results
+[overexploitation.n.01] overexploitation -- exploitation to the point of diminishing returns
+[overexposure.n.01] overexposure -- the act of exposing film to too much light or for too long a time
+[overexposure.n.02] overexposure -- the act of exposing someone excessively to an influencing experience
+[overfeeding.n.01] overfeeding -- excessive feeding
+[overflight.n.01] overflight -- a flight by an aircraft over a particular area (especially over an area in foreign territory)
+[overflow_incontinence.n.01] overflow incontinence -- urinary incontinence that occurs when the bladder is so full that it continually leaks urine; often attributable to a blocked urethra (e.g., due to prostate enlargement) or weak bladder muscles or nerve damage
+[overflow.n.02] overflow -- the occurrence of surplus liquid (as water) exceeding the limit or capacity
+[overgarment.n.01] overgarment -- a garment worn over other garments
+[overgrowth.n.02] overgrowth -- a profusion of growth on or over something else
+[overhand_knot.n.01] overhand knot -- a simple small knot (often used as part of other knots)
+[overhand_pitch.n.01] overhand pitch -- a baseball pitch in which the hand moves above the shoulder
+[overhand_stitch.n.01] overhand stitch -- a stitch passing over an edge vertically
+[overhang.n.01] overhang -- projection that extends beyond or hangs over something else
+[overhaul.n.01] overhaul -- periodic maintenance on a car or machine
+[overhead.n.05] overhead -- (nautical) the top surface of an enclosed space on a ship
+[overhead.n.06] overhead -- a hard return hitting the tennis ball above your head
+[overhead_projector.n.01] overhead projector -- a projector operated by a speaker; projects the image over the speaker's head
+[overheating.n.01] overheating -- excessive heating
+[overindulgence.n.01] overindulgence -- excessive indulgence
+[overkill.n.01] overkill -- the capability to obliterate a target with more weapons (especially nuclear weapons) than are required
+[overkill.n.02] overkill -- any effort that seems to go farther than would be necessary to achieve its goal
+[overlap.n.01] overlap -- a representation of common ground between theories or phenomena
+[overlap.n.02] overlap -- the property of partial coincidence in time
+[overlay.n.02] overlay -- a layer of decorative material (such as gold leaf or wood veneer) applied over a surface Also a hyponym of: layer.n.01.
+[overlip.n.01] overlip -- the upper lip
+[overload.n.01] overload -- an electrical load that exceeds the available electrical power
+[overload.n.02] overload -- an excessive burden
+[overlook.n.01] overlook -- a high place affording a good view
+[overlord.n.01] overlord -- a person who has general authority over others
+[overlordship.n.01] overlordship -- the position of overlord
+[overmantel.n.01] overmantel -- a shelf over a mantelpiece
+[over.n.01] over -- (cricket) the division of play during which six balls are bowled at the batsman by one player from the other team from the same end of the pitch
+[overnighter.n.01] overnighter -- a guest who stays overnight
+[overnighter.n.02] overnighter -- a small traveling bag to carry clothing and accessories for staying overnight
+[overpass.n.01] overpass -- bridge formed by the upper level of a crossing of two highways at different levels
+[overpayment.n.01] overpayment -- a payment larger than needed or expected
+[overpayment.n.02] overpayment -- the act of paying too much
+[overplus.n.01] overplus -- extreme excess
+[overpopulation.n.01] overpopulation -- too much population
+[overpressure.n.01] overpressure -- a transient air pressure greater than the surrounding atmospheric pressure
+[overprint.n.01] overprint -- something added by overprinting
+[overproduction.n.01] overproduction -- too much production or more than expected
+[overreaction.n.01] overreaction -- an excessive reaction; a reaction with inappropriate emotional behavior
+[override.n.01] override -- a manually operated device to correct the operation of an automatic device
+[overseer.n.01] overseer -- a person who directs and manages an organization
+[oversensitiveness.n.01] oversensitiveness -- sensitivity leading to easy irritation or upset
+[overshoe.n.01] overshoe -- footwear that protects your shoes from water or snow or cold
+[overshoot.n.01] overshoot -- an approach that fails and gives way to another attempt
+[oversight.n.01] oversight -- an unintentional omission resulting from failure to notice something
+[oversight.n.03] oversight -- a mistake resulting from inattention
+[oversimplification.n.01] oversimplification -- an act of excessive simplification; the act of making something seem simpler than it really is
+[oversimplification.n.02] oversimplification -- a simplification that goes too far (to the point of misrepresentation)
+[overskirt.n.01] overskirt -- an outer skirt worn over another skirt
+[overspill.n.01] overspill -- the relocation of people from overcrowded cities; they are accommodated in new houses or apartments in smaller towns
+[overstrain.n.01] overstrain -- too much strain
+[over-the-counter_drug.n.01] over-the-counter drug -- a drug that is sold without a prescription
+[over-the-counter_market.n.01] over-the-counter market -- a stock exchange where securities transactions are made via telephone and computer rather than on the floor of an exchange
+[over_the_counter_stock.n.01] over the counter stock -- stock that is not listed and traded on an organized exchange
+[over-the-shoulder_bombing.n.01] over-the-shoulder bombing -- a special case of loft bombing in which the bomb is released past the vertical so it is tossed back to the target
+[overthrow.n.01] overthrow -- the termination of a ruler or institution (especially by force)
+[overtime.n.01] overtime -- work done in addition to regular working hours
+[overtime.n.02] overtime -- playing time beyond regulation, to break a tie
+[overtime_period.n.01] overtime period -- a period of overtime play to resolve a tie; e.g. basketball
+[overtolerance.n.01] overtolerance -- too much permissiveness
+[overtone.n.01] overtone -- (usually plural) an ulterior implicit meaning or quality
+[overtone.n.02] overtone -- a harmonic with a frequency that is a multiple of the fundamental frequency
+[overt_operation.n.01] overt operation -- the collection of intelligence openly without concealment
+[overture.n.01] overture -- orchestral music played at the beginning of an opera or oratorio
+[overture.n.03] overture -- a tentative suggestion designed to elicit the reactions of others
+[overturn.n.02] overturn -- an improbable and unexpected victory
+[overvaluation.n.02] overvaluation -- too high a value or price assigned to something
+[overview.n.01] overview -- a general summary of a subject
+[overwork.n.01] overwork -- the act of working too much or too long
+[ovibos.n.01] Ovibos -- consisting of the musk-ox
+[ovid.n.01] Ovid -- Roman poet remembered for his elegiac verses on love (43 BC - AD 17)
+[oviedo.n.01] Oviedo -- a city in northwestern Spain near the Cantabrian Mountains
+[ovipositor.n.01] ovipositor -- egg-laying tubular structure at the end of the abdomen in many female insects and some fishes
+[oviraptorid.n.01] oviraptorid -- advanced carnivorous theropod
+[ovis.n.01] Ovis -- sheep
+[ovocon.n.01] Ovocon -- trade name for an oral contraceptive containing estradiol and norethindrone
+[ovoid.n.01] ovoid -- an egg-shaped object
+[ovolo.n.01] ovolo -- a convex molding having a cross section in the form of a quarter of a circle or of an ellipse
+[ovotestis.n.01] ovotestis -- hermaphroditic gonad that contains both testicular and ovarian tissue
+[ovral.n.01] Ovral -- trade name for an oral contraceptive containing estradiol and norgestrel
+[ovrette.n.01] Ovrette -- trade name for an oral contraceptive containing norgestrel
+[ovulation_method_of_family_planning.n.01] ovulation method of family planning -- natural family planning in which the fertile period is inferred from changes in the character and quantity of cervical mucus; ovulation is marked by an increase in mucus that becomes sticky and then clearer and slippery
+[ovulation.n.01] ovulation -- the expulsion of an ovum from the ovary (usually midway in the menstrual cycle)
+[ovule.n.01] ovule -- a small body that contains the female germ cell of a plant; develops into a seed after fertilization
+[ovule.n.02] ovule -- a small or immature ovum
+[ovulen.n.01] Ovulen -- trade name for an oral contraceptive containing mestranol and a progestin compound
+[ovum.n.01] ovum -- the female reproductive cell; the female gamete
+[owen.n.01] Owen -- Welsh industrialist and social reformer who founded cooperative communities (1771-1858) Also a hyponym of: reformer.n.01.
+[owen.n.02] Owen -- English comparative anatomist and paleontologist who was an opponent of Darwinism (1804-1892) Also a hyponym of: comparative_anatomist.n.01.
+[owensboro.n.01] Owensboro -- a town in northwestern Kentucky on the Ohio River; a tobacco market
+[owens.n.01] Owens -- United States athlete and Black American whose success in the 1936 Olympic Games in Berlin outraged Hitler (1913-1980)
+[owlet.n.01] owlet -- young owl
+[owl.n.01] owl -- nocturnal bird of prey with hawk-like beak and claws and large head with front-facing eyes
+[owner-driver.n.01] owner-driver -- a motorist who owns the car that he/she drives
+[owner.n.01] owner -- (law) someone who owns (is legal possessor of) a business
+[owner.n.02] owner -- a person who owns something
+[owner-occupier.n.01] owner-occupier -- an occupant who owns the home that he/she lives in
+[ownership.n.01] ownership -- the relation of an owner to the thing possessed; possession with the right to transfer possession to others
+[ownership.n.03] ownership -- the state or fact of being an owner
+[own_goal.n.01] own goal -- (soccer) a goal that results when a player inadvertently knocks the ball into the goal he is defending
+[own_right.n.01] own right -- by title vested in yourself or by virtue of qualifications that you have achieved
+[oxacillin.n.01] oxacillin -- a form of penicillin resistant to penicillinase and effective against penicillin-resistant staphylococci
+[oxalacetate.n.01] oxalacetate -- a salt or ester of oxalacetic acid
+[oxalacetic_acid.n.01] oxalacetic acid -- an acid formed by oxidation of maleic acid (as in metabolism of fats and carbohydrates)
+[oxalate.n.01] oxalate -- a salt or ester of oxalic acid
+[oxalic_acid.n.01] oxalic acid -- a toxic colorless crystalline organic acid found in oxalis and other plants; used as a bleach and rust remover and in chemical analysis
+[oxalidaceae.n.01] Oxalidaceae -- a family of widely distributed herbs of the order Geraniales; have compound leaves and pentamerous flowers
+[oxalis.n.01] oxalis -- any plant or flower of the genus Oxalis
+[oxandra.n.01] Oxandra -- genus of tropical trees
+[oxaprozin.n.01] oxaprozin -- a nonsteroidal anti-inflammatory drug (trade name Daypro)
+[oxazepam.n.01] oxazepam -- a tranquilizing drug (trade name Serax) used to treat anxiety and insomnia and alcohol withdrawal
+[oxblood_red.n.01] oxblood red -- a dark brownish-red color
+[oxbow_lake.n.01] oxbow lake -- a crescent-shaped lake (often temporary) that is formed when a meander of a river is cut off from the main channel
+[oxbow.n.01] oxbow -- the land inside an oxbow bend in a river
+[oxbow.n.02] oxbow -- a U-shaped curve in a stream
+[oxbow.n.03] oxbow -- a wooden framework bent in the shape of a U; its upper ends are attached to the horizontal yoke and the loop goes around the neck of an ox
+[oxbridge.n.01] Oxbridge -- general term for an ancient and prestigious and privileged university (especially Oxford University or Cambridge University)
+[oxcart.n.01] oxcart -- a cart that is drawn by an ox
+[oxeye_daisy.n.01] oxeye daisy -- similar to oxeye daisy
+[oxeye_daisy.n.02] oxeye daisy -- tall leafy-stemmed Eurasian perennial with white flowers; widely naturalized; often placed in genus Chrysanthemum
+[oxeye.n.02] oxeye -- Eurasian perennial herbs having daisylike flowers with yellow rays and dark centers
+[oxeye.n.03] oxeye -- an oval or round dormer window
+[oxford_english_dictionary.n.01] Oxford English Dictionary -- an unabridged dictionary constructed on historical principles
+[oxford_english.n.01] Oxford English -- the dialect of English spoken at Oxford University and regarded by many as affected and pretentious
+[oxford_movement.n.01] Oxford movement -- 19th-century movement in the Church of England opposing liberal tendencies
+[oxford.n.01] Oxford -- a city in southern England to the northwest of London; site of Oxford University
+[oxford.n.02] Oxford -- a university town in northern Mississippi; home of William Faulkner
+[oxford.n.04] oxford -- a low shoe laced over the instep
+[oxford_university.n.01] Oxford University -- a university in England
+[oxidant.n.01] oxidant -- a substance that oxidizes another substance
+[oxidase.n.01] oxidase -- any of the enzymes that catalyze biological oxidation
+[oxidation.n.01] oxidation -- the process of oxidizing; the addition of oxygen to a compound with a loss of electrons; always occurs accompanied by reduction
+[oxidation_number.n.01] oxidation number -- the degree of oxidation of an atom or ion or molecule; for simple atoms or ions the oxidation number is equal to the ionic charge
+[oxidation-reduction_indicator.n.01] oxidation-reduction indicator -- an indicator that shows a reversible color change between oxidized and reduced forms
+[oxidation-reduction.n.01] oxidation-reduction -- a reversible chemical reaction in which one reaction is an oxidation and the reverse is a reduction
+[oxidative_phosphorylation.n.01] oxidative phosphorylation -- an enzymatic process in cell metabolism that synthesizes ATP from ADP
+[oxide.n.01] oxide -- any compound of oxygen with another element or a radical
+[oxidized_ldl_cholesterol.n.01] oxidized LDL cholesterol -- LDL cholesterol that has been bombarded by free radicals; it is thought to cause atherosclerosis
+[oxidoreductase.n.01] oxidoreductase -- an enzyme that catalyzes oxidation-reduction
+[oxime.n.01] oxime -- any compound containing the group -C=NOH
+[oximeter.n.01] oximeter -- a measuring instrument that measures the oxygen in arterial blood
+[oxlip.n.01] oxlip -- Eurasian primrose with yellow flowers clustered in a one-sided umbel
+[ox.n.01] ox -- an adult castrated bull of the genus Bos; especially Bos taurus
+[ox.n.02] ox -- any of various wild bovines especially of the genera Bos or closely related Bibos
+[oxonian.n.01] Oxonian -- a native or resident of Oxford
+[oxtail.n.01] oxtail -- the skinned tail of cattle; used especially for soups
+[oxtail_soup.n.01] oxtail soup -- a soup made from the skinned tail of an ox
+[oxtant.n.01] oxtant -- a unit of angular distance equal to half a quadrant
+[oxtongue.n.01] oxtongue -- widespread European weed with spiny tongue-shaped leaves and yellow flowers; naturalized in United States
+[oxyacetylene.n.01] oxyacetylene -- a mixture of oxygen and acetylene; used to create high temperatures for cutting or welding metals
+[oxyacetylene_torch.n.01] oxyacetylene torch -- a blowtorch that burns oxyacetylene
+[oxyacid.n.01] oxyacid -- any acid that contains oxygen
+[oxybelis.n.01] Oxybelis -- vine snakes
+[oxycephaly.n.01] oxycephaly -- a congenital abnormality of the skull; the top of the skull assumes a cone shape
+[oxydendrum.n.01] Oxydendrum -- sourwood
+[oxygenase.n.01] oxygenase -- an oxidoreductase that catalyzes the incorporation of molecular oxygen
+[oxygenation.n.01] oxygenation -- the process of providing or combining or treating with oxygen
+[oxygen_debt.n.01] oxygen debt -- a cumulative deficit of oxygen resulting from intense exercise; the deficit must be made up when the body returns to rest
+[oxygen_deficit.n.01] oxygen deficit -- temporary oxygen shortage in cells resulting from strenuous exercise
+[oxygen_mask.n.01] oxygen mask -- a breathing device that is placed over the mouth and nose; supplies oxygen from an attached storage tank
+[oxygen.n.01] oxygen -- a nonmetallic bivalent element that is normally a colorless odorless tasteless nonflammable diatomic gas; constitutes 21 percent of the atmosphere by volume; the most abundant element in the earth's crust Also a hyponym of: chemical_element.n.01.
+[oxyhemoglobin.n.01] oxyhemoglobin -- the bright red hemoglobin that is a combination of hemoglobin and oxygen from the lungs
+[oxylebius.n.01] Oxylebius -- a genus of Hexagrammidae
+[oxymoron.n.01] oxymoron -- conjoining contradictory terms (as in `deafening silence')
+[oxyopia.n.01] oxyopia -- unusually acute vision
+[oxyphenbutazone.n.01] oxyphenbutazone -- an anti-inflammatory drug (trade name Tandearil) used to treat arthritis and bursitis
+[oxyphencyclimine.n.01] oxyphencyclimine -- an anticholinergic drug (trade name Daricon) used in treating peptic ulcers
+[oxytetracycline.n.01] oxytetracycline -- a yellow crystalline antibiotic (trademark Terramycin) obtained from a soil actinomycete; used to treat various bacterial and rickettsial infections
+[oxytocic.n.01] oxytocic -- a drug that induces labor by stimulating contractions of the muscles of the uterus
+[oxytocin.n.01] oxytocin -- hormone secreted by the posterior pituitary gland (trade name Pitocin); stimulates contractions of the uterus and ejection of milk
+[oxytone.n.01] oxytone -- word having stress or an acute accent on the last syllable
+[oxytropis.n.01] Oxytropis -- large widely-distributed genus of evergreen shrubs or subshrubs having odd-pinnate leaves and racemose or spicate flowers each having a pea-like corolla with a clawed petal
+[oxyura.n.01] Oxyura -- ruddy duck
+[oxyuranus.n.01] Oxyuranus -- taipans
+[oxyuridae.n.01] Oxyuridae -- pinworms
+[oyabun.n.01] oyabun -- a Japanese supervisor
+[oyster_bar.n.01] oyster bar -- a bar (as in a restaurant) that specializes in oysters prepared in different ways
+[oyster_bed.n.01] oyster bed -- a workplace where oysters are bred and grown
+[oystercatcher.n.01] oystercatcher -- black-and-white shorebird with stout legs and bill; feed on oysters etc.
+[oyster_crab.n.01] oyster crab -- tiny soft-bodied crab living within the mantle cavity of oysters
+[oyster_cracker.n.01] oyster cracker -- a small dry usually round cracker
+[oyster_fish.n.01] oyster fish -- a variety of toadfish
+[oyster_mushroom.n.01] oyster mushroom -- edible agaric with a soft greyish cap growing in shelving masses on dead wood
+[oyster.n.01] oyster -- marine mollusks having a rough irregular shell; found on the sea bed mostly in coastal waters
+[oyster.n.03] oyster -- a small muscle on each side of the back of a fowl
+[oyster_plant.n.03] oyster plant -- long white salsify
+[oyster_shell.n.01] oyster shell -- a shell of an oyster
+[oysters_rockefeller.n.01] oysters Rockefeller -- oysters spread with butter and spinach and seasonings and baked on the half shell
+[oyster_stew.n.01] oyster stew -- oysters in cream
+[oyster_stuffing.n.01] oyster stuffing -- stuffing made with oysters
+[ozark_chinkapin.n.01] Ozark chinkapin -- shrubby tree closely related to the Allegheny chinkapin but with larger leaves; southern midwestern United States
+[ozarks.n.01] Ozarks -- an area of low mountains in northwestern Arkansas and southeastern Missouri and northeastern Oklahoma
+[ozawa.n.01] Ozawa -- United States conductor (born in Japan in 1935)
+[ozena.n.01] ozena -- a chronic disease of the nose characterized by a foul-smelling nasal discharge and atrophy of nasal structures
+[ozone_hole.n.01] ozone hole -- an area of the ozone layer (near the poles) that is seasonally depleted of ozone
+[ozone_layer.n.01] ozone layer -- a layer in the stratosphere (at approximately 20 miles) that contains a concentration of ozone sufficient to block most ultraviolet radiation from the sun
+[ozone.n.01] ozone -- a colorless gas (O3) soluble in alkalis and cold water; a strong oxidizing agent; can be produced by electric discharge in oxygen or by the action of ultraviolet radiation on oxygen in the stratosphere (where it acts as a screen for ultraviolet radiation)
+[ozone_sickness.n.01] ozone sickness -- illness that can occur to persons exposed to ozone in high-altitude aircraft; characterized by sleepiness and headache and chest pains and itchiness
+[ozonide.n.01] ozonide -- any of a class of unstable chemical compounds resulting from the addition of ozone to a double bond in an unsaturated compound
+[ozonium.n.01] Ozonium -- form genus of imperfect fungi
+[ozothamnus.n.01] Ozothamnus -- genus of Australian shrubs and perennial herbs; sometimes included in genus Helichrysum
