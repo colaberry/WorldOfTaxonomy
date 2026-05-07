@@ -4471,6 +4471,14 @@
     "hash": "8964071953ec16818cb4ad89409804b47bb35d26c29f597a4ecccb0dd88a0ca9",
     "nodes": 38
   },
+  "gs1_gpc": {
+    "bytes": 2424470,
+    "files": [
+      "gs1_gpc.txt"
+    ],
+    "hash": "fdcca758dbeb53c24b938b306f167308a87a5910560568100dcd84a42c9a1ea3",
+    "nodes": 6450
+  },
   "gs1_standards": {
     "bytes": 532,
     "files": [
