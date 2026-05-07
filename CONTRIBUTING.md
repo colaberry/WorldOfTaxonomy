@@ -12,9 +12,30 @@
 
 ## Adding a Classification System
 
-Before writing any code, confirm the proposed system fits the project's scope. The [Inclusion Policy](wiki/inclusion-policy.md) is the canonical answer to "should this be in WoT?": published external source, stable identifiers, enumerated or hierarchical structure, practical size. If the system fails any of those tests, surface it in an issue first to discuss before opening a PR.
+### Step 0 - Validate against the Inclusion Policy
 
-### Step 0 - Validate the data source
+**Do not download data or write code until this step is complete.**
+
+The [Inclusion Policy](wiki/inclusion-policy.md) is the canonical answer to "should this be in WoT?" Run the proposed system through these four tests before anything else.
+
+| # | Test | Auto-qualify | HITL review |
+|---|------|--------------|-------------|
+| 1 | Published and externally maintained by a recognized authority | Named publisher (standards body, government agency, scientific community, recognized industry consortium) referenced by an external user community | Internal or proprietary list; unclear provenance; only mirrors of mirrors |
+| 2 | Stable identifiers assigned by the publisher | Codes, keys, or URIs come from the publisher | WoT would mint the identifiers (existing `domain_*` taxonomies are grandfathered; new ones need approval) |
+| 3 | Enumerated or hierarchical structure | Finite list or tree | Open-ended relational graph without inherent hierarchy; system is mostly properties |
+| 4 | Within practical size (~500K node soft cap) | Full system fits the cap | Larger system; reviewer decides whether a documented subset is appropriate |
+
+**If all four pass auto-qualify**: proceed to Step 1.
+
+**If any test triggers HITL (human-in-the-loop) review**: open a GitHub issue first with the system name, source URL, expected node count, the test(s) that triggered review, and your proposed handling. Wait for an approver before writing any code. Common HITL outcomes:
+
+- Approved as-is. Proceed to Step 1.
+- Approved with modifications, e.g. ingest a documented subset (top-N levels, the publisher's "core" set) rather than the full system.
+- Rejected. The artifact fits another portfolio product (WoO for ontologies, WoR for entity registries) or the inclusion policy excludes it (live operational data, person-level rosters, pure property vocabularies).
+
+Record the verdict and approver in the ingester docstring at Step 2 so the audit trail survives in the PR.
+
+### Step 1 - Validate the data source
 
 **Do not write any code until this step is complete.**
 
@@ -26,7 +47,7 @@ Before writing any code, confirm the proposed system fits the project's scope. T
 6. If the count differs >20% from any prior estimate, stop and reassess
 7. Record findings for the ingester docstring: verified count, format, license, hash
 
-### Step 1 - Write RED tests
+### Step 2 - Write RED tests
 
 Create `tests/test_ingest_<system>.py` before any implementation.
 
@@ -60,7 +81,7 @@ Run it - every test must fail or error:
 python3 -m pytest tests/test_ingest_<system>.py -v
 ```
 
-### Step 2 - Write the ingester and run GREEN
+### Step 3 - Write the ingester and run GREEN
 
 Create `world_of_taxonomy/ingest/<system>.py`. Required elements:
 
@@ -99,14 +120,14 @@ python3 -m pytest tests/test_ingest_<system>.py -v
 python3 -c "import pathlib; [exit(1) for f in pathlib.Path('.').rglob('*.py') if b'\xe2\x80\x94' in f.read_bytes()]"
 ```
 
-### Step 3 - Register in CLI and update docs
+### Step 4 - Register in CLI and update docs
 
 1. Add to `world_of_taxonomy/__main__.py` dispatch
 2. Update `CLAUDE.md` - add row to systems table, update total node count
 3. Update `DATA_SOURCES.md` - add attribution row
 4. Update `CHANGELOG.md` - add entry under `[Unreleased]`
 
-### Step 4 - Enrich descriptions
+### Step 5 - Enrich descriptions
 
 After the ingester runs, the system has codes and titles in the DB but most rows have an empty `description`. Pick the right enrichment strategy by system size and source:
 
@@ -146,7 +167,7 @@ FROM classification_node WHERE system_id = '<system_id>';
 
 Aim for >= 99% coverage on systems where descriptions are first-class. Lower targets (~95%) are acceptable when the LLM legitimately cannot generate a useful description for ambiguous codes.
 
-### Step 5 - Update the wiki (Karpathy LLM Wiki Pattern)
+### Step 6 - Update the wiki (Karpathy LLM Wiki Pattern)
 
 WoT distributes editorial content through four channels: web `/guide/[slug]`, MCP `instructions`, `frontend/public/llms-full.txt`, and the wiki API. New systems must surface in this fabric, not just in the database.
 
@@ -170,7 +191,7 @@ If the system opens a topic no existing wiki page covers (e.g., the first web vo
 
 The em-dash CI guard applies to wiki content. Use hyphens.
 
-### Step 6 - Verify frontend routes
+### Step 7 - Verify frontend routes
 
 The `/codes` hub lists every system in the database. A new system's hub and deep-code pages must serve 200 on-demand.
 
@@ -192,7 +213,7 @@ Both must return 200. If either 404s, the route is gated - fix the route, not th
 
 **When to add to `MAJOR_SYSTEMS`.** Only when the system is commercially significant enough to warrant pre-rendering its sector pages at build time (SEO priority). Most new systems do not need this - ISR serves them fine on first request.
 
-### Step 7 - Regenerate AEO/RAG channels
+### Step 8 - Regenerate AEO/RAG channels
 
 After enrichment lands in the DB and the wiki has been updated, regenerate the public-facing static text artifacts so AI crawlers and the four-channel wiki distribution pick up the new system.
 
@@ -209,7 +230,7 @@ The pre-push hook also runs `build_static_content.py` and aborts the push if `ll
 
 If the system is large enough that the regen produces a multi-MB diff, consider a separate "regen" PR after the ingestion PR merges, rather than bundling both. See [Inclusion Policy](wiki/inclusion-policy.md) for related guidance on system size and subsetting.
 
-### Step 8 - Commit
+### Step 9 - Commit
 
 ```bash
 git add world_of_taxonomy/ingest/<system>.py tests/test_ingest_<system>.py
@@ -239,7 +260,7 @@ git commit -m "feat: ingest <system> (<N> codes, TDD green)"
 
 ## Adding a Domain Deep-Dive Taxonomy
 
-Follow Steps 0-8 above with these additions:
+Follow Steps 0-9 above with these additions:
 
 1. Register in **both** `classification_system` (FK requirement) and `domain_taxonomy`
 2. After inserting nodes, update **both** `classification_system.node_count` and `domain_taxonomy.code_count`
