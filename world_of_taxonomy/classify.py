@@ -478,12 +478,20 @@ async def classify_text(
     text: str,
     system_ids: Optional[list[str]] = None,
     limit: int = 5,
+    include_domains: bool = True,
 ) -> dict:
     """Classify free-text against classification systems using full-text search.
 
     Returns top matches per system with relevance scores. When the query
     enumerates multiple businesses (e.g. "bakery and pharmacy and hotel"),
     returns a compound response with one atom per detected line of business.
+
+    Args:
+        include_domains: When False, suppresses the unconditional sweep over
+            `domain_*` systems. The free /classify/demo surface uses this
+            because Domain taxonomies are a paid-tier differentiator (per
+            the /classify page contract: "5 major systems ... full result
+            set on the paid API").
     """
     target_systems = system_ids or DEFAULT_SYSTEMS
     # Domain systems are fetched via _classify_domains (which owns the
@@ -499,7 +507,10 @@ async def classify_text(
         atom_payload: list[dict] = []
         for atom in atoms:
             standard_matches = await _classify_single(conn, atom, standard_targets, limit)
-            domain_matches = await _classify_domains(conn, atom, limit_per_system=limit)
+            if include_domains:
+                domain_matches = await _classify_domains(conn, atom, limit_per_system=limit)
+            else:
+                domain_matches = []
             # Domain matches lead; standards follow. Consumers can re-partition
             # on system_id prefix (domain_*) if they need the explicit split.
             matches = domain_matches + standard_matches
@@ -523,7 +534,10 @@ async def classify_text(
         }
 
     standard_results = await _classify_single(conn, text, standard_targets, limit)
-    domain_results = await _classify_domains(conn, text, limit_per_system=limit)
+    if include_domains:
+        domain_results = await _classify_domains(conn, text, limit_per_system=limit)
+    else:
+        domain_results = []
     results = domain_results + standard_results
 
     # LLM fallback: if every target system returned zero matches, consult the
@@ -540,9 +554,12 @@ async def classify_text(
                 standard_retry = await _classify_with_tsquery(
                     conn, text, standard_targets, limit, llm_tsquery
                 )
-                domain_retry = await _classify_domains_with_tsquery(
-                    conn, llm_tsquery, limit_per_system=limit
-                )
+                if include_domains:
+                    domain_retry = await _classify_domains_with_tsquery(
+                        conn, llm_tsquery, limit_per_system=limit
+                    )
+                else:
+                    domain_retry = []
                 results = domain_retry + standard_retry
 
     await _attach_crosswalk_counts(conn, results)

@@ -144,7 +144,10 @@ class TestClassifyDemoHandler:
         assert result.get("demo") is True
 
     def test_handler_caps_systems_to_demo_set(self, db_pool):
-        """Demo users get at most 5 systems regardless of input."""
+        """Demo users get at most 5 standard systems and zero domain
+        taxonomies. The /classify page promises '5 major systems - NAICS,
+        ISIC, SIC, NACE, SOC' and 'full result set on the paid API';
+        domain_* taxonomies are a paid-tier differentiator."""
         from world_of_taxonomy.api.routers.classify_demo import (
             ClassifyDemoRequest,
             classify_demo_handler,
@@ -163,9 +166,63 @@ class TestClassifyDemoHandler:
                 )
 
         result = _run(go())
-        # Cap applies to the combined set across both categories.
-        total = len(result["domain_matches"]) + len(result["standard_matches"])
-        assert total <= 13  # 5 standards + up to 8 top domain systems
+        assert result["domain_matches"] == [], (
+            "demo must not return domain_* taxonomies; they are paid-tier"
+        )
+        # At most 5 standards (NAICS, ISIC, SIC, NACE, SOC).
+        assert len(result["standard_matches"]) <= 5
+
+    def test_handler_no_domain_systems_in_demo_response(self, db_pool):
+        """Regression: no system_id starting with 'domain_' anywhere in the
+        demo response (top level, hero, or atoms)."""
+        from world_of_taxonomy.api.routers.classify_demo import (
+            ClassifyDemoRequest,
+            classify_demo_handler,
+        )
+
+        req = ClassifyDemoRequest(
+            email="lead-no-domain@example.com",
+            # Compound query likely to surface domain matches in the buggy
+            # path (truck + agriculture both have domain_* siblings).
+            text="trucking company and farming operation",
+        )
+
+        async def go():
+            async with db_pool.acquire() as conn:
+                return await classify_demo_handler(
+                    req,
+                    conn=conn,
+                    ip_address=None,
+                    user_agent=None,
+                    referrer=None,
+                )
+
+        result = _run(go())
+
+        def _all_match_systems(payload: dict) -> list[str]:
+            seen: list[str] = []
+            for m in payload.get("domain_matches", []):
+                seen.append(m["system_id"])
+            for m in payload.get("standard_matches", []):
+                seen.append(m["system_id"])
+            hero = payload.get("hero")
+            if hero:
+                for m in hero.get("domain_matches", []):
+                    seen.append(m["system_id"])
+                for m in hero.get("standard_matches", []):
+                    seen.append(m["system_id"])
+            for atom in payload.get("atoms") or []:
+                for m in atom.get("domain_matches", []):
+                    seen.append(m["system_id"])
+                for m in atom.get("standard_matches", []):
+                    seen.append(m["system_id"])
+            return seen
+
+        all_ids = _all_match_systems(result)
+        domain_ids = [s for s in all_ids if s.startswith("domain_")]
+        assert domain_ids == [], (
+            f"demo response leaked paid-tier domain taxonomies: {domain_ids}"
+        )
 
     def test_handler_caps_results_per_system(self, db_pool):
         """Demo users get at most 3 results per system (vs 20 on paid)."""

@@ -177,6 +177,11 @@ async def classify_demo_handler(
         text=clean_text,
         system_ids=effective_systems,
         limit=DEMO_RESULTS_PER_SYSTEM,
+        # Domain taxonomies (`domain_*`) are a paid-tier differentiator.
+        # The /classify page promises "5 major systems ... full result set
+        # on the paid API"; keeping domains out of the demo enforces that
+        # contract and saves a per-call DB round-trip.
+        include_domains=False,
     )
 
     domain, standard = partition_matches(result.get("matches", []))
