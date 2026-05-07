@@ -39,6 +39,11 @@ pyarrow>=21.0.0
 pycountry>=23.12.11
 pypdf>=4.0.0
 python-dotenv>=1.2.1
+# rdflib is required by the FIBO ingester (world_of_taxonomy/ingest/fibo.py
+# imports rdflib + rdflib.namespace for OWL class hierarchy parsing).
+# Without it, pytest collection of tests/test_ingest_fibo.py fails with
+# ModuleNotFoundError, which silently breaks every PR's CI.
+rdflib>=7.0.0
 sentry-sdk[fastapi]>=2.58.0
 slowapi>=0.1.9
 stripe>=9.0.0
