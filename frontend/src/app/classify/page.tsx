@@ -37,25 +37,51 @@ export default function ClassifyPage() {
 
       <section className="pt-8 border-t border-border space-y-4">
         <h2 className="text-xl font-semibold">What you get</h2>
-        <ul className="space-y-2 text-sm text-muted-foreground">
-          <li>
-            <span className="font-medium text-foreground">5 major systems</span> -
-            NAICS (US), ISIC (UN), SIC (US), NACE (EU), SOC (US occupations).
-          </li>
-          <li>
-            <span className="font-medium text-foreground">Top 3 matches per system</span> -
-            ranked by relevance to your description.
-          </li>
-          <li>
-            <span className="font-medium text-foreground">Cross-system context</span> -
-            see how codes map across NAICS, ISIC, SIC, NACE in one view.
-          </li>
-          <li>
-            <span className="font-medium text-foreground">Full result set?</span> -
-            all 1,000 systems and crosswalk edges are available on the
-            paid API (see <a href="/pricing" className="text-primary underline">pricing</a>).
-          </li>
-        </ul>
+        <p className="text-sm text-muted-foreground">
+          Three tiers, three depths of breadth. Sign-in is free; Pro unlocks
+          API and MCP access plus the curated domain taxonomies.
+        </p>
+        <div className="grid sm:grid-cols-3 gap-3 text-sm">
+          <div className="rounded-lg border border-border bg-card p-4 space-y-2">
+            <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+              Without an account
+            </div>
+            <div className="text-foreground font-medium">5 systems</div>
+            <ul className="text-muted-foreground space-y-1 text-xs">
+              <li>NAICS (US), ISIC (UN), SIC (US), NACE (EU), SOC (US occupations)</li>
+              <li>Top 3 matches per system</li>
+              <li>Cross-system context</li>
+            </ul>
+          </div>
+          <div className="rounded-lg border border-primary/40 bg-card p-4 space-y-2">
+            <div className="text-xs font-semibold uppercase tracking-wide text-primary">
+              Free with sign-in
+            </div>
+            <div className="text-foreground font-medium">10 systems</div>
+            <ul className="text-muted-foreground space-y-1 text-xs">
+              <li>Anon set + HS, CPC, UNSPSC (trade & products)</li>
+              <li>+ ICD-11 (health), ISCO-08 (international occupations)</li>
+              <li>Top 5 matches per system</li>
+            </ul>
+            <a href="/login" className="inline-block text-xs text-primary underline">
+              Sign in free
+            </a>
+          </div>
+          <div className="rounded-lg border border-border bg-card p-4 space-y-2">
+            <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+              Pro / Enterprise
+            </div>
+            <div className="text-foreground font-medium">All 1,000+ systems</div>
+            <ul className="text-muted-foreground space-y-1 text-xs">
+              <li>Full standards surface + 419 curated domain taxonomies</li>
+              <li>Up to 20 matches per system, full crosswalk edges</li>
+              <li>REST API + MCP server for AI agents</li>
+            </ul>
+            <a href="/pricing" className="inline-block text-xs text-primary underline">
+              See pricing
+            </a>
+          </div>
+        </div>
       </section>
     </div>
   )

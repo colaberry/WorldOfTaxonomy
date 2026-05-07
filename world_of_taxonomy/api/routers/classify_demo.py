@@ -14,7 +14,7 @@ from __future__ import annotations
 import re
 from typing import Optional
 
-from fastapi import APIRouter, Depends, HTTPException, Request
+from fastapi import APIRouter, Cookie, Depends, HTTPException, Request
 from pydantic import BaseModel, Field, field_validator
 
 # RFC 5322-lite: good enough for lead capture without the email-validator dep.
@@ -33,9 +33,13 @@ from world_of_taxonomy.system_kind import is_business_classification
 
 router = APIRouter(prefix="/api/v1", tags=["classify"])
 
-# Demo surface is intentionally narrower than the paid endpoint: five
-# high-signal systems, three results each, no cross-system crosswalks.
-# Pro/Enterprise users get the full surface via POST /api/v1/classify.
+# Demo surface is tiered. Anonymous users get 5 high-signal industry
+# / occupation systems, 3 results each. Logged-in users (those who
+# completed the magic-link flow and hold a valid `dev_session` cookie)
+# get a wider lens: 5 additional global systems covering trade,
+# products, health, and international occupations, plus 5 results per
+# system. Pro / Enterprise users get the full surface via the paid
+# POST /api/v1/classify, which also returns curated Domain taxonomies.
 DEMO_SYSTEMS = [
     "naics_2022",
     "isic_rev4",
@@ -44,6 +48,23 @@ DEMO_SYSTEMS = [
     "soc_2018",
 ]
 DEMO_RESULTS_PER_SYSTEM = 3
+
+# Logged-in tier: anon set + 5 globally authoritative cross-domain
+# standards. One per major dimension to maximize breadth without
+# overlapping the anon set:
+#   hs_2022     - trade / customs (WCO global)
+#   cpc_v21     - products / statistical (UN global)
+#   unspsc_v24  - procurement (GS1 US global)
+#   icd_11      - health (WHO global)
+#   isco_08     - international occupations (ILO global)
+LOGGED_IN_SYSTEMS = DEMO_SYSTEMS + [
+    "hs_2022",
+    "cpc_v21",
+    "unspsc_v24",
+    "icd_11",
+    "isco_08",
+]
+LOGGED_IN_RESULTS_PER_SYSTEM = 5
 
 
 class ClassifyDemoRequest(BaseModel):
@@ -84,6 +105,14 @@ class ClassifyDemoResponse(BaseModel):
     disclaimer: str
     report_issue_url: str
     demo: bool = True
+    is_logged_in: bool = Field(
+        False,
+        description=(
+            "True when the request carried a valid `dev_session` cookie. "
+            "Logged-in callers get the broader 10-system / 5-result-per-system "
+            "tier; anonymous callers get the 5-system / 3-result tier."
+        ),
+    )
     upgrade_cta: str
     compound: bool = False
     atoms: Optional[list] = None
@@ -100,6 +129,26 @@ class ClassifyDemoResponse(BaseModel):
     )
 
 
+def _is_valid_dev_session(token: Optional[str]) -> bool:
+    """Soft session check: True when the cookie decodes to a valid
+    dev_session JWT. No DB lookup, no 401 raise. Used to choose the
+    classify tier (anon vs logged-in) without changing the email-gate
+    contract.
+    """
+    if not token:
+        return False
+    # Local import: keeps the developers router import graph contained
+    # and avoids the circular-import risk from pulling
+    # `_decode_dev_session` at module-load time.
+    from world_of_taxonomy.api.routers.developers import _decode_dev_session
+
+    try:
+        _decode_dev_session(token)
+    except HTTPException:
+        return False
+    return True
+
+
 async def classify_demo_handler(
     body: ClassifyDemoRequest,
     *,
@@ -107,11 +156,16 @@ async def classify_demo_handler(
     ip_address: Optional[str],
     user_agent: Optional[str],
     referrer: Optional[str],
+    is_logged_in: bool = False,
 ) -> dict:
     """Insert a lead row, then run classify limited to the demo surface.
 
     Split from the route handler so tests can exercise the behaviour
     without spinning up a TestClient.
+
+    `is_logged_in` selects the result tier: when True (caller had a
+    valid `dev_session` cookie), the broader 10-system / 5-result tier
+    is used; otherwise the 5-system / 3-result anonymous tier.
     """
     try:
         clean_text, _ = guard(body.text, max_length=500)
@@ -130,8 +184,15 @@ async def classify_demo_handler(
         referrer,
     )
 
+    # Pick tier based on auth state. Logged-in callers get the broader
+    # 10-system surface; anonymous callers get the 5-system anon surface.
+    base_systems = LOGGED_IN_SYSTEMS if is_logged_in else DEMO_SYSTEMS
+    results_per_system = (
+        LOGGED_IN_RESULTS_PER_SYSTEM if is_logged_in else DEMO_RESULTS_PER_SYSTEM
+    )
+
     scope = await resolve_country_scope(conn, body.countries)
-    effective_systems = DEMO_SYSTEMS
+    effective_systems = base_systems
     if scope is not None:
         # Truly invalid country codes: no country-specific systems AND no
         # globally-recommended standards link to them. Return empty.
@@ -148,8 +209,9 @@ async def classify_demo_handler(
                 ),
                 "report_issue_url": "https://github.com/colaberryinc/WorldOfTaxonomy/issues",
                 "demo": True,
+                "is_logged_in": is_logged_in,
                 "upgrade_cta": (
-                    "Want all 1000 systems, cross-system crosswalks, and "
+                    "Want all 1000+ systems, cross-system crosswalks, and "
                     "programmatic API access? Upgrade to Pro at /pricing."
                 ),
                 "compound": False,
@@ -170,13 +232,13 @@ async def classify_demo_handler(
             s for s in scope["country_specific_systems"]
             if is_business_classification(s)
         ]
-        effective_systems = sorted(set(DEMO_SYSTEMS) | set(country_business))
+        effective_systems = sorted(set(base_systems) | set(country_business))
 
     result = await classify_text(
         conn,
         text=clean_text,
         system_ids=effective_systems,
-        limit=DEMO_RESULTS_PER_SYSTEM,
+        limit=results_per_system,
         # Domain taxonomies (`domain_*`) are a paid-tier differentiator.
         # The /classify page promises "5 major systems ... full result set
         # on the paid API"; keeping domains out of the demo enforces that
@@ -217,8 +279,9 @@ async def classify_demo_handler(
         "disclaimer": result["disclaimer"],
         "report_issue_url": result["report_issue_url"],
         "demo": True,
+        "is_logged_in": is_logged_in,
         "upgrade_cta": (
-            "Want all 1000 systems, cross-system crosswalks, and "
+            "Want all 1000+ systems, cross-system crosswalks, and "
             "programmatic API access? Upgrade to Pro at /pricing."
         ),
         "compound": result.get("compound", False),
@@ -236,11 +299,14 @@ async def classify_demo(
     body: ClassifyDemoRequest,
     request: Request,
     conn=Depends(get_conn),
+    dev_session: Optional[str] = Cookie(default=None),
 ):
     """Public classify endpoint gated by email only.
 
-    Returns a limited result set (5 systems, 3 results each). Records
-    the email as a lead.
+    Anonymous callers get the 5-system / 3-result anon tier. Callers
+    with a valid `dev_session` cookie (i.e., they completed the
+    magic-link sign-in) get the broader 10-system / 5-result tier.
+    Records the email as a lead either way.
 
     Per-IP rate guard: 20/hour. The cap is well above any legitimate
     interactive use (a user trying ~5 prompts in a session) but tight
@@ -266,4 +332,5 @@ async def classify_demo(
         ip_address=ip,
         user_agent=ua,
         referrer=ref,
+        is_logged_in=_is_valid_dev_session(dev_session),
     )

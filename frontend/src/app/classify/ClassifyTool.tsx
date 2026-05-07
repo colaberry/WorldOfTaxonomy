@@ -42,6 +42,17 @@ export function ClassifyTool() {
   const [result, setResult] = useState<ClassifyDemoResponse | null>(null)
   const [countries, setCountries] = useState<string[]>([])
   const [countryOptions, setCountryOptions] = useState<CountryListEntry[] | null>(null)
+  // wot_csrf is the JS-readable companion of the httponly dev_session cookie.
+  // When present, the user has an active magic-link session and the demo
+  // endpoint will return the broader 10-system / 5-result tier.
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
+
+  useEffect(() => {
+    if (typeof document === 'undefined') return
+    setIsLoggedIn(
+      document.cookie.split('; ').some((c) => c.startsWith('wot_csrf=')),
+    )
+  }, [])
 
   useEffect(() => {
     let cancelled = false
@@ -145,6 +156,35 @@ export function ClassifyTool() {
 
   return (
     <div className="space-y-6">
+      {/* Tier banner: anon is invited to sign in for the broader surface;
+         logged-in users see a confirmation of what they're getting. */}
+      {!isLoggedIn ? (
+        <div className="rounded-lg border border-primary/30 bg-primary/5 px-4 py-3 text-sm">
+          <span className="text-foreground">
+            <span className="font-medium">Anonymous tier:</span> 5 systems, top 3 each.
+          </span>{' '}
+          <a href="/login" className="text-primary underline font-medium">
+            Sign in free
+          </a>{' '}
+          <span className="text-muted-foreground">
+            to unlock 10 systems (HS, CPC, UNSPSC, ICD-11, ISCO-08) and top 5 matches each.
+          </span>
+        </div>
+      ) : (
+        <div className="rounded-lg border border-border bg-secondary/40 px-4 py-3 text-sm">
+          <span className="text-foreground">
+            <span className="font-medium">Free signed-in tier:</span> 10 systems, top 5 each.
+          </span>{' '}
+          <span className="text-muted-foreground">
+            For full coverage of 1,000+ systems plus API and MCP access,{' '}
+            <a href="/pricing" className="text-primary underline font-medium">
+              see Pro
+            </a>
+            .
+          </span>
+        </div>
+      )}
+
       {/* Form card */}
       <form
         onSubmit={handleSubmit}
@@ -460,19 +500,48 @@ function ClassifyResults({ data }: { data: ClassifyDemoResponse }) {
         />
       )}
 
-      {/* Upgrade CTA */}
+      {/* Upgrade CTA - tier-aware. Anonymous users get the closer
+         next-step (free sign-in) above the Pro pitch; logged-in users
+         see the Pro pitch directly. */}
       <div className="rounded-xl border border-primary/30 bg-primary/5 p-5 sm:p-6">
         <div className="flex items-start gap-3">
           <Sparkles className="size-5 text-primary mt-0.5" />
           <div className="flex-1 space-y-2">
-            <h3 className="font-semibold">Need more systems or programmatic access?</h3>
-            <p className="text-sm text-muted-foreground">{data.upgrade_cta}</p>
-            <Link
-              href="/pricing"
-              className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
-            >
-              See pricing <ArrowRight className="size-3.5" />
-            </Link>
+            {data.is_logged_in ? (
+              <>
+                <h3 className="font-semibold">Need full coverage or programmatic access?</h3>
+                <p className="text-sm text-muted-foreground">{data.upgrade_cta}</p>
+                <Link
+                  href="/pricing"
+                  className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+                >
+                  See pricing <ArrowRight className="size-3.5" />
+                </Link>
+              </>
+            ) : (
+              <>
+                <h3 className="font-semibold">Want broader matches?</h3>
+                <p className="text-sm text-muted-foreground">
+                  Sign in free to classify against 10 systems with top 5
+                  matches each (adds HS, CPC, UNSPSC, ICD-11, ISCO-08).
+                  Or upgrade to Pro for all 1,000+ systems and API access.
+                </p>
+                <div className="flex items-center gap-3">
+                  <a
+                    href="/login"
+                    className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+                  >
+                    Sign in free <ArrowRight className="size-3.5" />
+                  </a>
+                  <Link
+                    href="/pricing"
+                    className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:underline"
+                  >
+                    See Pro pricing
+                  </Link>
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>
