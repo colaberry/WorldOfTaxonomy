@@ -256,15 +256,23 @@ class TestClassifyDemoPerIPRateLimit:
             client = _Client()
             headers = {}
 
+        # Stub conn so check_classify_lead_budget's fetchval doesn't blow up.
+        # Returns 0 -> budget always under cap, so the per-IP guard is the
+        # only rate limiter in play (which is what this test exercises).
+        class _StubConn:
+            async def fetchval(self, *args, **kwargs):
+                return 0
+
         async def go():
+            conn = _StubConn()
             req_body = cd.ClassifyDemoRequest(email="x@example.com", text="manufacturing")
             # 20 calls succeed.
             for i in range(20):
-                resp = await cd.classify_demo(req_body, _Req(), conn=None)
+                resp = await cd.classify_demo(req_body, _Req(), conn=conn)
                 assert resp["demo"] is True, f"call {i} should pass"
             # 21st call trips the rate guard.
             with pytest.raises(HTTPException) as exc:
-                await cd.classify_demo(req_body, _Req(), conn=None)
+                await cd.classify_demo(req_body, _Req(), conn=conn)
             assert exc.value.status_code == 429
             body = exc.value.detail
             assert body["error"] == "rate_limit_exceeded"

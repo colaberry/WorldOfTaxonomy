@@ -41,7 +41,12 @@ keywords = ["npg_"]
 [[rules]]
 id = "postgres-url-embedded-password"
 description = "Postgres connection string with embedded password"
-regex = '''postgres(?:ql)?://[A-Za-z0-9_-]+:[^@\s/'"]{8,}@'''
+# Negative class excludes < > so placeholder syntax like <password> does
+# not match. Min length bumped to 12 because real production passwords
+# are >=16 chars (Neon npg_*, AWS, GCP, JWT secrets, Stripe sk_*); the
+# old 8-char floor caught the literal word "password" used as a doc
+# placeholder in setup examples.
+regex = '''postgres(?:ql)?://[A-Za-z0-9_-]+:[^@\s/'"<>]{12,}@'''
 keywords = ["postgresql://", "postgres://"]
 
 [allowlist]
