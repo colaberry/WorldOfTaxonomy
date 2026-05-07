@@ -15,6 +15,7 @@ anzsic_2006: https://worldoftaxonomy.com/llms-codes/anzsic_2006.txt
 anzsrc_for_2020: https://worldoftaxonomy.com/llms-codes/anzsrc_for_2020.txt
 anzsrc_seo: https://worldoftaxonomy.com/llms-codes/anzsrc_seo.txt
 apgar_score: https://worldoftaxonomy.com/llms-codes/apgar_score.txt
+apqc_pcf: https://worldoftaxonomy.com/llms-codes/apqc_pcf.txt
 aqf: https://worldoftaxonomy.com/llms-codes/aqf.txt
 archimate: https://worldoftaxonomy.com/llms-codes/archimate.txt
 arxiv_taxonomy: https://worldoftaxonomy.com/llms-codes/arxiv_taxonomy.txt
