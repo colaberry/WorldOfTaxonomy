@@ -157,7 +157,7 @@ async def ingest_hs2022(conn, path=None) -> int:
         is_leaf = code not in parent_set
         records.append(("hs_2022", code, title, level, parent, sector, is_leaf, seq))
 
-    # Batch insert in chunks of 500 to avoid Neon timeout on large datasets
+    # Batch insert in chunks of 500 to avoid statement timeouts on large datasets
     CHUNK = 500
     count = 0
     for i in range(0, len(records), CHUNK):

@@ -54,7 +54,7 @@ Verify by loading `worldoftaxonomy.com` and checking the git commit in Vercel's 
 **Do not roll back DB schema changes without a planned migration down.**
 
 - If a migration has already been applied and data has been written against it, rolling the app back without rolling the schema back is usually fine because schema changes are additive by convention (new columns are nullable, new tables are empty).
-- If you must roll back a destructive schema change, your DB provider's point-in-time recovery (PITR) or a backup restore gets you to a timestamp. Check your window (Neon Free 30d, RDS up to 35d, Supabase varies, self-hosted = whatever your backup policy is). This is expensive and will drop everything newer. Only do it if the alternative is worse.
+- If you must roll back a destructive schema change, your DB provider's point-in-time recovery (PITR) or a backup restore gets you to a timestamp. Cloud SQL retains automated backups for 7 days by default and supports PITR within that window. Other managed Postgres providers vary (RDS up to 35 days, Supabase / Neon vary by tier, self-hosted = whatever your backup policy is). This is expensive and will drop everything newer. Only do it if the alternative is worse.
 
 ## After the rollback
 

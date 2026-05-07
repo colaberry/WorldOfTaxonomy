@@ -30,9 +30,10 @@ _POOL_MIN_SIZE = int(os.getenv("DB_POOL_MIN_SIZE", "2"))
 _POOL_MAX_SIZE = int(os.getenv("DB_POOL_MAX_SIZE", "10"))
 _POOL_COMMAND_TIMEOUT = int(os.getenv("DB_COMMAND_TIMEOUT", "30"))
 
-# Startup retry: Neon serverless compute can take several seconds to
-# wake from sleep, long enough to lose a connection attempt. We retry
-# with exponential backoff before giving up and surfacing the error.
+# Startup retry: Cloud SQL cold start (or any serverless Postgres
+# provider's wake-from-idle) can take several seconds, long enough to
+# lose a connection attempt. We retry with exponential backoff before
+# giving up and surfacing the error.
 _CONNECT_RETRIES = int(os.getenv("DB_CONNECT_RETRIES", "5"))
 _CONNECT_BACKOFF_SECONDS = float(os.getenv("DB_CONNECT_BACKOFF_SECONDS", "1.0"))
 
