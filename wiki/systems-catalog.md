@@ -159,6 +159,11 @@ These vocabularies define types and concepts used by AI assistants, search engin
 | schema.org | Global | 926 | schema.org consortium (Google, Microsoft, Yahoo, Yandex) | Type vocabulary for marking up web pages and JSON-LD structured data (Article, Person, Restaurant, MedicalCondition, etc.) |
 | SKOS | Global (W3C) | 17 | W3C | Simple Knowledge Organization System reference |
 | W3C Standards | Global | 16 | W3C | W3C standards index |
+## Financial Ontologies
+
+| System | Region | Codes | Authority | Purpose |
+|--------|--------|-------|-----------|---------|
+| FIBO | Global | 2,521 | EDM Council | Financial Industry Business Ontology - class hierarchies for business entities, instruments, derivatives, indices, loans, securities |
 
 ## Patent Classification
 

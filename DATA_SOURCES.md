@@ -34,6 +34,7 @@ The canonical, always-current list of systems is `GET /api/v1/systems` (1,000+ e
 | `un_m49` | UN M.49 Standard Country or Area Codes | 2023 | UN Statistics Division | Open | https://unstats.un.org/unsd/methodology/m49/overview |
 | `geonames_features` | GeoNames Feature Codes Classification | 2024 | GeoNames | CC BY 4.0 | https://download.geonames.org/export/dump/featureCodes_en.txt |
 | `schema_org` | schema.org Type Vocabulary | latest | schema.org consortium (Google, Microsoft, Yahoo, Yandex) | CC BY-SA 3.0 | https://schema.org/version/latest/schemaorg-current-https.jsonld |
+| `fibo` | Financial Industry Business Ontology | master (2026) | EDM Council | MIT | https://github.com/edmcouncil/fibo |
 
 ### Product and Trade
 

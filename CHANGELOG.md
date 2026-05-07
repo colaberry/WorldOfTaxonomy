@@ -15,6 +15,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - New wiki page `wiki/web-vocabularies.md` introducing the topic with schema.org as the anchor.
 
 ### Classification Systems
+- **FIBO** (`fibo`): 2,521 OWL classes across 7 modules (BE, FBC, FND, SEC, DER, IND, LOAN) covering the Financial Industry Business Ontology. MIT license, sourced from github.com/edmcouncil/fibo. 95.95% description coverage native (skos:definition). Codes use module-prefixed local names (e.g., 'BE/SoleProprietor', 'SEC/Equity') to disambiguate ~13 cross-module collisions. Properties (rdf:Property entries) are not ingested per the inclusion policy. Closes the FIBO gap from the WoO inclusion-policy audit.
 
 - **GeoNames Feature Codes** (`geonames_features`): 693 nodes (9 feature classes + 684 codes) covering administrative divisions, hydrographic features, populated places, terrain, undersea, vegetation, and more. CC BY 4.0, sourced from GeoNames. 100% description coverage (635 from source + 58 curated supplementary). Closes the GeoNames gap identified in the WoO inclusion-policy audit.
 
