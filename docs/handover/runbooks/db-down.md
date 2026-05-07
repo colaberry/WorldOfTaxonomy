@@ -27,11 +27,11 @@ fly ssh console -a wot-api -C 'python3 -c "import os; import asyncio; import asy
 
 | Check | Command | Tells you |
 |-------|---------|-----------|
-| DB provider status page | Neon: <https://neon.tech/status>; Supabase: <https://status.supabase.com>; AWS: <https://health.aws.amazon.com/health/status> | Platform-wide outage |
+| DB provider status page | Cloud SQL: <https://status.cloud.google.com/>; Supabase: <https://status.supabase.com>; AWS: <https://health.aws.amazon.com/health/status> | Platform-wide outage |
 | Fly app health | `fly status -a wot-api` | Backend container running? |
 | Pool saturation | `grep "pool exhausted" /var/log/*.log` or Fly logs | Too many concurrent requests |
 | DNS | `dig $DATABASE_HOST` | Database endpoint DNS resolving |
-| DB compute state | Provider console (Neon branch, RDS instance, Supabase project) | Compute endpoint suspended or paused (cold start expected on serverless tiers) |
+| DB compute state | Provider console (Cloud SQL instance, RDS instance, Supabase project) | Compute endpoint suspended or paused (cold start expected on serverless tiers) |
 
 ## Mitigation
 

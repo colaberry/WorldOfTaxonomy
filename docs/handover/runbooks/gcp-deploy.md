@@ -157,17 +157,6 @@ Set a budget alert:
 # Threshold: $15, email: coredev@colaberry.com
 ```
 
-If the $5/mo target is hard, migrate DB to **Neon free tier** (0.5 GB Postgres):
-
-1. Create a Neon project at https://neon.tech → get `postgresql://...` URL with `?sslmode=require`.
-2. Update secret: `printf '<NEON_URL>' | gcloud secrets versions add DATABASE_URL --data-file=-`
-3. Remove Cloud SQL attachment from backend:
-   ```bash
-   gcloud run services update wot-api --region=us-east1 \
-     --clear-cloudsql-instances
-   ```
-4. Delete Cloud SQL instance: `gcloud sql instances delete wot-db`
-
 ## Architecture notes
 
 - **Database connection:** backend reaches Cloud SQL over a Unix socket mounted at `/cloudsql/$PROJECT:$REGION:wot-db` - enabled by the `--add-cloudsql-instances` flag. No VPC connector, no public IP.

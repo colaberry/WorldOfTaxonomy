@@ -41,7 +41,7 @@ create_app()
 
 **Critical constraint**: when a pgbouncer-style pooler sits in transaction-pooling mode between the app and Postgres, it does not keep a 1:1 session with the backend, so server-side prepared statements (asyncpg's default for caching query plans) break. Set `statement_cache_size=0` when that is your topology. The test pool already does this in [tests/conftest.py](../../tests/conftest.py).
 
-Providers this applies to: Neon (always), Supabase via the pooled URL, any self-hosted pgbouncer in transaction mode. If you connect directly to Postgres (no pooler, or a session-mode pooler), you can drop the setting.
+Providers this applies to: Supabase via the pooled URL, any self-hosted pgbouncer in transaction mode. Cloud SQL (the production target) connects directly via Unix socket and does NOT need this setting. If you connect directly to Postgres (no pooler, or a session-mode pooler), you can drop the setting.
 
 ---
 
@@ -220,7 +220,7 @@ Run: `python3 -m pytest tests/ -v`. Single file: `pytest tests/test_ingest_naics
 
 ## Non-obvious rules
 
-1. **Statement cache**: `statement_cache_size=0` on any pool that sits behind a pgbouncer-style pooler in transaction mode (Neon, Supabase pooled URL, self-hosted pgbouncer). Direct connections don't need it.
+1. **Statement cache**: `statement_cache_size=0` on any pool that sits behind a pgbouncer-style pooler in transaction mode (Supabase pooled URL, self-hosted pgbouncer). Direct connections (including Cloud SQL via Unix socket) don't need it.
 2. **JWT secret length**: >=32 chars in prod. The dev default is intentionally shorter so production can't silently adopt it.
 3. **Em-dash ban**: CI greps `*.py`, `*.md`, `*.ts`, `*.tsx`, `*.sql` for U+2014 and fails on any match. See [.github/workflows/ci.yml](../../.github/workflows/ci.yml).
 4. **Test schema isolation**: tests MUST run in `test_wot`. Never point tests at `public`.
