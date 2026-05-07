@@ -25,6 +25,25 @@
 [extend]
 useDefault = true
 
+# Custom rules added after a Neon credential slipped through the default
+# detector at commit 9cd3582 (run_mcp.sh, 2026-04-16). The default
+# Postgres rule did not flag the connection string; these explicit rules
+# make sure a Neon-style npg_ token or any postgres URL with an embedded
+# password (other than the local docker-compose 'wotpass' placeholder)
+# fails the security workflow.
+
+[[rules]]
+id = "neon-postgres-token"
+description = "Neon Postgres password token (npg_*)"
+regex = '''npg_[A-Za-z0-9]{8,}'''
+keywords = ["npg_"]
+
+[[rules]]
+id = "postgres-url-embedded-password"
+description = "Postgres connection string with embedded password"
+regex = '''postgres(?:ql)?://[A-Za-z0-9_-]+:[^@\s/'"]{8,}@'''
+keywords = ["postgresql://", "postgres://"]
+
 [allowlist]
 description = "Docs placeholder tokens and CI test fallback JWT (not real secrets)"
 paths = [
@@ -33,4 +52,10 @@ paths = [
   '''wiki/mcp-setup\.md''',
   '''wiki/api-keys\.md''',
   '''frontend/public/llms-full\.txt''',
+]
+# Allowlist the local docker-compose placeholder password that appears
+# in a handful of dev-setup files. NOT a real credential; matches a
+# Compose YAML default that ships with the repo.
+regexes = [
+  '''postgres(?:ql)?://wot:wot(pass)?@''',
 ]
