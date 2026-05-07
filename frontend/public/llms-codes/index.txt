@@ -561,6 +561,7 @@ ghg_protocol: https://worldoftaxonomy.com/llms-codes/ghg_protocol.txt
 gics_bridge: https://worldoftaxonomy.com/llms-codes/gics_bridge.txt
 gmdn: https://worldoftaxonomy.com/llms-codes/gmdn.txt
 gri_standards: https://worldoftaxonomy.com/llms-codes/gri_standards.txt
+gs1_gpc: https://worldoftaxonomy.com/llms-codes/gs1_gpc.txt
 gs1_standards: https://worldoftaxonomy.com/llms-codes/gs1_standards.txt
 haccp: https://worldoftaxonomy.com/llms-codes/haccp.txt
 hcpcs_l2: https://worldoftaxonomy.com/llms-codes/hcpcs_l2.txt
