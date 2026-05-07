@@ -119,6 +119,7 @@ Over 80 country-specific ISIC Rev 4 adaptations covering Africa, Middle East, Ce
 | UN M.49 | Global | 272 | Geographic regions |
 | EU NUTS 2021 | European Union | 124 | Statistical regions |
 | US FIPS | United States | 86 | Federal information processing |
+| GeoNames Features | Global (GeoNames) | 693 | Geographic feature classification (admin, hydrographic, populated places, terrain, undersea, vegetation) |
 
 ## Financial, Environmental, and Governance
 

@@ -32,6 +32,7 @@ The canonical, always-current list of systems is `GET /api/v1/systems` (1,000+ e
 | `iso_3166_1` | ISO 3166-1 Countries (with UN M.49 regional hierarchy) | 2023 | ISO / UN Statistics Division | CC0 | https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes |
 | `iso_3166_2` | ISO 3166-2 Country Subdivisions | 2023 | ISO (via pycountry) | LGPL (library); ISO data public | https://pypi.org/project/pycountry/ |
 | `un_m49` | UN M.49 Standard Country or Area Codes | 2023 | UN Statistics Division | Open | https://unstats.un.org/unsd/methodology/m49/overview |
+| `geonames_features` | GeoNames Feature Codes Classification | 2024 | GeoNames | CC BY 4.0 | https://download.geonames.org/export/dump/featureCodes_en.txt |
 
 ### Product and Trade
 
