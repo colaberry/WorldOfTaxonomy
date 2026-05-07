@@ -26,15 +26,27 @@ export function Header() {
     setSignedIn(isLoggedIn())
   }, [pathname])
 
-  const navItems = [
+  // Top-level nav surfaces. Galaxy stays out front (it's the visual
+  // home / marquee); Builders + Pricing are conversion-critical so
+  // they remain top-level. Data-discovery surfaces collapse into an
+  // "Explore" dropdown; static content collapses into "Learn". About
+  // moved to the footer.
+  const exploreItems = [
+    { href: '/crosswalks', label: 'Crosswalks', active: pathname === '/crosswalks' || pathname.startsWith('/crosswalks/'), description: 'Translate codes across systems' },
+    { href: '/explore', label: 'Search', active: pathname === '/explore', description: 'Full-text search across all 1,000 systems' },
+    { href: '/codes', label: 'Codes', active: pathname.startsWith('/codes'), description: 'Browse the full code index' },
+  ]
+  const exploreActive = exploreItems.some((i) => i.active)
+
+  const learnItems = [
+    { href: '/guide', label: 'Guide', active: pathname.startsWith('/guide'), description: 'Concept guides and tutorials' },
+    { href: '/blog', label: 'Blog', active: pathname.startsWith('/blog'), description: 'Updates and deep-dives' },
+  ]
+  const learnActive = learnItems.some((i) => i.active)
+
+  const topLevelItems = [
     { href: '/', label: 'Galaxy', active: pathname === '/' },
-    { href: '/crosswalks', label: 'Crosswalks', active: pathname === '/crosswalks' || pathname.startsWith('/crosswalks/') },
-    { href: '/explore', label: 'Explore', active: pathname === '/explore' },
-    { href: '/codes', label: 'Codes', active: pathname.startsWith('/codes') },
-    { href: '/guide', label: 'Guide', active: pathname.startsWith('/guide') },
-    { href: '/blog',  label: 'Blog',  active: pathname.startsWith('/blog') },
     { href: '/developers', label: 'Builders', active: pathname === '/developers' },
-    { href: '/about', label: 'About', active: pathname === '/about' },
     { href: '/pricing', label: 'Pricing', active: pathname === '/pricing' },
   ]
 
@@ -56,7 +68,80 @@ export function Header() {
         </Link>
 
         <nav className="flex items-center gap-1">
-          {navItems.map((item) => (
+          {/* Galaxy - the marquee/home entry, always top-level */}
+          <Link
+            href="/"
+            className={`px-3 py-1.5 text-sm rounded-md transition-colors ${
+              pathname === '/'
+                ? 'text-foreground bg-secondary'
+                : 'text-muted-foreground hover:text-foreground hover:bg-secondary/50'
+            }`}
+          >
+            Galaxy
+          </Link>
+
+          {/* Explore dropdown: Crosswalks, Search, Codes */}
+          <DropdownMenu>
+            <DropdownMenuTrigger
+              className={`flex items-center gap-1 px-3 py-1.5 text-sm rounded-md transition-colors outline-none ${
+                exploreActive
+                  ? 'text-foreground bg-secondary'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-secondary/50'
+              }`}
+            >
+              Explore
+              <ChevronDown className="h-3 w-3" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-64 p-1">
+              {exploreItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`w-full flex flex-col gap-0.5 px-3 py-2 rounded transition-colors ${
+                    item.active
+                      ? 'bg-secondary text-foreground'
+                      : 'hover:bg-secondary/50 text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  <span className="text-sm font-medium">{item.label}</span>
+                  <span className="text-xs text-muted-foreground/80">{item.description}</span>
+                </Link>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          {/* Learn dropdown: Guide, Blog */}
+          <DropdownMenu>
+            <DropdownMenuTrigger
+              className={`flex items-center gap-1 px-3 py-1.5 text-sm rounded-md transition-colors outline-none ${
+                learnActive
+                  ? 'text-foreground bg-secondary'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-secondary/50'
+              }`}
+            >
+              Learn
+              <ChevronDown className="h-3 w-3" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-64 p-1">
+              {learnItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`w-full flex flex-col gap-0.5 px-3 py-2 rounded transition-colors ${
+                    item.active
+                      ? 'bg-secondary text-foreground'
+                      : 'hover:bg-secondary/50 text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  <span className="text-sm font-medium">{item.label}</span>
+                  <span className="text-xs text-muted-foreground/80">{item.description}</span>
+                </Link>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          {/* Remaining top-level items: Builders, Pricing */}
+          {topLevelItems.slice(1).map((item) => (
             <Link
               key={item.href}
               href={item.href}

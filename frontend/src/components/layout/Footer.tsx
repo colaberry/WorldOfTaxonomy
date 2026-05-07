@@ -18,6 +18,7 @@ const DEVELOPER_LINKS = [
 ]
 
 const LEGAL_LINKS = [
+  { href: '/about',       label: 'About' },
   { href: '/terms',       label: 'Terms of Service' },
   { href: '/privacy',     label: 'Privacy Policy' },
   { href: '/attribution', label: 'Source attribution' },
@@ -85,9 +86,9 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Company */}
           <div className="space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Legal</p>
+            <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Company</p>
             <ul className="space-y-2">
               {LEGAL_LINKS.map(({ href, label }) => (
                 <li key={href}>
