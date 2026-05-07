@@ -1,6 +1,6 @@
 ## Getting Started with World Of Taxonomy
 
-> **TL;DR:** Three ways to query 1,000+ classification systems, 1.2M+ codes, and 321K+ crosswalk edges - REST API, MCP server for AI agents, and a web app. All open source, all free to start.
+> **TL;DR:** Three ways to query 1,000+ classification systems, 1.3M+ codes, and 326K+ crosswalk edges - REST API, MCP server for AI agents, and a web app. All open source, all free to start.
 
 ---
 
@@ -43,7 +43,7 @@ Returns an array of all systems with their ID, name, region, node count, and pro
 curl "https://worldoftaxonomy.com/api/v1/search?q=physician"
 ```
 
-Full-text search across all 1.2M+ nodes. A search for "physician" returns matches from SOC, ISCO, ESCO, NAICS, ICD-10-CM, and dozens more systems in a single call.
+Full-text search across all 1.3M+ nodes. A search for "physician" returns matches from SOC, ISCO, ESCO, NAICS, ICD-10-CM, and dozens more systems in a single call.
 
 Add `&grouped=true` to group results by system, or `&context=true` to include ancestor paths and children for each match.
 

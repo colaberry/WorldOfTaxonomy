@@ -1,7 +1,7 @@
 ---
 name: worldoftaxonomy
 version: 1.0.0
-description: Query 1,000+ global classification systems (NAICS, ISIC, NACE, HS, ICD, SOC, ISCO, CPC, UNSPSC, and more) with 1.2M+ nodes and 326K+ crosswalk edges. Classify businesses, products, occupations, diseases, or documents under standard codes. Translate codes across country and system boundaries. Every one of the 434 domain taxonomies is bridged to NAICS/ISIC/NACE via sector anchors, and every edge carries an `edge_kind` label.
+description: Query 1,000+ global classification systems (NAICS, ISIC, NACE, HS, ICD, SOC, ISCO, CPC, UNSPSC, and more) with 1.3M+ nodes and 326K+ crosswalk edges. Classify businesses, products, occupations, diseases, or documents under standard codes. Translate codes across country and system boundaries. Every one of the 434 domain taxonomies is bridged to NAICS/ISIC/NACE via sector anchors, and every edge carries an `edge_kind` label.
 author: Ram Katamaraja (Colaberry AI)
 homepage: https://worldoftaxonomy.com
 license: MIT

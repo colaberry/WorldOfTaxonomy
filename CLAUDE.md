@@ -2,9 +2,9 @@
 
 ## What this project is
 
-WorldOfTaxonomy is a unified global industry classification knowledge graph. It connects 1000 classification systems as equal peers through equivalence mappings (crosswalk edges).
+WorldOfTaxonomy is a unified global industry classification knowledge graph. It connects 1000+ classification systems as equal peers through equivalence mappings (crosswalk edges).
 
-**1000 systems, 1,212,173+ nodes, 321,937+ crosswalk edges.**
+**1000+ systems, 1,305,191+ nodes, 326,375+ crosswalk edges.**
 
 | System | Region | Codes |
 |--------|--------|-------|

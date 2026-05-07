@@ -1,6 +1,6 @@
 ## Building a REST API for 1.2 Million Codes
 
-> **TL;DR:** Sub-100ms responses across 1.2M codes with no Redis, no Elasticsearch, no caching layer. Just FastAPI + asyncpg + PostgreSQL. This post covers the technical architecture - full-text search, recursive CTEs for hierarchy traversal, bidirectional crosswalk queries, and rate limiting.
+> **TL;DR:** Sub-100ms responses across 1.3M+ codes with no Redis, no Elasticsearch, no caching layer. Just FastAPI + asyncpg + PostgreSQL. This post covers the technical architecture - full-text search, recursive CTEs for hierarchy traversal, bidirectional crosswalk queries, and rate limiting.
 
 ---
 

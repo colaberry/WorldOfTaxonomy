@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Explore Classifications - World Of Taxonomy',
   description:
-    'Search across 1,000+ classification systems and 1.2M+ codes. ' +
+    'Search across 1,000+ classification systems and 1.3M+ codes. ' +
     'Find NAICS, ISIC, HS, ICD, SOC, ISCO codes instantly.',
   openGraph: {
     title: 'Explore Classifications - World Of Taxonomy',

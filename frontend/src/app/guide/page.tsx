@@ -26,7 +26,7 @@ export default function GuidePage() {
         <div>
           <h1 className="text-2xl font-bold tracking-tight">Classification Guides</h1>
           <p className="text-muted-foreground text-sm mt-1">
-            Curated knowledge for navigating 1,000+ classification systems, 1.2M+ nodes, and 321K+
+            Curated knowledge for navigating 1,000+ classification systems, 1.3M+ nodes, and 321K+
             crosswalk edges.
           </p>
         </div>

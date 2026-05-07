@@ -33,7 +33,7 @@ export function Header() {
   // moved to the footer.
   const exploreItems = [
     { href: '/crosswalks', label: 'Crosswalks', active: pathname === '/crosswalks' || pathname.startsWith('/crosswalks/'), description: 'Translate codes across systems' },
-    { href: '/explore', label: 'Search', active: pathname === '/explore', description: 'Full-text search across all 1,000 systems' },
+    { href: '/explore', label: 'Search', active: pathname === '/explore', description: 'Full-text search across all 1,000+ systems' },
     { href: '/codes', label: 'Codes', active: pathname.startsWith('/codes'), description: 'Browse the full code index' },
   ]
   const exploreActive = exploreItems.some((i) => i.active)

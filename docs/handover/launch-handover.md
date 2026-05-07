@@ -11,8 +11,8 @@
 
 ## What you are deploying
 
-A unified global classification knowledge graph: 1,000 systems,
-1.2M nodes, 321K crosswalk edges, exposed as a REST API, an MCP
+A unified global classification knowledge graph: 1,000+ systems,
+1.3M+ nodes, 326K+ crosswalk edges, exposed as a REST API, an MCP
 server (for AI agents), and a Next.js web app.
 
 Three artifacts:
@@ -57,7 +57,7 @@ boils that down to your specific work.
 ## Database state and seeding production (read this BEFORE you start)
 
 **Important reality**: the descriptions data you'll see in the
-codebase (1.2M nodes, 65.71% description coverage as of 2026-04-27)
+codebase (1.3M+ nodes, 65.71% description coverage as of 2026-04-27)
 **lives only on Ram's laptop**, not in this repo. Specifically:
 
 | Data | Where it lives | In repo? |
@@ -148,7 +148,7 @@ gcloud sql import sql wot-db \
 # 6. Verify
 gcloud sql connect wot-db --user=postgres --database=worldoftaxanomy \
   --quiet -e "SELECT COUNT(*) FROM classification_node;"
-# expected: ~1,212,486
+# expected: ~1,305,191
 
 # 7. Tear down the bootstrap bucket once verified
 gsutil rm -r gs://wot-deploy-bootstrap/
@@ -392,7 +392,7 @@ All of these green:
 
 - [ ] `wot.aixcelerator.ai/api/v1/healthz` returns 200 from public
   internet
-- [ ] **Cloud SQL has the dump restored: `SELECT COUNT(*) FROM classification_node` returns ~1,212,486**
+- [ ] **Cloud SQL has the dump restored: `SELECT COUNT(*) FROM classification_node` returns ~1,305,191**
 - [ ] **Spot-check: `SELECT COUNT(*) FROM classification_node WHERE description IS NOT NULL AND description <> ''` returns ~793,230 (~65.7% coverage)**
 - [ ] `worldoftaxonomy.com` loads in under 2s
 - [ ] Sign-up funnel works end to end (email -> key -> API call)

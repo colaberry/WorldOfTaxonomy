@@ -104,6 +104,6 @@ The same pattern works for **any system pair** in the graph:
 - HS trade codes to UNSPSC product codes
 - SOC occupation codes to ESCO skills
 - ICD-10-CM diagnoses to ICD-11
-- Any of the 1,000 systems to any other
+- Any of the 1,000+ systems to any other
 
 If a crosswalk edge exists, the translation works. If it does not, the diff endpoint tells you exactly what is missing.

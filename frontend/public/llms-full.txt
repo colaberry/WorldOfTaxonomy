@@ -1,7 +1,7 @@
 # World Of Taxonomy - Full Reference Guide
 
 > Unified Global Classification Knowledge Graph
-> 1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges.
+> 1,000+ systems, 1.3M+ nodes, 326K+ crosswalk edges.
 > Open source (MIT). Data is informational only - use at your own risk.
 
 
@@ -11,7 +11,7 @@
 
 ## Getting Started with World Of Taxonomy
 
-> **TL;DR:** Three ways to query 1,000+ classification systems, 1.2M+ codes, and 321K+ crosswalk edges - REST API, MCP server for AI agents, and a web app. All open source, all free to start.
+> **TL;DR:** Three ways to query 1,000+ classification systems, 1.3M+ codes, and 326K+ crosswalk edges - REST API, MCP server for AI agents, and a web app. All open source, all free to start.
 
 ---
 
@@ -54,7 +54,7 @@ Returns an array of all systems with their ID, name, region, node count, and pro
 curl "https://worldoftaxonomy.com/api/v1/search?q=physician"
 ```
 
-Full-text search across all 1.2M+ nodes. A search for "physician" returns matches from SOC, ISCO, ESCO, NAICS, ICD-10-CM, and dozens more systems in a single call.
+Full-text search across all 1.3M+ nodes. A search for "physician" returns matches from SOC, ISCO, ESCO, NAICS, ICD-10-CM, and dozens more systems in a single call.
 
 Add `&grouped=true` to group results by system, or `&context=true` to include ancestor paths and children for each match.
 
@@ -241,7 +241,7 @@ All classification data in World Of Taxonomy is provided for informational purpo
 
 The World Of Taxonomy MCP server gives AI assistants (Claude Desktop,
 Cursor, Zed, VS Code Continue, and any other MCP client) direct
-access to 1,000+ classification systems, 1.2M+ codes, and 321K+
+access to 1,000+ classification systems, 1.3M+ codes, and 321K+
 crosswalk edges. Once installed, you can ask things like
 "convert NAICS 5415 to NACE" or "find ICD-10 codes related to type 2
 diabetes" and get authoritative answers without leaving the editor.
@@ -538,7 +538,7 @@ Include the exact prompt and the MCP log excerpt.
 
 ## Systems Catalog - All 1,000+ Classification Systems
 
-> **TL;DR:** Complete catalog of 1,000+ classification systems organized by category. Industry (150+), Life Sciences (100+), Product/Trade (20+), Occupation (15+), Regulatory (100+), and 300+ domain vocabularies - all connected by 321K+ crosswalk edges.
+> **TL;DR:** Complete catalog of 1,000+ classification systems organized by category. Industry (150+), Life Sciences (100+), Product/Trade (20+), Occupation (15+), Regulatory (100+), and 300+ domain vocabularies - all connected by 326K+ crosswalk edges.
 
 ---
 
@@ -758,7 +758,7 @@ curl https://worldoftaxonomy.com/api/v1/systems/naics_2022
 
 ## Crosswalk Map - How Classification Systems Connect
 
-> **TL;DR:** 326,000+ crosswalk edges link 1,000 classification systems through hub-and-spoke topology. ISIC is the industry hub, CPC bridges trade to industry, SOC/ISCO connect occupations, and every one of the 434 domain taxonomies is bridged to NAICS/ISIC/NACE via sector anchors. This guide maps the full topology and shows how to navigate translation paths.
+> **TL;DR:** 326,000+ crosswalk edges link 1,000+ classification systems through hub-and-spoke topology. ISIC is the industry hub, CPC bridges trade to industry, SOC/ISCO connect occupations, and every one of the 434 domain taxonomies is bridged to NAICS/ISIC/NACE via sector anchors. This guide maps the full topology and shows how to navigate translation paths.
 
 ---
 
@@ -2275,7 +2275,7 @@ graph TB
     WIKI["wiki/*.md files"]
   end
   subgraph Backend["Python Backend"]
-    INGEST["Ingesters - 1,000 systems"]
+    INGEST["Ingesters - 1,000+ systems"]
     API["FastAPI REST API - /api/v1/*"]
     MCP["MCP Server - stdio transport"]
     WIKILOADER["Wiki Loader - wiki.py"]
@@ -2349,7 +2349,7 @@ graph TD
   end
   subgraph DB["Database Tables"]
     SYS["classification_system - 1,000+ systems"]
-    NODE["classification_node - 1.2M+ nodes"]
+    NODE["classification_node - 1.3M+ nodes"]
     EQUIV["equivalence - 321K+ edges"]
   end
   CSV --> PARSE
@@ -2422,7 +2422,7 @@ sequenceDiagram
   MCP->>WIKI: build_wiki_context()
   WIKI-->>MCP: Structural knowledge - ~15K tokens
   MCP-->>AI: serverInfo + instructions + capabilities
-  Note over AI: Agent now knows all 1,000 systems and crosswalk topology
+  Note over AI: Agent now knows all 1,000+ systems and crosswalk topology
   AI->>MCP: tools/call search_classifications
   MCP->>DB: Query nodes
   DB-->>MCP: Results
@@ -2481,7 +2481,7 @@ erDiagram
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| Database | PostgreSQL (with pgbouncer) | 1.2M+ nodes, 321K+ edges |
+| Database | PostgreSQL (with pgbouncer) | 1.3M+ nodes, 321K+ edges |
 | Backend | Python 3.9+, FastAPI, asyncpg | REST API + MCP server |
 | Frontend | Next.js 16, TypeScript, Tailwind CSS v4, shadcn/ui | Web application |
 | Visualization | D3.js (Galaxy View), Cytoscape.js (Crosswalk Explorer) | Interactive graphs |

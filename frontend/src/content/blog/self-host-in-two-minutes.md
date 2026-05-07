@@ -1,6 +1,6 @@
 ## Self-Host WorldOfTaxonomy in 2 Minutes
 
-> **TL;DR:** MIT-licensed, fully open source. Clone, `docker compose up`, and you have the complete platform - API, web app, MCP server, and all 1,000 systems - on your own infrastructure. No vendor lock-in, no per-query pricing.
+> **TL;DR:** MIT-licensed, fully open source. Clone, `docker compose up`, and you have the complete platform - API, web app, MCP server, and all 1,000+ systems - on your own infrastructure. No vendor lock-in, no per-query pricing.
 
 ---
 
@@ -44,7 +44,7 @@ That is it. Web app at `http://localhost:3000`. API at `http://localhost:8000`.
 ```mermaid
 graph LR
   EMPTY["Empty DB"] -->|ingest core| CORE["NAICS + ISIC\n+ crosswalk\n~3 min"]
-  CORE -->|ingest all| FULL["All 1,000 systems\n~30-45 min"]
+  CORE -->|ingest all| FULL["All 1,000+ systems\n~30-45 min"]
 ```
 
 The database starts empty. Ingest what you need:
@@ -55,7 +55,7 @@ docker compose exec backend python3 -m world_of_taxonomy ingest naics
 docker compose exec backend python3 -m world_of_taxonomy ingest isic
 docker compose exec backend python3 -m world_of_taxonomy ingest crosswalk
 
-# All 1,000 systems (~30-45 minutes)
+# All 1,000+ systems (~30-45 minutes)
 docker compose exec backend python3 -m world_of_taxonomy ingest all
 ```
 
@@ -100,7 +100,7 @@ Frontend at `http://localhost:3000`, proxies API calls to `:8000` via Next.js re
 
 ## Selective ingestion
 
-You do not need all 1,000 systems. Ingest only what your use case requires:
+You do not need all 1,000+ systems. Ingest only what your use case requires:
 
 | Use Case | Commands |
 |----------|----------|

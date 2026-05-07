@@ -63,7 +63,7 @@ def build_wiki_context() -> str:
     parts.append("# World Of Taxonomy - AI Agent Context\n")
     parts.append(
         "This knowledge graph connects 1,000+ classification systems "
-        "with 1.2M+ nodes and 321K+ crosswalk edges.\n"
+        "with 1.3M+ nodes and 326K+ crosswalk edges.\n"
     )
 
     meta = load_wiki_meta()
@@ -96,7 +96,7 @@ def build_llms_full_txt() -> str:
     parts.append("# World Of Taxonomy - Full Reference Guide\n")
     parts.append(
         "> Unified Global Classification Knowledge Graph\n"
-        "> 1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges.\n"
+        "> 1,000+ systems, 1.3M+ nodes, 326K+ crosswalk edges.\n"
         "> Open source (MIT). Data is informational only - use at your own risk.\n"
     )
 
