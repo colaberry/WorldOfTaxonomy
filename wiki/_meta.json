@@ -77,10 +77,17 @@
     "order": 11
   },
   {
+    "slug": "inclusion-policy",
+    "file": "inclusion-policy.md",
+    "title": "Inclusion Policy - Which Systems Belong in World Of Taxonomy",
+    "description": "Governing policy for what qualifies as a World Of Taxonomy system: published external sources, stable identifiers, enumerated or hierarchical structure, practical size. Used by contributors and downstream portfolio products to decide whether a vocabulary or taxonomy belongs.",
+    "order": 12
+  },
+  {
     "slug": "architecture",
     "file": "architecture.md",
     "title": "System Architecture and Data Flows",
     "description": "Architecture diagrams showing system design, data ingestion pipeline, API request flow, MCP session lifecycle, and the four-channel wiki distribution.",
-    "order": 12
+    "order": 13
   }
 ]

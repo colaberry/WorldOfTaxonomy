@@ -12,6 +12,8 @@
 
 ## Adding a Classification System
 
+Before writing any code, confirm the proposed system fits the project's scope. The [Inclusion Policy](wiki/inclusion-policy.md) is the canonical answer to "should this be in WoT?": published external source, stable identifiers, enumerated or hierarchical structure, practical size. If the system fails any of those tests, surface it in an issue first to discuss before opening a PR.
+
 ### Step 0 - Validate the data source
 
 **Do not write any code until this step is complete.**
