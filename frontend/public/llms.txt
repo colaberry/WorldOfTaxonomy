@@ -21,6 +21,7 @@ Full LLM reference: https://worldoftaxonomy.com/llms-full.txt
 - [Domain Taxonomies vs Official Standards](https://worldoftaxonomy.com/guide/domain-vs-standard)
 - [Data Quality and Provenance](https://worldoftaxonomy.com/guide/data-quality)
 - [Inclusion Policy - Which Systems Belong in World Of Taxonomy](https://worldoftaxonomy.com/guide/inclusion-policy)
+- [Web Vocabularies - schema.org, SKOS, and Related Type Systems](https://worldoftaxonomy.com/guide/web-vocabularies)
 - [System Architecture and Data Flows](https://worldoftaxonomy.com/guide/architecture)
 
 ## API

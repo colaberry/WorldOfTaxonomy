@@ -150,6 +150,16 @@ Over 300 domain taxonomies covering specialized sectors:
 - **Technology**: API architectures, database types, programming paradigms, DevOps, MLOps, cybersecurity
 - **Energy**: oil grades, natural gas, solar, wind, battery, smart grid, carbon credits
 
+## Web and Semantic Vocabularies
+
+These vocabularies define types and concepts used by AI assistants, search engines, and structured-data crawlers. They anchor what real-world things mean across the public web.
+
+| System | Region | Codes | Authority | Purpose |
+|--------|--------|-------|-----------|---------|
+| schema.org | Global | 926 | schema.org consortium (Google, Microsoft, Yahoo, Yandex) | Type vocabulary for marking up web pages and JSON-LD structured data (Article, Person, Restaurant, MedicalCondition, etc.) |
+| SKOS | Global (W3C) | 17 | W3C | Simple Knowledge Organization System reference |
+| W3C Standards | Global | 16 | W3C | W3C standards index |
+
 ## Patent Classification
 
 | System | Region | Codes | Purpose |

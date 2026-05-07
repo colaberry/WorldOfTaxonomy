@@ -11,6 +11,11 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Classification Systems
 
+- **schema.org Type Vocabulary** (`schema_org`): 926 nodes covering the rdfs:Class type tree rooted at `schema:Thing`. CC BY-SA 3.0, sourced from schema.org's official JSON-LD dump. 100% description coverage native to source. Closes the schema.org gap from the WoO inclusion-policy audit and provides the primary AEO/SEO anchor for the portfolio. Properties (rdf:Property entries) are not ingested per the inclusion policy's exclusion of pure property vocabularies.
+- New wiki page `wiki/web-vocabularies.md` introducing the topic with schema.org as the anchor.
+
+### Classification Systems
+
 - **GeoNames Feature Codes** (`geonames_features`): 693 nodes (9 feature classes + 684 codes) covering administrative divisions, hydrographic features, populated places, terrain, undersea, vegetation, and more. CC BY 4.0, sourced from GeoNames. 100% description coverage (635 from source + 58 curated supplementary). Closes the GeoNames gap identified in the WoO inclusion-policy audit.
 
 ### Infrastructure and Operations
