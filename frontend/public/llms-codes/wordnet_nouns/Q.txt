@@ -1,0 +1,353 @@
+[qaddafi.n.01] Qaddafi -- Libyan leader who seized power in a military coup d'etat in 1969; deposed the Libyan monarchy and imposed socialism and Islamic orthodoxy on the country (born in 1942)
+[qadi.n.01] qadi -- an Islamic judge
+[qassam_brigades.n.01] Qassam Brigades -- the military arm of Hamas responsible for suicide bombings and other attacks on Israel
+[qatari_dirham.n.01] Qatari dirham -- 100 dirhams equal 1 riyal in Qatar
+[qatari_monetary_unit.n.01] Qatari monetary unit -- monetary unit in Qatar
+[qatari.n.01] Qatari -- a native or inhabitant of Qatar
+[qatari_riyal.n.01] Qatari riyal -- the basic unit of money in Qatar
+[qatar.n.01] Qatar -- an Arab country on the peninsula of Qatar; achieved independence from the United Kingdom in 1971; the economy is dominated by oil
+[qatar.n.02] Qatar -- a peninsula extending northward from the Arabian mainland into the Persian Gulf
+[qepiq.n.01] qepiq -- 100 qepiq equal 1 manat in Azerbaijan
+[q_fever.n.01] Q fever -- an acute disease resembling influenza
+[qiang.n.01] Qiang -- the Tibeto-Burman language spoken in Sichuan
+[qibla.n.01] qibla -- the direction of the Kaaba toward which Muslims turn for their daily prayers
+[qibla.n.02] Qibla -- a small terrorist group of Muslims in South Africa formed in the 1980s; was inspired by Ayatollah Khomeini to create an Islamic state in South Africa
+[qi.n.01] qi -- the circulating life energy that in Chinese philosophy is thought to be inherent in all things; in traditional Chinese medicine the balance of negative and positive forms in the body is believed to be essential for good health
+[qindarka.n.01] qindarka -- 100 qindarka equal 1 lek in Albania
+[qing.n.01] Qing -- the last imperial dynasty of China (from 1644 to 1912) which was overthrown by revolutionaries; during the Qing dynasty China was ruled by the Manchu
+[qin.n.01] Qin -- the Chinese dynasty (from 246 BC to 206 BC) that established the first centralized imperial government and built much of the Great Wall
+[qin_shi_huang_ti.n.01] Qin Shi Huang Ti -- the first Qin emperor who unified China, built much of the Great Wall, standardized weights and measures, and created a common currency and legal system (died 210 BC)
+[q.n.01] Q -- the 17th letter of the Roman alphabet
+[qoph.n.01] qoph -- the 19th letter of the Hebrew alphabet
+[quackery.n.01] quackery -- medical practice and advice based on observation and experience in ignorance of scientific findings
+[quack.n.01] quack -- an untrained person who pretends to be a physician and who dispenses medical advice Also a hyponym of: mountebank.n.01.
+[quack.n.02] quack -- the harsh sound of a duck
+[quack-quack.n.01] quack-quack -- child's word for a duck
+[quad.n.03] quad -- (printing) a block of type without a raised letter; used for spacing between words or sentences
+[quad.n.04] quad -- a rectangular area surrounded on all sides by buildings
+[quadragesima.n.01] Quadragesima -- the first Sunday in Lent
+[quadrangular_prism.n.01] quadrangular prism -- a prism whose bases are quadrangles
+[quadrantanopia.n.01] quadrantanopia -- blindness in one fourth of the visual field
+[quadrant.n.01] quadrant -- a quarter of the circumference of a circle
+[quadrant.n.02] quadrant -- any of the four areas into which a plane is divided by two orthogonal coordinate axes
+[quadrant.n.03] quadrant -- the area enclosed by two perpendicular radii of a circle
+[quadrant.n.04] quadrant -- a measuring instrument for measuring altitude of heavenly bodies
+[quadraphony.n.01] quadraphony -- a stereophonic sound recording or reproducing system using four separate channels
+[quadrate.n.01] quadrate -- a cubelike object
+[quadrate.n.02] quadrate -- a square-shaped object
+[quadratic_equation.n.01] quadratic equation -- an equation in which the highest power of an unknown quantity is a square
+[quadratic.n.02] quadratic -- a polynomial of the second degree
+[quadratics.n.01] quadratics -- a branch of algebra dealing with quadratic equations
+[quadrature.n.01] quadrature -- the construction of a square having the same area as some other figure
+[quadrennium.n.01] quadrennium -- a period of four years
+[quadriceps.n.01] quadriceps -- a muscle of the thigh that extends the leg
+[quadric.n.01] quadric -- a curve or surface whose equation (in Cartesian coordinates) is of the second degree
+[quadrilateral.n.01] quadrilateral -- a four-sided polygon
+[quadrille.n.01] quadrille -- music for dancing the quadrille
+[quadrille.n.02] quadrille -- a square dance of 5 or more figures for 4 or more couples
+[quadrillion.n.01] quadrillion -- the number that is represented as a one followed by 24 zeros
+[quadrillion.n.02] quadrillion -- the number that is represented as a one followed by 15 zeros
+[quadripara.n.01] quadripara -- (obstetrics) woman who has given birth to a viable infant in each of four pregnancies
+[quadriplegia.n.01] quadriplegia -- paralysis of both arms and both legs
+[quadriplegic.n.01] quadriplegic -- a person who is paralyzed in both arms and both legs
+[quadrivium.n.01] quadrivium -- (Middle Ages) a higher division of the curriculum in a medieval university involving arithmetic and music and geometry and astronomy
+[quadroon.n.01] quadroon -- an offspring of a mulatto and a white parent; a person who is one-quarter black
+[quadrumvirate.n.01] quadrumvirate -- a group of four men
+[quadruped.n.01] quadruped -- an animal especially a mammal having four limbs specialized for walking
+[quadruple.n.02] quadruple -- a quantity that is four times as great as another
+[quadruplet.n.02] quadruplet -- one of four children born at the same time from the same pregnancy
+[quadruplicate.n.01] quadruplicate -- any four copies; any of four things that correspond to one another exactly
+[quadrupling.n.01] quadrupling -- increase by a factor of four
+[quaestor.n.01] quaestor -- any of several public officials of ancient Rome (usually in charge of finance and administration)
+[quaffer.n.01] quaffer -- a person who drinks heartily
+[quaff.n.01] quaff -- a hearty draft
+[quagga.n.01] quagga -- mammal of South Africa that resembled a zebra; extinct since late 19th century
+[quahaug.n.01] quahaug -- Atlantic coast round clams with hard shells; large clams usually used for chowders or other clam dishes
+[quahog.n.02] quahog -- an edible American clam; the heavy shells were used as money by some American Indians
+[quai_d'orsay.n.01] Quai d'Orsay -- the street in Paris along the south bank of the Seine known for its governmental ministries
+[quail_bush.n.01] quail bush -- spiny shrub with silvery-scurfy foliage of alkaline plains of southwestern United States and Mexico
+[quail.n.01] quail -- flesh of quail; suitable for roasting or broiling if young; otherwise must be braised
+[quail.n.02] quail -- small gallinaceous game birds
+[quaintness.n.01] quaintness -- the quality of being quaint and old-fashioned
+[quaintness.n.02] quaintness -- strangeness as a consequence of being old fashioned
+[quaker_gun.n.01] Quaker gun -- a dummy gun or piece of artillery made usually of wood
+[quakerism.n.01] Quakerism -- the theological doctrine of the Society of Friends characterized by opposition to war and rejection of ritual and a formal creed and an ordained ministry
+[quaker.n.02] quaker -- one who quakes and trembles with (or as with) fear
+[quaking_aspen.n.01] quaking aspen -- Old World aspen with a broad much-branched crown; northwestern Europe and Siberia to North Africa
+[qualification.n.01] qualification -- an attribute that must be met or complied with and that fits a person for something
+[qualification.n.02] qualification -- the act of modifying or changing the strength of some idea
+[qualifier.n.01] qualifier -- a contestant who meets certain requirements and so qualifies to take part in the next stage of competition
+[quality_control.n.01] quality control -- maintenance of standards of quality of manufactured goods
+[quality.n.01] quality -- an essential and distinguishing attribute of something or someone; --Shakespeare
+[quality.n.02] quality -- a degree or grade of excellence or worth
+[quality.n.03] quality -- a characteristic property that defines the apparent individual nature of something
+[quality.n.05] quality -- high social status
+[quality_of_life.n.01] quality of life -- your personal satisfaction (or dissatisfaction) with the cultural or intellectual conditions under which you live (as distinct from material comfort)
+[quandong.n.01] quandong -- Australian tree with edible flesh and edible nutlike seed
+[quandong.n.02] quandong -- the fruit of the Brisbane quandong tree
+[quandong.n.03] quandong -- Australian tree having hard white timber and glossy green leaves with white flowers followed by one-seeded glossy blue fruit
+[quandong.n.04] quandong -- red Australian fruit; used for dessert or in jam
+[quandong_nut.n.01] quandong nut -- edible nutlike seed of the quandong fruit
+[quango.n.01] quango -- a quasi nongovernmental organization; an organization that is financed by the government yet acts independently of the government
+[quantic.n.01] quantic -- a homogeneous polynomial having at least two variables
+[quantifiability.n.01] quantifiability -- the quality of being measurable
+[quantification.n.01] quantification -- a limitation imposed on the variables of a proposition (as by the quantifiers `some' or `all' or `no')
+[quantification.n.02] quantification -- the act of discovering or expressing the quantity of something
+[quantifier.n.01] quantifier -- (logic) a word (such as `some' or `all' or `no') that binds the variables in a logical proposition
+[quantifier.n.02] quantifier -- (grammar) a word that expresses a quantity (as `fifteen' or `many')
+[quantitative_analysis.n.01] quantitative analysis -- chemical analysis to determine the amounts of each element in the substance Also a hyponym of: measurement.n.01.
+[quantity.n.02] quantity -- an adequate or large amount
+[quantity.n.03] quantity -- the concept that something has a magnitude and can be represented in mathematical expressions by a constant or a variable
+[quantization.n.01] quantization -- the act of dividing into quanta or expressing in terms of quantum theory
+[quantum_chromodynamics.n.01] quantum chromodynamics -- a theory of strong interactions between elementary particles (including the interaction that binds protons and neutrons in the nucleus); it assumes that strongly interacting particles (hadrons) are made of quarks and that gluons bind the quarks together
+[quantum_electrodynamics.n.01] quantum electrodynamics -- a relativistic quantum theory of the electromagnetic interactions of photons and electrons and muons
+[quantum_field_theory.n.01] quantum field theory -- the branch of quantum physics that is concerned with the theory of fields; it was motivated by the question of how an atom radiates light as its electrons jump from excited states
+[quantum_jump.n.01] quantum jump -- (physics) an abrupt transition of an electron or atom or molecule from one quantum state to another with the emission or absorption of a quantum
+[quantum_leap.n.01] quantum leap -- a sudden large increase or advance
+[quantum_mechanics.n.01] quantum mechanics -- the branch of quantum physics that accounts for matter at the atomic level; an extension of statistical mechanics based on quantum theory (especially the Pauli exclusion principle)
+[quantum.n.01] quantum -- a discrete amount of something that is analogous to the quantities in quantum theory
+[quantum.n.02] quantum -- (physics) the smallest discrete quantity of some physical property that a system can possess (according to quantum theory)
+[quantum_physics.n.01] quantum physics -- the branch of physics based on quantum theory
+[quantum_theory.n.01] quantum theory -- (physics) a physical theory that certain properties occur only in discrete amounts (quanta)
+[quaoar.n.01] Quaoar -- a planetoid discovered in 2002
+[quapaw.n.01] Quapaw -- a member of the Siouan people of the Arkansas river valley in Arkansas
+[quapaw.n.02] Quapaw -- the Dhegiha dialect spoken by the Quapaw
+[quarantine.n.01] quarantine -- enforced isolation of patients suffering from a contagious disease in order to prevent the spread of disease
+[quarantine.n.02] quarantine -- isolation to prevent the spread of infectious disease
+[quark_cheese.n.01] quark cheese -- fresh unripened cheese of a smooth texture made from pasteurized milk, a starter, and rennet
+[quark.n.01] quark -- (physics) hypothetical truly fundamental particle in mesons and baryons; there are supposed to be six flavors of quarks (and their antiquarks), which come in pairs; each has an electric charge of +2/3 or -1/3
+[quarreler.n.01] quarreler -- a disputant who quarrels
+[quarrel.n.01] quarrel -- an angry dispute
+[quarrel.n.02] quarrel -- an arrow that is shot from a crossbow; has a head with four edges
+[quarrelsomeness.n.01] quarrelsomeness -- an inclination to be quarrelsome and contentious
+[quarrying.n.01] quarrying -- the extraction of building stone or slate from an open surface quarry
+[quarryman.n.01] quarryman -- a man who works in a quarry
+[quartan.n.01] quartan -- a malarial fever that recurs every fourth day
+[quarterback.n.01] quarterback -- (football) the person who plays quarterback
+[quarterback.n.02] quarterback -- (American football) the position of the football player in the backfield who directs the offensive play of his team
+[quarter-century.n.01] quarter-century -- a period of 25 years
+[quarter_crack.n.01] quarter crack -- a crack on the inside of a horse's forefoot
+[quarter_day.n.01] quarter day -- a Christian holy day; one of four specified days when certain payments are due
+[quarterdeck.n.01] quarterdeck -- the stern area of a ship's upper deck
+[quarterfinal.n.01] quarterfinal -- one of the four competitions in an elimination tournament whose winners go on to play in the semifinals
+[quarter_horse.n.01] quarter horse -- a small powerful horse originally bred for sprinting in quarter-mile races in Virginia
+[quarter-hour.n.01] quarter-hour -- a quarter of an hour
+[quartering.n.01] quartering -- a coat of arms that occupies one quarter of an escutcheon; combining four coats of arms on one shield usually represented intermarriages
+[quartering.n.02] quartering -- living accommodations (especially those assigned to military personnel)
+[quartering.n.03] quartering -- dividing into four equal parts
+[quarterlight.n.01] quarterlight -- car window consisting of a small pivoted glass vent in the door of a car
+[quarterly.n.01] quarterly -- a periodical that is published every quarter (or four issues per year)
+[quartermaster_general.n.01] quartermaster general -- a staff officer in charge of supplies for a whole army
+[quartermaster.n.01] quartermaster -- an army officer who provides clothing and subsistence for troops
+[quarter_mile.n.01] quarter mile -- a unit of length equal to a quarter of 1 mile
+[quarter.n.02] quarter -- a district of a city having some distinguishing character
+[quarter.n.03] quarter -- (football, professional basketball) one of four divisions into which some games are divided
+[quarter.n.04] quarter -- a unit of time equal to 15 minutes or a quarter of an hour
+[quarter.n.05] quarter -- one of four periods into which the school year is divided
+[quarter.n.06] quarter -- a fourth part of a year; three months
+[quarter.n.07] quarter -- one of the four major division of the compass
+[quarter.n.08] quarter -- a quarter of a hundredweight (25 pounds)
+[quarter.n.09] quarter -- a quarter of a hundredweight (28 pounds)
+[quarter.n.10] quarter -- a United States or Canadian coin worth one fourth of a dollar
+[quarter.n.11] quarter -- an unspecified person
+[quarter.n.13] quarter -- piece of leather that comprises the part of a shoe or boot covering the heel and joining the vamp
+[quarter.n.14] quarter -- clemency or mercy shown to a defeated opponent
+[quarter_note.n.01] quarter note -- a musical note having the time value of a quarter of a whole note
+[quarter_plate.n.01] quarter plate -- a photographic plate measuring 3.25 inches by 4.25 inches
+[quarter_pound.n.01] quarter pound -- 4 ounces avoirdupois
+[quarter_rest.n.01] quarter rest -- a musical rest having one-fourth the time value of a whole rest
+[quarter_section.n.01] quarter section -- a land unit equal to a quarter of a section (160 acres) and measuring 1/2 mile on a side
+[quarter_sessions.n.01] quarter sessions -- a local court with criminal jurisdiction and sometimes administrative functions
+[quarterstaff.n.01] quarterstaff -- a long stout staff used as a weapon
+[quarter_stock.n.01] quarter stock -- stock with a par value of $25/share
+[quarter_tone.n.01] quarter tone -- half of a semitone
+[quartet.n.02] quartet -- four performers or singers who perform together
+[quartet.n.03] quartet -- a set of four similar things considered as a unit
+[quartet.n.04] quartet -- four people considered as a unit
+[quartet.n.05] quartet -- a musical composition for four performers
+[quartile.n.01] quartile -- (statistics) any of three points that divide an ordered distribution into four parts each containing one quarter of the scores
+[quart.n.01] quart -- a United States liquid unit equal to 32 fluid ounces; four quarts equal one gallon
+[quart.n.02] quart -- a British imperial capacity measure (liquid or dry) equal to 2 pints or 1.136 liters
+[quart.n.03] quart -- a United States dry unit equal to 2 pints or 67.2 cubic inches
+[quarto.n.01] quarto -- the size of a book whose pages are made by folding a sheet of paper twice to form four leaves
+[quartz_battery.n.01] quartz battery -- a stamp mill for stamping quartz
+[quartz_crystal.n.01] quartz crystal -- a thin plate or small rod of quartz cut along certain lines and ground so that it can produce an electric signal at a constant frequency; used in crystal oscillators
+[quartz_glass.n.01] quartz glass -- colorless glass made of almost pure silica
+[quartzite.n.01] quartzite -- hard metamorphic rock consisting essentially of interlocking quartz crystals
+[quartz_lamp.n.01] quartz lamp -- a mercury-vapor lamp that is enclosed in a quartz container instead of a glass container
+[quartz.n.02] quartz -- a hard glossy mineral consisting of silicon dioxide in crystal form; present in most rocks (especially sandstone and granite); yellow sand is quartz with iron oxide impurities
+[quasar.n.01] quasar -- a starlike object that may send out radio waves and other forms of energy; many have large red shifts
+[quasi_contract.n.01] quasi contract -- a contract created by law for reasons of justice without any expression of assent
+[quasiparticle.n.01] quasiparticle -- a quantum of energy (in a crystal lattice or other system) that has position and momentum and can in some respects be regarded as a particle
+[quassia.n.01] quassia -- a bitter compound used as an insecticide and tonic and vermifuge; extracted from the wood and bark of trees of the genera Quassia and Picrasma
+[quassia.n.02] quassia -- handsome South American shrub or small tree having bright scarlet flowers and yielding a valuable fine-grained yellowish wood; yields the bitter drug quassia from its wood and bark
+[quatercentennial.n.01] quatercentennial -- the 400th anniversary (or the celebration of it)
+[quaternary_ammonium_compound.n.01] quaternary ammonium compound -- a compound derived from ammonium with hydrogen atoms replaced by organic groups; used as surface-active agents, disinfectants, and in drugs
+[quaternary.n.01] Quaternary -- last 2 million years
+[quatrain.n.01] quatrain -- a stanza of four lines
+[quattrocento.n.01] quattrocento -- the 15th century in Italian art and literature
+[quaver.n.01] quaver -- a tremulous sound
+[quay.n.01] quay -- wharf usually built parallel to the shoreline
+[queasiness.n.01] queasiness -- a mild state of nausea
+[quebec_bridge.n.01] Quebec Bridge -- a cantilever bridge in Quebec
+[quebec.n.01] Quebec -- the French-speaking capital of the province of Quebec; situated on the Saint Lawrence River
+[quebec.n.02] Quebec -- the largest province of Canada; a French colony from 1663 to 1759 when it was lost to the British
+[quebecois.n.01] Quebecois -- a native or inhabitant of Quebec (especially one who speaks French)
+[quechua.n.01] Quechua -- a member of a South American Indian people in Peru who were formerly the ruling class of the Inca empire
+[quechua.n.02] Quechua -- a community of South American Indians in Peru who were formerly the ruling class of the Incan Empire
+[quechua.n.03] Quechua -- the language of the Quechua which was spoken by the Incas
+[queckenstedt's_test.n.01] Queckenstedt's test -- a test to determine whether there is a blockage of the spinal canal
+[queen_bee.n.01] queen bee -- fertile egg-laying female bee
+[queen_charlotte_sound.n.01] Queen Charlotte Sound -- an inlet of the Pacific Ocean off the coast of British Columbia
+[queen_consort.n.01] queen consort -- the wife of a reigning king
+[queen_dowager.n.01] queen dowager -- the widow of a king
+[queen_maud_land.n.01] Queen Maud Land -- a region of Antarctica between Enderby Land and the Weddell Sea; claimed by Norway
+[queen_mother.n.01] queen mother -- a queen dowager who is mother of the reigning sovereign
+[queen.n.01] queen -- the only fertile female in a colony of social insects such as bees and ants and termites; its function is to lay eggs
+[queen.n.02] queen -- a female sovereign ruler
+[queen.n.03] queen -- the wife or widow of a king
+[queen.n.04] queen -- something personified as a woman who is considered the best or most important of her kind
+[queen.n.07] queen -- one of four face cards in a deck bearing a picture of a queen
+[queen.n.08] queen -- (chess) the most powerful piece
+[queen.n.09] queen -- an especially large mole rat and the only member of a colony of naked mole rats to bear offspring which are sired by only a few males
+[queen_of_england.n.01] Queen of England -- the sovereign ruler of England
+[queen_of_the_night.n.01] queen of the night -- tropical American climbing cactus having triangular branches; often cultivated for its large showy night-blooming flowers followed by yellow red-streaked fruits
+[queen_post.n.01] queen post -- vertical tie post in a roof truss
+[queen_regent.n.01] queen regent -- a queen who serves as ruler when the king cannot
+[queensboro_bridge.n.01] Queensboro Bridge -- a cantilever bridge across the East River between Manhattan and Queens
+[queen's_counsel.n.01] Queen's Counsel -- Counsel to the Crown when the British monarch is a queen
+[queen's_crape_myrtle.n.01] Queen's crape myrtle -- native to Asia, Australia, and East Indies, where it provides timber called pyinma; used elsewhere as an ornamental for its large showy flowers
+[queen's_cup.n.01] queen's cup -- plant with 1 or 2 white starlike flowers on short leafless stalks; Alaska to California and east to Oregon and Montana
+[queensland_bottletree.n.01] Queensland bottletree -- large tree of Queensland having cream-colored flowers blotched with red inside; sometimes placed in genus Sterculia
+[queensland_grass-cloth_plant.n.01] Queensland grass-cloth plant -- Australian plant of genus Pipturus whose fiber is used in making cloth
+[queensland_hemp.n.01] Queensland hemp -- herb widely distributed in tropics and subtropics used for forage and medicinally as a demulcent and having a fine soft bast stronger than jute; sometimes an aggressive weed
+[queensland.n.01] Queensland -- a state in northeastern Australia
+[queensland_nut.n.01] Queensland nut -- bushy tree with pink to purple flowers
+[queens.n.01] Queens -- a borough of New York City
+[queen_triggerfish.n.01] queen triggerfish -- tropical Atlantic fish
+[quellung.n.01] quellung -- the swelling of the capsule surrounding a microorganism after reaction with an antibody; the basis of certain tests for identifying microorganisms
+[quenched_steel.n.01] quenched steel -- steel that has been hardened by immersing it in water or oil to cool it
+[quercitron.n.01] quercitron -- a yellow dye made from the bark of the quercitron oak tree
+[quercus.n.01] Quercus -- oaks
+[quern.n.01] quern -- a primitive stone mill for grinding corn by hand
+[querulousness.n.01] querulousness -- the quality of being given to complaining
+[quesadilla.n.01] quesadilla -- a tortilla that is filled with cheese and heated
+[questioning.n.01] questioning -- a request for information
+[question_mark.n.01] question mark -- a punctuation mark (?) placed at the end of a sentence to indicate a question
+[question_master.n.01] question master -- the host or chairman of a radio or tv quiz show or panel game
+[question.n.01] question -- an instance of questioning
+[question.n.02] question -- the subject matter at issue
+[question.n.03] question -- a sentence of inquiry that asks for a reply
+[question.n.06] question -- an informal reference to a marriage proposal
+[questionnaire.n.01] questionnaire -- a form containing a set of questions; submitted to people to gain statistical information
+[question_of_fact.n.01] question of fact -- a disputed factual contention that is generally left for a jury to decide
+[question_of_law.n.01] question of law -- a disputed legal contention that is generally left for a judge to decide
+[question_time.n.01] question time -- a period during a parliamentary session when members of British Parliament may ask questions of the ministers
+[quest.n.02] quest -- the act of searching for something
+[quetzalcoatl.n.01] Quetzalcoatl -- an Aztec deity represented as a plumed serpent
+[quetzal.n.01] quetzal -- the basic unit of money in Guatemala; equal to 100 centavos
+[quetzal.n.02] quetzal -- large trogon of Central America and South America having golden-green and scarlet plumage
+[queue.n.01] queue -- a line of people or vehicles waiting for something
+[queue.n.02] queue -- (information processing) an ordered list of tasks to be performed or messages to be transmitted
+[queue.n.03] queue -- a braid of hair at the back of the head
+[quezon_city.n.01] Quezon City -- city on Luzon adjoining Manila
+[quibble.n.01] quibble -- an evasion of the point of an argument by raising irrelevant distinctions or objections
+[quibbler.n.01] quibbler -- a disputant who quibbles; someone who raises annoying petty objections
+[quiche_lorraine.n.01] quiche Lorraine -- quiche made with cheese and bacon
+[quiche.n.01] Quiche -- a member of the Mayan people of south central Guatemala
+[quiche.n.02] quiche -- a tart filled with rich unsweetened custard; often contains other ingredients (as cheese or ham or seafood or vegetables)
+[quiche.n.03] Quiche -- the Mayan language spoken by the Quiche
+[quick_bread.n.01] quick bread -- breads made with a leavening agent that permits immediate baking
+[quickener.n.01] quickener -- an agent that gives or restores life or vigor
+[quickening.n.01] quickening -- the process of showing signs of life
+[quickening.n.02] quickening -- the stage of pregnancy at which the mother first feels the movements of the fetus
+[quick_march.n.01] quick march -- marching at quick time
+[quick.n.01] quick -- any area of the body that is highly sensitive to pain (as the flesh underneath the skin or a fingernail or toenail)
+[quicksand.n.01] quicksand -- a treacherous situation that tends to entrap and destroy
+[quicksand.n.02] quicksand -- a pit filled with loose wet sand into which objects are sucked down
+[quickset.n.01] quickset -- cuttings of plants set in the ground to grow as hawthorn for hedges or vines
+[quickstep.n.01] quickstep -- military march accompanying quick time
+[quickstep.n.02] quickstep -- a ballroom dance with both quick and slow steps
+[quick_study.n.01] quick study -- someone able to acquire new knowledge and skills rapidly and easily
+[quick_time.n.01] quick time -- a normal marching pace of 120 steps per minute
+[quiddity.n.02] quiddity -- the essence that makes something the kind of thing it is and makes it different from any other
+[quid_pro_quo.n.01] quid pro quo -- something for something; that which a party receives (or is promised) in return for something he does or gives or promises
+[quiescence.n.02] quiescence -- quiet and inactive restfulness
+[quietism.n.01] quietism -- a form of religious mysticism requiring withdrawal from all human effort and passive contemplation of God
+[quietist.n.01] quietist -- a religious mystic who follows quietism
+[quietness.n.01] quietness -- the property of making no sound
+[quiff.n.01] quiff -- a prominent forelock (especially one brushed upward from the forehead)
+[quill.n.01] quill -- pen made from a bird's feather
+[quill.n.02] quill -- a stiff hollow protective spine on a porcupine or hedgehog
+[quill.n.04] quill -- the hollow spine of a feather
+[quillwort.n.01] quillwort -- any of several spore-bearing aquatic or marsh plants having short rhizomes and leaves resembling quills; worldwide except Polynesia
+[quilted_bedspread.n.01] quilted bedspread -- a bedspread constructed like a thin quilt
+[quilting_bee.n.01] quilting bee -- a gathering to make quilts
+[quilting.n.01] quilting -- stitching through layers of fabric and a filling so as to create a design
+[quilting.n.02] quilting -- a material used for making a quilt, or a quilted fabric
+[quilt.n.01] quilt -- bedding made of two layers of cloth filled with stuffing and stitched together
+[quinacrine.n.01] quinacrine -- a drug (trade name Atabrine) used to treat certain worm infestations and once used to treat malaria Also a hyponym of: antimalarial.n.01.
+[quince.n.01] quince -- small Asian tree with pinkish flowers and pear-shaped fruit; widely cultivated
+[quince.n.02] quince -- aromatic acid-tasting pear-shaped fruit used in preserves Also a hyponym of: pome.n.01.
+[quincentennial.n.01] quincentennial -- the 500th anniversary (or the celebration of it)
+[quincy.n.01] Quincy -- American patriot who presented the colonists' grievances to the English king (1744-1775)
+[quine.n.01] Quine -- United States philosopher and logician who championed an empirical view of knowledge that depended on language (1908-2001) Also a hyponym of: philosopher.n.01.
+[quinidine.n.01] quinidine -- cardiac drug (trade names Quinidex and Quinora) used to treat certain heart arrhythmias
+[quinine.n.01] quinine -- a bitter alkaloid extracted from chinchona bark; used in malaria therapy
+[quinone.n.01] quinone -- any of a class of aromatic yellow compounds including several that are biologically important as coenzymes or acceptors or vitamins; used in making dyes
+[quinquagesima.n.01] Quinquagesima -- the Sunday before Ash Wednesday (the beginning of Lent)
+[quinquefoliate_leaf.n.01] quinquefoliate leaf -- a compound leaf having five leaflets
+[quinquennium.n.01] quinquennium -- a period of five years
+[quinsy.n.01] quinsy -- a painful pus filled inflammation of the tonsils and surrounding tissues; usually a complication of tonsillitis
+[quintal.n.01] quintal -- a unit of weight equal to 100 kilograms
+[quintana_roo.n.01] Quintana Roo -- a Mexican state on the eastern side of the Yucatan Peninsula
+[quintessence.n.01] quintessence -- the fifth and highest element after air and earth and fire and water; was believed to be the substance composing all heavenly bodies
+[quintessence.n.02] quintessence -- the purest and most concentrated essence of something
+[quintessence.n.03] quintessence -- the most typical example or representative of a type
+[quintet.n.01] quintet -- a musical composition for five performers
+[quintet.n.03] quintet -- five performers or singers who perform together
+[quintet.n.04] quintet -- a set of five similar things considered as a unit
+[quintet.n.05] quintet -- five people considered as a unit
+[quintillion.n.01] quintillion -- the number that is represented as a one followed by 18 zeros
+[quintipara.n.01] quintipara -- (obstetrics) woman who has given birth to a viable infant in each of five pregnancies
+[quintuplet.n.02] quintuplet -- one of five children born at the same time from the same pregnancy
+[quintupling.n.01] quintupling -- increasing by a factor of five
+[quipu.n.01] quipu -- calculator consisting of a cord with attached cords; used by ancient Peruvians for calculating and keeping records
+[quira.n.02] quira -- any of several tropical American trees some yielding economically important timber
+[quire.n.01] quire -- a quantity of paper; 24 or 25 sheets
+[quirk_bead.n.01] quirk bead -- beading formed with a narrow groove separating it from the surface it decorates
+[quirk_molding.n.01] quirk molding -- a molding having a small groove in it
+[quirk.n.02] quirk -- a narrow groove beside a beading
+[quirt.n.01] quirt -- whip with a leather thong at the end
+[quiscalus.n.01] Quiscalus -- grackles
+[quitclaim.n.01] quitclaim -- document transferring title or right or claim to another
+[quitclaim.n.02] quitclaim -- act of transferring a title or right or claim to another
+[quito.n.01] Quito -- the capital of Ecuador
+[quittance.n.01] quittance -- a document or receipt certifying release from an obligation or debt
+[quitter.n.01] quitter -- a person who gives up too easily
+[quiver.n.03] quiver -- case for holding arrows
+[quiz.n.01] quiz -- an examination consisting of a few short questions
+[quiz_program.n.01] quiz program -- a game show in which contestants answer questions
+[qum.n.01] Qum -- a city in northwestern Iran; a place of pilgrimage for Shiite Muslims
+[quodlibet.n.01] quodlibet -- an issue that is presented for formal disputation
+[quoin.n.01] quoin -- expandable metal or wooden wedge used by printers to lock up a form within a chase
+[quoin.n.02] quoin -- the keystone of an arch
+[quoit.n.01] quoit -- game equipment consisting of a ring of iron or circle of rope used in playing the game of quoits
+[quoits.n.01] quoits -- a game in which iron rings (or open iron rings) are thrown at a stake in the ground in the hope of encircling it
+[quoratean.n.01] Quoratean -- a group of languages of the Hokan family
+[quorum.n.01] quorum -- a gathering of the minimal number of members of an organization to conduct business
+[quotability.n.01] quotability -- the quality of being worthy of being quoted
+[quota.n.01] quota -- a prescribed number
+[quota.n.02] quota -- a proportional share assigned to each participant
+[quota.n.03] quota -- a limitation on imports
+[quotation_mark.n.01] quotation mark -- a punctuation mark used to attribute the enclosed text to someone else
+[quotation.n.02] quotation -- a passage or expression that is quoted or cited
+[quotation.n.03] quotation -- a statement of the current market price of a security or commodity
+[quotation.n.04] quotation -- the practice of quoting from books or plays etc.
+[quoter.n.01] quoter -- a communicator (speaker or writer) who uses quotations
+[quotient.n.01] quotient -- the ratio of two quantities to be divided
+[quotient.n.02] quotient -- the number obtained by division
+[quotient_verdict.n.01] quotient verdict -- an improper and unacceptable kind of compromise verdict
+[quo_warranto.n.01] quo warranto -- a hearing to determine by what authority someone has an office or franchise or liberty
+[qurush.n.01] qurush -- 20 qurush equal 1 riyal in Saudi Arabia
+[qwerty_keyboard.n.01] QWERTY keyboard -- the standard typewriter keyboard; the keys for Q, W, E, R, T, and Y are the first six from the left on the top row of letter keys

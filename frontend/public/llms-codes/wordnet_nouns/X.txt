@@ -1,0 +1,90 @@
+[xanthate.n.01] xanthate -- a salt or ester of xanthic acid
+[xanthelasma.n.01] xanthelasma -- xanthoma of the eyelids; occurs chiefly in the elderly
+[xanthic_acid.n.01] xanthic acid -- any of a class of unstable organic acids containing sulphur
+[xanthine.n.01] xanthine -- crystalline oxidation product of the metabolism of nucleoproteins; precursor of uric acid; found in many organs and in urine
+[xanthium.n.01] Xanthium -- coarse herbs having small heads of greenish flowers followed by burrs with hooked bristles
+[xanthoma_disseminatum.n.01] xanthoma disseminatum -- rare chronic xanthoma of adults in which orange or brownish papules develop on many surfaces of the body
+[xanthoma.n.01] xanthoma -- a skin problem marked by the development (on the eyelids and neck and back) of irregular yellow nodules; sometimes attributable to disturbances of cholesterol metabolism
+[xanthomatosis.n.01] xanthomatosis -- widespread xanthomas (especially on elbows and knees); often associated with a disorder of lipid metabolism
+[xanthomonad.n.01] xanthomonad -- bacteria producing yellow non-water-soluble pigments; some pathogenic for plants
+[xanthomonas.n.01] Xanthomonas -- a genus of bacteria similar to Pseudomonas but producing a yellow pigment that is not soluble in water
+[xanthophyceae.n.01] Xanthophyceae -- yellow-green algae
+[xanthophyll.n.01] xanthophyll -- yellow carotenoid pigments in plants and animal fats and egg yolks
+[xanthopsia.n.01] xanthopsia -- visual defect in which objects appear to have a yellowish hue; sometimes occurs in cases of jaundice
+[xanthorrhoeaceae.n.01] Xanthorrhoeaceae -- one of many subfamilies into which some classification systems subdivide the Liliaceae but not widely accepted
+[xanthorroea.n.01] Xanthorroea -- grass trees; sometimes placed in family Xanthorrhoeaceae
+[xanthosis.n.01] xanthosis -- an abnormal yellow discoloration of the skin
+[xanthosoma.n.01] Xanthosoma -- tropical American tuberous perennials
+[xantusiidae.n.01] Xantusiidae -- night lizards
+[xavier.n.01] Xavier -- Spanish missionary and Jesuit who establish missionaries in Japan and Ceylon and the East Indies (1506-1552)
+[x-axis.n.01] x-axis -- the horizontal axis in a plane coordinate system
+[x_chromosome.n.01] X chromosome -- the sex chromosome that is present in both sexes: singly in males and doubly in females
+[xenarthra.n.01] Xenarthra -- armadillos; American anteaters; sloths
+[xenicidae.n.01] Xenicidae -- alternative names for the family comprising the New Zealand wrens
+[xenicus.n.01] Xenicus -- type genus for the Xenicidae
+[xenolith.n.01] xenolith -- (geology) a piece of rock of different origin from the igneous rock in which it is embedded
+[xenon.n.01] xenon -- a colorless odorless inert gaseous element occurring in the earth's atmosphere in trace amounts Also a hyponym of: chemical_element.n.01.
+[xenophanes.n.01] Xenophanes -- Greek philosopher (560-478 BC)
+[xenophobia.n.01] xenophobia -- a fear of foreigners or strangers
+[xenophon.n.01] Xenophon -- Greek general and historian; student of Socrates (430-355 BC) Also a hyponym of: historian.n.01.
+[xenopodidae.n.01] Xenopodidae -- in some classifications the family of the genus Xenopus which is otherwise included in the family Pipidae
+[xenopus.n.01] Xenopus -- an African clawed frog; in some classifications made the type genus of a separate family Xenopodidae
+[xenorhyncus.n.01] Xenorhyncus -- East Indian and Australian storks
+[xenosauridae.n.01] Xenosauridae -- monotypic family of Mexican lizards
+[xenosaurus.n.01] Xenosaurus -- type and sole genus of Xenosauridae: slender-bodied Mexican lizards having the upper surface covered with tiny granules and tubercles
+[xenotime.n.01] xenotime -- a brown-to-yellow mineral that is a phosphate of yttrium in crystalline form
+[xenotransplant.n.01] xenotransplant -- a surgical procedure in which tissue or whole organs are transfered from one species to another species
+[xeranthemum.n.01] xeranthemum -- any plant of the genus Xeranthemum native to southern Europe having chaffy or silvery flower heads with purplish tubular flowers
+[xerobates.n.01] Xerobates -- possible new genus for desert and Texas tortoises based on recent research
+[xeroderma.n.01] xeroderma -- a mild form of ichthyosis characterized by abnormal dryness and roughness of the skin
+[xeroderma_pigmentosum.n.01] xeroderma pigmentosum -- a rare genetic condition characterized by an eruption of exposed skin occurring in childhood and photosensitivity with severe sunburn; inherited as a recessive autosomal trait in which DNA repair processes are defective so they are more likely to chromosome breaks and cancers when exposed to ultraviolet light
+[xerographic_printer.n.01] xerographic printer -- a page printer that uses the xerographic process
+[xerography.n.01] xerography -- forming an image by the action of light on a specially coated charged plate; the latent image is developed with powders that adhere only to electrically charged areas
+[xerophthalmia.n.01] xerophthalmia -- abnormal dryness of the conjunctiva and cornea of the eyes; may be due to a systemic deficiency of vitamin A
+[xerophyllum.n.01] Xerophyllum -- small genus of North American herbs having grasslike basal leaves: squaw grass; sometimes placed in family Melanthiaceae
+[xeroradiography.n.01] xeroradiography -- radiography using X-rays and xerographic (rather than roentgenographic) techniques
+[xerostomia.n.01] xerostomia -- abnormal dryness of the mouth resulting from decreased secretion of saliva
+[xerox.n.01] xerox -- a copy made by a xerographic printer
+[xerox.n.02] Xerox -- a duplicator (trade mark Xerox) that copies graphic matter by the action of light on an electrically charged photoconductive insulating surface in which the latent image is developed with a resinous powder
+[xerxes_i.n.01] Xerxes I -- king of Persia who led a vast army against Greece and won the battle of Thermopylae but was eventually defeated (519-465 BC)
+[xhosa.n.01] Xhosa -- a member of the Negroid people of southern South Africa
+[xhosa.n.02] Xhosa -- a community of Negroid people in southern South Africa
+[xhosa.n.03] Xhosa -- a Bantu language closely related to Zulu
+[xian.n.01] Xian -- a city of central China; capital of ancient Chinese empire 221-206 BC
+[xi.n.02] xi -- the 14th letter of the Greek alphabet
+[xinjiang.n.01] Xinjiang -- an autonomous province in far northwestern China on the border with Mongolia and Kazakhstan; the largest province in the People's Republic of China and the homeland of the Uighur people
+[xiphias.n.01] Xiphias -- type genus of the Xiphiidae
+[xiphiidae.n.01] Xiphiidae -- comprising the common swordfishes
+[xiphoid_process.n.01] xiphoid process -- smallest of the three parts of the breastbone; articulates with the corpus sternum and the seventh rib
+[xiphosura.n.01] Xiphosura -- horseshoe crabs and extinct forms
+[x-linked_dominant_inheritance.n.01] X-linked dominant inheritance -- hereditary pattern in which a dominant gene on the X chromosome causes a characteristic to be manifested in the offspring
+[x-linked_gene.n.01] X-linked gene -- a gene located on an X chromosome
+[x-linked_recessive_inheritance.n.01] X-linked recessive inheritance -- hereditary pattern in which a recessive gene on the X chromosome results in the manifestation of characteristics in male offspring and a carrier state in female offspring
+[x-linked_scid.n.01] X-linked SCID -- SCID in male children resulting from mutation of a gene that codes for a protein on the surface of T cells that allows them to develop a growth factor receptor
+[x.n.02] X -- the 24th letter of the Roman alphabet
+[x-or_circuit.n.01] X-OR circuit -- gate for exclusive OR; a circuit in a computer that fires only if only one of its inputs fire
+[x-ray_diffraction.n.01] X-ray diffraction -- the scattering of X rays by the atoms of a crystal; the diffraction pattern shows structure of the crystal
+[x-ray_film.n.01] X-ray film -- photographic film used to make X-ray pictures
+[x-raying.n.01] X-raying -- obtaining images by the use of X rays
+[x-ray_machine.n.01] X-ray machine -- an apparatus that provides a source of X rays
+[x_ray.n.01] X ray -- electromagnetic radiation of short wavelength produced when high-speed electrons strike a solid target Also a hyponym of: ionizing_radiation.n.01.
+[x-ray_therapy.n.01] X-ray therapy -- the therapeutic use of X rays
+[x-ray_tube.n.01] X-ray tube -- a vacuum tube containing a metal target onto which a beam of electrons is directed at high energy for the generation of X rays
+[xx.n.02] XX -- (genetics) normal complement of sex chromosomes in a female
+[xxx.n.02] XXX -- (genetics) abnormal complement of three X chromosomes in a female
+[xxy.n.01] XXY -- (genetics) abnormal complement of sex hormones in a male resulting in Klinefelter's syndrome
+[xylariaceae.n.01] Xylariaceae -- family of fungi characterized by dark brown to black spores
+[xylaria.n.01] Xylaria -- type genus of Xylariaceae; fungi with perithecia in the upper part of erect black woody stromata
+[xylem.n.01] xylem -- the woody part of plants: the supporting and water-conducting tissue, consisting primarily of tracheids and vessels
+[xylene.n.01] xylene -- a colorless flammable volatile liquid hydrocarbon used as a solvent
+[xylocopa.n.01] Xylocopa -- carpenter bees
+[xylomelum.n.01] Xylomelum -- small species of Australian trees or shrubs; grown for their fruit and flowers
+[xylophonist.n.01] xylophonist -- someone who plays a xylophone
+[xylopia.n.01] Xylopia -- tropical evergreen trees or shrubs; chiefly African
+[xylosma.n.01] xylosma -- shrub or small tree grown as an ornamental in mild climates for its neat evergreen foliage and fragrant late flowers; native of China
+[xy.n.01] XY -- (genetics) normal complement of sex hormones in a male
+[xyphophorus.n.01] Xyphophorus -- swordtails
+[xyridaceae.n.01] Xyridaceae -- plants of tropical to temperate regions; usually in wet places
+[xyridales.n.01] Xyridales -- an order of monocotyledonous herbs
+[xyris.n.01] Xyris -- chiefly American marsh plants, having usually yellow flowers
+[xyy.n.01] XYY -- (genetics) abnormal complement of sex hormones in a male who has two Y chromosomes

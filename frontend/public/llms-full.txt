@@ -609,6 +609,7 @@ Over 80 country-specific ISIC Rev 4 adaptations covering Africa, Middle East, Ce
 | HS 2022 | Global (WCO) | 6,960 | International trade (customs tariffs) |
 | CPC v2.1 | Global (UN) | 4,596 | Product classification (statistical) |
 | UNSPSC v24 | Global (GS1 US) | 77,337 | Procurement and spend analysis |
+| GS1 GPC | Global (GS1) | 6,450 | Global Product Classification (Segment / Family / Class / Brick), Nov 2025 release |
 | SITC Rev 4 | Global (UN) | 77 | Trade statistics |
 | BEC Rev 5 | Global (UN) | 29 | Broad economic categories |
 | HTS (US) | United States | 120 | US customs tariff |

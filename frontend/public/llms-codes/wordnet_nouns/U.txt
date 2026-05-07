@@ -1,0 +1,802 @@
+[uakari.n.01] uakari -- medium-sized tree-dwelling monkey of the Amazon basin; only New World monkey with a short tail
+[ubiety.n.01] ubiety -- the state of existing and being localized in space
+[ubiquinone.n.01] ubiquinone -- any of several quinones found in living cells and that function as coenzymes that transfer electrons from one molecule to another in cell respiration Also a hyponym of: coenzyme.n.01.
+[ubiquity.n.01] ubiquity -- the state of being everywhere at once (or seeming to be everywhere at once)
+[ubykh.n.01] Ubykh -- an extinct Caucasian language spoken exclusively in Turkey
+[uca.n.01] Uca -- fiddler crabs
+[udder.n.01] udder -- mammary gland of bovids (cows and sheep and goats)
+[udmurt.n.01] Udmurt -- a member of the Finno-Ugric-speaking people living in eastern European Russia
+[udmurt.n.02] Udmurt -- the Finnic language spoken by the Votyak
+[ufa.n.01] Ufa -- a city in the European part of Russia
+[uganda.n.01] Uganda -- a landlocked republic in eastern Africa; achieved independence from the United Kingdom in 1962
+[ugandan_monetary_unit.n.01] Ugandan monetary unit -- monetary unit in Uganda
+[ugandan.n.01] Ugandan -- a native or inhabitant of Uganda
+[ugandan_shilling.n.01] Ugandan shilling -- the basic unit of money in Uganda; equal to 100 cents
+[ugaritic.n.01] Ugaritic -- an extinct Semitic language of northern Syria
+[ugliness.n.01] ugliness -- qualities of appearance that do not give pleasure to the senses
+[ugly_duckling.n.01] ugly duckling -- an ugly or unpromising child who grows into a beautiful or worthy person
+[ugric.n.01] Ugric -- one of the two branches of the Finno-Ugric family of languages; spoken in Hungary and northwestern Siberia
+[uhland.n.01] Uhland -- German romantic poet (1787-1862)
+[uighur.n.01] Uighur -- a member of a people who speak Uighur and live in Xinjiang and adjacent areas
+[uighur.n.02] Uighur -- the Turkic language spoken by approximately 7,000,000 Uighur in extreme northwestern China
+[uighur.n.03] Uighur -- the script (derived from Aramaic) used to write the Uighur language
+[uintatheriidae.n.01] Uintatheriidae -- an extinct family of Dinocerata
+[uintatherium.n.01] Uintatherium -- type genus of the Uintatheriidae; extinct large herbivorous ungulates somewhat resembling elephants; from the Eocene in Wyoming
+[ukase.n.01] ukase -- an edict of the Russian tsar
+[uke.n.01] uke -- a small guitar having four strings
+[ukraine.n.01] Ukraine -- a republic in southeastern Europe; formerly a European soviet; the center of the original Russian state which came into existence in the ninth century
+[ukrainian.n.01] Ukrainian -- the Slavic language spoken in the Ukraine
+[ukranian_monetary_unit.n.01] Ukranian monetary unit -- monetary unit in Ukraine
+[ukranian.n.01] Ukranian -- a native or inhabitant of the Ukraine
+[ulalgia.n.01] ulalgia -- pain in the gums
+[ulan_bator.n.01] Ulan Bator -- the capital and largest city of Mongolia
+[ulanova.n.01] Ulanova -- Russian ballet dancer (1910-1998)
+[ulatrophia.n.01] ulatrophia -- recession of the gums
+[ulceration.n.02] ulceration -- the process of ulcer formation; the process of becoming ulcerated
+[ulcerative_colitis.n.01] ulcerative colitis -- a serious chronic inflammatory disease of the large intestine and rectum characterized by recurrent episodes of abdominal pain and fever and chills and profuse diarrhea
+[ulcer.n.01] ulcer -- a circumscribed inflammatory and often suppurating lesion on the skin or an internal mucous surface resulting in necrosis of tissue
+[ulema.n.01] ulema -- the body of Mullahs (Muslim scholars trained in Islam and Islamic law) who are the interpreters of Islam's sciences and doctrines and laws and the chief guarantors of continuity in the spiritual and intellectual history of the Islamic community
+[ulemorrhagia.n.01] ulemorrhagia -- bleeding of the gums
+[ulex.n.01] Ulex -- genus of Eurasian spiny shrubs: gorse
+[ulfilas.n.01] Ulfilas -- a Christian believed to be of Cappadocian descent who became bishop of the Visigoths in 341 and translated the Bible from Greek into Gothic; traditionally held to have invented the Gothic alphabet (311-382) Also a hyponym of: bishop.n.01.
+[ulitis.n.01] ulitis -- inflammation of the gums
+[ullage.n.01] ullage -- the amount that a container (as a wine bottle or tank) lacks of being full
+[ull.n.01] Ull -- (Norse mythology) one of the Aesir known for his beauty and skill with bow and skis; son of Sif and stepson of Thor
+[ulmaceae.n.01] Ulmaceae -- a dicot family of the order Urticales including: genera Ulmus, Celtis, Planera, Trema
+[ulmus.n.01] Ulmus -- type genus of family Ulmaceae; deciduous trees having simple serrate leaves; widely distributed in temperate regions
+[ulna.n.01] ulna -- the inner and longer of the two bones of the human forearm
+[ulnar_artery.n.01] ulnar artery -- large artery that branches from the brachial artery to supply the muscles of the forearm and wrist and hand
+[ulnar_nerve.n.01] ulnar nerve -- a nerve running along the inner side of the arm and passing near the elbow; supplies intrinsic muscles of the hand and the skin of the medial side of the hand
+[ulnar_vein.n.01] ulnar vein -- any of several veins of the forearm
+[ulster_defence_association.n.01] Ulster Defence Association -- the major Protestant paramilitary group in Northern Ireland; responsible for bombing the homes of Catholics and for criminal racketeering and selling drugs
+[ulster.n.01] Ulster -- a historic division of Ireland located in the northeastern part of the island; six of Ulster's nine counties are in Northern Ireland
+[ulster.n.02] ulster -- loose long overcoat of heavy fabric; usually belted
+[ulteriority.n.01] ulteriority -- the quality of being ulterior
+[ultimacy.n.01] ultimacy -- the state or degree of being ultimate; the final or most extreme in degree or size or time or distance,
+[ultima.n.01] ultima -- the last syllable in a word
+[ultimate_frisbee.n.01] ultimate frisbee -- a game between two teams whose players try to toss a Frisbee to one another until they cross the opponents goal; possession changes hands when the Frisbee is intercepted or touches the ground or goes out of bounds
+[ultimate.n.01] ultimate -- the finest or most superior quality of its kind
+[ultimatum.n.01] ultimatum -- a final peremptory demand
+[ultracentrifugation.n.01] ultracentrifugation -- centrifugation at very high speeds
+[ultracentrifuge.n.01] ultracentrifuge -- a high speed centrifuge used to determine the relative molecular masses of large molecules in high polymers and proteins
+[ultrahigh_frequency.n.01] ultrahigh frequency -- 300 to 3000 megahertz
+[ultramarine.n.01] ultramarine -- blue pigment made of powdered lapis lazuli
+[ultramarine.n.02] ultramarine -- a vivid blue to purple-blue color
+[ultramicroscope.n.01] ultramicroscope -- light microscope that uses scattered light to show particles too small to see with ordinary microscopes
+[ultramontane.n.01] ultramontane -- a Roman Catholic who advocates ultramontanism (supreme papal authority in matters of faith and discipline)
+[ultramontanism.n.01] ultramontanism -- (Roman Catholic Church) the policy that the absolute authority of the church should be vested in the pope
+[ultrasound.n.01] ultrasound -- very high frequency sound; used in ultrasonography
+[ultrasuede.n.01] Ultrasuede -- a synthetic suede cloth
+[ultraviolet_lamp.n.01] ultraviolet lamp -- any source of illumination that emits ultraviolet radiation
+[ultraviolet.n.01] ultraviolet -- radiation lying in the ultraviolet range; wave lengths shorter than light but longer than X rays
+[ultraviolet_spectrum.n.01] ultraviolet spectrum -- the spectrum of ultraviolet radiation
+[ulugh_muztagh.n.01] Ulugh Muztagh -- a mountain in the Kunlun range in China (25,340 feet high)
+[ulvaceae.n.01] Ulvaceae -- thin flat or tubular green algae
+[ulvales.n.01] Ulvales -- an order of protoctist
+[ulva.n.01] Ulva -- type genus of the family Ulvaceae; green seaweed having a thallus two cells thick: sea lettuce
+[ulvophyceae.n.01] Ulvophyceae -- alternative name for the class Chlorophyceae in some classifications
+[ulysses.n.01] Ulysses -- (Roman mythology) Roman spelling for Odysseus
+[uma.n.01] Uma -- a benevolent aspect of Devi; `splendor'
+[uma.n.02] Uma -- fringe-toed lizard
+[umayyad.n.01] Umayyad -- the first dynasty of Arab caliphs whose capital was Damascus
+[umbellales.n.01] Umbellales -- plants having umbels or corymbs of uniovulate flowers; includes the Umbelliferae (chiefly herbs) and Cornaceae (chiefly trees or shrubs)
+[umbelliferae.n.01] Umbelliferae -- plants having flowers in umbels: parsley; carrot; anise; caraway; celery; dill
+[umbellifer.n.01] umbellifer -- any of numerous aromatic herbs of the family Umbelliferae
+[umbellularia.n.01] Umbellularia -- aromatic evergreen trees of Pacific coast
+[umbel.n.01] umbel -- flat-topped or rounded inflorescence characteristic of the family Umbelliferae in which the individual flower stalks arise from about the same point; youngest flowers are at the center
+[umber.n.01] umber -- an earth pigment
+[umbilical_cord.n.01] umbilical cord -- membranous duct connecting the fetus with the placenta Also a hyponym of: duct.n.01, fetal_membrane.n.01.
+[umbilical_hernia.n.01] umbilical hernia -- protrusion of the intestine and omentum through a hernia in the abdominal wall near the navel; usually self correcting after birth
+[umbilical_vein.n.01] umbilical vein -- a vein in the umbilical cord; returns nutrient blood from the placenta to the fetus
+[umbo.n.01] umbo -- a slight rounded elevation where the malleus attaches to the eardrum
+[umbrage.n.01] umbrage -- a feeling of anger caused by being offended
+[umbra.n.01] umbra -- a region of complete shadow resulting from total obstruction of light
+[umbrella_bird.n.01] umbrella bird -- black tropical American bird having a large overhanging crest and long feathered wattle
+[umbrella_fern.n.01] umbrella fern -- large Australasian fern with fanlike repeatedly forked fronds; sometimes placed in genus Gleichenia
+[umbrella.n.01] umbrella -- a lightweight handheld collapsible canopy
+[umbrella.n.02] umbrella -- a formation of military planes maintained over ground operations or targets
+[umbrella.n.03] umbrella -- having the function of uniting a group of similar things
+[umbrella_plant.n.01] umbrella plant -- rhizomatous perennial herb with large dramatic peltate leaves and white to bright pink flowers in round heads on leafless stems; colonizes stream banks in the Sierra Nevada in California
+[umbrella_plant.n.02] umbrella plant -- late blooming perennial plant of shale barrens of Virginia having flowers in flat-topped clusters
+[umbrella_plant.n.03] umbrella plant -- African sedge widely cultivated as an ornamental water plant for its terminal umbrellalike cluster of slender grasslike leaves
+[umbrella_tent.n.01] umbrella tent -- a small tent with a single supporting pole and radiating metal ribs
+[umbrella_tree.n.01] umbrella tree -- erect evergreen shrub or small tree of Australia and northern New Guinea having palmately compound leaves
+[umbrella_tree.n.02] umbrella tree -- small deciduous tree of eastern North America having creamy white flowers and large leaves in formations like umbrellas at the ends of branches
+[umbrellawort.n.01] umbrellawort -- a plant of the genus Mirabilis
+[umbria.n.01] Umbria -- a mountainous region in central Italy
+[umbrian.n.01] Umbrian -- an extinct Italic language of ancient southern Italy
+[umbrina.n.01] Umbrina -- croakers
+[umbundu.n.01] Umbundu -- a Bantu language spoken in Angola
+[umlaut.n.01] umlaut -- a diacritical mark (two dots) placed over a vowel in German to indicate a change in sound
+[ummah.n.01] Ummah -- the Muslim community or people, considered to extend from Mauritania to Pakistan
+[umma_tameer-e-nau.n.01] Umma Tameer-e-Nau -- a nongovernmental organization of Pakistani scientists that has been a supporter of terrorism; has provided information about chemical and biological and nuclear warfare to Osama bin Laden and al-Qaeda and the Taliban
+[umpirage.n.01] umpirage -- mediation by an umpire
+[umpirage.n.02] umpirage -- the act of umpiring
+[umpire.n.01] umpire -- an official at a baseball game
+[u.n.03] U -- the 21st letter of the Roman alphabet
+[unabridged_dictionary.n.01] unabridged dictionary -- a dictionary that has not been shortened by the omitting terms or definitions; a comprehensive dictionary
+[unacceptability.n.01] unacceptability -- unsatisfactoriness by virtue of not conforming to approved standards
+[unadaptability.n.01] unadaptability -- the inability to change or be changed to fit changed circumstances
+[unaffectedness.n.01] unaffectedness -- not affected; a personal manner that is not consciously constrained
+[unalterability.n.01] unalterability -- the quality of not being alterable
+[unambiguity.n.01] unambiguity -- clarity achieved by the avoidance of ambiguity
+[unanimity.n.01] unanimity -- everyone being of one mind
+[unappetizingness.n.01] unappetizingness -- the property of spoiling the appetite
+[unapproachability.n.01] unapproachability -- a disposition to be unapproachable; unfriendly and inaccessible
+[unassertiveness.n.01] unassertiveness -- diffidence about self promotion
+[unattainableness.n.01] unattainableness -- the state of being unattainable
+[unattractiveness.n.01] unattractiveness -- an ugliness of appearance that is not appealing to viewers
+[unbecomingness.n.01] unbecomingness -- the quality of being unbecoming
+[unbelief.n.01] unbelief -- a rejection of belief
+[unbreakableness.n.01] unbreakableness -- a consistency of something that does not break under pressure
+[unceremoniousness.n.01] unceremoniousness -- an unceremonial manner
+[uncertainty.n.01] uncertainty -- being unsettled or in doubt or dependent on chance
+[uncertainty_principle.n.01] uncertainty principle -- (quantum theory) the theory that it is impossible to measure both energy and time (or position and momentum) completely accurately at the same time
+[uncheerfulness.n.02] uncheerfulness -- not conducive to cheer or good spirits
+[uncial.n.01] uncial -- a style of orthography characterized by somewhat rounded capital letters; found especially in Greek and Latin manuscripts of the 4th to 8th centuries
+[uncleanliness.n.01] uncleanliness -- lack of cleanly habits
+[unclearness.n.01] unclearness -- incomprehensibility as a result of not being clear
+[uncle.n.01] uncle -- the brother of your father or mother; the husband of your aunt
+[uncle.n.02] uncle -- a source of help and advice and encouragement
+[uncle_remus.n.01] Uncle Remus -- the fictional storyteller of tales written in the Black Vernacular and set in the South; the tales were first collected and published in book form in 1880
+[uncle_sam.n.01] Uncle Sam -- a personification of the United States government
+[uncle_tom.n.02] Uncle Tom -- a servile black character in a novel by Harriet Beecher Stowe
+[uncommonness.n.01] uncommonness -- extraordinariness as a consequence of being marked by an uncommon or superlative quality
+[uncommonness.n.02] uncommonness -- extraordinariness as a consequence of being rare and seldom encountered
+[uncommunicativeness.n.01] uncommunicativeness -- the trait of being uncommunicative
+[uncompahgre_peak.n.01] Uncompahgre Peak -- the highest peak in the San Juan Mountains of southwestern Colorado (14,309 feet high)
+[unconcern.n.02] unconcern -- a feeling of lack of concern
+[unconfessed.n.01] unconfessed -- people who have not confessed
+[uncongeniality.n.01] uncongeniality -- a disposition not to be congenial
+[unconnectedness.n.01] unconnectedness -- the lack of a connection between things
+[unconscientiousness.n.01] unconscientiousness -- the quality of being willing to ignore the dictates of conscience
+[unconscientiousness.n.02] unconscientiousness -- the trait of not being painstaking or careful
+[unconscious_mind.n.01] unconscious mind -- that part of the mind wherein psychic activity takes place of which the person is unaware
+[unconsciousness.n.01] unconsciousness -- a state lacking normal awareness of the self or environment
+[unconventionality.n.01] unconventionality -- originality by virtue of being unconventional
+[unconventionality.n.02] unconventionality -- unorthodoxy by virtue of being unconventional
+[uncreativeness.n.01] uncreativeness -- a lack of creativity
+[unction.n.01] unction -- excessive but superficial compliments given with affected charm
+[unction.n.04] unction -- anointing as part of a religious ceremony or healing ritual Also a hyponym of: anointing.n.01.
+[uncus.n.01] uncus -- (biology) any hook-shaped process or part
+[undecagon.n.01] undecagon -- an eleven-sided polygon
+[undecylenic_acid.n.01] undecylenic acid -- an acid that is a component of perspiration
+[undependability.n.01] undependability -- the trait of not being dependable or reliable
+[underachievement.n.01] underachievement -- poorer than expected performance (poorer than might have been predicted from intelligence tests)
+[underachiever.n.01] underachiever -- a student who does not perform as well as expected or as well as the IQ indicates
+[underbelly.n.01] underbelly -- lower side
+[underbelly.n.02] underbelly -- the soft belly or underside of an animal's body
+[underbelly.n.03] underbelly -- the quality of being weak or unprotected; - Winston Churchill
+[underboss.n.01] underboss -- an assistant or second-in-command to a chief (especially in a crime syndicate)
+[underbrush.n.01] underbrush -- the brush (small trees and bushes and ferns etc.) growing beneath taller trees in a wood or forest
+[undercarriage.n.01] undercarriage -- framework that serves as a support for the body of a vehicle Also a hyponym of: framework.n.03.
+[undercharge.n.01] undercharge -- a price that is too low
+[undercharge.n.02] undercharge -- an insufficient charge
+[undercoat.n.01] undercoat -- seal consisting of a coating of a tar or rubberlike material on the underside of a motor vehicle to retard corrosion
+[undercoat.n.03] undercoat -- thick soft fur lying beneath the longer and coarser guard hair
+[undercover_operation.n.01] undercover operation -- an operation involving secret work within a community or institution
+[undercut.n.01] undercut -- the material removed by a cut made underneath
+[undercut.n.03] undercut -- a notch cut in the trunk of tree in order to determine the direction of its fall Also a hyponym of: notch.n.03.
+[undercut.n.05] undercut -- a cut made underneath to remove material
+[underdevelopment.n.01] underdevelopment -- state of inadequate development
+[underdevelopment.n.02] underdevelopment -- (photography) inadequate processing of film resulting in inadequate contrast
+[underdog.n.01] underdog -- one at a disadvantage and expected to lose
+[underestimate.n.01] underestimate -- an estimation that is too low; an estimate that is less than the true or actual value
+[underevaluation.n.01] underevaluation -- an appraisal that underestimates the value of something
+[underexposure.n.01] underexposure -- the act of exposing film to too little light or for too short a time
+[underexposure.n.02] underexposure -- inadequate publicity
+[underfelt.n.01] underfelt -- a carpet pad of thick felt
+[undergarment.n.01] undergarment -- a garment worn under other garments
+[undergraduate.n.01] undergraduate -- a university student who has not yet received a first degree
+[underground.n.01] underground -- a secret group organized to overthrow a government or occupation force
+[underground_railroad.n.01] Underground Railroad -- secret aid to escaping slaves that was provided by abolitionists in the years before the American Civil War
+[underlip.n.01] underlip -- the lower lip
+[undernourishment.n.01] undernourishment -- not having enough food to develop or function normally
+[underpants.n.01] underpants -- an undergarment that covers the body from the waist no further than to the thighs; usually worn next to the skin
+[underpart.n.01] underpart -- a part lying on the lower side or underneath an animal's body
+[underpass.n.01] underpass -- an underground tunnel or passage enabling pedestrians to cross a road or railway
+[underpayment.n.01] underpayment -- a payment smaller than needed or expected
+[underpayment.n.02] underpayment -- the act of paying less than required
+[underperformer.n.02] underperformer -- a business that is less successful than expected
+[underproduction.n.01] underproduction -- inadequate production or less than expected
+[underscore.n.01] underscore -- a line drawn underneath (especially under written matter)
+[undersecretary.n.01] undersecretary -- a secretary immediately subordinate to the head of a department of government
+[underseller.n.01] underseller -- a seller that sells at a lower price than others do
+[undershrub.n.01] undershrub -- a low shrub
+[understanding.n.01] understanding -- the cognitive condition of someone who understands
+[understatement.n.01] understatement -- a statement that is restrained in ironic contrast to what might have been said
+[understudy.n.01] understudy -- an actor able to replace a regular performer when required
+[undertaking.n.01] undertaking -- any piece of work that is undertaken or attempted
+[undertaking.n.02] undertaking -- the trade of a funeral director
+[undertide.n.01] undertide -- a current below the surface of a fluid
+[undertone.n.01] undertone -- a quiet or hushed tone of voice
+[undertone.n.02] undertone -- a subdued emotional quality underlying an utterance; implicit meaning
+[undertone.n.03] undertone -- a pale or subdued color
+[undertow.n.01] undertow -- an inclination contrary to the strongest or prevailing feeling
+[undertow.n.02] undertow -- the seaward undercurrent created after waves have broken on the shore
+[undervaluation.n.01] undervaluation -- too low a value or price assigned to something
+[underwear.n.01] underwear -- undergarment worn next to the skin and under the outer garments
+[underwing.n.01] underwing -- moth having dull forewings and brightly colored hind wings
+[underworld.n.01] underworld -- the criminal class
+[undescended_testis.n.01] undescended testis -- a testis that fails to move into the scrotum as the male fetus develops
+[undesirability.n.01] undesirability -- the quality possessed by something that should be avoided
+[undesirable.n.01] undesirable -- one whose presence is undesirable
+[undies.n.01] undies -- women's underwear
+[undine.n.01] undine -- any of various female water spirits
+[undivided_interest.n.01] undivided interest -- the interest in property owned by tenants whereby each tenant has an equal right to enjoy the entire property
+[undoer.n.01] undoer -- a seducer who ruins a woman
+[undoer.n.02] undoer -- a person who unfastens or unwraps or opens
+[undoing.n.01] undoing -- an act that makes a previous act of no effect (as if not done)
+[undress.n.01] undress -- partial or complete nakedness
+[undset.n.01] Undset -- Norwegian novelist (1882-1949)
+[undulation.n.02] undulation -- wavelike motion; a gentle rising and falling in the manner of waves
+[undutifulness.n.01] undutifulness -- impiety characterized by lack of devotion to duty
+[unearned_income.n.01] unearned income -- personal income that you did not earn (e.g., dividends or interest or rent income)
+[unearned_income.n.02] unearned income -- (accounting) income received but not yet earned (usually considered a current liability on a company's balance sheet)
+[unearned_increment.n.01] unearned increment -- an unearned rise in the market value of property resulting from general market factors
+[unearned_run.n.01] unearned run -- a run that was scored as a result of an error by the other team
+[unemotionality.n.02] unemotionality -- absence of emotion
+[unemployed_people.n.01] unemployed people -- people who are involuntarily out of work (considered as a group)
+[unemployed_person.n.01] unemployed person -- someone who is jobless
+[unemployment_compensation.n.01] unemployment compensation -- payment by a United States agency to unemployed people
+[unemployment_line.n.01] unemployment line -- a queue of people waiting for employment
+[unemployment.n.01] unemployment -- the state of being unemployed or not having a job
+[unemployment_rate.n.01] unemployment rate -- the percentage of the work force that is unemployed at any given date
+[unenlightenment.n.01] unenlightenment -- a lack of understanding
+[unevenness.n.01] unevenness -- the quality of being uneven and lacking uniformity
+[unevenness.n.02] unevenness -- the quality of being unbalanced
+[uneven_parallel_bars.n.01] uneven parallel bars -- a pair of parallel bars set at different heights; used in women's gymnastics
+[unexchangeability.n.01] unexchangeability -- the quality of being incapable of exchange or interchange
+[unexpectedness.n.01] unexpectedness -- extraordinariness by virtue of being unexpected
+[unfairness.n.01] unfairness -- partiality that is not fair or equitable
+[unfairness.n.02] unfairness -- injustice by virtue of not conforming with rules or standards
+[unfamiliarity.n.01] unfamiliarity -- unusualness as a consequence of not being well known
+[unfavorableness.n.01] unfavorableness -- the quality of not being encouraging or indicative of success
+[unfeelingness.n.01] unfeelingness -- devoid of passion or feeling; hardheartedness
+[unfitness.n.01] unfitness -- poor physical condition; being out of shape or out of condition (as from a life of ease and luxury)
+[unfitness.n.03] unfitness -- the quality of not being suitable
+[unfolding.n.01] unfolding -- a developmental process
+[unformatted_capacity.n.01] unformatted capacity -- (computer science) the total number of bytes on a disk including the space that will be required to format it
+[unfortunate.n.01] unfortunate -- a person who suffers misfortune
+[unfriendliness.n.01] unfriendliness -- dislike experienced as an absence of friendliness
+[unfriendliness.n.02] unfriendliness -- an unfriendly disposition
+[ungodliness.n.01] ungodliness -- impiety by virtue of not being a godly person
+[ungraciousness.n.01] ungraciousness -- an offensive lack of good manners
+[ungradable_opposition.n.01] ungradable opposition -- an opposition that has no intermediate grade; either one or the other
+[unguiculata.n.01] Unguiculata -- in former classifications a major division of Mammalia comprising mammals with nails or claws; distinguished from hoofed mammals and cetaceans
+[unguiculate.n.01] unguiculate -- a mammal having nails or claws
+[ungulata.n.01] Ungulata -- in former classifications a major division of Mammalia comprising all hoofed mammals; now divided into the orders Perissodactyla (odd-toed ungulates) and Artiodactyla (even-toed ungulates)
+[ungulate.n.01] ungulate -- any of a number of mammals with hooves that are superficially similar but not necessarily closely related taxonomically
+[unhappiness.n.02] unhappiness -- state characterized by emotions ranging from mild discontentment to deep grief
+[unhealthfulness.n.01] unhealthfulness -- the quality of promoting poor health
+[unhelpfulness.n.01] unhelpfulness -- an inability to be helpful
+[unholiness.n.01] unholiness -- the quality of being unholy
+[uniat_church.n.01] Uniat Church -- any of several churches in eastern Europe or the Middle East that acknowledge papal authority but retain their own liturgy
+[uniat.n.01] Uniat -- a member of the Uniat Church
+[unicameral_script.n.01] unicameral script -- a script with a single case
+[unicorn.n.01] unicorn -- an imaginary creature represented as a white horse with a long horn growing from its forehead
+[unicycle.n.01] unicycle -- a vehicle with a single wheel that is driven by pedals
+[unicyclist.n.01] unicyclist -- a person who rides a unicycle
+[unidentified_flying_object.n.01] unidentified flying object -- an (apparently) flying object whose nature is unknown; especially those considered to have extraterrestrial origins
+[unification_church.n.01] Unification Church -- a Christian church (with some Buddhist elements) founded in 1954 by Sun Myung Moon and known for staging mass weddings and other communal activities
+[uniformity.n.01] uniformity -- a condition in which everything is regular and unvarying
+[uniformity.n.02] uniformity -- the quality of lacking diversity or variation (even to the point of boredom)
+[uniform.n.01] uniform -- clothing of distinctive design worn by members of a particular group as a means of identification
+[unilateral_contract.n.01] unilateral contract -- a one-sided agreement whereby you promise to do (or refrain from doing) something in return for a performance (not a promise)
+[unilateral_descent.n.01] unilateral descent -- line of descent traced through one side of the family
+[unilateralism.n.01] unilateralism -- the doctrine that nations should conduct their foreign affairs individualistically without the advice or involvement of other nations
+[unilateralist.n.01] unilateralist -- an advocate of unilateralism
+[unimportance.n.02] unimportance -- the quality of not being important or worthy of note
+[uninitiate.n.01] uninitiate -- people who have not been introduced to the mysteries of some field or activity
+[uninominal_system.n.01] uninominal system -- based on the principle of having only one member (as of a legislature) selected from each electoral district
+[uninsurability.n.01] uninsurability -- the quality of being uninsurable; the conditions under which an insurance company will refuse to issue insurance to an applicant (based on standards set by the insurance company)
+[unintelligibility.n.02] unintelligibility -- incomprehensibility as a consequence of being unintelligible
+[uninterestingness.n.01] uninterestingness -- inability to capture or hold one's interest
+[uniocular_dichromat.n.01] uniocular dichromat -- a person who has normal vision in one eye and dichromacy in the other; very rare but very useful for experiments on color vision
+[unio.n.01] Unio -- type genus of the family Unionidae
+[union_army.n.01] Union Army -- the northern army during the American Civil War Also a hyponym of: army.n.01.
+[union_card.n.01] union card -- a card certifying membership in a labor union
+[unionidae.n.01] Unionidae -- freshwater mussels found worldwide
+[unionism.n.01] unionism -- the system or principles and theory of labor unions
+[unionization.n.01] unionization -- act of forming labor unions
+[union_jack.n.01] Union Jack -- national flag of the United Kingdom
+[union.n.01] union -- an organization of employees formed to bargain with the employer
+[union.n.02] Union -- the United States (especially the northern states during the American Civil War)
+[union.n.04] union -- the state of being joined or united or linked
+[union.n.06] union -- healing process involving the growing together of the edges of a wound or the growing together of broken bones
+[union.n.07] union -- a political unit formed from previously independent people or organizations
+[union.n.08] union -- a set containing all and only the members of two or more given sets
+[union.n.09] union -- the occurrence of a uniting of separate parts
+[union.n.10] union -- a device on a national flag emblematic of the union of two or more sovereignties (typically in the upper inner corner)
+[union.n.11] union -- the act of making or becoming a single unit
+[union_representative.n.01] union representative -- a representative for a labor union
+[union_shop.n.01] union shop -- a company allowed to hire nonunion workers on the condition that they will join the union within a specified time
+[unipolar_depression.n.01] unipolar depression -- a major depressive episode that occurs without the manic phase that occurs in the classic form of bipolar disorder
+[unison.n.01] unison -- corresponding exactly
+[unison.n.02] unison -- occurring together or simultaneously
+[unison.n.03] unison -- (music) two or more sounds or tones at the same pitch or in octaves
+[unitarian_church.n.01] Unitarian Church -- the Protestant denomination that rejects the doctrine of the Trinity
+[unitarianism.n.01] Unitarianism -- Christian doctrine that stresses individual freedom of belief and rejects the Trinity
+[unitarian.n.01] Unitarian -- adherent of Unitarianism
+[unit_cell.n.01] unit cell -- the smallest group of atoms or molecules whose repetition at regular intervals in three dimensions produces the lattices of a crystal
+[unit_character.n.01] unit character -- (genetics) a character inherited on an all-or-none basis and dependent on the presence of a single gene
+[unit_cost.n.01] unit cost -- calculated cost for a given unit of a product
+[united_arab_emirate_dirham.n.01] United Arab Emirate dirham -- the basic unit of money in the United Arab Emirates; equal to 1,000 fils
+[united_arab_emirate_monetary_unit.n.01] United Arab Emirate monetary unit -- monetary unit in the United Arab Emirates
+[united_arab_emirates.n.01] United Arab Emirates -- a federation of seven Arab emirates on the eastern Arabian peninsula; achieved independence from the United Kingdom in 1971; rich in oil reserves
+[united_church_of_christ.n.01] United Church of Christ -- merger of the Congregational Christian Church and the Evangelical and Reformed Church in 1957
+[united_kingdom.n.01] United Kingdom -- a monarchy in northwestern Europe occupying most of the British Isles; divided into England and Scotland and Wales and Northern Ireland; `Great Britain' is often used loosely to refer to the United Kingdom
+[united_methodist_church.n.01] United Methodist Church -- union of the Wesleyan Methodist Church and the Evangelical United Brethren Church
+[united_mine_workers_of_america.n.01] United Mine Workers of America -- an industrial union of mine workers in North America
+[united_nations_agency.n.01] United Nations agency -- an agency of the United Nations
+[united_nations_children's_fund.n.01] United Nations Children's Fund -- an agency of the United Nations responsible for programs to aid education and the health of children and mothers in developing countries
+[united_nations_crime_prevention_and_criminal_justice.n.01] United Nations Crime Prevention and Criminal Justice -- the United Nations office responsible for crime prevention and criminal justice and law reform
+[united_nations_day.n.01] United Nations Day -- a day for celebrating the founding of the United Nations
+[united_nations_educational_scientific_and_cultural_organization.n.01] United Nations Educational Scientific and Cultural Organization -- an agency of the United Nations that promotes education and communication and the arts
+[united_nations.n.01] United Nations -- an organization of independent states formed in 1945 to promote international peace and security
+[united_nations_office_for_drug_control_and_crime_prevention.n.01] United Nations Office for Drug Control and Crime Prevention -- an agency of the United Nations that promotes drug control and crime prevention
+[united_nations_secretariat.n.01] United Nations Secretariat -- the administrative arm of the United Nations
+[united_self-defense_force_of_colombia.n.01] United Self-Defense Force of Colombia -- a terrorist organization in Colombia formed in 1997 as an umbrella for local and regional paramilitary groups; is financed by earnings from narcotics and serves to protect the economic interests of its members
+[united_states_air_force_academy.n.01] United States Air Force Academy -- a school for training men and women to become officers in the United States Air Force
+[united_states_air_force.n.01] United States Air Force -- the airforce of the United States of America; the agency that defends the United States through control and exploitation of air and space
+[united_states_army_criminal_investigation_laboratory.n.01] United States Army Criminal Investigation Laboratory -- a defense laboratory of the Criminal Investigation Command; the United States Army's primary forensic laboratory in support of criminal intelligence
+[united_states_army.n.01] United States Army -- the army of the United States of America; the agency that organizes and trains soldiers for land warfare
+[united_states_army_rangers.n.01] United States Army Rangers -- a specially trained elite unit of the United States Army
+[united_states_border_patrol.n.01] United States Border Patrol -- the mobile law enforcement arm of the Immigration and Naturalization Service that detects and prevents illegal entry of aliens into the United States
+[united_states_cabinet.n.01] United States Cabinet -- a board to advise the President; members are the secretaries of executive departments; the United States constitution does not provide for the cabinet
+[united_states_coast_guard.n.01] United States Coast Guard -- an agency of the Department of Transportation responsible for patrolling shores and facilitating nautical commerce Also a hyponym of: agency.n.01.
+[united_states_code.n.01] United States Code -- a consolidation and codification by subject matter of the general and permanent laws of the United States; is prepared and published by a unit of the United States House of Representatives
+[united_states_constitution.n.01] United States Constitution -- the constitution written at the Constitutional Convention in Philadelphia in 1787 and subsequently ratified by the original thirteen states
+[united_states_customary_system.n.01] United States Customary System -- the system of weights and measures based on the foot and pound and second and pint that dates back to colonial America but differs in some respects from the British Imperial System; today in the United States this system exists side by side with the SI system
+[united_states_dollar.n.01] United States dollar -- the basic unit of money in the United States
+[united_states_dry_unit.n.01] United States dry unit -- a unit of measurement of capacity for dry substances officially adopted in the United States Customary System
+[united_states_fish_and_wildlife_service.n.01] United States Fish and Wildlife Service -- an agency in the Department of the Interior that conserves and protects fish and wildlife and their habitats; assesses the environmental impact of pesticides and nuclear power site and hydroelectric dams and thermal pollution
+[united_states_government.n.01] United States government -- the executive and legislative and judicial branches of the federal government of the United States
+[united_states_government_printing_office.n.01] United States Government Printing Office -- an agency of the legislative branch that provides printing and binding services for Congress and the departments and establishments of the federal government
+[united_states_house_of_representatives.n.01] United States House of Representatives -- the lower legislative house of the United States Congress
+[united_states_intelligence_agency.n.01] United States intelligence agency -- an intelligence service in the United States
+[united_states_liquid_unit.n.01] United States liquid unit -- a liquid unit officially adopted in the United States Customary System
+[united_states_marine_corps.n.01] United States Marine Corps -- an amphibious division of the United States Navy
+[united_states_marshals_service.n.01] United States Marshals Service -- the United States' oldest federal law enforcement agency is responsible today for protecting the Federal Judiciary and transporting federal prisoners and protecting federal witnesses and managing assets seized from criminals and generally ensuring the effective operation of the federal judicial system
+[united_states_military_academy.n.01] United States Military Academy -- a school for training men and women to become officers in the United States Army
+[united_states_mint.n.01] United States Mint -- the mint that manufactures and distributes United States coins for circulation through Federal Reserve Banks; processes gold and silver bullion
+[united_states.n.01] United States -- North American republic containing 50 states - 48 conterminous states in North America plus Alaska in northwest North America and the Hawaiian Islands in the Pacific Ocean; achieved independence in 1776
+[united_states_naval_academy.n.01] United States Naval Academy -- a school for training men and women to become officers in the United States Navy
+[united_states_navy.n.01] United States Navy -- the navy of the United States of America; the agency that maintains and trains and equips combat-ready naval forces
+[united_states_postal_inspection_service.n.01] United States Postal Inspection Service -- the primary law enforcement arm of the United States Postal Service
+[united_states_postal_service.n.01] United States Postal Service -- an independent federal agency that provides mail processing and delivery service for individuals and businesses in the United States
+[united_states_post_office.n.01] United States Post Office -- an independent agency of the federal government responsible for mail delivery (and sometimes telecommunications) between individuals and businesses in the United States
+[united_states_public_health_service.n.01] United States Public Health Service -- an agency that serves as the office of Surgeon General; includes agencies whose mission is to improve the public health
+[united_states_secret_service.n.01] United States Secret Service -- the United States intelligence agency that protects current and former presidents and vice presidents and their immediate families and protects distinguished foreign visitors; detects and apprehends counterfeiters; suppresses forgery of government securities and documents
+[united_states_senate.n.01] United States Senate -- the upper house of the United States Congress
+[united_states_trade_representative.n.01] United States Trade Representative -- the executive agency that administers the President's policies on international trade
+[united_states_virgin_islands.n.01] United States Virgin Islands -- more than 130 southeastern Virgin Islands; a dependent territory of the United States
+[united_states_waters.n.01] United States waters -- territorial waters included within a distance of 12 nautical miles of the coasts of the United States and its territories
+[unit_investment_trust.n.01] unit investment trust -- a regulated investment company consisting of professional managers who issue redeemable securities representing a portfolio of many different securities
+[unitization.n.01] unitization -- (psychology) the configuration of smaller units of information into large coordinated units
+[unitization.n.02] unitization -- the act of packaging cargo into unit loads
+[unitization.n.03] unitization -- conversion of an investment trust into a unit investment trust
+[unitization.n.04] unitization -- the joint development of a petroleum resource that straddles territory controlled by different companies
+[unit.n.02] unit -- an individual or group or structure or other entity regarded as a structural or functional constituent of a whole
+[unit.n.03] unit -- an organization regarded as part of a larger social group
+[unit.n.04] unit -- a single undivided whole
+[unit.n.05] unit -- a single undivided natural thing occurring in the composition of something else
+[unit_of_measurement.n.01] unit of measurement -- any division of quantity accepted as a standard of measurement or exchange
+[unit_of_viscosity.n.01] unit of viscosity -- a unit of measurement for viscosity
+[universal_agent.n.01] universal agent -- someone authorized to transact every kind of business for the principal
+[universal_donor.n.01] universal donor -- a person whose type O Rh-negative blood may be safely transfused into persons with other blood types
+[universalism.n.01] universalism -- the theological doctrine that all people will eventually be saved
+[universality.n.01] universality -- the quality of being universal; existing everywhere
+[universal_joint.n.01] universal joint -- coupling that connects two rotating shafts allowing freedom of movement in all directions
+[universal.n.01] universal -- (linguistics) a grammatical rule (or other linguistic feature) that is found in all languages
+[universal.n.02] universal -- (logic) a proposition that asserts something of all members of a class
+[universal.n.03] universal -- a behavioral convention or pattern characteristic of all members of a particular culture or of all human beings
+[universal_quantifier.n.01] universal quantifier -- a logical quantifier of a proposition that asserts that the proposition is true for all members of a class of things
+[universal_set.n.01] universal set -- (mathematics) the set that contains all the elements or objects involved in the problem under consideration
+[universal_suffrage.n.01] universal suffrage -- suffrage for all adults who are not disqualified by the laws of the country
+[universal_veil.n.01] universal veil -- membrane initially completely investing the young sporophore of various mushrooms that is ruptured by growth; represented in the mature mushroom by a volva around lower part of stem and scales on upper surface of the cap
+[universe.n.01] universe -- everything that exists anywhere
+[universe.n.03] universe -- everything stated or assumed in a given discussion
+[university.n.01] university -- the body of faculty and students at a university
+[university.n.02] university -- establishment where a seat of higher learning is housed, including administrative and living quarters as well as facilities for research and teaching
+[university.n.03] university -- a large and diverse institution of higher learning created to educate for life and for a profession and to grant degrees
+[university_of_california_at_berkeley.n.01] University of California at Berkeley -- a university in Berkeley, California
+[university_of_chicago.n.01] University of Chicago -- a university in Chicago, Illinois
+[university_of_michigan.n.01] University of Michigan -- a university in Ann Arbor, Michigan
+[university_of_nebraska.n.01] University of Nebraska -- a university in Lincoln, Nebraska
+[university_of_north_carolina.n.01] University of North Carolina -- a university in Chapel Hill, North Carolina
+[university_of_pennsylvania.n.01] University of Pennsylvania -- a university in Philadelphia, Pennsylvania
+[university_of_pittsburgh.n.01] University of Pittsburgh -- a university in Pittsburgh, Pennsylvania
+[university_of_sussex.n.01] University of Sussex -- a red-brick university in Brighton, England
+[university_of_texas.n.01] University of Texas -- a university in Austin, Texas
+[university_of_vermont.n.01] University of Vermont -- a university in Burlington, Vermont
+[university_of_washington.n.01] University of Washington -- a university in Seattle, Washington
+[university_of_west_virginia.n.01] University of West Virginia -- a university in Morgantown, West Virginia
+[university_of_wisconsin.n.01] University of Wisconsin -- a university in Madison, Wisconsin
+[unix_guru.n.01] UNIX guru -- an expert on the UNIX operating system
+[unix.n.01] UNIX -- trademark for a powerful operating system
+[unkindness.n.01] unkindness -- lack of sympathy
+[unknowingness.n.02] unknowingness -- unconsciousness resulting from lack of knowledge or attention
+[unknown.n.01] unknown -- an unknown and unexplored region
+[unknown.n.03] unknown -- a variable whose values are solutions of an equation
+[unknown_quantity.n.01] unknown quantity -- a factor in a given situation whose bearing and importance is not apparent
+[unknown_soldier.n.01] Unknown Soldier -- an unidentified soldier whose body is honored as a memorial
+[unlawful_carnal_knowledge.n.01] unlawful carnal knowledge -- forbidden or tabu sexual intercourse between individuals
+[unlawfulness.n.01] unlawfulness -- the quality of failing to conform to law
+[unleaded_gasoline.n.01] unleaded gasoline -- gasoline that has not been treated with a lead compound
+[unlikelihood.n.01] unlikelihood -- the improbability of a specified outcome
+[unlikeness.n.01] unlikeness -- dissimilarity evidenced by an absence of likeness
+[unlisted_security.n.01] unlisted security -- a security traded in the over-the-counter market
+[unloading.n.01] unloading -- the labor of taking a load of something off of or out of a vehicle or ship or container etc.
+[unmalleability.n.01] unmalleability -- a lack of malleability
+[unmarried_woman.n.01] unmarried woman -- a woman who is not married
+[unmindfulness.n.01] unmindfulness -- the trait of forgetting or ignoring your responsibilities
+[unnaturalness.n.01] unnaturalness -- the quality of being unnatural or not based on natural principles
+[unneighborliness.n.01] unneighborliness -- an unneighborly disposition
+[unnoticeableness.n.01] unnoticeableness -- the quality of being not easily noticed
+[unobserved_fire.n.01] unobserved fire -- fire for which the point of impact (the bursts) cannot be observed
+[unobtrusiveness.n.01] unobtrusiveness -- the quality of not sticking out in an unwelcome way
+[unoriginality.n.01] unoriginality -- uncreativeness due to a lack of originality
+[unoriginality.n.02] unoriginality -- the quality of being unoriginal
+[unorthodoxy.n.01] unorthodoxy -- any opinions or doctrines at variance with the official or orthodox position
+[unorthodoxy.n.03] unorthodoxy -- the quality of being unorthodox
+[unpalatability.n.01] unpalatability -- the property of being unacceptable to the mouth
+[unpalatability.n.02] unpalatability -- the property of being unacceptable to the mind
+[unperceptiveness.n.01] unperceptiveness -- the lack of insight and sympathetic understanding
+[unpermissiveness.n.01] unpermissiveness -- a lack of permissiveness or indulgence and a tendency to confine behavior within certain specified limits
+[unpersuasiveness.n.01] unpersuasiveness -- inability to persuade
+[unpleasantness.n.01] unpleasantness -- the feeling caused by disagreeable stimuli; one pole of a continuum of states of feeling
+[unpleasantness.n.02] unpleasantness -- the quality of giving displeasure
+[unpleasant_person.n.01] unpleasant person -- a person who is not pleasant or agreeable
+[unpleasant_woman.n.01] unpleasant woman -- a woman who is an unpleasant person
+[unpleasingness.n.01] unpleasingness -- the quality of being unpleasant
+[unpointedness.n.01] unpointedness -- the property of having only a dull tip (if any)
+[unpopularity.n.01] unpopularity -- the quality of lacking general approval or acceptance
+[unpredictability.n.03] unpredictability -- lacking predictability
+[unpretentiousness.n.01] unpretentiousness -- the quality of being natural and without pretensions
+[unproductiveness.n.01] unproductiveness -- the quality of lacking the power to produce
+[unprofitableness.n.01] unprofitableness -- the quality of affording no gain or no benefit or no profit
+[unreality.n.01] unreality -- the quality possessed by something that is unreal
+[unreality.n.02] unreality -- the state of being insubstantial or imaginary; not existing objectively or in fact
+[unrelatedness.n.01] unrelatedness -- the lack of any particular manner of connectedness
+[unrespectability.n.01] unrespectability -- dishonorableness by virtue of lacking respectability or a good reputation
+[unresponsiveness.n.01] unresponsiveness -- the quality of being unresponsive; not reacting; as a quality of people, it is marked by a failure to respond quickly or with emotion to people or events
+[unrest.n.02] unrest -- a feeling of restless agitation
+[unrestraint.n.01] unrestraint -- the quality of lacking restraint
+[unrighteousness.n.01] unrighteousness -- failure to adhere to moral principles
+[unruliness.n.01] unruliness -- the trait of being prone to disobedience and lack of discipline
+[unsanitariness.n.01] unsanitariness -- a state that is not conducive to health
+[unsatisfactoriness.n.01] unsatisfactoriness -- the quality of being inadequate or unsuitable
+[unsaturated_fatty_acid.n.01] unsaturated fatty acid -- a fatty acid whose carbon chain can absorb additional hydrogen atoms
+[unscrupulousness.n.01] unscrupulousness -- the quality of unscrupulous dishonesty
+[unseasonableness.n.01] unseasonableness -- being at an inappropriate time
+[unsecured_bond.n.01] unsecured bond -- the ability of a customer to obtain goods or services before payment, based on the trust that payment will be made in the future
+[unseemliness.n.01] unseemliness -- a lack of consideration for others
+[unselfconsciousness.n.01] unselfconsciousness -- the quality of being not self-conscious; unawareness of yourself or of others' views of yourself
+[unselfishness.n.01] unselfishness -- the quality of not putting yourself first but being willing to give your time or money or effort etc. for others
+[unsightliness.n.01] unsightliness -- ugliness that is unpleasant to look at
+[unskilled_person.n.01] unskilled person -- a person who lacks technical training
+[unskillfulness.n.01] unskillfulness -- a lack of cognitive skill
+[unsnarling.n.01] unsnarling -- the act of releasing from a snarled or tangled condition
+[unsociability.n.01] unsociability -- an unsociable disposition; avoiding friendship or companionship
+[unsolvability.n.01] unsolvability -- the property (of a problem or difficulty) that makes it impossible to solve
+[unsoundness.n.01] unsoundness -- a condition of damage or decay
+[unsoundness.n.02] unsoundness -- a misconception that is fallacious and not true or valid
+[unsoundness.n.03] unsoundness -- not mentally or physically healthy
+[unspoken_accusation.n.01] unspoken accusation -- an accusation that is understood without needing to be spoken
+[unsteadiness.n.01] unsteadiness -- the quality of not being steady or securely fixed in place
+[unsteadiness.n.02] unsteadiness -- the quality of being unsteady--varying and unpredictable
+[unstratified_language.n.01] unstratified language -- a programming language that (like natural language) can be used as its own metalanguage
+[unsuitability.n.01] unsuitability -- the quality of having the wrong properties for a specific purpose
+[unsusceptibility.n.01] unsusceptibility -- the state of not being susceptible
+[untermeyer.n.01] Untermeyer -- United States writer (1885-1977)
+[unthoughtfulness.n.01] unthoughtfulness -- the trait of not thinking carefully before acting
+[untidiness.n.01] untidiness -- the condition of being untidy
+[untidiness.n.02] untidiness -- the trait of being untidy and messy
+[untouchable.n.01] untouchable -- belongs to lowest social and ritual class in India
+[untrustworthiness.n.01] untrustworthiness -- the trait of not deserving trust or confidence
+[untruthfulness.n.01] untruthfulness -- the quality of being untruthful
+[untying.n.01] untying -- loosening the ties that fasten something
+[ununbium.n.01] ununbium -- a radioactive transuranic element
+[ununhexium.n.01] ununhexium -- a radioactive transuranic element
+[ununpentium.n.01] ununpentium -- a radioactive transuranic element
+[ununquadium.n.01] ununquadium -- a radioactive transuranic element
+[ununtrium.n.01] ununtrium -- a radioactive transuranic element
+[unusualness.n.01] unusualness -- uncommonness by virtue of being unusual
+[unvariedness.n.01] unvariedness -- characterized by an absence of variation
+[unveiling.n.01] unveiling -- putting on display for the first time
+[unwariness.n.01] unwariness -- the trait of not being cautious and watchful
+[unwelcome_person.n.01] unwelcome person -- a person who for some reason is not wanted or welcome
+[unwholesomeness.n.01] unwholesomeness -- the quality of being unhealthful and generally bad for you
+[unwieldiness.n.01] unwieldiness -- the quality of being difficult to direct or control by reason of complexity
+[unwillingness.n.01] unwillingness -- the trait of being unwilling
+[unworthiness.n.01] unworthiness -- the quality or state of lacking merit or value
+[unwritten_law.n.01] unwritten law -- law based on customary behavior
+[upanishad.n.01] Upanishad -- a later sacred text of Hinduism of a mystical nature dealing with metaphysical questions
+[upbeat.n.02] upbeat -- an unaccented beat (especially the last beat of a measure)
+[up-bow.n.01] up-bow -- an upward stroke from the tip to the heel of the bow
+[upbraider.n.01] upbraider -- someone who finds fault or imputes blame
+[upbringing.n.01] upbringing -- properties acquired during a person's formative years
+[upcast.n.01] upcast -- air passage consisting of a ventilation shaft through which air leaves a mine
+[update.n.01] update -- news that updates your information
+[updating.n.01] updating -- the act of changing something to bring it up to date (usually by adding something)
+[updike.n.01] Updike -- United States author (born 1932)
+[updraft.n.01] updraft -- a strong upward air current
+[upgrade.n.02] upgrade -- software that provides better performance than an earlier version did
+[upgrade.n.03] upgrade -- a reservation that is improved
+[upgrade.n.04] upgrade -- the property possessed by a slope or surface that rises
+[upgrade.n.05] upgrade -- hardware that provides better performance than an earlier version did
+[upgrade.n.06] upgrade -- the act of improving something (especially machinery) by raising it to a higher grade (as by adding or replacing components)
+[upheaval.n.03] upheaval -- (geology) a rise of land to a higher elevation (as in the process of mountain building)
+[uphill.n.01] uphill -- the upward slope of a hill
+[upholder.n.01] upholder -- someone who upholds or maintains
+[upholsterer.n.01] upholsterer -- a craftsman who upholsters furniture
+[upholstery_material.n.01] upholstery material -- the fabric used in upholstering
+[upholstery.n.01] upholstery -- covering (padding and springs and webbing and fabric) on a piece of furniture
+[upholstery.n.02] upholstery -- the craft of upholstering
+[upholstery_needle.n.01] upholstery needle -- any of several very heavy and sometimes curved sewing needles used by upholsterers
+[upjohn.n.01] Upjohn -- United States architect (born in England) (1802-1878)
+[upland_cotton.n.01] upland cotton -- native tropical American plant now cultivated in the United States yielding short-staple cotton
+[upland_sandpiper.n.01] upland sandpiper -- large plover-like sandpiper of North American fields and uplands
+[upland_white_aster.n.01] upland white aster -- tufted rigid North American perennial with loose clusters of white flowers
+[uplifting.n.01] uplifting -- the rise of something
+[uplift.n.02] uplift -- a brassiere that lifts and supports the breasts
+[uplink.n.01] uplink -- a transmission from Earth to a spacecraft or the path of such a transmission
+[upper_berth.n.01] upper berth -- the higher of two berths
+[upper_bound.n.01] upper bound -- (mathematics) a number equal to or greater than any other number in a given set
+[upper_class.n.01] upper class -- the class occupying the highest position in the social hierarchy
+[uppercut.n.01] uppercut -- a swinging blow directed upward (especially at an opponent's chin)
+[upper_deck.n.01] upper deck -- a higher deck
+[upper_egypt.n.01] Upper Egypt -- one of the two main administrative districts of Egypt; extends south from Cairo to Sudan
+[upper_hand.n.01] upper hand -- position of advantage and control
+[upper_jaw.n.01] upper jaw -- the jaw in vertebrates that is fused to the cranium
+[upper_limit.n.02] upper limit -- the limit on the upper (or northernmost) side of something
+[upper_mantle.n.01] upper mantle -- the upper part of the mantle
+[upper.n.02] upper -- piece of leather or synthetic material that forms the part of a shoe or boot above the sole that encases the foot
+[upper_paleolithic.n.01] Upper Paleolithic -- the time period during which only modern Homo sapiens was known to have existed; ended about 10,000 years BC
+[upper_peninsula.n.01] Upper Peninsula -- the peninsula between Lake Superior and Lake Michigan that forms the northwestern part of Michigan
+[upper_respiratory_infection.n.01] upper respiratory infection -- infection of the upper respiratory tract
+[upper_respiratory_tract.n.01] upper respiratory tract -- the nose and throat and trachea
+[upper_surface.n.01] upper surface -- the side that is uppermost
+[uppityness.n.01] uppityness -- assumption of airs beyond one's station
+[uppsala.n.01] Uppsala -- a city in east central Sweden to the northwest of Stockholm
+[up_quark.n.01] up quark -- a stable quark with an electric charge of +2/3 and a mass 607 times that of an electron
+[upright.n.01] upright -- a vertical structural member as a post or stake
+[upright.n.02] upright -- a piano with a vertical sounding board
+[uprightness.n.03] uprightness -- righteousness as a consequence of being honorable and honest
+[upset.n.02] upset -- the act of disturbing the mind or body
+[upset.n.04] upset -- a tool used to thicken or spread metal (the end of a bar or a rivet etc.) by forging or hammering or swaging
+[upset.n.05] upset -- the act of upsetting something
+[upset_price.n.01] upset price -- (auction) the minimum price at which a seller of property will entertain bids
+[upsetter.n.01] upsetter -- an unexpected winner; someone who defeats the favorite competitor
+[upside-down_cake.n.01] upside-down cake -- batter baked atop a layer of sweetened fruit then turned upside down so fruit is on top
+[upsilon.n.01] upsilon -- the 20th letter of the Greek alphabet
+[upstage.n.01] upstage -- the rear part of the stage
+[upstager.n.01] upstager -- a selfish actor who upstages the other actors
+[upstairs.n.01] upstairs -- the part of a building above the ground floor
+[upstart.n.01] upstart -- an arrogant or presumptuous person
+[upstart.n.02] upstart -- a person who has suddenly risen to a higher economic status but has not gained social acceptance of others in that class
+[upstroke.n.01] upstroke -- a stroke normally made in an upward direction
+[uptake.n.02] uptake -- a process of taking up or using up or consuming
+[up-tick.n.01] up-tick -- a small increase
+[uptick.n.01] uptick -- a transaction in the stock market at a price above the price of the preceding transaction
+[uptime.n.01] uptime -- a period of time when something (as a machine or factory) is functioning and available for use
+[uptown.n.01] uptown -- a residential part of town away from the central commercial district
+[upturn.n.01] upturn -- an upward movement or trend as in business activity
+[upupa.n.01] Upupa -- type genus of the Upupidae
+[upupidae.n.01] Upupidae -- hoopoes
+[uracil.n.01] uracil -- a base containing nitrogen that is found in RNA (but not in DNA) and derived from pyrimidine; pairs with adenine
+[ural-altaic.n.01] Ural-Altaic -- a (postulated) group of languages including many of the indigenous languages of Russia (but not Russian)
+[uralic.n.01] Uralic -- a family of Ural-Altaic languages
+[urals.n.01] Urals -- a mountain range in western Russia extending from the Arctic to the Caspian Sea; forms part of the traditional boundary between Europe and Asia
+[urania.n.01] Urania -- (Greek mythology) the Muse of astronomy
+[uraninite.n.01] uraninite -- a mineral consisting of uranium oxide and trace amounts of radium and thorium and polonium and lead and helium; uraninite in massive form is called pitchblende which is the chief uranium ore
+[uranium_235.n.01] uranium 235 -- a uranium isotope with mass number 235; capable of sustaining chain reactions
+[uranium_238.n.01] uranium 238 -- the commonest isotope of uranium; it is not fissionable but when irradiated with neutrons it produces fissionable plutonium 239
+[uranium.n.01] uranium -- a heavy toxic silvery-white radioactive metallic element; occurs in many isotopes; used for nuclear fuels and nuclear weapons
+[uranium_ore.n.01] uranium ore -- any ore from which uranium can be extracted
+[uranoplasty.n.01] uranoplasty -- surgical correction of a defect of the palate
+[uranoscopidae.n.01] Uranoscopidae -- stargazers
+[uranus.n.02] Uranus -- a giant planet with a ring of ice particles; the 7th planet from the sun has a blue-green color and many satellites Also a hyponym of: superior_planet.n.01, jovian_planet.n.01.
+[uranyl.n.01] uranyl -- the bivalent radical UO2 which forms salts with acids
+[uranyl_nitrate.n.01] uranyl nitrate -- a yellow salt obtained by the reaction of uranium salts with nitric acid
+[uranyl_oxalate.n.01] uranyl oxalate -- a salt obtained by the reaction of uranium salts with oxalic acid
+[uratemia.n.01] uratemia -- presence of abnormal amounts of uric acid salts in the blood; symptom of gout Also a hyponym of: symptom.n.01.
+[urate.n.01] urate -- a salt of uric acid
+[uraturia.n.01] uraturia -- presence of abnormally large amounts of uric acid in the urine; symptom of gout
+[urbana.n.01] Urbana -- a university town in east central Illinois adjoining Champaign
+[urban_area.n.01] urban area -- a geographical area constituting a city or town
+[urban_guerrilla.n.01] urban guerrilla -- a guerrilla who fights only in cities and towns
+[urban_ii.n.01] Urban II -- French pope from 1088 to 1099 whose sermons called for the First Crusade (1042-1099)
+[urbanity.n.01] urbanity -- polished courtesy; elegance of manner
+[urbanity.n.02] urbanity -- the quality or character of life in a city or town
+[urbanization.n.01] urbanization -- the condition of being urbanized
+[urbanization.n.02] urbanization -- the social process whereby cities grow and societies become more urban
+[urban_legend.n.01] urban legend -- a story that appears mysteriously and spreads spontaneously in various forms and is usually false; contains elements of humor or horror and is popularly believed to be true
+[urban_planning.n.01] urban planning -- the branch of architecture dealing with the design and organization of urban space and activities
+[urban_renewal.n.01] urban renewal -- the clearing and rebuilding and redevelopment of urban slums
+[urban_viii.n.01] Urban VIII -- Italian pope from 1623 to 1644 who sanctioned the condemnation of Galileo but later freed him (1568-1644)
+[urban_vi.n.01] Urban VI -- Italian pope from 1378 to 1389 whose contested election began the Great Schism; he alienated his political allies by his ruthless treatment of his opponents (1318-1389)
+[urban_v.n.01] Urban V -- French pope from 1362 to 1370 who tried to reestablish the papacy in Rome but in 1367 returned to Avignon hoping to end the war between France and England; canonized in 1870 (1310-1370)
+[urceole.n.01] urceole -- a vessel that holds water for washing the hands
+[urchin.n.01] urchin -- poor and often mischievous city child
+[urd.n.01] Urd -- goddess of fate: a giantess who personified the past
+[urdu.n.01] Urdu -- the official literary language of Pakistan, closely related to Hindi; widely used in India (mostly by Moslems); written in Arabic script
+[urea-formaldehyde_resin.n.01] urea-formaldehyde resin -- a clear thermosetting resin made from urea and formaldehyde and used in electrical fittings, adhesives, and finishes
+[urea.n.01] urea -- the chief solid component of mammalian urine; synthesized from ammonia and carbon dioxide and used as fertilizer and in animal feed and in plastics
+[urease.n.01] urease -- an enzyme that catalyzes the hydrolysis of urea into carbon dioxide and ammonia; is present in intestinal bacteria
+[uredinales.n.01] Uredinales -- rust fungi: parasitic fungi causing rust in plants; sometimes placed in
+[uremia.n.01] uremia -- accumulation in the blood of nitrogenous waste products (urea) that are usually excreted in the urine
+[ureteritis.n.01] ureteritis -- inflammation of the ureter
+[ureter.n.01] ureter -- either of a pair of thick-walled tubes that carry urine from the kidney to the urinary bladder
+[ureterocele.n.01] ureterocele -- prolapse of the end of the ureter into the bladder; may obstruct urine flow
+[ureterorenal_reflux.n.01] ureterorenal reflux -- a backflow of urine from the ureter into the renal pelvis
+[ureterostenosis.n.01] ureterostenosis -- stenosis of the ureter
+[urethane.n.01] urethane -- an ester of carbamic acid
+[urethral_orifice.n.01] urethral orifice -- the orifice through which urine is discharged
+[urethral_sphincter.n.01] urethral sphincter -- a striated sphincter muscle that constricts the urethra
+[urethra.n.01] urethra -- duct through which urine is discharged in most mammals and which serves as the male genital duct
+[urethritis.n.01] urethritis -- inflammation of the urethra; results in painful urination
+[urethrocele.n.01] urethrocele -- prolapse of the urethra into the vagina
+[urey.n.01] Urey -- United States chemist who discovered deuterium (1893-1981)
+[urge_incontinence.n.01] urge incontinence -- urinary incontinence that is generally attributable to involuntary contracts of the bladder muscle resulting in an urgent need to urinate accompanied by a sudden loss of urine; most common in people over 60 years of age
+[urge.n.01] urge -- an instinctive motive
+[urge.n.02] urge -- a strong restless desire
+[urgency.n.01] urgency -- the state of being urgent; an earnest and insistent necessity
+[urgency.n.02] urgency -- pressing importance requiring speedy action
+[urgency.n.03] urgency -- an urgent situation calling for prompt action
+[urginea.n.01] Urginea -- Mediterranean liliaceous plants; sometimes placed in family Hyacinthaceae
+[urging.n.02] urging -- the act of earnestly supporting or encouraging
+[uriah.n.01] Uriah -- (Old Testament) the husband of Bathsheba and a soldier who was sent to die in battle so that king David could marry his wife (circa 10th century BC)
+[urial.n.01] urial -- bearded reddish sheep of southern Asia
+[uria.n.01] Uria -- murres
+[uric_acid.n.01] uric acid -- a white tasteless odorless crystalline product of protein metabolism; found in the blood and urine
+[uricaciduria.n.01] uricaciduria -- presence of abnormal amounts of uric acid in the urine; symptom of gout Also a hyponym of: symptom.n.01.
+[urim_and_thummim.n.01] Urim and Thummim -- lots thrown to determine God's answers to yes-no questions
+[urinal.n.01] urinal -- a plumbing fixture (usually attached to the wall) used by men to urinate
+[urinalysis.n.01] urinalysis -- (medicine) the chemical analysis of urine (for medical diagnosis) Also a hyponym of: diagnosis.n.01.
+[urinary_bladder.n.01] urinary bladder -- a membranous sac for temporary retention of urine
+[urinary_hesitancy.n.01] urinary hesitancy -- difficulty in beginning the flow of urine; associated with prostate enlargement in men and with narrowing of the urethral opening in women; may be caused by emotional stress in either men or women
+[urinary_retention.n.01] urinary retention -- holding urine in the urinary bladder
+[urinary_tract_infection.n.01] urinary tract infection -- any infection of any of the organs of the urinary tract
+[urinary_tract.n.01] urinary tract -- the organs and tubes involved in the production and excretion of urine
+[urine.n.01] urine -- liquid excretory product
+[url.n.01] URL -- the address of a web page on the world wide web
+[urmia.n.02] Urmia -- a city on the western side of Lake Urmia in northwestern Iran
+[ur.n.01] Ur -- an ancient city of Sumer located on a former channel of the Euphrates River
+[urn.n.01] urn -- a large vase that usually has a pedestal or feet
+[urn.n.02] urn -- a large pot for making coffee or tea
+[urnula_craterium.n.01] Urnula craterium -- an urn-shaped discomycete with a nearly black interior
+[urobilin.n.01] urobilin -- brown bile pigment formed from urobilinogens and found in feces and in small amounts in urine
+[urobilinogen.n.01] urobilinogen -- a chromogen formed in the intestine from the breakdown of bilirubin; yields urobilins on oxidation; some is excreted in the feces and some is resorbed and excreted in bile or urine
+[urocele.n.01] urocele -- extravasation of urine into the scrotal sac
+[urochesia.n.01] urochesia -- passage of urine from the anus
+[urochordata.n.01] Urochordata -- tunicates
+[urochord.n.02] urochord -- a notochord of a larval tunicate typically confined to the caudal region
+[urocyon.n.01] Urocyon -- grey foxes
+[urocystis.n.01] Urocystis -- a genus of smut fungi belonging to the family Tilletiaceae
+[urodele.n.01] urodele -- amphibians that resemble lizards
+[urodella.n.01] Urodella -- salamanders; newts; congo snakes
+[urodynia.n.01] urodynia -- pain during urination
+[urogenital_system.n.01] urogenital system -- the system that includes all organs involved in reproduction and in the formation and voidance of urine
+[urolith.n.01] urolith -- a urinary stone
+[urologist.n.01] urologist -- a specialist in urology
+[urology.n.01] urology -- the branch of medicine that deals with the diagnosis and treatment of disorders of the urinary tract or urogenital system
+[uropathy.n.01] uropathy -- any pathology of the urinary tract
+[urophycis.n.01] Urophycis -- hakes
+[uropsilus.n.01] Uropsilus -- shrew moles
+[uropygial_gland.n.01] uropygial gland -- oil-secreting gland situated at the base of the tail in most birds
+[uropygium.n.01] uropygium -- posterior part of a bird's body from which the tail feathers grow
+[urosaurus.n.01] Urosaurus -- a reptile genus of Iguanidae
+[ursidae.n.01] Ursidae -- bears and extinct related forms
+[ursinia.n.01] ursinia -- any of various plants of the genus Ursinia grown for their yellow- or orange- or white-rayed flowers
+[ursus.n.01] Ursus -- type genus of Ursidae: brown bears; in some classifications genus Ursus includes all bears
+[urticaceae.n.01] Urticaceae -- a family of plants of order Urticales including many nettles with stinging hairs
+[urticales.n.01] Urticales -- an order of dicotyledonous plants including Moraceae and Urticaceae and Ulmaceae
+[urtica.n.01] Urtica -- a nettle yielding fiber resembling flax
+[urtication.n.01] urtication -- an itchy skin eruption characterized by weals with pale interiors and well-defined red margins; usually the result of an allergic response to insect bites or food or drugs Also a hyponym of: hypersensitivity_reaction.n.01.
+[urtication.n.02] urtication -- a sensation of having been stung by nettles
+[urubupunga.n.01] Urubupunga -- a waterfall in the Parana river in Brazil
+[uruguayan_monetary_unit.n.01] Uruguayan monetary unit -- monetary unit in Uruguay
+[uruguayan.n.01] Uruguayan -- a native or inhabitant of Uruguay
+[uruguayan_peso.n.01] Uruguayan peso -- the basic unit of money in Uruguay; equal to 100 centesimos
+[uruguay.n.01] Uruguay -- a South American republic on the southeast coast of South America; achieved independence from Brazil in 1825
+[uruguay_potato.n.01] Uruguay potato -- South American potato vine
+[uruguay_potato.n.02] Uruguay potato -- similar to the common potato
+[uruguay_river.n.01] Uruguay River -- a South American river that arises in southern Brazil and flows south to the Rio de la Plata; the northern section forms the boundary between Argentina and Brazil and the southern section forms the boundary between Argentina and Uruguay
+[usage.n.03] usage -- the customary manner in which a language (or a form of a language) is spoken or written
+[usance.n.01] usance -- the period of time permitted by commercial usage for the payment of a bill of exchange (especially a foreign bill of exchange)
+[used-car_lot.n.01] used-car lot -- a parking lot where a dealer in used-cars displays cars for sale
+[used-car.n.01] used-car -- a car that has been previously owned; not a new car
+[use_immunity.n.01] use immunity -- an exemption that displaces the privilege against self-incrimination; neither compelled testimony or any fruits of it can be used against the witness who therefore can no longer fear self-incrimination
+[use.n.01] use -- the act of using
+[use.n.03] use -- a particular service
+[use.n.07] use -- (law) the exercise of the legal right to enjoy the benefits of owning property
+[user.n.01] user -- a person who makes use of a thing; someone who uses or employs something
+[ushas.n.01] Ushas -- Hindu goddess of dawn; daughter of the sky and sister of the night
+[usherette.n.01] usherette -- a female usher
+[ushering_in.n.01] ushering in -- the introduction of something new
+[usher.n.02] usher -- an official stationed at the entrance of a courtroom or legislative chamber
+[usher.n.03] usher -- someone employed to conduct others
+[usneaceae.n.01] Usneaceae -- fruticose lichens having prostrate or erect or pendulous thalli: genera Usnea, Evernia, Ramalina, Alectoria
+[usnea.n.01] Usnea -- widely distributed lichens usually having a greyish or yellow pendulous freely branched thallus
+[uss_cole.n.01] USS Cole -- a United States destroyer
+[ussher.n.01] Ussher -- Irish prelate who deduced from the Bible that Creation occurred in the year 4004 BC (1581-1656)
+[ustilaginaceae.n.01] Ustilaginaceae -- a fungus family of loose smuts
+[ustilaginales.n.01] Ustilaginales -- parasitic fungi causing smuts; sometimes placed in class Tiliomycetes
+[ustilaginoidea.n.01] Ustilaginoidea -- genus of imperfect fungi causing plant diseases like smut
+[ustilago.n.01] Ustilago -- type genus of the Ustilaginaceae; genus comprising the loose smuts
+[ustinov.n.01] Ustinov -- British actor and playwright (1921-2004) Also a hyponym of: dramatist.n.01.
+[usualness.n.01] usualness -- commonness by virtue of not being unusual
+[usufruct.n.01] usufruct -- a legal right to use and derive profit from property belonging to someone else provided that the property itself is not injured in any way
+[usufructuary.n.01] usufructuary -- someone who holds property by usufruct
+[usuli.n.01] Usuli -- a religious movement by Persian Shiite Muslims in 17th century Iran that is opposed to the Akhbari
+[usurer.n.01] usurer -- someone who lends money at excessive rates of interest Also a hyponym of: lender.n.01.
+[usurpation.n.02] usurpation -- wrongfully seizing and holding (an office or powers) by force (especially the seizure of a throne or supreme authority)
+[usurper.n.01] usurper -- one who wrongfully or illegally seizes and holds the place of another
+[usury.n.01] usury -- an exorbitant or unlawful rate of interest
+[usury.n.02] usury -- the act of lending money at an exorbitant rate of interest
+[utahan.n.01] Utahan -- a native or resident of Utah
+[utah.n.01] Utah -- a state in the western United States; settled in 1847 by Mormons led by Brigham Young
+[utahraptor.n.01] utahraptor -- large (20-ft) and swift carnivorous dinosaur having an upright slashing claw 15 inches long on each hind foot; early Cretaceous
+[uta.n.01] Uta -- a reptile genus of Iguanidae
+[ute.n.01] Ute -- a member of the Shoshonean people of Utah and Colorado and New Mexico
+[ute.n.02] Ute -- the Shoshonean language spoken by the Utes
+[utensil.n.01] utensil -- an implement for practical use (especially in a household)
+[uterine_artery.n.01] uterine artery -- a branch of the internal iliac artery that supplies the uterus and the upper part of the vagina
+[uterine_cavity.n.01] uterine cavity -- the space inside the uterus between the cervical canal and the Fallopian tubes
+[uterine_contraction.n.01] uterine contraction -- a rhythmic tightening in labor of the upper uterine musculature that contracts the size of the uterus and pushes the fetus toward the birth canal
+[uterine_vein.n.01] uterine vein -- one of two veins on each side that arise from the uterine plexus and empty into the internal iliac vein
+[uterus.n.01] uterus -- a hollow muscular organ in the pelvic cavity of females; contains the developing fetus
+[utica.n.01] Utica -- a city in central New York
+[utica.n.02] Utica -- an ancient city on the north coast of Africa (northwest of Carthage); destroyed by Arabs around 700 AD
+[utilitarianism.n.01] utilitarianism -- doctrine that the useful is the good; especially as elaborated by Jeremy Bentham and James Mill; the aim was said to be the greatest happiness for the greatest number
+[utilitarian.n.01] utilitarian -- someone who believes that the value of a thing depends on its utility
+[utility_bond.n.01] utility bond -- a bond issued to finance the construction of public utility services
+[utility_man.n.01] utility man -- a baseball player valued for the ability to play at several positions
+[utility_man.n.02] utility man -- a workman expected to serve in any capacity when called on
+[utility.n.01] utility -- a company that performs a public service; subject to government regulation
+[utility.n.02] utility -- the quality of being of practical use
+[utility.n.03] utility -- the service (electric power or water or transportation) provided by a public utility
+[utility.n.04] utility -- (economics) a measure that is to be maximized in any situation involving choice
+[utility.n.06] utility -- a facility composed of one or more pieces of equipment connected to or part of a structure and designed to provide a service such as heat or electricity or water or sewage disposal
+[utility_program.n.01] utility program -- (computer science) a program designed for general support of the processes of a computer
+[utility_routine.n.01] utility routine -- a routine that can be used as needed
+[utilization.n.02] utilization -- the state of having been made use of
+[utilizer.n.01] utilizer -- someone who puts to good use
+[utmost.n.01] utmost -- the greatest possible degree
+[utnapishtim.n.01] Utnapishtim -- favorite of the gods and grandfather of Gilgamish; survived the great flood and became immortal
+[uto-aztecan.n.01] Uto-Aztecan -- a family of American Indian languages
+[utopia.n.01] Utopia -- a book written by Sir Thomas More (1516) describing the perfect society on an imaginary island
+[utopia.n.02] utopia -- ideally perfect state; especially in its social and political and moral aspects
+[utopia.n.03] utopia -- a work of fiction describing a utopia
+[utopia.n.04] Utopia -- an imaginary place considered to be perfect or ideal
+[utopianism.n.01] Utopianism -- the political orientation of a Utopian who believes in impossibly idealistic schemes of social perfection
+[utopian.n.01] Utopian -- an idealistic (but usually impractical) social reformer
+[utopian_socialism.n.01] utopian socialism -- socialism achieved by voluntary sacrifice
+[utrecht.n.01] Utrecht -- a city in the central Netherlands
+[utricle.n.01] utricle -- a small pouch into which the semicircular canals open
+[utricularia.n.01] Utricularia -- bladderworts: large genus of aquatic carnivorous plants; cosmopolitan in distribution
+[utrillo.n.01] Utrillo -- French painter noted for his paintings of Parisian street scenes (1883-1955)
+[uttar_pradesh.n.01] Uttar Pradesh -- a state in northern India
+[utterance.n.01] utterance -- the use of uttered sounds for auditory communication
+[utterer.n.01] utterer -- an organism that can utter vocal sounds
+[utterer.n.02] utterer -- someone who circulates forged banknotes or counterfeit coins
+[utu.n.01] Utu -- sun god; counterpart of Akkadian Shamash
+[u-turn.n.01] u-turn -- complete reversal of direction of travel
+[uvea.n.01] uvea -- the part of the eye that contains the iris and ciliary body and choroid
+[uveitis.n.01] uveitis -- inflammation of the uvea of the eye
+[uveoscleral_pathway.n.01] uveoscleral pathway -- a tubule that drains excess aqueous humor
+[uvula.n.01] uvula -- a small pendant fleshy lobe at the back of the soft palate
+[uvulariaceae.n.01] Uvulariaceae -- one of many subfamilies into which some classification systems subdivide the Liliaceae
+[uvularia.n.01] Uvularia -- genus of perennial rhizomatous herb of southern and southeastern United States
+[uvulitis.n.01] uvulitis -- inflammation of the uvula
+[uxoricide.n.01] uxoricide -- a husband who murders his wife
+[uxoricide.n.02] uxoricide -- the murder of a wife by her husband
+[uxoriousness.n.01] uxoriousness -- foolish fondness for or excessive submissiveness to one's wife
+[uxor.n.01] uxor -- (legal terminology) the Latin word for wife
+[uzbekistani_monetary_unit.n.01] Uzbekistani monetary unit -- monetary unit in Uzbekistan
+[uzbekistan.n.01] Uzbekistan -- a landlocked republic in west central Asia; formerly an Asian soviet
+[uzbek.n.01] Uzbek -- a member of a Turkic people of Uzbekistan and neighboring areas
+[uzbek.n.03] Uzbek -- the Turkic language spoken by the Uzbek
+[uzi.n.01] Uzi -- a type of submachine gun that is designed and manufactured in Israel

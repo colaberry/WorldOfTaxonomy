@@ -42,6 +42,7 @@ The canonical, always-current list of systems is `GET /api/v1/systems` (1,000+ e
 | System ID | Full Name | Version | Authority | License | URL |
 |-----------|-----------|---------|-----------|---------|-----|
 | `hs_2022` | Harmonized Commodity Description and Coding System | 2022 | World Customs Organization | CC0 (via datasets/harmonized-system) | https://github.com/datasets/harmonized-system |
+| `gs1_gpc` | GS1 Global Product Classification | 2025-11 (Nov 2025) | GS1 | GS1 GPC Implementation Guideline (free use for product identification) | https://gpc-browser.gs1.org/ |
 | `cpc_v21` | Central Product Classification | v2.1 | UN Statistics Division | Open | https://unstats.un.org/unsd/classifications/Econ/cpc |
 | `unspsc_v24` | Universal Standard Products and Services Code | v24 | GS1 US (via Oklahoma Open Data) | Public domain | https://data.ok.gov/dataset/unspsc-codes |
 

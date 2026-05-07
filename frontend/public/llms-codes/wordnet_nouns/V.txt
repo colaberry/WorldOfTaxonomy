@@ -1,0 +1,1247 @@
+[v-8_juice.n.01] V-8 juice -- brand name for canned mixed vegetable juices
+[vacancy.n.01] vacancy -- being unoccupied
+[vacancy_rate.n.01] vacancy rate -- the percentage of all rental units (as in hotels) that are unoccupied or not rented at a given time
+[vacant_lot.n.01] vacant lot -- a lot on which there are no permanent buildings
+[vacationer.n.01] vacationer -- someone on vacation; someone who is devoting time to pleasure or relaxation rather than to work
+[vacation_home.n.01] vacation home -- a dwelling (a second home) where you live while you are on vacation
+[vacationing.n.01] vacationing -- the act of taking a vacation
+[vacation.n.01] vacation -- leisure time away from work devoted to rest or pleasure
+[vacation.n.02] vacation -- the act of making something legally void
+[vaccaria.n.01] Vaccaria -- cow-cockles
+[vaccination.n.02] vaccination -- the scar left following inoculation with a vaccine
+[vaccinee.n.01] vaccinee -- a patient who has been vaccinated
+[vaccine.n.01] vaccine -- immunogen consisting of a suspension of weakened or dead pathogenic cells injected in order to stimulate the production of antibodies
+[vaccinia.n.01] vaccinia -- a local infection induced in humans by inoculation with the virus causing cowpox in order to confer resistance to smallpox; normally lasts three weeks and leaves a pitted scar
+[vaccinium.n.01] Vaccinium -- evergreen or deciduous berry-bearing shrubs of northern hemisphere: cranberries; blueberries
+[vac.n.01] vac -- informal term for vacation
+[vacuole.n.01] vacuole -- a tiny cavity filled with fluid in the cytoplasm of a cell
+[vacuolization.n.01] vacuolization -- the state of having become filled with vacuoles
+[vacuousness.n.01] vacuousness -- indicative of or marked by mental vacuity and an absence of ideas
+[vacuum_chamber.n.01] vacuum chamber -- a chamber from which nearly all matter (especially air) has been removed
+[vacuum_flask.n.01] vacuum flask -- flask with double walls separated by vacuum; used to maintain substances at high or low temperatures
+[vacuum_gauge.n.01] vacuum gauge -- a gauge for indicating negative atmospheric pressure
+[vacuum.n.01] vacuum -- the absence of matter
+[vacuum.n.03] vacuum -- a region that is devoid of matter
+[vacuum.n.04] vacuum -- an electrical home appliance that cleans by suction
+[vaduz.n.01] Vaduz -- the capital and largest city of Liechtenstein
+[vagabond.n.01] vagabond -- anything that resembles a vagabond in having no fixed place
+[vagary.n.01] vagary -- an unexpected and inexplicable change in something (in a situation or a person's behavior, etc.)
+[vaginal_artery.n.01] vaginal artery -- a branch of the internal iliac that provides blood for the vagina and the base of the bladder and the rectum
+[vaginal_discharge.n.01] vaginal discharge -- discharge of secretions from the cervical glands of the vagina; normally clear or white
+[vaginal_smear.n.01] vaginal smear -- smear taken from the vaginal mucosa for cytological analysis
+[vagina.n.01] vagina -- the lower part of the female reproductive tract; a moist canal in female mammals extending from the labia minora to the uterus
+[vaginismus.n.01] vaginismus -- muscular contraction that causes the vagina to close; usually an anxiety reaction before coitus or pelvic examination
+[vaginitis.n.01] vaginitis -- inflammation of the vagina (usually associated with candidiasis)
+[vagrancy.n.01] vagrancy -- the state of wandering from place to place; having no permanent home or means of livelihood
+[vagrant.n.01] vagrant -- a wanderer who has no established residence or visible means of support Also a hyponym of: wanderer.n.01.
+[vagueness.n.01] vagueness -- unclearness by virtue of being poorly expressed or not coherent in meaning
+[vagueness.n.02] vagueness -- indistinctness of shape or character
+[vagus.n.01] vagus -- a mixed nerve that supplies the pharynx and larynx and lungs and heart and esophagus and stomach and most of the abdominal viscera
+[vaishnava.n.01] Vaishnava -- worshipper of Vishnu
+[vaishnavism.n.01] Vaishnavism -- Hindu sect worshiping of Vishnu
+[vaishnavism.n.02] Vaishnavism -- worship of Vishnu one of the 3 chief gods of the Hindu pantheon
+[vaisya.n.01] Vaisya -- a member of the mercantile and professional Hindu caste; the third of the four main castes
+[vaisya.n.02] vaisya -- the third of the four varnas: the commoners or yeoman farmers or mercantile and professional category
+[vajra.n.01] Vajra -- Indra's thunderbolt
+[valdecoxib.n.01] valdecoxib -- a Cox-2 inhibitor (trade name Bextra) that relieves pain and inflammation without harming the digestive tract
+[valdez.n.01] Valdez -- a port on Alaska's southern coast from which oil is shipped to markets around the world
+[valdosta.n.01] Valdosta -- a town in southern Georgia near the Florida border
+[valediction.n.01] valediction -- a farewell oration (especially one delivered during graduation exercises by an outstanding member of a graduating class)
+[valediction.n.02] valediction -- the act of saying farewell
+[valedictorian.n.01] valedictorian -- the student with the best grades who usually delivers the valedictory address at commencement
+[valence_electron.n.01] valence electron -- an electron in the outer shell of an atom which can combine with other atoms to form molecules
+[valence.n.01] valence -- (biology) a relative capacity to unite or react or interact as with antigens or a biological substrate
+[valence.n.02] valence -- (chemistry) a property of atoms or radicals; their combining power given in terms of the number of hydrogen atoms (or the equivalent)
+[valencia.n.01] Valencia -- an industrial city in northern Venezuela
+[valencia.n.02] Valencia -- a city in eastern Spain on the Mediterranean
+[valencia_orange.n.01] Valencia orange -- variety of sweet orange cultivated extensively in Florida and California
+[valenciennes.n.01] Valenciennes -- a town in northeastern France long noted for its lace industry
+[valenciennes.n.02] Valenciennes -- a type of bobbin lace with floral patterns
+[valency.n.01] valency -- the phenomenon of forming chemical bonds
+[valentine_day.n.01] Valentine Day -- a day for the exchange of tokens of affection
+[valentine.n.01] valentine -- a sweetheart chosen to receive a greeting on Saint Valentine's Day
+[valentine.n.02] Valentine -- a card sent or given (as to a sweetheart) on Saint Valentine's Day
+[valerianaceae.n.01] Valerianaceae -- genus of mostly herbs having a characteristic fetid odor
+[valeriana.n.01] Valeriana -- genus of widely distributed perennial herbs and some shrubs
+[valerianella.n.01] Valerianella -- genus of Old World annual herbs widely naturalized
+[valerian.n.01] valerian -- a plant of the genus Valeriana having lobed or dissected leaves and cymose white or pink flowers
+[valeric_acid.n.01] valeric acid -- a clear liquid carboxylic acid used in perfumes and drugs
+[valet.n.01] valet -- a manservant who acts as a personal attendant to his employer Also a hyponym of: body_servant.n.01.
+[valet_parking.n.01] valet parking -- a service provided (at a club or restaurant or airport etc.) whereby a patron leaves a car at the entrance and an attendant parks and retrieves it
+[valetudinarian.n.01] valetudinarian -- weak or sickly person especially one morbidly concerned with his or her health
+[valgus.n.01] valgus -- a deformity in which there is an abnormal displacement of part of a limb away from the midline of the body
+[valhalla.n.01] Valhalla -- (Norse mythology) the hall in which the souls of heros slain in battle were received by Odin
+[validation.n.01] validation -- the act of validating; finding or testing the truth of something
+[validity.n.02] validity -- the quality of having legal force or effectiveness
+[vali.n.01] Vali -- (Norse mythology) one of the Aesir and avenger of Balder; son of Odin
+[valine.n.01] valine -- an essential amino acid found in proteins; important for growth in children and nitrogen balance in adults
+[valise.n.01] valise -- a small overnight bag for short trips
+[valkyrie.n.01] Valkyrie -- (Norse mythology) one of the maidens of Odin who chose heroes to be slain in battle and conducted them to Valhalla
+[valle_d'aosta.n.01] Valle D'Aosta -- a region in northwestern Italy
+[valletta.n.01] Valletta -- the capital of Malta; located on the northeastern coast of the island
+[valley_girl.n.01] valley girl -- a girl who grew up in the tract housing in the San Fernando Valley
+[valley.n.01] valley -- a long depression in the surface of the land that usually contains a river
+[valley_pocket_gopher.n.01] valley pocket gopher -- of valleys and mountain meadows of western United States
+[vallisneria.n.01] Vallisneria -- eelgrass; eel grass
+[valmy.n.01] Valmy -- the French defeated the Austrian and Prussian troops in 1792 (with a famous cannonade from the French artillery)
+[valois.n.01] Valois -- French royal house from 1328 to 1589
+[valparaiso.n.01] Valparaiso -- the chief port and second largest city of Chile; located on a wide harbor in central Chile Also a hyponym of: city.n.01.
+[valproic_acid.n.01] valproic acid -- anticonvulsant (trade name Depokene) used to prevent some kinds of seizures
+[valsartan.n.01] valsartan -- an angiotensin II inhibitor that is used to treat high blood pressure
+[valuable.n.01] valuable -- something of value
+[valuation.n.02] valuation -- assessed price
+[valuation_reserve.n.01] valuation reserve -- a reserve fund created by a charge against profits in order to provide for changes in the value of a company's assets
+[value_judgment.n.01] value judgment -- an assessment that reveals more about the values of the person making the assessment than about the reality of what is assessed
+[valuelessness.n.01] valuelessness -- having none of the properties that endow something with value
+[value.n.01] value -- a numerical quantity measured or assigned or computed
+[value.n.02] value -- the quality (positive or negative) that renders something desirable or valuable
+[value.n.03] value -- the amount (of money or goods or services) that is considered to be a fair equivalent for something else
+[value.n.04] value -- relative darkness or lightness of a color; -Joe Hing Lowe
+[value.n.05] value -- (music) the relative duration of a musical note
+[value.n.06] value -- an ideal accepted by some individual or group
+[valuer.n.01] valuer -- someone who assesses the monetary worth of possessions
+[values.n.01] values -- beliefs of a person or social group in which they have an emotional investment (either for or against something)
+[value_statement.n.01] value statement -- a statement of the desirability of something
+[valve-in-head_engine.n.01] valve-in-head engine -- internal-combustion engine having both inlet and exhaust valves located in the cylinder head
+[valve.n.01] valve -- a structure in a hollow organ (like the heart) with a flap to insure one-way flow of fluid through it
+[valve.n.02] valve -- device in a brass wind instrument for varying the length of the air column to alter the pitch of a tone
+[valve.n.03] valve -- control consisting of a mechanical device for controlling the flow of a fluid
+[valve.n.04] valve -- the entire one-piece shell of a snail and certain other molluscs
+[valve.n.05] valve -- one of the paired hinged shells of certain molluscs and of brachiopods
+[valvotomy.n.01] valvotomy -- incision into a stenosed cardiac valve to relieve the obstruction
+[valvular_heart_disease.n.01] valvular heart disease -- heart disease caused by stenosis of the cardiac valves and obstructed blood flow or caused by degeneration and blood regurgitation
+[valvular_incompetence.n.01] valvular incompetence -- inability of a bodily valve to close completely
+[valvule.n.01] valvule -- a small valve
+[valvulitis.n.01] valvulitis -- inflammation of a valve (especially of a cardiac valve as a consequence of rheumatic fever)
+[vambrace.n.01] vambrace -- cannon of plate armor protecting the forearm
+[vampire_bat.n.01] vampire bat -- any of various tropical American bats of the family Desmodontidae that bite mammals and birds to feed on their blood
+[vampire.n.01] vampire -- (folklore) a corpse that rises at night to drink the blood of the living
+[vampirism.n.01] vampirism -- belief in the existence of vampires
+[vampirism.n.02] vampirism -- the actions or practices of a vampire
+[vamp.n.02] vamp -- an improvised musical accompaniment
+[vamp.n.03] vamp -- piece of leather forming the front part of the upper of a shoe
+[vanadate.n.01] vanadate -- a salt or ester of vanadic acid; an anion containing pentavalent vanadium
+[vanadinite.n.01] vanadinite -- a mineral consisting of chloride and vanadate of lead; a source of vanadium
+[vanadium.n.01] vanadium -- a soft silvery white toxic metallic element used in steel alloys; it occurs in several complex minerals including carnotite and vanadinite
+[vanadium_pentoxide.n.01] vanadium pentoxide -- any of various oxyacids of vanadium; known mostly in the form of its salts
+[vanadium_steel.n.01] vanadium steel -- steel alloyed with vanadium for greater strength and high-temperature stability
+[van_allen_belt.n.01] Van Allen belt -- a belt of charged particles (resulting from cosmic rays) above the Earth trapped by the Earth's magnetic field
+[van_allen.n.01] Van Allen -- United States physicist who discovered two belts of charged particles from the solar wind trapped by the Earth's magnetic field (born in 1914)
+[vanbrugh.n.01] Vanbrugh -- English architect (1664-1726)
+[van_buren.n.01] Van Buren -- 8th President of the United States (1782-1862)
+[vancomycin.n.01] vancomycin -- an antibiotic (trade name Vancocin) effective against some bacterial infections
+[vancouver_island.n.01] Vancouver Island -- an island off southwestern Canada (off the southwestern coast of British Columbia); the largest island off the west coast of North America
+[vancouver.n.01] Vancouver -- English navigator remembered for his exploration of the Pacific coast of North America (1757-1798)
+[vancouver.n.02] Vancouver -- a town in southwestern Washington on the Columbia River across from Portland, Oregon
+[vancouver.n.03] Vancouver -- a port city in southwestern British Columbia on an arm of the Pacific Ocean opposite Vancouver Island; Canada's chief Pacific port and third largest city Also a hyponym of: city.n.01.
+[vandalism.n.01] vandalism -- willful wanton and malicious destruction of the property of others Also a hyponym of: mischief.n.01.
+[vandal.n.01] vandal -- someone who willfully destroys or defaces property
+[vandal.n.02] Vandal -- a member of the Germanic people who overran Gaul and Spain and North Africa and sacked Rome in 455
+[vanda.n.01] vanda -- any of numerous showy orchids of the genus Vanda having many large flowers in loose racemes
+[van_de_graaff.n.01] Van de Graaff -- United States physicist (1901-1967)
+[vanderbilt.n.01] Vanderbilt -- United States financier who accumulated great wealth from railroad and shipping businesses (1794-1877) Also a hyponym of: philanthropist.n.01.
+[van_der_waal's_forces.n.01] van der Waal's forces -- relatively weak attraction between neutral atoms and molecules arising from polarization induced in each particle by the presence of other particles
+[van_der_waals.n.01] van der Waals -- Dutch physicist (1837-1923)
+[van_de_velde.n.01] van de Velde -- Belgian architect (1863-1957)
+[van_doren.n.01] Van Doren -- United States writer and literary critic (1885-1950) Also a hyponym of: literary_critic.n.01.
+[vandyke_beard.n.01] vandyke beard -- a short pointed beard (named after the artist Anthony Vandyke)
+[vandyke_brown.n.01] Vandyke brown -- a moderate brown color
+[vandyke.n.01] Vandyke -- Flemish painter of numerous portraits (1599-1641)
+[vanellus.n.01] Vanellus -- Eurasian lapwings
+[vane.n.02] vane -- a fin attached to the tail of an arrow, bomb or missile in order to stabilize or guide it
+[vane.n.04] vane -- the flattened weblike part of a feather consisting of a series of barbs on either side of the shaft
+[vanessa.n.01] Vanessa -- painted beauty and red admiral
+[van_gogh.n.01] van Gogh -- Dutch Post-impressionist painter noted for his use of color (1853-1890)
+[vanguard.n.01] vanguard -- the leading units moving at the head of an army
+[vanguard.n.03] vanguard -- the position of greatest importance or advancement; the leading position in any movement or field
+[vangueria.n.01] Vangueria -- tropical African and Asiatic trees and shrubs having one-seeded fruit
+[vanilla_bean.n.01] vanilla bean -- long bean-like fruit; seeds are used as flavoring
+[vanilla_ice_cream.n.01] vanilla ice cream -- ice cream flavored with vanilla extract
+[vanilla.n.01] vanilla -- any of numerous climbing plants of the genus Vanilla having fleshy leaves and clusters of large waxy highly fragrant white or green or topaz flowers
+[vanilla.n.02] vanilla -- a flavoring prepared from vanilla beans macerated in alcohol (or imitating vanilla beans)
+[vanilla.n.03] vanilla -- a distinctive fragrant flavor characteristic of vanilla beans
+[vanilla_orchid.n.01] vanilla orchid -- a climbing orchid bearing a podlike fruit yielding vanilla beans; widely cultivated from Florida southward throughout tropical America
+[vanilla_pudding.n.01] vanilla pudding -- sweet vanilla flavored custard-like pudding usually thickened with flour rather than eggs
+[vanillin.n.01] vanillin -- a crystalline compound found in vanilla beans and some balsam resins; used in perfumes and flavorings
+[vanir.n.01] Vanir -- (Norse mythology) race of ancient gods sometimes in conflict with the Aesir
+[vanisher.n.01] vanisher -- a person who disappears
+[vanishing.n.01] vanishing -- a sudden or mysterious disappearance
+[vanishing.n.02] vanishing -- a sudden disappearance from sight
+[vanishing_point.n.01] vanishing point -- the point beyond which something disappears or ceases to exist
+[vanishing_point.n.02] vanishing point -- the appearance of a point on the horizon at which parallel lines converge
+[vanity_fair.n.01] vanity fair -- a vain and frivolous lifestyle especially in large cities
+[vanity.n.02] vanity -- the quality of being valueless or futile
+[van.n.03] van -- (Great Britain) a closed railroad car that carries baggage or freight
+[van.n.04] van -- a camper equipped with living quarters
+[van.n.05] van -- a truck with an enclosed cargo space
+[vantage.n.01] vantage -- place or situation affording some advantage (especially a comprehensive view or commanding perspective)
+[vantage_point.n.01] vantage point -- a place from which something can be viewed
+[vanua_levu.n.01] Vanua Levu -- a volcanic island in the Fijis
+[vanuatu.n.01] Vanuatu -- a volcanic island republic in Melanesia; independent since 1980
+[van_vleck.n.01] Van Vleck -- United States physicist (1899-1980)
+[vanzetti.n.01] Vanzetti -- United States anarchist (born in Italy) who with Nicola Sacco was convicted of murder and in spite of world-wide protest was executed (1888-1927)
+[vapor_density.n.01] vapor density -- the density of a gas relative to the density of hydrogen
+[vaporization.n.01] vaporization -- annihilation by vaporizing something
+[vaporization.n.02] vaporization -- the process of becoming a vapor
+[vaporizer.n.01] vaporizer -- a device that puts out a substance in the form of a vapor (especially for medicinal inhalation)
+[vapor_lock.n.01] vapor lock -- a stoppage in a pipeline caused by gas bubbles (especially a stoppage that develops in hot weather in an internal-combustion engine when fuel in the gas line boils and forms bubbles that block the flow of gasoline to the carburetor)
+[vapor.n.01] vapor -- a visible suspension in the air of particles of some substance
+[vapor_pressure.n.01] vapor pressure -- the pressure exerted by a vapor; often understood to mean saturated vapor pressure (the vapor pressure of a vapor in contact with its liquid form)
+[vaquero.n.01] vaquero -- local names for a cowboy (`vaquero' is used especially in southwestern and central Texas and `buckaroo' is used especially in California)
+[vaquita.n.01] vaquita -- a short porpoise that lives in the Gulf of California; an endangered species
+[vara.n.01] vara -- a Spanish unit of length (about a yard) having different values in different localities
+[varanidae.n.01] Varanidae -- monitor lizards
+[varanus.n.01] Varanus -- type and sole extant genus of the Varanidae
+[vardenafil.n.01] vardenafil -- virility drug (trade name Levitra) used to treat erectile dysfunction in men
+[varese.n.01] Varese -- United States composer (born in France) whose music combines dissonance with complex rhythms and the use of electronic techniques (1883-1965)
+[vargas_llosa.n.01] Vargas Llosa -- Peruvian writer (born in 1936)
+[vargas.n.01] Vargas -- Brazilian statesman who ruled Brazil as a virtual dictator (1883-1954)
+[variability.n.01] variability -- the quality of being subject to variation
+[variable.n.01] variable -- something that is likely to vary; something that is subject to variation
+[variable.n.02] variable -- a quantity that can assume any of a set of values
+[variable.n.04] variable -- a symbol (like x or y) that is used in mathematical or logical expressions to represent a variable quantity
+[variable-pitch_propeller.n.01] variable-pitch propeller -- propeller for which the angle of the blades is adjustable
+[variable_star.n.01] variable star -- a star that varies noticeably in brightness
+[variance.n.03] variance -- the second moment around the mean; the expected value of the square of the deviations of a random variable from its mean value
+[variance.n.06] variance -- an official dispensation to act contrary to a rule or regulation (typically a building regulation)
+[variation.n.01] variation -- an instance of change; the rate or magnitude of change
+[variation.n.02] variation -- an activity that varies from a norm or standard
+[variation.n.03] variation -- a repetition of a musical theme in which it is modified or embellished
+[variation.n.05] variation -- an artifact that deviates from a norm or standard
+[variation.n.07] variation -- the process of varying or being varied
+[variation.n.08] variation -- (astronomy) any perturbation of the mean motion or orbit of a planet or satellite (especially a perturbation of the earth's moon)
+[variation.n.11] variation -- the act of changing or altering something slightly but noticeably from the norm or standard
+[varicella_zoster_virus.n.01] varicella zoster virus -- the member of the herpes virus family that is responsible for chickenpox
+[varicocele.n.01] varicocele -- dilatation of the veins associated with the spermatic cord in the testes
+[varicose_vein.n.01] varicose vein -- a vein that is permanently dilated; most common in the legs Also a hyponym of: varicosity.n.01.
+[varicosis.n.01] varicosis -- pathological condition of being varicose or having varicose veins
+[varicosity.n.01] varicosity -- varix or varicose condition in which a vein is swollen and tortuous
+[varied_lorikeet.n.01] varied Lorikeet -- lorikeet with a colorful coat
+[variedness.n.01] variedness -- characterized by variation
+[variegated_horsetail.n.01] variegated horsetail -- northern North America; Greenland; northern and central Europe
+[variegation.n.01] variegation -- variability in coloration
+[varietal.n.01] varietal -- a wine made principally from one grape and carrying the name of that grape
+[variety_meat.n.01] variety meat -- edible viscera of a butchered animal
+[variety.n.03] variety -- (biology) a taxonomic category consisting of members of a species that differ from others of the same species in minor but heritable characteristics
+[variety.n.06] variety -- a difference that is usually pleasant
+[variety_show.n.01] variety show -- a show consisting of a series of short unrelated performances
+[variola_major.n.02] variola major -- a type of smallpox virus that has a fatality rate of up to 25 percent
+[variola_minor.n.02] variola minor -- a type of smallpox virus that has a fatality rate of about 1 percent
+[variolation.n.01] variolation -- the obsolete process of inoculating a susceptible person with material taken from a vesicle of a person who has smallpox
+[variola_virus.n.01] variola virus -- the virus that causes smallpox in humans; can be used as a bioweapon
+[variometer.n.01] variometer -- a measuring instrument for measuring variations in a magnetic field
+[variorum.n.01] variorum -- an edition containing various versions of a text or notes by various scholars or editors
+[variously-leaved_pondweed.n.01] variously-leaved pondweed -- of Europe (except the Mediterranean area) and the northern United States
+[varix.n.01] varix -- abnormally enlarged or twisted blood vessel or lymphatic vessel
+[varmint.n.02] varmint -- any usually predatory wild animal considered undesirable; e.g., coyote
+[varna.n.01] Varna -- a port city in northeastern Bulgaria on the Black Sea Also a hyponym of: city.n.01.
+[varna.n.02] varna -- (Hinduism) the name for the original social division of Vedic people into four groups (which are subdivided into thousands of jatis)
+[varnisher.n.01] varnisher -- someone who applies a finishing coat of varnish
+[varnish.n.01] varnish -- a coating that provides a hard, lustrous, transparent finish to a surface
+[varnish_tree.n.02] varnish tree -- small Asiatic tree yielding a toxic exudate from which lacquer is obtained
+[varro.n.01] Varro -- Roman scholar (116-27 BC)
+[varsity.n.01] varsity -- a British abbreviation of `university'; usually refers to Oxford University or Cambridge University
+[varsity.n.02] varsity -- a team representing a college or university
+[varuna.n.01] Varuna -- in Vedism, god of the night sky who with his thousand eyes watches over human conduct and judges good and evil and punishes evildoers; often considered king of the Hindu gods and frequently paired with Mitra as an upholder of the world
+[varus.n.01] varus -- a deformity in which part of a limb is turned inward to an abnormal degree
+[vasa_efferentia.n.01] vasa efferentia -- the several highly convoluted tubules that lead from the rete testis to the vas deferens and form the head of the epididymis
+[vasarely.n.01] Vasarely -- French painter (born in Hungary) who was a pioneer of op art (1908-1997)
+[vasari.n.01] Vasari -- Italian painter and art historian (1511-1574) Also a hyponym of: art_historian.n.01.
+[vasa_vasorum.n.01] vasa vasorum -- any small blood vessel ramifying on the outside of a major artery or vein
+[vascular_bundle.n.01] vascular bundle -- a unit strand of the vascular system in stems and leaves of higher plants consisting essentially of xylem and phloem
+[vascularity.n.01] vascularity -- the property being vascular
+[vascularization.n.01] vascularization -- the organic process whereby body tissue becomes vascular and develops capillaries
+[vascular_plant.n.01] vascular plant -- green plant having a vascular system: ferns, gymnosperms, angiosperms
+[vascular_ray.n.01] vascular ray -- a sheet of vascular tissue separating the vascular bundles
+[vascular_structure.n.01] vascular structure -- a structure composed of or provided with blood vessels
+[vascular_system.n.01] vascular system -- the vessels and tissue that carry or circulate fluids such as blood or lymph or sap through the body of an animal or plant
+[vascular_tissue.n.01] vascular tissue -- tissue that conducts water and nutrients through the plant body in higher plants
+[vasculitis.n.01] vasculitis -- inflammation of a blood vessel
+[vas_deferens.n.01] vas deferens -- a duct that carries spermatozoa from the epididymis to the ejaculatory duct
+[vasectomy.n.01] vasectomy -- surgical procedure that removes all or part of the vas deferens (usually as a means of sterilization); is sometimes reversible Also a hyponym of: ablation.n.01.
+[vaseline.n.01] Vaseline -- a trademarked brand of petroleum jelly
+[vase.n.01] vase -- an open jar of glass or porcelain used as an ornament or to hold flowers
+[vasoconstriction.n.01] vasoconstriction -- decrease in the diameter of blood vessels
+[vasoconstrictor.n.01] vasoconstrictor -- any agent that causes a narrowing of an opening of a blood vessel: cold or stress or nicotine or epinephrine or norepinephrine or angiotensin or vasopressin or certain drugs; maintains or increases blood pressure
+[vasodilation.n.01] vasodilation -- dilation of blood vessels (especially the arteries)
+[vasodilator.n.01] vasodilator -- a drug that causes dilation of blood vessels
+[vasopressin.n.01] vasopressin -- hormone secreted by the posterior pituitary gland (trade name Pitressin) and also by nerve endings in the hypothalamus; affects blood pressure by stimulating capillary muscles and reduces urine flow by affecting reabsorption of water by kidney tubules Also a hyponym of: vasoconstrictor.n.01.
+[vasopressor.n.01] vasopressor -- any agent that produces vasoconstriction and a rise in blood pressure (usually understood as increased arterial pressure)
+[vasotomy.n.01] vasotomy -- surgical incision into or division of the vas deferens
+[vasovasostomy.n.01] vasovasostomy -- a surgical procedure that attempts to restore the function of the vas deferens after a vasectomy
+[vasovesiculitis.n.01] vasovesiculitis -- inflammation of the vas deferens and seminal vesicles; usually occurring with prostatitis
+[vassal.n.01] vassal -- a person holding a fief; a person who owes allegiance and service to a feudal lord
+[vat_dye.n.01] vat dye -- a water-insoluble dye that is applied by reducing the dye to an alkaline form, applying the dye, then regenerating the insoluble dye by oxidation in the material; used for dyeing cotton
+[vatican_city.n.01] Vatican City -- the capital of the State of the Vatican City
+[vatican_council.n.01] Vatican Council -- each of two councils of the Roman Catholic Church
+[vatican.n.01] Vatican -- the residence of the Catholic Pope in the Vatican City
+[vat.n.01] VAT -- a tax levied on the difference between a commodity's price before taxes and its cost of production
+[vaudeville.n.01] vaudeville -- a variety show with songs and comic acts etc.
+[vaudevillian.n.01] vaudevillian -- a performer who works in vaudeville
+[vaughan.n.01] Vaughan -- United States jazz singer noted for her complex bebop phrasing and scat singing (1924-1990)
+[vaughan_williams.n.01] Vaughan Williams -- English composer influenced by folk tunes and music of the Tudor period (1872-1958)
+[vaulter.n.01] vaulter -- an athlete who jumps over a high crossbar with the aid of a long pole
+[vaulting_horse.n.01] vaulting horse -- a gymnastic horse without pommels and with one end elongated; used lengthwise for vaulting
+[vaulting.n.01] vaulting -- (architecture) a vaulted structure
+[vault.n.01] vault -- a burial chamber (usually underground)
+[vault.n.02] vault -- a strongroom or compartment (often made of steel) for safekeeping of valuables
+[vault.n.03] vault -- an arched brick or stone ceiling or roof
+[vault.n.04] vault -- the act of jumping over an obstacle
+[vaunt.n.01] vaunt -- extravagant self-praise
+[vaux.n.01] Vaux -- United States landscape architect (born in England) who designed Central Park (1824-1895)
+[vayu.n.01] Vayu -- Hindu wind god
+[v-day.n.01] V-day -- the day of a victory
+[veadar.n.01] Veadar -- included seven times in every 19 years
+[veal_cordon_bleu.n.01] veal cordon bleu -- thin slices of veal stuffed with cheese and ham and then sauteed
+[veal.n.01] veal -- meat from a calf
+[veal_parmesan.n.01] veal parmesan -- sauteed veal cutlet in a breadcrumb-and-cheese coating served with tomato sauce
+[veal_roast.n.01] veal roast -- cut of veal suitable for roasting
+[veal_scallopini.n.01] veal scallopini -- thin sauteed cutlets of veal
+[veblen.n.01] Veblen -- United States economist who wrote about conspicuous consumption (1857-1929)
+[veblen.n.02] Veblen -- United States mathematician (1880-1960)
+[vector_algebra.n.01] vector algebra -- the part of algebra that deals with the theory of vectors and vector spaces
+[vector-borne_transmission.n.01] vector-borne transmission -- indirect transmission of an infectious agent that occurs when a vector bites or touches a person
+[vector.n.01] vector -- a variable quantity that can be resolved into components
+[vector.n.02] vector -- a straight line segment whose length is magnitude and whose orientation in space is direction
+[vector.n.03] vector -- any agent (person or animal or microorganism) that carries and transmits a disease
+[vector.n.04] vector -- (genetics) a virus or other agent that is used to deliver DNA to a cell
+[vector_product.n.01] vector product -- a vector that is the product of two other vectors
+[vector_sum.n.01] vector sum -- a vector that is the sum of two or more other vectors
+[vedalia.n.01] vedalia -- native to Australia; introduced elsewhere to control scale insects
+[vedanga.n.01] Vedanga -- Vedic texts from the fifth and fourth centuries BC dealing with phonetics and ritual injunctions and linguistics and grammar and etymology and lexicography and prosody and astronomy and astrology
+[vedanta.n.01] Vedanta -- (from the Sanskrit for `end of the Veda') one of six orthodox philosophical systems or viewpoints rooted in the Upanishads as opposed to Mimamsa which relies on the Vedas and Brahmanas
+[v-e_day.n.01] V-E Day -- the date of Allied victory in Europe, World War II
+[vedic_literature.n.01] Vedic literature -- (from the Sanskrit word for `knowledge') any of the most ancient sacred writings of Hinduism written in early Sanskrit; traditionally believed to comprise the Samhitas, the Brahmanas, the Aranyakas, and the Upanishads
+[vedism.n.01] Vedism -- the form of Hinduism that revolves primarily around the mythic version and ritual ideologies in the Vedas
+[vedist.n.01] Vedist -- a scholar of or an authority on the Vedas
+[veery.n.01] veery -- tawny brown North American thrush noted for its song
+[vega.n.01] Vega -- prolific Spanish playwright (1562-1635)
+[vega.n.02] Vega -- the brightest star in the constellation Lyra
+[vegan.n.01] vegan -- a strict vegetarian; someone who eats no animal or dairy products at all
+[vegetable_matter.n.01] vegetable matter -- matter produced by plants or growing in the manner of a plant
+[vegetable.n.01] vegetable -- edible seeds or roots or stems or leaves or bulbs or tubers or nonsweet fruits of any of numerous herbaceous plant
+[vegetable.n.02] vegetable -- any of various herbaceous plants cultivated for an edible part such as the fruit or the root of the beet or the leaf of spinach or the seeds of bean plants or the flower buds of broccoli or cauliflower
+[vegetable_oil.n.01] vegetable oil -- any of a group of liquid edible fats that are obtained from plants
+[vegetable_sheep.n.02] vegetable sheep -- cushion-forming New Zealand herb having leaves densely covered with tawny hairs
+[vegetable_tallow.n.01] vegetable tallow -- a waxy fat obtained from certain plants (e.g. bayberry) and used as tallow
+[vegetable_wax.n.01] vegetable wax -- a waxy substance obtained from plants (especially from the trunks of certain palms)
+[vegetarianism.n.01] vegetarianism -- a diet excluding all meat and fish
+[vegetarian.n.01] vegetarian -- eater of fruits and grains and nuts; someone who eats no meat or fish or (often) any animal products
+[vegetation.n.01] vegetation -- all the plant life in a particular region or period
+[vegetation.n.02] vegetation -- the process of growth in plants
+[vegetation.n.03] vegetation -- an abnormal growth or excrescence (especially a warty excrescence on the valves of the heart)
+[vegetation.n.04] vegetation -- inactivity that is passive and monotonous, comparable to the inactivity of plant life
+[vehemence.n.01] vehemence -- intensity or forcefulness of expression
+[vehicle-borne_transmission.n.01] vehicle-borne transmission -- indirect transmission of an infectious agent that occurs when a vehicle (or fomite) touches a person's body or is ingested
+[vehicle.n.01] vehicle -- a conveyance that transports people or objects
+[vehicle.n.02] vehicle -- a medium for the expression or achievement of something
+[vehicle.n.03] vehicle -- any substance that facilitates the use of a drug or pigment or other material that is mixed with it
+[vehicular_traffic.n.01] vehicular traffic -- the aggregation of vehicles coming and going in a particular locality
+[veil.n.02] veil -- a membranous covering attached to the immature fruiting body of certain mushrooms
+[vein.n.01] vein -- a blood vessel that carries blood from the capillaries toward the heart
+[vein.n.02] vein -- a distinctive style or manner
+[vein.n.03] vein -- any of the vascular bundles or ribs that form the branching framework of conducting and supporting tissues in a leaf or other plant organ
+[vein.n.04] vein -- a layer of ore between layers of rock
+[vein.n.05] vein -- one of the horny ribs that stiffen and support the wing of an insect
+[vein_of_penis.n.01] vein of penis -- a vein serving the penis
+[vela.n.01] Vela -- a constellation in the southern hemisphere between Carina and Pyxis
+[velar.n.01] velar -- a consonant produced with the back of the tongue touching or near the soft palate
+[velazquez.n.01] Velazquez -- Spanish painter (1599-1660)
+[velcro.n.01] Velcro -- nylon fabric used as a fastening
+[veld.n.01] veld -- elevated open grassland in southern Africa
+[velleity.n.01] velleity -- a mere wish, unaccompanied by effort to obtain
+[velleity.n.02] velleity -- volition in its weakest form
+[vellum.n.01] vellum -- a heavy creamy-colored paper resembling parchment
+[vellum.n.02] vellum -- fine parchment prepared from the skin of a young animal e.g. a calf or lamb
+[velocipede.n.01] velocipede -- any of several early bicycles with pedals on the front wheel
+[velociraptor.n.01] velociraptor -- small active carnivore that probably fed on protoceratops; possibly related more closely to birds than to other dinosaurs
+[velodrome.n.01] velodrome -- a banked oval track for bicycle or motorcycle racing
+[velour.n.01] velour -- heavy fabric that resembles velvet
+[veloute.n.01] veloute -- white sauce made with stock instead of milk
+[velveeta.n.01] Velveeta -- trademark: soft processed American cheese
+[velvet_ant.n.01] velvet ant -- a solitary wasp of the family Mutillidae; the body has a coat of brightly colored velvety hair and the females are wingless
+[velvet_bent.n.01] velvet bent -- common grass with slender stems and narrow leaves
+[velveteen.n.01] velveteen -- a usually cotton fabric with a short pile imitating velvet
+[velvet_grass.n.01] velvet grass -- tall European perennial grass having a velvety stem; naturalized in United States and used for forage
+[velvetleaf.n.02] velvetleaf -- tall annual herb or subshrub of tropical Asia having velvety leaves and yellow flowers and yielding a strong fiber; naturalized in southeastern Europe and United States
+[velvet.n.01] velvet -- a silky densely piled fabric with a plain back
+[velvet_plant.n.02] velvet plant -- Javanese foliage plant grown for their handsome velvety leaves with violet-purple hairs
+[vena_bulbi_penis.n.01] vena bulbi penis -- vein of the head of the penis; tributary of the internal pudendal vein that drains the perineum
+[vena_bulbi_vestibuli.n.01] vena bulbi vestibuli -- vein of the vestibular bulb
+[vena_canaliculi_cochleae.n.01] vena canaliculi cochleae -- vein of the cochlear canal
+[vena_cava.n.01] vena cava -- either of two large veins that return oxygen-depleted blood to the right atrium of the heart
+[vena_dorsalis_clitoridis_profunda.n.01] vena dorsalis clitoridis profunda -- deep dorsal vein of the clitoris; tributary of the vesical venous plexus
+[venae_dorsales_clitoridis_superficiales.n.01] venae dorsales clitoridis superficiales -- superficial dorsal veins of the clitoris; tributaries of the external pudendal vein on either side
+[venae_dorsales_penis_profunda.n.01] venae dorsales penis profunda -- deep dorsal vein of the penis; tributary of the prostatic plexus
+[venae_dorsales_penis_superficiales.n.01] venae dorsales penis superficiales -- superficial dorsal veins of the penis; paired tributaries of the external pudendal veins on each side
+[venae_interlobulares_hepatis.n.01] venae interlobulares hepatis -- interlobular veins of the liver
+[venae_interlobulares_renis.n.01] venae interlobulares renis -- interlobular veins of the kidney; receive blood from the arcuate vein and empty into the renal veins
+[venae_labiales_anteriores.n.01] venae labiales anteriores -- veins from the labia majora to the external pudendal vein
+[venae_labiales_posteriores.n.01] venae labiales posteriores -- veins that pass posterior from the labia majora to the internal pudendal vein
+[venae_palpebrales.n.01] venae palpebrales -- veins of the eyelids
+[venae_profundae_clitoridis.n.01] venae profundae clitoridis -- deep veins of the clitoris; join the vesical plexus
+[venae_renis.n.01] venae renis -- veins of the kidney; drain the kidney into the renal vein
+[venality.n.01] venality -- prostitution of talents or offices or services for reward
+[vena_profunda_penis.n.01] vena profunda penis -- deep vein of the penis; enters the prostatic plexus
+[venation.n.01] venation -- (botany) the arrangement of veins in a leaf
+[venation.n.02] venation -- (zoology) the system of venous blood vessels in an animal
+[vendemiaire.n.01] Vendemiaire -- first month of the Revolutionary calendar (September and October); the month of the grape harvest
+[vendetta.n.01] vendetta -- a feud in which members of the opposing parties murder each other
+[vending_machine.n.01] vending machine -- a slot machine for selling goods
+[vending.n.01] vending -- the act of selling goods for a living
+[veneering.n.02] veneering -- the act of applying veneer
+[veneer.n.01] veneer -- coating consisting of a thin layer of superior wood glued to a base of inferior wood
+[venerability.n.01] venerability -- the quality of deserving veneration
+[venerator.n.01] venerator -- someone who regards with deep respect or reverence
+[venereal_disease.n.01] venereal disease -- a communicable infection transmitted by sexual intercourse or genital contact
+[veneridae.n.01] Veneridae -- hard-shell clams
+[venesection.n.01] venesection -- surgical incision into a vein; used to treat hemochromatosis Also a hyponym of: incision.n.02.
+[venetian_blind.n.01] Venetian blind -- a window blind made of horizontal strips that overlap when closed
+[venetian_glass.n.01] Venetian glass -- fine glassware made near Venice
+[venetian.n.01] Venetian -- a resident of Venice
+[venetian_sumac.n.01] Venetian sumac -- Old World shrub having large plumes of yellowish feathery flowers resembling puffs of smoke
+[veneto.n.01] Veneto -- a region of northeastern Italy on the Adriatic
+[venezuela.n.01] Venezuela -- a republic in northern South America on the Caribbean; achieved independence from Spain in 1811; rich in oil
+[venezuelan_monetary_unit.n.01] Venezuelan monetary unit -- monetary unit of Venezuela
+[venezuelan.n.01] Venezuelan -- a native or inhabitant of Venezuela
+[vengeance.n.01] vengeance -- the act of taking revenge (harming someone in retaliation for something harmful that they have done) especially in the next life; --Romans 12:19; --James Garfield
+[venial_sin.n.01] venial sin -- a pardonable sin regarded as entailing only a partial loss of grace
+[venice.n.01] Venice -- the provincial capital of Veneto; built on 118 islands within a lagoon in the Gulf of Venice; has canals instead of streets; one of Italy's major ports and a famous tourist attraction
+[venipuncture.n.01] venipuncture -- (medicine) puncture of a vein through the skin in order to withdraw blood for analysis or to start an intravenous drip or to inject medication or a radiopaque dye
+[venire_facias.n.01] venire facias -- a judicial writ ordering a sheriff to summon people for jury duty
+[venison.n.01] venison -- meat from a deer used as food
+[venn_diagram.n.01] Venn diagram -- a diagram that uses circles to represent mathematical or logical sets pictorially inside a rectangle (the universal set); elements that are common to more than one set are represented by intersections of the circles
+[venn.n.01] Venn -- English logician who introduced Venn diagrams (1834-1923)
+[venogram.n.01] venogram -- an X ray of a vein injected with a radiopaque contrast medium
+[venography.n.01] venography -- roentgenographic examination of veins
+[venom.n.01] venom -- toxin secreted by animals; secreted by certain snakes and poisonous insects (e.g., spiders and scorpions)
+[venomous_lizard.n.01] venomous lizard -- any of two or three large heavy-bodied lizards; only known venomous lizards
+[venous_blood.n.01] venous blood -- blood found in the veins
+[venous_pressure.n.01] venous pressure -- the pressure exerted on the walls of the veins by the circulating blood
+[venous_sinus.n.01] venous sinus -- a wide channel containing blood; does not have the coating of an ordinary blood vessel
+[venter.n.01] venter -- a speaker who expresses or gives vent to a personal opinion or grievance
+[venter.n.03] venter -- the womb
+[venter.n.04] venter -- a bulging body part (as the belly of a muscle)
+[ventilation.n.01] ventilation -- the act of supplying fresh air and getting rid of foul air
+[ventilation.n.02] ventilation -- a mechanical system in a building that provides fresh air
+[ventilation_shaft.n.01] ventilation shaft -- a shaft in a building; serves as an air passage for ventilation Also a hyponym of: air_passage.n.01.
+[ventilator.n.01] ventilator -- a device (such as a fan) that introduces fresh air or expels foul air
+[vent.n.01] vent -- a hole for the escape of gas or air
+[vent.n.02] vent -- external opening of urinary or genital system of a lower vertebrate
+[vent.n.03] vent -- a fissure in the earth's crust (or in the surface of some other planet) through which molten lava and gases erupt
+[vent.n.04] vent -- a slit in a garment (as in the back seam of a jacket)
+[ventner.n.01] Ventner -- United States geneticist who published the complete base sequences for all the genes of a free-living organism, the influenza bacterium; later led team that developed a first draft of the entire human genome (born in 1946)
+[ventose.n.01] Ventose -- sixth month of the Revolutionary calendar (February and March); the windy month
+[ventral_root.n.01] ventral root -- one of two the two roots of a spinal nerve that passes ventrally from the spinal cord and that consists of motor fibers
+[ventricle.n.01] ventricle -- one of four connected cavities in the brain; is continuous with the central canal of the spinal cord and contains cerebrospinal fluid
+[ventricle.n.02] ventricle -- a chamber of the heart that receives blood from an atrium and pumps it to the arteries
+[ventricular_aneurysm.n.01] ventricular aneurysm -- a localized dilation or protrusion on the wall of the left ventricle of the heart (occurring after a myocardial infarction)
+[ventricular_fibrillation.n.01] ventricular fibrillation -- fibrillation of heart muscles resulting in interference with rhythmic contractions of the ventricles and possibly leading to cardiac arrest Also a hyponym of: cardiac_arrhythmia.n.01.
+[ventricular_septal_defect.n.01] ventricular septal defect -- a common congenital heart defect; an abnormal opening in the septum dividing the ventricles allows blood to pass directly from the left to the right ventricle; large openings may cause congestive heart failure
+[ventriloquism.n.01] ventriloquism -- the art of projecting your voice so that it seems to come from another source (as from a ventriloquist's dummy)
+[ventriloquist.n.01] ventriloquist -- a performer who projects the voice into a wooden dummy
+[ventriloquist's_dummy.n.01] ventriloquist's dummy -- a wooden dummy into which a ventriloquist projects the voice
+[venture_capitalism.n.01] venture capitalism -- capitalism that invests in innovative enterprises (especially high technology) where the potential profits are large
+[venture_capitalist.n.01] venture capitalist -- a speculator who makes money available for innovative projects (especially in high technology)
+[venture_capital.n.01] venture capital -- wealth available for investment in new or speculative enterprises
+[venture.n.01] venture -- any venturesome undertaking especially one with an uncertain outcome
+[venture.n.03] venture -- a commercial undertaking that risks a loss but promises a profit
+[venturer.n.01] venturer -- a merchant who undertakes a trading venture (especially a venture that sends goods overseas)
+[venturi.n.01] Venturi -- United States architect (born in 1925)
+[venturi.n.02] venturi -- a tube with a constriction; used to control fluid flow (as in the air inlet of a carburetor)
+[venturi_tube.n.01] Venturi tube -- a short tube inserted into a pipeline and used to measure the quantity of a liquid that is flowing in the pipeline
+[venue.n.01] venue -- the scene of any event or action (especially the place of a meeting)
+[venue.n.02] venue -- in law: the jurisdiction where a trial will be held
+[venule.n.01] venule -- a minute vein continuous with a capillary
+[venus.n.01] Venus -- the second nearest planet to the sun; it is peculiar in that its rotation is slow and retrograde (in the opposite sense of the Earth and all other planets except Uranus); it is visible from Earth as an early `morning star' or an `evening star' Also a hyponym of: inferior_planet.n.01.
+[venus.n.02] Venus -- goddess of love; counterpart of Greek Aphrodite
+[venus.n.03] Venus -- type genus of the family Veneridae: genus of edible clams with thick oval shells
+[venus's_flower_basket.n.01] Venus's flower basket -- a deep-water marine sponge having a cylindrical skeleton of intricate glassy latticework; found in the waters of the East Indies and the eastern coast of Asia
+[venus's_flytrap.n.01] Venus's flytrap -- carnivorous plant of coastal plains of the Carolinas having sensitive hinged marginally bristled leaf blades that close and entrap insects
+[venus's_girdle.n.01] Venus's girdle -- ctenophore having a ribbon-shaped iridescent gelatinous body
+[venus'_slipper.n.01] Venus' slipper -- any of various orchids of the genus Paphiopedilum having slender flower stalks bearing 1 to several waxy flowers with pouchlike lips
+[veps.n.01] Veps -- a member of a Finnish people of Russia
+[veps.n.02] Veps -- a Finnic language spoken by the Veps
+[veracity.n.01] veracity -- unwillingness to tell lies
+[veracruz.n.01] Veracruz -- a major Mexican port on the Gulf of Mexico in the state of Veracruz Also a hyponym of: city.n.01.
+[veranda.n.01] veranda -- a porch along the outside of a building (sometimes partly enclosed)
+[verapamil.n.01] verapamil -- a drug (trade names Calan and Isoptin) used as an oral or parenteral calcium blocker in cases of hypertension or congestive heart failure or angina or migraine
+[veratrum.n.01] Veratrum -- a genus of coarse poisonous perennial herbs; sometimes placed in subfamily Melanthiaceae
+[verbal_creation.n.01] verbal creation -- creating something by the use of speech and language
+[verbal_intelligence.n.01] verbal intelligence -- intelligence in the use and comprehension of language
+[verbalization.n.01] verbalization -- the words that are spoken in the activity of verbalization
+[verbalization.n.02] verbalization -- the activity of expressing something in words
+[verbal_noun.n.01] verbal noun -- a noun that is derived from a verb
+[verbascum.n.01] Verbascum -- genus of coarse herbs and subshrubs mostly with woolly leaves
+[verbenaceae.n.01] Verbenaceae -- family of New World tropical and subtropical herbs and shrubs and trees
+[verbena.n.01] verbena -- any of numerous tropical or subtropical American plants of the genus Verbena grown for their showy spikes of variously colored flowers
+[verbesina.n.01] Verbesina -- herbs and shrubs of warm North America to Mexico; includes plants formerly placed in genus Actinomeris
+[verbiage.n.01] verbiage -- overabundance of words
+[verb.n.01] verb -- the word class that serves as the predicate of a sentence
+[verb.n.02] verb -- a content word that denotes an action, occurrence, or state of existence
+[verbolatry.n.01] verbolatry -- the worship of words
+[verboseness.n.01] verboseness -- an expressive style that uses excessive or empty words
+[verdandi.n.01] Verdandi -- goddess of fate: an elf who personified the present
+[verd_antique.n.01] verd antique -- a dark green impure marble
+[verdicchio.n.01] Verdicchio -- a variety of white wine grape grown in Italy
+[verdicchio.n.02] Verdicchio -- a dry white Italian wine made from Verdicchio grapes
+[verdict.n.01] verdict -- (law) the findings of a jury on issues of fact submitted to it for decision; can be used in formulating a judgment
+[verdigris.n.01] verdigris -- a blue or green powder used as a paint pigment
+[verdigris.n.02] verdigris -- a green patina that forms on copper or brass or bronze that has been exposed to the air or water for long periods of time
+[verdi.n.01] Verdi -- Italian operatic composer (1813-1901)
+[verdin.n.01] verdin -- very small yellow-headed titmouse of western North America
+[verdun.n.01] Verdun -- a battle in World War I (1916); in some of the bloodiest fighting in World War I the German offensive was stopped
+[verge.n.02] verge -- the limit beyond which something happens or changes
+[verge.n.04] verge -- a grass border along a road
+[verger.n.01] verger -- a church officer who takes care of the interior of the building and acts as an attendant (carries the verge) during ceremonies Also a hyponym of: church_officer.n.01.
+[verification.n.02] verification -- (law) an affidavit attached to a statement confirming the truth of that statement
+[verisimilitude.n.01] verisimilitude -- the appearance of truth; the quality of seeming to be true
+[verity.n.02] verity -- an enduring or necessary ethical or religious or aesthetic truth
+[verlaine.n.01] Verlaine -- French symbolist poet (1844-1896)
+[vermeer.n.01] Vermeer -- Dutch painter renowned for his use of light (1632-1675)
+[vermicelli.n.01] vermicelli -- pasta in strings thinner than spaghetti
+[vermicide.n.01] vermicide -- an agent that kills worms (especially those in the intestines) Also a hyponym of: agent.n.03.
+[vermiculation.n.02] vermiculation -- a decoration consisting of wormlike carvings Also a hyponym of: carving.n.01.
+[vermiculite.n.01] vermiculite -- any of a group of yellow or brown hydrous silicate minerals having a micaceous structure
+[vermifuge.n.01] vermifuge -- a medication capable of causing the evacuation of parasitic intestinal worms
+[vermillion_flycatcher.n.01] vermillion flycatcher -- tropical American flycatcher found as far north as southern Texas and Arizona; adult male has bright scarlet and black plumage
+[vermillion_rockfish.n.01] vermillion rockfish -- a commercially important fish of the Pacific coast of North America
+[vermin.n.01] vermin -- an irritating or obnoxious person
+[vermin.n.02] vermin -- any of various small animals or insects that are pests; e.g. cockroaches or rats
+[vermis.n.01] vermis -- the narrow central part of the cerebellum between the two hemispheres
+[vermonter.n.01] Vermonter -- a native or resident of Vermont
+[vermont.n.01] Vermont -- a state in New England
+[vermouth.n.01] vermouth -- any of several white wines flavored with aromatic herbs; used as aperitifs or in mixed drinks
+[vernacular.n.02] vernacular -- the everyday speech of the people (as distinguished from literary language)
+[vernal_equinox.n.01] vernal equinox -- March 21
+[vernal_equinox.n.02] vernal equinox -- (astronomy) the equinoctial point that lies in the constellation of Pisces
+[vernal_witch_hazel.n.01] vernal witch hazel -- fragrant shrub of lower Mississippi valley having very small flowers from midwinter to spring
+[vernation.n.01] vernation -- (botany) the arrangement of young leaves in a leaf bud before it opens
+[verne.n.01] Verne -- French writer who is considered the father of science fiction (1828-1905)
+[verner.n.01] Verner -- Danish philologist (1846-1896)
+[verner's_law.n.01] Verner's law -- a qualification of Grimm's law
+[vernier_caliper.n.01] vernier caliper -- a caliper with a vernier scale for very fine measurements
+[vernier.n.01] Vernier -- French mathematician who described the vernier scale (1580-1637)
+[vernier_scale.n.01] vernier scale -- a small movable scale that slides along a main scale; the small scale is calibrated to indicate fractional divisions of the main scale
+[vernix.n.01] vernix -- a white cheeselike protective material that covers the skin of a fetus
+[verona.n.01] Verona -- a city in Veneto on the River Adige
+[veronese.n.01] Veronese -- Italian painter of the Venetian school (1528-1588)
+[veronica.n.01] veronica -- any plant of the genus Veronica
+[verpa_bohemica.n.01] Verpa bohemica -- resembles a thimble on a finger; the surface of the fertile portion is folded into wrinkles that extend from the top down; fruiting begins in spring before the leaves are out on the trees
+[verpa_conica.n.01] Verpa conica -- a morel with a fertile portion that has a relatively smooth surface; the stalk is fragile
+[verpa.n.01] Verpa -- a morel whose fertile portion resembles a bell and is attached to the stipe only at the top
+[verrazano.n.01] Verrazano -- Florentine navigator who explored the eastern coast of North America (circa 1485-1528)
+[verrazano-narrows_bridge.n.01] Verrazano-Narrows Bridge -- a suspension bridge across the Verrazano Narrows between Brooklyn and Staten Island
+[verrazano_narrows.n.01] Verrazano Narrows -- a narrow channel of water separating Staten Island and Brooklyn
+[versace.n.01] Versace -- Italian fashion designer (1946-1997)
+[versailles.n.01] Versailles -- a city in north central France near Paris; site of the Palace of Versailles that was built by Louis XIV in the 17th century
+[versailles.n.02] Versailles -- a palace built in the 17th century for Louis XIV southwest of Paris near the city of Versailles
+[versatility.n.01] versatility -- having a wide variety of skills
+[verse.n.02] verse -- a piece of poetry
+[verse.n.03] verse -- a line of metrical text
+[versicle.n.01] versicle -- a short verse said or sung by a priest or minister in public worship and followed by a response from the congregation
+[versification.n.01] versification -- a metrical adaptation of something (e.g., of a prose text)
+[versification.n.02] versification -- the form or metrical composition of a poem
+[versification.n.03] versification -- the art or practice of writing verse
+[version.n.01] version -- an interpretation of a matter from a particular viewpoint
+[version.n.02] version -- something a little different from others of the same type
+[version.n.06] version -- manual turning of a fetus in the uterus (usually to aid delivery)
+[verso.n.01] verso -- left-hand page
+[verst.n.01] verst -- a Russian unit of length (1.067 km)
+[vertebral_artery.n.01] vertebral artery -- the first branch of the subclavian artery; divided into four parts
+[vertebral_vein.n.01] vertebral vein -- a vein that goes through the foramina of the cervical vertebrae and forms a plexus around the vertebral artery; empties into the brachiocephalic vein
+[vertebra.n.01] vertebra -- one of the bony segments of the spinal column
+[vertebrata.n.01] Vertebrata -- fishes; amphibians; reptiles; birds; mammals
+[vertebrate_foot.n.01] vertebrate foot -- the extremity of the limb in vertebrates
+[vertebrate.n.01] vertebrate -- animals having a bony or cartilaginous skeleton with a segmented spinal column and a large brain enclosed in a skull or cranium
+[vertebrate_paleontology.n.01] vertebrate paleontology -- the paleontology of vertebrates
+[vertex.n.01] vertex -- the point of intersection of lines or the point opposite the base of a figure
+[vertex.n.02] vertex -- the highest point (of something)
+[vertical_angle.n.01] vertical angle -- either of two equal and opposite angles formed by the intersection of two straight lines
+[vertical_bank.n.01] vertical bank -- a bank so steep that the plane's lateral axis approaches the vertical
+[vertical_circle.n.01] vertical circle -- a great circle on the celestial sphere passing through the zenith and perpendicular to the horizon
+[vertical_file.n.01] vertical file -- a file in which records are stored upright on one edge
+[vertical_integration.n.01] vertical integration -- absorption into a single firm of several firms involved in all aspects of a product's manufacture from raw materials to distribution
+[verticality.n.01] verticality -- position at right angles to the horizon
+[vertical.n.01] vertical -- something that is oriented vertically
+[vertical_section.n.01] vertical section -- a mechanical drawing showing the interior of an object as if made by a vertical plane passing through it
+[vertical_stabilizer.n.01] vertical stabilizer -- a stabilizer that is part of the vertical tail structure of an airplane
+[vertical_surface.n.01] vertical surface -- a surface that is vertical
+[vertical_tail.n.01] vertical tail -- the vertical airfoil in the tail assembly of an aircraft
+[verticilliosis.n.01] verticilliosis -- wilt caused by fungi of the genus Verticillium
+[verticillium.n.01] verticillium -- a fungus of the genus Verticillium
+[verticil.n.01] verticil -- a whorl of leaves growing around a stem
+[vervet.n.01] vervet -- South African monkey with black face and hands
+[verwoerd.n.01] Verwoerd -- South African statesman who instituted the policy of apartheid (1901-1966)
+[very_high_frequency.n.01] very high frequency -- 30 to 300 megahertz
+[very_important_person.n.01] very important person -- an important or influential (and often overbearing) person
+[very_light.n.01] Very light -- a colored flare fired from a Very pistol
+[very_low_density_lipoprotein.n.01] very low density lipoprotein -- large lipoproteins rich in triglycerides; VLDLs circulate through the blood giving up their triglycerides to fat and muscle tissue until the VLDL remnants are modified and converted into LDL
+[very_low_frequency.n.01] very low frequency -- 3 to 30 kilohertz
+[very_pistol.n.01] Very pistol -- a pistol for firing Very-light flares
+[very_reverend.n.01] Very Reverend -- a title of respect for various ecclesiastical officials (as cathedral deans and canons and others)
+[vesalius.n.01] Vesalius -- a Flemish surgeon who is considered the father of modern anatomy (1514-1564)
+[vesey.n.01] Vesey -- United States freed slave and insurrectionist in South Carolina who was involved in planning an uprising of slaves and was hanged (1767-1822) Also a hyponym of: slave.n.01.
+[vesical_vein.n.01] vesical vein -- veins that drain the vesical plexus and join the internal iliac veins
+[vesicant.n.01] vesicant -- a chemical agent that causes blistering (especially mustard gas)
+[vesicaria.n.01] Vesicaria -- small genus of chiefly Mediterranean herbs: bladderpods
+[vesicle.n.01] vesicle -- a small anatomically normal sac or bladderlike structure (especially one containing fluid)
+[vesicoureteral_reflux.n.01] vesicoureteral reflux -- a backflow of urine from the bladder into the ureter
+[vesicular_stomatitis.n.01] vesicular stomatitis -- a disease of horses, cattle, swine, and occasionally human beings; caused by the vesiculovirus
+[vesiculation.n.01] vesiculation -- the formation of vesicles in or beneath the skin
+[vesiculitis.n.01] vesiculitis -- inflammation of a seminal vesicle (usually in conjunction with prostatitis)
+[vesiculovirus.n.01] vesiculovirus -- an animal virus that causes vesicular stomatitis
+[vespa.n.01] Vespa -- type genus of the Vespidae: various hornets and yellow jackets
+[vespasian.n.01] Vespasian -- Emperor of Rome and founder of the Flavian dynasty who consolidated Roman rule in Germany and Britain and reformed the army and brought prosperity to the empire; began the construction of the Colosseum (9-79)
+[vesper.n.02] vesper -- a late afternoon or evening worship service
+[vespers.n.01] vespers -- the sixth of the seven canonical hours of the divine office; early evening; now often made a public service on Sundays
+[vesper_sparrow.n.01] vesper sparrow -- common North American finch noted for its evening song
+[vespertilian_bat.n.01] vespertilian bat -- a variety of carnivorous bat
+[vespertilio.n.01] Vespertilio -- a genus of Vespertilionidae
+[vespertilionidae.n.01] Vespertilionidae -- the majority of common bats of temperate regions of the world
+[vespidae.n.01] Vespidae -- an arthropod family of the order Hymenoptera including: yellow jackets; hornets; mason wasps
+[vespid.n.01] vespid -- mostly social nest-building wasps
+[vespucci.n.01] Vespucci -- Florentine navigator who explored the coast of South America; America was named in his honor (1454-1512)
+[vespula.n.01] Vespula -- sometimes considered a subgenus of Vespa: social wasps
+[vessel.n.01] vessel -- a tube in which a body fluid circulates
+[vessel.n.02] vessel -- a craft designed for water transportation
+[vessel.n.03] vessel -- an object used as a container (especially for liquids)
+[vestal.n.01] vestal -- a chaste woman
+[vestal_virgin.n.01] vestal virgin -- (Roman mythology) one of the virgin priestesses consecrated to the Roman goddess Vesta and to maintaining the sacred fire in her temple
+[vesta.n.01] Vesta -- (Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia
+[vesta.n.02] Vesta -- the brightest asteroid but the fourth to be discovered
+[vested_interest.n.01] vested interest -- (law) an interest in which there is a fixed right to present or future enjoyment and that can be conveyed to another
+[vested_interest.n.02] vested interest -- groups that seek to control a social system or activity from which they derive private benefit
+[vestibular_apparatus.n.01] vestibular apparatus -- organs mediating the labyrinthine sense; concerned with equilibrium
+[vestibular_gland.n.01] vestibular gland -- a gland that opens into the vestibule of the vagina; secretions lubricate the vagina during coitus
+[vestibular_vein.n.01] vestibular vein -- veins that drain the saccule and utricle
+[vestibule.n.02] vestibule -- any of various bodily cavities leading to another cavity (as of the ear or vagina)
+[vestibule_of_the_ear.n.01] vestibule of the ear -- the central cavity of the bony labyrinth of the ear
+[vestibule_of_the_vagina.n.01] vestibule of the vagina -- the space between the labia minora containing the orifice of the urethra
+[vestiture.n.01] vestiture -- an archaic term for clothing
+[vestment.n.01] vestment -- gown (especially ceremonial garments) worn by the clergy
+[vest.n.01] vest -- a man's sleeveless garment worn underneath a coat
+[vest_pocket.n.01] vest pocket -- a small pocket in a man's vest
+[vestris.n.01] Vestris -- Italian dancing-master for Louis XVI who was considered the greatest dancer of his day; he was the first to discard the mask in mime (1729-1808)
+[vestryman.n.01] vestryman -- a man who is a member of a church vestry
+[vestry.n.01] vestry -- in the Protestant Episcopal Church: a committee elected by the congregation to work with the churchwardens in managing the temporal affairs of the church
+[vestry.n.02] vestry -- a room in a church where sacred vessels and vestments are kept or meetings are held
+[vestrywoman.n.01] vestrywoman -- a woman who is a member of a church vestry
+[vesture.n.01] vesture -- something that covers or cloaks like a garment
+[vesuvianite.n.01] vesuvianite -- a green or yellow or brown mineral consisting of a hydrated silicate; it occurs as crystals in limestone and is used a gemstone
+[vesuvius.n.01] Vesuvius -- a volcano in southwestern Italy on the Mediterranean coast; a Plinian eruption in 79 AD buried Pompeii and killed Pliny the Elder; last erupted in 1944
+[vetchling.n.01] vetchling -- any of various small plants of the genus Lathyrus; climb usually by means of tendrils
+[vetch.n.01] vetch -- any of various climbing plants of the genus Vicia having pinnately compound leaves that terminate in tendrils and small variously colored flowers; includes valuable forage and soil-building plants
+[veteran.n.01] veteran -- a serviceman who has seen considerable active service
+[veteran.n.02] veteran -- a person who has served in the armed forces
+[veteran.n.03] veteran -- an experienced person who has been through many battles; someone who has given long service
+[veterans_day.n.01] Veterans Day -- a legal holiday in the United States; formerly Armistice Day but called Veterans' Day since 1954
+[veterans_of_foreign_wars.n.01] Veterans of Foreign Wars -- an organization of United States war veterans
+[veterinarian.n.01] veterinarian -- a doctor who practices veterinary medicine
+[veterinary_medicine.n.01] veterinary medicine -- the branch of medicine that deals with the diagnosis and treatment of diseases and injuries of animals (especially domestic animals)
+[veterinary_school.n.01] veterinary school -- a school teaching veterinary medicine
+[vetluga.n.01] Vetluga -- a river in central Russia; flows generally southward into the Volga
+[veto.n.01] veto -- a vote that blocks a decision
+[veto.n.02] veto -- the power or right to prohibit or reject a proposed or intended act (especially the power of a chief executive to reject a bill passed by the legislature)
+[vexatious_litigation.n.01] vexatious litigation -- litigation shown to have been instituted maliciously and without probable cause
+[viability.n.01] viability -- (of living things) capable of normal growth and development
+[viability.n.02] viability -- capable of being done in a practical and useful way
+[viaduct.n.01] viaduct -- bridge consisting of a series of arches supported by piers used to carry a road (or railroad) over a valley
+[viand.n.01] viand -- a choice or delicious dish
+[viatical_settlement.n.01] viatical settlement -- cash derived from sale of an insurance policy by a terminally ill policy holder
+[viatical_settlement.n.02] viatical settlement -- sale of an insurance policy by a terminally ill policy holder
+[viatication.n.01] viatication -- purchasing insurance policies for cash from terminally ill policy holders
+[vibist.n.01] vibist -- a musician who plays the vibraphone
+[viborg.n.01] Viborg -- a town of Denmark in north central Jutland
+[vibraphone.n.01] vibraphone -- a percussion instrument similar to a xylophone but having metal bars and rotating disks in the resonators that produce a vibrato sound
+[vibration.n.01] vibration -- the act of vibrating
+[vibration.n.04] vibration -- a distinctive emotional aura experienced instinctively
+[vibrato.n.01] vibrato -- (music) a pulsating effect in an instrumental or vocal tone produced by slight and rapid variations in pitch
+[vibrator.n.01] vibrator -- a mechanical device that vibrates
+[vibrator.n.02] vibrator -- mechanical device that produces vibratory motion; used for massage
+[vibrio_fetus.n.01] Vibrio fetus -- bacteria that cause abortion in sheep
+[vibrio.n.01] vibrio -- curved rodlike motile bacterium
+[viburnum.n.01] Viburnum -- deciduous or evergreen shrubs or small trees: arrow-wood; wayfaring tree
+[vicar_apostolic.n.01] vicar apostolic -- a titular Roman Catholic bishop in a non-Catholic area
+[vicar-general.n.01] vicar-general -- (Roman Catholic Church) an administrative deputy who assists a bishop
+[vicariate.n.01] vicariate -- the religious institution under the authority of a vicar
+[vicar.n.01] vicar -- a Roman Catholic priest who acts for another higher-ranking clergyman
+[vicar.n.02] vicar -- (Episcopal Church) a clergyman in charge of a chapel
+[vicar.n.03] vicar -- (Church of England) a clergyman appointed to act as priest of a parish
+[vice_admiral.n.01] vice admiral -- an admiral ranking below a full admiral and above a rear admiral
+[vice_chairman.n.01] vice chairman -- one ranking below or serving in the place of a chairman
+[vice_chancellor.n.01] vice chancellor -- a deputy or assistant to someone bearing the title of chancellor
+[vice_crime.n.01] vice crime -- a vice that is illegal
+[vicegerent.n.01] vicegerent -- someone appointed by a ruler as an administrative deputy
+[vice.n.02] vice -- a specific form of evildoing
+[vicente_lopez.n.01] Vicente Lopez -- an industrial suburb of Buenos Aires
+[vice-presidency.n.01] vice-presidency -- the tenure of a vice president
+[vice-presidency.n.02] vice-presidency -- the office and function of a vice president
+[vice_president.n.01] vice president -- an executive officer ranking immediately below a president; may serve in the president's place under certain circumstances
+[vice_president_of_the_united_states.n.01] Vice President of the United States -- the vice president of the United States who presides over the United States Senate
+[vice-regent.n.01] vice-regent -- a regent's deputy
+[vicereine.n.01] vicereine -- wife of a viceroy
+[viceroyalty.n.01] viceroyalty -- a district or province governed by a viceroy
+[viceroy.n.01] viceroy -- governor of a country or province who rules as the representative of his or her king or sovereign
+[viceroy.n.02] viceroy -- showy American butterfly resembling the monarch but smaller
+[viceroyship.n.01] viceroyship -- the position of viceroy
+[vice_squad.n.01] vice squad -- a police group to enforce laws against gambling and prostitution
+[vichy.n.01] Vichy -- a town in central France (south of Paris) noted for hot mineral springs; was capital of the unoccupied part of France during World War II
+[vichyssoise.n.01] vichyssoise -- a creamy potato soup flavored with leeks and onions; usually served cold
+[vichy_water.n.01] Vichy water -- sparkling mineral water from springs at Vichy, France or water similar to it
+[vicia.n.01] Vicia -- widely distributed genus of annual or perennial and often climbing herbs
+[vicinity.n.01] vicinity -- a surrounding or nearby region
+[vicious_circle.n.01] vicious circle -- one trouble leads to another that aggravates the first
+[vicious_circle.n.02] vicious circle -- an argument that assumes that which is to be proved
+[vicissitude.n.01] vicissitude -- a variation in circumstances or fortune at different times in your life or in the development of something
+[vicissitude.n.02] vicissitude -- mutability in life or nature (especially successive alternation from one condition to another)
+[vicksburg.n.01] Vicksburg -- a town in western Mississippi on bluffs above the Mississippi River to the west of Jackson; focus of an important campaign during the American Civil War as the Union fought to control the Mississippi River and so to cut the Confederacy into two halves
+[vicksburg.n.02] Vicksburg -- a decisive battle in the American Civil War (1863); after being besieged for nearly seven weeks the Confederates surrendered
+[victimization.n.01] victimization -- adversity resulting from being made a victim
+[victimizer.n.01] victimizer -- a person who victimizes others
+[victimless_crime.n.01] victimless crime -- an act that is legally a crime but that seem to have no victims
+[victim.n.01] victim -- an unfortunate person who suffers from some adverse circumstance
+[victim.n.02] victim -- a person who is tricked or swindled
+[victor_emanuel_iii.n.01] Victor Emanuel III -- king of Italy who appointed Mussolini prime minister; he abdicated in 1946 and the monarchy was abolished (1869-1947)
+[victor_emanuel_ii.n.01] Victor Emanuel II -- king of Italy who completed the unification of Italy by acquiring Venice and Rome (1820-1878)
+[victoria_cross.n.01] Victoria Cross -- a British military decoration for gallantry
+[victoria_day.n.01] Victoria Day -- a public holiday in Canada on the Monday on or before May 24th
+[victoria_land.n.01] Victoria Land -- a mountainous area of Antarctica bounded by the Ross Sea and Wilkes Land
+[victoria.n.01] Victoria -- queen of Great Britain and Ireland and empress of India from 1837 to 1901; the last Hanoverian ruler of England (1819-1901) Also a hyponym of: empress.n.01.
+[victoria.n.02] Victoria -- (Roman mythology) goddess of victory; counterpart of Greek Nike
+[victoria.n.03] Victoria -- a waterfall in the Zambezi River on the border between Zimbabwe and Zambia; diminishes seasonally
+[victoria.n.04] Victoria -- a town in southeast Texas to the southeast of San Antonio
+[victoria.n.05] Victoria -- port city and the capital of Seychelles Also a hyponym of: port.n.01.
+[victoria.n.06] Victoria -- a state in southeastern Australia
+[victoria.n.07] Victoria -- capital of the Canadian province of British Columbia on Vancouver Island Also a hyponym of: port.n.01.
+[victorian_age.n.01] Victorian age -- a period in British history during the reign of Queen Victoria in the 19th century; her character and moral standards restored the prestige of the British monarchy but gave the era a prudish reputation
+[victoriana.n.01] Victoriana -- collection of materials of or characteristic of the Victorian era
+[victorian_architecture.n.01] Victorian architecture -- a style of architecture used in Britain during the reign of Queen Victoria; characterized by massive construction and elaborate ornamentation
+[victorian.n.01] Victorian -- a person who lived during the reign of Victoria
+[victoria_plum.n.01] Victoria plum -- a large red plum served as dessert
+[victoria_sandwich.n.01] Victoria sandwich -- a cake consisting of two layers of sponge cake with a jelly filling in between
+[victor.n.01] victor -- a combatant who is able to defeat rivals
+[victory_celebration.n.01] victory celebration -- a celebration following a victory in a battle or sports competition
+[victory_garden.n.01] victory garden -- a kitchen garden planted during wartime to relieve food shortages
+[victory_lap.n.01] victory lap -- a lap by the winning person or team run to celebrate the victory
+[victory.n.01] victory -- a successful ending of a struggle or contest Also a hyponym of: ending.n.04.
+[victrola.n.01] Victrola -- a brand of gramophone
+[victualer.n.01] victualer -- an innkeeper (especially British)
+[vicugna.n.01] Vicugna -- a genus of Camelidae
+[vicuna.n.01] vicuna -- the wool of the vicuna
+[vicuna.n.02] vicuna -- a soft wool fabric made from the fleece of the vicuna
+[vicuna.n.03] vicuna -- small wild cud-chewing Andean animal similar to the guanaco but smaller; valued for its fleecy undercoat
+[vidalia.n.01] Vidalia -- a town in central Georgia; the origin of Vidalia onions
+[vidalia_onion.n.01] Vidalia onion -- sweet-flavored onion grown in Georgia
+[vidal.n.01] Vidal -- United States writer (born in 1925)
+[videocassette.n.01] videocassette -- a cassette for videotape Also a hyponym of: video_recording.n.01.
+[videocassette_recorder.n.01] videocassette recorder -- a magnetic tape recorder for recording (and playing back) TV programs
+[video_digitizing.n.01] video digitizing -- the process of capturing and converting and storing video images for use by a computer
+[videodisk.n.01] videodisk -- a digital recording (as of a movie) on an optical disk that can be played on a computer or a television set
+[video_ipod.n.01] video iPod -- (trademark) an iPod that can also play video files
+[video.n.01] video -- the visible part of a television transmission
+[video.n.03] video -- (computer science) the appearance of text and graphics on a video display
+[video_recording.n.01] video recording -- a recording of both the visual and audible components (especially one containing a recording of a movie or television program)
+[videotape.n.01] videotape -- a video recording made on magnetic tape Also a hyponym of: video_recording.n.01.
+[videotape.n.02] videotape -- a relatively wide magnetic tape for use in recording visual images and associated sound
+[vidua.n.01] Vidua -- whydahs
+[vienna.n.01] Vienna -- the capital and largest city of Austria; located on the Danube in northeastern Austria; was the home of Beethoven and Brahms and Haydn and Mozart and Schubert and Strauss
+[vienna_sausage.n.01] Vienna sausage -- short slender frankfurter usually with ends cut off
+[vienne.n.01] Vienne -- a town in south central France where is 1311-1313 the Roman Catholic Church held one of its councils
+[vienne.n.02] Vienne -- the council in 1311-1313 that dealt with alleged crimes of the Knights Templar, planned a new crusade, and took on the reformation of the clergy
+[vientiane.n.01] Vientiane -- the capital and largest city of Laos
+[vieques.n.01] Vieques -- a small island off the coast of Puerto Rico used for target practice by the United States Navy
+[vietnamese_monetary_unit.n.01] Vietnamese monetary unit -- monetary unit in Vietnam
+[vietnamese.n.01] Vietnamese -- a native or inhabitant of Vietnam
+[vietnamese.n.02] Vietnamese -- the Mon-Khmer language spoken in Vietnam
+[vietnam.n.01] Vietnam -- a communist state in Indochina on the South China Sea; achieved independence from France in 1945
+[vietnam_war.n.01] Vietnam War -- a prolonged war (1954-1975) between the communist armies of North Vietnam who were supported by the Chinese and the armies of South Vietnam who were supported by the United States
+[view_angle.n.01] view angle -- the angle included by a photographic lens
+[viewer.n.02] viewer -- an optical device for viewing photographic transparencies
+[viewgraph.n.01] viewgraph -- a transparency for use with an overhead projector
+[viewing_audience.n.01] viewing audience -- the audience reached by television
+[view.n.02] view -- the visual percept of a region
+[view.n.03] view -- the act of looking or seeing or observing
+[view.n.04] view -- the range of the eye
+[view.n.07] view -- purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of'
+[view.n.10] view -- outward appearance
+[vigee-lebrun.n.01] Vigee-Lebrun -- French painter noted for her portraits (1755-1842)
+[vigilance_committee.n.01] vigilance committee -- a volunteer committee to maintain order where an efficient legal system does not exist
+[vigilante.n.01] vigilante -- member of a vigilance committee
+[vigilantism.n.01] vigilantism -- the actions of a vigilance committee in trying to enforce the laws
+[vigil_light.n.01] vigil light -- a candle lighted by a worshiper in a church
+[vigil.n.01] vigil -- a period of sleeplessness
+[vigil.n.02] vigil -- the rite of staying awake for devotional purposes (especially on the eve of a religious festival)
+[vigna.n.01] Vigna -- genus of vines or erect herbs having trifoliate leaves and yellowish or purplish flowers; of warm or tropical regions; most species often placed in genus Phaseolus
+[vignette.n.02] vignette -- a photograph whose edges shade off gradually
+[vignette.n.03] vignette -- a small illustrative sketch (as sometimes placed at the beginning of chapters in books)
+[vigor.n.02] vigor -- active strength of body or mind
+[viking.n.01] Viking -- any of the Scandinavian people who raided the coasts of Europe from the 8th to the 11th centuries
+[village_green.n.01] village green -- a village park consisting of a plot of grassy land
+[village.n.01] village -- a community of people smaller than a town
+[village.n.02] village -- a settlement smaller than a town
+[villager.n.01] villager -- one who has lived in a village most of their life
+[villahermosa.n.01] Villahermosa -- a city in southeastern Mexico; the capital of the state of Tabasco
+[villainess.n.01] villainess -- a woman villain
+[villain.n.01] villain -- a wicked or evil person; someone who does evil deliberately
+[villain.n.02] villain -- the principal bad character in a film or work of fiction
+[villainy.n.01] villainy -- the quality of evil by virtue of villainous behavior
+[villainy.n.02] villainy -- a criminal or vicious act
+[villa-lobos.n.01] Villa-Lobos -- Brazilian composer (1887-1959)
+[villa.n.01] Villa -- Mexican revolutionary leader (1877-1923)
+[villa.n.02] villa -- detached or semidetached suburban house
+[villa.n.03] villa -- country house in ancient Rome consisting of residential quarters and farm buildings around a courtyard
+[villa.n.04] villa -- pretentious and luxurious country residence with extensive grounds
+[villard.n.01] Villard -- United States railroad magnate and businessman (1835-1900)
+[villeinage.n.01] villeinage -- the legal status or condition of servitude of a villein or feudal serf Also a hyponym of: servitude.n.01.
+[villeinage.n.02] villeinage -- tenure by which a villein held land
+[villon.n.01] Villon -- French poet (flourished around 1460)
+[villus.n.01] villus -- a minute hairlike projection on mucous membrane
+[vilnius.n.01] Vilnius -- the capital and largest city of Lithuania; located in southeastern Lithuania
+[viminaria.n.01] Viminaria -- one species: Australian leafless shrubs: swamp oak
+[vina_del_mar.n.01] Vina del Mar -- a resort city on the Pacific in central Chile
+[vinblastine.n.01] vinblastine -- periwinkle plant derivative used as an antineoplastic drug (trade name Velban) that disrupts cell division
+[vinca.n.01] Vinca -- periwinkles: low creeping evergreen perennials
+[vincent's_angina.n.01] Vincent's angina -- an acute communicable infection of the respiratory tract and mouth marked by ulceration of the mucous membrane Also a hyponym of: contagious_disease.n.01.
+[vincetoxicum.n.01] Vincetoxicum -- genus of chiefly tropical American vines having cordate leaves and large purple or greenish cymose flowers; supposedly having powers as an antidote
+[vincristine.n.01] vincristine -- periwinkle plant derivative used as an antineoplastic drug (trade name Oncovin); used to treat cancer of the lymphatic system
+[vindication.n.01] vindication -- the act of vindicating or defending against criticism or censure etc.
+[vindictiveness.n.01] vindictiveness -- a malevolent desire for revenge
+[vinegar_eel.n.01] vinegar eel -- minute eelworm that feeds on organisms that cause fermentation in e.g. vinegar
+[vinegar_fly.n.01] vinegar fly -- flies whose larvae feed on pickles and imperfectly sealed preserves
+[vinegariness.n.01] vinegariness -- a sourness resembling that of vinegar
+[vinegar.n.01] vinegar -- sour-tasting liquid produced usually by oxidation of the alcohol in wine or cider and used as a condiment or food preservative
+[vinegar.n.02] vinegar -- dilute acetic acid
+[vinegarroon.n.01] vinegarroon -- large whip-scorpion of Mexico and southern United States that emits a vinegary odor when alarmed
+[vine_maple.n.01] vine maple -- small maple of northwestern North America having prostrate stems that root freely and form dense thickets
+[vine.n.01] vine -- a plant with a weak stem that derives support from climbing, twining, or creeping along a surface
+[vine_snake.n.01] vine snake -- slender arboreal snake found from southern Arizona to Bolivia
+[vineyard.n.01] vineyard -- a farm of grapevines where wine grapes are produced
+[vinifera_grape.n.02] vinifera grape -- grape from a cultivated variety of the common grape vine of Europe
+[vinifera.n.01] vinifera -- common European grape cultivated in many varieties; chief source of Old World wine and table grapes
+[vinification.n.01] vinification -- the process whereby fermentation changes grape juice into wine
+[vinogradoff.n.01] Vinogradoff -- British historian (born in Russia) (1854-1925)
+[vin_ordinaire.n.01] vin ordinaire -- cheap French table wine of unspecified origin
+[vinson.n.01] Vinson -- United States jurist who served as chief justice of the Supreme Court (1890-1953)
+[vintage.n.01] vintage -- a season's yield of wine from a vineyard
+[vintage.n.02] vintage -- the oldness of wines
+[vintager.n.01] vintager -- a person who harvests grapes for making wine
+[vintner.n.01] vintner -- someone who sells wine
+[vintner.n.02] vintner -- someone who makes wine
+[vinylite.n.01] Vinylite -- any of various vinyl resins
+[vinyl.n.01] vinyl -- a univalent chemical radical derived from ethylene
+[vinyl.n.02] vinyl -- shiny and tough and flexible plastic; used especially for floor coverings
+[vinyl_polymer.n.01] vinyl polymer -- a thermoplastic derived by polymerization from compounds containing the vinyl group
+[violaceae.n.01] Violaceae -- a family of order Parietales including the genera Viola, Hybanthus, Hymenanthera, Melicytus
+[viola_da_braccio.n.01] viola da braccio -- a member of the viol family with approximately the range of a viola
+[viola_da_gamba.n.01] viola da gamba -- viol that is the bass member of the viol family with approximately the range of the cello
+[viola_d'amore.n.01] viola d'amore -- viol that is the tenor of the viol family
+[viola.n.01] viola -- any of the numerous plants of the genus Viola
+[viola.n.02] Viola -- large genus of flowering herbs of temperate regions
+[viola.n.03] viola -- a bowed stringed instrument slightly larger than a violin, tuned a fifth lower
+[violation.n.02] violation -- an act that disregards an agreement or a right
+[violator.n.01] violator -- someone who violates the law
+[violator.n.02] violator -- someone who assaults others sexually
+[violence.n.01] violence -- an act of aggression (as one against a person who resists)
+[violence.n.03] violence -- a turbulent state resulting in injuries and destruction etc.
+[violet-flowered_petunia.n.01] violet-flowered petunia -- herb or small shrublet having solitary violet to rose-red flowers
+[violet.n.01] violet -- any of numerous low-growing violas with small flowers
+[violet.n.02] violet -- a variable color that lies beyond blue in the spectrum
+[violet_suksdorfia.n.01] violet suksdorfia -- slender delicate plant with wide roundish deeply lobed leaves and deep pink to violet funnel-shaped flowers; British Columbia to northern Oregon and west to Idaho and Montana
+[violet_wood_sorrel.n.01] violet wood sorrel -- perennial herb of eastern North America with palmately compound leaves and usually rose-purple flowers
+[violin_family.n.01] violin family -- (music) the family of bowed stringed instruments
+[violinist.n.01] violinist -- a musician who plays the violin
+[violin_lesson.n.01] violin lesson -- a less in playing the violin
+[violin_maker.n.01] violin maker -- someone who makes violins
+[violin.n.01] violin -- bowed stringed instrument that is the highest member of the violin family; this instrument has four strings and a hollow body and an unfretted fingerboard and is played with a bow
+[violin_section.n.01] violin section -- the section of an orchestra that plays violins
+[violist.n.01] violist -- a musician who plays the viola
+[viol.n.01] viol -- any of a family of bowed stringed instruments that preceded the violin family
+[viomycin.n.01] viomycin -- a basic polypeptide antibiotic (trade name Viocin) administered intramuscularly (along with other drugs) in the treatment of tuberculosis
+[vipera.n.01] Vipera -- type genus of the Viperidae
+[viperidae.n.01] Viperidae -- Old World vipers
+[viperine_grass_snake.n.01] viperine grass snake -- a small harmless grass snake
+[viper.n.01] viper -- venomous Old World snakes characterized by hollow venom-conducting fangs in the upper jaw
+[virago.n.01] virago -- a noisy or scolding or domineering woman
+[viral_delivery_vector.n.01] viral delivery vector -- a transducing vector that uses a retrovirus
+[viral_hepatitis.n.01] viral hepatitis -- hepatitis caused by a virus
+[viral_infection.n.01] viral infection -- infection by a virus that is pathogenic to humans
+[viral_pneumonia.n.01] viral pneumonia -- pneumonia caused by a virus Also a hyponym of: viral_infection.n.01.
+[virchow.n.01] Virchow -- German pathologist who recognized that all cells come from cells by binary fission and who emphasized cellular abnormalities in disease (1821-1902)
+[viremia.n.01] viremia -- the presence of a virus in the blood stream
+[vireo.n.01] vireo -- any of various small insectivorous American birds chiefly olive-grey in color
+[vireonidae.n.01] Vireonidae -- small insectivorous American songbirds
+[virga.n.01] virga -- light wispy precipitation that evaporates before it reaches the ground (especially when the lower air is low in humidity)
+[virgilia.n.01] Virgilia -- genus of South African trees having pinnate leaves and rose-purple flowers followed by leathery pods
+[virgil.n.01] Virgil -- a Roman poet; author of the epic poem `Aeneid' (70-19 BC)
+[virginal.n.01] virginal -- a legless rectangular harpsichord; played (usually by women) in the 16th and 17th centuries
+[virgin_birth.n.02] Virgin Birth -- the theological doctrine that Jesus Christ had no human father; Christians believe that Jesus's birth fulfilled Old Testament prophecies and was attended by miracles; the Nativity is celebrated at Christmas
+[virginia_beach.n.01] Virginia Beach -- the largest city in Virginia; long overshadowed by Norfolk but growing rapidly since 1970; with 28 miles of public beaches tourism is a major factor in the economy; site of three United States Navy bases
+[virginia_bluebell.n.01] Virginia bluebell -- smooth erect herb of eastern North America having entire leaves and showy blue flowers that are pink in bud
+[virginia_chain_fern.n.01] Virginia chain fern -- North American fern
+[virginia_creeper.n.01] Virginia creeper -- common North American vine with compound leaves and bluish-black berrylike fruit
+[virginia_crownbeard.n.01] Virginia crownbeard -- tall perennial herb having clusters of white flowers; the eastern United States
+[virginia_deer.n.01] Virginia deer -- common North American deer; tail has a white underside
+[virginia_ham.n.01] Virginia ham -- a lean hickory-smoked ham; has dark red meat
+[virginia_mallow.n.01] Virginia mallow -- tall handsome perennial herb of southeastern United States having maplelike leaves and white flowers
+[virginia.n.01] Virginia -- a state in the eastern United States; one of the original 13 colonies; one of the Confederate States in the American Civil War
+[virginia.n.02] Virginia -- one of the British colonies that formed the United States
+[virginia.n.03] Virginia -- a town in northeastern Minnesota in the heart of the Mesabi Range
+[virginian.n.01] Virginian -- a native or resident of Virginia
+[virginian_stock.n.01] Virginian stock -- erect branching herb cultivated for its loose racemes of fragrant white or pink or red or lilac flowers; native to sands and sea cliffs of southwestern Greece and southern Albania
+[virginian_witch_hazel.n.01] Virginian witch hazel -- common shrub of eastern North America having small yellow flowers after the leaves have fallen
+[virginia_oyster.n.01] Virginia oyster -- common edible oyster of Atlantic coast of North America
+[virginia_reel.n.01] Virginia reel -- an American country dance which starts with the couples facing each other in two lines
+[virginia_snakeroot.n.01] Virginia snakeroot -- birthwort of the eastern United States woodlands
+[virginia_spring_beauty.n.01] Virginia spring beauty -- small cormous perennial grown for its low rosette of succulent foliage and racemes of pink-tinged white flowers; eastern North America
+[virginia_strawberry.n.01] Virginia strawberry -- North American wild strawberry with sweet scarlet fruit; a source of many cultivated strawberries
+[virginia_thimbleweed.n.01] Virginia thimbleweed -- thimbleweed of central and eastern North America
+[virginia_waterleaf.n.01] Virginia waterleaf -- showy perennial herb with white flowers; leaves sometimes used as edible greens in southeastern United States
+[virgin_islands.n.01] Virgin Islands -- a group of islands in northeastern West Indies (east of Puerto Rico) discovered by Christopher Columbus in 1493; owned by United States and Britain
+[virgin_islands_national_park.n.01] Virgin Islands National Park -- a national park in the Virgin Islands having tropical plants and animals; sandy beaches and coral reefs
+[virginity.n.01] virginity -- the condition or quality of being a virgin
+[virgin_mary.n.02] Virgin Mary -- a Bloody Mary made without alcohol
+[virgin.n.01] virgin -- a person who has never had sex
+[virgin's_bower.n.01] virgin's bower -- common climber of eastern North America that sprawls over other plants and bears numerous panicles of small creamy white flowers
+[virgin_wool.n.01] virgin wool -- wool not used before; wool not processed or woven before
+[virgo.n.01] Virgo -- (astrology) a person who is born while the sun is in Virgo
+[virgo.n.02] Virgo -- a large zodiacal constellation on the equator; between Leo and Libra
+[virgo.n.03] Virgo -- the sixth sign of the zodiac; the sun is in this sign from about August 23 to September 22
+[viricide.n.01] viricide -- an agent (physical or chemical) that inactivates or destroys viruses
+[virilism.n.01] virilism -- the development of male secondary sexual characteristics in a female (or prematurely in a young boy)
+[virility_drug.n.01] virility drug -- drug to treat impotence attributable to erectile dysfunction
+[virility.n.01] virility -- the masculine property of being capable of copulation and procreation
+[virino.n.01] virino -- (microbiology) a hypothetical infectious particle thought to be the cause of scrapie and other degenerative diseases of the central nervous system; consists of nucleic acid in a protective coat of host cell proteins
+[virion.n.01] virion -- (virology) a complete viral particle; nucleic acid and capsid (and a lipid envelope in some viruses)
+[viroid.n.01] viroid -- the smallest of viruses; a plant virus with its RNA arranged in a circular chromosome without a protein coat
+[virologist.n.01] virologist -- a specialist in virology
+[virology.n.01] virology -- the branch of medical science that studies viruses and viral diseases
+[virtual_image.n.01] virtual image -- a reflected optical image (as seen in a plane mirror)
+[virtual_memory.n.01] virtual memory -- (computer science) memory created by using the hard disk to simulate additional random-access memory; the addressable storage space available to the user of a computer system in which virtual addresses are mapped into real addresses
+[virtual_reality.n.01] virtual reality -- a hypothetical three-dimensional visual world created by a computer; user wears special goggles and fiber optic gloves etc., and can enter and move about in this world and interact with objects as if inside it
+[virtue.n.01] virtue -- the quality of doing what is right and avoiding what is wrong
+[virtue.n.03] virtue -- morality with respect to sexual relations
+[virtue.n.04] virtue -- a particular moral excellence
+[virtu.n.01] virtu -- love of or taste for fine objects of art
+[virtu.n.02] virtu -- artistic quality
+[virtu.n.03] virtu -- objet d'art collectively (especially fine antiques)
+[virtuosity.n.01] virtuosity -- technical skill or fluency or style exhibited by a virtuoso
+[virtuoso.n.02] virtuoso -- a musician who is a consummate master of technique and artistry
+[virulence.n.01] virulence -- extreme harmfulness (as the capacity of a microorganism to cause disease)
+[virulence.n.02] virulence -- extreme hostility
+[virus.n.01] virus -- (virology) ultramicroscopic infectious agent that replicates itself only within cells of living hosts; many are pathogenic; a piece of nucleic acid (DNA or RNA) wrapped in a thin coat of protein Also a hyponym of: infectious_agent.n.01.
+[virus.n.02] virus -- a harmful or corrupting agency
+[virus.n.03] virus -- a software program capable of reproducing itself and usually capable of causing great harm to files or other programs on the same computer
+[visa.n.01] visa -- an endorsement made in a passport that allows the bearer to enter the country issuing it
+[visayan_islands.n.01] Visayan Islands -- group of islands in the central Philippines
+[visayan.n.01] Visayan -- a member of the most numerous indigenous people of the Philippines
+[viscaceae.n.01] Viscaceae -- in some classifications considered a subfamily of Loranthaceae
+[viscacha.n.01] viscacha -- gregarious burrowing rodent larger than the chinchillas
+[visceral_leishmaniasis.n.01] visceral leishmaniasis -- leishmaniasis of the viscera
+[visceral_pleura.n.01] visceral pleura -- pleura that covers the lungs
+[viscera.n.01] viscera -- internal organs collectively (especially those in the abdominal cavity)
+[viscometer.n.01] viscometer -- a measuring instrument for measuring viscosity
+[viscometry.n.01] viscometry -- the measurement of viscosity
+[visconti.n.01] Visconti -- Italian filmmaker (1906-1976)
+[viscose_rayon.n.01] viscose rayon -- a rayon fabric made from viscose (cellulose xanthate) fibers
+[viscosity.n.01] viscosity -- resistance of a liquid to shear forces (and hence to flow)
+[viscountcy.n.01] viscountcy -- the dignity or rank or position of a viscount or viscountess
+[viscountcy.n.02] viscountcy -- the title of a viscount
+[viscountess.n.01] viscountess -- a wife or widow of a viscount
+[viscountess.n.02] viscountess -- a noblewoman holding the rank of viscount in her own right
+[viscount.n.01] viscount -- (in various countries) a son or younger brother or a count
+[viscount.n.02] viscount -- a British peer who ranks below an earl and above a baron
+[viscounty.n.02] viscounty -- the domain controlled by a viscount or viscountess
+[viscum.n.01] Viscum -- type genus of the Viscaceae: Old World evergreen shrubs parasitic on many trees including oaks but especially apple trees, poplars, aspens and cottonwoods
+[vise.n.01] vise -- a holding device attached to a workbench; has two jaws to hold workpiece firmly in place
+[vishnu.n.01] Vishnu -- the sustainer; a Hindu divinity worshipped as the preserver of worlds
+[visibility.n.01] visibility -- quality or fact or degree of being visible; perceptible by the eye or obvious to the eye
+[visibility.n.02] visibility -- degree of exposure to public notice
+[visibility.n.03] visibility -- capability of providing a clear unobstructed view
+[visible_spectrum.n.01] visible spectrum -- the distribution of colors produced when light is dispersed by a prism
+[visible_speech.n.01] visible speech -- a phonetic alphabet invented by Melville Bell in the 19th century
+[visible_speech.n.02] visible speech -- spectrogram of speech; speech displayed spectrographically
+[visigoth.n.01] Visigoth -- a member of the western group of Goths who sacked Rome and created a kingdom in present-day Spain and southern France
+[visionary.n.01] visionary -- a person given to fanciful speculations and enthusiasms with little regard for what is actually possible
+[visionary.n.02] visionary -- a person with unusual powers of foresight
+[vision.n.01] vision -- a vivid mental image
+[vision.n.03] vision -- the perceptual experience of seeing
+[vision.n.05] vision -- a religious or mystical experience of a supernatural appearance
+[visitation.n.02] visitation -- any disaster or catastrophe
+[visitation.n.03] visitation -- an official visit for inspection or supervision
+[visitation_right.n.01] visitation right -- the right granted by a court to a parent (or other relative) who is deprived of custody of a child to visit the child on a regular basis
+[visiting_fireman.n.01] visiting fireman -- an important or distinguished visitor
+[visiting.n.01] visiting -- the activity of making visits
+[visiting_nurse.n.01] visiting nurse -- a nurse who is paid to visit the sick in their homes
+[visiting_professor.n.01] visiting professor -- a professor visiting another college or university to teach for a limited time
+[visit.n.01] visit -- the act of going to see some person or place or thing for a short time
+[visit.n.02] visit -- a meeting arranged by the visitor to see someone (such as a doctor or lawyer) for treatment or advice
+[visit.n.03] visit -- the act of visiting in an official capacity (as for an inspection)
+[visit.n.04] visit -- the act of going to see some person in a professional capacity
+[visitor.n.01] visitor -- someone who visits
+[visor.n.01] visor -- a piece of armor plate (with eye slits) fixed or hinged to a medieval helmet to protect the face
+[vistula.n.01] Vistula -- a European river; flows into the Baltic Sea
+[visual_agnosia.n.01] visual agnosia -- inability to recognize or interpret objects in the visual field
+[visual_aphasia.n.01] visual aphasia -- inability to perceive written words
+[visual_area.n.01] visual area -- the cortical area that receives information from the lateral geniculate body of the thalamus
+[visual_cell.n.01] visual cell -- one of the cells of the retina that is sensitive to light
+[visual_communication.n.01] visual communication -- communication that relies on vision
+[visual_display_unit.n.01] visual display unit -- (British) British term for video display
+[visual_field.n.01] visual field -- all of the points of the physical environment that can be perceived by a stable eye at a given moment
+[visual_hallucination.n.01] visual hallucination -- illusory visual perception
+[visual_image.n.01] visual image -- a mental image that is similar to a visual perception
+[visual_impairment.n.01] visual impairment -- impairment of the sense of sight
+[visualizer.n.01] visualizer -- one whose prevailing mental imagery is visual
+[visually_impaired_person.n.01] visually impaired person -- someone who has inferior vision
+[visual_perception.n.01] visual perception -- perception by means of the eyes
+[visual_percept.n.01] visual percept -- a percept that arises from the eyes; an image in the visual system
+[visual_property.n.01] visual property -- an attribute of vision
+[visual_purple.n.01] visual purple -- a red photopigment in the retinal rods of vertebrates; dissociates into retinene by light
+[visual_range.n.01] visual range -- distance at which a given standard object can be seen with the unaided eye
+[visual_signal.n.01] visual signal -- a signal that involves visual communication
+[visual_space.n.01] visual space -- the visual perception of space
+[visual_system.n.01] visual system -- the sensory system for vision
+[vitaceae.n.01] Vitaceae -- a family of vines belonging to order Rhamnales
+[vital_capacity.n.01] vital capacity -- the maximum amount of air that can be exhaled after a maximum inhalation (usually tested with a spirometer); used to determine the condition of lung tissue Also a hyponym of: capacity.n.03.
+[vitalism.n.01] vitalism -- (philosophy) a doctrine that life is a vital principle distinct from physics and chemistry
+[vitalist.n.01] vitalist -- one who believes in vitalism
+[vitality.n.01] vitality -- an energetic style
+[vitalization.n.01] vitalization -- the state of being vitalized and filled with life
+[vitalness.n.02] vitalness -- the quality of being essential to maintain life
+[vital_organ.n.01] vital organ -- a bodily organ that is essential for life
+[vital_principle.n.01] vital principle -- a hypothetical force to which the functions and qualities peculiar to living things are sometimes ascribed
+[vital_sign.n.01] vital sign -- sign of life; usually an indicator of a person's general physical condition
+[vital_statistics.n.01] vital statistics -- data relating to births and deaths and health and diseases and marriages
+[vitamin_a1.n.01] vitamin A1 -- an unsaturated alcohol that occurs in marine fish-liver oils and is synthesized biologically from carotene
+[vitamin_a2.n.01] vitamin A2 -- a viscous alcohol that is less active in mammals than is vitamin A1
+[vitamin_a.n.01] vitamin A -- any of several fat-soluble vitamins essential for normal vision; prevents night blindness or inflammation or dryness of the eyes
+[vitamin_b12.n.01] vitamin B12 -- a B vitamin that is used to treat pernicious anemia
+[vitamin_b1.n.01] vitamin B1 -- a B vitamin that prevents beriberi; maintains appetite and growth
+[vitamin_b2.n.01] vitamin B2 -- a B vitamin that prevents skin lesions and weight loss
+[vitamin_b6.n.01] vitamin B6 -- a B vitamin that is essential for metabolism of amino acids and starch
+[vitamin_bc.n.01] vitamin Bc -- a B vitamin that is essential for cell growth and reproduction
+[vitamin_c.n.01] vitamin C -- a vitamin found in fresh fruits (especially citrus fruits) and vegetables; prevents scurvy Also a hyponym of: water-soluble_vitamin.n.01.
+[vitamin_d.n.01] vitamin D -- a fat-soluble vitamin that prevents rickets
+[vitamin_e.n.01] vitamin E -- a fat-soluble vitamin that is essential for normal reproduction; an important antioxidant that neutralizes free radicals in the body Also a hyponym of: antioxidant.n.01.
+[vitamin_k1.n.01] vitamin K1 -- a form of vitamin K
+[vitamin_k3.n.01] vitamin K3 -- a form of vitamin K
+[vitamin_k.n.01] vitamin K -- a fat-soluble vitamin that helps in the clotting of blood
+[vitamin.n.01] vitamin -- any of a group of organic substances essential in small quantities to normal metabolism
+[vitamin_pill.n.01] vitamin pill -- a pill containing one or more vitamins; taken as a dietary supplement Also a hyponym of: pill.n.01.
+[vitamin_p.n.01] vitamin P -- a vitamin that maintains the resistance of cell and capillary walls to permeation
+[vitelline_circulation.n.01] vitelline circulation -- circulation of blood between the embryo and the yolk sac
+[vitharr.n.01] Vitharr -- (Norse mythology) one of the Aesir; son of Odin; avenges his parent by slaying Fenrir at Ragnarok
+[vitiation.n.01] vitiation -- nullification by the destruction of the legal force; rendering null
+[viticulture.n.01] viticulture -- the cultivation of grapes and grape vines; grape growing
+[viticulturist.n.01] viticulturist -- a cultivator of grape vine
+[viti_levu.n.01] Viti Levu -- a volcanic island in the Fijis
+[vitiligo.n.01] vitiligo -- an acquired skin disease characterized by patches of unpigmented skin (often surrounded by a heavily pigmented border)
+[vitis.n.01] Vitis -- the type genus of the family Vitaceae; woody vines with simple leaves and small flowers; includes a wide variety of grapes
+[vitrectomy.n.01] vitrectomy -- a surgical procedure that removes the vitreous humor and replace it with saline solution
+[vitreous_humor.n.01] vitreous humor -- the clear colorless transparent jelly that fills the posterior chamber of the eyeball
+[vitrification.n.01] vitrification -- a vitrified substance; the glassy result of being vitrified
+[vitrification.n.02] vitrification -- the process of becoming vitreous
+[vitriol.n.01] vitriol -- (H2SO4) a highly corrosive acid made from sulfur dioxide; widely used in the chemical industry
+[vittariaceae.n.01] Vittariaceae -- one of a number of families into which Polypodiaceae has been subdivided in some classification systems: genus Vittaria
+[vittaria.n.01] Vittaria -- tropical epiphytic ferns with straplike fronds
+[vituperation.n.01] vituperation -- abusive or venomous language used to express blame or censure or bitter deep-seated ill will
+[vitus.n.01] Vitus -- Christian martyr and patron of those who suffer from epilepsy and Sydenham's chorea (died around 300) Also a hyponym of: saint.n.01.
+[vivacity.n.01] vivacity -- characterized by high spirits and animation
+[vivaldi.n.01] Vivaldi -- Italian baroque composer and violinist (1675-1741) Also a hyponym of: violinist.n.01.
+[vivarium.n.01] vivarium -- an indoor enclosure for keeping and raising living animals and plants and observing them under natural conditions
+[viverra.n.01] Viverra -- type genus of the family Viverridae
+[viverricula.n.01] Viverricula -- a genus of Viverridae
+[viverridae.n.01] Viverridae -- genets; civets; mongooses
+[viverrine.n.01] viverrine -- small cat-like predatory mammals of warmer parts of the Old World
+[vivification.n.02] vivification -- the activity of giving vitality and vigour to something
+[viviparous_eelpout.n.01] viviparous eelpout -- an eelpout of northern Europe that is viviparous
+[vivisectionist.n.01] vivisectionist -- a biologist who cuts open live animals for research
+[vivisection.n.01] vivisection -- the act of operating on living animals (especially in scientific research)
+[vixen.n.01] vixen -- a malicious woman with a fierce temper
+[vixen.n.02] vixen -- a female fox
+[viyella.n.01] Viyella -- a fabric made from a twilled mixture of cotton and wool
+[vizcaino.n.01] Vizcaino -- Spanish explorer who was the first European to explore the California coast (1550-1615)
+[vizier.n.01] vizier -- a high official in a Muslim government (especially in the Ottoman Empire)
+[viziership.n.01] viziership -- the position of vizier
+[vizsla.n.01] vizsla -- Hungarian hunting dog resembling the Weimaraner but having a rich deep red coat
+[v-j_day.n.01] V-J Day -- the date of Allied victory over Japan, World War II
+[vladivostok.n.01] Vladivostok -- a seaport in the Asian part of Russia
+[vlaminck.n.01] Vlaminck -- French painter and exponent of fauvism (1876-1958)
+[v.n.04] V -- the 22nd letter of the Roman alphabet
+[v_neck.n.01] V neck -- the neck of a garment has the shape in front of the letter V
+[vocable.n.01] vocable -- a word that is spoken aloud
+[vocabulary.n.01] vocabulary -- a listing of the words used in some enterprise
+[vocabulary.n.02] vocabulary -- a language user's knowledge of words
+[vocabulary.n.03] vocabulary -- the system of techniques or symbols serving as a means of expression (as in arts or crafts)
+[vocal_cord.n.01] vocal cord -- either of two pairs of folds of mucous membrane projecting into the larynx
+[vocal_music.n.01] vocal music -- music intended to be performed by one or more singers, usually with instrumental accompaniment
+[vocal_music.n.02] vocal music -- music that is vocalized (as contrasted with instrumental music)
+[vocational_program.n.01] vocational program -- a program of vocational education
+[vocational_rehabilitation.n.01] vocational rehabilitation -- providing training in a specific trade with the aim of gaining employment
+[vocational_rehabilitation_program.n.01] vocational rehabilitation program -- a program of rehabilitation through job training with an eye to gainful employment
+[vocational_training.n.01] vocational training -- training for a specific vocation in industry or agriculture or trade
+[vocative.n.01] vocative -- the case (in some inflected languages) used when the referent of the noun is being addressed
+[vociferator.n.01] vociferator -- a loud and vehement speaker (usually in protest)
+[vodka_martini.n.01] vodka martini -- martini made with vodka rather than gin
+[vodka.n.01] vodka -- unaged colorless liquor originating in Russia
+[vogue.n.01] vogue -- the popular taste at a given time
+[vogue.n.02] vogue -- a current state of general acceptance and use
+[vogul.n.01] Vogul -- a member of a nomadic people of the northern Urals
+[voicelessness.n.03] voicelessness -- having no voice in the management or control of affairs
+[voice_mail.n.01] voice mail -- a computerized system for answering and routing telephone calls; telephone messages can be recorded and stored and relayed
+[voice.n.01] voice -- the distinctive quality or pitch or condition of a person's speech
+[voice.n.02] voice -- the sound made by the vibration of vocal folds modified by the resonance of the vocal tract
+[voice.n.03] voice -- a sound suggestive of a vocal utterance
+[voice.n.05] voice -- a means or agency by which something is expressed or communicated
+[voice.n.06] voice -- something suggestive of speech in being a medium of expression
+[voice.n.07] voice -- (metonymy) a singer
+[voice.n.09] voice -- the ability to speak
+[voice.n.10] voice -- (linguistics) the grammatical relation (active or passive) of the grammatical subject of a verb to the action that the verb denotes
+[voice_over.n.01] voice over -- the voice on an unseen commentator in a film of television program
+[voice_part.n.01] voice part -- a part written for a singer
+[voiceprint.n.01] voiceprint -- biometric identification by electronically recording and graphically representing a person's voice
+[voicer.n.01] voicer -- someone who regulates the tone of organ pipes
+[voicer.n.02] voicer -- a speaker who voices an opinion
+[voicing.n.01] voicing -- the act of adjusting an organ pipe (or wind instrument) so that it conforms to the standards of tone and pitch and color
+[voider.n.03] voider -- a piece of chain mail covering a place unprotected by armor plate
+[void.n.02] void -- an empty area or space
+[voile.n.01] voile -- a light semitransparent fabric
+[volans.n.01] Volans -- a small constellation in the polar region of the southern hemisphere near Dorado and Carina
+[volapuk.n.01] Volapuk -- one of the first artificial language constructed for use as an auxiliary international language; based largely on English but with some German and French and Latin roots
+[volatile.n.01] volatile -- a volatile substance; a substance that changes readily from solid or liquid to a vapor
+[volatile_storage.n.01] volatile storage -- computer storage that is erased when the power is turned off
+[volatility.n.01] volatility -- the property of changing readily from a solid or liquid to a vapor
+[volatility.n.02] volatility -- the trait of being unpredictably irresolute
+[vol-au-vent.n.01] vol-au-vent -- puff paste shell filled with a savory meat mixture usually with a sauce
+[volcanic_crater.n.01] volcanic crater -- a bowl-shaped geological formation at the top of a volcano
+[volcanic_eruption.n.01] volcanic eruption -- the sudden occurrence of a violent discharge of steam and volcanic material
+[volcanic_glass.n.01] volcanic glass -- a kind of natural glass produced when molten lava cools very rapidly
+[volcanic_rock.n.01] volcanic rock -- extrusive igneous rock solidified near or on the surface of the Earth
+[volcanism.n.01] volcanism -- the phenomena associated with volcanic activity
+[volcano_islands.n.01] Volcano Islands -- a group of Japanese Islands in the northwestern Pacific Ocean to the north of the Marianas
+[volcanology.n.01] volcanology -- the branch of geology that studies volcanoes
+[volcano.n.02] volcano -- a mountain formed by volcanic material
+[vole.n.01] vole -- any of various small mouselike rodents of the family Cricetidae (especially of genus Microtus) having a stout short-tailed body and inconspicuous ears and inhabiting fields or meadows
+[volgaic.n.01] Volgaic -- a group of Finnic languages spoken around the Volga river
+[volga.n.01] Volga -- a Russian river; the longest river in Europe; flows into the Caspian Sea
+[volgograd.n.01] Volgograd -- a city in the European part of Russia on the Volga; site of German defeat in World War II in the winter of 1942-43
+[volition.n.01] volition -- the capability of conscious choice and decision and intention; - George Meredith
+[volition.n.02] volition -- the act of making a choice
+[volkhov.n.01] Volkhov -- a river in northwestern Russia flowing generally north into Lake Ladoga
+[volleyball_court.n.01] volleyball court -- the court on which volleyball is played
+[volleyball.n.01] volleyball -- a game in which two teams hit an inflated ball over a high net using their hands
+[volleyball.n.02] volleyball -- an inflated ball used in playing volleyball
+[volleyball_net.n.01] volleyball net -- the high net that separates the two teams and over which the volleyball must pass
+[volleyball_player.n.01] volleyball player -- someone who plays the game of volleyball
+[volley.n.02] volley -- a tennis return made by hitting the ball before it bounces
+[voltage_drop.n.01] voltage drop -- a decrease in voltage along a conductor through which current is flowing
+[voltage.n.01] voltage -- the rate at which energy is drawn from a source that produces a flow of electricity in a circuit; expressed in volts
+[voltage_regulator.n.01] voltage regulator -- a transformer whose voltage ratio of transformation can be adjusted
+[voltaic_battery.n.01] voltaic battery -- battery consisting of a number of voltaic cells arranged in series or parallel
+[voltaic_cell.n.01] voltaic cell -- an electric cell that generates an electromotive force by an irreversible conversion of chemical to electrical energy; cannot be recharged
+[voltaic_pile.n.01] voltaic pile -- battery consisting of voltaic cells arranged in series; the earliest electric battery devised by Volta
+[voltaire.n.01] Voltaire -- French writer who was the embodiment of 18th century Enlightenment (1694-1778)
+[volt-ampere.n.01] volt-ampere -- a unit of electrical power in an AC circuit equal to the power dissipated when 1 volt produces a current of 1 ampere
+[volta.n.01] Volta -- Italian physicist after whom the volt is named; studied electric currents and invented the voltaic pile (1745-1827)
+[volta.n.02] Volta -- a river in Ghana that flows south to the Bight of Benin
+[voltmeter.n.01] voltmeter -- meter that measures the potential difference between two points
+[volt.n.01] volt -- a unit of potential equal to the potential difference between two points on a conductor carrying a current of 1 ampere when the power dissipated between the two points is 1 watt; equivalent to the potential difference across a resistance of 1 ohm when 1 ampere of current flows through it
+[volume.n.01] volume -- the amount of 3-dimensional space occupied by an object
+[volume.n.04] volume -- a publication that is one of a set of several similar publications
+[volume.n.05] volume -- a relative amount
+[volume.n.06] volume -- the magnitude of sound (usually in a specified direction)
+[volumeter.n.01] volumeter -- a meter to measure the volume of gases, liquids, or solids (either directly or by displacement)
+[volumetric_analysis.n.01] volumetric analysis -- determination of the volume of gases (or changes in their volume) during combination
+[volumetric_analysis.n.02] volumetric analysis -- quantitative analysis by the use of definite volumes of standard solutions or reagents
+[volume_unit.n.01] volume unit -- a unit of measurement of volume or capacity
+[volund.n.01] Volund -- (Norse mythology) a wonderful smith; identified with Anglo-Saxon Wayland and Teutonic Wieland
+[voluntary_muscle.n.01] voluntary muscle -- striated muscle that can be controlled voluntarily
+[voluntary.n.02] voluntary -- composition (often improvised) for a solo instrument (especially solo organ) and not a regular part of a religious service or musical performance
+[volunteer.n.01] volunteer -- (military) a person who freely enlists for service
+[volunteer.n.02] volunteer -- a person who performs voluntary work
+[voluptuary.n.01] voluptuary -- a person addicted to luxury and pleasures of the senses
+[volution.n.01] volution -- a rolling or revolving motion
+[volva.n.01] volva -- cuplike structure around the base of the stalk of certain fungi
+[volvaria_bombycina.n.01] Volvaria bombycina -- a parasite on various trees
+[volvariaceae.n.01] Volvariaceae -- a family of fungi belonging to the order Agaricales
+[volvaria.n.01] Volvaria -- agarics having pink spores and a distinct volva
+[volvariella_bombycina.n.01] Volvariella bombycina -- a mushroom with a dry yellowish to white fibrillose cap
+[volvariella.n.01] Volvariella -- an important genus of mushrooms in the Orient
+[volvocaceae.n.01] Volvocaceae -- unicellular or colonial biflagellate free-swimming flagellates
+[volvocales.n.01] Volvocales -- chiefly freshwater green algae; solitary or colonial
+[volvox.n.01] Volvox -- type genus of the Volvocaceae; minute pale green flagellates occurring in tiny spherical colonies; minute flagella rotate the colony about an axis
+[volvulus.n.01] volvulus -- abnormal twisting of the intestines (usually in the area of the ileum or sigmoid colon) resulting in intestinal obstruction
+[vombatidae.n.01] Vombatidae -- wombats
+[vomer.n.01] vomer -- thin trapezoidal bone of the skull forming the posterior and inferior parts of the nasal septum
+[vomiter.n.01] vomiter -- a person who vomits
+[vomit.n.01] vomit -- the matter ejected in vomiting
+[vomit.n.03] vomit -- the reflex act of ejecting the contents of the stomach through the mouth Also a hyponym of: reflex.n.01.
+[vomitory.n.01] vomitory -- an entrance to an amphitheater or stadium
+[vonnegut.n.01] Vonnegut -- United States writer whose novels and short stories are a mixture of realism and satire and science fiction (born in 1922)
+[von_neumann_machine.n.01] von Neumann machine -- any digital computer incorporating the ideas of stored programs and serial counters that were proposed in 1946 by von Neumann and his colleagues
+[von_neumann.n.01] von Neumann -- United States mathematician who contributed to the development of atom bombs and of stored-program digital computers (1903-1957)
+[von_sternberg.n.01] von Sternberg -- United States film maker (born in Austria) whose films made Marlene Dietrich an international star (1894-1969)
+[von_willebrand's_disease.n.01] von Willebrand's disease -- a form of hemophilia discovered by Erik von Willebrand; a genetic disorder that is inherited as an autosomal recessive trait; characterized by a deficiency of the coagulation factor and by mucosal bleeding
+[voodoo.n.02] voodoo -- (Haiti) followers of a religion that involves witchcraft and animistic deities
+[voodoo.n.03] voodoo -- a religious cult practiced chiefly in Caribbean countries (especially Haiti); involves witchcraft and animistic deities
+[vortex_vein.n.01] vortex vein -- a vein formed by branches from the back surface of the eye and the ciliary body; empties into the ophthalmic veins
+[vorticella.n.01] vorticella -- any of various protozoa having a transparent goblet-shaped body with a retractile stalk
+[votary.n.01] votary -- one bound by vows to a religion or life of worship or service
+[votary.n.02] votary -- a priest or priestess (or consecrated worshipper) in a non-Christian religion or cult
+[votary.n.03] votary -- a devoted (almost religiously so) adherent of a cause or person or activity
+[vote.n.01] vote -- a choice that is made by counting the number of people in favor of each alternative
+[vote.n.02] vote -- the opinion of a group as determined by voting
+[vote.n.04] vote -- a body of voters who have the same interests
+[vote.n.05] vote -- the total number of voters who participated
+[vote_of_confidence.n.01] vote of confidence -- an expression of approval and encouragement
+[voter.n.01] voter -- a citizen who has a legal right to vote
+[voting_age.n.01] voting age -- the age at which a person is old enough to vote in public elections
+[voting_booth.n.01] voting booth -- a booth in which a person can cast a private vote
+[voting_machine.n.01] voting machine -- a mechanical device for recording and counting votes mechanically
+[voting_precinct.n.01] voting precinct -- one of several districts into which a city or town is divided for voting; each contains one polling place
+[voting_right.n.01] voting right -- the right to vote; especially the right of a common shareholder to vote in person or by proxy on the affairs of a company
+[voting_stock.n.01] voting stock -- shares in a corporation that entitle the shareholder to voting and proxy rights
+[voting_system.n.01] voting system -- a legal system for making democratic choices
+[voting_trust.n.01] voting trust -- an agreement whereby persons owning stock with voting powers retain ownership while transferring the voting rights to the trustees
+[vouchee.n.01] vouchee -- (law) a person called into court to defend a title
+[voucher.n.01] voucher -- someone who vouches for another or for the correctness of a statement
+[voucher.n.02] voucher -- a document that serves as evidence of some expenditure
+[vouge.n.01] vouge -- a kind of pike used by foot soldiers in the 14th century
+[voussoir.n.01] voussoir -- wedge-shaped stone building block used in constructing an arch or vault
+[vouvray.n.01] Vouvray -- a dry white French wine (either still or sparkling) made in the Loire valley
+[vowel.n.01] vowel -- a speech sound made with the vocal tract open
+[vowel.n.02] vowel -- a letter of the alphabet standing for a spoken vowel
+[vowel_point.n.01] vowel point -- a mark placed below or near a consonant (as in Hebrew or Arabic) to indicate the spoken vowel
+[vowel_system.n.01] vowel system -- the system of vowels used in a particular language
+[vower.n.01] vower -- someone who makes a solemn promise to do something or behave in a certain way
+[vow.n.01] vow -- a solemn pledge (to oneself or to another or to a deity) to do something or to behave in a certain manner
+[vox_angelica.n.01] vox angelica -- an organ stop producing a gentle tremolo effect
+[vox_humana.n.01] vox humana -- an organ reed stop producing tones imitative of the human voice
+[voyage.n.02] voyage -- a journey to some distant place
+[voyager.n.01] voyager -- a traveler to a distant land (especially one who travels by sea)
+[voyageurs_national_park.n.01] Voyageurs National Park -- a national park in Minnesota having ancient rock outcroppings and evergreen forests
+[voyeurism.n.01] voyeurism -- a perversion in which a person receives sexual gratification from seeing the genitalia of others or witnessing others' sexual behavior
+[voyeur.n.01] voyeur -- a viewer who enjoys seeing the sex acts or sex organs of others
+[voznesenski.n.01] Voznesenski -- Russian poet (born in 1933)
+[vroom.n.01] vroom -- the roaring sound made by a motor that is running at high speed
+[v_sign.n.01] V sign -- a sign (for victory); making a V with the index and middle fingers
+[vuillard.n.01] Vuillard -- French painter (1868-1940)
+[vulcanization.n.01] vulcanization -- process of treating rubber or rubberlike materials with sulphur at great heat to improve elasticity and strength or to harden them
+[vulcanizer.n.01] vulcanizer -- someone who vulcanizes rubber to improve its strength and resiliency
+[vulcan.n.01] Vulcan -- (Roman mythology) god of fire and metal working; counterpart of Greek Hephaestus
+[vulgarian.n.01] vulgarian -- a vulgar person (especially someone who makes a vulgar display of wealth)
+[vulgarization.n.01] vulgarization -- the act of rendering something coarse and unrefined
+[vulgarizer.n.01] vulgarizer -- someone who makes something vulgar
+[vulgar_latin.n.01] Vulgar Latin -- nonclassical Latin dialects spoken in the Roman Empire; source of Romance languages
+[vulgate.n.01] Vulgate -- the Latin edition of the Bible translated from Hebrew and Greek mainly by St. Jerome at the end of the 4th century; as revised in 1592 it was adopted as the official text for the Roman Catholic Church
+[vulnerability.n.01] vulnerability -- the state of being vulnerable or exposed
+[vulnerability.n.02] vulnerability -- susceptibility to injury or attack
+[vulpecula.n.01] Vulpecula -- a constellation in the northern hemisphere near Cygnus and Sagitta
+[vulpes.n.01] Vulpes -- foxes
+[vulture.n.01] vulture -- any of various large diurnal birds of prey having naked heads and weak claws and feeding chiefly on carrion
+[vultur.n.01] Vultur -- a bird that is usually restricted to the Andean condor
+[vulva.n.01] vulva -- external parts of the female genitalia
+[vulvectomy.n.01] vulvectomy -- surgical removal of part or all of the vulva
+[vulvitis.n.01] vulvitis -- inflammation of the vulva
+[vulvovaginitis.n.01] vulvovaginitis -- inflammation of the vulva and the vagina
+[vx_gas.n.01] VX gas -- a highly lethal nerve agent used in chemical warfare; a toxic liquid that penetrates the skin or lungs to disrupt the nervous system and stop respiration; in combat VX gas is deployed by detonating a container over the target area and can persist in the environment up to several weeks after release

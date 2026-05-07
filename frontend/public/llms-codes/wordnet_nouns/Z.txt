@@ -1,0 +1,237 @@
+[zaar.n.01] Zaar -- a Chadic language spoken in northern Nigeria
+[zabaglione.n.01] zabaglione -- light foamy custard-like dessert served hot or chilled
+[zabrze.n.01] Zabrze -- an industrial city in southern Poland
+[zaglossus.n.01] Zaglossus -- a genus of Tachyglossidae
+[zagreb.n.01] Zagreb -- the capital of Croatia
+[zaharias.n.01] Zaharias -- outstanding United States athlete (1914-1956)
+[zaire.n.01] zaire -- the basic unit of money in Zaire
+[zairese_monetary_unit.n.01] Zairese monetary unit -- monetary unit in Zaire
+[zairese.n.01] Zairese -- a native or inhabitant of Zaire
+[zakat.n.01] zakat -- the fourth pillar of Islam is almsgiving as an act of worship Also a hyponym of: charity.n.03.
+[zalophus.n.01] Zalophus -- sea lions
+[zama.n.01] Zama -- the battle in 202 BC in which Scipio decisively defeated Hannibal at the end of the second Punic War
+[zambezi.n.01] Zambezi -- an African river; flows into the Indian Ocean
+[zambia.n.01] Zambia -- a republic in central Africa; formerly controlled by Great Britain and called Northern Rhodesia until it gained independence within the commonwealth in 1964
+[zambian_kwacha.n.01] Zambian kwacha -- the basic unit of money in Zambia
+[zambian_monetary_unit.n.01] Zambian monetary unit -- monetary unit in Zambia
+[zambian.n.01] Zambian -- a native or inhabitant of Zambia
+[zamboni.n.01] Zamboni -- the trademark for a machine that smooths the ice in an ice-skating rink
+[zamiaceae.n.01] Zamiaceae -- a family of cycads often included in the family Cycadaceae: zamias
+[zamia.n.01] zamia -- any of various cycads of the genus Zamia; among the smallest and most verdant cycads
+[zangwill.n.01] Zangwill -- English writer (1864-1926)
+[zannichelliaceae.n.01] Zannichelliaceae -- alternative classification for some genera included in Potamogetonaceae; one species
+[zannichellia.n.01] Zannichellia -- horned pondweed: completely submerged herbs; in some classifications included in Potamogetonaceae
+[zantedeschia.n.01] Zantedeschia -- calla lily
+[zanthoxylum.n.01] Zanthoxylum -- deciduous or evergreen trees or shrubs: prickly ash
+[zanuck.n.01] Zanuck -- United States filmmaker whose works include the first full-length feature film with sound sequences (1902-1979)
+[zany.n.01] zany -- a buffoon in one of the old comedies; imitates others for ludicrous effect
+[zanzibar_copal.n.01] Zanzibar copal -- a hard copal derived from an African tree
+[zanzibar.n.01] Zanzibar -- an island in the Indian Ocean off the east coast of Africa; part of the United Republic of Tanzania
+[zapata.n.01] Zapata -- Mexican revolutionary who led a revolt for agrarian reforms (1879-1919)
+[zap.n.01] zap -- a sudden event that imparts energy or excitement, usually with a dramatic impact
+[zapodidae.n.01] Zapodidae -- jumping mice
+[zapotec.n.01] Zapotec -- a member of a large tribe of Mesoamericans living in southern Mexico whose civilization flourished around 300 to 900
+[zapotec.n.02] Zapotec -- the language of the Zapotec
+[zapper.n.01] zapper -- an electrical device that can injure or kill by means of electric currents
+[zapus.n.01] Zapus -- type genus of the Zapodidae
+[zaragoza.n.01] Zaragoza -- an ancient city on the Ebro River in northeastern Spain; formerly the capital of Aragon
+[zarf.n.01] zarf -- an ornamental metal cup-shaped holder for a hot coffee cup
+[zaria.n.01] Zaria -- a city in north central Nigeria; agricultural trading center
+[z-axis.n.01] z-axis -- the third axis in a 3-dimensional coordinate system
+[zayin.n.01] zayin -- the 7th letter of the Hebrew alphabet
+[zealander.n.01] Zealander -- a native or inhabitant of Zealand
+[zealand.n.01] Zealand -- the largest island of Denmark and the site of Copenhagen
+[zeal.n.02] zeal -- excessive fervor to do something or accomplish some end
+[zealot.n.01] Zealot -- a member of an ancient Jewish sect in Judea in the first century who fought to the death against the Romans and who killed or persecuted Jews who collaborated with the Romans
+[zea.n.01] Zea -- corn
+[zeaxanthin.n.01] zeaxanthin -- yellow carotenoid (isomeric with lutein and occurs widely with it) that is the main pigment in yellow Indian corn
+[zebibit.n.01] zebibit -- a unit of information equal to 1024 exbibits or 2^70 bits
+[zebra_finch.n.01] zebra finch -- small Australian weaverbird with markings like a zebra's
+[zebra_mussel.n.01] zebra mussel -- inch long mollusk imported accidentally from Europe; clogs utility inlet pipes and feeds on edible freshwater mussels
+[zebra.n.01] zebra -- any of several fleet black-and-white striped African equines
+[zebra_orchid.n.01] zebra orchid -- orchid with reddish linear leaves and panicle of purple-marked pale-yellow flowers with deep red or purple lip; southwestern Australia
+[zebra-tailed_lizard.n.01] zebra-tailed lizard -- swift lizard with long black-banded tail and long legs; of deserts of United States and Mexico
+[zebrawood.n.01] zebrawood -- handsomely striped or mottled wood of the zebrawood tree; used especially for cabinetwork
+[zebrawood.n.02] zebrawood -- any of various trees or shrubs having mottled or striped wood
+[zebu.n.01] zebu -- domesticated ox having a humped back and long horns and a large dewlap; used chiefly as a draft animal in India and east Asia
+[zechariah.n.01] Zechariah -- a Hebrew minor prophet of the late 6th century BC
+[zechariah.n.02] Zechariah -- an Old Testament book telling the prophecies of Zechariah which are concerned mainly with the renewal of Israel after the Babylonian Captivity
+[zeeman.n.01] Zeeman -- Dutch physicist honored for his research on the influence of magnetism on radiation which showed that light is radiated by the motion of charged particles in an atom (1865-1943)
+[zeidae.n.01] Zeidae -- a family of fish in the order Zeomorphi
+[zeitgeist.n.01] Zeitgeist -- the spirit of the time; the spirit characteristic of an age or generation
+[zenaidura.n.01] Zenaidura -- mourning doves
+[zen_buddhist.n.01] Zen Buddhist -- an adherent of the doctrines of Zen Buddhism
+[zenith.n.01] zenith -- the point above the observer that is directly opposite the nadir on the imaginary sphere against which celestial bodies appear to be projected
+[zen.n.01] Zen -- school of Mahayana Buddhism asserting that enlightenment can come through meditation and intuition rather than faith; China and Japan
+[zen.n.02] Zen -- a Buddhist doctrine that enlightenment can be attained through direct intuitive insight
+[zeno.n.01] Zeno -- ancient Greek philosopher who formulated paradoxes that defended the belief that motion and change are illusory (circa 495-430 BC)
+[zeno.n.02] Zeno -- ancient Greek philosopher who founded the Stoic school (circa 335-263 BC)
+[zeolite.n.01] zeolite -- any of a family of glassy minerals analogous to feldspar containing hydrated aluminum silicates of calcium or sodium or potassium; formed in cavities in lava flows and in plutonic rocks Also a hyponym of: water_softener.n.01.
+[zeomorphi.n.01] Zeomorphi -- dories
+[zephaniah.n.01] Zephaniah -- a Hebrew minor prophet of the late 7th century BC
+[zephaniah.n.02] Zephaniah -- an Old Testament book telling the prophecies of Zephaniah which are concerned mainly with the approaching judgment by God upon the sinners of Judah
+[zephyr.n.02] Zephyr -- (Greek mythology) the Greek god of the west wind
+[zeppelin.n.01] Zeppelin -- German inventor who designed and built the first rigid motorized dirigible (1838-1917)
+[zeppelin.n.02] zeppelin -- a large rigid dirigible designed to carry passengers or bombs
+[zero_coupon_bond.n.01] zero coupon bond -- a bond that is issued at a deep discount from its value at maturity and pays no interest during the life of the bond; the commonest form of zero-coupon security Also a hyponym of: zero-coupon_security.n.01.
+[zero-coupon_security.n.01] zero-coupon security -- a security that makes no interest payments but instead is sold at a deep discount from its face value
+[zero_hour.n.01] zero hour -- the time set for the start of an action or operation
+[zero.n.02] zero -- a mathematical element that when added to another number yields the same number
+[zero.n.03] zero -- the point on a scale from which positive or negative numerical quantities can be measured
+[zero.n.04] zero -- the sight setting that will cause a projectile to hit the center of the target with no wind blowing
+[zero-sum_game.n.01] zero-sum game -- a game in which the total of all the gains and losses is zero
+[zeroth_law_of_thermodynamics.n.01] zeroth law of thermodynamics -- the law that if two bodies are in thermal equilibrium with a third body then the first two bodies are in thermal equilibrium with each other
+[zero_tolerance.n.01] zero tolerance -- extreme intolerance of antisocial behavior (usually by an uncompromising application of the law)
+[zero-tolerance_policy.n.01] zero-tolerance policy -- any policy that allows no exception
+[zeta.n.01] zeta -- the 6th letter of the Greek alphabet
+[zettabit.n.01] zettabit -- a unit of information equal to 1000 exabits or 10^21 bits
+[zettabyte.n.01] zettabyte -- a unit of information equal to 1000 exabytes or 10^21 bytes
+[zettabyte.n.02] zettabyte -- a unit of information equal to 1024 exbibytes or 2^70 bytes
+[zeugma.n.01] zeugma -- use of a word to govern two or more words though appropriate to only one
+[zeus.n.01] Zeus -- (Greek mythology) the supreme god of ancient Greek mythology; son of Rhea and Cronus whom he dethroned; husband and brother of Hera; brother of Poseidon and Hades; father of many gods; counterpart of Roman Jupiter
+[zeus.n.02] Zeus -- type genus of the family Zeidae
+[zhou_en-lai.n.01] Zhou En-lai -- Chinese revolutionary and communist leader (1898-1976) Also a hyponym of: revolutionist.n.01.
+[zhou.n.01] Zhou -- the imperial dynasty of China from 1122 to 221 BC; notable for the rise of Confucianism and Taoism
+[zhuang.n.01] Zhuang -- a branch of the Tai languages
+[zhu_jiang.n.01] Zhu Jiang -- a river in southeast China that flows into the South China Sea
+[zhukov.n.01] Zhukov -- Soviet general who during World Warr II directed the counteroffensive at Stalingrad and relieved Leningrad and captured Berlin (1896-1974)
+[zidovudine.n.01] zidovudine -- an antiviral drug (trade name Retrovir) used in the treatment of AIDS; adverse side effects include liver damage and suppression of the bone marrow
+[ziegfeld_follies.n.01] Ziegfeld Follies -- a series of extravagant revues produced by Flo Ziegfeld
+[ziegfeld.n.01] Ziegfeld -- United States theatrical producer noted for a series of extravagant revues known as the Ziegfeld Follies (1869-1932)
+[ziegler.n.01] Ziegler -- German chemist honored for his research on polymers (1898-1973)
+[zigadenus.n.01] Zigadenus -- genus of mostly North American poisonous plants; sometimes placed in family Melanthiaceae
+[ziggurat.n.01] ziggurat -- a rectangular tiered temple or terraced mound erected by the ancient Assyrians and Babylonians
+[zigzag_goldenrod.n.01] zigzag goldenrod -- a variety of goldenrod
+[zigzag.n.01] zigzag -- an angular shape characterized by sharp turns in alternating directions
+[zill.n.01] zill -- one of a pair of small metallic cymbals worn on the thumb and middle finger; used in belly dancing in rhythm with the dance
+[zimbabwean_dollar.n.01] Zimbabwean dollar -- the basic unit of money in Zimbabwe
+[zimbabwean.n.01] Zimbabwean -- a native or inhabitant of Zimbabwe
+[zimbabwe.n.01] Zimbabwe -- a landlocked republic in south central Africa formerly called Rhodesia; achieved independence from the United Kingdom in 1980
+[zimbalist.n.01] Zimbalist -- United States violinist (born in Russia) (1889-1985)
+[zinc_blende.n.01] zinc blende -- an ore that is the chief source of zinc; consists largely of zinc sulfide in crystalline form
+[zinc_cadmium_sulfide.n.01] zinc cadmium sulfide -- cadmium sulfide containing zinc
+[zinc_deficiency.n.01] zinc deficiency -- a deficiency caused by inadequate zinc in the diet or by liver disease or cystic fibrosis or other diseases
+[zinc.n.01] zinc -- a bluish-white lustrous metallic element; brittle at ordinary temperatures but malleable when heated; used in a wide variety of alloys and in galvanizing iron; it occurs naturally as zinc sulphide in zinc blende
+[zinc_ointment.n.01] zinc ointment -- an ointment containing zinc that is used to treat certain skin diseases
+[zinc_oxide.n.01] zinc oxide -- oxide of zinc; a white powder used as a pigment or in cosmetics or glass or inks and in zinc ointment
+[zinc_sulfate.n.01] zinc sulfate -- a colorless water-soluble powder; used as a mordant or to preserve wood or for the electrodeposition of zinc
+[zinc_sulfide.n.01] zinc sulfide -- a yellow to white crystalline fluorescent compound that occurs naturally as sphalerite or wurtzite and is used as a luminous pigment
+[zinc_white.n.01] zinc white -- a white pigment used in house paints; consists of zinc oxide
+[zinfandel.n.01] Zinfandel -- small black grape grown chiefly in California; transplanted from Europe
+[zinfandel.n.02] zinfandel -- dry fruity red wine from California
+[zinger.n.01] zinger -- a striking or amusing or caustic remark
+[zingiberaceae.n.01] Zingiberaceae -- a family of tropical monocotyledonous plants of order Musales
+[zingiber.n.01] Zingiber -- tropical Asiatic and Polynesian perennial plants: ginger
+[zing.n.01] zing -- a brief high-pitched buzzing or humming sound
+[zinjanthropus.n.01] Zinjanthropus -- genus to which Australopithecus boisei was formerly assigned
+[zinkenite.n.01] zinkenite -- a steel grey metallic mineral (a sulphide of lead and antimony)
+[zinnemann.n.01] Zinnemann -- United States filmmaker (born in Austria) (1907-1997)
+[zinnia.n.01] zinnia -- any of various plants of the genus Zinnia cultivated for their variously and brightly colored flower heads
+[zinnwaldite.n.01] zinnwaldite -- a mica containing iron and lithium
+[zinsser.n.01] Zinsser -- United States bacteriologist who helped develop immunization against typhus fever (1878-1940)
+[zinzendorf.n.01] Zinzendorf -- German theologian (1700-1760)
+[zionism.n.01] Zionism -- a policy for establishing and developing a national homeland for Jews in Palestine
+[zionism.n.02] Zionism -- a movement of world Jewry that arose late in the 19th century with the aim of creating a Jewish state in Palestine
+[zionist.n.01] Zionist -- a Jewish supporter of Zionism
+[zion.n.01] Zion -- originally a stronghold captured by David (the 2nd king of the Israelites); above it was built a temple and later the name extended to the whole hill; finally it became a synonym for the city of Jerusalem
+[zion_national_park.n.01] Zion National Park -- a national park in Utah having huge canyons and gorges carved by mountain rivers
+[zip_code.n.01] ZIP code -- a code of letters and digits added to a postal address to aid in the sorting of mail
+[zip_gun.n.01] zip gun -- a crude homemade pistol
+[ziphiidae.n.01] Ziphiidae -- beaked whales; in some especially former classifications included in the family Physeteridae
+[zirconium.n.01] zirconium -- a lustrous grey strong metallic element resembling titanium; it is used in nuclear reactors as a neutron absorber; it occurs in baddeleyite but is obtained chiefly from zircon
+[zirconium_oxide.n.01] zirconium oxide -- a white crystalline oxide; used in refractories and in insulation and abrasives and enamels and glazes
+[zircon.n.01] zircon -- a common mineral occurring in small crystals; chief source of zirconium; used as a refractory when opaque and as a gem when transparent
+[zither.n.01] zither -- a musical stringed instrument with strings stretched over a flat sounding board; it is laid flat and played with a plectrum and with fingers
+[ziti.n.01] ziti -- medium-sized tubular pasta in short pieces
+[zizania.n.01] Zizania -- wild rice
+[ziziphus.n.01] Ziziphus -- spiny chiefly tropical American and Asiatic shrubs: jujubes
+[zizz.n.01] zizz -- a buzzing or whizzing sound
+[zizz.n.02] zizz -- a nap
+[zloty.n.01] zloty -- the basic unit of money in Poland
+[z.n.02] Z -- the 26th letter of the Roman alphabet
+[zoanthropy.n.01] zoanthropy -- the delusion that you have assumed the form of an animal
+[zoarces.n.01] Zoarces -- type genus of the Zoarcidae
+[zoarcidae.n.01] Zoarcidae -- eelpouts
+[zodiacal_light.n.01] zodiacal light -- a luminous tract in the sky; a reflection of sunlight from cosmic dust in the plane of the ecliptic; visible just before sunrise and just after sunset
+[zodiac.n.01] zodiac -- a belt-shaped region in the heavens on either side to the ecliptic; divided into 12 constellations or signs for astrological purposes
+[zodiac.n.02] zodiac -- (astrology) a circular diagram representing the 12 zodiacal constellations and showing their signs
+[zola.n.01] Zola -- French novelist and critic; defender of Dreyfus (1840-1902)
+[zollinger-ellison_syndrome.n.01] Zollinger-Ellison syndrome -- syndrome consisting of intractable peptic ulceration with gastric hypersecretion and hyperacidity
+[zomba.n.01] Zomba -- a city in southern Malawi; was the capital until 1971
+[zombie.n.05] zombie -- several kinds of rum with fruit juice and usually apricot liqueur
+[zombi.n.01] zombi -- (voodooism) a spirit or supernatural force that reanimates a dead body
+[zombi.n.02] zombi -- a god of voodoo cults of African origin worshipped especially in West Indies
+[zombi.n.03] zombi -- a dead body that has been brought back to life by a supernatural force
+[zona_pellucida.n.01] zona pellucida -- thick membrane around the mammalian ovum; can be penetrated by one sperm in the fertilization process; usually remains around the fertilized egg until it is implanted in the wall of the uterus
+[zone_fire.n.01] zone fire -- artillery or mortar fire delivered in a constant direction at several quadrant elevations
+[zone.n.01] zone -- a locally circumscribed place characterized by some distinctive features
+[zone.n.02] zone -- any of the regions of the surface of the Earth loosely divided according to latitude or longitude
+[zone.n.03] zone -- an area or region distinguished from adjacent parts by a distinctive feature or characteristic
+[zone.n.04] zone -- (anatomy) any encircling or beltlike structure
+[zone_of_interior.n.01] zone of interior -- the part of the theater of war not included in the theater of operations
+[zoning_board.n.01] zoning board -- a board of officials who divide an area into zones that are subject to different restrictions
+[zoning_commission.n.01] zoning commission -- a commission delegated to supervise the zoning of areas for residential or commercial use
+[zoning.n.01] zoning -- dividing an area into zones or sections reserved for different purposes such as residence and business and manufacturing etc
+[zonotrichia.n.01] Zonotrichia -- large New World sparrows
+[zonule.n.01] zonule -- small beltlike zone
+[zooid.n.01] zooid -- one of the distinct individuals forming a colonial animal such as a bryozoan or hydrozoan
+[zoo_keeper.n.01] zoo keeper -- the chief person responsible for a zoological garden
+[zoolatry.n.01] zoolatry -- the worship of animals
+[zoologist.n.01] zoologist -- a specialist in the branch of biology dealing with animals
+[zoology.n.02] zoology -- the branch of biology that studies animals
+[zoomastigina.n.01] Zoomastigina -- in some classifications considered a phylum of the kingdom Protista; holozoic or saprozoic flagellates
+[zoomastigote.n.01] zoomastigote -- flagellate protozoan lacking photosynthesis and other plant-like characteristics
+[zoomorphism.n.01] zoomorphism -- the attribution of animal forms or qualities to a god
+[zoonosis.n.01] zoonosis -- an animal disease that can be transmitted to humans
+[zoophilia.n.01] zoophilia -- a sexual attraction to animals
+[zoophobia.n.01] zoophobia -- a morbid fear of animals
+[zoophyte.n.01] zoophyte -- any of various invertebrate animals resembling a plant such as a sea anemone or coral or sponge
+[zooplankton.n.01] zooplankton -- animal constituent of plankton; mainly small crustaceans and fish larvae
+[zoopsia.n.01] zoopsia -- visual hallucination of animals; sometimes occurring in delirium tremens
+[zoospore.n.01] zoospore -- an asexual spore of some algae and fungi that moves by means of flagella
+[zoot_suit.n.01] zoot suit -- a flashy suit of extreme cut
+[zoril.n.01] zoril -- muishond of northern Africa
+[zoroaster.n.01] Zoroaster -- Persian prophet who founded Zoroastrianism (circa 628-551 BC)
+[zoroastrianism.n.01] Zoroastrianism -- system of religion founded in Persia in the 6th century BC by Zoroaster; set forth in the Zend-Avesta; based on concept of struggle between light (good) and dark (evil)
+[zoroastrian.n.01] Zoroastrian -- follower of Zoroaster and Zoroastrianism
+[zosteraceae.n.01] Zosteraceae -- used in some classifications: essentially equivalent to Potamogetonaceae
+[zostera.n.01] Zostera -- (or in some classifications family Zosteraceae) small genus of widely distributed marine plants
+[zoysia.n.01] zoysia -- any of several creeping grasses of the genus Zoysia
+[zsigmondy.n.01] Zsigmondy -- German chemist (born in Austria) honored for his research on colloidal solutions (1865-1929)
+[zucchini.n.01] zucchini -- marrow squash plant whose fruit are eaten when small
+[zucchini.n.02] zucchini -- small cucumber-shaped vegetable marrow; typically dark green
+[zuider_zee.n.01] Zuider Zee -- a former inlet of the North Sea in the northern coast of the Netherlands; sealed off from the sea in 1932 by a dam that created the IJsselmeer
+[zukerman.n.01] Zukerman -- Israeli violinist (born in 1948)
+[zulu.n.01] Zulu -- a member of the tall Negroid people of eastern South Africa; some live in KwaZulu-Natal under the traditional clan system but many now work in the cities
+[zulu.n.02] Zulu -- a community of Negroid people in eastern South Africa
+[zulu.n.03] Zulu -- a Bantu language of considerable literary importance in southeastern Africa
+[zu.n.01] Zu -- evil storm god represented as a black bird
+[zuni.n.01] Zuni -- a member of the Pueblo people living in western New Mexico
+[zurich.n.01] Zurich -- the largest city in Switzerland; located in the northern part of the country
+[zurvanism.n.01] Zurvanism -- a Zoroastrian sect that claims Zurvan was the ultimate source of the universe
+[zurvanism.n.02] Zurvanism -- a heretical Zoroastrian doctrine holding that Zurvan was the ultimate source of the universe and that both Ahura Mazda and Ahriman were Zurvan's offspring Also a hyponym of: heresy.n.02.
+[zurvan.n.01] Zurvan -- the Zoroastrian god of time
+[zweig.n.01] Zweig -- Austrian writer (1881-1942)
+[zwieback.n.01] zwieback -- slice of sweet raised bread baked again until it is brown and hard and crisp
+[zwingli.n.01] Zwingli -- Swiss theologian whose sermons began the Reformation in Switzerland (1484-1531)
+[zworykin.n.01] Zworykin -- United States physicist who invented the iconoscope (1889-1982)
+[zydeco.n.01] zydeco -- music of southern Louisiana that combines French dance melodies with Caribbean music and blues
+[zygnema.n.01] Zygnema -- type genus of the family Zygnemataceae
+[zygnemataceae.n.01] Zygnemataceae -- pond scums: common freshwater algae forming green slimy masses
+[zygnematales.n.01] Zygnematales -- pond scums; desmids
+[zygocactus.n.01] Zygocactus -- small genus of Brazilian cacti having flat fleshy usually branched joints and showy red or pink flowers followed by red fleshy fruits
+[zygodactyl_foot.n.01] zygodactyl foot -- a bird's foot having the first and fourth toes of each foot directed backward and the second and third forward
+[zygoma.n.01] zygoma -- the slender arch formed by the temporal process of the cheekbone that bridges to the zygomatic process of the temporal bone
+[zygomatic_process.n.01] zygomatic process -- a slender process of the temporal bone that strengthens the zygomatic arch
+[zygomycetes.n.01] Zygomycetes -- class of fungi coextensive with subdivision Zygomycota
+[zygomycota.n.01] Zygomycota -- division of fungi having sexually produced zygospores
+[zygophyllaceae.n.01] Zygophyllaceae -- small trees, shrubs, and herbs of warm arid and saline regions; often resinous; some poisonous: genera Zygophyllum, Tribulus, Guaiacum, Larrea
+[zygophyllum.n.01] Zygophyllum -- usually tropical herbs or shrubs having ill-smelling foliage and flower buds that are used as capers: bean capers
+[zygoptera.n.01] Zygoptera -- damselflies
+[zygospore.n.01] zygospore -- a plant spore formed by two similar sexual cells
+[zygote.n.01] zygote -- (genetics) the diploid cell resulting from the union of a haploid spermatozoon and ovum (including the organism that develops from that cell)
+[zygotene.n.01] zygotene -- the second stage of the prophase of meiosis
+[zymase.n.01] zymase -- a complex of enzymes that cause glycolysis; originally found in yeast but also present in higher organisms
+[zymology.n.01] zymology -- the branch of chemistry concerned with fermentation (as in making wine or brewing or distilling)
+[zymosis.n.01] zymosis -- a process in which an agent causes an organic substance to break down into simpler substances; especially, the anaerobic breakdown of sugar into alcohol
+[zymosis.n.02] zymosis -- (medicine) the development and spread of an infectious disease (especially one caused by a fungus)
