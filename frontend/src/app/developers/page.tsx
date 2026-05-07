@@ -6,10 +6,10 @@ import { GitFork, Terminal, Braces, ArrowRight, Zap, BookOpen, ChevronRight, Sta
 export const metadata: Metadata = {
   title: 'Builders - World Of Taxonomy',
   description:
-    'Build with the World Of Taxonomy classification graph: REST API, MCP server, and packaged AI skills for Claude, Cursor, and ChatGPT. 1,000+ classification systems, 1.2M+ codes, 321K+ crosswalk edges. Open source.',
+    'Build with the World Of Taxonomy classification graph: REST API, MCP server, and packaged AI skills for Claude, Cursor, and ChatGPT. 1,000+ classification systems, 1.3M+ codes, 326K+ crosswalk edges. Open source.',
   openGraph: {
     title: 'Builders - World Of Taxonomy',
-    description: 'REST API + MCP server for 1,000+ classification systems and 321K+ crosswalk edges. Open source.',
+    description: 'REST API + MCP server for 1,000+ classification systems and 326K+ crosswalk edges. Open source.',
     url: 'https://worldoftaxonomy.com/developers',
     type: 'website',
   },
@@ -34,7 +34,7 @@ const API_ENDPOINT_COUNT = 50
 const MCP_TOOL_COUNT = 22
 
 const API_HIGHLIGHTS = [
-  { method: 'GET',  path: '/api/v1/search?q={term}',                        desc: 'Full-text search across 1.2M+ nodes' },
+  { method: 'GET',  path: '/api/v1/search?q={term}',                        desc: 'Full-text search across 1.3M+ nodes' },
   { method: 'GET',  path: '/api/v1/systems/{id}/nodes/{code}/equivalences', desc: 'Crosswalk mappings to other systems' },
   { method: 'POST', path: '/api/v1/classify',                               desc: 'Classify free-text against all systems (Pro+)' },
   { method: 'GET',  path: '/api/v1/countries/{code}',                       desc: 'Country taxonomy profile' },
@@ -68,7 +68,7 @@ export default async function BuildersPage() {
           Build on the world&apos;s most comprehensive classification graph
         </h1>
         <p className="text-muted-foreground text-base max-w-2xl leading-relaxed">
-          1,000+ classification systems, 1.2M+ nodes, and 321K+ crosswalk edges - available via
+          1,000+ classification systems, 1.3M+ nodes, and 326K+ crosswalk edges - available via
           REST API, MCP server, packaged AI skills (Claude Code, Anthropic, ChatGPT Custom GPT,
           portable), or directly from the open-source repo.
         </p>
@@ -288,7 +288,7 @@ cd frontend && npm install && npm run dev`}
 
         <div className="rounded-xl border border-border/50 bg-card p-6 space-y-4">
           <p className="text-sm leading-relaxed text-muted-foreground">
-            Explore how classification systems connect through 321K+ crosswalk edges.
+            Explore how classification systems connect through 326K+ crosswalk edges.
             The system-level graph shows all connected systems grouped by category.
             Click any edge to drill into the code-level view with individual mappings.
           </p>

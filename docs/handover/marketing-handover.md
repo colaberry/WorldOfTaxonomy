@@ -58,7 +58,7 @@ AI agents can use the whole graph as structured tools."
 The 30-second version, then:
 
 "Three surfaces. The web app at worldoftaxonomy.com is a free
-visual explorer - 1.2 million codes, browseable by country, by
+visual explorer - 1.3 million+ codes, browseable by country, by
 industry, by crosswalk. The REST API is for classical integrations -
 30 requests per minute free, paid tiers for production volume. The
 MCP server is the newest part: AI agents like Claude or Cursor can
@@ -88,8 +88,8 @@ audience targets in §4.
 If a number here disagrees with CLAUDE.md, trust CLAUDE.md.**
 
 - **1,000** classification systems
-- **1,212,173+** classification nodes (codes)
-- **321,937+** verified crosswalk edges
+- **1,305,191+** classification nodes (codes)
+- **326,375+** verified crosswalk edges
 - **249** countries with country-system profiles
 - **3** product surfaces (web app, REST API, MCP server)
 - **MIT** license (the free tier is genuinely free, including for
@@ -124,9 +124,9 @@ Before sending any of them, find/replace:
 
 | Stale | Replace with |
 |---|---|
-| 279 systems / 279 classification systems | 1,000 systems |
-| 570,178 codes | 1,212,173+ nodes |
-| 122,769 crosswalk edges | 321,937+ crosswalk edges |
+| 279 systems / 279 classification systems | 1,000+ systems |
+| 570,178 codes | 1,305,191+ nodes |
+| 122,769 crosswalk edges | 326,375+ crosswalk edges |
 
 The structure, headlines, and CTAs in those drafts are still good;
 just the stat lines are outdated.
@@ -316,7 +316,7 @@ panels or any signed-in state with real email addresses.
   asks where a number came from, the answer should already be in
   the prose, not in a follow-up email.
 - **Tense:** present, declarative. ("World Of Taxonomy connects
-  1,000 systems.") Not future ("will connect"), not aspirational
+  1,000+ systems.") Not future ("will connect"), not aspirational
   ("aims to connect").
 - **No em-dashes.** Project-wide style: use a hyphen `-`. CI
   enforces this on code; please mirror it in marketing copy too.

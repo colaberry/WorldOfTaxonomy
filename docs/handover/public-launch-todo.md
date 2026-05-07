@@ -66,7 +66,7 @@ A single page (or `/press` route) with:
 - One-paragraph description for journalists
 - 3-5 hero screenshots
 - Founder bios + headshots
-- Stats line ("1,000 systems / 1.2M nodes / 321K edges")
+- Stats line ("1,000+ systems / 1.3M+ nodes / 326K+ edges")
 
 Most assets already exist in `frontend/public/logo-*` and
 `frontend/public/opengraph-image.tsx`. Collating them into one
@@ -307,7 +307,7 @@ free; verify it is reachable + clean before submitting anywhere).
       announcement threads on launch day; one post per subreddit,
       personalized.
 - [ ] **dev.to / Medium / Hashnode** - one technical blog post on
-      launch ("Translating between 1,000 classification systems with
+      launch ("Translating between 1,000+ classification systems with
       a single API call"). Repost across all three; cross-link from
       our `/blog`.
 - [ ] **Stack Overflow** - watch tags `naics`, `isic`, `industry-codes`,
@@ -335,7 +335,7 @@ single source.
 
 The third audience: humans who arrive via search or social, not
 through an API client or MCP tool. Different distribution channels,
-different message ("explore 1,000 classification systems" instead of
+different message ("explore 1,000+ classification systems" instead of
 "integrate with our API"). Three Hacker News posts total are warranted
 across items 7, 8, 9 - each with a distinct hook and a distinct
 audience - but the rest of this list does not overlap with the MCP or

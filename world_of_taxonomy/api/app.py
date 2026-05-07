@@ -93,14 +93,14 @@ LLMS_TXT = """\
 # World Of Taxonomy
 
 > Unified Global Classification Knowledge Graph
-> 1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges.
+> 1,000+ systems, 1.3M+ nodes, 326K+ crosswalk edges.
 > Open source (MIT). Data is informational only - use at your own risk.
 
 World Of Taxonomy is a knowledge graph connecting 1,000+ classification systems across industry, geography, product/trade, occupational, education, health, financial, regulatory, and domain-specific vocabularies. It provides a REST API and MCP server for looking up, searching, translating, and classifying codes.
 
 For the full reference, see: https://worldoftaxonomy.com/llms-full.txt
 
-## Systems (1,000+ total, 1.2M+ nodes)
+## Systems (1,000+ total, 1.3M+ nodes)
 
 ### Industry Classification Standards
 - NAICS 2022 (North America) - 2,125 codes

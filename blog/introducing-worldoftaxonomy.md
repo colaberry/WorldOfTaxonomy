@@ -1,6 +1,6 @@
 ## Introducing World Of Taxonomy
 
-> **TL;DR:** World Of Taxonomy connects 1,000+ classification systems, 1.2M+ codes, and 321K+ crosswalk edges into one queryable knowledge graph. REST API, MCP server, and web app - all open source.
+> **TL;DR:** World Of Taxonomy connects 1,000+ classification systems, 1.3M+ codes, and 326K+ crosswalk edges into one queryable knowledge graph. REST API, MCP server, and web app - all open source.
 
 ---
 
@@ -52,7 +52,7 @@ graph LR
 # Translate NAICS 4841 to all equivalent systems
 curl "https://wot.aixcelerator.ai/api/v1/systems/naics_2022/nodes/4841/translations"
 
-# Search "hospital" across all 1,000 systems
+# Search "hospital" across all 1,000+ systems
 curl "https://wot.aixcelerator.ai/api/v1/search?q=hospital&grouped=true"
 ```
 

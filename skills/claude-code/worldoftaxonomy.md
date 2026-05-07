@@ -1,6 +1,6 @@
 ---
 name: worldoftaxonomy
-description: Classify businesses, products, occupations, diseases, or documents under global standard codes (NAICS, ISIC, NACE, HS, ICD, SOC, ISCO, CPC, UNSPSC, and 1000+ more). Translate codes between country/system versions. Find crosswalks, equivalents, hierarchies, siblings, ancestors, and structural comparisons across 1.2M nodes and 326K crosswalk edges. All 434 curated domain taxonomies are bridged to NAICS/ISIC/NACE via sector anchors; every edge carries an edge_kind label.
+description: Classify businesses, products, occupations, diseases, or documents under global standard codes (NAICS, ISIC, NACE, HS, ICD, SOC, ISCO, CPC, UNSPSC, and 1000+ more). Translate codes between country/system versions. Find crosswalks, equivalents, hierarchies, siblings, ancestors, and structural comparisons across 1.3M+ nodes and 326K crosswalk edges. All 434 curated domain taxonomies are bridged to NAICS/ISIC/NACE via sector anchors; every edge carries an edge_kind label.
 ---
 
 # WorldOfTaxonomy Skill

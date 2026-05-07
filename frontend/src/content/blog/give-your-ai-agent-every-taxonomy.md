@@ -26,9 +26,9 @@ sequenceDiagram
 
     AI->>MCP: Initialize session
     MCP-->>AI: 25 tools + system knowledge
-    Note over AI: Agent now knows all 1,000 systems
+    Note over AI: Agent now knows all 1,000+ systems
     AI->>MCP: search_classifications("hospital")
-    MCP->>DB: Full-text search across 1.2M codes
+    MCP->>DB: Full-text search across 1.3M+ codes
     DB-->>MCP: Verified results
     MCP-->>AI: Structured JSON response
     AI->>MCP: translate_code("naics_2022", "5415", "nace_rev2")

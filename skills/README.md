@@ -1,6 +1,6 @@
 # WorldOfTaxonomy AI Skills
 
-Four packaged integrations that let AI assistants use WorldOfTaxonomy's 1,000+ classification systems, 1.2M+ nodes, and 320K+ crosswalk edges.
+Four packaged integrations that let AI assistants use WorldOfTaxonomy's 1,000+ classification systems, 1.3M+ nodes, and 320K+ crosswalk edges.
 
 All four surface the same underlying capability: query, translate, and reason across global taxonomies (NAICS, ISIC, NACE, HS, ICD, SOC, ISCO, and hundreds more).
 

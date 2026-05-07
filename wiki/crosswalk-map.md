@@ -1,6 +1,6 @@
 ## Crosswalk Map - How Classification Systems Connect
 
-> **TL;DR:** 326,000+ crosswalk edges link 1,000 classification systems through hub-and-spoke topology. ISIC is the industry hub, CPC bridges trade to industry, SOC/ISCO connect occupations, and every one of the 434 domain taxonomies is bridged to NAICS/ISIC/NACE via sector anchors. This guide maps the full topology and shows how to navigate translation paths.
+> **TL;DR:** 326,000+ crosswalk edges link 1,000+ classification systems through hub-and-spoke topology. ISIC is the industry hub, CPC bridges trade to industry, SOC/ISCO connect occupations, and every one of the 434 domain taxonomies is bridged to NAICS/ISIC/NACE via sector anchors. This guide maps the full topology and shows how to navigate translation paths.
 
 ---
 

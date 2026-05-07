@@ -117,7 +117,7 @@ export function Footer() {
               Colaberry Research Labs
             </a>
           </span>
-          <span>1,000+ systems - 1.2M+ nodes - 321K+ edges</span>
+          <span>1,000+ systems - 1.3M+ nodes - 321K+ edges</span>
         </div>
 
         {/* Disclaimer */}

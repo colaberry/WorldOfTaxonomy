@@ -52,7 +52,7 @@ export default function ClassifyPage() {
           </li>
           <li>
             <span className="font-medium text-foreground">Full result set?</span> -
-            all 1,000 systems and crosswalk edges are available on the
+            all 1,000+ systems and crosswalk edges are available on the
             paid API (see <a href="/pricing" className="text-primary underline">pricing</a>).
           </li>
         </ul>

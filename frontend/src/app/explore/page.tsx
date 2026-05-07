@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     'Industry, health, trade, occupations, regulatory, and more.',
   openGraph: {
     title: 'Explore - World Of Taxonomy',
-    description: 'Search 1.2M+ codes across 1,000+ classification systems.',
+    description: 'Search 1.3M+ codes across 1,000+ classification systems.',
     url: 'https://worldoftaxonomy.com/explore',
     type: 'website',
   },

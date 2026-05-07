@@ -62,7 +62,7 @@ export default async function Image() {
               marginTop: '8px',
             }}
           >
-            1,000+ systems. 1.2M+ codes. 321K+ crosswalk edges.
+            1,000+ systems. 1.3M+ codes. 326K+ crosswalk edges.
           </div>
         </div>
 

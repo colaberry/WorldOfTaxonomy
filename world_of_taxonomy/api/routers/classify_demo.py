@@ -149,7 +149,7 @@ async def classify_demo_handler(
                 "report_issue_url": "https://github.com/colaberryinc/WorldOfTaxonomy/issues",
                 "demo": True,
                 "upgrade_cta": (
-                    "Want all 1000 systems, cross-system crosswalks, and "
+                    "Want all 1000+ systems, cross-system crosswalks, and "
                     "programmatic API access? Upgrade to Pro at /pricing."
                 ),
                 "compound": False,
@@ -218,7 +218,7 @@ async def classify_demo_handler(
         "report_issue_url": result["report_issue_url"],
         "demo": True,
         "upgrade_cta": (
-            "Want all 1000 systems, cross-system crosswalks, and "
+            "Want all 1000+ systems, cross-system crosswalks, and "
             "programmatic API access? Upgrade to Pro at /pricing."
         ),
         "compound": result.get("compound", False),

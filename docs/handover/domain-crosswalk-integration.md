@@ -276,7 +276,7 @@ Public GitHub-facing channel (separate content, same pass):
   - "New MCP tool: `list_crosswalks_by_kind`"
   - "New provenance tag: `derived:sector_anchor:v1`"
 - **`ROADMAP.md`** - FIRST fix the stale header ("279 systems, 570,178 codes, 122,769 crosswalk edges" is off by 4x on systems and 2-3x on everything else; bring it to current 1,000 / 1.2M / ~325K); then move "domain crosswalk integration" from future work to `## Previously completed`; deduplicate the two "API key dashboard" rows.
-- **`DATA_SOURCES.md`** - FIRST fix the table to cover all ~1,000 systems (currently lists ~25); add a new "Domain taxonomies (internally curated)" section documenting the hand-curated vocabularies as a source class; add a "Derived crosswalks" section listing the provenance values (`derived:sector_anchor:v1`, `derived:isic_fanout:v1`, etc.) and what each means for auditors.
+- **`DATA_SOURCES.md`** - FIRST fix the table to cover all 1,000+ systems (currently lists ~25); add a new "Domain taxonomies (internally curated)" section documenting the hand-curated vocabularies as a source class; add a "Derived crosswalks" section listing the provenance values (`derived:sector_anchor:v1`, `derived:isic_fanout:v1`, etc.) and what each means for auditors.
 - `bash scripts/check_no_em_dash.sh` on every touched file, including all of the above.
 
 Skipped because unchanged by this work: `DESIGN.md`, `CONTRIBUTING.md`, `SECURITY.md`.
