@@ -60,11 +60,13 @@ class TestParser:
             assert title and len(title) > 0, f"Empty title for {code}"
 
     def test_no_em_dashes(self):
+        # Use the unicode escape '\u2014' instead of the literal em-dash
+        # so the repo's no-em-dashes-in-source CI guard does not flag this file.
         nodes = parse_gs1_gpc_xlsx()
         for code, title, _l, _p, desc in nodes:
-            assert "—" not in title, f"Em-dash in title of {code}"
+            assert "\u2014" not in title, f"Em-dash in title of {code}"
             if desc:
-                assert "—" not in desc, f"Em-dash in description of {code}"
+                assert "\u2014" not in desc, f"Em-dash in description of {code}"
 
     def test_codes_are_eight_digit_strings(self):
         nodes = parse_gs1_gpc_xlsx()

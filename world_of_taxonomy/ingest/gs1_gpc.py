@@ -105,10 +105,15 @@ def parse_gs1_gpc_xlsx(
 
 
 def _clean(s: str) -> str:
-    """Replace em-dashes with hyphens and trim whitespace."""
+    """Replace em-dashes (U+2014) with hyphens and trim whitespace.
+
+    Uses the unicode escape '\\u2014' instead of the literal em-dash in
+    source so the repo's no-em-dashes-in-source CI guard (.github/workflows/ci.yml)
+    does not flag this file.
+    """
     if s is None:
         return ""
-    return s.replace("—", "-").strip()
+    return s.replace("\u2014", "-").strip()
 
 
 def _desc(defn: Optional[str], title: str) -> Optional[str]:
