@@ -95,8 +95,8 @@ Drill-down files:
 |-------|--------|-----|
 | Backend language | Python 3.9+ (CI on 3.11) | Fastest path from "download a government CSV" to "parse it in a test." |
 | Web framework | FastAPI | Pydantic models double as schema + OpenAPI; async fits asyncpg. |
-| DB driver | asyncpg | Native async, non-blocking. Set `statement_cache_size=0` when the pool sits behind pgbouncer in transaction-pooling mode (Neon, Supabase pooler, any self-hosted pgbouncer). pgbouncer doesn't support server-side prepared statements in that mode. Drop the setting if you connect direct to Postgres. |
-| Database | PostgreSQL | Any Postgres 14+ works. Hosted options (Neon, Supabase, RDS, self-managed) are interchangeable; the only driver-visible difference is whether a pgbouncer-style pooler sits in front. |
+| DB driver | asyncpg | Native async, non-blocking. Set `statement_cache_size=0` when the pool sits behind pgbouncer in transaction-pooling mode (Supabase pooler, any self-hosted pgbouncer). pgbouncer doesn't support server-side prepared statements in that mode. Drop the setting if you connect direct to Postgres. |
+| Database | PostgreSQL | Any Postgres 14+ works. Hosted options (Cloud SQL, Supabase, RDS, self-managed) are interchangeable; the only driver-visible difference is whether a pgbouncer-style pooler sits in front. Production runs on Cloud SQL. |
 | Auth | Magic-link cookie session + PyJWT (HS256) for the cookie itself | No password, no third-party IdP. Backend mints a one-time email link via Resend; the callback sets `dev_session` (httponly) + `wot_csrf` (JS-readable double-submit) cookies. API keys are `wot_/rwot_/aix_` + 32 hex, bcrypt-hashed, 8-char prefix indexed. |
 | Rate limit | slowapi + custom tier-aware middleware | Anonymous 30/min up to Enterprise effectively unlimited. |
 | MCP | Official Python MCP SDK, stdio transport | Works in Claude Desktop, Claude Code, Cursor, any stdio-aware host. |
@@ -265,7 +265,7 @@ Pair file naming is sorted: `pair__<alphabetically_first_system>___<second_syste
 
 | Var | Consumer | Purpose | Required |
 |-----|----------|---------|----------|
-| `DATABASE_URL` | backend | Postgres connection string (any provider: Neon, Supabase, RDS, self-hosted, local) | yes |
+| `DATABASE_URL` | backend | Postgres connection string (any provider: Cloud SQL, Supabase, RDS, self-hosted, local) | yes |
 | `JWT_SECRET` | backend | HS256 signing key, >=32 chars in prod | yes |
 | `BACKEND_URL` | backend OAuth, frontend SSR fetchers, sitemap | API base URL | prod yes, dev defaults to `http://localhost:8000` |
 | `OLLAMA_API_KEY` | backend | Primary LLM provider. Enables `/generate` + `/classify` fallback. Routed via `world_of_taxonomy.llm_client` to Ollama Cloud's OpenAI-compatible endpoint | optional (either this or `OPENROUTER_API_KEY`) |
@@ -292,7 +292,7 @@ Template: [.env.example](.env.example). `.env` is git-ignored.
 
 - **Frontend**: Vercel, served at `worldoftaxonomy.com`. Build-time: `npm run predev`/`prebuild` hooks copy `wiki/`, `blog/`, `crosswalk-data/`, and `tree-data/` into `frontend/src/content/`. Then `npm run build`.
 - **Backend + MCP**: container from [Dockerfile.backend](Dockerfile.backend), deployed at `wot.aixcelerator.ai`. Entry: `uvicorn world_of_taxonomy.api.app:create_app --factory --host 0.0.0.0 --port 8000`. Container runs as non-root uid 10001 and has a Docker `HEALTHCHECK` probing `/api/v1/healthz`. `.dockerignore` trims build context.
-- **Database**: any PostgreSQL 14+. If a pgbouncer-style pooler sits in front of it (Neon, Supabase pooled URL, self-hosted pgbouncer in transaction mode), set `statement_cache_size=0` in the asyncpg pool config. Direct connections don't need it. Schema evolution via Alembic ([migrations/](migrations/), psycopg v3 driver) on top of the baseline `schema*.sql`.
+- **Database**: any PostgreSQL 14+. If a pgbouncer-style pooler sits in front of it (Supabase pooled URL, self-hosted pgbouncer in transaction mode), set `statement_cache_size=0` in the asyncpg pool config. Direct connections don't need it. Schema evolution via Alembic ([migrations/](migrations/), psycopg v3 driver) on top of the baseline `schema*.sql`.
 - **Local dev stack**: [docker-compose.yml](docker-compose.yml).
 
 ### API proxy

@@ -10,7 +10,7 @@ Read [HANDOVER.md](../../HANDOVER.md) first for context.
 
 - Python 3.11 (`python3 --version`).
 - Node 20 or later via `nvm` (`nvm install 20 && nvm use 20`).
-- A Postgres 14+ database. Any provider (Neon, Supabase, RDS, Cloud SQL, self-hosted) or a local install works. If whatever you pick puts pgbouncer in transaction-pooling mode in front of it, remember to set `statement_cache_size=0` (see step 5).
+- A Postgres 14+ database. Any provider (Cloud SQL, Supabase, RDS, self-hosted) or a local install works. If whatever you pick puts pgbouncer in transaction-pooling mode in front of it, remember to set `statement_cache_size=0` (see step 5).
 - Optional: Docker + docker-compose if you want the [docker-compose.yml](../../docker-compose.yml) stack.
 
 ---
@@ -246,7 +246,7 @@ This is the same grep CI runs. Must return `clean`.
 
 ### Database
 
-- Pick any Postgres 14+ and set its connection string as `DATABASE_URL`. Examples: Neon (pooled URL), Supabase (pooled URL), RDS, Cloud SQL, self-hosted Postgres, local install.
+- Pick any Postgres 14+ and set its connection string as `DATABASE_URL`. Examples: Cloud SQL (production), Supabase (pooled URL), RDS, self-hosted Postgres, local install.
 - If a pgbouncer-style pooler sits in front of it in transaction mode, asyncpg needs `statement_cache_size=0`. Production code path in [world_of_taxonomy/db.py](../../world_of_taxonomy/db.py) sets this when the URL looks pooled; double-check for your provider.
 
 ### Magic-link sign-in

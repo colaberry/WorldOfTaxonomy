@@ -5,7 +5,7 @@ never check a connection string into alembic.ini. We do not use an ORM
 metadata object, so autogenerate is disabled; all migrations are
 hand-written DDL.
 
-Neon + pgbouncer note: pgbouncer in transaction pooling mode does not
+pgbouncer note: pgbouncer in transaction pooling mode does not
 support server-side prepared statements. psycopg2 does not use prepared
 statements by default, so no extra flag is required here; asyncpg users
 need ``statement_cache_size=0`` but alembic runs sync.

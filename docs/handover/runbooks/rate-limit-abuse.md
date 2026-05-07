@@ -10,7 +10,7 @@
 
 - **Legit anonymous traffic** throttled at 30 req/min per IP.
 - **Paid users** should not normally see 429s unless they exceed tier caps (1000/min pro, 10000/min enterprise; daily caps in `TIER_DAILY_LIMITS`).
-- **Cost**: sustained abuse on anonymous tier inflates backend compute (Fly machine time) and database compute (usage-billed providers like Neon, Supabase) or connection/IO on self-hosted.
+- **Cost**: sustained abuse on anonymous tier inflates backend compute (Cloud Run instance-time) and Cloud SQL compute / connection IO.
 
 ## Detection
 

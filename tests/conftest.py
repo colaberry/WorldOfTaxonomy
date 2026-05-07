@@ -1,6 +1,6 @@
 """Test fixtures for WorldOfTaxonomy.
 
-Uses a real Neon PostgreSQL database but isolates tests in a separate
+Uses a real PostgreSQL database (whatever DATABASE_URL points at) but isolates tests in a separate
 'test_wot' schema so production data in the 'public' schema is NEVER touched.
 
 Uses synchronous wrappers around asyncpg to avoid Python 3.9 event loop issues.
@@ -57,7 +57,7 @@ def db_pool(database_url):
             min_size=1,
             max_size=1,
             setup=_set_test_search_path,
-            statement_cache_size=0,  # Neon uses pgbouncer; no server-side prepared stmts
+            statement_cache_size=0,  # safe with any pgbouncer-style pooler
         )
     )
     yield pool
@@ -87,7 +87,7 @@ def setup_and_teardown(request):
         return
     # Only run DB setup when the test itself (or one of its fixtures) requests
     # db_pool. Pure unit-test functions/methods that don't take db_pool as a
-    # parameter have no database dependency and should run without Neon.
+    # parameter have no database dependency and should run without a DB.
     if "db_pool" not in request.fixturenames:
         yield
         return
