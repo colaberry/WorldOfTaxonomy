@@ -102,7 +102,7 @@ export default function AboutPage() {
             and the ILO are linked through crosswalk edges.
           </p>
           <p>
-            Today it connects over 1,000 classification systems, 1.2 million
+            Today it connects over 1,000 classification systems, 1.3 million+
             nodes, and 320,000+ crosswalk edges - spanning industry,
             medicine, trade, education, occupations, regulations, and more.
           </p>

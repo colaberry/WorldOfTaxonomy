@@ -109,7 +109,7 @@ const TOOL_GROUPS: ToolGroup[] = [
   {
     id: 'search',
     title: 'Search & Discovery',
-    description: 'Find codes across 1.2M+ nodes using keywords, codes, or free text',
+    description: 'Find codes across 1.3M+ nodes using keywords, codes, or free text',
     icon: <Search className="h-5 w-5" />,
     tools: [
       {

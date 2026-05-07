@@ -15,7 +15,7 @@ graph TB
     WIKI["wiki/*.md files"]
   end
   subgraph Backend["Python Backend"]
-    INGEST["Ingesters - 1,000 systems"]
+    INGEST["Ingesters - 1,000+ systems"]
     API["FastAPI REST API - /api/v1/*"]
     MCP["MCP Server - stdio transport"]
     WIKILOADER["Wiki Loader - wiki.py"]
@@ -89,7 +89,7 @@ graph TD
   end
   subgraph DB["Database Tables"]
     SYS["classification_system - 1,000+ systems"]
-    NODE["classification_node - 1.2M+ nodes"]
+    NODE["classification_node - 1.3M+ nodes"]
     EQUIV["equivalence - 321K+ edges"]
   end
   CSV --> PARSE
@@ -162,7 +162,7 @@ sequenceDiagram
   MCP->>WIKI: build_wiki_context()
   WIKI-->>MCP: Structural knowledge - ~15K tokens
   MCP-->>AI: serverInfo + instructions + capabilities
-  Note over AI: Agent now knows all 1,000 systems and crosswalk topology
+  Note over AI: Agent now knows all 1,000+ systems and crosswalk topology
   AI->>MCP: tools/call search_classifications
   MCP->>DB: Query nodes
   DB-->>MCP: Results
@@ -221,7 +221,7 @@ erDiagram
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| Database | PostgreSQL (with pgbouncer) | 1.2M+ nodes, 321K+ edges |
+| Database | PostgreSQL (with pgbouncer) | 1.3M+ nodes, 321K+ edges |
 | Backend | Python 3.9+, FastAPI, asyncpg | REST API + MCP server |
 | Frontend | Next.js 16, TypeScript, Tailwind CSS v4, shadcn/ui | Web application |
 | Visualization | D3.js (Galaxy View), Cytoscape.js (Crosswalk Explorer) | Interactive graphs |

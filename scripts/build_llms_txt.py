@@ -37,7 +37,7 @@ def main():
         "# World Of Taxonomy",
         "",
         "> Unified Global Classification Knowledge Graph",
-        "> 1,000+ systems, 1.2M+ nodes, 321K+ crosswalk edges.",
+        "> 1,000+ systems, 1.3M+ nodes, 326K+ crosswalk edges.",
         "> Open source (MIT). Data is informational only - use at your own risk.",
         "",
         "Full classification guides available at: https://worldoftaxonomy.com/guide/",

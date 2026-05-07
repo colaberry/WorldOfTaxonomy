@@ -6,7 +6,7 @@
 
 The World Of Taxonomy MCP server gives AI assistants (Claude Desktop,
 Cursor, Zed, VS Code Continue, and any other MCP client) direct
-access to 1,000+ classification systems, 1.2M+ codes, and 321K+
+access to 1,000+ classification systems, 1.3M+ codes, and 321K+
 crosswalk edges. Once installed, you can ask things like
 "convert NAICS 5415 to NACE" or "find ICD-10 codes related to type 2
 diabetes" and get authoritative answers without leaving the editor.

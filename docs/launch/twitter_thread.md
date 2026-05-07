@@ -13,7 +13,7 @@ None of them talk to each other.
 
 So I built the Rosetta Stone for all of them.
 
-1,000 classification systems. 1.2M+ codes. One open-source API.
+1,000+ classification systems. 1.3M+ codes. One open-source API.
 
 [demo screenshot or GIF of the world map]
 
@@ -39,7 +39,7 @@ GET /systems/naics_2022/nodes/4841/translations
 
 Returns NACE 49.4, ISIC 4923, SIC 4213, ISCO 8332...
 
-And it works in reverse. And across all 1,000 systems.
+And it works in reverse. And across all 1,000+ systems.
 Not a lookup table - a knowledge graph.
 
 [screenshot of API response]
@@ -67,9 +67,9 @@ AI-native from day one.
 
 The scale:
 
-- 1,000 classification systems
-- 1,212,173+ codes across all systems
-- 321,937+ crosswalk edges linking them
+- 1,000+ classification systems
+- 1,305,191+ codes across all systems
+- 326,375+ crosswalk edges linking them
 - 249 countries with official taxonomy profiles
 - 16 categories: industry, health, trade, occupational, regulatory...
 - 400+ domain deep-dives for emerging sectors

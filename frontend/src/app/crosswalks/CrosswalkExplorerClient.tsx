@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react'
+import { createPortal } from 'react-dom'
 import { useQuery } from '@tanstack/react-query'
 import { useRouter } from 'next/navigation'
 import type { CrosswalkSectionsResponse, CrosswalkGraphResponse } from '@/lib/types'
@@ -27,6 +28,183 @@ import {
 type Mode = 'system' | 'sections' | 'code'
 
 const SECTION_THRESHOLD = 50 // Show sections view when total edges exceed this
+
+interface ComboboxOption { id: string; name: string }
+
+function SystemCombobox({
+  value,
+  onChange,
+  options,
+  placeholder,
+  disabled = false,
+  ariaLabel,
+}: {
+  value: string
+  onChange: (id: string) => void
+  options: ComboboxOption[]
+  placeholder: string
+  disabled?: boolean
+  ariaLabel: string
+}) {
+  const [open, setOpen] = useState(false)
+  const [query, setQuery] = useState('')
+  const [highlight, setHighlight] = useState(0)
+  const wrapperRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+  const listRef = useRef<HTMLUListElement>(null)
+
+  const selected = options.find((o) => o.id === value) ?? null
+  const inputValue = open ? query : (selected?.name ?? '')
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    if (!open || !q) return options
+    return options.filter(
+      (o) =>
+        o.name.toLowerCase().includes(q) || o.id.toLowerCase().includes(q),
+    )
+  }, [options, query, open])
+
+  useEffect(() => { setHighlight(0) }, [query, open])
+
+  useEffect(() => {
+    if (!open) return
+    function handler(e: MouseEvent) {
+      const target = e.target as Node
+      const inWrapper = wrapperRef.current?.contains(target)
+      const inPanel = listRef.current?.contains(target)
+      if (!inWrapper && !inPanel) {
+        setOpen(false)
+        setQuery('')
+      }
+    }
+    document.addEventListener('mousedown', handler)
+    return () => document.removeEventListener('mousedown', handler)
+  }, [open])
+
+  function commit(opt: ComboboxOption) {
+    onChange(opt.id)
+    setOpen(false)
+    setQuery('')
+    inputRef.current?.blur()
+  }
+
+  function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === 'ArrowDown') {
+      e.preventDefault()
+      if (!open) setOpen(true)
+      setHighlight((h) => Math.min(h + 1, Math.max(filtered.length - 1, 0)))
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault()
+      setHighlight((h) => Math.max(h - 1, 0))
+    } else if (e.key === 'Enter') {
+      e.preventDefault()
+      if (open && filtered[highlight]) commit(filtered[highlight])
+    } else if (e.key === 'Escape') {
+      setOpen(false)
+      setQuery('')
+      inputRef.current?.blur()
+    } else if (e.key === 'Backspace' && !query && selected) {
+      onChange('')
+    }
+  }
+
+  useEffect(() => {
+    if (!open || !listRef.current) return
+    const el = listRef.current.querySelector<HTMLElement>(`[data-idx="${highlight}"]`)
+    el?.scrollIntoView({ block: 'nearest' })
+  }, [highlight, open])
+
+  // Position the portal panel relative to the input using fixed coords.
+  // Recompute on open, on resize, and on scroll of any ancestor.
+  const [panelPos, setPanelPos] = useState<{ top: number; left: number; width: number } | null>(null)
+  const recomputePos = useCallback(() => {
+    if (!inputRef.current) return
+    const rect = inputRef.current.getBoundingClientRect()
+    setPanelPos({
+      top: rect.bottom + 4,
+      left: rect.left,
+      width: Math.max(rect.width, 240),
+    })
+  }, [])
+  useEffect(() => {
+    if (!open) return
+    recomputePos()
+    window.addEventListener('resize', recomputePos)
+    window.addEventListener('scroll', recomputePos, true)
+    return () => {
+      window.removeEventListener('resize', recomputePos)
+      window.removeEventListener('scroll', recomputePos, true)
+    }
+  }, [open, recomputePos])
+
+  // Portal needs window/document, only render after mount
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => { setMounted(true) }, [])
+
+  const panel = open && !disabled && panelPos && mounted ? createPortal(
+    <ul
+      ref={listRef}
+      role="listbox"
+      style={{
+        position: 'fixed',
+        top: panelPos.top,
+        left: panelPos.left,
+        width: panelPos.width,
+        zIndex: 9999,
+      }}
+      className="max-h-72 overflow-auto rounded-md border border-border bg-card text-card-foreground shadow-lg text-sm"
+    >
+      {filtered.length === 0 ? (
+        <li className="px-3 py-2 text-muted-foreground">No matching system</li>
+      ) : (
+        filtered.map((opt, idx) => (
+          <li
+            key={opt.id}
+            role="option"
+            aria-selected={opt.id === value}
+            data-idx={idx}
+            onMouseDown={(e) => { e.preventDefault(); commit(opt) }}
+            onMouseEnter={() => setHighlight(idx)}
+            className={
+              'px-3 py-1.5 cursor-pointer ' +
+              (idx === highlight ? 'bg-accent text-accent-foreground ' : '') +
+              (opt.id === value ? 'font-medium' : '')
+            }
+          >
+            {opt.name}
+          </li>
+        ))
+      )}
+    </ul>,
+    document.body,
+  ) : null
+
+  return (
+    <div ref={wrapperRef} className="relative">
+      <input
+        ref={inputRef}
+        type="text"
+        role="combobox"
+        aria-label={ariaLabel}
+        aria-expanded={open}
+        aria-autocomplete="list"
+        value={inputValue}
+        placeholder={placeholder}
+        disabled={disabled}
+        onChange={(e) => {
+          setQuery(e.target.value)
+          if (!open) setOpen(true)
+        }}
+        onFocus={() => setOpen(true)}
+        onKeyDown={handleKeyDown}
+        className="appearance-none pl-3 pr-7 py-1.5 rounded-md bg-secondary border border-border/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 disabled:opacity-50 disabled:cursor-not-allowed min-w-[180px] w-[220px]"
+      />
+      <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground pointer-events-none" />
+      {panel}
+    </div>
+  )
+}
 
 interface Props {
   systems: ClassificationSystem[]
@@ -319,47 +497,31 @@ export default function CrosswalkExplorerClient({ systems, stats, allSections, i
 
           {/* Row 2: Load graph controls - always visible */}
           <div className="flex items-center gap-2 flex-wrap">
-            <div className="relative">
-              <select
-                value={sourceSystem}
-                onChange={(e) => {
-                  setSourceSystem(e.target.value)
-                  setTargetSystem('')
-                  setLoadPair(null)
-                }}
-                className="appearance-none pl-3 pr-7 py-1.5 rounded-md bg-secondary border border-border/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 cursor-pointer min-w-[180px]"
-              >
-                <option value="">Source system...</option>
-                {crosswalkedSystems.map((s) => (
-                  <option key={s.id} value={s.id}>
-                    {s.name}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground pointer-events-none" />
-            </div>
+            <SystemCombobox
+              ariaLabel="Source system"
+              placeholder="Source system..."
+              value={sourceSystem}
+              options={crosswalkedSystems}
+              onChange={(id) => {
+                setSourceSystem(id)
+                setTargetSystem('')
+                setLoadPair(null)
+              }}
+            />
 
             <span className="text-muted-foreground text-xs">to</span>
 
-            <div className="relative">
-              <select
-                value={targetSystem}
-                onChange={(e) => {
-                  setTargetSystem(e.target.value)
-                  setLoadPair(null)
-                }}
-                disabled={!sourceSystem}
-                className="appearance-none pl-3 pr-7 py-1.5 rounded-md bg-secondary border border-border/50 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 cursor-pointer disabled:opacity-50 min-w-[180px]"
-              >
-                <option value="">Target system...</option>
-                {availableTargets.map((s) => (
-                  <option key={s.id} value={s.id}>
-                    {s.name}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground pointer-events-none" />
-            </div>
+            <SystemCombobox
+              ariaLabel="Target system"
+              placeholder="Target system..."
+              value={targetSystem}
+              options={availableTargets}
+              disabled={!sourceSystem}
+              onChange={(id) => {
+                setTargetSystem(id)
+                setLoadPair(null)
+              }}
+            />
 
             <button
               onClick={handleLoadGraph}

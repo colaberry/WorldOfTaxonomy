@@ -1,6 +1,6 @@
 # WorldOfTaxonomy - Roadmap
 
-Current state: **1,000+ systems, 1,212,173+ codes, ~326,000 crosswalk edges, 249 countries profiled.**
+Current state: **1,000+ systems, 1,305,191+ codes, ~326,000 crosswalk edges, 249 countries profiled.**
 
 ---
 

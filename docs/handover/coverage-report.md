@@ -2,7 +2,7 @@
 
 Generated automatically. Total rows in DB: 1,212,486.
 
-**Aggregate**: 796,763 populated / 1,212,486 total = **65.71% coverage** across 1000 systems.
+**Aggregate**: 796,763 populated / 1,212,486 total = **65.71% coverage** across 1000+ systems.
 
 | system_id | name | total | populated | empty | coverage |
 |---|---|---:|---:|---:|---:|

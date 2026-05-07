@@ -1,6 +1,6 @@
 ## Systems Catalog - All 1,000+ Classification Systems
 
-> **TL;DR:** Complete catalog of 1,000+ classification systems organized by category. Industry (150+), Life Sciences (100+), Product/Trade (20+), Occupation (15+), Regulatory (100+), and 300+ domain vocabularies - all connected by 321K+ crosswalk edges.
+> **TL;DR:** Complete catalog of 1,000+ classification systems organized by category. Industry (150+), Life Sciences (100+), Product/Trade (20+), Occupation (15+), Regulatory (100+), and 300+ domain vocabularies - all connected by 326K+ crosswalk edges.
 
 ---
 

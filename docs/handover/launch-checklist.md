@@ -12,7 +12,7 @@
 is operator action (deploy + configure + smoke), not engineering.
 
 - **Section 1 (Cloud Run migration)**: done pre-Phase-6.
-- **Section 2 (LLM coverage)**: 63%+ on the 1,000 systems; further
+- **Section 2 (LLM coverage)**: 63%+ on the 1,000+ systems; further
   rounds can run post-launch in the background.
 - **Section 3 (developer-key system)**: shipped via PRs #119, #121,
   #122, #124, #125, #126 (all merged).

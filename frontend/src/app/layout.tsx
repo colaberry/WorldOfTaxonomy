@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | World Of Taxonomy",
   },
   description:
-    "Explore 1,000+ global classification systems with 1.2M+ codes. Search NAICS, ISIC, HS, ICD, SOC codes and discover cross-system mappings.",
+    "Explore 1,000+ global classification systems with 1.3M+ codes. Search NAICS, ISIC, HS, ICD, SOC codes and discover cross-system mappings.",
   keywords: [
     "NAICS codes",
     "ISIC codes",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "World Of Taxonomy",
     title: "World Of Taxonomy - Global Classification Knowledge Graph",
     description:
-      "1,000+ systems, 1.2M+ codes, 321K+ crosswalks. Search, browse, and translate classification codes across NAICS, ISIC, HS, ICD, and more.",
+      "1,000+ systems, 1.3M+ codes, 326K+ crosswalks. Search, browse, and translate classification codes across NAICS, ISIC, HS, ICD, and more.",
   },
   twitter: {
     card: "summary_large_image",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     creator: "@ramdhanyk",
     title: "World Of Taxonomy - Global Classification Knowledge Graph",
     description:
-      "1,000+ systems, 1.2M+ codes, 321K+ crosswalks. Search, browse, and translate classification codes across NAICS, ISIC, HS, ICD, and more.",
+      "1,000+ systems, 1.3M+ codes, 326K+ crosswalks. Search, browse, and translate classification codes across NAICS, ISIC, HS, ICD, and more.",
   },
   robots: {
     index: true,
@@ -95,7 +95,7 @@ const jsonLd = [
     "@type": "DataCatalog",
     name: "World Of Taxonomy",
     description:
-      "Unified global classification knowledge graph with 1,000+ systems, 1.2M+ codes, and 321K+ crosswalk edges.",
+      "Unified global classification knowledge graph with 1,000+ systems, 1.3M+ codes, and 326K+ crosswalk edges.",
     url: "https://worldoftaxonomy.com",
     creator: {
       "@type": "Organization",

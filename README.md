@@ -1,7 +1,7 @@
 # World Of Taxonomy
 
 <p align="center">
-  <strong>1,000 classification systems. 1,212,000+ codes. 326,000+ crosswalk edges.</strong><br>
+  <strong>1,000+ classification systems. 1,305,000+ codes. 326,000+ crosswalk edges.</strong><br>
   The open-source Rosetta Stone for global industry, trade, occupation, health, and regulatory taxonomies.<br>
   An open-source project by <a href="https://www.colaberry.ai">Colaberry Inc</a> and <a href="https://www.colaberry.ai">Colaberry Research Labs</a>.
 </p>
@@ -17,8 +17,8 @@
   <img src="https://img.shields.io/badge/python-3.9%2B-blue.svg" alt="Python 3.9+" />
   <img src="https://img.shields.io/badge/next.js-16-black.svg" alt="Next.js 16" />
   <img src="https://img.shields.io/badge/MCP-compatible-orange.svg" alt="MCP compatible" />
-  <img src="https://img.shields.io/badge/systems-1000-purple.svg" alt="1000 systems" />
-  <img src="https://img.shields.io/badge/codes-1.2M%2B-green.svg" alt="1.2M codes" />
+  <img src="https://img.shields.io/badge/systems-1000%2B-purple.svg" alt="1000+ systems" />
+  <img src="https://img.shields.io/badge/codes-1.3M%2B-green.svg" alt="1.3M+ codes" />
   <a href="https://github.com/sponsors/ramdhanyk">
     <img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa.svg" alt="Sponsor" />
   </a>
@@ -32,7 +32,7 @@ Every country, industry body, and standards organization has its own classificat
 
 A truck driver in the US is `NAICS 484`, `SOC 53-3032`, `ISCO-08 8332`, `NACE 49.4`, and `ISIC 4923` - five different codes in five different systems that all mean the same thing. Figuring that out manually costs hours. Doing it at scale costs entire teams.
 
-**World Of Taxonomy solves this.** One queryable graph connects all 1,000 systems. One API call translates any code to any other system. One MCP server gives AI agents access to the entire taxonomy universe.
+**World Of Taxonomy solves this.** One queryable graph connects all 1,000+ systems. One API call translates any code to any other system. One MCP server gives AI agents access to the entire taxonomy universe.
 
 ---
 
@@ -49,7 +49,7 @@ graph TB
     WIKI["wiki/*.md files"]
   end
   subgraph Backend["Python Backend"]
-    INGEST["Ingesters - 1,000 systems"]
+    INGEST["Ingesters - 1,000+ systems"]
     API["FastAPI REST API - /api/v1/*"]
     MCP["MCP Server - stdio transport"]
     WIKILOADER["Wiki Loader - wiki.py"]
@@ -81,7 +81,7 @@ graph TB
 
 ### Ingestion Pipeline
 
-Each of the 1,000 systems has a dedicated ingester that fetches from authoritative sources and loads into three core tables.
+Each of the 1,000+ systems has a dedicated ingester that fetches from authoritative sources and loads into three core tables.
 
 ```mermaid
 graph TD
@@ -99,7 +99,7 @@ graph TD
   end
   subgraph DB["Database Tables"]
     SYS["classification_system - 1,000+ systems"]
-    NODE["classification_node - 1.2M+ nodes"]
+    NODE["classification_node - 1.3M+ nodes"]
     EQUIV["equivalence - 326K+ edges"]
   end
   CSV --> PARSE
@@ -152,7 +152,7 @@ sequenceDiagram
   MCP->>WIKI: build_wiki_context()
   WIKI-->>MCP: Structural knowledge - ~15K tokens
   MCP-->>AI: serverInfo + instructions + capabilities
-  Note over AI: Agent now knows all 1,000 systems and crosswalk topology
+  Note over AI: Agent now knows all 1,000+ systems and crosswalk topology
   AI->>MCP: tools/call search_classifications
   MCP->>DB: Query nodes
   DB-->>MCP: Results
@@ -240,7 +240,7 @@ python3 -m uvicorn world_of_taxonomy.api.app:create_app --factory --port 8000
 # Translate NAICS 4841 (general freight trucking) to all equivalent systems
 curl "http://localhost:8000/api/v1/systems/naics_2022/nodes/4841/translations"
 
-# Search for "hospital" across all 1,000 systems simultaneously
+# Search for "hospital" across all 1,000+ systems simultaneously
 curl "http://localhost:8000/api/v1/search?q=hospital&grouped=true"
 
 # Get every classification system applicable to Germany
@@ -275,7 +275,7 @@ translations = json.loads(r[1])
 
 ## Use With Claude / AI Agents (MCP)
 
-World Of Taxonomy ships with a Model Context Protocol server. Add it to Claude Desktop and your AI gets instant access to all 1,000 systems as structured tools.
+World Of Taxonomy ships with a Model Context Protocol server. Add it to Claude Desktop and your AI gets instant access to all 1,000+ systems as structured tools.
 
 **`~/Library/Application Support/Claude/claude_desktop_config.json`:**
 
@@ -298,7 +298,7 @@ World Of Taxonomy ships with a Model Context Protocol server. Add it to Claude D
 | Tool | What it does |
 |------|-------------|
 | `translate_code` | Translate any code to a target system |
-| `translate_across_all_systems` | One code -> all 1,000 systems at once |
+| `translate_across_all_systems` | One code -> all 1,000+ systems at once |
 | `search_classifications` | Full-text search across all codes |
 | `get_country_taxonomy_profile` | Official + recommended systems for any country |
 | `compare_sector` | Side-by-side root nodes across two systems |
@@ -313,7 +313,7 @@ World Of Taxonomy ships with a Model Context Protocol server. Add it to Claude D
 
 ## What's Covered
 
-**16 categories. 1,000 systems. Every major region.**
+**16 categories. 1,000+ systems. Every major region.**
 
 | Category | Systems | Highlights |
 |----------|---------|-----------|

@@ -1,6 +1,6 @@
 ## The Crosswalk Graph: Visualizing How Systems Connect
 
-> **TL;DR:** 321,000 crosswalk edges connecting 1,000 systems are hard to comprehend as numbers. The Crosswalk Explorer renders them as an interactive graph - systems on a ring, edges showing connections, click to drill into code-level mappings. Built with Cytoscape.js.
+> **TL;DR:** 321,000 crosswalk edges connecting 1,000+ systems are hard to comprehend as numbers. The Crosswalk Explorer renders them as an interactive graph - systems on a ring, edges showing connections, click to drill into code-level mappings. Built with Cytoscape.js.
 
 ---
 
