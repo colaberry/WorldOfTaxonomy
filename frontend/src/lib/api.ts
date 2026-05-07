@@ -297,6 +297,7 @@ export interface ClassifyDemoResponse {
   disclaimer: string
   report_issue_url: string
   demo: boolean
+  is_logged_in?: boolean
   upgrade_cta: string
   compound?: boolean
   atoms?: ClassifyDemoAtom[] | null

@@ -224,6 +224,117 @@ class TestClassifyDemoHandler:
             f"demo response leaked paid-tier domain taxonomies: {domain_ids}"
         )
 
+    def test_handler_logged_in_tier_passes_broader_surface(
+        self, db_pool, monkeypatch
+    ):
+        """Logged-in callers reach classify_text with the 10-system surface
+        and limit=5. Direct args check (the seeded test DB only has a
+        subset of systems, so we verify the wiring rather than
+        end-to-end matches)."""
+        from world_of_taxonomy.api.routers import classify_demo as cd
+
+        captured: dict = {}
+
+        async def _capture_classify_text(conn, *, text, system_ids, limit, include_domains):
+            captured["system_ids"] = list(system_ids)
+            captured["limit"] = limit
+            captured["include_domains"] = include_domains
+            return {
+                "query": text,
+                "compound": False,
+                "matches": [],
+                "atoms": None,
+                "hero": None,
+                "disclaimer": "",
+                "report_issue_url": "",
+                "cta": None,
+                "llm_used": False,
+                "llm_keywords": [],
+            }
+
+        monkeypatch.setattr(cd, "classify_text", _capture_classify_text)
+
+        req = cd.ClassifyDemoRequest(
+            email="lead-logged-in@example.com",
+            text="pharmaceutical wholesaler",
+        )
+
+        async def go():
+            async with db_pool.acquire() as conn:
+                return await cd.classify_demo_handler(
+                    req,
+                    conn=conn,
+                    ip_address=None,
+                    user_agent=None,
+                    referrer=None,
+                    is_logged_in=True,
+                )
+
+        result = _run(go())
+        assert result["is_logged_in"] is True
+        assert result["domain_matches"] == []  # domains remain paid-only
+        # The handler must pass the 10-system list and the 5-result cap.
+        assert set(captured["system_ids"]) == set(cd.LOGGED_IN_SYSTEMS)
+        assert captured["limit"] == cd.LOGGED_IN_RESULTS_PER_SYSTEM == 5
+        assert captured["include_domains"] is False
+        # Spot-check the additions one final time so a future re-edit of
+        # LOGGED_IN_SYSTEMS still has to think about each axis.
+        assert "hs_2022" in cd.LOGGED_IN_SYSTEMS  # trade
+        assert "cpc_v21" in cd.LOGGED_IN_SYSTEMS  # products
+        assert "unspsc_v24" in cd.LOGGED_IN_SYSTEMS  # procurement
+        assert "icd_11" in cd.LOGGED_IN_SYSTEMS  # health
+        assert "isco_08" in cd.LOGGED_IN_SYSTEMS  # international occupations
+
+    def test_handler_anon_tier_passes_narrower_surface(
+        self, db_pool, monkeypatch
+    ):
+        """Anonymous callers reach classify_text with the 5-system DEMO
+        surface and limit=3."""
+        from world_of_taxonomy.api.routers import classify_demo as cd
+
+        captured: dict = {}
+
+        async def _capture_classify_text(conn, *, text, system_ids, limit, include_domains):
+            captured["system_ids"] = list(system_ids)
+            captured["limit"] = limit
+            captured["include_domains"] = include_domains
+            return {
+                "query": text,
+                "compound": False,
+                "matches": [],
+                "atoms": None,
+                "hero": None,
+                "disclaimer": "",
+                "report_issue_url": "",
+                "cta": None,
+                "llm_used": False,
+                "llm_keywords": [],
+            }
+
+        monkeypatch.setattr(cd, "classify_text", _capture_classify_text)
+
+        req = cd.ClassifyDemoRequest(
+            email="lead-anon-cap@example.com",
+            text="pharmaceutical wholesaler",
+        )
+
+        async def go():
+            async with db_pool.acquire() as conn:
+                return await cd.classify_demo_handler(
+                    req,
+                    conn=conn,
+                    ip_address=None,
+                    user_agent=None,
+                    referrer=None,
+                    # is_logged_in defaults to False
+                )
+
+        result = _run(go())
+        assert result["is_logged_in"] is False
+        assert set(captured["system_ids"]) == set(cd.DEMO_SYSTEMS)
+        assert captured["limit"] == cd.DEMO_RESULTS_PER_SYSTEM == 3
+        assert captured["include_domains"] is False
+
     def test_handler_caps_results_per_system(self, db_pool):
         """Demo users get at most 3 results per system (vs 20 on paid)."""
         from world_of_taxonomy.api.routers.classify_demo import (
@@ -300,7 +411,7 @@ class TestClassifyDemoPerIPRateLimit:
 
         # Stub the inner handler so calls return immediately without
         # touching the DB or LLM.
-        async def _fast_handler(body, *, conn, ip_address, user_agent, referrer):
+        async def _fast_handler(body, *, conn, ip_address, user_agent, referrer, is_logged_in=False):
             return {"query": body.text, "demo": True, "domain_matches": [], "standard_matches": []}
 
         monkeypatch.setattr(cd, "classify_demo_handler", _fast_handler)
