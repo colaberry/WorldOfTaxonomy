@@ -1,16 +1,40 @@
 # Stripe end-to-end smoke test (test mode)
 
 The 8-step verification you run after the Day 2 backend + Day 3 frontend
-ship to staging, before flipping Stripe to live mode for public launch.
+ship, before flipping Stripe to live mode for public launch.
+
+## Target environment
+
+There is no separate `www.worldoftaxonomy.com` today. The smoke runs
+against **prod** with **Stripe TEST-MODE keys** (Stripe enforces complete
+isolation between test and live data). This is safe because:
+- Stripe test mode does not move real money
+- Test users / customers / subscriptions are created on the prod DB but
+  the smoke script (or the steps below) cleans them up at the end
+- Existing prod customers and classification data are not touched
+
+If a separate staging environment is set up later (Cloud Run services
+plus a dedicated Cloud SQL instance behind a different subdomain),
+swap the prod URL for the staging URL throughout this runbook. No other
+content changes.
 
 Prerequisites:
-- Day 2 PR (#187) merged to main and deployed to staging
+- Day 2 PR (#187) merged to main and deployed to prod
 - Day 3 PR (frontend + cron) merged and deployed
-- Stripe is in **test mode** (the default; verify the toggle in the
-  Stripe dashboard top-right)
+- Stripe in **test mode** (toggle is top-right in the Stripe dashboard)
+- Webhook endpoint registered in Stripe test mode pointing at
+  `https://wot-api-602819879609.us-east1.run.app/api/v1/billing/webhook`
+  (or the wired equivalent if a custom domain like `wot.aixcelerator.ai`
+  is mapped). Without this, `customer.subscription.*` events never
+  reach wot-api and tier flips never happen.
 - Cloud Run Job `wot-stripe-overage` exists (per
   [stripe-overage-cron.md](stripe-overage-cron.md))
-- A test email inbox you control (Mailtrap, Gmail, anything)
+- For the browser-driven path: a test email inbox you control plus
+  `RESEND_API_KEY` wired into wot-api so magic-link emails actually
+  deliver. If Resend is not yet wired, use the programmatic smoke
+  variant in `docs/handover/runbooks/stripe-smoke-programmatic.md`
+  (creates the test user and Stripe subscription via API, skipping
+  the hosted Checkout UI).
 
 Time required: ~20 minutes.
 
@@ -28,7 +52,7 @@ For all test cards: any future expiry, any 3-digit CVC, any postal code.
 
 ### 1. Sign up a fresh test account
 
-- Open `https://staging.worldoftaxonomy.com/login` (or wherever staging lives)
+- Open `https://www.worldoftaxonomy.com/login`
 - Enter a test email, click the magic link in your inbox
 - Land on `/developers/keys`. Verify the **Billing panel** shows
   `tier = free` and an "Upgrade to Pro" button.
@@ -41,7 +65,7 @@ For all test cards: any future expiry, any 3-digit CVC, any postal code.
 - Use card `4242 4242 4242 4242`, any expiry/CVC/zip
 - Stripe shows "Start trial" (14 days free)
 - Click "Start trial"
-- Stripe redirects to `staging.worldoftaxonomy.com/developers/keys?upgraded=true`
+- Stripe redirects to `www.worldoftaxonomy.com/developers/keys?upgraded=true`
 
 ### 3. Verify the webhook fired and tier flipped
 
@@ -74,7 +98,7 @@ KEY=wot_xxxxx
 for i in $(seq 1 100); do
   curl -s -o /dev/null -w "%{http_code}\n" \
     -H "Authorization: Bearer $KEY" \
-    "https://staging.worldoftaxonomy.com/api/v1/search?q=hospital"
+    "https://www.worldoftaxonomy.com/api/v1/search?q=hospital"
 done | sort | uniq -c
 ```
 
@@ -90,7 +114,7 @@ for i in $(seq 1 250); do
     -H "Authorization: Bearer $KEY" \
     -H "Content-Type: application/json" \
     -X POST -d '{"text": "trucking and freight transport"}' \
-    "https://staging.worldoftaxonomy.com/api/v1/classify"
+    "https://www.worldoftaxonomy.com/api/v1/classify"
 done | sort | uniq -c
 ```
 
