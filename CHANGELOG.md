@@ -9,6 +9,10 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Classification Systems
+
+- **GeoNames Feature Codes** (`geonames_features`): 693 nodes (9 feature classes + 684 codes) covering administrative divisions, hydrographic features, populated places, terrain, undersea, vegetation, and more. CC BY 4.0, sourced from GeoNames. 100% description coverage (635 from source + 58 curated supplementary). Closes the GeoNames gap identified in the WoO inclusion-policy audit.
+
 ### Infrastructure and Operations
 
 **Observability and reliability:**

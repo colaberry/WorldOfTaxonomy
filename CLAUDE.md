@@ -165,6 +165,7 @@ WorldOfTaxonomy is a unified global industry classification knowledge graph. It 
 | HTS (US) | United States | 120 |
 | ICD-10-CM | United States | 97,606 |
 | MeSH | Global | 31,124 |
+| GeoNames Features | Global (GeoNames) | 693 |
 | PRODCOM | European Union | 38 |
 | CPV 2008 | European Union | 96 |
 | ACM CCS 2012 | Global | 67 |
