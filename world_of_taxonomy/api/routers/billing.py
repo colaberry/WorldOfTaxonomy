@@ -27,6 +27,7 @@ numbers; change the memory entry first if a price changes.
 """
 from __future__ import annotations
 
+import json
 import logging
 import os
 from typing import Any, Awaitable, Callable, Literal, Optional
@@ -418,7 +419,14 @@ async def webhook_endpoint(request: Request, conn=Depends(get_conn)):
     payload = await request.body()
     sig_header = request.headers.get("Stripe-Signature", "")
     try:
-        event = verify_webhook(payload=payload, sig_header=sig_header)
+        # verify_webhook returns a stripe.Event (StripeObject) which in
+        # stripe>=9 does NOT support dict-style .get() on the top level.
+        # We only call it for signature verification; downstream handler
+        # code expects a plain dict (it uses .get() heavily on event,
+        # event.data.object, etc.). Parse the already-validated payload
+        # as plain JSON for that purpose.
+        verify_webhook(payload=payload, sig_header=sig_header)
+        event: dict[str, Any] = json.loads(payload)
     except Exception as exc:  # SignatureVerificationError, ValueError, etc.
         logger.warning("stripe webhook signature verification failed: %s", exc)
         raise HTTPException(status_code=400, detail="Invalid signature.")
