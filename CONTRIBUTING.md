@@ -106,7 +106,71 @@ python3 -c "import pathlib; [exit(1) for f in pathlib.Path('.').rglob('*.py') if
 3. Update `DATA_SOURCES.md` - add attribution row
 4. Update `CHANGELOG.md` - add entry under `[Unreleased]`
 
-### Step 4 - Verify frontend routes
+### Step 4 - Enrich descriptions
+
+After the ingester runs, the system has codes and titles in the DB but most rows have an empty `description`. Pick the right enrichment strategy by system size and source:
+
+**Source has descriptions** (e.g., GeoNames feature codes, WordNet glosses, schema.org `rdfs:comment`). Use them as-is. Map the source's description column to `classification_node.description` directly in the ingester. No LLM needed.
+
+**Small system** (under ~10K nodes without descriptions): use native Claude Code enrichment in a dev session.
+
+```bash
+python scripts/native_enrich.py --system <system_id> --batch-size 500
+```
+
+The script reads pending rows from the DB, prints a prompt for an interactive Claude Code session, reads the JSONL response, and applies UPSERTs. Faster and higher quality than the cloud pipeline for vocabularies that are well-represented in modern LLMs (schema.org, FIBO, GS1 GPC). One-shot for the seed; not automated.
+
+**Large system** (10K+ nodes without descriptions): use the Track 2 verified-LLM pipeline.
+
+```bash
+nohup bash -c 'set -a; source .env; set +a; export PYTHONPATH=.; \
+  STALL_SEC=1800 CHECK_SEC=300 SYSTEM=<system_id> CONCURRENCY=12 \
+  bash scripts/track2_watchdog.sh' > /tmp/<system>_watchdog.log 2>&1 &
+```
+
+For the residue (no/uncertain verdicts), launch a second pass against the local qwen2.5:72b model:
+
+```bash
+OLLAMA_API_KEY=ollama OLLAMA_BASE_URL=http://localhost:11434/v1 \
+  OLLAMA_MODEL=qwen2.5:72b VERIFIER_MODEL=qwen2.5:72b \
+  python -u -m scripts.qwen_rescue --systems <system_id> --concurrency 1 --flush-every 100
+```
+
+Verify coverage before moving on:
+
+```sql
+SELECT count(*) total, count(description) with_desc,
+       round(100.0 * count(description) / count(*), 2) AS pct
+FROM classification_node WHERE system_id = '<system_id>';
+```
+
+Aim for >= 99% coverage on systems where descriptions are first-class. Lower targets (~95%) are acceptable when the LLM legitimately cannot generate a useful description for ambiguous codes.
+
+### Step 5 - Update the wiki (Karpathy LLM Wiki Pattern)
+
+WoT distributes editorial content through four channels: web `/guide/[slug]`, MCP `instructions`, `frontend/public/llms-full.txt`, and the wiki API. New systems must surface in this fabric, not just in the database.
+
+At minimum:
+
+1. Add the system to `wiki/systems-catalog.md`. Pick the right category section (industry, trade, occupation, health, education, financial, regulatory, domain, geographic, etc.) and add one bullet with name, node count, and region/authority.
+
+If the system fits an existing topical guide:
+
+2. Extend the relevant page with a paragraph or table row. Examples:
+   - Industry standard: `wiki/industry-classification.md`
+   - Trade or product code system: `wiki/trade-codes.md`
+   - Medical or health: `wiki/medical-coding.md`
+   - Occupation or skills: `wiki/occupation-systems.md`
+   - Geographic features: `wiki/categories-and-sectors.md` under geographic systems
+   - New crosswalk topology: `wiki/crosswalk-map.md`
+
+If the system opens a topic no existing wiki page covers (e.g., the first web vocabulary, the first lexical resource, the first financial ontology):
+
+3. Add a new wiki page `wiki/<topic>.md` and register it in `wiki/_meta.json` with a unique `slug`, descriptive `title`, one-sentence `description`, and a fresh `order` value (one higher than the current max). Cross-link from any related existing pages.
+
+The em-dash CI guard applies to wiki content. Use hyphens.
+
+### Step 6 - Verify frontend routes
 
 The `/codes` hub lists every system in the database. A new system's hub and deep-code pages must serve 200 on-demand.
 
@@ -128,11 +192,30 @@ Both must return 200. If either 404s, the route is gated - fix the route, not th
 
 **When to add to `MAJOR_SYSTEMS`.** Only when the system is commercially significant enough to warrant pre-rendering its sector pages at build time (SEO priority). Most new systems do not need this - ISR serves them fine on first request.
 
-### Step 5 - Commit
+### Step 7 - Regenerate AEO/RAG channels
+
+After enrichment lands in the DB and the wiki has been updated, regenerate the public-facing static text artifacts so AI crawlers and the four-channel wiki distribution pick up the new system.
+
+```bash
+# llms-full.txt + llms.txt (driven by wiki/ content + system index)
+python scripts/build_llms_txt.py
+
+# llms-codes/ static dumps (driven by DB content)
+# In dev, run via the seed helper to also commit + open a PR
+bash scripts/seed_static_content.sh --push --pr
+```
+
+The pre-push hook also runs `build_static_content.py` and aborts the push if `llms-codes/` drifts from the DB, so a regen is enforced even if you forget. The weekly `static-content-refresh.yml` workflow opens drift PRs from the production DB as a final safety net.
+
+If the system is large enough that the regen produces a multi-MB diff, consider a separate "regen" PR after the ingestion PR merges, rather than bundling both. See [Inclusion Policy](wiki/inclusion-policy.md) for related guidance on system size and subsetting.
+
+### Step 8 - Commit
 
 ```bash
 git add world_of_taxonomy/ingest/<system>.py tests/test_ingest_<system>.py
 git add world_of_taxonomy/__main__.py CLAUDE.md DATA_SOURCES.md CHANGELOG.md
+git add wiki/systems-catalog.md wiki/_meta.json wiki/<topic>.md
+git add frontend/public/llms-full.txt frontend/public/llms.txt
 git commit -m "feat: ingest <system> (<N> codes, TDD green)"
 ```
 
@@ -145,14 +228,18 @@ git commit -m "feat: ingest <system> (<N> codes, TDD green)"
 - [ ] Em-dash check passes
 - [ ] CLI registered
 - [ ] CLAUDE.md, DATA_SOURCES.md, CHANGELOG.md updated
+- [ ] Descriptions enriched: SQL coverage check shows >= 99% (or documented lower target)
+- [ ] Wiki updated: `systems-catalog.md` row added, topical guide extended, new page created if needed
 - [ ] Full test suite passes: `python3 -m pytest tests/ -v`
 - [ ] Frontend smoke test: `/codes/<new_system>` and `/codes/<new_system>/<code>` both return 200
+- [ ] `llms-full.txt` + `llms.txt` regenerated
+- [ ] `llms-codes/` regenerated (pre-push hook will catch drift if forgotten)
 
 ---
 
 ## Adding a Domain Deep-Dive Taxonomy
 
-Follow Steps 0-4 above with these additions:
+Follow Steps 0-8 above with these additions:
 
 1. Register in **both** `classification_system` (FK requirement) and `domain_taxonomy`
 2. After inserting nodes, update **both** `classification_system.node_count` and `domain_taxonomy.code_count`
