@@ -703,6 +703,18 @@ These vocabularies define types and concepts used by AI assistants, search engin
 |--------|--------|-------|-----------|---------|
 | FIBO | Global | 2,521 | EDM Council | Financial Industry Business Ontology - class hierarchies for business entities, instruments, derivatives, indices, loans, securities |
 
+## Financial Ontologies
+
+| System | Region | Codes | Authority | Purpose |
+|--------|--------|-------|-----------|---------|
+| FIBO | Global | 2,521 | EDM Council | Financial Industry Business Ontology - class hierarchies for business entities, instruments, derivatives, indices, loans, securities |
+
+## Lexical Resources
+
+| System | Region | Codes | Authority | Purpose |
+|--------|--------|-------|-----------|---------|
+| WordNet (Nouns) | Global | 82,115 | Princeton University | Lexical semantic database; noun hypernym tree rooted at entity.n.01. Anchors common-sense concept relationships for NLP and AI reasoning. |
+
 ## Patent Classification
 
 | System | Region | Codes | Purpose |

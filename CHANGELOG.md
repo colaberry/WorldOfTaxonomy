@@ -11,7 +11,9 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Classification Systems
 
+- **WordNet Nouns** (`wordnet_nouns`): 82,115 noun synsets from Princeton WordNet 3.1, organized as a hypernym tree rooted at entity.n.01. WordNet License (BSD-style), sourced via NLTK's WordNet corpus. 100% description coverage native (synset glosses). Multi-hypernym synsets (~1.7%) keep first listed as canonical; alternatives noted in description. Verbs, adjectives, and adverbs are not ingested in this PR (verbs queued for follow-up if valuable). Closes the WordNet gap from the WoO inclusion-policy audit.
 - **schema.org Type Vocabulary** (`schema_org`): 926 nodes covering the rdfs:Class type tree rooted at `schema:Thing`. CC BY-SA 3.0, sourced from schema.org's official JSON-LD dump. 100% description coverage native to source. Closes the schema.org gap from the WoO inclusion-policy audit and provides the primary AEO/SEO anchor for the portfolio. Properties (rdf:Property entries) are not ingested per the inclusion policy's exclusion of pure property vocabularies.
+- **FIBO** (`fibo`): 2,521 OWL classes across 7 modules (BE, FBC, FND, SEC, DER, IND, LOAN) covering the Financial Industry Business Ontology. MIT license, sourced from github.com/edmcouncil/fibo. 95.95% description coverage native (skos:definition). Codes use module-prefixed local names (e.g., 'BE/SoleProprietor', 'SEC/Equity') to disambiguate ~13 cross-module collisions. Properties (rdf:Property entries) are not ingested per the inclusion policy. Closes the FIBO gap from the WoO inclusion-policy audit.
 - New wiki page `wiki/web-vocabularies.md` introducing the topic with schema.org as the anchor.
 
 ### Classification Systems
