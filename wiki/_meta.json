@@ -84,10 +84,17 @@
     "order": 12
   },
   {
+    "slug": "web-vocabularies",
+    "file": "web-vocabularies.md",
+    "title": "Web Vocabularies - schema.org, SKOS, and Related Type Systems",
+    "description": "Type and concept vocabularies used by AI assistants, search engines, and structured-data crawlers. Covers schema.org (926 types) as the primary AEO/SEO anchor, plus SKOS, W3C standards, and IAB content taxonomy.",
+    "order": 13
+  },
+  {
     "slug": "architecture",
     "file": "architecture.md",
     "title": "System Architecture and Data Flows",
     "description": "Architecture diagrams showing system design, data ingestion pipeline, API request flow, MCP session lifecycle, and the four-channel wiki distribution.",
-    "order": 13
+    "order": 14
   }
 ]
