@@ -9,6 +9,14 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Wiki and Crosswalks
+
+- **Restored content from PR #213** that was lost when its base PR (#212) was squash-merged. Restores `wiki/process-frameworks.md`, `world_of_taxonomy/ingest/crosswalk_apqc_anchors.py`, and `tests/test_crosswalk_apqc_anchors.py`, plus the trade-codes / web-vocabularies / `__main__.py` patches PR #213 added. The 34 APQC PCF Level-1 conceptual crosswalks (8 to SCOR, 15 to ITIL 4, 6 to COBIT, 5 to PMBOK 7) are back.
+- **New `wiki/tech-standards-misc.md`** covering ~80 technology and reference taxonomies that don't form a coherent topical cluster: telecom and networking specs (3GPP, ITU-T, ITU-R, IETF RFC, IEEE), connectivity (Bluetooth, USB, PCI-SIG, JEDEC, SEMI, VESA), web/internet (MIME types, HTTP status, SPDX, WCAG), cybersecurity catalogs (MITRE ATT&CK, CVE types, OWASP Top 10), AI/cloud-native, engineering reference (SI Units, Container ISO, NATO Codification, MIL-STD, IBC), trade-tariff minor systems (TARIC, ECCN, Schedule B, CPV, COICOP), and regulatory administrative anchors (CFR Titles, USC Titles, GDPR articles, IRS Forms, VAT Rate Types). Plus logistics (NMFC, STCC, IMO, IATA, ICAO, UIC, WCO SAFE) and miscellaneous reference (Olympic, FIFA, Pantone, RAL, ISBN, Richter, USDA Soil, OECD DAC, NAIC Lines, and more).
+- **Extended `wiki/industry-classification.md`** with a "National variants - full enumeration" section that names every NACE-family (~40), CIIU/ISIC LatAm (~13), Asia-Pacific (~15), Russia, South Africa, and historical NAICS variants by `system_id`. The 80+ ISIC Rev 4 country adaptations stay as a `prefix=isic_` API pointer (would bloat the page beyond reading length).
+
+These three changes lift non-domain Karpathy Wiki coverage from ~75% (after PRs #214 / #215 / #216) to ~95%. Coverage gaps remaining are the 419 `domain_*` taxonomies, which are intentionally addressed by `wiki/domain-vs-standard.md`.
+
 ### Classification Systems
 
 - **APQC PCF (Skeleton)** (`apqc_pcf`): 13 top-level categories of the APQC Cross-Industry Process Classification Framework (Develop Vision and Strategy through Develop and Manage Business Capabilities). Closes the process / activity anchor gap identified in the WoO subject/worker/process/outcome anchor audit. Provenance is `manual_transcription` because the structure is encoded from publicly documented APQC v7.4 materials; descriptions are paraphrased from canonical APQC abstracts (no external API calls). Levels 2-5 (~1,500 detailed process elements) require the official APQC spreadsheet (free with registration at apqc.org/process-frameworks); the ingester is structured so a future contributor can extend in place without changing the system_id. Authority: APQC. License: APQC PCF (free use with attribution).

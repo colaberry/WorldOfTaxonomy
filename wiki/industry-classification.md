@@ -76,6 +76,128 @@ All countries use CIIU Rev 4 (the Spanish translation of ISIC Rev 4) with 766 co
 
 All EU member states use NACE Rev 2 with national naming: ATECO (Italy), NAF (France), WZ (Germany), CNAE (Spain), PKD (Poland), SBI (Netherlands), SNI (Sweden), and others. The structure is identical - 996 codes with 1:1 mapping.
 
+## National variants - full enumeration
+
+These are the WoT system IDs for every country-specific industry classification carried in the graph. They share structure with the parent system (NAICS for North/Central America, NACE Rev 2 for EU and adjacent, ISIC Rev 4 for everywhere else); each is its own WoT system with the publisher's identifiers preserved so country-specific filings stay clean.
+
+### NACE Rev 2 family (EU and adjacent)
+
+| System ID | Country | Authority |
+|-----------|---------|-----------|
+| `nace_rev2` | EU (master) | Eurostat |
+| `ateco_2007` | Italy | ISTAT |
+| `naf_rev2` | France | INSEE |
+| `wz_2008` | Germany | Destatis |
+| `onace_2008` | Austria | Statistik Austria |
+| `noga_2008` | Switzerland | Federal Statistical Office |
+| `pkd_2007` | Poland | GUS |
+| `sbi_2008` | Netherlands | CBS |
+| `sni_2007` | Sweden | SCB |
+| `db07` | Denmark | Statistics Denmark |
+| `tol_2008` | Finland | Statistics Finland |
+| `cnae_2009` | Spain | INE |
+| `nace_bel` | Belgium | Statbel |
+| `nace_lu` | Luxembourg | STATEC |
+| `nace_ie` | Ireland | CSO Ireland |
+| `cae_rev3` | Portugal | INE Portugal |
+| `cz_nace` | Czech Republic | CZSO |
+| `teaor_2008` | Hungary | KSH |
+| `caen_rev2` | Romania | INS |
+| `nkd_2007` | Croatia | DZS |
+| `sk_nace` | Slovakia | Statistical Office SR |
+| `nkid` | Bulgaria | NSI |
+| `emtak` | Estonia | Statistics Estonia |
+| `nace_lt` | Lithuania | Statistics Lithuania |
+| `nk_lv` | Latvia | CSB Latvia |
+| `stakod_08` | Greece | ELSTAT |
+| `nace_cy` | Cyprus | CYSTAT |
+| `nace_mt` | Malta | NSO Malta |
+| `skd_2008` | Slovenia | SURS |
+| `sn_2007` | Norway | SSB |
+| `isat_2008` | Iceland | Statistics Iceland |
+| `nace_tr` | Turkey | TÜİK |
+| `kd_rs` | Serbia | SORS |
+| `nkd_mk` | North Macedonia | State Statistical Office |
+| `kd_ba` | Bosnia and Herzegovina | BHAS |
+| `kd_me` | Montenegro | MONSTAT |
+| `nve_al` | Albania | INSTAT |
+| `kd_xk` | Kosovo | ASK |
+| `caem_md` | Moldova | National Bureau of Statistics |
+| `kved_ua` | Ukraine | State Statistics Service |
+| `nace_ge` | Georgia | GeoStat |
+| `nace_am` | Armenia | Armstat |
+
+### ISIC Rev 4 family (LatAm, Asia-Pacific, Africa, Middle East)
+
+The "CIIU" prefix is the Spanish translation of ISIC. Each Latin American country publishes its own national version. The Asia-Pacific and African nations listed below use ISIC Rev 4 directly with national codes.
+
+| System ID | Country | Notes |
+|-----------|---------|-------|
+| `ciiu_co` | Colombia | CIIU Rev 4 AC |
+| `ciiu_ar` | Argentina | CLANAE Rev 4 |
+| `ciiu_cl` | Chile | CIIU Rev 4 |
+| `ciiu_pe` | Peru | CIIU Rev 4 |
+| `ciiu_ec` | Ecuador | CIIU Rev 4 |
+| `caeb` | Bolivia | CAEB |
+| `ciiu_ve` | Venezuela | CIIU Rev 4 |
+| `ciiu_cr` | Costa Rica | CIIU Rev 4 |
+| `ciiu_gt` | Guatemala | CIIU Rev 4 |
+| `ciiu_pa` | Panama | CIIU Rev 4 |
+| `ciiu_py` | Paraguay | CIIU Rev 4 |
+| `ciiu_uy` | Uruguay | CIIU Rev 4 |
+| `ciiu_do` | Dominican Republic | CIIU Rev 4 |
+
+Plus 80+ ISIC Rev 4 country adaptations (`isic_<cc>` for two-letter ISO codes - Nigeria, Kenya, Egypt, Saudi Arabia, UAE, Vietnam, Bangladesh, Pakistan, etc). These follow a consistent system_id pattern; query `GET /api/v1/systems?prefix=isic_` for the live list.
+
+### NAICS family (North America historical and adaptations)
+
+| System ID | Variant |
+|-----------|---------|
+| `naics_2022` | NAICS 2022 (current) |
+| `naics_2017` | NAICS 2017 (historical) |
+| `naics_2012` | NAICS 2012 (historical) |
+| `scian_2018` | SCIAN 2018 (Mexico's national NAICS variant) |
+
+### Other Asia-Pacific
+
+| System ID | Country |
+|-----------|---------|
+| `gbt_4754` | China |
+| `ksic_2017` | South Korea |
+| `jsic_2013` | Japan |
+| `ssic_2020` | Singapore |
+| `msic_2008` | Malaysia |
+| `tsic_2009` | Thailand |
+| `psic_2009` | Philippines |
+| `psic_pk` | Pakistan |
+| `vsic_2018` | Vietnam |
+| `bsic` | Bangladesh |
+| `kbli_2020` | Indonesia (KBLI 2020 official) |
+| `kbli_id` | Indonesia (alternate) |
+| `slsic` | Sri Lanka |
+| `nic_2008` | India |
+| `anzsic_2006` | Australia / New Zealand |
+
+### Russia and post-Soviet
+
+| System ID | Country |
+|-----------|---------|
+| `okved_2` | Russia |
+
+### South Africa
+
+| System ID | Country |
+|-----------|---------|
+| `sic_sa` | South Africa |
+
+### Historical references
+
+| System ID | Notes |
+|-----------|-------|
+| `isic_rev3` | ISIC Rev 3 (predecessor to Rev 4; kept for historical filings) |
+| `csic_2017` | China SIC 2017 (companion to GB/T 4754) |
+| `cnae_2012` | CNAE 2.0 (alternate Spanish industry classification) |
+
 ## Comparing the major systems
 
 ```mermaid
