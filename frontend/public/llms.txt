@@ -23,6 +23,7 @@ Full LLM reference: https://worldoftaxonomy.com/llms-full.txt
 - [Inclusion Policy - Which Systems Belong in World Of Taxonomy](https://worldoftaxonomy.com/guide/inclusion-policy)
 - [Web Vocabularies - schema.org, SKOS, and Related Type Systems](https://worldoftaxonomy.com/guide/web-vocabularies)
 - [Regulatory and Compliance Standards - HIPAA, GDPR, NIST, ISO, OSHA, and 116 more](https://worldoftaxonomy.com/guide/regulatory-standards)
+- [Financial Systems - BICS, TRBC, ICB, GICS, FIBO, IFRS, CFI, Basel, and 50 more](https://worldoftaxonomy.com/guide/financial-systems)
 - [System Architecture and Data Flows](https://worldoftaxonomy.com/guide/architecture)
 
 ## API
