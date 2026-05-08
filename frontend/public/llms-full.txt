@@ -2730,7 +2730,7 @@ Equivalence edges between regulatory frameworks are not yet wired at scale; this
 
 ## What this layer is for
 
-Financial systems classify *capital, instruments, counterparties, transactions, and obligations* — orthogonal to general-purpose industry codes (NAICS, ISIC) and process frameworks (APQC PCF). A bank might be NAICS 5221 (Depository Credit Intermediation), Basel III IRB-eligible, ICB 30 (Financials), Refinitiv TRBC sector "Banking Services", and FIBO `BankingProductsAndServices` simultaneously — each anchor serves a different downstream surface.
+Financial systems classify *capital, instruments, counterparties, transactions, and obligations*  -  orthogonal to general-purpose industry codes (NAICS, ISIC) and process frameworks (APQC PCF). A bank might be NAICS 5221 (Depository Credit Intermediation), Basel III IRB-eligible, ICB 30 (Financials), Refinitiv TRBC sector "Banking Services", and FIBO `BankingProductsAndServices` simultaneously  -  each anchor serves a different downstream surface.
 
 This layer matters when downstream products need to:
 
@@ -2779,7 +2779,7 @@ These are deliberate competitors; none subsumes the others. SASB is special-purp
 | Authority | EDM Council |
 | License | MIT |
 
-FIBO is the largest financial system in WoT and the most semantically rigorous. It's an OWL ontology, not a flat code list — meaning each class has a formal definition, parent classes, and (often) restriction axioms. WoT ingests the class hierarchy across 7 modules:
+FIBO is the largest financial system in WoT and the most semantically rigorous. It's an OWL ontology, not a flat code list  -  meaning each class has a formal definition, parent classes, and (often) restriction axioms. WoT ingests the class hierarchy across 7 modules:
 
 | Module | What it covers |
 |--------|----------------|
@@ -2950,12 +2950,12 @@ The richest crosswalk surface today is between `gics_bridge`, `icb`, `bloomberg_
 
 ## What WoT does not host
 
-- **MSCI ESG Ratings** — proprietary methodology, not a published taxonomy.
+- **MSCI ESG Ratings**  -  proprietary methodology, not a published taxonomy.
 - **Bloomberg / Refinitiv detailed sub-industries** beyond what their public sector trees publish.
 - **Internal credit-rating scales** of individual banks (proprietary).
-- **OFR Financial Stability indicators** as a structured taxonomy — published as a dashboard, not a code list.
-- **Exchange-specific instrument lists** (NYSE listed equities, etc.) — these are operational data, not classification systems (per inclusion policy).
-- **Wikidata Q-numbers** for individual companies — entity registry above the size cap.
+- **OFR Financial Stability indicators** as a structured taxonomy  -  published as a dashboard, not a code list.
+- **Exchange-specific instrument lists** (NYSE listed equities, etc.)  -  these are operational data, not classification systems (per inclusion policy).
+- **Wikidata Q-numbers** for individual companies  -  entity registry above the size cap.
 
 ## Related reading
 
@@ -3158,7 +3158,7 @@ These are short, stable, universal scales used as reference data across many dom
 
 # Geographic Classification
 
-> **TL;DR:** WoT hosts 11 geographic classification systems anchoring the spatial axis: country codes (ISO 3166-1, UN M.49), subdivision codes (ISO 3166-2, EU NUTS 2021, US FIPS), feature classification (GeoNames Features), airport codes (ICAO Airport), climate zones (Köppen), and country development / income groupings (WB Income Groups, ADB Sector). Distinct from the country-link layer that maps a country to its applicable taxonomies — this page is the geography-as-classification view.
+> **TL;DR:** WoT hosts 11 geographic classification systems anchoring the spatial axis: country codes (ISO 3166-1, UN M.49), subdivision codes (ISO 3166-2, EU NUTS 2021, US FIPS), feature classification (GeoNames Features), airport codes (ICAO Airport), climate zones (Köppen), and country development / income groupings (WB Income Groups, ADB Sector). Distinct from the country-link layer that maps a country to its applicable taxonomies  -  this page is the geography-as-classification view.
 
 ---
 
@@ -3206,7 +3206,7 @@ Climate zones are not a coordinate but they classify *where* an observation can 
 | `wb_income` | 27 | World Bank | Country income classification (low / lower-middle / upper-middle / high; updated annually) |
 | `adb_sector` | 46 | ADB | Asian Development Bank sector taxonomy with country-region context |
 
-These are referenced from [Financial Systems](./financial-systems.md) as well — relevant when development-finance or DFI activity is being classified.
+These are referenced from [Financial Systems](./financial-systems.md) as well  -  relevant when development-finance or DFI activity is being classified.
 
 ## Decision tree
 
@@ -3253,7 +3253,7 @@ GET /api/v1/countries/US
 
 # Clinical Scales and Specialty Codes
 
-> **TL;DR:** Companion to [Medical Coding](./medical-coding.md). Where that page covers the major disease and lab classifications (ICD-10/11, MeSH, LOINC, ATC, SNOMED CT), this page catalogs the 40 supporting clinical scales and specialty codes WoT hosts: bedside / point-of-care scales (APGAR, ASA Physical Status, BMI, Bristol Stool, Pain Scale, Glasgow Coma — coming soon — Mohs hardness for skin pathology), national / regional ICD variants (ICD-10-CM not duplicated here, but ICD-10-CA / GM / AM and ICD-O-3, ICF, ICHI, ICPC-2), procedure / billing codes (CPT, HCPCS L2/L3, NUCC HCPT, MS-DRG, G-DRG), drug and medication codes (RxNorm, NDC, EDQM Dosage Forms), nursing taxonomies (NANDA-I, NIC Nursing, ICN Nursing), specialty registries (NCI Thesaurus, OMIM, Orphanet, GMDN, FHIR Resources, DICOM Modality), and quality measure frameworks (HEDIS, CMS Star Ratings, CTCAE, GBD Causes, WHO Essential Medicines, CDC Vaccine Schedule, DSM-5).
+> **TL;DR:** Companion to [Medical Coding](./medical-coding.md). Where that page covers the major disease and lab classifications (ICD-10/11, MeSH, LOINC, ATC, SNOMED CT), this page catalogs the 40 supporting clinical scales and specialty codes WoT hosts: bedside / point-of-care scales (APGAR, ASA Physical Status, BMI, Bristol Stool, Pain Scale, Glasgow Coma  -  coming soon  -  Mohs hardness for skin pathology), national / regional ICD variants (ICD-10-CM not duplicated here, but ICD-10-CA / GM / AM and ICD-O-3, ICF, ICHI, ICPC-2), procedure / billing codes (CPT, HCPCS L2/L3, NUCC HCPT, MS-DRG, G-DRG), drug and medication codes (RxNorm, NDC, EDQM Dosage Forms), nursing taxonomies (NANDA-I, NIC Nursing, ICN Nursing), specialty registries (NCI Thesaurus, OMIM, Orphanet, GMDN, FHIR Resources, DICOM Modality), and quality measure frameworks (HEDIS, CMS Star Ratings, CTCAE, GBD Causes, WHO Essential Medicines, CDC Vaccine Schedule, DSM-5).
 
 ---
 
