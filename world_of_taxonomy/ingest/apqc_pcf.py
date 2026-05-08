@@ -164,7 +164,7 @@ def _clean(s: str) -> str:
     """
     if s is None:
         return ""
-    return s.replace("—", "-").strip()
+    return s.replace("\u2014", "-").strip()
 
 
 def _synthetic_file_hash(nodes) -> str:

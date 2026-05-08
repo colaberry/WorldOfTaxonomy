@@ -39,9 +39,9 @@ class TestParser:
     def test_no_em_dashes(self):
         nodes = parse_apqc_pcf()
         for code, title, _l, _p, desc in nodes:
-            assert "—" not in title, f"Em-dash in title of {code}"
+            assert "\u2014" not in title, f"Em-dash in title of {code}"
             if desc:
-                assert "—" not in desc, f"Em-dash in description of {code}"
+                assert "\u2014" not in desc, f"Em-dash in description of {code}"
 
     def test_codes_use_apqc_dot_zero_pattern(self):
         nodes = parse_apqc_pcf()

@@ -46,7 +46,7 @@ class TestCrosswalkData:
 
     def test_no_em_dashes_in_notes(self):
         for _src, _tgt_sys, _tgt_code, notes in APQC_CROSSWALKS:
-            assert "—" not in notes, f"em-dash in notes: {notes!r}"
+            assert "\u2014" not in notes, f"em-dash in notes: {notes!r}"
 
     def test_each_target_system_gets_at_least_one_edge(self):
         """Sanity: if we forgot to wire one of the four target systems,
