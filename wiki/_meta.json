@@ -98,6 +98,13 @@
     "order": 14
   },
   {
+    "slug": "financial-systems",
+    "file": "financial-systems.md",
+    "title": "Financial Systems - BICS, TRBC, ICB, GICS, FIBO, IFRS, CFI, Basel, and 50 more",
+    "description": "55+ financial classification systems: industry vendor sector trees (Bloomberg BICS, Refinitiv TRBC, ICB, GICS Bridge, SASB SICS), the FIBO ontology (2,521 OWL classes), accounting standards (US GAAP, IFRS, XBRL), instrument and messaging codes (CFI, SWIFT MT, ISO 20022, corporate actions), banking and prudential regulation (Basel III, EU Taxonomy, SFDR, TNFD), 30 curated finance domain taxonomies, and emerging crypto vocabularies (token standards, DeFi protocols).",
+    "order": 15
+  },
+  {
     "slug": "academic-research",
     "file": "academic-research.md",
     "title": "Academic and Research Classification - arXiv, MSC, JEL, Dewey, LCC, AACSB, ABET, EQF, SFIA, and more",
