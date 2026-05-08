@@ -91,10 +91,17 @@
     "order": 13
   },
   {
+    "slug": "regulatory-standards",
+    "file": "regulatory-standards.md",
+    "title": "Regulatory and Compliance Standards - HIPAA, GDPR, NIST, ISO, OSHA, and 116 more",
+    "description": "120 regulatory and compliance frameworks: US federal (HIPAA, SOX, OSHA, FDA, NIST), US frameworks (NIST CSF, SOC 2, PCI DSS, US GAAP), EU directives (GDPR, NIS2, DORA, MDR, EU AI Act, CSRD), ISO management standards (9001, 14001, 27001, 22301, 45001, 13485, 42001), and global treaties (Basel III, FATF, ILO, Paris Agreement, IMO MARPOL/SOLAS). Cross-framework overlap guide for compliance teams and GRC tooling.",
+    "order": 14
+  },
+  {
     "slug": "architecture",
     "file": "architecture.md",
     "title": "System Architecture and Data Flows",
     "description": "Architecture diagrams showing system design, data ingestion pipeline, API request flow, MCP session lifecycle, and the four-channel wiki distribution.",
-    "order": 14
+    "order": 15
   }
 ]
