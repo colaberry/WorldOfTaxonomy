@@ -133,10 +133,24 @@
     "order": 19
   },
   {
+    "slug": "process-frameworks",
+    "file": "process-frameworks.md",
+    "title": "Process and Activity Frameworks - APQC PCF, SCOR, ITIL 4, COBIT, PMBOK",
+    "description": "Pan-industry process classification frameworks: APQC PCF (13 cross-industry categories) plus SCOR for supply chain, ITIL 4 for IT service management, COBIT for IT governance, PMBOK and PRINCE2 for project management, Six Sigma and Lean for improvement methodologies, TOGAF ADM and ArchiMate for enterprise architecture. Includes Level-1 conceptual crosswalks between APQC and SCOR / ITIL / COBIT / PMBOK.",
+    "order": 20
+  },
+  {
+    "slug": "tech-standards-misc",
+    "file": "tech-standards-misc.md",
+    "title": "Technology Standards and Miscellaneous Specifications",
+    "description": "~80 technology and reference taxonomies that don't fit cleanly into the industry / regulatory / academic / financial buckets but describe stable enumerated value spaces: telecom and networking specs (3GPP, ITU-T, ITU-R, IETF RFC, IEEE), connectivity (Bluetooth, USB, PCI-SIG, JEDEC, SEMI, VESA), web/internet (MIME types, HTTP status, SPDX licenses, WCAG), cybersecurity catalogs (MITRE ATT&CK, CVE types, OWASP Top 10), AI / cloud-native (AI Model Types, Cloud Native), engineering reference (SI Units, Container ISO, NATO Codification, MIL-STD), trade-tariff minor systems (TARIC, ECCN, Schedule B), and regulatory administrative anchors (CFR Titles, USC Titles, GDPR articles).",
+    "order": 21
+  },
+  {
     "slug": "architecture",
     "file": "architecture.md",
     "title": "System Architecture and Data Flows",
     "description": "Architecture diagrams showing system design, data ingestion pipeline, API request flow, MCP session lifecycle, and the four-channel wiki distribution.",
-    "order": 20
+    "order": 22
   }
 ]
