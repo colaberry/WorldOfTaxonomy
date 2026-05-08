@@ -27,17 +27,32 @@ schema.org publishes a vocabulary of types and properties that web pages and API
 
 | System | Codes | Role |
 |---|---|---|
+| `wordnet_nouns` | 82,115 | Princeton WordNet noun hypernym tree (entity.n.01 root); lexical semantic anchor |
 | `skos` | 17 | W3C Simple Knowledge Organization System (metamodel for thesauri) |
 | `w3c_standards` | 16 | W3C standards index |
 | `iab_content` | 21 | IAB Tech Lab content taxonomy for advertising |
 
-These sit alongside schema.org as web-adjacent classification systems with smaller coverage than the schema.org type tree.
+These sit alongside schema.org as web-adjacent classification systems.
+
+### WordNet (Nouns)
+
+WordNet is the canonical lexical-semantic database for English, originally built at Princeton in 1985 and now the de-facto standard for "what is the common-sense type of this concept" in NLP. WoT ingests the noun hypernym tree (82,115 synsets rooted at `entity.n.01`); verbs / adjectives / adverbs are not in scope for this PR (verbs may follow if downstream demand surfaces).
+
+**Where WordNet differs from schema.org**: schema.org names types of *publishable web entities* (Restaurant, Article, MedicalCondition); WordNet names *common-sense concept categories* (`dog.n.01`, `physician.n.01`, `wedding.n.01`). Both are valid concept anchors at different abstractions:
+
+- A Wikipedia / encyclopedia article on "dogs" would carry a `wordnet_nouns:dog.n.01` anchor for content classification.
+- A pet-store website page about a specific dog would carry a `schema:Product` anchor for SEO.
+- A retail product feed listing dog food would carry a `gs1_gpc:10000091` brick anchor for product identification.
+
+WoT lets downstream products (WoO agent runtime, classification APIs) cite the right anchor for the right surface without picking a winner.
+
+**License**: WordNet License (BSD-style). Sourced via NLTK's WordNet 3.1 corpus.
 
 ## What's not yet ingested
 
 The following web-vocabulary candidates have been audited against the inclusion policy and are queued for follow-up PRs:
 
-- **WordNet hypernym tree** (~82K synsets) - lexical semantic anchor.
+- **WordNet verbs** (~13K synsets) - hypernym tree exists for verbs too; deferred until downstream demand justifies it.
 - **DBpedia ontology** (~700 classes) - Wikipedia-derived class hierarchy.
 - **SUMO / BFO / DOLCE** - upper ontologies (small, peripheral relevance).
 - **FOAF classes**, **DCMI Type Vocabulary** - small auxiliary vocabularies.

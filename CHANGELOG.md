@@ -9,6 +9,13 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Wiki and Crosswalks
+
+- **New wiki page** `wiki/process-frameworks.md` covering APQC PCF, SCOR Model, ITIL 4, COBIT 2019, PMBOK 7, PRINCE2, Six Sigma, Lean Tools, TOGAF ADM, and ArchiMate as the process / activity layer of the WoT graph. Closes the wiki-coverage gap for APQC PCF and the related project / IT / supply-chain frameworks.
+- `wiki/trade-codes.md` extended to include GS1 GPC alongside HS, CPC, and UNSPSC with a paragraph explaining the procurement-vs-product-identification split between UNSPSC and GPC.
+- `wiki/web-vocabularies.md` extended with substantive WordNet (Nouns) coverage explaining how WordNet's lexical semantic layer differs from schema.org's web-type layer.
+- **APQC PCF anchor crosswalks** (`crosswalk_apqc_anchors`): 34 Level-1 conceptual edges from `apqc_pcf` to four adjacent process frameworks (8 to SCOR, 15 to ITIL 4, 6 to COBIT, 5 to PMBOK 7). All `match_type='partial'` because PCF top-level categories overlap the targets without strict containment. NAICS and ISO 15926 explicitly skipped: NAICS is industry-axis (orthogonal to process), ISO 15926 is paywalled.
+
 ### Classification Systems
 
 - **APQC PCF (Skeleton)** (`apqc_pcf`): 13 top-level categories of the APQC Cross-Industry Process Classification Framework (Develop Vision and Strategy through Develop and Manage Business Capabilities). Closes the process / activity anchor gap identified in the WoO subject/worker/process/outcome anchor audit. Provenance is `manual_transcription` because the structure is encoded from publicly documented APQC v7.4 materials; descriptions are paraphrased from canonical APQC abstracts (no external API calls). Levels 2-5 (~1,500 detailed process elements) require the official APQC spreadsheet (free with registration at apqc.org/process-frameworks); the ingester is structured so a future contributor can extend in place without changing the system_id. Authority: APQC. License: APQC PCF (free use with attribution).

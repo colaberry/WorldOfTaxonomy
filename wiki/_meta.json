@@ -91,10 +91,17 @@
     "order": 13
   },
   {
+    "slug": "process-frameworks",
+    "file": "process-frameworks.md",
+    "title": "Process and Activity Frameworks - APQC PCF, SCOR, ITIL 4, COBIT, PMBOK",
+    "description": "Pan-industry process classification frameworks: APQC PCF (13 cross-industry categories) plus SCOR for supply chain, ITIL 4 for IT service management, COBIT for IT governance, PMBOK and PRINCE2 for project management, Six Sigma and Lean for improvement methodologies. Includes Level-1 conceptual crosswalks between APQC and SCOR / ITIL / COBIT / PMBOK.",
+    "order": 14
+  },
+  {
     "slug": "architecture",
     "file": "architecture.md",
     "title": "System Architecture and Data Flows",
     "description": "Architecture diagrams showing system design, data ingestion pipeline, API request flow, MCP session lifecycle, and the four-channel wiki distribution.",
-    "order": 14
+    "order": 15
   }
 ]
