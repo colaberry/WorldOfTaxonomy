@@ -1,0 +1,115 @@
+name: Auto ingest on merge
+
+# Self-healing data loader. Closes the gap that let PRs #195/#197/#199/
+# #201/#205 merge ingester code into main without ever loading the data
+# into prod (homepage stuck at 1,000 systems instead of 1,005).
+#
+# How it works
+# ------------
+# 1. Triggers on every push to main that adds or changes a file under
+#    world_of_taxonomy/ingest/**.py.
+# 2. The "detect" job runs `git diff --name-status HEAD^ HEAD` to find
+#    files ADDED (status=A) under that path. Modified files are skipped
+#    on purpose: the scheduled monthly refresh in ingest-refresh.yml
+#    handles upstream-correction reruns; we don't want every doc-fix
+#    typo PR to trigger a 2-hour ingest.
+# 3. If anything was added, the "ingest" job hands the file list to
+#    scripts/ingest_missing_systems.py, which maps each module to its
+#    CLI target via __main__.py's dispatcher and runs
+#    `python -m world_of_taxonomy ingest <target>` for each.
+# 4. After successful ingest, the Next.js ISR cache is busted so the
+#    homepage system count reflects the new data within seconds.
+#
+# Cheap when nothing changed: paths filter on the trigger keeps unrelated
+# pushes from spinning up the runner at all.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "world_of_taxonomy/ingest/**.py"
+      - "world_of_taxonomy/__main__.py"
+  workflow_dispatch:
+    inputs:
+      added_files:
+        description: "Space-separated list of ingest paths to load (manual override). Leave blank to no-op."
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: auto-ingest-on-merge
+  cancel-in-progress: false
+
+jobs:
+  detect:
+    name: Detect newly-added ingester modules
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    outputs:
+      added_files: ${{ steps.diff.outputs.added_files }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # Need at least 2 commits so HEAD^ resolves on a squash-merged main.
+          fetch-depth: 2
+
+      - name: Diff for added ingester files
+        id: diff
+        run: |
+          set -e
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ADDED='${{ github.event.inputs.added_files }}'
+          else
+            ADDED=$(git diff --name-status HEAD^ HEAD -- 'world_of_taxonomy/ingest/*.py' \
+              | awk '$1=="A" {print $2}' \
+              | tr '\n' ' ')
+          fi
+          ADDED="$(echo "$ADDED" | xargs)"
+          echo "added_files=$ADDED" >> "$GITHUB_OUTPUT"
+          if [ -z "$ADDED" ]; then
+            echo "No newly-added ingester files in this push."
+          else
+            echo "Detected: $ADDED"
+          fi
+
+  ingest:
+    name: Ingest new systems into prod
+    needs: detect
+    if: ${{ needs.detect.outputs.added_files != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Ingest missing systems
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          ADDED_FILES: ${{ needs.detect.outputs.added_files }}
+        run: python scripts/ingest_missing_systems.py
+
+      - name: Bust Next.js ISR cache
+        if: success()
+        env:
+          REVALIDATE_SECRET: ${{ secrets.REVALIDATE_SECRET }}
+          FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
+        run: |
+          if [ -z "$REVALIDATE_SECRET" ] || [ -z "$FRONTEND_URL" ]; then
+            echo "REVALIDATE_SECRET or FRONTEND_URL not configured; skipping cache bust."
+            exit 0
+          fi
+          curl -sS -X POST "$FRONTEND_URL/api/revalidate" \
+            -H "Content-Type: application/json" \
+            -H "x-revalidate-secret: $REVALIDATE_SECRET" \
+            -d '{"scope":"all"}' || echo "Revalidate call failed (non-fatal)"

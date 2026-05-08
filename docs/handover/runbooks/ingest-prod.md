@@ -15,6 +15,25 @@ running `pg_restore --clean` against prod.
 
 ---
 
+## Two paths, when to use each
+
+| Path | Trigger | What it loads | When you use it |
+|------|---------|---------------|-----------------|
+| **A. Auto ingest on merge** (`.github/workflows/auto-ingest-on-merge.yml`) | Automatic, on push to main that adds `world_of_taxonomy/ingest/<new>.py` | The brand-new system the PR introduced (`classification_system` + `classification_node` rows) | A PR adds a new ingester. Nothing to do; it runs itself. |
+| **B. Manual `ingest-prod.sh`** (this runbook) | Run from your laptop after a PR merges | Description backfills and structural reruns for systems that already exist | A PR adds or updates a `scripts/backfill_*_descriptions.py` script. |
+
+If Path A fails (check the Actions tab on the PR's merge commit), retry it with:
+
+```bash
+gh workflow run auto-ingest-on-merge.yml \
+  -f added_files="world_of_taxonomy/ingest/<module>.py" \
+  --repo colaberry/WorldOfTaxonomy
+```
+
+For everything else, continue with Path B as documented below.
+
+---
+
 ## How it works
 
 ```
