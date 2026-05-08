@@ -11,10 +11,13 @@
 | HS 2022 | 6,960 | International customs tariffs | World Customs Organization |
 | CPC v2.1 | 4,596 | Statistical product classification | United Nations |
 | UNSPSC v24 | 77,337 | Procurement and spend analysis | GS1 US |
+| GS1 GPC | 6,450 | Global Product Classification (Segment / Family / Class / Brick), retail and B2B trade | GS1 |
 | SITC Rev 4 | 77 | Trade statistics (aggregated) | United Nations |
 | BEC Rev 5 | 29 | Broad economic categories | United Nations |
 | HTS (US) | 120 | US-specific tariff schedule | US International Trade Commission |
 | CN 2024 | 118 | EU Combined Nomenclature | European Commission |
+
+GS1 GPC sits next to UNSPSC as the second major procurement-anchored vocabulary, but with a different focus: GPC is the global product-identification standard published by GS1 (the same authority behind GTINs / UPCs / EANs), used heavily across retail, healthcare, and supply chain. UNSPSC is procurement-shaped (for spend analysis), GPC is product-identification-shaped (for catalog and POS systems). Both serve B2B trade, often in parallel.
 
 ## How these systems relate
 
