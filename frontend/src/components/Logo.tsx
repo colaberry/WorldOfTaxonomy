@@ -3,7 +3,7 @@ import Image from 'next/image'
 type Variant = 'mark' | 'lockup'
 
 type LogoProps = {
-  /** "mark" = WoT glyph only (square-ish). "lockup" = mark + WORLDOFTAXONOMY wordmark. */
+  /** "mark" = WoT glyph only (square-ish). "lockup" = mark + WorldOfTaxonomy wordmark. */
   variant?: Variant
   /** Pixel height. Width is computed from the SVG aspect ratio. */
   height?: number
@@ -16,17 +16,19 @@ type LogoProps = {
 }
 
 // Native viewBox aspect ratios baked at export time.
-//   mark   = 1086 × 545   (~1.99 : 1, square-ish glyph)
-//   lockup = 1038 × 95    (~10.93 : 1, mark + WORLD OF TAXONOMY wordmark on one row)
-// Aleem re-exported the lockup with text outlined to paths in PR #184; the
-// viewBox went from the original 2400 × 545 (~4.4 : 1) to the current 1038 × 95
-// because the wordmark now uses a fitted, single-row composition. Components
-// that set `height` on a Logo with `variant="lockup"` must keep the height
-// modest (~20-28 px in a typical header) - the computed width will be
-// height × 10.93, which can crowd the navbar at larger heights.
+//   mark   = 1086 x 545   (~1.99 : 1, square-ish glyph)
+//   lockup = 790 x 105    (~7.52 : 1, mark + WorldOfTaxonomy wordmark on one row)
+// Aleem v2 (2026-05-08) updated the lockup wordmark from all-caps
+// "WORLDOFTAXONOMY" to mixed-case "WorldOfTaxonomy" per Ram's feedback that
+// the all-caps treatment competed with the mark for visual focus. The
+// viewBox went from 1038 x 95 to 790 x 105 because the new wordmark uses
+// Geist Medium with 0.2em tracking and slightly taller cap height.
+// Components that set `height` on a Logo with `variant="lockup"` must keep
+// the height modest (~20-28 px in a typical header) - the computed width
+// is height x 7.52, which can crowd the navbar at larger heights.
 const ASPECT: Record<Variant, number> = {
   mark: 1086 / 545,
-  lockup: 1038 / 95,
+  lockup: 790 / 105,
 }
 
 /**
