@@ -91,10 +91,38 @@
     "order": 13
   },
   {
+    "slug": "academic-research",
+    "file": "academic-research.md",
+    "title": "Academic and Research Classification - arXiv, MSC, JEL, Dewey, LCC, AACSB, ABET, EQF, SFIA, and more",
+    "description": "30 academic and research classification systems: subject taxonomies for preprints (arXiv) and journals (Scopus ASJC, WoS Categories, ERA FoR, ANZSRC FOR/SEO, FORD Frascati, JEL, MSC, PACS, ACM CCS), library classifications (Dewey, UDC, LCC, LCSH, Getty AAT, UNESCO Thesaurus), education accreditation and qualification frameworks (AACSB, ABET, EQF, AQF, NQF UK, NGSS, CCSS, Bloom Taxonomy), and skills/competence frameworks (DigComp, e-CF, SFIA, LinkedIn Skills, WorldSkills).",
+    "order": 16
+  },
+  {
+    "slug": "environmental-standards",
+    "file": "environmental-standards.md",
+    "title": "Environmental Standards and Scales - BREEAM, LEED, IUCN, CITES, GHG Protocol, SDG, TNFD, Beaufort, Köppen, and more",
+    "description": "30 environmental classification systems: green-building rating schemes (BREEAM, LEED), biodiversity and conservation taxonomies (IUCN Red List, CITES, Ramsar, CBD targets, UNEP Chemicals), waste and chemicals codes (EPA RCRA, EU Waste Catalogue, Stockholm/Rotterdam/Minamata Conventions), climate and energy data taxonomies (GHG Protocol, IEA Energy Balance, IRENA, FAO AQUASTAT, FAOSTAT, ISO 14001/14040/14064/50001), and natural-science scales (Beaufort, Saffir-Simpson, Fujita, UV Index, Köppen Climate, Geological Timescale, Periodic Table). Plus SDG 2030 and TNFD.",
+    "order": 17
+  },
+  {
+    "slug": "geographic-classification",
+    "file": "geographic-classification.md",
+    "title": "Geographic Classification - ISO 3166, UN M.49, NUTS, FIPS, GeoNames, Köppen",
+    "description": "11 geographic classification systems: country codes (ISO 3166-1, UN M.49), subdivision codes (ISO 3166-2, EU NUTS 2021, US FIPS), feature classification (GeoNames Features), airport regional codes (ICAO), climate zones (Köppen), and country development tiers (WB Income Groups, ADB Sector). Distinct from the country-link layer that maps country -> applicable taxonomies.",
+    "order": 18
+  },
+  {
+    "slug": "clinical-scales-and-codes",
+    "file": "clinical-scales-and-codes.md",
+    "title": "Clinical Scales and Specialty Codes - APGAR, ASA, BMI, ICD variants, CPT, HCPCS, MS-DRG, RxNorm, NCI Thesaurus, FHIR, and more",
+    "description": "Companion to medical-coding.md. 40 supporting clinical classifications: bedside scales (APGAR, ASA, BMI, Bristol Stool, Pain), ICD national variants (ICD-10-CA/GM/AM, ICD-O-3, ICF, ICHI, ICPC-2), procedure and billing codes (CPT, HCPCS L2/L3, NUCC, MS-DRG, G-DRG), drug codes (RxNorm, NDC, EDQM Dosage, WHO Essential Medicines, CDC Vaccine), nursing taxonomies (NANDA-I, NIC, ICN), specialty registries (NCI Thesaurus, OMIM, Orphanet, GMDN, FHIR Resources, DICOM Modality), and quality measures (HEDIS, CMS Star Ratings, CTCAE, GBD Causes, DSM-5).",
+    "order": 19
+  },
+  {
     "slug": "architecture",
     "file": "architecture.md",
     "title": "System Architecture and Data Flows",
     "description": "Architecture diagrams showing system design, data ingestion pipeline, API request flow, MCP session lifecycle, and the four-channel wiki distribution.",
-    "order": 14
+    "order": 20
   }
 ]
