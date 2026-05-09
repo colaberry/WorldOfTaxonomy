@@ -156,7 +156,7 @@
   "wordnet_nouns": [
     "pip install --quiet --no-cache-dir nltk",
     "python -c \"import nltk; nltk.download('wordnet', quiet=True)\"",
-    "python -m world_of_taxonomy ingest wordnet_nouns"
+    "DB_COMMAND_TIMEOUT=300 python -m world_of_taxonomy ingest wordnet_nouns"
   ],
 
   "geonames_features": [
