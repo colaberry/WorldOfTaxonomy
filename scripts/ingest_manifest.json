@@ -155,7 +155,7 @@
 
   "wordnet_nouns": [
     "pip install --quiet --no-cache-dir nltk",
-    "python -c \"import nltk; nltk.download('wordnet', quiet=True); nltk.download('omw-1.4', quiet=True)\"",
+    "python -c \"import nltk; nltk.download('wordnet', quiet=True)\"",
     "python -m world_of_taxonomy ingest wordnet_nouns"
   ],
 
