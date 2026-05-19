@@ -161,16 +161,16 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col">
+        <Script
+          src="https://enterprise.colaberry.ai/v1/track.js"
+          strategy="afterInteractive"
+          data-site="worldoftaxonomy"
+        />
         <Providers>
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
         </Providers>
-        <Script
-          src="https://enterprise.colaberry.ai/v1/track.js"
-          data-site="worldoftaxonomy"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );
