@@ -134,3 +134,102 @@ class TestEmailDelivery:
         client = NoopEmailClient()
         client.send(to="x@y.com", subject="s", html="<p>hi</p>", text="hi")
         # No exception is the contract; output is informational.
+
+
+def _fake_http_response(body_bytes):
+    """Minimal context-manager stand-in for urllib's urlopen result."""
+
+    class _Resp:
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return False
+
+        def read(self):
+            return body_bytes
+
+    return _Resp()
+
+
+class TestResendClient:
+    """ResendClient posts a single request to api.resend.com. These
+    tests mock the HTTP layer, so no API key and no network are
+    needed."""
+
+    def test_send_posts_expected_resend_payload(self, monkeypatch):
+        import json
+
+        from world_of_taxonomy.auth.email import ResendClient
+
+        captured = {}
+
+        def fake_urlopen(req, timeout=None):
+            captured["url"] = req.full_url
+            captured["method"] = req.get_method()
+            captured["body"] = json.loads(req.data.decode("utf-8"))
+            return _fake_http_response(b'{"id":"abc-123"}')
+
+        monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+
+        ResendClient(api_key="re_test", sender="noreply@aixcelerator.ai").send(
+            to="dev@acme.com",
+            subject="Sign in to WorldOfTaxonomy",
+            html="<p>link</p>",
+            text="link",
+        )
+
+        assert captured["url"] == "https://api.resend.com/emails"
+        assert captured["method"] == "POST"
+        body = captured["body"]
+        assert body["from"] == "noreply@aixcelerator.ai"
+        assert body["to"] == ["dev@acme.com"]
+        assert body["subject"] == "Sign in to WorldOfTaxonomy"
+
+    def test_send_sets_explicit_user_agent(self, monkeypatch):
+        """api.resend.com sits behind Cloudflare, which blocks urllib's
+        default `Python-urllib/x.y` User-Agent with HTTP 403 ("error
+        code: 1010"). The client must send an explicit, non-default UA
+        or every magic-link email is silently dropped at the edge."""
+        from world_of_taxonomy.auth.email import ResendClient
+
+        captured = {}
+
+        def fake_urlopen(req, timeout=None):
+            # urllib normalises header keys to "User-agent".
+            captured["ua"] = req.get_header("User-agent")
+            return _fake_http_response(b'{"id":"abc-123"}')
+
+        monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+
+        ResendClient(api_key="re_test").send(
+            to="x@y.com", subject="s", html="<p>h</p>", text="h",
+        )
+        assert captured["ua"]
+        assert "python-urllib" not in captured["ua"].lower()
+
+    def test_send_does_not_raise_on_http_error(self, monkeypatch, caplog):
+        """A 403 / bad key must be swallowed and logged with the response
+        body: signup cannot 500 on an email-infrastructure failure, and
+        the body is what distinguishes an API error from a Cloudflare
+        edge block."""
+        import io
+        import urllib.error
+
+        from world_of_taxonomy.auth.email import ResendClient
+
+        def fake_urlopen(req, timeout=None):
+            raise urllib.error.HTTPError(
+                req.full_url, 403, "Forbidden", {},
+                io.BytesIO(b"error code: 1010"),
+            )
+
+        monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+
+        with caplog.at_level("ERROR", logger="wot.auth.email"):
+            ResendClient(api_key="re_bad").send(
+                to="x@y.com", subject="s", html="<p>h</p>", text="h",
+            )
+        messages = [r.getMessage() for r in caplog.records]
+        assert any("resend_send_failed" in m for m in messages)
+        assert any("1010" in m for m in messages)

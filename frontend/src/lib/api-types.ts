@@ -530,8 +530,10 @@ export interface paths {
          * Classify Demo
          * @description Public classify endpoint gated by email only.
          *
-         *     Returns a limited result set (5 systems, 3 results each). Records
-         *     the email as a lead.
+         *     Anonymous callers get the 5-system / 3-result anon tier. Callers
+         *     with a valid `dev_session` cookie (i.e., they completed the
+         *     magic-link sign-in) get the broader 10-system / 5-result tier.
+         *     Records the email as a lead either way.
          *
          *     Per-IP rate guard: 20/hour. The cap is well above any legitimate
          *     interactive use (a user trying ~5 prompts in a session) but tight
@@ -1060,6 +1062,12 @@ export interface components {
              * @default true
              */
             demo: boolean;
+            /**
+             * Is Logged In
+             * @description True when the request carried a valid `dev_session` cookie. Logged-in callers get the broader 10-system / 5-result-per-system tier; anonymous callers get the 5-system / 3-result tier.
+             * @default false
+             */
+            is_logged_in: boolean;
             /** Upgrade Cta */
             upgrade_cta: string;
             /**
@@ -2444,7 +2452,9 @@ export interface operations {
             query?: never;
             header?: never;
             path?: never;
-            cookie?: never;
+            cookie?: {
+                dev_session?: string | null;
+            };
         };
         requestBody: {
             content: {

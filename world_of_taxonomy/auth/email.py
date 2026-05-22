@@ -46,8 +46,9 @@ class ResendClient:
         self._sender = sender
 
     def send(self, *, to: str, subject: str, html: str, text: str) -> None:
-        import urllib.request
         import json
+        import urllib.error
+        import urllib.request
 
         req = urllib.request.Request(
             "https://api.resend.com/emails",
@@ -61,16 +62,27 @@ class ResendClient:
             headers={
                 "Authorization": f"Bearer {self._api_key}",
                 "Content-Type": "application/json",
+                # An explicit User-Agent is required: api.resend.com sits
+                # behind Cloudflare, which blocks urllib's default
+                # `Python-urllib/x.y` UA with HTTP 403 ("error code:
+                # 1010") before the request ever reaches Resend's API -
+                # silently dropping every magic-link email.
+                "User-Agent": "WorldOfTaxonomy/1.0",
             },
             method="POST",
         )
         try:
             with urllib.request.urlopen(req, timeout=10) as response:
-                if response.status >= 400:
-                    logger.error(
-                        "resend_send_failed: status=%s body=%s",
-                        response.status, response.read()[:500],
-                    )
+                response.read()
+        except urllib.error.HTTPError as exc:
+            # Resend returns a JSON error envelope on 4xx/5xx. Capturing
+            # the body matters: a bare "HTTP Error 403" hides whether the
+            # cause is the API (bad key / unverified domain) or the
+            # Cloudflare edge (blocked User-Agent -> "error code: 1010").
+            detail = exc.read()[:500] if hasattr(exc, "read") else b""
+            logger.error(
+                "resend_send_failed: status=%s body=%s", exc.code, detail,
+            )
         except Exception as exc:
             logger.exception("resend_send_exception: %s", exc)
 
