@@ -335,3 +335,158 @@ class TestClassifyRouter:
         req = ClassifyRequest(text="software")
         assert req.text == "software"
         assert req.limit == 5
+
+
+class TestClassifyRouteWiring:
+    """Non-DB sentinel: pin the auth dependency the /classify route uses.
+
+    Catches the regression where the route was wired to get_current_user
+    (JWT-only), which silently rejected every API key as 'Invalid token'.
+    Runs without a database so it can fail fast in any environment.
+    """
+
+    def test_classify_route_uses_require_scope_dependency(self):
+        from world_of_taxonomy.api.routers.classify import router as classify_router
+        from world_of_taxonomy.api.deps import get_current_user
+
+        classify_route = next(
+            r for r in classify_router.routes
+            if getattr(r, "path", None) == "/api/v1/classify"
+            and "POST" in getattr(r, "methods", set())
+        )
+        dep_callables = [d.call for d in classify_route.dependant.dependencies]
+        dep_callable_names = [getattr(c, "__qualname__", repr(c)) for c in dep_callables]
+
+        assert get_current_user not in dep_callables, (
+            "/classify must not authenticate via get_current_user (JWT-only); "
+            "that path rejects every API key. Switch to require_scope. "
+            f"Current dependencies: {dep_callable_names}"
+        )
+        # require_scope returns a closure named '_dep'. We assert that at
+        # least one dependency originates from world_of_taxonomy.api.deps
+        # and is the closure produced by require_scope.
+        assert any(
+            getattr(c, "__module__", "").endswith("api.deps")
+            and getattr(c, "__qualname__", "").startswith("require_scope")
+            for c in dep_callables
+        ), (
+            "/classify must depend on require_scope(...) from api.deps. "
+            f"Current dependencies: {dep_callable_names}"
+        )
+
+
+class TestClassifyAPIKeyAuth:
+    """The /classify endpoint must accept developer API keys carrying
+    the wot:classify scope. Previously the route was wired to
+    get_current_user (JWT-only), which silently rejected every API key
+    with `{"detail": "Invalid token"}` because jwt.decode raises on
+    `wot_<hex>` payloads.
+
+    This class pins the contract that the route uses the api_key
+    validation path instead.
+    """
+
+    def test_api_key_with_classify_scope_authenticates(self, db_pool):
+        from httpx import AsyncClient, ASGITransport
+        from world_of_taxonomy.api.app import create_app
+        from world_of_taxonomy.auth.keys import issue_key
+
+        async def _test():
+            async with db_pool.acquire() as conn:
+                # Create an org and a Pro-tier user. Tier is enforced on the
+                # endpoint, so a free-tier key would 403 even with scope.
+                org_id = await conn.fetchval(
+                    """INSERT INTO org (name, domain, kind, tier)
+                       VALUES ('acme', 'acme-classify.test', 'corporate', 'pro')
+                       RETURNING id"""
+                )
+                user_id = await conn.fetchval(
+                    """INSERT INTO app_user (email, org_id, role, tier)
+                       VALUES ('dev@acme-classify.test', $1, 'admin', 'pro')
+                       RETURNING id""",
+                    org_id,
+                )
+                minted = issue_key(["wot:classify"])
+                await conn.execute(
+                    """INSERT INTO api_key
+                          (user_id, key_hash, key_prefix, scopes, name)
+                       VALUES ($1, $2, $3, $4, 'classify-test')""",
+                    user_id, minted["key_hash"], minted["key_prefix"],
+                    ["wot:classify"],
+                )
+                raw_key = minted["raw_key"]
+
+            app = create_app()
+            app.state.pool = db_pool
+            transport = ASGITransport(app=app)
+            async with AsyncClient(transport=transport, base_url="http://test") as client:
+                resp = await client.post(
+                    "/api/v1/classify",
+                    json={"text": "manufacturing", "systems": ["naics_2022"], "limit": 3},
+                    headers={"Authorization": f"Bearer {raw_key}"},
+                )
+
+            # The pre-fix behavior was 401 {"detail": "Invalid token"} -
+            # jwt.decode rejecting the api-key string. After fix the route
+            # must accept the api key.
+            assert resp.status_code != 401, (
+                f"API key with wot:classify scope was rejected: "
+                f"{resp.status_code} {resp.text}"
+            )
+            # Endpoint succeeded - body shape sanity-checked here, the
+            # classify engine itself is covered by TestClassifyEngine.
+            assert resp.status_code == 200, resp.text
+            body = resp.json()
+            assert body["query"] == "manufacturing"
+            assert "standard_matches" in body
+
+        _run(_test())
+
+    def test_api_key_without_classify_scope_is_403(self, db_pool):
+        """A key with wot:read but not wot:classify must get 403, not 401."""
+        from httpx import AsyncClient, ASGITransport
+        from world_of_taxonomy.api.app import create_app
+        from world_of_taxonomy.auth.keys import issue_key
+
+        async def _test():
+            async with db_pool.acquire() as conn:
+                org_id = await conn.fetchval(
+                    """INSERT INTO org (name, domain, kind, tier)
+                       VALUES ('readonly', 'readonly-classify.test', 'corporate', 'pro')
+                       RETURNING id"""
+                )
+                user_id = await conn.fetchval(
+                    """INSERT INTO app_user (email, org_id, role, tier)
+                       VALUES ('dev@readonly-classify.test', $1, 'admin', 'pro')
+                       RETURNING id""",
+                    org_id,
+                )
+                minted = issue_key(["wot:read", "wot:list"])
+                await conn.execute(
+                    """INSERT INTO api_key
+                          (user_id, key_hash, key_prefix, scopes, name)
+                       VALUES ($1, $2, $3, $4, 'readonly-test')""",
+                    user_id, minted["key_hash"], minted["key_prefix"],
+                    ["wot:read", "wot:list"],
+                )
+                raw_key = minted["raw_key"]
+
+            app = create_app()
+            app.state.pool = db_pool
+            transport = ASGITransport(app=app)
+            async with AsyncClient(transport=transport, base_url="http://test") as client:
+                resp = await client.post(
+                    "/api/v1/classify",
+                    json={"text": "manufacturing", "systems": ["naics_2022"], "limit": 3},
+                    headers={"Authorization": f"Bearer {raw_key}"},
+                )
+
+            assert resp.status_code == 403, (
+                f"Expected 403 scope_missing, got {resp.status_code} {resp.text}"
+            )
+            body = resp.json()
+            # require_scope returns a structured detail envelope.
+            detail = body.get("detail", {})
+            assert detail.get("error") == "scope_missing"
+
+        _run(_test())

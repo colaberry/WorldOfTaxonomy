@@ -7,7 +7,7 @@ from typing import Optional
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 
-from world_of_taxonomy.api.deps import get_conn, get_current_user
+from world_of_taxonomy.api.deps import get_conn, require_scope
 from world_of_taxonomy.api.routers.billing import increment_classify_count
 from world_of_taxonomy.api.text_guard import TextGuardError, guard
 from world_of_taxonomy.category import get_category
@@ -120,14 +120,20 @@ def partition_matches(matches: list[dict]) -> tuple[list[dict], list[dict]]:
 @router.post("/classify", response_model=ClassifyResponse)
 async def classify_business(
     body: ClassifyRequest,
-    user: dict = Depends(get_current_user),
+    auth: dict = Depends(require_scope("wot:classify")),
     conn=Depends(get_conn),
 ):
     """Classify a business/product/occupation description against taxonomy systems.
 
-    Requires Pro or Enterprise tier.
+    Authenticates via developer API key carrying the `wot:classify` scope.
+    Pro/Enterprise tier is enforced separately on the user record so a
+    legacy free-tier user who somehow held a `wot:classify` key still
+    gets a clean 403 rather than silently consuming paid features.
     """
-    if user.get("tier") not in ("pro", "enterprise"):
+    user = await conn.fetchrow(
+        "SELECT tier, org_id FROM app_user WHERE id = $1", auth["user_id"]
+    )
+    if user is None or user["tier"] not in ("pro", "enterprise"):
         raise HTTPException(
             status_code=403,
             detail=(
@@ -182,16 +188,18 @@ async def classify_business(
     domain, standard = partition_matches(result.get("matches", []))
 
     # Bump the per-org counter so the daily Stripe Meter Event push
-    # bills any overage above the included Pro bucket. Failure here
-    # must NOT fail the user's response - log and continue.
-    if user.get("org_id"):
+    # bills any overage above the included Pro bucket. Prefer the
+    # principal's org_id (set by require_scope from the api_key's owner)
+    # and fall back to the user row's org_id for legacy paths.
+    billing_org_id = auth.get("org_id") or user["org_id"]
+    if billing_org_id:
         try:
-            await increment_classify_count(conn=conn, org_id=user["org_id"])
+            await increment_classify_count(conn=conn, org_id=billing_org_id)
         except Exception:
             import logging
             logging.getLogger(__name__).exception(
                 "failed to increment classify usage counter for org %s",
-                user["org_id"],
+                billing_org_id,
             )
 
     return {
