@@ -508,7 +508,10 @@ export interface paths {
          * Classify Business
          * @description Classify a business/product/occupation description against taxonomy systems.
          *
-         *     Requires Pro or Enterprise tier.
+         *     Authenticates via developer API key carrying the `wot:classify` scope.
+         *     Pro/Enterprise tier is enforced separately on the user record so a
+         *     legacy free-tier user who somehow held a `wot:classify` key still
+         *     gets a clean 403 rather than silently consuming paid features.
          */
         post: operations["classify_business_api_v1_classify_post"];
         delete?: never;
