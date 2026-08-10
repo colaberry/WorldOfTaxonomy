@@ -37,7 +37,7 @@ prometheus-client>=0.20.0
 psycopg[binary]>=3.2.13
 pyarrow>=21.0.0
 pycountry>=23.12.11
-pypdf>=4.0.0
+pypdf>=6.11.0
 python-dotenv>=1.2.1
 # rdflib is required by the FIBO ingester (world_of_taxonomy/ingest/fibo.py
 # imports rdflib + rdflib.namespace for OWL class hierarchy parsing).
